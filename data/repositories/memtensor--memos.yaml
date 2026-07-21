@@ -1,0 +1,89 @@
+analysis:
+  analyzed_at: "2026-07-19T19:42:42.415Z"
+  classification:
+    primary_category: "ai-and-automation"
+    state: "provisional"
+    technologies:
+      - "typescript"
+      - "python"
+      - "docker"
+    topics:
+      - "ai-agents"
+      - "llms"
+      - "self-hosted"
+      - "open-source"
+    use_cases:
+      - "build-ai-products"
+  evidence:
+    - claim: "MemOS provides persistent memory for AI agents through cloud and local plugins, including hybrid retrieval, local-first SQLite storage, skill evolution, and multi-agent collaboration."
+      source_type: "repository-file"
+      url: "https://github.com/MemTensor/MemOS/blob/main/README.md"
+      checked_at: "2026-07-19"
+      confidence: "high"
+  state: "researched"
+  summary:
+    one_line: "A persistent-memory system for AI agents with local and cloud deployment options."
+    why_useful: "It equips supported agent runtimes with retrieval, memory storage, and reusable skill context across runs."
+curation:
+  confidence: null
+  evidence: []
+  limitations: []
+  recommendation: null
+  reviewed_at: null
+  state: "uncurated"
+  strengths: []
+  verdict: null
+id: "github:MemTensor/MemOS"
+import:
+  github_snapshot:
+    archived: false
+    created_at: "2025-07-06T09:51:27Z"
+    default_branch: "main"
+    description: "Self-evolving memory OS for LLM & AI Agents: ultra-persistent memory, hybrid-retrieval, and cross-task skill reuse, with 35.24% token savings"
+    disabled: false
+    fetched_at: "2026-07-19T19:16:14.796Z"
+    fork: false
+    forks: 937
+    homepage: "https://memos.openmem.net"
+    latest_release: null
+    license_spdx: "Apache-2.0"
+    open_issues: 81
+    primary_language: "TypeScript"
+    pushed_at: "2026-07-19T15:41:58Z"
+    stars: 10270
+    topics:
+      - "agent"
+      - "agentic-ai"
+      - "ai"
+      - "ai-agents"
+      - "chatgpt"
+      - "claude"
+      - "hermes"
+      - "llm"
+      - "long-term-memory"
+      - "mcp"
+      - "memory"
+      - "memory-management"
+      - "multi-agent"
+      - "openclaw"
+      - "python"
+      - "rag"
+      - "self-evolving"
+      - "self-hosted"
+      - "skills"
+      - "token-savings"
+    updated_at: "2026-07-19T19:12:37Z"
+  sources:
+    - observed_at: "2026-07-19T16:11:41Z"
+      relation: "starred"
+      source_id: "github:user:tomseai:stars"
+      source_url: "https://github.com/tomseai?tab=stars"
+  state: "imported"
+repository:
+  aliases: []
+  github_node_id: "R_kgDOPHuKoA"
+  host: "github.com"
+  name: "MemOS"
+  owner: "MemTensor"
+  url: "https://github.com/MemTensor/MemOS"
+version: 1

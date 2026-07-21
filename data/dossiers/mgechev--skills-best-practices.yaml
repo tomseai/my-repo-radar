@@ -1,0 +1,72 @@
+schema_version: 2
+repository_id: github:mgechev/skills-best-practices
+research:
+  state: complete
+  source_commit: 675ee84307993f6df3516437dcd4703c3c32fab4
+  bundle_collected_at: 2026-07-19T20:44:00.986Z
+  researched_at: 2026-07-20T15:42:43.0617324Z
+  confidence: medium
+classification:
+  primary_category: documentation-and-learning
+  topics:
+    - ai-agents
+    - agent-skills
+    - context-engineering
+    - prompt-engineering
+    - evaluation
+    - reference
+project:
+  name: Best Practices for Creating Agent Skills
+  kind: documentation
+  summary: >-
+    A concise guide to designing agent skills with discoverable metadata,
+    progressive disclosure, deterministic helpers, and LLM-assisted validation.
+  best_for:
+    - Authors creating or revising agent skills
+    - Teams that want to reduce skill-context cost and prevent prompt-routing regressions
+key_features:
+  - Defines a conventional skill layout around SKILL.md, scripts, references, and assets
+  - Gives frontmatter naming and description guidance for reliable skill discovery
+  - Recommends keeping SKILL.md under 500 lines and loading referenced material just in time
+  - Advises deterministic small scripts for fragile or repetitive operations
+  - Provides discovery, logic, edge-case, and architecture-refinement LLM validation prompts
+usage:
+  interfaces:
+    - Markdown guide
+    - reusable skill template
+  installation:
+    - read the repository guide
+    - adapt the included skill template in an agent-skills project
+  setup: low
+technology:
+  languages:
+    - Python
+    - Markdown
+  notable_components:
+    - Agent Skills SKILL.md format
+    - metadata validation script
+license:
+  spdx: null
+  name: No repository license grant
+  notes: >-
+    No license file is present in the reviewed source tree and the guide does
+    not state reuse terms; permission to reuse the guide or template is not established.
+status:
+  lifecycle: active
+  archived: false
+  latest_release: null
+  latest_release_at: null
+strengths:
+  - Connects skill discoverability, context discipline, and evaluation in one short guide
+  - Gives directly reusable validation prompts instead of only abstract advice
+  - Separates agent-facing instructions from deterministic implementation details
+caveats:
+  - The retained release feed has no entries, so no authoritative project release is established
+  - The repository is guidance and a template, not a runtime or a complete skill-authoring framework
+  - Reuse rights are unclear because the reviewed commit contains no license file
+sources:
+  - https://raw.githubusercontent.com/mgechev/skills-best-practices/675ee84307993f6df3516437dcd4703c3c32fab4/README.md
+  - https://raw.githubusercontent.com/mgechev/skills-best-practices/675ee84307993f6df3516437dcd4703c3c32fab4/skill/SKILL.md
+  - https://raw.githubusercontent.com/mgechev/skills-best-practices/675ee84307993f6df3516437dcd4703c3c32fab4/skill/assets/SKILL.template.md
+  - https://raw.githubusercontent.com/mgechev/skills-best-practices/675ee84307993f6df3516437dcd4703c3c32fab4/skill/scripts/validate-metadata.py
+  - https://github.com/mgechev/skills-best-practices/releases.atom

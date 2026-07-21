@@ -1,0 +1,77 @@
+schema_version: 2
+repository_id: github:typescript-cheatsheets/react
+research:
+  state: complete
+  source_commit: 1cd0635d4256deed1a22489b7f916bdfc0a464a4
+  bundle_collected_at: 2026-07-19T20:45:45.679Z
+  researched_at: 2026-07-20T18:10:37.7918722+02:00
+  confidence: high
+classification:
+  primary_category: documentation-and-learning
+  topics:
+    - frontend-development
+    - documentation
+    - reference
+    - tutorials
+    - open-source
+project:
+  name: React TypeScript Cheatsheet
+  kind: documentation
+  summary: >-
+    A documentation resource for using React with TypeScript effectively,
+    combining opinionated best practices, copy-and-paste examples, setup
+    guidance, and advanced generic-type material for reusable utilities and libraries.
+  best_for:
+    - React developers who are adopting TypeScript or need type-pattern references
+    - Library authors who need advanced React and TypeScript generic-type examples
+key_features:
+  - Covers TypeScript setup, basic type examples, React component patterns, hooks, forms, events, refs, and portals
+  - Includes advanced guidance for generic types, reusable utilities, React and TypeScript libraries, and DefinitelyTyped contributions
+  - Publishes its content both as the repository README and as a searchable documentation website
+  - Provides starter-kit commands for Next.js, Remix, Gatsby, Expo, and Vite TypeScript projects
+  - Maintains reference pages for ComponentProps, CSSProperties, ReactNode, and refs
+usage:
+  interfaces:
+    - GitHub Markdown documentation
+    - documentation website
+  installation:
+    - read the published cheatsheet directly
+    - clone the repository and run yarn for local documentation-site development
+  setup: low
+technology:
+  languages:
+    - TypeScript
+    - Markdown
+  notable_components:
+    - React
+    - Docusaurus 2 documentation site
+    - Yarn
+    - Prettier
+license:
+  spdx: MIT
+  name: MIT License
+  notes: >-
+    The repository LICENSE grants the MIT License. The root package manifest
+    separately declares ISC for maintenance tooling, so this dossier follows
+    the explicit repository license file for the documentation project.
+status:
+  lifecycle: active
+  archived: false
+  latest_release: null
+  latest_release_at: null
+strengths:
+  - Broad coverage spans initial setup through advanced reusable type and library patterns
+  - Examples are deliberately concise, searchable, and intended for copy-and-paste use
+  - Content is available in both GitHub-friendly README form and a locally runnable documentation site
+caveats:
+  - It assumes a basic understanding of both React and TypeScript rather than teaching either from first principles
+  - It intentionally focuses on React plus TypeScript and does not attempt to cover the full React ecosystem
+  - No GitHub releases were present in the cached release feed, so a latest release cannot be reported
+  - The package manifest's ISC declaration conflicts with the repository-level MIT LICENSE and merits attention for tooling redistribution
+sources:
+  - https://raw.githubusercontent.com/typescript-cheatsheets/react/1cd0635d4256deed1a22489b7f916bdfc0a464a4/README.md
+  - https://raw.githubusercontent.com/typescript-cheatsheets/react/1cd0635d4256deed1a22489b7f916bdfc0a464a4/docs/basic/setup.md
+  - https://raw.githubusercontent.com/typescript-cheatsheets/react/1cd0635d4256deed1a22489b7f916bdfc0a464a4/CONTRIBUTING.md
+  - https://raw.githubusercontent.com/typescript-cheatsheets/react/1cd0635d4256deed1a22489b7f916bdfc0a464a4/package.json
+  - https://raw.githubusercontent.com/typescript-cheatsheets/react/1cd0635d4256deed1a22489b7f916bdfc0a464a4/LICENSE
+  - https://github.com/typescript-cheatsheets/react/releases.atom

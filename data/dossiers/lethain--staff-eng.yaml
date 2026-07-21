@@ -1,0 +1,72 @@
+schema_version: 2
+repository_id: github:lethain/staff-eng
+research:
+  state: complete
+  source_commit: 85bb19173696d782518c53398b9fffc86da3e9c1
+  bundle_collected_at: 2026-07-19T20:43:46.610Z
+  researched_at: 2026-07-20T15:41:44.4450320Z
+  confidence: medium
+classification:
+  primary_category: documentation-and-learning
+  topics:
+    - documentation
+    - reference
+project:
+  name: staff-eng
+  kind: documentation
+  summary: >-
+    The Hugo source repository for staffeng.com, a collection of stories about
+    reaching Staff-plus roles in technology.
+  best_for:
+    - Engineers exploring Staff-plus career paths through collected stories
+    - Contributors who want to submit a story or maintain the staffeng.com site
+key_features:
+  - Powers the staffeng.com site from a Hugo source repository
+  - Accepts story submissions in the repository's src/markdown format
+  - Supports local preview with Hugo's development server at localhost:1313
+  - Builds and deploys the site automatically to GitHub Pages after pushes to main
+usage:
+  interfaces:
+    - Published website
+    - Hugo local development server
+    - GitHub contribution workflow
+  installation:
+    - Read the published staffeng.com site
+    - Install Hugo and run hugo -D serve to preview a source checkout
+  setup: low
+technology:
+  languages:
+    - HTML
+    - Markdown
+  notable_components:
+    - Hugo
+    - Ananke theme
+    - GitHub Actions
+    - GitHub Pages
+license:
+  spdx: null
+  name: No license identified
+  notes: >-
+    No repository-wide license grant appears in the retained complete source
+    tree; license files under themes/ananke apply to bundled theme components,
+    not clearly to the site's original stories and other content.
+status:
+  lifecycle: unknown
+  archived: false
+  latest_release: null
+  latest_release_at: null
+strengths:
+  - Presents a focused published resource and its editable site source in one repository
+  - Gives contributors a concise local-preview and submission workflow
+  - Automates production Hugo builds and GitHub Pages deployment
+caveats:
+  - The retained evidence does not establish a formal maintenance or release policy
+  - Viewing the material needs no local setup, but editing or previewing the site requires Hugo
+  - The README refers contributors to an existing src/markdown story format, so submission preparation depends on existing repository conventions
+  - Bundled theme licenses do not establish reuse rights for the site's original stories or other repository content
+  - The retained release feed has no entries, so no project release can be established
+sources:
+  - https://raw.githubusercontent.com/lethain/staff-eng/85bb19173696d782518c53398b9fffc86da3e9c1/README.md
+  - https://raw.githubusercontent.com/lethain/staff-eng/85bb19173696d782518c53398b9fffc86da3e9c1/.github/workflows/gh-pages.yaml
+  - https://raw.githubusercontent.com/lethain/staff-eng/85bb19173696d782518c53398b9fffc86da3e9c1/themes/ananke/go.mod
+  - https://github.com/lethain/staff-eng/releases.atom

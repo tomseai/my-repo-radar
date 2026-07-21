@@ -1,0 +1,181 @@
+version: 1
+
+primary_categories:
+  - ai-and-automation
+  - application-frameworks
+  - frontend-and-design
+  - backend-and-apis
+  - data-and-databases
+  - devops-and-cloud
+  - developer-tools
+  - security-and-privacy
+  - testing-and-quality
+  - collaboration-and-productivity
+  - documentation-and-learning
+  - platforms-and-applications
+  - systems-and-infrastructure
+  - other
+
+topics:
+  # Agent systems
+  - ai-agents
+  - coding-agents
+  - agent-frameworks
+  - agent-harnesses
+  - agent-orchestration
+  - multi-agent
+  - parallel-agents
+  - agent-governance
+  - agent-memory
+  - agent-skills
+
+  # Agent development
+  - agent-development-environments
+  - code-generation
+  - code-review
+  - task-planning
+  - spec-driven-development
+  - context-engineering
+  - prompt-engineering
+  - worktrees
+  - sandboxing
+
+  # Interfaces
+  - cli
+  - tui
+  - terminal
+  - web-ui
+  - desktop-app
+  - mobile-app
+  - chat-ui
+  - generative-ui
+  - remote-control
+  - cross-device
+  - voice-control
+  - realtime-collaboration
+
+  # Agent capabilities
+  - computer-use
+  - browser-automation
+  - tool-use
+  - codebase-search
+  - codebase-indexing
+  - web-search
+  - web-scraping
+  - document-processing
+  - multimodal
+  - speech-to-text
+
+  # Protocols and providers
+  - mcp
+  - agent-protocols
+  - multi-provider
+  - local-models
+  - llm-gateways
+  - model-routing
+
+  # Operations and security
+  - self-hosted
+  - local-first
+  - observability
+  - tracing
+  - evaluation
+  - token-usage
+  - cost-management
+  - policy-enforcement
+  - secrets-management
+  - security
+
+  # Developer workflow
+  - git
+  - github
+  - pull-requests
+  - automation
+  - testing
+  - debugging
+  - documentation
+  - developer-productivity
+
+  # General software development
+  - frontend-development
+  - backend-development
+  - api-development
+  - mobile-development
+  - desktop-development
+  - databases
+  - data-processing
+  - devops
+  - cloud
+  - containers
+  - deployment
+  - authentication
+  - payments
+  - search
+  - performance
+
+  # UI and product
+  - web
+  - realtime
+  - ui-components
+  - design-systems
+  - accessibility
+  - visualization
+  - forms
+  - ecommerce
+  - cms
+
+  # Libraries and learning
+  - frameworks
+  - libraries
+  - starter-templates
+  - curated-lists
+  - tutorials
+  - courses
+  - reference
+
+  # Broader AI and project attributes
+  - llms
+  - machine-learning
+  - open-source
+
+use_cases:
+  - build-ai-products
+  - build-web-applications
+  - build-backend-services
+  - manage-data
+  - ship-and-operate-software
+  - improve-developer-workflow
+  - secure-software
+  - test-software
+  - design-interfaces
+  - collaborate-on-work
+  - learn-and-reference
+  - run-personal-or-team-tools
+
+technologies:
+  - typescript
+  - javascript
+  - python
+  - rust
+  - go
+  - java
+  - php
+  - ruby
+  - csharp
+  - swift
+  - kotlin
+  - react
+  - nextjs
+  - nodejs
+  - angular
+  - vue
+  - svelte
+  - django
+  - fastapi
+  - laravel
+  - rails
+  - postgres
+  - sqlite
+  - docker
+  - kubernetes
+  - terraform

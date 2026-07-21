@@ -1,0 +1,90 @@
+schema_version: 2
+repository_id: github:iOfficeAI/AionUi
+research:
+  state: complete
+  source_commit: db22ef6a2f542a59bbf556abaf40c65342b41e17
+  bundle_collected_at: 2026-07-19T20:43:33.564Z
+  researched_at: 2026-07-20T15:34:55.357Z
+  confidence: high
+classification:
+  primary_category: ai-and-automation
+  topics:
+    - ai-agents
+    - multi-agent
+    - mcp
+    - desktop-app
+    - chat-ui
+    - web-ui
+    - remote-control
+    - multi-provider
+    - local-models
+    - self-hosted
+    - automation
+
+project:
+  name: AionUi
+  kind: application
+  summary: >-
+    An open-source, cross-platform cowork application that supplies a built-in
+    AI agent and a unified interface for compatible CLI agents, with local
+    workspace access, multi-agent teams, model-provider configuration, MCP
+    tools, remote WebUI access, and scheduled automation.
+  best_for:
+    - Individuals who want a desktop workspace for supervised AI-agent tasks
+    - Teams coordinating supported coding agents on a shared local folder
+key_features:
+  - Built-in agent for file operations, web search, image generation, and MCP tools
+  - Auto-detection and unified sessions for supported external CLI agents
+  - Parallel team mode with leader delegation, task board, and asynchronous mailbox
+  - MCP configuration that can be synchronized across configured agents
+  - Cloud-model and local-model provider options, including OpenAI, Anthropic, and Ollama
+  - WebUI and messaging-channel options for remote access and monitoring
+  - Local SQLite storage for application data
+
+usage:
+  interfaces:
+    - desktop GUI
+    - web UI
+    - messaging channels
+  installation:
+    - platform installer from GitHub Releases
+    - Homebrew on macOS
+    - build from source
+  setup: moderate
+technology:
+  languages:
+    - TypeScript
+  notable_components:
+    - Electron
+    - React
+    - SQLite
+    - Model Context Protocol
+
+license:
+  spdx: Apache-2.0
+  name: Apache License 2.0
+  notes: Permissive license with notice requirements and an express patent grant subject to its termination terms.
+
+status:
+  lifecycle: active
+  archived: false
+  latest_release: v2.1.37
+  latest_release_at: 2026-07-18
+
+strengths:
+  - A built-in agent provides a usable starting point without first installing a CLI agent
+  - The shared interface can consolidate several supported agent backends and model providers
+  - Team mode exposes delegation, parallel work, shared folders, and per-agent permissions in one workspace
+
+caveats:
+  - Model-backed workflows require configuring an API key, credentials, or a compatible local provider
+  - External CLI-agent support depends on the required tool being installed and recognized locally
+  - YOLO and full-auto modes bypass action confirmations, which raises the need for careful workspace and permission controls
+  - Local development spans this Electron frontend and a separate AionCore backend repository
+
+sources:
+  - https://raw.githubusercontent.com/iOfficeAI/AionUi/db22ef6a2f542a59bbf556abaf40c65342b41e17/readme.md
+  - https://raw.githubusercontent.com/iOfficeAI/AionUi/db22ef6a2f542a59bbf556abaf40c65342b41e17/LICENSE
+  - https://raw.githubusercontent.com/iOfficeAI/AionUi/db22ef6a2f542a59bbf556abaf40c65342b41e17/package.json
+  - https://raw.githubusercontent.com/iOfficeAI/AionUi/db22ef6a2f542a59bbf556abaf40c65342b41e17/CHANGELOG.md
+  - https://github.com/iOfficeAI/AionUi/releases.atom

@@ -1,0 +1,87 @@
+schema_version: 2
+repository_id: github:Arindam200/awesome-ai-apps
+
+research:
+  state: complete
+  source_commit: 24f2ed9bfe4b41545150921a6c659df31ce4e7d0
+  bundle_collected_at: 2026-07-19T20:41:46.583Z
+  researched_at: 2026-07-20T00:38:52.900+02:00
+  confidence: high
+
+classification:
+  primary_category: documentation-and-learning
+  topics:
+    - ai-agents
+    - llms
+    - mcp
+    - agent-memory
+    - multimodal
+    - tutorials
+    - curated-lists
+
+project:
+  name: Awesome AI Apps
+  kind: curated-list
+  summary: >-
+    A categorized collection of independently runnable AI application examples
+    and tutorials, spanning starter agents, RAG, voice, MCP, memory, advanced
+    multi-step workflows, and fine-tuning rather than one integrated product.
+  best_for:
+    - Developers selecting a concrete AI example to inspect, adapt, or learn from
+    - Teams surveying implementation patterns across agent, RAG, voice, and MCP projects
+
+key_features:
+  - Categorizes examples into starter, simple, advanced, RAG, memory, MCP, voice, and fine-tuning groups
+  - Includes agent examples for research, customer support, coding, data, and workflow automation
+  - Provides RAG projects for documents, codebases, PDFs, graphs, and citation-oriented answers
+  - Includes MCP examples for external tools, databases, GitHub, documentation, and sandboxed execution
+  - Documents a per-project workflow for cloning, environment variables, dependencies, and running an entry point
+
+usage:
+  interfaces:
+    - Repository documentation
+    - Individual example applications and scripts
+    - Web interfaces where an individual example provides one
+  installation:
+    - Clone the repository
+    - Install dependencies in the selected project directory with pip or uv
+    - Configure project-specific environment variables and API keys
+  setup: moderate
+
+technology:
+  languages:
+    - Python
+    - JavaScript
+  notable_components:
+    - Model Context Protocol
+    - Docker
+    - Streamlit
+    - LangGraph
+
+license:
+  spdx: MIT
+  name: MIT License
+  notes: The repository states that its examples are MIT-licensed; individual projects can require external APIs, packages, services, and their separate terms.
+
+status:
+  lifecycle: active
+  archived: false
+  latest_release: null
+  latest_release_at: null
+
+strengths:
+  - Offers a broad set of source examples organized by practical AI-application pattern
+  - Includes setup guidance and a contribution structure requiring a README for each submitted project
+  - Covers current integration areas including MCP, voice, memory, RAG, and multi-agent workflows
+
+caveats:
+  - It is a collection of separate examples, not a cohesive platform with shared installation or support guarantees
+  - Requirements, runtime interfaces, provider credentials, and production readiness vary substantially by project
+  - The retained release feed contains no published project release, so no latest release can be established
+
+sources:
+  - https://raw.githubusercontent.com/Arindam200/awesome-ai-apps/24f2ed9bfe4b41545150921a6c659df31ce4e7d0/README.md
+  - https://raw.githubusercontent.com/Arindam200/awesome-ai-apps/24f2ed9bfe4b41545150921a6c659df31ce4e7d0/LICENSE
+  - https://raw.githubusercontent.com/Arindam200/awesome-ai-apps/24f2ed9bfe4b41545150921a6c659df31ce4e7d0/CONTRIBUTING.md
+  - https://raw.githubusercontent.com/Arindam200/awesome-ai-apps/24f2ed9bfe4b41545150921a6c659df31ce4e7d0/advance_ai_agents/coding_agent_harness/pyproject.toml
+  - https://github.com/Arindam200/awesome-ai-apps/releases.atom

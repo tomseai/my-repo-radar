@@ -1,0 +1,74 @@
+schema_version: 2
+repository_id: github:microsoft/playwright-mcp
+research:
+  state: complete
+  source_commit: 55679f5f3d4b4f3e2534ec0ce2fc5683ba2eaf3f
+  bundle_collected_at: 2026-07-19T20:44:09.098Z
+  researched_at: 2026-07-20T17:41:35.7837492+02:00
+  confidence: high
+classification:
+  primary_category: ai-and-automation
+  topics:
+    - ai-agents
+    - mcp
+    - browser-automation
+    - automation
+project:
+  name: playwright-mcp
+  kind: service
+  summary: >-
+    A Model Context Protocol server that lets LLM clients automate web pages
+    through Playwright using structured accessibility snapshots instead of
+    screenshot-driven or vision-model interaction.
+  best_for:
+    - MCP-enabled agents that need deterministic browser interaction
+    - Exploratory automation or long-running workflows that benefit from persistent browser context
+key_features:
+  - Uses Playwright accessibility-tree snapshots as structured page input rather than pixel-based interaction
+  - Exposes browser automation to LLM clients through a standard MCP server
+  - Supports browser selection, device emulation, persistent or isolated profiles, and remote CDP endpoints
+  - Can restrict file access to workspace roots by default and offers configurable hosts and origins
+usage:
+  interfaces:
+    - MCP server
+    - stdio client configuration
+    - optional HTTP/SSE endpoint
+  installation:
+    - npx package launch as @playwright/mcp
+    - npm package installation
+    - Docker image build from the included Dockerfile
+  setup: low
+technology:
+  languages:
+    - TypeScript
+    - JavaScript
+  notable_components:
+    - Playwright
+    - Model Context Protocol SDK
+    - Node.js 18 or newer
+license:
+  spdx: Apache-2.0
+  name: Apache License 2.0
+  notes: >-
+    Permissive license with copyright, license-copy, and modified-file notice
+    obligations for redistributed derivative works; it also includes a patent grant.
+status:
+  lifecycle: active
+  archived: false
+  latest_release: v0.0.78
+  latest_release_at: "2026-07-09"
+strengths:
+  - Gives clients structured, deterministic page interaction without requiring a vision model
+  - Documents direct configuration paths for a broad range of MCP-capable clients
+  - Supports local browsers, remote CDP connections, browser choice, and profile isolation options
+caveats:
+  - Requires Node.js 18 or newer and an MCP-capable client to run
+  - Persistent profiles retain logged-in browser information unless users clear the profile or choose an isolated context
+  - The documentation says CLI plus Skills can be more token-efficient for high-throughput coding-agent workflows
+  - The server is explicitly not a security boundary; broad host, origin, file-access, or shared-context settings expand its exposure
+sources:
+  - https://raw.githubusercontent.com/microsoft/playwright-mcp/55679f5f3d4b4f3e2534ec0ce2fc5683ba2eaf3f/README.md
+  - https://raw.githubusercontent.com/microsoft/playwright-mcp/55679f5f3d4b4f3e2534ec0ce2fc5683ba2eaf3f/LICENSE
+  - https://raw.githubusercontent.com/microsoft/playwright-mcp/55679f5f3d4b4f3e2534ec0ce2fc5683ba2eaf3f/package.json
+  - https://raw.githubusercontent.com/microsoft/playwright-mcp/55679f5f3d4b4f3e2534ec0ce2fc5683ba2eaf3f/Dockerfile
+  - https://github.com/microsoft/playwright-mcp/releases.atom

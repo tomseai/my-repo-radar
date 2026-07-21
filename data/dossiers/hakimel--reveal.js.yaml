@@ -1,0 +1,78 @@
+schema_version: 2
+repository_id: github:hakimel/reveal.js
+research:
+  state: complete
+  source_commit: a3b940695648aa1c5b0680bc9a5b905cf43020e5
+  bundle_collected_at: 2026-07-19T20:43:19.976Z
+  researched_at: 2026-07-19T22:39:49.560Z
+  confidence: high
+classification:
+  primary_category: frontend-and-design
+  topics:
+    - web
+    - frontend-development
+    - frameworks
+    - libraries
+    - accessibility
+project:
+  name: reveal.js
+  kind: framework
+  summary: >-
+    An HTML presentation framework for authoring and presenting browser-based
+    slide decks with a JavaScript API and optional plugins.
+  best_for:
+    - Publishing a customized web presentation from HTML, Markdown, or React components
+    - Developers who need a self-hostable slide-deck framework rather than a hosted editor
+key_features:
+  - Horizontal and nested vertical slides with configurable themes and transitions
+  - Plugins for Markdown, syntax highlighting, math, speaker notes, search, and zoom
+  - PDF export, speaker view, Auto-Animate, and a documented JavaScript API
+  - Published JavaScript, ES module, CommonJS, CSS, and TypeScript type entry points
+  - Official React wrapper introduced with the 6.0 release
+usage:
+  interfaces:
+    - HTML presentation markup
+    - Browser JavaScript API
+    - React component wrapper
+  installation:
+    - npm package
+    - Source checkout for local development
+    - Packaged browser JavaScript and CSS files
+  setup: moderate
+technology:
+  languages:
+    - JavaScript
+    - TypeScript
+    - HTML
+    - CSS
+  notable_components:
+    - Vite
+    - React
+    - TypeScript
+license:
+  spdx: MIT
+  name: MIT License
+  notes: >-
+    Permissive license allowing use, modification, distribution, sublicensing,
+    and sale when the copyright and license notice are retained; provided without warranty.
+status:
+  lifecycle: active
+  archived: false
+  latest_release: 6.0.1
+  latest_release_at: "2026-04-11"
+strengths:
+  - Combines authoring features, presenter tools, export, and an extensible API in one framework
+  - Supports standard web delivery and package-based integration with included type declarations
+  - Includes core plugins for common technical-presentation needs such as Markdown, code, and math
+caveats:
+  - "It is a developer-oriented framework: users still author, host, and style the presentation content themselves"
+  - The graphical Slides.com editor mentioned by the project is a separate hosted product
+  - Version 6 changed plugin, module, and CSS package paths; existing integrations need the documented upgrade review
+  - The retained package metadata requires Node.js 20.19 or later for repository development
+sources:
+  - https://raw.githubusercontent.com/hakimel/reveal.js/a3b940695648aa1c5b0680bc9a5b905cf43020e5/README.md
+  - https://raw.githubusercontent.com/hakimel/reveal.js/a3b940695648aa1c5b0680bc9a5b905cf43020e5/package.json
+  - https://raw.githubusercontent.com/hakimel/reveal.js/a3b940695648aa1c5b0680bc9a5b905cf43020e5/react/package.json
+  - https://raw.githubusercontent.com/hakimel/reveal.js/a3b940695648aa1c5b0680bc9a5b905cf43020e5/LICENSE
+  - https://raw.githubusercontent.com/hakimel/reveal.js/a3b940695648aa1c5b0680bc9a5b905cf43020e5/.github/workflows/test.yml
+  - https://github.com/hakimel/reveal.js/releases.atom

@@ -1,0 +1,90 @@
+schema_version: 2
+repository_id: github:getpaseo/paseo
+research:
+  state: complete
+  source_commit: 3d86c738ff70a9815cdd86c5602c9a5c420df619
+  bundle_collected_at: 2026-07-19T20:43:06.642Z
+  researched_at: 2026-07-20T15:24:18.724Z
+  confidence: high
+classification:
+  primary_category: ai-and-automation
+  topics:
+    - coding-agents
+    - agent-orchestration
+    - parallel-agents
+    - multi-provider
+    - self-hosted
+    - cross-device
+    - voice-control
+    - cli
+    - desktop-app
+    - mobile-app
+project:
+  name: Paseo
+  kind: application
+  summary: >-
+    A self-hosted, cross-device control surface for running, monitoring, and
+    coordinating coding agents on a machine that you operate.
+  best_for:
+    - Developers coordinating several coding-agent tasks from desktop, mobile, or terminal
+    - Running supported agent CLIs on a workstation or remote machine under local control
+key_features:
+  - One interface for Claude Code, Codex, Copilot, OpenCode, and Pi
+  - Parallel agent execution with live terminal attachment and follow-up prompts
+  - Desktop, mobile, web, and CLI clients connected to a local daemon
+  - Voice task control and device pairing through a QR code
+  - Docker deployment with a self-hosted web UI
+  - An MCP server and reusable orchestration skills
+
+usage:
+  interfaces:
+    - desktop app
+    - mobile app
+    - web UI
+    - CLI
+    - local daemon
+  installation:
+    - official desktop download
+    - npm global CLI package
+    - Docker image
+    - build from source
+  setup: moderate
+
+technology:
+  languages:
+    - TypeScript
+    - Ruby
+  notable_components:
+    - Electron
+    - Expo
+    - WebSocket
+    - Model Context Protocol
+
+license:
+  spdx: AGPL-3.0-only
+  name: GNU Affero General Public License v3.0
+  notes: Running a modified version for users over a network requires offering its corresponding source to those users.
+
+status:
+  lifecycle: active
+  archived: false
+  latest_release: v0.1.110
+  latest_release_at: 2026-07-16
+
+strengths:
+  - Provides a consistent surface across multiple established coding-agent CLIs
+  - Keeps agent execution in the operator's development environment
+  - Supports both local desktop use and headless Docker or remote-machine workflows
+
+caveats:
+  - At least one supported agent CLI and its credentials must be installed separately
+  - The maintainer explicitly describes the project as solo-maintained
+  - Connected clients can control agents running with the daemon user's authority
+  - Direct network exposure requires access restrictions; the documentation recommends a password
+
+sources:
+  - https://raw.githubusercontent.com/getpaseo/paseo/3d86c738ff70a9815cdd86c5602c9a5c420df619/README.md
+  - https://raw.githubusercontent.com/getpaseo/paseo/3d86c738ff70a9815cdd86c5602c9a5c420df619/LICENSE
+  - https://raw.githubusercontent.com/getpaseo/paseo/3d86c738ff70a9815cdd86c5602c9a5c420df619/SECURITY.md
+  - https://raw.githubusercontent.com/getpaseo/paseo/3d86c738ff70a9815cdd86c5602c9a5c420df619/package.json
+  - https://github.com/getpaseo/paseo/releases.atom

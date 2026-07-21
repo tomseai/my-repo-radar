@@ -1,0 +1,87 @@
+schema_version: 2
+repository_id: github:zeroclaw-labs/zeroclaw
+research:
+  state: complete
+  source_commit: fd2d1a0441a02c502cd6e48b0845025339f52f7c
+  bundle_collected_at: 2026-07-19T20:46:07.043Z
+  researched_at: 2026-07-20T16:11:28.467Z
+  confidence: high
+
+classification:
+  primary_category: platforms-and-applications
+  topics:
+    - ai-agents
+    - agent-harnesses
+    - automation
+    - cli
+    - web-ui
+    - multi-provider
+    - tool-use
+    - security
+    - self-hosted
+
+project:
+  name: ZeroClaw
+  kind: application
+  summary: >-
+    A self-hosted Rust agent runtime for operating a personal AI assistant
+    through chat channels, a CLI, a gateway, and an optional web dashboard.
+  best_for:
+    - Running a configurable personal agent on your own machine and workspace
+    - Connecting one agent to multiple messaging channels, tools, and model providers
+
+key_features:
+  - Pluggable LLM providers, including Anthropic, OpenAI, Ollama, and compatible endpoints
+  - More than 30 configurable channel adapters, including CLI, email, webhooks, and chat platforms
+  - Shell, browser, HTTP, hardware, and custom MCP-server tool integrations
+  - HTTP and WebSocket gateway plus a dashboard for chat, memory, configuration, cron jobs, and tools
+  - Event-triggered SOP workflows with approval gates and resumable runs
+  - Supervised autonomy defaults with workspace controls, command policy, sandboxes, and tool receipts
+
+usage:
+  interfaces:
+    - CLI
+    - web dashboard
+    - HTTP and WebSocket gateway
+    - Agent Client Protocol server
+  installation:
+    - installer-provided prebuilt binary
+    - source build
+    - Docker
+  setup: moderate
+
+technology:
+  languages:
+    - Rust
+    - TypeScript
+  notable_components:
+    - Tauri
+    - SQLite
+    - Docker
+
+license:
+  spdx: MIT OR Apache-2.0
+  name: MIT License or Apache License 2.0
+  notes: The README and workspace manifest declare a dual license; the ZeroClaw name and logo are trademarks.
+
+status:
+  lifecycle: active
+  archived: false
+  latest_release: v0.8.3
+  latest_release_at: 2026-07-16
+
+strengths:
+  - Runs locally with provider choice and ownership of the runtime configuration
+  - Combines channels, tool use, scheduled procedures, and a control-plane UI in one project
+  - Documents explicit approvals and layered protections for agent actions
+
+caveats:
+  - It requires configuring a model provider and credentials before the agent can be useful
+  - Broad channel and tool access increases the need to review autonomy, sandbox, and command-policy settings
+  - Optional functionality and source builds use feature flags, so the installed surface can differ by setup
+
+sources:
+  - https://raw.githubusercontent.com/zeroclaw-labs/zeroclaw/fd2d1a0441a02c502cd6e48b0845025339f52f7c/README.md
+  - https://raw.githubusercontent.com/zeroclaw-labs/zeroclaw/fd2d1a0441a02c502cd6e48b0845025339f52f7c/Cargo.toml
+  - https://raw.githubusercontent.com/zeroclaw-labs/zeroclaw/fd2d1a0441a02c502cd6e48b0845025339f52f7c/SECURITY.md
+  - https://github.com/zeroclaw-labs/zeroclaw/releases.atom

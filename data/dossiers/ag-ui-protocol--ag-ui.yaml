@@ -1,0 +1,74 @@
+schema_version: 2
+repository_id: github:ag-ui-protocol/ag-ui
+research:
+  state: complete
+  source_commit: 3a7433ef055aab96ee7c9ece97417d721b21dc76
+  bundle_collected_at: 2026-07-19T20:41:28.716Z
+  researched_at: 2026-07-19T21:45:09.381Z
+  confidence: high
+classification:
+  primary_category: ai-and-automation
+  topics:
+    - ai-agents
+    - agent-protocols
+    - realtime
+    - generative-ui
+    - tool-use
+    - mcp
+project:
+  name: AG-UI
+  kind: protocol
+  summary: >-
+    An open event-based protocol and reference implementation for connecting
+    AI-agent backends to interactive user-facing applications.
+  best_for:
+    - Teams adding real-time agent interactions to frontend applications
+    - Builders of interoperable agent clients, server adapters, and middleware
+key_features:
+  - Standard agent event types and compatible inputs for agent-human interaction
+  - Streaming chat, bidirectional state synchronization, and context enrichment
+  - Generative UI, structured messages, frontend tools, and human-in-the-loop flows
+  - Transport-agnostic middleware for SSE, WebSockets, webhooks, and similar transports
+  - Reference HTTP implementation, default connector, SDKs, integrations, and an app generator
+usage:
+  interfaces:
+    - HTTP reference implementation
+    - TypeScript SDK
+    - Python SDK
+    - create-ag-ui-app project generator
+  installation:
+    - npm packages
+    - Python package
+    - npx create-ag-ui-app
+  setup: moderate
+technology:
+  languages:
+    - TypeScript
+    - Python
+  notable_components:
+    - pnpm
+    - Nx
+    - Pydantic
+license:
+  spdx: MIT
+  name: MIT License
+  notes: Permissive license; the software is provided without warranty.
+status:
+  lifecycle: active
+  archived: false
+  latest_release: release/2026-07-15
+  latest_release_at: "2026-07-15"
+strengths:
+  - Defines a focused boundary between agent backends and user-facing applications
+  - Supports real-time interactions beyond text streaming, including state and frontend tools
+  - Provides reference components and integrations across several agent ecosystems
+caveats:
+  - Requires an agent backend and user application; it is not a complete end-user UI
+  - Integration support varies; the README marks several integrations as in progress or help wanted
+  - Releases are component-specific, so package versions do not form one monolithic release
+sources:
+  - https://raw.githubusercontent.com/ag-ui-protocol/ag-ui/3a7433ef055aab96ee7c9ece97417d721b21dc76/README.md
+  - https://raw.githubusercontent.com/ag-ui-protocol/ag-ui/3a7433ef055aab96ee7c9ece97417d721b21dc76/LICENSE
+  - https://raw.githubusercontent.com/ag-ui-protocol/ag-ui/3a7433ef055aab96ee7c9ece97417d721b21dc76/package.json
+  - https://raw.githubusercontent.com/ag-ui-protocol/ag-ui/3a7433ef055aab96ee7c9ece97417d721b21dc76/sdks/python/pyproject.toml
+  - https://github.com/ag-ui-protocol/ag-ui/releases.atom

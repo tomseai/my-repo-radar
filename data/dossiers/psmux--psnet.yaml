@@ -1,0 +1,77 @@
+schema_version: 2
+repository_id: github:psmux/psnet
+research:
+  state: complete
+  source_commit: 27c4aac8602f0a3714d7e44524e4e74deed37ba2
+  bundle_collected_at: 2026-07-20T19:30:37.803Z
+  researched_at: 2026-07-20T21:33:02.164+02:00
+  confidence: high
+classification:
+  primary_category: systems-and-infrastructure
+  topics:
+    - tui
+    - terminal
+    - observability
+    - security
+    - visualization
+    - local-first
+    - performance
+project:
+  name: PSNET
+  kind: application
+  summary: >-
+    A native Rust TUI network monitor for Windows that combines connection and
+    bandwidth views, listening-port inspection, packet details, GeoIP maps, LAN
+    discovery, topology, alerts, and firewall controls in a standalone binary.
+  best_for:
+    - Windows users wanting a terminal-first overview of connections, services, devices, and traffic
+    - Developers diagnosing local ports, adapters, process traffic, or network exposure without a full GUI suite
+key_features:
+  - Presents nine tabs for dashboards, connections, servers, packets, topology, alerts, firewall, devices, and networks
+  - Resolves DNS names and fingerprints listening services and web technologies
+  - Embeds GeoIP, server fingerprints, web signatures, and OUI vendor data
+  - Discovers LAN devices and visualizes network topology and adapters
+  - Supports per-application firewall actions and optional raw packet preview
+usage:
+  interfaces:
+    - TUI
+    - CLI
+  installation:
+    - Cargo package
+    - Chocolatey package
+    - WinGet package
+    - release binary or source checkout
+  setup: low
+technology:
+  languages:
+    - Rust
+  notable_components:
+    - Ratatui
+    - Windows IP Helper API
+    - WinSock
+    - embedded GeoIP and OUI databases
+license:
+  spdx: MIT
+  name: MIT License
+  notes: >-
+    Permissive repository license allowing use, modification, distribution, and
+    commercial use when the copyright and license notice are retained.
+status:
+  lifecycle: active
+  archived: false
+  latest_release: v1.0.0
+  latest_release_at: 2026-03-14
+strengths:
+  - Consolidates many Windows network diagnostics into one terminal interface
+  - Ships embedded enrichment databases and needs no Npcap or WinPcap installation
+  - Multiple package channels and a small standalone binary simplify local adoption
+caveats:
+  - Windows 10 or 11 is required because collection and control use native Windows APIs
+  - Administrator rights are needed for raw packet preview and some active controls
+  - The pinned README still links downloads and source cloning through the earlier marlocarlo namespace although the cataloged repository is psmux/psnet
+sources:
+  - https://raw.githubusercontent.com/psmux/psnet/27c4aac8602f0a3714d7e44524e4e74deed37ba2/README.md
+  - https://raw.githubusercontent.com/psmux/psnet/27c4aac8602f0a3714d7e44524e4e74deed37ba2/LICENSE
+  - https://raw.githubusercontent.com/psmux/psnet/27c4aac8602f0a3714d7e44524e4e74deed37ba2/Cargo.toml
+  - https://raw.githubusercontent.com/psmux/psnet/27c4aac8602f0a3714d7e44524e4e74deed37ba2/.github/workflows/release.yml
+  - https://github.com/psmux/psnet/releases.atom

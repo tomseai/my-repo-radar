@@ -1,0 +1,75 @@
+analysis:
+  analyzed_at: "2026-07-19T19:39:08.176Z"
+  classification:
+    primary_category: "ai-and-automation"
+    state: "provisional"
+    technologies: []
+    topics:
+      - "ai-agents"
+      - "llms"
+      - "open-source"
+    use_cases:
+      - "improve-developer-workflow"
+  evidence:
+    - claim: "Caveman is a skill or plugin for Claude Code, Codex, Gemini, and other agents that directs responses toward compact wording while preserving code, commands, and errors exactly; it also includes memory-file and MCP-description compression features."
+      source_type: "repository-file"
+      url: "https://github.com/JuliusBrussee/caveman/blob/main/README.md"
+      checked_at: "2026-07-19"
+      confidence: "high"
+  state: "researched"
+  summary:
+    one_line: "An agent skill that aims to reduce response-token use through highly concise output."
+    why_useful: "It offers install paths for many coding agents plus optional compression for agent memory files and MCP descriptions."
+curation:
+  confidence: null
+  evidence: []
+  limitations: []
+  recommendation: null
+  reviewed_at: null
+  state: "uncurated"
+  strengths: []
+  verdict: null
+id: "github:JuliusBrussee/caveman"
+import:
+  github_snapshot:
+    archived: false
+    created_at: "2026-04-04T10:03:00Z"
+    default_branch: "main"
+    description: "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens by talking like caveman"
+    disabled: false
+    fetched_at: "2026-07-19T19:16:14.796Z"
+    fork: false
+    forks: 5144
+    homepage: "https://caveman.so/"
+    latest_release: null
+    license_spdx: "MIT"
+    open_issues: 412
+    primary_language: "JavaScript"
+    pushed_at: "2026-07-03T11:10:42Z"
+    stars: 90801
+    topics:
+      - "ai"
+      - "anthropic"
+      - "caveman"
+      - "claude"
+      - "claude-code"
+      - "llm"
+      - "meme"
+      - "prompt-engineering"
+      - "skill"
+      - "tokens"
+    updated_at: "2026-07-19T19:15:48Z"
+  sources:
+    - observed_at: "2026-04-12T17:11:43Z"
+      relation: "starred"
+      source_id: "github:user:tomseai:stars"
+      source_url: "https://github.com/tomseai?tab=stars"
+  state: "imported"
+repository:
+  aliases: []
+  github_node_id: "R_kgDOR5h10Q"
+  host: "github.com"
+  name: "caveman"
+  owner: "JuliusBrussee"
+  url: "https://github.com/JuliusBrussee/caveman"
+version: 1

@@ -1,0 +1,79 @@
+schema_version: 2
+repository_id: github:lmnr-ai/lmnr
+research:
+  state: complete
+  source_commit: 5f14c5c86f1bfc18c852dbc7c712609e44b8d69c
+  bundle_collected_at: 2026-07-19T20:43:50.619Z
+  researched_at: 2026-07-20T16:45:00.000Z
+  confidence: high
+classification:
+  primary_category: ai-and-automation
+  topics:
+    - ai-agents
+    - llms
+    - observability
+    - evaluation
+    - self-hosted
+project:
+  name: Laminar
+  kind: application
+  summary: >-
+    An open-source observability platform for AI agents that combines
+    OpenTelemetry-native tracing, evaluations, alerting signals, datasets,
+    dashboards, and real-time trace investigation.
+  best_for:
+    - Teams instrumenting, evaluating, and debugging AI-agent applications
+    - Organizations that need a managed option or a self-hosted observability stack
+key_features:
+  - Auto-instruments supported AI SDKs and frameworks through OpenTelemetry-native tracing
+  - Defines plain-language signals to detect agent behavior and notify Slack
+  - Runs extensible evaluations locally or in CI/CD and compares results in the UI
+  - Provides trace, metric, and event dashboards with custom SQL queries
+  - Supports annotation and dataset creation plus a real-time trace-viewing engine
+usage:
+  interfaces:
+    - web UI
+    - TypeScript SDK
+    - Python SDK
+    - CLI
+    - MCP server
+  installation:
+    - managed Laminar platform
+    - Docker Compose self-hosting
+    - npm package
+    - Python package
+  setup: moderate
+technology:
+  languages:
+    - TypeScript
+    - Python
+    - Rust
+  notable_components:
+    - Next.js frontend
+    - Rust app server
+    - Docker Compose
+    - PostgreSQL
+    - ClickHouse
+    - Quickwit
+license:
+  spdx: Apache-2.0
+  name: Apache License 2.0
+  notes: The retained LICENSE.md contains the Apache License, Version 2.0.
+status:
+  lifecycle: active
+  archived: false
+  latest_release: v0.2.1
+  latest_release_at: "2026-07-09"
+strengths:
+  - Unifies tracing, evaluation, alerting, datasets, and debugging for agent operations
+  - Offers direct TypeScript and Python instrumentation alongside browser-based investigation
+  - Can run as a managed service or as a documented Docker Compose deployment
+caveats:
+  - The quickstart self-hosted stack runs several services, including PostgreSQL, ClickHouse, and Quickwit
+  - SDK instrumentation requires a Laminar project API key; optional AI features require an LLM provider configuration
+  - The bundled lightweight Compose deployment omits RabbitMQ and is described for quickstarts or lightweight usage
+sources:
+  - https://raw.githubusercontent.com/lmnr-ai/lmnr/5f14c5c86f1bfc18c852dbc7c712609e44b8d69c/README.md
+  - https://raw.githubusercontent.com/lmnr-ai/lmnr/5f14c5c86f1bfc18c852dbc7c712609e44b8d69c/LICENSE.md
+  - https://raw.githubusercontent.com/lmnr-ai/lmnr/5f14c5c86f1bfc18c852dbc7c712609e44b8d69c/docker-compose.yml
+  - https://github.com/lmnr-ai/lmnr/releases.atom

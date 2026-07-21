@@ -1,0 +1,79 @@
+schema_version: 2
+repository_id: github:kyrolabs/awesome-agents
+research:
+  state: complete
+  source_commit: 5430af37966d6b9f090c7afa5b5367ca3ada498d
+  bundle_collected_at: 2026-07-19T20:43:35.270Z
+  researched_at: 2026-07-20T15:32:15.619Z
+  confidence: medium
+
+classification:
+  primary_category: documentation-and-learning
+  topics:
+    - ai-agents
+    - llms
+    - curated-lists
+    - frameworks
+    - evaluation
+    - automation
+    - open-source
+
+project:
+  name: Awesome Agents
+  kind: curated-list
+  summary: >-
+    A curated Markdown directory of open-source AI-agent tools and products,
+    grouped by agent-building frameworks, evaluation, software development,
+    research, conversational agents, simulation, knowledge management, and
+    automation.
+  best_for:
+    - Developers comparing open-source AI-agent projects
+    - Researchers seeking a broad entry point into agent tooling
+
+key_features:
+  - Categorized links to agent frameworks and development tools
+  - A testing and evaluation section for agent-oriented projects
+  - Separate sections for research, general agents, and game or simulation work
+  - Knowledge-management resources for agent systems
+  - Automation links, including browser and multimodal projects
+
+usage:
+  interfaces:
+    - GitHub repository
+    - Markdown reference list
+  installation:
+    - browse on GitHub
+  setup: low
+
+technology:
+  languages: []
+  notable_components: []
+
+license:
+  spdx: unknown
+  name: Unknown
+  notes: >-
+    No license file or license declaration was retained in the complete,
+    two-file research bundle; reuse terms are therefore unknown.
+
+status:
+  lifecycle: active
+  archived: false
+  latest_release: null
+  latest_release_at: null
+
+strengths:
+  - Covers several distinct areas of AI-agent development in one index
+  - Category structure makes it faster to narrow a broad search
+  - Links focus on open-source tools and products
+
+caveats:
+  - It is a directory, not an agent framework or runnable application
+  - Individual linked projects have independent quality, maintenance, and licenses
+  - The retained release feed contains no releases
+  - No project license was retained, so reuse rights are unclear
+
+sources:
+  - https://raw.githubusercontent.com/kyrolabs/awesome-agents/5430af37966d6b9f090c7afa5b5367ca3ada498d/README.md
+  - https://raw.githubusercontent.com/kyrolabs/awesome-agents/5430af37966d6b9f090c7afa5b5367ca3ada498d/CONTRIBUTING.md
+  - https://github.com/kyrolabs/awesome-agents/releases.atom

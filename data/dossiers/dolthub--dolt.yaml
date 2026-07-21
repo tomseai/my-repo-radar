@@ -1,0 +1,82 @@
+schema_version: 2
+repository_id: github:dolthub/dolt
+research:
+  state: complete
+  source_commit: 9e80d3aa2cf8ff473765f5603af32304d72c67b5
+  bundle_collected_at: 2026-07-19T20:42:40.338Z
+  researched_at: 2026-07-20T17:23:40.1774179+02:00
+  confidence: high
+
+classification:
+  primary_category: data-and-databases
+  topics:
+    - databases
+    - git
+    - cli
+    - self-hosted
+    - backend-development
+
+project:
+  name: Dolt
+  kind: service
+  summary: >-
+    A Go SQL database that versions tables and schema with Git-like cloning,
+    branching, merging, diffing, commits, and remotes, exposed through both a
+    command-line client and a MySQL-compatible server.
+  best_for:
+    - Teams that need versioned data and schema changes alongside SQL workflows
+    - Isolating, comparing, merging, and restoring database changes with Git-like operations
+
+key_features:
+  - Git-like clone, branch, merge, push, pull, commit, diff, and history operations for tables
+  - MySQL-compatible server and client interfaces for SQL data and schema access
+  - SQL system tables, functions, and stored procedures for version-control operations
+  - CSV import plus command-line data-repository and remote-management workflows
+  - Branch-specific schema changes and SQL queries against historical revisions
+
+usage:
+  interfaces:
+    - command-line interface
+    - MySQL-compatible SQL server
+    - MySQL-compatible clients
+  installation:
+    - official release binaries and installers
+    - Homebrew, Chocolatey, Arch Linux, or MacPorts packages
+    - official Docker images
+    - build from Go source
+  setup: moderate
+
+technology:
+  languages:
+    - Go
+  notable_components:
+    - MySQL-compatible SQL server
+    - Git-style version-control layer for database tables
+
+license:
+  spdx: Apache-2.0
+  name: Apache License 2.0
+  notes: null
+
+status:
+  lifecycle: active
+  archived: false
+  latest_release: 2.2.1
+  latest_release_at: 2026-07-17
+
+strengths:
+  - Makes data and schema history available through both SQL and familiar Git-style commands
+  - Supports standard MySQL-compatible clients as well as its own CLI
+  - Lets teams branch and merge database changes instead of coordinating only through migrations
+
+caveats:
+  - The database model and operational workflow differ materially from a conventional MySQL deployment
+  - The README documents MySQL 9 authentication as not connecting by default without additional configuration
+  - Building from source requires Go plus a working C compiler and cgo toolchain
+
+sources:
+  - https://raw.githubusercontent.com/dolthub/dolt/9e80d3aa2cf8ff473765f5603af32304d72c67b5/README.md
+  - https://raw.githubusercontent.com/dolthub/dolt/9e80d3aa2cf8ff473765f5603af32304d72c67b5/LICENSE
+  - https://raw.githubusercontent.com/dolthub/dolt/9e80d3aa2cf8ff473765f5603af32304d72c67b5/go/go.mod
+  - https://raw.githubusercontent.com/dolthub/dolt/9e80d3aa2cf8ff473765f5603af32304d72c67b5/SECURITY.md
+  - https://github.com/dolthub/dolt/releases.atom

@@ -1,0 +1,87 @@
+schema_version: 2
+repository_id: github:RayBytes/ChatMock
+research:
+  state: complete
+  source_commit: f4972076f510ff4636b57d7d7e3ad0699e7e38c9
+  bundle_collected_at: 2026-07-19T20:45:00.860Z
+  researched_at: 2026-07-20T16:02:06.116Z
+  confidence: high
+
+classification:
+  primary_category: ai-and-automation
+  topics:
+    - llms
+    - tool-use
+    - web-search
+    - self-hosted
+    - local-first
+    - open-source
+
+project:
+  name: ChatMock
+  kind: service
+  summary: >-
+    An MIT-licensed local compatibility server that signs in with a ChatGPT
+    account and exposes supported Codex models through OpenAI-compatible
+    responses and Ollama-compatible endpoints for other chat and coding tools.
+  best_for:
+    - Developers connecting compatible local clients to their ChatGPT account
+    - Tools that accept OpenAI-compatible or Ollama-compatible model endpoints
+
+key_features:
+  - Local OpenAI-compatible /v1/responses endpoint over HTTP and WebSocket
+  - Ollama-compatible endpoints for clients that require that protocol shape
+  - Tool calling, vision input, configurable thinking, fast mode, and web search
+  - CLI commands for account login and starting the server
+  - Optional desktop GUI package and a Docker deployment configuration
+
+usage:
+  interfaces:
+    - HTTP API
+    - WebSocket API
+    - CLI
+    - desktop GUI
+  installation:
+    - Homebrew
+    - pipx or pip package
+    - release GUI download
+    - Docker
+  setup: moderate
+
+technology:
+  languages:
+    - Python
+  notable_components:
+    - Flask
+    - Flask-Sock
+    - PySide6
+    - Docker
+
+license:
+  spdx: MIT
+  name: MIT License
+  notes: >-
+    Permissive reuse is allowed when the copyright and permission notice are
+    retained; the software is provided without warranty.
+
+status:
+  lifecycle: active
+  archived: false
+  latest_release: v1.39
+  latest_release_at: 2026-06-07
+
+strengths:
+  - Provides two documented compatibility surfaces for reuse in other clients
+  - Keeps the default API listener on the local loopback address
+  - Exposes Codex-specific capabilities without requiring each client to implement them
+
+caveats:
+  - Requires signing in with a ChatGPT account before the local server can be used
+  - The project states that it is not affiliated with OpenAI
+  - Client behavior depends on its support for the documented OpenAI or Ollama compatibility endpoints
+
+sources:
+  - https://raw.githubusercontent.com/RayBytes/ChatMock/f4972076f510ff4636b57d7d7e3ad0699e7e38c9/README.md
+  - https://raw.githubusercontent.com/RayBytes/ChatMock/f4972076f510ff4636b57d7d7e3ad0699e7e38c9/LICENSE
+  - https://raw.githubusercontent.com/RayBytes/ChatMock/f4972076f510ff4636b57d7d7e3ad0699e7e38c9/pyproject.toml
+  - https://github.com/RayBytes/ChatMock/releases.atom

@@ -1,0 +1,74 @@
+schema_version: 2
+repository_id: github:pingdotgg/t3code
+research:
+  state: complete
+  source_commit: 69c8be2ee54e3aff9c90b98d8e10aeafd0aaae2e
+  bundle_collected_at: 2026-07-19T20:44:54.555Z
+  researched_at: 2026-07-20T15:52:01.019Z
+  confidence: high
+classification:
+  primary_category: ai-and-automation
+  topics:
+    - coding-agents
+    - ai-agents
+    - desktop-app
+    - web-ui
+    - cli
+    - multi-provider
+project:
+  name: T3 Code
+  kind: application
+  summary: >-
+    An early web and desktop graphical interface for launching and working with
+    Codex, Claude, Cursor, and OpenCode coding-agent providers from one product.
+  best_for:
+    - Developers who already use a supported coding-agent CLI and want one GUI
+    - Trying several supported coding-agent providers without changing interfaces
+key_features:
+  - A minimal web GUI for Codex, Claude, Cursor, and OpenCode
+  - Browser launch without a global install through npx t3@latest
+  - Desktop distribution through GitHub Releases, winget, Homebrew Cask, and the Arch AUR
+  - Separate web and Electron desktop applications in the TypeScript monorepo
+usage:
+  interfaces:
+    - web GUI
+    - desktop application
+    - CLI launcher
+  installation:
+    - npx t3@latest
+    - Desktop release download
+    - winget, Homebrew Cask, or Arch AUR package
+    - Source checkout with Vite+ and pnpm
+  setup: moderate
+technology:
+  languages:
+    - TypeScript
+  notable_components:
+    - React
+    - Electron
+    - Vite+
+    - Effect
+license:
+  spdx: MIT
+  name: MIT License
+  notes: Permissive reuse, modification, distribution, sublicensing, and sale are allowed with notice inclusion; it is provided without warranty.
+status:
+  lifecycle: experimental
+  archived: false
+  latest_release: null
+  latest_release_at: null
+strengths:
+  - Provides one intentionally minimal interface across four named coding-agent providers
+  - Offers both no-install browser launch and native desktop distribution options
+  - The MIT license permits broad reuse and modification
+caveats:
+  - The README describes the project as very early and warns users to expect bugs
+  - A supported provider CLI must already be installed and authenticated before use
+  - Provider coverage is limited to Codex, Claude, Cursor, and OpenCode in the retained README
+  - The cached feed contains only v0.0.29 nightly releases, so no stable project release is established
+sources:
+  - https://raw.githubusercontent.com/pingdotgg/t3code/69c8be2ee54e3aff9c90b98d8e10aeafd0aaae2e/README.md
+  - https://raw.githubusercontent.com/pingdotgg/t3code/69c8be2ee54e3aff9c90b98d8e10aeafd0aaae2e/LICENSE
+  - https://raw.githubusercontent.com/pingdotgg/t3code/69c8be2ee54e3aff9c90b98d8e10aeafd0aaae2e/package.json
+  - https://raw.githubusercontent.com/pingdotgg/t3code/69c8be2ee54e3aff9c90b98d8e10aeafd0aaae2e/apps/desktop/package.json
+  - https://github.com/pingdotgg/t3code/releases.atom

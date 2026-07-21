@@ -1,0 +1,83 @@
+schema_version: 2
+repository_id: github:stackblitz-labs/bolt.diy
+research:
+  state: complete
+  source_commit: 2e254ac19a696394030601bc602f54945b12bfc4
+  bundle_collected_at: 2026-07-19T20:45:28.257Z
+  researched_at: 2026-07-20T16:05:00Z
+  confidence: high
+classification:
+  primary_category: developer-tools
+  topics:
+    - coding-agents
+    - agent-development-environments
+    - code-generation
+    - multi-provider
+    - local-models
+    - self-hosted
+    - desktop-app
+    - web-ui
+project:
+  name: bolt.diy
+  kind: application
+  summary: >-
+    An open-source, self-hostable version of Bolt.new for AI-assisted web
+    development, with selectable cloud and local model providers plus browser,
+    Docker, and Electron desktop deployment paths.
+  best_for:
+    - Developers who want a self-hosted AI web-development environment with provider choice
+    - Teams that need to connect local models or OpenAI-compatible endpoints to an agent workspace
+key_features:
+  - Selects from 19-plus documented cloud and local AI-provider integrations through the Vercel AI SDK
+  - Provides web, Docker, and Electron desktop deployment options
+  - Includes settings for cloud keys, Ollama, LM Studio, and OpenAI-compatible base URLs
+  - Builds and runs through pnpm scripts with production and development Docker configurations
+  - Offers provider and model search plus management functions for installed Ollama models
+usage:
+  interfaces:
+    - browser-based web UI
+    - Electron desktop application
+    - Docker-hosted web service
+  installation:
+    - install dependencies with pnpm install and run pnpm run dev
+    - use Docker Compose or the documented Docker build scripts
+    - download or build the Electron application for macOS, Windows, or Linux
+  setup: moderate
+technology:
+  languages:
+    - TypeScript
+    - JavaScript
+  notable_components:
+    - React
+    - Remix
+    - Vercel AI SDK
+    - StackBlitz WebContainers
+    - Electron
+    - Docker
+    - Cloudflare Wrangler
+license:
+  spdx: MIT
+  name: MIT License
+  notes: >-
+    The source code is MIT-licensed, but the README says production commercial
+    use of the WebContainers API requires a separate commercial license.
+status:
+  lifecycle: active
+  archived: false
+  latest_release: 1.0.0
+  latest_release_at: 2025-05-12
+strengths:
+  - Provides broad provider choice, including local Ollama and LM Studio paths, instead of binding the workspace to one model vendor
+  - Documents browser, container, and cross-platform desktop deployment choices in the primary README
+  - Keeps source code under MIT terms while supplying project scripts for development, testing, linting, and packaging
+caveats:
+  - Each cloud provider requires its own credentials, availability, pricing, and configuration; model quality varies by provider
+  - Production commercial use of the WebContainers API has a separate licensing requirement despite the repository's MIT source license
+  - Local and Docker deployment require Node.js, pnpm or Docker, environment variables, and ongoing secret management
+  - The latest cached release entry is 1.0.0 from 2025, so it may not describe all capabilities at the pinned 2026 source commit
+sources:
+  - https://raw.githubusercontent.com/stackblitz-labs/bolt.diy/2e254ac19a696394030601bc602f54945b12bfc4/README.md
+  - https://raw.githubusercontent.com/stackblitz-labs/bolt.diy/2e254ac19a696394030601bc602f54945b12bfc4/LICENSE
+  - https://raw.githubusercontent.com/stackblitz-labs/bolt.diy/2e254ac19a696394030601bc602f54945b12bfc4/package.json
+  - https://raw.githubusercontent.com/stackblitz-labs/bolt.diy/2e254ac19a696394030601bc602f54945b12bfc4/docker-compose.yaml
+  - https://github.com/stackblitz-labs/bolt.diy/releases.atom

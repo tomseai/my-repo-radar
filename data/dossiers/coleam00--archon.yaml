@@ -1,0 +1,77 @@
+schema_version: 2
+repository_id: github:coleam00/Archon
+research:
+  state: complete
+  source_commit: 2292b7812044acce62a8d47b25d10feb933db59f
+  bundle_collected_at: 2026-07-19T20:42:20.286Z
+  researched_at: 2026-07-20T00:40:00Z
+  confidence: high
+classification:
+  primary_category: ai-and-automation
+  topics:
+    - ai-agents
+    - coding-agents
+    - agent-orchestration
+    - automation
+    - cli
+    - git
+    - worktrees
+    - web-ui
+    - pull-requests
+project:
+  name: Archon
+  kind: application
+  summary: >-
+    A workflow engine for defining and executing repeatable AI coding processes
+    as YAML, with deterministic steps around agent work.
+  best_for:
+    - Teams that want reviewable, repository-local workflows for AI coding tasks
+    - Developers who need planning, validation, review, and pull-request steps to be repeatable
+key_features:
+  - Defines planning, implementation, validation, review, and pull-request processes as YAML workflows with validation gates and artifacts
+  - Isolates each workflow run in its own Git worktree, allowing parallel fixes without conflicts
+  - Includes a web dashboard for chats, workflow execution, history, monitoring, and a drag-and-drop workflow builder
+  - Ships 19 default workflows that can be copied, overridden in a repository, and committed with the project
+usage:
+  interfaces:
+    - Command-line interface
+    - Web dashboard
+    - Slack integration
+    - Telegram integration
+    - GitHub integration
+  installation:
+    - Guided source setup with Bun
+    - curl -fsSL https://archon.diy/install | bash
+    - brew install coleam00/archon/archon
+  setup: high
+technology:
+  languages:
+    - TypeScript
+  notable_components:
+    - Bun
+    - Docker
+    - Git worktrees
+    - Claude Agent SDK
+    - OpenCode SDK
+license:
+  spdx: MIT
+  name: MIT License
+  notes: Permission to use, copy, modify, distribute, sublicense, and sell is subject to retaining the copyright and license notice.
+status:
+  lifecycle: active
+  archived: false
+  latest_release: v0.5.0
+  latest_release_at: 2026-06-26
+strengths:
+  - Keeps process structure in portable YAML while reserving model judgment for individual workflow steps
+  - Makes workflows project-local and versionable, with repository files overriding bundled defaults
+  - Provides both a direct CLI path and a dashboard for launching and observing work
+caveats:
+  - The documented full setup installs Bun, GitHub CLI, and Claude Code; compiled binaries require a separately installed Claude Code path
+  - The project documents anonymous telemetry by default, including aggregated workflow, provider, and usage details, with an opt-out configuration
+  - The latest retained release is labeled Archon CLI v0.5.0, so it most directly identifies the CLI distribution rather than every monorepo component
+sources:
+  - https://raw.githubusercontent.com/coleam00/Archon/2292b7812044acce62a8d47b25d10feb933db59f/README.md
+  - https://raw.githubusercontent.com/coleam00/Archon/2292b7812044acce62a8d47b25d10feb933db59f/LICENSE
+  - https://raw.githubusercontent.com/coleam00/Archon/2292b7812044acce62a8d47b25d10feb933db59f/package.json
+  - https://github.com/coleam00/Archon/releases.atom

@@ -1,0 +1,71 @@
+schema_version: 2
+repository_id: github:rtfpessoa/diff2html
+research:
+  state: complete
+  source_commit: 72331ff5d13a8d4d1f11256a7b554dd0d69d7014
+  bundle_collected_at: 2026-07-19T20:45:03.791Z
+  researched_at: 2026-07-20T16:05:00Z
+  confidence: medium
+classification:
+  primary_category: frontend-and-design
+  topics:
+    - git
+    - web
+    - ui-components
+    - libraries
+project:
+  name: diff2html
+  kind: library
+  summary: >-
+    A TypeScript library that parses Git or unified diffs and renders them as
+    formatted HTML, with a browser UI wrapper and Node.js distribution.
+  best_for:
+    - Adding rendered file diffs to web interfaces
+    - Converting Git or unified-diff output into embeddable HTML
+key_features:
+  - Parses Git and unified-diff input
+  - Renders line-by-line and side-by-side comparisons
+  - Provides parser and HTML-generation APIs
+  - Includes browser UI bundles with optional syntax highlighting
+  - Offers npm, CDN, Node.js-library, and separate CLI distributions
+usage:
+  interfaces:
+    - TypeScript or JavaScript library API
+    - browser UI bundle
+    - Node.js library
+    - separate npm CLI package
+  installation:
+    - npm package
+    - CDN browser bundle
+    - diff2html-cli npm package
+  setup: low
+technology:
+  languages:
+    - TypeScript
+    - JavaScript
+  notable_components:
+    - Node.js distribution
+    - browser UI wrapper
+    - highlight.js integration
+license:
+  spdx: MIT
+  name: MIT License
+  notes: Permissive license; copyright and license notices must be retained.
+status:
+  lifecycle: active
+  archived: false
+  latest_release: 3.4.56
+  latest_release_at: 2026-01-31
+strengths:
+  - Supports both direct HTML generation and a DOM-oriented UI wrapper
+  - Covers common Git-diff presentation modes with syntax highlighting
+  - Documents several consumption paths for browser and Node.js use
+caveats:
+  - Input support excludes combined and word-diff formats
+  - Full syntax highlighting increases the browser bundle; the base UI can use a supplied implementation instead
+  - The cached package manifest declares 3.0.0-beta.1, while the newest release-feed entry is 3.4.56
+sources:
+  - https://raw.githubusercontent.com/rtfpessoa/diff2html/72331ff5d13a8d4d1f11256a7b554dd0d69d7014/README.md
+  - https://raw.githubusercontent.com/rtfpessoa/diff2html/72331ff5d13a8d4d1f11256a7b554dd0d69d7014/LICENSE.md
+  - https://raw.githubusercontent.com/rtfpessoa/diff2html/72331ff5d13a8d4d1f11256a7b554dd0d69d7014/package.json
+  - https://github.com/rtfpessoa/diff2html/releases.atom

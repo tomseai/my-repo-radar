@@ -1,0 +1,70 @@
+schema_version: 2
+repository_id: github:upstash/jstack
+research:
+  state: complete
+  source_commit: 4c241093d6beb4a9ffcb2863439af87355f70327
+  bundle_collected_at: 2026-07-19T20:45:46.941Z
+  researched_at: 2026-07-20T18:11:30.1712930+02:00
+  confidence: medium
+classification:
+  primary_category: application-frameworks
+  topics:
+    - web
+    - open-source
+    - frameworks
+    - frontend-development
+    - backend-development
+project:
+  name: jstack
+  kind: framework
+  summary: A type-safe application stack for building lightweight end-to-end Next.js applications with a Hono server layer and React client support.
+  best_for:
+    - Teams that want a pre-composed Next.js, Hono, Tailwind, and Drizzle ORM stack.
+    - Lightweight end-to-end TypeScript web applications with a React client and Hono server layer.
+key_features:
+  - Combines Next.js 15, Hono, Tailwind, and Drizzle ORM in the provided stack.
+  - Includes the published jstack package with server and client entry points.
+  - Provides a create-jstack-app command-line scaffolder in this source tree.
+usage:
+  interfaces:
+    - Next.js application stack
+    - Hono server integration
+    - create-jstack-app CLI
+  installation:
+    - create-jstack-app package and CLI from npm
+    - clone the monorepo for source development
+  setup: moderate
+technology:
+  languages:
+    - TypeScript
+  notable_components:
+    - Next.js 15
+    - Hono
+    - Tailwind CSS
+    - Drizzle ORM
+    - React peer dependency
+license:
+  spdx: MIT
+  name: MIT License
+  notes: The repository-root LICENSE is MIT; cached manifests for the published jstack and create-jstack-app packages declare ISC, so package-level licensing should be verified before redistribution.
+status:
+  lifecycle: unknown
+  archived: false
+  latest_release: null
+  latest_release_at: null
+strengths:
+  - Uses an established TypeScript web stack rather than requiring users to compose each layer from scratch.
+  - Exposes separate server and client package entry points.
+  - Includes a dedicated project-creation CLI.
+caveats:
+  - The cached README is intentionally brief and sends feature and setup details to the external project site.
+  - The cached releases feed has no entries, so a latest GitHub release cannot be established from the pinned research bundle.
+  - Root and package manifests report different license identifiers; this dossier scopes the primary license to the repository root.
+sources:
+  - https://raw.githubusercontent.com/upstash/jstack/4c241093d6beb4a9ffcb2863439af87355f70327/README.md
+  - https://raw.githubusercontent.com/upstash/jstack/4c241093d6beb4a9ffcb2863439af87355f70327/LICENSE
+  - https://raw.githubusercontent.com/upstash/jstack/4c241093d6beb4a9ffcb2863439af87355f70327/package.json
+  - https://raw.githubusercontent.com/upstash/jstack/4c241093d6beb4a9ffcb2863439af87355f70327/app/package.json
+  - https://raw.githubusercontent.com/upstash/jstack/4c241093d6beb4a9ffcb2863439af87355f70327/cli/package.json
+  - https://raw.githubusercontent.com/upstash/jstack/4c241093d6beb4a9ffcb2863439af87355f70327/packages/jstack/package.json
+  - https://github.com/upstash/jstack/releases.atom

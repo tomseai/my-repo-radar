@@ -1,0 +1,89 @@
+schema_version: 2
+repository_id: github:AutoMaker-Org/automaker
+
+research:
+  state: complete
+  source_commit: 5888d2e6f3618e06762803687ea7b181c10edcbd
+  bundle_collected_at: 2026-07-19T20:41:50.079Z
+  researched_at: 2026-07-20T00:30:00Z
+  confidence: medium
+
+classification:
+  primary_category: ai-and-automation
+  topics:
+    - ai-agents
+    - coding-agents
+    - agent-orchestration
+    - multi-agent
+    - task-planning
+    - worktrees
+    - desktop-app
+    - web-ui
+    - git
+
+project:
+  name: Automaker
+  kind: application
+  summary: >-
+    A desktop or web development studio that uses a Kanban workflow to plan,
+    run, review, and approve coding-agent work in isolated Git worktrees.
+  best_for:
+    - Developers coordinating feature-sized coding-agent tasks visually
+    - Teams that want plan approval and worktree isolation around agent execution
+
+key_features:
+  - Kanban stages for backlog, execution, approval, and verification
+  - Agent execution with live tool use and progress streaming
+  - Isolated Git worktrees for individual features
+  - Configurable planning levels and plan approval
+  - Multi-agent execution for spec-mode tasks
+  - Diff, test, pull-request, and GitHub workflow support
+
+usage:
+  interfaces:
+    - desktop GUI
+    - web UI
+    - TUI launcher
+  installation:
+    - npm development install
+    - Electron builds
+    - Docker Compose
+  setup: moderate
+
+technology:
+  languages:
+    - TypeScript
+  notable_components:
+    - React
+    - Vite
+    - Electron
+    - Express
+    - Docker
+
+license:
+  spdx: MIT
+  name: MIT License
+  notes: The bundled license also says the project is no longer actively maintained and is provided as-is.
+
+status:
+  lifecycle: deprecated
+  archived: false
+  latest_release: v1.0.0
+  latest_release_at: 2026-03-15
+
+strengths:
+  - Brings planning, execution visibility, review, and worktree isolation into one workflow
+  - Offers desktop, browser, and container deployment paths
+
+caveats:
+  - The bundled license says no bug fixes, security updates, or new features are being developed
+  - The README presents a current agent workflow, while the bundled license explicitly says the project is no longer actively maintained
+  - Agent execution depends on configured external coding-agent providers and their authentication or billing
+  - Docker use can require deliberate host-project and credential mounts
+
+sources:
+  - https://raw.githubusercontent.com/AutoMaker-Org/automaker/5888d2e6f3618e06762803687ea7b181c10edcbd/README.md
+  - https://raw.githubusercontent.com/AutoMaker-Org/automaker/5888d2e6f3618e06762803687ea7b181c10edcbd/LICENSE
+  - https://raw.githubusercontent.com/AutoMaker-Org/automaker/5888d2e6f3618e06762803687ea7b181c10edcbd/package.json
+  - https://raw.githubusercontent.com/AutoMaker-Org/automaker/5888d2e6f3618e06762803687ea7b181c10edcbd/docker-compose.yml
+  - https://github.com/AutoMaker-Org/automaker/releases.atom

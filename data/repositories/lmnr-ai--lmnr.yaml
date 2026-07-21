@@ -1,0 +1,97 @@
+analysis:
+  analyzed_at: "2026-07-19T19:38:35.087Z"
+  classification:
+    primary_category: "devops-and-cloud"
+    state: "provisional"
+    technologies:
+      - "rust"
+      - "typescript"
+      - "python"
+      - "docker"
+    topics:
+      - "ai-agents"
+      - "llms"
+      - "observability"
+      - "realtime"
+      - "self-hosted"
+    use_cases:
+      - "build-ai-products"
+      - "ship-and-operate-software"
+  evidence:
+    - claim: "Laminar is an open-source observability platform for AI agents with tracing, evaluations, monitoring, datasets, dashboards, and a realtime trace-viewing engine."
+      source_type: "repository-file"
+      url: "https://github.com/lmnr-ai/lmnr/blob/main/README.md"
+      checked_at: "2026-07-19"
+      confidence: "high"
+    - claim: "The README documents a Rust implementation, Docker Compose self-hosting, and TypeScript and Python client SDKs."
+      source_type: "repository-file"
+      url: "https://github.com/lmnr-ai/lmnr/blob/main/README.md"
+      checked_at: "2026-07-19"
+      confidence: "high"
+  state: "researched"
+  summary:
+    one_line: "Observability platform for tracing, evaluating, and monitoring AI agents."
+    why_useful: "It supplies instrumentation, evaluation, monitoring, and self-hosted deployment options for AI applications."
+curation:
+  confidence: null
+  evidence: []
+  limitations: []
+  recommendation: null
+  reviewed_at: null
+  state: "uncurated"
+  strengths: []
+  verdict: null
+id: "github:lmnr-ai/lmnr"
+import:
+  github_snapshot:
+    archived: false
+    created_at: "2024-08-29T03:45:28Z"
+    default_branch: "main"
+    description: "Laminar - open-source observability platform purpose-built for AI agents. YC S24."
+    disabled: false
+    fetched_at: "2026-07-19T19:16:14.796Z"
+    fork: false
+    forks: 219
+    homepage: "https://laminar.sh"
+    latest_release: null
+    license_spdx: "Apache-2.0"
+    open_issues: 96
+    primary_language: "TypeScript"
+    pushed_at: "2026-07-19T15:40:42Z"
+    stars: 3100
+    topics:
+      - "agent-observability"
+      - "agents"
+      - "ai"
+      - "ai-observability"
+      - "aiops"
+      - "analytics"
+      - "developer-tools"
+      - "evals"
+      - "evaluation"
+      - "llm-evaluation"
+      - "llm-observability"
+      - "llmops"
+      - "monitoring"
+      - "observability"
+      - "open-source"
+      - "rust"
+      - "rust-lang"
+      - "self-hosted"
+      - "ts"
+      - "typescript"
+    updated_at: "2026-07-19T18:31:03Z"
+  sources:
+    - observed_at: "2026-05-18T17:25:37Z"
+      relation: "starred"
+      source_id: "github:user:tomseai:stars"
+      source_url: "https://github.com/tomseai?tab=stars"
+  state: "imported"
+repository:
+  aliases: []
+  github_node_id: "R_kgDOMpzYrQ"
+  host: "github.com"
+  name: "lmnr"
+  owner: "lmnr-ai"
+  url: "https://github.com/lmnr-ai/lmnr"
+version: 1

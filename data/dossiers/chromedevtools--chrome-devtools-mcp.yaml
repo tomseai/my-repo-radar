@@ -1,0 +1,77 @@
+schema_version: 2
+repository_id: github:ChromeDevTools/chrome-devtools-mcp
+research:
+  state: complete
+  source_commit: 76fd2424984827802867672fcc8d0e0036f4a3af
+  bundle_collected_at: 2026-07-19T20:42:13.129Z
+  researched_at: 2026-07-20T00:39:44.6237658+02:00
+  confidence: high
+classification:
+  primary_category: developer-tools
+  topics:
+    - mcp
+    - coding-agents
+    - browser-automation
+    - debugging
+    - performance
+    - cli
+project:
+  name: Chrome DevTools for agents
+  kind: service
+  summary: >-
+    An MCP server and command-line tool that lets coding agents control and
+    inspect a live Chrome browser for automation, debugging, and performance
+    analysis.
+  best_for:
+    - Coding-agent workflows that need browser inspection and debugging
+    - Developers investigating browser network, console, and performance issues
+key_features:
+  - Records Chrome traces and extracts performance insights
+  - Automates Chrome actions with Puppeteer and waits for action results
+  - Inspects network requests, console messages, and screenshots
+  - Offers a three-tool slim mode for navigation, script evaluation, and screenshots
+  - Can connect to an existing Chrome instance through a debugging URL or WebSocket endpoint
+usage:
+  interfaces:
+    - MCP server over stdio
+    - command-line interface
+  installation:
+    - run with npx as chrome-devtools-mcp
+    - build from source with npm
+  setup: moderate
+technology:
+  languages:
+    - TypeScript
+    - JavaScript
+  notable_components:
+    - Model Context Protocol SDK
+    - Puppeteer
+    - Chrome DevTools
+    - Lighthouse
+license:
+  spdx: Apache-2.0
+  name: Apache License 2.0
+  notes: >-
+    Permissive license that requires preservation of license and notice files;
+    it includes an express patent grant and excludes warranty and liability.
+status:
+  lifecycle: active
+  archived: false
+  latest_release: v1.6.0
+  latest_release_at: 2026-07-14
+strengths:
+  - Uses Chrome DevTools capabilities directly instead of a page-only automation API
+  - Provides both a broad tool set and a constrained slim mode
+  - Documents integration with numerous MCP clients and direct CLI use
+caveats:
+  - MCP clients can inspect, modify, and receive browser content, so sensitive sessions should not be exposed to untrusted clients
+  - Usage statistics and npm update checks are enabled by default but have documented opt-outs
+  - Official support is limited to Google Chrome and Chrome for Testing; other Chromium browsers are not guaranteed
+  - Performance tooling can send trace URLs to the CrUX API unless disabled
+sources:
+  - https://raw.githubusercontent.com/ChromeDevTools/chrome-devtools-mcp/76fd2424984827802867672fcc8d0e0036f4a3af/README.md
+  - https://raw.githubusercontent.com/ChromeDevTools/chrome-devtools-mcp/76fd2424984827802867672fcc8d0e0036f4a3af/docs/tool-reference.md
+  - https://raw.githubusercontent.com/ChromeDevTools/chrome-devtools-mcp/76fd2424984827802867672fcc8d0e0036f4a3af/docs/cli.md
+  - https://raw.githubusercontent.com/ChromeDevTools/chrome-devtools-mcp/76fd2424984827802867672fcc8d0e0036f4a3af/package.json
+  - https://raw.githubusercontent.com/ChromeDevTools/chrome-devtools-mcp/76fd2424984827802867672fcc8d0e0036f4a3af/LICENSE
+  - https://github.com/ChromeDevTools/chrome-devtools-mcp/releases.atom

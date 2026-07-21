@@ -1,0 +1,77 @@
+schema_version: 2
+repository_id: github:langchain-ai/langgraph
+research:
+  state: complete
+  source_commit: 49ae27c2ae983cfb92091b0dea9f7bc37a716479
+  bundle_collected_at: 2026-07-19T20:43:45.668Z
+  researched_at: 2026-07-20T17:40:57.199+02:00
+  confidence: high
+classification:
+  primary_category: ai-and-automation
+  topics:
+    - ai-agents
+    - llms
+    - agent-frameworks
+    - agent-orchestration
+    - agent-memory
+    - multi-agent
+    - libraries
+    - frameworks
+project:
+  name: LangGraph
+  kind: framework
+  summary: >-
+    A low-level Python framework for building, managing, and deploying
+    long-running stateful agents and multi-actor workflows, with durable
+    execution, checkpoint-backed state, human oversight, and memory-oriented
+    infrastructure.
+  best_for:
+    - Python teams that need explicit control of resilient, stateful agent workflows
+    - Agent systems that must persist state, resume after interruptions, or allow human intervention
+key_features:
+  - Durable execution that persists work and resumes from the last completed state after failures
+  - Human-in-the-loop interrupts for inspecting and modifying agent state during execution
+  - Short-term working memory and long-term persistent memory patterns
+  - Checkpoint packages with SQLite and PostgreSQL implementations
+  - Python library, prebuilt components, SDK, and optional deployment CLI in one repository
+usage:
+  interfaces:
+    - Python library
+    - CLI
+  installation:
+    - Python package via pip
+    - source checkout
+  setup: moderate
+technology:
+  languages:
+    - Python
+  notable_components:
+    - Pydantic
+    - LangGraph checkpoint packages
+    - PostgreSQL
+    - SQLite
+license:
+  spdx: MIT
+  name: MIT License
+  notes: >-
+    Permissive license allowing use, modification, distribution, and commercial
+    use when the copyright and license notice are retained; supplied without warranty.
+status:
+  lifecycle: active
+  archived: false
+  latest_release: 1.2.9
+  latest_release_at: 2026-07-10
+strengths:
+  - Explicit primitives for state persistence, resumption, and intervention suit long-lived workflows
+  - Can be used without LangChain despite integrating with the broader LangChain ecosystem
+  - Dedicated checkpoint packages make SQLite and PostgreSQL persistence visible deployment choices
+caveats:
+  - It is deliberately low-level; upstream directs developers seeking a faster agent start to a higher-level package
+  - Durable execution and long-term memory require application-specific state and storage decisions
+  - Repository releases include separately versioned CLI and support packages; 1.2.9 is the primary langgraph library release
+sources:
+  - https://raw.githubusercontent.com/langchain-ai/langgraph/49ae27c2ae983cfb92091b0dea9f7bc37a716479/README.md
+  - https://raw.githubusercontent.com/langchain-ai/langgraph/49ae27c2ae983cfb92091b0dea9f7bc37a716479/LICENSE
+  - https://raw.githubusercontent.com/langchain-ai/langgraph/49ae27c2ae983cfb92091b0dea9f7bc37a716479/libs/langgraph/pyproject.toml
+  - https://raw.githubusercontent.com/langchain-ai/langgraph/49ae27c2ae983cfb92091b0dea9f7bc37a716479/libs/checkpoint-postgres/pyproject.toml
+  - https://github.com/langchain-ai/langgraph/releases.atom

@@ -1,0 +1,79 @@
+schema_version: 2
+repository_id: github:BoundaryML/baml
+research:
+  state: complete
+  source_commit: 68da999191999823b38747911dcc8223cc70b7b2
+  bundle_collected_at: 2026-07-20T19:30:20.488Z
+  researched_at: 2026-07-20T21:33:02.164+02:00
+  confidence: high
+classification:
+  primary_category: developer-tools
+  topics:
+    - ai-agents
+    - llms
+    - code-generation
+    - api-development
+    - cli
+    - developer-productivity
+    - libraries
+project:
+  name: BAML
+  kind: other
+  summary: >-
+    A statically typed programming language and toolchain for defining reliable
+    agent and LLM programs, with runtime-preserved types, analyzed errors, filesystem
+    modules, standalone execution, and generated clients for multiple host languages.
+  best_for:
+    - Teams that want typed, versionable LLM and agent definitions outside application code
+    - Polyglot projects that need one agent schema callable from Python, TypeScript, Go, or other hosts
+key_features:
+  - Uses a TypeScript-like syntax with Rust-style static typing and no unrestricted any type
+  - Preserves types at runtime and statically analyzes typed errors
+  - Organizes modules and namespaces through the filesystem
+  - Runs programs standalone or generates bindings for multiple host languages
+  - Includes a CLI, language server, IDE integration, compiler, and runtime
+usage:
+  interfaces:
+    - CLI
+    - generated language clients
+    - IDE extension
+  installation:
+    - Homebrew package
+    - generated SDK packages
+    - source checkout
+  setup: moderate
+technology:
+  languages:
+    - Rust
+    - TypeScript
+    - Go
+  notable_components:
+    - BAML compiler
+    - language server
+    - code generators
+    - runtime engine
+license:
+  spdx: Apache-2.0
+  name: Apache License 2.0
+  notes: >-
+    Permits use, modification, and distribution subject to license and notice
+    requirements, with an express patent grant and trademark exclusions.
+status:
+  lifecycle: active
+  archived: false
+  latest_release: 0.223.0
+  latest_release_at: 2026-06-23
+strengths:
+  - Makes LLM-facing contracts explicit and reusable across several application languages
+  - Combines compiler checks, runtime validation, client generation, and editor tooling
+  - The retained changelog provides a stable release independently of noisy nightly feeds
+caveats:
+  - Adopting BAML adds a dedicated language, compiler, generated artifacts, and build step
+  - The captured GitHub feed is dominated by nightly and internal gate releases; 0.223.0 comes from the pinned changelog and workspace manifest
+  - Host-language coverage and individual generated SDK behavior should be checked for the target stack
+sources:
+  - https://raw.githubusercontent.com/BoundaryML/baml/68da999191999823b38747911dcc8223cc70b7b2/README.md
+  - https://raw.githubusercontent.com/BoundaryML/baml/68da999191999823b38747911dcc8223cc70b7b2/LICENSE
+  - https://raw.githubusercontent.com/BoundaryML/baml/68da999191999823b38747911dcc8223cc70b7b2/engine/Cargo.toml
+  - https://raw.githubusercontent.com/BoundaryML/baml/68da999191999823b38747911dcc8223cc70b7b2/CHANGELOG.md
+  - https://github.com/BoundaryML/baml/releases.atom

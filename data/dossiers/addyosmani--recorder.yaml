@@ -1,0 +1,66 @@
+schema_version: 2
+repository_id: github:addyosmani/recorder
+research:
+  state: complete
+  source_commit: dac533bba71308274fbf62bf3c116c6077193118
+  bundle_collected_at: 2026-07-19T20:41:21.407Z
+  researched_at: 2026-07-19T22:19:52.792Z
+  confidence: high
+classification:
+  primary_category: platforms-and-applications
+  topics:
+    - web
+    - local-first
+project:
+  name: Record
+  kind: application
+  summary: >-
+    A browser-hosted screen and camera recorder that captures a tab, window, or
+    screen locally and downloads recordings as WEBM or optionally converted MP4.
+  best_for:
+    - Creating screen-and-camera recordings in Chrome or Chromium
+    - Recording scripted browser demonstrations without installing an application
+key_features:
+  - Screen-only, screen-and-camera, and camera-only recording modes
+  - Tab, window, and full-screen capture options
+  - Picture-in-picture camera view with circular or square camera shapes
+  - Built-in teleprompter with editable text, scroll controls, and adjustable speed
+  - Real-time camera and screen preview before recording
+  - WEBM download or in-browser MP4 conversion with FFmpeg.wasm
+usage:
+  interfaces:
+    - Web application
+  installation:
+    - No installation for the hosted web application
+    - Yarn dependencies for local development
+  setup: low
+technology:
+  languages:
+    - TypeScript
+  notable_components:
+    - React
+    - Vite
+    - FFmpeg.wasm
+license:
+  spdx: MIT
+  name: MIT License
+  notes: Permissive license that requires preserving the copyright and license notice.
+status:
+  lifecycle: unknown
+  archived: false
+  latest_release: null
+  latest_release_at: null
+strengths:
+  - Hosted use requires no download or installation
+  - Keeps recording and conversion in the browser rather than sending recordings to a service
+  - Combines capture, camera layout, teleprompting, and export in one web application
+caveats:
+  - The README states support is currently limited to Chrome and Chromium browsers
+  - MP4 export is an optional in-browser conversion; direct download is WEBM
+  - This repository is a fork of Contrast's Recorder project with additional features
+  - The cached GitHub release feed contains no release entries, so no project release can be established
+sources:
+  - https://raw.githubusercontent.com/addyosmani/recorder/dac533bba71308274fbf62bf3c116c6077193118/README.md
+  - https://raw.githubusercontent.com/addyosmani/recorder/dac533bba71308274fbf62bf3c116c6077193118/LICENSE
+  - https://raw.githubusercontent.com/addyosmani/recorder/dac533bba71308274fbf62bf3c116c6077193118/package.json
+  - https://github.com/addyosmani/recorder/releases.atom

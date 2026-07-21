@@ -1,0 +1,81 @@
+schema_version: 2
+repository_id: github:mastra-ai/mastra
+research:
+  state: complete
+  source_commit: a81d3c2499092b2c0578f5d8785ddc32e6f7bc39
+  bundle_collected_at: 2026-07-19T20:43:59.056Z
+  researched_at: 2026-07-20T16:45:00.000Z
+  confidence: medium
+classification:
+  primary_category: ai-and-automation
+  topics:
+    - ai-agents
+    - agent-frameworks
+    - agent-orchestration
+    - agent-memory
+    - llms
+    - mcp
+    - evaluation
+    - observability
+project:
+  name: Mastra
+  kind: framework
+  summary: >-
+    A TypeScript framework for building AI-powered applications and agents,
+    with model routing, agents, graph-based workflows, context and memory,
+    MCP servers, evaluations, and observability.
+  best_for:
+    - TypeScript teams building AI applications and agent workflows from prototype to production
+    - Applications that need agent tooling, durable human approval, context management, and evaluation primitives
+key_features:
+  - Connects models from more than 40 providers through one standard interface
+  - Builds tool-using agents that can iterate until a final answer or stopping condition
+  - Orchestrates graph-based workflows with sequential, branch, and parallel control flow
+  - Suspends and resumes agent or workflow execution for human approval using stored state
+  - Provides conversation history, retrieval, observational memory, MCP-server authoring, evaluations, and observability
+usage:
+  interfaces:
+    - TypeScript API
+    - CLI project generator
+    - standalone server
+    - React, Next.js, and Node.js integrations
+    - Mastra Studio web UI
+  installation:
+    - npm create mastra@latest
+    - npm packages
+  setup: moderate
+technology:
+  languages:
+    - TypeScript
+  notable_components:
+    - pnpm monorepo
+    - Turborepo
+    - React
+    - Next.js
+    - Node.js
+license:
+  spdx: null
+  name: Apache License 2.0 for non-ee/ content; Mastra Enterprise License for ee/ content
+  notes: >-
+    The root LICENSE.md scopes every directory named ee/ to ee/LICENSE and
+    makes content outside those directories available under Apache-2.0. The
+    retained research bundle does not include ee/LICENSE, so its terms were
+    not independently reviewed.
+status:
+  lifecycle: active
+  archived: false
+  latest_release: mastra@1.19.0
+  latest_release_at: "2026-07-15"
+strengths:
+  - Combines agent, workflow, memory, MCP, evaluation, and observability capabilities in one TypeScript framework
+  - Supports both application-framework integration and standalone-server deployment
+  - Includes an official project generator and Studio interface for creation and management
+caveats:
+  - "The repository is not uniformly Apache-2.0: all ee/ directories use separate enterprise terms"
+  - The retained bundle does not contain ee/LICENSE, so those separate license terms cannot be characterized here
+  - Production projects must configure a model provider and select the relevant storage, retrieval, and deployment integrations
+sources:
+  - https://raw.githubusercontent.com/mastra-ai/mastra/a81d3c2499092b2c0578f5d8785ddc32e6f7bc39/README.md
+  - https://raw.githubusercontent.com/mastra-ai/mastra/a81d3c2499092b2c0578f5d8785ddc32e6f7bc39/LICENSE.md
+  - https://raw.githubusercontent.com/mastra-ai/mastra/a81d3c2499092b2c0578f5d8785ddc32e6f7bc39/package.json
+  - https://github.com/mastra-ai/mastra/releases.atom

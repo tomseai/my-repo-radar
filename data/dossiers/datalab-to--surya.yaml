@@ -1,0 +1,77 @@
+schema_version: 2
+repository_id: github:datalab-to/surya
+research:
+  state: complete
+  source_commit: 0b16e8e32237bc91ce8d76af551b9e7ed748b54a
+  bundle_collected_at: 2026-07-19T20:42:29.443Z
+  researched_at: 2026-07-20T17:12:30.5983166+02:00
+  confidence: medium
+classification:
+  primary_category: ai-and-automation
+  topics:
+    - document-processing
+    - machine-learning
+    - cli
+    - libraries
+    - multimodal
+project:
+  name: surya
+  kind: model
+  summary: >-
+    A Python-distributed multilingual document-understanding model suite for OCR,
+    layout analysis and reading order, table recognition, text-line detection,
+    and OCR-error detection on images and PDFs.
+  best_for:
+    - Developers building local OCR and document-structure extraction into Python workflows
+    - Users who can supply a supported GPU or CPU/Apple-Silicon inference backend
+key_features:
+  - Runs OCR, layout, reading-order, and table-recognition tasks through one shared VLM server
+  - Provides separate models for text-line detection and OCR-error detection
+  - Accepts images, PDFs, and directories through task-specific CLI commands and writes structured JSON
+  - Exposes Python predictors and an optional Streamlit app for interactive image or PDF use
+usage:
+  interfaces:
+    - command-line interface
+    - Python API
+    - Streamlit interactive application
+  installation:
+    - pip install surya-ocr
+    - Install Docker and NVIDIA Container Toolkit for vLLM on NVIDIA GPUs
+    - Install llama.cpp's llama-server for CPU or Apple Silicon inference
+  setup: high
+technology:
+  languages:
+    - Python
+  notable_components:
+    - PyTorch
+    - Transformers
+    - vLLM
+    - llama.cpp
+    - Streamlit
+license:
+  spdx: Apache-2.0
+  name: Apache License 2.0
+  notes: >-
+    Apache-2.0 applies to the Surya code; model weights use a modified AI Pubs
+    OpenRAIL-M license that the README permits for research, personal use, and
+    startups below $5M funding or revenue without broader commercial licensing.
+status:
+  lifecycle: active
+  archived: false
+  latest_release: v0.22.0
+  latest_release_at: 2026-07-17
+strengths:
+  - Covers OCR, layout, reading order, table structure, text detection, and OCR-error detection in one project
+  - Shares the main VLM server across OCR, layout, and table-recognition commands to avoid repeated model loading
+  - Supports both NVIDIA GPU inference and CPU or Apple-Silicon inference paths
+caveats:
+  - The Apache code license does not cover the separately licensed model weights, which have commercial-use limits
+  - OCR, layout, and table recognition require a vLLM or llama.cpp inference backend; only text detection runs directly on PyTorch
+  - The initial command run starts an inference server, so repeated short jobs can pay startup and model-load costs unless the server is kept alive
+  - The cached source is version 0.22.0 and includes a v2 migration with changed output schemas
+sources:
+  - https://raw.githubusercontent.com/datalab-to/surya/0b16e8e32237bc91ce8d76af551b9e7ed748b54a/README.md
+  - https://raw.githubusercontent.com/datalab-to/surya/0b16e8e32237bc91ce8d76af551b9e7ed748b54a/LICENSE
+  - https://raw.githubusercontent.com/datalab-to/surya/0b16e8e32237bc91ce8d76af551b9e7ed748b54a/pyproject.toml
+  - https://raw.githubusercontent.com/datalab-to/surya/0b16e8e32237bc91ce8d76af551b9e7ed748b54a/.github/workflows/ci.yml
+  - https://github.com/datalab-to/surya/releases.atom

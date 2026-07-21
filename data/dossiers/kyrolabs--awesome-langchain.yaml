@@ -1,0 +1,80 @@
+schema_version: 2
+repository_id: github:kyrolabs/awesome-langchain
+research:
+  state: complete
+  source_commit: 792b2b97ed41c277e18f9cb6e26e4ff6b2f51209
+  bundle_collected_at: 2026-07-19T20:43:37.037Z
+  researched_at: 2026-07-20T15:32:15.619Z
+  confidence: high
+
+classification:
+  primary_category: documentation-and-learning
+  topics:
+    - ai-agents
+    - llms
+    - curated-lists
+    - frameworks
+    - libraries
+    - tutorials
+    - reference
+    - open-source
+
+project:
+  name: Awesome LangChain
+  kind: curated-list
+  summary: >-
+    A curated reference directory for the LangChain ecosystem, covering the
+    core framework, language ports, tools, agents, templates, platforms,
+    open-source projects, and learning material.
+  best_for:
+    - Developers looking for LangChain-related projects or integrations
+    - Learners seeking examples, notebooks, and videos for the ecosystem
+
+key_features:
+  - Links to LangChain framework resources and ports to other languages
+  - Tool listings, including low-code services, agents, and templates
+  - Open-source project sections for knowledge management and chatbots
+  - Learning resources with notebooks and video playlists
+  - Complementary links to other LLM frameworks and adjacent lists
+
+usage:
+  interfaces:
+    - GitHub repository
+    - Markdown reference list
+  installation:
+    - browse on GitHub
+  setup: low
+
+technology:
+  languages: []
+  notable_components: []
+
+license:
+  spdx: CC0-1.0
+  name: Creative Commons CC0 1.0 Universal
+  notes: >-
+    The dedication waives copyright and related rights to the greatest extent
+    allowed, including commercial reuse; it does not waive trademark or patent rights.
+
+status:
+  lifecycle: active
+  archived: false
+  latest_release: null
+  latest_release_at: null
+
+strengths:
+  - Broad, navigable coverage of the LangChain ecosystem
+  - Includes both implementation resources and learning material
+  - Contribution rules seek maintained, open-source, English-language additions
+
+caveats:
+  - It is a discovery list rather than a LangChain package or application
+  - The curators explicitly do not aim to list every supported platform
+  - Individual linked projects have their own support, security, and license terms
+  - The retained release feed contains no releases
+
+sources:
+  - https://raw.githubusercontent.com/kyrolabs/awesome-langchain/792b2b97ed41c277e18f9cb6e26e4ff6b2f51209/README.md
+  - https://raw.githubusercontent.com/kyrolabs/awesome-langchain/792b2b97ed41c277e18f9cb6e26e4ff6b2f51209/LICENSE
+  - https://raw.githubusercontent.com/kyrolabs/awesome-langchain/792b2b97ed41c277e18f9cb6e26e4ff6b2f51209/contributing.md
+  - https://github.com/kyrolabs/awesome-langchain/releases.atom

@@ -1,0 +1,89 @@
+schema_version: 2
+repository_id: github:khoj-ai/khoj
+research:
+  state: complete
+  source_commit: 1e30154d1070c7b132f389638c008b490be1481b
+  bundle_collected_at: 2026-07-19T20:43:39.480Z
+  researched_at: 2026-07-20T15:30:00.000Z
+  confidence: high
+
+classification:
+  primary_category: platforms-and-applications
+  topics:
+    - ai-agents
+    - llms
+    - chat-ui
+    - search
+    - web-search
+    - document-processing
+    - self-hosted
+    - local-models
+    - desktop-app
+    - mobile-app
+
+project:
+  name: Khoj
+  kind: application
+  summary: >-
+    A self-hostable personal AI application that combines LLM chat, semantic
+    search over personal knowledge, web answers, configurable agents, research
+    automation, and clients for the web, desktop, mobile, Obsidian, and Emacs.
+  best_for:
+    - Individuals or teams wanting a private, self-hosted AI assistant for documents and web research
+    - Users who need one personal knowledge interface across local or hosted LLM providers and clients
+
+key_features:
+  - Chats with local or hosted LLMs and can ground answers in indexed documents or web information
+  - Performs semantic search over PDF, Markdown, org-mode, Word, Notion, and other supported sources
+  - Lets users create agents with custom knowledge, personas, chat models, and tools
+  - Automates recurring research with newsletters and notifications
+  - Offers browser, desktop, phone, WhatsApp, Obsidian, and Emacs access paths
+  - Supports private self-hosting with local embeddings and offline-compatible model setups
+
+usage:
+  interfaces:
+    - web application
+    - desktop and mobile applications
+    - Obsidian, Emacs, and WhatsApp integrations
+  installation:
+    - Docker Compose, Python package, or pipx
+  setup: high
+
+technology:
+  languages:
+    - Python
+    - TypeScript
+  notable_components:
+    - Django
+    - FastAPI
+    - Next.js
+    - PostgreSQL with pgvector
+    - Model Context Protocol
+license:
+  spdx: AGPL-3.0-or-later
+  name: GNU Affero General Public License v3.0 or later
+  notes: Copyleft license; network-interactive modified versions must offer corresponding source to remote users.
+
+status:
+  lifecycle: active
+  archived: false
+  latest_release: null
+  latest_release_at: null
+
+strengths:
+  - Combines personal knowledge search, chat, web research, agents, and automation in one self-hostable product
+  - Supports both local and hosted models, with clients beyond the browser
+  - Documents privacy-oriented self-hosting choices including local embeddings and offline-compatible operation
+
+caveats:
+  - The retained release feed's newest entry is the pre-release 2.0.0-beta.28 from 2026-03-26; no authoritative stable project release is retained
+  - Self-hosting configures multiple services and requires secure secrets, model-provider choices, and resource planning
+  - The example Compose configuration runs in anonymous mode and should be hardened before public exposure
+  - AGPL-3.0-or-later has stronger redistribution obligations than permissive licenses, especially for modified network services
+
+sources:
+  - https://raw.githubusercontent.com/khoj-ai/khoj/1e30154d1070c7b132f389638c008b490be1481b/README.md
+  - https://raw.githubusercontent.com/khoj-ai/khoj/1e30154d1070c7b132f389638c008b490be1481b/documentation/docs/get-started/setup.mdx
+  - https://raw.githubusercontent.com/khoj-ai/khoj/1e30154d1070c7b132f389638c008b490be1481b/pyproject.toml
+  - https://raw.githubusercontent.com/khoj-ai/khoj/1e30154d1070c7b132f389638c008b490be1481b/LICENSE
+  - https://github.com/khoj-ai/khoj/releases.atom

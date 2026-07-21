@@ -1,0 +1,81 @@
+schema_version: 2
+repository_id: github:samuelfaj/distill
+research:
+  state: complete
+  source_commit: 4e2eaac06c839f518a312014390ab3e2a470fb1f
+  bundle_collected_at: 2026-07-19T20:45:09.689Z
+  researched_at: 2026-07-20T18:02:08+02:00
+  confidence: medium
+
+classification:
+  primary_category: developer-tools
+  topics:
+    - ai-agents
+    - coding-agents
+    - cli
+    - llms
+    - developer-productivity
+    - local-models
+
+project:
+  name: distill
+  kind: cli
+  summary: >-
+    A command-line tool that compresses agent command output into targeted
+    answers for downstream LLMs, using a locally onboarded small language model.
+  best_for:
+    - Coding-agent workflows that need to reduce log or test-output context
+    - Developers who can allocate memory for its local-model runtime
+
+key_features:
+  - A distill command that accepts piped command output and a task prompt
+  - Onboarding for the bundled local-model workflow
+  - A documented 1.7B, 4-bit expert language model
+  - Platform packages for macOS, Linux, and Windows architectures
+  - Automatic local-server startup and reuse, according to the v1.5.0 release
+
+usage:
+  interfaces:
+    - CLI
+    - shell pipeline
+  installation:
+    - npm global package
+  setup: moderate
+
+technology:
+  languages:
+    - TypeScript
+  notable_components:
+    - Node.js
+    - Bun
+    - MLX
+    - llama.cpp
+
+license:
+  spdx: MIT
+  name: MIT License (declared in CLI package metadata)
+  notes: >-
+    No repository-level license file was retained in this bundle; the CLI package
+    declares MIT, so the complete licensing terms were not independently verified.
+
+status:
+  lifecycle: active
+  archived: false
+  latest_release: v1.5.2
+  latest_release_at: 2026-05-14
+
+strengths:
+  - Directly targets a common source of coding-agent context and token cost
+  - Documents local-model onboarding rather than requiring a hosted model by default
+  - Published packages cover the main desktop operating-system families
+
+caveats:
+  - The README recommends at least 8 GB RAM, with 16 GB described as more comfortable
+  - Retained documentation is brief and does not fully specify output quality or model behavior
+  - Repository-wide license text is absent from the retained evidence, despite the CLI package declaring MIT
+
+sources:
+  - https://raw.githubusercontent.com/samuelfaj/distill/4e2eaac06c839f518a312014390ab3e2a470fb1f/README.md
+  - https://raw.githubusercontent.com/samuelfaj/distill/4e2eaac06c839f518a312014390ab3e2a470fb1f/packages/cli/package.json
+  - https://raw.githubusercontent.com/samuelfaj/distill/4e2eaac06c839f518a312014390ab3e2a470fb1f/package.json
+  - https://github.com/samuelfaj/distill/releases.atom

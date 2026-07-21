@@ -1,0 +1,75 @@
+analysis:
+  analyzed_at: "2026-07-19T19:42:45.408Z"
+  classification:
+    primary_category: "documentation-and-learning"
+    state: "provisional"
+    technologies:
+      - "python"
+    topics:
+      - "llms"
+      - "chat-ui"
+    use_cases:
+      - "build-ai-products"
+      - "learn-and-reference"
+  evidence:
+    - claim: "The OpenAI Cookbook provides example code and guides for accomplishing common tasks with the OpenAI API."
+      source_type: "repository-file"
+      url: "https://github.com/openai/openai-cookbook/blob/main/README.md"
+      checked_at: "2026-07-19"
+      confidence: "high"
+    - claim: "Its README states that most examples are written in Python, while the concepts apply in other languages."
+      source_type: "repository-file"
+      url: "https://github.com/openai/openai-cookbook/blob/main/README.md"
+      checked_at: "2026-07-19"
+      confidence: "high"
+  state: "researched"
+  summary:
+    one_line: "Official collection of examples and guides for the OpenAI API."
+    why_useful: "It provides reference implementations and learning material for common OpenAI API tasks."
+curation:
+  confidence: null
+  evidence: []
+  limitations: []
+  recommendation: null
+  reviewed_at: null
+  state: "uncurated"
+  strengths: []
+  verdict: null
+id: "github:openai/openai-cookbook"
+import:
+  github_snapshot:
+    archived: false
+    created_at: "2022-03-11T02:08:53Z"
+    default_branch: "main"
+    description: "Examples and guides for using the OpenAI API"
+    disabled: false
+    fetched_at: "2026-07-19T19:16:14.796Z"
+    fork: false
+    forks: 12652
+    homepage: "https://cookbook.openai.com"
+    latest_release: null
+    license_spdx: "MIT"
+    open_issues: 227
+    primary_language: "Jupyter Notebook"
+    pushed_at: "2026-07-17T19:36:04Z"
+    stars: 74754
+    topics:
+      - "chatgpt"
+      - "gpt-4"
+      - "openai"
+      - "openai-api"
+    updated_at: "2026-07-19T16:38:38Z"
+  sources:
+    - observed_at: "2025-01-02T16:24:16Z"
+      relation: "starred"
+      source_id: "github:user:tomseai:stars"
+      source_url: "https://github.com/tomseai?tab=stars"
+  state: "imported"
+repository:
+  aliases: []
+  github_node_id: "R_kgDOG-3nPA"
+  host: "github.com"
+  name: "openai-cookbook"
+  owner: "openai"
+  url: "https://github.com/openai/openai-cookbook"
+version: 1

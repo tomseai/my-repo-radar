@@ -1,0 +1,83 @@
+schema_version: 2
+repository_id: github:Dicklesworthstone/asupersync
+research:
+  state: complete
+  source_commit: 04d5aed2888f79f1dccaf90a92c4bab95ed9b7aa
+  bundle_collected_at: 2026-07-19T20:42:38.122Z
+  researched_at: 2026-07-20T00:00:00Z
+  confidence: medium
+
+classification:
+  primary_category: systems-and-infrastructure
+  topics:
+    - libraries
+    - testing
+    - observability
+    - security
+
+project:
+  name: Asupersync
+  kind: framework
+  summary: >-
+    An experimental Rust async runtime that uses region-owned tasks, explicit
+    cancellation protocols, capability-gated effects, and deterministic replay testing.
+  best_for:
+    - Experimental Rust systems that can validate selected adapters and cancellation boundaries
+    - Teams investigating structured shutdown and reproducible concurrency failures
+
+key_features:
+  - Region-owned tasks that close to quiescence instead of detaching children
+  - Request, drain, and finalize cancellation protocol for covered primitives
+  - Capability-gated runtime effects and obligation tracking
+  - Lab runtime with virtual time, deterministic scheduling, and trace replay
+  - Tokio compatibility layer and native runtime, synchronization, and channel primitives
+
+usage:
+  interfaces:
+    - Rust crate
+    - command-line binary
+    - WebAssembly browser packages
+  installation:
+    - Cargo Git dependency
+    - build from source
+  setup: high
+
+technology:
+  languages:
+    - Rust
+    - JavaScript
+    - TypeScript
+  notable_components:
+    - Rust Edition 2024
+    - WebAssembly
+    - Tokio compatibility layer
+
+license:
+  spdx: LicenseRef-MIT-OpenAI-Anthropic-Rider
+  name: MIT License with OpenAI/Anthropic Rider
+  notes: >-
+    The rider denies rights to OpenAI, Anthropic, their affiliates, and parties
+    acting for them; it also restricts providing the software or derivatives to them.
+
+status:
+  lifecycle: experimental
+  archived: false
+  latest_release: v0.3.9
+  latest_release_at: 2026-07-15
+
+strengths:
+  - Makes task ownership and cancellation boundaries explicit in the runtime model
+  - Includes deterministic scheduling and replay facilities for concurrency testing
+  - Documents compatibility and platform boundaries in detail
+
+caveats:
+  - The project describes itself as experimental and pre-1.0, not an established broad runtime replacement
+  - Default contributor and release lanes require a pinned nightly Rust toolchain; a restricted stable subset is documented
+  - It is not drop-in compatible with Tokio-bound crates, and some adapters and platform paths remain scoped or partial
+  - The nonstandard license rider materially limits who may use or receive the software
+
+sources:
+  - https://raw.githubusercontent.com/Dicklesworthstone/asupersync/04d5aed2888f79f1dccaf90a92c4bab95ed9b7aa/README.md
+  - https://raw.githubusercontent.com/Dicklesworthstone/asupersync/04d5aed2888f79f1dccaf90a92c4bab95ed9b7aa/Cargo.toml
+  - https://raw.githubusercontent.com/Dicklesworthstone/asupersync/04d5aed2888f79f1dccaf90a92c4bab95ed9b7aa/LICENSE
+  - https://github.com/Dicklesworthstone/asupersync/releases.atom

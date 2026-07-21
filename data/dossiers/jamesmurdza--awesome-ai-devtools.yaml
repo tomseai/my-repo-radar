@@ -1,0 +1,69 @@
+schema_version: 2
+repository_id: github:jamesmurdza/awesome-ai-devtools
+research:
+  state: complete
+  source_commit: 90b5d6207719bbffa7417eeee3d326145accfa33
+  bundle_collected_at: 2026-07-19T20:43:28.753Z
+  researched_at: 2026-07-20T00:00:00+02:00
+  confidence: medium
+classification:
+  primary_category: documentation-and-learning
+  topics:
+    - coding-agents
+    - code-generation
+    - developer-productivity
+    - curated-lists
+    - documentation
+project:
+  name: Awesome AI-Powered Developer Tools
+  kind: curated-list
+  summary: >-
+    A GitHub-curated reference of AI-powered developer tools, organized by
+    development environment, terminal, web, desktop, workflow, agent
+    infrastructure, specialized-tool, and resource categories.
+  best_for:
+    - Developers comparing AI-assisted development tools across several interface types
+    - Researchers who need a broad starting index for developer-focused AI tools
+key_features:
+  - Separates AI-native IDEs and editor extensions from terminal agents and CLI utilities
+  - Groups browser-based tools into app builders, UI generators, coding agents, codebase intelligence, and database tools
+  - Covers automated pull-request review, CI/CD, and testing tools alongside coding assistants
+  - Includes agent-infrastructure sections for orchestration, sandboxing, context management, and usage analytics
+  - Enforces contribution-template checks for AI and developer focus, clear descriptions, and consistent entry style
+usage:
+  interfaces:
+    - GitHub README
+    - Markdown reference list
+  installation:
+    - Browse the repository README; the list itself has no installable package
+  setup: low
+technology:
+  languages:
+    - Markdown
+    - YAML
+  notable_components:
+    - GitHub Actions pull-request template check
+license:
+  spdx: null
+  name: No license file or SPDX identifier found in the retained source bundle
+  notes: >-
+    Reuse terms are unspecified. Do not assume permission to reproduce or
+    redistribute the list beyond rights that otherwise apply.
+status:
+  lifecycle: active
+  archived: false
+  latest_release: null
+  latest_release_at: null
+strengths:
+  - Presents a navigable cross-section of developer-facing AI tools rather than only coding agents
+  - Uses fine-grained headings that make comparison by workflow or interface quicker
+  - Has an automated pull-request check that reinforces the list's stated contribution criteria
+caveats:
+  - It is a directory of external tools, so individual capabilities, pricing, availability, and licenses require separate verification
+  - The retained release feed has no entries; there is no project release to report
+  - No repository license was retained, leaving reuse conditions for the compilation unclear
+  - Descriptions are editorial list entries and are not independent evaluations or compatibility guarantees
+sources:
+  - https://raw.githubusercontent.com/jamesmurdza/awesome-ai-devtools/90b5d6207719bbffa7417eeee3d326145accfa33/README.md
+  - https://raw.githubusercontent.com/jamesmurdza/awesome-ai-devtools/90b5d6207719bbffa7417eeee3d326145accfa33/.github/workflows/pr-template-check.yml
+  - https://github.com/jamesmurdza/awesome-ai-devtools/releases.atom

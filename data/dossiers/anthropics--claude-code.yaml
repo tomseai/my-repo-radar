@@ -1,0 +1,87 @@
+schema_version: 2
+repository_id: github:anthropics/claude-code
+
+research:
+  state: complete
+  source_commit: 015170d3fd84fb57ef4685a64b673fadd0690dc1
+  bundle_collected_at: 2026-07-19T20:41:41.804Z
+  researched_at: 2026-07-20T00:30:00Z
+  confidence: high
+
+classification:
+  primary_category: ai-and-automation
+  topics:
+    - ai-agents
+    - coding-agents
+    - cli
+    - terminal
+    - git
+    - code-generation
+    - developer-productivity
+    - agent-skills
+
+project:
+  name: Claude Code
+  kind: cli
+  summary: >-
+    An Anthropic agentic coding tool that works with a codebase through
+    natural-language commands in the terminal, IDEs, and GitHub.
+  best_for:
+    - Developers who want an interactive coding agent in their existing workflow
+    - Teams that need managed Claude Code settings and plugin extensions
+
+key_features:
+  - Executes routine coding tasks and explains complex code
+  - Handles Git workflows through natural-language commands
+  - Works from the terminal, supported IDEs, or GitHub mentions
+  - Includes plugins with custom commands and agents
+  - Provides organization-oriented settings and MDM deployment examples
+  - Maintains detailed release notes, including permission and security fixes
+
+usage:
+  interfaces:
+    - CLI
+    - terminal
+    - IDE integration
+    - GitHub integration
+  installation:
+    - official installer script
+    - Homebrew cask
+    - WinGet
+    - npm package (deprecated)
+  setup: low
+
+technology:
+  languages: []
+  notable_components:
+    - Node.js runtime
+    - npm
+    - managed settings
+    - plugins
+
+license:
+  spdx: null
+  name: Proprietary; Anthropic Commercial Terms of Service
+  notes: The repository states all rights are reserved; use is subject to Anthropic's commercial terms.
+
+status:
+  lifecycle: active
+  archived: false
+  latest_release: v2.1.215
+  latest_release_at: 2026-07-19
+
+strengths:
+  - Integrates an agentic coding workflow across terminal, IDE, and GitHub surfaces
+  - Provides frequent, detailed release notes and enterprise configuration examples
+
+caveats:
+  - It is not released under an open-source license
+  - Usage data and feedback collection are described in the project's data-use policy
+  - npm installation is explicitly deprecated in favor of other installation methods
+
+sources:
+  - https://raw.githubusercontent.com/anthropics/claude-code/015170d3fd84fb57ef4685a64b673fadd0690dc1/README.md
+  - https://raw.githubusercontent.com/anthropics/claude-code/015170d3fd84fb57ef4685a64b673fadd0690dc1/LICENSE.md
+  - https://raw.githubusercontent.com/anthropics/claude-code/015170d3fd84fb57ef4685a64b673fadd0690dc1/examples/settings/README.md
+  - https://raw.githubusercontent.com/anthropics/claude-code/015170d3fd84fb57ef4685a64b673fadd0690dc1/CHANGELOG.md
+  - https://github.com/anthropics/claude-code/releases.atom

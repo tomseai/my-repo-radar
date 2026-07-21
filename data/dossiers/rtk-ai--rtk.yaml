@@ -1,0 +1,85 @@
+schema_version: 2
+repository_id: github:rtk-ai/rtk
+research:
+  state: complete
+  source_commit: f9d8c775b1e7f94f449c400f4130410170e590ad
+  bundle_collected_at: 2026-07-19T20:45:09.646Z
+  researched_at: 2026-07-20T18:01:25.1660519+02:00
+  confidence: high
+classification:
+  primary_category: developer-tools
+  topics:
+    - coding-agents
+    - cli
+    - context-engineering
+    - token-usage
+    - developer-productivity
+    - git
+    - testing
+project:
+  name: RTK
+  kind: cli
+  summary: >-
+    A Rust command-line proxy for coding-agent workflows that runs supported developer
+    commands, filters their output before it reaches the LLM context, tracks resulting
+    token savings, and can install agent-specific hooks or instruction-based integrations.
+  best_for:
+    - Coding-agent users who want more compact shell-command context without changing their normal developer commands
+    - Teams that want local token-savings analytics and configurable command-output filtering
+key_features:
+  - Filters, groups, truncates, and deduplicates output from more than 100 supported developer commands
+  - Provides compact wrappers for files, Git and GitHub CLI, tests, builds, linters, containers, cloud, and data commands
+  - Installs hooks, plugins, or rules for supported coding assistants to rewrite eligible shell commands automatically
+  - Stores token-savings history and exposes gain, session, and discovery analytics commands
+  - Saves full command output on configured failures so an agent can inspect it without rerunning the command
+  - Offers per-user and per-project configuration for filters, excluded commands, tracking, output, and telemetry
+usage:
+  interfaces:
+    - CLI
+    - coding-agent hooks
+    - coding-agent plugins
+    - agent instruction and rule files
+    - local analytics commands
+  installation:
+    - Homebrew
+    - Linux or macOS install script
+    - pre-built binaries
+    - Cargo source installation
+  setup: moderate
+technology:
+  languages:
+    - Rust
+  notable_components:
+    - SQLite
+    - Cargo
+    - Homebrew
+    - coding-agent hooks
+    - ripgrep integration
+license:
+  spdx: Apache-2.0
+  name: Apache License 2.0
+  notes: >-
+    Apache-2.0 permits use, modification, and distribution subject to notice and
+    license requirements, includes an express patent grant, and excludes trademark rights.
+status:
+  lifecycle: active
+  archived: false
+  latest_release: v0.42.4
+  latest_release_at: 2026-06-12
+strengths:
+  - Reduces command-output noise at the command boundary while preserving an explicit path to full failure output
+  - Covers a broad set of everyday development commands and several coding-assistant integration styles
+  - Provides local tracking and configuration rather than requiring a hosted optimization service
+caveats:
+  - The retained release feed is dominated by newer 0.44.0 development release candidates; the package manifest and changelog identify v0.42.4 as the latest stable release
+  - Automatic rewriting applies only to the integration tier supported by each agent; instruction-file integrations such as Codex depend on the model following the generated instructions
+  - Hooks operate on shell commands, so built-in assistant tools such as Claude Code Read, Grep, and Glob bypass the automatic rewrite path
+  - Another unrelated project uses the rtk crate name; the documentation recommends an explicit Git-based Cargo installation to avoid installing the wrong tool
+  - Telemetry is disabled by default and requires opt-in, but users who enable it should review the documented aggregate usage fields and retention behavior
+sources:
+  - https://raw.githubusercontent.com/rtk-ai/rtk/f9d8c775b1e7f94f449c400f4130410170e590ad/README.md
+  - https://raw.githubusercontent.com/rtk-ai/rtk/f9d8c775b1e7f94f449c400f4130410170e590ad/Cargo.toml
+  - https://raw.githubusercontent.com/rtk-ai/rtk/f9d8c775b1e7f94f449c400f4130410170e590ad/docs/guide/getting-started/supported-agents.md
+  - https://raw.githubusercontent.com/rtk-ai/rtk/f9d8c775b1e7f94f449c400f4130410170e590ad/docs/TELEMETRY.md
+  - https://raw.githubusercontent.com/rtk-ai/rtk/f9d8c775b1e7f94f449c400f4130410170e590ad/LICENSE
+  - https://github.com/rtk-ai/rtk/releases.atom

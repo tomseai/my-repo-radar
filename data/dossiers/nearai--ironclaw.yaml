@@ -1,0 +1,77 @@
+schema_version: 2
+repository_id: github:nearai/ironclaw
+research:
+  state: complete
+  source_commit: c486eac3318daa0b14fc6dce8ecd72a49e8cdc92
+  bundle_collected_at: 2026-07-19T20:44:21.418Z
+  researched_at: 2026-07-20T17:52:17.5282390+02:00
+  confidence: medium
+classification:
+  primary_category: ai-and-automation
+  topics:
+    - ai-agents
+    - agent-memory
+    - multi-provider
+    - cli
+    - web-ui
+    - mcp
+    - security
+project:
+  name: IronClaw
+  kind: application
+  summary: >-
+    A Rust-based personal AI-assistant runtime that offers command-line,
+    web, and messaging-channel operation with configurable model providers.
+  best_for:
+    - Individuals who want to run a configurable, security-focused personal agent
+    - Operators who need local or hosted agent services with persistent storage
+key_features:
+  - Supports a REPL, HTTP webhooks, a browser gateway, and WASM-based messaging channels
+  - Configures built-in, OpenAI-compatible, and local model-provider routes
+  - Connects Model Context Protocol servers and loadable WASM tools or channels
+  - Provides persistent workspace memory, hybrid search, scheduled routines, and job coordination
+  - Applies capability permissions, endpoint allowlists, secret injection, and resource limits to untrusted WASM tools
+usage:
+  interfaces:
+    - command-line REPL
+    - browser web gateway
+    - HTTP webhooks and messaging channels
+  installation:
+    - Windows installer or PowerShell installer
+    - shell installer or Homebrew on supported Unix-like systems
+    - Cargo source build
+  setup: high
+technology:
+  languages:
+    - Rust
+  notable_components:
+    - PostgreSQL with pgvector
+    - WebAssembly tool sandbox
+    - Docker sandbox
+    - Model Context Protocol
+license:
+  spdx: MIT OR Apache-2.0
+  name: Dual MIT or Apache License 2.0
+  notes: >-
+    The retained README and Cargo metadata identify this dual license, but the
+    bundle does not retain the LICENSE-MIT or LICENSE-APACHE text; verify the
+    full terms upstream before relying on either option.
+status:
+  lifecycle: active
+  archived: false
+  latest_release: v0.29.1
+  latest_release_at: 2026-06-03
+strengths:
+  - Combines several interaction channels with configurable model-provider routing
+  - Documents layered controls for sandboxed tools, credentials, and external content
+  - Offers binary installers, Homebrew, and source-build paths
+caveats:
+  - The cached bundle lacks the actual LICENSE-MIT and LICENSE-APACHE texts, so reuse terms require upstream verification
+  - The README documents the separate Reborn runtime alongside the older ironclaw binary; confirm which runtime applies to a planned deployment
+  - The newer feed entries are a main-branch snapshot and a skill-learning component release; v0.29.1 is the latest retained release for the root ironclaw package
+  - Full legacy setup can require PostgreSQL, provider credentials, and channel-specific configuration
+sources:
+  - https://raw.githubusercontent.com/nearai/ironclaw/c486eac3318daa0b14fc6dce8ecd72a49e8cdc92/README.md
+  - https://raw.githubusercontent.com/nearai/ironclaw/c486eac3318daa0b14fc6dce8ecd72a49e8cdc92/Cargo.toml
+  - https://raw.githubusercontent.com/nearai/ironclaw/c486eac3318daa0b14fc6dce8ecd72a49e8cdc92/CHANGELOG.md
+  - https://github.com/nearai/ironclaw/releases.atom

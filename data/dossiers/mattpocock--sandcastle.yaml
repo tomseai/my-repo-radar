@@ -1,0 +1,76 @@
+schema_version: 2
+repository_id: github:mattpocock/sandcastle
+research:
+  state: complete
+  source_commit: e99f832f26dc9d245c019a9ddd19fa5dee792427
+  bundle_collected_at: 2026-07-19T20:43:59.116Z
+  researched_at: 2026-07-20T15:45:00Z
+  confidence: high
+classification:
+  primary_category: developer-tools
+  topics:
+    - coding-agents
+    - agent-orchestration
+    - sandboxing
+    - worktrees
+    - git
+    - cli
+project:
+  name: Sandcastle
+  kind: library
+  summary: >-
+    A TypeScript library and CLI for running coding agents in configurable
+    sandboxed Git workflows, then collecting or merging their commits.
+  best_for:
+    - Automating isolated coding-agent runs from TypeScript, scripts, or CI
+    - Building parallel agent or review workflows with explicit Git branch handling
+key_features:
+  - The run API invokes an agent, applies a configurable branch strategy, and returns commits and iteration results
+  - Built-in Docker, Podman, and Vercel sandbox providers plus APIs for custom bind-mount or isolated providers
+  - The initializer scaffolds a .sandcastle directory with configuration, Dockerfile, prompt, and environment files
+  - Supports prompt arguments, lifecycle hooks, iteration limits, file or stdout logging, and streamed agent events
+  - Provides a no-sandbox provider for deliberate host execution when container isolation is not wanted
+usage:
+  interfaces:
+    - TypeScript and JavaScript API
+    - sandcastle command-line interface
+    - Generated .sandcastle configuration and prompt files
+  installation:
+    - npm install --save-dev @ai-hero/sandcastle
+    - Run npx @ai-hero/sandcastle init
+    - Run the generated TypeScript entry point with npx tsx
+  setup: moderate
+technology:
+  languages:
+    - TypeScript
+  notable_components:
+    - Node.js
+    - Docker
+    - Podman
+    - Vercel Sandbox
+license:
+  spdx: MIT
+  name: MIT License
+  notes: >-
+    The package metadata and retained license identify the project as MIT;
+    reuse is permissive subject to retaining the copyright and license notice.
+status:
+  lifecycle: active
+  archived: false
+  latest_release: v0.12.0
+  latest_release_at: 2026-06-29
+strengths:
+  - Separates agent execution from a pluggable sandbox-provider choice
+  - Makes branch and commit collection explicit rather than leaving Git workflow to each caller
+  - Offers both a programmatic API and a quick-start initializer
+caveats:
+  - A run needs Git, an agent credential or setup token, and a compatible sandbox provider
+  - Docker, Podman, and Vercel have different isolation and local-environment requirements
+  - Choosing noSandbox intentionally runs the agent on the host and skips container isolation
+  - Prompt files can evaluate marked shell expressions inside the sandbox, so their authors need to review those commands
+sources:
+  - https://raw.githubusercontent.com/mattpocock/sandcastle/e99f832f26dc9d245c019a9ddd19fa5dee792427/README.md
+  - https://raw.githubusercontent.com/mattpocock/sandcastle/e99f832f26dc9d245c019a9ddd19fa5dee792427/package.json
+  - https://raw.githubusercontent.com/mattpocock/sandcastle/e99f832f26dc9d245c019a9ddd19fa5dee792427/docs/content/docs/configuration.mdx
+  - https://raw.githubusercontent.com/mattpocock/sandcastle/e99f832f26dc9d245c019a9ddd19fa5dee792427/LICENSE
+  - https://github.com/mattpocock/sandcastle/releases.atom

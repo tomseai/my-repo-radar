@@ -1,0 +1,90 @@
+schema_version: 2
+repository_id: github:ruvnet/ruflo
+research:
+  state: complete
+  source_commit: 12ede21767a6dd669df1b79392a5d27d9154f237
+  bundle_collected_at: 2026-07-19T20:45:11.820Z
+  researched_at: 2026-07-20T00:52:00.000Z
+  confidence: high
+classification:
+  primary_category: ai-and-automation
+  topics:
+    - ai-agents
+    - agent-harnesses
+    - agent-orchestration
+    - multi-agent
+    - agent-memory
+    - mcp
+    - multi-provider
+    - security
+
+project:
+  name: Ruflo
+  kind: framework
+  summary: >-
+    An agent meta-harness for Claude Code and Codex that layers specialized
+    agents, swarm coordination, persistent memory, MCP tools, hooks, and
+    optional federation around coding-agent workflows.
+  best_for:
+    - Teams extending Claude Code or Codex with coordinated multi-agent workflows
+    - Developers who need an MCP-accessible orchestration and memory layer
+
+key_features:
+  - More than one hundred specialized agents for coding, testing, security, and documentation
+  - Swarm coordination with hierarchical, mesh, and adaptive topologies
+  - Persistent HNSW-indexed AgentDB vector memory and self-learning components
+  - CLI, MCP server, hooks, daemon, and Claude Code plugin installation paths
+  - Multiple model providers including Claude, GPT, Gemini, Cohere, and Ollama
+  - Optional cross-installation agent federation with identity and PII controls
+
+usage:
+  interfaces:
+    - CLI
+    - MCP server
+    - Claude Code plugins
+    - web UI (beta)
+  installation:
+    - npx initializer
+    - npm global package
+    - Claude Code plugin marketplace
+    - Docker for selected web components
+  setup: moderate
+
+technology:
+  languages:
+    - TypeScript
+    - Rust
+  notable_components:
+    - Model Context Protocol
+    - AgentDB
+    - HNSW vector search
+    - Docker
+
+license:
+  spdx: MIT
+  name: MIT License
+  notes: Permissive license requiring preservation of copyright and license notices.
+
+status:
+  lifecycle: active
+  archived: false
+  latest_release: v3.32.8
+  latest_release_at: 2026-07-18
+
+strengths:
+  - Broad integration surface, from lightweight Claude Code plugins to a full CLI and MCP installation
+  - Combines agent roles, coordination, memory, and model routing in one project
+  - Supports both local workflows and self-hostable web components
+
+caveats:
+  - The plugin-only path deliberately omits the MCP server, hooks, and daemon supplied by the full CLI installation
+  - The included web UI is explicitly labeled beta
+  - The repository packages several products and plugins, so capabilities and setup vary by installation path
+  - Federation and multi-provider features introduce credentials and operational configuration beyond a basic CLI install
+
+sources:
+  - https://raw.githubusercontent.com/ruvnet/ruflo/12ede21767a6dd669df1b79392a5d27d9154f237/README.md
+  - https://raw.githubusercontent.com/ruvnet/ruflo/12ede21767a6dd669df1b79392a5d27d9154f237/package.json
+  - https://raw.githubusercontent.com/ruvnet/ruflo/12ede21767a6dd669df1b79392a5d27d9154f237/Cargo.toml
+  - https://raw.githubusercontent.com/ruvnet/ruflo/12ede21767a6dd669df1b79392a5d27d9154f237/LICENSE
+  - https://github.com/ruvnet/ruflo/releases.atom

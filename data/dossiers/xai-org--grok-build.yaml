@@ -1,0 +1,79 @@
+schema_version: 2
+repository_id: github:xai-org/grok-build
+research:
+  state: complete
+  source_commit: ba76b0a683fa52e4e60685017b85905451be17bc
+  bundle_collected_at: 2026-07-19T20:46:02.292Z
+  researched_at: 2026-07-20T18:11:27.176+02:00
+  confidence: medium
+classification:
+  primary_category: developer-tools
+  topics:
+    - coding-agents
+    - cli
+    - tui
+    - terminal
+    - codebase-search
+    - web-search
+    - sandboxing
+    - mcp
+    - agent-protocols
+    - agent-skills
+project:
+  name: grok-build
+  kind: cli
+  summary: >-
+    A Rust terminal coding agent distributed as the grok CLI and full-screen
+    TUI, with codebase-aware editing, shell execution, web search, long-running
+    task management, and interactive, scripted, or ACP editor-integrated modes.
+  best_for:
+    - Developers who prefer a terminal-first Grok coding-agent workflow
+    - Scripted or CI-adjacent agent tasks and editors that support the Agent Client Protocol
+key_features:
+  - Full-screen, mouse-interactive terminal UI
+  - Codebase-aware file editing and shell-command execution
+  - Web search and management of long-running tasks
+  - Headless mode for scripting and CI use
+  - Editor embedding through the Agent Client Protocol
+  - MCP servers, skills, plugins, hooks, and sandboxing documented in the bundled user guide
+usage:
+  interfaces:
+    - CLI
+    - full-screen TUI
+    - headless mode
+    - Agent Client Protocol integration
+  installation:
+    - official prebuilt binary installer
+    - build from Rust source
+  setup: moderate
+technology:
+  languages:
+    - Rust
+  notable_components:
+    - Agent Client Protocol
+    - DotSlash
+    - Protocol Buffers
+license:
+  spdx: Apache-2.0
+  name: Apache License 2.0
+  notes: First-party code is Apache-2.0; vendored and third-party code retains its original licenses.
+status:
+  lifecycle: active
+  archived: false
+  latest_release: null
+  latest_release_at: null
+strengths:
+  - Offers the same coding-agent workflow interactively, headlessly, and through ACP-compatible editors
+  - Keeps codebase operations, terminal execution, and web search in a terminal-focused interface
+  - Official installers are available for macOS, Linux, and Windows
+caveats:
+  - The retained GitHub release feed has no entries, so an exact current released version cannot be established from this research bundle
+  - The public source tree is periodically synced from an internal monorepo and does not accept external pull requests
+  - Source builds require Rust, DotSlash, and protoc; Windows source builds are best-effort and untested in this tree
+sources:
+  - https://raw.githubusercontent.com/xai-org/grok-build/ba76b0a683fa52e4e60685017b85905451be17bc/README.md
+  - https://raw.githubusercontent.com/xai-org/grok-build/ba76b0a683fa52e4e60685017b85905451be17bc/LICENSE
+  - https://raw.githubusercontent.com/xai-org/grok-build/ba76b0a683fa52e4e60685017b85905451be17bc/SECURITY.md
+  - https://raw.githubusercontent.com/xai-org/grok-build/ba76b0a683fa52e4e60685017b85905451be17bc/Cargo.toml
+  - https://raw.githubusercontent.com/xai-org/grok-build/ba76b0a683fa52e4e60685017b85905451be17bc/CONTRIBUTING.md
+  - https://github.com/xai-org/grok-build/releases.atom

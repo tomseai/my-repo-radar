@@ -1,0 +1,84 @@
+schema_version: 2
+repository_id: github:topoteretes/cognee
+research:
+  state: complete
+  source_commit: 6df1eda76adbcb1111d6d45ac084a4a3aef4f908
+  bundle_collected_at: 2026-07-19T20:45:43.869Z
+  researched_at: 2026-07-20T16:11:30.723Z
+  confidence: high
+classification:
+  primary_category: ai-and-automation
+  topics:
+    - ai-agents
+    - agent-memory
+    - agent-skills
+    - llms
+    - search
+    - self-hosted
+    - mcp
+    - cli
+    - web-ui
+    - codebase-indexing
+    - open-source
+project:
+  name: Cognee
+  kind: framework
+  summary: >-
+    An open-source AI-memory platform that ingests data into a self-hosted
+    knowledge graph and combines graph and vector retrieval for persistent
+    agent context.
+  best_for:
+    - Adding long-term memory and retrieval to AI agents
+    - Self-hosting an agent knowledge layer with a Python API, CLI, or MCP service
+key_features:
+  - Ingests data and builds an evolving knowledge graph with vector embeddings
+  - Provides remember, recall, forget, and improve operations for persistent and session memory
+  - Routes retrieval across graph, vector, and session-memory search strategies
+  - Offers a local UI, API service, CLI, and MCP server deployment modes
+  - Supports embedded local development and Postgres, graph, vector, and cache backends
+  - Includes Claude Code and OpenClaw integration paths
+usage:
+  interfaces:
+    - Python API
+    - CLI
+    - web UI
+    - HTTP API
+    - MCP server
+  installation:
+    - Python package via pip, uv, or Poetry
+    - Docker image or Docker Compose
+    - build from source
+  setup: moderate
+technology:
+  languages:
+    - Python
+    - TypeScript
+  notable_components:
+    - FastAPI
+    - Model Context Protocol
+    - Docker Compose
+    - Postgres and pgvector
+license:
+  spdx: Apache-2.0
+  name: Apache License 2.0
+  notes: >-
+    Permits commercial use, modification, and distribution; copies and
+    substantial derivative notices must retain the license and required notices.
+status:
+  lifecycle: active
+  archived: false
+  latest_release: v1.4.0
+  latest_release_at: 2026-07-17
+strengths:
+  - Combines persistent graph and vector retrieval rather than a single retrieval mechanism
+  - Exposes the memory layer through several local and service interfaces
+  - Supports both embedded development and scalable self-hosted deployments
+caveats:
+  - LLM-backed processing requires configuring an API key or another supported provider
+  - Docker-based UI and MCP workflows require a working OCI runtime
+  - Backend selection and access-control configuration add operational choices for production deployments
+sources:
+  - https://raw.githubusercontent.com/topoteretes/cognee/6df1eda76adbcb1111d6d45ac084a4a3aef4f908/README.md
+  - https://raw.githubusercontent.com/topoteretes/cognee/6df1eda76adbcb1111d6d45ac084a4a3aef4f908/LICENSE
+  - https://raw.githubusercontent.com/topoteretes/cognee/6df1eda76adbcb1111d6d45ac084a4a3aef4f908/pyproject.toml
+  - https://github.com/topoteretes/cognee/releases.atom

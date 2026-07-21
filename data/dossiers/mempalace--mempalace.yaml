@@ -1,0 +1,88 @@
+schema_version: 2
+repository_id: github:MemPalace/mempalace
+research:
+  state: complete
+  source_commit: 5cd961eef97c9a37b60c06a97c608d0a83e8ef10
+  bundle_collected_at: 2026-07-19T20:44:06.157Z
+  researched_at: 2026-07-20T17:41:07.234+02:00
+  confidence: high
+
+classification:
+  primary_category: ai-and-automation
+  topics:
+    - ai-agents
+    - agent-memory
+    - mcp
+    - cli
+    - local-first
+    - self-hosted
+    - databases
+
+project:
+  name: MemPalace
+  kind: application
+  summary: >-
+    A local-first, Python-based memory tool that mines project files and AI
+    conversations into verbatim searchable storage, exposes a CLI and MCP
+    server, and organizes scoped memories with pluggable retrieval backends.
+  best_for:
+    - Retaining and retrieving local coding-agent or conversation context without a required cloud API
+    - Developers who want searchable project and transcript memory with scoped storage boundaries
+
+key_features:
+  - Verbatim conversation and file storage without summary or paraphrase during core ingestion
+  - CLI commands to mine sources, search memories, and load context for a new session
+  - MCP server with tools for memory, graph, navigation, drawer, and agent-diary operations
+  - Structured wings, rooms, and drawers for scoped retrieval rather than a flat corpus
+  - Pluggable storage backends including embedded ChromaDB and optional Milvus, Qdrant, and pgvector
+  - Local SQLite-backed temporal entity-relationship graph and integrations for editor hooks
+
+usage:
+  interfaces:
+    - CLI
+    - MCP stdio server
+    - Python package
+    - Docker container
+  installation:
+    - uv tool install mempalace
+    - pipx install mempalace
+    - pip install mempalace in a virtual environment
+    - Docker build and run
+  setup: moderate
+
+technology:
+  languages:
+    - Python
+  notable_components:
+    - ChromaDB
+    - SQLite
+    - Model Context Protocol
+    - Docker
+
+license:
+  spdx: MIT
+  name: MIT License
+  notes: Permissive license requiring preservation of the copyright and permission notice; provided without warranty.
+
+status:
+  lifecycle: active
+  archived: false
+  latest_release: v3.6.0
+  latest_release_at: 2026-07-17
+
+strengths:
+  - Core local semantic search and storage do not require an API key or external model service
+  - Supports both direct terminal use and reusable MCP-client integration
+  - Makes retrieval boundaries explicit through its palace, wing, room, and drawer model
+
+caveats:
+  - The default embedding model is downloaded on first use and requires roughly 300 MB of disk space
+  - Non-default backends and GPU acceleration add installation and operational dependencies
+  - Optional full reranking requires a separately configured LLM; the baseline retrieval path remains local
+  - Hook-based IDE integrations require separate configuration and depend on each client's lifecycle support
+
+sources:
+  - https://raw.githubusercontent.com/MemPalace/mempalace/5cd961eef97c9a37b60c06a97c608d0a83e8ef10/README.md
+  - https://raw.githubusercontent.com/MemPalace/mempalace/5cd961eef97c9a37b60c06a97c608d0a83e8ef10/LICENSE
+  - https://raw.githubusercontent.com/MemPalace/mempalace/5cd961eef97c9a37b60c06a97c608d0a83e8ef10/pyproject.toml
+  - https://github.com/MemPalace/mempalace/releases.atom

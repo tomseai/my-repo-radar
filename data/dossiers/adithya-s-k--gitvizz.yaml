@@ -1,0 +1,80 @@
+schema_version: 2
+repository_id: github:adithya-s-k/GitVizz
+research:
+  state: complete
+  source_commit: 1869369b6af0878f136d758cd756666360438f58
+  bundle_collected_at: 2026-07-19T20:41:25.220Z
+  researched_at: 2026-07-19T22:20:59.775Z
+  confidence: medium
+classification:
+  primary_category: developer-tools
+  topics:
+    - git
+    - codebase-indexing
+    - codebase-search
+    - visualization
+    - llms
+    - web-ui
+    - observability
+project:
+  name: GitVizz
+  kind: application
+  summary: >-
+    A web application for exploring GitHub repositories through dependency
+    graphs, code navigation, LLM-assisted repository chat, and generated documentation.
+  best_for:
+    - Developers onboarding to, reviewing, or investigating an unfamiliar GitHub codebase
+    - Teams that want visual code relationships and LLM context-building alongside a repository browser
+key_features:
+  - Interactive dependency graphs with search, highlighting, and code-relationship navigation
+  - Context-aware repository chat backed by configurable LLM providers
+  - LLM context builder and automatic documentation generation for repository analysis
+  - Syntax-highlighted code viewer and repository structure views
+  - Standalone Python library for AST-based dependency-graph generation
+usage:
+  interfaces:
+    - web UI
+    - Docker Compose deployment
+    - Python library
+  installation:
+    - Docker Compose
+    - Manual Python and pnpm setup
+    - pip install from the Git repository subdirectory
+  setup: high
+technology:
+  languages:
+    - TypeScript
+    - Python
+  notable_components:
+    - Next.js
+    - FastAPI
+    - Docker Compose
+    - MongoDB
+    - Tree-sitter
+    - Arize Phoenix
+license:
+  spdx: null
+  name: Component-specific AGPL-3.0 and Apache-2.0/MIT declarations
+  notes: >-
+    The README assigns AGPL-3.0 to the frontend and backend applications; it
+    assigns Apache-2.0 to the GitVizz core library, whose pyproject also declares MIT.
+status:
+  lifecycle: active
+  archived: false
+  latest_release: null
+  latest_release_at: null
+strengths:
+  - Combines graph exploration, code viewing, repository chat, and documentation in one workflow
+  - Can run locally with containers while retaining a reusable Python graph-analysis library
+  - Supports several LLM providers and includes Phoenix tracing for model-powered workflows
+caveats:
+  - Local deployment requires multiple configuration files; AI features require at least one LLM API key, while MongoDB is documented as optional
+  - The cached GitHub releases feed contains no entries, so no primary-project release can be established
+  - Licensing is component-specific, and the README's Apache-2.0 core-library statement conflicts with that library's MIT pyproject declaration
+sources:
+  - https://raw.githubusercontent.com/adithya-s-k/GitVizz/1869369b6af0878f136d758cd756666360438f58/README.md
+  - https://raw.githubusercontent.com/adithya-s-k/GitVizz/1869369b6af0878f136d758cd756666360438f58/docker-compose.yaml
+  - https://raw.githubusercontent.com/adithya-s-k/GitVizz/1869369b6af0878f136d758cd756666360438f58/backend/pyproject.toml
+  - https://raw.githubusercontent.com/adithya-s-k/GitVizz/1869369b6af0878f136d758cd756666360438f58/frontend/package.json
+  - https://raw.githubusercontent.com/adithya-s-k/GitVizz/1869369b6af0878f136d758cd756666360438f58/gitvizz/pyproject.toml
+  - https://github.com/adithya-s-k/GitVizz/releases.atom

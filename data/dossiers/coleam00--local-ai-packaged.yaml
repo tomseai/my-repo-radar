@@ -1,0 +1,79 @@
+schema_version: 2
+repository_id: github:coleam00/local-ai-packaged
+research:
+  state: complete
+  source_commit: 2c541913c0f97d7e2e4de3ee7e3f790fc63ce613
+  bundle_collected_at: 2026-07-19T20:42:18.378Z
+  researched_at: 2026-07-20T17:12:30.5983166+02:00
+  confidence: high
+classification:
+  primary_category: ai-and-automation
+  topics:
+    - llms
+    - ai-agents
+    - automation
+    - self-hosted
+    - local-models
+    - containers
+    - observability
+project:
+  name: local-ai-packaged
+  kind: starter-template
+  summary: >-
+    A Docker Compose starter template for assembling a self-hosted local-AI and
+    low-code environment around Ollama, n8n, Open WebUI, Supabase, and related
+    data, search, graph, proxy, and observability services.
+  best_for:
+    - Developers prototyping self-hosted AI workflows with local models
+    - Teams willing to operate a multi-service stack and configure its secrets
+key_features:
+  - Combines Ollama, n8n, Open WebUI, Supabase, Qdrant, Neo4j, Flowise, SearXNG, Caddy, and Langfuse in one Compose configuration
+  - Includes pre-built n8n RAG-agent workflows and instructions for connecting them to Open WebUI
+  - Offers CPU, NVIDIA GPU, and AMD GPU Compose profiles for the Ollama service
+  - Supports a public deployment mode that closes all ports except HTTP and HTTPS
+usage:
+  interfaces:
+    - Docker Compose services
+    - n8n web interface
+    - Open WebUI web interface
+  installation:
+    - Clone the repository's stable branch
+    - Configure a .env file and start services with the Python helper script
+    - Docker Desktop or Docker Engine with an appropriate CPU or GPU profile
+  setup: high
+technology:
+  languages:
+    - Python
+    - YAML
+  notable_components:
+    - Docker Compose
+    - Ollama
+    - n8n
+    - Supabase
+    - Open WebUI
+    - Langfuse
+license:
+  spdx: Apache-2.0
+  name: Apache License 2.0
+  notes: >-
+    Apache-2.0 applies to this repository's code and configuration; the
+    configured container images and upstream services have their own licenses.
+status:
+  lifecycle: active
+  archived: false
+  latest_release: null
+  latest_release_at: null
+strengths:
+  - Brings local models, automation, data stores, search, graph data, and observability into a single self-hosted template
+  - Provides distinct CPU, NVIDIA GPU, and AMD GPU startup profiles
+  - Includes a public-facing deployment mode and Caddy for HTTPS-oriented deployments
+caveats:
+  - The README describes the stack as a proof-of-concept starter kit that is not fully optimized for production environments
+  - Setup requires Docker, Python, a cloned configuration, and numerous secret environment variables
+  - The cached release feed contains only management-ui-v1, which does not establish a release for the primary starter template
+  - Public deployment requires careful network and secret configuration; the README notes Docker-published ports can bypass UFW rules
+sources:
+  - https://raw.githubusercontent.com/coleam00/local-ai-packaged/2c541913c0f97d7e2e4de3ee7e3f790fc63ce613/README.md
+  - https://raw.githubusercontent.com/coleam00/local-ai-packaged/2c541913c0f97d7e2e4de3ee7e3f790fc63ce613/LICENSE
+  - https://raw.githubusercontent.com/coleam00/local-ai-packaged/2c541913c0f97d7e2e4de3ee7e3f790fc63ce613/docker-compose.yml
+  - https://github.com/coleam00/local-ai-packaged/releases.atom

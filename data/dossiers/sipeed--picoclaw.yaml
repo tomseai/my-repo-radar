@@ -1,0 +1,82 @@
+schema_version: 2
+repository_id: github:sipeed/picoclaw
+research:
+  state: complete
+  source_commit: 85dcfccad66dd0dca0ec9765976b665d8ebf7191
+  bundle_collected_at: 2026-07-19T20:45:20.199Z
+  researched_at: 2026-07-20T18:01:22.8375840+02:00
+  confidence: high
+classification:
+  primary_category: ai-and-automation
+  topics:
+    - ai-agents
+    - agent-skills
+    - automation
+    - cli
+    - mcp
+    - multimodal
+    - model-routing
+    - self-hosted
+    - web-ui
+project:
+  name: PicoClaw
+  kind: application
+  summary: >-
+    A Go-based AI-agent application distributed as a small cross-architecture
+    binary, with a command-line interface, browser-based launcher, chat
+    gateway, MCP tools, skills, schedules, and configurable LLM providers.
+  best_for:
+    - Running an AI assistant on resource-constrained Linux, ARM, RISC-V, MIPS, or x86 hardware
+    - Self-hosted personal automation that needs MCP tools, skills, schedules, or chat-channel access
+key_features:
+  - Single-binary deployment for several CPU architectures
+  - CLI, interactive mode, and a browser-based WebUI launcher
+  - Native MCP server configuration and management commands
+  - Workspace skills loaded from SKILL.md files
+  - Scheduled reminders and recurring cron-based tasks
+  - Multimodal image and file input plus rule-based model routing
+usage:
+  interfaces:
+    - CLI
+    - interactive terminal mode
+    - browser-based WebUI launcher
+    - chat-app gateway
+  installation:
+    - platform-specific precompiled binary
+    - source build with Go and Make
+    - Docker Compose deployment
+  setup: moderate
+technology:
+  languages:
+    - Go
+    - TypeScript
+  notable_components:
+    - Model Context Protocol Go SDK
+    - Cobra CLI
+    - Docker Compose
+    - WebUI frontend
+license:
+  spdx: MIT
+  name: MIT License
+  notes: Permissive license requiring preservation of copyright and license notices.
+status:
+  lifecycle: active
+  archived: false
+  latest_release: v0.3.1
+  latest_release_at: 2026-07-03
+strengths:
+  - Offers low-footprint binary deployment across a wide range of hardware architectures
+  - Combines interactive chat, scheduled automation, skills, MCP, and provider routing in one application
+  - Provides binary, source, Docker, desktop WebUI, and chat-gateway entry points
+caveats:
+  - Agent operation requires configuring an LLM provider and suitable credentials
+  - Building the WebUI launcher from source adds Node.js and pnpm requirements beyond Go
+  - Remote gateway and Docker deployments need deliberate host-binding and access-control configuration
+  - Published footprint and startup figures are project benchmarks and may vary with build and workload
+sources:
+  - https://raw.githubusercontent.com/sipeed/picoclaw/85dcfccad66dd0dca0ec9765976b665d8ebf7191/README.md
+  - https://raw.githubusercontent.com/sipeed/picoclaw/85dcfccad66dd0dca0ec9765976b665d8ebf7191/LICENSE
+  - https://raw.githubusercontent.com/sipeed/picoclaw/85dcfccad66dd0dca0ec9765976b665d8ebf7191/go.mod
+  - https://raw.githubusercontent.com/sipeed/picoclaw/85dcfccad66dd0dca0ec9765976b665d8ebf7191/docker/docker-compose.yml
+  - https://raw.githubusercontent.com/sipeed/picoclaw/85dcfccad66dd0dca0ec9765976b665d8ebf7191/docs/guides/configuration.md
+  - https://github.com/sipeed/picoclaw/releases.atom

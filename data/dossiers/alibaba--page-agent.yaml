@@ -1,0 +1,77 @@
+schema_version: 2
+repository_id: github:alibaba/page-agent
+research:
+  state: complete
+  source_commit: da1db959558dcd49a6c489e76a23accfbda7b156
+  bundle_collected_at: 2026-07-19T20:41:36.593Z
+  researched_at: 2026-07-20T00:40:00+02:00
+  confidence: high
+classification:
+  primary_category: ai-and-automation
+  topics:
+    - ai-agents
+    - browser-automation
+    - web
+    - tool-use
+    - mcp
+project:
+  name: Page Agent
+  kind: library
+  summary: >-
+    A TypeScript library for embedding an AI GUI agent into a web page, where
+    a configured language model performs text-based DOM interactions through
+    the in-page PageAgent API rather than a headless browser or backend service.
+  best_for:
+    - Web applications adding an in-page natural-language copilot or form-filling flow
+    - Developers who need DOM-based interaction with their own configured language-model provider
+key_features:
+  - Adds an agent with a script tag or the published page-agent npm package
+  - Executes natural-language tasks through text-based DOM manipulation without screenshots
+  - Supports configured mainstream or locally deployed language models
+  - Offers an optional Chrome extension for multi-page tasks
+  - Includes a beta MCP server for controlling the browser through the extension
+usage:
+  interfaces:
+    - embeddable web panel
+    - JavaScript API
+    - Chrome extension
+    - MCP server
+  installation:
+    - npm install page-agent
+    - IIFE script from a CDN
+    - build from source with npm workspaces
+  setup: moderate
+technology:
+  languages:
+    - TypeScript
+  notable_components:
+    - npm workspaces
+    - PageAgent DOM controller
+    - Chrome extension
+    - Model Context Protocol server
+license:
+  spdx: MIT
+  name: MIT License
+  notes: >-
+    Permissive license that requires retaining the copyright and permission
+    notice in copies or substantial portions; the software is supplied without warranty.
+status:
+  lifecycle: active
+  archived: false
+  latest_release: v1.12.2
+  latest_release_at: 2026-07-16
+strengths:
+  - Fits into an existing web page without requiring a headless browser or a server-side automation rewrite
+  - Supports both a lightweight in-page integration and optional multi-page or MCP extension paths
+  - Separates published agent, core, DOM-controller, LLM-client, and UI packages in a documented monorepo
+caveats:
+  - The core project is designed for client-side web enhancement, not server-side automation
+  - An LLM provider configuration and its credentials, terms, and usage costs remain the integrator’s responsibility
+  - The bundled demo LLM API is for technical evaluation only and is subject to separate terms
+  - Multi-page tasks and the MCP server depend on the optional browser extension; the MCP server is marked beta
+sources:
+  - https://raw.githubusercontent.com/alibaba/page-agent/da1db959558dcd49a6c489e76a23accfbda7b156/README.md
+  - https://raw.githubusercontent.com/alibaba/page-agent/da1db959558dcd49a6c489e76a23accfbda7b156/LICENSE
+  - https://raw.githubusercontent.com/alibaba/page-agent/da1db959558dcd49a6c489e76a23accfbda7b156/package.json
+  - https://raw.githubusercontent.com/alibaba/page-agent/da1db959558dcd49a6c489e76a23accfbda7b156/docs/developer-guide.md
+  - https://github.com/alibaba/page-agent/releases.atom

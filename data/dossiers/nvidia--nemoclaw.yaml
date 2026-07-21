@@ -1,0 +1,75 @@
+schema_version: 2
+repository_id: github:NVIDIA/NemoClaw
+research:
+  state: complete
+  source_commit: 3c4ea5a1e3c37ae6688399b823258e1c31790fd2
+  bundle_collected_at: 2026-07-19T20:44:28.698Z
+  researched_at: 2026-07-20T17:51:56.4547025+02:00
+  confidence: high
+classification:
+  primary_category: security-and-privacy
+  topics:
+    - ai-agents
+    - agent-harnesses
+    - sandboxing
+    - security
+    - policy-enforcement
+    - self-hosted
+    - cli
+project:
+  name: NVIDIA NemoClaw
+  kind: framework
+  summary: >-
+    An alpha reference stack and CLI for operating selected always-on AI agents
+    in NVIDIA OpenShell sandboxes, combining guided onboarding, inference
+    routing, declarative network policy, and sandbox lifecycle management.
+  best_for:
+    - Teams that need a reference deployment pattern for constrained always-on agents
+    - Operators running supported agents with OpenShell sandbox and egress controls
+key_features:
+  - Creates an OpenShell sandbox configured for the selected supported agent
+  - Routes model traffic through OpenShell while keeping credentials on the host
+  - Applies declarative egress rules and asks the operator to approve unknown hosts
+  - Manages versioned blueprints, digest verification, and sandbox setup
+  - Supports OpenClaw, Hermes, and LangChain Deep Agents Code
+usage:
+  interfaces:
+    - command-line interface
+    - terminal
+  installation:
+    - Interactive terminal installer after reviewing the documented prerequisites
+    - Source checkout with the repository development-setup script for contributors
+  setup: moderate
+technology:
+  languages:
+    - TypeScript
+    - Python
+  notable_components:
+    - NVIDIA OpenShell
+    - Docker
+    - OpenShell inference gateway
+license:
+  spdx: Apache-2.0
+  name: Apache License 2.0
+  notes: >-
+    Permissive license with notice, license-copy, and modified-file notice
+    obligations for redistributed derivative works; it includes a patent grant.
+status:
+  lifecycle: experimental
+  archived: false
+  latest_release: v0.0.88
+  latest_release_at: 2026-07-18
+strengths:
+  - Combines sandboxing, inference routing, egress policy, and lifecycle management in one reference stack
+  - Documents host-held credentials and operator approval for previously unknown network destinations
+  - Provides guided paths for three supported agent runtimes
+caveats:
+  - Maintainers label NemoClaw alpha and offer best-effort community response without guaranteed timelines
+  - The retained documentation scopes the stack to OpenShell and its supported agent runtimes
+  - Retrieved external materials are governed by their own terms and users must assess their security and suitability
+sources:
+  - https://raw.githubusercontent.com/NVIDIA/NemoClaw/3c4ea5a1e3c37ae6688399b823258e1c31790fd2/README.md
+  - https://raw.githubusercontent.com/NVIDIA/NemoClaw/3c4ea5a1e3c37ae6688399b823258e1c31790fd2/docs/about/overview.mdx
+  - https://raw.githubusercontent.com/NVIDIA/NemoClaw/3c4ea5a1e3c37ae6688399b823258e1c31790fd2/package.json
+  - https://raw.githubusercontent.com/NVIDIA/NemoClaw/3c4ea5a1e3c37ae6688399b823258e1c31790fd2/LICENSE
+  - https://github.com/NVIDIA/NemoClaw/releases.atom

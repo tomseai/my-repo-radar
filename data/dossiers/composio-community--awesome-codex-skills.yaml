@@ -1,0 +1,77 @@
+schema_version: 2
+repository_id: github:composio-community/awesome-codex-skills
+research:
+  state: complete
+  source_commit: 9c9da64cf1bbea611d43dd14a10788d55369b353
+  bundle_collected_at: 2026-07-19T20:42:20.004Z
+  researched_at: 2026-07-20T17:12:10.580+02:00
+  confidence: medium
+classification:
+  primary_category: documentation-and-learning
+  topics:
+    - ai-agents
+    - coding-agents
+    - agent-skills
+    - automation
+    - curated-lists
+    - reference
+project:
+  name: Awesome Codex Skills
+  kind: curated-list
+  summary: >-
+    A curated collection of in-repository and external Codex skill references,
+    with installation guidance for adding selected skills to a local Codex setup.
+  best_for:
+    - Discovering reusable Codex skills across development, collaboration, writing, data, and utility tasks
+    - Installing a selected in-repository skill through the documented installer or a manual folder copy
+key_features:
+  - Categorized references for development, productivity, communication, data, and utility skills
+  - Quickstart instructions for a GitHub-based installer that copies a selected skill into CODEX_HOME
+  - Manual-install instructions and a description of the required SKILL.md metadata layout
+  - Links to both bundled skill folders and independently maintained external skill repositories
+  - References to optional Composio CLI connection skills for workflows involving external apps
+usage:
+  interfaces:
+    - Markdown directory
+    - GitHub repository
+    - Local Codex skills directory
+  installation:
+    - Run the documented Python skill-installer command for a selected path
+    - Copy a selected skill folder into CODEX_HOME/skills and restart Codex
+    - Follow external repository-specific installation directions where listed
+  setup: low
+technology:
+  languages:
+    - Python
+  notable_components:
+    - SKILL.md instruction bundles
+    - GitHub-path skill installer scripts
+    - Categorized skill index
+    - Optional Composio CLI connection guides
+license:
+  spdx: null
+  name: Repository-wide license not established
+  notes: >-
+    No repository-root license file is present in the retained commit tree.
+    Some individual skill folders contain LICENSE.txt files, but their terms
+    and scope were not collected; repository-wide reuse rights are unknown.
+status:
+  lifecycle: active
+  archived: false
+  latest_release: null
+  latest_release_at: null
+strengths:
+  - Gives practical installation and discovery guidance rather than only a list of skill names
+  - Separates skill references into task-oriented sections that support targeted browsing
+  - Makes the distinction between local bundled folders and external repositories visible through links
+caveats:
+  - Many listed skills and all linked external repositories have their own maintainers, requirements, and trust boundaries
+  - External-app workflows can require separate accounts, credentials, or Composio CLI connections
+  - A root license is not established by the retained sources, and per-skill license terms may differ
+  - The cached releases feed has no entries, so no latest versioned release can be established
+sources:
+  - https://raw.githubusercontent.com/composio-community/awesome-codex-skills/9c9da64cf1bbea611d43dd14a10788d55369b353/README.md
+  - https://raw.githubusercontent.com/composio-community/awesome-codex-skills/9c9da64cf1bbea611d43dd14a10788d55369b353/slack-gif-creator/requirements.txt
+  - https://raw.githubusercontent.com/composio-community/awesome-codex-skills/9c9da64cf1bbea611d43dd14a10788d55369b353/mcp-builder/scripts/requirements.txt
+  - https://github.com/composio-community/awesome-codex-skills/tree/9c9da64cf1bbea611d43dd14a10788d55369b353
+  - https://github.com/composio-community/awesome-codex-skills/releases.atom

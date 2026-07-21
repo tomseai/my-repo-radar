@@ -1,0 +1,79 @@
+schema_version: 2
+repository_id: github:travisvn/awesome-claude-skills
+research:
+  state: complete
+  source_commit: 1da55aa810f206d3fe2005e7e3989b15a275d942
+  bundle_collected_at: 2026-07-19T20:45:40.150Z
+  researched_at: 2026-07-20T16:11:19.267Z
+  confidence: high
+
+classification:
+  primary_category: documentation-and-learning
+  topics:
+    - ai-agents
+    - agent-skills
+    - llms
+    - cli
+    - mcp
+    - documentation
+    - curated-lists
+
+project:
+  name: Awesome Claude Skills
+  kind: curated-list
+  summary: >-
+    A curated reference to official and community Claude Skills, skill-authoring
+    guidance, related tools, and documentation for customizing Claude workflows.
+  best_for:
+    - Discovering reusable skills for Claude Code or Claude.ai workflows
+    - Learning the expected structure and distribution options for a custom skill
+
+key_features:
+  - Lists official skills for document work, creative tasks, development, and communication
+  - Catalogs community skill collections, individual skills, and supporting tools
+  - Explains progressive disclosure and the folder-based skill structure
+  - Provides Claude Code marketplace and local-directory installation examples
+  - Links to official documentation, tutorials, and skill-related comparisons
+  - Publishes contribution and quality guidelines for submitted entries
+
+usage:
+  interfaces:
+    - web-based Markdown reference
+  installation:
+    - browse the repository
+  setup: low
+
+technology:
+  languages: []
+  notable_components:
+    - Claude Skills
+    - Claude Code
+    - Model Context Protocol
+
+license:
+  spdx: NOASSERTION
+  name: No license identified
+  notes: >-
+    No license file appears in the complete retained tree, and the retained GitHub
+    metadata does not identify a license.
+
+status:
+  lifecycle: active
+  archived: false
+  latest_release: null
+  latest_release_at: null
+
+strengths:
+  - Combines official resources with a practical community discovery list
+  - Includes both adoption guidance and an authoring walkthrough
+  - Maintains explicit contribution criteria for list quality
+
+caveats:
+  - This is a reference list, not a packaged collection of skills to install as one unit
+  - Community skills can execute code; review their instructions and bundled scripts before enabling them
+  - Entries, availability, and Claude product behavior can change independently of this list
+  - Reuse terms are not established by the retained repository evidence
+
+sources:
+  - https://raw.githubusercontent.com/travisvn/awesome-claude-skills/1da55aa810f206d3fe2005e7e3989b15a275d942/README.md
+  - https://raw.githubusercontent.com/travisvn/awesome-claude-skills/1da55aa810f206d3fe2005e7e3989b15a275d942/CONTRIBUTING.md

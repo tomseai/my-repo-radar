@@ -1,0 +1,85 @@
+schema_version: 2
+repository_id: github:SouthBridgeAI/offmute
+
+research:
+  state: complete
+  source_commit: e2c7c2f93883249cdf48a20b6035bf765e93a133
+  bundle_collected_at: 2026-07-19T20:45:17.932Z
+  researched_at: 2026-07-20T00:00:00Z
+  confidence: high
+
+classification:
+  primary_category: ai-and-automation
+  topics:
+    - llms
+    - cli
+    - speech-to-text
+    - multimodal
+    - automation
+    - open-source
+
+project:
+  name: offmute
+  kind: cli
+  summary: >-
+    A TypeScript CLI and package that uses Google Gemini models to analyze
+    meeting audio or video, produce speaker-labeled transcripts, and
+    optionally generate structured reports with meeting context and action items.
+  best_for:
+    - Processing recorded meetings into transcripts and reports
+    - Teams that can supply a Google Gemini API key and local ffmpeg
+
+key_features:
+  - Transcribes audio or video while attempting speaker diarization
+  - Extracts video screenshots for visual meeting analysis
+  - Generates Markdown transcripts and optional structured meeting reports
+  - Chunks long recordings and provides incremental output progress
+  - Supports Pro, Flash, and Flash Lite Gemini model selections
+  - Exposes transcription, description, and report functions as a package
+
+usage:
+  interfaces:
+    - CLI
+    - TypeScript package
+  installation:
+    - npx offmute
+    - npm install offmute
+  setup: moderate
+
+technology:
+  languages:
+    - TypeScript
+  notable_components:
+    - Google Generative AI SDK
+    - ffmpeg
+    - Commander
+
+license:
+  spdx: Apache-2.0
+  name: Apache License 2.0
+  notes: >-
+    Permissive license with notice-retention requirements and the standard
+    Apache patent-license termination condition for patent litigation.
+
+status:
+  lifecycle: unknown
+  archived: false
+  latest_release: null
+  latest_release_at: null
+
+strengths:
+  - Covers transcription, diarization, visual analysis, and report generation
+  - Offers both one-command use and programmatic TypeScript functions
+  - Provides model choices to trade off quality, speed, and cost
+
+caveats:
+  - Requires Node.js, ffmpeg, and a Google Gemini API key
+  - Speaker identification and generated analysis are model-assisted outputs
+  - The retained GitHub release feed has no release entries
+  - The bundle does not establish a current maintenance or support policy
+
+sources:
+  - https://raw.githubusercontent.com/SouthBridgeAI/offmute/e2c7c2f93883249cdf48a20b6035bf765e93a133/README.md
+  - https://raw.githubusercontent.com/SouthBridgeAI/offmute/e2c7c2f93883249cdf48a20b6035bf765e93a133/package.json
+  - https://raw.githubusercontent.com/SouthBridgeAI/offmute/e2c7c2f93883249cdf48a20b6035bf765e93a133/LICENSE
+  - https://github.com/SouthBridgeAI/offmute/releases.atom

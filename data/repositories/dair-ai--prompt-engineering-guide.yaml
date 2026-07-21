@@ -1,0 +1,77 @@
+analysis:
+  analyzed_at: "2026-07-19T19:29:23.939Z"
+  classification:
+    primary_category: "documentation-and-learning"
+    state: "provisional"
+    technologies: []
+    topics:
+      - "llms"
+      - "ai-agents"
+      - "machine-learning"
+    use_cases:
+      - "learn-and-reference"
+      - "build-ai-products"
+  evidence:
+    - claim: "Prompt Engineering Guide is a collection of papers, learning guides, lectures, references, and tools for prompt engineering with language models, including related context engineering, RAG, and AI-agent learning resources."
+      source_type: "repository-file"
+      url: "https://github.com/dair-ai/Prompt-Engineering-Guide/blob/main/README.md"
+      checked_at: "2026-07-19"
+      confidence: "high"
+  state: "researched"
+  summary:
+    one_line: "A learning guide and resource collection for prompt engineering with language models."
+    why_useful: "It provides references for understanding prompt techniques, language-model capabilities, and related RAG and agent concepts."
+curation:
+  confidence: null
+  evidence: []
+  limitations: []
+  recommendation: null
+  reviewed_at: null
+  state: "uncurated"
+  strengths: []
+  verdict: null
+id: "github:dair-ai/Prompt-Engineering-Guide"
+import:
+  github_snapshot:
+    archived: false
+    created_at: "2022-12-16T16:04:50Z"
+    default_branch: "main"
+    description: "🐙 Guides, papers, lessons, notebooks and resources for prompt engineering, context engineering, RAG, and AI Agents."
+    disabled: false
+    fetched_at: "2026-07-19T19:16:14.796Z"
+    fork: false
+    forks: 8431
+    homepage: "https://www.promptingguide.ai/"
+    latest_release: null
+    license_spdx: "MIT"
+    open_issues: 275
+    primary_language: "MDX"
+    pushed_at: "2026-03-11T20:09:13Z"
+    stars: 76743
+    topics:
+      - "agent"
+      - "agents"
+      - "ai-agents"
+      - "chatgpt"
+      - "deep-learning"
+      - "generative-ai"
+      - "language-model"
+      - "llms"
+      - "openai"
+      - "prompt-engineering"
+      - "rag"
+    updated_at: "2026-07-19T18:58:24Z"
+  sources:
+    - observed_at: "2026-07-19T16:06:06Z"
+      relation: "starred"
+      source_id: "github:user:tomseai:stars"
+      source_url: "https://github.com/tomseai?tab=stars"
+  state: "imported"
+repository:
+  aliases: []
+  github_node_id: "R_kgDOIoQaOg"
+  host: "github.com"
+  name: "Prompt-Engineering-Guide"
+  owner: "dair-ai"
+  url: "https://github.com/dair-ai/Prompt-Engineering-Guide"
+version: 1

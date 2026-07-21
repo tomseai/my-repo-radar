@@ -1,0 +1,85 @@
+schema_version: 2
+repository_id: github:openai/openai-cookbook
+
+research:
+  state: complete
+  source_commit: 9fa55b8cecba8c9c543d11f2cf08339a29112be7
+  bundle_collected_at: 2026-07-19T20:44:35.840Z
+  researched_at: 2026-07-20T15:51:21.906Z
+  confidence: high
+
+classification:
+  primary_category: documentation-and-learning
+  topics:
+    - documentation
+    - tutorials
+    - reference
+    - llms
+    - api-development
+
+project:
+  name: OpenAI Cookbook
+  kind: documentation
+  summary: >-
+    An OpenAI-maintained collection of example code and guides for common
+    OpenAI API tasks, published as a browsable Cookbook and repository, with
+    most examples written in Python.
+  best_for:
+    - Developers looking for concrete OpenAI API implementation patterns
+    - Learners who want runnable examples before adapting concepts to another language
+
+key_features:
+  - Example code and guides for common OpenAI API tasks
+  - A browsable cookbook.openai.com documentation experience
+  - Python-first examples whose concepts are intended to transfer to other languages
+  - Instructions for supplying OPENAI_API_KEY through an environment variable or .env file
+  - Community-resource contribution guidance
+
+usage:
+  interfaces:
+    - website documentation
+    - repository files
+    - Jupyter notebooks
+  installation:
+    - browse cookbook.openai.com
+    - run an individual example after configuring OPENAI_API_KEY
+  setup: moderate
+
+technology:
+  languages:
+    - Python
+    - Jupyter Notebook
+  notable_components:
+    - OpenAI API
+    - environment-variable configuration
+    - individual example dependencies
+
+license:
+  spdx: MIT
+  name: MIT License
+  notes: >-
+    The root repository license is MIT, permitting use, modification, and
+    distribution when the copyright and permission notice are retained; it
+    disclaims warranties.
+
+status:
+  lifecycle: active
+  archived: false
+  latest_release: null
+  latest_release_at: null
+
+strengths:
+  - Official examples pair task-oriented guidance with code
+  - The web cookbook makes the collection accessible without a package install
+  - Python examples state that their underlying concepts can be applied in other languages
+
+caveats:
+  - Running examples requires an OpenAI account, an associated API key, and OPENAI_API_KEY configuration
+  - Most examples are Python, so other-language users must translate the implementation details
+  - The retained release feed contains no entries, so no project release can be established from this bundle
+
+sources:
+  - https://raw.githubusercontent.com/openai/openai-cookbook/9fa55b8cecba8c9c543d11f2cf08339a29112be7/README.md
+  - https://raw.githubusercontent.com/openai/openai-cookbook/9fa55b8cecba8c9c543d11f2cf08339a29112be7/LICENSE
+  - https://raw.githubusercontent.com/openai/openai-cookbook/9fa55b8cecba8c9c543d11f2cf08339a29112be7/CONTRIBUTING.md
+  - https://github.com/openai/openai-cookbook/releases.atom

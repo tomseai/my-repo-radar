@@ -1,0 +1,28 @@
+{
+  "name": "my-repo-radar",
+  "version": "0.1.0",
+  "private": true,
+  "license": "Apache-2.0",
+  "type": "module",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "collect:research": "npm run build && node dist/scripts/collect-research.js",
+    "generate": "npm run build && node dist/scripts/generate-catalog.js && node dist/scripts/generate-pages.js",
+    "check:generated": "npm run build && node dist/scripts/generate-catalog.js --check && node dist/scripts/generate-pages.js --check",
+    "import:stars": "npm run build && node dist/scripts/import-stars.js",
+    "migrate:topics": "npm run build && node dist/scripts/migrate-topic-aliases.js",
+    "prefill:dossiers": "npm run build && node dist/scripts/prefill-dossiers.js",
+    "test": "npm run build && node --test dist/scripts/**/*.test.js",
+    "validate": "npm run build && node dist/scripts/validate.js && node dist/scripts/validate-dossiers.js && node dist/scripts/generate-catalog.js --check && node dist/scripts/generate-pages.js --check",
+    "validate:dossiers": "npm run build && node dist/scripts/validate-dossiers.js"
+  },
+  "dependencies": {
+    "ajv": "^8.17.1",
+    "ajv-formats": "^3.0.1",
+    "yaml": "^2.8.1"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "typescript": "^5.0.0"
+  }
+}

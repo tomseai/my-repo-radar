@@ -1,0 +1,90 @@
+schema_version: 2
+repository_id: github:openchamber/openchamber
+research:
+  state: complete
+  source_commit: 24a41710279aa2b6afb7fcfa6404bc93b9be0281
+  bundle_collected_at: 2026-07-19T20:44:38.507Z
+  researched_at: 2026-07-20T15:52:01.160Z
+  confidence: high
+classification:
+  primary_category: developer-tools
+  topics:
+    - coding-agents
+    - ai-agents
+    - desktop-app
+    - web-ui
+    - cli
+    - git
+
+project:
+  name: OpenChamber
+  kind: application
+  summary: >-
+    A cross-device interface for OpenCode coding-agent sessions, with desktop,
+    mobile-first web/PWA, CLI, and VS Code experiences plus Git-aware and
+    multi-agent workflows.
+  best_for:
+    - Developers who want a visual, remote, or cross-device way to use OpenCode
+    - Teams comparing parallel coding-agent runs in isolated Git worktrees
+
+key_features:
+  - Branchable chat timelines with undo, redo, and forks from earlier turns
+  - Multi-agent runs in isolated worktrees for side-by-side comparisons
+  - In-app Git workflows for commits, pull requests, checks, and merge actions
+  - Desktop, mobile-first web/PWA, CLI, and VS Code interfaces
+  - Remote connectivity through browser, SSH, and Cloudflare tunnel workflows
+
+usage:
+  interfaces:
+    - Desktop application
+    - Web application and PWA
+    - CLI server
+    - VS Code extension
+  installation:
+    - GitHub desktop release
+    - VS Code Marketplace extension
+    - Node.js CLI installer
+    - Docker Compose deployment
+  setup: moderate
+
+technology:
+  languages:
+    - TypeScript
+  notable_components:
+    - React
+    - Electron
+    - OpenCode SDK
+    - Docker
+
+license:
+  spdx: MIT
+  name: MIT License
+  notes: >-
+    The root LICENSE and root monorepo manifest declare MIT for this repository;
+    the retained sources do not establish the license for the separate OpenCode prerequisite.
+
+status:
+  lifecycle: active
+  archived: false
+  latest_release: v1.16.2
+  latest_release_at: 2026-07-18
+
+strengths:
+  - Covers desktop, browser, mobile, editor, and terminal-oriented workflows
+  - Adds Git and worktree-aware controls around OpenCode sessions
+  - Recent project-level releases document active work across its interfaces
+
+caveats:
+  - CLI, web, and VS Code modes require an installed OpenCode CLI; only desktop bundles one
+  - Remote access can expose sensitive context such as terminal access, Git credentials, SSH keys, and files
+  - LAN binding is documented for trusted networks only
+  - A native mobile app is a roadmap item; the documented phone experience is the mobile-first PWA
+  - Security fixes apply only to the latest release; no LTS or backport policy is documented
+
+sources:
+  - https://raw.githubusercontent.com/openchamber/openchamber/24a41710279aa2b6afb7fcfa6404bc93b9be0281/README.md
+  - https://raw.githubusercontent.com/openchamber/openchamber/24a41710279aa2b6afb7fcfa6404bc93b9be0281/LICENSE
+  - https://raw.githubusercontent.com/openchamber/openchamber/24a41710279aa2b6afb7fcfa6404bc93b9be0281/package.json
+  - https://raw.githubusercontent.com/openchamber/openchamber/24a41710279aa2b6afb7fcfa6404bc93b9be0281/packages/electron/package.json
+  - https://raw.githubusercontent.com/openchamber/openchamber/24a41710279aa2b6afb7fcfa6404bc93b9be0281/SECURITY.md
+  - https://github.com/openchamber/openchamber/releases.atom

@@ -1,0 +1,79 @@
+schema_version: 2
+repository_id: github:ashishps1/awesome-low-level-design
+research:
+  state: complete
+  source_commit: fc26e4033cad6d24f32caa8521044febbf065beb
+  bundle_collected_at: 2026-07-19T20:41:48.051Z
+  researched_at: 2026-07-20T00:39:39.1534148+02:00
+  confidence: high
+classification:
+  primary_category: documentation-and-learning
+  topics:
+    - documentation
+    - tutorials
+    - courses
+    - curated-lists
+    - reference
+project:
+  name: Awesome Low Level Design
+  kind: curated-list
+  summary: >-
+    A learning-resource collection for low-level and object-oriented design,
+    combining fundamentals, principles, patterns, UML, concurrency material,
+    interview problems, diagrams, and selected source-code examples.
+  best_for:
+    - Learners studying object-oriented design and design patterns
+    - Preparing for low-level-design or concurrency interview exercises
+key_features:
+  - Linked coverage of OOP fundamentals, class relationships, and DRY, YAGNI, KISS, and SOLID principles
+  - Creational, structural, and behavioral design-pattern references
+  - UML references plus class diagrams for many interview-style systems
+  - Easy, medium, and hard low-level-design problem lists
+  - Concurrency concepts, synchronization primitives, patterns, and practice problems
+  - Repository examples and solutions spanning JavaScript, Go, Rust, Java, and TypeScript areas
+usage:
+  interfaces:
+    - GitHub Markdown guide
+    - Source-code examples
+    - Class-diagram images
+  installation:
+    - No installation; read the repository and linked resources
+    - Clone the repository to inspect or run individual language examples
+  setup: low
+technology:
+  languages:
+    - Java
+    - JavaScript
+    - Go
+    - Rust
+    - TypeScript
+  notable_components:
+    - Object-oriented design and pattern examples
+    - UML class diagrams
+    - Maven, Go modules, Cargo, and npm example projects
+license:
+  spdx: GPL-3.0
+  name: GNU General Public License v3.0
+  notes: >-
+    Strong copyleft license; redistribution of modified covered repository
+    material requires GPLv3 terms and corresponding source.
+status:
+  lifecycle: active
+  archived: false
+  latest_release: null
+  latest_release_at: null
+strengths:
+  - Brings foundational concepts, patterns, UML, concurrency, and interview practice into one navigable outline
+  - Supplies class diagrams and language-specific examples in addition to external reading links
+  - Separates design interview exercises by difficulty for structured practice
+caveats:
+  - Much of the explanatory material is linked to AlgoMaster or other third-party resources, whose availability and scope can change
+  - The language examples are separate learning artifacts rather than one unified application or library
+  - GPL-3.0 obligations apply to reuse or redistribution of covered repository material
+  - The retained GitHub releases feed has no entries, so no project release can be established
+sources:
+  - https://raw.githubusercontent.com/ashishps1/awesome-low-level-design/fc26e4033cad6d24f32caa8521044febbf065beb/README.md
+  - https://raw.githubusercontent.com/ashishps1/awesome-low-level-design/fc26e4033cad6d24f32caa8521044febbf065beb/LICENSE
+  - https://raw.githubusercontent.com/ashishps1/awesome-low-level-design/fc26e4033cad6d24f32caa8521044febbf065beb/oop/rust/Cargo.toml
+  - https://raw.githubusercontent.com/ashishps1/awesome-low-level-design/fc26e4033cad6d24f32caa8521044febbf065beb/solutions/golang/go.mod
+  - https://github.com/ashishps1/awesome-low-level-design/releases.atom

@@ -1,0 +1,73 @@
+analysis:
+  analyzed_at: "2026-07-19T19:18:32.604Z"
+  classification:
+    primary_category: "ai-and-automation"
+    state: "confirmed"
+    technologies:
+      - "typescript"
+    topics:
+      - "ai-agents"
+      - "llms"
+      - "realtime"
+      - "web"
+    use_cases:
+      - "build-ai-products"
+      - "build-web-applications"
+  evidence:
+    - claim: "AG-UI is an open event-based protocol and reference implementation for connecting AI-agent backends to user-facing applications, including streaming, state synchronization, and frontend tool integration."
+      source_type: "repository-file"
+      url: "https://github.com/ag-ui-protocol/ag-ui/blob/main/README.md"
+      checked_at: "2026-07-19"
+      confidence: "high"
+  state: "complete"
+  summary:
+    one_line: "An event-based protocol for connecting AI agents to interactive user-facing applications."
+    why_useful: "It standardizes agent events and inputs while supporting real-time UI state, streaming, and human interaction."
+curation:
+  confidence: null
+  evidence: []
+  limitations: []
+  recommendation: null
+  reviewed_at: null
+  state: "uncurated"
+  strengths: []
+  verdict: null
+id: "github:ag-ui-protocol/ag-ui"
+import:
+  github_snapshot:
+    archived: false
+    created_at: "2025-05-07T12:49:37Z"
+    default_branch: "main"
+    description: "AG-UI: the Agent-User Interaction Protocol. Bring Agents into Frontend Applications."
+    disabled: false
+    fetched_at: "2026-07-19T19:16:14.796Z"
+    fork: false
+    forks: 1345
+    homepage: "https://ag-ui.com"
+    latest_release: null
+    license_spdx: "MIT"
+    open_issues: 274
+    primary_language: "TypeScript"
+    pushed_at: "2026-07-18T00:01:18Z"
+    stars: 14808
+    topics:
+      - "ag-ui-protocol"
+      - "agent-frontend"
+      - "agent-ui"
+      - "agentic-workflow"
+      - "ai-agents"
+    updated_at: "2026-07-19T14:08:19Z"
+  sources:
+    - observed_at: "2026-01-29T14:56:50Z"
+      relation: "starred"
+      source_id: "github:user:tomseai:stars"
+      source_url: "https://github.com/tomseai?tab=stars"
+  state: "imported"
+repository:
+  aliases: []
+  github_node_id: "R_kgDOOmBWgw"
+  host: "github.com"
+  name: "ag-ui"
+  owner: "ag-ui-protocol"
+  url: "https://github.com/ag-ui-protocol/ag-ui"
+version: 1

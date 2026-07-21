@@ -1,0 +1,75 @@
+schema_version: 2
+repository_id: github:affaan-m/ECC
+research:
+  state: complete
+  source_commit: 0071fa5c3c389d2b4b235a39402c891e146cdef3
+  bundle_collected_at: 2026-07-19T20:41:28.618Z
+  researched_at: 2026-07-19T22:20:17.093Z
+  confidence: high
+classification:
+  primary_category: ai-and-automation
+  topics:
+    - ai-agents
+    - agent-harnesses
+    - agent-skills
+    - mcp
+    - security
+    - developer-productivity
+project:
+  name: ECC
+  kind: framework
+  summary: A reusable workflow layer of skills, rules, hooks, MCP configuration, and installers for AI-agent development harnesses.
+  best_for:
+    - Teams standardizing agent-assisted software-development workflows across more than one supported harness.
+key_features:
+  - Shares portable SKILL.md assets, rules, instructions, and MCP conventions across harness adapters.
+  - Provides target-aware installation profiles, previews, durable install state, and doctor, repair, and uninstall commands.
+  - Includes hooks, security scanning, research, evaluation, and orchestration workflow assets where the target harness supports them.
+  - Supplies adapters and configuration for Claude Code, Codex, OpenCode, Cursor, Gemini, Zed, and GitHub Copilot.
+usage:
+  interfaces:
+    - command line
+    - harness plugins and configuration files
+    - GitHub App
+  installation:
+    - Run install.sh or install.ps1 from a source checkout.
+    - Install the documented ecc-universal npm package for supported package and plugin flows.
+    - Select a target and profile or modules through the manifest-driven installer.
+  setup: moderate
+technology:
+  languages:
+    - JavaScript
+    - Python
+    - Rust
+  notable_components:
+    - Node-based selective installer
+    - harness adapters
+    - hook scripts
+    - MCP configuration
+    - SQLite-backed install state
+license:
+  spdx: MIT
+  name: MIT License
+  notes: Permits use, modification, distribution, sublicensing, and sale with the copyright and permission notice; provided without warranty.
+status:
+  lifecycle: active
+  archived: false
+  latest_release: v2.0.0
+  latest_release_at: 2026-06-11
+strengths:
+  - Keeps durable workflow assets in one source while adapting loading and enforcement to each harness.
+  - Selective installation records ECC-managed operations, enabling inspection and safer repair or removal.
+  - Documents official distribution channels and explicit guidance for secrets and MCP configuration.
+caveats:
+  - "Harness coverage is not feature-identical: Codex is instruction-backed for hooks, while Gemini is a compatibility surface rather than full hook parity."
+  - The ecc2 session and control-plane surface is alpha, with release packaging and cross-harness session behavior still maturing.
+  - Review generated harness and MCP configuration before use; template secrets must be supplied through environment variables or a secrets manager.
+  - The 2026-07-19 GitHub snapshot reports 231,183 stars and 35,276 forks for a repository created in January 2026; this unusually rapid popularity growth is not explained by the retained sources and should not be treated as quality evidence.
+sources:
+  - https://raw.githubusercontent.com/affaan-m/ECC/0071fa5c3c389d2b4b235a39402c891e146cdef3/README.md
+  - https://raw.githubusercontent.com/affaan-m/ECC/0071fa5c3c389d2b4b235a39402c891e146cdef3/LICENSE
+  - https://raw.githubusercontent.com/affaan-m/ECC/0071fa5c3c389d2b4b235a39402c891e146cdef3/docs/architecture/cross-harness.md
+  - https://raw.githubusercontent.com/affaan-m/ECC/0071fa5c3c389d2b4b235a39402c891e146cdef3/docs/SELECTIVE-INSTALL-ARCHITECTURE.md
+  - https://raw.githubusercontent.com/affaan-m/ECC/0071fa5c3c389d2b4b235a39402c891e146cdef3/SECURITY.md
+  - https://github.com/affaan-m/ECC/releases/tag/v2.0.0
+  - https://api.github.com/repos/affaan-m/ECC

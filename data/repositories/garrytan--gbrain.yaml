@@ -1,0 +1,69 @@
+analysis:
+  analyzed_at: "2026-07-19T19:33:03.516Z"
+  classification:
+    primary_category: "ai-and-automation"
+    state: "provisional"
+    technologies: []
+    topics:
+      - "ai-agents"
+      - "llms"
+      - "search"
+      - "observability"
+      - "authentication"
+    use_cases:
+      - "build-ai-products"
+      - "improve-developer-workflow"
+      - "manage-data"
+  evidence:
+    - claim: "GBrain is a personal and company knowledge layer for AI agents that combines synthesis with citations, knowledge-graph traversal, gap analysis, ingestion, hybrid retrieval, an MCP interface, and scoped access controls."
+      source_type: "repository-file"
+      url: "https://github.com/garrytan/gbrain/blob/master/README.md"
+      checked_at: "2026-07-19"
+      confidence: "high"
+  state: "researched"
+  summary:
+    one_line: "A knowledge and retrieval layer that gives AI agents persistent, cited organizational memory."
+    why_useful: "It helps agents ingest information, search it, traverse relationships, and return synthesized answers with stated knowledge gaps."
+curation:
+  confidence: null
+  evidence: []
+  limitations: []
+  recommendation: null
+  reviewed_at: null
+  state: "uncurated"
+  strengths: []
+  verdict: null
+id: "github:garrytan/gbrain"
+import:
+  github_snapshot:
+    archived: false
+    created_at: "2026-04-05T14:40:56Z"
+    default_branch: "master"
+    description: "Garry's Opinionated OpenClaw/Hermes Agent Brain"
+    disabled: false
+    fetched_at: "2026-07-19T19:16:14.796Z"
+    fork: false
+    forks: 3858
+    homepage: ""
+    latest_release: null
+    license_spdx: "MIT"
+    open_issues: 1108
+    primary_language: "TypeScript"
+    pushed_at: "2026-07-17T22:43:09Z"
+    stars: 26609
+    topics: []
+    updated_at: "2026-07-19T18:29:07Z"
+  sources:
+    - observed_at: "2026-06-28T09:15:24Z"
+      relation: "starred"
+      source_id: "github:user:tomseai:stars"
+      source_url: "https://github.com/tomseai?tab=stars"
+  state: "imported"
+repository:
+  aliases: []
+  github_node_id: "R_kgDOR6Xyow"
+  host: "github.com"
+  name: "gbrain"
+  owner: "garrytan"
+  url: "https://github.com/garrytan/gbrain"
+version: 1

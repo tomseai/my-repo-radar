@@ -1,0 +1,87 @@
+analysis:
+  analyzed_at: "2026-07-19T19:42:52.223Z"
+  classification:
+    primary_category: "security-and-privacy"
+    state: "confirmed"
+    technologies:
+      - "python"
+    topics:
+      - "ai-agents"
+      - "llms"
+      - "open-source"
+    use_cases:
+      - "secure-software"
+      - "learn-and-reference"
+  evidence:
+    - claim: "Anthropic Cybersecurity Skills is an open-source library of structured cybersecurity skills for AI agents, covering 29 security domains and mapping skills to MITRE ATT&CK, NIST CSF, MITRE ATLAS, D3FEND, NIST AI RMF, and MITRE F3."
+      source_type: "repository-file"
+      url: "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/blob/main/README.md"
+      checked_at: "2026-07-19"
+      confidence: "high"
+  state: "complete"
+  summary:
+    one_line: "An open-source library of structured cybersecurity skills for AI agents."
+    why_useful: "It provides mapped, step-by-step security workflows for authorized defense, investigation, testing, and education scenarios."
+curation:
+  confidence: null
+  evidence: []
+  limitations: []
+  recommendation: null
+  reviewed_at: null
+  state: "uncurated"
+  strengths: []
+  verdict: null
+id: "github:mukul975/Anthropic-Cybersecurity-Skills"
+import:
+  github_snapshot:
+    archived: false
+    created_at: "2026-02-25T09:47:50Z"
+    default_branch: "main"
+    description: "817 structured cybersecurity skills for AI agents · Mapped to 6 frameworks: MITRE ATT&CK, NIST CSF 2.0, MITRE ATLAS, D3FEND, NIST AI RMF & MITRE F3 (Fight Fraud) · agentskills.io standard · Works with Claude Code, GitHub Copilot, Codex CLI, Cursor, Gemini CLI & 20+ platforms · 29 security domains · Apache 2.0"
+    disabled: false
+    fetched_at: "2026-07-19T19:16:14.796Z"
+    fork: false
+    forks: 3120
+    homepage: "https://mahipal.engineer/Anthropic-Cybersecurity-Skills/"
+    latest_release: null
+    license_spdx: "Apache-2.0"
+    open_issues: 41
+    primary_language: "Python"
+    pushed_at: "2026-06-26T14:37:50Z"
+    stars: 26064
+    topics:
+      - "ai-agents"
+      - "claude-code"
+      - "cloud-security"
+      - "cybersecurity"
+      - "devsecops"
+      - "ethical-hacking"
+      - "incident-response"
+      - "infosec"
+      - "llm"
+      - "malware-analysis"
+      - "mcp"
+      - "mitre-attack"
+      - "nist-csf"
+      - "osint"
+      - "penetration-testing"
+      - "red-team"
+      - "security"
+      - "security-automation"
+      - "threat-hunting"
+      - "threat-intelligence"
+    updated_at: "2026-07-19T19:04:33Z"
+  sources:
+    - observed_at: "2026-06-24T11:00:33Z"
+      relation: "starred"
+      source_id: "github:user:tomseai:stars"
+      source_url: "https://github.com/tomseai?tab=stars"
+  state: "imported"
+repository:
+  aliases: []
+  github_node_id: "R_kgDORYd6dg"
+  host: "github.com"
+  name: "Anthropic-Cybersecurity-Skills"
+  owner: "mukul975"
+  url: "https://github.com/mukul975/Anthropic-Cybersecurity-Skills"
+version: 1

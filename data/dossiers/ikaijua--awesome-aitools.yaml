@@ -1,0 +1,69 @@
+schema_version: 2
+repository_id: github:ikaijua/Awesome-AITools
+research:
+  state: complete
+  source_commit: 1d89f91523991a58627c951337bc814603033e91
+  bundle_collected_at: 2026-07-19T20:43:28.660Z
+  researched_at: 2026-07-20T10:00:00+02:00
+  confidence: medium
+classification:
+  primary_category: documentation-and-learning
+  topics:
+    - curated-lists
+    - reference
+    - ai-agents
+    - llms
+    - code-generation
+project:
+  name: Awesome AI Tools
+  kind: curated-list
+  summary: >-
+    A bilingual Markdown directory of AI tools and resources, organized across
+    chatbots, models, agents, coding, media, research, and other AI topics.
+  best_for:
+    - Finding a broad starting set of AI products, projects, and resources
+    - Browsing AI-agent and AI-coding entries alongside topic-specific guides
+key_features:
+  - Groups entries into many topic sections, including AI chatbots, open-source LLMs, AI agents, agent skills, and AI coding
+  - Provides English and Chinese top-level READMEs
+  - Links selected agent and tool entries to dedicated Markdown introduction pages
+  - Includes a maintained changelog that records additions, removals, renames, and category changes
+usage:
+  interfaces:
+    - GitHub repository README
+    - Markdown documentation pages
+  installation:
+    - No installation is required; browse the README or clone the repository
+  setup: low
+technology:
+  languages: []
+  notable_components:
+    - Categorized Markdown directory
+    - English and Chinese README entry points
+    - Topic-specific introduction pages under docs
+license:
+  spdx: null
+  name: No license detected
+  notes: >-
+    No license file is present in the retained repository tree and the imported
+    GitHub snapshot reports no SPDX license; reuse permission is therefore not established.
+status:
+  lifecycle: active
+  archived: false
+  latest_release: null
+  latest_release_at: null
+strengths:
+  - Covers a notably broad set of AI discovery areas in one navigable directory
+  - Makes selected fast-moving agent tools easier to compare through linked explanatory pages
+  - Records recent list maintenance in a changelog rather than leaving changes implicit
+caveats:
+  - This is a directory of third-party tools, not an implementation or compatibility guarantee for any listed item
+  - Entry descriptions and external links can change faster than the list's commit-pinned snapshot
+  - No repository license was found, so downstream copying or redistribution needs permission from the copyright holder
+  - The cached GitHub releases feed contains no release entries; no project release can be established
+sources:
+  - https://raw.githubusercontent.com/ikaijua/Awesome-AITools/1d89f91523991a58627c951337bc814603033e91/README.md
+  - https://raw.githubusercontent.com/ikaijua/Awesome-AITools/1d89f91523991a58627c951337bc814603033e91/CHANGELOG.md
+  - https://raw.githubusercontent.com/ikaijua/Awesome-AITools/1d89f91523991a58627c951337bc814603033e91/docs/agents/README.md
+  - https://raw.githubusercontent.com/ikaijua/Awesome-AITools/1d89f91523991a58627c951337bc814603033e91/docs/COMPARISON.md
+  - https://github.com/ikaijua/Awesome-AITools/releases.atom

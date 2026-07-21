@@ -1,0 +1,73 @@
+schema_version: 2
+repository_id: github:stackblitz/bolt.new
+research:
+  state: complete
+  source_commit: eda10b121221b30825a4c16eec5da1fd3eb1eb99
+  bundle_collected_at: 2026-07-19T20:45:22.392Z
+  researched_at: 2026-07-20T16:05:00Z
+  confidence: high
+classification:
+  primary_category: developer-tools
+  topics:
+    - coding-agents
+    - agent-development-environments
+    - code-generation
+    - web-ui
+    - web
+project:
+  name: Bolt.new
+  kind: application
+  summary: >-
+    An AI-powered browser development agent that prompts, runs, edits, and
+    deploys full-stack JavaScript applications in an in-browser WebContainers
+    environment without requiring a local development setup.
+  best_for:
+    - Developers, product managers, and designers prototyping full-stack JavaScript applications in a browser
+    - Teams building an AI-powered development experience on top of the open-source Bolt codebase
+key_features:
+  - Gives an AI model control of the project filesystem, Node.js server, package manager, terminal, and browser console
+  - Uses WebContainers to install npm packages and run Node.js-based development stacks in the browser
+  - Supports prompting, editing, running, sharing, and deploying full-stack applications from the web interface
+  - Includes prompt-enhancement guidance and stack-specific prompting recommendations
+usage:
+  interfaces:
+    - browser-based web application
+    - AI chat-driven development workspace
+  installation:
+    - use the hosted Bolt.new browser application with no local setup
+    - clone the open-source codebase and follow CONTRIBUTING.md to build a custom agent
+  setup: low
+technology:
+  languages:
+    - TypeScript
+    - JavaScript
+  notable_components:
+    - StackBlitz WebContainers
+    - React
+    - Remix
+    - Cloudflare Pages
+    - pnpm
+license:
+  spdx: MIT
+  name: MIT License
+  notes: Permissive license that requires retention of copyright and license notices and disclaims warranty.
+status:
+  lifecycle: experimental
+  archived: false
+  latest_release: null
+  latest_release_at: null
+strengths:
+  - Combines AI-assisted coding with a runnable in-browser Node.js development environment
+  - Allows package installation, backend execution, third-party API work, and deployment rather than code generation alone
+  - Offers a hosted, no-local-setup workflow and an open-source codebase for customization
+caveats:
+  - The repository README labels Bolt.new as beta, so behavior and supported workflows may change
+  - The cached release feed has no published release entry, making an official release version unavailable
+  - The documented compatibility target is popular JavaScript frameworks that run on StackBlitz, not arbitrary language stacks
+  - Hosted AI interactions are subject to free daily limits or a paid token plan
+sources:
+  - https://raw.githubusercontent.com/stackblitz/bolt.new/eda10b121221b30825a4c16eec5da1fd3eb1eb99/README.md
+  - https://raw.githubusercontent.com/stackblitz/bolt.new/eda10b121221b30825a4c16eec5da1fd3eb1eb99/LICENSE
+  - https://raw.githubusercontent.com/stackblitz/bolt.new/eda10b121221b30825a4c16eec5da1fd3eb1eb99/package.json
+  - https://raw.githubusercontent.com/stackblitz/bolt.new/eda10b121221b30825a4c16eec5da1fd3eb1eb99/CONTRIBUTING.md
+  - https://github.com/stackblitz/bolt.new/releases.atom

@@ -1,0 +1,66 @@
+schema_version: 2
+repository_id: github:pmndrs/jotai
+research:
+  state: complete
+  source_commit: 5c4ca26b0db5571114be58393e17854a771f7790
+  bundle_collected_at: 2026-07-19T20:44:58.566Z
+  researched_at: 2026-07-20T16:05:00Z
+  confidence: high
+classification:
+  primary_category: application-frameworks
+  topics:
+    - web
+    - frontend-development
+    - libraries
+project:
+  name: Jotai
+  kind: library
+  summary: >-
+    An atom-based state-management library for React that composes primitive
+    and derived atoms into application state, with React hooks and store APIs.
+  best_for:
+    - React applications that benefit from independently composable state units
+    - Teams that want derived state expressed directly from other atoms
+key_features:
+  - Defines primitive atoms for state and read-only or writable derived atoms
+  - Exposes useAtom and related React hooks for reading and writing atom state
+  - Supports asynchronous atoms that integrate with React Suspense behavior
+  - Provides Provider and store APIs for explicit state-store scoping
+usage:
+  interfaces:
+    - React hooks
+    - JavaScript and TypeScript APIs
+  installation:
+    - npm install jotai
+  setup: low
+technology:
+  languages:
+    - TypeScript
+    - JavaScript
+  notable_components:
+    - React
+    - atom state model
+license:
+  spdx: MIT
+  name: MIT License
+  notes: Permissive license; preserve the copyright and license notice in copies.
+status:
+  lifecycle: active
+  archived: false
+  latest_release: v2.20.2
+  latest_release_at: "2026-07-14"
+strengths:
+  - Models state as small composable units rather than requiring one global store
+  - Documents both React hook usage and explicit provider or store APIs
+  - Provides examples and focused core documentation for atom composition
+caveats:
+  - Its core concepts are atom composition and derived state, so teams need conventions for organizing a larger state graph
+  - The documented asynchronous-atom Suspense behavior is described as needing further experimentation
+  - The package declares React as a peer dependency, making React the central supported UI integration
+sources:
+  - https://raw.githubusercontent.com/pmndrs/jotai/5c4ca26b0db5571114be58393e17854a771f7790/README.md
+  - https://raw.githubusercontent.com/pmndrs/jotai/5c4ca26b0db5571114be58393e17854a771f7790/LICENSE
+  - https://raw.githubusercontent.com/pmndrs/jotai/5c4ca26b0db5571114be58393e17854a771f7790/package.json
+  - https://raw.githubusercontent.com/pmndrs/jotai/5c4ca26b0db5571114be58393e17854a771f7790/docs/basics/concepts.mdx
+  - https://raw.githubusercontent.com/pmndrs/jotai/5c4ca26b0db5571114be58393e17854a771f7790/docs/core/atom.mdx
+  - https://github.com/pmndrs/jotai/releases.atom

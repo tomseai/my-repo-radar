@@ -1,0 +1,71 @@
+schema_version: 2
+repository_id: github:innowhyte/gen-ai-patterns
+research:
+  state: complete
+  source_commit: 9a5671c230f365a6ed802837bbfb9c03f1276504
+  bundle_collected_at: 2026-07-19T20:43:27.364Z
+  researched_at: 2026-07-20T10:00:00+02:00
+  confidence: high
+classification:
+  primary_category: documentation-and-learning
+  topics:
+    - reference
+    - documentation
+    - llms
+    - evaluation
+    - agent-orchestration
+project:
+  name: Gen-AI Patterns
+  kind: documentation
+  summary: >-
+    A practitioner-oriented Markdown collection of reusable generative-AI
+    system patterns, explaining when to use a pattern, how to apply it, and
+    relevant tradeoffs or failure cases.
+  best_for:
+    - Teams designing retrieval, context, evaluation, extraction, or orchestration parts of a GenAI system
+    - Contributors who want a lightweight structure for documenting practical GenAI patterns
+key_features:
+  - Organizes patterns for chunk storage, chunking, context, evaluation, extraction, orchestration, retrieval, and query optimization
+  - Includes concrete patterns such as graph indexes, sliding windows, grounding, routing, reranking, and hybrid retrieval
+  - "Gives a problem-first usage workflow: choose a pattern, adapt it, and document successes and failures"
+  - Defines contribution expectations for clear problem statements, actionable solutions, examples, tradeoffs, and failure modes
+usage:
+  interfaces:
+    - GitHub repository README
+    - Markdown pattern documents
+  installation:
+    - No installation is required; browse the Markdown files or clone the repository
+  setup: low
+technology:
+  languages:
+    - Python
+  notable_components:
+    - Markdown pattern catalog
+    - Pattern template and contributor guidance
+    - Pattern-thought-refiner agent skill
+license:
+  spdx: MIT
+  name: MIT License
+  notes: >-
+    Permissive license that allows use, modification, distribution, sublicensing,
+    and sale, provided the copyright and permission notice are retained; the
+    materials are provided without warranty.
+status:
+  lifecycle: active
+  archived: false
+  latest_release: null
+  latest_release_at: null
+strengths:
+  - Separates closely related GenAI design concerns into a clear, browsable pattern taxonomy
+  - Frames material around practitioner decisions and documented tradeoffs rather than academic exposition alone
+  - Provides a focused contribution workflow that asks for examples, failure modes, and actionable guidance
+caveats:
+  - The repository supplies patterns and documentation, not a runnable GenAI framework or reference implementation
+  - Pattern documents beyond the retained README were not collected, so their individual depth and accuracy were not independently assessed
+  - The project is young and its retained source tree contains a small initial catalog, so coverage should not be treated as comprehensive
+  - The cached GitHub releases feed contains no release entries; no project release can be established
+sources:
+  - https://raw.githubusercontent.com/innowhyte/gen-ai-patterns/9a5671c230f365a6ed802837bbfb9c03f1276504/README.md
+  - https://raw.githubusercontent.com/innowhyte/gen-ai-patterns/9a5671c230f365a6ed802837bbfb9c03f1276504/CONTRIBUTING.md
+  - https://raw.githubusercontent.com/innowhyte/gen-ai-patterns/9a5671c230f365a6ed802837bbfb9c03f1276504/LICENSE
+  - https://github.com/innowhyte/gen-ai-patterns/releases.atom

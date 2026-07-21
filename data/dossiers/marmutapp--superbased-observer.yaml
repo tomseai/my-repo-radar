@@ -1,0 +1,90 @@
+schema_version: 2
+repository_id: github:marmutapp/superbased-observer
+research:
+  state: complete
+  source_commit: d3bad77d8dedfacdb511374c4cd52c92e945ac1e
+  bundle_collected_at: 2026-07-19T20:43:58.435Z
+  researched_at: 2026-07-20T15:41:53.3142160Z
+  confidence: high
+classification:
+  primary_category: developer-tools
+  topics:
+    - ai-agents
+    - coding-agents
+    - llms
+    - observability
+    - token-usage
+    - cost-management
+    - local-first
+    - mcp
+    - cli
+    - web-ui
+    - developer-productivity
+project:
+  name: SuperBased Observer
+  kind: application
+  summary: >-
+    A local-first observability tool for AI coding activity that captures usage,
+    provider-returned token counts, and costs through a CLI, dashboard, MCP server,
+    and optional API proxy.
+  best_for:
+    - Developers comparing cost and token use across AI coding tools
+    - Teams that need local inspection of coding-agent sessions before opting into sharing
+key_features:
+  - Local dashboard and CLI for sessions, actions, tokens, and costs
+  - Optional reverse proxy for provider-returned token counts and compression
+  - MCP server exposing local cross-tool usage intelligence
+  - Watcher and scan commands for supported coding-agent session data
+  - Optional VS Code extension and editor-integrated dashboard
+  - Local SQLite storage with no outbound calls by default
+
+usage:
+  interfaces:
+    - CLI
+    - local web dashboard
+    - MCP server
+    - VS Code extension
+  installation:
+    - npm package
+    - Python package via pip, uv, or pipx
+    - Go install or source build
+    - prebuilt release archive
+  setup: moderate
+
+technology:
+  languages:
+    - Go
+    - TypeScript
+  notable_components:
+    - SQLite
+    - OpenTelemetry
+    - React dashboard
+    - Model Context Protocol
+
+license:
+  spdx: Apache-2.0
+  name: Apache License 2.0
+  notes: null
+
+status:
+  lifecycle: active
+  archived: false
+  latest_release: v1.20.0
+  latest_release_at: 2026-07-17
+
+strengths:
+  - Keeps standard capture, storage, dashboard, CLI, and MCP use local by default
+  - Can use provider-returned token data when traffic is routed through its proxy
+  - Supports several installation paths and a VS Code integration
+
+caveats:
+  - Proxy-grade token accuracy and compression require routing supported tools through the local proxy
+  - MCP registration is optional and adds tool schemas to AI-client context
+  - Team sharing, OpenTelemetry export, and alerting are separate opt-in paths
+
+sources:
+  - https://raw.githubusercontent.com/marmutapp/superbased-observer/d3bad77d8dedfacdb511374c4cd52c92e945ac1e/README.md
+  - https://raw.githubusercontent.com/marmutapp/superbased-observer/d3bad77d8dedfacdb511374c4cd52c92e945ac1e/LICENSE
+  - https://raw.githubusercontent.com/marmutapp/superbased-observer/d3bad77d8dedfacdb511374c4cd52c92e945ac1e/go.mod
+  - https://raw.githubusercontent.com/marmutapp/superbased-observer/d3bad77d8dedfacdb511374c4cd52c92e945ac1e/vscode/package.json
+  - https://github.com/marmutapp/superbased-observer/releases.atom

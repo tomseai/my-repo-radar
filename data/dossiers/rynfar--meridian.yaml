@@ -1,0 +1,89 @@
+schema_version: 2
+repository_id: github:rynfar/meridian
+
+research:
+  state: complete
+  source_commit: 84cbdc5e06bbff2bf588b5d0075378590d560337
+  bundle_collected_at: 2026-07-19T20:45:11.813Z
+  researched_at: 2026-07-20T00:52:00.000Z
+  confidence: medium
+
+classification:
+  primary_category: backend-and-apis
+  topics:
+    - llms
+    - llm-gateways
+    - api-development
+    - cli
+    - local-first
+    - observability
+    - self-hosted
+
+project:
+  name: Meridian
+  kind: service
+  summary: >-
+    A local HTTP proxy that presents the Claude Agent SDK through Anthropic and
+    OpenAI-compatible APIs, allowing compatible coding tools to use Claude
+    while the SDK manages authentication, rate limits, caching, and context.
+  best_for:
+    - Connecting Anthropic- or OpenAI-compatible developer tools to the Claude Agent SDK
+    - Running local, concurrent Claude-backed coding-agent sessions through a common endpoint
+
+key_features:
+  - Anthropic-compatible API plus OpenAI-compatible chat-completions and models endpoints
+  - Streaming, session persistence and resume, concurrent sessions, and subagent model selection
+  - Adapter instances and optional passthrough tool execution for connected clients
+  - Optional persisted telemetry with configurable retention
+  - CLI configuration and a local HTML dashboard
+  - npm, Nix, Home Manager, and Docker deployment documentation
+
+usage:
+  interfaces:
+    - CLI
+    - local HTTP API proxy
+    - optional web dashboard
+  installation:
+    - npm global package
+    - Nix flake or Home Manager
+    - Docker
+  setup: moderate
+
+technology:
+  languages:
+    - TypeScript
+  notable_components:
+    - Claude Agent SDK
+    - Anthropic-compatible API
+    - OpenAI-compatible API
+    - Bun
+    - SQLite telemetry storage
+
+license:
+  spdx: MIT
+  name: MIT License
+  notes: Package metadata declares MIT; the retained evidence bundle does not include a standalone LICENSE file.
+
+status:
+  lifecycle: active
+  archived: false
+  latest_release: meridian-v1.54.0
+  latest_release_at: 2026-07-19
+
+strengths:
+  - Lets tools using either of two common API formats connect to one local SDK-backed service
+  - Documents direct SDK use rather than credential interception or binary patching
+  - Provides deployment options beyond the standard global npm installation
+
+caveats:
+  - It depends on the Claude Agent SDK and Claude Code authentication rather than providing a model service itself
+  - Docker deployment requires bringing authenticated Claude credentials or an OAuth-token profile into the container
+  - The default Sonnet context configuration avoids a context mode that the documentation says can incur Extra Usage billing
+  - License terms are identified only from package metadata in the retained bundle
+
+sources:
+  - https://raw.githubusercontent.com/rynfar/meridian/84cbdc5e06bbff2bf588b5d0075378590d560337/README.md
+  - https://raw.githubusercontent.com/rynfar/meridian/84cbdc5e06bbff2bf588b5d0075378590d560337/package.json
+  - https://raw.githubusercontent.com/rynfar/meridian/84cbdc5e06bbff2bf588b5d0075378590d560337/ARCHITECTURE.md
+  - https://raw.githubusercontent.com/rynfar/meridian/84cbdc5e06bbff2bf588b5d0075378590d560337/docs/deployment.md
+  - https://github.com/rynfar/meridian/releases.atom

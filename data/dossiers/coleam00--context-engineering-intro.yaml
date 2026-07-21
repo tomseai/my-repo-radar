@@ -1,0 +1,79 @@
+schema_version: 2
+repository_id: github:coleam00/context-engineering-intro
+research:
+  state: complete
+  source_commit: a2d84b021cee1e2f4e77ba854bba0be8cb319035
+  bundle_collected_at: 2026-07-19T20:42:16.903Z
+  researched_at: 2026-07-20T00:39:39.1534148+02:00
+  confidence: high
+classification:
+  primary_category: ai-and-automation
+  topics:
+    - ai-agents
+    - coding-agents
+    - context-engineering
+    - prompt-engineering
+    - task-planning
+    - testing
+    - documentation
+project:
+  name: Context Engineering Template
+  kind: starter-template
+  summary: >-
+    A Claude Code-centered starter template for supplying AI coding assistants
+    with project rules, examples, feature requests, and Product Requirements
+    Prompts (PRPs) that guide planned and validated implementation.
+  best_for:
+    - Teams establishing reusable project context for AI-assisted feature work
+    - Claude Code users who want a repeatable feature-request-to-implementation workflow
+key_features:
+  - A CLAUDE.md template for project-wide conventions, testing expectations, and documentation standards
+  - INITIAL.md and example files for structured feature requests, examples, documentation, and constraints
+  - PRP templates and a multi-agent PRP example for implementation blueprints
+  - Custom Claude Code commands to generate a PRP and execute one with planning and validation
+  - Guidance for using code examples, external documentation, tests, and validation gates as agent context
+  - Additional use-case directories for workflows, agent teams, Pydantic AI, template generation, and an MCP server
+usage:
+  interfaces:
+    - Markdown template files
+    - Claude Code slash commands
+    - Repository use-case examples
+  installation:
+    - Clone the template and customize its context files
+    - Copy selected template files into an existing project
+  setup: moderate
+technology:
+  languages:
+    - Markdown
+    - Python
+    - TypeScript
+  notable_components:
+    - Claude Code configuration and custom commands
+    - Product Requirements Prompt templates
+    - Optional MCP-server use case
+license:
+  spdx: MIT
+  name: MIT License
+  notes: >-
+    Permissive license allowing use, modification, distribution, sublicensing,
+    and sale when the copyright and license notice are retained.
+status:
+  lifecycle: active
+  archived: false
+  latest_release: null
+  latest_release_at: null
+strengths:
+  - Makes project rules, examples, requirements, and validation part of one repeatable agent workflow
+  - Provides both a minimal root template and more specialized use-case material
+  - PRP templates make implementation context and success criteria explicit before execution
+caveats:
+  - The documented slash-command workflow is specific to Claude Code; other coding assistants need equivalent configuration or adaptation
+  - The template needs project-specific rules, relevant examples, documentation, and validation commands before it can guide real work well
+  - Several included use cases have their own dependencies and setup beyond the root Markdown template
+  - The retained GitHub releases feed has no entries, so no project release can be established
+sources:
+  - https://raw.githubusercontent.com/coleam00/context-engineering-intro/a2d84b021cee1e2f4e77ba854bba0be8cb319035/README.md
+  - https://raw.githubusercontent.com/coleam00/context-engineering-intro/a2d84b021cee1e2f4e77ba854bba0be8cb319035/LICENSE
+  - https://raw.githubusercontent.com/coleam00/context-engineering-intro/a2d84b021cee1e2f4e77ba854bba0be8cb319035/use-cases/mcp-server/package.json
+  - https://raw.githubusercontent.com/coleam00/context-engineering-intro/a2d84b021cee1e2f4e77ba854bba0be8cb319035/claude-code-full-guide/.devcontainer/Dockerfile
+  - https://github.com/coleam00/context-engineering-intro/releases.atom

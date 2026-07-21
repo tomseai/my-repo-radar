@@ -1,0 +1,70 @@
+schema_version: 2
+repository_id: github:morapelker/hive
+research:
+  state: complete
+  source_commit: 9bfb01ebf3e31ef89a2d0fa4a8131167872209a9
+  bundle_collected_at: 2026-07-19T20:44:16.220Z
+  researched_at: 2026-07-20T17:45:54.3576520+02:00
+  confidence: high
+classification:
+  primary_category: developer-tools
+  topics:
+    - coding-agents
+    - agent-orchestration
+    - parallel-agents
+    - worktrees
+    - desktop-app
+    - git
+project:
+  name: Hive
+  kind: application
+  summary: Desktop orchestration for parallel Claude Code, OpenCode, and Codex coding sessions in isolated Git worktrees.
+  best_for:
+    - Developers coordinating several AI coding tasks across branches or repositories.
+    - Git-worktree users who prefer visual Git, files, diffs, and agent-session management.
+key_features:
+  - Starts supported coding-agent sessions in a worktree and streams their responses and tool calls.
+  - Creates, organizes, archives, and switches among isolated Git worktrees from the desktop UI.
+  - Provides visual Git operations, inline diffs, file history, and a Monaco-based file explorer.
+  - Links worktrees so sessions can reference related code and developers can compare implementations.
+  - Organizes projects and worktrees into Spaces, with a command palette and keyboard shortcuts.
+usage:
+  interfaces:
+    - Desktop application for macOS, Windows, and Linux.
+    - Graphical Git, file, diff, worktree, and AI-session interface.
+  installation:
+    - Homebrew cask on macOS.
+    - "GitHub Release installer or package: DMG for macOS, EXE for Windows, AppImage or DEB for Linux."
+  setup: low
+technology:
+  languages:
+    - TypeScript
+  notable_components:
+    - Electron desktop shell
+    - Node.js and Effect local backend
+    - SQLite storage
+    - Monaco editor
+    - WebSocket and HTTP/RPC local event plumbing
+license:
+  spdx: MIT
+  name: MIT License
+  notes: Permissive license; redistributed copies or substantial portions must retain the copyright and license notice, and the software is provided without warranty.
+status:
+  lifecycle: active
+  archived: false
+  latest_release: 1.2.18
+  latest_release_at: 2026-07-14
+strengths:
+  - Brings agent sessions and worktree isolation into one desktop workflow rather than leaving coordination to terminal tabs.
+  - Supports three named coding-agent backends while retaining visual Git and code-inspection tools.
+  - Ships installers for the three major desktop platforms and a Homebrew option for macOS.
+caveats:
+  - Git 2.20 or later is required for worktree support.
+  - The optional embedded Ghostty terminal requires a separately built native library; Hive otherwise builds and runs without that feature.
+  - Some retained FAQ content describes an earlier macOS-only state, while the pinned README documents macOS, Windows, and Linux installers; the overview follows the newer README.
+sources:
+  - https://raw.githubusercontent.com/morapelker/hive/9bfb01ebf3e31ef89a2d0fa4a8131167872209a9/README.md
+  - https://raw.githubusercontent.com/morapelker/hive/9bfb01ebf3e31ef89a2d0fa4a8131167872209a9/package.json
+  - https://raw.githubusercontent.com/morapelker/hive/9bfb01ebf3e31ef89a2d0fa4a8131167872209a9/LICENSE
+  - https://raw.githubusercontent.com/morapelker/hive/9bfb01ebf3e31ef89a2d0fa4a8131167872209a9/docs/distribution-audit.md
+  - https://github.com/morapelker/hive/releases.atom

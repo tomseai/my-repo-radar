@@ -1,0 +1,67 @@
+analysis:
+  analyzed_at: "2026-07-19T19:47:16.144Z"
+  classification:
+    primary_category: "developer-tools"
+    state: "confirmed"
+    technologies:
+      - "typescript"
+      - "nodejs"
+    topics:
+      - "ai-agents"
+      - "desktop-app"
+      - "web"
+    use_cases:
+      - "improve-developer-workflow"
+  evidence:
+    - claim: "T3 Code is a minimal web GUI for coding agents including Codex, Claude, Cursor, and OpenCode, with a downloadable desktop application."
+      confidence: "high"
+      source_type: "repository-file"
+      url: "https://github.com/pingdotgg/t3code/blob/main/README.md"
+      checked_at: "2026-07-19"
+  state: "complete"
+  summary:
+    one_line: "A web and desktop GUI for working with coding agents."
+    why_useful: "It supplies a single minimal interface for several coding-agent runtimes."
+curation:
+  confidence: null
+  evidence: []
+  limitations: []
+  recommendation: null
+  reviewed_at: null
+  state: "uncurated"
+  strengths: []
+  verdict: null
+id: "github:pingdotgg/t3code"
+import:
+  github_snapshot:
+    archived: false
+    created_at: "2026-02-08T23:46:22Z"
+    default_branch: "main"
+    description: null
+    disabled: false
+    fetched_at: "2026-07-19T19:16:14.796Z"
+    fork: false
+    forks: 3055
+    homepage: "https://t3.codes"
+    latest_release: null
+    license_spdx: "MIT"
+    open_issues: 772
+    primary_language: "TypeScript"
+    pushed_at: "2026-07-19T19:06:35Z"
+    stars: 14181
+    topics: []
+    updated_at: "2026-07-19T18:55:49Z"
+  sources:
+    - observed_at: "2026-03-07T07:23:44Z"
+      relation: "starred"
+      source_id: "github:user:tomseai:stars"
+      source_url: "https://github.com/tomseai?tab=stars"
+  state: "imported"
+repository:
+  aliases: []
+  github_node_id: "R_kgDORLtfbQ"
+  host: "github.com"
+  name: "t3code"
+  owner: "pingdotgg"
+  url: "https://github.com/pingdotgg/t3code"
+version: 1

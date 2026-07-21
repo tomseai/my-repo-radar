@@ -1,0 +1,75 @@
+schema_version: 2
+repository_id: github:modelcontextprotocol/ext-apps
+research:
+  state: complete
+  source_commit: 2ca6a59d2f493b227a83a2e3ce0396db4705621a
+  bundle_collected_at: 2026-07-19T20:44:15.079Z
+  researched_at: 2026-07-20T17:41:35.7837492+02:00
+  confidence: medium
+classification:
+  primary_category: application-frameworks
+  topics:
+    - mcp
+    - chat-ui
+    - web-ui
+    - ui-components
+project:
+  name: MCP Apps
+  kind: framework
+  summary: >-
+    A specification and TypeScript SDK for delivering interactive HTML views
+    from MCP tools so compliant chat clients can render forms, charts,
+    dashboards, and other embedded interfaces inline in a conversation.
+  best_for:
+    - MCP server authors adding interactive UI resources to tool results
+    - Chat-client and web-view developers embedding and communicating with MCP App views
+key_features:
+  - Lets tools declare a ui:// resource containing an HTML interface
+  - Defines a host-rendered sandboxed iframe and bidirectional UI-to-tool communication
+  - Provides SDK entry points for Views, React hooks, client app bridges, and MCP server helpers
+  - Includes examples, starter templates, a basic reference host, and a stable 2026-01-26 specification
+usage:
+  interfaces:
+    - TypeScript SDK
+    - MCP server helpers
+    - client app bridge
+    - React hooks
+  installation:
+    - npm install -S @modelcontextprotocol/ext-apps
+    - clone the repository and run npm install for examples or local development
+  setup: moderate
+technology:
+  languages:
+    - TypeScript
+    - JavaScript
+  notable_components:
+    - Node.js 20 or newer
+    - Model Context Protocol SDK
+    - React integration
+    - sandboxed iframe transport
+license:
+  spdx: null
+  name: Mixed licensing during Apache-2.0 transition
+  notes: >-
+    The LICENSE states that new code and specifications are Apache-2.0,
+    unrelicensed MIT contributions remain MIT, and non-specification
+    documentation is CC-BY-4.0; confirm the license applicable to each file.
+status:
+  lifecycle: active
+  archived: false
+  latest_release: v1.7.4
+  latest_release_at: "2026-06-05"
+strengths:
+  - Standardizes the UI-resource, host-rendering, and bidirectional-communication flow for interactive MCP tools
+  - "Covers the three key implementation roles: MCP server, interactive view, and host embedding"
+  - Supplies examples and framework-specific starter templates alongside a stable specification
+caveats:
+  - MCP Apps extends core MCP, and host support varies by client
+  - This repository has no supported production host implementation beyond its basic-host example
+  - SDK and local examples require Node.js 20 or newer; a server also needs a compatible MCP host to render views
+  - The repository is in a documented Apache-2.0 relicensing transition, so license scope remains file-dependent
+sources:
+  - https://raw.githubusercontent.com/modelcontextprotocol/ext-apps/2ca6a59d2f493b227a83a2e3ce0396db4705621a/README.md
+  - https://raw.githubusercontent.com/modelcontextprotocol/ext-apps/2ca6a59d2f493b227a83a2e3ce0396db4705621a/LICENSE
+  - https://raw.githubusercontent.com/modelcontextprotocol/ext-apps/2ca6a59d2f493b227a83a2e3ce0396db4705621a/package.json
+  - https://github.com/modelcontextprotocol/ext-apps/releases.atom

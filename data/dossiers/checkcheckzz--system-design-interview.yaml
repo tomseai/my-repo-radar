@@ -1,0 +1,70 @@
+schema_version: 2
+repository_id: github:checkcheckzz/system-design-interview
+research:
+  state: complete
+  source_commit: 7c1d5d6debd51b0095d80d521bf23e929cab4117
+  bundle_collected_at: 2026-07-19T20:42:05.734Z
+  researched_at: 2026-07-20T01:20:00+02:00
+  confidence: medium
+classification:
+  primary_category: documentation-and-learning
+  topics:
+    - curated-lists
+    - tutorials
+    - reference
+    - documentation
+project:
+  name: System Design Interview
+  kind: curated-list
+  summary: >-
+    A compact interview-preparation guide that combines a suggested design
+    discussion approach with categorized links to system-design articles,
+    real-system references, questions, books, and object-oriented-design material.
+  best_for:
+    - Preparing a structured response to a system-design interview question
+    - Finding further reading and real-system references by topic
+key_features:
+  - Interview guidance for clarifying requirements, sketching high-level architecture, and detailing components
+  - Curated introductory links on scalability, distributed-systems concepts, and system-design patterns
+  - Company engineering-blog directory for researching prospective interviewers
+  - Real-product and system references including distributed-storage, data-processing, and architecture material
+  - Question-specific reference links for CDN, search, feeds, URL shortening, caching, and other design prompts
+  - Object-oriented-design interview tips and an additional design-pattern reference
+usage:
+  interfaces:
+    - GitHub Markdown guide
+    - External reading links
+  installation:
+    - No installation; browse README.md
+    - Open the linked articles, papers, blogs, and books as needed
+  setup: low
+technology:
+  languages:
+    - Markdown
+  notable_components:
+    - System-design interview checklist
+    - Curated external reading index
+    - Company engineering-blog directory
+license:
+  spdx: null
+  name: No license file found in retained source bundle
+  notes: >-
+    The complete retained tree contains only README.md and an image, with no
+    license text; reuse rights for the repository's guide are therefore unclear.
+status:
+  lifecycle: unknown
+  archived: false
+  latest_release: null
+  latest_release_at: null
+strengths:
+  - Puts an actionable interview flow next to resources for deeper study
+  - Covers both broad concepts and concrete product-design prompts
+  - Can be used directly in a browser without a local toolchain
+caveats:
+  - It is primarily a link collection rather than a self-contained tutorial or implementation project
+  - Many external references are older or independently maintained, so availability and currency need checking
+  - The retained source bundle contains no license file, leaving reuse rights unclear
+  - The cached releases feed has no entries, so no latest versioned release can be established
+sources:
+  - https://raw.githubusercontent.com/checkcheckzz/system-design-interview/7c1d5d6debd51b0095d80d521bf23e929cab4117/README.md
+  - https://github.com/checkcheckzz/system-design-interview/releases.atom

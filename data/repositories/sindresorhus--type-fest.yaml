@@ -1,0 +1,69 @@
+analysis:
+  analyzed_at: "2026-07-19T19:51:31.129Z"
+  classification:
+    primary_category: "developer-tools"
+    state: "provisional"
+    technologies:
+      - "typescript"
+    topics:
+      - "open-source"
+    use_cases:
+      - "improve-developer-workflow"
+  evidence:
+    - claim: "Type-Fest is an installable collection of essential TypeScript types and requires modern TypeScript with strict mode enabled."
+      source_type: "repository-file"
+      url: "https://github.com/sindresorhus/type-fest/blob/main/readme.md"
+      checked_at: "2026-07-19"
+      confidence: "high"
+  state: "researched"
+  summary:
+    one_line: "A package of reusable utility and essential types for TypeScript projects."
+    why_useful: "It supplies commonly needed type-level utilities that can be imported into strict TypeScript codebases."
+curation:
+  confidence: null
+  evidence: []
+  limitations: []
+  recommendation: null
+  reviewed_at: null
+  state: "uncurated"
+  strengths: []
+  verdict: null
+id: "github:sindresorhus/type-fest"
+import:
+  github_snapshot:
+    archived: false
+    created_at: "2019-03-13T10:30:19Z"
+    default_branch: "main"
+    description: "A collection of essential TypeScript types"
+    disabled: false
+    fetched_at: "2026-07-19T19:16:14.796Z"
+    fork: false
+    forks: 725
+    homepage: ""
+    latest_release: null
+    license_spdx: "CC0-1.0"
+    open_issues: 214
+    primary_language: "TypeScript"
+    pushed_at: "2026-07-13T22:52:32Z"
+    stars: 17305
+    topics:
+      - "npm-package"
+      - "types"
+      - "typescript"
+      - "typescript-definitions"
+      - "utilities"
+    updated_at: "2026-07-19T17:16:30Z"
+  sources:
+    - observed_at: "2025-04-12T17:41:22Z"
+      relation: "starred"
+      source_id: "github:user:tomseai:stars"
+      source_url: "https://github.com/tomseai?tab=stars"
+  state: "imported"
+repository:
+  aliases: []
+  github_node_id: "MDEwOlJlcG9zaXRvcnkxNzUzOTg1OTQ="
+  host: "github.com"
+  name: "type-fest"
+  owner: "sindresorhus"
+  url: "https://github.com/sindresorhus/type-fest"
+version: 1

@@ -1,0 +1,67 @@
+schema_version: 2
+repository_id: github:addyosmani/tunnel-bear-login
+research:
+  state: complete
+  source_commit: 20350e012bd7f0665962a460a07dff8bfc058494
+  bundle_collected_at: 2026-07-19T20:41:21.586Z
+  researched_at: 2026-07-20T00:19:58.981+02:00
+  confidence: medium
+classification:
+  primary_category: frontend-and-design
+  topics:
+    - web
+    - frontend-development
+    - forms
+    - ui-components
+project:
+  name: Tunnel Bear Login Animation
+  kind: application
+  summary: >-
+    An educational React recreation of a TunnelBear-inspired login form with a
+    bear animation that responds to email and password-field interactions.
+  best_for:
+    - Studying a compact, animated React form implementation
+    - Prototyping playful input-state feedback in a Vite web application
+key_features:
+  - Bear animation changes in response to the length of the email input
+  - Password-field focus triggers a bear hiding animation
+  - React components and custom hooks separate form, animation, and image-loading concerns
+  - Tailwind CSS provides the login form's modern visual styling
+usage:
+  interfaces:
+    - browser-based web application
+    - npm development scripts
+  installation:
+    - npm install
+    - run from source
+  setup: low
+technology:
+  languages:
+    - TypeScript
+    - JavaScript
+  notable_components:
+    - React 19
+    - Vite
+    - Tailwind CSS
+    - ESLint
+license:
+  spdx: null
+  name: No open-source license declared
+  notes: The README limits the project to educational use and says the original TunnelBear design and animations remain TunnelBear property.
+status:
+  lifecycle: unknown
+  archived: false
+  latest_release: null
+  latest_release_at: null
+strengths:
+  - A focused codebase makes the relationship between input state and visual feedback easy to inspect
+  - Modular components and hooks provide a clear small-scale React organization example
+  - Standard Vite scripts support quick local development, builds, linting, and previews
+caveats:
+  - The project is explicitly educational; do not reuse the original TunnelBear design or animation assets without appropriate rights
+  - The repository has no declared open-source license and its package is private at version 0.0.0
+  - The retained release feed has no entries, so no project release can be established
+sources:
+  - https://raw.githubusercontent.com/addyosmani/tunnel-bear-login/20350e012bd7f0665962a460a07dff8bfc058494/README.md
+  - https://raw.githubusercontent.com/addyosmani/tunnel-bear-login/20350e012bd7f0665962a460a07dff8bfc058494/package.json
+  - https://github.com/addyosmani/tunnel-bear-login/releases.atom

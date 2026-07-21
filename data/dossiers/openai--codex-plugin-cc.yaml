@@ -1,0 +1,84 @@
+schema_version: 2
+repository_id: github:openai/codex-plugin-cc
+
+research:
+  state: complete
+  source_commit: db52e28f4d9ded852ab3942cea316258ae4ef346
+  bundle_collected_at: 2026-07-19T20:44:30.648Z
+  researched_at: 2026-07-20T15:51:21.906Z
+  confidence: high
+
+classification:
+  primary_category: developer-tools
+  topics:
+    - ai-agents
+    - coding-agents
+    - cli
+    - code-review
+    - developer-productivity
+
+project:
+  name: Codex plugin for Claude Code
+  kind: plugin
+  summary: >-
+    A Claude Code plugin that runs Codex reviews, delegates implementation or
+    investigation tasks, transfers sessions to Codex, and manages its
+    background jobs from Claude Code slash commands.
+  best_for:
+    - Claude Code users who want Codex review and delegation commands
+    - Developers who want to monitor or resume Codex work from a Claude Code session
+
+key_features:
+  - Read-only Codex review of uncommitted changes or a branch
+  - Steerable adversarial review for design and risk questions
+  - Task delegation through a Codex subagent
+  - Session transfer from Claude Code into a persistent Codex thread
+  - Status, result, and cancellation commands for background jobs
+
+usage:
+  interfaces:
+    - Claude Code slash commands
+    - Claude Code subagent
+    - background-job controls
+  installation:
+    - Claude Code plugin marketplace
+    - npm installation of the Codex CLI when needed
+  setup: moderate
+
+technology:
+  languages:
+    - JavaScript
+  notable_components:
+    - Node.js 18.18 or later
+    - Codex app-server type generation
+    - Claude Code plugin marketplace
+
+license:
+  spdx: Apache-2.0
+  name: Apache License 2.0
+  notes: >-
+    The root license covers this plugin under Apache-2.0; redistribution must
+    retain required notices, and its patent grant terminates for qualifying
+    patent litigation.
+
+status:
+  lifecycle: active
+  archived: false
+  latest_release: v1.0.6
+  latest_release_at: 2026-07-08
+
+strengths:
+  - Adds both review and task-delegation workflows without leaving Claude Code
+  - Background controls make long-running Codex work observable and cancellable
+  - The dedicated transfer command preserves a path from Claude Code context into Codex
+
+caveats:
+  - It is specifically a Claude Code plugin, not a general-purpose Codex integration
+  - It requires Node.js 18.18 or later plus a ChatGPT subscription or OpenAI API key
+  - The optional review gate can create a long-running loop and consume usage limits quickly
+
+sources:
+  - https://raw.githubusercontent.com/openai/codex-plugin-cc/db52e28f4d9ded852ab3942cea316258ae4ef346/README.md
+  - https://raw.githubusercontent.com/openai/codex-plugin-cc/db52e28f4d9ded852ab3942cea316258ae4ef346/LICENSE
+  - https://raw.githubusercontent.com/openai/codex-plugin-cc/db52e28f4d9ded852ab3942cea316258ae4ef346/package.json
+  - https://github.com/openai/codex-plugin-cc/releases.atom

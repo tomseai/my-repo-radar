@@ -1,0 +1,85 @@
+schema_version: 2
+repository_id: github:blueedgetechno/win11React
+research:
+  state: complete
+  source_commit: afb02e797106c208314abbf837ec11bf50da9d62
+  bundle_collected_at: 2026-07-19T20:41:54.991Z
+  researched_at: 2026-07-20T00:26:00.000Z
+  confidence: high
+
+classification:
+  primary_category: frontend-and-design
+  topics:
+    - web-ui
+    - desktop-app
+    - frontend-development
+    - open-source
+
+project:
+  name: Win11React
+  kind: application
+  summary: >-
+    An archived React web application that recreates a Windows 11-like desktop
+    experience in the browser, with desktop controls, windowed sample apps,
+    themes, and an optional packaged desktop build; it is not a Microsoft
+    operating system or cloud PC.
+  best_for:
+    - Inspecting a desktop-style web UI implemented with React and Redux
+    - Exploring interaction patterns such as movable, resizable, and snapped windows
+
+key_features:
+  - Start menu, search, widgets, desktop actions, side navigation, and calendar views
+  - Dragging, resizing, and snap layouts for application windows
+  - Built-in examples including a browser, terminal, calculator, file explorer, and settings
+  - Startup and lock screens, themes, backgrounds, and multilingual support
+  - Browser deployment plus Docker, compiled Windows executable, and WinGet installation options
+
+usage:
+  interfaces:
+    - browser-based desktop UI
+    - packaged desktop application
+  installation:
+    - live web experience
+    - Docker image
+    - compiled release executable
+    - WinGet package
+  setup: low
+
+technology:
+  languages:
+    - JavaScript
+  notable_components:
+    - React
+    - Redux
+    - Vite
+    - Tauri
+    - SCSS
+
+license:
+  spdx: CC0-1.0
+  name: CC0 1.0 Universal
+  notes: The public-domain dedication places no attribution or reuse condition; the README requests, but does not require, credit when reposting.
+
+status:
+  lifecycle: archived
+  archived: true
+  latest_release: 0.2.9
+  latest_release_at: 2022-06-09
+
+strengths:
+  - Demonstrates a broad set of desktop-like interactions in one web application
+  - Offers immediately usable browser, container, and Windows distribution paths
+  - Uses familiar React, Redux, and CSS/SCSS tooling rather than a proprietary UI system
+
+caveats:
+  - The GitHub repository is archived, so fixes and maintenance should not be expected
+  - It recreates an interface and selected sample applications, not a Windows operating system or cloud PC
+  - The README records a Firefox backdrop-blur limitation
+  - The newest retained release is from 2022, despite a newer archived source snapshot
+
+sources:
+  - https://github.com/blueedgetechno/win11React
+  - https://raw.githubusercontent.com/blueedgetechno/win11React/afb02e797106c208314abbf837ec11bf50da9d62/README.md
+  - https://raw.githubusercontent.com/blueedgetechno/win11React/afb02e797106c208314abbf837ec11bf50da9d62/LICENSE
+  - https://raw.githubusercontent.com/blueedgetechno/win11React/afb02e797106c208314abbf837ec11bf50da9d62/package.json
+  - https://github.com/blueedgetechno/win11React/releases.atom

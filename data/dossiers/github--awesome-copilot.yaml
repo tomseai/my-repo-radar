@@ -1,0 +1,72 @@
+schema_version: 2
+repository_id: github:github/awesome-copilot
+research:
+  state: complete
+  source_commit: 26fe2d126bf79aafb38f43344d450b69632200f8
+  bundle_collected_at: 2026-07-19T20:43:11.461Z
+  researched_at: 2026-07-20T15:31:57.747Z
+  confidence: high
+classification:
+  primary_category: documentation-and-learning
+  topics:
+    - ai-agents
+    - coding-agents
+    - agent-skills
+    - prompt-engineering
+    - mcp
+    - developer-productivity
+    - curated-lists
+    - tutorials
+project:
+  name: Awesome GitHub Copilot
+  kind: curated-list
+  summary: >-
+    A community-created collection of GitHub Copilot agents, instructions,
+    skills, hooks, workflows, plugins, API recipes, and learning resources for
+    adapting Copilot to development workflows.
+  best_for:
+    - Developers looking for reusable Copilot customizations by workflow
+    - Teams that want examples before authoring their own agents, skills, or instructions
+key_features:
+  - Specialized Copilot agents that integrate with MCP servers
+  - File-pattern instructions for automatically applied coding standards
+  - Self-contained skills with instructions and bundled assets
+  - Plugin bundles that combine agents and skills for focused workflows
+  - Copy-paste-ready cookbook recipes for Copilot APIs
+  - Searchable website, Learning Hub, and machine-readable llms.txt listings
+usage:
+  interfaces:
+    - GitHub repository
+    - documentation website
+    - Copilot CLI and VS Code plugin marketplace
+  installation:
+    - Copilot plugin marketplace
+    - manual browsing or copying from the repository
+  setup: low
+technology:
+  languages: []
+  notable_components:
+    - GitHub Copilot
+    - Model Context Protocol
+    - plugin marketplace
+license:
+  spdx: MIT
+  name: MIT License
+  notes: Requires preservation of the copyright and permission notice; provided without warranty.
+status:
+  lifecycle: active
+  archived: false
+  latest_release: null
+  latest_release_at: null
+strengths:
+  - Covers reusable customizations, API recipes, and introductory material in one collection
+  - Supports discovery through both a searchable website and structured llms.txt
+  - Includes marketplace installation guidance for plugin bundles
+caveats:
+  - Resources are third-party contributions, so each agent and its documentation should be inspected before installation
+  - This collection supplies Copilot customizations rather than GitHub Copilot itself
+  - The retained release feed has no published release entries
+sources:
+  - https://raw.githubusercontent.com/github/awesome-copilot/26fe2d126bf79aafb38f43344d450b69632200f8/README.md
+  - https://raw.githubusercontent.com/github/awesome-copilot/26fe2d126bf79aafb38f43344d450b69632200f8/LICENSE
+  - https://github.com/github/awesome-copilot/releases.atom

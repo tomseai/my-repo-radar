@@ -1,0 +1,84 @@
+schema_version: 2
+repository_id: github:paperclipai/paperclip
+research:
+  state: complete
+  source_commit: f12bb27bcd1b36148090d6922a85bf1611d327e0
+  bundle_collected_at: 2026-07-19T20:44:48.126Z
+  researched_at: 2026-07-20T17:52:33.5425583+02:00
+  confidence: high
+classification:
+  primary_category: ai-and-automation
+  topics:
+    - ai-agents
+    - agent-orchestration
+    - multi-agent
+    - agent-governance
+    - cost-management
+    - observability
+    - self-hosted
+    - web-ui
+project:
+  name: Paperclip
+  kind: application
+  summary: >-
+    A self-hosted Node.js server and React control plane for coordinating teams
+    of AI agents around company goals, tasks, budgets, governance, and
+    operational visibility.
+  best_for:
+    - Teams operating many agent runtimes that need one task and supervision system
+    - Organizations that need cost controls, approvals, auditability, and scheduled agent work
+key_features:
+  - Models companies, goals, projects, agents, roles, reporting lines, and task dependencies
+  - Provides ticketed work with atomic checkout, session state, structured logs, activity, and audit trails
+  - Schedules agent heartbeats and routines while enforcing scoped budget warnings and hard stops
+  - Connects local and external agent adapters, including Claude Code, Codex, Cursor, Gemini, OpenCode, Pi, and OpenClaw
+  - Includes approval workflows, execution policies, plugins, secret handling, and optional OpenTelemetry tracing
+usage:
+  interfaces:
+    - React web dashboard
+    - Paperclip CLI
+    - Node.js server
+  installation:
+    - npx paperclipai onboard --yes quickstart
+    - source checkout with pnpm
+    - Docker Compose deployment with PostgreSQL
+  setup: moderate
+technology:
+  languages:
+    - TypeScript
+    - JavaScript
+  notable_components:
+    - Node.js 20 or newer
+    - React 19
+    - Express
+    - PostgreSQL, including embedded local development storage
+    - pnpm workspaces
+license:
+  spdx: MIT
+  name: MIT License
+  notes: >-
+    Permissive license requiring preservation of the copyright and permission
+    notice in copies or substantial portions; the software is provided without
+    warranty.
+status:
+  lifecycle: active
+  archived: false
+  latest_release: null
+  latest_release_at: null
+strengths:
+  - Unifies agent organization, work coordination, governance, and budget-aware operations in a single self-hostable control plane
+  - Supports a broad adapter surface while letting operators bring their own agents and runtimes
+  - Provides a low-friction local onboarding path with embedded PostgreSQL, plus an explicit Docker and external-PostgreSQL route
+caveats:
+  - Paperclip coordinates agents but is not an agent framework, prompt manager, workflow builder, or code-review tool
+  - Operating it still requires configuring projects, agents, goals, and the credentials or costs of the connected runtimes
+  - Docker Compose requires an authenticated deployment configuration and BETTER_AUTH_SECRET, unlike the trusted local quickstart mode
+  - The retained release feed contains canary builds only; its newest observed entry is canary/v2026.718.0-canary.1 on 2026-07-18, so no stable project release is established
+sources:
+  - https://raw.githubusercontent.com/paperclipai/paperclip/f12bb27bcd1b36148090d6922a85bf1611d327e0/README.md
+  - https://raw.githubusercontent.com/paperclipai/paperclip/f12bb27bcd1b36148090d6922a85bf1611d327e0/package.json
+  - https://raw.githubusercontent.com/paperclipai/paperclip/f12bb27bcd1b36148090d6922a85bf1611d327e0/server/package.json
+  - https://raw.githubusercontent.com/paperclipai/paperclip/f12bb27bcd1b36148090d6922a85bf1611d327e0/cli/package.json
+  - https://raw.githubusercontent.com/paperclipai/paperclip/f12bb27bcd1b36148090d6922a85bf1611d327e0/docker/docker-compose.yml
+  - https://raw.githubusercontent.com/paperclipai/paperclip/f12bb27bcd1b36148090d6922a85bf1611d327e0/LICENSE
+  - https://github.com/paperclipai/paperclip/releases.atom

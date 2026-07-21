@@ -1,0 +1,86 @@
+schema_version: 2
+repository_id: github:humanlayer/12-factor-agents
+research:
+  state: complete
+  source_commit: d20c728368bf9c189d6d7aab704744decb6ec0cc
+  bundle_collected_at: 2026-07-19T20:43:25.688Z
+  researched_at: 2026-07-20T15:31:44.117Z
+  confidence: medium
+
+classification:
+  primary_category: documentation-and-learning
+  topics:
+    - ai-agents
+    - llms
+    - prompt-engineering
+    - context-engineering
+    - tool-use
+    - agent-orchestration
+    - documentation
+    - reference
+
+project:
+  name: 12-Factor Agents
+  kind: documentation
+  summary: >-
+    A public principles guide for building production-oriented LLM applications
+    from modular software and focused agent techniques, with twelve factors
+    covering prompts, context, tools, state, control flow, and deployment.
+  best_for:
+    - Product and engineering teams designing customer-facing LLM features
+    - Developers seeking framework-independent guidance before choosing an agent architecture
+
+key_features:
+  - Twelve linked factors spanning natural-language tool calls through stateless reducers
+  - Guidance for owning prompts and the context window
+  - Recommendations for structured tool outputs and human contact through tools
+  - Design patterns for execution state, pause and resume APIs, and control flow
+  - A small-focused-agent principle and trigger-anywhere guidance
+  - Supporting workshops and a create-12-factor-agent template package
+
+usage:
+  interfaces:
+    - Markdown guide
+    - linked reference material
+    - workshop examples
+    - starter template
+  installation:
+    - read the repository guide
+    - clone source for workshops and template material
+  setup: low
+
+technology:
+  languages:
+    - TypeScript
+    - Python
+  notable_components:
+    - Markdown documentation
+    - TypeScript workshop packages
+
+license:
+  spdx: Apache-2.0 AND CC-BY-SA-4.0
+  name: Apache License 2.0 for code and Creative Commons Attribution-ShareAlike 4.0 for content and images
+  notes: The README scopes Apache-2.0 to code and CC BY-SA 4.0 to content and images; the root LICENSE contains Apache-2.0.
+
+status:
+  lifecycle: unknown
+  archived: null
+  latest_release: null
+  latest_release_at: null
+
+strengths:
+  - The factors cover the engineering seams that commonly surround an LLM call, not only model prompts
+  - Framework-independent framing supports incremental adoption in an existing product
+  - The guide couples principles with workshop and template material
+
+caveats:
+  - It is guidance and examples, not a runtime framework or hosted agent service
+  - Code and editorial content carry different licenses, so reuse must respect the applicable scope
+  - The locally cached releases feed has no release entries; lifecycle and archival state are therefore left unknown rather than inferred
+
+sources:
+  - https://raw.githubusercontent.com/humanlayer/12-factor-agents/d20c728368bf9c189d6d7aab704744decb6ec0cc/README.md
+  - https://raw.githubusercontent.com/humanlayer/12-factor-agents/d20c728368bf9c189d6d7aab704744decb6ec0cc/LICENSE
+  - https://raw.githubusercontent.com/humanlayer/12-factor-agents/d20c728368bf9c189d6d7aab704744decb6ec0cc/packages/walkthroughgen/package.json
+  - https://raw.githubusercontent.com/humanlayer/12-factor-agents/d20c728368bf9c189d6d7aab704744decb6ec0cc/packages/create-12-factor-agent/template/package.json
+  - https://github.com/humanlayer/12-factor-agents/releases.atom

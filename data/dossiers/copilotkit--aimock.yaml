@@ -1,0 +1,76 @@
+schema_version: 2
+repository_id: github:CopilotKit/aimock
+research:
+  state: complete
+  source_commit: 4584be6781522a9d01819ca5f28e655e29c77347
+  bundle_collected_at: 2026-07-19T20:42:26.437Z
+  researched_at: 2026-07-20T17:12:27.0008310+02:00
+  confidence: high
+classification:
+  primary_category: testing-and-quality
+  topics:
+    - ai-agents
+    - llms
+    - mcp
+    - agent-protocols
+    - cli
+    - automation
+project:
+  name: aimock
+  kind: library
+  summary: >-
+    A zero-dependency TypeScript mock server and library for exercising AI
+    application integrations without calling their live dependencies.
+  best_for:
+    - Testing applications that call LLM, agent-protocol, tool, or vector-service APIs
+    - Creating deterministic fixtures for local development and CI
+key_features:
+  - Runs LLM, MCP, A2A, AG-UI, vector, search, rerank, and moderation mocks on one port
+  - Provides fixture-based record and replay, including approximate replay timing controls
+  - Supports a programmatic API, the full-featured aimock CLI, and the legacy llmock compatibility CLI
+  - Provides provider- and endpoint-specific mock coverage including streaming and selected WebSocket APIs
+  - Publishes a pytest plugin for Python test suites
+usage:
+  interfaces:
+    - TypeScript library API
+    - command-line interface
+    - Docker container
+    - GitHub Action
+    - pytest plugin
+  installation:
+    - npm package @copilotkit/aimock
+    - npx execution
+    - GHCR Docker image
+    - PyPI package aimock-pytest
+  setup: moderate
+technology:
+  languages:
+    - TypeScript
+    - Python
+  notable_components: []
+license:
+  spdx: MIT
+  name: MIT License
+  notes: >-
+    Permissive license; copyright and license notices must be retained, and
+    the software is provided without warranty.
+status:
+  lifecycle: active
+  archived: false
+  latest_release: v1.37.2
+  latest_release_at: 2026-07-17
+strengths:
+  - Consolidates several AI-facing mock types in one package and server
+  - Offers both fixture replay and optional recording from real upstream APIs
+  - Supplies local, container, CI-action, and Python-pytest entry points
+caveats:
+  - Fixture schemas and supported provider surfaces need to match the integrations under test
+  - Record mode proxies requests to real APIs, so users remain responsible for credentials, cost, and fixture contents
+  - The llmock CLI is retained for compatibility but has fewer features than the aimock CLI
+  - Python support is delivered as a separate aimock-pytest package
+sources:
+  - https://raw.githubusercontent.com/CopilotKit/aimock/4584be6781522a9d01819ca5f28e655e29c77347/README.md
+  - https://raw.githubusercontent.com/CopilotKit/aimock/4584be6781522a9d01819ca5f28e655e29c77347/LICENSE
+  - https://raw.githubusercontent.com/CopilotKit/aimock/4584be6781522a9d01819ca5f28e655e29c77347/package.json
+  - https://raw.githubusercontent.com/CopilotKit/aimock/4584be6781522a9d01819ca5f28e655e29c77347/packages/aimock-pytest/pyproject.toml
+  - https://github.com/CopilotKit/aimock/releases.atom

@@ -1,0 +1,91 @@
+analysis:
+  analyzed_at: "2026-07-19T19:42:45.408Z"
+  classification:
+    primary_category: "ai-and-automation"
+    state: "provisional"
+    technologies:
+      - "python"
+      - "docker"
+    topics:
+      - "ai-agents"
+      - "llms"
+      - "automation"
+      - "cli"
+      - "self-hosted"
+    use_cases:
+      - "run-personal-or-team-tools"
+      - "build-ai-products"
+  evidence:
+    - claim: "Hermes Agent is a self-improving AI agent with skills, persistent memory, messaging gateways, scheduled automations, subagents, and configurable model providers."
+      source_type: "repository-file"
+      url: "https://github.com/NousResearch/hermes-agent/blob/main/README.md"
+      checked_at: "2026-07-19"
+      confidence: "high"
+    - claim: "The README documents local, Docker, SSH, Singularity, Modal, and Daytona terminal backends."
+      source_type: "repository-file"
+      url: "https://github.com/NousResearch/hermes-agent/blob/main/README.md"
+      checked_at: "2026-07-19"
+      confidence: "high"
+  state: "researched"
+  summary:
+    one_line: "Self-improving AI agent with skills, memory, automation, and messaging interfaces."
+    why_useful: "It can run long-lived, model-configurable agent workflows across local and remote execution environments."
+curation:
+  confidence: null
+  evidence: []
+  limitations: []
+  recommendation: null
+  reviewed_at: null
+  state: "uncurated"
+  strengths: []
+  verdict: null
+id: "github:NousResearch/hermes-agent"
+import:
+  github_snapshot:
+    archived: false
+    created_at: "2025-07-22T22:22:28Z"
+    default_branch: "main"
+    description: "The agent that grows with you"
+    disabled: false
+    fetched_at: "2026-07-19T19:16:14.796Z"
+    fork: false
+    forks: 40873
+    homepage: "https://hermes-agent.nousresearch.com"
+    latest_release: null
+    license_spdx: "MIT"
+    open_issues: 23853
+    primary_language: "Python"
+    pushed_at: "2026-07-19T17:42:57Z"
+    stars: 217198
+    topics:
+      - "ai"
+      - "ai-agent"
+      - "ai-agents"
+      - "anthropic"
+      - "chatgpt"
+      - "claude"
+      - "claude-code"
+      - "clawdbot"
+      - "codex"
+      - "hermes"
+      - "hermes-agent"
+      - "llm"
+      - "moltbot"
+      - "nous-research"
+      - "openai"
+      - "openclaw"
+    updated_at: "2026-07-19T19:16:09Z"
+  sources:
+    - observed_at: "2026-03-28T19:50:11Z"
+      relation: "starred"
+      source_id: "github:user:tomseai:stars"
+      source_url: "https://github.com/tomseai?tab=stars"
+  state: "imported"
+repository:
+  aliases: []
+  github_node_id: "R_kgDOPRF1Gw"
+  host: "github.com"
+  name: "hermes-agent"
+  owner: "NousResearch"
+  url: "https://github.com/NousResearch/hermes-agent"
+version: 1

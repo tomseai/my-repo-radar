@@ -1,0 +1,73 @@
+schema_version: 2
+repository_id: github:tmux/tmux
+research:
+  state: complete
+  source_commit: 8dd0e2129ed5459dc5762c049b5eeb1ddbe8be27
+  bundle_collected_at: 2026-07-19T20:45:37.959Z
+  researched_at: 2026-07-20T18:10:37.7918722+02:00
+  confidence: high
+classification:
+  primary_category: developer-tools
+  topics:
+    - cli
+    - tui
+    - terminal
+    - developer-productivity
+    - open-source
+project:
+  name: tmux
+  kind: cli
+  summary: >-
+    A terminal multiplexer that creates, accesses, and controls multiple
+    terminals from one screen, while allowing a session to detach, continue in
+    the background, and later be reattached.
+  best_for:
+    - Developers who need persistent, organized terminal sessions
+    - Remote or local shell workflows that must survive disconnection
+key_features:
+  - Creates and controls multiple terminals from a single screen
+  - Detaches sessions so they continue running in the background before later reattachment
+  - Provides a tmux.1 manual page, example configuration, wiki, FAQ, and shell completion reference
+  - Supports verbose client and server logging for debugging
+  - Runs on OpenBSD, FreeBSD, NetBSD, Linux, macOS, and Solaris
+usage:
+  interfaces:
+    - terminal CLI
+    - terminal user interface
+  installation:
+    - configure, make, and install from a release tarball
+    - clone the repository, run autogen.sh, then configure, make, and install
+  setup: moderate
+technology:
+  languages:
+    - C
+  notable_components:
+    - libevent 2.x
+    - ncurses
+    - Autoconf and Automake for version-control builds
+license:
+  spdx: ISC
+  name: ISC License
+  notes: >-
+    The README explicitly scopes ISC to itself and the CHANGES files; it says
+    other files carry their own license and copyright notices, so consumers
+    should inspect the relevant source files rather than assume one uniform scope.
+status:
+  lifecycle: active
+  archived: false
+  latest_release: 3.7b
+  latest_release_at: "2026-07-01"
+strengths:
+  - Keeps shell work available across detach and reattach cycles instead of tying it to one terminal window
+  - Documents source builds, platform support, debugging, and user-facing references in the pinned README
+  - Maintains scheduled regression testing on Ubuntu and macOS with platform dependencies installed in CI
+caveats:
+  - The cached README documents source installation only, not platform package-manager commands
+  - Building requires libevent, ncurses, a C compiler, make, pkg-config, and a yacc implementation
+  - Version-control builds additionally require Autoconf and Automake
+  - License scope is file-specific outside the README and CHANGES files
+sources:
+  - https://raw.githubusercontent.com/tmux/tmux/8dd0e2129ed5459dc5762c049b5eeb1ddbe8be27/README
+  - https://raw.githubusercontent.com/tmux/tmux/8dd0e2129ed5459dc5762c049b5eeb1ddbe8be27/SECURITY.md
+  - https://raw.githubusercontent.com/tmux/tmux/8dd0e2129ed5459dc5762c049b5eeb1ddbe8be27/.github/workflows/regress.yml
+  - https://github.com/tmux/tmux/releases.atom

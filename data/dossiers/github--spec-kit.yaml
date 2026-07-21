@@ -1,0 +1,88 @@
+schema_version: 2
+repository_id: github:github/spec-kit
+research:
+  state: complete
+  source_commit: 57cc518d63d6f10da3dd93df1ebcadda87c59374
+  bundle_collected_at: 2026-07-19T20:43:15.906Z
+  researched_at: 2026-07-20T00:06:00.000Z
+  confidence: high
+
+classification:
+  primary_category: ai-and-automation
+  topics:
+    - ai-agents
+    - coding-agents
+    - cli
+    - spec-driven-development
+    - task-planning
+    - documentation
+    - developer-productivity
+
+project:
+  name: Spec Kit
+  kind: cli
+  summary: >-
+    A Python CLI and template toolkit that initializes a repeatable
+    spec-driven-development workflow for AI coding agents, taking projects from
+    governing principles and specifications through planning, tasks, implementation, and review.
+  best_for:
+    - Teams that want agent-assisted development to start with explicit requirements and plans
+    - Projects that need reusable workflow templates across supported coding-agent integrations
+
+key_features:
+  - Specify CLI initializes project-local templates, workflows, and coding-agent integrations
+  - Core agent commands cover constitution, specification, clarification, planning, tasks, analysis, implementation, and convergence
+  - Integration management can list, install, switch, upgrade, and report managed integration state
+  - Presets and extensions customize templates or add workflow capabilities
+  - Support for numerous CLI and IDE coding-agent integrations, with agent-specific command forms
+  - Local wheels can bundle core assets for offline or air-gapped initialization
+
+usage:
+  interfaces:
+    - CLI
+    - coding-agent commands or skills
+    - project-local templates
+  installation:
+    - uv tool
+    - pipx or pip package
+    - source install or locally built wheel
+  setup: moderate
+
+technology:
+  languages:
+    - Python
+  notable_components:
+    - Typer
+    - YAML templates
+
+license:
+  spdx: MIT
+  name: MIT License
+  notes: >-
+    The repository license permits use, modification, distribution, sublicensing,
+    and sale when the copyright and permission notice are retained; it is provided
+    without warranty.
+
+status:
+  lifecycle: active
+  archived: false
+  latest_release: v0.13.0
+  latest_release_at: 2026-07-17
+
+strengths:
+  - Makes requirements, planning, task breakdown, and implementation explicit stages for coding agents
+  - Adapts one workflow to multiple agent integrations instead of coupling a project to one assistant
+  - Supports organizational customization through local overrides, presets, extensions, and offline assets
+
+caveats:
+  - It scaffolds process and agent instructions; an installed, compatible AI coding agent still performs the work
+  - Generated templates and agent commands require review and may need project-specific adaptation
+  - Agent integration availability and command syntax vary by installed integration and version
+
+sources:
+  - https://raw.githubusercontent.com/github/spec-kit/57cc518d63d6f10da3dd93df1ebcadda87c59374/README.md
+  - https://raw.githubusercontent.com/github/spec-kit/57cc518d63d6f10da3dd93df1ebcadda87c59374/docs/installation.md
+  - https://raw.githubusercontent.com/github/spec-kit/57cc518d63d6f10da3dd93df1ebcadda87c59374/docs/reference/integrations.md
+  - https://raw.githubusercontent.com/github/spec-kit/57cc518d63d6f10da3dd93df1ebcadda87c59374/pyproject.toml
+  - https://raw.githubusercontent.com/github/spec-kit/57cc518d63d6f10da3dd93df1ebcadda87c59374/LICENSE
+  - https://github.com/github/spec-kit/releases.atom

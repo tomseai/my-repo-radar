@@ -1,0 +1,87 @@
+analysis:
+  analyzed_at: "2026-07-19T19:33:03.516Z"
+  classification:
+    primary_category: "ai-and-automation"
+    state: "provisional"
+    technologies:
+      - "nodejs"
+      - "docker"
+    topics:
+      - "ai-agents"
+      - "automation"
+      - "cli"
+      - "desktop-app"
+      - "mobile-app"
+      - "self-hosted"
+    use_cases:
+      - "improve-developer-workflow"
+      - "collaborate-on-work"
+      - "run-personal-or-team-tools"
+  evidence:
+    - claim: "Paseo is a self-hosted, cross-device interface for running coding agents in parallel on users' own machines, with desktop, mobile, web, CLI, voice control, multi-provider support, a local daemon, and Docker deployment."
+      source_type: "repository-file"
+      url: "https://github.com/getpaseo/paseo/blob/main/README.md"
+      checked_at: "2026-07-19"
+      confidence: "high"
+  state: "researched"
+  summary:
+    one_line: "A self-hosted cross-device interface for orchestrating coding agents."
+    why_useful: "It lets developers run and follow parallel agent work from desktop, mobile, web, or the command line."
+curation:
+  confidence: null
+  evidence: []
+  limitations: []
+  recommendation: null
+  reviewed_at: null
+  state: "uncurated"
+  strengths: []
+  verdict: null
+id: "github:getpaseo/paseo"
+import:
+  github_snapshot:
+    archived: false
+    created_at: "2025-10-13T12:27:02Z"
+    default_branch: "main"
+    description: "Orchestrate multiple coding agents from desktop and mobile"
+    disabled: false
+    fetched_at: "2026-07-19T19:16:14.796Z"
+    fork: false
+    forks: 1057
+    homepage: "https://paseo.sh"
+    latest_release: null
+    license_spdx: "NOASSERTION"
+    open_issues: 775
+    primary_language: "TypeScript"
+    pushed_at: "2026-07-19T07:10:13Z"
+    stars: 10863
+    topics:
+      - "ade"
+      - "agents"
+      - "android"
+      - "claude-code"
+      - "codex"
+      - "copilot"
+      - "developer-tools"
+      - "hermes"
+      - "ios"
+      - "linux"
+      - "mobile"
+      - "opencode"
+      - "orchestration"
+      - "pi"
+      - "windows"
+    updated_at: "2026-07-19T18:20:18Z"
+  sources:
+    - observed_at: "2026-07-11T17:39:58Z"
+      relation: "starred"
+      source_id: "github:user:tomseai:stars"
+      source_url: "https://github.com/tomseai?tab=stars"
+  state: "imported"
+repository:
+  aliases: []
+  github_node_id: "R_kgDOQBkEfw"
+  host: "github.com"
+  name: "paseo"
+  owner: "getpaseo"
+  url: "https://github.com/getpaseo/paseo"
+version: 1

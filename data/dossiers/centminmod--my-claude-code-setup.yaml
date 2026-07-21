@@ -1,0 +1,87 @@
+schema_version: 2
+repository_id: github:centminmod/my-claude-code-setup
+research:
+  state: complete
+  source_commit: 8132d26d07117a25f7dc27ead6e1c47b43a60440
+  bundle_collected_at: 2026-07-19T20:42:04.492Z
+  researched_at: 2026-07-20T17:22:48+02:00
+  confidence: high
+
+classification:
+  primary_category: documentation-and-learning
+  topics:
+    - coding-agents
+    - agent-skills
+    - mcp
+    - git
+    - worktrees
+    - developer-productivity
+
+project:
+  name: My Claude Code Project's Starter Settings
+  kind: starter-template
+  summary: >-
+    A Claude Code starter-configuration repository that combines CLAUDE.md
+    memory templates, hooks, subagents, slash commands, MCP guidance, and
+    Git-worktree recipes for customizable AI-assisted project workflows.
+  best_for:
+    - Adapting a documented Claude Code configuration instead of starting from an empty project setup
+    - Running isolated parallel Claude Code or Codex sessions with Git worktrees
+
+key_features:
+  - Three CLAUDE.md templates with dual-memory and progressive-disclosure patterns
+  - Migration guidance for existing CLAUDE.md configurations
+  - Example hooks, slash commands, specialized subagents, and status-line configuration
+  - MCP server and plugin-marketplace installation guidance
+  - Bash, PowerShell, and batch Git-worktree launchers and setup notes
+
+usage:
+  interfaces:
+    - Claude Code configuration files
+    - Slash commands
+    - Shell launchers
+  installation:
+    - Copy the repository's template files into the target project directory
+    - Customize CLAUDE.md and the selected settings before running Claude Code
+    - Run Claude Code's /init command to populate the documented memory-bank files
+  setup: moderate
+
+technology:
+  languages:
+    - Python
+    - Shell
+    - PowerShell
+  notable_components:
+    - Claude Code
+    - Model Context Protocol
+    - Git worktrees
+
+license:
+  spdx: MIT
+  name: MIT License
+  notes: >-
+    The retained LICENSE grants use, copying, modification, distribution,
+    sublicensing, and sale subject to retaining the copyright and permission notice;
+    it is provided without warranty.
+
+status:
+  lifecycle: active
+  archived: false
+  latest_release: null
+  latest_release_at: null
+
+strengths:
+  - Covers configuration, memory, extension, and parallel-workflow concerns in one starter reference
+  - Provides platform-specific worktree examples rather than only a conceptual workflow
+  - Documents how to adapt templates rather than presenting them as fixed project policy
+
+caveats:
+  - It is an opinionated personal setup, so copied rules, hooks, agents, and commands need project-specific review
+  - Claude Code itself, a paid Claude account, and some optional plugins or MCP services have separate requirements
+  - macOS notification settings depend on Terminal Notifier and should be removed or changed on other platforms
+  - The repository publishes no GitHub release entries in the retained release feed
+
+sources:
+  - https://raw.githubusercontent.com/centminmod/my-claude-code-setup/8132d26d07117a25f7dc27ead6e1c47b43a60440/README.md
+  - https://raw.githubusercontent.com/centminmod/my-claude-code-setup/8132d26d07117a25f7dc27ead6e1c47b43a60440/LICENSE
+  - https://raw.githubusercontent.com/centminmod/my-claude-code-setup/8132d26d07117a25f7dc27ead6e1c47b43a60440/CHANGELOG.md

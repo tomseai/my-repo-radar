@@ -1,0 +1,71 @@
+analysis:
+  analyzed_at: "2026-07-19T19:51:31.129Z"
+  classification:
+    primary_category: "ai-and-automation"
+    state: "provisional"
+    technologies:
+      - "go"
+      - "docker"
+    topics:
+      - "ai-agents"
+      - "llms"
+      - "automation"
+      - "cli"
+      - "self-hosted"
+      - "open-source"
+    use_cases:
+      - "run-personal-or-team-tools"
+      - "ship-and-operate-software"
+  evidence:
+    - claim: "PicoClaw is a lightweight Go agent with native MCP support, multimodal input, model routing, scheduled jobs, skills, and gateway commands; it can be deployed on low-footprint Linux devices or through Docker."
+      source_type: "repository-file"
+      url: "https://github.com/sipeed/picoclaw/blob/main/README.md"
+      checked_at: "2026-07-19"
+      confidence: "high"
+  state: "researched"
+  summary:
+    one_line: "A lightweight Go-based AI agent designed for low-footprint, broadly deployable environments."
+    why_useful: "It combines MCP tools, skills, scheduling, and multiple deployment modes for personal and automation workflows."
+curation:
+  confidence: null
+  evidence: []
+  limitations: []
+  recommendation: null
+  reviewed_at: null
+  state: "uncurated"
+  strengths: []
+  verdict: null
+id: "github:sipeed/picoclaw"
+import:
+  github_snapshot:
+    archived: false
+    created_at: "2026-02-04T12:32:35Z"
+    default_branch: "main"
+    description: "Tiny, Fast, and Deployable anywhere — automate the mundane, unleash your creativity"
+    disabled: false
+    fetched_at: "2026-07-19T19:16:14.796Z"
+    fork: false
+    forks: 4316
+    homepage: "https://picoclaw.io"
+    latest_release: null
+    license_spdx: "MIT"
+    open_issues: 59
+    primary_language: "Go"
+    pushed_at: "2026-07-18T18:20:29Z"
+    stars: 29690
+    topics: []
+    updated_at: "2026-07-19T18:21:14Z"
+  sources:
+    - observed_at: "2026-02-15T15:21:17Z"
+      relation: "starred"
+      source_id: "github:user:tomseai:stars"
+      source_url: "https://github.com/tomseai?tab=stars"
+  state: "imported"
+repository:
+  aliases: []
+  github_node_id: "R_kgDORIcl9w"
+  host: "github.com"
+  name: "picoclaw"
+  owner: "sipeed"
+  url: "https://github.com/sipeed/picoclaw"
+version: 1

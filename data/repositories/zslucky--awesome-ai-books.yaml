@@ -1,0 +1,79 @@
+analysis:
+  analyzed_at: "2026-07-19T19:54:59.070Z"
+  classification:
+    primary_category: "documentation-and-learning"
+    state: "confirmed"
+    technologies: []
+    topics:
+      - "machine-learning"
+    use_cases:
+      - "learn-and-reference"
+  evidence:
+    - claim: "The repository's maintained GitHub metadata describes a collection of AI-related books, PDFs, and learning playground models covering artificial intelligence and machine-learning topics."
+      source_type: "github-metadata"
+      url: "https://github.com/zslucky/awesome-AI-books"
+      checked_at: "2026-07-19"
+      confidence: "high"
+  state: "complete"
+  summary:
+    one_line: "A reference collection of AI-related books, PDFs, and learning materials."
+    why_useful: "It gathers learning resources across artificial intelligence and machine-learning subjects."
+curation:
+  confidence: null
+  evidence: []
+  limitations: []
+  recommendation: null
+  reviewed_at: null
+  state: "uncurated"
+  strengths: []
+  verdict: null
+id: "github:zslucky/awesome-AI-books"
+import:
+  github_snapshot:
+    archived: false
+    created_at: "2018-02-25T23:56:56Z"
+    default_branch: "master"
+    description: "Some awesome AI related books and pdfs for learning and downloading, also apply some playground models for learning"
+    disabled: false
+    fetched_at: "2026-07-19T19:16:14.796Z"
+    fork: false
+    forks: 397
+    homepage: ""
+    latest_release: null
+    license_spdx: "MIT"
+    open_issues: 1
+    primary_language: "Jupyter Notebook"
+    pushed_at: "2026-07-07T00:40:24Z"
+    stars: 1756
+    topics:
+      - "ai"
+      - "algorithms"
+      - "artificial-intelligence"
+      - "books"
+      - "data-mining"
+      - "deep-learning"
+      - "learning"
+      - "machine-learning"
+      - "mathematics"
+      - "pdf"
+      - "playground"
+      - "quantum-algorithms"
+      - "quantum-computing"
+      - "quantum-information"
+      - "reading"
+      - "reinforcement-learning"
+    updated_at: "2026-07-19T06:15:39Z"
+  sources:
+    - observed_at: "2026-04-03T15:52:29Z"
+      relation: "starred"
+      source_id: "github:user:tomseai:stars"
+      source_url: "https://github.com/tomseai?tab=stars"
+  state: "imported"
+repository:
+  aliases: []
+  github_node_id: "MDEwOlJlcG9zaXRvcnkxMjI4ODk2ODE="
+  host: "github.com"
+  name: "awesome-AI-books"
+  owner: "zslucky"
+  url: "https://github.com/zslucky/awesome-AI-books"
+version: 1

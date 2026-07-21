@@ -1,0 +1,73 @@
+schema_version: 2
+repository_id: github:lfnovo/open-notebook
+research:
+  state: complete
+  source_commit: c04c26dfade4b5540ad6017d611b8c5e1de9dd87
+  bundle_collected_at: 2026-07-19T20:43:51.724Z
+  researched_at: 2026-07-20T15:41:35.736Z
+  confidence: high
+classification:
+  primary_category: ai-and-automation
+  topics:
+    - llms
+    - chat-ui
+    - search
+    - self-hosted
+    - document-processing
+    - multi-provider
+project:
+  name: open-notebook
+  kind: application
+  summary: >-
+    A self-hosted research-notebook application for organizing multimodal
+    sources, searching them, and using configurable AI models for
+    source-grounded chat, notes, and podcast generation.
+  best_for:
+    - Individuals or teams that want a private research workspace they can host
+    - Research workflows that combine documents, media, web sources, and AI chat
+key_features:
+  - Multiple notebooks for separate research projects
+  - Ingestion of PDFs, videos, audio, web pages, and office documents
+  - Full-text and vector search across stored content
+  - Context-aware chat with source citations and configurable context
+  - AI-assisted notes, content transformations, and multi-speaker podcasts
+  - Support for hosted and local model providers, including Ollama and LM Studio
+usage:
+  interfaces:
+    - web UI
+    - REST API
+  installation:
+    - Docker Compose
+    - build from source
+  setup: moderate
+technology:
+  languages:
+    - TypeScript
+    - Python
+  notable_components:
+    - Next.js
+    - FastAPI
+    - SurrealDB
+    - LangGraph
+license:
+  spdx: MIT
+  name: MIT License
+  notes: Permissive license; the copyright and license notice must be retained.
+status:
+  lifecycle: active
+  archived: false
+  latest_release: v1.13.0
+  latest_release_at: 2026-07-14
+strengths:
+  - Combines source management, search, chat, notes, and audio generation in one self-hosted application
+  - Supports a broad mix of local and hosted AI providers
+  - Provides both an interactive UI and programmatic REST API
+caveats:
+  - Docker is required for the documented quick-start deployment
+  - Hosted-model features require configuring the relevant provider credentials
+  - Advanced extraction engines are optional and can add first-start downloads or runtime requirements
+sources:
+  - https://raw.githubusercontent.com/lfnovo/open-notebook/c04c26dfade4b5540ad6017d611b8c5e1de9dd87/README.md
+  - https://raw.githubusercontent.com/lfnovo/open-notebook/c04c26dfade4b5540ad6017d611b8c5e1de9dd87/LICENSE
+  - https://raw.githubusercontent.com/lfnovo/open-notebook/c04c26dfade4b5540ad6017d611b8c5e1de9dd87/docs/7-DEVELOPMENT/architecture.md
+  - https://github.com/lfnovo/open-notebook/releases.atom

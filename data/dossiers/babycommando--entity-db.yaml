@@ -1,0 +1,85 @@
+schema_version: 2
+repository_id: github:babycommando/entity-db
+research:
+  state: complete
+  source_commit: b9e024c557a8065b5cc65a11974f86ec827b1a3c
+  bundle_collected_at: 2026-07-19T20:41:48.003Z
+  researched_at: 2026-07-20T15:11:52.415Z
+  confidence: medium
+
+classification:
+  primary_category: data-and-databases
+  topics:
+    - databases
+    - local-first
+    - web
+    - machine-learning
+    - performance
+
+project:
+  name: EntityDB
+  kind: library
+  summary: >-
+    A JavaScript browser library for persisting vector embeddings in IndexedDB
+    and searching them locally, with optional text embedding through
+    Transformers.js and experimental binary-vector query paths.
+  best_for:
+    - Browser applications that need local vector storage without a server component
+    - Prototypes or client-side search features that can use Transformers.js embeddings
+
+key_features:
+  - Persists vector data in the browser through IndexedDB
+  - Generates text embeddings with Transformers.js or accepts precomputed vectors
+  - Queries dense vectors with cosine similarity
+  - Supports updates and deletion of stored vectors
+  - Provides experimental binary-vector queries using JavaScript and WebAssembly SIMD
+
+usage:
+  interfaces:
+    - JavaScript API
+    - browser IndexedDB storage
+  installation:
+    - npm package (@babycommando/entity-db)
+    - yarn package install
+    - pnpm package install
+    - Bun package install
+  setup: low
+
+technology:
+  languages:
+    - JavaScript
+    - WebAssembly
+  notable_components:
+    - IndexedDB
+    - Transformers.js
+    - WebAssembly SIMD
+
+license:
+  spdx: Apache-2.0
+  name: Apache License 2.0
+  notes: >-
+    Declared in the README and package manifest; the complete retained repository
+    tree contains no LICENSE file, so a repository copy of the license terms was not verified.
+
+status:
+  lifecycle: unknown
+  archived: false
+  latest_release: null
+  latest_release_at: null
+
+strengths:
+  - Keeps vector persistence and similarity search in the browser
+  - Supports both automatic embeddings and manual vector insertion
+  - Documents dense and binary query options with code examples
+
+caveats:
+  - The retained GitHub release feed contains no release entries
+  - Binary-vector functionality is explicitly marked experimental and trades detail for smaller, faster comparisons
+  - Next.js use may require the documented Webpack aliases for browser compatibility
+  - Source support is limited to a README and manifest, and no license text is retained
+
+sources:
+  - https://raw.githubusercontent.com/babycommando/entity-db/b9e024c557a8065b5cc65a11974f86ec827b1a3c/README.MD
+  - https://raw.githubusercontent.com/babycommando/entity-db/b9e024c557a8065b5cc65a11974f86ec827b1a3c/package.json
+  - https://github.com/babycommando/entity-db/tree/b9e024c557a8065b5cc65a11974f86ec827b1a3c
+  - https://github.com/babycommando/entity-db/releases.atom

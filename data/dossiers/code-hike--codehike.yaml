@@ -1,0 +1,68 @@
+schema_version: 2
+repository_id: github:code-hike/codehike
+research:
+  state: complete
+  source_commit: cd81d8af1c503b699cbf0458d504e4578bcb9c74
+  bundle_collected_at: 2026-07-19T20:42:12.968Z
+  researched_at: 2026-07-20T00:22:00Z
+  confidence: high
+classification:
+  primary_category: frontend-and-design
+  topics:
+    - frontend-development
+    - documentation
+    - libraries
+    - web
+project:
+  name: Code Hike
+  kind: library
+  summary: >-
+    A TypeScript library that combines Markdown and React for technical content
+    sites, with published code, MDX, block, and syntax-highlighting utilities.
+  best_for:
+    - React teams building technical documentation, tutorials, or code-focused sites
+    - Authors who want interactive code content from Markdown and MDX
+key_features:
+  - Provides a published codehike package with code, MDX, blocks, and utility entry points
+  - Bridges Markdown and React for rich technical web content
+  - Includes code-oriented package exports and a syntax-highlighting dependency
+  - Offers a Next.js starter that can be opened online or created with create-next-app
+usage:
+  interfaces:
+    - React library
+    - npm package
+    - Next.js starter
+  installation:
+    - npx create-next-app -e https://github.com/code-hike/v1-starter
+    - npm package
+  setup: moderate
+technology:
+  languages:
+    - TypeScript
+  notable_components:
+    - React
+    - MDX
+    - Next.js starter
+    - "@code-hike/lighter"
+license:
+  spdx: MIT
+  name: MIT License
+  notes: Permission to use, modify, distribute, sublicense, and sell is subject to retaining the copyright and permission notice.
+status:
+  lifecycle: active
+  archived: false
+  latest_release: codehike@1.1.0
+  latest_release_at: "2026-03-17"
+strengths:
+  - Pairs a focused Markdown-and-React purpose with a ready-to-use Next.js starter
+  - Exposes several entry points for integrating code and MDX content at the needed level
+  - Uses a conventional MIT license and maintains a release workflow for the primary package
+caveats:
+  - It is a React content library rather than a complete documentation application
+  - The starter targets Next.js, so projects using another framework need to integrate the library directly
+  - The repository is a monorepo; latest_release selects the primary codehike package release
+sources:
+  - https://raw.githubusercontent.com/code-hike/codehike/cd81d8af1c503b699cbf0458d504e4578bcb9c74/readme.md
+  - https://raw.githubusercontent.com/code-hike/codehike/cd81d8af1c503b699cbf0458d504e4578bcb9c74/packages/codehike/package.json
+  - https://raw.githubusercontent.com/code-hike/codehike/cd81d8af1c503b699cbf0458d504e4578bcb9c74/license
+  - https://github.com/code-hike/codehike/releases.atom

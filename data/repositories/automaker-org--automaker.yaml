@@ -1,0 +1,71 @@
+analysis:
+  analyzed_at: "2026-07-19T19:19:10.494Z"
+  classification:
+    primary_category: "ai-and-automation"
+    state: "provisional"
+    technologies:
+      - "typescript"
+      - "react"
+      - "nodejs"
+      - "docker"
+    topics:
+      - "ai-agents"
+      - "automation"
+      - "desktop-app"
+      - "git"
+    use_cases:
+      - "improve-developer-workflow"
+      - "build-ai-products"
+  evidence:
+    - claim: "Automaker is an autonomous AI development studio where features on a Kanban board are implemented by Claude Agent SDK agents, with desktop or browser access, Git worktree isolation, plan approval, and multi-agent execution."
+      source_type: "repository-file"
+      url: "https://github.com/AutoMaker-Org/automaker/blob/main/README.md"
+      checked_at: "2026-07-19"
+      confidence: "high"
+  state: "researched"
+  summary:
+    one_line: "An autonomous AI development studio for directing coding agents from a Kanban workflow."
+    why_useful: "It combines agent execution, planning approval, worktree isolation, and progress review in one application."
+curation:
+  confidence: null
+  evidence: []
+  limitations: []
+  recommendation: null
+  reviewed_at: null
+  state: "uncurated"
+  strengths: []
+  verdict: null
+id: "github:AutoMaker-Org/automaker"
+import:
+  github_snapshot:
+    archived: false
+    created_at: "2025-12-07T21:42:08Z"
+    default_branch: "main"
+    description: null
+    disabled: false
+    fetched_at: "2026-07-19T19:16:14.796Z"
+    fork: false
+    forks: 596
+    homepage: "https://automaker.app/"
+    latest_release: null
+    license_spdx: "NOASSERTION"
+    open_issues: 11
+    primary_language: "TypeScript"
+    pushed_at: "2026-05-22T16:38:23Z"
+    stars: 3203
+    topics: []
+    updated_at: "2026-07-19T14:17:49Z"
+  sources:
+    - observed_at: "2026-01-15T12:38:09Z"
+      relation: "starred"
+      source_id: "github:user:tomseai:stars"
+      source_url: "https://github.com/tomseai?tab=stars"
+  state: "imported"
+repository:
+  aliases: []
+  github_node_id: "R_kgDOQkZ_lA"
+  host: "github.com"
+  name: "automaker"
+  owner: "AutoMaker-Org"
+  url: "https://github.com/AutoMaker-Org/automaker"
+version: 1

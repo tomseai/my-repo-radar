@@ -1,0 +1,72 @@
+schema_version: 2
+repository_id: github:CopilotKit/generative-ui
+research:
+  state: complete
+  source_commit: 12aa81e3deeb9c6c15c7863b67a3f8f63144e383
+  bundle_collected_at: 2026-07-19T20:42:25.631Z
+  researched_at: 2026-07-20T17:12:27.0008310+02:00
+  confidence: medium
+classification:
+  primary_category: documentation-and-learning
+  topics:
+    - ai-agents
+    - generative-ui
+    - agent-protocols
+    - mcp
+    - documentation
+    - reference
+    - web
+project:
+  name: generative-ui
+  kind: documentation
+  summary: >-
+    A conceptual guide and set of examples that compares controlled,
+    declarative, and open-ended generative UI patterns for agentic apps.
+  best_for:
+    - Developers choosing a generative UI pattern or agent-to-application protocol
+    - Learners who want implementation-oriented examples for CopilotKit-based generative UI
+key_features:
+  - Explains controlled UI, where agents select prebuilt components through tools
+  - Describes declarative UI with A2UI and Open-JSON-UI structured specifications
+  - Covers open-ended UI through MCP Apps and a separate useComponent approach
+  - Includes code examples, a linked playground, and further protocol and design resources
+usage:
+  interfaces:
+    - README documentation
+    - linked browser playground and demos
+    - TypeScript, JavaScript, and Python code examples
+  installation:
+    - read the repository README
+    - follow linked CopilotKit examples and playground resources
+  setup: low
+technology:
+  languages: []
+  notable_components:
+    - AG-UI
+    - A2UI
+    - Open-JSON-UI
+    - MCP Apps
+    - CopilotKit
+license:
+  spdx: null
+  name: No license terms established
+  notes: >-
+    License terms are not established: the complete retained 11-entry tree
+    contains no LICENSE file, and the README does not state a license.
+status:
+  lifecycle: deprecated
+  archived: false
+  latest_release: null
+  latest_release_at: null
+strengths:
+  - Distinguishes the control and portability trade-offs of three generative UI approaches
+  - Pairs conceptual explanation with short implementation examples and linked runnable resources
+  - States where AG-UI fits as the runtime interaction layer across the described approaches
+caveats:
+  - The README states that this repository has been consolidated into the main CopilotKit monorepo
+  - The current source is reference material, not a self-contained installable application or library
+  - Examples rely on CopilotKit and external protocol or playground resources that may evolve independently
+  - No repository release entries or explicit license terms were retained, so reuse rights and a project release cannot be established
+sources:
+  - https://raw.githubusercontent.com/CopilotKit/generative-ui/12aa81e3deeb9c6c15c7863b67a3f8f63144e383/README.md
+  - https://github.com/CopilotKit/generative-ui/releases.atom

@@ -1,0 +1,86 @@
+schema_version: 2
+repository_id: github:garrytan/gstack
+
+research:
+  state: complete
+  source_commit: a3259400a366593e0c909dd9ac3e59752efd2488
+  bundle_collected_at: 2026-07-19T20:42:58.797Z
+  researched_at: 2026-07-20T15:25:52.209Z
+  confidence: high
+
+classification:
+  primary_category: ai-and-automation
+  topics:
+    - coding-agents
+    - agent-skills
+    - code-review
+    - browser-automation
+    - testing
+    - security
+    - developer-productivity
+
+project:
+  name: gstack
+  kind: plugin
+  summary: >-
+    An MIT-licensed collection of skills and command-line tools that adds
+    structured planning, review, QA, browser, security, and release workflows
+    to supported AI coding agents.
+  best_for:
+    - Developers who want opinionated software-delivery workflows in an AI coding agent
+    - Technical leads who want repeatable review, QA, security, and release steps
+
+key_features:
+  - Specialist slash-command workflows for product, engineering, design, review, QA, security, and release work
+  - An automated planning pipeline that chains product, design, engineering, and developer-experience review
+  - Real Chromium browser control with screenshots and authenticated-session cookie import
+  - QA workflows that can reproduce defects, make fixes, generate regression tests, and re-verify
+  - A security-review workflow based on OWASP Top 10 and STRIDE threat modeling
+  - Host detection and skill installation for Claude Code, Codex CLI, OpenCode, Cursor, and other coding agents
+
+usage:
+  interfaces:
+    - agent slash commands
+    - command-line tools
+    - browser sidebar
+  installation:
+    - clone the repository and run its setup script
+    - install through a supported coding-agent host
+  setup: moderate
+
+technology:
+  languages:
+    - TypeScript
+    - Markdown
+  notable_components:
+    - Bun
+    - Playwright
+    - Puppeteer
+    - Chromium
+
+license:
+  spdx: MIT
+  name: MIT License
+  notes: Permissive license; copyright and license notices must be retained, and the software is provided without warranty.
+
+status:
+  lifecycle: active
+  archived: false
+  latest_release: null
+  latest_release_at: null
+
+strengths:
+  - Covers a broad delivery loop, from requirements and planning through testing, review, and PR release work
+  - Supports several coding-agent hosts instead of requiring a single model provider
+  - Includes practical browser and QA capabilities rather than only text-prompt templates
+
+caveats:
+  - The retained release feed contains no project release entries, so no stable release can be established
+  - Full browser, QA, and deployment workflows can require local browsers, credentials, staging access, or external services
+  - Some team-mode setup changes repository instructions and configuration, so teams should review the generated policy before adopting it
+
+sources:
+  - https://raw.githubusercontent.com/garrytan/gstack/a3259400a366593e0c909dd9ac3e59752efd2488/README.md
+  - https://raw.githubusercontent.com/garrytan/gstack/a3259400a366593e0c909dd9ac3e59752efd2488/LICENSE
+  - https://raw.githubusercontent.com/garrytan/gstack/a3259400a366593e0c909dd9ac3e59752efd2488/package.json
+  - https://github.com/garrytan/gstack/releases.atom

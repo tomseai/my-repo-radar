@@ -1,0 +1,80 @@
+analysis:
+  analyzed_at: "2026-07-19T19:47:51.088Z"
+  classification:
+    primary_category: "developer-tools"
+    state: "provisional"
+    technologies:
+      - "rust"
+    topics:
+      - "ai-agents"
+      - "llms"
+      - "cli"
+      - "git"
+    use_cases:
+      - "improve-developer-workflow"
+  evidence:
+    - claim: "RTK is a Rust CLI proxy that filters and compresses command output before it enters an LLM context, with integration hooks for coding agents and support for more than 100 commands."
+      source_type: "repository-file"
+      url: "https://github.com/rtk-ai/rtk/blob/develop/README.md"
+      checked_at: "2026-07-19"
+      confidence: "high"
+  state: "researched"
+  summary:
+    one_line: "Rust CLI proxy that reduces command-output context sent to coding agents."
+    why_useful: "It helps agent-assisted development workflows retain relevant command information while using fewer LLM tokens."
+curation:
+  confidence: null
+  evidence: []
+  limitations: []
+  recommendation: null
+  reviewed_at: null
+  state: "uncurated"
+  strengths: []
+  verdict: null
+id: "github:rtk-ai/rtk"
+import:
+  github_snapshot:
+    archived: false
+    created_at: "2026-01-22T16:54:16Z"
+    default_branch: "develop"
+    description: "CLI proxy that reduces LLM token consumption by 60-90% on common dev commands. Single Rust binary, zero dependencies"
+    disabled: false
+    fetched_at: "2026-07-19T19:16:14.796Z"
+    fork: false
+    forks: 4471
+    homepage: "https://www.rtk-ai.app"
+    latest_release: null
+    license_spdx: "Apache-2.0"
+    open_issues: 1622
+    primary_language: "Rust"
+    pushed_at: "2026-07-19T10:26:29Z"
+    stars: 71851
+    topics:
+      - "agentic-coding"
+      - "ai-coding"
+      - "anthropic"
+      - "claude-code"
+      - "cli"
+      - "command-line-tool"
+      - "cost-reduction"
+      - "developer-tools"
+      - "llm"
+      - "open-source"
+      - "productivity"
+      - "rust"
+      - "token-optimization"
+    updated_at: "2026-07-19T18:59:53Z"
+  sources:
+    - observed_at: "2026-04-25T17:26:42Z"
+      relation: "starred"
+      source_id: "github:user:tomseai:stars"
+      source_url: "https://github.com/tomseai?tab=stars"
+  state: "imported"
+repository:
+  aliases: []
+  github_node_id: "R_kgDOQ_KVhA"
+  host: "github.com"
+  name: "rtk"
+  owner: "rtk-ai"
+  url: "https://github.com/rtk-ai/rtk"
+version: 1

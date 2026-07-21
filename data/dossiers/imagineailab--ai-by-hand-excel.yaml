@@ -1,0 +1,67 @@
+schema_version: 2
+repository_id: github:ImagineAILab/ai-by-hand-excel
+research:
+  state: complete
+  source_commit: c2529f7a2a1a239136fc3d3f01634e9b2709f27d
+  bundle_collected_at: 2026-07-19T20:43:26.834Z
+  researched_at: 2026-07-20T10:00:00+02:00
+  confidence: high
+classification:
+  primary_category: documentation-and-learning
+  topics:
+    - courses
+    - tutorials
+    - machine-learning
+project:
+  name: "AI by Hand: Exercises in Excel"
+  kind: course
+  summary: >-
+    A collection of Excel workbooks for manually working through machine-learning
+    and neural-network concepts, from dot products and softmax to transformers,
+    Mamba, and AlphaFold.
+  best_for:
+    - Learners who want to inspect model mechanics in spreadsheet exercises
+    - Teaching or self-study that benefits from small, editable worked examples
+key_features:
+  - Includes basic exercises for softmax, LeakyReLU, and temperature
+  - Provides advanced workbooks for MLPs, backpropagation, RNNs, LSTMs, ResNet, attention, transformers, autoencoders, Mamba, and AlphaFold
+  - Supplies a blank DeepSeek lecture workbook for multi-head latent attention and mixture-of-experts material
+  - Adds foundational workbook exercises for dot products, matrix multiplication, and linear layers
+usage:
+  interfaces:
+    - Excel workbook files
+    - Repository README
+  installation:
+    - Download individual .xlsx workbooks
+    - Clone or download the repository archive
+  setup: low
+technology:
+  languages: []
+  notable_components:
+    - Excel .xlsx exercises
+    - Basic, advanced, lecture, and workbook directories
+license:
+  spdx: MIT
+  name: MIT License
+  notes: >-
+    Permissive license that allows use, modification, distribution, sublicensing,
+    and sale, provided the copyright and permission notice are retained; the
+    materials are provided without warranty.
+status:
+  lifecycle: unknown
+  archived: false
+  latest_release: null
+  latest_release_at: null
+strengths:
+  - Uses editable spreadsheets to make abstract calculations concrete and inspectable
+  - Progresses from matrix fundamentals to a broad collection of neural-network architectures
+  - Provides source workbooks under a clear permissive MIT license
+caveats:
+  - The repository is exercise material, not a production machine-learning library or training framework
+  - Workbook behavior depends on a compatible spreadsheet application and is not documented for every Excel alternative
+  - Some named topics are only listed as coming soon, so they should not be assumed to have a workbook
+  - The cached GitHub releases feed contains no release entries, and the retained files do not characterize project lifecycle
+sources:
+  - https://raw.githubusercontent.com/ImagineAILab/ai-by-hand-excel/c2529f7a2a1a239136fc3d3f01634e9b2709f27d/README.md
+  - https://raw.githubusercontent.com/ImagineAILab/ai-by-hand-excel/c2529f7a2a1a239136fc3d3f01634e9b2709f27d/LICENSE
+  - https://github.com/ImagineAILab/ai-by-hand-excel/releases.atom

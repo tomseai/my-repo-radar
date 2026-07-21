@@ -1,0 +1,82 @@
+analysis:
+  analyzed_at: "2026-07-19T19:25:35.208Z"
+  classification:
+    primary_category: "frontend-and-design"
+    state: "provisional"
+    technologies:
+      - "javascript"
+      - "react"
+    topics:
+      - "desktop-app"
+      - "web"
+      - "open-source"
+    use_cases:
+      - "design-interfaces"
+  evidence:
+    - claim: "Win11React is an open-source web recreation of the Windows 11 desktop experience, built with React, CSS/SCSS, JavaScript, and Redux; its README states that it is not a Microsoft operating system or cloud PC."
+      source_type: "repository-file"
+      url: "https://github.com/blueedgetechno/win11React/blob/master/README.md"
+      checked_at: "2026-07-19"
+      confidence: "high"
+    - claim: "GitHub repository metadata reports Win11React as archived."
+      source_type: "github-metadata"
+      url: "https://github.com/blueedgetechno/win11React"
+      checked_at: "2026-07-19"
+      confidence: "high"
+  state: "researched"
+  summary:
+    one_line: "An archived React web recreation of the Windows 11 desktop experience."
+    why_useful: "It serves as an interface-design and React implementation reference for desktop-like web interactions."
+curation:
+  confidence: null
+  evidence: []
+  limitations: []
+  recommendation: null
+  reviewed_at: null
+  state: "uncurated"
+  strengths: []
+  verdict: null
+id: "github:blueedgetechno/win11React"
+import:
+  github_snapshot:
+    archived: true
+    created_at: "2021-07-12T17:38:43Z"
+    default_branch: "master"
+    description: "Windows 11 in React 💻🌈⚡"
+    disabled: false
+    fetched_at: "2026-07-19T19:16:14.796Z"
+    fork: false
+    forks: 1229
+    homepage: "https://win11.blueedge.me"
+    latest_release: null
+    license_spdx: "CC0-1.0"
+    open_issues: 15
+    primary_language: "JavaScript"
+    pushed_at: "2024-08-11T11:17:19Z"
+    stars: 9685
+    topics:
+      - "css"
+      - "hacktoberfest"
+      - "hacktoberfest2022"
+      - "javascript"
+      - "react"
+      - "reactjs"
+      - "redux"
+      - "website"
+      - "windows"
+      - "windows-11"
+    updated_at: "2026-07-19T13:25:09Z"
+  sources:
+    - observed_at: "2024-04-24T16:21:35Z"
+      relation: "starred"
+      source_id: "github:user:tomseai:stars"
+      source_url: "https://github.com/tomseai?tab=stars"
+  state: "imported"
+repository:
+  aliases: []
+  github_node_id: "MDEwOlJlcG9zaXRvcnkzODUzMzIzNzQ="
+  host: "github.com"
+  name: "win11React"
+  owner: "blueedgetechno"
+  url: "https://github.com/blueedgetechno/win11React"
+version: 1

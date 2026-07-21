@@ -1,0 +1,89 @@
+schema_version: 2
+repository_id: github:AndyMik90/Aperant
+research:
+  state: complete
+  source_commit: 20250db069a849ab001ac6ab9e3e9779886ab9e2
+  bundle_collected_at: 2026-07-19T20:41:37.290Z
+  researched_at: 2026-07-20T00:38:21.429Z
+  confidence: high
+
+classification:
+  primary_category: ai-and-automation
+  topics:
+    - ai-agents
+    - coding-agents
+    - multi-agent
+    - parallel-agents
+    - worktrees
+    - git
+    - desktop-app
+    - task-planning
+    - testing
+
+project:
+  name: Aperant
+  kind: application
+  summary: >-
+    An Electron desktop application for planning, executing, and validating
+    parallel AI coding tasks in isolated Git worktrees, with a visual task
+    board, agent terminals, review loops, and project-management integrations.
+  best_for:
+    - Claude Code users running parallel implementation tasks in Git repositories
+    - Developers who prefer a visual desktop workflow for autonomous coding sessions
+
+key_features:
+  - Autonomous task planning, implementation, and validation workflows
+  - Up to twelve parallel agent terminals and Git-worktree isolation
+  - Built-in quality assurance and AI-assisted merge-conflict resolution
+  - Kanban task board and real-time agent-progress monitoring
+  - Codebase insights, ideation, roadmap, and changelog features
+  - GitHub, GitLab, and Linear integrations
+
+usage:
+  interfaces:
+    - desktop GUI
+    - agent terminals
+    - Kanban board
+  installation:
+    - official Windows, macOS, or Linux download
+    - build from source
+  setup: moderate
+
+technology:
+  languages:
+    - TypeScript
+  notable_components:
+    - React
+    - Electron
+    - Electron Vite
+    - Model Context Protocol SDK
+    - Git worktrees
+
+license:
+  spdx: AGPL-3.0
+  name: GNU Affero General Public License v3.0
+  notes: Network use and redistribution of modified versions carry AGPL source-availability obligations; the README also offers commercial licensing for closed-source use.
+
+status:
+  lifecycle: maintenance
+  archived: false
+  latest_release: v2.7.6
+  latest_release_at: 2026-02-20
+
+strengths:
+  - Brings planning, parallel execution, validation, and Git worktree isolation into one desktop workflow
+  - Provides native desktop builds for Windows, macOS, and Linux
+  - Documents an explicit stable release alongside beta maintenance builds
+
+caveats:
+  - The stable 2.x desktop app is in maintenance mode while the planned 3.0 rebuild occurs in a separate repository
+  - Code pull requests against the current repository are paused during the 3.0 rebuild
+  - The documented workflow requires a Claude Pro or Max subscription, the Claude Code CLI, and a Git repository
+  - The newest feed entry is v2.8.0-beta.6; v2.7.6 is retained as the README-designated stable release
+
+sources:
+  - https://raw.githubusercontent.com/AndyMik90/Aperant/20250db069a849ab001ac6ab9e3e9779886ab9e2/README.md
+  - https://raw.githubusercontent.com/AndyMik90/Aperant/20250db069a849ab001ac6ab9e3e9779886ab9e2/apps/desktop/package.json
+  - https://raw.githubusercontent.com/AndyMik90/Aperant/20250db069a849ab001ac6ab9e3e9779886ab9e2/LICENSE
+  - https://raw.githubusercontent.com/AndyMik90/Aperant/20250db069a849ab001ac6ab9e3e9779886ab9e2/CHANGELOG.md
+  - https://github.com/AndyMik90/Aperant/releases.atom

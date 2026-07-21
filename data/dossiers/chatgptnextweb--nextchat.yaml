@@ -1,0 +1,80 @@
+schema_version: 2
+repository_id: github:ChatGPTNextWeb/NextChat
+research:
+  state: complete
+  source_commit: 706a18b95b714ab29b2a4842d3b9ff4f887935d5
+  bundle_collected_at: 2026-07-19T20:42:10.026Z
+  researched_at: 2026-07-20T10:30:00+02:00
+  confidence: high
+classification:
+  primary_category: platforms-and-applications
+  topics:
+    - chat-ui
+    - llms
+    - web-ui
+    - desktop-app
+    - mobile-app
+    - self-hosted
+    - local-first
+    - mcp
+project:
+  name: NextChat
+  kind: application
+  summary: >-
+    An MIT-licensed AI chat application available as a deployable web/PWA
+    client and Tauri desktop application, with local browser storage, hosted
+    and self-hosted model endpoints, and optional MCP support.
+  best_for:
+    - Individuals self-hosting a compact AI chat client with their own model-provider credentials
+    - Users who want local browser chat storage, prompt templates, and a cross-platform desktop option
+key_features:
+  - Supports OpenAI-compatible, Azure, Anthropic, Google, DeepSeek, and other configured model endpoints
+  - Stores data locally in the browser and offers a responsive PWA with streaming responses
+  - Provides prompt templates, conversation-history compression, Markdown, LaTeX, Mermaid, and code highlighting
+  - Builds a desktop application with Tauri and documents iOS availability
+  - Can enable Model Context Protocol support through the ENABLE_MCP build environment variable
+usage:
+  interfaces:
+    - web application and PWA
+    - Tauri desktop application
+    - iOS application
+  installation:
+    - one-click Vercel deployment
+    - Docker container deployment
+    - source checkout with Yarn and Node.js
+  setup: moderate
+technology:
+  languages:
+    - TypeScript
+    - Rust
+  notable_components:
+    - Next.js
+    - React
+    - Tauri
+    - Docker
+    - Model Context Protocol SDK
+license:
+  spdx: MIT
+  name: MIT License
+  notes: >-
+    Permissive license allowing use, modification, distribution, sublicensing,
+    and sale when the copyright and permission notices are retained; provided without warranty.
+status:
+  lifecycle: active
+  archived: false
+  latest_release: v2.16.1
+  latest_release_at: "2025-07-29"
+strengths:
+  - Offers several deployment paths while keeping chat data in the browser by default
+  - Supports self-hosted and hosted model endpoints in a compact client
+  - Includes prompt templates, long-conversation compression, and rich technical-content rendering
+caveats:
+  - Hosted-provider deployments require an API key and optional endpoint-specific configuration
+  - MCP is opt-in at build time through ENABLE_MCP rather than enabled in every deployment
+  - The README's desktop download link targets the historic Yidadaa/ChatGPT-Next-Web releases, so desktop release provenance is not solely established by this repository
+sources:
+  - https://raw.githubusercontent.com/ChatGPTNextWeb/NextChat/706a18b95b714ab29b2a4842d3b9ff4f887935d5/README.md
+  - https://raw.githubusercontent.com/ChatGPTNextWeb/NextChat/706a18b95b714ab29b2a4842d3b9ff4f887935d5/LICENSE
+  - https://raw.githubusercontent.com/ChatGPTNextWeb/NextChat/706a18b95b714ab29b2a4842d3b9ff4f887935d5/package.json
+  - https://raw.githubusercontent.com/ChatGPTNextWeb/NextChat/706a18b95b714ab29b2a4842d3b9ff4f887935d5/docker-compose.yml
+  - https://github.com/ChatGPTNextWeb/NextChat/releases.atom

@@ -1,0 +1,65 @@
+analysis:
+  analyzed_at: "2026-07-19T19:42:52.223Z"
+  classification:
+    primary_category: "documentation-and-learning"
+    state: "confirmed"
+    technologies: []
+    topics:
+      - "ai-agents"
+      - "llms"
+      - "automation"
+    use_cases:
+      - "learn-and-reference"
+  evidence:
+    - claim: "Awesome Agentic Patterns is a curated catalogue of traceable, real-world agentic AI patterns, with categories for context, feedback loops, orchestration, reliability, security, tools, and collaboration."
+      source_type: "repository-file"
+      url: "https://github.com/nibzard/awesome-agentic-patterns/blob/main/README.md"
+      checked_at: "2026-07-19"
+      confidence: "high"
+  state: "complete"
+  summary:
+    one_line: "A curated catalogue of real-world patterns for designing and operating agentic AI systems."
+    why_useful: "It provides discoverable reference patterns for agent memory, orchestration, evaluation, safety, tool use, and collaboration."
+curation:
+  confidence: null
+  evidence: []
+  limitations: []
+  recommendation: null
+  reviewed_at: null
+  state: "uncurated"
+  strengths: []
+  verdict: null
+id: "github:nibzard/awesome-agentic-patterns"
+import:
+  github_snapshot:
+    archived: false
+    created_at: "2025-05-31T11:20:41Z"
+    default_branch: "main"
+    description: "A curated catalogue of awesome agentic AI patterns"
+    disabled: false
+    fetched_at: "2026-07-19T19:16:14.796Z"
+    fork: false
+    forks: 434
+    homepage: "https://agentic-patterns.com/"
+    latest_release: null
+    license_spdx: "Apache-2.0"
+    open_issues: 14
+    primary_language: "HTML"
+    pushed_at: "2026-06-08T16:36:32Z"
+    stars: 4815
+    topics: []
+    updated_at: "2026-07-19T11:08:05Z"
+  sources:
+    - observed_at: "2026-04-03T15:52:36Z"
+      relation: "starred"
+      source_id: "github:user:tomseai:stars"
+      source_url: "https://github.com/tomseai?tab=stars"
+  state: "imported"
+repository:
+  aliases: []
+  github_node_id: "R_kgDOOzruMA"
+  host: "github.com"
+  name: "awesome-agentic-patterns"
+  owner: "nibzard"
+  url: "https://github.com/nibzard/awesome-agentic-patterns"
+version: 1

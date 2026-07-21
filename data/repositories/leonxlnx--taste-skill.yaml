@@ -1,0 +1,78 @@
+analysis:
+  analyzed_at: "2026-07-19T19:38:35.547Z"
+  classification:
+    primary_category: "frontend-and-design"
+    state: "confirmed"
+    technologies: []
+    topics:
+      - "ai-agents"
+      - "code-generation"
+      - "web"
+    use_cases:
+      - "design-interfaces"
+  evidence:
+    - claim: "Taste Skill provides portable agent skills for improving AI-built frontend layouts, typography, motion, and spacing, plus image-generation skills for reference boards and implementation-oriented frontend skills."
+      source_type: "repository-file"
+      url: "https://github.com/Leonxlnx/taste-skill/blob/main/README.md"
+      checked_at: "2026-07-19"
+      confidence: "high"
+  state: "complete"
+  summary:
+    one_line: "A collection of agent skills for improving the visual design and implementation of AI-generated frontends."
+    why_useful: "It gives coding agents reusable guidance for interface layout, typography, motion, UI redesigns, and design-reference generation."
+curation:
+  confidence: null
+  evidence: []
+  limitations: []
+  recommendation: null
+  reviewed_at: null
+  state: "uncurated"
+  strengths: []
+  verdict: null
+id: "github:Leonxlnx/taste-skill"
+import:
+  github_snapshot:
+    archived: false
+    created_at: "2026-02-19T21:44:05Z"
+    default_branch: "main"
+    description: "Taste-Skill - gives your AI good taste. stops the AI from generating boring, generic slop "
+    disabled: false
+    fetched_at: "2026-07-19T19:16:14.796Z"
+    fork: false
+    forks: 4508
+    homepage: "https://tasteskill.dev"
+    latest_release: null
+    license_spdx: "MIT"
+    open_issues: 49
+    primary_language: "JavaScript"
+    pushed_at: "2026-07-19T18:58:43Z"
+    stars: 65196
+    topics:
+      - "agent"
+      - "ai"
+      - "claude"
+      - "claude-code"
+      - "codex"
+      - "coding"
+      - "design"
+      - "frontend"
+      - "lowcode"
+      - "nocode"
+      - "skill"
+      - "skills"
+      - "vibecoding"
+    updated_at: "2026-07-19T19:13:05Z"
+  sources:
+    - observed_at: "2026-06-28T09:17:09Z"
+      relation: "starred"
+      source_id: "github:user:tomseai:stars"
+      source_url: "https://github.com/tomseai?tab=stars"
+  state: "imported"
+repository:
+  aliases: []
+  github_node_id: "R_kgDORUQ5bw"
+  host: "github.com"
+  name: "taste-skill"
+  owner: "Leonxlnx"
+  url: "https://github.com/Leonxlnx/taste-skill"
+version: 1

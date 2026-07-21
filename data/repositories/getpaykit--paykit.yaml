@@ -1,0 +1,75 @@
+analysis:
+  analyzed_at: "2026-07-19T19:34:27.249Z"
+  classification:
+    primary_category: "backend-and-apis"
+    state: "confirmed"
+    technologies:
+      - "typescript"
+    topics:
+      - "payments"
+    use_cases:
+      - "build-backend-services"
+  evidence:
+    - claim: "PayKit is an embedded billing framework for TypeScript applications that manages products, subscriptions, entitlements, usage billing, and Stripe lifecycle handling."
+      source_type: "repository-file"
+      url: "https://github.com/getpaykit/paykit/blob/main/README.md"
+      checked_at: "2026-07-19"
+      confidence: "high"
+  state: "complete"
+  summary:
+    one_line: "An embedded TypeScript billing framework for products, subscriptions, entitlements, usage billing, and Stripe webhooks."
+    why_useful: "It lets application backends keep billing state in their own database while using a single API for billing workflows."
+curation:
+  confidence: null
+  evidence: []
+  limitations: []
+  recommendation: null
+  reviewed_at: null
+  state: "uncurated"
+  strengths: []
+  verdict: null
+id: "github:getpaykit/paykit"
+import:
+  github_snapshot:
+    archived: false
+    created_at: "2026-02-08T23:16:43Z"
+    default_branch: "main"
+    description: "The billing framework for TypeScript. Products in code, handles Stripe, webhooks, and usage state, runs in your app."
+    disabled: false
+    fetched_at: "2026-07-19T19:16:14.796Z"
+    fork: false
+    forks: 43
+    homepage: "https://paykit.sh"
+    latest_release: null
+    license_spdx: "MIT"
+    open_issues: 47
+    primary_language: "TypeScript"
+    pushed_at: "2026-06-30T06:20:46Z"
+    stars: 1007
+    topics:
+      - "billing"
+      - "creem"
+      - "fintech"
+      - "paykit"
+      - "payments"
+      - "polar"
+      - "pricing"
+      - "saas"
+      - "sdk"
+      - "stripe"
+      - "typescript"
+    updated_at: "2026-07-17T09:21:58Z"
+  sources:
+    - observed_at: "2026-04-12T17:23:11Z"
+      relation: "starred"
+      source_id: "github:user:tomseai:stars"
+      source_url: "https://github.com/tomseai?tab=stars"
+  state: "imported"
+repository:
+  aliases: []
+  github_node_id: "R_kgDORLs3Qw"
+  host: "github.com"
+  name: "paykit"
+  owner: "getpaykit"
+  url: "https://github.com/getpaykit/paykit"
+version: 1

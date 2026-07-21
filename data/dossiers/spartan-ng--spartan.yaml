@@ -1,0 +1,73 @@
+schema_version: 2
+repository_id: github:spartan-ng/spartan
+research:
+  state: complete
+  source_commit: e70a17131972a332dd6b24386a1316f22309f54f
+  bundle_collected_at: 2026-07-19T20:45:23.243Z
+  researched_at: 2026-07-20T16:05:00Z
+  confidence: high
+classification:
+  primary_category: frontend-and-design
+  topics:
+    - frontend-development
+    - ui-components
+    - design-systems
+    - accessibility
+    - cli
+    - mcp
+project:
+  name: spartan
+  kind: monorepo
+  summary: >-
+    An Angular monorepo for accessible headless UI primitives, copy-paste
+    shadcn-style components, workspace tooling, and an optional full-stack setup.
+  best_for:
+    - Angular teams building accessible, customizable component interfaces
+    - Nx or Angular workspaces that want generated spartan UI integration
+key_features:
+  - More than 55 stable spartan/ui components
+  - Headless, accessible behavior primitives in @spartan-ng/brain
+  - Copy-paste helm styles that remain owned by the application
+  - Nx plugin and Angular schematics in @spartan-ng/cli
+  - MCP server that exposes spartan documentation and components to AI assistants
+usage:
+  interfaces:
+    - Angular npm packages
+    - Nx plugin and Angular schematics
+    - MCP server
+  installation:
+    - "@spartan-ng/brain npm package"
+    - "@spartan-ng/cli npm package"
+    - generated copy-paste component styles
+  setup: moderate
+technology:
+  languages:
+    - TypeScript
+  notable_components:
+    - Angular CDK
+    - Nx
+    - Tailwind CSS
+    - Model Context Protocol
+license:
+  spdx: MIT
+  name: MIT License
+  notes: Permissive license; copyright and license notices must be retained.
+status:
+  lifecycle: active
+  archived: false
+  latest_release: v1.1.1
+  latest_release_at: 2026-07-17
+strengths:
+  - Separates accessible component behavior from application-owned styling
+  - Provides UI primitives, installation tooling, and documented Angular workflows
+  - The current stable release and package versions align at 1.1.1
+caveats:
+  - Styled helm components are copied into the consuming project rather than published as an npm package
+  - The cached brain package declares Angular 21 through 22 and Tailwind CSS 4 peer-dependency ranges
+  - The optional spartan/stack has a broader full-stack setup than the UI-primitives use case
+sources:
+  - https://raw.githubusercontent.com/spartan-ng/spartan/e70a17131972a332dd6b24386a1316f22309f54f/README.md
+  - https://raw.githubusercontent.com/spartan-ng/spartan/e70a17131972a332dd6b24386a1316f22309f54f/LICENSE
+  - https://raw.githubusercontent.com/spartan-ng/spartan/e70a17131972a332dd6b24386a1316f22309f54f/libs/brain/package.json
+  - https://raw.githubusercontent.com/spartan-ng/spartan/e70a17131972a332dd6b24386a1316f22309f54f/libs/mcp/package.json
+  - https://github.com/spartan-ng/spartan/releases.atom

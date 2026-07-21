@@ -1,0 +1,74 @@
+schema_version: 2
+repository_id: github:BetterDB-inc/monitor
+research:
+  state: complete
+  source_commit: 2f9f50e2990c9da4ad960b15914fe2f9cdac81ae
+  bundle_collected_at: 2026-07-19T20:41:56.579Z
+  researched_at: 2026-07-20T15:11:42.194Z
+  confidence: medium
+classification:
+  primary_category: devops-and-cloud
+  topics:
+    - observability
+    - databases
+    - web-ui
+    - cli
+    - self-hosted
+project:
+  name: BetterDB Monitor
+  kind: application
+  summary: >-
+    A self-hosted monitoring application for Valkey and Redis that presents
+    real-time activity, slowlog analysis, audit trails, and database metrics.
+  best_for:
+    - Operators who need a web interface for a Valkey or Redis instance
+    - Teams that want either an interactive CLI setup or a Docker deployment
+key_features:
+  - Monitors Valkey and Redis with real-time views, slowlog analysis, audit trails, and metrics
+  - Provides a NestJS/Fastify backend and React/Vite frontend
+  - Ships an npx-installable CLI with an interactive connection and storage setup wizard
+  - Supports Docker deployment with memory storage or PostgreSQL persistence
+usage:
+  interfaces:
+    - web UI
+    - CLI
+    - backend HTTP API
+  installation:
+    - npx or global npm package
+    - pnpm monorepo development setup
+    - Docker image deployment
+  setup: moderate
+technology:
+  languages:
+    - TypeScript
+    - Python
+  notable_components:
+    - NestJS with Fastify
+    - React and Vite
+    - pnpm workspaces and Turborepo
+    - Docker
+license:
+  spdx: null
+  name: MIT Expat outside separately licensed paths
+  notes: >-
+    The root LICENSE grants MIT Expat terms outside proprietary/ and a stated
+    documentation path; proprietary/ uses its own license, and third-party components retain their licenses.
+status:
+  lifecycle: active
+  archived: false
+  latest_release: v0.28.0
+  latest_release_at: "2026-07-19"
+strengths:
+  - Covers operational monitoring, slowlog analysis, audit trails, and metrics for Valkey and Redis
+  - Offers both a guided CLI route and containerized deployment options
+  - Documents the backend, frontend, and workspace structure for self-hosted operation
+caveats:
+  - It requires access to a Valkey or Redis instance and Node.js 20 or newer for the CLI path
+  - Production persistence needs PostgreSQL unless memory storage is acceptable
+  - "Licensing is scoped: proprietary/ and a stated documentation path are separately licensed; the LICENSE refers to doc/ while the repository tree contains docs/"
+sources:
+  - https://raw.githubusercontent.com/BetterDB-inc/monitor/2f9f50e2990c9da4ad960b15914fe2f9cdac81ae/README.md
+  - https://raw.githubusercontent.com/BetterDB-inc/monitor/2f9f50e2990c9da4ad960b15914fe2f9cdac81ae/LICENSE
+  - https://raw.githubusercontent.com/BetterDB-inc/monitor/2f9f50e2990c9da4ad960b15914fe2f9cdac81ae/package.json
+  - https://raw.githubusercontent.com/BetterDB-inc/monitor/2f9f50e2990c9da4ad960b15914fe2f9cdac81ae/docker-compose.yml
+  - https://github.com/BetterDB-inc/monitor/releases.atom

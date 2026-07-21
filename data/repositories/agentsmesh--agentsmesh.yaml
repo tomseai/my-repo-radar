@@ -1,0 +1,83 @@
+analysis:
+  analyzed_at: "2026-07-19T19:18:32.604Z"
+  classification:
+    primary_category: "ai-and-automation"
+    state: "confirmed"
+    technologies:
+      - "go"
+      - "rust"
+      - "typescript"
+      - "nextjs"
+      - "postgres"
+      - "docker"
+    topics:
+      - "ai-agents"
+      - "automation"
+      - "self-hosted"
+    use_cases:
+      - "improve-developer-workflow"
+      - "ship-and-operate-software"
+  evidence:
+    - claim: "AgentsMesh orchestrates terminal-based coding agents across a self-hosted runner fleet with isolated Git worktrees, and its README identifies Go, Rust, Next.js/TypeScript, PostgreSQL, and Docker-based deployment as core technologies."
+      source_type: "repository-file"
+      url: "https://github.com/AgentsMesh/AgentsMesh/blob/main/README.md"
+      checked_at: "2026-07-19"
+      confidence: "high"
+  state: "complete"
+  summary:
+    one_line: "A self-hosted control plane for running and supervising many terminal-based coding agents across machines."
+    why_useful: "It provides isolated workspaces, fleet scheduling, real-time terminal visibility, and collaboration controls for parallel agent work."
+curation:
+  confidence: null
+  evidence: []
+  limitations: []
+  recommendation: null
+  reviewed_at: null
+  state: "uncurated"
+  strengths: []
+  verdict: null
+id: "github:AgentsMesh/AgentsMesh"
+import:
+  github_snapshot:
+    archived: false
+    created_at: "2026-02-28T07:10:42Z"
+    default_branch: "main"
+    description: "The AI Agent Workforce Platform. Run a hundred AI coding agents across your own machines — schedule, isolate, and steer them all from one console."
+    disabled: false
+    fetched_at: "2026-07-19T19:16:14.796Z"
+    fork: false
+    forks: 228
+    homepage: "https://agentsmesh.ai"
+    latest_release: null
+    license_spdx: "NOASSERTION"
+    open_issues: 17
+    primary_language: "Go"
+    pushed_at: "2026-07-18T09:55:05Z"
+    stars: 2285
+    topics:
+      - "agent-orchestration"
+      - "agentsmesh"
+      - "ai-agent"
+      - "ai-agent-workforce-platform"
+      - "ai-coding"
+      - "aider"
+      - "claude-code"
+      - "codex-cli"
+      - "gemini-cli"
+      - "multi-agent"
+      - "self-hosted"
+    updated_at: "2026-07-19T14:18:30Z"
+  sources:
+    - observed_at: "2026-07-19T14:18:30Z"
+      relation: "starred"
+      source_id: "github:user:tomseai:stars"
+      source_url: "https://github.com/tomseai?tab=stars"
+  state: "imported"
+repository:
+  aliases: []
+  github_node_id: "R_kgDORa8RBQ"
+  host: "github.com"
+  name: "AgentsMesh"
+  owner: "AgentsMesh"
+  url: "https://github.com/AgentsMesh/AgentsMesh"
+version: 1

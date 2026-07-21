@@ -1,0 +1,67 @@
+analysis:
+  analyzed_at: "2026-07-19T19:42:52.223Z"
+  classification:
+    primary_category: "developer-tools"
+    state: "confirmed"
+    technologies:
+      - "typescript"
+      - "nodejs"
+    topics:
+      - "ai-agents"
+      - "git"
+      - "desktop-app"
+    use_cases:
+      - "improve-developer-workflow"
+  evidence:
+    - claim: "Hive is an open-source desktop orchestrator for running Claude Code, OpenCode, and Codex sessions in parallel across isolated Git worktrees, with integrated file, diff, branch, and worktree management."
+      source_type: "repository-file"
+      url: "https://github.com/morapelker/hive/blob/main/README.md"
+      checked_at: "2026-07-19"
+      confidence: "high"
+  state: "complete"
+  summary:
+    one_line: "A desktop orchestrator for parallel AI coding sessions and Git worktrees."
+    why_useful: "It brings agent sessions, worktree isolation, file changes, and Git operations into one workspace for multi-branch development."
+curation:
+  confidence: null
+  evidence: []
+  limitations: []
+  recommendation: null
+  reviewed_at: null
+  state: "uncurated"
+  strengths: []
+  verdict: null
+id: "github:morapelker/hive"
+import:
+  github_snapshot:
+    archived: false
+    created_at: "2026-02-04T08:43:35Z"
+    default_branch: "main"
+    description: "Project/Worktree manager, deeply integrated with AI agents to increase productivity and multitask efficiently"
+    disabled: false
+    fetched_at: "2026-07-19T19:16:14.796Z"
+    fork: false
+    forks: 54
+    homepage: "https://hive-ai.dev"
+    latest_release: null
+    license_spdx: "MIT"
+    open_issues: 5
+    primary_language: "TypeScript"
+    pushed_at: "2026-07-19T15:10:03Z"
+    stars: 452
+    topics: []
+    updated_at: "2026-07-19T13:34:02Z"
+  sources:
+    - observed_at: "2026-05-01T13:27:11Z"
+      relation: "starred"
+      source_id: "github:user:tomseai:stars"
+      source_url: "https://github.com/tomseai?tab=stars"
+  state: "imported"
+repository:
+  aliases: []
+  github_node_id: "R_kgDORITFKQ"
+  host: "github.com"
+  name: "hive"
+  owner: "morapelker"
+  url: "https://github.com/morapelker/hive"
+version: 1

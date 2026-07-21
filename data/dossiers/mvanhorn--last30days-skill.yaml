@@ -1,0 +1,76 @@
+schema_version: 2
+repository_id: github:mvanhorn/last30days-skill
+research:
+  state: complete
+  source_commit: 249c7a4c040558a903d6838dee31012980d4946d
+  bundle_collected_at: 2026-07-19T20:44:19.774Z
+  researched_at: 2026-07-20T15:42:43.0617324Z
+  confidence: high
+classification:
+  primary_category: ai-and-automation
+  topics:
+    - ai-agents
+    - agent-skills
+    - web-search
+    - mcp
+    - documentation
+    - developer-productivity
+project:
+  name: last30days
+  kind: plugin
+  summary: >-
+    An agent skill and plugin for producing recent, cited research briefs by
+    searching and ranking signals from multiple public and connected sources.
+  best_for:
+    - Developers and researchers investigating people, companies, products, or trends
+    - Agent hosts that can load an Agent Skills plugin or an MCP bundle
+key_features:
+  - Searches supported sources in parallel and ranks results by engagement, relevance, and freshness
+  - Resolves relevant handles, repositories, subreddits, and other source-specific terms before retrieval
+  - Merges cross-source stories and synthesizes a source-cited research brief
+  - Offers discovery, comparisons, JSON export, HTML briefs, and a local saved-brief library
+  - Provides Agent Skills installations, native marketplace plugins, and a Claude Desktop MCP bundle
+usage:
+  interfaces:
+    - agent skill and slash command
+    - CLI
+    - MCP server bundle
+  installation:
+    - Agent Skills CLI or supported native marketplaces
+    - Claude Desktop .mcpb release bundle
+    - source checkout for developer use
+  setup: moderate
+technology:
+  languages:
+    - Python
+    - Go
+    - JavaScript
+  notable_components:
+    - Model Context Protocol server
+    - Agent Skills format
+    - SQLite-backed research library
+license:
+  spdx: MIT
+  name: MIT License
+  notes: Permissive license; copies or substantial portions must retain the copyright and license notice.
+status:
+  lifecycle: active
+  archived: false
+  latest_release: v3.16.0
+  latest_release_at: "2026-07-16"
+strengths:
+  - Combines multiple independent sources into one scored and cited brief
+  - Offers several agent-host installation paths instead of only a standalone script
+  - Supports structured JSON, rendered HTML, and local reusable research-library workflows
+caveats:
+  - Source coverage and result quality depend on external services, their current access, and their data
+  - Several sources need user-provided API keys, browser sessions, local tools, or paid service access
+  - The Claude Desktop MCP bundle requires Python 3.12 or newer and documents Windows support as deferred
+  - Installing both the Claude Code marketplace plugin and Agent Skills copy creates duplicate command entries
+sources:
+  - https://raw.githubusercontent.com/mvanhorn/last30days-skill/249c7a4c040558a903d6838dee31012980d4946d/README.md
+  - https://raw.githubusercontent.com/mvanhorn/last30days-skill/249c7a4c040558a903d6838dee31012980d4946d/LICENSE
+  - https://raw.githubusercontent.com/mvanhorn/last30days-skill/249c7a4c040558a903d6838dee31012980d4946d/pyproject.toml
+  - https://raw.githubusercontent.com/mvanhorn/last30days-skill/249c7a4c040558a903d6838dee31012980d4946d/mcp/go.mod
+  - https://raw.githubusercontent.com/mvanhorn/last30days-skill/249c7a4c040558a903d6838dee31012980d4946d/docs/how-search-works.md
+  - https://github.com/mvanhorn/last30days-skill/releases.atom

@@ -1,0 +1,83 @@
+schema_version: 2
+repository_id: github:can1357/oh-my-pi
+research:
+  state: complete
+  source_commit: 39c95e5e29b1c8b082059f57421ce445c3dffdd4
+  bundle_collected_at: 2026-07-19T20:42:07.399Z
+  researched_at: 2026-07-20T17:12:16.8776321+02:00
+  confidence: high
+classification:
+  primary_category: ai-and-automation
+  topics:
+    - ai-agents
+    - coding-agents
+    - cli
+    - tui
+    - multi-provider
+    - tool-use
+    - codebase-search
+    - worktrees
+project:
+  name: oh-my-pi
+  kind: cli
+  summary: >-
+    A cross-platform terminal coding agent that combines model-provider access,
+    code-editing tools, code intelligence, debugging, browser control, and isolated subagents.
+  best_for:
+    - Developers who want a feature-rich coding agent in a terminal interface
+    - Workflows that need LSP or debugger access alongside agent-driven edits and commands
+key_features:
+  - Provides read, write, search, hash-anchored edit, structural-edit, and shell tools
+  - Exposes LSP diagnostics, navigation, rename, code actions, and raw requests to the agent
+  - Drives Debug Adapter Protocol sessions for breakpoints, stepping, stacks, variables, and evaluation
+  - Fans tasks out to subagents with optional isolated worktrees and typed results
+  - Supports persistent Python and JavaScript evaluation cells that can call agent tools
+  - Offers browser automation, web search, and a provider catalog for model access
+usage:
+  interfaces:
+    - terminal user interface
+    - command-line interface
+    - editor integration through Agent Client Protocol
+    - browser-based collaboration viewer
+  installation:
+    - macOS or Linux install script
+    - Windows PowerShell install script
+    - Homebrew tap formula
+    - Bun global package installation
+  setup: moderate
+technology:
+  languages:
+    - TypeScript
+    - Rust
+  notable_components:
+    - Bun
+    - Language Server Protocol
+    - Debug Adapter Protocol
+    - Agent Client Protocol
+license:
+  spdx: MIT
+  name: MIT License
+  notes: >-
+    The retained root LICENSE grants broad permission to use, copy, modify,
+    distribute, sublicense, and sell copies, while requiring preservation of the
+    copyright and permission notice and disclaiming warranty.
+status:
+  lifecycle: active
+  archived: false
+  latest_release: v17.0.5
+  latest_release_at: 2026-07-18
+strengths:
+  - Brings editing, code intelligence, debugging, execution, and agent coordination into one terminal tool surface
+  - Supports multiple install paths across macOS, Linux, and Windows
+  - Documents first-class isolated subagents and a broad set of local and external tools
+caveats:
+  - Provider access, credentials, availability, and usage costs remain the user's responsibility
+  - Many advanced features depend on external services or locally available language servers, debuggers, browsers, and toolchains
+  - The project is a monorepo; v17.0.5 is the release matching the pi-coding-agent package rather than an auxiliary package version
+  - Collaboration links and external tools can expose project context, so their permissions and sharing settings need review
+sources:
+  - https://raw.githubusercontent.com/can1357/oh-my-pi/39c95e5e29b1c8b082059f57421ce445c3dffdd4/README.md
+  - https://raw.githubusercontent.com/can1357/oh-my-pi/39c95e5e29b1c8b082059f57421ce445c3dffdd4/LICENSE
+  - https://raw.githubusercontent.com/can1357/oh-my-pi/39c95e5e29b1c8b082059f57421ce445c3dffdd4/package.json
+  - https://raw.githubusercontent.com/can1357/oh-my-pi/39c95e5e29b1c8b082059f57421ce445c3dffdd4/packages/coding-agent/package.json
+  - https://github.com/can1357/oh-my-pi/releases.atom

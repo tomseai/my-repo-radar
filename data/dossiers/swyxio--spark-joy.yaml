@@ -1,0 +1,87 @@
+schema_version: 2
+repository_id: github:swyxio/spark-joy
+
+research:
+  state: complete
+  source_commit: b44a1f660bffbd411fa505b69eae513a001eaf61
+  bundle_collected_at: 2026-07-19T20:45:30.071Z
+  researched_at: 2026-07-20T18:00:00.000+02:00
+  confidence: high
+
+classification:
+  primary_category: frontend-and-design
+  topics:
+    - curated-lists
+    - frontend-development
+    - web
+    - ui-components
+    - design-systems
+    - accessibility
+    - visualization
+    - reference
+
+project:
+  name: Spark Joy
+  kind: curated-list
+  summary: >-
+    A large, hand-curated README index of resources for adding visual flair,
+    usability, and whimsy to product interfaces, spanning web design, CSS,
+    typography, graphics, interaction, and design inspiration.
+  best_for:
+    - Designers and frontend developers collecting interface and visual-design references
+    - Product teams looking for inspiration or a starting point for specific UI details
+
+key_features:
+  - Organizes linked resources by CSS frameworks, layout, typography, color, and backgrounds
+  - Covers icons, diagrams, illustrations, stock media, and SVG or graphics tools
+  - Includes references for form controls, charts, dashboards, and React components
+  - Collects animation, transition, loading, onboarding, and empty-state resources
+  - Links to Figma, Sketch, canvas, WebGL, 3D, and wider interaction-design inspiration
+  - Maintains its long table of contents through a dedicated doctoc workflow
+
+usage:
+  interfaces:
+    - GitHub README
+  installation:
+    - browse the repository README
+    - clone the repository for an offline copy
+  setup: low
+
+technology:
+  languages:
+    - Markdown
+  notable_components:
+    - Markdown resource index
+    - doctoc table-of-contents workflow
+
+license:
+  spdx: MIT
+  name: MIT License
+  notes: >-
+    The repository content may be used, copied, modified, and distributed with
+    the copyright and permission notice retained; linked third-party resources
+    can have separate terms.
+
+status:
+  lifecycle: active
+  archived: false
+  latest_release: null
+  latest_release_at: null
+
+strengths:
+  - Broad, navigable coverage makes it useful for both visual inspiration and concrete implementation research
+  - The category structure helps readers jump directly to a design concern rather than search a flat list
+  - It includes practical web resources alongside broader design tools and learning material
+
+caveats:
+  - This is a reference collection, not a UI component library or a ready-to-install application
+  - Quality, maintenance, licensing, and accessibility of individual linked resources must be evaluated separately
+  - The maintainer states that acceptance of suggested resources is discretionary and the collection is primarily personal
+  - The retained release feed contains no release entries, so no latest release can be established
+
+sources:
+  - https://raw.githubusercontent.com/swyxio/spark-joy/b44a1f660bffbd411fa505b69eae513a001eaf61/README.md
+  - https://raw.githubusercontent.com/swyxio/spark-joy/b44a1f660bffbd411fa505b69eae513a001eaf61/LICENSE
+  - https://raw.githubusercontent.com/swyxio/spark-joy/b44a1f660bffbd411fa505b69eae513a001eaf61/CONTRIBUTING.md
+  - https://raw.githubusercontent.com/swyxio/spark-joy/b44a1f660bffbd411fa505b69eae513a001eaf61/.github/workflows/toc.yml
+  - https://github.com/swyxio/spark-joy/releases.atom

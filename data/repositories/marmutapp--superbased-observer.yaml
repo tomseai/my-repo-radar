@@ -1,0 +1,94 @@
+analysis:
+  analyzed_at: "2026-07-19T19:38:35.087Z"
+  classification:
+    primary_category: "developer-tools"
+    state: "provisional"
+    technologies:
+      - "go"
+      - "sqlite"
+    topics:
+      - "ai-agents"
+      - "llms"
+      - "observability"
+      - "cli"
+    use_cases:
+      - "improve-developer-workflow"
+      - "ship-and-operate-software"
+  evidence:
+    - claim: "SuperBased Observer is a local Go binary that tracks AI coding-agent activity and provider-billed token costs across tools through a dashboard, MCP server, CLI, and optional proxy."
+      source_type: "repository-file"
+      url: "https://github.com/marmutapp/superbased-observer/blob/main/README.md"
+      checked_at: "2026-07-19"
+      confidence: "high"
+    - claim: "The README states that the binary uses pure-Go SQLite storage and makes no outbound calls by default."
+      source_type: "repository-file"
+      url: "https://github.com/marmutapp/superbased-observer/blob/main/README.md"
+      checked_at: "2026-07-19"
+      confidence: "high"
+  state: "researched"
+  summary:
+    one_line: "Local observability and cost-tracking tool for AI coding-agent activity."
+    why_useful: "It gives developers locally stored usage, token, and cost visibility across supported coding agents."
+curation:
+  confidence: null
+  evidence: []
+  limitations: []
+  recommendation: null
+  reviewed_at: null
+  state: "uncurated"
+  strengths: []
+  verdict: null
+id: "github:marmutapp/superbased-observer"
+import:
+  github_snapshot:
+    archived: false
+    created_at: "2026-04-30T05:47:13Z"
+    default_branch: "main"
+    description: "Local-first cost & token tracking for Claude Code, Cursor, Codex & 23 more AI coding agents — proxy-accurate per-model spend, an MCP server your agent can query, and an opt-in team rollup. 100% local, no telemetry."
+    disabled: false
+    fetched_at: "2026-07-19T19:16:14.796Z"
+    fork: false
+    forks: 5
+    homepage: "https://superbased.app"
+    latest_release: null
+    license_spdx: "NOASSERTION"
+    open_issues: 5
+    primary_language: "Go"
+    pushed_at: "2026-07-17T09:03:56Z"
+    stars: 31
+    topics:
+      - "ai-agents"
+      - "anthropic"
+      - "claude"
+      - "claude-code"
+      - "codex"
+      - "copilot"
+      - "cost-tracking"
+      - "cursor"
+      - "developer-tools"
+      - "finops"
+      - "llm"
+      - "llm-observability"
+      - "local-first"
+      - "mcp"
+      - "mcp-server"
+      - "observability"
+      - "openai"
+      - "privacy"
+      - "sqlite"
+      - "token-tracking"
+    updated_at: "2026-07-18T12:58:26Z"
+  sources:
+    - observed_at: "2026-07-11T17:39:21Z"
+      relation: "starred"
+      source_id: "github:user:tomseai:stars"
+      source_url: "https://github.com/tomseai?tab=stars"
+  state: "imported"
+repository:
+  aliases: []
+  github_node_id: "R_kgDOSQgo5w"
+  host: "github.com"
+  name: "superbased-observer"
+  owner: "marmutapp"
+  url: "https://github.com/marmutapp/superbased-observer"
+version: 1

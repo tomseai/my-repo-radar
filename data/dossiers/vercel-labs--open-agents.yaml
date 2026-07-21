@@ -1,0 +1,77 @@
+schema_version: 2
+repository_id: github:vercel-labs/open-agents
+research:
+  state: complete
+  source_commit: cf865e94de7729751c747171785b6ce57e7b178c
+  bundle_collected_at: 2026-07-19T20:45:53.258Z
+  researched_at: 2026-07-20T16:13:10.340Z
+  confidence: high
+classification:
+  primary_category: ai-and-automation
+  topics:
+    - coding-agents
+    - agent-harnesses
+    - agent-skills
+    - sandboxing
+    - web-ui
+    - github
+    - pull-requests
+    - starter-templates
+    - open-source
+project:
+  name: Open Agents
+  kind: starter-template
+  summary: >-
+    A Vercel-deployable reference application for background coding agents,
+    combining a web interface, durable agent workflows, isolated sandbox VMs,
+    and GitHub-based code-change workflows.
+  best_for:
+    - Teams that want to fork and adapt a cloud-hosted coding-agent application
+    - Developers needing durable agent runs that can continue independently of a browser session
+key_features:
+  - Chat-driven coding agent with file, search, shell, task, skill, and web tools
+  - Durable Workflow SDK runs with streaming, cancellation, and reconnectable execution
+  - Isolated Vercel Sandboxes with repository cloning, branch work, and snapshot-based resume
+  - Optional auto-commit, push, and pull-request creation through a GitHub App
+  - Session sharing and optional ElevenLabs voice transcription
+usage:
+  interfaces:
+    - web application
+    - Vercel deployment template
+  installation:
+    - fork and deploy on Vercel
+    - local pnpm workspace setup
+  setup: high
+technology:
+  languages:
+    - TypeScript
+  notable_components:
+    - Next.js
+    - Vercel Workflow SDK
+    - Vercel Sandbox
+    - PostgreSQL
+    - Better Auth
+license:
+  spdx: MIT
+  name: MIT License
+  notes: null
+status:
+  lifecycle: active
+  archived: false
+  latest_release: null
+  latest_release_at: null
+strengths:
+  - Provides an end-to-end reference implementation rather than only an agent runtime or sandbox abstraction
+  - Separates durable agent control flow from the sandbox execution environment
+  - Includes GitHub workflows for taking a request through to code changes and pull requests
+caveats:
+  - It is intended to be forked and adapted, not used as an opaque hosted product
+  - Full deployment requires PostgreSQL plus Vercel OAuth and GitHub App credentials for sign-in and repository workflows
+  - The sandbox implementation is Vercel-specific, although the agent and sandbox are separated architecturally
+  - The project is released as a web application and the captured GitHub release feed has no entries; no standalone release version is established
+sources:
+  - https://raw.githubusercontent.com/vercel-labs/open-agents/cf865e94de7729751c747171785b6ce57e7b178c/README.md
+  - https://raw.githubusercontent.com/vercel-labs/open-agents/cf865e94de7729751c747171785b6ce57e7b178c/LICENSE.md
+  - https://raw.githubusercontent.com/vercel-labs/open-agents/cf865e94de7729751c747171785b6ce57e7b178c/docs/agents/architecture.md
+  - https://raw.githubusercontent.com/vercel-labs/open-agents/cf865e94de7729751c747171785b6ce57e7b178c/docs/release.md
+  - https://github.com/vercel-labs/open-agents/releases.atom

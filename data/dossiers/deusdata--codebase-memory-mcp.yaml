@@ -1,0 +1,78 @@
+schema_version: 2
+repository_id: github:DeusData/codebase-memory-mcp
+research:
+  state: complete
+  source_commit: 7d6cdb23ef5ca2fd51f5d5b7509b33e112ef15f3
+  bundle_collected_at: 2026-07-19T20:42:36.746Z
+  researched_at: 2026-07-19T22:40:18Z
+  confidence: medium
+classification:
+  primary_category: developer-tools
+  topics:
+    - ai-agents
+    - coding-agents
+    - mcp
+    - codebase-indexing
+    - codebase-search
+    - agent-memory
+    - local-first
+    - visualization
+project:
+  name: codebase-memory-mcp
+  kind: service
+  summary: >-
+    A local MCP code-intelligence server and CLI that indexes repositories into
+    persistent SQLite knowledge graphs for structural codebase queries.
+  best_for:
+    - Giving MCP-compatible coding agents structural repository context
+    - Exploring architecture, call paths, search results, and change impact
+key_features:
+  - Builds a persistent SQLite graph from tree-sitter-based source analysis
+  - Exposes MCP tools for architecture, graph search, call paths, impact, and dead-code queries
+  - Provides full-text, structural, semantic, and code-search capabilities
+  - Supports optional automatic indexing and a browser-based graph UI build
+  - Distributes a CLI and prebuilt binaries for macOS, Linux, and Windows
+usage:
+  interfaces:
+    - MCP stdio server
+    - command line
+    - optional browser graph UI
+  installation:
+    - platform installer script
+    - prebuilt release binary
+    - npm, PyPI, Homebrew, or other documented package channels
+    - source build
+  setup: moderate
+technology:
+  languages:
+    - C
+    - TypeScript
+  notable_components:
+    - SQLite
+    - tree-sitter
+    - React graph UI
+    - MCP JSON-RPC
+license:
+  spdx: MIT
+  name: MIT License
+  notes: Permissive license; the repository's LICENSE file carries the standard MIT terms.
+status:
+  lifecycle: active
+  archived: false
+  latest_release: v0.9.0
+  latest_release_at: 2026-07-08
+strengths:
+  - Keeps source analysis and SQLite indexes on the local machine
+  - Combines MCP access with a CLI and an optional visual graph interface
+  - Covers code search, call relationships, architecture, and change-impact workflows
+caveats:
+  - The installer modifies detected agent or editor configuration files, so its scripts and planned configuration changes merit review before execution
+  - Indexes and runtime configuration are stored locally and may require cache, memory, and worker-limit tuning for large repositories
+  - The cached npm and PyPI wrapper manifests state version 0.8.1, while the primary release feed identifies v0.9.0 as the latest release
+sources:
+  - https://raw.githubusercontent.com/DeusData/codebase-memory-mcp/7d6cdb23ef5ca2fd51f5d5b7509b33e112ef15f3/README.md
+  - https://raw.githubusercontent.com/DeusData/codebase-memory-mcp/7d6cdb23ef5ca2fd51f5d5b7509b33e112ef15f3/LICENSE
+  - https://raw.githubusercontent.com/DeusData/codebase-memory-mcp/7d6cdb23ef5ca2fd51f5d5b7509b33e112ef15f3/SECURITY.md
+  - https://raw.githubusercontent.com/DeusData/codebase-memory-mcp/7d6cdb23ef5ca2fd51f5d5b7509b33e112ef15f3/graph-ui/package.json
+  - https://raw.githubusercontent.com/DeusData/codebase-memory-mcp/7d6cdb23ef5ca2fd51f5d5b7509b33e112ef15f3/docs/CONFIGURATION.md
+  - https://github.com/DeusData/codebase-memory-mcp/releases.atom

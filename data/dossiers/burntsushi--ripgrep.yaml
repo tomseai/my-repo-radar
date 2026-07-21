@@ -1,0 +1,73 @@
+schema_version: 2
+repository_id: github:BurntSushi/ripgrep
+research:
+  state: complete
+  source_commit: 227381db0ee83dfa4341f1e27ff9617c0f5ad992
+  bundle_collected_at: 2026-07-19T20:42:01.404Z
+  researched_at: 2026-07-19T21:45:17.293Z
+  confidence: high
+classification:
+  primary_category: developer-tools
+  topics:
+    - cli
+    - git
+    - search
+    - performance
+    - developer-productivity
+project:
+  name: ripgrep
+  kind: cli
+  summary: >-
+    A Rust command-line search tool that recursively searches files with regular
+    expressions, observes ignore rules by default, and ships precompiled
+    binaries for Windows, macOS, and Linux.
+  best_for:
+    - Searching source trees from the terminal
+    - Code-oriented workflows that need gitignore-aware file filtering
+key_features:
+  - Recursive regex search with `.gitignore`, `.ignore`, and `.rgignore` filtering
+  - File-type filters and user-defined file-type rules
+  - Unicode-aware search, match context, multiple patterns, and colorized output
+  - Optional PCRE2 engine for look-around and backreferences
+  - Search support for common compressed formats and specified text encodings
+  - Configuration files and shell completions
+usage:
+  interfaces:
+    - CLI
+  installation:
+    - Precompiled release archives
+    - System package managers
+    - Cargo package
+    - Build from source
+  setup: low
+technology:
+  languages:
+    - Rust
+  notable_components:
+    - Rust regex engine
+    - ignore crate
+    - optional PCRE2 integration
+license:
+  spdx: Unlicense OR MIT
+  name: The Unlicense or MIT License
+  notes: Permissive dual license; users may choose either license.
+status:
+  lifecycle: active
+  archived: false
+  latest_release: 15.2.0
+  latest_release_at: "2026-07-15"
+strengths:
+  - Fast code-search defaults that avoid ignored, hidden, and binary files
+  - Broad installation options and first-class Windows, macOS, and Linux support
+  - Flexible search capabilities without requiring a separate index
+caveats:
+  - It is not POSIX-standard or as ubiquitous as grep
+  - Look-around and backreferences require opting into the PCRE2 engine
+  - Performance can vary on patterns or workloads with unfavorable optimization opportunities
+  - Default filtering skips ignored, hidden, and binary files unless explicitly overridden
+  - The release feed also contains internal crate releases; 15.2.0 is the newest ripgrep CLI release, while ignore-0.4.30 is a newer component entry
+sources:
+  - https://raw.githubusercontent.com/BurntSushi/ripgrep/227381db0ee83dfa4341f1e27ff9617c0f5ad992/README.md
+  - https://raw.githubusercontent.com/BurntSushi/ripgrep/227381db0ee83dfa4341f1e27ff9617c0f5ad992/Cargo.toml
+  - https://raw.githubusercontent.com/BurntSushi/ripgrep/227381db0ee83dfa4341f1e27ff9617c0f5ad992/CHANGELOG.md
+  - https://github.com/BurntSushi/ripgrep/releases.atom

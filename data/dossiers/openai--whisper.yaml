@@ -1,0 +1,81 @@
+schema_version: 2
+repository_id: github:openai/whisper
+research:
+  state: complete
+  source_commit: 04f449b8a437f1bbd3dba5c9f826aca972e7709a
+  bundle_collected_at: 2026-07-19T20:44:35.049Z
+  researched_at: 2026-07-20T15:52:01.160Z
+  confidence: high
+
+classification:
+  primary_category: ai-and-automation
+  topics:
+    - speech-to-text
+    - machine-learning
+    - cli
+    - libraries
+    - open-source
+
+project:
+  name: Whisper
+  kind: model
+  summary: >-
+    A general-purpose Transformer speech-recognition model with Python and CLI
+    tooling for multilingual transcription, translation into English, and language
+    identification.
+  best_for:
+    - Applications or scripts that need local multilingual speech transcription
+    - Audio-processing workflows that need either a command line or Python API
+
+key_features:
+  - Multilingual speech recognition, translation, and spoken-language identification
+  - Six model sizes with documented speed, memory, and language-coverage tradeoffs
+  - A Python API for loading models, transcribing audio, decoding, and language detection
+  - A CLI for transcription, language selection, and translation tasks
+  - A multitask token format that combines several speech-processing tasks in one model
+
+usage:
+  interfaces:
+    - CLI
+    - Python API
+  installation:
+    - PyPI package
+    - Git-based pip install
+  setup: moderate
+
+technology:
+  languages:
+    - Python
+  notable_components:
+    - PyTorch
+    - tiktoken
+    - FFmpeg
+
+license:
+  spdx: MIT
+  name: MIT License
+  notes: The README states that both Whisper code and model weights are released under MIT.
+
+status:
+  lifecycle: unknown
+  archived: false
+  latest_release: v20250625
+  latest_release_at: 2025-06-26
+
+strengths:
+  - One model supports recognition, translation, and language identification
+  - Supports both quick CLI use and lower-level Python integration
+  - Documents model-size, memory, and speed tradeoffs for deployment choices
+
+caveats:
+  - The turbo model is not trained for translation; use a multilingual model for translation tasks
+  - Inference speed and accuracy vary with language, speech, and available hardware
+  - FFmpeg is required, and some platforms may also need Rust to build tiktoken
+  - The retained sources do not declare an upstream lifecycle, despite the versioned release feed
+
+sources:
+  - https://raw.githubusercontent.com/openai/whisper/04f449b8a437f1bbd3dba5c9f826aca972e7709a/README.md
+  - https://raw.githubusercontent.com/openai/whisper/04f449b8a437f1bbd3dba5c9f826aca972e7709a/LICENSE
+  - https://raw.githubusercontent.com/openai/whisper/04f449b8a437f1bbd3dba5c9f826aca972e7709a/pyproject.toml
+  - https://raw.githubusercontent.com/openai/whisper/04f449b8a437f1bbd3dba5c9f826aca972e7709a/CHANGELOG.md
+  - https://github.com/openai/whisper/releases.atom

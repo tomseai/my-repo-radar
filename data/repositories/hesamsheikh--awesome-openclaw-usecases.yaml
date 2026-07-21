@@ -1,0 +1,72 @@
+analysis:
+  analyzed_at: "2026-07-19T19:34:18.967Z"
+  classification:
+    primary_category: "documentation-and-learning"
+    state: "provisional"
+    technologies: []
+    topics:
+      - "ai-agents"
+      - "automation"
+    use_cases:
+      - "learn-and-reference"
+  evidence:
+    - claim: "The repository is a community collection of real-life OpenClaw use cases, organized across social media, building, infrastructure, productivity, research, and finance categories."
+      source_type: "repository-file"
+      url: "https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/README.md"
+      checked_at: "2026-07-19"
+      confidence: "high"
+  state: "researched"
+  summary:
+    one_line: "Community reference list of real-life OpenClaw use cases."
+    why_useful: "It helps people explore examples of using an agent for personal, development, and operational workflows."
+curation:
+  confidence: null
+  evidence: []
+  limitations: []
+  recommendation: null
+  reviewed_at: null
+  state: "uncurated"
+  strengths: []
+  verdict: null
+id: "github:hesamsheikh/awesome-openclaw-usecases"
+import:
+  github_snapshot:
+    archived: false
+    created_at: "2026-02-08T22:08:17Z"
+    default_branch: "main"
+    description: "A community collection of OpenClaw use cases for making life easier."
+    disabled: false
+    fetched_at: "2026-07-19T19:16:14.796Z"
+    fork: false
+    forks: 2712
+    homepage: ""
+    latest_release: null
+    license_spdx: "MIT"
+    open_issues: 70
+    primary_language: null
+    pushed_at: "2026-03-24T14:54:56Z"
+    stars: 31528
+    topics:
+      - "awesome-list"
+      - "clawdbot"
+      - "moltbot"
+      - "openclaw"
+      - "openclaw-plugin"
+      - "openclaw-setup"
+      - "openclaw-skills"
+      - "usecase"
+    updated_at: "2026-07-19T11:29:50Z"
+  sources:
+    - observed_at: "2026-03-01T09:29:49Z"
+      relation: "starred"
+      source_id: "github:user:tomseai:stars"
+      source_url: "https://github.com/tomseai?tab=stars"
+  state: "imported"
+repository:
+  aliases: []
+  github_node_id: "R_kgDORLrQJg"
+  host: "github.com"
+  name: "awesome-openclaw-usecases"
+  owner: "hesamsheikh"
+  url: "https://github.com/hesamsheikh/awesome-openclaw-usecases"
+version: 1

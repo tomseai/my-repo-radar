@@ -1,0 +1,80 @@
+schema_version: 2
+repository_id: github:github/copilot-cli
+research:
+  state: complete
+  source_commit: fd24cea5cb11da4e630485ff2d9269318b8c2a4e
+  bundle_collected_at: 2026-07-19T20:43:10.059Z
+  researched_at: 2026-07-20T15:31:57.747Z
+  confidence: high
+classification:
+  primary_category: ai-and-automation
+  topics:
+    - ai-agents
+    - coding-agents
+    - cli
+    - terminal
+    - code-generation
+    - debugging
+    - automation
+    - github
+    - mcp
+    - developer-productivity
+project:
+  name: GitHub Copilot CLI
+  kind: cli
+  summary: >-
+    A terminal-native GitHub Copilot coding agent that uses natural-language
+    conversations to build, edit, debug, refactor, and understand local code
+    with GitHub repository, issue, and pull-request context.
+  best_for:
+    - Developers who want a synchronous Copilot agent in the terminal
+    - GitHub workflows that benefit from repository, issue, and pull-request context
+key_features:
+  - Builds, edits, debugs, and refactors code through natural-language prompts
+  - Authenticated access to GitHub repositories, issues, and pull requests
+  - Previews every action for explicit approval before execution
+  - GitHub MCP server included by default and support for custom MCP servers
+  - Optional Language Server Protocol support for definitions, hover information, and diagnostics
+  - Experimental Autopilot mode that encourages continued work until task completion
+usage:
+  interfaces:
+    - interactive terminal CLI
+    - command-line installation script
+  installation:
+    - official install script
+    - Homebrew
+    - WinGet
+    - npm package
+  setup: moderate
+technology:
+  languages: []
+  notable_components:
+    - GitHub Copilot coding-agent harness
+    - Model Context Protocol
+    - Language Server Protocol
+license:
+  spdx: null
+  name: GitHub Copilot CLI License
+  notes: >-
+    Permits installation and use, plus redistribution only of unmodified copies
+    as part of an application or service with material functionality beyond the
+    CLI; modification and standalone distribution are not permitted.
+status:
+  lifecycle: active
+  archived: false
+  latest_release: 1.0.72-1
+  latest_release_at: 2026-07-17
+strengths:
+  - Keeps agentic coding work in a terminal while using GitHub context
+  - Exposes extension points through built-in GitHub MCP and custom MCP servers
+  - Offers multiple install paths across Linux, macOS, and Windows
+caveats:
+  - An active Copilot subscription is required, and organization or enterprise policy can disable CLI access
+  - The bundled software license is not an open-source license and forbids modification
+  - Language servers are not bundled and must be installed and configured separately
+  - Autopilot is explicitly marked experimental
+sources:
+  - https://raw.githubusercontent.com/github/copilot-cli/fd24cea5cb11da4e630485ff2d9269318b8c2a4e/README.md
+  - https://raw.githubusercontent.com/github/copilot-cli/fd24cea5cb11da4e630485ff2d9269318b8c2a4e/LICENSE.md
+  - https://raw.githubusercontent.com/github/copilot-cli/fd24cea5cb11da4e630485ff2d9269318b8c2a4e/changelog.md
+  - https://github.com/github/copilot-cli/releases.atom

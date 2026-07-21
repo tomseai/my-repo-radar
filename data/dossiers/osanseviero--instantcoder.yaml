@@ -1,0 +1,85 @@
+schema_version: 2
+repository_id: github:osanseviero/InstantCoder
+research:
+  state: complete
+  source_commit: f5cf516170ce6fadaabac9ee5ce3a45374398a9b
+  bundle_collected_at: 2026-07-19T20:44:40.867Z
+  researched_at: 2026-07-20T17:52:18+02:00
+  confidence: medium
+
+classification:
+  primary_category: ai-and-automation
+  topics:
+    - code-generation
+    - llms
+    - web-ui
+    - frontend-development
+    - sandboxing
+
+project:
+  name: InstantCoder
+  kind: application
+  summary: >-
+    A small Next.js prompt-to-app project that sends a user prompt to the
+    Gemini API and presents generated code in a Sandpack sandbox; the retained
+    README says it is fully based on the llamacoder project and links a hosted demo.
+  best_for:
+    - Trying a compact Gemini-based prompt-to-app workflow
+    - Developers inspecting a small Next.js and Sandpack code-generation example
+
+key_features:
+  - Generates small applications from one prompt through the Gemini API
+  - Uses Sandpack as the generated-code sandbox
+  - Uses the Next.js App Router with Tailwind CSS
+  - Includes local development, build, start, and lint npm scripts
+  - Links to a hosted Hugging Face Spaces demo
+
+usage:
+  interfaces:
+    - web application
+    - hosted demo
+  installation:
+    - clone repository
+    - npm install and npm run dev
+  setup: moderate
+
+technology:
+  languages:
+    - TypeScript
+  notable_components:
+    - Next.js
+    - React
+    - Tailwind CSS
+    - Sandpack
+    - Google Gemini API
+
+license:
+  spdx: MIT
+  name: MIT License
+  notes: >-
+    The root license grants broad permission to use, modify, distribute,
+    sublicense, and sell copies, provided the copyright and permission notice
+    are retained; it disclaims warranties and liability.
+
+status:
+  lifecycle: unknown
+  archived: false
+  latest_release: null
+  latest_release_at: null
+
+strengths:
+  - Small retained source set makes the prompt-to-app stack easy to inspect
+  - The README identifies the model API, sandbox, and frontend framework directly
+  - A hosted demo is linked alongside local development instructions
+
+caveats:
+  - Local running requires a Google AI Studio API key
+  - The README's clone command names osanseviero/GemCoder rather than this InstantCoder repository
+  - The retained release feed has no entries, and the available evidence does not establish lifecycle status
+  - The MIT copyright names Hassan El Mghari while the README says the project is based on llamacoder; provenance is not resolved by this bundle
+
+sources:
+  - https://raw.githubusercontent.com/osanseviero/InstantCoder/f5cf516170ce6fadaabac9ee5ce3a45374398a9b/README.md
+  - https://raw.githubusercontent.com/osanseviero/InstantCoder/f5cf516170ce6fadaabac9ee5ce3a45374398a9b/LICENSE
+  - https://raw.githubusercontent.com/osanseviero/InstantCoder/f5cf516170ce6fadaabac9ee5ce3a45374398a9b/package.json
+  - https://github.com/osanseviero/InstantCoder/releases.atom

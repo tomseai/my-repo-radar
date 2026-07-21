@@ -1,0 +1,85 @@
+schema_version: 2
+repository_id: github:gastownhall/beads
+
+research:
+  state: complete
+  source_commit: 8ebd53e882f9783fa538f310a50b9c58e46e98d9
+  bundle_collected_at: 2026-07-19T20:42:59.527Z
+  researched_at: 2026-07-20T15:25:52.209Z
+  confidence: high
+
+classification:
+  primary_category: developer-tools
+  topics:
+    - coding-agents
+    - agent-memory
+    - task-planning
+    - cli
+    - mcp
+    - developer-productivity
+
+project:
+  name: Beads
+  kind: cli
+  summary: >-
+    A distributed, dependency-aware issue tracker and persistent memory system
+    for coding agents, backed by the version-controlled SQL database Dolt.
+  best_for:
+    - Coding-agent workflows that need durable, claimable tasks instead of Markdown plans
+    - Teams coordinating dependent work across branches, worktrees, or machines
+
+key_features:
+  - A dependency graph that exposes unblocked work through bd ready
+  - Atomic task claiming, JSON output, and agent-oriented workflow guidance
+  - Content-derived issue IDs designed to avoid collisions across concurrent work
+  - Persistent project memories injected through bd prime
+  - Dolt-backed version history, branching, cell-level merges, and push/pull synchronization
+  - Optional Claude Code plugin and MCP server alongside the core CLI
+
+usage:
+  interfaces:
+    - CLI
+    - Claude Code plugin
+    - MCP server
+  installation:
+    - Homebrew
+    - npm package
+    - install script
+    - go install
+  setup: moderate
+
+technology:
+  languages:
+    - Go
+  notable_components:
+    - Dolt
+    - Model Context Protocol
+    - Cobra
+
+license:
+  spdx: MIT
+  name: MIT License
+  notes: Permissive license; copyright and license notices must be retained, and the software is provided without warranty.
+
+status:
+  lifecycle: active
+  archived: false
+  latest_release: v1.1.0
+  latest_release_at: 2026-07-17
+
+strengths:
+  - Replaces ephemeral plans with queryable, dependency-aware work state for people and agents
+  - Offers both simple embedded storage and server mode for concurrent writers
+  - Supports common coding-agent integrations without making Git mandatory
+
+caveats:
+  - Embedded Dolt mode is single-writer; concurrent-agent deployments need server mode and its operational setup
+  - Multi-machine work requires deliberate Dolt push and pull discipline to avoid synchronization issues
+  - The MCP server is an alternative for environments without shell access, not a replacement for the CLI in typical local workflows
+
+sources:
+  - https://raw.githubusercontent.com/gastownhall/beads/8ebd53e882f9783fa538f310a50b9c58e46e98d9/README.md
+  - https://raw.githubusercontent.com/gastownhall/beads/8ebd53e882f9783fa538f310a50b9c58e46e98d9/docs/getting-started/installation.md
+  - https://raw.githubusercontent.com/gastownhall/beads/8ebd53e882f9783fa538f310a50b9c58e46e98d9/docs/architecture/index.md
+  - https://raw.githubusercontent.com/gastownhall/beads/8ebd53e882f9783fa538f310a50b9c58e46e98d9/LICENSE
+  - https://github.com/gastownhall/beads/releases.atom

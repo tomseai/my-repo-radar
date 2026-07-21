@@ -1,0 +1,78 @@
+schema_version: 2
+repository_id: github:mnfst/manifest
+research:
+  state: complete
+  source_commit: 189a6ebf178a40617615259430d62110898948f4
+  bundle_collected_at: 2026-07-19T20:44:14.434Z
+  researched_at: 2026-07-20T17:41:35.7837492+02:00
+  confidence: high
+classification:
+  primary_category: ai-and-automation
+  topics:
+    - ai-agents
+    - llms
+    - model-routing
+    - multi-provider
+    - observability
+    - self-hosted
+project:
+  name: manifest
+  kind: service
+  summary: >-
+    An open-source service for routing AI-agent and application requests through
+    one OpenAI-compatible endpoint while connecting provider keys,
+    subscriptions, local models, fallbacks, and usage tracking.
+  best_for:
+    - Teams centralizing provider access and model routing for AI applications
+    - Self-hosted deployments that need model fallbacks and spend or token visibility
+key_features:
+  - Routes requests according to complexity, specificity, and custom HTTP headers
+  - Mixes API-key providers, subscription flows, local models, and custom compatible endpoints
+  - Provides fallback routing when a model query fails
+  - Tracks spending and supports notifications and limits
+  - Offers a Docker image, hosted version, and documented one-click deployment paths
+usage:
+  interfaces:
+    - OpenAI-compatible HTTP endpoint
+    - hosted web application
+    - self-hosted web application
+  installation:
+    - hosted account at app.manifest.build
+    - Docker image self-hosting
+    - deployment templates and guides for cloud platforms
+  setup: moderate
+technology:
+  languages:
+    - TypeScript
+  notable_components:
+    - Node.js monorepo
+    - Docker
+    - PostgreSQL deployment option
+    - OpenAI-compatible API
+license:
+  spdx: MIT
+  name: MIT License
+  notes: >-
+    Permissive license that allows use, modification, distribution, and
+    sublicensing when the copyright and license notice are retained.
+status:
+  lifecycle: active
+  archived: false
+  latest_release: manifest v6.15.1
+  latest_release_at: "2026-07-12"
+strengths:
+  - Consolidates routing, fallback, provider connections, and usage tracking behind one documented endpoint
+  - Supports cloud use, Docker self-hosting, and several platform-specific deployment guides
+  - Its canonical Docker-image release package and release feed agree on version 6.15.1
+caveats:
+  - Provider catalogs are discovered after credentials are connected, so the available models depend on configured accounts and endpoints
+  - Self-hosted use requires a Docker image or deployment guide because the former npm-based self-hosting path is unsupported
+  - Routing quality and fallback behavior depend on the configured providers, models, rules, and credentials
+  - The root package is an unpublished workspace package; the repository's dedicated manifest package is used for the project release
+sources:
+  - https://raw.githubusercontent.com/mnfst/manifest/189a6ebf178a40617615259430d62110898948f4/README.md
+  - https://raw.githubusercontent.com/mnfst/manifest/189a6ebf178a40617615259430d62110898948f4/LICENSE
+  - https://raw.githubusercontent.com/mnfst/manifest/189a6ebf178a40617615259430d62110898948f4/package.json
+  - https://raw.githubusercontent.com/mnfst/manifest/189a6ebf178a40617615259430d62110898948f4/packages/manifest/package.json
+  - https://raw.githubusercontent.com/mnfst/manifest/189a6ebf178a40617615259430d62110898948f4/docker/docker-compose.yml
+  - https://github.com/mnfst/manifest/releases.atom

@@ -1,0 +1,90 @@
+schema_version: 2
+repository_id: github:davis7dotsh/better-context
+research:
+  state: complete
+  source_commit: 864e5ba452566c318d60f75229882233b2a5c120
+  bundle_collected_at: 2026-07-19T20:42:32.571Z
+  researched_at: 2026-07-20T17:13:24+02:00
+  confidence: medium
+classification:
+  primary_category: ai-and-automation
+  topics:
+    - coding-agents
+    - agent-skills
+    - codebase-search
+    - context-engineering
+    - cli
+    - web-ui
+
+project:
+  name: btca (Better Context)
+  kind: monorepo
+  summary: >-
+    An evolving coding-agent context tool whose current documented local form is
+    a skill that clones and searches library and framework source code; the
+    repository also contains CLI, server, web, sandbox, and documentation packages.
+  best_for:
+    - Giving a compatible coding agent repository-derived context for library or framework questions
+    - Trying the documented btca skill while tracking an in-progress local-product rewrite
+
+key_features:
+  - Installable btca-local skill for compatible coding agents
+  - Clones and searches selected repositories in the documented local agent sandbox
+  - Supports natural-language prompts and skill invocations with or without a question
+  - Includes a publishable btca CLI with macOS, Linux, and Windows binary targets
+  - Monorepo packages for a server, web app, sandbox, shared code, and documentation
+
+usage:
+  interfaces:
+    - Coding-agent skill
+    - CLI
+    - Web application
+    - Server API package
+  installation:
+    - Run the documented npx skills add command for the btca-local skill
+    - Invoke the installed skill through a compatible coding agent
+    - Build repository packages with Bun for development or release work
+  setup: low
+
+technology:
+  languages:
+    - TypeScript
+    - JavaScript
+  notable_components:
+    - Bun workspaces
+    - Turbo
+    - SvelteKit
+    - OpenTUI
+
+license:
+  spdx: MIT
+  name: MIT License
+  notes: >-
+    The repository is MIT-licensed, allowing use, modification, distribution,
+    sublicensing, and sale when the copyright and permission notice are retained;
+    it is provided without warranty.
+
+status:
+  lifecycle: active
+  archived: false
+  latest_release: v2.0.5
+  latest_release_at: "2026-03-05"
+
+strengths:
+  - Targets source-derived context rather than relying only on potentially stale documentation
+  - Documents a lightweight skill-installation path for its current local experience
+  - Includes implementation evidence for CLI, server, web, sandbox, and cross-platform CLI releases
+
+caveats:
+  - The README says the local product is being rewritten, so the architecture and workflow described there may change
+  - Skill installation and invocation depend on the capabilities of the chosen coding agent
+  - Repository and package metadata use both Better Context and btca names, which can complicate discovery
+  - v2.0.5 is the relevant btca CLI release; the same feed also publishes separate server-v2.0.5 entries
+
+sources:
+  - https://raw.githubusercontent.com/davis7dotsh/better-context/864e5ba452566c318d60f75229882233b2a5c120/README.md
+  - https://raw.githubusercontent.com/davis7dotsh/better-context/864e5ba452566c318d60f75229882233b2a5c120/apps/cli/package.json
+  - https://raw.githubusercontent.com/davis7dotsh/better-context/864e5ba452566c318d60f75229882233b2a5c120/package.json
+  - https://raw.githubusercontent.com/davis7dotsh/better-context/864e5ba452566c318d60f75229882233b2a5c120/LICENSE.md
+  - https://raw.githubusercontent.com/davis7dotsh/better-context/864e5ba452566c318d60f75229882233b2a5c120/.github/workflows/publish.yml
+  - https://github.com/davis7dotsh/better-context/releases.atom

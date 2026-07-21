@@ -1,0 +1,88 @@
+analysis:
+  analyzed_at: "2026-07-19T19:25:34.538Z"
+  classification:
+    primary_category: "ai-and-automation"
+    state: "confirmed"
+    technologies:
+      - "python"
+      - "nodejs"
+      - "docker"
+    topics:
+      - "ai-agents"
+      - "llms"
+      - "automation"
+      - "self-hosted"
+    use_cases:
+      - "build-ai-products"
+      - "run-personal-or-team-tools"
+  evidence:
+    - claim: "DeerFlow 2.0 is an open-source super-agent harness that orchestrates sub-agents, memory, sandboxes, and extensible skills, with Python, Node.js, and Docker-based setup options."
+      source_type: "repository-file"
+      url: "https://github.com/bytedance/deer-flow/blob/main/README.md"
+      checked_at: "2026-07-19"
+      confidence: "high"
+  state: "complete"
+  summary:
+    one_line: "An open-source super-agent harness for long-running, tool-using AI tasks."
+    why_useful: "It combines sub-agents, skills, memory, and sandboxes to support research, coding, and other extended workflows."
+curation:
+  confidence: null
+  evidence: []
+  limitations: []
+  recommendation: null
+  reviewed_at: null
+  state: "uncurated"
+  strengths: []
+  verdict: null
+id: "github:bytedance/deer-flow"
+import:
+  github_snapshot:
+    archived: false
+    created_at: "2025-05-07T02:50:19Z"
+    default_branch: "main"
+    description: "An open-source long-horizon SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skill, subagents and message gateway, it handles different levels of tasks that could take minutes to hours."
+    disabled: false
+    fetched_at: "2026-07-19T19:16:14.796Z"
+    fork: false
+    forks: 10533
+    homepage: "https://deerflow.tech"
+    latest_release: null
+    license_spdx: "MIT"
+    open_issues: 984
+    primary_language: "Python"
+    pushed_at: "2026-07-19T14:36:15Z"
+    stars: 77390
+    topics:
+      - "agent"
+      - "agentic"
+      - "agentic-framework"
+      - "agentic-workflow"
+      - "ai"
+      - "ai-agents"
+      - "deep-research"
+      - "harness"
+      - "langchain"
+      - "langgraph"
+      - "langmanus"
+      - "llm"
+      - "multi-agent"
+      - "nodejs"
+      - "podcast"
+      - "python"
+      - "superagent"
+      - "typescript"
+    updated_at: "2026-07-19T17:38:04Z"
+  sources:
+    - observed_at: "2026-04-25T21:14:43Z"
+      relation: "starred"
+      source_id: "github:user:tomseai:stars"
+      source_url: "https://github.com/tomseai?tab=stars"
+  state: "imported"
+repository:
+  aliases: []
+  github_node_id: "R_kgDOOlwd1Q"
+  host: "github.com"
+  name: "deer-flow"
+  owner: "bytedance"
+  url: "https://github.com/bytedance/deer-flow"
+version: 1

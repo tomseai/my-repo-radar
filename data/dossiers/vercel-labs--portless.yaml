@@ -1,0 +1,68 @@
+schema_version: 2
+repository_id: github:vercel-labs/portless
+research:
+  state: complete
+  source_commit: e0c2af5734fcdc2f6c6992423a023d8ec0c68e26
+  bundle_collected_at: 2026-07-19T20:45:54.468Z
+  researched_at: 2026-07-20T15:55:00.000Z
+  confidence: high
+classification:
+  primary_category: developer-tools
+  topics:
+    - cli
+    - web
+    - developer-productivity
+    - worktrees
+    - open-source
+project:
+  name: portless
+  kind: cli
+  summary: >-
+    A local-development CLI that replaces per-app port numbers with stable,
+    named URLs by running a local reverse proxy around existing development
+    commands, with configurable TLS, routing, aliases, and sharing modes.
+  best_for:
+    - Developers who run several local web services and want stable browser URLs
+    - Teams or agents whose local commands need predictable URLs without manually managing ports
+key_features:
+  - Runs an existing development command behind a named local URL such as https://myapp.localhost
+  - Assigns an available application port and injects compatible port and host flags for supported frameworks
+  - Provides local HTTPS and HTTP/2 with a generated, system-trusted certificate authority by default
+  - Supports route aliases, subdomains, custom TLDs, monorepos, and Git worktree URL prefixes
+  - Can install the proxy as an OS startup service and explicitly enable LAN, Tailscale, or ngrok sharing
+usage:
+  interfaces:
+    - CLI
+    - local HTTPS reverse proxy
+    - OS startup service
+  installation:
+    - npm global package
+    - npm project dev dependency
+  setup: moderate
+technology:
+  languages:
+    - TypeScript
+  notable_components: []
+license:
+  spdx: Apache-2.0
+  name: Apache License 2.0
+  notes: Permissive license with an express patent grant; preserve required notices and license text when redistributing.
+status:
+  lifecycle: active
+  archived: false
+  latest_release: v0.15.4
+  latest_release_at: 2026-07-16
+strengths:
+  - Gives each development service a readable URL while retaining its existing dev command
+  - Covers local TLS, framework port handling, worktrees, and proxy lifecycle in one CLI
+  - Defaults to loopback-only binding outside its explicitly enabled sharing modes
+caveats:
+  - The project is pre-1.0, and its per-user state format can require rerunning trust after version changes
+  - Default HTTPS setup creates and trusts a local certificate authority and can require elevation to bind privileged ports
+  - LAN, Tailscale, and ngrok modes change the normal loopback-only exposure model and require deliberate configuration
+sources:
+  - https://raw.githubusercontent.com/vercel-labs/portless/e0c2af5734fcdc2f6c6992423a023d8ec0c68e26/README.md
+  - https://raw.githubusercontent.com/vercel-labs/portless/e0c2af5734fcdc2f6c6992423a023d8ec0c68e26/LICENSE
+  - https://raw.githubusercontent.com/vercel-labs/portless/e0c2af5734fcdc2f6c6992423a023d8ec0c68e26/package.json
+  - https://raw.githubusercontent.com/vercel-labs/portless/e0c2af5734fcdc2f6c6992423a023d8ec0c68e26/CHANGELOG.md
+  - https://github.com/vercel-labs/portless/releases.atom

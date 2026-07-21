@@ -1,0 +1,77 @@
+analysis:
+  analyzed_at: "2026-07-19T19:54:59.070Z"
+  classification:
+    primary_category: "platforms-and-applications"
+    state: "confirmed"
+    technologies:
+      - "docker"
+      - "rust"
+    topics:
+      - "ai-agents"
+      - "automation"
+      - "chat-ui"
+      - "cli"
+      - "self-hosted"
+    use_cases:
+      - "run-personal-or-team-tools"
+  evidence:
+    - claim: "ZeroClaw is a local-first Rust personal AI assistant that operates through messaging channels, a web dashboard, CLI, tools, memory, automation, hardware integrations, and configurable security controls."
+      source_type: "repository-file"
+      url: "https://github.com/zeroclaw-labs/zeroclaw/blob/master/README.md"
+      checked_at: "2026-07-19"
+      confidence: "high"
+  state: "complete"
+  summary:
+    one_line: "A local-first personal AI assistant platform implemented as a lightweight Rust runtime."
+    why_useful: "It connects an assistant to messaging channels, tools, automation, memory, hardware, and a self-hosted control plane."
+curation:
+  confidence: null
+  evidence: []
+  limitations: []
+  recommendation: null
+  reviewed_at: null
+  state: "uncurated"
+  strengths: []
+  verdict: null
+id: "github:zeroclaw-labs/zeroclaw"
+import:
+  github_snapshot:
+    archived: false
+    created_at: "2026-02-13T08:56:04Z"
+    default_branch: "master"
+    description: "Fast, small, and fully autonomous AI personal assistant infrastructure, any OS, any platform — deploy anywhere, swap anything 🦀"
+    disabled: false
+    fetched_at: "2026-07-19T19:16:14.796Z"
+    fork: false
+    forks: 4811
+    homepage: "https://www.zeroclawlabs.ai/"
+    latest_release: null
+    license_spdx: "Apache-2.0"
+    open_issues: 541
+    primary_language: "Rust"
+    pushed_at: "2026-07-19T13:31:16Z"
+    stars: 32316
+    topics:
+      - "agent"
+      - "agentic"
+      - "ai"
+      - "infra"
+      - "ml"
+      - "openclaw"
+      - "os"
+      - "zeroclaw"
+    updated_at: "2026-07-19T18:17:05Z"
+  sources:
+    - observed_at: "2026-02-15T15:20:34Z"
+      relation: "starred"
+      source_id: "github:user:tomseai:stars"
+      source_url: "https://github.com/tomseai?tab=stars"
+  state: "imported"
+repository:
+  aliases: []
+  github_node_id: "R_kgDORPXC2g"
+  host: "github.com"
+  name: "zeroclaw"
+  owner: "zeroclaw-labs"
+  url: "https://github.com/zeroclaw-labs/zeroclaw"
+version: 1

@@ -1,0 +1,63 @@
+analysis:
+  analyzed_at: "2026-07-19T19:34:18.967Z"
+  classification:
+    primary_category: "documentation-and-learning"
+    state: "provisional"
+    technologies: []
+    topics:
+      - "machine-learning"
+    use_cases:
+      - "learn-and-reference"
+  evidence:
+    - claim: "AI by Hand provides Excel exercises and workbooks for machine-learning concepts including softmax, neural networks, backpropagation, transformers, attention, autoencoders, Mamba, and AlphaFold."
+      source_type: "repository-file"
+      url: "https://github.com/ImagineAILab/ai-by-hand-excel/blob/main/README.md"
+      checked_at: "2026-07-19"
+      confidence: "high"
+  state: "researched"
+  summary:
+    one_line: "Excel-based exercises for learning machine-learning and neural-network concepts."
+    why_useful: "It offers spreadsheet-based practice material for working through model components and algorithms."
+curation:
+  confidence: null
+  evidence: []
+  limitations: []
+  recommendation: null
+  reviewed_at: null
+  state: "uncurated"
+  strengths: []
+  verdict: null
+id: "github:ImagineAILab/ai-by-hand-excel"
+import:
+  github_snapshot:
+    archived: false
+    created_at: "2024-09-15T13:21:00Z"
+    default_branch: "main"
+    description: null
+    disabled: false
+    fetched_at: "2026-07-19T19:16:14.796Z"
+    fork: false
+    forks: 772
+    homepage: null
+    latest_release: null
+    license_spdx: "MIT"
+    open_issues: 5
+    primary_language: null
+    pushed_at: "2025-01-28T13:33:23Z"
+    stars: 6216
+    topics: []
+    updated_at: "2026-07-19T08:25:39Z"
+  sources:
+    - observed_at: "2025-04-28T14:41:56Z"
+      relation: "starred"
+      source_id: "github:user:tomseai:stars"
+      source_url: "https://github.com/tomseai?tab=stars"
+  state: "imported"
+repository:
+  aliases: []
+  github_node_id: "R_kgDOMx_5WQ"
+  host: "github.com"
+  name: "ai-by-hand-excel"
+  owner: "ImagineAILab"
+  url: "https://github.com/ImagineAILab/ai-by-hand-excel"
+version: 1

@@ -1,0 +1,84 @@
+schema_version: 2
+repository_id: github:rohitg00/ai-engineering-from-scratch
+research:
+  state: complete
+  source_commit: c8b9b9244f3210b840776675175662dacf208264
+  bundle_collected_at: 2026-07-19T20:45:05.246Z
+  researched_at: 2026-07-20T18:00:00+02:00
+  confidence: high
+classification:
+  primary_category: documentation-and-learning
+  topics:
+    - courses
+    - tutorials
+    - machine-learning
+    - llms
+    - ai-agents
+    - mcp
+    - multi-agent
+project:
+  name: AI Engineering from Scratch
+  kind: course
+  summary: >-
+    A self-paced, from-scratch AI-engineering curriculum spanning mathematics,
+    machine learning, LLMs, agents, production systems, safety, and capstones.
+  best_for:
+    - Developers seeking a structured, implementation-first route into AI engineering
+    - Engineers who want focused LLM, agent, MCP, or production-system learning tracks
+key_features:
+  - 503 lessons across 20 phases, progressing from setup and mathematics to capstone projects
+  - "A repeatable lesson structure: concept, raw implementation, production-library use, and a reusable output"
+  - Coverage of vision, NLP, speech, transformers, generative AI, reinforcement learning, LLM engineering, and safety
+  - Dedicated phases for tools and protocols, agent engineering, autonomous systems, multi-agent systems, and production
+  - Seventeen end-to-end capstone projects plus additional deep-build tracks, including coding agents, RAG, MCP, and evaluation
+  - Reusable prompts, skills, agents, and MCP-server outputs, with installers and a repository workbench scaffold
+usage:
+  interfaces:
+    - GitHub Markdown lessons
+    - Hosted course website
+    - Agent skills and slash commands
+    - Python command-line scripts
+  installation:
+    - Read the hosted lessons without installation
+    - Clone the repository and run an individual lesson's code
+    - Install all or selected skills with npx skills add
+    - Use the included Python skill installer for offline or custom layouts
+  setup: moderate
+technology:
+  languages:
+    - Python
+    - TypeScript
+    - Rust
+    - Julia
+  notable_components:
+    - PyTorch and Hugging Face Transformers
+    - Jupyter and scientific Python packages
+    - Model Context Protocol (MCP)
+    - SKILL.md and AGENTS.md-compatible agent workflows
+license:
+  spdx: MIT
+  name: MIT License
+  notes: >-
+    Permissive license allowing use, copying, modification, distribution,
+    sublicensing, and sale, provided the copyright and license notice remain;
+    the work is supplied without warranty.
+status:
+  lifecycle: active
+  archived: false
+  latest_release: null
+  latest_release_at: null
+strengths:
+  - Connects foundational concepts to production-oriented systems rather than treating them as separate curricula
+  - Provides both linear progression and clear entry points for experienced learners
+  - Makes the learning output reusable through prompts, skills, agents, MCP servers, and capstone projects
+caveats:
+  - The full curriculum estimates roughly 320 hours, so most users will want a selected phase or track
+  - Running lessons can require language runtimes, ML dependencies, data, hardware, or model-provider credentials depending on the lesson
+  - The bundled requirements file is Python-focused; individual projects and examples can have their own dependency manifests
+  - The retained release feed has no entries, so no versioned project release can be established
+sources:
+  - https://raw.githubusercontent.com/rohitg00/ai-engineering-from-scratch/c8b9b9244f3210b840776675175662dacf208264/README.md
+  - https://raw.githubusercontent.com/rohitg00/ai-engineering-from-scratch/c8b9b9244f3210b840776675175662dacf208264/LICENSE
+  - https://raw.githubusercontent.com/rohitg00/ai-engineering-from-scratch/c8b9b9244f3210b840776675175662dacf208264/requirements.txt
+  - https://raw.githubusercontent.com/rohitg00/ai-engineering-from-scratch/c8b9b9244f3210b840776675175662dacf208264/CHANGELOG.md
+  - https://github.com/rohitg00/ai-engineering-from-scratch/releases.atom

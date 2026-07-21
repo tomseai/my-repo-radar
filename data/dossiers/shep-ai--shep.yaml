@@ -1,0 +1,90 @@
+schema_version: 2
+repository_id: github:shep-ai/shep
+research:
+  state: complete
+  source_commit: df4199fe5a3a7050f57bcfad00f485a371fac9a0
+  bundle_collected_at: 2026-07-19T20:45:16.348Z
+  researched_at: 2026-07-20T00:52:00.000Z
+  confidence: high
+classification:
+  primary_category: ai-and-automation
+  topics:
+    - ai-agents
+    - coding-agents
+    - agent-orchestration
+    - parallel-agents
+    - worktrees
+    - cli
+    - web-ui
+    - git
+    - pull-requests
+    - local-first
+    - spec-driven-development
+project:
+  name: Shep
+  kind: application
+  summary: >-
+    A local-first orchestrator that runs parallel coding agents in isolated Git
+    worktrees and drives feature branches through implementation, optional
+    specification gates, commits, CI retry fixes, and draft pull requests.
+  best_for:
+    - Developers coordinating several AI coding-agent tasks against one repository
+    - Teams that want agent output isolated in reviewable draft pull-request workflows
+
+key_features:
+  - Isolated Git worktree and branch for every feature
+  - Built-in Claude Code, Cursor CLI, and Gemini CLI support plus a generic terminal-agent executor
+  - Default prompt-to-implementation-to-draft-PR workflow with configurable CI retry fixes
+  - Optional requirements, research, and plan approval gates as versioned YAML artifacts
+  - Local CLI, terminal UI, and real-time web control center
+  - Local SQLite data storage with agent provider selection per feature or repository
+
+usage:
+  interfaces:
+    - CLI
+    - terminal UI
+    - local web dashboard
+  installation:
+    - npx package execution
+    - npm global package
+    - self-hosted local development
+  setup: moderate
+
+technology:
+  languages:
+    - TypeScript
+  notable_components:
+    - Node.js
+    - Git worktrees
+    - SQLite
+    - Next.js dashboard
+    - Ink terminal UI
+
+license:
+  spdx: MIT
+  name: MIT License
+  notes: Permissive license requiring preservation of copyright and license notices.
+
+status:
+  lifecycle: active
+  archived: false
+  latest_release: v1.219.0
+  latest_release_at: 2026-07-17
+
+strengths:
+  - Keeps concurrent agent work out of the developer's active working directory
+  - Treats CI and draft pull requests as review checkpoints before a human merges changes
+  - Is not locked to one coding agent or model provider
+
+caveats:
+  - Running a feature requires Node.js 22+, Git, GitHub CLI, and an authenticated supported agent CLI
+  - By default, Shep passes non-interactive permission-bypass flags to configured agent CLIs
+  - Worktree isolation and draft PRs do not replace security scanning or CI coverage
+  - Agent prompts and code are sent to the separately configured agent provider under that provider's terms
+
+sources:
+  - https://raw.githubusercontent.com/shep-ai/shep/df4199fe5a3a7050f57bcfad00f485a371fac9a0/README.md
+  - https://raw.githubusercontent.com/shep-ai/shep/df4199fe5a3a7050f57bcfad00f485a371fac9a0/package.json
+  - https://raw.githubusercontent.com/shep-ai/shep/df4199fe5a3a7050f57bcfad00f485a371fac9a0/ARCHITECTURE.md
+  - https://raw.githubusercontent.com/shep-ai/shep/df4199fe5a3a7050f57bcfad00f485a371fac9a0/LICENSE
+  - https://github.com/shep-ai/shep/releases.atom

@@ -1,0 +1,59 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/tomseai/my-repo-radar/schema/source-run.schema.json",
+  "title": "GitHub starred repositories import run",
+  "description": "A deterministic raw snapshot returned by the GitHub starred-repositories API.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["format_version", "repositories", "source"],
+  "properties": {
+    "format_version": { "const": 1 },
+    "repositories": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": { "$ref": "#/$defs/starredRepository" }
+    },
+    "source": { "$ref": "#/$defs/source" }
+  },
+  "$defs": {
+    "starredRepository": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["repository", "starred_at"],
+      "properties": {
+        "repository": { "$ref": "#/$defs/githubRepository" },
+        "starred_at": {
+          "oneOf": [
+            { "type": "string", "format": "date-time" },
+            { "type": "null" }
+          ]
+        }
+      }
+    },
+    "githubRepository": {
+      "type": "object",
+      "required": ["id", "full_name"],
+      "properties": {
+        "id": { "type": "integer", "minimum": 1 },
+        "full_name": {
+          "type": "string",
+          "pattern": "^[^/\\s]+/[^/\\s]+$"
+        }
+      },
+      "additionalProperties": true
+    },
+    "source": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["api_base_url", "kind", "username"],
+      "properties": {
+        "api_base_url": { "type": "string", "format": "uri" },
+        "kind": { "const": "github-starred-repositories" },
+        "username": {
+          "type": "string",
+          "pattern": "^[A-Za-z0-9-]+$"
+        }
+      }
+    }
+  }
+}

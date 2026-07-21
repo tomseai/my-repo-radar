@@ -1,0 +1,89 @@
+schema_version: 2
+repository_id: github:dzhng/deep-research
+research:
+  state: complete
+  source_commit: 1f8f3e285bbc23e80b98a66a64effab9069f3ad4
+  bundle_collected_at: 2026-07-19T20:42:40.449Z
+  researched_at: 2026-07-20T17:22:59.2612414+02:00
+  confidence: medium
+
+classification:
+  primary_category: ai-and-automation
+  topics:
+    - ai-agents
+    - web-search
+    - web-scraping
+    - llms
+    - cli
+    - self-hosted
+    - documentation
+
+project:
+  name: Open Deep Research
+  kind: application
+  summary: >-
+    A compact TypeScript research assistant that iteratively queries search and
+    scraping services, analyzes findings with an LLM, and writes a sourced Markdown report.
+  best_for:
+    - Studying a small, configurable implementation of iterative deep research
+    - Running guided research from a local Node.js environment with supported provider credentials
+
+key_features:
+  - Generates follow-up questions to refine the initial research goal
+  - Iteratively generates search queries, processes results, and explores new directions
+  - Controls research breadth, depth, and concurrency through prompted values and environment settings
+  - Produces Markdown reports with findings and sources
+  - Supports OpenAI-compatible custom endpoints and model strings, plus Fireworks-backed R1 mode
+  - Includes Docker and Docker Compose paths for local execution
+
+usage:
+  interfaces:
+    - interactive CLI
+    - local HTTP API
+    - Docker container
+  installation:
+    - npm dependency installation
+    - Docker build and Docker Compose
+  setup: moderate
+
+technology:
+  languages:
+    - TypeScript
+  notable_components:
+    - Node.js 22
+    - Firecrawl
+    - OpenAI API
+    - Vercel AI SDK
+    - Express
+
+license:
+  spdx: MIT
+  name: MIT License
+  notes: >-
+    The root LICENSE and README state MIT, but package.json declares ISC; verify
+    the package metadata before redistributing or publishing a derivative package.
+
+status:
+  lifecycle: unknown
+  archived: false
+  latest_release: null
+  latest_release_at: null
+
+strengths:
+  - Keeps the research loop deliberately small and legible for adaptation
+  - Gives users direct control over research scope and parallelism
+  - Documents both hosted and self-hosted-compatible endpoint configuration
+
+caveats:
+  - Research quality and coverage depend on Firecrawl, the chosen LLM, their credentials, and their limits
+  - The documented default flow needs Firecrawl and OpenAI API keys; alternative endpoints still require compatible configuration
+  - The retained release feed contains no release entries, so no primary-project release can be established
+  - Root licensing is MIT while package.json declares ISC, creating a conflicting package-metadata label
+  - The package test script intentionally exits with an error, and the retained documentation does not describe a test suite
+
+sources:
+  - https://raw.githubusercontent.com/dzhng/deep-research/1f8f3e285bbc23e80b98a66a64effab9069f3ad4/README.md
+  - https://raw.githubusercontent.com/dzhng/deep-research/1f8f3e285bbc23e80b98a66a64effab9069f3ad4/package.json
+  - https://raw.githubusercontent.com/dzhng/deep-research/1f8f3e285bbc23e80b98a66a64effab9069f3ad4/docker-compose.yml
+  - https://raw.githubusercontent.com/dzhng/deep-research/1f8f3e285bbc23e80b98a66a64effab9069f3ad4/LICENSE
+  - https://github.com/dzhng/deep-research/releases.atom

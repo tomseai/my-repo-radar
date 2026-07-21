@@ -1,0 +1,75 @@
+schema_version: 2
+repository_id: github:pierrecomputer/pierre
+research:
+  state: complete
+  source_commit: 4f94a5e765195b27e1e4188b943aab2ae44613cb
+  bundle_collected_at: 2026-07-19T20:44:52.316Z
+  researched_at: 2026-07-20T15:52:01.019Z
+  confidence: medium
+classification:
+  primary_category: frontend-and-design
+  topics:
+    - web
+    - ui-components
+    - frontend-development
+    - code-review
+    - libraries
+project:
+  name: Pierre
+  kind: monorepo
+  summary: >-
+    A TypeScript monorepo for public packages that render code diffs and file
+    trees, with React, server-rendered, worker, and web-component entry points.
+  best_for:
+    - Building polished code-review, change-inspection, or repository-navigation interfaces
+    - Teams that need reusable diff and tree renderers rather than a complete Git client
+key_features:
+  - Public @pierre/diffs package with default, React, SSR, and worker entry points
+  - Public @pierre/trees package with React, SSR, and web-component entry points
+  - Separate theming, theme, and path-store packages shared by the UI packages
+  - Diff rendering package uses Shiki and the diff library for highlighted code changes
+  - Demo, documentation, and Diffshub applications exercise the workspace packages
+usage:
+  interfaces:
+    - TypeScript package imports
+    - React components
+    - web components
+    - server-side rendering
+  installation:
+    - Source checkout with pnpm
+    - Public npm packages for the Diffs and Trees components
+  setup: moderate
+technology:
+  languages:
+    - TypeScript
+  notable_components:
+    - React
+    - Preact
+    - Shiki
+    - pnpm
+license:
+  spdx: Apache-2.0
+  name: Apache License 2.0
+  notes: >-
+    The published Diffs and Trees package manifests declare Apache-2.0; no
+    top-level LICENSE file was retained, so repository-wide scope is not established.
+status:
+  lifecycle: active
+  archived: false
+  latest_release: null
+  latest_release_at: null
+strengths:
+  - Offers focused, reusable primitives for two difficult developer-interface problems
+  - Supports client, server-rendered, worker, and web-component integration patterns
+  - Separates visual theming and path state from the main diff and tree components
+caveats:
+  - This is a component monorepo, not a complete code-review or repository-browser application
+  - License evidence is scoped to the published component manifests because the retained bundle lacks a root license
+  - The release feed publishes independent package versions; no single repository release is established
+  - The newest observed feed entry by timestamp is the prerelease diffs-v1.3.0-beta.10 on 2026-07-15
+sources:
+  - https://raw.githubusercontent.com/pierrecomputer/pierre/4f94a5e765195b27e1e4188b943aab2ae44613cb/README
+  - https://raw.githubusercontent.com/pierrecomputer/pierre/4f94a5e765195b27e1e4188b943aab2ae44613cb/package.json
+  - https://raw.githubusercontent.com/pierrecomputer/pierre/4f94a5e765195b27e1e4188b943aab2ae44613cb/packages/diffs/package.json
+  - https://raw.githubusercontent.com/pierrecomputer/pierre/4f94a5e765195b27e1e4188b943aab2ae44613cb/packages/trees/package.json
+  - https://github.com/pierrecomputer/pierre/releases.atom

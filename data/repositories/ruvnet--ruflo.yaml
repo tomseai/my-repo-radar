@@ -1,0 +1,89 @@
+analysis:
+  analyzed_at: "2026-07-19T19:47:51.088Z"
+  classification:
+    primary_category: "ai-and-automation"
+    state: "provisional"
+    technologies:
+      - "typescript"
+      - "rust"
+    topics:
+      - "ai-agents"
+      - "llms"
+      - "automation"
+    use_cases:
+      - "build-ai-products"
+      - "improve-developer-workflow"
+      - "collaborate-on-work"
+  evidence:
+    - claim: "Ruflo is an agent meta-harness for Claude Code and Codex that adds specialized agents, coordinated swarms, persistent learning memory, federation, security guardrails, and CLI, hook, MCP, and daemon integrations."
+      source_type: "repository-file"
+      url: "https://github.com/ruvnet/ruflo/blob/main/README.md"
+      checked_at: "2026-07-19"
+      confidence: "high"
+  state: "researched"
+  summary:
+    one_line: "Agent meta-harness for orchestrating multi-agent coding and automation workflows."
+    why_useful: "It adds agent coordination, memory, and integration layers to supported coding-agent environments."
+curation:
+  confidence: null
+  evidence: []
+  limitations: []
+  recommendation: null
+  reviewed_at: null
+  state: "uncurated"
+  strengths: []
+  verdict: null
+id: "github:ruvnet/ruflo"
+import:
+  github_snapshot:
+    archived: false
+    created_at: "2025-06-02T21:24:20Z"
+    default_branch: "main"
+    description: "🌊 The leading agent meta-harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning intelligence, RAG integration, and native Claude Code / Codex / Hermes and many more Integrated"
+    disabled: false
+    fetched_at: "2026-07-19T19:16:14.796Z"
+    fork: false
+    forks: 7736
+    homepage: "https://Cognitum.One"
+    latest_release: null
+    license_spdx: "MIT"
+    open_issues: 804
+    primary_language: "TypeScript"
+    pushed_at: "2026-07-19T06:12:44Z"
+    stars: 65173
+    topics:
+      - "agentic-ai"
+      - "agentic-framework"
+      - "agentic-workflow"
+      - "agents"
+      - "ai-agents"
+      - "ai-assistant"
+      - "ai-coding"
+      - "ai-skills"
+      - "autonomous-agents"
+      - "claude-code"
+      - "codex"
+      - "harness"
+      - "mcp-server"
+      - "multi-agent"
+      - "multi-agent-systems"
+      - "npm"
+      - "skills"
+      - "swarm"
+      - "swarm-intelligence"
+      - "typescript"
+    updated_at: "2026-07-19T19:12:09Z"
+  sources:
+    - observed_at: "2026-07-19T16:04:09Z"
+      relation: "starred"
+      source_id: "github:user:tomseai:stars"
+      source_url: "https://github.com/tomseai?tab=stars"
+  state: "imported"
+repository:
+  aliases: []
+  github_node_id: "R_kgDOO07yiQ"
+  host: "github.com"
+  name: "ruflo"
+  owner: "ruvnet"
+  url: "https://github.com/ruvnet/ruflo"
+version: 1

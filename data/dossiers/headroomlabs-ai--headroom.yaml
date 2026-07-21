@@ -1,0 +1,90 @@
+schema_version: 2
+repository_id: github:headroomlabs-ai/headroom
+research:
+  state: complete
+  source_commit: 7052d52dcbb2fd97b756c9b60a096cdfeee32c94
+  bundle_collected_at: 2026-07-19T20:43:25.756Z
+  researched_at: 2026-07-20T15:31:44.117Z
+  confidence: high
+
+classification:
+  primary_category: ai-and-automation
+  topics:
+    - ai-agents
+    - llms
+    - context-engineering
+    - token-usage
+    - agent-memory
+    - mcp
+    - cli
+    - local-first
+
+project:
+  name: Headroom
+  kind: framework
+  summary: >-
+    A local-first context-compression system for LLM applications and coding
+    agents, offering Python and TypeScript libraries, a local proxy, agent
+    wrappers, MCP tools, and reversible retrieval of compressed originals.
+  best_for:
+    - Coding-agent users who need to reduce tool-output and context size
+    - Application teams that want compression without rewriting their LLM integration
+
+key_features:
+  - Routes JSON, code, prose, images, and other inputs to content-aware compressors
+  - Exposes Python and TypeScript library integration paths
+  - Runs as a local OpenAI-compatible proxy for no-code client changes
+  - Wraps several coding-agent CLIs and configures a local MCP server
+  - Stores originals for on-demand retrieval through reversible CCR compression
+  - Provides shared cross-agent memory and a session-learning workflow
+
+usage:
+  interfaces:
+    - Python library
+    - TypeScript library
+    - CLI
+    - local proxy
+    - MCP server
+  installation:
+    - uv tool install headroom-ai[all]
+    - pip install headroom-ai[all]
+    - npm install headroom-ai
+  setup: moderate
+
+technology:
+  languages:
+    - Python
+    - TypeScript
+    - Rust
+  notable_components:
+    - Model Context Protocol
+    - tree-sitter
+    - ONNX Runtime
+
+license:
+  spdx: Apache-2.0
+  name: Apache License 2.0
+  notes: The commit-pinned LICENSE and Python package metadata identify Apache-2.0.
+
+status:
+  lifecycle: active
+  archived: null
+  latest_release: v0.32.0
+  latest_release_at: 2026-07-17
+
+strengths:
+  - Multiple integration modes let an existing app or coding agent adopt compression incrementally
+  - Local proxy and retrieval design keep compressed originals available on demand
+  - Content-aware routing covers structured data, source code, and prose rather than applying one generic transform
+
+caveats:
+  - Optional features have substantial dependency and platform considerations, including a Rust build fallback and selected native assets
+  - The npm package is a TypeScript SDK only; the headroom CLI is supplied by the Python package
+  - The status and release are based on the locally cached release feed; archival state is not asserted from commit-pinned source files
+
+sources:
+  - https://raw.githubusercontent.com/headroomlabs-ai/headroom/7052d52dcbb2fd97b756c9b60a096cdfeee32c94/README.md
+  - https://raw.githubusercontent.com/headroomlabs-ai/headroom/7052d52dcbb2fd97b756c9b60a096cdfeee32c94/pyproject.toml
+  - https://raw.githubusercontent.com/headroomlabs-ai/headroom/7052d52dcbb2fd97b756c9b60a096cdfeee32c94/Cargo.toml
+  - https://raw.githubusercontent.com/headroomlabs-ai/headroom/7052d52dcbb2fd97b756c9b60a096cdfeee32c94/LICENSE
+  - https://github.com/headroomlabs-ai/headroom/releases.atom

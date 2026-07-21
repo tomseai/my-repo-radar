@@ -1,0 +1,85 @@
+schema_version: 2
+repository_id: github:anthropics/claude-cookbooks
+
+research:
+  state: complete
+  source_commit: 67ce644d33e5933f0bcc0b6eb4113df41bbf3a8f
+  bundle_collected_at: 2026-07-19T20:41:42.841Z
+  researched_at: 2026-07-20T00:38:52.900+02:00
+  confidence: high
+
+classification:
+  primary_category: documentation-and-learning
+  topics:
+    - llms
+    - ai-agents
+    - tool-use
+    - multimodal
+    - tutorials
+    - reference
+
+project:
+  name: Claude Cookbooks
+  kind: documentation
+  summary: >-
+    A collection of copyable code snippets, notebooks, and guides for building
+    with Claude, covering common LLM capabilities, tool integrations,
+    multimodal work, evaluation, and selected agent-oriented examples.
+  best_for:
+    - Developers adapting focused Claude API examples into their own projects
+    - Teams learning documented patterns for retrieval, tools, vision, and evaluations
+
+key_features:
+  - Recipes for classification, retrieval-augmented generation, and summarization
+  - Tool-use examples including a customer-service agent, calculator, and SQL queries
+  - Third-party retrieval examples using vector databases, Wikipedia, and web pages
+  - Multimodal notebooks for vision, charts, forms, PDFs, and image-generation workflows
+  - Advanced examples for sub-agents, evaluations, JSON output, moderation, and prompt caching
+
+usage:
+  interfaces:
+    - Jupyter notebooks
+    - Markdown guides
+    - Python example code
+  installation:
+    - Clone the repository
+    - uv or pip development environment
+    - Claude API key for API-backed examples
+  setup: moderate
+
+technology:
+  languages:
+    - Python
+    - Jupyter Notebook
+  notable_components:
+    - Anthropic Python SDK
+    - Claude Agent SDK
+    - Jupyter
+
+license:
+  spdx: MIT
+  name: MIT License
+  notes: Cookbook code and contributions are MIT-licensed; running examples requires a Claude API key and can involve third-party services.
+
+status:
+  lifecycle: active
+  archived: false
+  latest_release: null
+  latest_release_at: null
+
+strengths:
+  - Provides focused, copyable examples rather than only conceptual API documentation
+  - Spans common application capabilities as well as tools, multimodal inputs, and evaluation patterns
+  - Includes contribution and notebook-validation guidance for maintaining examples
+
+caveats:
+  - This is a cookbook, not a general-purpose framework or a standalone Claude client
+  - Most useful examples require a Claude API key, and some depend on external data sources or integrations
+  - The retained release feed contains no published project release, so no latest release can be established
+
+sources:
+  - https://raw.githubusercontent.com/anthropics/claude-cookbooks/67ce644d33e5933f0bcc0b6eb4113df41bbf3a8f/README.md
+  - https://raw.githubusercontent.com/anthropics/claude-cookbooks/67ce644d33e5933f0bcc0b6eb4113df41bbf3a8f/LICENSE
+  - https://raw.githubusercontent.com/anthropics/claude-cookbooks/67ce644d33e5933f0bcc0b6eb4113df41bbf3a8f/pyproject.toml
+  - https://raw.githubusercontent.com/anthropics/claude-cookbooks/67ce644d33e5933f0bcc0b6eb4113df41bbf3a8f/CONTRIBUTING.md
+  - https://github.com/anthropics/claude-cookbooks/releases.atom

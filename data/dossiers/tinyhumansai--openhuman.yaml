@@ -1,0 +1,87 @@
+schema_version: 2
+repository_id: github:tinyhumansai/openhuman
+research:
+  state: complete
+  source_commit: d13a559b904a24f0b5155dae7b9c3c8bda20ecfa
+  bundle_collected_at: 2026-07-19T20:45:41.686Z
+  researched_at: 2026-07-20T16:11:09.793Z
+  confidence: high
+classification:
+  primary_category: ai-and-automation
+  topics:
+    - ai-agents
+    - agent-harnesses
+    - agent-memory
+    - agent-orchestration
+    - multi-agent
+    - llms
+    - mcp
+    - local-first
+    - desktop-app
+    - web-ui
+    - automation
+project:
+  name: OpenHuman
+  kind: application
+  summary: >-
+    A local-first desktop personal-AI application combining persistent memory,
+    agent orchestration, visual workflows, research tools, and integrations.
+  best_for:
+    - Individuals who want a local desktop agent with durable personal context
+    - Users who want to review agent-proposed workflows and multi-agent runs
+key_features:
+  - Builds local Memory Trees and an editable Obsidian-compatible Markdown vault
+  - Runs checkpointed agent graphs, sub-agent fleets, and replayable run journals
+  - Creates visual, trigger-driven workflows with approval gates for side effects
+  - Includes web search, scraping, browser, coding, voice, and media-generation tools
+  - Supports OAuth integrations, MCP servers, skills, and messaging channels
+  - Offers encrypted on-device data, OS-keyring secrets, and a local-only privacy mode
+usage:
+  interfaces:
+    - desktop GUI
+    - CLI
+    - visual workflow canvas
+  installation:
+    - official release installers
+    - Homebrew
+    - Debian or Ubuntu package
+    - AUR package
+    - install script
+  setup: moderate
+technology:
+  languages:
+    - Rust
+    - TypeScript
+    - JavaScript
+  notable_components:
+    - Tauri
+    - React
+    - SQLite
+    - Model Context Protocol
+license:
+  spdx: GPL-3.0
+  name: GNU General Public License v3.0
+  notes: >-
+    Strong copyleft: distributing modified or combined covered work requires
+    corresponding source and GPLv3 licensing; it is unsuitable for incorporating
+    the covered code into proprietary programs.
+status:
+  lifecycle: experimental
+  archived: false
+  latest_release: v0.61.8
+  latest_release_at: 2026-07-17
+strengths:
+  - Combines memory, orchestration, research, and workflow tools in one desktop product
+  - Keeps its stated memory store and privacy mode on the user's device
+  - Offers native installers across macOS, Windows, and major Linux paths
+caveats:
+  - The project labels itself early beta and warns users to expect rough edges
+  - Source development requires Node.js, pnpm, Rust, CMake, Ninja, and desktop prerequisites
+  - The documented script installers are explicitly unverified; native packages are preferred
+  - Many integrations and model-powered features require external accounts or providers
+sources:
+  - https://raw.githubusercontent.com/tinyhumansai/openhuman/d13a559b904a24f0b5155dae7b9c3c8bda20ecfa/README.md
+  - https://raw.githubusercontent.com/tinyhumansai/openhuman/d13a559b904a24f0b5155dae7b9c3c8bda20ecfa/INSTALL.md
+  - https://raw.githubusercontent.com/tinyhumansai/openhuman/d13a559b904a24f0b5155dae7b9c3c8bda20ecfa/LICENSE
+  - https://raw.githubusercontent.com/tinyhumansai/openhuman/d13a559b904a24f0b5155dae7b9c3c8bda20ecfa/app/src-tauri/Cargo.toml
+  - https://github.com/tinyhumansai/openhuman/releases.atom

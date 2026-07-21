@@ -1,0 +1,84 @@
+schema_version: 2
+repository_id: github:nesquena/hermes-webui
+
+research:
+  state: complete
+  source_commit: 4e768fe247931c360cb0f003a6493d46cf91d03e
+  bundle_collected_at: 2026-07-19T20:44:22.946Z
+  researched_at: 2026-07-20T00:00:00Z
+  confidence: high
+
+classification:
+  primary_category: ai-and-automation
+  topics:
+    - ai-agents
+    - chat-ui
+    - web-ui
+    - self-hosted
+    - local-first
+    - multi-provider
+
+project:
+  name: Hermes WebUI
+  kind: application
+  summary: >-
+    A self-hosted browser interface for Hermes Agent that provides chat,
+    session, workspace, profile, task, memory, and settings workflows.
+  best_for:
+    - Operating an existing Hermes Agent installation from a browser
+    - Accessing a persistent agent workspace from desktop or mobile devices
+
+key_features:
+  - Browser chat with configured Hermes model providers and session management
+  - Workspace browser, file preview, and transcript import or export
+  - Agent profiles, persistent memory, skills, tasks, and scheduled-work controls
+  - Optional password, passkey, OIDC, and reverse-proxy deployment configurations
+  - Docker, Nix, and bootstrap-based self-hosted installation paths
+
+usage:
+  interfaces:
+    - web UI
+    - browser PWA
+    - local HTTP server
+  installation:
+    - Python bootstrap script
+    - Docker Compose
+    - Nix flake or NixOS module
+  setup: moderate
+
+technology:
+  languages:
+    - Python
+    - JavaScript
+  notable_components:
+    - Hermes Agent
+    - vanilla JavaScript frontend
+    - SQLite session bridge
+    - Docker
+
+license:
+  spdx: MIT
+  name: MIT License
+  notes: Permissive reuse is allowed with copyright and license notices; the software is provided without warranty.
+
+status:
+  lifecycle: active
+  archived: false
+  latest_release: v0.52.76
+  latest_release_at: 2026-07-18
+
+strengths:
+  - Extends a Hermes installation without requiring a frontend build pipeline
+  - Brings CLI sessions and workspace files into a visual, mobile-responsive interface
+  - Provides several documented self-hosting and authentication options
+
+caveats:
+  - It depends on a working Hermes Agent installation and its configured providers or models
+  - Password authentication is disabled by default for localhost; network exposure requires suitable access controls
+  - The feed has newer exp-v0.52.117 experimental releases; v0.52.76 is the newest non-experimental release retained in the feed
+
+sources:
+  - https://raw.githubusercontent.com/nesquena/hermes-webui/4e768fe247931c360cb0f003a6493d46cf91d03e/README.md
+  - https://raw.githubusercontent.com/nesquena/hermes-webui/4e768fe247931c360cb0f003a6493d46cf91d03e/LICENSE
+  - https://raw.githubusercontent.com/nesquena/hermes-webui/4e768fe247931c360cb0f003a6493d46cf91d03e/docker-compose.yml
+  - https://github.com/nesquena/hermes-webui/releases.atom

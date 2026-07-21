@@ -1,0 +1,79 @@
+schema_version: 2
+repository_id: github:comet-ml/opik
+research:
+  state: complete
+  source_commit: e6c980fdeb4ead578af82472b0e55599fa1e0dbb
+  bundle_collected_at: 2026-07-19T20:42:24.493Z
+  researched_at: 2026-07-20T15:23:49.960Z
+  confidence: high
+classification:
+  primary_category: testing-and-quality
+  topics:
+    - ai-agents
+    - llms
+    - observability
+    - tracing
+    - evaluation
+    - token-usage
+    - self-hosted
+    - open-source
+project:
+  name: opik
+  kind: service
+  summary: >-
+    An open-source platform for tracing, evaluating, testing, monitoring, and
+    optimizing LLM applications and AI agents across development and production.
+  best_for:
+    - ML and engineering teams operating LLM applications or agentic workflows
+    - Self-hosted teams that need trace-level observability and evaluation
+key_features:
+  - Trace LLM calls, conversations, agent steps, and tool calls in tree form
+  - Build datasets and experiments with LLM-as-a-judge metrics
+  - Annotate traces and spans with feedback scores through the SDK or web UI
+  - Monitor production traces, feedback scores, token usage, and online evaluations
+  - Optimize prompts and agents with the Agent Optimizer SDK
+  - Test LLM pipelines in CI/CD through a PyTest integration
+usage:
+  interfaces:
+    - web UI
+    - REST API
+    - Python SDK
+    - TypeScript SDK
+  installation:
+    - Comet-hosted service
+    - Docker Compose self-hosting
+    - Kubernetes Helm chart
+    - Python package
+  setup: moderate
+technology:
+  languages:
+    - Python
+    - TypeScript
+    - Java
+  notable_components:
+    - React
+    - Docker
+    - Kubernetes
+license:
+  spdx: Apache-2.0
+  name: Apache License 2.0
+  notes: The repository describes the full platform, including the server and web application, as Apache-2.0 licensed and self-hostable.
+status:
+  lifecycle: active
+  archived: false
+  latest_release: null
+  latest_release_at: null
+strengths:
+  - Combines tracing, evaluation, testing, and production monitoring in one platform
+  - Supports self-hosting as well as a hosted service
+  - Provides Python and TypeScript SDKs alongside the web interface and REST API
+caveats:
+  - The retained release feed contains build-suffixed versions rather than an identifiable stable project release
+  - Self-hosted production deployments require Docker or Kubernetes infrastructure
+  - LLM-as-a-judge evaluation and optimization can depend on the model providers selected by the user
+sources:
+  - https://raw.githubusercontent.com/comet-ml/opik/e6c980fdeb4ead578af82472b0e55599fa1e0dbb/README.md
+  - https://raw.githubusercontent.com/comet-ml/opik/e6c980fdeb4ead578af82472b0e55599fa1e0dbb/LICENSE
+  - https://raw.githubusercontent.com/comet-ml/opik/e6c980fdeb4ead578af82472b0e55599fa1e0dbb/CONTRIBUTING.md
+  - https://raw.githubusercontent.com/comet-ml/opik/e6c980fdeb4ead578af82472b0e55599fa1e0dbb/apps/opik-frontend/package.json
+  - https://github.com/comet-ml/opik/releases.atom

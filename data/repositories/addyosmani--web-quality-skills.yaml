@@ -1,0 +1,74 @@
+analysis:
+  analyzed_at: "2026-07-19T19:20:28.937Z"
+  classification:
+    primary_category: "testing-and-quality"
+    state: "provisional"
+    technologies: []
+    topics:
+      - "ai-agents"
+      - "automation"
+      - "web"
+    use_cases:
+      - "test-software"
+      - "improve-developer-workflow"
+  evidence:
+    - claim: "Web Quality Skills provides stack-agnostic agent skills for auditing and improving web performance, Core Web Vitals, accessibility, SEO, and best practices."
+      source_type: "repository-file"
+      url: "https://github.com/addyosmani/web-quality-skills/blob/main/README.md"
+      checked_at: "2026-07-19"
+      confidence: "high"
+  state: "researched"
+  summary:
+    one_line: "A set of agent skills for auditing and improving web quality."
+    why_useful: "It supplies focused guidance for performance, Core Web Vitals, accessibility, SEO, and web best-practice reviews."
+curation:
+  confidence: null
+  evidence: []
+  limitations: []
+  recommendation: null
+  reviewed_at: null
+  state: "uncurated"
+  strengths: []
+  verdict: null
+id: "github:addyosmani/web-quality-skills"
+import:
+  github_snapshot:
+    archived: false
+    created_at: "2026-01-18T10:53:04Z"
+    default_branch: "main"
+    description: "Agent Skills for optimizing web quality based on Lighthouse and Core Web Vitals."
+    disabled: false
+    fetched_at: "2026-07-19T19:16:14.796Z"
+    fork: false
+    forks: 230
+    homepage: ""
+    latest_release: null
+    license_spdx: "MIT"
+    open_issues: 8
+    primary_language: "Shell"
+    pushed_at: "2026-06-14T09:08:35Z"
+    stars: 2518
+    topics:
+      - "accessibility"
+      - "agent-skills"
+      - "claude-skills"
+      - "core-web-vitals"
+      - "lighthouse"
+      - "skills"
+      - "testing"
+      - "web-performance"
+    updated_at: "2026-07-19T13:08:31Z"
+  sources:
+    - observed_at: "2026-02-02T14:31:37Z"
+      relation: "starred"
+      source_id: "github:user:tomseai:stars"
+      source_url: "https://github.com/tomseai?tab=stars"
+  state: "imported"
+repository:
+  aliases: []
+  github_node_id: "R_kgDOQ8Hq1Q"
+  host: "github.com"
+  name: "web-quality-skills"
+  owner: "addyosmani"
+  url: "https://github.com/addyosmani/web-quality-skills"
+version: 1

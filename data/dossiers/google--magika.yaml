@@ -1,0 +1,90 @@
+schema_version: 2
+repository_id: github:google/magika
+
+research:
+  state: complete
+  source_commit: 7a2299ef064243ac3426c8c1332c9e4d7feed21a
+  bundle_collected_at: 2026-07-19T20:43:16.955Z
+  researched_at: 2026-07-20T15:31:56.440Z
+  confidence: high
+
+classification:
+  primary_category: security-and-privacy
+  topics:
+    - machine-learning
+    - cli
+    - libraries
+    - security
+    - data-processing
+
+project:
+  name: Magika
+  kind: cli
+  summary: >-
+    A deep-learning file-content detector available as a Rust command-line
+    tool and Python, Rust, JavaScript/TypeScript, and work-in-progress Go
+    bindings, designed to classify files even when names or extensions mislead.
+  best_for:
+    - Routing untrusted files to suitable security or content-policy scanners
+    - Adding content-type detection to Python, Rust, JavaScript, or CLI workflows
+
+key_features:
+  - Classifies more than 200 binary and text content types using a compact model
+  - Scans individual files, standard input, batches, or directories recursively
+  - Emits human-readable, MIME-type, label, JSON, JSONL, score, or custom output
+  - Provides per-content-type thresholds and high-confidence, medium-confidence, and best-guess modes
+  - Exposes a Python API and bindings beyond the Rust CLI
+  - Uses a limited subset of file content for near-constant inference time by file size
+
+usage:
+  interfaces:
+    - CLI
+    - Python API
+    - Rust library
+    - JavaScript and TypeScript package
+  installation:
+    - pip or pipx
+    - Homebrew
+    - cargo package
+    - npm package
+  setup: low
+
+technology:
+  languages:
+    - Rust
+    - Python
+    - TypeScript
+    - Go
+  notable_components:
+    - ONNX Runtime
+    - TensorFlow.js
+
+license:
+  spdx: Apache-2.0
+  name: Apache License 2.0
+  notes: >-
+    Permissive license; redistributions must retain the required copyright,
+    license, and NOTICE information described by Apache-2.0.
+
+status:
+  lifecycle: active
+  archived: false
+  latest_release: cli/v1.1.0
+  latest_release_at: 2026-04-24
+
+strengths:
+  - Detects file content rather than trusting a filename or extension
+  - Offers practical CLI output formats alongside language-level integrations
+  - Lets callers trade coverage for confidence through explicit prediction modes
+
+caveats:
+  - Releases are versioned independently by component; the feed also lists Python v1.0.3, so cli/v1.1.0 is scoped to the primary CLI
+  - The JavaScript and TypeScript package is described as experimental and the Go binding as work in progress
+  - The repository disclaims official Google-project status and support or fitness warranties
+
+sources:
+  - https://raw.githubusercontent.com/google/magika/7a2299ef064243ac3426c8c1332c9e4d7feed21a/README.md
+  - https://raw.githubusercontent.com/google/magika/7a2299ef064243ac3426c8c1332c9e4d7feed21a/python/pyproject.toml
+  - https://raw.githubusercontent.com/google/magika/7a2299ef064243ac3426c8c1332c9e4d7feed21a/rust/cli/Cargo.toml
+  - https://raw.githubusercontent.com/google/magika/7a2299ef064243ac3426c8c1332c9e4d7feed21a/LICENSE
+  - https://github.com/google/magika/releases.atom

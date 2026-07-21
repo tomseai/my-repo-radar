@@ -1,0 +1,81 @@
+schema_version: 2
+repository_id: github:nibzard/awesome-agentic-patterns
+research:
+  state: complete
+  source_commit: 50f446aadc72eedfe1f2bdeed5bcdbcce8353860
+  bundle_collected_at: 2026-07-19T20:44:22.634Z
+  researched_at: 2026-07-20T17:52:33.5425583+02:00
+  confidence: high
+classification:
+  primary_category: documentation-and-learning
+  topics:
+    - ai-agents
+    - agent-memory
+    - agent-orchestration
+    - multi-agent
+    - evaluation
+    - security
+    - tool-use
+    - curated-lists
+    - reference
+project:
+  name: Awesome Agentic Patterns
+  kind: curated-list
+  summary: >-
+    A curated, traceable catalogue of reusable patterns for designing and
+    operating autonomous or semi-autonomous AI agents, paired with a
+    searchable documentation website.
+  best_for:
+    - Developers selecting proven patterns for an agent system or workflow
+    - Teams seeking references before designing agent memory, orchestration, evaluation, or safety controls
+key_features:
+  - Organizes referenced patterns across context and memory, feedback loops, learning, orchestration, reliability, security, tool use, and collaboration
+  - Requires contributed patterns to be repeatable, agent-centric, and backed by a public reference
+  - Provides website filtering and search by category, status, complexity, and other pattern attributes
+  - Includes side-by-side pattern comparison, a decision explorer, and a graph of pattern relationships
+  - Publishes pattern packs and developer guides alongside the catalogue
+usage:
+  interfaces:
+    - hosted documentation website
+    - GitHub Markdown catalogue
+  installation:
+    - no installation required to browse the hosted catalogue
+    - clone the repository and use Bun for local website development or builds
+  setup: low
+technology:
+  languages:
+    - TypeScript
+    - Markdown
+  notable_components:
+    - Astro
+    - D3
+    - Pagefind
+    - Bun workspace scripts
+license:
+  spdx: Apache-2.0
+  name: Apache License 2.0
+  notes: >-
+    Permissive license with notice, license-copy, and modified-file notice
+    obligations for redistributed derivatives; it also includes a patent grant
+    and an express trademark limitation.
+status:
+  lifecycle: active
+  archived: false
+  latest_release: null
+  latest_release_at: null
+strengths:
+  - Treats patterns as referenced, reusable practices rather than product-specific promotional links
+  - Covers the full agent-development lifecycle, from context management through operations and collaboration
+  - Offers both a readable repository catalogue and discovery-oriented web tools
+caveats:
+  - It is a reference catalogue, not an agent framework or a ready-to-run implementation
+  - Pattern maturity and suitability vary; readers need to inspect the linked public references and stated trade-offs
+  - The retained release feed contains only archive/pre-redesign-2026-03-11, not a conventional project release, so no latest project release is established
+  - Local development uses the repository's Bun-based scripts; the README does not describe a packaged end-user installation
+sources:
+  - https://raw.githubusercontent.com/nibzard/awesome-agentic-patterns/50f446aadc72eedfe1f2bdeed5bcdbcce8353860/README.md
+  - https://raw.githubusercontent.com/nibzard/awesome-agentic-patterns/50f446aadc72eedfe1f2bdeed5bcdbcce8353860/CONTRIBUTING.md
+  - https://raw.githubusercontent.com/nibzard/awesome-agentic-patterns/50f446aadc72eedfe1f2bdeed5bcdbcce8353860/LICENSE
+  - https://raw.githubusercontent.com/nibzard/awesome-agentic-patterns/50f446aadc72eedfe1f2bdeed5bcdbcce8353860/package.json
+  - https://raw.githubusercontent.com/nibzard/awesome-agentic-patterns/50f446aadc72eedfe1f2bdeed5bcdbcce8353860/apps/web/package.json
+  - https://github.com/nibzard/awesome-agentic-patterns/releases.atom

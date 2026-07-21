@@ -1,0 +1,81 @@
+schema_version: 2
+repository_id: github:anomalyco/openauth
+research:
+  state: complete
+  source_commit: 98dc59625e656eace1d7be165500af8ec351be41
+  bundle_collected_at: 2026-07-19T20:41:40.876Z
+  researched_at: 2026-07-20T15:11:52.415Z
+  confidence: high
+
+classification:
+  primary_category: security-and-privacy
+  topics:
+    - authentication
+    - self-hosted
+    - web
+    - api-development
+
+project:
+  name: OpenAuth
+  kind: library
+  summary: >-
+    A TypeScript library for deploying or embedding a self-hosted, OAuth 2.0
+    authorization provider, with configurable identity providers, storage, and
+    user-subject handling for web, mobile, API, and third-party clients.
+  best_for:
+    - Teams that need a customizable, self-hosted OAuth authorization server
+    - JavaScript applications that need to issue and verify access and refresh tokens
+
+key_features:
+  - Creates an OAuth 2.0 issuer that can be embedded in a Hono application
+  - Supports third-party and built-in identity-provider flows, including password UI
+  - Supplies client helpers for authorization, token exchange, verification, and refresh
+  - Can use custom or built-in themed authentication UI
+  - Supports Node.js, Bun, AWS Lambda, and Cloudflare Workers deployment examples
+
+usage:
+  interfaces:
+    - TypeScript API
+    - OAuth 2.0 HTTP endpoints
+    - themeable web authentication UI
+  installation:
+    - npm package (@openauthjs/openauth)
+    - source examples
+  setup: moderate
+
+technology:
+  languages:
+    - TypeScript
+  notable_components:
+    - Hono
+    - Bun
+    - JOSE
+    - standard-schema
+
+license:
+  spdx: MIT
+  name: MIT License
+  notes: Permissive license requiring preservation of copyright and license notices.
+
+status:
+  lifecycle: experimental
+  archived: false
+  latest_release: '@openauthjs/openauth@0.4.3'
+  latest_release_at: 2025-03-04
+
+strengths:
+  - Centralized authorization can run on infrastructure chosen by the adopter
+  - OAuth-based client interoperability avoids a project-specific client protocol
+  - The README documents both issuer and client integration paths in detail
+
+caveats:
+  - The project README explicitly labels OpenAuth as beta
+  - User lookup and creation remain application responsibilities via a callback
+  - Deployments need configured providers, subject definitions, and token storage
+  - The release feed also contains example-package releases; the selected release is the primary package
+
+sources:
+  - https://raw.githubusercontent.com/anomalyco/openauth/98dc59625e656eace1d7be165500af8ec351be41/README.md
+  - https://raw.githubusercontent.com/anomalyco/openauth/98dc59625e656eace1d7be165500af8ec351be41/packages/openauth/package.json
+  - https://raw.githubusercontent.com/anomalyco/openauth/98dc59625e656eace1d7be165500af8ec351be41/LICENSE
+  - https://github.com/anomalyco/openauth/releases.atom

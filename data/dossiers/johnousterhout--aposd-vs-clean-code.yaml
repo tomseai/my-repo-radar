@@ -1,0 +1,65 @@
+schema_version: 2
+repository_id: github:johnousterhout/aposd-vs-clean-code
+research:
+  state: complete
+  source_commit: 2ce0742228fbf850e15101f83308de2cd72144b2
+  bundle_collected_at: 2026-07-19T20:43:31.451Z
+  researched_at: 2026-07-20T00:00:00+02:00
+  confidence: medium
+classification:
+  primary_category: documentation-and-learning
+  topics:
+    - documentation
+    - developer-productivity
+    - reference
+project:
+  name: A Philosophy of Software Design vs Clean Code
+  kind: documentation
+  summary: >-
+    A Markdown record of discussions between John Ousterhout and Robert C.
+    Martin, held from September 2024 to February 2025, comparing their
+    software-design views on method length, comments, example rewrites, and
+    test-driven development.
+  best_for:
+    - Developers studying competing software-design arguments rather than a single prescriptive guide
+    - Readers who want detailed primary-author discussion of method length, comments, and TDD
+key_features:
+  - Presents each participant's arguments in a direct, attributed dialogue format
+  - Includes dedicated discussions and summaries for method length, comments, and test-driven development
+  - Compares two rewrites of the PrimeGenerator example as concrete design material
+  - Links to a follow-up Book Overflow Podcast discussion and the two referenced books
+usage:
+  interfaces:
+    - GitHub README
+    - Markdown document
+  installation:
+    - Read online or clone the repository; no software installation is required
+  setup: low
+technology:
+  languages:
+    - Markdown
+  notable_components:
+    - Long-form attributed discussion transcript
+license:
+  spdx: null
+  name: No license file or SPDX identifier found in the retained source bundle
+  notes: >-
+    Reuse terms for the discussion are unspecified. Do not assume permission
+    to reproduce or redistribute the text beyond rights that otherwise apply.
+status:
+  lifecycle: unknown
+  archived: false
+  latest_release: null
+  latest_release_at: null
+strengths:
+  - Preserves a direct exchange between the authors rather than summarizing their positions through a third party
+  - Anchors abstract disagreements in named topics and side-by-side PrimeGenerator rewrites
+  - Includes section-level summaries that distinguish agreement from continuing disagreement
+caveats:
+  - This is a discussion document, not empirical research or a validated measurement of the practices debated
+  - The arguments focus on a limited set of Clean Code and APOSD topics, so it is not a comprehensive software-design reference
+  - The retained release feed has no entries, so no project release can be established
+  - No repository license was retained, leaving reuse conditions for the text unclear
+sources:
+  - https://raw.githubusercontent.com/johnousterhout/aposd-vs-clean-code/2ce0742228fbf850e15101f83308de2cd72144b2/README.md
+  - https://github.com/johnousterhout/aposd-vs-clean-code/releases.atom

@@ -1,0 +1,84 @@
+schema_version: 2
+repository_id: github:rohitg00/agentmemory
+research:
+  state: complete
+  source_commit: a8e7d19a814a24a21818afc715f3301b3eaeee80
+  bundle_collected_at: 2026-07-19T20:45:05.503Z
+  researched_at: 2026-07-20T18:01:25.1660519+02:00
+  confidence: high
+classification:
+  primary_category: ai-and-automation
+  topics:
+    - ai-agents
+    - coding-agents
+    - agent-memory
+    - mcp
+    - multi-agent
+    - search
+    - self-hosted
+project:
+  name: agentmemory
+  kind: service
+  summary: >-
+    A persistent memory service for coding agents that captures session activity,
+    stores and consolidates it through a local engine, and returns selected context
+    through hooks, MCP, and a local REST API for future sessions and compatible clients.
+  best_for:
+    - Coding-agent users who want persistent, searchable context across sessions and tools
+    - Teams that need shared and private agent memory with traceable source observations
+key_features:
+  - Captures supported agent lifecycle and tool events, then derives session summaries and structured memory
+  - Searches memory through BM25, optional vector embeddings, and knowledge-graph traversal fused with reciprocal-rank fusion
+  - Provides four memory tiers, decay, contradiction handling, provenance, and Git-versioned memory snapshots
+  - Exposes MCP tools, resources, prompts, skills, a local REST API, and a real-time viewer
+  - Supports agent wiring for Claude Code, Codex CLI, Copilot CLI, Cursor, Gemini CLI, OpenCode, and other MCP or HTTP clients
+  - Includes team sharing, action leases, signals, routines, and peer-to-peer memory synchronization
+usage:
+  interfaces:
+    - CLI service
+    - MCP server
+    - local REST API
+    - coding-agent plugins and hooks
+    - local web viewer
+  installation:
+    - npm global package
+    - npx package execution
+    - Docker Compose deployment
+    - source build
+  setup: moderate
+technology:
+  languages:
+    - TypeScript
+    - JavaScript
+  notable_components:
+    - iii engine
+    - Model Context Protocol
+    - BM25 retrieval
+    - REST API
+    - Docker Compose
+license:
+  spdx: Apache-2.0
+  name: Apache License 2.0
+  notes: >-
+    Apache-2.0 permits use, modification, and distribution subject to notice and
+    license requirements, includes an express patent grant, and excludes trademark rights.
+status:
+  lifecycle: active
+  archived: false
+  latest_release: v0.9.28
+  latest_release_at: 2026-07-19
+strengths:
+  - Combines automatic capture, retrieval, consolidation, and integrations instead of only supplying a memory API
+  - Lets compatible agent clients share one memory service while retaining project, agent, team, and user scoping
+  - Makes several memory operations inspectable through provenance, audit, export, health, and viewer interfaces
+caveats:
+  - The primary package requires Node.js 20 or later and an iii engine or Docker; the bundled Compose stack pins iii version 0.11.2 because newer engine worker behavior is not yet supported
+  - Native Windows setup is documented as manual, and agentmemory connect is currently unsupported there
+  - The MCP shim exposes its full 53-tool surface only when it can reach the running service; otherwise it falls back to a smaller local tool set
+  - Automatic capture can retain prompts and tool activity, so teams should review its privacy filtering, retention, and configured sharing behavior before enabling it
+sources:
+  - https://raw.githubusercontent.com/rohitg00/agentmemory/a8e7d19a814a24a21818afc715f3301b3eaeee80/README.md
+  - https://raw.githubusercontent.com/rohitg00/agentmemory/a8e7d19a814a24a21818afc715f3301b3eaeee80/package.json
+  - https://raw.githubusercontent.com/rohitg00/agentmemory/a8e7d19a814a24a21818afc715f3301b3eaeee80/docker-compose.yml
+  - https://raw.githubusercontent.com/rohitg00/agentmemory/a8e7d19a814a24a21818afc715f3301b3eaeee80/LICENSE
+  - https://github.com/rohitg00/agentmemory/releases.atom

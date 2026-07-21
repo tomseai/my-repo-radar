@@ -1,0 +1,90 @@
+schema_version: 2
+repository_id: github:lobehub/lobehub
+research:
+  state: complete
+  source_commit: 3c42297798da885952fc94647201c3c189ed7ad4
+  bundle_collected_at: 2026-07-19T20:43:52.678Z
+  researched_at: 2026-07-20T15:41:53.3142160Z
+  confidence: medium
+
+classification:
+  primary_category: platforms-and-applications
+  topics:
+    - ai-agents
+    - agent-orchestration
+    - multi-agent
+    - agent-memory
+    - agent-skills
+    - llms
+    - mcp
+    - automation
+    - self-hosted
+    - web-ui
+    - desktop-app
+    - cli
+
+project:
+  name: LobeHub
+  kind: application
+  summary: >-
+    A workspace for building, scheduling, and collaborating with AI agent teams,
+    with shared projects, skills, editable memory, and self-hosting options.
+  best_for:
+    - People coordinating recurring work across several AI agents
+    - Teams that want a shared workspace for agent-assisted projects
+
+key_features:
+  - Agent Builder for creating and configuring agent teammates
+  - Agent Groups for parallel, task-oriented collaboration
+  - Shared pages, projects, workspaces, and scheduled runs
+  - MCP-compatible plugins and a skills library
+  - Structured, editable personal memory
+  - Web, desktop, and command-line components
+
+usage:
+  interfaces:
+    - web UI
+    - desktop app
+    - CLI
+  installation:
+    - self-host with Docker
+    - deploy with supported cloud platforms
+    - build from source
+  setup: moderate
+
+technology:
+  languages:
+    - TypeScript
+  notable_components:
+    - Electron
+    - Model Context Protocol
+    - pnpm workspace
+
+license:
+  spdx: null
+  name: LobeHub Community License
+  notes: >-
+    Based on Apache License 2.0, but distributing a derivative work for
+    commercial use requires a commercial license from the producer.
+
+status:
+  lifecycle: active
+  archived: false
+  latest_release: null
+  latest_release_at: null
+
+strengths:
+  - Combines agent creation, scheduling, collaboration, and memory in one workspace
+  - Supports shared team-oriented work as well as personal agent use
+  - Offers self-hosting alongside web and desktop delivery
+
+caveats:
+  - The license is not a standard permissive open-source license for commercial derivatives
+  - The retained release feed contains Desktop Canary and PR nightly builds, not a stable primary-project release
+  - Model access, skills, and plugin choices can require separate providers or configuration
+
+sources:
+  - https://raw.githubusercontent.com/lobehub/lobehub/3c42297798da885952fc94647201c3c189ed7ad4/README.md
+  - https://raw.githubusercontent.com/lobehub/lobehub/3c42297798da885952fc94647201c3c189ed7ad4/LICENSE
+  - https://raw.githubusercontent.com/lobehub/lobehub/3c42297798da885952fc94647201c3c189ed7ad4/apps/cli/package.json
+  - https://github.com/lobehub/lobehub/releases.atom

@@ -1,0 +1,68 @@
+analysis:
+  analyzed_at: "2026-07-19T19:33:03.516Z"
+  classification:
+    primary_category: "ai-and-automation"
+    state: "provisional"
+    technologies:
+      - "python"
+    topics:
+      - "ai-agents"
+      - "llms"
+      - "automation"
+      - "open-source"
+    use_cases:
+      - "build-ai-products"
+      - "manage-data"
+  evidence:
+    - claim: "OpenManus is an open-source Python framework for building general AI agents, with LLM configuration, a terminal entry point, optional browser automation, MCP tooling, and an optional multi-agent flow that includes data-analysis support."
+      source_type: "repository-file"
+      url: "https://github.com/FoundationAgents/OpenManus/blob/main/README.md"
+      checked_at: "2026-07-19"
+      confidence: "high"
+  state: "researched"
+  summary:
+    one_line: "An open-source Python framework for building general AI agents."
+    why_useful: "It provides a configurable agent runtime with tools for browser work, MCP, multi-agent flows, and data-analysis tasks."
+curation:
+  confidence: null
+  evidence: []
+  limitations: []
+  recommendation: null
+  reviewed_at: null
+  state: "uncurated"
+  strengths: []
+  verdict: null
+id: "github:FoundationAgents/OpenManus"
+import:
+  github_snapshot:
+    archived: false
+    created_at: "2025-03-06T14:08:14Z"
+    default_branch: "main"
+    description: "No fortress, purely open ground.  OpenManus is Coming."
+    disabled: false
+    fetched_at: "2026-07-19T19:16:14.796Z"
+    fork: false
+    forks: 10002
+    homepage: "https://openmanus.github.io/"
+    latest_release: null
+    license_spdx: "MIT"
+    open_issues: 498
+    primary_language: "Python"
+    pushed_at: "2026-02-11T13:48:00Z"
+    stars: 57501
+    topics: []
+    updated_at: "2026-07-19T18:51:46Z"
+  sources:
+    - observed_at: "2025-03-14T17:41:40Z"
+      relation: "starred"
+      source_id: "github:user:tomseai:stars"
+      source_url: "https://github.com/tomseai?tab=stars"
+  state: "imported"
+repository:
+  aliases: []
+  github_node_id: "R_kgDOOENOFw"
+  host: "github.com"
+  name: "OpenManus"
+  owner: "FoundationAgents"
+  url: "https://github.com/FoundationAgents/OpenManus"
+version: 1

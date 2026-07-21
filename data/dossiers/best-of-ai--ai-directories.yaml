@@ -1,0 +1,69 @@
+schema_version: 2
+repository_id: github:best-of-ai/ai-directories
+research:
+  state: complete
+  source_commit: 77aff7ff2d9b6ea57029dd1a7c19c475fbbad239
+  bundle_collected_at: 2026-07-19T20:41:49.675Z
+  researched_at: 2026-07-20T17:12:10.580+02:00
+  confidence: high
+classification:
+  primary_category: documentation-and-learning
+  topics:
+    - curated-lists
+    - reference
+    - web
+project:
+  name: AI Directories
+  kind: curated-list
+  summary: >-
+    A Markdown directory of third-party AI-product directories, intended to
+    help AI product teams find places to discover tools or submit a listing.
+  best_for:
+    - Finding potential directories through which to publish or discover an AI product
+    - Browsing an alphabetically organized reference list rather than a hosted submission service
+key_features:
+  - Alphabetical sections link to third-party AI-tool and AI-agent directories
+  - Many entries include a short description and, where offered by the destination, a submission link
+  - A featured-directory section and links to the maintainers' separate submission service
+  - A contribution guide asks contributors to add missing directories in alphabetical order through pull requests
+usage:
+  interfaces:
+    - Markdown directory
+    - GitHub repository
+  installation:
+    - Browse README.md on GitHub
+    - Follow the outbound directory and submission links
+  setup: low
+technology:
+  languages:
+    - Markdown
+  notable_components:
+    - Alphabetical directory index
+    - Pull-request contribution guide
+    - Outbound submission links
+license:
+  spdx: MIT
+  name: MIT License
+  notes: >-
+    The repository license permits use, copying, modification, distribution,
+    sublicensing, and sale with the copyright and permission notice; it is
+    provided without warranty.
+status:
+  lifecycle: active
+  archived: false
+  latest_release: null
+  latest_release_at: null
+strengths:
+  - Keeps a narrowly focused index of AI-directory destinations in a single, easily browsed document
+  - Provides direct links and concise labels that make initial discovery and submission research quick
+  - Documents a lightweight process for community additions
+caveats:
+  - The repository is a link collection, not an AI directory or submission platform itself
+  - Linked services are independently operated; their pricing, editorial policies, availability, and listing quality are not verified here
+  - The README promotes a separate paid done-for-you submission service and includes sponsor links
+  - The cached releases feed has no entries, so no latest versioned release can be established
+sources:
+  - https://raw.githubusercontent.com/best-of-ai/ai-directories/77aff7ff2d9b6ea57029dd1a7c19c475fbbad239/README.md
+  - https://raw.githubusercontent.com/best-of-ai/ai-directories/77aff7ff2d9b6ea57029dd1a7c19c475fbbad239/LICENSE
+  - https://raw.githubusercontent.com/best-of-ai/ai-directories/77aff7ff2d9b6ea57029dd1a7c19c475fbbad239/CONTRIBUTING.md
+  - https://github.com/best-of-ai/ai-directories/releases.atom

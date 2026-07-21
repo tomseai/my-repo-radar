@@ -1,0 +1,80 @@
+schema_version: 2
+repository_id: github:haydenbleasel/blume
+research:
+  state: complete
+  source_commit: 103733db24bcc5ee1cc41901a8eeb3e63ef0a1d0
+  bundle_collected_at: 2026-07-19T20:43:20.355Z
+  researched_at: 2026-07-20T00:00:00.000Z
+  confidence: high
+classification:
+  primary_category: documentation-and-learning
+  topics:
+    - cli
+    - web
+    - documentation
+    - frontend-development
+    - mcp
+    - agent-skills
+project:
+  name: Blume
+  kind: cli
+  summary: >-
+    A zero-configuration Node.js CLI that turns a folder of Markdown or MDX
+    files into a documentation site with an Astro runtime, static output,
+    navigation, search, theming, and optional AI-oriented features.
+  best_for:
+    - Teams that want a docs site without maintaining an Astro application scaffold
+    - Documentation authors who need Markdown or MDX content, local search, and static-host deployment
+key_features:
+  - Generates and drives a hidden Astro project from Markdown or MDX content, with an eject path for full project control
+  - Provides CLI commands for project initialization, development, builds, previews, checks, validation, diagnostics, content sync, and component installation
+  - Produces static HTML and a local search index, with support for self-hosted search and optional external search providers
+  - Supplies MDX documentation components, type-safe TypeScript configuration, theming, React islands, and source-component overrides
+  - Supports local files plus remote MDX, GitHub Releases, Notion, Sanity, and custom content sources
+  - Includes llms.txt output, Markdown copy and chat actions, an optional Ask AI assistant, agent skills, and a hosted MCP server
+usage:
+  interfaces:
+    - CLI
+    - generated web documentation site
+    - optional MCP server
+  installation:
+    - npx blume init
+    - npm package
+    - build from source with Bun
+  setup: low
+technology:
+  languages:
+    - TypeScript
+    - MDX
+  notable_components:
+    - Astro
+    - Vite
+    - React
+    - Tailwind CSS
+    - Orama
+    - Model Context Protocol SDK
+license:
+  spdx: MIT
+  name: MIT License
+  notes: Permissive license allowing use, modification, distribution, sublicensing, and sale when the copyright and license notice are retained; provided without warranty.
+status:
+  lifecycle: active
+  archived: false
+  latest_release: blume@1.1.1
+  latest_release_at: 2026-07-19
+strengths:
+  - Avoids a starter scaffold while retaining an explicit eject path when site-level control becomes necessary
+  - Covers authoring, local and external search, API references, SEO, and static deployment in one package
+  - Has a commit-pinned package version and a release workflow that tests before Changesets publishing
+caveats:
+  - Requires Node.js 22.12 or newer and at least one Markdown or MDX content file
+  - The default generated project is intentionally hidden under .blume, which can be unfamiliar when debugging or extending the site
+  - Ask AI, hosted MCP, remote sources, and third-party search adapters can require separate providers, accounts, or deployment configuration
+  - The monorepo uses Bun for development and source builds, despite CLI use working through common package managers
+sources:
+  - https://raw.githubusercontent.com/haydenbleasel/blume/103733db24bcc5ee1cc41901a8eeb3e63ef0a1d0/README.md
+  - https://raw.githubusercontent.com/haydenbleasel/blume/103733db24bcc5ee1cc41901a8eeb3e63ef0a1d0/LICENSE
+  - https://raw.githubusercontent.com/haydenbleasel/blume/103733db24bcc5ee1cc41901a8eeb3e63ef0a1d0/package.json
+  - https://raw.githubusercontent.com/haydenbleasel/blume/103733db24bcc5ee1cc41901a8eeb3e63ef0a1d0/packages/blume/package.json
+  - https://raw.githubusercontent.com/haydenbleasel/blume/103733db24bcc5ee1cc41901a8eeb3e63ef0a1d0/.github/workflows/release.yml
+  - https://github.com/haydenbleasel/blume/releases.atom

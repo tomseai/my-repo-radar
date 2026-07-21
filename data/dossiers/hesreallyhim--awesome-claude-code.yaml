@@ -1,0 +1,78 @@
+schema_version: 2
+repository_id: github:hesreallyhim/awesome-claude-code
+research:
+  state: complete
+  source_commit: 7e73d2de58e0fe5322aa22dd2eee2187f1de15ac
+  bundle_collected_at: 2026-07-19T20:43:22.905Z
+  researched_at: 2026-07-20T00:00:00.000Z
+  confidence: high
+classification:
+  primary_category: documentation-and-learning
+  topics:
+    - ai-agents
+    - llms
+    - coding-agents
+    - curated-lists
+    - agent-skills
+    - agent-orchestration
+    - security
+    - developer-productivity
+project:
+  name: Awesome Claude Code
+  kind: curated-list
+  summary: >-
+    A maintained Markdown directory of Claude Code learning resources,
+    extensions, and adjacent tools, with editorial descriptions grouped by
+    workflow areas such as skills, security, orchestration, and observability.
+  best_for:
+    - Claude Code users comparing learning material, skills, plugins, and supporting tools
+    - Developers seeking categorized discovery of agent workflow, security, and monitoring resources
+key_features:
+  - Curates a start-here section and an official-resource section alongside third-party projects
+  - Categorizes entries across documentation, research, providers, remote control, clients, status lines, design, writing, media, DevOps, and security
+  - Includes dedicated sections for multi-agent orchestration, skills, memory and context persistence, observability, and linting
+  - Provides editorial descriptions for listed resources instead of only titles and links
+  - Preserves resources from the previous list iteration in README_ALTERNATIVES while the current list is rebuilt
+  - Uses repository automation for resource-submission commands, README regeneration, repo-ticker updates, and issue validation
+usage:
+  interfaces:
+    - GitHub Markdown directory
+    - linked third-party repositories and documentation
+  installation:
+    - no installation; browse the list and follow each selected resource's instructions
+    - clone the repository and install Python requirements only to use its list-maintenance tooling
+  setup: low
+technology:
+  languages:
+    - Python
+    - Markdown
+  notable_components:
+    - PyYAML
+    - requests
+    - GitHub Actions maintenance workflows
+license:
+  spdx: CC-BY-NC-ND-4.0
+  name: Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International
+  notes: Attribution is required; commercial use and distribution of adapted material are not permitted. The maintainer invites contact for permission to use a modified form of the list.
+status:
+  lifecycle: active
+  archived: false
+  latest_release: null
+  latest_release_at: null
+strengths:
+  - Broad category coverage makes the list useful for discovering both direct Claude Code extensions and supporting workflow tools
+  - Editorial descriptions surface intended use and notable characteristics without requiring a reader to open every linked project first
+  - The list separates official Anthropic material from community resources and includes focused security and observability sections
+caveats:
+  - It is a directory, not a vetted distribution; installation, compatibility, support, and licensing of each linked resource are determined upstream
+  - The README says the current selection intentionally omits some previously listed projects while they are migrated, with preserved but unmaintained alternatives
+  - Third-party resource security incidents must be handled through each resource's own policy; the repository cannot investigate or enforce them
+  - CC BY-NC-ND 4.0 prohibits commercial use and modified redistribution without separate permission
+  - The newest retained release-feed entry, multi-list-backup, is a backup tag rather than a versioned release of the primary directory, so no latest project release is stated
+sources:
+  - https://raw.githubusercontent.com/hesreallyhim/awesome-claude-code/7e73d2de58e0fe5322aa22dd2eee2187f1de15ac/README.md
+  - https://raw.githubusercontent.com/hesreallyhim/awesome-claude-code/7e73d2de58e0fe5322aa22dd2eee2187f1de15ac/LICENSE
+  - https://raw.githubusercontent.com/hesreallyhim/awesome-claude-code/7e73d2de58e0fe5322aa22dd2eee2187f1de15ac/SECURITY.md
+  - https://raw.githubusercontent.com/hesreallyhim/awesome-claude-code/7e73d2de58e0fe5322aa22dd2eee2187f1de15ac/CONTRIBUTING.md
+  - https://raw.githubusercontent.com/hesreallyhim/awesome-claude-code/7e73d2de58e0fe5322aa22dd2eee2187f1de15ac/requirements.txt
+  - https://github.com/hesreallyhim/awesome-claude-code/releases.atom

@@ -1,0 +1,87 @@
+schema_version: 2
+repository_id: github:Portkey-AI/gateway
+research:
+  state: complete
+  source_commit: 669825cbe89ee51569918b8f78a9db486fd69dd4
+  bundle_collected_at: 2026-07-19T20:44:59.035Z
+  researched_at: 2026-07-20T16:02:06.116Z
+  confidence: high
+
+classification:
+  primary_category: ai-and-automation
+  topics:
+    - llms
+    - llm-gateways
+    - model-routing
+    - observability
+    - policy-enforcement
+    - self-hosted
+    - mcp
+
+project:
+  name: Portkey AI Gateway
+  kind: service
+  summary: >-
+    An MIT-licensed AI gateway that presents one API for routing language and
+    multimodal-model requests, with configurable reliability, security, and
+    operational controls for applications that use multiple providers.
+  best_for:
+    - Teams centralizing model-provider routing and reliability policies
+    - AI applications that need a self-hosted gateway and local request logs
+
+key_features:
+  - Routes requests across language, vision, audio, and image model providers
+  - Configurable retries, fallbacks, load balancing, timeouts, and routing rules
+  - Input and output guardrails plus secure key-management options
+  - OpenAI-compatible request flow with a local console for logs
+  - MCP gateway controls for server authentication, access, and tool-call observability
+
+usage:
+  interfaces:
+    - HTTP API
+    - local web console
+    - CLI
+  installation:
+    - npm or npx package
+    - Docker image or Docker Compose
+    - build from source
+    - Cloudflare Workers deployment
+  setup: moderate
+
+technology:
+  languages:
+    - TypeScript
+  notable_components:
+    - Node.js
+    - Hono
+    - Cloudflare Workers
+    - Docker
+
+license:
+  spdx: MIT
+  name: MIT License
+  notes: >-
+    Permissive reuse is allowed when the copyright and permission notice are
+    retained; the software is provided without warranty.
+
+status:
+  lifecycle: active
+  archived: false
+  latest_release: v1.15.2
+  latest_release_at: 2026-01-12
+
+strengths:
+  - A single gateway can apply routing, resiliency, guardrails, and logging consistently
+  - Supports local, containerized, and worker-based deployment paths
+  - Includes an MCP-focused control plane alongside the model gateway
+
+caveats:
+  - Some documented observability, prompt-management, and enterprise controls are hosted or enterprise-only
+  - Provider credentials and any exposed gateway deployment need appropriate access controls
+  - The README identifies Gateway 2.0 as a pre-release, so its scope should not be assumed for v1.15.2
+
+sources:
+  - https://raw.githubusercontent.com/Portkey-AI/gateway/669825cbe89ee51569918b8f78a9db486fd69dd4/README.md
+  - https://raw.githubusercontent.com/Portkey-AI/gateway/669825cbe89ee51569918b8f78a9db486fd69dd4/LICENSE
+  - https://raw.githubusercontent.com/Portkey-AI/gateway/669825cbe89ee51569918b8f78a9db486fd69dd4/docs/installation-deployments.md
+  - https://github.com/Portkey-AI/gateway/releases.atom

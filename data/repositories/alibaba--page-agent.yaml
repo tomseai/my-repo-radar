@@ -1,0 +1,77 @@
+analysis:
+  analyzed_at: "2026-07-19T19:18:32.604Z"
+  classification:
+    primary_category: "ai-and-automation"
+    state: "confirmed"
+    technologies:
+      - "typescript"
+      - "javascript"
+    topics:
+      - "ai-agents"
+      - "llms"
+      - "automation"
+      - "web"
+    use_cases:
+      - "build-ai-products"
+      - "build-web-applications"
+  evidence:
+    - claim: "Page Agent is an in-page JavaScript GUI agent that uses text-based DOM manipulation and a configured LLM to operate web interfaces from natural-language instructions."
+      source_type: "repository-file"
+      url: "https://github.com/alibaba/page-agent/blob/main/README.md"
+      checked_at: "2026-07-19"
+      confidence: "high"
+  state: "complete"
+  summary:
+    one_line: "An embeddable in-page agent for controlling web interfaces with natural language."
+    why_useful: "It lets web applications add DOM-based AI assistance without a browser extension, headless browser, or backend rewrite."
+curation:
+  confidence: null
+  evidence: []
+  limitations: []
+  recommendation: null
+  reviewed_at: null
+  state: "uncurated"
+  strengths: []
+  verdict: null
+id: "github:alibaba/page-agent"
+import:
+  github_snapshot:
+    archived: false
+    created_at: "2025-09-23T09:30:17Z"
+    default_branch: "main"
+    description: "JavaScript in-page GUI agent. Control web interfaces with natural language."
+    disabled: false
+    fetched_at: "2026-07-19T19:16:14.796Z"
+    fork: false
+    forks: 2378
+    homepage: "https://alibaba.github.io/page-agent/"
+    latest_release: null
+    license_spdx: "MIT"
+    open_issues: 48
+    primary_language: "TypeScript"
+    pushed_at: "2026-07-17T13:11:53Z"
+    stars: 27146
+    topics:
+      - "agent"
+      - "ai"
+      - "ai-agents"
+      - "browser-automation"
+      - "javascript"
+      - "mcp"
+      - "typescript"
+      - "web"
+    updated_at: "2026-07-19T19:08:29Z"
+  sources:
+    - observed_at: "2026-07-19T16:01:30Z"
+      relation: "starred"
+      source_id: "github:user:tomseai:stars"
+      source_url: "https://github.com/tomseai?tab=stars"
+  state: "imported"
+repository:
+  aliases: []
+  github_node_id: "R_kgDOP1PUAQ"
+  host: "github.com"
+  name: "page-agent"
+  owner: "alibaba"
+  url: "https://github.com/alibaba/page-agent"
+version: 1

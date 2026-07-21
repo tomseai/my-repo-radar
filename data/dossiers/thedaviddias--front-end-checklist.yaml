@@ -1,0 +1,87 @@
+schema_version: 2
+repository_id: github:thedaviddias/Front-End-Checklist
+research:
+  state: complete
+  source_commit: 48405aaf57886e621f5fe0957d66e38669cba3cc
+  bundle_collected_at: 2026-07-19T20:45:35.877Z
+  researched_at: 2026-07-20T16:11:13.003Z
+  confidence: medium
+
+classification:
+  primary_category: testing-and-quality
+  topics:
+    - web
+    - frontend-development
+    - accessibility
+    - security
+    - testing
+    - performance
+    - mcp
+    - ai-agents
+    - documentation
+
+project:
+  name: Front-End Checklist
+  kind: monorepo
+  summary: >-
+    A front-end quality system containing 385 prioritized rules across eleven
+    categories, delivered as a browsable website, a README checklist, reusable
+    skills, and hosted or local MCP tooling for review and audit workflows.
+  best_for:
+    - Teams reviewing web applications for accessibility, performance, security, and SEO concerns
+    - MCP-capable agents that need a structured front-end rule corpus and remediation guidance
+
+key_features:
+  - 385 English rules organized into eleven active front-end quality categories
+  - Priority labels for critical, high, medium, and low-impact findings
+  - Hosted MCP server with tools to review code, audit public URLs, search rules, and retrieve workflows
+  - Local stdio MCP server for editor and agent integrations
+  - Rule pages with explanations, remediation guidance, verification steps, and AI prompts
+  - Reusable global and focused skills for supported agent tools
+
+usage:
+  interfaces:
+    - web site
+    - Markdown checklist
+    - hosted MCP server
+    - local stdio MCP server
+  installation:
+    - hosted website or MCP endpoint
+    - skills installer
+    - pnpm workspace for local development
+  setup: low
+
+technology:
+  languages:
+    - TypeScript
+    - MDX
+  notable_components:
+    - Model Context Protocol
+    - Turbo
+    - pnpm workspaces
+
+license:
+  spdx: MIT
+  name: MIT License
+  notes: The pinned README links to an MIT license; the linked license text was not retained in this research bundle.
+
+status:
+  lifecycle: active
+  archived: false
+  latest_release: v2.0
+  latest_release_at: 2026-05-30
+
+strengths:
+  - Makes a broad set of front-end quality concerns discoverable through one rule corpus
+  - Offers equivalent human-facing and agent-facing paths instead of requiring a particular editor or framework
+
+caveats:
+  - The rules provide review guidance, not an automatic guarantee that an implementation is compliant or correct
+  - The retained bundle omits the linked MIT license file and GitHub metadata did not identify its SPDX value
+  - Running the workspace locally requires pnpm and the documented Node.js version range
+
+sources:
+  - https://raw.githubusercontent.com/thedaviddias/Front-End-Checklist/48405aaf57886e621f5fe0957d66e38669cba3cc/README.md
+  - https://raw.githubusercontent.com/thedaviddias/Front-End-Checklist/48405aaf57886e621f5fe0957d66e38669cba3cc/package.json
+  - https://raw.githubusercontent.com/thedaviddias/Front-End-Checklist/48405aaf57886e621f5fe0957d66e38669cba3cc/packages/mcp/package.json
+  - https://github.com/thedaviddias/Front-End-Checklist/releases.atom

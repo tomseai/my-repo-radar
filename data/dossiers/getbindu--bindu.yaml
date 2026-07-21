@@ -1,0 +1,90 @@
+schema_version: 2
+repository_id: github:GetBindu/Bindu
+research:
+  state: complete
+  source_commit: 7b1ff75ac93f3b3eb94b975f727bdee9436cc7ce
+  bundle_collected_at: 2026-07-19T20:43:06.081Z
+  researched_at: 2026-07-20T17:34:00+02:00
+  confidence: high
+classification:
+  primary_category: ai-and-automation
+  topics:
+    - ai-agents
+    - agent-protocols
+    - agent-orchestration
+    - authentication
+    - payments
+    - security
+    - deployment
+    - observability
+    - api-development
+    - libraries
+project:
+  name: Bindu
+  kind: framework
+  summary: >-
+    A framework and multi-language SDK set for exposing AI agents through A2A
+    messaging with DID identity, mTLS and OAuth2 authorization, x402 payments,
+    deployment, and operational components.
+  best_for:
+    - Teams building authenticated and monetized agent-to-agent services
+    - Developers who need Python, TypeScript, or Kotlin access to a shared gRPC core
+key_features:
+  - A2A JSON-RPC endpoints for sending messages, retrieving tasks, and streaming task updates
+  - DID signing, mTLS transport, and OAuth2 authorization through Hydra
+  - x402 USDC payment middleware with configured EVM networks
+  - Python, TypeScript, and Kotlin SDKs sharing a gRPC core
+  - Postgres task and message storage plus Redis-backed retries, timeouts, and recurring tasks
+  - Gateway orchestration, OpenTelemetry tracing, Sentry errors, and a health endpoint
+usage:
+  interfaces:
+    - Python package and CLI
+    - TypeScript SDK
+    - Kotlin SDK
+    - A2A JSON-RPC API
+    - gRPC API
+  installation:
+    - uv add bindu
+    - Clone the repository and run uv sync --dev
+    - Install a language-specific SDK
+  setup: high
+technology:
+  languages:
+    - Python
+    - TypeScript
+    - Kotlin
+  notable_components:
+    - gRPC
+    - PostgreSQL
+    - Redis
+    - OpenTelemetry
+    - Ory Hydra
+license:
+  spdx: Apache-2.0
+  name: Apache License 2.0
+  notes: >-
+    Permissive copyright and patent grants apply, subject to preserving required
+    notices when redistributing; the work is provided without warranties.
+status:
+  lifecycle: active
+  archived: false
+  latest_release: 2026.22.4
+  latest_release_at: 2026-05-28
+
+strengths:
+  - Combines communication, identity, authorization, payment, and operations concerns in one documented stack
+  - Supports multiple implementation languages without changing the underlying identity or protocol model
+  - Provides detailed deployment, security, authentication, gRPC, and runtime documentation
+
+caveats:
+  - Basic use requires Python 3.12+ and uv; examples also require an API key for a supported LLM provider
+  - Production deployment can require security and infrastructure services such as step-ca, Hydra, PostgreSQL, Redis, and payment infrastructure
+  - Default-on mTLS is documented specifically for the inbox personal agent, not as a universal deployment guarantee
+  - The latest retained release documents payment-settlement edge cases that require manual reconciliation and do not have automatic refunds
+
+sources:
+  - https://raw.githubusercontent.com/GetBindu/Bindu/7b1ff75ac93f3b3eb94b975f727bdee9436cc7ce/README.md
+  - https://raw.githubusercontent.com/GetBindu/Bindu/7b1ff75ac93f3b3eb94b975f727bdee9436cc7ce/LICENSE.md
+  - https://raw.githubusercontent.com/GetBindu/Bindu/7b1ff75ac93f3b3eb94b975f727bdee9436cc7ce/pyproject.toml
+  - https://raw.githubusercontent.com/GetBindu/Bindu/7b1ff75ac93f3b3eb94b975f727bdee9436cc7ce/docs/SECURITY_STACK.md
+  - https://github.com/GetBindu/Bindu/releases.atom

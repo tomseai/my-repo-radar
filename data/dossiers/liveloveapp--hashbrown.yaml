@@ -1,0 +1,77 @@
+schema_version: 2
+repository_id: github:liveloveapp/hashbrown
+research:
+  state: complete
+  source_commit: 287997980f09d4516ad0014eb08f973a9cf05363
+  bundle_collected_at: 2026-07-19T20:43:52.140Z
+  researched_at: 2026-07-20T15:41:35.736Z
+  confidence: high
+classification:
+  primary_category: ai-and-automation
+  topics:
+    - ai-agents
+    - agent-frameworks
+    - llms
+    - code-generation
+    - generative-ui
+    - multi-provider
+    - frontend-development
+    - ui-components
+project:
+  name: hashbrown
+  kind: framework
+  summary: >-
+    A TypeScript framework of core, React, Angular, and provider packages for
+    adding streaming LLM features, structured results, tool calls, generated
+    UI, and code execution to web applications.
+  best_for:
+    - React or Angular teams building interactive, LLM-powered web interfaces
+    - Applications that need consistent provider wrappers between a Node backend and UI state
+key_features:
+  - Core state primitives with framework bindings for React and Angular
+  - Provider packages for OpenAI, Azure OpenAI, Anthropic, Bedrock, Ollama, Google, and Writer
+  - HTTP streaming between Node backend wrappers and UI hooks or resources
+  - Input and structured completions, component selection, and rendering
+  - Tool calling plus code generation and execution support
+  - Sample Angular and React applications for smart-home and finance workflows
+usage:
+  interfaces:
+    - React components
+    - Angular components
+    - Node backend SDK wrappers
+  installation:
+    - npm packages
+    - build from source
+  setup: moderate
+technology:
+  languages:
+    - TypeScript
+  notable_components:
+    - React
+    - Angular
+    - Node.js
+    - Nx
+license:
+  spdx: MIT
+  name: MIT License
+  notes: >-
+    Build artifacts can embed third-party MIT-licensed code; redistributed
+    artifacts containing those chunks must retain the included notices.
+status:
+  lifecycle: active
+  archived: false
+  latest_release: v0.5.0
+  latest_release_at: 2026-07-13
+strengths:
+  - Separates reusable UI bindings, state primitives, and provider-specific backend wrappers
+  - Supports both React and Angular with a consistent package model
+  - Includes streaming and structured-response building blocks for interactive UI features
+caveats:
+  - A typical deployment needs a compatible Node backend endpoint in addition to frontend packages
+  - API credentials and provider-specific SDK configuration remain the application's responsibility
+  - Older or smaller provider models may not support the framework's full feature set
+sources:
+  - https://raw.githubusercontent.com/liveloveapp/hashbrown/287997980f09d4516ad0014eb08f973a9cf05363/README.md
+  - https://raw.githubusercontent.com/liveloveapp/hashbrown/287997980f09d4516ad0014eb08f973a9cf05363/LICENSE
+  - https://raw.githubusercontent.com/liveloveapp/hashbrown/287997980f09d4516ad0014eb08f973a9cf05363/package.json
+  - https://github.com/liveloveapp/hashbrown/releases.atom

@@ -1,0 +1,83 @@
+schema_version: 2
+repository_id: github:github/copilot-cli-for-beginners
+research:
+  state: complete
+  source_commit: e17a4d293a5f0028abcf597cac2f6d473dd3d9a8
+  bundle_collected_at: 2026-07-19T20:43:11.228Z
+  researched_at: 2026-07-20T15:31:57.747Z
+  confidence: high
+classification:
+  primary_category: documentation-and-learning
+  topics:
+    - ai-agents
+    - coding-agents
+    - cli
+    - terminal
+    - code-generation
+    - code-review
+    - testing
+    - debugging
+    - automation
+    - agent-skills
+    - mcp
+    - tutorials
+    - developer-productivity
+project:
+  name: GitHub Copilot CLI for Beginners
+  kind: course
+  summary: >-
+    A hands-on beginner course for GitHub Copilot CLI that uses a Python book
+    collection application to teach terminal-based AI assistance, code review,
+    test generation, debugging, custom agents, skills, and MCP servers.
+  best_for:
+    - Developers and students who are new to AI-assisted terminal workflows
+    - Teams standardizing GitHub Copilot CLI development and review practices
+key_features:
+  - Eight progressive chapters from installation through complete feature workflows
+  - Runnable terminal examples and assignments in every chapter
+  - A single Python book collection application used throughout the learning path
+  - Lessons for code review, debugging, and test generation
+  - Chapters for specialized agents, automatically loaded skills, and MCP servers
+  - GitHub Codespaces launch option and a web-based Learning Hub version
+usage:
+  interfaces:
+    - GitHub Markdown course
+    - documentation website
+    - terminal exercises
+  installation:
+    - GitHub Codespaces
+    - clone or fork the repository
+    - web-based Learning Hub
+  setup: moderate
+technology:
+  languages:
+    - Python
+    - JavaScript
+    - C#
+  notable_components:
+    - GitHub Copilot CLI
+    - Model Context Protocol
+    - GitHub Codespaces
+license:
+  spdx: MIT
+  name: MIT License
+  notes: Requires preservation of the copyright and permission notice; provided without warranty.
+status:
+  lifecycle: active
+  archived: false
+  latest_release: null
+  latest_release_at: null
+strengths:
+  - Provides a clear progressive path from installation to integrated workflows
+  - Pairs concepts with runnable terminal examples and assignments
+  - Covers practical custom-agent, skill, and MCP extensions beyond basic prompting
+caveats:
+  - Requires a GitHub account, Copilot access, and familiarity with basic terminal commands
+  - The repository's sample code is designed for specific instructional output, and changes to that code are not accepted
+  - It teaches GitHub Copilot CLI rather than providing a standalone local AI agent
+  - The retained release feed has no published release entries
+sources:
+  - https://raw.githubusercontent.com/github/copilot-cli-for-beginners/e17a4d293a5f0028abcf597cac2f6d473dd3d9a8/README.md
+  - https://raw.githubusercontent.com/github/copilot-cli-for-beginners/e17a4d293a5f0028abcf597cac2f6d473dd3d9a8/LICENSE
+  - https://raw.githubusercontent.com/github/copilot-cli-for-beginners/e17a4d293a5f0028abcf597cac2f6d473dd3d9a8/samples/agents/README.md
+  - https://github.com/github/copilot-cli-for-beginners/releases.atom

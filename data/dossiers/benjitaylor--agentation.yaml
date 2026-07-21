@@ -1,0 +1,73 @@
+schema_version: 2
+repository_id: github:benjitaylor/agentation
+research:
+  state: complete
+  source_commit: 8158a97c10c37e577b0a6e2d3175d143918216cd
+  bundle_collected_at: 2026-07-19T20:41:50.107Z
+  researched_at: 2026-07-19T22:43:25.155Z
+  confidence: high
+classification:
+  primary_category: developer-tools
+  topics:
+    - coding-agents
+    - frontend-development
+    - mcp
+    - web-ui
+project:
+  name: Agentation
+  kind: library
+  summary: >-
+    A React visual-feedback library that lets users annotate page elements and
+    copy structured selectors, positions, and context for AI coding agents.
+  best_for:
+    - React teams giving precise visual feedback to an AI coding agent
+    - Turning UI review notes into references that can be located in source code
+key_features:
+  - Click-to-annotate elements with automatic selector identification
+  - Text, multi-element, and arbitrary-area annotations
+  - Animation pausing to capture a specific interface state
+  - Markdown output containing selectors, positions, and context
+  - Dark and light toolbar themes
+  - Separate MCP server package for Agentation visual-feedback workflows
+usage:
+  interfaces:
+    - React component
+    - MCP server
+    - CLI
+  installation:
+    - npm development dependency
+    - build from source with pnpm
+  setup: low
+technology:
+  languages:
+    - TypeScript
+  notable_components:
+    - React
+    - Model Context Protocol
+    - SQLite
+license:
+  spdx: null
+  name: PolyForm Shield License 1.0.0
+  notes: >-
+    Use, modification, and distribution are permitted, but use in a competing
+    product or service is prohibited and redistributions must retain the license.
+status:
+  lifecycle: unknown
+  archived: false
+  latest_release: null
+  latest_release_at: null
+strengths:
+  - Gives coding agents concrete selectors and page context instead of ambiguous prose
+  - Supports element, text, multi-element, and area-level feedback
+  - Keeps the shipped React component free of runtime dependencies
+caveats:
+  - The library is React-only and requires React 18 or later
+  - The README states that mobile browsers are not supported
+  - The PolyForm Shield license prohibits competing uses and is not a permissive open-source license
+  - The cached GitHub release feed has no entries, so no project release can be established
+sources:
+  - https://raw.githubusercontent.com/benjitaylor/agentation/8158a97c10c37e577b0a6e2d3175d143918216cd/README.md
+  - https://raw.githubusercontent.com/benjitaylor/agentation/8158a97c10c37e577b0a6e2d3175d143918216cd/LICENSE
+  - https://raw.githubusercontent.com/benjitaylor/agentation/8158a97c10c37e577b0a6e2d3175d143918216cd/package/package.json
+  - https://raw.githubusercontent.com/benjitaylor/agentation/8158a97c10c37e577b0a6e2d3175d143918216cd/mcp/package.json
+  - https://github.com/benjitaylor/agentation/releases.atom

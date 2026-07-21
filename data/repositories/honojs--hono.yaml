@@ -1,0 +1,76 @@
+analysis:
+  analyzed_at: "2026-07-19T19:34:18.967Z"
+  classification:
+    primary_category: "application-frameworks"
+    state: "provisional"
+    technologies:
+      - "typescript"
+      - "javascript"
+      - "nodejs"
+    topics:
+      - "web"
+    use_cases:
+      - "build-web-applications"
+      - "build-backend-services"
+  evidence:
+    - claim: "Hono is a TypeScript web framework built on Web Standards that runs across JavaScript runtimes including Cloudflare Workers, Deno, Bun, AWS Lambda, and Node.js."
+      source_type: "repository-file"
+      url: "https://github.com/honojs/hono/blob/main/README.md"
+      checked_at: "2026-07-19"
+      confidence: "high"
+  state: "researched"
+  summary:
+    one_line: "TypeScript web framework designed for multiple JavaScript runtimes."
+    why_useful: "It provides routing and middleware for web applications and backend services across edge and server runtimes."
+curation:
+  confidence: null
+  evidence: []
+  limitations: []
+  recommendation: null
+  reviewed_at: null
+  state: "uncurated"
+  strengths: []
+  verdict: null
+id: "github:honojs/hono"
+import:
+  github_snapshot:
+    archived: false
+    created_at: "2021-12-14T20:05:30Z"
+    default_branch: "main"
+    description: "Web framework built on Web Standards"
+    disabled: false
+    fetched_at: "2026-07-19T19:16:14.796Z"
+    fork: false
+    forks: 1176
+    homepage: "https://hono.dev"
+    latest_release: null
+    license_spdx: "MIT"
+    open_issues: 369
+    primary_language: "TypeScript"
+    pushed_at: "2026-07-18T23:15:03Z"
+    stars: 31399
+    topics:
+      - "aws-lambda"
+      - "bun"
+      - "cloudflare"
+      - "cloudflare-workers"
+      - "deno"
+      - "npm"
+      - "router"
+      - "typescript"
+      - "web-framework"
+    updated_at: "2026-07-19T18:58:52Z"
+  sources:
+    - observed_at: "2025-02-08T11:19:00Z"
+      relation: "starred"
+      source_id: "github:user:tomseai:stars"
+      source_url: "https://github.com/tomseai?tab=stars"
+  state: "imported"
+repository:
+  aliases: []
+  github_node_id: "R_kgDOGiE5WA"
+  host: "github.com"
+  name: "hono"
+  owner: "honojs"
+  url: "https://github.com/honojs/hono"
+version: 1

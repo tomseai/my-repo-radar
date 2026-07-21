@@ -1,0 +1,72 @@
+schema_version: 2
+repository_id: github:liaohch3/claude-tap
+research:
+  state: complete
+  source_commit: 39f96f0dfc99ba6e639202cc99fd8bc67626e1df
+  bundle_collected_at: 2026-07-19T20:43:51.559Z
+  researched_at: 2026-07-20T15:41:35.736Z
+  confidence: high
+classification:
+  primary_category: developer-tools
+  topics:
+    - ai-agents
+    - coding-agents
+    - llms
+    - observability
+    - cli
+    - tracing
+    - developer-productivity
+project:
+  name: claude-tap
+  kind: cli
+  summary: >-
+    A local proxy and trace viewer for inspecting coding-agent API traffic,
+    including agent context, tool calls, streaming responses, token use, and
+    request differences.
+  best_for:
+    - Developers debugging the prompts, tools, and context sent by coding agents
+    - Reviewing or exporting local traces from supported agent CLIs and the Codex App
+key_features:
+  - Reverse and forward proxy modes for supported coding-agent clients
+  - Local capture of prompts, messages, tool schemas, tool calls, and token usage
+  - Self-contained HTML trace viewer with search, filtering, and structured request diffs
+  - Live browser viewer that receives trace updates through server-sent events
+  - Portable compact-trace export and later HTML rendering
+  - Support for Claude Code, Codex CLI and App, Gemini CLI, OpenCode, Pi, and other listed clients
+usage:
+  interfaces:
+    - CLI
+    - local browser viewer
+  installation:
+    - uv tool
+    - Python package
+  setup: low
+technology:
+  languages:
+    - Python
+  notable_components:
+    - aiohttp
+    - HTTP and WebSocket proxying
+    - server-sent events
+license:
+  spdx: MIT
+  name: MIT License
+  notes: Permissive license; the copyright and license notice must be retained.
+status:
+  lifecycle: active
+  archived: false
+  latest_release: v0.1.136
+  latest_release_at: 2026-07-19
+strengths:
+  - Gives direct visibility into the data and context underlying agent behavior
+  - Keeps traces and the viewer local rather than requiring a hosted dashboard
+  - Supports a wide range of coding-agent clients through one workflow
+caveats:
+  - Captured traces can contain sensitive prompts, messages, tools, and results
+  - The tool redacts common authentication headers, but users should review trace handling before sharing exports
+  - Raw SSE and WebSocket event arrays are not retained unless explicitly enabled
+sources:
+  - https://raw.githubusercontent.com/liaohch3/claude-tap/39f96f0dfc99ba6e639202cc99fd8bc67626e1df/README.md
+  - https://raw.githubusercontent.com/liaohch3/claude-tap/39f96f0dfc99ba6e639202cc99fd8bc67626e1df/LICENSE
+  - https://raw.githubusercontent.com/liaohch3/claude-tap/39f96f0dfc99ba6e639202cc99fd8bc67626e1df/pyproject.toml
+  - https://github.com/liaohch3/claude-tap/releases.atom

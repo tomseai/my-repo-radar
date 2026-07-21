@@ -1,0 +1,87 @@
+schema_version: 2
+repository_id: github:run-llama/liteparse
+research:
+  state: complete
+  source_commit: cc0fa5a22afd54f191cdb00f9e850d1e51420bca
+  bundle_collected_at: 2026-07-19T20:45:09.805Z
+  researched_at: 2026-07-20T18:02:08+02:00
+  confidence: high
+
+classification:
+  primary_category: data-and-databases
+  topics:
+    - cli
+    - document-processing
+    - local-first
+    - open-source
+
+project:
+  name: LiteParse
+  kind: library
+  summary: >-
+    A local PDF and document parsing library and CLI that performs spatial text
+    extraction, optional OCR, screenshots, and Markdown, JSON, or text output.
+  best_for:
+    - Developers building local document-ingestion or extraction pipelines
+    - Applications needing Rust, Python, Node.js, or browser parsing interfaces
+
+key_features:
+  - Spatial text extraction with bounding boxes through PDFium
+  - Built-in Tesseract OCR plus a documented HTTP OCR-server interface
+  - Markdown, JSON, text, and page-screenshot outputs
+  - Complexity checks to identify pages that may need OCR or heavier processing
+  - Rust, Node.js/TypeScript, Python, and WASM bindings with a shared CLI
+
+usage:
+  interfaces:
+    - CLI
+    - Rust library
+    - Node.js/TypeScript package
+    - Python package
+    - browser WASM package
+  installation:
+    - Cargo
+    - npm
+    - pip
+  setup: low
+
+technology:
+  languages:
+    - Rust
+    - TypeScript
+    - Python
+  notable_components:
+    - PDFium
+    - Tesseract
+    - N-API
+    - PyO3
+    - WebAssembly
+
+license:
+  spdx: Apache-2.0
+  name: Apache License 2.0
+  notes: >-
+    The retained license is Apache-2.0; it includes notice and license-text
+    obligations and warranty and liability disclaimers.
+
+status:
+  lifecycle: active
+  archived: false
+  latest_release: Crates & CLI v2.6.0
+  latest_release_at: 2026-07-15
+
+strengths:
+  - Local processing avoids requiring a cloud parser or proprietary LLM feature
+  - A single tool spans command-line, library, and browser use cases
+  - OCR can be used immediately or delegated to a compatible server
+
+caveats:
+  - Markdown reconstruction is heuristic and may not render complex layouts perfectly
+  - Office-document and image conversion needs LibreOffice or ImageMagick respectively
+  - The release feed publishes separate WASM, Python, Node.js, Docker, and Crates & CLI releases; the selected release is the CLI-bearing component
+
+sources:
+  - https://raw.githubusercontent.com/run-llama/liteparse/cc0fa5a22afd54f191cdb00f9e850d1e51420bca/README.md
+  - https://raw.githubusercontent.com/run-llama/liteparse/cc0fa5a22afd54f191cdb00f9e850d1e51420bca/LICENSE
+  - https://raw.githubusercontent.com/run-llama/liteparse/cc0fa5a22afd54f191cdb00f9e850d1e51420bca/packages/node/package.json
+  - https://github.com/run-llama/liteparse/releases.atom

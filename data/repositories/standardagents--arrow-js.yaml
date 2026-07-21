@@ -1,0 +1,72 @@
+analysis:
+  analyzed_at: "2026-07-19T19:51:32.281Z"
+  classification:
+    primary_category: "application-frameworks"
+    state: "confirmed"
+    technologies:
+      - "javascript"
+      - "typescript"
+    topics:
+      - "web"
+    use_cases:
+      - "build-web-applications"
+  evidence:
+    - claim: "ArrowJS is a reactive UI runtime built around JavaScript modules, template literals, and the DOM, with packages for server-side rendering and hydration."
+      source_type: "repository-file"
+      url: "https://github.com/standardagents/arrow-js/blob/main/README.md"
+      checked_at: "2026-07-19"
+      confidence: "high"
+  state: "complete"
+  summary:
+    one_line: "A lightweight reactive UI runtime for browser applications."
+    why_useful: "It supplies direct DOM updates with optional asynchronous components, server rendering, and hydration."
+curation:
+  confidence: null
+  evidence: []
+  limitations: []
+  recommendation: null
+  reviewed_at: null
+  state: "uncurated"
+  strengths: []
+  verdict: null
+id: "github:standardagents/arrow-js"
+import:
+  github_snapshot:
+    archived: false
+    created_at: "2022-11-08T22:29:40Z"
+    default_branch: "main"
+    description: "The first UI framework for the agentic era — tiny, performant, with WASM sandboxes for safe code execution."
+    disabled: false
+    fetched_at: "2026-07-19T19:16:14.796Z"
+    fork: false
+    forks: 87
+    homepage: "https://arrow-js.com"
+    latest_release: null
+    license_spdx: "MIT"
+    open_issues: 6
+    primary_language: "TypeScript"
+    pushed_at: "2026-07-01T16:52:04Z"
+    stars: 3706
+    topics:
+      - "declarative"
+      - "reactive"
+      - "rendering"
+      - "ui"
+      - "ux"
+      - "web"
+      - "webcomponents"
+    updated_at: "2026-07-19T13:06:24Z"
+  sources:
+    - observed_at: "2026-07-11T14:13:41Z"
+      relation: "starred"
+      source_id: "github:user:tomseai:stars"
+      source_url: "https://github.com/tomseai?tab=stars"
+  state: "imported"
+repository:
+  aliases: []
+  github_node_id: "R_kgDOIZd2lg"
+  host: "github.com"
+  name: "arrow-js"
+  owner: "standardagents"
+  url: "https://github.com/standardagents/arrow-js"
+version: 1

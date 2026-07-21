@@ -1,0 +1,82 @@
+schema_version: 2
+repository_id: github:dontriskit/awesome-ai-system-prompts
+
+research:
+  state: complete
+  source_commit: 74964625038011525ab44c3a673fc605b2c765b3
+  bundle_collected_at: 2026-07-19T20:42:39.436Z
+  researched_at: 2026-07-20T17:22:57+02:00
+  confidence: medium
+
+classification:
+  primary_category: documentation-and-learning
+  topics:
+    - ai-agents
+    - llms
+    - prompt-engineering
+    - documentation
+    - curated-lists
+    - reference
+
+project:
+  name: awesome-ai-system-prompts
+  kind: documentation
+  summary: >-
+    A Markdown guide and repository collection that examines captured system
+    prompts from AI products to identify patterns for agent roles, tools,
+    planning, context, safety, and interaction style.
+  best_for:
+    - Studying patterns in public or captured AI-system prompts before designing an agent
+    - Comparing prompt structure, tool instructions, and workflow conventions across products
+
+key_features:
+  - Eight-principle guide covering role definition, structure, tool use, planning, context, constraints, safety, and tone
+  - Case studies of v0, same.new, Manus, ChatGPT, and other AI systems
+  - Repository-organized source materials for prompts, tools, and related instruction files
+  - Examples of prompt schemas, tags, tool etiquette, and iterative agent loops
+  - Synthesis of common practices and architectural differences among the captured systems
+
+usage:
+  interfaces:
+    - Markdown guide
+    - GitHub repository browser
+  installation:
+    - No installation; browse or clone the repository
+  setup: low
+
+technology:
+  languages:
+    - Markdown
+  notable_components:
+    - Provider- and product-organized prompt files
+    - Long-form prompt-pattern guide
+
+license:
+  spdx: MIT
+  name: MIT License
+  notes: >-
+    The repository license permits use, modification, distribution, sublicensing,
+    and sale of the licensed software and documentation when notices are retained;
+    it is provided without warranty.
+
+status:
+  lifecycle: active
+  archived: false
+  latest_release: null
+  latest_release_at: null
+
+strengths:
+  - Pairs a structured explanatory guide with concrete examples from several products
+  - Makes prompt-design concerns such as tool use, planning, and safety easy to compare
+  - Useful as reference material without requiring a runtime or service installation
+
+caveats:
+  - Captured prompts can be incomplete, version-specific, outdated, or inaccurately attributed
+  - The repository's MIT license does not by itself establish reuse rights for third-party prompt content it contains
+  - The guide's interpretations and recommended practices should be independently evaluated for a target model and risk context
+  - The retained GitHub releases feed has no entries, so no project release can be established
+
+sources:
+  - https://raw.githubusercontent.com/dontriskit/awesome-ai-system-prompts/74964625038011525ab44c3a673fc605b2c765b3/README.md
+  - https://raw.githubusercontent.com/dontriskit/awesome-ai-system-prompts/74964625038011525ab44c3a673fc605b2c765b3/LICENSE
+  - https://github.com/dontriskit/awesome-ai-system-prompts/releases.atom

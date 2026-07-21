@@ -1,0 +1,68 @@
+analysis:
+  analyzed_at: "2026-07-19T19:42:42.415Z"
+  classification:
+    primary_category: "ai-and-automation"
+    state: "provisional"
+    technologies:
+      - "python"
+    topics:
+      - "ai-agents"
+      - "machine-learning"
+      - "desktop-app"
+      - "open-source"
+    use_cases:
+      - "build-ai-products"
+      - "run-personal-or-team-tools"
+  evidence:
+    - claim: "OmniParser parses user-interface screenshots into structured elements to improve vision-model grounding for GUI actions, and includes OmniTool for controlling a Windows 11 virtual machine with supported vision models."
+      source_type: "repository-file"
+      url: "https://github.com/microsoft/OmniParser/blob/master/README.md"
+      checked_at: "2026-07-19"
+      confidence: "high"
+  state: "researched"
+  summary:
+    one_line: "A vision-based UI-screen parser for grounding GUI-agent actions."
+    why_useful: "It converts screenshots into structured interface elements and can support GUI-agent training and control workflows."
+curation:
+  confidence: null
+  evidence: []
+  limitations: []
+  recommendation: null
+  reviewed_at: null
+  state: "uncurated"
+  strengths: []
+  verdict: null
+id: "github:microsoft/OmniParser"
+import:
+  github_snapshot:
+    archived: false
+    created_at: "2024-09-20T05:18:18Z"
+    default_branch: "master"
+    description: "A simple screen parsing tool towards pure vision based GUI agent"
+    disabled: false
+    fetched_at: "2026-07-19T19:16:14.796Z"
+    fork: false
+    forks: 2218
+    homepage: ""
+    latest_release: null
+    license_spdx: "CC-BY-4.0"
+    open_issues: 232
+    primary_language: "Jupyter Notebook"
+    pushed_at: "2026-07-18T18:47:29Z"
+    stars: 25175
+    topics: []
+    updated_at: "2026-07-19T14:40:07Z"
+  sources:
+    - observed_at: "2025-02-20T09:07:51Z"
+      relation: "starred"
+      source_id: "github:user:tomseai:stars"
+      source_url: "https://github.com/tomseai?tab=stars"
+  state: "imported"
+repository:
+  aliases: []
+  github_node_id: "R_kgDOM0ZqYg"
+  host: "github.com"
+  name: "OmniParser"
+  owner: "microsoft"
+  url: "https://github.com/microsoft/OmniParser"
+version: 1

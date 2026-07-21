@@ -1,0 +1,84 @@
+schema_version: 2
+repository_id: github:ericciarla/trendFinder
+research:
+  state: complete
+  source_commit: b8098dad5348e3d177229534a6b3a98a55fe1a2c
+  bundle_collected_at: 2026-07-19T20:42:42.363Z
+  researched_at: 2026-07-20T15:23:05.034Z
+  confidence: medium
+
+classification:
+  primary_category: ai-and-automation
+  topics:
+    - llms
+    - automation
+    - web
+    - web-scraping
+    - containers
+
+project:
+  name: trendFinder
+  kind: application
+  summary: >-
+    A scheduled TypeScript application that collects selected X posts and web
+    pages, uses an AI provider to identify trends, and sends Slack or Discord notifications.
+  best_for:
+    - Teams monitoring selected social accounts and websites for emerging topics
+    - Marketing workflows that need notifications about detected launches or trends
+
+key_features:
+  - Scheduled collection of selected X posts through the X API
+  - Website release and news extraction through Firecrawl
+  - Together AI-based analysis of trends, releases, sentiment, and relevance
+  - Slack or Discord webhook notifications with trend context and sources
+  - Node.js development workflow and Docker Compose deployment option
+
+usage:
+  interfaces:
+    - scheduled service
+  installation:
+    - npm
+    - Docker
+    - Docker Compose
+  setup: high
+
+technology:
+  languages:
+    - TypeScript
+  notable_components:
+    - Node.js
+    - Firecrawl
+    - Together AI
+    - X API
+    - Docker
+
+license:
+  spdx: MIT
+  name: MIT License
+  notes: >-
+    The root LICENSE grants MIT terms, while package.json declares ISC; this
+    creates a conflicting package-metadata label that the retained bundle does not resolve.
+
+status:
+  lifecycle: unknown
+  archived: false
+  latest_release: null
+  latest_release_at: null
+
+strengths:
+  - Combines social and website monitoring in one scheduled workflow
+  - Supports two common team-notification destinations
+  - Provides both local Node.js and container-based setup paths
+
+caveats:
+  - Operation requires credentials for the monitored and notification services
+  - The README warns that the X API free plan limits monitoring to one account every 15 minutes
+  - The retained release feed has no entries
+  - The root license text and package manifest declare different licenses
+
+sources:
+  - https://raw.githubusercontent.com/ericciarla/trendFinder/b8098dad5348e3d177229534a6b3a98a55fe1a2c/README.md
+  - https://raw.githubusercontent.com/ericciarla/trendFinder/b8098dad5348e3d177229534a6b3a98a55fe1a2c/LICENSE
+  - https://raw.githubusercontent.com/ericciarla/trendFinder/b8098dad5348e3d177229534a6b3a98a55fe1a2c/package.json
+  - https://raw.githubusercontent.com/ericciarla/trendFinder/b8098dad5348e3d177229534a6b3a98a55fe1a2c/docker-compose.yml
+  - https://github.com/ericciarla/trendFinder/releases.atom

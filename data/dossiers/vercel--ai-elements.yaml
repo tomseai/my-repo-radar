@@ -1,0 +1,73 @@
+schema_version: 2
+repository_id: github:vercel/ai-elements
+research:
+  state: complete
+  source_commit: 0c1f5e8c75273f0e95c8faa031544a8aa2bb1a5b
+  bundle_collected_at: 2026-07-19T20:45:50.784Z
+  researched_at: 2026-07-20T16:13:10.340Z
+  confidence: medium
+classification:
+  primary_category: frontend-and-design
+  topics:
+    - llms
+    - chat-ui
+    - ui-components
+    - design-systems
+    - frontend-development
+    - libraries
+    - open-source
+project:
+  name: AI Elements
+  kind: library
+  summary: >-
+    A shadcn/ui-based React component library and registry for adding
+    customizable conversation, message, code, reasoning, and other AI
+    interface elements to Next.js applications.
+  best_for:
+    - Teams building a customizable chat or generative-AI interface with Next.js
+    - Projects that already use shadcn/ui, Tailwind CSS, and the AI SDK
+key_features:
+  - Customizable React components for conversations, messages, code blocks, and reasoning displays
+  - CLI installation of all components or individually selected components
+  - shadcn/ui registry compatibility as an alternative installation path
+  - Components are copied into the application's configured component directory for direct customization
+usage:
+  interfaces:
+    - React components
+    - CLI
+    - shadcn/ui registry
+  installation:
+    - npx ai-elements
+    - shadcn CLI registry URL
+  setup: moderate
+technology:
+  languages:
+    - TypeScript
+  notable_components:
+    - React
+    - shadcn/ui
+    - Tailwind CSS
+    - Vercel AI SDK
+license:
+  spdx: Apache-2.0
+  name: Apache License 2.0
+  notes: null
+status:
+  lifecycle: active
+  archived: false
+  latest_release: ai-elements@1.9.0
+  latest_release_at: 2026-03-12
+strengths:
+  - Delivers AI-specific interface primitives instead of requiring each project to build them from scratch
+  - Uses source-installed components, allowing teams to adapt markup and styling directly
+  - Supports either its own CLI or the existing shadcn/ui installation workflow
+caveats:
+  - It is designed around Next.js, shadcn/ui, Tailwind CSS variables, and the Vercel AI SDK rather than as a framework-agnostic package
+  - The README lists Node.js 18 or later, while the root package manifest requires Node.js 20.12 or later; verify the applicable requirement
+  - The release tag identifies the CLI package, while the repository also contains a component registry and private workspace packages
+sources:
+  - https://raw.githubusercontent.com/vercel/ai-elements/0c1f5e8c75273f0e95c8faa031544a8aa2bb1a5b/README.md
+  - https://raw.githubusercontent.com/vercel/ai-elements/0c1f5e8c75273f0e95c8faa031544a8aa2bb1a5b/LICENSE
+  - https://raw.githubusercontent.com/vercel/ai-elements/0c1f5e8c75273f0e95c8faa031544a8aa2bb1a5b/package.json
+  - https://raw.githubusercontent.com/vercel/ai-elements/0c1f5e8c75273f0e95c8faa031544a8aa2bb1a5b/packages/cli/package.json
+  - https://github.com/vercel/ai-elements/releases.atom

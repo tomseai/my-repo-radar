@@ -1,0 +1,86 @@
+schema_version: 2
+repository_id: github:trycua/cua
+research:
+  state: complete
+  source_commit: 15a3738d5cd363e9219b20615224e8fa31eba73d
+  bundle_collected_at: 2026-07-19T20:45:46.194Z
+  researched_at: 2026-07-20T16:11:30.723Z
+  confidence: high
+classification:
+  primary_category: ai-and-automation
+  topics:
+    - ai-agents
+    - computer-use
+    - sandboxing
+    - remote-control
+    - automation
+    - cli
+    - mcp
+    - containers
+    - testing
+    - open-source
+project:
+  name: Cua
+  kind: monorepo
+  summary: >-
+    A computer-use monorepo for building and evaluating agents through
+    cross-platform desktop drivers, OS sandboxes, virtual-machine tooling,
+    and benchmarks or reinforcement-learning environments.
+  best_for:
+    - Building agents that operate desktop, mobile, container, or VM interfaces
+    - Evaluating or training computer-use agents in reproducible environments
+key_features:
+  - Drives native desktop applications in the background on macOS, Windows, and Linux
+  - Provides one sandbox API for Linux, macOS, Windows, Android, and local or cloud runtimes
+  - Supplies Cua-Bench environments and trajectory export for evaluation and training
+  - Includes Lume virtualization for macOS and Linux VMs on Apple Silicon
+  - Exposes driver access through a CLI and MCP server for agent clients
+  - Supports shell, screenshot, mouse, keyboard, and mobile-gesture actions
+usage:
+  interfaces:
+    - Python API
+    - CLI
+    - MCP server
+    - Docker and VM runtimes
+  installation:
+    - Python package via pip
+    - platform-specific driver installer
+    - build from source with uv
+  setup: moderate
+technology:
+  languages:
+    - Python
+    - Rust
+    - Go
+    - TypeScript
+  notable_components:
+    - Model Context Protocol
+    - Docker
+    - QEMU
+    - Apple Virtualization.Framework
+license:
+  spdx: MIT
+  name: MIT License
+  notes: >-
+    The repository is MIT-licensed; its README identifies separately licensed
+    Kasm (MIT) and OmniParser (CC-BY-4.0), while optional cua-agent[omni]
+    includes AGPL-3.0 ultralytics.
+status:
+  lifecycle: active
+  archived: false
+  latest_release: null
+  latest_release_at: null
+strengths:
+  - Covers drivers, environments, virtualization, and benchmarks in one repository
+  - Supports multiple operating systems through a consistent sandbox API
+  - Offers both agent-building and evaluation or training workflows
+caveats:
+  - Host capabilities and installation paths differ substantially by operating system and runtime
+  - "The repository is a monorepo: its retained feed has component releases, not an identifiable stable Cua-wide release; newest observed is cua-driver-rs v0.9.0 on 2026-07-19"
+  - Optional dependencies and bundled third-party components carry licenses beyond the repository MIT license
+sources:
+  - https://raw.githubusercontent.com/trycua/cua/15a3738d5cd363e9219b20615224e8fa31eba73d/README.md
+  - https://raw.githubusercontent.com/trycua/cua/15a3738d5cd363e9219b20615224e8fa31eba73d/LICENSE.md
+  - https://raw.githubusercontent.com/trycua/cua/15a3738d5cd363e9219b20615224e8fa31eba73d/pyproject.toml
+  - https://raw.githubusercontent.com/trycua/cua/15a3738d5cd363e9219b20615224e8fa31eba73d/libs/cua-driver/rust/Cargo.toml
+  - https://github.com/trycua/cua/releases.atom

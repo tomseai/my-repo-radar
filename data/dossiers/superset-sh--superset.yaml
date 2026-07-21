@@ -1,0 +1,90 @@
+schema_version: 2
+repository_id: github:superset-sh/superset
+research:
+  state: complete
+  source_commit: b06e97fc2bf6f179541e9529300d00351fd722fd
+  bundle_collected_at: 2026-07-19T20:45:34.195Z
+  researched_at: 2026-07-20T18:00:00.000+02:00
+  confidence: high
+classification:
+  primary_category: developer-tools
+  topics:
+    - ai-agents
+    - coding-agents
+    - parallel-agents
+    - desktop-app
+    - cli
+    - agent-development-environments
+    - git
+    - worktrees
+    - mcp
+    - code-review
+project:
+  name: Superset
+  kind: application
+  summary: >-
+    A desktop code editor and shared workspace system for running terminal-based
+    coding agents in parallel, each isolated in its own Git worktree with
+    built-in terminal, review, and workspace-management tools.
+  best_for:
+    - Developers coordinating several CLI coding agents against the same repository
+    - Teams that want worktree isolation, local review, and remote workspace access
+key_features:
+  - Runs parallel agent workspaces with separate branches, terminals, and environments
+  - Monitors agents with status indicators and attention notifications
+  - Includes persistent split terminals, a diff viewer, and in-app code editing
+  - Detects workspace ports and previews development servers in an in-app browser
+  - Schedules agent sessions for recurring work such as triage and dependency updates
+  - Exposes the shared workspace system through desktop, CLI, TypeScript SDK, and MCP surfaces
+usage:
+  interfaces:
+    - desktop application
+    - CLI
+    - TypeScript SDK
+    - MCP server
+  installation:
+    - official macOS release download
+    - standalone CLI installation
+    - build from source with Bun
+  setup: moderate
+
+technology:
+  languages:
+    - TypeScript
+  notable_components:
+    - Electron
+    - React
+    - Bun workspaces
+    - SQLite-compatible local storage
+
+license:
+  spdx: Elastic-2.0
+  name: Elastic License 2.0
+  notes: >-
+    It permits use, copying, distribution, and derivative works subject to
+    restrictions, including no hosted or managed service exposing substantial
+    functionality and no circumvention of license-key-protected functionality.
+
+status:
+  lifecycle: active
+  archived: false
+  latest_release: desktop-v1.15.1
+  latest_release_at: 2026-07-16
+
+strengths:
+  - Makes parallel agent work visible and isolated through Git worktrees
+  - Covers execution, terminal control, code review, previews, and handoff in one workspace model
+  - Supports any terminal-based agent and offers programmatic access through CLI, SDK, and MCP
+
+caveats:
+  - The retained README advertises an official desktop download for macOS; other desktop-platform support is not established here
+  - Product access depends on a usable Git repository, local worktree workflow, and compatible CLI agents
+  - The Elastic License 2.0 is source-available but restricts hosted or managed-service use and license-key circumvention
+  - The release feed includes a newer desktop canary; the recorded stable desktop release is v1.15.1
+
+sources:
+  - https://raw.githubusercontent.com/superset-sh/superset/b06e97fc2bf6f179541e9529300d00351fd722fd/README.md
+  - https://raw.githubusercontent.com/superset-sh/superset/b06e97fc2bf6f179541e9529300d00351fd722fd/LICENSE.md
+  - https://raw.githubusercontent.com/superset-sh/superset/b06e97fc2bf6f179541e9529300d00351fd722fd/package.json
+  - https://raw.githubusercontent.com/superset-sh/superset/b06e97fc2bf6f179541e9529300d00351fd722fd/apps/desktop/package.json
+  - https://github.com/superset-sh/superset/releases.atom

@@ -1,0 +1,78 @@
+schema_version: 2
+repository_id: github:nanocoai/nanoclaw
+research:
+  state: complete
+  source_commit: 0b034342fc19fea2c95da20c2a42b4eaa31f5d84
+  bundle_collected_at: 2026-07-19T20:44:20.388Z
+  researched_at: 2026-07-20T17:45:54.3576520+02:00
+  confidence: high
+classification:
+  primary_category: ai-and-automation
+  topics:
+    - ai-agents
+    - agent-orchestration
+    - agent-memory
+    - agent-skills
+    - chat-ui
+    - automation
+    - self-hosted
+    - sandboxing
+    - containers
+project:
+  name: NanoClaw
+  kind: application
+  summary: Self-hosted, messaging-based AI assistant that routes each agent session through an isolated Docker container.
+  best_for:
+    - Individual users building a customizable personal assistant across selected messaging channels.
+    - Developers who want per-agent filesystem mounts and container isolation instead of a shared host process.
+key_features:
+  - Routes messages through a Node host, per-session SQLite inbound and outbound databases, and per-agent containers.
+  - Supports skill-installed messaging channels, including Telegram, Discord, WhatsApp, Slack, Teams, and email.
+  - Runs recurring scheduled tasks and can use script gates to avoid unnecessary agent wakeups.
+  - Provides per-agent workspaces, memory, container configuration, and explicitly selected mounts.
+  - Uses OneCLI Agent Vault so credentials are injected for outbound requests instead of being held by agent containers.
+  - Offers Claude Code natively plus skill-installed Codex, OpenCode, and Ollama provider options.
+usage:
+  interfaces:
+    - Messaging-channel assistant.
+    - Local CLI and interactive Bash setup script.
+  installation:
+    - Clone the repository and run bash nanoclaw.sh for guided installation and first-channel pairing.
+    - Run migrate-v2.sh from a separate v2 checkout when migrating from NanoClaw v1.
+  setup: high
+technology:
+  languages:
+    - TypeScript
+    - JavaScript
+    - Shell
+  notable_components:
+    - Node.js host process
+    - Bun agent runner
+    - Docker containers
+    - SQLite
+    - Claude Agent SDK
+    - OneCLI Agent Vault
+license:
+  spdx: MIT
+  name: MIT License
+  notes: Permissive license; redistributed copies or substantial portions must retain the copyright and license notice, and the software is provided without warranty.
+status:
+  lifecycle: active
+  archived: false
+  latest_release: v2.1.17
+  latest_release_at: 2026-06-17
+strengths:
+  - Makes the host-to-container message and database flow explicit, with separate one-writer SQLite files per session.
+  - Uses container isolation and explicit mounts as the principal boundary for agent execution.
+  - Keeps optional channels and alternate providers out of trunk until users install the relevant skills into their fork.
+caveats:
+  - Requires Docker, Node.js 20+, pnpm 10+, and Claude Code for customization, error recovery, and channel-installation skills.
+  - Windows support is through WSL2 rather than a native Windows runtime.
+  - Container isolation limits visibility to configured mounts but does not remove the need to review code and the privileges granted to an agent.
+  - The current package version in the pinned source is 2.1.53, whereas the latest retained GitHub Release is v2.1.17; the status reports the latter because it is the repository release feed.
+sources:
+  - https://raw.githubusercontent.com/nanocoai/nanoclaw/0b034342fc19fea2c95da20c2a42b4eaa31f5d84/README.md
+  - https://raw.githubusercontent.com/nanocoai/nanoclaw/0b034342fc19fea2c95da20c2a42b4eaa31f5d84/package.json
+  - https://raw.githubusercontent.com/nanocoai/nanoclaw/0b034342fc19fea2c95da20c2a42b4eaa31f5d84/LICENSE
+  - https://raw.githubusercontent.com/nanocoai/nanoclaw/0b034342fc19fea2c95da20c2a42b4eaa31f5d84/docs/SECURITY.md
+  - https://github.com/nanocoai/nanoclaw/releases.atom

@@ -1,0 +1,90 @@
+schema_version: 2
+repository_id: github:open-webui/open-webui
+research:
+  state: complete
+  source_commit: ecd48e2f718220a6400ecf49eafd4867a38feb10
+  bundle_collected_at: 2026-07-19T20:44:32.729Z
+  researched_at: 2026-07-20T17:52:18+02:00
+  confidence: medium
+classification:
+  primary_category: platforms-and-applications
+  topics:
+    - chat-ui
+    - llms
+    - self-hosted
+    - local-models
+    - mcp
+    - document-processing
+    - web-search
+project:
+  name: Open WebUI
+  kind: application
+  summary: >-
+    A self-hosted, offline-capable AI platform and web interface for local
+    Ollama models and OpenAI-compatible APIs, with RAG, plugins and tools,
+    role-based access control, persistent storage, and multiple deployment paths.
+  best_for:
+    - Individuals or teams hosting a configurable chat interface for local or API-based models
+    - Administrators who need RAG, access controls, and extensibility in one self-hosted application
+
+key_features:
+  - Connects Ollama and OpenAI-compatible model APIs
+  - Provides RAG with document extraction, vector stores, hybrid search, and reranking
+  - Extends chats with filters, actions, pipes, tools, skills, MCP, MCPO, and OpenAPI servers
+  - Supports administrator-defined roles, groups, permissions, and user access
+  - Offers persistent memory, shared channels, notes, automations, and multi-model conversations
+  - Supports SQLite or PostgreSQL plus local, S3, Google Cloud Storage, or Azure Blob Storage
+
+usage:
+  interfaces:
+    - web application
+    - progressive web app
+    - HTTP service
+  installation:
+    - Python pip package
+    - uv
+    - Docker or Docker Compose
+    - Kubernetes with kubectl, Kustomize, or Helm
+  setup: moderate
+
+technology:
+  languages:
+    - Python
+    - TypeScript
+    - Svelte
+  notable_components:
+    - FastAPI
+    - SvelteKit
+    - Vite
+    - Docker
+
+license:
+  spdx: null
+  name: Open WebUI License and prior original licenses
+  notes: >-
+    The root license permits redistribution but prohibits changing, removing,
+    obscuring, or replacing Open WebUI branding, except for deployments of at
+    most 50 end users in 30 days or with written permission or an enterprise license.
+
+status:
+  lifecycle: active
+  archived: false
+  latest_release: v0.10.2
+  latest_release_at: 2026-07-01
+
+strengths:
+  - Broad deployment and model-connection options cover local and API-backed use
+  - Combines chat, RAG, plugins, access control, and operational storage choices
+  - The retained release feed and project files document a recently released Python/Svelte application
+
+caveats:
+  - The root license imposes a material branding-preservation requirement and is not identified by a standard SPDX expression
+  - The README states that earlier portions remain under their original licenses, but LICENSE_HISTORY was not retained in this bundle
+  - Production use requires reviewing deployment, model-provider, storage, and access-control configuration
+
+sources:
+  - https://raw.githubusercontent.com/open-webui/open-webui/ecd48e2f718220a6400ecf49eafd4867a38feb10/README.md
+  - https://raw.githubusercontent.com/open-webui/open-webui/ecd48e2f718220a6400ecf49eafd4867a38feb10/LICENSE
+  - https://raw.githubusercontent.com/open-webui/open-webui/ecd48e2f718220a6400ecf49eafd4867a38feb10/pyproject.toml
+  - https://raw.githubusercontent.com/open-webui/open-webui/ecd48e2f718220a6400ecf49eafd4867a38feb10/package.json
+  - https://github.com/open-webui/open-webui/releases.atom

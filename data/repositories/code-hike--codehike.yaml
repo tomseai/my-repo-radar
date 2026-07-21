@@ -1,0 +1,75 @@
+analysis:
+  analyzed_at: "2026-07-19T19:26:06.560Z"
+  classification:
+    primary_category: "frontend-and-design"
+    state: "provisional"
+    technologies:
+      - "typescript"
+      - "react"
+    topics:
+      - "web"
+    use_cases:
+      - "build-web-applications"
+      - "design-interfaces"
+  evidence:
+    - claim: "Code Hike describes itself as a project for building rich content websites with Markdown and React."
+      source_type: "github-metadata"
+      url: "https://github.com/code-hike/codehike"
+      checked_at: "2026-07-19"
+      confidence: "medium"
+  state: "researched"
+  summary:
+    one_line: "A React and Markdown toolkit for rich content websites."
+    why_useful: "It is intended for building interactive, code-oriented web content."
+curation:
+  confidence: null
+  evidence: []
+  limitations: []
+  recommendation: null
+  reviewed_at: null
+  state: "uncurated"
+  strengths: []
+  verdict: null
+id: "github:code-hike/codehike"
+import:
+  github_snapshot:
+    archived: false
+    created_at: "2020-04-23T03:05:45Z"
+    default_branch: "next"
+    description: "Build rich content websites with Markdown and React"
+    disabled: false
+    fetched_at: "2026-07-19T19:16:14.796Z"
+    fork: false
+    forks: 167
+    homepage: "https://codehike.org"
+    latest_release: null
+    license_spdx: "MIT"
+    open_issues: 19
+    primary_language: "TypeScript"
+    pushed_at: "2026-03-17T09:09:59Z"
+    stars: 5368
+    topics:
+      - "blog"
+      - "code"
+      - "docs"
+      - "javascript"
+      - "markdown"
+      - "mdx"
+      - "react"
+      - "scrollytelling"
+      - "syntax-highlighting"
+    updated_at: "2026-07-19T06:54:34Z"
+  sources:
+    - observed_at: "2025-03-21T19:54:34Z"
+      relation: "starred"
+      source_id: "github:user:tomseai:stars"
+      source_url: "https://github.com/tomseai?tab=stars"
+  state: "imported"
+repository:
+  aliases: []
+  github_node_id: "MDEwOlJlcG9zaXRvcnkyNTgwODAyODY="
+  host: "github.com"
+  name: "codehike"
+  owner: "code-hike"
+  url: "https://github.com/code-hike/codehike"
+version: 1

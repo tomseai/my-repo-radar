@@ -1,0 +1,81 @@
+schema_version: 2
+repository_id: github:ucbepic/docetl
+research:
+  state: complete
+  source_commit: 4b8cbe491757eceffe92e3e10d49a1d7a058216a
+  bundle_collected_at: 2026-07-20T19:30:35.425Z
+  researched_at: 2026-07-20T21:33:02.164+02:00
+  confidence: high
+classification:
+  primary_category: data-and-databases
+  topics:
+    - document-processing
+    - data-processing
+    - llms
+    - automation
+    - evaluation
+    - cost-management
+    - cli
+    - web-ui
+project:
+  name: DocETL
+  kind: framework
+  summary: >-
+    A Python framework for declarative LLM-powered processing of structured and
+    unstructured datasets, offering map-reduce-style operators, Python and YAML
+    pipelines, automatic cost-quality optimization, parsing extras, and a visual playground.
+  best_for:
+    - Data teams extracting, classifying, resolving, or summarizing large document collections
+    - Developers who need repeatable LLM pipelines with explicit cost and quality optimization
+key_features:
+  - Provides map, reduce, filter, resolve, split, gather, cluster, and other data operators
+  - Defines pipelines through a Python API or low-code YAML configuration
+  - Parallelizes work and reports model-call costs while producing tabular results
+  - MOAR searches pipeline rewrites and models for an accuracy-cost frontier
+  - Includes model cascades, plan rewrites, document parsers, a TUI, and DocWrangler UI
+usage:
+  interfaces:
+    - Python library
+    - CLI
+    - TUI
+    - web UI
+  installation:
+    - Python package via pip
+    - source checkout via uv
+    - Docker Compose for the UI stack
+  setup: moderate
+technology:
+  languages:
+    - Python
+    - TypeScript
+  notable_components:
+    - LiteLLM
+    - pandas
+    - FastAPI
+    - Textual
+    - DocWrangler
+license:
+  spdx: MIT
+  name: MIT License
+  notes: >-
+    Permissive repository license allowing use, modification, distribution, and
+    commercial use when the copyright and license notice are retained.
+status:
+  lifecycle: active
+  archived: false
+  latest_release: 0.3.0
+  latest_release_at: 2026-06-17
+strengths:
+  - Treats LLM document work as inspectable data pipelines rather than ad hoc calls
+  - Offers both developer-oriented and visual workflows over the same operator model
+  - Makes accuracy, cost, sampling, and optimization explicit operational concerns
+caveats:
+  - Most useful pipelines require provider credentials and incur model API costs
+  - MOAR searches run pipelines repeatedly on samples and can take tens of minutes
+  - Parsing, retrieval, server, and UI capabilities add substantial optional dependencies and deployment choices
+sources:
+  - https://raw.githubusercontent.com/ucbepic/docetl/4b8cbe491757eceffe92e3e10d49a1d7a058216a/README.md
+  - https://raw.githubusercontent.com/ucbepic/docetl/4b8cbe491757eceffe92e3e10d49a1d7a058216a/LICENSE
+  - https://raw.githubusercontent.com/ucbepic/docetl/4b8cbe491757eceffe92e3e10d49a1d7a058216a/pyproject.toml
+  - https://raw.githubusercontent.com/ucbepic/docetl/4b8cbe491757eceffe92e3e10d49a1d7a058216a/docs/optimization/overview.md
+  - https://github.com/ucbepic/docetl/releases.atom

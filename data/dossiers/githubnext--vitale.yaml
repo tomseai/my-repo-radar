@@ -1,0 +1,84 @@
+schema_version: 2
+repository_id: github:githubnext/vitale
+research:
+  state: complete
+  source_commit: 0cf880aba368f5dd1a471fef4734d5ff822bf132
+  bundle_collected_at: 2026-07-19T20:43:13.908Z
+  researched_at: 2026-07-20T00:06:00.000Z
+  confidence: high
+
+classification:
+  primary_category: developer-tools
+  topics:
+    - desktop-app
+    - developer-productivity
+    - frontend-development
+    - libraries
+
+project:
+  name: Vitale
+  kind: plugin
+  summary: >-
+    An archived VS Code notebook extension and companion Node.js package for
+    TypeScript projects, providing dependency-aware cells, Node-based execution,
+    rich outputs, and Vite-powered React component rendering.
+  best_for:
+    - Developers exploring TypeScript code and project modules in VS Code notebooks
+    - Existing users who need to inspect or maintain a matching historical Vitale setup
+
+key_features:
+  - VS Code notebook support for .vnb files
+  - Automatic re-execution of dependent cells and imported project files
+  - Node.js server-side execution with asynchronous iterable and promise output handling
+  - Separate output panes and MIME-aware rendering, including JSON and HTML/SVG
+  - React component rendering with Vite compilation and hot reload
+  - Companion Node.js package with VS Code API helpers and a server CLI entry point
+
+usage:
+  interfaces:
+    - VS Code notebook extension
+    - Node.js project package
+  installation:
+    - VSIX release file
+    - npm-compatible package manager
+    - build from source
+  setup: moderate
+
+technology:
+  languages:
+    - TypeScript
+  notable_components:
+    - Visual Studio Code extension API
+    - Vite
+    - React
+
+license:
+  spdx: MIT
+  name: MIT License
+  notes: >-
+    The repository license permits use, modification, distribution, sublicensing,
+    and sale when the copyright and permission notice are retained; it is provided
+    without warranty.
+
+status:
+  lifecycle: archived
+  archived: true
+  latest_release: 0.0.19
+  latest_release_at: 2024-10-01
+
+strengths:
+  - Integrates TypeScript notebook cells directly into the VS Code editing environment
+  - Tracks dependencies so downstream cells and changed imported files can rerun automatically
+  - Combines Node execution, rich notebook outputs, and React/Vite rendering in one workflow
+
+caveats:
+  - The repository inventory reports it as archived, so no ongoing maintenance should be expected
+  - The VS Code extension and @githubnext/vitale server package must use matching versions
+  - Optional type support relies on a patched TypeScript package rather than stock TypeScript
+
+sources:
+  - https://raw.githubusercontent.com/githubnext/vitale/0cf880aba368f5dd1a471fef4734d5ff822bf132/README.md
+  - https://raw.githubusercontent.com/githubnext/vitale/0cf880aba368f5dd1a471fef4734d5ff822bf132/packages/vscode/package.json
+  - https://raw.githubusercontent.com/githubnext/vitale/0cf880aba368f5dd1a471fef4734d5ff822bf132/packages/server/package.json
+  - https://raw.githubusercontent.com/githubnext/vitale/0cf880aba368f5dd1a471fef4734d5ff822bf132/LICENSE
+  - https://github.com/githubnext/vitale/releases.atom

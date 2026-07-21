@@ -1,0 +1,77 @@
+schema_version: 2
+repository_id: github:chatboxai/chatbox
+research:
+  state: complete
+  source_commit: 8639c946c0baedfdd12bbc88ac10f5aa87431647
+  bundle_collected_at: 2026-07-19T20:42:09.003Z
+  researched_at: 2026-07-20T10:30:00+02:00
+  confidence: high
+classification:
+  primary_category: platforms-and-applications
+  topics:
+    - chat-ui
+    - llms
+    - desktop-app
+    - mobile-app
+    - web-ui
+    - local-first
+    - multi-provider
+project:
+  name: Chatbox Community Edition
+  kind: application
+  summary: >-
+    A GPL-3.0 desktop-first AI chat client for Windows, macOS, and Linux that
+    also provides web and mobile clients for conversations with hosted and
+    locally served language-model providers.
+  best_for:
+    - Individuals who want an installable, local-data AI chat client across desktop and mobile devices
+    - Users connecting their own accounts or endpoints for several hosted or local model providers
+key_features:
+  - Connects to OpenAI, Azure OpenAI, Claude, Gemini, Ollama, and ChatGLM providers
+  - Stores chat data locally and supports streaming replies, a prompt library, and message quoting
+  - Renders Markdown, LaTeX, and syntax-highlighted code in conversations
+  - Ships desktop packages plus web, iOS, and Android clients
+  - Offers an optional team-sharing component for collaboration and shared OpenAI API resources
+usage:
+  interfaces:
+    - desktop GUI
+    - web application
+    - native mobile applications
+  installation:
+    - download a platform installer from GitHub Releases
+    - install the iOS or Android client
+    - build from a source checkout with pnpm
+  setup: low
+technology:
+  languages:
+    - TypeScript
+  notable_components:
+    - Electron
+    - React
+    - Capacitor
+    - pnpm
+license:
+  spdx: GPL-3.0
+  name: GNU General Public License v3.0
+  notes: >-
+    Strong copyleft license; redistribution of modified covered work requires
+    corresponding source and GPLv3 terms, and the software is provided without warranty.
+status:
+  lifecycle: active
+  archived: false
+  latest_release: v1.21.1
+  latest_release_at: "2026-06-12"
+strengths:
+  - Combines local chat storage, multi-provider access, and packaged cross-platform clients
+  - Supports both hosted services and Ollama-backed local models through one chat interface
+  - Provides useful chat ergonomics such as streaming, reusable prompts, quoting, and rich text rendering
+caveats:
+  - Hosted-model use requires users to configure a compatible provider and any required credentials
+  - Team sharing is an optional component rather than the default local single-user workflow
+  - GPL-3.0 copyleft may not fit proprietary redistribution or embedded-product plans
+sources:
+  - https://raw.githubusercontent.com/chatboxai/chatbox/8639c946c0baedfdd12bbc88ac10f5aa87431647/README.md
+  - https://raw.githubusercontent.com/chatboxai/chatbox/8639c946c0baedfdd12bbc88ac10f5aa87431647/LICENSE
+  - https://raw.githubusercontent.com/chatboxai/chatbox/8639c946c0baedfdd12bbc88ac10f5aa87431647/package.json
+  - https://raw.githubusercontent.com/chatboxai/chatbox/8639c946c0baedfdd12bbc88ac10f5aa87431647/team-sharing/Dockerfile
+  - https://github.com/chatboxai/chatbox/releases.atom

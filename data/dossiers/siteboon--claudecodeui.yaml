@@ -1,0 +1,89 @@
+schema_version: 2
+repository_id: github:siteboon/claudecodeui
+research:
+  state: complete
+  source_commit: 27eaf0146a46aa8a55178f3d394360ff7465420f
+  bundle_collected_at: 2026-07-19T20:45:19.946Z
+  researched_at: 2026-07-20T18:02:08+02:00
+  confidence: high
+
+classification:
+  primary_category: platforms-and-applications
+  topics:
+    - ai-agents
+    - coding-agents
+    - web-ui
+    - desktop-app
+    - terminal
+    - self-hosted
+    - sandboxing
+    - multi-provider
+
+project:
+  name: CloudCLI UI
+  kind: application
+  summary: >-
+    A self-hostable web, desktop, and mobile interface for viewing projects and
+    sessions and working with Claude Code, Cursor CLI, Codex, and related agents.
+  best_for:
+    - Developers who want a visual, remote-friendly workspace around supported agent CLIs
+    - Teams evaluating local self-hosting or the separate managed CloudCLI service
+
+key_features:
+  - Responsive chat and session-management interface
+  - Integrated shell terminal, file explorer, Git explorer, and browser sessions
+  - Support for Claude Code, Cursor CLI, Codex, and listed GPT or Claude models
+  - Self-hosted npm mode, experimental Docker sandbox mode, and desktop companion
+  - Plugin system for custom tabs, backend services, and integrations
+
+usage:
+  interfaces:
+    - web UI
+    - desktop companion app
+    - mobile browser UI
+    - REST API
+  installation:
+    - npx
+    - global npm package
+    - Docker sandbox
+    - desktop release
+  setup: moderate
+
+technology:
+  languages:
+    - TypeScript
+  notable_components:
+    - React
+    - Vite
+    - Tailwind CSS
+    - CodeMirror
+    - Electron
+
+license:
+  spdx: AGPL-3.0-or-later
+  name: GNU Affero General Public License v3.0 or later with Section 7 additional terms
+  notes: >-
+    Network users of modified versions must be offered corresponding source; the
+    additional terms require attribution and modification marking and limit promotional and trademark use of CloudCLI and Siteboon names.
+
+status:
+  lifecycle: active
+  archived: false
+  latest_release: CloudCLI UI v1.36.3
+  latest_release_at: 2026-07-15
+
+strengths:
+  - Brings session, terminal, file, Git, and plugin workflows into one interface
+  - Supports both self-hosted use and an optional native desktop companion
+
+caveats:
+  - Self-hosted operation requires Node.js v22 or later and a machine running the local service
+  - The UI is an environment around agent subscriptions; users still supply the applicable AI subscriptions
+  - Agent tools are disabled by default and must be enabled deliberately
+  - The feed also contains local-server-runtime prereleases; the selected v1.36.3 entry is the CloudCLI UI product release
+
+sources:
+  - https://raw.githubusercontent.com/siteboon/claudecodeui/27eaf0146a46aa8a55178f3d394360ff7465420f/README.md
+  - https://raw.githubusercontent.com/siteboon/claudecodeui/27eaf0146a46aa8a55178f3d394360ff7465420f/LICENSE
+  - https://raw.githubusercontent.com/siteboon/claudecodeui/27eaf0146a46aa8a55178f3d394360ff7465420f/package.json
+  - https://github.com/siteboon/claudecodeui/releases.atom

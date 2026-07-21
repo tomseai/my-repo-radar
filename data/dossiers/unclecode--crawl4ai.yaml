@@ -1,0 +1,89 @@
+schema_version: 2
+repository_id: github:unclecode/crawl4ai
+research:
+  state: complete
+  source_commit: 7e801521428ee12509994d39151006f64055ebe3
+  bundle_collected_at: 2026-07-19T20:45:49.282Z
+  researched_at: 2026-07-20T18:11:36.385Z
+  confidence: high
+
+classification:
+  primary_category: ai-and-automation
+  topics:
+    - web-scraping
+    - llms
+    - web
+    - cli
+    - browser-automation
+    - document-processing
+    - self-hosted
+    - open-source
+
+project:
+  name: Crawl4AI
+  kind: library
+  summary: >-
+    A Python crawler and scraper that uses browser automation to turn web pages
+    into LLM-ready Markdown or structured data for agents, RAG, and pipelines.
+  best_for:
+    - Python projects that need controllable asynchronous web extraction
+    - Preparing crawled web content for LLM, RAG, or structured-data workflows
+
+key_features:
+  - Asynchronous single-URL and multi-URL crawling through AsyncWebCrawler
+  - Clean and relevance-filtered Markdown with citations and custom strategies
+  - CSS/XPath and LLM-driven structured-data extraction
+  - Browser sessions, profiles, proxies, JavaScript execution, and screenshots
+  - Deep crawling, adaptive crawling, and URL seeding strategies
+  - CLI, Python package, and Docker API-server deployment options
+
+usage:
+  interfaces:
+    - Python API
+    - CLI
+    - local HTTP API
+  installation:
+    - PyPI package
+    - source checkout
+    - Docker image
+  setup: moderate
+
+technology:
+  languages:
+    - Python
+    - JavaScript
+  notable_components:
+    - Playwright
+    - Pydantic
+    - FastAPI
+    - Docker
+
+license:
+  spdx: null
+  name: Apache License 2.0 with an additional attribution requirement
+  notes: >-
+    The retained LICENSE includes Apache 2.0 text but additionally requires
+    prominent Crawl4AI attribution for distributions, public uses, and derivatives.
+
+status:
+  lifecycle: active
+  archived: false
+  latest_release: v0.9.2
+  latest_release_at: 2026-07-15
+
+strengths:
+  - Offers both quick Python usage and extensive crawling and extraction controls
+  - Produces LLM-oriented Markdown without requiring an external crawling service
+  - Supports browser-backed, deep, and structured extraction workflows
+
+caveats:
+  - Browser-backed crawling requires Playwright setup and can need OS dependencies
+  - Optional machine-learning extras add sizeable model and runtime dependencies
+  - LLM extraction can require configuration and credentials for an external provider
+  - The license's added attribution requirement is more restrictive than standard Apache-2.0
+
+sources:
+  - https://raw.githubusercontent.com/unclecode/crawl4ai/7e801521428ee12509994d39151006f64055ebe3/README.md
+  - https://raw.githubusercontent.com/unclecode/crawl4ai/7e801521428ee12509994d39151006f64055ebe3/LICENSE
+  - https://raw.githubusercontent.com/unclecode/crawl4ai/7e801521428ee12509994d39151006f64055ebe3/pyproject.toml
+  - https://github.com/unclecode/crawl4ai/releases.atom

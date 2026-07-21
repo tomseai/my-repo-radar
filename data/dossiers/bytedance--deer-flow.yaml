@@ -1,0 +1,89 @@
+schema_version: 2
+repository_id: github:bytedance/deer-flow
+research:
+  state: complete
+  source_commit: 0cd55067f39823e7f0950498b5197a8195512481
+  bundle_collected_at: 2026-07-19T20:42:04.027Z
+  researched_at: 2026-07-20T12:00:00+02:00
+  confidence: high
+classification:
+  primary_category: ai-and-automation
+  topics:
+    - ai-agents
+    - agent-harnesses
+    - agent-orchestration
+    - multi-agent
+    - agent-memory
+    - agent-skills
+    - sandboxing
+    - mcp
+    - web-ui
+    - tui
+    - self-hosted
+project:
+  name: DeerFlow
+  kind: application
+  summary: >-
+    A self-hostable super-agent harness and application for long-running work,
+    combining a lead agent with scoped sub-agents, persistent memory,
+    configurable skills and tools, and sandbox-aware file and command work.
+  best_for:
+    - Teams deploying an extensible agent workspace for research, coding, and multi-step automation
+    - Developers who need web, terminal, embedded-Python, or supported chat-channel access to one agent runtime
+key_features:
+  - Orchestrates sub-agents with isolated contexts, scoped tools, termination conditions, and structured results
+  - Provides persistent local memory, manual context compaction, and goal-based task continuation controls
+  - Includes web search, web fetch, rendered capture, file operations, shell execution, custom Python tools, and MCP servers
+  - Supports isolated container execution and warns that host bash is not a secure isolation boundary
+  - Offers a Web UI, an embedded Python client, and a terminal-native workbench that shares configuration and thread storage
+usage:
+  interfaces:
+    - Web UI
+    - terminal workbench
+    - embedded Python client
+    - HTTP Gateway API
+    - supported IM channels
+  installation:
+    - Interactive setup with make setup
+    - Docker Compose deployment
+    - Local source installation with Python, Node.js, pnpm, and uv prerequisites
+  setup: high
+technology:
+  languages:
+    - Python
+    - TypeScript
+  notable_components:
+    - LangGraph
+    - LangChain
+    - FastAPI
+    - Next.js
+    - Docker Compose
+    - Redis Streams
+license:
+  spdx: MIT
+  name: MIT License
+  notes: >-
+    Permissive license requiring preservation of the copyright and permission
+    notice in copies or substantial portions of the software.
+status:
+  lifecycle: active
+  archived: false
+  latest_release: v2.0.0
+  latest_release_at: "2026-06-25"
+strengths:
+  - Covers agent delegation, memory, skills, tools, sandboxing, and multiple user surfaces in one documented runtime
+  - Provides both full services and a lighter terminal or embedded-client route for different deployment needs
+  - Documents local-trusted deployment assumptions and specific safeguards for powerful execution capabilities
+caveats:
+  - The setup wizard requires a configured model provider and may also need external tool-provider credentials
+  - High-privilege file, shell, and resource operations require a trusted deployment or additional network and authentication controls
+  - Docker Compose includes several services and security-sensitive environment settings, making operational setup substantial
+  - The retained release feed establishes v2.0.0 as the latest project release, while the pinned backend and frontend manifests identify version 2.1.0; no v2.1.0 release entry is retained
+  - DeerFlow 2.0 is a ground-up rewrite, so 1.x code and configuration should not be assumed compatible
+sources:
+  - https://raw.githubusercontent.com/bytedance/deer-flow/0cd55067f39823e7f0950498b5197a8195512481/README.md
+  - https://raw.githubusercontent.com/bytedance/deer-flow/0cd55067f39823e7f0950498b5197a8195512481/LICENSE
+  - https://raw.githubusercontent.com/bytedance/deer-flow/0cd55067f39823e7f0950498b5197a8195512481/backend/pyproject.toml
+  - https://raw.githubusercontent.com/bytedance/deer-flow/0cd55067f39823e7f0950498b5197a8195512481/frontend/package.json
+  - https://raw.githubusercontent.com/bytedance/deer-flow/0cd55067f39823e7f0950498b5197a8195512481/docker/docker-compose.yaml
+  - https://github.com/bytedance/deer-flow/releases.atom

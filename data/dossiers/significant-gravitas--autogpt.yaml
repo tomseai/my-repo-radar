@@ -1,0 +1,84 @@
+schema_version: 2
+repository_id: github:Significant-Gravitas/AutoGPT
+research:
+  state: complete
+  source_commit: f244390da74f4087ad94f34de3b938639b31d6c3
+  bundle_collected_at: 2026-07-19T20:45:15.993Z
+  researched_at: 2026-07-20T18:01:22.8375840+02:00
+  confidence: high
+classification:
+  primary_category: ai-and-automation
+  topics:
+    - ai-agents
+    - agent-frameworks
+    - agent-orchestration
+    - agent-skills
+    - automation
+    - self-hosted
+    - web-ui
+    - multi-provider
+project:
+  name: AutoGPT
+  kind: monorepo
+  summary: >-
+    An AI-agent platform and monorepo for describing, visually assembling,
+    deploying, and running workflow agents on demand, on schedules, or from
+    triggers, with both a managed web platform and a self-hosted deployment.
+  best_for:
+    - Teams assembling workflow agents visually or from natural-language job descriptions
+    - Organizations choosing between a managed agent platform and self-hosting on their infrastructure
+key_features:
+  - Visual Build canvas for connecting, branching, and inspecting agent-workflow blocks
+  - AutoPilot surface that turns a plain-English job description into an agent
+  - Agent dashboard for runs, costs, statuses, and actions requiring attention
+  - Marketplace for starting from and customizing community agents
+  - On-demand, scheduled, and trigger-based agent execution
+  - Hosted platform plus a Docker-based self-hosted path from the same repository
+usage:
+  interfaces:
+    - managed web platform
+    - visual workflow builder
+    - self-hosted web application
+    - AutoGPT Classic standalone agent
+  installation:
+    - managed-platform signup
+    - official self-host setup script
+    - source checkout with Docker Compose
+  setup: moderate
+technology:
+  languages:
+    - Python
+    - TypeScript
+  notable_components:
+    - Docker Compose
+    - PostgreSQL/Supabase service stack
+    - React frontend
+    - AutoGPT Classic
+license:
+  spdx: null
+  name: PolyForm Shield License 1.0.0 and MIT License
+  notes: >-
+    The autogpt_platform directory is under PolyForm Shield 1.0.0, which
+    prohibits providing a competing product; classic and the rest of the
+    repository are MIT-licensed. Confirm the path-specific terms before reuse.
+status:
+  lifecycle: active
+  archived: false
+  latest_release: null
+  latest_release_at: null
+strengths:
+  - Provides managed and self-hosted operating models without changing the core platform
+  - Covers agent creation, execution, monitoring, and reusable marketplace starting points
+  - Supports concrete workflow control through its visual block builder
+caveats:
+  - Self-hosting requires Docker, configuration, model API keys, and ongoing operations
+  - The managed platform is paid and charges for agent usage
+  - License obligations differ by repository path; platform code is not generally permissive
+  - The newest retained release is the non-stable autogpt-platform-beta-v0.6.68 entry from 2026-07-19, so stable release fields remain null
+  - AutoGPT Classic is a separate legacy surface within the monorepo and should be evaluated separately
+sources:
+  - https://raw.githubusercontent.com/Significant-Gravitas/AutoGPT/f244390da74f4087ad94f34de3b938639b31d6c3/README.md
+  - https://raw.githubusercontent.com/Significant-Gravitas/AutoGPT/f244390da74f4087ad94f34de3b938639b31d6c3/LICENSE
+  - https://raw.githubusercontent.com/Significant-Gravitas/AutoGPT/f244390da74f4087ad94f34de3b938639b31d6c3/docs/platform/getting-started.md
+  - https://raw.githubusercontent.com/Significant-Gravitas/AutoGPT/f244390da74f4087ad94f34de3b938639b31d6c3/autogpt_platform/docker-compose.yml
+  - https://github.com/Significant-Gravitas/AutoGPT/releases.atom

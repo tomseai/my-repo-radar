@@ -1,0 +1,81 @@
+schema_version: 2
+repository_id: github:excalidraw/excalidraw
+research:
+  state: complete
+  source_commit: 5cf547650b700b35507e83773695098150b810d2
+  bundle_collected_at: 2026-07-19T20:42:51.298Z
+  researched_at: 2026-07-20T17:23:16.092+02:00
+  confidence: high
+
+classification:
+  primary_category: frontend-and-design
+  topics:
+    - web-ui
+    - realtime-collaboration
+    - local-first
+    - visualization
+    - open-source
+
+project:
+  name: Excalidraw
+  kind: application
+  summary: >-
+    An open-source, hand-drawn-style virtual whiteboard for diagrams and
+    wireframes, with a hosted collaborative editor and a React component
+    package for embedding the editor in another application.
+  best_for:
+    - Visual ideation, diagramming, and wireframing in a browser
+    - React applications that need an embeddable canvas-based whiteboard
+
+key_features:
+  - Infinite canvas with drawing tools, arrow binding, labeled arrows, undo, zoom, and panning
+  - Image and shape-library support plus PNG, SVG, clipboard, and .excalidraw JSON export
+  - Hosted editor features real-time collaboration and end-to-end encryption
+  - Browser-local autosave, offline PWA support, and shareable read-only links in the hosted app
+  - Published @excalidraw/excalidraw React package with React 17, 18, and 19 peer support
+
+usage:
+  interfaces:
+    - hosted browser-based whiteboard
+    - React component package
+  installation:
+    - npm or Yarn package
+    - source checkout with Yarn
+    - Docker build for the included app
+  setup: moderate
+
+technology:
+  languages:
+    - TypeScript
+  notable_components:
+    - React
+    - Vite
+    - Yarn workspaces
+
+license:
+  spdx: MIT
+  name: MIT License
+  notes: Permission to use, modify, distribute, sublicense, and sell requires retaining the copyright and license notice.
+
+status:
+  lifecycle: active
+  archived: false
+  latest_release: v0.18.1
+  latest_release_at: 2026-04-21
+
+strengths:
+  - Combines a ready-to-use collaborative whiteboard with a reusable React integration path
+  - Supports common diagram outputs and an open JSON drawing format
+  - Local-first browser behavior and offline support reduce dependence on a continuous connection
+
+caveats:
+  - The README assigns collaboration, encryption, offline support, and share links to excalidraw.com; it says drop-in package plugins for those features are planned for the future
+  - Embedding the package requires a compatible React and React DOM version
+  - The repository is a Yarn monorepo, so running its app from source is more involved than opening the hosted editor
+
+sources:
+  - https://raw.githubusercontent.com/excalidraw/excalidraw/5cf547650b700b35507e83773695098150b810d2/README.md
+  - https://raw.githubusercontent.com/excalidraw/excalidraw/5cf547650b700b35507e83773695098150b810d2/packages/excalidraw/package.json
+  - https://raw.githubusercontent.com/excalidraw/excalidraw/5cf547650b700b35507e83773695098150b810d2/package.json
+  - https://raw.githubusercontent.com/excalidraw/excalidraw/5cf547650b700b35507e83773695098150b810d2/LICENSE
+  - https://github.com/excalidraw/excalidraw/releases.atom

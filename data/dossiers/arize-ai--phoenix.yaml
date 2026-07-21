@@ -1,0 +1,76 @@
+schema_version: 2
+repository_id: github:Arize-ai/phoenix
+research:
+  state: complete
+  source_commit: 2f14ce8aec1da63968f6a28df60e7d82e810720c
+  bundle_collected_at: 2026-07-19T20:41:47.748Z
+  researched_at: 2026-07-20T15:11:42.194Z
+  confidence: high
+classification:
+  primary_category: ai-and-automation
+  topics:
+    - llms
+    - observability
+    - tracing
+    - evaluation
+    - self-hosted
+    - web-ui
+project:
+  name: Phoenix
+  kind: application
+  summary: >-
+    An AI observability and evaluation platform for tracing, experimenting with,
+    and troubleshooting LLM applications.
+  best_for:
+    - Teams operating LLM applications that need trace inspection and evaluation workflows
+    - Developers who want local, containerized, or cloud deployment choices
+key_features:
+  - Captures LLM application runtime traces through OpenTelemetry-based instrumentation
+  - Supports response and retrieval evaluations, versioned datasets, and experiments
+  - Provides a playground and prompt management for comparing models and prompt changes
+  - Includes Python and TypeScript client, evaluation, and OpenTelemetry subpackages
+usage:
+  interfaces:
+    - web UI
+    - Python CLI
+    - Python packages
+    - TypeScript packages
+    - REST API
+  installation:
+    - pip or conda package installation
+    - Docker or Docker Compose deployment
+    - Kubernetes or Helm deployment
+    - hosted Phoenix instance
+  setup: moderate
+technology:
+  languages:
+    - Python
+    - TypeScript
+  notable_components:
+    - OpenTelemetry and OpenInference instrumentation
+    - Docker
+    - Kubernetes and Helm deployment support
+license:
+  spdx: Elastic-2.0
+  name: Elastic License 2.0
+  notes: >-
+    ELv2 permits use, copying, distribution, and derivative works subject to its
+    terms, but prohibits offering substantial functionality as a hosted or managed service.
+status:
+  lifecycle: active
+  archived: false
+  latest_release: arize-phoenix v19.2.0
+  latest_release_at: "2026-07-19"
+strengths:
+  - Brings tracing, evaluation, datasets, experiments, and prompt iteration into one platform
+  - Documents local, container, Kubernetes, and cloud deployment options
+  - Uses OpenTelemetry-based instrumentation and provides companion client packages
+caveats:
+  - ELv2 is source-available but is not an unrestricted open-source license; hosted-service use is restricted
+  - Application instrumentation and evaluation configuration are required to collect useful project data
+  - The README states that basic web analytics are enabled by default, with an environment-variable opt-out
+sources:
+  - https://raw.githubusercontent.com/Arize-ai/phoenix/2f14ce8aec1da63968f6a28df60e7d82e810720c/README.md
+  - https://raw.githubusercontent.com/Arize-ai/phoenix/2f14ce8aec1da63968f6a28df60e7d82e810720c/LICENSE
+  - https://raw.githubusercontent.com/Arize-ai/phoenix/2f14ce8aec1da63968f6a28df60e7d82e810720c/pyproject.toml
+  - https://github.com/Arize-ai/phoenix/releases.atom

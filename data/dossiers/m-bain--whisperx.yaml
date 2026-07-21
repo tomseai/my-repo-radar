@@ -1,0 +1,84 @@
+schema_version: 2
+repository_id: github:m-bain/whisperX
+research:
+  state: complete
+  source_commit: 2cfd7b7c5c7bba144954364db747319b50e8232b
+  bundle_collected_at: 2026-07-19T20:43:54.177Z
+  researched_at: 2026-07-20T15:42:37.362Z
+  confidence: high
+
+classification:
+  primary_category: ai-and-automation
+  topics:
+    - speech-to-text
+    - machine-learning
+    - cli
+    - open-source
+
+project:
+  name: whisperX
+  kind: cli
+  summary: >-
+    A Python automatic speech-recognition tool that adds batched Whisper
+    transcription, word-level alignment, voice-activity detection, and optional
+    speaker diarization.
+  best_for:
+    - Producing timestamped transcripts and subtitles from recorded audio
+    - Python workflows that need speaker labels alongside Whisper transcription
+
+key_features:
+  - Batched faster-whisper inference for accelerated transcription
+  - Word-level timestamps through wav2vec2 forced alignment
+  - Voice-activity detection before transcription and batching
+  - Optional pyannote-audio speaker diarization and word-level speaker assignment
+  - Command-line and Python APIs
+
+usage:
+  interfaces:
+    - CLI
+    - Python API
+  installation:
+    - PyPI package
+    - uvx tool
+    - source checkout with uv
+  setup: moderate
+
+technology:
+  languages:
+    - Python
+  notable_components:
+    - Whisper
+    - faster-whisper
+    - PyTorch
+    - wav2vec2
+    - pyannote-audio
+
+license:
+  spdx: BSD-2-Clause
+  name: BSD 2-Clause License
+  notes: >-
+    Applies to this repository's code; optional model and service dependencies
+    have their own terms.
+
+status:
+  lifecycle: active
+  archived: false
+  latest_release: v3.8.6
+  latest_release_at: 2026-05-25
+
+strengths:
+  - Combines transcription, precise timing, and speaker labeling in one workflow
+  - Supports both scripting and command-line use
+  - Documents CPU operation as well as CUDA-accelerated inference
+
+caveats:
+  - The retained feed also contains the newer 3.8.7rc1 release candidate
+  - Speaker diarization requires a Hugging Face access token and acceptance of the referenced model agreement
+  - Alignment requires a suitable language-specific phoneme model
+  - Overlapping speech and speaker diarization are documented limitations
+
+sources:
+  - https://raw.githubusercontent.com/m-bain/whisperX/2cfd7b7c5c7bba144954364db747319b50e8232b/README.md
+  - https://raw.githubusercontent.com/m-bain/whisperX/2cfd7b7c5c7bba144954364db747319b50e8232b/LICENSE
+  - https://raw.githubusercontent.com/m-bain/whisperX/2cfd7b7c5c7bba144954364db747319b50e8232b/pyproject.toml
+  - https://github.com/m-bain/whisperX/releases.atom

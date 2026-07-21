@@ -1,0 +1,77 @@
+schema_version: 2
+repository_id: github:strapi/strapi
+research:
+  state: complete
+  source_commit: 878314aff3a80bfd0671ab10875193bf4def82ca
+  bundle_collected_at: 2026-07-19T20:45:30.014Z
+  researched_at: 2026-07-20T16:05:00Z
+  confidence: high
+classification:
+  primary_category: platforms-and-applications
+  topics:
+    - cms
+    - api-development
+    - authentication
+    - self-hosted
+    - web
+project:
+  name: Strapi
+  kind: application
+  summary: >-
+    A self-hosted, JavaScript and TypeScript headless CMS for visually modeling
+    content and supplying it to web, mobile, and IoT clients through generated
+    REST or GraphQL APIs and a customizable administration interface.
+  best_for:
+    - Teams that need a customizable content API and editor workflow
+    - Applications that want self-hosted content management with multiple database choices
+key_features:
+  - Visual Content-Type Builder for defining content structures without hand-writing the model UI
+  - Generated REST and GraphQL APIs for each content type
+  - Built-in roles and permissions, media library, internationalization, and draft-and-publish workflows
+  - Extensible plugins and a customizable administration dashboard
+  - TypeScript support with SQLite, PostgreSQL, MySQL, and MariaDB options
+usage:
+  interfaces:
+    - web administration dashboard
+    - REST API
+    - GraphQL API
+    - command-line project generator
+  installation:
+    - create a project with npx create-strapi@latest my-project
+    - deploy a self-managed project using the documented database and hosting requirements
+    - use Strapi Cloud for the managed-hosting option
+  setup: moderate
+technology:
+  languages:
+    - JavaScript
+    - TypeScript
+  notable_components:
+    - Node.js
+    - React administration interface
+    - REST and GraphQL APIs
+    - Yarn workspaces
+license:
+  spdx: NOASSERTION
+  name: MIT Expat License for Community Edition; Enterprise Edition separately licensed
+  notes: >-
+    The root license grants MIT Expat terms only outside ee/ directories for
+    Community Edition use without a Strapi Cloud account; enterprise components
+    and relevant cloud use have separate licensing terms.
+status:
+  lifecycle: active
+  archived: false
+  latest_release: v5.50.2
+  latest_release_at: 2026-07-15
+strengths:
+  - Couples a content-editor workflow with generated APIs rather than requiring separate CMS and backend services
+  - Covers common content operations, localization, media, publishing, and authorization in the core product
+  - Supports self-managed deployments while also offering an official hosted option
+caveats:
+  - Production setup still requires selecting, operating, and securing a supported database and deployment environment
+  - "The license is not uniformly MIT across the repository: ee/ code and cloud-related use have separate terms"
+  - API, plugin, and database configuration require project-specific design and maintenance
+sources:
+  - https://raw.githubusercontent.com/strapi/strapi/878314aff3a80bfd0671ab10875193bf4def82ca/README.md
+  - https://raw.githubusercontent.com/strapi/strapi/878314aff3a80bfd0671ab10875193bf4def82ca/LICENSE
+  - https://raw.githubusercontent.com/strapi/strapi/878314aff3a80bfd0671ab10875193bf4def82ca/package.json
+  - https://github.com/strapi/strapi/releases.atom

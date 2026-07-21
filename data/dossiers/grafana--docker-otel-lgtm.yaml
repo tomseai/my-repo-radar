@@ -1,0 +1,90 @@
+schema_version: 2
+repository_id: github:grafana/docker-otel-lgtm
+research:
+  state: complete
+  source_commit: 7576ac9686a99a0aa8e4086786addc5d255992a2
+  bundle_collected_at: 2026-07-19T20:43:18.694Z
+  researched_at: 2026-07-20T15:31:56.440Z
+  confidence: high
+classification:
+  primary_category: devops-and-cloud
+  topics:
+    - observability
+    - tracing
+    - self-hosted
+    - containers
+    - devops
+    - mcp
+
+project:
+  name: docker-otel-lgtm
+  kind: infrastructure
+  summary: >-
+    A single Docker image that runs an OpenTelemetry backend for local metrics,
+    traces, logs, and profiles by bundling the OpenTelemetry Collector,
+    Prometheus, Tempo, Loki, Pyroscope, and Grafana.
+  best_for:
+    - Developers who need a local OpenTelemetry stack for demos, tests, or experimentation
+    - Trying Grafana observability components without configuring each backend separately
+
+key_features:
+  - Bundles the Collector, Prometheus, Tempo, Loki, Pyroscope, and Grafana in one image
+  - Accepts OpenTelemetry data at the default OTLP HTTP and gRPC endpoints
+  - Offers Grafana dashboards and a web UI for metrics, traces, logs, and profiles
+  - Supports volume-backed data, extra backend arguments, custom configuration, plugins, and dashboards
+  - Includes Kubernetes deployment instructions and examples in five application languages
+  - Can enable OpenTelemetry eBPF Instrumentation for zero-code HTTP and gRPC telemetry on supported Linux hosts
+
+usage:
+  interfaces:
+    - Docker image
+    - Grafana web UI
+    - OTLP HTTP and gRPC endpoints
+    - Kubernetes manifest
+    - Model Context Protocol integration
+  installation:
+    - Docker image from Docker Hub
+    - local Docker build
+    - Kubernetes manifest
+  setup: moderate
+
+technology:
+  languages:
+    - Shell
+    - Go
+  notable_components:
+    - OpenTelemetry Collector
+    - Prometheus
+    - Tempo
+    - Loki
+    - Pyroscope
+    - Grafana
+
+license:
+  spdx: Apache-2.0
+  name: Apache License 2.0
+  notes: >-
+    Permissive license; redistributions must retain the required copyright,
+    license, and NOTICE information described by Apache-2.0.
+
+status:
+  lifecycle: active
+  archived: false
+  latest_release: v0.29.1
+  latest_release_at: 2026-07-17
+
+strengths:
+  - Starts a useful multi-signal OpenTelemetry backend with a single container image
+  - Makes it easy to inspect telemetry in Grafana while retaining familiar backend components
+  - Supports customization and examples without requiring a separate production stack installation
+
+caveats:
+  - The project explicitly targets development, demonstrations, and testing rather than production deployment
+  - The default Grafana credentials are admin/admin and must not be left unchanged outside a disposable local environment
+  - Enabling eBPF instrumentation requires Linux kernel 5.8+ with BTF and gives the container host PID access plus privileged Docker permissions
+
+sources:
+  - https://raw.githubusercontent.com/grafana/docker-otel-lgtm/7576ac9686a99a0aa8e4086786addc5d255992a2/README.md
+  - https://raw.githubusercontent.com/grafana/docker-otel-lgtm/7576ac9686a99a0aa8e4086786addc5d255992a2/docker/Dockerfile
+  - https://raw.githubusercontent.com/grafana/docker-otel-lgtm/7576ac9686a99a0aa8e4086786addc5d255992a2/LICENSE
+  - https://github.com/grafana/docker-otel-lgtm/releases.atom

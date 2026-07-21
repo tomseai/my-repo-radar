@@ -1,0 +1,79 @@
+analysis:
+  analyzed_at: "2026-07-19T19:25:35.208Z"
+  classification:
+    primary_category: "documentation-and-learning"
+    state: "provisional"
+    technologies: []
+    topics:
+      - "ai-agents"
+      - "llms"
+    use_cases:
+      - "learn-and-reference"
+  evidence:
+    - claim: "Best of AI is a hand-picked, regularly updated collection of active AI tools organized across areas including generative models, developer platforms, autonomous agents, and research tools."
+      source_type: "repository-file"
+      url: "https://github.com/best-of-ai/best-of-ai/blob/main/README.md"
+      checked_at: "2026-07-19"
+      confidence: "high"
+  state: "researched"
+  summary:
+    one_line: "A categorized, curated reference list of active AI tools."
+    why_useful: "It helps readers compare AI tools across assistants, creation, coding, productivity, automation, and research."
+curation:
+  confidence: null
+  evidence: []
+  limitations: []
+  recommendation: null
+  reviewed_at: null
+  state: "uncurated"
+  strengths: []
+  verdict: null
+id: "github:best-of-ai/best-of-ai"
+import:
+  github_snapshot:
+    archived: false
+    created_at: "2025-08-14T08:44:13Z"
+    default_branch: "main"
+    description: "A curated list of best ai tools"
+    disabled: false
+    fetched_at: "2026-07-19T19:16:14.796Z"
+    fork: false
+    forks: 101
+    homepage: "https://bestofai.io"
+    latest_release: null
+    license_spdx: null
+    open_issues: 43
+    primary_language: "HTML"
+    pushed_at: "2026-07-19T09:55:09Z"
+    stars: 664
+    topics:
+      - "ai"
+      - "ai-agent"
+      - "ai-agents"
+      - "ai-assistant"
+      - "ai-chatbot"
+      - "ai-engineering"
+      - "ai-tools"
+      - "ai-tools-directory"
+      - "awesome"
+      - "awesome-list"
+      - "best-ai-tools"
+      - "best-of-ai"
+      - "bestofai"
+      - "free-ai-tools"
+      - "top-ai-tools"
+    updated_at: "2026-07-19T15:56:44Z"
+  sources:
+    - observed_at: "2026-07-19T15:56:44Z"
+      relation: "starred"
+      source_id: "github:user:tomseai:stars"
+      source_url: "https://github.com/tomseai?tab=stars"
+  state: "imported"
+repository:
+  aliases: []
+  github_node_id: "R_kgDOPdycOQ"
+  host: "github.com"
+  name: "best-of-ai"
+  owner: "best-of-ai"
+  url: "https://github.com/best-of-ai/best-of-ai"
+version: 1

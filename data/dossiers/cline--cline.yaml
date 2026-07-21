@@ -1,0 +1,81 @@
+schema_version: 2
+repository_id: github:cline/cline
+research:
+  state: complete
+  source_commit: c2faf38d7283e79c473799d973357e50bd76e2fb
+  bundle_collected_at: 2026-07-19T20:42:14.918Z
+  researched_at: 2026-07-20T17:12:16.8776321+02:00
+  confidence: high
+classification:
+  primary_category: ai-and-automation
+  topics:
+    - ai-agents
+    - coding-agents
+    - agent-frameworks
+    - cli
+    - mcp
+    - multi-agent
+    - multi-provider
+    - agent-skills
+project:
+  name: Cline
+  kind: monorepo
+  summary: >-
+    An open-source coding-agent suite offering an IDE extension, terminal CLI,
+    Node.js SDK, and supported integrations for supervised or automated development workflows.
+  best_for:
+    - Developers who want to use the same coding-agent engine from an IDE or terminal
+    - Teams building custom agent integrations, multi-agent workflows, or scheduled automations with the SDK
+key_features:
+  - Offers a terminal CLI with interactive, headless, JSON-output, and CI/CD-oriented operation
+  - Provides IDE workflows for coordinated code changes, terminal commands, checkpoints, and reviewable diffs
+  - Supports plan and act modes, with approvals by default and optional auto-approval
+  - Integrates multiple hosted, gateway, and local model providers
+  - Extends agents with SDK plugins, custom tools, lifecycle hooks, and MCP servers
+  - Coordinates persistent multi-agent teams and can schedule recurring agent jobs
+usage:
+  interfaces:
+    - VS Code extension
+    - terminal CLI
+    - Node.js SDK
+    - supported messaging-platform connectors
+  installation:
+    - npm i -g cline for the CLI
+    - Visual Studio Marketplace extension installation
+    - npm install @cline/sdk for programmatic use
+  setup: moderate
+technology:
+  languages:
+    - TypeScript
+  notable_components:
+    - Bun
+    - Node.js
+    - Model Context Protocol
+    - Agent Client Protocol
+license:
+  spdx: Apache-2.0
+  name: Apache License 2.0
+  notes: >-
+    The retained LICENSE permits use, modification, and redistribution subject to
+    license, notice, and change-notice requirements; it includes a contributor
+    patent grant with termination provisions.
+status:
+  lifecycle: active
+  archived: false
+  latest_release: CLI v3.0.46
+  latest_release_at: 2026-07-19
+strengths:
+  - Supports IDE, CLI, and SDK entry points instead of restricting coding-agent use to one interface
+  - Documents provider flexibility, custom tools, MCP integration, multi-agent teams, and recurring schedules
+  - Keeps human approval available for file edits and terminal commands while offering automation modes
+caveats:
+  - The repository releases the CLI, SDK packages, extension, and nightly builds independently; CLI v3.0.46 is the relevant stable primary command-line release, not the newest feed entry
+  - The JetBrains client is described as not open-sourced in this repository, despite being part of the broader product offering
+  - Model-provider credentials, permissions, costs, and connector access controls need separate configuration and review
+  - Automated or headless operation can execute development actions without the interactive approval flow
+sources:
+  - https://raw.githubusercontent.com/cline/cline/c2faf38d7283e79c473799d973357e50bd76e2fb/README.md
+  - https://raw.githubusercontent.com/cline/cline/c2faf38d7283e79c473799d973357e50bd76e2fb/LICENSE
+  - https://raw.githubusercontent.com/cline/cline/c2faf38d7283e79c473799d973357e50bd76e2fb/package.json
+  - https://raw.githubusercontent.com/cline/cline/c2faf38d7283e79c473799d973357e50bd76e2fb/apps/cli/package.json
+  - https://github.com/cline/cline/releases.atom

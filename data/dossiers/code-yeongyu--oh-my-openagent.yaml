@@ -1,0 +1,81 @@
+schema_version: 2
+repository_id: github:code-yeongyu/oh-my-openagent
+research:
+  state: complete
+  source_commit: 242b1c1fcaf191f070e40b48b78b8b5b59ee9502
+  bundle_collected_at: 2026-07-19T20:42:16.689Z
+  researched_at: 2026-07-20T00:40:00Z
+  confidence: high
+classification:
+  primary_category: ai-and-automation
+  topics:
+    - ai-agents
+    - coding-agents
+    - agent-harnesses
+    - agent-orchestration
+    - agent-skills
+    - cli
+    - mcp
+    - codebase-search
+    - codebase-indexing
+project:
+  name: oh-my-openagent
+  kind: plugin
+  summary: >-
+    An extension suite for OpenCode and Codex CLI that supplies agent workflow,
+    tool, rule, and skill components in two differently scoped editions.
+  best_for:
+    - OpenCode users who want an integrated coding-agent harness with team-mode tooling
+    - Codex CLI users who want the documented portable rules, LSP, MCP, and workflow components
+key_features:
+  - The OpenCode Ultimate edition includes 11 agents, lifecycle hooks, built-in MCPs, slash commands, and opt-in Team Mode
+  - The Codex CLI Light edition provides rules, comment checking, Git Bash, LSP, ultrawork, continuation, telemetry, and plugin-scoped MCP components
+  - Team Mode lets a lead coordinate up to eight parallel members through dedicated team tools and a tmux view
+  - Hashline edits attach content hashes to read lines and reject edits when the file changed since the read
+usage:
+  interfaces:
+    - OpenCode plugin
+    - Codex CLI plugin
+    - Command-line installer
+    - tmux team visualization
+  installation:
+    - bunx oh-my-openagent install
+    - npx lazycodex-ai install
+    - bunx oh-my-openagent install --platform=both
+  setup: high
+technology:
+  languages:
+    - TypeScript
+  notable_components:
+    - Bun
+    - Node.js
+    - Model Context Protocol
+    - Language Server Protocol
+    - tmux
+license:
+  spdx: SUL-1.0
+  name: Sustainable Use License 1.0
+  notes: >-
+    Repository content outside third-party components is under SUL-1.0; it permits
+    internal-business, non-commercial, and personal use but restricts commercial
+    distribution and requires notices. Incorporated third-party components retain
+    their original licenses.
+status:
+  lifecycle: active
+  archived: false
+  latest_release: v4.19.0
+  latest_release_at: 2026-07-17
+strengths:
+  - Separates a full OpenCode-oriented harness from a lighter Codex CLI integration rather than presenting their capabilities as identical
+  - Combines orchestration, code-navigation, search, rules, skills, and workflow features in the documented editions
+  - Publishes an install path for each edition and for installing both together
+caveats:
+  - The README says a multi-harness refactor is in progress, so component boundaries and supported harnesses are changing
+  - Full OpenCode setup includes provider authentication and model selection; the Codex installer can also configure autonomous full-permissions mode
+  - Anonymous telemetry is enabled by default, although the README documents configuration and environment-variable opt-outs
+  - The package and CLI retain oh-my-opencode names during the oh-my-openagent rename transition
+sources:
+  - https://raw.githubusercontent.com/code-yeongyu/oh-my-openagent/242b1c1fcaf191f070e40b48b78b8b5b59ee9502/README.md
+  - https://raw.githubusercontent.com/code-yeongyu/oh-my-openagent/242b1c1fcaf191f070e40b48b78b8b5b59ee9502/LICENSE.md
+  - https://raw.githubusercontent.com/code-yeongyu/oh-my-openagent/242b1c1fcaf191f070e40b48b78b8b5b59ee9502/package.json
+  - https://github.com/code-yeongyu/oh-my-openagent/releases.atom

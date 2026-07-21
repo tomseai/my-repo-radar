@@ -1,0 +1,87 @@
+schema_version: 2
+repository_id: github:siyuan-note/siyuan
+research:
+  state: complete
+  source_commit: c8dcdd0860ef000a14552c619fe19c0dcb5175f5
+  bundle_collected_at: 2026-07-19T20:45:21.802Z
+  researched_at: 2026-07-20T16:02:21.793Z
+  confidence: high
+
+classification:
+  primary_category: platforms-and-applications
+  topics:
+    - desktop-app
+    - mobile-app
+    - self-hosted
+    - local-first
+    - search
+    - open-source
+
+project:
+  name: SiYuan
+  kind: application
+  summary: >-
+    A privacy-first personal knowledge-management application with a
+    block-based Markdown WYSIWYG editor, desktop and mobile clients, a
+    built-in command-line interface, and optional browser-based Docker hosting.
+  best_for:
+    - Individuals who want a block-oriented personal knowledge base
+    - Self-hosters who want local workspace data with a browser interface
+
+key_features:
+  - Block references, two-way links, custom attributes, and embedded SQL queries
+  - Markdown WYSIWYG editing, large-document editing, and outline views
+  - Full-text and asset-content search through the built-in CLI
+  - Exports to Markdown, PDF, Word, and HTML
+  - Desktop, Android, iOS, and HarmonyOS clients
+  - Docker deployment with a workspace volume and access-authentication option
+
+usage:
+  interfaces:
+    - desktop application
+    - mobile application
+    - CLI
+    - browser UI
+  installation:
+    - desktop or mobile application marketplace
+    - release download
+    - Docker image
+  setup: moderate
+
+technology:
+  languages:
+    - TypeScript
+    - Go
+  notable_components:
+    - Electron
+    - Docker
+
+license:
+  spdx: AGPL-3.0
+  name: GNU Affero General Public License v3.0
+  notes: >-
+    Copyleft terms apply; an operator that modifies and publicly runs the
+    software as a network service must offer the corresponding modified source.
+
+status:
+  lifecycle: active
+  archived: false
+  latest_release: v3.7.2
+  latest_release_at: 2026-07-14
+
+strengths:
+  - Combines structured block knowledge management with familiar Markdown workflows
+  - Supports local clients, CLI access, and an optional self-hosted browser mode
+  - Includes broad export and search options for personal knowledge bases
+
+caveats:
+  - Some features are reserved for paid members despite the AGPL-licensed code
+  - Docker mode is browser-only and omits some desktop export and import functions
+  - A Docker deployment needs deliberate workspace-volume and access-password configuration
+  - The release feed has newer beta entries; v3.7.2 is the newest stable entry retained
+
+sources:
+  - https://raw.githubusercontent.com/siyuan-note/siyuan/c8dcdd0860ef000a14552c619fe19c0dcb5175f5/README.md
+  - https://raw.githubusercontent.com/siyuan-note/siyuan/c8dcdd0860ef000a14552c619fe19c0dcb5175f5/LICENSE
+  - https://raw.githubusercontent.com/siyuan-note/siyuan/c8dcdd0860ef000a14552c619fe19c0dcb5175f5/app/package.json
+  - https://github.com/siyuan-note/siyuan/releases.atom

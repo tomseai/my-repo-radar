@@ -1,0 +1,90 @@
+schema_version: 2
+repository_id: github:github/copilot-sdk
+research:
+  state: complete
+  source_commit: 3cbf4e71692658db67b3a4d7d667d18546f08c79
+  bundle_collected_at: 2026-07-19T20:43:12.506Z
+  researched_at: 2026-07-20T00:06:00.000Z
+  confidence: high
+classification:
+  primary_category: ai-and-automation
+  topics:
+    - ai-agents
+    - coding-agents
+    - llms
+    - tool-use
+    - code-generation
+    - libraries
+
+project:
+  name: GitHub Copilot SDK
+  kind: library
+  summary: >-
+    Multi-language SDKs for embedding the Copilot CLI agent runtime in an
+    application, with programmable sessions, streaming responses, custom
+    tools, file-editing workflows, permission handling, and lifecycle hooks.
+  best_for:
+    - Applications that need Copilot-powered agent workflows without implementing the runtime
+    - Teams building agent-enabled products in TypeScript, Python, Go, .NET, Java, or Rust
+
+key_features:
+  - SDKs for TypeScript/Node.js, Python, Go, .NET, Java, and Rust
+  - Programmatic agent sessions for prompts, planning, tool invocation, and file edits
+  - Custom agents, skills, and tools plus application-controlled permission handlers
+  - Session hooks for pre- and post-tool processing and session lifecycle behavior
+  - Bundled CLI runtime for Node.js, Python, and .NET, with manual CLI setup for other SDKs
+  - Optional OpenTelemetry tracing and external headless CLI connection modes
+
+usage:
+  interfaces:
+    - language SDKs
+    - programmatic agent runtime
+    - external headless CLI server
+  installation:
+    - npm package
+    - Python package
+    - language-native package manager
+  setup: moderate
+
+technology:
+  languages:
+    - TypeScript
+    - Python
+    - Go
+    - C#
+    - Java
+    - Rust
+  notable_components:
+    - GitHub Copilot CLI
+    - OpenTelemetry
+
+license:
+  spdx: MIT
+  name: MIT License
+  notes: >-
+    The repository license permits use, modification, distribution, sublicensing,
+    and sale when the copyright and permission notice are retained; it is provided
+    without warranty.
+
+status:
+  lifecycle: active
+  archived: false
+  latest_release: v1.0.7
+  latest_release_at: 2026-07-16
+
+strengths:
+  - Covers six mainstream application languages with a shared Copilot agent-runtime model
+  - Lets hosts control tool approval and intercept session behavior instead of treating the agent as opaque
+  - Supports bundled, locally managed, or externally hosted CLI runtime deployment patterns
+
+caveats:
+  - Standard use requires a GitHub Copilot subscription; BYOK instead requires supported provider API keys
+  - CLI packaging differs by language, and Go, Java, and Rust need additional CLI configuration by default
+  - Exposing the headless CLI beyond loopback requires separate network controls and authentication
+
+sources:
+  - https://raw.githubusercontent.com/github/copilot-sdk/3cbf4e71692658db67b3a4d7d667d18546f08c79/README.md
+  - https://raw.githubusercontent.com/github/copilot-sdk/3cbf4e71692658db67b3a4d7d667d18546f08c79/docs/getting-started.md
+  - https://raw.githubusercontent.com/github/copilot-sdk/3cbf4e71692658db67b3a4d7d667d18546f08c79/docs/hooks/hooks-overview.md
+  - https://raw.githubusercontent.com/github/copilot-sdk/3cbf4e71692658db67b3a4d7d667d18546f08c79/LICENSE
+  - https://github.com/github/copilot-sdk/releases.atom

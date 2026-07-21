@@ -1,0 +1,90 @@
+schema_version: 2
+repository_id: github:google-gemini/gemini-cli
+research:
+  state: complete
+  source_commit: acae7124bdd849e554eaa5e090199a0cf08cd782
+  bundle_collected_at: 2026-07-19T20:43:17.605Z
+  researched_at: 2026-07-20T15:31:56.440Z
+  confidence: high
+
+classification:
+  primary_category: ai-and-automation
+  topics:
+    - coding-agents
+    - ai-agents
+    - llms
+    - cli
+    - code-generation
+    - automation
+    - tool-use
+    - mcp
+
+project:
+  name: Gemini CLI
+  kind: cli
+  summary: >-
+    An open-source terminal AI agent that connects Gemini models to codebases,
+    file operations, shell commands, web fetching, Google Search grounding, and
+    Model Context Protocol tools for interactive or scripted developer work.
+  best_for:
+    - Developers who want a Gemini-powered coding agent in a terminal workflow
+    - Teams automating code, GitHub, or operational tasks through scripts and MCP tools
+
+key_features:
+  - Queries, edits, and helps debug codebases from a terminal session
+  - Uses built-in file, shell, web-fetching, and Google Search grounding tools
+  - Extends its tool surface through Model Context Protocol servers
+  - Supports non-interactive prompts with JSON or streaming JSON output for scripts
+  - Saves and resumes complex conversations with checkpointing
+  - Provides project-specific context through GEMINI.md files
+
+usage:
+  interfaces:
+    - CLI
+    - non-interactive scripting mode
+    - GitHub Action
+  installation:
+    - npx
+    - npm package
+    - Homebrew
+    - MacPorts
+    - Docker or Podman sandbox
+  setup: low
+
+technology:
+  languages:
+    - TypeScript
+  notable_components:
+    - Node.js
+    - Gemini API
+    - Model Context Protocol
+
+license:
+  spdx: Apache-2.0
+  name: Apache License 2.0
+  notes: >-
+    Permissive license; redistributions must retain the required copyright,
+    license, and NOTICE information described by Apache-2.0.
+
+status:
+  lifecycle: active
+  archived: false
+  latest_release: v0.51.0
+  latest_release_at: 2026-07-16
+
+strengths:
+  - Combines a terminal-first coding agent with a broad built-in tool set
+  - Supports both interactive sessions and structured output for automation
+  - MCP support lets teams add tools without forking the CLI
+
+caveats:
+  - Model access requires an internet connection and a supported Google, API-key, or Vertex AI authentication path
+  - Tool execution can alter files or run commands, so approval and sandbox settings need review for each workspace
+  - The release feed also contains newer preview and nightly builds; v0.51.0 is the newest stable release retained in the feed
+
+sources:
+  - https://raw.githubusercontent.com/google-gemini/gemini-cli/acae7124bdd849e554eaa5e090199a0cf08cd782/README.md
+  - https://raw.githubusercontent.com/google-gemini/gemini-cli/acae7124bdd849e554eaa5e090199a0cf08cd782/docs/get-started/installation.mdx
+  - https://raw.githubusercontent.com/google-gemini/gemini-cli/acae7124bdd849e554eaa5e090199a0cf08cd782/docs/reference/configuration.md
+  - https://raw.githubusercontent.com/google-gemini/gemini-cli/acae7124bdd849e554eaa5e090199a0cf08cd782/LICENSE
+  - https://github.com/google-gemini/gemini-cli/releases.atom

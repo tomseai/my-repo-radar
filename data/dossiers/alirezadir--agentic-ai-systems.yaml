@@ -1,0 +1,83 @@
+schema_version: 2
+repository_id: github:alirezadir/Agentic-AI-Systems
+
+research:
+  state: complete
+  source_commit: 43e62b508c003982ad7cb7497f06c7613b222cca
+  bundle_collected_at: 2026-07-19T20:41:35.489Z
+  researched_at: 2026-07-20T00:38:52.900+02:00
+  confidence: high
+
+classification:
+  primary_category: documentation-and-learning
+  topics:
+    - ai-agents
+    - multi-agent
+    - llms
+    - agent-frameworks
+    - tutorials
+    - reference
+
+project:
+  name: Agentic AI Systems
+  kind: documentation
+  summary: >-
+    A curated, hands-on knowledge base for learning how to design and build
+    production-oriented AI agents and multi-agent systems, with foundations,
+    framework tutorials, system-design material, examples, and reference links.
+  best_for:
+    - Learners mapping the concepts and design choices behind agentic systems
+    - Developers comparing example workflows across several agent frameworks
+
+key_features:
+  - Foundation material covering generative AI concepts, LLMs, evaluation, and Python
+  - Tutorials and example code for OpenAI, LangGraph, LlamaIndex, LangChain, CrewAI, and Chainlit
+  - System-design material on architectures, layers, patterns, diagrams, and RAG variants
+  - Example use cases including customer support, document processing, research, and weather agents
+  - Curated resources plus interview-design frameworks, prompts, and practice templates
+
+usage:
+  interfaces:
+    - Markdown documentation
+    - Python example projects
+  installation:
+    - Browse the repository
+    - Clone the repository for individual examples
+  setup: low
+
+technology:
+  languages:
+    - Python
+  notable_components:
+    - OpenAI Agents SDK
+    - LangGraph
+    - LangChain
+    - LlamaIndex
+    - CrewAI
+
+license:
+  spdx: MIT
+  name: MIT License
+  notes: The repository is permissively licensed; individual examples can require third-party frameworks, services, or credentials.
+
+status:
+  lifecycle: active
+  archived: false
+  latest_release: null
+  latest_release_at: null
+
+strengths:
+  - Connects introductory concepts, architecture guidance, and runnable framework examples in one reference
+  - Covers both single-agent and multi-agent design without centering a single vendor or framework
+  - Includes concrete use-case directories alongside broader patterns and curated resources
+
+caveats:
+  - This is a learning and reference collection, not a unified agent framework or application
+  - Individual examples have separate dependencies, supported Python versions, and possible API-key requirements
+  - The retained release feed contains no published project release, so no latest release can be established
+
+sources:
+  - https://raw.githubusercontent.com/alirezadir/Agentic-AI-Systems/43e62b508c003982ad7cb7497f06c7613b222cca/README.md
+  - https://raw.githubusercontent.com/alirezadir/Agentic-AI-Systems/43e62b508c003982ad7cb7497f06c7613b222cca/LICENSE
+  - https://raw.githubusercontent.com/alirezadir/Agentic-AI-Systems/43e62b508c003982ad7cb7497f06c7613b222cca/02_frameworks/3_langgraph/code/requirements.txt
+  - https://github.com/alirezadir/Agentic-AI-Systems/releases.atom

@@ -1,0 +1,90 @@
+schema_version: 2
+repository_id: github:Infisical/agent-vault
+research:
+  state: complete
+  source_commit: 0df6d5dc5c01bf651d7bbf4ac68eabf5fe16fea9
+  bundle_collected_at: 2026-07-19T20:43:31.700Z
+  researched_at: 2026-07-20T15:31:31.792Z
+  confidence: high
+classification:
+  primary_category: security-and-privacy
+  topics:
+    - ai-agents
+    - tool-use
+    - security
+    - secrets-management
+    - authentication
+    - self-hosted
+    - containers
+    - observability
+project:
+  name: Agent Vault
+  kind: service
+  summary: >-
+    A self-hostable HTTP credential proxy and vault that lets AI agents call
+    external APIs through a MITM proxy, injecting stored credentials without
+    exposing the real values to the agent process.
+  best_for:
+    - Operators giving coding or custom agents controlled access to authenticated APIs
+    - Remote or ephemeral agent environments that need brokered, scoped credentials
+key_features:
+  - Substitutes dummy or absent authentication values with stored credentials at the proxy boundary
+  - Applies service and endpoint access rules, including an optional strict deny policy
+  - Logs authenticated requests for agent monitoring and diagnosis
+  - Supports named agents, vault roles, token rotation, and temporary vault-scoped sessions
+  - Provides a CLI, web management UI, HTTP API, Docker image, and TypeScript SDK
+  - Uses SQLite by default and supports PostgreSQL for shared multi-instance deployments
+
+usage:
+  interfaces:
+    - CLI
+    - web management UI
+    - HTTP API
+    - HTTP and HTTPS forward proxy
+    - TypeScript SDK
+  installation:
+    - install script for macOS and Linux
+    - Docker image
+    - build from source
+  setup: high
+
+technology:
+  languages:
+    - Go
+    - TypeScript
+  notable_components:
+    - SQLite
+    - PostgreSQL
+    - Docker
+    - React
+    - Vite
+
+license:
+  spdx: MIT
+  name: MIT Expat License
+  notes: Repository content outside any ee/ directory is MIT; any ee/ directory is governed by its own license.
+
+status:
+  lifecycle: experimental
+  archived: false
+  latest_release: v0.39.0
+  latest_release_at: 2026-06-24
+
+strengths:
+  - Avoids handing real API credentials directly to the agent runtime
+  - Works transparently with agents and tools that honor proxy environment variables
+  - Offers both quick local wrapping and token-based remote-agent deployment patterns
+
+caveats:
+  - The README labels Agent Vault a preview and says its API is subject to change
+  - Its security model requires deployment on a separate host from agents and keeping the credential-injecting proxy private
+  - The convenient vault run wrapper is explicitly not a sandbox; a child process can bypass its proxy settings
+  - MITM proxy operation requires managing the Agent Vault CA trust chain in agent environments
+  - Enterprise code, if present under ee/, is not licensed under the repository's MIT terms
+
+sources:
+  - https://raw.githubusercontent.com/Infisical/agent-vault/0df6d5dc5c01bf651d7bbf4ac68eabf5fe16fea9/README.md
+  - https://raw.githubusercontent.com/Infisical/agent-vault/0df6d5dc5c01bf651d7bbf4ac68eabf5fe16fea9/LICENSE
+  - https://raw.githubusercontent.com/Infisical/agent-vault/0df6d5dc5c01bf651d7bbf4ac68eabf5fe16fea9/docs/installation.mdx
+  - https://raw.githubusercontent.com/Infisical/agent-vault/0df6d5dc5c01bf651d7bbf4ac68eabf5fe16fea9/docs/agents/overview.mdx
+  - https://github.com/Infisical/agent-vault/releases.atom

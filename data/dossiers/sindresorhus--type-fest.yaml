@@ -1,0 +1,62 @@
+schema_version: 2
+repository_id: github:sindresorhus/type-fest
+research:
+  state: complete
+  source_commit: 48ddc4ba71cb215c3e3d98b0257360edc229fa75
+  bundle_collected_at: 2026-07-19T20:45:16.012Z
+  researched_at: 2026-07-20T16:05:00Z
+  confidence: high
+classification:
+  primary_category: developer-tools
+  topics:
+    - libraries
+    - developer-productivity
+project:
+  name: Type-Fest
+  kind: library
+  summary: >-
+    An ESM package of essential and utility TypeScript definitions for composing
+    stricter application types without adding a runtime implementation.
+  best_for:
+    - TypeScript projects needing reusable utility and deep-object types
+    - Teams that can adopt modern TypeScript with strict checking enabled
+key_features:
+  - Provides essential, primitive, and utility type definitions
+  - Includes deep object, key-selection, union, and conditional type helpers
+  - Exposes the main type collection and a globals entry point
+  - Can be installed as a dependency or individual types can be copied
+usage:
+  interfaces:
+    - TypeScript type imports
+    - TypeScript globals entry point
+  installation:
+    - npm package
+    - copy individual type definitions
+  setup: low
+technology:
+  languages:
+    - TypeScript
+  notable_components:
+    - ESM package exports
+    - declaration-only type definitions
+license:
+  spdx: (MIT OR CC0-1.0)
+  name: MIT or CC0-1.0 dual license
+  notes: The package declares a choice between MIT and CC0-1.0.
+status:
+  lifecycle: active
+  archived: false
+  latest_release: v5.8.0
+  latest_release_at: 2026-07-04
+strengths:
+  - Broad, documented collection of commonly needed type-level utilities
+  - No runtime API is required for normal use
+  - Supports dependency installation or selective copying of types
+caveats:
+  - Requires TypeScript 5.9 or newer, ESM, and strict mode
+  - The README documents the development version and directs users to npm for the latest released documentation
+  - It supplies types only; runtime behavior must come from the consuming project or another library
+sources:
+  - https://raw.githubusercontent.com/sindresorhus/type-fest/48ddc4ba71cb215c3e3d98b0257360edc229fa75/readme.md
+  - https://raw.githubusercontent.com/sindresorhus/type-fest/48ddc4ba71cb215c3e3d98b0257360edc229fa75/package.json
+  - https://github.com/sindresorhus/type-fest/releases.atom

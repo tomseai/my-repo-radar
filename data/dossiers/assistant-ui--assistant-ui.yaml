@@ -1,0 +1,74 @@
+schema_version: 2
+repository_id: github:assistant-ui/assistant-ui
+research:
+  state: complete
+  source_commit: 7fde141c094d122034804f9b9e19b4f17fb516ba
+  bundle_collected_at: 2026-07-19T20:41:50.292Z
+  researched_at: 2026-07-19T22:13:18.417Z
+  confidence: high
+classification:
+  primary_category: frontend-and-design
+  topics:
+    - chat-ui
+    - generative-ui
+    - ui-components
+    - llms
+    - tool-use
+    - web-ui
+project:
+  name: assistant-ui
+  kind: library
+  summary: >-
+    A TypeScript and React library for composing production AI chat interfaces
+    from UI primitives and runtime adapters.
+  best_for:
+    - React teams building custom AI chat or copilot experiences
+    - Projects that need to connect a chat UI to the AI SDK, agent frameworks, or a custom backend
+key_features:
+  - Composable Thread, Message, Composer, ThreadList, and ActionBar primitives
+  - Styled Base UI or Radix UI starter components installed by its CLI
+  - Streaming chat UX with retries, attachments, markdown, code highlighting, voice dictation, and accessibility
+  - Generative UI for tool calls, JSON, inline human approvals, and frontend actions
+  - Typed runtime adapters for the Vercel AI SDK, LangGraph, LangChain, AG-UI, A2A, and custom data streams
+usage:
+  interfaces:
+    - React component library
+    - CLI
+    - npm packages
+  installation:
+    - npx assistant-ui@latest create
+    - npx assistant-ui@latest init
+    - npm packages
+  setup: moderate
+technology:
+  languages:
+    - TypeScript
+  notable_components:
+    - React
+    - Vercel AI SDK
+    - LangGraph
+    - LangChain
+    - AG-UI
+    - A2A
+license:
+  spdx: MIT
+  name: MIT License
+  notes: The repository is MIT-licensed; Assistant Cloud is an optional managed service for thread persistence and analytics.
+status:
+  lifecycle: active
+  archived: false
+  latest_release: assistant-ui@0.0.106
+  latest_release_at: "2026-07-16"
+strengths:
+  - Provides polished chat UX while retaining control over component composition and styling
+  - Supports several popular backend and agent integrations without locking the UI to one provider
+  - Offers a fast CLI path as well as direct package integration
+caveats:
+  - It is a React-focused UI layer, so a backend or runtime integration is still required
+  - Managed history, telemetry, and file storage are offered through the optional Assistant Cloud service
+  - The release feed publishes individual package versions; latest_release selects the primary assistant-ui package rather than the newest auxiliary package entry
+sources:
+  - https://raw.githubusercontent.com/assistant-ui/assistant-ui/7fde141c094d122034804f9b9e19b4f17fb516ba/README.md
+  - https://raw.githubusercontent.com/assistant-ui/assistant-ui/7fde141c094d122034804f9b9e19b4f17fb516ba/LICENSE
+  - https://raw.githubusercontent.com/assistant-ui/assistant-ui/7fde141c094d122034804f9b9e19b4f17fb516ba/package.json
+  - https://github.com/assistant-ui/assistant-ui/releases.atom

@@ -1,0 +1,90 @@
+schema_version: 2
+repository_id: github:droidrun/mobilerun
+research:
+  state: complete
+  source_commit: 5eaaf46344705cb62829d3334176917bee79331b
+  bundle_collected_at: 2026-07-19T20:42:44.404Z
+  researched_at: 2026-07-20T17:22:59.2612414+02:00
+  confidence: high
+classification:
+  primary_category: ai-and-automation
+  topics:
+    - ai-agents
+    - mobile-app
+    - mobile-development
+    - computer-use
+    - tool-use
+    - multi-provider
+    - observability
+    - tracing
+    - cli
+
+project:
+  name: Mobilerun
+  kind: framework
+  summary: >-
+    A Python framework for LLM agents that control Android and iOS devices with
+    mobile-native UI tools through a CLI, terminal UI, Docker, or Python API.
+  best_for:
+    - Automating and testing workflows on locally connected mobile devices
+    - Building mobile agents that need UI-tree, screenshot, gesture, and app-control tools
+
+key_features:
+  - Controls device UI through taps, swipes, text input, app launching, and device-state tools
+  - Combines accessibility trees and screenshots, with vision and screenshot-only modes
+  - Offers direct execution and manager-executor reasoning modes for multi-step tasks
+  - Supports OpenAI, Anthropic, Gemini, Ollama, DeepSeek, OpenRouter, and compatible models
+  - Extends workflows with custom tools, app cards, credentials, and structured Pydantic output
+  - Records trajectories and integrates tracing with Arize Phoenix or Langfuse
+
+usage:
+  interfaces:
+    - CLI
+    - terminal UI
+    - Python API
+    - Docker container
+  installation:
+    - uv tool installation
+    - uv Python package installation
+    - Docker image build
+  setup: high
+
+technology:
+  languages:
+    - Python
+  notable_components:
+    - LlamaIndex workflows
+    - Model Context Protocol
+    - Pydantic
+    - Android Debug Bridge
+    - Arize Phoenix
+
+license:
+  spdx: MIT
+  name: MIT License
+  notes: Permissive license; copyright and license notices must be retained, and the software is provided without warranty.
+
+status:
+  lifecycle: active
+  archived: false
+  latest_release: v0.6.11
+  latest_release_at: 2026-07-16
+
+strengths:
+  - Provides both code-level and command-line entry points for mobile-agent workflows
+  - Supports visual and accessibility-based device understanding rather than relying on one signal
+  - Includes configurable multi-provider models and execution tracing
+
+caveats:
+  - Android local control requires ADB, developer options, USB debugging, and the Portal accessibility app
+  - iOS follows a separate Portal setup path; the retained quickstart documents Android prerequisites in detail
+  - Running real tasks requires configuring an LLM provider and its credentials, with associated provider terms or costs
+  - Python 3.14 is unsupported; the documented supported range is Python 3.11 through 3.13
+
+sources:
+  - https://raw.githubusercontent.com/droidrun/mobilerun/5eaaf46344705cb62829d3334176917bee79331b/README.md
+  - https://raw.githubusercontent.com/droidrun/mobilerun/5eaaf46344705cb62829d3334176917bee79331b/docs/quickstart.mdx
+  - https://raw.githubusercontent.com/droidrun/mobilerun/5eaaf46344705cb62829d3334176917bee79331b/docs/concepts/architecture.mdx
+  - https://raw.githubusercontent.com/droidrun/mobilerun/5eaaf46344705cb62829d3334176917bee79331b/pyproject.toml
+  - https://raw.githubusercontent.com/droidrun/mobilerun/5eaaf46344705cb62829d3334176917bee79331b/LICENSE
+  - https://github.com/droidrun/mobilerun/releases.atom

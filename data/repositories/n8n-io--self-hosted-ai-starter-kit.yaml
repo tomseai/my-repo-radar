@@ -1,0 +1,74 @@
+analysis:
+  analyzed_at: "2026-07-19T19:42:52.223Z"
+  classification:
+    primary_category: "ai-and-automation"
+    state: "confirmed"
+    technologies:
+      - "docker"
+      - "postgres"
+    topics:
+      - "ai-agents"
+      - "llms"
+      - "self-hosted"
+      - "open-source"
+    use_cases:
+      - "build-ai-products"
+      - "run-personal-or-team-tools"
+  evidence:
+    - claim: "The Self-hosted AI Starter Kit is an open-source Docker Compose template that combines self-hosted n8n, Ollama, Qdrant, and PostgreSQL to create local AI and low-code workflow environments."
+      source_type: "repository-file"
+      url: "https://github.com/n8n-io/self-hosted-ai-starter-kit/blob/main/README.md"
+      checked_at: "2026-07-19"
+      confidence: "high"
+  state: "complete"
+  summary:
+    one_line: "A Docker Compose starter template for running local, self-hosted AI and low-code workflows."
+    why_useful: "It assembles n8n, local language models, vector storage, and PostgreSQL for prototyping self-hosted AI workflows."
+curation:
+  confidence: null
+  evidence: []
+  limitations: []
+  recommendation: null
+  reviewed_at: null
+  state: "uncurated"
+  strengths: []
+  verdict: null
+id: "github:n8n-io/self-hosted-ai-starter-kit"
+import:
+  github_snapshot:
+    archived: false
+    created_at: "2024-02-23T13:56:32Z"
+    default_branch: "main"
+    description: "The Self-hosted AI Starter Kit is an open-source template that quickly sets up a local AI environment. Curated by n8n, it provides essential tools for creating secure, self-hosted AI workflows."
+    disabled: false
+    fetched_at: "2026-07-19T19:16:14.796Z"
+    fork: false
+    forks: 3793
+    homepage: "https://n8n.io"
+    latest_release: null
+    license_spdx: "Apache-2.0"
+    open_issues: 6
+    primary_language: null
+    pushed_at: "2026-01-06T14:08:21Z"
+    stars: 15094
+    topics:
+      - "ai"
+      - "ai-agents"
+      - "low-code"
+      - "self-hosted"
+      - "starter-kit"
+    updated_at: "2026-07-19T15:44:10Z"
+  sources:
+    - observed_at: "2025-04-13T12:36:07Z"
+      relation: "starred"
+      source_id: "github:user:tomseai:stars"
+      source_url: "https://github.com/tomseai?tab=stars"
+  state: "imported"
+repository:
+  aliases: []
+  github_node_id: "R_kgDOLW_U8A"
+  host: "github.com"
+  name: "self-hosted-ai-starter-kit"
+  owner: "n8n-io"
+  url: "https://github.com/n8n-io/self-hosted-ai-starter-kit"
+version: 1

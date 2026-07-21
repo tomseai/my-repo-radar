@@ -1,0 +1,78 @@
+schema_version: 2
+repository_id: github:arunalabs/mode
+research:
+  state: complete
+  source_commit: d4fce04a9b8347907b9af2db7380b51bb7f7f4e1
+  bundle_collected_at: 2026-07-19T20:41:43.784Z
+  researched_at: 2026-07-20T00:40:00+02:00
+  confidence: medium
+classification:
+  primary_category: ai-and-automation
+  topics:
+    - coding-agents
+    - code-generation
+    - multi-provider
+    - local-models
+    - developer-productivity
+project:
+  name: Mode
+  kind: plugin
+  summary: >-
+    A Visual Studio Code extension that provides chat, autonomous coding,
+    contextual file and image input, suggestion application, and experimental
+    autocomplete while connecting directly to configured hosted, local, or
+    VS Code language-model providers.
+  best_for:
+    - VS Code users who want a configurable coding-assistant extension
+    - Developers bringing their own provider API keys or running supported local models
+key_features:
+  - Opens a contextual coding chat that can include the current file, selected code, and open editors
+  - Supports autonomous coding and applies suggested code changes through Auto Merge
+  - Configures hosted providers and local models such as Ollama and LM Studio
+  - Integrates with the VS Code language-model API for eligible GitHub Copilot users
+  - Provides experimental autocomplete alongside chat and coding workflows
+usage:
+  interfaces:
+    - Visual Studio Code extension
+    - chat webview
+    - command palette
+    - extension settings
+  installation:
+    - Visual Studio Marketplace extension
+    - source build as a VS Code extension
+  setup: moderate
+technology:
+  languages:
+    - TypeScript
+  notable_components:
+    - Visual Studio Code extension API
+    - VS Code language-model API
+    - GitHub Copilot Chat integration
+    - Ollama and LM Studio local-model configuration
+license:
+  spdx: MIT
+  name: MIT License
+  notes: >-
+    Permissive license that requires retaining the copyright and permission
+    notice in copies or substantial portions; the software is supplied without warranty.
+status:
+  lifecycle: unknown
+  archived: false
+  latest_release: 1.0.35
+  latest_release_at: 2025-05-26
+strengths:
+  - Keeps provider selection in the extension configuration, including direct hosted and local-model options
+  - Combines code-context chat, change application, provider configuration, and autocomplete in the VS Code workflow
+  - Documents both API-key setup and the eligible GitHub Copilot language-model path
+caveats:
+  - Hosted providers require a user-supplied API key unless using local models or the supported Copilot path
+  - Auto Merge and autocomplete are described as experimental, and the documentation recommends particular providers for change application
+  - The retained GitHub release feed has no entries; version 1.0.35 and its date come from the root package and changelog rather than a GitHub Release
+  - The README and user manual link to modedevteam/mode while this retained repository is arunalabs/mode, and the bundle does not explain that relationship
+sources:
+  - https://raw.githubusercontent.com/arunalabs/mode/d4fce04a9b8347907b9af2db7380b51bb7f7f4e1/README.md
+  - https://raw.githubusercontent.com/arunalabs/mode/d4fce04a9b8347907b9af2db7380b51bb7f7f4e1/docs/usermanual.md
+  - https://raw.githubusercontent.com/arunalabs/mode/d4fce04a9b8347907b9af2db7380b51bb7f7f4e1/package.json
+  - https://raw.githubusercontent.com/arunalabs/mode/d4fce04a9b8347907b9af2db7380b51bb7f7f4e1/CHANGELOG.md
+  - https://raw.githubusercontent.com/arunalabs/mode/d4fce04a9b8347907b9af2db7380b51bb7f7f4e1/LICENSE.md
+  - https://github.com/arunalabs/mode/releases.atom

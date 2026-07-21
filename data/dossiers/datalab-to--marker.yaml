@@ -1,0 +1,78 @@
+schema_version: 2
+repository_id: github:datalab-to/marker
+research:
+  state: complete
+  source_commit: ef16c2caa29d76f3ca3126944d2e1be79f560bda
+  bundle_collected_at: 2026-07-19T20:42:29.503Z
+  researched_at: 2026-07-20T17:12:30.5983166+02:00
+  confidence: medium
+classification:
+  primary_category: ai-and-automation
+  topics:
+    - document-processing
+    - machine-learning
+    - cli
+    - data-processing
+    - llms
+project:
+  name: marker
+  kind: library
+  summary: >-
+    A Python document-intelligence library and command-line converter that turns
+    PDFs, images, office documents, HTML, and EPUB files into structured
+    Markdown, JSON, chunks, or HTML while extracting document structure and images.
+  best_for:
+    - Developers preparing heterogeneous documents for search, RAG, or data pipelines
+    - Python users needing configurable document conversion with local or optional LLM assistance
+key_features:
+  - Converts PDF, image, PPTX, DOCX, XLSX, HTML, and EPUB inputs across languages
+  - Preserves or formats tables, forms, equations, math, links, references, code blocks, and extracted images
+  - Provides CLI commands for individual files, directories, chunks, a Streamlit UI, and a small API server
+  - Supports optional LLM-assisted conversion through Gemini, Vertex, Ollama, Claude, OpenAI-compatible, and Azure OpenAI services
+usage:
+  interfaces:
+    - command-line interface
+    - Python API
+    - Streamlit interactive application
+    - optional FastAPI server
+  installation:
+    - pip install marker-pdf
+    - pip install marker-pdf[full] for non-PDF document dependencies
+    - Install Python 3.10 or newer and PyTorch
+  setup: moderate
+technology:
+  languages:
+    - Python
+  notable_components:
+    - PyTorch
+    - Transformers
+    - Surya OCR
+    - FastAPI
+    - Streamlit
+license:
+  spdx: GPL-3.0-or-later
+  name: GNU General Public License v3 or later
+  notes: >-
+    The repository code is GPL-3.0-or-later; its model weights use a modified
+    AI Pubs OpenRAIL-M license that the README limits to research, personal use,
+    and startups below $2M funding or revenue without broader commercial licensing.
+status:
+  lifecycle: active
+  archived: false
+  latest_release: v1.10.2
+  latest_release_at: 2026-01-31
+strengths:
+  - Accepts a broad range of document types and provides several structured output formats
+  - Offers CLI, Python, interactive UI, and small-server interfaces from the same package
+  - Allows optional LLM assistance and custom processors, renderers, providers, and configuration
+caveats:
+  - GPL code and separately restricted model-weight terms can affect redistribution and commercial deployment
+  - Complex nested tables and forms are documented limitations, though OCR and LLM options may help
+  - Multiple workers can consume substantial GPU memory; the README cites about 5 GB peak VRAM per worker
+  - The built-in API server is documented as suitable only for small-scale use
+sources:
+  - https://raw.githubusercontent.com/datalab-to/marker/ef16c2caa29d76f3ca3126944d2e1be79f560bda/README.md
+  - https://raw.githubusercontent.com/datalab-to/marker/ef16c2caa29d76f3ca3126944d2e1be79f560bda/LICENSE
+  - https://raw.githubusercontent.com/datalab-to/marker/ef16c2caa29d76f3ca3126944d2e1be79f560bda/pyproject.toml
+  - https://raw.githubusercontent.com/datalab-to/marker/ef16c2caa29d76f3ca3126944d2e1be79f560bda/examples/README.md
+  - https://github.com/datalab-to/marker/releases.atom

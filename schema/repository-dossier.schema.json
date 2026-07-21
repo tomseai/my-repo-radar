@@ -1,0 +1,141 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/tomseai/my-repo-radar/schema/repository-dossier.schema.json",
+  "title": "Compact repository dossier",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "repository_id",
+    "research",
+    "classification",
+    "project",
+    "key_features",
+    "usage",
+    "technology",
+    "license",
+    "status",
+    "strengths",
+    "caveats",
+    "sources"
+  ],
+  "properties": {
+    "schema_version": { "const": 2 },
+    "repository_id": { "type": "string", "pattern": "^github:[^/]+/[^/]+$" },
+    "research": { "$ref": "#/$defs/research" },
+    "classification": { "$ref": "#/$defs/classification" },
+    "project": { "$ref": "#/$defs/project" },
+    "key_features": { "$ref": "#/$defs/uniqueStrings" },
+    "usage": { "$ref": "#/$defs/usage" },
+    "technology": { "$ref": "#/$defs/technology" },
+    "license": { "$ref": "#/$defs/license" },
+    "status": { "$ref": "#/$defs/status" },
+    "strengths": { "$ref": "#/$defs/uniqueStrings" },
+    "caveats": { "$ref": "#/$defs/uniqueStrings" },
+    "sources": {
+      "type": "array",
+      "items": { "type": "string", "format": "uri" },
+      "uniqueItems": true
+    }
+  },
+  "$defs": {
+    "nullableString": { "type": ["string", "null"] },
+    "uniqueStrings": {
+      "type": "array",
+      "items": { "type": "string", "minLength": 1 },
+      "uniqueItems": true
+    },
+    "research": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["state", "source_commit", "bundle_collected_at", "researched_at", "confidence"],
+      "properties": {
+        "state": { "enum": ["queued", "researching", "needs-review", "complete", "stale"] },
+        "source_commit": { "type": "string", "pattern": "^[0-9a-f]{40}$" },
+        "bundle_collected_at": { "type": "string", "format": "date-time" },
+        "researched_at": {
+          "oneOf": [
+            { "type": "string", "format": "date-time" },
+            { "type": "null" }
+          ]
+        },
+        "confidence": { "type": ["string", "null"], "enum": [null, "low", "medium", "high"] }
+      }
+    },
+    "classification": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["primary_category", "topics"],
+      "properties": {
+        "primary_category": { "type": ["string", "null"] },
+        "topics": { "$ref": "#/$defs/uniqueStrings" }
+      }
+    },
+    "project": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["name", "kind", "summary", "best_for"],
+      "properties": {
+        "name": { "type": "string", "minLength": 1 },
+        "kind": {
+          "type": ["string", "null"],
+          "enum": [
+            null, "application", "library", "framework", "cli", "service", "protocol",
+            "plugin", "starter-template", "curated-list", "documentation", "course",
+            "dataset", "model", "infrastructure", "monorepo", "other"
+          ]
+        },
+        "summary": { "$ref": "#/$defs/nullableString" },
+        "best_for": { "$ref": "#/$defs/uniqueStrings" }
+      }
+    },
+    "usage": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["interfaces", "installation", "setup"],
+      "properties": {
+        "interfaces": { "$ref": "#/$defs/uniqueStrings" },
+        "installation": { "$ref": "#/$defs/uniqueStrings" },
+        "setup": { "type": ["string", "null"], "enum": [null, "low", "moderate", "high", "unknown"] }
+      }
+    },
+    "technology": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["languages", "notable_components"],
+      "properties": {
+        "languages": { "$ref": "#/$defs/uniqueStrings" },
+        "notable_components": { "$ref": "#/$defs/uniqueStrings" }
+      }
+    },
+    "license": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["spdx", "name", "notes"],
+      "properties": {
+        "spdx": { "$ref": "#/$defs/nullableString" },
+        "name": { "$ref": "#/$defs/nullableString" },
+        "notes": { "$ref": "#/$defs/nullableString" }
+      }
+    },
+    "status": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["lifecycle", "archived", "latest_release", "latest_release_at"],
+      "properties": {
+        "lifecycle": {
+          "type": ["string", "null"],
+          "enum": [null, "experimental", "active", "maintenance", "deprecated", "archived", "unknown"]
+        },
+        "archived": { "type": ["boolean", "null"] },
+        "latest_release": { "$ref": "#/$defs/nullableString" },
+        "latest_release_at": {
+          "oneOf": [
+            { "type": "string", "format": "date" },
+            { "type": "null" }
+          ]
+        }
+      }
+    }
+  }
+}

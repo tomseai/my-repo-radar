@@ -1,0 +1,84 @@
+schema_version: 2
+repository_id: github:bubbuild/bub
+research:
+  state: complete
+  source_commit: cda8d6c9ab33af19e0223a8608af3cf0b410de1d
+  bundle_collected_at: 2026-07-19T20:41:59.574Z
+  researched_at: 2026-07-20T00:39:13.3818923+02:00
+  confidence: high
+
+classification:
+  primary_category: ai-and-automation
+  topics:
+    - ai-agents
+    - agent-frameworks
+    - agent-skills
+    - agent-memory
+    - cli
+    - tool-use
+    - automation
+
+project:
+  name: Bub
+  kind: framework
+  summary: >-
+    A small hook-first Python runtime for agents and people in shared
+    conversational environments, using an inspectable turn pipeline, append-only
+    context records, and adapters for command-line, Telegram, and custom channels.
+  best_for:
+    - Developers building extensible agents that share conversations with people
+    - Teams that want explicit, replayable context rather than hidden session state
+
+key_features:
+  - Replaceable pluggy hooks for every inbound-message turn stage
+  - Append-only tape context that can be inspected, replayed, and handed off
+  - One runtime model for CLI, Telegram, and custom channel adapters
+  - Built-in tools, skills, model execution, and plugin dependency management
+  - CLI modes for chat, one-shot tasks, and channel-listener operation
+
+usage:
+  interfaces:
+    - CLI
+    - Telegram channel
+    - Docker container
+  installation:
+    - pip package
+    - source checkout with uv
+    - Docker Compose
+  setup: moderate
+
+technology:
+  languages:
+    - Python
+  notable_components:
+    - pluggy
+    - Agent Skills
+    - any-llm-sdk
+
+license:
+  spdx: Apache-2.0
+  name: Apache License 2.0
+  notes: Includes the Apache-2.0 patent grant and its standard notice-retention conditions.
+
+status:
+  lifecycle: active
+  archived: false
+  latest_release: 0.4.0
+  latest_release_at: 2026-07-17
+
+strengths:
+  - Makes message processing and extension points visible instead of framework-private
+  - Keeps human and agent interactions within the same runtime model
+  - Allows channel adapters without changing the core turn pipeline
+
+caveats:
+  - Requires Python 3.12 or newer and a configured LLM provider or OpenAI Codex login
+  - Extending behavior requires writing and packaging pluggy-compatible Python plugins
+  - Telegram and other external channels require separate channel configuration and credentials
+
+sources:
+  - https://raw.githubusercontent.com/bubbuild/bub/cda8d6c9ab33af19e0223a8608af3cf0b410de1d/README.md
+  - https://raw.githubusercontent.com/bubbuild/bub/cda8d6c9ab33af19e0223a8608af3cf0b410de1d/pyproject.toml
+  - https://raw.githubusercontent.com/bubbuild/bub/cda8d6c9ab33af19e0223a8608af3cf0b410de1d/Dockerfile
+  - https://raw.githubusercontent.com/bubbuild/bub/cda8d6c9ab33af19e0223a8608af3cf0b410de1d/LICENSE
+  - https://github.com/bubbuild/bub/releases.atom

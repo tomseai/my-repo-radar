@@ -1,0 +1,89 @@
+schema_version: 2
+repository_id: github:getagentseal/codeburn
+research:
+  state: complete
+  source_commit: 3472885629c41725b40c19c0780ecce148b067bf
+  bundle_collected_at: 2026-07-19T20:43:05.811Z
+  researched_at: 2026-07-20T17:34:00+02:00
+  confidence: high
+classification:
+  primary_category: developer-tools
+  topics:
+    - coding-agents
+    - cli
+    - tui
+    - web-ui
+    - desktop-app
+    - local-first
+    - observability
+    - token-usage
+    - cost-management
+    - mcp
+project:
+  name: CodeBurn
+  kind: cli
+  summary: >-
+    A local-first CLI and set of dashboards that reads AI coding-tool session
+    data from disk to report token use and estimated cost by task, model, tool,
+    and project.
+  best_for:
+    - Developers comparing AI coding-agent spend across local tools and models
+    - Teams seeking local reports and budget-analysis tools without a request proxy
+key_features:
+  - Reads local session data for 36 supported AI tools and agents
+  - Provides an interactive terminal dashboard, reports, JSON output, and a localhost web dashboard
+  - Breaks down usage by task, model, tool, project, date range, and token category
+  - Identifies waste patterns and offers reversible Claude Code configuration changes
+  - Compares models and correlates sessions with nearby Git commits using a timestamp-window heuristic
+  - Exposes local usage and savings analysis through a stdio MCP server
+usage:
+  interfaces:
+    - CLI
+    - terminal UI
+    - local web dashboard
+    - macOS menu-bar app
+    - MCP server
+  installation:
+    - npx codeburn
+    - npm global package
+    - Homebrew on macOS
+    - Desktop release download
+  setup: low
+technology:
+  languages:
+    - TypeScript
+    - Swift
+  notable_components:
+    - Node.js
+    - LiteLLM pricing data
+    - Model Context Protocol
+license:
+  spdx: MIT
+  name: MIT License
+  notes: >-
+    Permissive license requiring preservation of the copyright and permission
+    notice; the software is provided without warranty.
+
+status:
+  lifecycle: active
+  archived: false
+  latest_release: v0.9.16
+  latest_release_at: 2026-07-17
+
+strengths:
+  - Keeps session parsing and the web dashboard on the user's machine; the dashboard binds to localhost
+  - Offers several interfaces over the same local data, including MCP for agent-assisted spend analysis
+  - Includes actionable cost controls, model comparison, export, and diagnostic commands
+
+caveats:
+  - Requires Node.js 22.13+ and local session data from at least one supported tool
+  - Parsed fields and cost accuracy depend on each upstream tool's changing local data formats; some providers require estimation
+  - The Git-commit yield classification is explicitly timestamp-window based and can be ambiguous for concurrent work
+  - Desktop and menu-bar releases are versioned separately; v0.9.16 is the latest primary CLI package release in the retained feed
+
+sources:
+  - https://raw.githubusercontent.com/getagentseal/codeburn/3472885629c41725b40c19c0780ecce148b067bf/README.md
+  - https://raw.githubusercontent.com/getagentseal/codeburn/3472885629c41725b40c19c0780ecce148b067bf/LICENSE
+  - https://raw.githubusercontent.com/getagentseal/codeburn/3472885629c41725b40c19c0780ecce148b067bf/package.json
+  - https://raw.githubusercontent.com/getagentseal/codeburn/3472885629c41725b40c19c0780ecce148b067bf/docs/architecture.md
+  - https://github.com/getagentseal/codeburn/releases.atom

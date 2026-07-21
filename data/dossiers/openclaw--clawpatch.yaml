@@ -1,0 +1,77 @@
+schema_version: 2
+repository_id: github:openclaw/clawpatch
+research:
+  state: complete
+  source_commit: 041bf4bfd67029d5dfa70c27e8ad832e246b6cfe
+  bundle_collected_at: 2026-07-19T20:44:39.341Z
+  researched_at: 2026-07-20T17:52:16.374+02:00
+  confidence: high
+classification:
+  primary_category: ai-and-automation
+  topics:
+    - coding-agents
+    - code-review
+    - cli
+    - git
+    - automation
+    - testing
+    - open-source
+project:
+  name: Clawpatch
+  kind: cli
+  summary: >-
+    An early command-line tool that maps a codebase into feature slices, reviews
+    them through a local coding-agent provider, records findings, and supports an
+    explicit, validated patch attempt for one selected finding.
+  best_for:
+    - Teams wanting an agent-assisted review workflow with persisted, inspectable findings
+    - Developers who want to review and manually approve generated fixes in Git repositories
+key_features:
+  - Maps repository structure and language-specific features before review
+  - Runs provider-backed reviews in parallel and persists findings under .clawpatch/
+  - Produces Markdown or JSON reports and supports triage and revalidation of findings
+  - Runs an explicit single-finding fix loop with configured validation commands
+  - Can commit an applied patch attempt and open a draft pull request only through an explicit command
+usage:
+  interfaces:
+    - Command-line interface
+    - JSON and Markdown report output
+  installation:
+    - Install globally with pnpm add -g clawpatch
+    - Build from source with pnpm install, pnpm build, and pnpm link --global
+  setup: moderate
+technology:
+  languages:
+    - TypeScript
+  notable_components:
+    - Node.js 22 or later
+    - pnpm
+    - Codex CLI provider
+    - ACP-compatible coding-agent providers
+license:
+  spdx: MIT
+  name: MIT License
+  notes: >-
+    Permissive license requiring preservation of the copyright and permission
+    notice in copies or substantial portions; it is provided without warranty.
+status:
+  lifecycle: experimental
+  archived: false
+  latest_release: v0.7.0
+  latest_release_at: 2026-06-15
+strengths:
+  - Review state, feature records, findings, and patch attempts are stored locally for auditability
+  - The default review and revalidation paths use read-only provider constraints
+  - The documented workflow keeps patch selection, review, commit, and pull-request creation explicit
+caveats:
+  - The project identifies itself as an early CLI; deeper framework mappers and agent-assisted enrichment are future work
+  - A fix can modify the working tree and requires manual inspection and testing before committing
+  - "Some provider safety depends on the underlying agent: ACP agents that bypass their own permissions may not be strictly sandboxed"
+  - Automatic commits, pull requests, landing changes, rollback snapshots, and global process locks are not implemented
+sources:
+  - https://raw.githubusercontent.com/openclaw/clawpatch/041bf4bfd67029d5dfa70c27e8ad832e246b6cfe/README.md
+  - https://raw.githubusercontent.com/openclaw/clawpatch/041bf4bfd67029d5dfa70c27e8ad832e246b6cfe/docs/quickstart.md
+  - https://raw.githubusercontent.com/openclaw/clawpatch/041bf4bfd67029d5dfa70c27e8ad832e246b6cfe/docs/safety.md
+  - https://raw.githubusercontent.com/openclaw/clawpatch/041bf4bfd67029d5dfa70c27e8ad832e246b6cfe/LICENSE
+  - https://raw.githubusercontent.com/openclaw/clawpatch/041bf4bfd67029d5dfa70c27e8ad832e246b6cfe/package.json
+  - https://github.com/openclaw/clawpatch/releases.atom

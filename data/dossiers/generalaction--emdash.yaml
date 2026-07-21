@@ -1,0 +1,79 @@
+schema_version: 2
+repository_id: github:generalaction/emdash
+research:
+  state: complete
+  source_commit: c1af543f17241769c5cce29ab66cd47442d9d593
+  bundle_collected_at: 2026-07-19T20:43:01.742Z
+  researched_at: 2026-07-20T15:23:49.960Z
+  confidence: high
+classification:
+  primary_category: ai-and-automation
+  topics:
+    - ai-agents
+    - coding-agents
+    - parallel-agents
+    - agent-development-environments
+    - automation
+    - git
+    - worktrees
+    - desktop-app
+    - remote-control
+project:
+  name: emdash
+  kind: application
+  summary: >-
+    A local-first desktop environment for running AI coding agents in parallel
+    in isolated Git worktrees, then reviewing and integrating their changes.
+  best_for:
+    - Developers managing several coding-agent tasks across local or SSH-connected projects
+    - Teams that want ticket intake, change review, and pull-request workflows in one desktop app
+key_features:
+  - Run several coding agents concurrently without manually managing terminals
+  - Isolate each task in its own Git worktree and branch
+  - Send tickets from issue trackers and project-management tools to an agent
+  - Review diffs, inspect CI checks, create pull requests, and merge changes
+  - Detect supported local agent CLIs and use the installed provider
+  - Connect to remote projects through SSH/SFTP
+usage:
+  interfaces:
+    - desktop GUI
+    - Git worktrees
+    - SSH/SFTP remote projects
+  installation:
+    - Homebrew cask
+    - macOS disk image
+    - Windows installer or portable executable
+    - Linux AppImage or Debian package
+  setup: moderate
+technology:
+  languages:
+    - TypeScript
+  notable_components:
+    - Electron
+    - React
+    - SQLite
+    - SSH
+license:
+  spdx: Apache-2.0
+  name: Apache License 2.0
+  notes: null
+status:
+  lifecycle: active
+  archived: false
+  latest_release: v1.1.40
+  latest_release_at: 2026-07-17
+strengths:
+  - Keeps concurrent agent work isolated with Git worktrees
+  - Consolidates task intake, review, pull requests, and CI status in a desktop workflow
+  - Can operate locally or against user-controlled machines over SSH
+caveats:
+  - It relies on separately installed coding-agent CLIs and their provider accounts or configuration
+  - Connected agent providers may receive code, prompts, and context under their own data-handling policies
+  - Remote-project use requires SSH/SFTP access and authentication setup
+sources:
+  - https://raw.githubusercontent.com/generalaction/emdash/c1af543f17241769c5cce29ab66cd47442d9d593/README.md
+  - https://raw.githubusercontent.com/generalaction/emdash/c1af543f17241769c5cce29ab66cd47442d9d593/LICENSE.md
+  - https://raw.githubusercontent.com/generalaction/emdash/c1af543f17241769c5cce29ab66cd47442d9d593/package.json
+  - https://raw.githubusercontent.com/generalaction/emdash/c1af543f17241769c5cce29ab66cd47442d9d593/CONTRIBUTING.md
+  - https://raw.githubusercontent.com/generalaction/emdash/c1af543f17241769c5cce29ab66cd47442d9d593/apps/emdash-desktop/package.json
+  - https://github.com/generalaction/emdash/releases.atom

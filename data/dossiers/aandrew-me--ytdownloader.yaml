@@ -1,0 +1,71 @@
+schema_version: 2
+repository_id: github:aandrew-me/ytDownloader
+research:
+  state: complete
+  source_commit: 716b3b87dfce6709dc1469ee414867140fd49072
+  bundle_collected_at: 2026-07-19T20:41:20.078Z
+  researched_at: 2026-07-19T22:19:53.606Z
+  confidence: high
+classification:
+  primary_category: platforms-and-applications
+  topics:
+    - desktop-app
+    - open-source
+project:
+  name: ytDownloader
+  kind: application
+  summary: >-
+    An Electron desktop application for downloading video or audio from
+    hundreds of sites through yt-dlp, with playlist support, subtitles,
+    range selection, and a built-in video compressor.
+  best_for:
+    - Downloading supported online video or audio through a desktop GUI
+    - Managing playlist downloads and basic post-download media options
+key_features:
+  - Downloads video and audio from hundreds of yt-dlp-supported sites
+  - Supports playlist downloads, subtitles, and range selection
+  - Includes a hardware-accelerated video compressor
+  - Provides themes, download history, and an integrated YouTube search feature
+  - Publishes installers for Windows, Linux, and macOS
+usage:
+  interfaces:
+    - Desktop GUI
+  installation:
+    - GitHub release installers
+    - Microsoft Store, Chocolatey, Scoop, or WinGet on Windows
+    - Flatpak, AppImage, or Snap on Linux
+  setup: low
+technology:
+  languages:
+    - JavaScript
+    - TypeScript
+  notable_components:
+    - Electron
+    - yt-dlp-wrap-plus
+    - FFmpeg
+license:
+  spdx: GPL-3.0
+  name: GNU General Public License v3.0
+  notes: >-
+    Strong copyleft license; redistributed modified covered work must remain
+    available under GPLv3 with corresponding source.
+status:
+  lifecycle: active
+  archived: false
+  latest_release: 3.22.0
+  latest_release_at: "2026-07-19"
+strengths:
+  - Combines downloads, playlists, subtitles, range selection, and compression in one GUI
+  - Offers several native distribution channels across Windows, Linux, and macOS
+  - Ships from a cross-platform release workflow tied to the package version
+caveats:
+  - Supported-site coverage depends on the bundled yt-dlp integration and upstream site changes
+  - The macOS build is unsigned and the README requires both quarantine removal and Homebrew yt-dlp
+  - Building from source requires Node.js, npm, and platform-appropriate FFmpeg binaries
+  - GPL-3.0 copyleft may not suit proprietary redistribution or embedding plans
+sources:
+  - https://raw.githubusercontent.com/aandrew-me/ytDownloader/716b3b87dfce6709dc1469ee414867140fd49072/README.md
+  - https://raw.githubusercontent.com/aandrew-me/ytDownloader/716b3b87dfce6709dc1469ee414867140fd49072/package.json
+  - https://raw.githubusercontent.com/aandrew-me/ytDownloader/716b3b87dfce6709dc1469ee414867140fd49072/LICENSE
+  - https://raw.githubusercontent.com/aandrew-me/ytDownloader/716b3b87dfce6709dc1469ee414867140fd49072/.github/workflows/main.yml
+  - https://github.com/aandrew-me/ytDownloader/releases.atom

@@ -1,0 +1,206 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/tomseai/my-repo-radar/schema/repository.schema.json",
+  "title": "Starred repository record",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["version", "id", "repository", "import", "analysis", "curation"],
+  "properties": {
+    "version": { "const": 1 },
+    "id": { "type": "string", "pattern": "^github:[^/]+/[^/]+$" },
+    "repository": { "$ref": "#/$defs/repositoryIdentity" },
+    "import": { "$ref": "#/$defs/import" },
+    "analysis": { "$ref": "#/$defs/analysis" },
+    "curation": { "$ref": "#/$defs/curation" }
+  },
+  "$defs": {
+    "nullableString": { "type": ["string", "null"] },
+    "dateTimeOrNull": {
+      "oneOf": [
+        { "type": "string", "format": "date-time" },
+        { "type": "null" }
+      ]
+    },
+    "dateOrNull": {
+      "oneOf": [
+        { "type": "string", "format": "date" },
+        { "type": "null" }
+      ]
+    },
+    "uniqueStrings": {
+      "type": "array",
+      "items": { "type": "string" },
+      "uniqueItems": true
+    },
+    "repositoryIdentity": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["host", "owner", "name", "url", "github_node_id", "aliases"],
+      "properties": {
+        "host": { "const": "github.com" },
+        "owner": { "type": "string", "minLength": 1 },
+        "name": { "type": "string", "minLength": 1 },
+        "url": { "type": "string", "format": "uri", "pattern": "^https://github\\.com/" },
+        "github_node_id": { "$ref": "#/$defs/nullableString" },
+        "aliases": { "$ref": "#/$defs/uniqueStrings" }
+      }
+    },
+    "source": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["source_id", "relation", "observed_at", "source_url"],
+      "properties": {
+        "source_id": { "type": "string", "minLength": 1 },
+        "relation": { "enum": ["starred"] },
+        "observed_at": { "type": "string", "format": "date-time" },
+        "source_url": { "type": "string", "format": "uri" }
+      }
+    },
+    "latestRelease": {
+      "oneOf": [
+        { "type": "null" },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["tag", "published_at", "url"],
+          "properties": {
+            "tag": { "type": "string" },
+            "published_at": { "$ref": "#/$defs/dateTimeOrNull" },
+            "url": {
+              "oneOf": [
+                { "type": "string", "format": "uri" },
+                { "type": "null" }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    "githubSnapshot": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "fetched_at", "description", "homepage", "topics", "license_spdx",
+        "primary_language", "stars", "forks", "open_issues", "archived",
+        "disabled", "fork", "default_branch", "created_at", "updated_at",
+        "pushed_at", "latest_release"
+      ],
+      "properties": {
+        "fetched_at": { "type": "string", "format": "date-time" },
+        "description": { "$ref": "#/$defs/nullableString" },
+        "homepage": { "$ref": "#/$defs/nullableString" },
+        "topics": { "$ref": "#/$defs/uniqueStrings" },
+        "license_spdx": { "$ref": "#/$defs/nullableString" },
+        "primary_language": { "$ref": "#/$defs/nullableString" },
+        "stars": { "type": "integer", "minimum": 0 },
+        "forks": { "type": "integer", "minimum": 0 },
+        "open_issues": { "type": "integer", "minimum": 0 },
+        "archived": { "type": "boolean" },
+        "disabled": { "type": "boolean" },
+        "fork": { "type": "boolean" },
+        "default_branch": { "$ref": "#/$defs/nullableString" },
+        "created_at": { "$ref": "#/$defs/dateTimeOrNull" },
+        "updated_at": { "$ref": "#/$defs/dateTimeOrNull" },
+        "pushed_at": { "$ref": "#/$defs/dateTimeOrNull" },
+        "latest_release": { "$ref": "#/$defs/latestRelease" }
+      }
+    },
+    "import": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["state", "sources", "github_snapshot"],
+      "properties": {
+        "state": {
+          "enum": ["imported", "refreshed", "renamed", "transferred", "unavailable", "excluded"]
+        },
+        "sources": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/source" },
+          "minItems": 1
+        },
+        "github_snapshot": { "$ref": "#/$defs/githubSnapshot" }
+      }
+    },
+    "evidence": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["claim", "source_type", "url", "checked_at", "confidence"],
+      "properties": {
+        "claim": { "type": "string", "minLength": 1 },
+        "source_type": {
+          "enum": ["repository-file", "official-documentation", "release", "maintainer-announcement", "github-metadata"]
+        },
+        "url": { "type": "string", "format": "uri" },
+        "checked_at": { "type": "string", "format": "date" },
+        "confidence": { "enum": ["low", "medium", "high"] }
+      }
+    },
+    "classification": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["state", "primary_category", "topics", "use_cases", "technologies"],
+      "properties": {
+        "state": { "enum": ["unclassified", "provisional", "confirmed"] },
+        "primary_category": {
+          "type": ["string", "null"],
+          "enum": [
+            null, "ai-and-automation", "application-frameworks", "frontend-and-design",
+            "backend-and-apis", "data-and-databases", "devops-and-cloud",
+            "developer-tools", "security-and-privacy", "testing-and-quality",
+            "collaboration-and-productivity", "documentation-and-learning",
+            "platforms-and-applications", "systems-and-infrastructure", "other"
+          ]
+        },
+        "topics": { "$ref": "#/$defs/uniqueStrings" },
+        "use_cases": { "$ref": "#/$defs/uniqueStrings" },
+        "technologies": { "$ref": "#/$defs/uniqueStrings" }
+      }
+    },
+    "analysis": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["state", "classification", "summary", "evidence", "analyzed_at"],
+      "properties": {
+        "state": { "enum": ["unstarted", "triaged", "researched", "needs-review", "complete", "stale"] },
+        "classification": { "$ref": "#/$defs/classification" },
+        "summary": {
+          "oneOf": [
+            { "type": "null" },
+            {
+              "type": "object",
+              "additionalProperties": false,
+              "required": ["one_line", "why_useful"],
+              "properties": {
+                "one_line": { "type": "string", "minLength": 1 },
+                "why_useful": { "type": "string", "minLength": 1 }
+              }
+            }
+          ]
+        },
+        "evidence": { "type": "array", "items": { "$ref": "#/$defs/evidence" } },
+        "analyzed_at": { "$ref": "#/$defs/dateTimeOrNull" }
+      }
+    },
+    "curation": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "state", "recommendation", "verdict", "strengths", "limitations",
+        "confidence", "reviewed_at", "evidence"
+      ],
+      "properties": {
+        "state": { "enum": ["uncurated", "draft", "reviewed", "recheck", "withdrawn"] },
+        "recommendation": {
+          "type": ["string", "null"],
+          "enum": [null, "essential", "highly-recommended", "recommended", "promising", "niche", "not-recommended", "deprecated"]
+        },
+        "verdict": { "$ref": "#/$defs/nullableString" },
+        "strengths": { "$ref": "#/$defs/uniqueStrings" },
+        "limitations": { "$ref": "#/$defs/uniqueStrings" },
+        "confidence": { "type": ["string", "null"], "enum": [null, "low", "medium", "high"] },
+        "reviewed_at": { "$ref": "#/$defs/dateOrNull" },
+        "evidence": { "type": "array", "items": { "$ref": "#/$defs/evidence" } }
+      }
+    }
+  }
+}

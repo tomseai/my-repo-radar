@@ -1,0 +1,86 @@
+schema_version: 2
+repository_id: github:browser-use/browser-use
+research:
+  state: complete
+  source_commit: 950eb03617e67548d759c02beac1ad122c6b6458
+  bundle_collected_at: 2026-07-19T20:42:01.064Z
+  researched_at: 2026-07-20T00:39:13.3818923+02:00
+  confidence: high
+
+classification:
+  primary_category: ai-and-automation
+  topics:
+    - ai-agents
+    - browser-automation
+    - computer-use
+    - tool-use
+    - cli
+    - mcp
+    - web-scraping
+
+project:
+  name: Browser Use
+  kind: library
+  summary: >-
+    A Python library and CLI for LLM-driven agents that operate web browsers,
+    including navigating pages, clicking controls, entering form data, and
+    extracting information for repeatable web tasks.
+  best_for:
+    - Developers embedding browser automation in an AI agent or product
+    - Agent users who need a local CLI skill for one-off browser tasks
+
+key_features:
+  - Agent API that executes a natural-language task with a selected LLM
+  - Browser interactions for pages, buttons, text input, forms, and data extraction
+  - Custom action tools for extending an agent's capabilities
+  - Python library, command-line interface, and Docker image
+  - Optional browser-use-core package for a Rust-backed beta agent
+
+usage:
+  interfaces:
+    - Python library
+    - CLI
+    - MCP server
+    - Docker container
+  installation:
+    - uv package
+    - pip package
+    - source checkout
+    - Docker image build
+  setup: moderate
+
+technology:
+  languages:
+    - Python
+  notable_components:
+    - Model Context Protocol
+    - CDP Use
+    - browser-harness
+
+license:
+  spdx: MIT
+  name: MIT License
+  notes: The MIT license applies to the open-source library; hosted services have separate terms.
+
+status:
+  lifecycle: active
+  archived: false
+  latest_release: 0.13.6
+  latest_release_at: 2026-07-17
+
+strengths:
+  - Supports both embedded, repeatable automation and interactive agent use
+  - Lets developers choose an LLM provider and add task-specific tools
+  - Provides local Python and container-based deployment options
+
+caveats:
+  - The documented library requires Python 3.11 or newer and an LLM provider credential
+  - Browser automation must account for site changes, authentication, and CAPTCHA restrictions
+  - Large parallel browser workloads can be memory-intensive; the project recommends hosted infrastructure for production scale
+
+sources:
+  - https://raw.githubusercontent.com/browser-use/browser-use/950eb03617e67548d759c02beac1ad122c6b6458/README.md
+  - https://raw.githubusercontent.com/browser-use/browser-use/950eb03617e67548d759c02beac1ad122c6b6458/pyproject.toml
+  - https://raw.githubusercontent.com/browser-use/browser-use/950eb03617e67548d759c02beac1ad122c6b6458/Dockerfile
+  - https://raw.githubusercontent.com/browser-use/browser-use/950eb03617e67548d759c02beac1ad122c6b6458/LICENSE
+  - https://github.com/browser-use/browser-use/releases.atom

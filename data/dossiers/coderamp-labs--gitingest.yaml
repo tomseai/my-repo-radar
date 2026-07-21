@@ -1,0 +1,72 @@
+schema_version: 2
+repository_id: github:coderamp-labs/gitingest
+research:
+  state: complete
+  source_commit: 4e259a02fe72115bee538271622f1234a81c8e1a
+  bundle_collected_at: 2026-07-19T20:42:18.518Z
+  researched_at: 2026-07-19T22:40:18Z
+  confidence: high
+classification:
+  primary_category: developer-tools
+  topics:
+    - llms
+    - cli
+    - git
+    - document-processing
+    - self-hosted
+project:
+  name: gitingest
+  kind: cli
+  summary: >-
+    A Python CLI and library that converts local or GitHub-hosted Git
+    repositories into prompt-friendly text digests for LLM workflows.
+  best_for:
+    - Preparing repository context for an LLM prompt
+    - Generating a text digest from a local directory or GitHub URL
+key_features:
+  - Creates text digests with repository structure, size, and token-count statistics
+  - Accepts local directories, GitHub repository URLs, and repository subdirectories
+  - Provides a CLI and importable synchronous and asynchronous Python APIs
+  - Supports GitHub tokens for private repositories and optional submodule inclusion
+  - Can write a digest file or send output to standard output
+usage:
+  interfaces:
+    - command line
+    - Python API
+    - hosted web application
+  installation:
+    - pip or pipx
+    - Docker or Docker Compose for self-hosting
+    - source build
+  setup: low
+technology:
+  languages:
+    - Python
+  notable_components:
+    - Click
+    - GitPython
+    - tiktoken
+    - optional FastAPI server
+license:
+  spdx: MIT
+  name: MIT License
+  notes: Permissive license; the repository's LICENSE file carries the standard MIT terms.
+status:
+  lifecycle: active
+  archived: false
+  latest_release: v0.3.1
+  latest_release_at: 2025-07-31
+strengths:
+  - Offers both command-line and programmatic digest generation
+  - Includes repository structure and token estimates alongside file content
+  - Supports local use as well as self-hosting
+caveats:
+  - A GitHub personal access token is required to ingest private GitHub repositories
+  - Digests can include source content, so users should consider the destination and retention of generated files
+  - Self-hosting adds Python server dependencies and, for the documented Compose development profile, object-storage services
+sources:
+  - https://raw.githubusercontent.com/coderamp-labs/gitingest/4e259a02fe72115bee538271622f1234a81c8e1a/README.md
+  - https://raw.githubusercontent.com/coderamp-labs/gitingest/4e259a02fe72115bee538271622f1234a81c8e1a/LICENSE
+  - https://raw.githubusercontent.com/coderamp-labs/gitingest/4e259a02fe72115bee538271622f1234a81c8e1a/SECURITY.md
+  - https://raw.githubusercontent.com/coderamp-labs/gitingest/4e259a02fe72115bee538271622f1234a81c8e1a/pyproject.toml
+  - https://github.com/coderamp-labs/gitingest/releases.atom

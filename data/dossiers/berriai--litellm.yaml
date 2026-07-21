@@ -1,0 +1,79 @@
+schema_version: 2
+repository_id: github:BerriAI/litellm
+research:
+  state: complete
+  source_commit: bd44c9e305b89526d4c5d773ee39ca935561b9c8
+  bundle_collected_at: 2026-07-19T20:41:54.647Z
+  researched_at: 2026-07-20T15:11:42.194Z
+  confidence: medium
+classification:
+  primary_category: ai-and-automation
+  topics:
+    - llms
+    - llm-gateways
+    - multi-provider
+    - model-routing
+    - authentication
+    - observability
+    - self-hosted
+project:
+  name: LiteLLM
+  kind: service
+  summary: >-
+    A Python SDK and deployable AI gateway that presents a unified API for many
+    LLM providers and adds centralized production controls.
+  best_for:
+    - Applications that need a provider-neutral LLM client interface
+    - Teams centralizing model access, virtual keys, spend controls, and routing
+key_features:
+  - Calls more than 100 LLM providers through a unified OpenAI-compatible interface
+  - Offers a Python SDK as well as a self-hosted proxy or gateway service
+  - Provides virtual keys, spend tracking, guardrails, load balancing, logging, and an admin dashboard
+  - Supports model endpoints including chat, responses, embeddings, images, audio, batches, and reranking
+usage:
+  interfaces:
+    - Python SDK
+    - OpenAI-compatible HTTP API
+    - proxy CLI
+    - admin dashboard
+  installation:
+    - Python package installation with uv
+    - proxy installation with the proxy extra
+    - Docker deployment
+    - hosted proxy offering
+  setup: moderate
+technology:
+  languages:
+    - Python
+    - Rust
+    - TypeScript
+  notable_components:
+    - FastAPI-based proxy dependencies
+    - Docker Compose
+    - Rust core package
+license:
+  spdx: null
+  name: MIT for repository content outside enterprise/; enterprise license for enterprise/
+  notes: >-
+    The root LICENSE grants MIT terms outside enterprise/ and assigns enterprise/
+    content to enterprise/LICENSE; the retained bundle does not include that separate license text.
+status:
+  lifecycle: active
+  archived: false
+  latest_release: v1.93.0
+  latest_release_at: "2026-07-19"
+strengths:
+  - Supports both direct application integration and a centralized gateway deployment
+  - Standardizes provider access while retaining OpenAI-compatible client usage
+  - Combines access controls, spending controls, guardrails, routing, and logging in the gateway
+caveats:
+  - "The repository has mixed licensing: enterprise/ is governed by a separate license not retained in this bundle"
+  - The source commit declares version 1.94.0 while the feed contains 1.94.0 prereleases; v1.93.0 is selected as the newest stable release in the retained feed
+  - Gateway operation requires configuration of model-provider credentials and, where used, persistence or control-plane services
+  - Provider capabilities and endpoint availability vary by model and provider
+sources:
+  - https://raw.githubusercontent.com/BerriAI/litellm/bd44c9e305b89526d4c5d773ee39ca935561b9c8/README.md
+  - https://raw.githubusercontent.com/BerriAI/litellm/bd44c9e305b89526d4c5d773ee39ca935561b9c8/LICENSE
+  - https://raw.githubusercontent.com/BerriAI/litellm/bd44c9e305b89526d4c5d773ee39ca935561b9c8/pyproject.toml
+  - https://raw.githubusercontent.com/BerriAI/litellm/bd44c9e305b89526d4c5d773ee39ca935561b9c8/docker-compose.yml
+  - https://github.com/BerriAI/litellm/releases.atom

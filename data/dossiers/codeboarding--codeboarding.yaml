@@ -1,0 +1,79 @@
+schema_version: 2
+repository_id: github:CodeBoarding/CodeBoarding
+research:
+  state: complete
+  source_commit: 164d75247ab933978790a9b4a42f4192ca54f484
+  bundle_collected_at: 2026-07-19T20:42:18.062Z
+  researched_at: 2026-07-20T00:39:44.6237658+02:00
+  confidence: medium
+classification:
+  primary_category: developer-tools
+  topics:
+    - developer-productivity
+    - visualization
+    - documentation
+    - cli
+    - llms
+    - multi-provider
+project:
+  name: CodeBoarding
+  kind: cli
+  summary: >-
+    A codebase-analysis tool that combines static analysis and LLM reasoning to
+    produce architecture diagrams, component documentation, and incremental
+    updates in a repository's .codeboarding directory.
+  best_for:
+    - Developers and coding agents building a shared map of a codebase
+    - Teams that want architecture diagrams and documentation in local, IDE, or CI workflows
+key_features:
+  - Generates high-level and component-level Mermaid architecture diagrams
+  - Writes Markdown documentation and analysis output under .codeboarding
+  - Uses static analysis, language servers, and LLM interpretation for architectural insights
+  - Supports full, incremental, partial-component, and remote-GitHub analysis commands
+  - Offers a CLI, VS Code extension, and GitHub Action integration paths
+usage:
+  interfaces:
+    - command-line interface
+    - VS Code extension
+    - GitHub Action
+  installation:
+    - pipx install codeboarding with Python 3.12 or 3.13
+    - pip install codeboarding from the documented package index
+    - run from source with uv
+  setup: moderate
+technology:
+  languages:
+    - Python
+  notable_components:
+    - Language Server Protocol
+    - Tree-sitter
+    - LangChain
+    - FastAPI
+    - Mermaid
+license:
+  spdx: MIT
+  name: MIT License
+  notes: >-
+    Permissive license that requires retaining the copyright and license notice;
+    the software is supplied without warranty or liability.
+status:
+  lifecycle: active
+  archived: false
+  latest_release: v0.13.0
+  latest_release_at: 2026-07-13
+strengths:
+  - Combines structural analysis with generated visual and written architecture output
+  - Supports eight documented source languages and several LLM-provider configuration paths
+  - Incremental analysis can avoid rebuilding unaffected areas when a prior baseline exists
+caveats:
+  - Analysis requires configuring an LLM provider or a compatible local or proxy endpoint
+  - Initial setup downloads language-server binaries and may provision a pinned Node.js runtime
+  - Incremental analysis needs a prior .codeboarding baseline and otherwise fails rather than falling back to a full run
+  - The source package declares version 0.13.2, while the retained release feed's newest project release is v0.13.0
+  - Anonymous aggregate telemetry is enabled by default, although documented environment-variable opt-outs are available
+sources:
+  - https://raw.githubusercontent.com/CodeBoarding/CodeBoarding/164d75247ab933978790a9b4a42f4192ca54f484/README.md
+  - https://raw.githubusercontent.com/CodeBoarding/CodeBoarding/164d75247ab933978790a9b4a42f4192ca54f484/pyproject.toml
+  - https://raw.githubusercontent.com/CodeBoarding/CodeBoarding/164d75247ab933978790a9b4a42f4192ca54f484/docs/architecture.md
+  - https://raw.githubusercontent.com/CodeBoarding/CodeBoarding/164d75247ab933978790a9b4a42f4192ca54f484/LICENSE
+  - https://github.com/CodeBoarding/CodeBoarding/releases.atom

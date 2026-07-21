@@ -1,0 +1,73 @@
+schema_version: 2
+repository_id: github:Leonxlnx/taste-skill
+research:
+  state: complete
+  source_commit: 7c397f22d3af6f2b3f1925eb147d8e8801086151
+  bundle_collected_at: 2026-07-19T20:43:45.894Z
+  researched_at: 2026-07-20T15:41:44.4450320Z
+  confidence: high
+classification:
+  primary_category: frontend-and-design
+  topics:
+    - ai-agents
+    - agent-skills
+    - frontend-development
+    - code-generation
+    - design-systems
+project:
+  name: Taste Skill
+  kind: library
+  summary: >-
+    A collection of portable agent-skill instruction files for improving the
+    visual design and implementation of AI-generated frontend interfaces.
+  best_for:
+    - Developers directing coding agents to build or redesign web interfaces
+    - Teams that want selectable visual-design guidance and image-to-code workflows
+key_features:
+  - Supplies a default frontend-design skill with configurable variance, motion, and visual-density dials
+  - Provides specialized skills for existing-project redesign, image-to-code implementation, and visual styles such as soft, minimalist, and brutalist
+  - Includes image-generation skills for web comps, mobile screens, and brand-kit reference boards
+  - Preserves the original v1 skill while making an experimental v2 the default install
+usage:
+  interfaces:
+    - Agent skill files
+    - npx command-line installer
+    - ChatGPT, Codex, Cursor, or Claude Code conversations
+  installation:
+    - Run npx skills add against the repository
+    - Install one named skill with the --skill option
+    - Copy a SKILL.md into a project or paste it into a conversation
+  setup: low
+technology:
+  languages:
+    - Markdown
+    - JavaScript
+  notable_components:
+    - Agent Skills
+    - npx skills add
+    - GSAP-oriented motion guidance
+license:
+  spdx: MIT
+  name: MIT License
+  notes: >-
+    Permissive license; copyright and license notices must be retained, and the
+    software is provided without warranty.
+status:
+  lifecycle: active
+  archived: false
+  latest_release: null
+  latest_release_at: null
+strengths:
+  - Offers a broad but selectable set of code and image-generation skill variants
+  - Documents simple whole-repository and single-skill installation paths
+  - Keeps a pinned v1 alternative for users who depend on its prior behavior
+caveats:
+  - The default design-taste-frontend skill is documented as v2 experimental, with its API intended to stabilize at v2.0.0
+  - Image-generation skills produce reference images rather than implementation code
+  - The guidance is framework-agnostic, so it does not provide framework-specific integration guarantees
+  - The retained release feed has no entries; the documented v2 experimental state is not treated as a stable project release
+sources:
+  - https://raw.githubusercontent.com/Leonxlnx/taste-skill/7c397f22d3af6f2b3f1925eb147d8e8801086151/README.md
+  - https://raw.githubusercontent.com/Leonxlnx/taste-skill/7c397f22d3af6f2b3f1925eb147d8e8801086151/CHANGELOG.md
+  - https://raw.githubusercontent.com/Leonxlnx/taste-skill/7c397f22d3af6f2b3f1925eb147d8e8801086151/LICENSE
+  - https://github.com/Leonxlnx/taste-skill/releases.atom

@@ -1,0 +1,85 @@
+schema_version: 2
+repository_id: github:unclebob/swarm-forge
+research:
+  state: complete
+  source_commit: 9acd54d2239fef7e41ddacd8fd30dfb0e69672fe
+  bundle_collected_at: 2026-07-19T20:45:44.215Z
+  researched_at: 2026-07-20T18:11:36.385Z
+  confidence: medium
+
+classification:
+  primary_category: ai-and-automation
+  topics:
+    - ai-agents
+    - agent-orchestration
+    - multi-agent
+    - parallel-agents
+    - worktrees
+    - cli
+    - terminal
+    - self-hosted
+
+project:
+  name: SwarmForge
+  kind: framework
+  summary: >-
+    A local, tmux-based multi-agent orchestration framework that gives agents
+    dedicated Git worktrees, role prompts, and file-based handoffs.
+  best_for:
+    - Teams applying a defined multi-agent coding workflow to a local Git project
+    - Projects that need separate implementation, review, and QA agent roles
+
+key_features:
+  - Configuration-driven role topology with one tmux session per role
+  - Git worktree creation and assignment for roles that need isolated changes
+  - Per-role prompts and layered, project-local engineering constitution files
+  - Per-role selection of Codex, Claude, Copilot, or Grok backends
+  - Validated file-based handoffs delivered by a local daemon
+  - Two-, four-, and six-role runnable workflow branches
+
+usage:
+  interfaces:
+    - shell launcher
+    - tmux sessions
+    - terminal windows
+  installation:
+    - download a runnable branch archive
+  setup: high
+
+technology:
+  languages:
+    - Clojure
+    - Shell
+  notable_components:
+    - tmux
+    - Babashka
+    - Git worktrees
+
+license:
+  spdx: null
+  name: License not found in retained source
+  notes: >-
+    No license file appears in the complete retained tree and the imported
+    repository metadata has no SPDX identifier; reuse terms are not established.
+
+status:
+  lifecycle: active
+  archived: false
+  latest_release: null
+  latest_release_at: null
+
+strengths:
+  - Keeps agent collaboration local while isolating role changes in Git worktrees
+  - Makes workflows and role responsibilities explicit in project-local files
+  - Provides structured handoff validation instead of direct tmux messaging
+
+caveats:
+  - The main branch is documentary; users must select a runnable workflow branch
+  - Requires zsh, Git, tmux, Babashka, and at least one configured agent backend
+  - No published releases are present in the retained releases feed
+  - Reuse rights are unknown because the retained repository has no license file
+
+sources:
+  - https://raw.githubusercontent.com/unclebob/swarm-forge/9acd54d2239fef7e41ddacd8fd30dfb0e69672fe/README.md
+  - https://github.com/unclebob/swarm-forge/tree/9acd54d2239fef7e41ddacd8fd30dfb0e69672fe
+  - https://github.com/unclebob/swarm-forge/releases.atom

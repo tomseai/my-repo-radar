@@ -1,0 +1,67 @@
+schema_version: 2
+repository_id: github:sindresorhus/awesome
+research:
+  state: complete
+  source_commit: 7cb5c8371c0fe73e5444a42d5542f6280c38b1a6
+  bundle_collected_at: 2026-07-19T20:45:13.509Z
+  researched_at: 2026-07-19T21:45:40.535Z
+  confidence: high
+classification:
+  primary_category: documentation-and-learning
+  topics:
+    - curated-lists
+    - reference
+    - open-source
+    - github
+project:
+  name: awesome
+  kind: curated-list
+  summary: >-
+    A curated, categorized index of Awesome lists that links to resource
+    collections across software, platforms, learning, work, and other topics.
+  best_for:
+    - Finding a starting point for a topic-specific resource collection
+    - Discovering Awesome lists to browse, follow, or contribute to
+key_features:
+  - A large Markdown index organized into broad sections and nested topic links
+  - Links to independently maintained Awesome lists rather than attempting to catalog each resource itself
+  - Guidance for adding a list, creating a new list, and contributing through GitHub pull requests
+  - Pull requests that change the index run an awesome-lint workflow
+usage:
+  interfaces:
+    - Markdown index
+    - GitHub repository
+    - Web redirect at awesome.re
+  installation:
+    - Browse readme.md on GitHub
+    - Visit awesome.re
+  setup: low
+technology:
+  languages:
+    - Markdown
+  notable_components:
+    - GitHub Actions
+    - awesome-lint
+license:
+  spdx: CC0-1.0
+  name: CC0 1.0 Universal
+  notes: The repository text is dedicated to the public domain to the extent permitted; CC0 disclaims warranties and does not waive trademark or patent rights.
+status:
+  lifecycle: active
+  archived: false
+  latest_release: null
+  latest_release_at: null
+strengths:
+  - Broad, navigable starting point for locating specialized resource lists
+  - Clear contribution path and index-specific review guidance
+  - Lightweight to use because it is a link index with no software installation
+caveats:
+  - It is a directory of external lists, not an application, library, or unified resource database
+  - Coverage and freshness of linked lists depend on their independent maintainers
+  - The cached releases feed contains no release entries, so no latest release can be established
+sources:
+  - https://raw.githubusercontent.com/sindresorhus/awesome/7cb5c8371c0fe73e5444a42d5542f6280c38b1a6/readme.md
+  - https://raw.githubusercontent.com/sindresorhus/awesome/7cb5c8371c0fe73e5444a42d5542f6280c38b1a6/contributing.md
+  - https://raw.githubusercontent.com/sindresorhus/awesome/7cb5c8371c0fe73e5444a42d5542f6280c38b1a6/license
+  - https://raw.githubusercontent.com/sindresorhus/awesome/7cb5c8371c0fe73e5444a42d5542f6280c38b1a6/.github/workflows/main.yml
+  - https://github.com/sindresorhus/awesome/releases.atom

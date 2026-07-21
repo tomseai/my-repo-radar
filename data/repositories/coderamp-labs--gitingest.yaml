@@ -1,0 +1,72 @@
+analysis:
+  analyzed_at: "2026-07-19T19:26:06.560Z"
+  classification:
+    primary_category: "developer-tools"
+    state: "provisional"
+    technologies:
+      - "python"
+    topics:
+      - "llms"
+      - "cli"
+      - "git"
+      - "self-hosted"
+    use_cases:
+      - "build-ai-products"
+      - "improve-developer-workflow"
+  evidence:
+    - claim: "Gitingest turns Git repositories into prompt-friendly text digests for LLMs and provides a CLI, a Python package, and optional server dependencies for self-hosting."
+      source_type: "repository-file"
+      url: "https://github.com/coderamp-labs/gitingest/blob/main/README.md"
+      checked_at: "2026-07-19"
+      confidence: "high"
+  state: "researched"
+  summary:
+    one_line: "A tool that converts Git repositories into prompt-friendly text digests."
+    why_useful: "It prepares codebase context, structure, and token statistics for LLM prompts and workflows."
+curation:
+  confidence: null
+  evidence: []
+  limitations: []
+  recommendation: null
+  reviewed_at: null
+  state: "uncurated"
+  strengths: []
+  verdict: null
+id: "github:coderamp-labs/gitingest"
+import:
+  github_snapshot:
+    archived: false
+    created_at: "2024-11-29T08:27:18Z"
+    default_branch: "main"
+    description: "Replace 'hub' with 'ingest' in any GitHub URL to get a prompt-friendly extract of a codebase "
+    disabled: false
+    fetched_at: "2026-07-19T19:16:14.796Z"
+    fork: false
+    forks: 1136
+    homepage: "https://gitingest.com"
+    latest_release: null
+    license_spdx: "MIT"
+    open_issues: 29
+    primary_language: "Python"
+    pushed_at: "2026-07-19T16:36:35Z"
+    stars: 15201
+    topics:
+      - "ai"
+      - "code"
+      - "developer-tool"
+      - "ingestion"
+    updated_at: "2026-07-19T16:22:31Z"
+  sources:
+    - observed_at: "2025-01-05T11:44:10Z"
+      relation: "starred"
+      source_id: "github:user:tomseai:stars"
+      source_url: "https://github.com/tomseai?tab=stars"
+  state: "imported"
+repository:
+  aliases: []
+  github_node_id: "R_kgDONWcBHQ"
+  host: "github.com"
+  name: "gitingest"
+  owner: "coderamp-labs"
+  url: "https://github.com/coderamp-labs/gitingest"
+version: 1

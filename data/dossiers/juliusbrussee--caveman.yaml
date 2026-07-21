@@ -1,0 +1,90 @@
+schema_version: 2
+repository_id: github:JuliusBrussee/caveman
+research:
+  state: complete
+  source_commit: 0d95a81d35a9f2d123a5e9430d1cfc43d55f1bb0
+  bundle_collected_at: 2026-07-19T20:43:36.456Z
+  researched_at: 2026-07-20T17:31:48.5060846+02:00
+  confidence: high
+
+classification:
+  primary_category: ai-and-automation
+  topics:
+    - agent-skills
+    - coding-agents
+    - prompt-engineering
+    - token-usage
+    - mcp
+    - cli
+    - open-source
+
+project:
+  name: caveman
+  kind: plugin
+  summary: >-
+    An installable skill and plugin collection that tells supported AI coding
+    agents to produce terse, technical "caveman" responses, with session modes,
+    optional memory-file compression, Claude Code hooks, and an MCP-description
+    compression proxy.
+  best_for:
+    - Users of supported AI coding agents who prefer concise technical replies
+    - Output-heavy agent sessions where shorter responses are worth measuring
+
+key_features:
+  - Six response modes, including lite, full, ultra, and wenyan
+  - Commands for concise commit messages, code-review comments, and session statistics
+  - Optional compression of named agent-memory files while preserving code, URLs, and paths
+  - Agent-specific installation paths for Claude Code, Codex, Gemini CLI, and other clients
+  - Optional caveman-shrink MCP proxy for upstream tool descriptions
+  - Local Claude Code hooks and a token-savings statusline integration
+
+usage:
+  interfaces:
+    - agent skill or plugin
+    - CLI installer
+    - MCP server proxy
+    - Claude Code hooks
+  installation:
+    - shell or PowerShell installer
+    - npm or npx installer
+    - agent-native plugin or extension command
+  setup: low
+
+technology:
+  languages:
+    - JavaScript
+  notable_components:
+    - Node.js
+    - Model Context Protocol
+    - Agent skill files
+    - Claude Code hooks
+
+license:
+  spdx: MIT
+  name: MIT License
+  notes: The retained LICENSE grants the standard permissive MIT rights and warranty disclaimer.
+
+status:
+  lifecycle: active
+  archived: false
+  latest_release: v1.9.1
+  latest_release_at: 2026-07-03
+
+strengths:
+  - Covers multiple coding-agent installation models from one repository
+  - Clearly distinguishes output-token reduction from broader agent compression
+  - Documents a dry-run path and an opt-in MCP proxy
+
+caveats:
+  - It changes response style; it does not reduce input, context, or reasoning tokens
+  - The bundled estimate is 65% fewer output tokens, while the skill adds roughly 1–1.5k input tokens per turn
+  - Terse workloads or request-priced providers can be net-negative, so provider-level A/B measurement is advised
+  - The convenience installers download and execute software; the project documents a clone-and-dry-run alternative
+  - Supported-agent behavior and activation differ by the chosen installation path
+
+sources:
+  - https://raw.githubusercontent.com/JuliusBrussee/caveman/0d95a81d35a9f2d123a5e9430d1cfc43d55f1bb0/README.md
+  - https://raw.githubusercontent.com/JuliusBrussee/caveman/0d95a81d35a9f2d123a5e9430d1cfc43d55f1bb0/INSTALL.md
+  - https://raw.githubusercontent.com/JuliusBrussee/caveman/0d95a81d35a9f2d123a5e9430d1cfc43d55f1bb0/docs/HONEST-NUMBERS.md
+  - https://raw.githubusercontent.com/JuliusBrussee/caveman/0d95a81d35a9f2d123a5e9430d1cfc43d55f1bb0/LICENSE
+  - https://github.com/JuliusBrussee/caveman/releases.atom

@@ -1,0 +1,77 @@
+schema_version: 2
+repository_id: github:mukul975/Anthropic-Cybersecurity-Skills
+research:
+  state: complete
+  source_commit: 673da1f3b0b7be34ffc9624ef3858fe45f1c3bed
+  bundle_collected_at: 2026-07-19T20:44:13.806Z
+  researched_at: 2026-07-20T15:42:43.0617324Z
+  confidence: high
+classification:
+  primary_category: security-and-privacy
+  topics:
+    - ai-agents
+    - agent-skills
+    - security
+    - policy-enforcement
+    - documentation
+    - open-source
+project:
+  name: Anthropic Cybersecurity Skills
+  kind: library
+  summary: >-
+    An independent, agentskills.io-format library of cybersecurity workflows
+    for AI agents, spanning defensive, investigative, governance, and
+    authorized offensive-security work.
+  best_for:
+    - Security teams adding structured workflows to compatible AI agents
+    - Authorized security testing, investigation, defense, and education
+key_features:
+  - Provides 817 structured skills across 29 security domains
+  - Maps skills to MITRE ATT&CK, NIST CSF, MITRE ATLAS, D3FEND, NIST AI RMF, and MITRE F3
+  - Uses YAML discovery metadata, step-by-step Markdown workflows, references, helpers, and templates
+  - Supplies a documented npx installation path alongside repository cloning
+  - Validates SKILL.md frontmatter and duplicate skill names in its CI workflow
+usage:
+  interfaces:
+    - agent skill library
+    - Markdown workflows
+    - helper scripts
+  installation:
+    - npx skills add mukul975/Anthropic-Cybersecurity-Skills
+    - Git clone
+  setup: low
+technology:
+  languages:
+    - Python
+    - Markdown
+  notable_components:
+    - Agent Skills format
+    - MITRE ATT&CK Navigator layer
+    - GitHub Actions validation
+license:
+  spdx: Apache-2.0
+  name: Apache License 2.0
+  notes: >-
+    Permissive license with notice and license-retention requirements; it also
+    grants a patent license subject to its termination condition.
+status:
+  lifecycle: active
+  archived: false
+  latest_release: v1.3.0
+  latest_release_at: "2026-06-22"
+strengths:
+  - Combines broad security-domain coverage with consistent agent-oriented skill structure
+  - Links individual workflows to six security and risk-management frameworks
+  - Includes explicit skill-validation automation and contribution guidance
+caveats:
+  - This is an independent community project and is not affiliated with Anthropic PBC
+  - Some workflows cover offensive or dual-use techniques and are intended only for authorized, lawful use
+  - Compatibility depends on the selected agent host supporting the agentskills.io format
+  - Framework mappings help organize workflows but do not by themselves establish compliance or security outcomes
+sources:
+  - https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/673da1f3b0b7be34ffc9624ef3858fe45f1c3bed/README.md
+  - https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/673da1f3b0b7be34ffc9624ef3858fe45f1c3bed/LICENSE
+  - https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/673da1f3b0b7be34ffc9624ef3858fe45f1c3bed/SECURITY.md
+  - https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/673da1f3b0b7be34ffc9624ef3858fe45f1c3bed/CONTRIBUTING.md
+  - https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/673da1f3b0b7be34ffc9624ef3858fe45f1c3bed/.github/workflows/validate-skills.yml
+  - https://github.com/mukul975/Anthropic-Cybersecurity-Skills/releases.atom

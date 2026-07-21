@@ -1,0 +1,80 @@
+schema_version: 2
+repository_id: github:langchain-ai/deepagents
+research:
+  state: complete
+  source_commit: 54ccd67ca83656b0aec3721119681d8c13f727a0
+  bundle_collected_at: 2026-07-20T19:30:14.042Z
+  researched_at: 2026-07-20T21:33:02.164+02:00
+  confidence: high
+classification:
+  primary_category: ai-and-automation
+  topics:
+    - ai-agents
+    - agent-harnesses
+    - agent-orchestration
+    - multi-agent
+    - agent-memory
+    - agent-skills
+    - tool-use
+    - mcp
+    - sandboxing
+    - llms
+project:
+  name: Deep Agents
+  kind: framework
+  summary: >-
+    An opinionated, extensible Python agent harness built on LangGraph that bundles
+    planning, subagents, filesystem and shell tools, context management, persistent
+    memory, human approval, skills, and pluggable model or sandbox backends.
+  best_for:
+    - Teams that want a batteries-included harness for long-running, multi-step agents
+    - Developers who need subagents, memory, skills, and sandbox controls without assembling each primitive
+key_features:
+  - Delegates work to subagents with isolated context windows
+  - Provides pluggable filesystem, shell, sandbox, and remote execution backends
+  - Summarizes long conversations and offloads large tool results to files
+  - Supports persistent memory, human tool-call approval, reusable skills, and MCP tools
+  - Uses LangGraph for streaming, persistence, checkpointing, and production deployment paths
+usage:
+  interfaces:
+    - Python library
+    - terminal coding agent
+  installation:
+    - Python package via uv or pip
+    - shell installer for Deep Agents Code
+    - source checkout
+  setup: moderate
+technology:
+  languages:
+    - Python
+  notable_components:
+    - LangGraph
+    - LangChain
+    - LangSmith
+    - MCP
+    - Textual
+license:
+  spdx: MIT
+  name: MIT License
+  notes: >-
+    Repository code is permissively licensed for use, modification, distribution,
+    and commercial use when the copyright and license notice are retained.
+status:
+  lifecycle: active
+  archived: false
+  latest_release: null
+  latest_release_at: null
+strengths:
+  - Supplies the common infrastructure needed by long-horizon agents behind replaceable interfaces
+  - Model-agnostic design supports hosted, open-weight, and local tool-calling models
+  - Explicit security guidance places enforcement at the tool and sandbox boundary
+caveats:
+  - The harness follows a trust-the-LLM model; applications must enforce permissions in tools and sandboxes
+  - The primary package manifest is version 0.6.12, while the retained feed shows a 0.7.0a7 prerelease and newer Deep Agents Code component releases, so no stable project release is asserted
+  - Production tracing, evaluation, and managed deployment guidance prominently uses the separate LangSmith service
+sources:
+  - https://raw.githubusercontent.com/langchain-ai/deepagents/54ccd67ca83656b0aec3721119681d8c13f727a0/README.md
+  - https://raw.githubusercontent.com/langchain-ai/deepagents/54ccd67ca83656b0aec3721119681d8c13f727a0/LICENSE
+  - https://raw.githubusercontent.com/langchain-ai/deepagents/54ccd67ca83656b0aec3721119681d8c13f727a0/libs/deepagents/pyproject.toml
+  - https://raw.githubusercontent.com/langchain-ai/deepagents/54ccd67ca83656b0aec3721119681d8c13f727a0/libs/code/pyproject.toml
+  - https://github.com/langchain-ai/deepagents/releases.atom

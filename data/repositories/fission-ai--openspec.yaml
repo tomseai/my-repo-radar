@@ -1,0 +1,80 @@
+analysis:
+  analyzed_at: "2026-07-19T19:29:26.248Z"
+  classification:
+    primary_category: "ai-and-automation"
+    state: "provisional"
+    technologies:
+      - "typescript"
+      - "nodejs"
+    topics:
+      - "ai-agents"
+      - "automation"
+      - "cli"
+      - "code-generation"
+      - "git"
+    use_cases:
+      - "improve-developer-workflow"
+      - "collaborate-on-work"
+  evidence:
+    - claim: "OpenSpec adds an artifact-guided, Markdown-based specification workflow for AI coding assistants, covering exploration, proposals, implementation tasks, archival, and shared stores for cross-repository planning."
+      source_type: "repository-file"
+      url: "https://github.com/Fission-AI/OpenSpec/blob/main/README.md"
+      checked_at: "2026-07-19"
+      confidence: "high"
+  state: "researched"
+  summary:
+    one_line: "A specification workflow for planning AI-assisted software changes before implementation."
+    why_useful: "It gives teams and coding agents shared Markdown artifacts for requirements, designs, tasks, and implementation review."
+curation:
+  confidence: null
+  evidence: []
+  limitations: []
+  recommendation: null
+  reviewed_at: null
+  state: "uncurated"
+  strengths: []
+  verdict: null
+id: "github:Fission-AI/OpenSpec"
+import:
+  github_snapshot:
+    archived: false
+    created_at: "2025-08-05T10:37:45Z"
+    default_branch: "main"
+    description: "Spec-driven development (SDD) for AI coding assistants."
+    disabled: false
+    fetched_at: "2026-07-19T19:16:14.796Z"
+    fork: false
+    forks: 4268
+    homepage: "https://openspec.dev/"
+    latest_release: null
+    license_spdx: "MIT"
+    open_issues: 442
+    primary_language: "TypeScript"
+    pushed_at: "2026-07-18T21:04:37Z"
+    stars: 61593
+    topics:
+      - "ai"
+      - "context-engineering"
+      - "engineering"
+      - "planning"
+      - "prd"
+      - "sdd"
+      - "sdlc"
+      - "spec"
+      - "spec-driven-development"
+      - "specification"
+    updated_at: "2026-07-19T19:11:06Z"
+  sources:
+    - observed_at: "2026-02-01T12:44:10Z"
+      relation: "starred"
+      source_id: "github:user:tomseai:stars"
+      source_url: "https://github.com/tomseai?tab=stars"
+  state: "imported"
+repository:
+  aliases: []
+  github_node_id: "R_kgDOPYoUTA"
+  host: "github.com"
+  name: "OpenSpec"
+  owner: "Fission-AI"
+  url: "https://github.com/Fission-AI/OpenSpec"
+version: 1

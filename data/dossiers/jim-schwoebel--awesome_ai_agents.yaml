@@ -1,0 +1,70 @@
+schema_version: 2
+repository_id: github:jim-schwoebel/awesome_ai_agents
+research:
+  state: complete
+  source_commit: 51b1a7ebc7ad9bfa91632ef77a315faca0bb8356
+  bundle_collected_at: 2026-07-19T20:43:30.273Z
+  researched_at: 2026-07-20T00:00:00+02:00
+  confidence: medium
+classification:
+  primary_category: documentation-and-learning
+  topics:
+    - ai-agents
+    - agent-frameworks
+    - llms
+    - machine-learning
+    - curated-lists
+    - courses
+project:
+  name: Awesome AI Agents
+  kind: curated-list
+  summary: >-
+    A large, community-contributed Markdown hub for finding, learning about,
+    and building AI agents through categorized links to applications,
+    repositories, courses, benchmarks, datasets, frameworks, models, tools,
+    security resources, and workflows.
+  best_for:
+    - People seeking a broad starting point for AI-agent tools and learning resources
+    - Builders who want links spanning agent applications, frameworks, evaluation material, and deployment resources
+key_features:
+  - Divides the collection into using, learning, and building paths for AI agents
+  - Lists agent applications across many task and industry categories
+  - Curates repositories, courses, benchmarks, datasets, frameworks, LLM models, and prompt-engineering material
+  - Includes sections for deployment, security, testing, tools, and workflows
+  - Invites community contributions and describes the collection as receiving daily updates
+usage:
+  interfaces:
+    - GitHub README
+    - Markdown reference list
+  installation:
+    - Browse the repository README; the collection itself has no installable package
+  setup: low
+technology:
+  languages:
+    - Markdown
+  notable_components:
+    - Categorized external-resource index
+license:
+  spdx: Apache-2.0
+  name: Apache License 2.0
+  notes: >-
+    Permissive Apache-2.0 terms apply; redistributed copies must include the
+    license, and modified files should carry prominent change notices.
+status:
+  lifecycle: active
+  archived: false
+  latest_release: First version
+  latest_release_at: "2025-01-03"
+strengths:
+  - Gives a single starting point across the discovery, learning, and construction phases of AI-agent work
+  - Covers technical categories such as benchmarks, datasets, frameworks, security, and testing alongside applications
+  - Apache-2.0 licensing clearly permits reuse subject to its conditions
+caveats:
+  - The breadth of external links means individual project quality, maintenance, licenses, and claims must be assessed separately
+  - The retained release feed contains only the January 2025 release named First version, not a versioned release series
+  - The README still advertises a December 2025 event as upcoming, so some editorial material was dated at bundle collection
+  - The repository's own contents are a reference list, not an agent runtime, framework, or integrated tool suite
+sources:
+  - https://raw.githubusercontent.com/jim-schwoebel/awesome_ai_agents/51b1a7ebc7ad9bfa91632ef77a315faca0bb8356/README.md
+  - https://raw.githubusercontent.com/jim-schwoebel/awesome_ai_agents/51b1a7ebc7ad9bfa91632ef77a315faca0bb8356/LICENSE
+  - https://github.com/jim-schwoebel/awesome_ai_agents/releases.atom

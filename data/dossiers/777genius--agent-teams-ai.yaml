@@ -1,0 +1,83 @@
+schema_version: 2
+repository_id: github:777genius/agent-teams-ai
+research:
+  state: complete
+  source_commit: 656b11f94fcffb801ccf8cb841c42268ab104028
+  bundle_collected_at: 2026-07-19T20:41:24.043Z
+  researched_at: 2026-07-19T22:20:32.672Z
+  confidence: high
+classification:
+  primary_category: ai-and-automation
+  topics:
+    - ai-agents
+    - coding-agents
+    - agent-orchestration
+    - multi-agent
+    - multi-provider
+    - desktop-app
+    - mcp
+    - worktrees
+project:
+  name: Agent Teams AI
+  kind: application
+  summary: >-
+    An Electron desktop application for creating and supervising autonomous
+    multi-agent teams that coordinate coding and broader project tasks across
+    supported local runtimes and provider-backed coding agents.
+  best_for:
+    - Developers who want a visual workspace for parallel coding-agent teams
+    - Teams that need task, review, runtime-log, and token-usage visibility
+key_features:
+  - Create role-based teams whose agents can delegate, message, review, and complete tasks
+  - Track work on a kanban board with per-task logs, messages, and status history
+  - Review detected code changes by accepting, rejecting, or commenting on individual hunks
+  - Connect or auto-detect Claude Code, Codex, OpenCode, and other supported providers
+  - Isolate selected teammates in Git worktrees and provide an integrated PTY terminal
+  - Monitor token usage, estimated cost, and configurable budget alerts across teams
+usage:
+  interfaces:
+    - desktop GUI
+    - integrated terminal workspace
+    - MCP server
+    - standalone HTTP dashboard
+  installation:
+    - macOS, Windows, or Linux release download
+    - source checkout with pnpm
+    - Docker Compose standalone server
+  setup: moderate
+technology:
+  languages:
+    - TypeScript
+  notable_components:
+    - Electron
+    - React
+    - Node.js
+    - pnpm workspaces
+    - Model Context Protocol server
+license:
+  spdx: AGPL-3.0
+  name: GNU Affero General Public License v3.0
+  notes: >-
+    The primary desktop application is AGPL-3.0; modified deployments and
+    network-interactive versions have AGPL source-availability obligations.
+status:
+  lifecycle: active
+  archived: false
+  latest_release: v2.9.1
+  latest_release_at: "2026-07-19"
+strengths:
+  - Combines agent-team coordination, human review, runtime diagnostics, and code-change review in one desktop workspace
+  - Supports mixed agent runtimes and provider connections instead of locking teams to one coding agent
+  - Offers release binaries for major desktop platforms plus source and Docker-based deployment paths
+caveats:
+  - Provider access, local runtimes, and their usage costs or terms remain the user's responsibility
+  - The browser and standalone-server path does not provide the full desktop runtime or lifecycle behavior
+  - Git worktree isolation is optional, so teams need explicit branch and merge rules to avoid conflicts
+  - The root package reports version 2.1.2, while the primary project release feed reports v2.9.1; the latter is used as the project release
+  - The AGPL-3.0 license may be unsuitable for organizations that cannot meet its copyleft obligations
+sources:
+  - https://raw.githubusercontent.com/777genius/agent-teams-ai/656b11f94fcffb801ccf8cb841c42268ab104028/README.md
+  - https://raw.githubusercontent.com/777genius/agent-teams-ai/656b11f94fcffb801ccf8cb841c42268ab104028/LICENSE
+  - https://raw.githubusercontent.com/777genius/agent-teams-ai/656b11f94fcffb801ccf8cb841c42268ab104028/package.json
+  - https://raw.githubusercontent.com/777genius/agent-teams-ai/656b11f94fcffb801ccf8cb841c42268ab104028/docker/docker-compose.yml
+  - https://github.com/777genius/agent-teams-ai/releases.atom

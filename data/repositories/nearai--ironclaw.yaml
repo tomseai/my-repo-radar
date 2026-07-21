@@ -1,0 +1,74 @@
+analysis:
+  analyzed_at: "2026-07-19T19:42:52.223Z"
+  classification:
+    primary_category: "ai-and-automation"
+    state: "confirmed"
+    technologies:
+      - "rust"
+      - "postgres"
+    topics:
+      - "ai-agents"
+      - "llms"
+      - "cli"
+      - "authentication"
+    use_cases:
+      - "build-ai-products"
+      - "run-personal-or-team-tools"
+  evidence:
+    - claim: "IronClaw is a secure personal AI assistant runtime with a Rust CLI, configurable LLM providers, environment-based credential handling, and optional PostgreSQL storage for hosted multi-tenant deployments."
+      source_type: "repository-file"
+      url: "https://github.com/nearai/ironclaw/blob/main/README.md"
+      checked_at: "2026-07-19"
+      confidence: "high"
+  state: "complete"
+  summary:
+    one_line: "A Rust runtime and CLI for configuring and running a secure personal AI assistant."
+    why_useful: "It supports configurable model providers, environment-managed credentials, and local or hosted runtime profiles for assistant deployment."
+curation:
+  confidence: null
+  evidence: []
+  limitations: []
+  recommendation: null
+  reviewed_at: null
+  state: "uncurated"
+  strengths: []
+  verdict: null
+id: "github:nearai/ironclaw"
+import:
+  github_snapshot:
+    archived: false
+    created_at: "2026-02-03T06:57:10Z"
+    default_branch: "main"
+    description: "IronClaw is an Agent OS focused on privacy, security and extensibility"
+    disabled: false
+    fetched_at: "2026-07-19T19:16:14.796Z"
+    fork: false
+    forks: 1476
+    homepage: "https://www.ironclaw.com"
+    latest_release: null
+    license_spdx: "Apache-2.0"
+    open_issues: 1308
+    primary_language: "Rust"
+    pushed_at: "2026-07-19T16:17:02Z"
+    stars: 12527
+    topics:
+      - "codeact"
+      - "openclaw"
+      - "rlm"
+      - "rust"
+      - "wasm"
+    updated_at: "2026-07-19T16:50:20Z"
+  sources:
+    - observed_at: "2026-03-01T09:30:56Z"
+      relation: "starred"
+      source_id: "github:user:tomseai:stars"
+      source_url: "https://github.com/tomseai?tab=stars"
+  state: "imported"
+repository:
+  aliases: []
+  github_node_id: "R_kgDORHZ7Zw"
+  host: "github.com"
+  name: "ironclaw"
+  owner: "nearai"
+  url: "https://github.com/nearai/ironclaw"
+version: 1

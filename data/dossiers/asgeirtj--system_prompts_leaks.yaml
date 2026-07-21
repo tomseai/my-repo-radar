@@ -1,0 +1,69 @@
+schema_version: 2
+repository_id: github:asgeirtj/system_prompts_leaks
+research:
+  state: complete
+  source_commit: f8403e36dca7c4035037a259c56088dd94ade0e4
+  bundle_collected_at: 2026-07-19T20:41:43.891Z
+  researched_at: 2026-07-20T00:39:39.1534148+02:00
+  confidence: medium
+classification:
+  primary_category: documentation-and-learning
+  topics:
+    - llms
+    - prompt-engineering
+    - documentation
+    - curated-lists
+    - reference
+project:
+  name: System Prompts Leaks
+  kind: curated-list
+  summary: >-
+    A repository-organized reference collection of extracted and published
+    system prompts, injected reminders, skills, and commands for AI chatbots
+    and developer tools.
+  best_for:
+    - Comparing documented or captured instructions across AI products
+    - Studying historical prompt variants, agent roles, and tool guidance
+key_features:
+  - Provider-organized prompt files for Anthropic, OpenAI, Google, xAI, Microsoft, and other products
+  - Separate entries for chat products, coding tools, API-injected prompts, and browser or voice assistants
+  - Claude Code prompt materials for agents, bundled skills, slash commands, reminders, and MCP servers
+  - Historical model and prompt variants alongside newer entries
+  - Links distinguishing selected Anthropic official published prompts from other captures
+usage:
+  interfaces:
+    - Markdown prompt files
+    - GitHub repository browser
+  installation:
+    - No installation; browse or clone the repository
+  setup: low
+technology:
+  languages:
+    - Markdown
+  notable_components:
+    - Provider-organized prompt archives
+    - Claude Code prompt, skill, command, and reminder directories
+license:
+  spdx: CC0-1.0
+  name: Creative Commons Zero v1.0 Universal
+  notes: >-
+    The repository's license is a public-domain dedication to the extent
+    legally possible and disclaims warranties.
+status:
+  lifecycle: active
+  archived: false
+  latest_release: null
+  latest_release_at: null
+strengths:
+  - Consolidates many provider and product instruction sets in a browsable Markdown collection
+  - Retains multiple versions and related runtime material, not only base chat prompts
+  - Marks selected Anthropic entries as official published prompts
+caveats:
+  - Many entries are extracted captures, so they can be incomplete, version-specific, or no longer current
+  - The collection license does not by itself establish reuse rights for third-party prompt content
+  - Prompt wording should be independently verified before relying on it for behavior, policy, or compatibility conclusions
+  - The retained GitHub releases feed has no entries, so no project release can be established
+sources:
+  - https://raw.githubusercontent.com/asgeirtj/system_prompts_leaks/f8403e36dca7c4035037a259c56088dd94ade0e4/README.md
+  - https://raw.githubusercontent.com/asgeirtj/system_prompts_leaks/f8403e36dca7c4035037a259c56088dd94ade0e4/LICENSE
+  - https://github.com/asgeirtj/system_prompts_leaks/releases.atom

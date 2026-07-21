@@ -1,0 +1,89 @@
+analysis:
+  analyzed_at: "2026-07-19T19:55:29.679Z"
+  classification:
+    primary_category: "frontend-and-design"
+    state: "provisional"
+    technologies:
+      - "typescript"
+      - "react"
+    topics:
+      - "ai-agents"
+      - "llms"
+      - "observability"
+    use_cases:
+      - "build-ai-products"
+      - "design-interfaces"
+      - "test-software"
+  evidence:
+    - claim: "AgentPrism is an open-source React component library for visualizing AI-agent traces, including LLM calls, tool executions, and workflows from OpenTelemetry and Langfuse data; its README labels the release alpha."
+      source_type: "repository-file"
+      url: "https://github.com/evilmartians/agent-prism/blob/main/readme.md"
+      checked_at: "2026-07-19"
+      confidence: "high"
+  state: "researched"
+  summary:
+    one_line: "React component library for visualizing AI-agent traces, currently labeled alpha."
+    why_useful: "It turns agent-trace data into interactive views for inspecting and debugging agent behavior."
+curation:
+  confidence: null
+  evidence: []
+  limitations: []
+  recommendation: null
+  reviewed_at: null
+  state: "uncurated"
+  strengths: []
+  verdict: null
+id: "github:evilmartians/agent-prism"
+import:
+  github_snapshot:
+    archived: false
+    created_at: "2025-07-22T08:44:58Z"
+    default_branch: "main"
+    description: "React components for visualizing traces from AI agents"
+    disabled: false
+    fetched_at: "2026-07-19T19:16:14.796Z"
+    fork: false
+    forks: 21
+    homepage: "https://storybook.agent-prism.evilmartians.io/?utm_source=github&utm_medium=social"
+    latest_release: null
+    license_spdx: "MIT"
+    open_issues: 15
+    primary_language: "TypeScript"
+    pushed_at: "2026-07-17T11:06:57Z"
+    stars: 373
+    topics:
+      - "ai-agents"
+      - "ai-monitoring"
+      - "component-library"
+      - "developer-tools"
+      - "distributed-tracing"
+      - "generative-ai"
+      - "langchain"
+      - "llm"
+      - "llm-observability"
+      - "monitoring"
+      - "observability"
+      - "open-source"
+      - "opentelemetry"
+      - "react"
+      - "react-components"
+      - "tailwindcss"
+      - "trace-visualization"
+      - "tracing"
+      - "typescript"
+      - "ui-components"
+    updated_at: "2026-07-18T10:42:03Z"
+  sources:
+    - observed_at: "2026-07-18T10:42:02Z"
+      relation: "starred"
+      source_id: "github:user:tomseai:stars"
+      source_url: "https://github.com/tomseai?tab=stars"
+  state: "imported"
+repository:
+  aliases: []
+  github_node_id: "R_kgDOPQspqg"
+  host: "github.com"
+  name: "agent-prism"
+  owner: "evilmartians"
+  url: "https://github.com/evilmartians/agent-prism"
+version: 1

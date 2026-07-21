@@ -1,0 +1,80 @@
+schema_version: 2
+repository_id: github:t3-oss/create-t3-app
+research:
+  state: complete
+  source_commit: 4709861f7e67a15564c0460c13e7b4b6cfcae40d
+  bundle_collected_at: 2026-07-19T20:45:32.870Z
+  researched_at: 2026-07-19T21:46:44.168Z
+  confidence: medium
+classification:
+  primary_category: developer-tools
+  topics:
+    - cli
+    - web
+    - starter-templates
+    - frontend-development
+    - backend-development
+    - authentication
+    - databases
+    - developer-productivity
+project:
+  name: create-t3-app
+  kind: cli
+  summary: >-
+    An interactive CLI that scaffolds modular, type-safe full-stack Next.js
+    applications from a selectable T3 Stack configuration.
+  best_for:
+    - Starting a TypeScript-based Next.js application with common full-stack components
+    - Teams that want a maintained baseline rather than assembling the stack manually
+key_features:
+  - Published Node.js CLI package with a create-t3-app executable
+  - Base template built on Next.js, React, TypeScript, Zod, and environment validation
+  - Optional tRPC, Tailwind CSS, Prisma, Drizzle ORM, and database client integrations
+  - Optional Better Auth or NextAuth integration
+  - Monorepo includes CLI, documentation site, CI checks, and Changesets release automation
+usage:
+  interfaces:
+    - CLI
+  installation:
+    - npm package executable
+    - Source checkout with pnpm
+  setup: moderate
+technology:
+  languages:
+    - TypeScript
+  notable_components:
+    - Node.js
+    - Next.js
+    - React
+    - tRPC
+    - Prisma
+    - Drizzle ORM
+    - Tailwind CSS
+license:
+  spdx: MIT
+  name: MIT License
+  notes: >-
+    Permissive license allowing use, modification, distribution, sublicensing,
+    and sale with the copyright and license notice retained; provided without warranty.
+status:
+  lifecycle: maintenance
+  archived: false
+  latest_release: create-t3-app@7.40.0
+  latest_release_at: "2025-11-05"
+strengths:
+  - Combines a modern Next.js baseline with optional full-stack integrations
+  - Lets users avoid manually wiring common TypeScript web-application tooling
+  - Has automated lint, formatting, typechecking, build, and release workflows
+caveats:
+  - Designed specifically for Next.js projects, not a general multi-framework scaffolder
+  - Auth and database choices add configuration, external services, and dependency decisions
+  - The root workspace requires Node.js 20 or later while the CLI package declares Node.js 18.17 or later
+  - The cached root README only redirects to a CLI guide that was not retained, so exact prompts and invocation syntax are not established here
+sources:
+  - https://raw.githubusercontent.com/t3-oss/create-t3-app/4709861f7e67a15564c0460c13e7b4b6cfcae40d/README.md
+  - https://raw.githubusercontent.com/t3-oss/create-t3-app/4709861f7e67a15564c0460c13e7b4b6cfcae40d/LICENSE
+  - https://raw.githubusercontent.com/t3-oss/create-t3-app/4709861f7e67a15564c0460c13e7b4b6cfcae40d/package.json
+  - https://raw.githubusercontent.com/t3-oss/create-t3-app/4709861f7e67a15564c0460c13e7b4b6cfcae40d/cli/package.json
+  - https://raw.githubusercontent.com/t3-oss/create-t3-app/4709861f7e67a15564c0460c13e7b4b6cfcae40d/CONTRIBUTING.md
+  - https://raw.githubusercontent.com/t3-oss/create-t3-app/4709861f7e67a15564c0460c13e7b4b6cfcae40d/.github/workflows/release.yml
+  - https://github.com/t3-oss/create-t3-app/releases.atom

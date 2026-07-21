@@ -1,0 +1,74 @@
+schema_version: 2
+repository_id: github:donnemartin/system-design-primer
+research:
+  state: complete
+  source_commit: ae9bbd7b02d90b9866215de185217d33f39ab733
+  bundle_collected_at: 2026-07-19T20:42:38.351Z
+  researched_at: 2026-07-20T01:20:00+02:00
+  confidence: high
+classification:
+  primary_category: documentation-and-learning
+  topics:
+    - tutorials
+    - documentation
+    - reference
+    - courses
+project:
+  name: The System Design Primer
+  kind: documentation
+  summary: >-
+    An open learning reference for scalable-system design and interview
+    preparation, with a study guide, concept summaries, design exercises,
+    linked solutions, diagrams, Python examples, and Anki decks.
+  best_for:
+    - Building a system-design interview study plan around a chosen timeline
+    - Reviewing scalability concepts and comparing solutions to common design prompts
+key_features:
+  - Study guide that adapts breadth and depth recommendations to short, medium, and long interview timelines
+  - Four-step interview approach covering requirements, high-level design, core components, and scaling trade-offs
+  - Topic reference covering availability, consistency, DNS, CDNs, load balancing, databases, caching, queues, and communication
+  - System-design questions with linked discussions, code, diagrams, and solution directories
+  - Object-oriented-design exercises with Python and notebook-based solution artifacts
+  - Anki decks for system-design concepts, exercises, and object-oriented-design exercises
+usage:
+  interfaces:
+    - GitHub Markdown reference
+    - Python and Jupyter solution artifacts
+    - Anki flashcard decks
+  installation:
+    - Browse README.md for concepts, study plan, and linked solutions
+    - Clone the repository to inspect solution files or import its Anki decks
+  setup: low
+technology:
+  languages:
+    - Markdown
+    - Python
+  notable_components:
+    - System-design and object-oriented-design solution directories
+    - Anki flashcard decks
+    - Study-guide diagram and system-design diagrams
+license:
+  spdx: CC-BY-4.0
+  name: Creative Commons Attribution 4.0 International
+  notes: >-
+    The bundled LICENSE.txt applies CC BY 4.0 to the repository's code and
+    resources; attribution is required, and externally linked materials can have separate terms.
+status:
+  lifecycle: active
+  archived: false
+  latest_release: null
+  latest_release_at: null
+strengths:
+  - Connects concepts, a study sequence, design exercises, and concrete solution artifacts in one navigable reference
+  - Includes both system-design and object-oriented-design preparation material
+  - Supports several learning modes through prose, diagrams, code, notebooks, and spaced-repetition decks
+caveats:
+  - It is an educational reference, not a production architecture framework or a prescriptive design standard
+  - The README identifies some content as under development, including portions of distributed-computing material
+  - Linked articles, company architectures, and engineering blogs are maintained outside this repository
+  - The cached releases feed has no entries, so no latest versioned release can be established
+sources:
+  - https://raw.githubusercontent.com/donnemartin/system-design-primer/ae9bbd7b02d90b9866215de185217d33f39ab733/README.md
+  - https://raw.githubusercontent.com/donnemartin/system-design-primer/ae9bbd7b02d90b9866215de185217d33f39ab733/LICENSE.txt
+  - https://raw.githubusercontent.com/donnemartin/system-design-primer/ae9bbd7b02d90b9866215de185217d33f39ab733/CONTRIBUTING.md
+  - https://github.com/donnemartin/system-design-primer/releases.atom

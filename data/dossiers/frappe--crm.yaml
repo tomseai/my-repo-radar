@@ -1,0 +1,86 @@
+schema_version: 2
+repository_id: github:frappe/crm
+research:
+  state: complete
+  source_commit: 988211bcd2e29d4860a0e69bc310c30d82386a6e
+  bundle_collected_at: 2026-07-19T20:42:55.991Z
+  researched_at: 2026-07-20T17:23:16.092+02:00
+  confidence: medium
+
+classification:
+  primary_category: platforms-and-applications
+  topics:
+    - web-ui
+    - self-hosted
+    - open-source
+
+project:
+  name: Frappe CRM
+  kind: application
+  summary: >-
+    An open-source CRM application for sales teams, built on the Frappe
+    Framework, with lead and deal workflows, activity management, customizable
+    views, and hosted or self-managed deployment paths.
+  best_for:
+    - Sales teams that want an adaptable CRM built on the Frappe ecosystem
+    - Organizations able to operate Frappe Bench or Docker for a self-hosted CRM
+
+key_features:
+  - All-in-one lead and deal pages for activities, comments, notes, and tasks
+  - Drag-and-drop Kanban boards for tracking leads and deals through stages
+  - Custom lead and deal views with filters, sorting, and selected columns
+  - Built-in Twilio and Exotel call integrations, with WhatsApp and ERPNext integration options
+  - Production hosting through Frappe Cloud and documented Frappe Bench and Docker development paths
+
+usage:
+  interfaces:
+    - browser-based CRM application
+    - Frappe Bench application
+  installation:
+    - Frappe Cloud managed hosting
+    - Frappe easy-install deployment script
+    - Frappe Bench local setup
+    - Docker Compose
+  setup: high
+
+technology:
+  languages:
+    - Vue
+    - Python
+  notable_components:
+    - Frappe Framework
+    - Frappe UI
+    - MariaDB
+    - Redis
+
+license:
+  spdx: AGPL-3.0
+  name: GNU Affero General Public License v3.0
+  notes: >-
+    The root AGPL-3.0 license requires corresponding source for modified
+    network deployments; package metadata separately declares GPL-3.0.
+
+status:
+  lifecycle: active
+  archived: false
+  latest_release: v1.79.0
+  latest_release_at: 2026-07-19
+
+strengths:
+  - Covers central sales workflows in one interface while allowing custom views for team-specific processes
+  - Offers managed hosting alongside documented self-hosted production, Bench, and Docker routes
+  - Builds on the Frappe Framework and Frappe UI rather than requiring a separate custom application stack
+
+caveats:
+  - The root LICENSE is AGPL-3.0, while package.json declares GPL-3.0; confirm the intended license scope with the maintainer before adoption
+  - Self-hosting requires the Frappe ecosystem and its operational dependencies; the included Docker Compose configuration runs MariaDB, Redis, and Frappe Bench
+  - The README marks the main v1.x branch stable only with Frappe and ERPNext v15.x or v16.x; its v2 development path is unstable
+  - Telephony and messaging integrations depend on external services or a separate WhatsApp integration
+
+sources:
+  - https://raw.githubusercontent.com/frappe/crm/988211bcd2e29d4860a0e69bc310c30d82386a6e/README.md
+  - https://raw.githubusercontent.com/frappe/crm/988211bcd2e29d4860a0e69bc310c30d82386a6e/pyproject.toml
+  - https://raw.githubusercontent.com/frappe/crm/988211bcd2e29d4860a0e69bc310c30d82386a6e/package.json
+  - https://raw.githubusercontent.com/frappe/crm/988211bcd2e29d4860a0e69bc310c30d82386a6e/docker/docker-compose.yml
+  - https://raw.githubusercontent.com/frappe/crm/988211bcd2e29d4860a0e69bc310c30d82386a6e/LICENSE
+  - https://github.com/frappe/crm/releases.atom

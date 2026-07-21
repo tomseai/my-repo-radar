@@ -1,0 +1,88 @@
+analysis:
+  analyzed_at: "2026-07-19T19:51:54.008Z"
+  classification:
+    primary_category: "ai-and-automation"
+    state: "provisional"
+    technologies:
+      - "python"
+    topics:
+      - "ai-agents"
+      - "automation"
+      - "desktop-app"
+      - "cli"
+      - "open-source"
+    use_cases:
+      - "build-ai-products"
+      - "test-software"
+      - "run-personal-or-team-tools"
+  evidence:
+    - claim: "Cua provides open-source computer-use drivers, cross-operating-system sandboxes, and benchmarks for building, evaluating, training, and running agents that interact with desktop applications and operating systems."
+      source_type: "repository-file"
+      url: "https://github.com/trycua/cua/blob/main/README.md"
+      checked_at: "2026-07-19"
+      confidence: "high"
+  state: "researched"
+  summary:
+    one_line: "Computer-use platform for agents, cross-OS sandboxes, drivers, and benchmarks."
+    why_useful: "It supplies interfaces and environments for building and evaluating agents that operate desktop and virtual-machine user interfaces."
+curation:
+  confidence: null
+  evidence: []
+  limitations: []
+  recommendation: null
+  reviewed_at: null
+  state: "uncurated"
+  strengths: []
+  verdict: null
+id: "github:trycua/cua"
+import:
+  github_snapshot:
+    archived: false
+    created_at: "2025-01-31T15:02:49Z"
+    default_branch: "main"
+    description: "Scale computer-use 2.0 with open-source drivers, cross-OS fleets, and benchmarks for training, evaluation, and data generation."
+    disabled: false
+    fetched_at: "2026-07-19T19:16:14.796Z"
+    fork: false
+    forks: 1339
+    homepage: "https://cua.ai"
+    latest_release: null
+    license_spdx: "MIT"
+    open_issues: 542
+    primary_language: "HTML"
+    pushed_at: "2026-07-19T19:10:21Z"
+    stars: 20200
+    topics:
+      - "agent"
+      - "ai-agent"
+      - "apple"
+      - "computer-use"
+      - "computer-use-agent"
+      - "containerization"
+      - "cua"
+      - "desktop-automation"
+      - "hacktoberfest"
+      - "lume"
+      - "macos"
+      - "manus"
+      - "operator"
+      - "swift"
+      - "virtualization"
+      - "virtualization-framework"
+      - "windows"
+      - "windows-sandbox"
+    updated_at: "2026-07-19T19:15:35Z"
+  sources:
+    - observed_at: "2026-07-19T15:07:03Z"
+      relation: "starred"
+      source_id: "github:user:tomseai:stars"
+      source_url: "https://github.com/tomseai?tab=stars"
+  state: "imported"
+repository:
+  aliases: []
+  github_node_id: "R_kgDONyaAvQ"
+  host: "github.com"
+  name: "cua"
+  owner: "trycua"
+  url: "https://github.com/trycua/cua"
+version: 1

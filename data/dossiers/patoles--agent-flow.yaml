@@ -1,0 +1,82 @@
+schema_version: 2
+repository_id: github:patoles/agent-flow
+research:
+  state: complete
+  source_commit: 84cd2fb8c704cefe52e6dd41a375c4069442e206
+  bundle_collected_at: 2026-07-19T20:44:47.032Z
+  researched_at: 2026-07-20T18:00:00+02:00
+  confidence: high
+
+classification:
+  primary_category: developer-tools
+  topics:
+    - ai-agents
+    - agent-orchestration
+    - observability
+    - developer-productivity
+    - web-ui
+
+project:
+  name: Agent Flow
+  kind: application
+  summary: >-
+    A real-time visualizer for Claude Code and Codex execution that displays
+    detected sessions, branching, tool calls, timelines, transcripts, and
+    file-attention data in a browser or VS Code webview.
+  best_for:
+    - Debugging and understanding active Claude Code or Codex sessions
+    - Comparing concurrent agent sessions and tool-call sequences
+
+key_features:
+  - Interactive live graph of agent execution, tool calls, branches, and return flows
+  - Concurrent Claude Code and Codex session discovery with runtime filtering
+  - Codex rollout tailing with tool calls, reasoning, and token-count display
+  - Multi-session tabs, timeline, transcript, and file-attention heatmap
+  - JSONL event-log replay or live tailing
+
+usage:
+  interfaces:
+    - web UI
+    - VS Code extension
+    - CLI
+  installation:
+    - npx agent-flow-app
+    - VS Code Marketplace extension
+    - build from source with pnpm
+  setup: moderate
+
+technology:
+  languages:
+    - TypeScript
+  notable_components:
+    - Next.js
+    - React
+    - VS Code Extension API
+    - Server-Sent Events
+
+license:
+  spdx: Apache-2.0
+  name: Apache License 2.0
+  notes: The Apache license does not grant rights to the Agent Flow name or associated logos.
+
+status:
+  lifecycle: active
+  archived: false
+  latest_release: v0.9.1
+  latest_release_at: 2026-07-06
+
+strengths:
+  - Makes otherwise opaque coding-agent execution inspectable in real time
+  - Supports both Claude Code and Codex across browser, extension, and source workflows
+  - Can replay arbitrary JSONL event logs as well as watch live sessions
+
+caveats:
+  - Requires Node.js 20 or later and pnpm for the source workflow
+  - Claude Code hooks are configured for live streaming in the source and extension workflows
+  - The published npx binary enables opt-out anonymous aggregate telemetry by default
+
+sources:
+  - https://raw.githubusercontent.com/patoles/agent-flow/84cd2fb8c704cefe52e6dd41a375c4069442e206/README.md
+  - https://raw.githubusercontent.com/patoles/agent-flow/84cd2fb8c704cefe52e6dd41a375c4069442e206/LICENSE
+  - https://raw.githubusercontent.com/patoles/agent-flow/84cd2fb8c704cefe52e6dd41a375c4069442e206/extension/package.json
+  - https://github.com/patoles/agent-flow/releases.atom

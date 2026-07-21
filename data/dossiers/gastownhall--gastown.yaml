@@ -1,0 +1,90 @@
+schema_version: 2
+repository_id: github:gastownhall/gastown
+
+research:
+  state: complete
+  source_commit: 5ffa55a2bc03fa1110ea0b1495bfa26bbe6b66f3
+  bundle_collected_at: 2026-07-19T20:43:00.706Z
+  researched_at: 2026-07-20T15:25:52.209Z
+  confidence: high
+
+classification:
+  primary_category: ai-and-automation
+  topics:
+    - coding-agents
+    - agent-orchestration
+    - multi-agent
+    - agent-memory
+    - task-planning
+    - worktrees
+    - cli
+    - tui
+    - observability
+
+project:
+  name: Gas Town
+  kind: cli
+  summary: >-
+    A multi-agent workspace manager that uses git worktree-backed state and
+    Beads to coordinate persistent coding-agent tasks, handoffs, monitoring,
+    and merge workflows.
+  best_for:
+    - Teams running several coding agents across one or more repositories
+    - Long-running, multi-issue implementation work that needs durable coordination and recovery
+
+key_features:
+  - A Mayor coordinator, rigs, crew workspaces, and persistent worker identities
+  - Convoys that bundle Beads tasks for agent assignment, tracking, and stall handling
+  - Git worktree-backed hooks that preserve work state across agent restarts
+  - Witness, Deacon, and Dog watchdog roles for health checks, recovery, and escalation
+  - A per-rig Refinery merge queue with verification gates and Bors-style bisection
+  - Runtime presets for Claude Code, Codex, GitHub Copilot, Gemini, Cursor, and other coding agents
+
+usage:
+  interfaces:
+    - CLI
+    - terminal user interface
+    - web dashboard
+  installation:
+    - Homebrew
+    - go install
+    - build from source
+    - Docker Compose
+  setup: high
+
+technology:
+  languages:
+    - Go
+  notable_components:
+    - Beads
+    - Dolt
+    - tmux
+    - OpenTelemetry
+
+license:
+  spdx: MIT
+  name: MIT License
+  notes: Permissive license; copyright and license notices must be retained, and the software is provided without warranty.
+
+status:
+  lifecycle: active
+  archived: false
+  latest_release: v1.2.1
+  latest_release_at: 2026-06-06
+
+strengths:
+  - Gives multi-agent work durable task state, identities, handoffs, and recovery mechanisms
+  - Supports structured orchestration, direct manual operation, and several coding-agent runtimes
+  - Adds operational controls for dispatch capacity, merge verification, escalation, and telemetry
+
+caveats:
+  - Native full-service workflows require a substantial toolchain, including Git, Go, Beads, Dolt, tmux, and platform-specific dependencies
+  - Native Windows is documented as minimal CLI-only; tmux-backed workflows need WSL or another Linux environment
+  - The dashboard is a trusted local-network surface and should not be exposed without suitable access controls
+  - It coordinates coding agents and task state; it does not provide an underlying agent model or coding runtime
+
+sources:
+  - https://raw.githubusercontent.com/gastownhall/gastown/5ffa55a2bc03fa1110ea0b1495bfa26bbe6b66f3/README.md
+  - https://raw.githubusercontent.com/gastownhall/gastown/5ffa55a2bc03fa1110ea0b1495bfa26bbe6b66f3/LICENSE
+  - https://raw.githubusercontent.com/gastownhall/gastown/5ffa55a2bc03fa1110ea0b1495bfa26bbe6b66f3/go.mod
+  - https://github.com/gastownhall/gastown/releases.atom

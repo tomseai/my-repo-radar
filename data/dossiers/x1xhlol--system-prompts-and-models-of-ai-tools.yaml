@@ -1,0 +1,82 @@
+schema_version: 2
+repository_id: github:x1xhlol/system-prompts-and-models-of-ai-tools
+research:
+  state: complete
+  source_commit: 2054f580b1203da061e8e3df3c6449de2ad7c322
+  bundle_collected_at: 2026-07-19T20:45:55.774Z
+  researched_at: 2026-07-20T16:11:19.267Z
+  confidence: medium
+
+classification:
+  primary_category: documentation-and-learning
+  topics:
+    - ai-agents
+    - coding-agents
+    - llms
+    - prompt-engineering
+    - tool-use
+    - code-generation
+    - curated-lists
+    - reference
+
+project:
+  name: System Prompts and Models of AI Tools
+  kind: curated-list
+  summary: >-
+    A file collection of system prompts, tool descriptions, and model-related
+    artifacts from a range of AI assistants and coding tools.
+  best_for:
+    - Studying prompt and tool-design patterns used by AI assistants and coding agents
+    - Comparing published prompt or tool artifacts across multiple AI products
+
+key_features:
+  - Groups prompt and tool files by AI product or provider
+  - Includes artifacts for coding assistants, general assistants, and browser-oriented tools
+  - Retains both natural-language prompts and structured JSON or YAML tool definitions
+  - Covers proprietary-product artifacts alongside openly sourced prompt collections
+  - Includes multiple versions or modes for selected products
+  - Maintains a simple repository layout for directly inspecting individual files
+
+usage:
+  interfaces:
+    - web-based file collection
+  installation:
+    - browse the repository
+    - clone the repository
+  setup: low
+
+technology:
+  languages: []
+  notable_components:
+    - system prompts
+    - JSON tool definitions
+    - YAML model configuration
+
+license:
+  spdx: GPL-3.0-only
+  name: GNU General Public License v3.0
+  notes: >-
+    The retained license text is GPL v3.0; it imposes copyleft obligations on
+    redistribution of covered work. It does not establish rights in every collected third-party artifact.
+
+status:
+  lifecycle: active
+  archived: false
+  latest_release: null
+  latest_release_at: null
+
+strengths:
+  - Puts prompt text and tool specifications from many AI products in one inspectable layout
+  - Preserves structured artifacts as well as prose prompts, aiding comparative analysis
+  - Recent retained metadata and the README's update notice indicate ongoing updates
+
+caveats:
+  - The retained files do not establish the provenance, accuracy, or currency of every artifact
+  - Collected prompts and tool definitions may be product-specific, incomplete, or no longer reflect live behavior
+  - Verify authorization and applicable rights before reusing material attributed to third parties
+  - The GPL file may not by itself grant reuse rights for every collected third-party prompt or model artifact
+
+sources:
+  - https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools/tree/2054f580b1203da061e8e3df3c6449de2ad7c322
+  - https://raw.githubusercontent.com/x1xhlol/system-prompts-and-models-of-ai-tools/2054f580b1203da061e8e3df3c6449de2ad7c322/README.md
+  - https://raw.githubusercontent.com/x1xhlol/system-prompts-and-models-of-ai-tools/2054f580b1203da061e8e3df3c6449de2ad7c322/LICENSE.md

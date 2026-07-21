@@ -1,0 +1,73 @@
+schema_version: 2
+repository_id: github:adonisjs/core
+research:
+  state: complete
+  source_commit: 595c48602aa39e5cfdfaf24f4ac7396425c1c083
+  bundle_collected_at: 2026-07-19T20:40:26.426Z
+  researched_at: 2026-07-19T21:45:11.231Z
+  confidence: high
+classification:
+  primary_category: application-frameworks
+  topics:
+    - frameworks
+    - web
+    - backend-development
+    - api-development
+    - cli
+    - testing
+project:
+  name: AdonisJS Core
+  kind: framework
+  summary: >-
+    The TypeScript-first, full-stack MVC framework core for Node.js web
+    applications, API servers, and microservices.
+  best_for:
+    - Teams building server-rendered web applications or API backends with AdonisJS
+    - Node.js projects that benefit from a cohesive framework and official package ecosystem
+key_features:
+  - Full-stack MVC foundation with APIs for web applications and microservices
+  - HTTP server, body parsing, configuration, environment, event, logging, and health modules
+  - Command toolkit exposed through the adonis-kit CLI
+  - Hashing and encryption modules with multiple supported algorithms
+  - ESM package with TypeScript declarations and public npm provenance
+  - Automated linting and tests on current LTS and latest Node.js in CI
+usage:
+  interfaces:
+    - Node.js library
+    - adonis-kit CLI
+  installation:
+    - npm package
+    - build from source
+  setup: moderate
+technology:
+  languages:
+    - TypeScript
+    - JavaScript
+  notable_components:
+    - Node.js
+    - ECMAScript modules
+    - npm
+    - GitHub Actions
+license:
+  spdx: MIT
+  name: MIT License
+  notes: Permissive license that allows use, modification, distribution, sublicensing, and sale with notice inclusion.
+status:
+  lifecycle: active
+  archived: false
+  latest_release: v7.3.5
+  latest_release_at: "2026-07-08"
+strengths:
+  - A cohesive core consolidates common server concerns behind a stable framework API
+  - Current release activity and automated CI indicate ongoing maintenance
+  - The MIT license and npm publication make it suitable for commercial and open-source use
+caveats:
+  - This repository is the framework core; a complete application relies on the broader AdonisJS package ecosystem
+  - Version 7.3.5 requires Node.js 24 or newer
+  - Some integrations, including hashing drivers, templating, and validation, are optional peer dependencies
+sources:
+  - https://raw.githubusercontent.com/adonisjs/core/595c48602aa39e5cfdfaf24f4ac7396425c1c083/README.md
+  - https://raw.githubusercontent.com/adonisjs/core/595c48602aa39e5cfdfaf24f4ac7396425c1c083/LICENSE.md
+  - https://raw.githubusercontent.com/adonisjs/core/595c48602aa39e5cfdfaf24f4ac7396425c1c083/package.json
+  - https://raw.githubusercontent.com/adonisjs/core/595c48602aa39e5cfdfaf24f4ac7396425c1c083/.github/workflows/test.yml
+  - https://github.com/adonisjs/core/releases.atom

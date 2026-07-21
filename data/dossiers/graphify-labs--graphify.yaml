@@ -1,0 +1,87 @@
+schema_version: 2
+repository_id: github:Graphify-Labs/graphify
+research:
+  state: complete
+  source_commit: edec9eabeceeae6aa2375eddb3835efa1a32c0a3
+  bundle_collected_at: 2026-07-19T20:43:20.243Z
+  researched_at: 2026-07-20T15:31:44.117Z
+  confidence: high
+
+classification:
+  primary_category: developer-tools
+  topics:
+    - coding-agents
+    - agent-skills
+    - cli
+    - codebase-indexing
+    - codebase-search
+    - visualization
+    - local-first
+
+project:
+  name: graphify
+  kind: cli
+  summary: >-
+    A Python CLI and coding-assistant skill that maps code and selected project
+    materials into a traversable knowledge graph, then supports focused query,
+    path, explanation, report, and visual-graph workflows over that output.
+  best_for:
+    - Developers orienting coding agents in a medium or large codebase
+    - Teams that need code, schema, and supporting-document relationships in one graph
+
+key_features:
+  - Parses code structure and cross-file relationships locally with tree-sitter
+  - Produces graph.json, GRAPH_REPORT.md, and an interactive graph.html view
+  - Queries, explains, and traces shortest paths between graph concepts
+  - Labels relationships as extracted, inferred, or ambiguous
+  - Installs query-first guidance for supported coding assistants
+  - Provides optional MCP, graph-database, document, and media integrations
+
+usage:
+  interfaces:
+    - CLI
+    - coding-assistant skill
+    - MCP server
+    - interactive HTML graph
+  installation:
+    - uv tool install graphifyy
+    - pipx install graphifyy
+    - pip install graphifyy
+  setup: moderate
+
+technology:
+  languages:
+    - Python
+  notable_components:
+    - tree-sitter
+    - NetworkX
+    - Model Context Protocol
+
+license:
+  spdx: MIT
+  name: MIT License
+  notes: The commit-pinned LICENSE and package metadata both identify the MIT license.
+
+status:
+  lifecycle: active
+  archived: null
+  latest_release: v0.9.20
+  latest_release_at: 2026-07-18
+
+strengths:
+  - Local AST extraction makes code-only graph construction possible without an LLM backend
+  - The output combines machine-readable graph data, a report, and a browser-based view
+  - Relationship provenance and confidence labels make inferred links distinguishable
+
+caveats:
+  - Documentation, papers, images, and transcripts use a semantic pass that can require a configured backend and consume tokens
+  - Language coverage and some content formats depend on optional extras
+  - The status and release are based on the locally cached release feed; archival state is not asserted from commit-pinned source files
+
+sources:
+  - https://raw.githubusercontent.com/Graphify-Labs/graphify/edec9eabeceeae6aa2375eddb3835efa1a32c0a3/README.md
+  - https://raw.githubusercontent.com/Graphify-Labs/graphify/edec9eabeceeae6aa2375eddb3835efa1a32c0a3/docs/how-it-works.md
+  - https://raw.githubusercontent.com/Graphify-Labs/graphify/edec9eabeceeae6aa2375eddb3835efa1a32c0a3/ARCHITECTURE.md
+  - https://raw.githubusercontent.com/Graphify-Labs/graphify/edec9eabeceeae6aa2375eddb3835efa1a32c0a3/pyproject.toml
+  - https://raw.githubusercontent.com/Graphify-Labs/graphify/edec9eabeceeae6aa2375eddb3835efa1a32c0a3/LICENSE
+  - https://github.com/Graphify-Labs/graphify/releases.atom

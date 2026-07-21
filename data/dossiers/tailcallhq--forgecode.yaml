@@ -1,0 +1,88 @@
+schema_version: 2
+repository_id: github:tailcallhq/forgecode
+research:
+  state: complete
+  source_commit: c5698103bce973d1c569ae905bca6f34ba85c1d0
+  bundle_collected_at: 2026-07-19T20:45:36.049Z
+  researched_at: 2026-07-20T16:11:13.003Z
+  confidence: high
+
+classification:
+  primary_category: developer-tools
+  topics:
+    - ai-agents
+    - coding-agents
+    - cli
+    - tui
+    - terminal
+    - worktrees
+    - codebase-search
+    - multi-provider
+    - mcp
+    - developer-productivity
+
+project:
+  name: Forge
+  kind: cli
+  summary: >-
+    A Rust terminal coding agent that combines an interactive TUI, one-shot
+    commands, and a Zsh prompt plugin with provider login, workspace search,
+    Git worktrees, MCP server configuration, and persistent conversations.
+  best_for:
+    - Developers who want a coding agent embedded in a terminal workflow
+    - Scripted or isolated coding tasks that benefit from Git worktrees
+
+key_features:
+  - Interactive terminal sessions that can read files, write patches, and run commands
+  - One-shot prompts for scripts, piped input, commit messages, and command suggestions
+  - Zsh plugin with colon-prefixed agent, conversation, commit, and suggestion commands
+  - Workspace indexing and semantic search queries
+  - Isolated Git worktree and branch creation through the sandbox option
+  - Configurable model providers and MCP servers
+
+usage:
+  interfaces:
+    - terminal TUI
+    - CLI
+    - Zsh plugin
+  installation:
+    - official shell installer
+    - build from source with Rust
+  setup: low
+
+technology:
+  languages:
+    - Rust
+  notable_components:
+    - Tokio
+    - Clap
+    - rustls
+
+license:
+  spdx: Apache-2.0
+  name: Apache License 2.0
+  notes: >-
+    The root LICENSE supplies Apache-2.0 terms for Forge. The root package.json
+    describes a separate forge-code-evals workspace and declares ISC for that tooling.
+
+status:
+  lifecycle: active
+  archived: false
+  latest_release: v2.13.18
+  latest_release_at: 2026-07-16
+
+strengths:
+  - Supports both persistent interactive work and automation-friendly one-shot commands
+  - Brings worktree isolation, semantic search, provider selection, and MCP configuration into one terminal tool
+
+caveats:
+  - It needs credentials for a selected AI provider before it can assist with coding tasks
+  - The Zsh prompt integration is optional and specifically targets Zsh users
+  - Semantic indexing sends file content to api.forgecode.dev by default unless a self-hosted workspace server is configured
+
+sources:
+  - https://raw.githubusercontent.com/tailcallhq/forgecode/c5698103bce973d1c569ae905bca6f34ba85c1d0/README.md
+  - https://raw.githubusercontent.com/tailcallhq/forgecode/c5698103bce973d1c569ae905bca6f34ba85c1d0/LICENSE
+  - https://raw.githubusercontent.com/tailcallhq/forgecode/c5698103bce973d1c569ae905bca6f34ba85c1d0/Cargo.toml
+  - https://raw.githubusercontent.com/tailcallhq/forgecode/c5698103bce973d1c569ae905bca6f34ba85c1d0/package.json
+  - https://github.com/tailcallhq/forgecode/releases.atom

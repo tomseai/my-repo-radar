@@ -1,0 +1,73 @@
+schema_version: 2
+repository_id: github:juliangarnier/anime
+research:
+  state: complete
+  source_commit: 2c9cf8ea00329f6768c7d7902252ed977d75ce42
+  bundle_collected_at: 2026-07-19T20:43:33.598Z
+  researched_at: 2026-07-19T22:39:49.560Z
+  confidence: high
+classification:
+  primary_category: frontend-and-design
+  topics:
+    - web
+    - frontend-development
+    - libraries
+    - visualization
+project:
+  name: Anime.js
+  kind: library
+  summary: >-
+    A JavaScript animation library for animating CSS properties, SVG, DOM
+    attributes, and JavaScript objects through a modular API.
+  best_for:
+    - Adding programmatic motion and timelines to a web interface
+    - Projects that need one animation API across DOM, SVG, and object targets
+key_features:
+  - Core animate API with easing, stagger, loop, alternate, and timeline modules
+  - ESM, CommonJS, UMD, and TypeScript declaration package outputs
+  - Modules for SVG, text, layout, scroll, draggable interactions, and the Web Animations API
+  - Optional Three.js adapter for supported Three.js targets
+  - Release 4.5 adds an adapter registration API and three-dimensional stagger layouts
+usage:
+  interfaces:
+    - JavaScript and TypeScript module API
+    - Browser UMD bundle
+  installation:
+    - npm package
+    - CDN-compatible UMD bundle
+    - Source checkout for local development
+  setup: low
+technology:
+  languages:
+    - JavaScript
+    - TypeScript
+  notable_components:
+    - Web Animations API
+    - SVG
+    - Three.js
+license:
+  spdx: MIT
+  name: MIT License
+  notes: >-
+    Permissive license allowing use, modification, distribution, sublicensing,
+    and sale when the copyright and license notice are retained; provided without warranty.
+status:
+  lifecycle: active
+  archived: false
+  latest_release: v4.5.0
+  latest_release_at: "2026-06-22"
+strengths:
+  - Targets CSS, SVG, DOM attributes, and JavaScript objects through a single library
+  - Offers modular imports and multiple package formats for different integration styles
+  - Provides advanced composition tools such as timelines, easings, staggering, and adapters
+caveats:
+  - It supplies animation primitives, not a ready-made component or visual design system
+  - The optional Three.js adapter requires compatible Three.js peer dependencies
+  - Version 4 includes migration guidance, and the 4.4 release documents behavior and callback-signature changes
+  - Animation choices still need application-specific accessibility and performance review
+sources:
+  - https://raw.githubusercontent.com/juliangarnier/anime/2c9cf8ea00329f6768c7d7902252ed977d75ce42/README.md
+  - https://raw.githubusercontent.com/juliangarnier/anime/2c9cf8ea00329f6768c7d7902252ed977d75ce42/package.json
+  - https://raw.githubusercontent.com/juliangarnier/anime/2c9cf8ea00329f6768c7d7902252ed977d75ce42/CONTRIBUTING.md
+  - https://raw.githubusercontent.com/juliangarnier/anime/2c9cf8ea00329f6768c7d7902252ed977d75ce42/LICENSE.md
+  - https://github.com/juliangarnier/anime/releases.atom

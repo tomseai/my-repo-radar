@@ -1,0 +1,81 @@
+schema_version: 2
+repository_id: github:johnpapa/ai-ready
+research:
+  state: complete
+  source_commit: b3538e9104e710c8ce528466840e8db1fee3c56b
+  bundle_collected_at: 2026-07-19T20:43:33.880Z
+  researched_at: 2026-07-20T15:30:00.000Z
+  confidence: high
+
+classification:
+  primary_category: ai-and-automation
+  topics:
+    - coding-agents
+    - agent-skills
+    - automation
+    - github
+    - pull-requests
+    - mcp
+    - developer-productivity
+
+project:
+  name: AI Ready
+  kind: plugin
+  summary: >-
+    A GitHub Copilot CLI skill that inspects a repository's code, workflows,
+    documentation, and review patterns, then reports on AI readiness and
+    proposes or creates repository-specific configuration for coding agents.
+  best_for:
+    - Maintainers preparing a repository for repeatable AI-agent contributions
+    - Teams that want agent instructions derived from their existing project conventions
+
+key_features:
+  - Analyzes repository structure, manifests, tests, documentation, and existing AI configuration
+  - Mines recent pull-request review comments for repeated team conventions
+  - Generates or audits AGENTS.md and GitHub Copilot instructions without overwriting files
+  - Can prepare CI, issue and pull-request templates, contributing guidance, and an MCP configuration
+  - Produces an AI-readiness report based on twelve tracked repository assets
+  - Supports monorepos with scoped instruction files and a maintenance matrix
+
+usage:
+  interfaces:
+    - GitHub Copilot CLI
+    - GitHub pull requests and issues
+  installation:
+    - GitHub Copilot CLI plugin installation
+  setup: low
+
+technology:
+  languages: []
+  notable_components:
+    - GitHub Copilot CLI
+    - GitHub API
+    - Model Context Protocol configuration
+
+license:
+  spdx: MIT
+  name: MIT License
+  notes: Permissive license; the bundled text includes the standard warranty disclaimer.
+
+status:
+  lifecycle: active
+  archived: false
+  latest_release: v1.2.0
+  latest_release_at: 2026-07-18
+
+strengths:
+  - Uses the target repository's code and contribution history rather than generic instruction templates
+  - Safe re-runs audit drift and propose changes instead of overwriting existing files
+  - Covers both agent context and conventional contributor-facing project metadata
+
+caveats:
+  - It is a Copilot CLI skill, not a standalone repository-analysis service or coding agent
+  - GitHub-native discovery and PR-review mining depend on suitable GitHub access and available history
+  - Generated recommendations still need maintainer review before they become repository policy
+  - The evidence does not establish compatibility with non-Copilot agent clients
+
+sources:
+  - https://raw.githubusercontent.com/johnpapa/ai-ready/b3538e9104e710c8ce528466840e8db1fee3c56b/README.md
+  - https://raw.githubusercontent.com/johnpapa/ai-ready/b3538e9104e710c8ce528466840e8db1fee3c56b/docs/how-it-works.md
+  - https://raw.githubusercontent.com/johnpapa/ai-ready/b3538e9104e710c8ce528466840e8db1fee3c56b/LICENSE
+  - https://github.com/johnpapa/ai-ready/releases.atom

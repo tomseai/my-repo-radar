@@ -1,0 +1,72 @@
+schema_version: 2
+repository_id: github:hesamsheikh/awesome-openclaw-usecases
+research:
+  state: complete
+  source_commit: 659895e58e2105c6db8fbef39f446c8a786a480c
+  bundle_collected_at: 2026-07-19T20:43:21.056Z
+  researched_at: 2026-07-20T00:00:00.000Z
+  confidence: high
+classification:
+  primary_category: documentation-and-learning
+  topics:
+    - ai-agents
+    - automation
+    - curated-lists
+    - agent-skills
+    - agent-orchestration
+    - developer-productivity
+project:
+  name: Awesome OpenClaw Use Cases
+  kind: curated-list
+  summary: >-
+    A community-maintained Markdown collection of tested real-world OpenClaw
+    use cases, organized to help people adapt the agent to social, building,
+    infrastructure, productivity, research, learning, and finance workflows.
+  best_for:
+    - OpenClaw users looking for concrete workflow ideas before selecting skills or integrations
+    - Contributors who have verified an OpenClaw use case and can document its prompts, skills, and links
+key_features:
+  - Groups real-life examples across social media, creative building, infrastructure and DevOps, productivity, research, learning, and finance
+  - Links each listed use case to a dedicated Markdown document intended to explain its implementation
+  - Covers personal assistants, digests, content pipelines, project coordination, knowledge bases, voice use, and specialized multi-agent workflows
+  - Requires new contributions to describe the pain point, behavior, prompts or configuration, needed skills, and related tools
+  - Accepts only use cases contributors have worked with and verified for at least a day, while allowing meaningfully different approaches
+  - Maintains an explicit exclusion for crypto-related use cases
+usage:
+  interfaces:
+    - GitHub Markdown reference list
+    - linked use-case documents
+  installation:
+    - no installation; browse the repository and follow linked use-case guidance
+    - contribute a Markdown use-case document and pull request
+  setup: low
+technology:
+  languages:
+    - Markdown
+  notable_components:
+    - OpenClaw
+    - community skills and plugins
+license:
+  spdx: MIT
+  name: MIT License
+  notes: Permissive license allowing use, modification, distribution, sublicensing, and sale when the copyright and license notice are retained; provided without warranty.
+status:
+  lifecycle: active
+  archived: false
+  latest_release: null
+  latest_release_at: null
+strengths:
+  - Focuses on outcome-oriented examples rather than treating individual skills as the primary discovery unit
+  - Contribution guidance asks for reproducible implementation detail and prior real-world verification
+  - Covers personal and professional workflows, so it can seed exploration beyond software-development automation
+caveats:
+  - It is a reference list, not an OpenClaw distribution, a security review, or a guarantee that any linked workflow will work in another environment
+  - The README warns that linked third-party skills, plugins, and dependencies may contain critical vulnerabilities and are not audited by the maintainer
+  - Many examples can require credentials, access to external services, or powerful permissions; users should inspect requests and avoid hardcoding secrets
+  - The retained release feed has no entries, so no project release can be established
+sources:
+  - https://raw.githubusercontent.com/hesamsheikh/awesome-openclaw-usecases/659895e58e2105c6db8fbef39f446c8a786a480c/README.md
+  - https://raw.githubusercontent.com/hesamsheikh/awesome-openclaw-usecases/659895e58e2105c6db8fbef39f446c8a786a480c/LICENSE
+  - https://raw.githubusercontent.com/hesamsheikh/awesome-openclaw-usecases/659895e58e2105c6db8fbef39f446c8a786a480c/CONTRIBUTING.md
+  - https://raw.githubusercontent.com/hesamsheikh/awesome-openclaw-usecases/659895e58e2105c6db8fbef39f446c8a786a480c/.github/workflows/update-badge.yml
+  - https://github.com/hesamsheikh/awesome-openclaw-usecases/releases.atom

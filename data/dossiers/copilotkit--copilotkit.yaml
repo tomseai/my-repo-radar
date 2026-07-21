@@ -1,0 +1,81 @@
+schema_version: 2
+repository_id: github:CopilotKit/CopilotKit
+research:
+  state: complete
+  source_commit: ca67cd013f77fbc9852525dedbb0a564326562bd
+  bundle_collected_at: 2026-07-19T20:42:28.953Z
+  researched_at: 2026-07-20T17:12:27.0008310+02:00
+  confidence: high
+classification:
+  primary_category: ai-and-automation
+  topics:
+    - ai-agents
+    - chat-ui
+    - generative-ui
+    - agent-protocols
+    - web-ui
+    - web
+project:
+  name: CopilotKit
+  kind: framework
+  summary: >-
+    A multi-platform framework for adding agent-driven chat, generative UI,
+    shared state, and approval workflows to application front ends.
+  best_for:
+    - Product teams building agent-facing web or mobile application interfaces
+    - Teams that need one agent interaction model across supported front-end surfaces
+key_features:
+  - Provides customizable chat UI with streamed messages, tool calls, and agent responses
+  - Renders agent-selected or dynamically updated UI components in the client
+  - Synchronizes application state that agents and UI components can both update in real time
+  - Lets agents pause for user input, confirmation, or edits before continuing
+  - Supports React and Next.js, Angular, Vue, React Native, and beta collaboration-channel integrations
+usage:
+  interfaces:
+    - web UI components and hooks
+    - React Native UI
+    - Slack and Microsoft Teams channels
+    - JavaScript and Python SDK packages
+  installation:
+    - npx copilotkit@latest create starter command
+    - npm or pnpm packages
+    - source checkout with pnpm workspaces
+  setup: moderate
+technology:
+  languages:
+    - TypeScript
+    - Python
+  notable_components:
+    - React and Next.js
+    - Angular
+    - Vue
+    - React Native
+    - AG-UI protocol
+    - pnpm workspaces
+license:
+  spdx: MIT
+  name: MIT License
+  notes: >-
+    Permissive license; copyright and license notices must be retained, and
+    the software is provided without warranty.
+status:
+  lifecycle: active
+  archived: false
+  latest_release: v1.63.1
+  latest_release_at: 2026-07-16
+strengths:
+  - Combines chat, UI rendering, shared state, and human-approval primitives in one framework
+  - Supports multiple major web and mobile front-end targets from a shared agent interaction model
+  - Includes a generator command, package SDKs, agent-installable skills, and source examples
+caveats:
+  - A working application still requires an LLM provider key and integration with the chosen agent backend
+  - Angular and Vue are marked supported, while their README quickstarts are still listed as forthcoming
+  - Slack, Microsoft Teams, Discord, and Google Chat integrations are marked beta or early-access in the README
+  - The monorepo feed also contains independently versioned channel packages; v1.63.1 is the primary CopilotKit release, not the newest feed entry
+sources:
+  - https://raw.githubusercontent.com/CopilotKit/CopilotKit/ca67cd013f77fbc9852525dedbb0a564326562bd/README.md
+  - https://raw.githubusercontent.com/CopilotKit/CopilotKit/ca67cd013f77fbc9852525dedbb0a564326562bd/LICENSE
+  - https://raw.githubusercontent.com/CopilotKit/CopilotKit/ca67cd013f77fbc9852525dedbb0a564326562bd/package.json
+  - https://raw.githubusercontent.com/CopilotKit/CopilotKit/ca67cd013f77fbc9852525dedbb0a564326562bd/packages/core/package.json
+  - https://raw.githubusercontent.com/CopilotKit/CopilotKit/ca67cd013f77fbc9852525dedbb0a564326562bd/sdk-python/pyproject.toml
+  - https://github.com/CopilotKit/CopilotKit/releases.atom

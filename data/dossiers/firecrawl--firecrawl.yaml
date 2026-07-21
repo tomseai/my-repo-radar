@@ -1,0 +1,81 @@
+schema_version: 2
+repository_id: github:firecrawl/firecrawl
+research:
+  state: complete
+  source_commit: 47f321f1e147d283f9b679311f9396f740d4c30d
+  bundle_collected_at: 2026-07-19T20:42:53.088Z
+  researched_at: 2026-07-20T15:23:49.960Z
+  confidence: high
+classification:
+  primary_category: backend-and-apis
+  topics:
+    - ai-agents
+    - llms
+    - web-search
+    - web-scraping
+    - browser-automation
+    - document-processing
+    - self-hosted
+    - open-source
+project:
+  name: firecrawl
+  kind: service
+  summary: >-
+    An API and SDK platform for web search, scraping, crawling, and browser
+    interaction that returns AI-ready Markdown, structured data, and other content.
+  best_for:
+    - Developers supplying current web context to AI applications and agents
+    - Teams that need search, extraction, crawling, and page interaction behind one API
+key_features:
+  - Search the web and retrieve page content from results
+  - Scrape URLs into Markdown, HTML, screenshots, or structured JSON
+  - Crawl a site, map its URLs, or batch-scrape many pages asynchronously
+  - Interact with pages through prompts or actions such as clicking, scrolling, and typing
+  - Run autonomous data-gathering requests through the Agent endpoint
+  - Provide client SDKs for Python, Node.js, Go, Java, Rust, Ruby, .NET, and PHP
+usage:
+  interfaces:
+    - REST API
+    - CLI
+    - client SDKs
+  installation:
+    - Firecrawl-hosted service
+    - SDK packages
+    - Docker Compose self-hosting
+    - build from source
+  setup: high
+technology:
+  languages:
+    - TypeScript
+    - Go
+    - Python
+    - Rust
+  notable_components:
+    - Playwright
+    - Redis
+    - PostgreSQL
+    - Docker Compose
+license:
+  spdx: AGPL-3.0-or-later
+  name: GNU Affero General Public License v3.0 or later
+  notes: The main project is AGPL-3.0-or-later; the README states that SDKs and some UI components are MIT-licensed, so reuse must be checked by directory.
+status:
+  lifecycle: active
+  archived: false
+  latest_release: v2.11.117
+  latest_release_at: 2026-07-19
+strengths:
+  - Covers discovery, extraction, crawling, and interaction through a single API surface
+  - Produces formats intended for LLM and agent consumption, including Markdown and structured data
+  - Offers hosted, self-hosted, CLI, and multi-language SDK access paths
+caveats:
+  - The main codebase uses AGPL-3.0-or-later, while SDK and UI licensing varies by directory
+  - Local development requires Node.js, Rust, pnpm, Redis, PostgreSQL, and environment configuration
+  - Hosted-only features may differ from the open-source self-hosted implementation
+sources:
+  - https://raw.githubusercontent.com/firecrawl/firecrawl/47f321f1e147d283f9b679311f9396f740d4c30d/README.md
+  - https://raw.githubusercontent.com/firecrawl/firecrawl/47f321f1e147d283f9b679311f9396f740d4c30d/LICENSE
+  - https://raw.githubusercontent.com/firecrawl/firecrawl/47f321f1e147d283f9b679311f9396f740d4c30d/apps/api/package.json
+  - https://raw.githubusercontent.com/firecrawl/firecrawl/47f321f1e147d283f9b679311f9396f740d4c30d/CONTRIBUTING.md
+  - https://raw.githubusercontent.com/firecrawl/firecrawl/47f321f1e147d283f9b679311f9396f740d4c30d/docker-compose.yaml
+  - https://github.com/firecrawl/firecrawl/releases.atom

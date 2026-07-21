@@ -1,0 +1,84 @@
+schema_version: 2
+repository_id: github:nomic-ai/gpt4all
+
+research:
+  state: complete
+  source_commit: b666d16db5aeab8b91aaf7963adcee9c643734d7
+  bundle_collected_at: 2026-07-19T20:44:24.386Z
+  researched_at: 2026-07-20T00:00:00Z
+  confidence: medium
+
+classification:
+  primary_category: ai-and-automation
+  topics:
+    - llms
+    - local-models
+    - desktop-app
+    - chat-ui
+    - self-hosted
+    - local-first
+
+project:
+  name: GPT4All
+  kind: application
+  summary: >-
+    A desktop application and Python client for downloading and running local
+    large language models on personal computers without hosted API calls.
+  best_for:
+    - Private local LLM chat on supported desktop operating systems
+    - Python applications that need to load and generate with local models
+
+key_features:
+  - Desktop installers for Windows, Windows ARM, macOS, and Ubuntu
+  - Python package for loading a model, starting a chat session, and generating text
+  - Local model execution without API calls or a GPU requirement
+  - LocalDocs workflow for chatting with locally held data
+  - Docker-based OpenAI-compatible local inference API described in the release history
+
+usage:
+  interfaces:
+    - desktop app
+    - Python API
+    - local HTTP API
+  installation:
+    - official platform installer
+    - Flathub package
+    - pip install gpt4all
+  setup: low
+
+technology:
+  languages:
+    - C++
+    - Python
+  notable_components:
+    - llama.cpp-based Python client
+    - GGUF model support
+    - LocalDocs
+
+license:
+  spdx: MIT
+  name: MIT License
+  notes: The repository license permits reuse with copyright and license notices and disclaims warranties.
+
+status:
+  lifecycle: unknown
+  archived: false
+  latest_release: v3.10.0
+  latest_release_at: 2025-02-25
+
+strengths:
+  - Provides both a user-facing desktop application and a programmatic Python interface
+  - Supports local use without requiring API calls or dedicated GPU hardware
+  - Offers installers across major desktop platforms, including Windows ARM
+
+caveats:
+  - Model downloads can be large; the README example names a 4.66 GB model
+  - Hardware and operating-system requirements vary by installer and platform
+  - The repository's MIT license does not establish the license terms of individual downloadable models
+  - The retained sources do not declare a lifecycle; the latest release is from February 2025 and the inventory snapshot records its last source push in May 2025
+
+sources:
+  - https://raw.githubusercontent.com/nomic-ai/gpt4all/b666d16db5aeab8b91aaf7963adcee9c643734d7/README.md
+  - https://raw.githubusercontent.com/nomic-ai/gpt4all/b666d16db5aeab8b91aaf7963adcee9c643734d7/LICENSE.txt
+  - https://raw.githubusercontent.com/nomic-ai/gpt4all/b666d16db5aeab8b91aaf7963adcee9c643734d7/gpt4all-bindings/python/setup.py
+  - https://github.com/nomic-ai/gpt4all/releases.atom

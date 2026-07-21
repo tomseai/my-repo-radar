@@ -1,0 +1,80 @@
+schema_version: 2
+repository_id: github:PatrickJS/awesome-cursorrules
+research:
+  state: complete
+  source_commit: b044f956f021b6e8877f16781bcfc466a6a120e9
+  bundle_collected_at: 2026-07-19T20:44:48.480Z
+  researched_at: 2026-07-20T18:00:00+02:00
+  confidence: high
+
+classification:
+  primary_category: documentation-and-learning
+  topics:
+    - coding-agents
+    - prompt-engineering
+    - context-engineering
+    - developer-productivity
+    - curated-lists
+    - documentation
+
+project:
+  name: Awesome Cursor Rules
+  kind: curated-list
+  summary: >-
+    A curated collection of Markdown-based Cursor Project Rules (`.mdc`)
+    that provide project, framework, file-type, and workflow guidance for
+    Cursor's AI-assisted code editor.
+  best_for:
+    - Cursor users adapting reusable guidance to a specific codebase or framework
+    - Teams sharing AI-editor conventions, coding standards, and project context
+
+key_features:
+  - Rule catalog organized by frontend, backend, mobile, styling, testing, security, and documentation
+  - Modern `.mdc` Project Rules format with description, glob, and always-apply frontmatter
+  - Copy-to-project workflow for `.cursor/rules/`
+  - Rules spanning multiple languages, frameworks, and development workflows
+  - Repository scripts for list, rule, README, security, and repository-hygiene checks
+
+usage:
+  interfaces:
+    - Markdown rule files
+    - GitHub repository
+  installation:
+    - copy selected .mdc files into .cursor/rules/
+    - clone or download repository
+  setup: low
+
+technology:
+  languages:
+    - JavaScript
+    - Markdown
+  notable_components:
+    - Cursor Project Rules
+    - Node.js test runner
+
+license:
+  spdx: CC0-1.0
+  name: CC0 1.0 Universal
+  notes: The repository dedicates the work to the public domain to the extent permitted by law; trademark and patent rights are not waived.
+
+status:
+  lifecycle: active
+  archived: false
+  latest_release: null
+  latest_release_at: null
+
+strengths:
+  - Provides directly reusable project-rule examples rather than only conceptual advice
+  - Covers a broad range of programming ecosystems and development concerns
+  - Documents a simple selective-copy workflow for project-level adoption
+
+caveats:
+  - The rules target Cursor Project Rules and are not presented as a general cross-editor standard
+  - Rule quality and applicability vary by framework, project, and local conventions
+  - No GitHub release is present in the retained release feed
+
+sources:
+  - https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/b044f956f021b6e8877f16781bcfc466a6a120e9/README.md
+  - https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/b044f956f021b6e8877f16781bcfc466a6a120e9/LICENSE
+  - https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/b044f956f021b6e8877f16781bcfc466a6a120e9/package.json
+  - https://github.com/PatrickJS/awesome-cursorrules/releases.atom

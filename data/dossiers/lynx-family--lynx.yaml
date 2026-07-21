@@ -1,0 +1,83 @@
+schema_version: 2
+repository_id: github:lynx-family/lynx
+research:
+  state: complete
+  source_commit: 8fc0ccba8bd66e8dedeb4ae6aa5cc2da70c48899
+  bundle_collected_at: 2026-07-19T20:43:57.011Z
+  researched_at: 2026-07-20T15:41:53.3142160Z
+  confidence: high
+
+classification:
+  primary_category: application-frameworks
+  topics:
+    - mobile-development
+    - web
+    - frontend-development
+    - frameworks
+    - performance
+    - open-source
+
+project:
+  name: Lynx
+  kind: framework
+  summary: >-
+    The core engine of an open-source family for creating native mobile and web
+    user interfaces from one codebase using web-oriented CSS and React knowledge.
+  best_for:
+    - Web developers building Android, iOS, and web user interfaces
+    - Teams that need a native mobile runtime with web-oriented authoring
+
+key_features:
+  - Native rendering for Android, iOS, and the web
+  - Custom renderer for consistent mobile and desktop output
+  - CSS- and React-oriented development model
+  - Multithreaded engine for launch and UI responsiveness
+  - Lynx Explorer app for testing ReactLynx-based screens
+
+usage:
+  interfaces:
+    - native application runtime
+    - JavaScript libraries
+    - Lynx Explorer app
+  installation:
+    - follow the official quick-start guide
+    - integrate with an existing application
+    - build from source
+  setup: high
+
+technology:
+  languages:
+    - C++
+    - TypeScript
+    - JavaScript
+  notable_components:
+    - Lynx core engine
+    - Lynx Explorer
+    - JavaScript runtime libraries
+
+license:
+  spdx: Apache-2.0
+  name: Apache License 2.0
+  notes: null
+
+status:
+  lifecycle: active
+  archived: false
+  latest_release: 3.9.0
+  latest_release_at: 2026-06-26
+
+strengths:
+  - Targets native mobile and web interfaces from a shared codebase
+  - Builds on familiar CSS and React concepts
+  - Includes an official explorer for testing the runtime
+
+caveats:
+  - This repository provides the core engine, while other Lynx-family pieces live elsewhere
+  - The maintained README recommends macOS for development
+  - Windows and Linux development are not verified or guaranteed by the retained README
+
+sources:
+  - https://raw.githubusercontent.com/lynx-family/lynx/8fc0ccba8bd66e8dedeb4ae6aa5cc2da70c48899/README.md
+  - https://raw.githubusercontent.com/lynx-family/lynx/8fc0ccba8bd66e8dedeb4ae6aa5cc2da70c48899/LICENSE
+  - https://raw.githubusercontent.com/lynx-family/lynx/8fc0ccba8bd66e8dedeb4ae6aa5cc2da70c48899/package.json
+  - https://github.com/lynx-family/lynx/releases.atom

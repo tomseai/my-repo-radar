@@ -1,0 +1,66 @@
+schema_version: 2
+repository_id: github:reorx/awesome-chatgpt-api
+research:
+  state: complete
+  source_commit: 11ebae2f71af13571d2fa0953af0b2f99240075a
+  bundle_collected_at: 2026-07-19T20:44:59.983Z
+  researched_at: 2026-07-20T18:00:00+02:00
+  confidence: medium
+classification:
+  primary_category: documentation-and-learning
+  topics:
+    - curated-lists
+    - llms
+    - documentation
+project:
+  name: Awesome ChatGPT API
+  kind: curated-list
+  summary: >-
+    A curated Markdown directory of applications, extensions, command-line
+    tools, chatbots, and development resources built around the ChatGPT API.
+  best_for:
+    - Finding self-hosted or client-side ChatGPT API project examples
+    - Browsing categorized implementation references and developer tools
+key_features:
+  - Sections for browser plugins and extensions, web applications, and desktop and mobile applications
+  - A command-line section covering interactive clients, translation utilities, and API-oriented tools
+  - Chatbot entries plus a development section with projects, tools, and articles
+  - Listing criterion emphasizes projects that let users configure their own API keys
+usage:
+  interfaces:
+    - GitHub Markdown directory
+    - Linked project repositories and websites
+  installation:
+    - No installation; browse the list and follow an individual project's instructions
+  setup: low
+technology:
+  languages:
+    - Markdown
+  notable_components:
+    - Categorized external project links
+    - GitHub Pages deployment workflow
+license:
+  spdx: null
+  name: No license declared
+  notes: >-
+    The complete retained tree contains no LICENSE or equivalent license file,
+    and the imported GitHub license field is null; reuse rights for this list
+    are therefore not established.
+status:
+  lifecycle: unknown
+  archived: false
+  latest_release: null
+  latest_release_at: null
+strengths:
+  - Quickly narrows a broad ecosystem into interface- and workflow-oriented sections
+  - Its own-API-key criterion is useful for discovering projects that expose user-controlled credentials
+  - Includes developer references alongside end-user application examples
+caveats:
+  - Listed projects are independent third-party projects with their own setup, maintenance, and licenses
+  - The curated list itself declares no license, so do not assume permission to copy or redistribute its content
+  - The retained release feed has no entries, so no versioned project release can be established
+  - Descriptions are directory entries rather than maintained compatibility or security assessments
+sources:
+  - https://raw.githubusercontent.com/reorx/awesome-chatgpt-api/11ebae2f71af13571d2fa0953af0b2f99240075a/README.md
+  - https://raw.githubusercontent.com/reorx/awesome-chatgpt-api/11ebae2f71af13571d2fa0953af0b2f99240075a/.github/workflows/cf-pages.yml
+  - https://github.com/reorx/awesome-chatgpt-api/releases.atom

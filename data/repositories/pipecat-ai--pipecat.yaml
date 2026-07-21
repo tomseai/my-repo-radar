@@ -1,0 +1,73 @@
+analysis:
+  analyzed_at: "2026-07-19T19:47:16.144Z"
+  classification:
+    primary_category: "ai-and-automation"
+    state: "confirmed"
+    technologies:
+      - "python"
+    topics:
+      - "ai-agents"
+      - "chat-ui"
+      - "llms"
+      - "realtime"
+    use_cases:
+      - "build-ai-products"
+  evidence:
+    - claim: "Pipecat is an open-source Python framework for real-time voice and multimodal conversational agents, with pipelines for LLM, speech, audio, and video services."
+      confidence: "high"
+      source_type: "repository-file"
+      url: "https://github.com/pipecat-ai/pipecat/blob/main/README.md"
+      checked_at: "2026-07-19"
+  state: "complete"
+  summary:
+    one_line: "A Python framework for building real-time voice and multimodal conversational AI agents."
+    why_useful: "It supplies pipelines for integrating speech, video, and model services in conversational agents."
+curation:
+  confidence: null
+  evidence: []
+  limitations: []
+  recommendation: null
+  reviewed_at: null
+  state: "uncurated"
+  strengths: []
+  verdict: null
+id: "github:pipecat-ai/pipecat"
+import:
+  github_snapshot:
+    archived: false
+    created_at: "2023-12-27T12:59:00Z"
+    default_branch: "main"
+    description: "Open Source framework for voice and multimodal conversational AI"
+    disabled: false
+    fetched_at: "2026-07-19T19:16:14.796Z"
+    fork: false
+    forks: 2338
+    homepage: "https://pipecat.ai"
+    latest_release: null
+    license_spdx: "BSD-2-Clause"
+    open_issues: 225
+    primary_language: "Python"
+    pushed_at: "2026-07-18T02:15:19Z"
+    stars: 13575
+    topics:
+      - "ai"
+      - "chatbot-framework"
+      - "chatbots"
+      - "real-time"
+      - "voice"
+      - "voice-assistant"
+    updated_at: "2026-07-19T19:04:49Z"
+  sources:
+    - observed_at: "2025-01-03T09:37:39Z"
+      relation: "starred"
+      source_id: "github:user:tomseai:stars"
+      source_url: "https://github.com/tomseai?tab=stars"
+  state: "imported"
+repository:
+  aliases: []
+  github_node_id: "R_kgDOK-Kftw"
+  host: "github.com"
+  name: "pipecat"
+  owner: "pipecat-ai"
+  url: "https://github.com/pipecat-ai/pipecat"
+version: 1

@@ -1,0 +1,87 @@
+analysis:
+  analyzed_at: "2026-07-19T19:42:52.223Z"
+  classification:
+    primary_category: "frontend-and-design"
+    state: "confirmed"
+    technologies:
+      - "typescript"
+    topics:
+      - "ai-agents"
+      - "desktop-app"
+      - "web"
+      - "code-generation"
+    use_cases:
+      - "design-interfaces"
+  evidence:
+    - claim: "Open Design is a local-first desktop application that uses coding agents, skills, design systems, plugins, a CLI, and an MCP server to generate and export web, desktop, and mobile prototypes, dashboards, decks, images, and video."
+      source_type: "repository-file"
+      url: "https://github.com/nexu-io/open-design/blob/main/README.md"
+      checked_at: "2026-07-19"
+      confidence: "high"
+  state: "complete"
+  summary:
+    one_line: "A local-first desktop design tool that uses coding agents to generate prototypes and other design artifacts."
+    why_useful: "It combines agent skills, design systems, and export workflows to create runnable interface prototypes, dashboards, decks, images, and video."
+curation:
+  confidence: null
+  evidence: []
+  limitations: []
+  recommendation: null
+  reviewed_at: null
+  state: "uncurated"
+  strengths: []
+  verdict: null
+id: "github:nexu-io/open-design"
+import:
+  github_snapshot:
+    archived: false
+    created_at: "2026-04-28T04:25:20Z"
+    default_branch: "main"
+    description: "🎨 The open-source Claude Design alternative. 🖥️ Local-first desktop app. 🖼️ Your coding agent becomes the design engine: prototypes, landing pages, dashboards, slides, images & video — real files, HTML/PDF/PPTX/MP4 export. 🤖 Claude Code / Codex / Cursor / Gemini / OpenCode / Qwen & 20+ CLIs via BYOK."
+    disabled: false
+    fetched_at: "2026-07-19T19:16:14.796Z"
+    fork: false
+    forks: 9200
+    homepage: "https://open-design.ai"
+    latest_release: null
+    license_spdx: "Apache-2.0"
+    open_issues: 682
+    primary_language: "TypeScript"
+    pushed_at: "2026-07-19T15:30:13Z"
+    stars: 79699
+    topics:
+      - "agent-skills"
+      - "ai-agents"
+      - "ai-design"
+      - "byok"
+      - "claude-code-for-design"
+      - "claude-design"
+      - "codex-design"
+      - "coding-agents"
+      - "cursor-design"
+      - "design-systems"
+      - "design-tools"
+      - "desktop-app"
+      - "figma-alternative"
+      - "generative-ai"
+      - "hermes-agent"
+      - "local-first"
+      - "no-code"
+      - "prototyping"
+      - "ui-generator"
+      - "vibe-coding"
+    updated_at: "2026-07-19T19:06:05Z"
+  sources:
+    - observed_at: "2026-07-18T11:01:19Z"
+      relation: "starred"
+      source_id: "github:user:tomseai:stars"
+      source_url: "https://github.com/tomseai?tab=stars"
+  state: "imported"
+repository:
+  aliases: []
+  github_node_id: "R_kgDOSOgY8g"
+  host: "github.com"
+  name: "open-design"
+  owner: "nexu-io"
+  url: "https://github.com/nexu-io/open-design"
+version: 1

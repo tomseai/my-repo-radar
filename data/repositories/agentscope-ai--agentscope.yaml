@@ -1,0 +1,77 @@
+analysis:
+  analyzed_at: "2026-07-19T19:20:28.937Z"
+  classification:
+    primary_category: "ai-and-automation"
+    state: "provisional"
+    technologies:
+      - "python"
+      - "fastapi"
+      - "docker"
+    topics:
+      - "ai-agents"
+      - "llms"
+      - "automation"
+    use_cases:
+      - "build-ai-products"
+  evidence:
+    - claim: "AgentScope 2.0 is a Python agent framework with an event system, permission controls, multi-tenant and multi-session serving, isolated workspaces with Docker support, middleware, and a FastAPI-based agent service example."
+      source_type: "repository-file"
+      url: "https://github.com/agentscope-ai/agentscope/blob/main/README.md"
+      checked_at: "2026-07-19"
+      confidence: "high"
+  state: "researched"
+  summary:
+    one_line: "A Python framework for building and serving agent applications."
+    why_useful: "It provides agent abstractions alongside permissions, event streaming, isolated workspaces, and multi-session service support."
+curation:
+  confidence: null
+  evidence: []
+  limitations: []
+  recommendation: null
+  reviewed_at: null
+  state: "uncurated"
+  strengths: []
+  verdict: null
+id: "github:agentscope-ai/agentscope"
+import:
+  github_snapshot:
+    archived: false
+    created_at: "2024-01-12T03:41:59Z"
+    default_branch: "main"
+    description: "Build and run agents you can see, understand and trust."
+    disabled: false
+    fetched_at: "2026-07-19T19:16:14.796Z"
+    fork: false
+    forks: 3222
+    homepage: "https://docs.agentscope.io/"
+    latest_release: null
+    license_spdx: "Apache-2.0"
+    open_issues: 290
+    primary_language: "Python"
+    pushed_at: "2026-07-17T08:56:03Z"
+    stars: 28012
+    topics:
+      - "agent"
+      - "chatbot"
+      - "large-language-models"
+      - "llm"
+      - "llm-agent"
+      - "mcp"
+      - "multi-agent"
+      - "multi-modal"
+      - "react-agent"
+    updated_at: "2026-07-19T16:38:06Z"
+  sources:
+    - observed_at: "2026-05-18T17:11:21Z"
+      relation: "starred"
+      source_id: "github:user:tomseai:stars"
+      source_url: "https://github.com/tomseai?tab=stars"
+  state: "imported"
+repository:
+  aliases: []
+  github_node_id: "R_kgDOLD3BMA"
+  host: "github.com"
+  name: "agentscope"
+  owner: "agentscope-ai"
+  url: "https://github.com/agentscope-ai/agentscope"
+version: 1

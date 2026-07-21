@@ -1,0 +1,85 @@
+schema_version: 2
+repository_id: github:omnigent-ai/omnigent
+research:
+  state: complete
+  source_commit: 7da32637a5eeba1c47431fe21fca948ced9b779e
+  bundle_collected_at: 2026-07-19T20:44:32.764Z
+  researched_at: 2026-07-20T17:51:56.4547025+02:00
+  confidence: medium
+classification:
+  primary_category: ai-and-automation
+  topics:
+    - ai-agents
+    - agent-harnesses
+    - agent-orchestration
+    - multi-agent
+    - agent-governance
+    - sandboxing
+    - policy-enforcement
+    - cli
+    - web-ui
+    - desktop-app
+    - mobile-app
+    - self-hosted
+project:
+  name: Omnigent
+  kind: framework
+  summary: >-
+    An alpha open-source meta-harness and agent runtime that provides a common
+    orchestration layer across coding-agent harnesses and custom agents, with
+    collaborative sessions, sandbox targets, and configurable action and spend policies.
+  best_for:
+    - Developers who need to mix supported coding-agent harnesses and custom YAML agents
+    - Teams that want shared agent sessions across terminal, browser, phone, or desktop interfaces
+key_features:
+  - Runs Claude Code, Codex, Cursor, OpenCode, Hermes, Pi, and custom YAML-defined agents through one layer
+  - Synchronizes sessions, sub-agents, terminals, and files across terminal, browser, and phone access
+  - Offers cloud sandbox targets and server-provisioned managed hosts for sessions
+  - Applies policies for approvals, tool access, token spend, and action limits at server, agent, or session scope
+  - Provides sharing, co-driving, and conversation-fork workflows for collaborators
+usage:
+  interfaces:
+    - command-line interface
+    - web user interface
+    - mobile browser interface
+    - native macOS desktop application
+  installation:
+    - Bootstrap shell installer
+    - Python package through uv or pip, Homebrew, or a source checkout
+    - Docker Compose server deployment
+  setup: high
+technology:
+  languages:
+    - Python
+    - TypeScript
+  notable_components:
+    - Docker Compose
+    - PostgreSQL
+    - tmux
+    - bubblewrap
+license:
+  spdx: Apache-2.0
+  name: Apache License 2.0
+  notes: >-
+    Permissive license with notice, license-copy, and modified-file notice
+    obligations for redistributed derivative works; it includes a patent grant.
+status:
+  lifecycle: experimental
+  archived: false
+  latest_release: v0.5.1
+  latest_release_at: 2026-07-10
+strengths:
+  - Presents one orchestration layer across several first-class and custom agent harnesses
+  - Combines collaboration, sandbox deployment choices, and policy enforcement in the same runtime
+  - Supports local use as well as Docker-based server deployment with multi-user authentication
+caveats:
+  - The README labels the project alpha
+  - "Broad harness support brings substantial prerequisites: Python 3.12+, uv, git, and, for several harnesses, Node.js and tmux"
+  - Windows support is explicitly degraded and lacks the native terminal wrappers and filesystem/network sandboxing
+  - The feed has a newer v0.0.1rc2 entry dated 2026-07-15 while source declares v0.6.0.dev0; v0.5.1 is treated as the latest established stable release, but release scope remains ambiguous
+sources:
+  - https://raw.githubusercontent.com/omnigent-ai/omnigent/7da32637a5eeba1c47431fe21fca948ced9b779e/README.md
+  - https://raw.githubusercontent.com/omnigent-ai/omnigent/7da32637a5eeba1c47431fe21fca948ced9b779e/pyproject.toml
+  - https://raw.githubusercontent.com/omnigent-ai/omnigent/7da32637a5eeba1c47431fe21fca948ced9b779e/deploy/docker/docker-compose.yaml
+  - https://raw.githubusercontent.com/omnigent-ai/omnigent/7da32637a5eeba1c47431fe21fca948ced9b779e/LICENSE
+  - https://github.com/omnigent-ai/omnigent/releases.atom

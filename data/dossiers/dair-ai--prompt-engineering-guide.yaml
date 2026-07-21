@@ -1,0 +1,86 @@
+schema_version: 2
+repository_id: github:dair-ai/Prompt-Engineering-Guide
+
+research:
+  state: complete
+  source_commit: 57673726396dd94acb23bdb1e67f27c78ee85a8e
+  bundle_collected_at: 2026-07-19T20:42:26.774Z
+  researched_at: 2026-07-20T17:13:24+02:00
+  confidence: high
+
+classification:
+  primary_category: documentation-and-learning
+  topics:
+    - prompt-engineering
+    - llms
+    - ai-agents
+    - tutorials
+    - reference
+
+project:
+  name: Prompt Engineering Guide
+  kind: documentation
+  summary: >-
+    A web-first guide and resource collection for learning prompt engineering
+    with language models, including techniques, applications, model references,
+    risks, papers, tools, notebooks, and related agent material.
+  best_for:
+    - Learning and comparing prompt-engineering techniques for LLM work
+    - Finding introductory guides, papers, tools, and examples before building an LLM feature
+
+key_features:
+  - Guides for prompt basics, model settings, prompt elements, and design tips
+  - Technique index covering zero- and few-shot prompting, chain of thought, retrieval, and tool use
+  - Application and prompt-hub sections spanning coding, evaluation, extraction, reasoning, and other tasks
+  - Links to papers, tools, notebooks, datasets, a lecture, and model-specific reference pages
+  - Locally runnable documentation site with translation-contribution guidance
+
+usage:
+  interfaces:
+    - Documentation website
+    - Markdown and MDX repository content
+    - Local Next.js documentation site
+  installation:
+    - Browse the Prompt Engineering Guide website or README
+    - For local development, install Node.js 18 or later and pnpm
+    - Install the documented dependencies and run pnpm dev
+  setup: low
+
+technology:
+  languages:
+    - MDX
+    - JavaScript
+  notable_components:
+    - Next.js
+    - Nextra documentation theme
+    - React
+
+license:
+  spdx: MIT
+  name: MIT License
+  notes: >-
+    The repository's guide and associated documentation are MIT-licensed:
+    reuse, modification, distribution, sublicensing, and sale are permitted
+    when the copyright and permission notice are retained; it is provided without warranty.
+
+status:
+  lifecycle: active
+  archived: false
+  latest_release: null
+  latest_release_at: null
+
+strengths:
+  - Combines conceptual instruction with techniques, task-oriented prompts, and supporting resources
+  - Gives readers both a hosted guide and a documented path for running the site locally
+  - Covers risks and misuse alongside capabilities and applications
+
+caveats:
+  - This is learning and reference material, not an LLM runtime, agent framework, or prompt-evaluation service
+  - Linked courses, consulting, and other external resources have their own access terms and may be commercial
+  - The retained release feed has no entries, so no latest versioned project release can be established
+
+sources:
+  - https://raw.githubusercontent.com/dair-ai/Prompt-Engineering-Guide/57673726396dd94acb23bdb1e67f27c78ee85a8e/README.md
+  - https://raw.githubusercontent.com/dair-ai/Prompt-Engineering-Guide/57673726396dd94acb23bdb1e67f27c78ee85a8e/package.json
+  - https://raw.githubusercontent.com/dair-ai/Prompt-Engineering-Guide/57673726396dd94acb23bdb1e67f27c78ee85a8e/LICENSE.md
+  - https://github.com/dair-ai/Prompt-Engineering-Guide/releases.atom

@@ -1,0 +1,79 @@
+schema_version: 2
+repository_id: github:standardagents/arrow-js
+research:
+  state: complete
+  source_commit: 7b618702a67e9879a537b532b4ae5cd141f7ce00
+  bundle_collected_at: 2026-07-19T20:45:27.559Z
+  researched_at: 2026-07-20T18:01:22.8375840+02:00
+  confidence: high
+classification:
+  primary_category: application-frameworks
+  topics:
+    - coding-agents
+    - agent-skills
+    - frameworks
+    - frontend-development
+    - sandboxing
+    - web
+project:
+  name: ArrowJS
+  kind: framework
+  summary: >-
+    A TypeScript reactive UI framework centered on JavaScript modules, tagged
+    templates, and direct DOM updates, with optional asynchronous components,
+    server-side rendering, hydration, Vite integration, and a QuickJS/WASM sandbox.
+  best_for:
+    - Developers who want a small reactive DOM runtime with a minimal core API
+    - Projects that need to add async components, SSR, and hydration without changing component models
+key_features:
+  - Core package for reactive state, tagged-template rendering, and components
+  - Separate framework package for asynchronous components and rendering boundaries
+  - SSR package for rendering HTML and serializing asynchronous payloads
+  - Hydration package that adopts server-rendered HTML in the browser
+  - Vite plugin, project scaffolder, editor syntax extension, and agent skill
+  - Optional QuickJS/WASM runtime for executing Arrow templates outside the host window realm
+usage:
+  interfaces:
+    - TypeScript/JavaScript package
+    - browser ES-module import
+    - Vite project scaffold
+    - Vite plugin
+  installation:
+    - npm core package
+    - pnpm framework packages
+    - create-arrow-js scaffold command
+  setup: low
+technology:
+  languages:
+    - TypeScript
+    - JavaScript
+  notable_components:
+    - Vite
+    - QuickJS/WASM sandbox
+    - server-side rendering package
+    - hydration package
+license:
+  spdx: MIT
+  name: MIT License
+  notes: Permissive license requiring preservation of copyright and license notices.
+status:
+  lifecycle: active
+  archived: false
+  latest_release: v1.0.6
+  latest_release_at: 2026-04-01
+strengths:
+  - Keeps the core runtime DOM-first, small, and usable without a build step
+  - Lets applications adopt async components, SSR, and hydration as separate layers
+  - Supplies scaffold, editor, Vite, testing, and optional sandbox packages in the monorepo
+caveats:
+  - The core runtime is browser and DOM oriented; server rendering requires the separate SSR package
+  - Async components require importing the framework, SSR, or hydration runtime before rendering
+  - The QuickJS/WASM sandbox is optional and its deployment-specific isolation properties should be evaluated separately
+  - Full local development needs Node.js and pnpm even though core browser use has no build-step requirement
+sources:
+  - https://raw.githubusercontent.com/standardagents/arrow-js/7b618702a67e9879a537b532b4ae5cd141f7ce00/README.md
+  - https://raw.githubusercontent.com/standardagents/arrow-js/7b618702a67e9879a537b532b4ae5cd141f7ce00/LICENSE.txt
+  - https://raw.githubusercontent.com/standardagents/arrow-js/7b618702a67e9879a537b532b4ae5cd141f7ce00/package.json
+  - https://raw.githubusercontent.com/standardagents/arrow-js/7b618702a67e9879a537b532b4ae5cd141f7ce00/packages/sandbox/package.json
+  - https://raw.githubusercontent.com/standardagents/arrow-js/7b618702a67e9879a537b532b4ae5cd141f7ce00/packages/core/package.json
+  - https://github.com/standardagents/arrow-js/releases.atom

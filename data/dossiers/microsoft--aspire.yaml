@@ -1,0 +1,84 @@
+schema_version: 2
+repository_id: github:microsoft/aspire
+research:
+  state: complete
+  source_commit: ee3ee61eb7503c47c0ed747ef2a3560ad3a22cfb
+  bundle_collected_at: 2026-07-19T20:44:10.080Z
+  researched_at: 2026-07-20T15:42:37.362Z
+  confidence: high
+
+classification:
+  primary_category: devops-and-cloud
+  topics:
+    - frameworks
+    - cli
+    - observability
+    - deployment
+    - cloud
+    - containers
+    - developer-productivity
+
+project:
+  name: aspire
+  kind: framework
+  summary: >-
+    A multi-language, code-first toolchain for defining, running, observing,
+    and deploying distributed applications and their connected resources.
+  best_for:
+    - Teams developing distributed applications with services and dependent resources
+    - Workflows that need local orchestration and OpenTelemetry-based observability
+
+key_features:
+  - Code-defined services, frontends, containers, databases, caches, and connections
+  - CLI that runs the defined application locally
+  - OpenTelemetry-based observability
+  - Deployment from the same application definition
+  - AppHost SDK, dashboard, service-discovery infrastructure, templates, and integrations
+  - Included Visual Studio Code extension
+
+usage:
+  interfaces:
+    - CLI
+    - dashboard
+    - Visual Studio Code extension
+  installation:
+    - official Windows PowerShell installer
+    - official Linux and macOS shell installer
+  setup: moderate
+
+technology:
+  languages:
+    - C#
+    - TypeScript
+  notable_components:
+    - Aspire CLI
+    - AppHost SDK
+    - OpenTelemetry
+    - Visual Studio Code extension
+
+license:
+  spdx: MIT
+  name: MIT License
+  notes: Applies to the code in this repository.
+
+status:
+  lifecycle: active
+  archived: false
+  latest_release: Aspire 13.4.6
+  latest_release_at: 2026-06-20
+
+strengths:
+  - A single code definition connects local development, observability, and deployment
+  - Supports multiple application languages and resource types
+  - Packages orchestration, service discovery, integrations, and developer tooling together
+
+caveats:
+  - The retained sources do not establish universal deployment-target compatibility
+  - Third-party containers used through resource integrations require independent security and suitability review
+  - The repository spans several components, so source contribution setup is broader than installing the CLI
+
+sources:
+  - https://raw.githubusercontent.com/microsoft/aspire/ee3ee61eb7503c47c0ed747ef2a3560ad3a22cfb/README.md
+  - https://raw.githubusercontent.com/microsoft/aspire/ee3ee61eb7503c47c0ed747ef2a3560ad3a22cfb/LICENSE.TXT
+  - https://raw.githubusercontent.com/microsoft/aspire/ee3ee61eb7503c47c0ed747ef2a3560ad3a22cfb/extension/package.json
+  - https://github.com/microsoft/aspire/releases.atom

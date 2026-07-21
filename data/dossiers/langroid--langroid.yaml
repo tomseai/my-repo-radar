@@ -1,0 +1,84 @@
+schema_version: 2
+repository_id: github:langroid/langroid
+research:
+  state: complete
+  source_commit: 12fb0c322173fc448e7f669d9d85554303801aa4
+  bundle_collected_at: 2026-07-19T20:43:45.709Z
+  researched_at: 2026-07-20T17:40:57.199+02:00
+  confidence: high
+classification:
+  primary_category: ai-and-automation
+  topics:
+    - ai-agents
+    - llms
+    - agent-frameworks
+    - agent-orchestration
+    - multi-agent
+    - agent-memory
+    - tool-use
+    - mcp
+    - document-processing
+    - local-models
+    - libraries
+    - frameworks
+project:
+  name: Langroid
+  kind: framework
+  summary: >-
+    A Python framework for building LLM applications through first-class agents
+    and tasks that exchange messages, delegate sub-tasks, use typed tools and
+    vector stores, and support multi-agent workflows with local or remote
+    language models.
+  best_for:
+    - Python developers who want explicit Agent and Task abstractions for collaborative LLM workflows
+    - Applications combining LLMs with typed tools, document retrieval, vector stores, or MCP servers
+key_features:
+  - Agent and Task abstractions that coordinate hierarchical, recursive sub-task delegation
+  - Message-based multi-agent orchestration inspired by the actor model
+  - Pydantic-based typed tools and function calling with validation feedback
+  - MCP tool adapter that exposes server tools as Langroid ToolMessage instances
+  - Document-chat and table-chat agents with retrieval-augmented workflows
+  - Support for local, remote, and OpenAI-compatible LLMs plus multiple vector-store options
+usage:
+  interfaces:
+    - Python library
+  installation:
+    - Python package via pip
+    - uv environment
+    - Docker image
+  setup: moderate
+technology:
+  languages:
+    - Python
+  notable_components:
+    - Pydantic
+    - FastMCP
+    - Qdrant
+    - LanceDB
+    - Chroma
+license:
+  spdx: MIT
+  name: MIT License
+  notes: >-
+    Permissive license allowing use, modification, distribution, and commercial
+    use when the copyright and license notice are retained; supplied without warranty.
+status:
+  lifecycle: active
+  archived: false
+  latest_release: 0.65.9
+  latest_release_at: 2026-07-12
+strengths:
+  - Agent and Task are concrete, composable primitives for message-based multi-agent design
+  - Typed tools, MCP adaptation, retrieval, and document workflows are integrated in the framework surface
+  - Works with local and remote models instead of binding users to one model provider
+caveats:
+  - The core package has a broad dependency set, while document, database, and transformer features add further optional dependencies
+  - Basic setup assumes a model provider credential; local-model and provider-specific configurations require additional setup
+  - Hierarchical task delegation and tool-enabled multi-agent behavior still require application-specific prompts, termination conditions, and safeguards
+sources:
+  - https://raw.githubusercontent.com/langroid/langroid/12fb0c322173fc448e7f669d9d85554303801aa4/README.md
+  - https://raw.githubusercontent.com/langroid/langroid/12fb0c322173fc448e7f669d9d85554303801aa4/LICENSE
+  - https://raw.githubusercontent.com/langroid/langroid/12fb0c322173fc448e7f669d9d85554303801aa4/pyproject.toml
+  - https://raw.githubusercontent.com/langroid/langroid/12fb0c322173fc448e7f669d9d85554303801aa4/docs/index.md
+  - https://raw.githubusercontent.com/langroid/langroid/12fb0c322173fc448e7f669d9d85554303801aa4/docs/quick-start/setup.md
+  - https://github.com/langroid/langroid/releases.atom

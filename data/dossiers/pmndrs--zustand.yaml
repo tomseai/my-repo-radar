@@ -1,0 +1,66 @@
+schema_version: 2
+repository_id: github:pmndrs/zustand
+research:
+  state: complete
+  source_commit: beca84e600e4e250f6b244d22878e72948f331c7
+  bundle_collected_at: 2026-07-19T20:45:00.631Z
+  researched_at: 2026-07-20T16:05:00Z
+  confidence: high
+classification:
+  primary_category: application-frameworks
+  topics:
+    - web
+    - frontend-development
+    - libraries
+project:
+  name: Zustand
+  kind: library
+  summary: >-
+    A small, hook-based state-management library for React that creates stores
+    without requiring context providers and also exposes a vanilla store API.
+  best_for:
+    - React applications that need concise, provider-free application state
+    - JavaScript applications that need a standalone observable store
+key_features:
+  - Creates stores as hooks that expose state and actions to React components
+  - Re-renders consuming components when their selected state changes
+  - Supports vanilla stores outside React through createStore and useStore
+  - Includes middleware for persistence, Immer integration, subscriptions, and Redux DevTools
+usage:
+  interfaces:
+    - React hooks
+    - Vanilla JavaScript store API
+  installation:
+    - npm install zustand
+  setup: low
+technology:
+  languages:
+    - TypeScript
+    - JavaScript
+  notable_components:
+    - React
+    - middleware APIs
+license:
+  spdx: MIT
+  name: MIT License
+  notes: Permissive license; preserve the copyright and license notice in copies.
+status:
+  lifecycle: active
+  archived: false
+  latest_release: v5.0.14
+  latest_release_at: "2026-05-28"
+strengths:
+  - Keeps the common React store pattern concise without mandatory context providers
+  - Supports use outside React through a separate vanilla store entry point
+  - Documents persistence, selector subscriptions, Immer, and DevTools middleware
+caveats:
+  - State updates must be immutable; the library only shallowly merges state at the top level
+  - Replacing state with the set function can also remove store actions
+  - The README cautions against adding state through the store API in React Server Components because of unexpected bugs and privacy issues
+sources:
+  - https://raw.githubusercontent.com/pmndrs/zustand/beca84e600e4e250f6b244d22878e72948f331c7/README.md
+  - https://raw.githubusercontent.com/pmndrs/zustand/beca84e600e4e250f6b244d22878e72948f331c7/LICENSE
+  - https://raw.githubusercontent.com/pmndrs/zustand/beca84e600e4e250f6b244d22878e72948f331c7/package.json
+  - https://raw.githubusercontent.com/pmndrs/zustand/beca84e600e4e250f6b244d22878e72948f331c7/docs/learn/getting-started/introduction.md
+  - https://raw.githubusercontent.com/pmndrs/zustand/beca84e600e4e250f6b244d22878e72948f331c7/docs/reference/integrations/persisting-store-data.md
+  - https://github.com/pmndrs/zustand/releases.atom

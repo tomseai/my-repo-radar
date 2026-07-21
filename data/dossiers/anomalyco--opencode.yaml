@@ -1,0 +1,90 @@
+schema_version: 2
+repository_id: github:anomalyco/opencode
+research:
+  state: complete
+  source_commit: 67caf894e0843ee370e72839e8265e483233479b
+  bundle_collected_at: 2026-07-19T20:41:41.431Z
+  researched_at: 2026-07-20T00:38:21.429Z
+  confidence: high
+
+classification:
+  primary_category: ai-and-automation
+  topics:
+    - ai-agents
+    - coding-agents
+    - cli
+    - tui
+    - desktop-app
+    - code-generation
+    - codebase-search
+    - multi-provider
+
+project:
+  name: OpenCode
+  kind: cli
+  summary: >-
+    An open-source AI coding agent delivered primarily as a command-line and
+    terminal UI application, with built-in build and plan agents, a general
+    subagent for complex tasks, and a separately labeled beta desktop app.
+  best_for:
+    - Developers who want a local terminal-first AI coding agent
+    - Exploring a codebase or planning changes before granting an agent write access
+
+key_features:
+  - Full-access build agent for development work
+  - Read-only plan agent with guarded shell-command permissions
+  - General subagent for complex search and multistep work
+  - Installation through a script and several package-manager options
+  - Beta desktop application for macOS, Windows, and Linux
+  - Opt-in server mode for remote HTTP access
+
+usage:
+  interfaces:
+    - CLI
+    - terminal UI
+    - desktop app (beta)
+    - opt-in HTTP server
+  installation:
+    - official install script
+    - npm package
+    - package managers
+    - desktop download
+  setup: low
+
+technology:
+  languages:
+    - TypeScript
+  notable_components:
+    - Bun
+    - OpenTUI
+    - Model Context Protocol SDK
+    - Electron
+
+license:
+  spdx: MIT
+  name: MIT License
+  notes: Permissive license requiring preservation of copyright and license notices.
+
+status:
+  lifecycle: active
+  archived: false
+  latest_release: v1.18.3
+  latest_release_at: 2026-07-16
+
+strengths:
+  - Clear separation between a write-capable development agent and a read-only planning agent
+  - Several supported installation paths for a terminal-first workflow
+  - Maintained project release stream that covers core and desktop changes
+
+caveats:
+  - The desktop application is explicitly labeled beta
+  - The permission system is a user-awareness feature, not a security sandbox
+  - Users needing isolation must run the agent in a container or virtual machine
+  - Opt-in server mode needs a password configured to avoid unauthenticated HTTP access
+
+sources:
+  - https://raw.githubusercontent.com/anomalyco/opencode/67caf894e0843ee370e72839e8265e483233479b/README.md
+  - https://raw.githubusercontent.com/anomalyco/opencode/67caf894e0843ee370e72839e8265e483233479b/packages/opencode/package.json
+  - https://raw.githubusercontent.com/anomalyco/opencode/67caf894e0843ee370e72839e8265e483233479b/SECURITY.md
+  - https://raw.githubusercontent.com/anomalyco/opencode/67caf894e0843ee370e72839e8265e483233479b/LICENSE
+  - https://github.com/anomalyco/opencode/releases.atom

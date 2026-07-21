@@ -1,0 +1,82 @@
+schema_version: 2
+repository_id: github:honojs/hono
+research:
+  state: complete
+  source_commit: cadff88bba34153646c9b35f24d7cc0cb61be913
+  bundle_collected_at: 2026-07-19T20:43:25.455Z
+  researched_at: 2026-07-20T15:34:55.357Z
+  confidence: high
+
+classification:
+  primary_category: application-frameworks
+  topics:
+    - web
+    - frameworks
+    - backend-development
+    - api-development
+    - performance
+    - libraries
+
+project:
+  name: Hono
+  kind: framework
+  summary: >-
+    A small TypeScript web framework built on Web Standards for defining HTTP
+    applications and middleware that can run across edge, serverless, and
+    JavaScript server runtimes including Cloudflare Workers, Deno, Bun, AWS
+    Lambda, and Node.js.
+  best_for:
+    - TypeScript teams targeting more than one JavaScript or edge runtime
+    - Small HTTP APIs, web applications, and middleware-driven services
+
+key_features:
+  - Route definitions and HTTP response helpers through a compact TypeScript API
+  - Built-in, custom, and third-party middleware support
+  - Runtime adapters for edge platforms, serverless functions, and Node.js
+  - Web Standards-based design with zero runtime dependencies
+  - Multiple routers, including the RegExpRouter used by the default framework
+  - A small `hono/tiny` preset for size-sensitive deployments
+
+usage:
+  interfaces:
+    - TypeScript library API
+    - HTTP request handler
+  installation:
+    - npm package
+    - npm create hono@latest project generator
+  setup: low
+
+technology:
+  languages:
+    - TypeScript
+  notable_components:
+    - Web Standards APIs
+    - RegExpRouter
+    - npm
+
+license:
+  spdx: MIT
+  name: MIT License
+  notes: Permissive license that retains the copyright and license notice.
+
+status:
+  lifecycle: active
+  archived: false
+  latest_release: v4.12.31
+  latest_release_at: 2026-07-18
+
+strengths:
+  - One framework API spans several important edge and JavaScript runtimes
+  - Small dependency-free core is suited to constrained deployment targets
+  - TypeScript support, middleware, and routing are available in the core package
+
+caveats:
+  - Hosting, deployment configuration, and runtime bindings remain the application's responsibility
+  - Runtime-specific platform APIs can reduce portability beyond the shared Web Standards core
+  - The compact README delegates most integration and migration detail to the separate documentation site
+
+sources:
+  - https://raw.githubusercontent.com/honojs/hono/cadff88bba34153646c9b35f24d7cc0cb61be913/README.md
+  - https://raw.githubusercontent.com/honojs/hono/cadff88bba34153646c9b35f24d7cc0cb61be913/LICENSE
+  - https://raw.githubusercontent.com/honojs/hono/cadff88bba34153646c9b35f24d7cc0cb61be913/package.json
+  - https://github.com/honojs/hono/releases.atom

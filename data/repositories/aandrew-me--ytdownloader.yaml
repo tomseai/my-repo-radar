@@ -1,0 +1,83 @@
+analysis:
+  analyzed_at: "2026-07-19T19:20:28.937Z"
+  classification:
+    primary_category: "platforms-and-applications"
+    state: "provisional"
+    technologies: []
+    topics:
+      - "desktop-app"
+    use_cases:
+      - "run-personal-or-team-tools"
+  evidence:
+    - claim: "ytDownloader is a GUI application for downloading video and audio from hundreds of sites, with playlist support and builds for Linux, Windows, and macOS."
+      source_type: "repository-file"
+      url: "https://github.com/aandrew-me/ytDownloader/blob/main/README.md"
+      checked_at: "2026-07-19"
+      confidence: "high"
+  state: "researched"
+  summary:
+    one_line: "A desktop GUI for downloading video and audio from many supported sites."
+    why_useful: "It offers cross-platform downloads, playlists, subtitles, and media conversion options in one interface."
+curation:
+  confidence: null
+  evidence: []
+  limitations: []
+  recommendation: null
+  reviewed_at: null
+  state: "uncurated"
+  strengths: []
+  verdict: null
+id: "github:aandrew-me/ytDownloader"
+import:
+  github_snapshot:
+    archived: false
+    created_at: "2022-07-25T16:14:20Z"
+    default_branch: "main"
+    description: "Desktop App for downloading Videos and Audios from hundreds of sites"
+    disabled: false
+    fetched_at: "2026-07-19T19:16:14.796Z"
+    fork: false
+    forks: 889
+    homepage: "https://aandrew-me.github.io/ytDownloader-site/"
+    latest_release: null
+    license_spdx: "GPL-3.0"
+    open_issues: 33
+    primary_language: "JavaScript"
+    pushed_at: "2026-07-19T13:35:12Z"
+    stars: 9983
+    topics:
+      - "appimage"
+      - "compressor"
+      - "downloader"
+      - "electron"
+      - "ffmpeg"
+      - "flatpak"
+      - "javascript"
+      - "linux"
+      - "linux-app"
+      - "macos"
+      - "nodejs"
+      - "snap"
+      - "ubuntu"
+      - "video"
+      - "windows"
+      - "youtube"
+      - "youtube-dl"
+      - "youtube-downloader"
+      - "yt-dlp"
+      - "ytdownloader"
+    updated_at: "2026-07-19T17:32:16Z"
+  sources:
+    - observed_at: "2025-02-23T11:31:02Z"
+      relation: "starred"
+      source_id: "github:user:tomseai:stars"
+      source_url: "https://github.com/tomseai?tab=stars"
+  state: "imported"
+repository:
+  aliases: []
+  github_node_id: "R_kgDOHtwGTg"
+  host: "github.com"
+  name: "ytDownloader"
+  owner: "aandrew-me"
+  url: "https://github.com/aandrew-me/ytDownloader"
+version: 1

@@ -1,0 +1,84 @@
+schema_version: 2
+repository_id: github:anomalyco/opentui
+research:
+  state: complete
+  source_commit: 34e78b2fbf18fd969efdf5f3e2589d17d1f536f1
+  bundle_collected_at: 2026-07-19T20:41:42.500Z
+  researched_at: 2026-07-20T15:11:52.415Z
+  confidence: high
+
+classification:
+  primary_category: application-frameworks
+  topics:
+    - terminal
+    - tui
+    - libraries
+    - ui-components
+    - frameworks
+
+project:
+  name: OpenTUI
+  kind: library
+  summary: >-
+    A native terminal UI library with a Zig core, C ABI, and TypeScript bindings;
+    it offers component-based layout and rendering primitives plus React and
+    Solid reconcilers for building terminal applications.
+  best_for:
+    - Developers building terminal applications from TypeScript or JavaScript
+    - Teams wanting a native core with optional React or Solid rendering layers
+
+key_features:
+  - Native Zig core that exposes a C ABI and TypeScript bindings
+  - Component-based architecture with flexible terminal layout capabilities
+  - Core package with imperative APIs and terminal primitives
+  - React and SolidJS reconciler packages
+  - Three.js WebGPU renderer and example applications in the monorepo
+
+usage:
+  interfaces:
+    - TypeScript and JavaScript API
+    - C ABI
+    - terminal UI renderer
+  installation:
+    - bun create tui
+    - Bun package install (@opentui/core)
+    - downloadable example builds
+  setup: moderate
+
+technology:
+  languages:
+    - Zig
+    - TypeScript
+  notable_components:
+    - Bun
+    - React
+    - SolidJS
+    - Three.js
+
+license:
+  spdx: MIT
+  name: MIT License
+  notes: Permissive license requiring preservation of copyright and license notices.
+
+status:
+  lifecycle: active
+  archived: false
+  latest_release: v0.4.5
+  latest_release_at: 2026-07-17
+
+strengths:
+  - The core, bindings, and package roles are clearly described in the README
+  - Native core and language-neutral C ABI offer a path beyond TypeScript bindings
+  - Framework-specific packages support both imperative and reconciler-based UI work
+
+caveats:
+  - The documented package build requires Zig to be installed
+  - The repository is a monorepo with optional packages whose APIs and runtimes differ
+  - The release feed includes snapshot entries; v0.4.5 was selected as the named project release matching core version
+  - The quick-start path documents Bun rather than a general npm workflow
+
+sources:
+  - https://raw.githubusercontent.com/anomalyco/opentui/34e78b2fbf18fd969efdf5f3e2589d17d1f536f1/README.md
+  - https://raw.githubusercontent.com/anomalyco/opentui/34e78b2fbf18fd969efdf5f3e2589d17d1f536f1/packages/core/package.json
+  - https://raw.githubusercontent.com/anomalyco/opentui/34e78b2fbf18fd969efdf5f3e2589d17d1f536f1/LICENSE
+  - https://github.com/anomalyco/opentui/releases.atom

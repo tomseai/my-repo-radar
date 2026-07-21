@@ -1,0 +1,89 @@
+schema_version: 2
+repository_id: github:oxc-project/oxc
+
+research:
+  state: complete
+  source_commit: 75ce81de95443130d7af966c6cb98f7c1f432b5c
+  bundle_collected_at: 2026-07-19T20:44:48.029Z
+  researched_at: 2026-07-20T17:30:00.000Z
+  confidence: high
+
+classification:
+  primary_category: developer-tools
+  topics:
+    - cli
+    - performance
+    - frontend-development
+    - developer-productivity
+    - libraries
+    - open-source
+
+project:
+  name: Oxc
+  kind: monorepo
+  summary: >-
+    A Rust workspace for high-performance JavaScript and TypeScript tooling. It provides
+    parser, transformer, minifier, resolver, semantic-analysis, and linting components,
+    alongside the Oxlint linter and Oxfmt formatter command-line applications.
+  best_for:
+    - Developers who want fast linting or formatting for JavaScript and TypeScript codebases
+    - Tool authors building on Rust components for parsing, transforming, minifying, or resolving modules
+
+key_features:
+  - Ships Oxlint and Oxfmt command-line tools, installable with npx
+  - Exposes parser, transformer, minifier, and resolver capabilities for JavaScript and TypeScript
+  - Organizes reusable Rust crates with Node-API bindings and a language-server component
+  - Uses an arena allocator and zero-copy-oriented architecture across the compilation pipeline
+
+usage:
+  interfaces:
+    - Oxlint CLI
+    - Oxfmt CLI
+    - Rust crates
+    - Node-API bindings
+  installation:
+    - npx oxlint@latest
+    - npx oxfmt@latest
+    - Cargo workspace dependency or source build
+  setup: low
+
+technology:
+  languages:
+    - Rust
+    - JavaScript
+    - TypeScript
+  notable_components:
+    - Oxlint
+    - Oxfmt
+    - oxc_parser
+    - oxc_transformer
+    - oxc_minifier
+    - Node-API bindings
+
+license:
+  spdx: MIT
+  name: MIT License
+  notes: The cached top-level LICENSE is MIT; the README notes that incorporated third-party code has separately listed licenses.
+
+status:
+  lifecycle: active
+  archived: false
+  latest_release: oxc crates_v0.140.0
+  latest_release_at: 2026-07-14
+
+strengths:
+  - Combines end-user CLI tools with reusable compiler and analysis components
+  - Documents a performance-oriented Rust architecture with shared processing layers
+  - Has a recent release feed and source snapshot showing continuing project activity
+
+caveats:
+  - The repository contains multiple tools and crates, so integration choices require understanding the intended component boundary
+  - Releases are component-scoped; the same feed also lists Oxlint v1.74.0 and Oxfmt v0.59.0 on 2026-07-14
+  - Building from source entails both Rust and pnpm workspace tooling
+
+sources:
+  - https://raw.githubusercontent.com/oxc-project/oxc/75ce81de95443130d7af966c6cb98f7c1f432b5c/README.md
+  - https://raw.githubusercontent.com/oxc-project/oxc/75ce81de95443130d7af966c6cb98f7c1f432b5c/ARCHITECTURE.md
+  - https://raw.githubusercontent.com/oxc-project/oxc/75ce81de95443130d7af966c6cb98f7c1f432b5c/Cargo.toml
+  - https://raw.githubusercontent.com/oxc-project/oxc/75ce81de95443130d7af966c6cb98f7c1f432b5c/LICENSE
+  - https://github.com/oxc-project/oxc/releases.atom

@@ -1,0 +1,74 @@
+schema_version: 2
+repository_id: github:ai-collection/ai-collection
+research:
+  state: complete
+  source_commit: 159180dfe54859afd8f1b3e00e99549674cda4e0
+  bundle_collected_at: 2026-07-19T20:41:30.672Z
+  researched_at: 2026-07-20T00:38:56.988+02:00
+  confidence: high
+classification:
+  primary_category: documentation-and-learning
+  topics:
+    - curated-lists
+    - llms
+    - ai-agents
+    - code-generation
+    - automation
+    - reference
+project:
+  name: AI Collection
+  kind: curated-list
+  summary: >-
+    A large, hand-picked Markdown directory of generative-AI applications,
+    organized into categories ranging from agents, coding, and chatbots to
+    creative, business, research, and productivity tools.
+  best_for:
+    - Discovering AI products by application category
+    - Browsing a broad reference list before evaluating individual tools
+key_features:
+  - Categorized index covering agents, agentic coding, coding assistants, chatbots, automation, and many non-development uses
+  - Recently added section alongside a category index and individual application entries
+  - Links to an associated AI Collection website for application details and pricing information
+  - Translated README variants in Spanish, French, Hindi, Russian, and Simplified Chinese
+  - External submission flow that synchronizes approved applications into the repository's full list
+usage:
+  interfaces:
+    - Markdown directory
+    - GitHub repository
+    - AI Collection website
+  installation:
+    - Browse README.md on GitHub
+    - Follow links to the listed applications or the AI Collection website
+  setup: low
+technology:
+  languages:
+    - Markdown
+    - HTML
+  notable_components:
+    - Categorized application index
+    - AI Collection website submission and synchronization flow
+    - GitHub Actions Lychee link validation
+license:
+  spdx: MIT
+  name: MIT License
+  notes: Permissive license for the repository materials; listed third-party applications retain their own terms and licenses.
+status:
+  lifecycle: active
+  archived: false
+  latest_release: null
+  latest_release_at: null
+strengths:
+  - Broad category coverage makes it useful for initial product discovery beyond a single AI niche
+  - Entries can be reached directly from a navigable Markdown index with supplemental website links
+  - The project documents a maintained submission path and a scheduled link-checking workflow
+caveats:
+  - This is a directory of external applications, not software to install or a unified product catalog
+  - Entry quality, availability, pricing, privacy, and terms must be evaluated at each linked application
+  - New applications are submitted through an external website approval flow rather than ordinary repository pull requests
+  - The cached releases feed has no entries, so no latest versioned release can be established
+sources:
+  - https://raw.githubusercontent.com/ai-collection/ai-collection/159180dfe54859afd8f1b3e00e99549674cda4e0/README.md
+  - https://raw.githubusercontent.com/ai-collection/ai-collection/159180dfe54859afd8f1b3e00e99549674cda4e0/LICENSE
+  - https://raw.githubusercontent.com/ai-collection/ai-collection/159180dfe54859afd8f1b3e00e99549674cda4e0/CONTRIBUTING.md
+  - https://raw.githubusercontent.com/ai-collection/ai-collection/159180dfe54859afd8f1b3e00e99549674cda4e0/.github/workflows/lychee-action.yml
+  - https://github.com/ai-collection/ai-collection/releases.atom

@@ -1,0 +1,78 @@
+schema_version: 2
+repository_id: github:zslucky/awesome-AI-books
+research:
+  state: complete
+  source_commit: 501dd5c553b17c818501b453d3b85acc733e1750
+  bundle_collected_at: 2026-07-19T20:46:04.342Z
+  researched_at: 2026-07-20T16:11:28.467Z
+  confidence: medium
+
+classification:
+  primary_category: documentation-and-learning
+  topics:
+    - curated-lists
+    - documentation
+    - reference
+    - tutorials
+    - machine-learning
+    - llms
+
+project:
+  name: Awesome AI books
+  kind: curated-list
+  summary: >-
+    A curated README-based collection of AI reading links, books, papers,
+    research organizations, training environments, and selected notebooks.
+  best_for:
+    - Finding introductory and reference material across AI and machine learning subjects
+    - Browsing learning links for reinforcement learning, deep learning, quantum AI, and related areas
+
+key_features:
+  - Categorized book and PDF links for introductory theory, mathematics, data mining, machine learning, and deep learning
+  - Research-organization and publication links
+  - Training-environment references for reinforcement-learning experimentation
+  - Sections for quantum computing and quantum AI
+  - Online-book and library references for reinforcement learning, LLMs, NLP, computer vision, and AutoML
+  - Included Jupyter notebooks from Machine Learning for OpenCV material
+
+usage:
+  interfaces:
+    - GitHub README
+    - Jupyter notebooks
+  installation:
+    - no installation required for the reading list
+  setup: low
+
+technology:
+  languages:
+    - Jupyter Notebook
+  notable_components:
+    - Markdown resource index
+    - linked external books and PDFs
+
+license:
+  spdx: MIT
+  name: MIT License
+  notes: >-
+    The repository has an MIT license file, but its README says not to use the
+    collection for business; neither statement establishes rights in third-party books or PDFs.
+
+status:
+  lifecycle: active
+  archived: false
+  latest_release: null
+  latest_release_at: null
+
+strengths:
+  - Broad, browseable coverage of foundational and specialized AI learning topics
+  - Combines reading links with research sources and hands-on training environments
+  - Requires no platform setup to begin using the index
+
+caveats:
+  - The README states that the collection is for learning and not business use
+  - Many books are hosted externally, including through Yandex.Disk, so availability and licensing require individual verification
+  - The list's currency and quality vary by linked item; the retained bundle does not verify those external resources
+
+sources:
+  - https://raw.githubusercontent.com/zslucky/awesome-AI-books/501dd5c553b17c818501b453d3b85acc733e1750/README.md
+  - https://raw.githubusercontent.com/zslucky/awesome-AI-books/501dd5c553b17c818501b453d3b85acc733e1750/LICENSE

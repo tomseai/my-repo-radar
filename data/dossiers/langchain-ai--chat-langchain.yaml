@@ -1,0 +1,89 @@
+schema_version: 2
+repository_id: github:langchain-ai/chat-langchain
+research:
+  state: complete
+  source_commit: 65d06cb2a1fa1b1a005deea52e1fee044726fdb9
+  bundle_collected_at: 2026-07-19T20:43:38.459Z
+  researched_at: 2026-07-20T15:32:15.619Z
+  confidence: high
+
+classification:
+  primary_category: ai-and-automation
+  topics:
+    - ai-agents
+    - chat-ui
+    - documentation
+    - search
+    - tool-use
+    - web-ui
+    - deployment
+
+project:
+  name: Chat LangChain
+  kind: application
+  summary: >-
+    A documentation assistant for LangChain, LangGraph, and LangSmith that
+    combines managed agent deployment, documentation and support-base search,
+    on-topic guardrails, URL validation, and a Next.js public chat interface.
+  best_for:
+    - Teams building a managed documentation-support assistant
+    - Developers studying a LangChain agent with a separate public web UI
+
+key_features:
+  - Searches official LangChain documentation through a Mintlify API
+  - Searches a Pylon support knowledge base for known issues and solutions
+  - Filters off-topic requests with guardrail middleware
+  - Validates URLs before including them in responses
+  - Uses Managed Deep Agents for deployment, identity, connectors, and ingress
+  - Provides a Next.js frontend for the public chat experience
+
+usage:
+  interfaces:
+    - web chat UI
+    - managed agent service
+    - local development server
+  installation:
+    - uv or pip for the Python backend
+    - npm for the Next.js frontend
+    - Managed Deep Agents deployment
+  setup: high
+
+technology:
+  languages:
+    - Python
+    - TypeScript
+  notable_components:
+    - LangChain
+    - LangGraph
+    - Managed Deep Agents
+    - Next.js
+license:
+  spdx: MIT
+  name: MIT License
+  notes: >-
+    Permissive reuse is allowed provided copyright and license notices are
+    included; the software is provided without warranty.
+
+status:
+  lifecycle: active
+  archived: false
+  latest_release: null
+  latest_release_at: null
+
+strengths:
+  - Shows a complete docs-first agent workflow with focused retrieval tools
+  - Separates browser-facing UI from managed identity and connector operations
+  - Documents local development and managed deployment paths
+
+caveats:
+  - Local use requires multiple third-party API credentials and service configuration
+  - The maintained deployment path depends on Managed Deep Agents infrastructure
+  - The repository retains a legacy LangGraph agent module, which may complicate orientation
+  - The retained release feed contains no releases
+
+sources:
+  - https://raw.githubusercontent.com/langchain-ai/chat-langchain/65d06cb2a1fa1b1a005deea52e1fee044726fdb9/README.md
+  - https://raw.githubusercontent.com/langchain-ai/chat-langchain/65d06cb2a1fa1b1a005deea52e1fee044726fdb9/LICENSE
+  - https://raw.githubusercontent.com/langchain-ai/chat-langchain/65d06cb2a1fa1b1a005deea52e1fee044726fdb9/pyproject.toml
+  - https://raw.githubusercontent.com/langchain-ai/chat-langchain/65d06cb2a1fa1b1a005deea52e1fee044726fdb9/frontend/package.json
+  - https://github.com/langchain-ai/chat-langchain/releases.atom

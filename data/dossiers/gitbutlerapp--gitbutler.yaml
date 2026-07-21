@@ -1,0 +1,72 @@
+schema_version: 2
+repository_id: github:gitbutlerapp/gitbutler
+research:
+  state: complete
+  source_commit: 7f74dbb5257b70b6a46f9ac1a820d8d4100d34b0
+  bundle_collected_at: 2026-07-19T20:43:11.035Z
+  researched_at: 2026-07-19T22:13:18.417Z
+  confidence: high
+classification:
+  primary_category: developer-tools
+  topics:
+    - git
+    - cli
+    - desktop-app
+    - developer-productivity
+    - code-review
+    - pull-requests
+project:
+  name: GitButler
+  kind: application
+  summary: >-
+    A desktop Git client and CLI for stacked and parallel branches, direct
+    commit editing, conflict handling, undo, forge integration, and
+    agent-assisted development.
+  best_for:
+    - Developers working with stacked pull requests
+    - Managing several simultaneous branches or agent-produced changes
+key_features:
+  - Stacked and parallel branch workflows
+  - Visual commit editing, splitting, moving, squashing, and rewording
+  - Operation history with undo and recovery
+  - Conflict-aware workflows
+  - GitHub, GitLab, and Bitbucket integration
+  - Shared Rust engine for the desktop app and the but CLI
+usage:
+  interfaces:
+    - desktop GUI
+    - CLI
+  installation:
+    - official desktop download
+    - build from source
+  setup: moderate
+technology:
+  languages:
+    - Rust
+    - TypeScript
+    - Svelte
+  notable_components:
+    - Tauri
+    - SQLite
+license:
+  spdx: FSL-1.1-MIT
+  name: Functional Source License 1.1 with MIT Future License
+  notes: Competing commercial use is restricted; each version converts to MIT after two years.
+status:
+  lifecycle: active
+  archived: false
+  latest_release: null
+  latest_release_at: null
+strengths:
+  - Advanced Git workflows are available through both a GUI and CLI
+  - Strong support for commit restructuring, conflicts, and recovery
+  - Active development and explicit coding-agent integrations
+caveats:
+  - The current license is more restrictive than a permissive open-source license
+  - Building the monorepo requires both Rust and JavaScript toolchains
+  - Forge and AI features can require external accounts or providers
+  - The cached release feed contains only nightly builds; nightly/0.5.2115 from 2026-07-17 is the newest observed entry, not an established stable project release
+sources:
+  - https://raw.githubusercontent.com/gitbutlerapp/gitbutler/7f74dbb5257b70b6a46f9ac1a820d8d4100d34b0/README.md
+  - https://raw.githubusercontent.com/gitbutlerapp/gitbutler/7f74dbb5257b70b6a46f9ac1a820d8d4100d34b0/LICENSE.md
+  - https://github.com/gitbutlerapp/gitbutler/releases.atom

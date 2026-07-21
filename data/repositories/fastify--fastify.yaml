@@ -1,0 +1,71 @@
+analysis:
+  analyzed_at: "2026-07-19T19:29:26.248Z"
+  classification:
+    primary_category: "application-frameworks"
+    state: "provisional"
+    technologies:
+      - "javascript"
+      - "nodejs"
+    topics:
+      - "web"
+    use_cases:
+      - "build-backend-services"
+      - "build-web-applications"
+  evidence:
+    - claim: "Fastify is a Node.js web framework focused on low overhead, developer experience, and a plugin architecture, with routing, schema support, and logging."
+      source_type: "repository-file"
+      url: "https://github.com/fastify/fastify/blob/main/README.md"
+      checked_at: "2026-07-19"
+      confidence: "high"
+  state: "researched"
+  summary:
+    one_line: "A low-overhead Node.js web framework with a plugin architecture."
+    why_useful: "It provides routing, schema-based validation, logging, and extensibility for backend web applications."
+curation:
+  confidence: null
+  evidence: []
+  limitations: []
+  recommendation: null
+  reviewed_at: null
+  state: "uncurated"
+  strengths: []
+  verdict: null
+id: "github:fastify/fastify"
+import:
+  github_snapshot:
+    archived: false
+    created_at: "2016-09-28T19:10:14Z"
+    default_branch: "main"
+    description: "Fast and low overhead web framework, for Node.js"
+    disabled: false
+    fetched_at: "2026-07-19T19:16:14.796Z"
+    fork: false
+    forks: 2841
+    homepage: "https://www.fastify.dev"
+    latest_release: null
+    license_spdx: "MIT"
+    open_issues: 140
+    primary_language: "JavaScript"
+    pushed_at: "2026-07-19T13:21:22Z"
+    stars: 36758
+    topics:
+      - "hacktoberfest"
+      - "nodejs"
+      - "performance"
+      - "speed"
+      - "webframework"
+    updated_at: "2026-07-19T17:00:54Z"
+  sources:
+    - observed_at: "2026-05-01T17:15:02Z"
+      relation: "starred"
+      source_id: "github:user:tomseai:stars"
+      source_url: "https://github.com/tomseai?tab=stars"
+  state: "imported"
+repository:
+  aliases: []
+  github_node_id: "MDEwOlJlcG9zaXRvcnk2OTQ5NTE3MA=="
+  host: "github.com"
+  name: "fastify"
+  owner: "fastify"
+  url: "https://github.com/fastify/fastify"
+version: 1

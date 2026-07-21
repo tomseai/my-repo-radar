@@ -1,0 +1,69 @@
+schema_version: 2
+repository_id: github:codecrafters-io/build-your-own-x
+research:
+  state: complete
+  source_commit: aa17439b62f384511a5561ce308e9598b94d8989
+  bundle_collected_at: 2026-07-19T20:42:14.119Z
+  researched_at: 2026-07-20T01:20:00+02:00
+  confidence: high
+classification:
+  primary_category: documentation-and-learning
+  topics:
+    - curated-lists
+    - tutorials
+    - reference
+    - documentation
+project:
+  name: Build Your Own X
+  kind: curated-list
+  summary: >-
+    A Markdown index of external, step-by-step guides for recreating software
+    technologies from scratch, organized by the kind of system to build.
+  best_for:
+    - Selecting an implementation-oriented tutorial for a familiar technology
+    - Exploring systems-programming topics through reconstruction exercises
+key_features:
+  - Categorized tutorial index spanning distributed systems, databases, network stacks, operating systems, and programming languages
+  - Additional categories for browsers, web servers, front-end frameworks, shells, text editors, games, and renderers
+  - Per-entry language labels and direct links to the original tutorial resources
+  - Sections covering AI models, neural networks, visual-recognition systems, and bots
+  - Contribution guidance directing additions through repository pull requests
+usage:
+  interfaces:
+    - GitHub Markdown directory
+    - External tutorial links
+  installation:
+    - No installation; browse README.md
+    - Follow a selected guide and use its own prerequisites and toolchain
+  setup: low
+technology:
+  languages:
+    - Markdown
+  notable_components:
+    - Categorized tutorial index
+    - Per-resource language labels
+    - Pull-request contribution path
+license:
+  spdx: CC0-1.0
+  name: Creative Commons Zero v1.0 Universal
+  notes: >-
+    The README displays the CC0 1.0 declaration and says CodeCrafters has waived
+    copyright and related or neighboring rights to this repository's work to
+    the extent possible under law. Linked tutorials retain their own terms.
+status:
+  lifecycle: active
+  archived: false
+  latest_release: null
+  latest_release_at: null
+strengths:
+  - Broad, task-oriented grouping helps readers find a reconstruction project by technology type
+  - Direct source links and language labels make the directory easy to scan
+  - The collection spans foundational systems work and application-facing technologies
+caveats:
+  - This repository supplies a directory, not a common curriculum, runnable codebase, or shared support channel
+  - Tutorial depth, maintenance, licenses, and prerequisites vary by independently maintained linked resource
+  - The CC0 declaration applies to this repository's work, not to the independently hosted tutorials it links
+  - The cached releases feed has no entries, so no latest versioned release can be established
+sources:
+  - https://raw.githubusercontent.com/codecrafters-io/build-your-own-x/aa17439b62f384511a5561ce308e9598b94d8989/README.md
+  - https://github.com/codecrafters-io/build-your-own-x/releases.atom

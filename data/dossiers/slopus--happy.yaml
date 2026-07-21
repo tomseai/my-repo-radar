@@ -1,0 +1,90 @@
+schema_version: 2
+repository_id: github:slopus/happy
+research:
+  state: complete
+  source_commit: 3f161de70541b1cedaf0b7547ed70889d8dae22d
+  bundle_collected_at: 2026-07-19T20:45:22.072Z
+  researched_at: 2026-07-20T16:02:21.793Z
+  confidence: medium
+
+classification:
+  primary_category: platforms-and-applications
+  topics:
+    - coding-agents
+    - remote-control
+    - mobile-app
+    - web-ui
+    - cli
+    - realtime
+    - security
+    - open-source
+
+project:
+  name: Happy
+  kind: monorepo
+  summary: >-
+    A mobile and web companion for Claude Code and Codex sessions that wraps
+    the local agent CLI, enables remote session control and device handoff,
+    sends notifications, and advertises end-to-end encrypted synchronization.
+  best_for:
+    - Developers who need to check or control active Claude Code or Codex work away from a computer
+    - Teams or individuals who want a remote-control layer without replacing their existing coding agent
+
+key_features:
+  - iOS, Android, and web clients for Claude Code and Codex sessions
+  - A CLI wrapper that starts Claude Code or Codex through Happy
+  - Remote agent-control commands for creating, sending to, and monitoring sessions
+  - Device handoff between a computer and phone
+  - Push notifications for permissions and errors
+  - End-to-end encrypted synchronization as described by the project
+
+usage:
+  interfaces:
+    - mobile application
+    - web UI
+    - CLI
+  installation:
+    - npm package
+    - iOS application marketplace
+    - Android application marketplace
+  setup: moderate
+
+technology:
+  languages:
+    - TypeScript
+    - Rust
+  notable_components:
+    - Expo
+    - Tauri
+    - Node.js
+
+license:
+  spdx: MIT
+  name: MIT License
+  notes: >-
+    Permissive reuse is allowed, provided that the copyright and permission
+    notice are included; the software is supplied without warranty.
+
+status:
+  lifecycle: active
+  archived: false
+  latest_release: cli-1.1.10
+  latest_release_at: 2026-06-23
+
+strengths:
+  - Adds remote mobile and web access while retaining the local coding-agent workflow
+  - Covers both Claude Code and Codex through a single wrapper and companion clients
+  - Separates client, CLI, remote-agent, and encrypted-sync server components
+
+caveats:
+  - It depends on a local Claude Code or Codex session rather than supplying a coding agent itself
+  - The advertised encryption property is retained as a project claim; the bundle does not contain a cryptographic design review
+  - Self-hosting the backend requires Postgres, Redis, object storage, and secret configuration
+  - The newest retained release is explicitly CLI-scoped, so it does not establish a version for the whole monorepo
+
+sources:
+  - https://raw.githubusercontent.com/slopus/happy/3f161de70541b1cedaf0b7547ed70889d8dae22d/README.md
+  - https://raw.githubusercontent.com/slopus/happy/3f161de70541b1cedaf0b7547ed70889d8dae22d/LICENSE
+  - https://raw.githubusercontent.com/slopus/happy/3f161de70541b1cedaf0b7547ed70889d8dae22d/packages/happy-cli/package.json
+  - https://raw.githubusercontent.com/slopus/happy/3f161de70541b1cedaf0b7547ed70889d8dae22d/docs/deployment.md
+  - https://github.com/slopus/happy/releases.atom

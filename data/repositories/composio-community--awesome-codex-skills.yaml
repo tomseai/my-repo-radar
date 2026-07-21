@@ -1,0 +1,77 @@
+analysis:
+  analyzed_at: "2026-07-19T19:29:23.939Z"
+  classification:
+    primary_category: "documentation-and-learning"
+    state: "provisional"
+    technologies: []
+    topics:
+      - "ai-agents"
+      - "automation"
+    use_cases:
+      - "learn-and-reference"
+      - "improve-developer-workflow"
+  evidence:
+    - claim: "Awesome Codex Skills is a curated list of practical Codex skill bundles for workflow automation across the Codex CLI and API, with installation instructions and skills organized by development, productivity, communication, data, and utility work."
+      source_type: "repository-file"
+      url: "https://github.com/composio-community/awesome-codex-skills/blob/master/README.md"
+      checked_at: "2026-07-19"
+      confidence: "high"
+  state: "researched"
+  summary:
+    one_line: "A curated reference list of Codex skills for workflow automation."
+    why_useful: "It helps users discover and install reusable skill bundles for development, productivity, communication, and data tasks."
+curation:
+  confidence: null
+  evidence: []
+  limitations: []
+  recommendation: null
+  reviewed_at: null
+  state: "uncurated"
+  strengths: []
+  verdict: null
+id: "github:composio-community/awesome-codex-skills"
+import:
+  github_snapshot:
+    archived: false
+    created_at: "2026-01-12T11:58:21Z"
+    default_branch: "master"
+    description: "A curated list of practical Codex skills for automating workflows across the Codex CLI and API."
+    disabled: false
+    fetched_at: "2026-07-19T19:16:14.796Z"
+    fork: false
+    forks: 1458
+    homepage: ""
+    latest_release: null
+    license_spdx: null
+    open_issues: 131
+    primary_language: "Python"
+    pushed_at: "2026-05-15T06:24:47Z"
+    stars: 15128
+    topics:
+      - "awesome"
+      - "awesome-lists"
+      - "awesome-resources"
+      - "codex"
+      - "codex-cli"
+      - "codex-skills"
+      - "coding-agent-skills"
+      - "coding-agents"
+      - "gpt-5-1-codex"
+      - "gpt-5-codex"
+      - "llm"
+      - "skills"
+    updated_at: "2026-07-19T18:35:49Z"
+  sources:
+    - observed_at: "2026-04-23T18:05:29Z"
+      relation: "starred"
+      source_id: "github:user:tomseai:stars"
+      source_url: "https://github.com/tomseai?tab=stars"
+  state: "imported"
+repository:
+  aliases: []
+  github_node_id: "R_kgDOQ4Rncg"
+  host: "github.com"
+  name: "awesome-codex-skills"
+  owner: "composio-community"
+  url: "https://github.com/composio-community/awesome-codex-skills"
+version: 1

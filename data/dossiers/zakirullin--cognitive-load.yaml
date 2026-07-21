@@ -1,0 +1,73 @@
+schema_version: 2
+repository_id: github:zakirullin/cognitive-load
+research:
+  state: complete
+  source_commit: d2d60d2311c3854f16d87bf34f38c829667be2a4
+  bundle_collected_at: 2026-07-19T20:46:00.570Z
+  researched_at: 2026-07-20T16:16:45.953Z
+  confidence: high
+
+classification:
+  primary_category: documentation-and-learning
+  topics:
+    - documentation
+    - reference
+    - developer-productivity
+
+project:
+  name: Cognitive load is what matters
+  kind: documentation
+  summary: >-
+    A living software-design guide that argues for reducing extraneous
+    cognitive load through concrete examples of code structure, abstraction,
+    dependencies, services, and interfaces.
+  best_for:
+    - Developers and teams reviewing design choices for maintainability
+    - Readers looking for practical examples of simpler, easier-to-change code
+
+key_features:
+  - Distinguishes intrinsic task difficulty from reducible extraneous cognitive load
+  - Uses examples of complex conditionals, nesting, and inheritance to discuss simpler control flow and composition
+  - Explains deep versus shallow modules and the cost of excessive indirection
+  - Examines microservices, framework coupling, layered architecture, and premature abstraction
+  - Recommends self-describing interfaces and carefully scoped dependencies
+  - Links to supporting reading and provides translated versions of the guide
+
+usage:
+  interfaces:
+    - Markdown guide
+    - web documentation
+  installation:
+    - read the repository README
+    - clone repository
+  setup: low
+
+technology:
+  languages: []
+  notable_components: []
+
+license:
+  spdx: CC-BY-4.0
+  name: Creative Commons Attribution 4.0 International
+  notes: Reuse and adaptation require attribution, a license notice or link, and an indication of modifications when shared.
+
+status:
+  lifecycle: active
+  archived: false
+  latest_release: v1.3.0
+  latest_release_at: 2024-11-09
+
+strengths:
+  - Focuses on a memorable decision criterion rather than a single prescribed architecture
+  - Concrete code and system-design examples make the principles quick to apply in reviews
+  - Covers both local code structure and broader service and dependency boundaries
+
+caveats:
+  - The guide is explicitly opinionated and should be balanced against a project's domain and operational constraints
+  - It is a reading resource, not a tool that measures or enforces cognitive load
+  - Some examples and linked supporting material reflect the author's interpretation rather than a formal standard
+
+sources:
+  - https://raw.githubusercontent.com/zakirullin/cognitive-load/d2d60d2311c3854f16d87bf34f38c829667be2a4/README.md
+  - https://raw.githubusercontent.com/zakirullin/cognitive-load/d2d60d2311c3854f16d87bf34f38c829667be2a4/LICENSE
+  - https://github.com/zakirullin/cognitive-load/releases.atom

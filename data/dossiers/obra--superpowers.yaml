@@ -1,0 +1,89 @@
+schema_version: 2
+repository_id: github:obra/superpowers
+
+research:
+  state: complete
+  source_commit: d884ae04edebef577e82ff7c4e143debd0bbec99
+  bundle_collected_at: 2026-07-19T20:44:28.707Z
+  researched_at: 2026-07-20T17:30:00.000Z
+  confidence: high
+
+classification:
+  primary_category: ai-and-automation
+  topics:
+    - ai-agents
+    - coding-agents
+    - agent-skills
+    - task-planning
+    - testing
+    - code-review
+    - worktrees
+    - developer-productivity
+
+project:
+  name: Superpowers
+  kind: plugin
+  summary: >-
+    A coding-agent plugin and methodology built from composable skills and bootstrap
+    instructions. It guides a workflow from requirements discovery and design through
+    plans, test-driven implementation, review, worktree use, and branch completion.
+  best_for:
+    - Teams adopting a prescriptive, skill-triggered workflow for supported coding agents
+    - Developers who want reusable guidance for planning, testing, debugging, and review
+
+key_features:
+  - Provides skills for brainstorming, planning, test-driven development, debugging, review, and Git worktrees
+  - Defines a staged workflow from approved design through implementation and branch completion
+  - Supports installations for Claude Code, Codex, Cursor, OpenCode, Pi, and several other agent harnesses
+  - Documents a subagent-driven development flow with specification and code-quality review stages
+
+usage:
+  interfaces:
+    - coding-agent plugins
+    - CLI and terminal agent harnesses
+    - agent skill discovery
+  installation:
+    - official or third-party plugin marketplace
+    - harness-specific plugin command
+    - Pi package from the Git repository
+  setup: moderate
+
+technology:
+  languages:
+    - Shell
+    - JavaScript
+    - TypeScript
+    - Markdown
+  notable_components:
+    - skills library
+    - harness-specific plugin manifests
+    - Pi extension
+    - npm test infrastructure
+
+license:
+  spdx: MIT
+  name: MIT License
+  notes: The cached top-level LICENSE grants the standard MIT permissions and warranty disclaimer; verify any separately distributed marketplace package terms.
+
+status:
+  lifecycle: active
+  archived: false
+  latest_release: v6.1.1
+  latest_release_at: 2026-07-02
+
+strengths:
+  - Covers the full delivery loop rather than offering isolated prompt snippets
+  - Supplies explicit installation paths for multiple coding-agent harnesses
+  - Pairs workflow guidance with testing and code-review practices
+
+caveats:
+  - Its prescribed workflow can be more process-heavy than a lightweight coding-agent setup
+  - Installation and runtime behavior differ by harness, so each environment needs its own setup path
+  - The bundled evidence covers the repository and its documented integrations, not compatibility with every coding agent
+
+sources:
+  - https://raw.githubusercontent.com/obra/superpowers/d884ae04edebef577e82ff7c4e143debd0bbec99/README.md
+  - https://raw.githubusercontent.com/obra/superpowers/d884ae04edebef577e82ff7c4e143debd0bbec99/LICENSE
+  - https://raw.githubusercontent.com/obra/superpowers/d884ae04edebef577e82ff7c4e143debd0bbec99/package.json
+  - https://raw.githubusercontent.com/obra/superpowers/d884ae04edebef577e82ff7c4e143debd0bbec99/docs/porting-to-a-new-harness.md
+  - https://github.com/obra/superpowers/releases.atom

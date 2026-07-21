@@ -1,0 +1,80 @@
+schema_version: 2
+repository_id: github:addyosmani/agent-engineer
+research:
+  state: complete
+  source_commit: 57522790c1c3d8120d376791f1610ffe7682e027
+  bundle_collected_at: 2026-07-19T20:41:19.506Z
+  researched_at: 2026-07-20T00:19:16.532+02:00
+  confidence: high
+classification:
+  primary_category: documentation-and-learning
+  topics:
+    - ai-agents
+    - task-planning
+    - agent-memory
+    - agent-orchestration
+    - agent-protocols
+    - agent-skills
+    - mcp
+    - multi-agent
+    - evaluation
+    - security
+    - tutorials
+    - documentation
+project:
+  name: Agent Engineer
+  kind: course
+  summary: >-
+    A practical, beginner-oriented course that teaches AI-agent fundamentals,
+    then introduces building and shipping agents with Google Cloud AI, Vertex
+    AI, and the Agent Development Kit (ADK).
+  best_for:
+    - Software engineers learning core AI-agent concepts before choosing tools
+    - Developers seeking a structured introduction to Google Cloud agent development
+key_features:
+  - Nineteen lessons arranged across fundamentals, building and shipping, and deep dives
+  - Platform-agnostic introductions to tools, memory, planning, multi-agent systems, RAG, evaluation, and safety
+  - Google Cloud, Vertex AI, and ADK lessons, including a first-agent walkthrough
+  - Coverage of MCP, A2A, AGENTS.md, reusable agent skills, and orchestrators
+  - Links to maintained official documentation and codelabs instead of copied API references
+usage:
+  interfaces:
+    - GitHub Markdown lessons
+  installation:
+    - No installation; read the lessons in the repository
+    - Follow linked official documentation and codelabs for hands-on practice
+  setup: low
+technology:
+  languages:
+    - Markdown
+  notable_components:
+    - Google Cloud AI
+    - Vertex AI
+    - Agent Development Kit (ADK)
+    - Model Context Protocol (MCP)
+    - Agent2Agent (A2A)
+license:
+  spdx: Apache-2.0
+  name: Apache License 2.0
+  notes: >-
+    Permissive license with notice, license-copy, and modified-file notice
+    obligations when redistributing derivative works; it also includes a patent grant.
+status:
+  lifecycle: active
+  archived: false
+  latest_release: null
+  latest_release_at: null
+strengths:
+  - Clear progression from conceptual foundations to delivery and specialist topics
+  - Self-contained lessons can also be used selectively after the fundamentals
+  - Explains concepts with analogies and links outward for maintained implementation material
+caveats:
+  - Part 2 implementation material is specifically based on Google Cloud AI, Vertex AI, and ADK
+  - Hands-on practice requires a Google Cloud account; the course also assumes basic Python, REST API, and JSON familiarity
+  - It intentionally links to external official tutorials and API documentation rather than providing full code samples
+  - The retained release feed has no entries, so no project release can be established
+sources:
+  - https://raw.githubusercontent.com/addyosmani/agent-engineer/57522790c1c3d8120d376791f1610ffe7682e027/README.md
+  - https://raw.githubusercontent.com/addyosmani/agent-engineer/57522790c1c3d8120d376791f1610ffe7682e027/LICENSE
+  - https://raw.githubusercontent.com/addyosmani/agent-engineer/57522790c1c3d8120d376791f1610ffe7682e027/CONTRIBUTING.md
+  - https://github.com/addyosmani/agent-engineer/releases.atom

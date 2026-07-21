@@ -1,0 +1,75 @@
+schema_version: 2
+repository_id: github:vendurehq/vendure
+research:
+  state: complete
+  source_commit: 461da1a56a5cf701649fd74d324cec530cad4efb
+  bundle_collected_at: 2026-07-19T20:45:52.906Z
+  researched_at: 2026-07-20T18:11:30.1712930+02:00
+  confidence: high
+classification:
+  primary_category: backend-and-apis
+  topics:
+    - ecommerce
+    - payments
+    - open-source
+    - backend-development
+    - api-development
+    - frameworks
+project:
+  name: vendure
+  kind: monorepo
+  summary: A plugin-first, headless commerce platform with a TypeScript GraphQL backend, React admin dashboard, and extensible business logic.
+  best_for:
+    - Teams building configurable D2C, B2B, marketplace, or omnichannel commerce services.
+    - Projects needing catalogs, orders, customers, promotions, tax, shipping, payments, and stock on one backend.
+key_features:
+  - Serves commerce functionality through an extensible GraphQL API.
+  - Provides stable plugin contracts, service overrides, and custom-entity extension points.
+  - Includes the @vendure/core framework, CLI, official plugins, admin dashboard, and e2e harness.
+  - Ships a React and TanStack-based administrative dashboard.
+usage:
+  interfaces:
+    - GraphQL API
+    - React and TanStack admin dashboard
+    - vendure CLI
+    - plugin extension API
+  installation:
+    - npx @vendure/create my-shop
+    - New projects require Node.js 20.19+ or 22.12+ and PostgreSQL, MySQL, MariaDB, or SQLite.
+  setup: high
+technology:
+  languages:
+    - TypeScript
+  notable_components:
+    - Node.js
+    - NestJS
+    - GraphQL
+    - React
+    - TanStack dashboard
+    - SQL database support
+license:
+  spdx: GPL-3.0-or-later
+  name: GNU General Public License v3.0 or later
+  notes: The default open-source license is GPLv3; the repository also describes a separately contracted Vendure Commercial License and a GPL section 7 exception for independently licensed Vendure plugins.
+status:
+  lifecycle: active
+  archived: false
+  latest_release: v3.7.1
+  latest_release_at: 2026-07-14
+strengths:
+  - Covers core commerce domain functions and multi-channel use cases in one backend.
+  - Extension points permit business-specific behavior without patching the core.
+  - Provides a first-party scaffold command, dashboard, CLI, plugins, and testing harness.
+caveats:
+  - The source project is a monorepo; its README recommends scaffolding with @vendure/create instead of cloning it for application development.
+  - Operating a project requires a supported SQL database in addition to a supported Node.js runtime.
+  - GPLv3 is the default open-source license, while commercial usage alternatives require a separate agreement.
+sources:
+  - https://raw.githubusercontent.com/vendurehq/vendure/461da1a56a5cf701649fd74d324cec530cad4efb/README.md
+  - https://raw.githubusercontent.com/vendurehq/vendure/461da1a56a5cf701649fd74d324cec530cad4efb/LICENSE.md
+  - https://raw.githubusercontent.com/vendurehq/vendure/461da1a56a5cf701649fd74d324cec530cad4efb/SECURITY.md
+  - https://raw.githubusercontent.com/vendurehq/vendure/461da1a56a5cf701649fd74d324cec530cad4efb/package.json
+  - https://raw.githubusercontent.com/vendurehq/vendure/461da1a56a5cf701649fd74d324cec530cad4efb/packages/core/package.json
+  - https://raw.githubusercontent.com/vendurehq/vendure/461da1a56a5cf701649fd74d324cec530cad4efb/packages/cli/package.json
+  - https://raw.githubusercontent.com/vendurehq/vendure/461da1a56a5cf701649fd74d324cec530cad4efb/CHANGELOG.md
+  - https://github.com/vendurehq/vendure/releases.atom

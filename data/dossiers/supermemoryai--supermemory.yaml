@@ -1,0 +1,90 @@
+schema_version: 2
+repository_id: github:supermemoryai/supermemory
+research:
+  state: complete
+  source_commit: 566be208981aa23ef20a85fd50a737861b1b10b2
+  bundle_collected_at: 2026-07-19T20:45:32.790Z
+  researched_at: 2026-07-20T16:02:21.793Z
+  confidence: high
+
+classification:
+  primary_category: ai-and-automation
+  topics:
+    - ai-agents
+    - agent-memory
+    - llms
+    - mcp
+    - search
+    - self-hosted
+    - local-models
+    - open-source
+
+project:
+  name: Supermemory
+  kind: monorepo
+  summary: >-
+    An AI memory and context platform repository containing a hosted API,
+    client integrations and MCP support, and a local server for persistent
+    memory, user profiles, hybrid retrieval, connectors, and file processing.
+  best_for:
+    - AI-product developers adding persistent user context and retrieval to agents or applications
+    - Users who want an MCP-connected memory layer or a local deployment with compatible models
+
+key_features:
+  - Extracts facts from conversations and maintains user profiles over time
+  - Hybrid search combines document retrieval with stored memories
+  - Processes text, files, images, videos, and code for searchable context
+  - Connectors synchronize data from services such as Google Drive, Gmail, Notion, OneDrive, and GitHub
+  - An MCP server exposes memory, recall, and context tools to compatible AI clients
+  - Local mode provides the API with local embeddings and optional fully offline Ollama use
+
+usage:
+  interfaces:
+    - API
+    - MCP server
+    - web application
+    - CLI
+  installation:
+    - npm package
+    - Python package
+    - MCP installer
+    - local binary installer
+  setup: moderate
+
+technology:
+  languages:
+    - TypeScript
+    - Python
+  notable_components:
+    - Model Context Protocol
+    - Cloudflare Workers
+    - Bun
+
+license:
+  spdx: MIT
+  name: MIT License
+  notes: >-
+    Permissive reuse is allowed, provided that the copyright and permission
+    notice are included; the software is supplied without warranty.
+
+status:
+  lifecycle: active
+  archived: false
+  latest_release: server-v0.0.6
+  latest_release_at: 2026-07-19
+
+strengths:
+  - Combines memory, user profiles, retrieval, connectors, and file processing behind one API
+  - Offers both hosted integrations and a local mode with the same API shape
+  - Supports MCP clients as well as JavaScript and Python application development
+
+caveats:
+  - Hosted API, connector, and MCP configurations can require OAuth or an API key
+  - Local mode initializes an embedded engine and credentials on first boot; fully offline use needs a local model setup
+  - The selected server-v0.0.6 release is scoped to the self-hosted server and does not version the whole monorepo
+sources:
+  - https://raw.githubusercontent.com/supermemoryai/supermemory/566be208981aa23ef20a85fd50a737861b1b10b2/README.md
+  - https://raw.githubusercontent.com/supermemoryai/supermemory/566be208981aa23ef20a85fd50a737861b1b10b2/LICENSE
+  - https://raw.githubusercontent.com/supermemoryai/supermemory/566be208981aa23ef20a85fd50a737861b1b10b2/apps/mcp/package.json
+  - https://raw.githubusercontent.com/supermemoryai/supermemory/566be208981aa23ef20a85fd50a737861b1b10b2/package.json
+  - https://github.com/supermemoryai/supermemory/releases.atom

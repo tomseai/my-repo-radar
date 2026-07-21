@@ -1,0 +1,80 @@
+schema_version: 2
+repository_id: github:ChinaSiro/claude-code-sourcemap
+research:
+  state: complete
+  source_commit: a8a678cb6244e6770e1e421767ff0987a1d95549
+  bundle_collected_at: 2026-07-19T20:42:08.931Z
+  researched_at: 2026-07-20T17:22:48+02:00
+  confidence: medium
+
+classification:
+  primary_category: documentation-and-learning
+  topics:
+    - coding-agents
+    - cli
+    - reference
+
+project:
+  name: claude-code-sourcemap
+  kind: documentation
+  summary: >-
+    An unofficial research reference that reconstructs TypeScript source files
+    from the public @anthropic-ai/claude-code 2.1.88 package source map, while
+    explicitly disclaiming that it reflects Anthropic's original internal repository.
+  best_for:
+    - Studying the publicly shipped 2.1.88 source-map contents and their reconstructed layout
+    - Research and learning that can respect the repository's stated copyright and non-commercial warning
+
+key_features:
+  - Reconstructs source content from the cli.js.map sourcesContent field
+  - Retains 4,756 reconstructed files, including 1,884 TypeScript or TSX files
+  - Maps the main CLI entry point, tools, commands, services, utilities, and React context directories
+  - Includes reconstructed coordinator, plugin, skill, voice, remote-session, and Vim-related directories
+  - Records package metadata for the @anthropic-ai/claude-code 2.1.88 CLI package
+
+usage:
+  interfaces:
+    - Reconstructed source tree
+    - Package metadata reference
+  installation:
+    - Inspect the restored source tree directly for research
+    - Use the package metadata only as a record of the reconstructed source package
+  setup: low
+
+technology:
+  languages:
+    - TypeScript
+    - TSX
+    - JavaScript
+  notable_components:
+    - Source-map sourcesContent extraction
+    - Node.js CLI package metadata
+
+license:
+  spdx: null
+  name: No repository license grant
+  notes: >-
+    No separate license file is retained in the complete repository tree. The README
+    says the reconstructed source copyright belongs to Anthropic, limits the project
+    to research and learning, and asks readers not to use it commercially.
+
+status:
+  lifecycle: unknown
+  archived: false
+  latest_release: null
+  latest_release_at: null
+
+strengths:
+  - States both the package version and the source-map extraction method
+  - Makes the reconstructed scope and non-official status explicit before use
+  - Provides a broad directory-level map for focused source research
+
+caveats:
+  - This is not Anthropic's original development repository and its reconstructed layout may differ from upstream
+  - The README's copyright and non-commercial warning mean reuse rights are not established by this repository
+  - The retained package metadata describes the original package, not a supported build or distribution of this repository
+  - The repository publishes no GitHub release entries in the retained release feed
+
+sources:
+  - https://raw.githubusercontent.com/ChinaSiro/claude-code-sourcemap/a8a678cb6244e6770e1e421767ff0987a1d95549/README.md
+  - https://raw.githubusercontent.com/ChinaSiro/claude-code-sourcemap/a8a678cb6244e6770e1e421767ff0987a1d95549/package/package.json

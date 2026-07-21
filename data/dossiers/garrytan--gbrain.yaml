@@ -1,0 +1,90 @@
+schema_version: 2
+repository_id: github:garrytan/gbrain
+
+research:
+  state: complete
+  source_commit: f72de97943eb9dc1292a80f85d19db7e311855dc
+  bundle_collected_at: 2026-07-19T20:42:58.028Z
+  researched_at: 2026-07-20T15:22:44.534Z
+  confidence: high
+
+classification:
+  primary_category: ai-and-automation
+  topics:
+    - agent-memory
+    - agent-skills
+    - mcp
+    - search
+    - self-hosted
+    - local-first
+    - authentication
+    - llms
+
+project:
+  name: GBrain
+  kind: service
+  summary: >-
+    A self-hostable knowledge layer for agents that syncs Markdown brain
+    repositories into local or Postgres-backed retrieval, graph, and cited
+    synthesis capabilities.
+  best_for:
+    - Agent users who need persistent, source-linked personal or team memory
+    - Teams willing to operate a Postgres deployment for remote shared access
+
+key_features:
+  - Hybrid vector, keyword, reciprocal-rank, reranker, and graph-aware search
+  - Cited answer synthesis with explicit knowledge-gap analysis
+  - Markdown brain repository as the system of record with database synchronization
+  - Auto-linked typed knowledge graph and multi-hop graph queries
+  - MCP tools over local stdio and remote HTTP transports
+  - Configurable schema packs, ingest paths, and durable background jobs
+
+usage:
+  interfaces:
+    - CLI
+    - MCP server
+    - HTTP service
+    - web admin dashboard
+  installation:
+    - Bun package from GitHub
+    - agent-guided installation protocol
+  setup: moderate
+
+technology:
+  languages:
+    - TypeScript
+  notable_components:
+    - Bun
+    - Model Context Protocol
+    - PGLite
+    - PostgreSQL
+    - pgvector
+
+license:
+  spdx: MIT
+  name: MIT License
+  notes: Permissive reuse subject to retaining the copyright and license notice; provided without warranty.
+
+status:
+  lifecycle: active
+  archived: false
+  latest_release: null
+  latest_release_at: null
+
+strengths:
+  - Provides both inexpensive raw retrieval and answer synthesis with source citations
+  - Can start locally with PGLite, then use Postgres and pgvector for shared deployments
+  - Exposes a broad agent-facing surface without tying users to one agent host or model provider
+
+caveats:
+  - Remote HTTP MCP requires a Postgres engine; PGLite supports local stdio use only
+  - Meaningful retrieval requires ingestion, an embedding configuration, and ongoing source hygiene
+  - Remote deployments require careful token, OAuth, registration, binding, and CORS configuration
+  - The retained release feed contains only an eval-run baseline, not a stable release for the primary GBrain product
+
+sources:
+  - https://raw.githubusercontent.com/garrytan/gbrain/f72de97943eb9dc1292a80f85d19db7e311855dc/README.md
+  - https://raw.githubusercontent.com/garrytan/gbrain/f72de97943eb9dc1292a80f85d19db7e311855dc/docs/architecture/RETRIEVAL.md
+  - https://raw.githubusercontent.com/garrytan/gbrain/f72de97943eb9dc1292a80f85d19db7e311855dc/SECURITY.md
+  - https://raw.githubusercontent.com/garrytan/gbrain/f72de97943eb9dc1292a80f85d19db7e311855dc/LICENSE
+  - https://github.com/garrytan/gbrain/releases.atom

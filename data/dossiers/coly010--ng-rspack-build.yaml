@@ -1,0 +1,77 @@
+schema_version: 2
+repository_id: github:Coly010/ng-rspack-build
+research:
+  state: complete
+  source_commit: 0d68b48d6b8f5b529cc54860145cb140b66f4b20
+  bundle_collected_at: 2026-07-19T20:42:22.738Z
+  researched_at: 2026-07-20T00:00:00Z
+  confidence: high
+
+classification:
+  primary_category: developer-tools
+  topics:
+    - frontend-development
+    - frameworks
+    - libraries
+    - performance
+
+project:
+  name: ng-rspack-build
+  kind: monorepo
+  summary: >-
+    A moved monorepo of Angular build packages that integrate Rsbuild and
+    Rspack, including an Rsbuild plugin, Rspack builders, and Nx plugins.
+  best_for:
+    - Evaluating the historical Angular integration before following its successor repository
+    - Angular and Nx projects experimenting with Rsbuild or Rspack build tooling
+
+key_features:
+  - Rsbuild plugin for Angular client-side and server-side rendered applications
+  - Rspack build and compiler packages for Angular applications
+  - Nx generators and executors for Rspack-based Angular applications
+  - Configuration through Rspack or Rsbuild configuration files
+
+usage:
+  interfaces:
+    - npm packages
+    - Nx plugin
+  installation:
+    - npm
+    - build from source
+  setup: moderate
+
+technology:
+  languages:
+    - TypeScript
+    - JavaScript
+  notable_components:
+    - Angular
+    - Rsbuild
+    - Rspack
+    - Nx
+
+license:
+  spdx: MIT
+  name: MIT License
+  notes: null
+
+status:
+  lifecycle: deprecated
+  archived: false
+  latest_release: null
+  latest_release_at: null
+
+strengths:
+  - Covers Rsbuild, Rspack, and Nx paths for Angular rather than a single builder
+  - Documents both CSR and SSR Rsbuild setup
+
+caveats:
+  - The README says the repository moved to NRWL/angular-rspack for further updates
+  - Rspack support is described as a proof of concept, while Rsbuild support is more complete
+  - The retained release feed contains alpha releases only, so no stable project release is recorded
+
+sources:
+  - https://raw.githubusercontent.com/Coly010/ng-rspack-build/0d68b48d6b8f5b529cc54860145cb140b66f4b20/README.md
+  - https://raw.githubusercontent.com/Coly010/ng-rspack-build/0d68b48d6b8f5b529cc54860145cb140b66f4b20/LICENSE
+  - https://raw.githubusercontent.com/Coly010/ng-rspack-build/0d68b48d6b8f5b529cc54860145cb140b66f4b20/packages/rsbuild-plugin-angular/package.json
+  - https://github.com/Coly010/ng-rspack-build/releases.atom

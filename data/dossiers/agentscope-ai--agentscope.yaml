@@ -1,0 +1,78 @@
+schema_version: 2
+repository_id: github:agentscope-ai/agentscope
+research:
+  state: complete
+  source_commit: 30ca3ef33189ce11cbd04a3475e009d2b879f021
+  bundle_collected_at: 2026-07-19T20:41:29.313Z
+  researched_at: 2026-07-20T00:20:30.2826001+02:00
+  confidence: high
+classification:
+  primary_category: ai-and-automation
+  topics:
+    - ai-agents
+    - agent-frameworks
+    - multi-agent
+    - llms
+    - tool-use
+    - mcp
+    - sandboxing
+project:
+  name: AgentScope
+  kind: framework
+  summary: >-
+    A Python framework for building and operating LLM agents with event
+    streaming, permission checks, tool execution, isolated workspaces, and
+    multi-tenant agent services.
+  best_for:
+    - Teams building Python LLM agents with tools and human-in-the-loop interactions
+    - Teams that need multi-session agent services with workspace isolation
+key_features:
+  - An event system for frontend streaming and human-in-the-loop interactions
+  - Configurable permissions for agent tools and resources
+  - Multi-tenant, multi-session agent serving with a FastAPI service example
+  - Workspace backends for local, Docker, E2B, OpenSandbox, Daytona, and Kubernetes environments
+  - MCP support, agent-team tools, task planning, and middleware extension points
+usage:
+  interfaces:
+    - Python library
+    - FastAPI agent-service example
+    - Web UI example
+  installation:
+    - PyPI package via uv or pip
+    - Editable install from source
+  setup: moderate
+technology:
+  languages:
+    - Python
+    - TypeScript
+  notable_components:
+    - FastAPI
+    - Model Context Protocol (MCP)
+    - OpenTelemetry
+    - Docker workspace backend
+license:
+  spdx: Apache-2.0
+  name: Apache License 2.0
+  notes: >-
+    Permissive, with license and notice retention obligations and a patent
+    grant that terminates for specified patent litigation; bundled adapted
+    assets also carry MIT and SIL Open Font License notices.
+status:
+  lifecycle: active
+  archived: false
+  latest_release: v2.0.4.post1
+  latest_release_at: "2026-07-16"
+strengths:
+  - Covers agent development and service deployment in one Python framework
+  - Combines streaming events, permissions, tools, and workspace isolation
+  - Provides optional integrations for models, storage, RAG, memory, and observability
+caveats:
+  - Requires Python 3.11 or newer and an external model provider with suitable credentials
+  - The agent-service example adds Redis and Node.js requirements for its companion web UI
+  - Optional capabilities depend on external backends and warrant deployment-specific security review
+sources:
+  - https://raw.githubusercontent.com/agentscope-ai/agentscope/30ca3ef33189ce11cbd04a3475e009d2b879f021/README.md
+  - https://raw.githubusercontent.com/agentscope-ai/agentscope/30ca3ef33189ce11cbd04a3475e009d2b879f021/LICENSE
+  - https://raw.githubusercontent.com/agentscope-ai/agentscope/30ca3ef33189ce11cbd04a3475e009d2b879f021/pyproject.toml
+  - https://raw.githubusercontent.com/agentscope-ai/agentscope/30ca3ef33189ce11cbd04a3475e009d2b879f021/examples/agent_service/README.md
+  - https://github.com/agentscope-ai/agentscope/releases.atom

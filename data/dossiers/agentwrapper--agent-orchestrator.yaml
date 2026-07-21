@@ -1,0 +1,90 @@
+schema_version: 2
+repository_id: github:AgentWrapper/agent-orchestrator
+research:
+  state: complete
+  source_commit: b55f6c5c99f5b1f25cd61e3c79cd41a0112c4801
+  bundle_collected_at: 2026-07-19T20:41:31.564Z
+  researched_at: 2026-07-20T00:38:21.429Z
+  confidence: high
+
+classification:
+  primary_category: ai-and-automation
+  topics:
+    - ai-agents
+    - agent-harnesses
+    - agent-orchestration
+    - parallel-agents
+    - coding-agents
+    - worktrees
+    - cli
+
+project:
+  name: Agent Orchestrator
+  kind: application
+  summary: >-
+    A local agent IDE and orchestration layer that supervises parallel
+    terminal-based coding agents in isolated Git worktrees, with desktop and
+    CLI control plus feedback loops for pull requests, CI, reviews, and conflicts.
+  best_for:
+    - Developers coordinating several coding-agent sessions in one repository
+    - Teams or individuals wanting local visibility into agent terminals, branches, and PR feedback
+
+key_features:
+  - Separate Git worktree, terminal, branch, and pull-request context for each session
+  - Adapters for multiple terminal-based coding-agent harnesses
+  - Desktop session board with embedded terminals and local browser previews
+  - Automated routing of CI failures, review comments, and merge conflicts to sessions
+  - Local Go daemon with a loopback HTTP API, event stream, and SQLite state store
+  - CLI for daemon, project, agent, session, orchestration, and preview operations
+
+usage:
+  interfaces:
+    - desktop GUI
+    - CLI
+    - embedded terminal
+    - local browser preview
+  installation:
+    - official desktop download
+    - build from source
+    - legacy npm CLI package
+  setup: moderate
+
+technology:
+  languages:
+    - Go
+    - TypeScript
+  notable_components:
+    - React
+    - Electron
+    - SQLite
+    - Git worktrees
+    - tmux
+
+license:
+  spdx: Apache-2.0
+  name: Apache License 2.0
+  notes: Permissive license with patent grant and notice requirements.
+
+status:
+  lifecycle: active
+  archived: false
+  latest_release: v0.10.3
+  latest_release_at: 2026-07-12
+
+strengths:
+  - Keeps parallel agent work isolated while exposing live terminal and PR context
+  - Supports local control through both a desktop application and a CLI
+  - Integrates feedback from CI, reviews, and merge conflicts into the session workflow
+
+caveats:
+  - The current release feed also contains newer nightly v0.10.4 builds; v0.10.3 is the newest non-nightly project release retained in the feed
+  - Users must install and authorize the chosen external coding-agent harnesses
+  - Tracker integration is not yet active at runtime, and PR and review actions are currently frontend-only
+  - The desktop renderer uses PostHog telemetry and session recording, although the project documents local-path and local-URL redaction
+
+sources:
+  - https://raw.githubusercontent.com/AgentWrapper/agent-orchestrator/b55f6c5c99f5b1f25cd61e3c79cd41a0112c4801/README.md
+  - https://raw.githubusercontent.com/AgentWrapper/agent-orchestrator/b55f6c5c99f5b1f25cd61e3c79cd41a0112c4801/docs/STATUS.md
+  - https://raw.githubusercontent.com/AgentWrapper/agent-orchestrator/b55f6c5c99f5b1f25cd61e3c79cd41a0112c4801/docs/telemetry.md
+  - https://raw.githubusercontent.com/AgentWrapper/agent-orchestrator/b55f6c5c99f5b1f25cd61e3c79cd41a0112c4801/LICENSE
+  - https://github.com/AgentWrapper/agent-orchestrator/releases.atom

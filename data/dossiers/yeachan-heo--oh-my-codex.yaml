@@ -1,0 +1,90 @@
+schema_version: 2
+repository_id: github:Yeachan-Heo/oh-my-codex
+research:
+  state: complete
+  source_commit: 435d4a9cc982ffaf83fabbfbb8711ae6c178ffca
+  bundle_collected_at: 2026-07-19T20:46:05.127Z
+  researched_at: 2026-07-20T16:16:45.953Z
+  confidence: high
+
+classification:
+  primary_category: ai-and-automation
+  topics:
+    - coding-agents
+    - agent-orchestration
+    - multi-agent
+    - agent-skills
+    - task-planning
+    - worktrees
+    - cli
+    - mcp
+
+project:
+  name: oh-my-codex
+  kind: cli
+  summary: >-
+    A workflow and orchestration layer around OpenAI Codex CLI that adds
+    reusable skills and roles, durable project state, planning flows, and
+    optional multi-agent team execution.
+  best_for:
+    - Codex CLI users who want reusable planning and execution workflows
+    - Larger trusted Git tasks that benefit from isolated worktrees and coordinated agents
+
+key_features:
+  - Provides role keywords and skills for clarification, planning, durable goals, and completion loops
+  - Stores project guidance, plans, logs, memory, and runtime state under .omx
+  - Launches and coordinates team workers with dedicated worktrees and tmux-oriented runtime controls
+  - Installs scoped AGENTS guidance, prompts, skills, hooks, and Codex configuration through setup
+  - Offers CLI/JSON control-plane commands, with MCP retained as an optional compatibility or integration surface
+  - Includes a Codex plugin layout and a VS Code extension for direct session control and monitoring
+
+usage:
+  interfaces:
+    - CLI
+    - Codex plugin
+    - VS Code extension
+    - MCP server
+  installation:
+    - npm global package
+    - Codex plugin marketplace
+    - build from source
+  setup: high
+
+technology:
+  languages:
+    - TypeScript
+    - Rust
+  notable_components:
+    - Node.js
+    - Model Context Protocol
+    - tmux
+    - Visual Studio Code
+
+license:
+  spdx: MIT
+  name: MIT License
+  notes: MIT is declared in the retained package manifest and Cargo workspace; no standalone license text was retained in this bundle.
+
+status:
+  lifecycle: active
+  archived: false
+  latest_release: v0.20.3
+  latest_release_at: 2026-07-19
+
+strengths:
+  - Creates a coherent workflow from scope clarification through durable execution
+  - Provides explicit state, worktree isolation, and team coordination for larger coding tasks
+  - Keeps CLI and JSON commands as the durable operational path when optional MCP integrations fail
+
+caveats:
+  - It augments Codex CLI; it is not a standalone coding agent or model
+  - The recommended team runtime depends on tmux and is primarily designed for macOS or Linux
+  - Native Windows and the Codex App are documented as less-supported paths
+  - The --madmax convenience mode bypasses approvals and sandboxing and is only suitable for trusted environments
+
+sources:
+  - https://raw.githubusercontent.com/Yeachan-Heo/oh-my-codex/435d4a9cc982ffaf83fabbfbb8711ae6c178ffca/README.md
+  - https://raw.githubusercontent.com/Yeachan-Heo/oh-my-codex/435d4a9cc982ffaf83fabbfbb8711ae6c178ffca/docs/architecture/cli-first-mcp-taxonomy.md
+  - https://raw.githubusercontent.com/Yeachan-Heo/oh-my-codex/435d4a9cc982ffaf83fabbfbb8711ae6c178ffca/package.json
+  - https://raw.githubusercontent.com/Yeachan-Heo/oh-my-codex/435d4a9cc982ffaf83fabbfbb8711ae6c178ffca/Cargo.toml
+  - https://github.com/Yeachan-Heo/oh-my-codex/releases.atom

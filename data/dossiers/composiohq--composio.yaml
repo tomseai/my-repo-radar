@@ -1,0 +1,82 @@
+schema_version: 2
+repository_id: github:ComposioHQ/composio
+research:
+  state: complete
+  source_commit: c34401e355041a71d7588302ad0f9bc71cf3b827
+  bundle_collected_at: 2026-07-19T20:42:24.740Z
+  researched_at: 2026-07-20T00:40:00Z
+  confidence: medium
+classification:
+  primary_category: ai-and-automation
+  topics:
+    - ai-agents
+    - tool-use
+    - automation
+    - authentication
+    - cli
+    - mcp
+    - multi-provider
+    - sandboxing
+project:
+  name: composio
+  kind: monorepo
+  summary: >-
+    A TypeScript and Python SDK monorepo for giving AI agents authenticated,
+    session-scoped tools, triggers, and sandbox capabilities across external apps.
+  best_for:
+    - Agent builders who need authenticated third-party tools scoped to individual users
+    - Teams integrating agent frameworks through SDK adapters or a session-hosted MCP endpoint
+key_features:
+  - Creates per-user sessions with meta tools that discover, authenticate, and execute app tools at runtime
+  - Exposes a hosted MCP endpoint for each session and documents connecting MCP clients to it
+  - Provides TypeScript and Python SDKs plus adapters for OpenAI, Anthropic, Claude Agent SDK, LangChain, Google, and other frameworks
+  - Includes a CLI for searching tools, executing them, connecting accounts, and scripting TypeScript workflows
+usage:
+  interfaces:
+    - TypeScript SDK
+    - Python SDK
+    - Command-line interface
+    - Hosted MCP endpoint
+  installation:
+    - npm install @composio/core @composio/openai-agents @openai/agents
+    - pip install composio composio-openai-agents openai-agents
+    - curl -fsSL https://composio.dev/install | bash
+  setup: moderate
+technology:
+  languages:
+    - TypeScript
+    - Python
+  notable_components:
+    - Node.js
+    - pnpm
+    - Model Context Protocol
+    - OpenAI Agents SDK
+    - LangChain
+license:
+  spdx: MIT
+  name: MIT License
+  notes: >-
+    The repository-root LICENSE grants MIT permissions. However, the retained
+    python/pyproject.toml classifies the Python SDK as Apache Software License,
+    so reuse terms for that package should be confirmed with the maintainers.
+status:
+  lifecycle: active
+  archived: false
+  latest_release: null
+  latest_release_at: null
+strengths:
+  - Avoids loading every tool definition into an agent context by using session meta tools for discovery and execution
+  - Supports direct SDK integration and MCP-based access from the same session model
+  - Covers both TypeScript and Python with framework-specific provider adapters
+caveats:
+  - Creating a session requires a COMPOSIO_API_KEY from the Composio dashboard
+  - The retained release feed lists independently versioned packages, not a clear release for the SDK monorepo as a whole, so no project-wide latest release is stated
+  - Root MIT licensing conflicts with the Apache classifier in cached Python package metadata; confirm the applicable terms before distributing that SDK
+  - The documented CLI installer targets macOS and Linux binaries; its INSTALL.md says Windows is unsupported except through WSL or npm
+sources:
+  - https://raw.githubusercontent.com/ComposioHQ/composio/c34401e355041a71d7588302ad0f9bc71cf3b827/README.md
+  - https://raw.githubusercontent.com/ComposioHQ/composio/c34401e355041a71d7588302ad0f9bc71cf3b827/LICENSE
+  - https://raw.githubusercontent.com/ComposioHQ/composio/c34401e355041a71d7588302ad0f9bc71cf3b827/package.json
+  - https://raw.githubusercontent.com/ComposioHQ/composio/c34401e355041a71d7588302ad0f9bc71cf3b827/python/pyproject.toml
+  - https://raw.githubusercontent.com/ComposioHQ/composio/c34401e355041a71d7588302ad0f9bc71cf3b827/INSTALL.md
+  - https://github.com/ComposioHQ/composio/releases.atom
