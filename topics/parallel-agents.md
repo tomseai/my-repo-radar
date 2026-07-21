@@ -9,12 +9,14 @@
 - [AI and Automation](../categories/ai-and-automation.md) (7)
 - [Developer Tools](../categories/developer-tools.md) (4)
 
+<a id="repo-agentsmesh--agentsmesh"></a>
+
 ## [AgentsMesh](https://github.com/AgentsMesh/AgentsMesh)
 
 A self-hosted control plane for scheduling, isolating, and supervising terminal-based coding agents across a fleet of user-run machines.
 
-- **Category:** [AI and Automation](../categories/ai-and-automation.md)
-- **Topics:** [AI Agents](../topics/ai-agents.md) | [Agent Orchestration](../topics/agent-orchestration.md) | [Multi Agent](../topics/multi-agent.md) | [Parallel Agents](../topics/parallel-agents.md) | [Self Hosted](../topics/self-hosted.md) | [CLI](../topics/cli.md)
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-agentsmesh--agentsmesh)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-agentsmesh--agentsmesh) | [Agent Orchestration](../topics/agent-orchestration.md#repo-agentsmesh--agentsmesh) | [Multi Agent](../topics/multi-agent.md#repo-agentsmesh--agentsmesh) | [Parallel Agents](../topics/parallel-agents.md#repo-agentsmesh--agentsmesh) | [Self Hosted](../topics/self-hosted.md#repo-agentsmesh--agentsmesh) | [CLI](../topics/cli.md#repo-agentsmesh--agentsmesh)
 - **Kind:** Infrastructure
 - **Best for:** Teams operating concurrent coding-agent tasks on their own infrastructure; Workflows needing isolated Git worktrees, shared terminal visibility, and coordinated agent work
 - **Languages:** Go, Rust, TypeScript, Swift
@@ -28,12 +30,14 @@ A self-hosted control plane for scheduling, isolating, and supervising terminal-
   - Per-pod PTY terminals, private credentials, branches, and isolated Git worktree sandboxes
   - Web, Electron desktop, and iOS clients backed by a shared Rust core
 
+<a id="repo-agentwrapper--agent-orchestrator"></a>
+
 ## [Agent Orchestrator](https://github.com/AgentWrapper/agent-orchestrator)
 
 A local agent IDE and orchestration layer that supervises parallel terminal-based coding agents in isolated Git worktrees, with desktop and CLI control plus feedback loops for pull requests, CI, reviews, and conflicts.
 
-- **Category:** [AI and Automation](../categories/ai-and-automation.md)
-- **Topics:** [AI Agents](../topics/ai-agents.md) | [Agent Harnesses](../topics/agent-harnesses.md) | [Agent Orchestration](../topics/agent-orchestration.md) | [Parallel Agents](../topics/parallel-agents.md) | [Coding Agents](../topics/coding-agents.md) | [Worktrees](../topics/worktrees.md) | [CLI](../topics/cli.md)
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-agentwrapper--agent-orchestrator)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-agentwrapper--agent-orchestrator) | [Agent Harnesses](../topics/agent-harnesses.md#repo-agentwrapper--agent-orchestrator) | [Agent Orchestration](../topics/agent-orchestration.md#repo-agentwrapper--agent-orchestrator) | [Parallel Agents](../topics/parallel-agents.md#repo-agentwrapper--agent-orchestrator) | [Coding Agents](../topics/coding-agents.md#repo-agentwrapper--agent-orchestrator) | [Worktrees](../topics/worktrees.md#repo-agentwrapper--agent-orchestrator) | [CLI](../topics/cli.md#repo-agentwrapper--agent-orchestrator)
 - **Kind:** Application
 - **Best for:** Developers coordinating several coding-agent sessions in one repository; Teams or individuals wanting local visibility into agent terminals, branches, and PR feedback
 - **Languages:** Go, TypeScript
@@ -47,12 +51,14 @@ A local agent IDE and orchestration layer that supervises parallel terminal-base
   - Adapters for multiple terminal-based coding-agent harnesses
   - Desktop session board with embedded terminals and local browser previews
 
+<a id="repo-andymik90--aperant"></a>
+
 ## [Aperant](https://github.com/AndyMik90/Aperant)
 
 An Electron desktop application for planning, executing, and validating parallel AI coding tasks in isolated Git worktrees, with a visual task board, agent terminals, review loops, and project-management integrations.
 
-- **Category:** [AI and Automation](../categories/ai-and-automation.md)
-- **Topics:** [AI Agents](../topics/ai-agents.md) | [Coding Agents](../topics/coding-agents.md) | [Multi Agent](../topics/multi-agent.md) | [Parallel Agents](../topics/parallel-agents.md) | [Worktrees](../topics/worktrees.md) | [Git](../topics/git.md) | [Desktop App](../topics/desktop-app.md) | [Task Planning](../topics/task-planning.md) | [Testing](../topics/testing.md)
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-andymik90--aperant)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-andymik90--aperant) | [Coding Agents](../topics/coding-agents.md#repo-andymik90--aperant) | [Multi Agent](../topics/multi-agent.md#repo-andymik90--aperant) | [Parallel Agents](../topics/parallel-agents.md#repo-andymik90--aperant) | [Worktrees](../topics/worktrees.md#repo-andymik90--aperant) | [Git](../topics/git.md#repo-andymik90--aperant) | [Desktop App](../topics/desktop-app.md#repo-andymik90--aperant) | [Task Planning](../topics/task-planning.md#repo-andymik90--aperant) | [Testing](../topics/testing.md#repo-andymik90--aperant)
 - **Kind:** Application
 - **Best for:** Claude Code users running parallel implementation tasks in Git repositories; Developers who prefer a visual desktop workflow for autonomous coding sessions
 - **Languages:** TypeScript
@@ -66,12 +72,14 @@ An Electron desktop application for planning, executing, and validating parallel
   - Up to twelve parallel agent terminals and Git-worktree isolation
   - Built-in quality assurance and AI-assisted merge-conflict resolution
 
+<a id="repo-generalaction--emdash"></a>
+
 ## [emdash](https://github.com/generalaction/emdash)
 
 A local-first desktop environment for running AI coding agents in parallel in isolated Git worktrees, then reviewing and integrating their changes.
 
-- **Category:** [AI and Automation](../categories/ai-and-automation.md)
-- **Topics:** [AI Agents](../topics/ai-agents.md) | [Coding Agents](../topics/coding-agents.md) | [Parallel Agents](../topics/parallel-agents.md) | [Agent Development Environments](../topics/agent-development-environments.md) | [Automation](../topics/automation.md) | [Git](../topics/git.md) | [Worktrees](../topics/worktrees.md) | [Desktop App](../topics/desktop-app.md) | [Remote Control](../topics/remote-control.md)
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-generalaction--emdash)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-generalaction--emdash) | [Coding Agents](../topics/coding-agents.md#repo-generalaction--emdash) | [Parallel Agents](../topics/parallel-agents.md#repo-generalaction--emdash) | [Agent Development Environments](../topics/agent-development-environments.md#repo-generalaction--emdash) | [Automation](../topics/automation.md#repo-generalaction--emdash) | [Git](../topics/git.md#repo-generalaction--emdash) | [Worktrees](../topics/worktrees.md#repo-generalaction--emdash) | [Desktop App](../topics/desktop-app.md#repo-generalaction--emdash) | [Remote Control](../topics/remote-control.md#repo-generalaction--emdash)
 - **Kind:** Application
 - **Best for:** Developers managing several coding-agent tasks across local or SSH-connected projects; Teams that want ticket intake, change review, and pull-request workflows in one desktop app
 - **Languages:** TypeScript
@@ -85,12 +93,14 @@ A local-first desktop environment for running AI coding agents in parallel in is
   - Isolate each task in its own Git worktree and branch
   - Send tickets from issue trackers and project-management tools to an agent
 
+<a id="repo-getpaseo--paseo"></a>
+
 ## [Paseo](https://github.com/getpaseo/paseo)
 
 A self-hosted, cross-device control surface for running, monitoring, and coordinating coding agents on a machine that you operate.
 
-- **Category:** [AI and Automation](../categories/ai-and-automation.md)
-- **Topics:** [Coding Agents](../topics/coding-agents.md) | [Agent Orchestration](../topics/agent-orchestration.md) | [Parallel Agents](../topics/parallel-agents.md) | [Multi Provider](../topics/multi-provider.md) | [Self Hosted](../topics/self-hosted.md) | [Cross Device](../topics/cross-device.md) | [Voice Control](../topics/voice-control.md) | [CLI](../topics/cli.md) | [Desktop App](../topics/desktop-app.md) | [Mobile App](../topics/mobile-app.md)
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-getpaseo--paseo)
+- **Topics:** [Coding Agents](../topics/coding-agents.md#repo-getpaseo--paseo) | [Agent Orchestration](../topics/agent-orchestration.md#repo-getpaseo--paseo) | [Parallel Agents](../topics/parallel-agents.md#repo-getpaseo--paseo) | [Multi Provider](../topics/multi-provider.md#repo-getpaseo--paseo) | [Self Hosted](../topics/self-hosted.md#repo-getpaseo--paseo) | [Cross Device](../topics/cross-device.md#repo-getpaseo--paseo) | [Voice Control](../topics/voice-control.md#repo-getpaseo--paseo) | [CLI](../topics/cli.md#repo-getpaseo--paseo) | [Desktop App](../topics/desktop-app.md#repo-getpaseo--paseo) | [Mobile App](../topics/mobile-app.md#repo-getpaseo--paseo)
 - **Kind:** Application
 - **Best for:** Developers coordinating several coding-agent tasks from desktop, mobile, or terminal; Running supported agent CLIs on a workstation or remote machine under local control
 - **Languages:** TypeScript, Ruby
@@ -104,12 +114,14 @@ A self-hosted, cross-device control surface for running, monitoring, and coordin
   - Parallel agent execution with live terminal attachment and follow-up prompts
   - Desktop, mobile, web, and CLI clients connected to a local daemon
 
+<a id="repo-morapelker--hive"></a>
+
 ## [Hive](https://github.com/morapelker/hive)
 
 Desktop orchestration for parallel Claude Code, OpenCode, and Codex coding sessions in isolated Git worktrees.
 
-- **Category:** [Developer Tools](../categories/developer-tools.md)
-- **Topics:** [Coding Agents](../topics/coding-agents.md) | [Agent Orchestration](../topics/agent-orchestration.md) | [Parallel Agents](../topics/parallel-agents.md) | [Worktrees](../topics/worktrees.md) | [Desktop App](../topics/desktop-app.md) | [Git](../topics/git.md)
+- **Category:** [Developer Tools](../categories/developer-tools.md#repo-morapelker--hive)
+- **Topics:** [Coding Agents](../topics/coding-agents.md#repo-morapelker--hive) | [Agent Orchestration](../topics/agent-orchestration.md#repo-morapelker--hive) | [Parallel Agents](../topics/parallel-agents.md#repo-morapelker--hive) | [Worktrees](../topics/worktrees.md#repo-morapelker--hive) | [Desktop App](../topics/desktop-app.md#repo-morapelker--hive) | [Git](../topics/git.md#repo-morapelker--hive)
 - **Kind:** Application
 - **Best for:** Developers coordinating several AI coding tasks across branches or repositories.; Git-worktree users who prefer visual Git, files, diffs, and agent-session management.
 - **Languages:** TypeScript
@@ -123,12 +135,14 @@ Desktop orchestration for parallel Claude Code, OpenCode, and Codex coding sessi
   - Creates, organizes, archives, and switches among isolated Git worktrees from the desktop UI.
   - Provides visual Git operations, inline diffs, file history, and a Monaco-based file explorer.
 
+<a id="repo-psmux--psmux"></a>
+
 ## [psmux](https://github.com/psmux/psmux)
 
 A native Rust terminal multiplexer for Windows that uses ConPTY directly, implements the tmux command language and configuration format, persists sessions, and supports panes, themes, mouse control, scripting, plugins, and agent-team panes.
 
-- **Category:** [Developer Tools](../categories/developer-tools.md)
-- **Topics:** [CLI](../topics/cli.md) | [TUI](../topics/tui.md) | [Terminal](../topics/terminal.md) | [Developer Productivity](../topics/developer-productivity.md) | [Automation](../topics/automation.md) | [Parallel Agents](../topics/parallel-agents.md) | [Realtime Collaboration](../topics/realtime-collaboration.md)
+- **Category:** [Developer Tools](../categories/developer-tools.md#repo-psmux--psmux)
+- **Topics:** [CLI](../topics/cli.md#repo-psmux--psmux) | [TUI](../topics/tui.md#repo-psmux--psmux) | [Terminal](../topics/terminal.md#repo-psmux--psmux) | [Developer Productivity](../topics/developer-productivity.md#repo-psmux--psmux) | [Automation](../topics/automation.md#repo-psmux--psmux) | [Parallel Agents](../topics/parallel-agents.md#repo-psmux--psmux) | [Realtime Collaboration](../topics/realtime-collaboration.md#repo-psmux--psmux)
 - **Kind:** Application
 - **Best for:** Windows developers who want tmux-style persistent sessions without WSL or Cygwin; Claude Code users who want teammate agents displayed in separate terminal panes
 - **Languages:** Rust
@@ -142,12 +156,14 @@ A native Rust terminal multiplexer for Windows that uses ConPTY directly, implem
   - Reads tmux configuration and supports themes, mouse input, layouts, and copy mode
   - Persists sessions across terminal crashes and SSH disconnects
 
+<a id="repo-shep-ai--shep"></a>
+
 ## [Shep](https://github.com/shep-ai/shep)
 
 A local-first orchestrator that runs parallel coding agents in isolated Git worktrees and drives feature branches through implementation, optional specification gates, commits, CI retry fixes, and draft pull requests.
 
-- **Category:** [AI and Automation](../categories/ai-and-automation.md)
-- **Topics:** [AI Agents](../topics/ai-agents.md) | [Coding Agents](../topics/coding-agents.md) | [Agent Orchestration](../topics/agent-orchestration.md) | [Parallel Agents](../topics/parallel-agents.md) | [Worktrees](../topics/worktrees.md) | [CLI](../topics/cli.md) | [Web UI](../topics/web-ui.md) | [Git](../topics/git.md) | [Pull Requests](../topics/pull-requests.md) | [Local First](../topics/local-first.md) | [Spec Driven Development](../topics/spec-driven-development.md)
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-shep-ai--shep)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-shep-ai--shep) | [Coding Agents](../topics/coding-agents.md#repo-shep-ai--shep) | [Agent Orchestration](../topics/agent-orchestration.md#repo-shep-ai--shep) | [Parallel Agents](../topics/parallel-agents.md#repo-shep-ai--shep) | [Worktrees](../topics/worktrees.md#repo-shep-ai--shep) | [CLI](../topics/cli.md#repo-shep-ai--shep) | [Web UI](../topics/web-ui.md#repo-shep-ai--shep) | [Git](../topics/git.md#repo-shep-ai--shep) | [Pull Requests](../topics/pull-requests.md#repo-shep-ai--shep) | [Local First](../topics/local-first.md#repo-shep-ai--shep) | [Spec Driven Development](../topics/spec-driven-development.md#repo-shep-ai--shep)
 - **Kind:** Application
 - **Best for:** Developers coordinating several AI coding-agent tasks against one repository; Teams that want agent output isolated in reviewable draft pull-request workflows
 - **Languages:** TypeScript
@@ -161,12 +177,14 @@ A local-first orchestrator that runs parallel coding agents in isolated Git work
   - Built-in Claude Code, Cursor CLI, and Gemini CLI support plus a generic terminal-agent executor
   - Default prompt-to-implementation-to-draft-PR workflow with configurable CI retry fixes
 
+<a id="repo-stablyai--orca"></a>
+
 ## [Orca](https://github.com/stablyai/orca)
 
 An Electron-based agent development environment for running terminal coding agents side by side in isolated Git worktrees, with desktop review and editing tools, a scriptable CLI, and a paired mobile companion application.
 
-- **Category:** [Developer Tools](../categories/developer-tools.md)
-- **Topics:** [AI Agents](../topics/ai-agents.md) | [Coding Agents](../topics/coding-agents.md) | [Parallel Agents](../topics/parallel-agents.md) | [Agent Orchestration](../topics/agent-orchestration.md) | [Agent Development Environments](../topics/agent-development-environments.md) | [Worktrees](../topics/worktrees.md) | [Desktop App](../topics/desktop-app.md) | [CLI](../topics/cli.md)
+- **Category:** [Developer Tools](../categories/developer-tools.md#repo-stablyai--orca)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-stablyai--orca) | [Coding Agents](../topics/coding-agents.md#repo-stablyai--orca) | [Parallel Agents](../topics/parallel-agents.md#repo-stablyai--orca) | [Agent Orchestration](../topics/agent-orchestration.md#repo-stablyai--orca) | [Agent Development Environments](../topics/agent-development-environments.md#repo-stablyai--orca) | [Worktrees](../topics/worktrees.md#repo-stablyai--orca) | [Desktop App](../topics/desktop-app.md#repo-stablyai--orca) | [CLI](../topics/cli.md#repo-stablyai--orca)
 - **Kind:** Application
 - **Best for:** Developers coordinating parallel terminal-based coding agents; Reviewing agent-produced changes across separate Git worktrees
 - **Languages:** TypeScript
@@ -180,12 +198,14 @@ An Electron-based agent development environment for running terminal coding agen
   - Supports parallel prompts, result comparison, and merge-oriented workflows
   - Provides terminal splits with persistent scrollback and WebGL rendering
 
+<a id="repo-superset-sh--superset"></a>
+
 ## [Superset](https://github.com/superset-sh/superset)
 
 A desktop code editor and shared workspace system for running terminal-based coding agents in parallel, each isolated in its own Git worktree with built-in terminal, review, and workspace-management tools.
 
-- **Category:** [Developer Tools](../categories/developer-tools.md)
-- **Topics:** [AI Agents](../topics/ai-agents.md) | [Coding Agents](../topics/coding-agents.md) | [Parallel Agents](../topics/parallel-agents.md) | [Desktop App](../topics/desktop-app.md) | [CLI](../topics/cli.md) | [Agent Development Environments](../topics/agent-development-environments.md) | [Git](../topics/git.md) | [Worktrees](../topics/worktrees.md) | [MCP](../topics/mcp.md) | [Code Review](../topics/code-review.md)
+- **Category:** [Developer Tools](../categories/developer-tools.md#repo-superset-sh--superset)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-superset-sh--superset) | [Coding Agents](../topics/coding-agents.md#repo-superset-sh--superset) | [Parallel Agents](../topics/parallel-agents.md#repo-superset-sh--superset) | [Desktop App](../topics/desktop-app.md#repo-superset-sh--superset) | [CLI](../topics/cli.md#repo-superset-sh--superset) | [Agent Development Environments](../topics/agent-development-environments.md#repo-superset-sh--superset) | [Git](../topics/git.md#repo-superset-sh--superset) | [Worktrees](../topics/worktrees.md#repo-superset-sh--superset) | [MCP](../topics/mcp.md#repo-superset-sh--superset) | [Code Review](../topics/code-review.md#repo-superset-sh--superset)
 - **Kind:** Application
 - **Best for:** Developers coordinating several CLI coding agents against the same repository; Teams that want worktree isolation, local review, and remote workspace access
 - **Languages:** TypeScript
@@ -199,12 +219,14 @@ A desktop code editor and shared workspace system for running terminal-based cod
   - Monitors agents with status indicators and attention notifications
   - Includes persistent split terminals, a diff viewer, and in-app code editing
 
+<a id="repo-unclebob--swarm-forge"></a>
+
 ## [SwarmForge](https://github.com/unclebob/swarm-forge)
 
 A local, tmux-based multi-agent orchestration framework that gives agents dedicated Git worktrees, role prompts, and file-based handoffs.
 
-- **Category:** [AI and Automation](../categories/ai-and-automation.md)
-- **Topics:** [AI Agents](../topics/ai-agents.md) | [Agent Orchestration](../topics/agent-orchestration.md) | [Multi Agent](../topics/multi-agent.md) | [Parallel Agents](../topics/parallel-agents.md) | [Worktrees](../topics/worktrees.md) | [CLI](../topics/cli.md) | [Terminal](../topics/terminal.md) | [Self Hosted](../topics/self-hosted.md)
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-unclebob--swarm-forge)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-unclebob--swarm-forge) | [Agent Orchestration](../topics/agent-orchestration.md#repo-unclebob--swarm-forge) | [Multi Agent](../topics/multi-agent.md#repo-unclebob--swarm-forge) | [Parallel Agents](../topics/parallel-agents.md#repo-unclebob--swarm-forge) | [Worktrees](../topics/worktrees.md#repo-unclebob--swarm-forge) | [CLI](../topics/cli.md#repo-unclebob--swarm-forge) | [Terminal](../topics/terminal.md#repo-unclebob--swarm-forge) | [Self Hosted](../topics/self-hosted.md#repo-unclebob--swarm-forge)
 - **Kind:** Framework
 - **Best for:** Teams applying a defined multi-agent coding workflow to a local Git project; Projects that need separate implementation, review, and QA agent roles
 - **Languages:** Clojure, Shell

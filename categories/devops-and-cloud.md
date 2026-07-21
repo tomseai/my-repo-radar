@@ -24,12 +24,14 @@
 - [Tracing](../topics/tracing.md) (2)
 - [Web UI](../topics/web-ui.md) (1)
 
+<a id="repo-betterdb-inc--monitor"></a>
+
 ## [BetterDB Monitor](https://github.com/BetterDB-inc/monitor)
 
 A self-hosted monitoring application for Valkey and Redis that presents real-time activity, slowlog analysis, audit trails, and database metrics.
 
-- **Category:** [DevOps and Cloud](../categories/devops-and-cloud.md)
-- **Topics:** [Observability](../topics/observability.md) | [Databases](../topics/databases.md) | [Web UI](../topics/web-ui.md) | [CLI](../topics/cli.md) | [Self Hosted](../topics/self-hosted.md)
+- **Category:** [DevOps and Cloud](../categories/devops-and-cloud.md#repo-betterdb-inc--monitor)
+- **Topics:** [Observability](../topics/observability.md#repo-betterdb-inc--monitor) | [Databases](../topics/databases.md#repo-betterdb-inc--monitor) | [Web UI](../topics/web-ui.md#repo-betterdb-inc--monitor) | [CLI](../topics/cli.md#repo-betterdb-inc--monitor) | [Self Hosted](../topics/self-hosted.md#repo-betterdb-inc--monitor)
 - **Kind:** Application
 - **Best for:** Operators who need a web interface for a Valkey or Redis instance; Teams that want either an interactive CLI setup or a Docker deployment
 - **Languages:** TypeScript, Python
@@ -43,12 +45,14 @@ A self-hosted monitoring application for Valkey and Redis that presents real-tim
   - Provides a NestJS/Fastify backend and React/Vite frontend
   - Ships an npx-installable CLI with an interactive connection and storage setup wizard
 
+<a id="repo-grafana--docker-otel-lgtm"></a>
+
 ## [docker-otel-lgtm](https://github.com/grafana/docker-otel-lgtm)
 
 A single Docker image that runs an OpenTelemetry backend for local metrics, traces, logs, and profiles by bundling the OpenTelemetry Collector, Prometheus, Tempo, Loki, Pyroscope, and Grafana.
 
-- **Category:** [DevOps and Cloud](../categories/devops-and-cloud.md)
-- **Topics:** [Observability](../topics/observability.md) | [Tracing](../topics/tracing.md) | [Self Hosted](../topics/self-hosted.md) | [Containers](../topics/containers.md) | [DevOps](../topics/devops.md) | [MCP](../topics/mcp.md)
+- **Category:** [DevOps and Cloud](../categories/devops-and-cloud.md#repo-grafana--docker-otel-lgtm)
+- **Topics:** [Observability](../topics/observability.md#repo-grafana--docker-otel-lgtm) | [Tracing](../topics/tracing.md#repo-grafana--docker-otel-lgtm) | [Self Hosted](../topics/self-hosted.md#repo-grafana--docker-otel-lgtm) | [Containers](../topics/containers.md#repo-grafana--docker-otel-lgtm) | [DevOps](../topics/devops.md#repo-grafana--docker-otel-lgtm) | [MCP](../topics/mcp.md#repo-grafana--docker-otel-lgtm)
 - **Kind:** Infrastructure
 - **Best for:** Developers who need a local OpenTelemetry stack for demos, tests, or experimentation; Trying Grafana observability components without configuring each backend separately
 - **Languages:** Shell, Go
@@ -62,12 +66,14 @@ A single Docker image that runs an OpenTelemetry backend for local metrics, trac
   - Accepts OpenTelemetry data at the default OTLP HTTP and gRPC endpoints
   - Offers Grafana dashboards and a web UI for metrics, traces, logs, and profiles
 
+<a id="repo-kestra-io--kestra"></a>
+
 ## [Kestra](https://github.com/kestra-io/kestra)
 
 An open-source, event-driven orchestration platform for declarative YAML workflows across data, AI, infrastructure, and process automation, with a web UI, APIs, scheduling, event triggers, and a plugin ecosystem.
 
-- **Category:** [DevOps and Cloud](../categories/devops-and-cloud.md)
-- **Topics:** [Automation](../topics/automation.md) | [DevOps](../topics/devops.md) | [Cloud](../topics/cloud.md) | [Self Hosted](../topics/self-hosted.md) | [Deployment](../topics/deployment.md) | [Containers](../topics/containers.md) | [Observability](../topics/observability.md)
+- **Category:** [DevOps and Cloud](../categories/devops-and-cloud.md#repo-kestra-io--kestra)
+- **Topics:** [Automation](../topics/automation.md#repo-kestra-io--kestra) | [DevOps](../topics/devops.md#repo-kestra-io--kestra) | [Cloud](../topics/cloud.md#repo-kestra-io--kestra) | [Self Hosted](../topics/self-hosted.md#repo-kestra-io--kestra) | [Deployment](../topics/deployment.md#repo-kestra-io--kestra) | [Containers](../topics/containers.md#repo-kestra-io--kestra) | [Observability](../topics/observability.md#repo-kestra-io--kestra)
 - **Kind:** Service
 - **Best for:** Teams operating scheduled or event-driven data, infrastructure, or AI workflows; Developers who want workflows defined as code but editable and observable in a UI
 - **Languages:** Java
@@ -81,12 +87,14 @@ An open-source, event-driven orchestration platform for declarative YAML workflo
   - Supports scheduled and event-driven execution, including message-bus and cloud triggers
   - Provides a built-in editor, visual topology view, completion, and real-time validation
 
+<a id="repo-microsoft--aspire"></a>
+
 ## [aspire](https://github.com/microsoft/aspire)
 
 A multi-language, code-first toolchain for defining, running, observing, and deploying distributed applications and their connected resources.
 
-- **Category:** [DevOps and Cloud](../categories/devops-and-cloud.md)
-- **Topics:** [Frameworks](../topics/frameworks.md) | [CLI](../topics/cli.md) | [Observability](../topics/observability.md) | [Deployment](../topics/deployment.md) | [Cloud](../topics/cloud.md) | [Containers](../topics/containers.md) | [Developer Productivity](../topics/developer-productivity.md)
+- **Category:** [DevOps and Cloud](../categories/devops-and-cloud.md#repo-microsoft--aspire)
+- **Topics:** [Frameworks](../topics/frameworks.md#repo-microsoft--aspire) | [CLI](../topics/cli.md#repo-microsoft--aspire) | [Observability](../topics/observability.md#repo-microsoft--aspire) | [Deployment](../topics/deployment.md#repo-microsoft--aspire) | [Cloud](../topics/cloud.md#repo-microsoft--aspire) | [Containers](../topics/containers.md#repo-microsoft--aspire) | [Developer Productivity](../topics/developer-productivity.md#repo-microsoft--aspire)
 - **Kind:** Framework
 - **Best for:** Teams developing distributed applications with services and dependent resources; Workflows that need local orchestration and OpenTelemetry-based observability
 - **Languages:** C#, TypeScript
@@ -100,12 +108,14 @@ A multi-language, code-first toolchain for defining, running, observing, and dep
   - CLI that runs the defined application locally
   - OpenTelemetry-based observability
 
+<a id="repo-tma1-ai--tma1"></a>
+
 ## [TMA1](https://github.com/tma1-ai/tma1)
 
 A local-first observability service for LLM agents that records their activity, presents it in a dashboard, and returns operational context through hooks and MCP.
 
-- **Category:** [DevOps and Cloud](../categories/devops-and-cloud.md)
-- **Topics:** [AI Agents](../topics/ai-agents.md) | [Coding Agents](../topics/coding-agents.md) | [Observability](../topics/observability.md) | [Tracing](../topics/tracing.md) | [MCP](../topics/mcp.md) | [Local First](../topics/local-first.md) | [Self Hosted](../topics/self-hosted.md) | [CLI](../topics/cli.md) | [Developer Productivity](../topics/developer-productivity.md)
+- **Category:** [DevOps and Cloud](../categories/devops-and-cloud.md#repo-tma1-ai--tma1)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-tma1-ai--tma1) | [Coding Agents](../topics/coding-agents.md#repo-tma1-ai--tma1) | [Observability](../topics/observability.md#repo-tma1-ai--tma1) | [Tracing](../topics/tracing.md#repo-tma1-ai--tma1) | [MCP](../topics/mcp.md#repo-tma1-ai--tma1) | [Local First](../topics/local-first.md#repo-tma1-ai--tma1) | [Self Hosted](../topics/self-hosted.md#repo-tma1-ai--tma1) | [CLI](../topics/cli.md#repo-tma1-ai--tma1) | [Developer Productivity](../topics/developer-productivity.md#repo-tma1-ai--tma1)
 - **Kind:** Service
 - **Best for:** Developers running Claude Code or Codex who want local agent-loop visibility; Teams or individuals who want failures and session context fed back to coding agents
 - **Languages:** Go, JavaScript

@@ -12,12 +12,14 @@
 - [DevOps and Cloud](../categories/devops-and-cloud.md) (1)
 - [Documentation and Learning](../categories/documentation-and-learning.md) (1)
 
+<a id="repo-babycommando--entity-db"></a>
+
 ## [EntityDB](https://github.com/babycommando/entity-db)
 
 A JavaScript browser library for persisting vector embeddings in IndexedDB and searching them locally, with optional text embedding through Transformers.js and experimental binary-vector query paths.
 
-- **Category:** [Data and Databases](../categories/data-and-databases.md)
-- **Topics:** [Databases](../topics/databases.md) | [Local First](../topics/local-first.md) | [Web](../topics/web.md) | [Machine Learning](../topics/machine-learning.md) | [Performance](../topics/performance.md)
+- **Category:** [Data and Databases](../categories/data-and-databases.md#repo-babycommando--entity-db)
+- **Topics:** [Databases](../topics/databases.md#repo-babycommando--entity-db) | [Local First](../topics/local-first.md#repo-babycommando--entity-db) | [Web](../topics/web.md#repo-babycommando--entity-db) | [Machine Learning](../topics/machine-learning.md#repo-babycommando--entity-db) | [Performance](../topics/performance.md#repo-babycommando--entity-db)
 - **Kind:** Library
 - **Best for:** Browser applications that need local vector storage without a server component; Prototypes or client-side search features that can use Transformers.js embeddings
 - **Languages:** JavaScript, WebAssembly
@@ -31,12 +33,14 @@ A JavaScript browser library for persisting vector embeddings in IndexedDB and s
   - Generates text embeddings with Transformers.js or accepts precomputed vectors
   - Queries dense vectors with cosine similarity
 
+<a id="repo-betterdb-inc--monitor"></a>
+
 ## [BetterDB Monitor](https://github.com/BetterDB-inc/monitor)
 
 A self-hosted monitoring application for Valkey and Redis that presents real-time activity, slowlog analysis, audit trails, and database metrics.
 
-- **Category:** [DevOps and Cloud](../categories/devops-and-cloud.md)
-- **Topics:** [Observability](../topics/observability.md) | [Databases](../topics/databases.md) | [Web UI](../topics/web-ui.md) | [CLI](../topics/cli.md) | [Self Hosted](../topics/self-hosted.md)
+- **Category:** [DevOps and Cloud](../categories/devops-and-cloud.md#repo-betterdb-inc--monitor)
+- **Topics:** [Observability](../topics/observability.md#repo-betterdb-inc--monitor) | [Databases](../topics/databases.md#repo-betterdb-inc--monitor) | [Web UI](../topics/web-ui.md#repo-betterdb-inc--monitor) | [CLI](../topics/cli.md#repo-betterdb-inc--monitor) | [Self Hosted](../topics/self-hosted.md#repo-betterdb-inc--monitor)
 - **Kind:** Application
 - **Best for:** Operators who need a web interface for a Valkey or Redis instance; Teams that want either an interactive CLI setup or a Docker deployment
 - **Languages:** TypeScript, Python
@@ -50,12 +54,14 @@ A self-hosted monitoring application for Valkey and Redis that presents real-tim
   - Provides a NestJS/Fastify backend and React/Vite frontend
   - Ships an npx-installable CLI with an interactive connection and storage setup wizard
 
+<a id="repo-dolthub--dolt"></a>
+
 ## [Dolt](https://github.com/dolthub/dolt)
 
 A Go SQL database that versions tables and schema with Git-like cloning, branching, merging, diffing, commits, and remotes, exposed through both a command-line client and a MySQL-compatible server.
 
-- **Category:** [Data and Databases](../categories/data-and-databases.md)
-- **Topics:** [Databases](../topics/databases.md) | [Git](../topics/git.md) | [CLI](../topics/cli.md) | [Self Hosted](../topics/self-hosted.md) | [Backend Development](../topics/backend-development.md)
+- **Category:** [Data and Databases](../categories/data-and-databases.md#repo-dolthub--dolt)
+- **Topics:** [Databases](../topics/databases.md#repo-dolthub--dolt) | [Git](../topics/git.md#repo-dolthub--dolt) | [CLI](../topics/cli.md#repo-dolthub--dolt) | [Self Hosted](../topics/self-hosted.md#repo-dolthub--dolt) | [Backend Development](../topics/backend-development.md#repo-dolthub--dolt)
 - **Kind:** Service
 - **Best for:** Teams that need versioned data and schema changes alongside SQL workflows; Isolating, comparing, merging, and restoring database changes with Git-like operations
 - **Languages:** Go
@@ -69,12 +75,14 @@ A Go SQL database that versions tables and schema with Git-like cloning, branchi
   - MySQL-compatible server and client interfaces for SQL data and schema access
   - SQL system tables, functions, and stored procedures for version-control operations
 
+<a id="repo-facundoolano--software-papers"></a>
+
 ## [Papers for Software Engineers](https://github.com/facundoolano/software-papers)
 
 A curated, topic-organized reading list of accessible papers for software engineering students and practitioners, spanning programming, design, systems, data, networking, security, operations, and related fields.
 
-- **Category:** [Documentation and Learning](../categories/documentation-and-learning.md)
-- **Topics:** [Curated Lists](../topics/curated-lists.md) | [Reference](../topics/reference.md) | [Developer Productivity](../topics/developer-productivity.md) | [Documentation](../topics/documentation.md) | [Databases](../topics/databases.md) | [Security](../topics/security.md)
+- **Category:** [Documentation and Learning](../categories/documentation-and-learning.md#repo-facundoolano--software-papers)
+- **Topics:** [Curated Lists](../topics/curated-lists.md#repo-facundoolano--software-papers) | [Reference](../topics/reference.md#repo-facundoolano--software-papers) | [Developer Productivity](../topics/developer-productivity.md#repo-facundoolano--software-papers) | [Documentation](../topics/documentation.md#repo-facundoolano--software-papers) | [Databases](../topics/databases.md#repo-facundoolano--software-papers) | [Security](../topics/security.md#repo-facundoolano--software-papers)
 - **Kind:** Curated List
 - **Best for:** Building a guided reading path through influential software-engineering and computer-science papers; Finding concise primary and follow-up reading for a software practice topic
 - **Languages:** Markdown, Python
@@ -88,12 +96,14 @@ A curated, topic-organized reading list of accessible papers for software engine
   - Systems sections for concurrency, operating systems, databases, networking, distributed systems, and operations
   - Additional coverage of cryptography, human-computer interaction, search, machine learning, and decentralized systems
 
+<a id="repo-get-convex--convex-backend"></a>
+
 ## [Convex](https://github.com/get-convex/convex-backend)
 
 A reactive database and application backend that combines strongly consistent TypeScript server functions with client libraries for dynamic, live-updating applications.
 
-- **Category:** [Data and Databases](../categories/data-and-databases.md)
-- **Topics:** [Databases](../topics/databases.md) | [Backend Development](../topics/backend-development.md) | [Realtime](../topics/realtime.md) | [Self Hosted](../topics/self-hosted.md) | [Open Source](../topics/open-source.md) | [Deployment](../topics/deployment.md)
+- **Category:** [Data and Databases](../categories/data-and-databases.md#repo-get-convex--convex-backend)
+- **Topics:** [Databases](../topics/databases.md#repo-get-convex--convex-backend) | [Backend Development](../topics/backend-development.md#repo-get-convex--convex-backend) | [Realtime](../topics/realtime.md#repo-get-convex--convex-backend) | [Self Hosted](../topics/self-hosted.md#repo-get-convex--convex-backend) | [Open Source](../topics/open-source.md#repo-get-convex--convex-backend) | [Deployment](../topics/deployment.md#repo-get-convex--convex-backend)
 - **Kind:** Service
 - **Best for:** Teams building a reactive web application with TypeScript server logic; Operators who need an available self-hosted Convex backend
 - **Languages:** Rust, TypeScript
@@ -107,12 +117,14 @@ A reactive database and application backend that combines strongly consistent Ty
   - Client libraries for dynamic live-updating applications
   - Self-hosted dashboard and CLI alongside the backend
 
+<a id="repo-mempalace--mempalace"></a>
+
 ## [MemPalace](https://github.com/MemPalace/mempalace)
 
 A local-first, Python-based memory tool that mines project files and AI conversations into verbatim searchable storage, exposes a CLI and MCP server, and organizes scoped memories with pluggable retrieval backends.
 
-- **Category:** [AI and Automation](../categories/ai-and-automation.md)
-- **Topics:** [AI Agents](../topics/ai-agents.md) | [Agent Memory](../topics/agent-memory.md) | [MCP](../topics/mcp.md) | [CLI](../topics/cli.md) | [Local First](../topics/local-first.md) | [Self Hosted](../topics/self-hosted.md) | [Databases](../topics/databases.md)
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-mempalace--mempalace)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-mempalace--mempalace) | [Agent Memory](../topics/agent-memory.md#repo-mempalace--mempalace) | [MCP](../topics/mcp.md#repo-mempalace--mempalace) | [CLI](../topics/cli.md#repo-mempalace--mempalace) | [Local First](../topics/local-first.md#repo-mempalace--mempalace) | [Self Hosted](../topics/self-hosted.md#repo-mempalace--mempalace) | [Databases](../topics/databases.md#repo-mempalace--mempalace)
 - **Kind:** Application
 - **Best for:** Retaining and retrieving local coding-agent or conversation context without a required cloud API; Developers who want searchable project and transcript memory with scoped storage boundaries
 - **Languages:** Python
@@ -126,12 +138,14 @@ A local-first, Python-based memory tool that mines project files and AI conversa
   - CLI commands to mine sources, search memories, and load context for a new session
   - MCP server with tools for memory, graph, navigation, drawer, and agent-diary operations
 
+<a id="repo-t3-oss--create-t3-app"></a>
+
 ## [create-t3-app](https://github.com/t3-oss/create-t3-app)
 
 An interactive CLI that scaffolds modular, type-safe full-stack Next.js applications from a selectable T3 Stack configuration.
 
-- **Category:** [Developer Tools](../categories/developer-tools.md)
-- **Topics:** [CLI](../topics/cli.md) | [Web](../topics/web.md) | [Starter Templates](../topics/starter-templates.md) | [Frontend Development](../topics/frontend-development.md) | [Backend Development](../topics/backend-development.md) | [Authentication](../topics/authentication.md) | [Databases](../topics/databases.md) | [Developer Productivity](../topics/developer-productivity.md)
+- **Category:** [Developer Tools](../categories/developer-tools.md#repo-t3-oss--create-t3-app)
+- **Topics:** [CLI](../topics/cli.md#repo-t3-oss--create-t3-app) | [Web](../topics/web.md#repo-t3-oss--create-t3-app) | [Starter Templates](../topics/starter-templates.md#repo-t3-oss--create-t3-app) | [Frontend Development](../topics/frontend-development.md#repo-t3-oss--create-t3-app) | [Backend Development](../topics/backend-development.md#repo-t3-oss--create-t3-app) | [Authentication](../topics/authentication.md#repo-t3-oss--create-t3-app) | [Databases](../topics/databases.md#repo-t3-oss--create-t3-app) | [Developer Productivity](../topics/developer-productivity.md#repo-t3-oss--create-t3-app)
 - **Kind:** CLI
 - **Best for:** Starting a TypeScript-based Next.js application with common full-stack components; Teams that want a maintained baseline rather than assembling the stack manually
 - **Languages:** TypeScript

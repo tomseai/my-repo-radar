@@ -70,12 +70,14 @@
 - [Web UI](../topics/web-ui.md) (15)
 - [Worktrees](../topics/worktrees.md) (8)
 
+<a id="repo-adithya-s-k--gitvizz"></a>
+
 ## [GitVizz](https://github.com/adithya-s-k/GitVizz)
 
 A web application for exploring GitHub repositories through dependency graphs, code navigation, LLM-assisted repository chat, and generated documentation.
 
-- **Category:** [Developer Tools](../categories/developer-tools.md)
-- **Topics:** [Git](../topics/git.md) | [Codebase Indexing](../topics/codebase-indexing.md) | [Codebase Search](../topics/codebase-search.md) | [Visualization](../topics/visualization.md) | [LLMs](../topics/llms.md) | [Web UI](../topics/web-ui.md) | [Observability](../topics/observability.md)
+- **Category:** [Developer Tools](../categories/developer-tools.md#repo-adithya-s-k--gitvizz)
+- **Topics:** [Git](../topics/git.md#repo-adithya-s-k--gitvizz) | [Codebase Indexing](../topics/codebase-indexing.md#repo-adithya-s-k--gitvizz) | [Codebase Search](../topics/codebase-search.md#repo-adithya-s-k--gitvizz) | [Visualization](../topics/visualization.md#repo-adithya-s-k--gitvizz) | [LLMs](../topics/llms.md#repo-adithya-s-k--gitvizz) | [Web UI](../topics/web-ui.md#repo-adithya-s-k--gitvizz) | [Observability](../topics/observability.md#repo-adithya-s-k--gitvizz)
 - **Kind:** Application
 - **Best for:** Developers onboarding to, reviewing, or investigating an unfamiliar GitHub codebase; Teams that want visual code relationships and LLM context-building alongside a repository browser
 - **Languages:** TypeScript, Python
@@ -89,12 +91,14 @@ A web application for exploring GitHub repositories through dependency graphs, c
   - Context-aware repository chat backed by configurable LLM providers
   - LLM context builder and automatic documentation generation for repository analysis
 
+<a id="repo-ahmedkhaleel2004--gitdiagram"></a>
+
 ## [GitDiagram](https://github.com/ahmedkhaleel2004/gitdiagram)
 
 A web application that turns public or authorized private GitHub repositories into validated, interactive system-level architecture diagrams and Mermaid exports.
 
-- **Category:** [Developer Tools](../categories/developer-tools.md)
-- **Topics:** [GitHub](../topics/github.md) | [LLMs](../topics/llms.md) | [Web UI](../topics/web-ui.md) | [Visualization](../topics/visualization.md)
+- **Category:** [Developer Tools](../categories/developer-tools.md#repo-ahmedkhaleel2004--gitdiagram)
+- **Topics:** [GitHub](../topics/github.md#repo-ahmedkhaleel2004--gitdiagram) | [LLMs](../topics/llms.md#repo-ahmedkhaleel2004--gitdiagram) | [Web UI](../topics/web-ui.md#repo-ahmedkhaleel2004--gitdiagram) | [Visualization](../topics/visualization.md#repo-ahmedkhaleel2004--gitdiagram)
 - **Kind:** Application
 - **Best for:** Exploring an unfamiliar GitHub repository through a linked architecture view; Sharing a generated system diagram before reading a codebase in depth
 - **Languages:** TypeScript
@@ -108,12 +112,14 @@ A web application that turns public or authorized private GitHub repositories in
   - Links rendered components to their corresponding GitHub files or directories
   - Streams an architecture explanation and graph-generation progress
 
+<a id="repo-benjitaylor--agentation"></a>
+
 ## [Agentation](https://github.com/benjitaylor/agentation)
 
 A React visual-feedback library that lets users annotate page elements and copy structured selectors, positions, and context for AI coding agents.
 
-- **Category:** [Developer Tools](../categories/developer-tools.md)
-- **Topics:** [Coding Agents](../topics/coding-agents.md) | [Frontend Development](../topics/frontend-development.md) | [MCP](../topics/mcp.md) | [Web UI](../topics/web-ui.md)
+- **Category:** [Developer Tools](../categories/developer-tools.md#repo-benjitaylor--agentation)
+- **Topics:** [Coding Agents](../topics/coding-agents.md#repo-benjitaylor--agentation) | [Frontend Development](../topics/frontend-development.md#repo-benjitaylor--agentation) | [MCP](../topics/mcp.md#repo-benjitaylor--agentation) | [Web UI](../topics/web-ui.md#repo-benjitaylor--agentation)
 - **Kind:** Library
 - **Best for:** React teams giving precise visual feedback to an AI coding agent; Turning UI review notes into references that can be located in source code
 - **Languages:** TypeScript
@@ -127,12 +133,14 @@ A React visual-feedback library that lets users annotate page elements and copy 
   - Text, multi-element, and arbitrary-area annotations
   - Animation pausing to capture a specific interface state
 
+<a id="repo-boundaryml--baml"></a>
+
 ## [BAML](https://github.com/BoundaryML/baml)
 
 A statically typed programming language and toolchain for defining reliable agent and LLM programs, with runtime-preserved types, analyzed errors, filesystem modules, standalone execution, and generated clients for multiple host languages.
 
-- **Category:** [Developer Tools](../categories/developer-tools.md)
-- **Topics:** [AI Agents](../topics/ai-agents.md) | [LLMs](../topics/llms.md) | [Code Generation](../topics/code-generation.md) | [API Development](../topics/api-development.md) | [CLI](../topics/cli.md) | [Developer Productivity](../topics/developer-productivity.md) | [Libraries](../topics/libraries.md)
+- **Category:** [Developer Tools](../categories/developer-tools.md#repo-boundaryml--baml)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-boundaryml--baml) | [LLMs](../topics/llms.md#repo-boundaryml--baml) | [Code Generation](../topics/code-generation.md#repo-boundaryml--baml) | [API Development](../topics/api-development.md#repo-boundaryml--baml) | [CLI](../topics/cli.md#repo-boundaryml--baml) | [Developer Productivity](../topics/developer-productivity.md#repo-boundaryml--baml) | [Libraries](../topics/libraries.md#repo-boundaryml--baml)
 - **Kind:** Other
 - **Best for:** Teams that want typed, versionable LLM and agent definitions outside application code; Polyglot projects that need one agent schema callable from Python, TypeScript, Go, or other hosts
 - **Languages:** Rust, TypeScript, Go
@@ -146,12 +154,14 @@ A statically typed programming language and toolchain for defining reliable agen
   - Preserves types at runtime and statically analyzes typed errors
   - Organizes modules and namespaces through the filesystem
 
+<a id="repo-burntsushi--ripgrep"></a>
+
 ## [ripgrep](https://github.com/BurntSushi/ripgrep)
 
 A Rust command-line search tool that recursively searches files with regular expressions, observes ignore rules by default, and ships precompiled binaries for Windows, macOS, and Linux.
 
-- **Category:** [Developer Tools](../categories/developer-tools.md)
-- **Topics:** [CLI](../topics/cli.md) | [Git](../topics/git.md) | [Search](../topics/search.md) | [Performance](../topics/performance.md) | [Developer Productivity](../topics/developer-productivity.md)
+- **Category:** [Developer Tools](../categories/developer-tools.md#repo-burntsushi--ripgrep)
+- **Topics:** [CLI](../topics/cli.md#repo-burntsushi--ripgrep) | [Git](../topics/git.md#repo-burntsushi--ripgrep) | [Search](../topics/search.md#repo-burntsushi--ripgrep) | [Performance](../topics/performance.md#repo-burntsushi--ripgrep) | [Developer Productivity](../topics/developer-productivity.md#repo-burntsushi--ripgrep)
 - **Kind:** CLI
 - **Best for:** Searching source trees from the terminal; Code-oriented workflows that need gitignore-aware file filtering
 - **Languages:** Rust
@@ -165,12 +175,14 @@ A Rust command-line search tool that recursively searches files with regular exp
   - File-type filters and user-defined file-type rules
   - Unicode-aware search, match context, multiple patterns, and colorized output
 
+<a id="repo-ccusage--ccusage"></a>
+
 ## [ccusage](https://github.com/ccusage/ccusage)
 
 A local CLI that reads supported coding-agent usage logs and reports token counts, estimated costs, models, and sessions across multiple agents.
 
-- **Category:** [Developer Tools](../categories/developer-tools.md)
-- **Topics:** [CLI](../topics/cli.md) | [Coding Agents](../topics/coding-agents.md) | [Token Usage](../topics/token-usage.md) | [Cost Management](../topics/cost-management.md) | [Local First](../topics/local-first.md) | [Observability](../topics/observability.md)
+- **Category:** [Developer Tools](../categories/developer-tools.md#repo-ccusage--ccusage)
+- **Topics:** [CLI](../topics/cli.md#repo-ccusage--ccusage) | [Coding Agents](../topics/coding-agents.md#repo-ccusage--ccusage) | [Token Usage](../topics/token-usage.md#repo-ccusage--ccusage) | [Cost Management](../topics/cost-management.md#repo-ccusage--ccusage) | [Local First](../topics/local-first.md#repo-ccusage--ccusage) | [Observability](../topics/observability.md#repo-ccusage--ccusage)
 - **Kind:** CLI
 - **Best for:** Developers comparing local usage across supported coding-agent CLIs; Exporting token and estimated-cost reports for personal analysis or automation
 - **Languages:** Rust, TypeScript
@@ -184,12 +196,14 @@ A local CLI that reads supported coding-agent usage logs and reports token count
   - Source-specific daily, weekly, monthly, and session reports
   - Token, cache-token, model, and estimated USD-cost reporting
 
+<a id="repo-chromedevtools--chrome-devtools-mcp"></a>
+
 ## [Chrome DevTools for agents](https://github.com/ChromeDevTools/chrome-devtools-mcp)
 
 An MCP server and command-line tool that lets coding agents control and inspect a live Chrome browser for automation, debugging, and performance analysis.
 
-- **Category:** [Developer Tools](../categories/developer-tools.md)
-- **Topics:** [MCP](../topics/mcp.md) | [Coding Agents](../topics/coding-agents.md) | [Browser Automation](../topics/browser-automation.md) | [Debugging](../topics/debugging.md) | [Performance](../topics/performance.md) | [CLI](../topics/cli.md)
+- **Category:** [Developer Tools](../categories/developer-tools.md#repo-chromedevtools--chrome-devtools-mcp)
+- **Topics:** [MCP](../topics/mcp.md#repo-chromedevtools--chrome-devtools-mcp) | [Coding Agents](../topics/coding-agents.md#repo-chromedevtools--chrome-devtools-mcp) | [Browser Automation](../topics/browser-automation.md#repo-chromedevtools--chrome-devtools-mcp) | [Debugging](../topics/debugging.md#repo-chromedevtools--chrome-devtools-mcp) | [Performance](../topics/performance.md#repo-chromedevtools--chrome-devtools-mcp) | [CLI](../topics/cli.md#repo-chromedevtools--chrome-devtools-mcp)
 - **Kind:** Service
 - **Best for:** Coding-agent workflows that need browser inspection and debugging; Developers investigating browser network, console, and performance issues
 - **Languages:** TypeScript, JavaScript
@@ -203,12 +217,14 @@ An MCP server and command-line tool that lets coding agents control and inspect 
   - Automates Chrome actions with Puppeteer and waits for action results
   - Inspects network requests, console messages, and screenshots
 
+<a id="repo-cloakhq--cloakbrowser"></a>
+
 ## [CloakBrowser](https://github.com/CloakHQ/CloakBrowser)
 
 Python and JavaScript wrappers that launch a custom Chromium binary through Playwright or Puppeteer-compatible APIs, with fingerprint-oriented browser modifications and optional humanized input behavior.
 
-- **Category:** [Developer Tools](../categories/developer-tools.md)
-- **Topics:** [Browser Automation](../topics/browser-automation.md) | [Web Scraping](../topics/web-scraping.md) | [CLI](../topics/cli.md) | [Testing](../topics/testing.md) | [Containers](../topics/containers.md)
+- **Category:** [Developer Tools](../categories/developer-tools.md#repo-cloakhq--cloakbrowser)
+- **Topics:** [Browser Automation](../topics/browser-automation.md#repo-cloakhq--cloakbrowser) | [Web Scraping](../topics/web-scraping.md#repo-cloakhq--cloakbrowser) | [CLI](../topics/cli.md#repo-cloakhq--cloakbrowser) | [Testing](../topics/testing.md#repo-cloakhq--cloakbrowser) | [Containers](../topics/containers.md#repo-cloakhq--cloakbrowser)
 - **Kind:** Library
 - **Best for:** Developers adapting existing Playwright or Puppeteer automation; Browser-automation workflows that need custom Chromium builds and proxy-aware settings
 - **Languages:** Python, TypeScript, C++
@@ -222,12 +238,14 @@ Python and JavaScript wrappers that launch a custom Chromium binary through Play
   - Downloads and caches a platform-specific custom Chromium binary on first launch
   - Supports proxy, timezone, locale, persistent-profile, and extension-path options
 
+<a id="repo-codeboarding--codeboarding"></a>
+
 ## [CodeBoarding](https://github.com/CodeBoarding/CodeBoarding)
 
 A codebase-analysis tool that combines static analysis and LLM reasoning to produce architecture diagrams, component documentation, and incremental updates in a repository's .codeboarding directory.
 
-- **Category:** [Developer Tools](../categories/developer-tools.md)
-- **Topics:** [Developer Productivity](../topics/developer-productivity.md) | [Visualization](../topics/visualization.md) | [Documentation](../topics/documentation.md) | [CLI](../topics/cli.md) | [LLMs](../topics/llms.md) | [Multi Provider](../topics/multi-provider.md)
+- **Category:** [Developer Tools](../categories/developer-tools.md#repo-codeboarding--codeboarding)
+- **Topics:** [Developer Productivity](../topics/developer-productivity.md#repo-codeboarding--codeboarding) | [Visualization](../topics/visualization.md#repo-codeboarding--codeboarding) | [Documentation](../topics/documentation.md#repo-codeboarding--codeboarding) | [CLI](../topics/cli.md#repo-codeboarding--codeboarding) | [LLMs](../topics/llms.md#repo-codeboarding--codeboarding) | [Multi Provider](../topics/multi-provider.md#repo-codeboarding--codeboarding)
 - **Kind:** CLI
 - **Best for:** Developers and coding agents building a shared map of a codebase; Teams that want architecture diagrams and documentation in local, IDE, or CI workflows
 - **Languages:** Python
@@ -241,12 +259,14 @@ A codebase-analysis tool that combines static analysis and LLM reasoning to prod
   - Writes Markdown documentation and analysis output under .codeboarding
   - Uses static analysis, language servers, and LLM interpretation for architectural insights
 
+<a id="repo-coderamp-labs--gitingest"></a>
+
 ## [gitingest](https://github.com/coderamp-labs/gitingest)
 
 A Python CLI and library that converts local or GitHub-hosted Git repositories into prompt-friendly text digests for LLM workflows.
 
-- **Category:** [Developer Tools](../categories/developer-tools.md)
-- **Topics:** [LLMs](../topics/llms.md) | [CLI](../topics/cli.md) | [Git](../topics/git.md) | [Document Processing](../topics/document-processing.md) | [Self Hosted](../topics/self-hosted.md)
+- **Category:** [Developer Tools](../categories/developer-tools.md#repo-coderamp-labs--gitingest)
+- **Topics:** [LLMs](../topics/llms.md#repo-coderamp-labs--gitingest) | [CLI](../topics/cli.md#repo-coderamp-labs--gitingest) | [Git](../topics/git.md#repo-coderamp-labs--gitingest) | [Document Processing](../topics/document-processing.md#repo-coderamp-labs--gitingest) | [Self Hosted](../topics/self-hosted.md#repo-coderamp-labs--gitingest)
 - **Kind:** CLI
 - **Best for:** Preparing repository context for an LLM prompt; Generating a text digest from a local directory or GitHub URL
 - **Languages:** Python
@@ -260,12 +280,14 @@ A Python CLI and library that converts local or GitHub-hosted Git repositories i
   - Accepts local directories, GitHub repository URLs, and repository subdirectories
   - Provides a CLI and importable synchronous and asynchronous Python APIs
 
+<a id="repo-coly010--ng-rspack-build"></a>
+
 ## [ng-rspack-build](https://github.com/Coly010/ng-rspack-build)
 
 A moved monorepo of Angular build packages that integrate Rsbuild and Rspack, including an Rsbuild plugin, Rspack builders, and Nx plugins.
 
-- **Category:** [Developer Tools](../categories/developer-tools.md)
-- **Topics:** [Frontend Development](../topics/frontend-development.md) | [Frameworks](../topics/frameworks.md) | [Libraries](../topics/libraries.md) | [Performance](../topics/performance.md)
+- **Category:** [Developer Tools](../categories/developer-tools.md#repo-coly010--ng-rspack-build)
+- **Topics:** [Frontend Development](../topics/frontend-development.md#repo-coly010--ng-rspack-build) | [Frameworks](../topics/frameworks.md#repo-coly010--ng-rspack-build) | [Libraries](../topics/libraries.md#repo-coly010--ng-rspack-build) | [Performance](../topics/performance.md#repo-coly010--ng-rspack-build)
 - **Kind:** Monorepo
 - **Best for:** Evaluating the historical Angular integration before following its successor repository; Angular and Nx projects experimenting with Rsbuild or Rspack build tooling
 - **Languages:** TypeScript, JavaScript
@@ -279,12 +301,14 @@ A moved monorepo of Angular build packages that integrate Rsbuild and Rspack, in
   - Rspack build and compiler packages for Angular applications
   - Nx generators and executors for Rspack-based Angular applications
 
+<a id="repo-conwnet--github1s"></a>
+
 ## [github1s](https://github.com/conwnet/github1s)
 
 A browser-based, VS Code-style interface for browsing GitHub repositories by replacing github.com with github1s.com in a repository URL.
 
-- **Category:** [Developer Tools](../categories/developer-tools.md)
-- **Topics:** [GitHub](../topics/github.md) | [Web](../topics/web.md) | [Web UI](../topics/web-ui.md) | [Codebase Search](../topics/codebase-search.md) | [Developer Productivity](../topics/developer-productivity.md)
+- **Category:** [Developer Tools](../categories/developer-tools.md#repo-conwnet--github1s)
+- **Topics:** [GitHub](../topics/github.md#repo-conwnet--github1s) | [Web](../topics/web.md#repo-conwnet--github1s) | [Web UI](../topics/web-ui.md#repo-conwnet--github1s) | [Codebase Search](../topics/codebase-search.md#repo-conwnet--github1s) | [Developer Productivity](../topics/developer-productivity.md#repo-conwnet--github1s)
 - **Kind:** Application
 - **Best for:** Quickly reading a public GitHub repository in a VS Code-style interface; Browsing private repositories with a user-supplied GitHub OAuth token
 - **Languages:** TypeScript, JavaScript
@@ -298,12 +322,14 @@ A browser-based, VS Code-style interface for browsing GitHub repositories by rep
   - Uses a VS Code web build and a FileSystemProvider backed by GitHub APIs
   - Supports GitHub, GitLab, and npmjs URL variants
 
+<a id="repo-deusdata--codebase-memory-mcp"></a>
+
 ## [codebase-memory-mcp](https://github.com/DeusData/codebase-memory-mcp)
 
 A local MCP code-intelligence server and CLI that indexes repositories into persistent SQLite knowledge graphs for structural codebase queries.
 
-- **Category:** [Developer Tools](../categories/developer-tools.md)
-- **Topics:** [AI Agents](../topics/ai-agents.md) | [Coding Agents](../topics/coding-agents.md) | [MCP](../topics/mcp.md) | [Codebase Indexing](../topics/codebase-indexing.md) | [Codebase Search](../topics/codebase-search.md) | [Agent Memory](../topics/agent-memory.md) | [Local First](../topics/local-first.md) | [Visualization](../topics/visualization.md)
+- **Category:** [Developer Tools](../categories/developer-tools.md#repo-deusdata--codebase-memory-mcp)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-deusdata--codebase-memory-mcp) | [Coding Agents](../topics/coding-agents.md#repo-deusdata--codebase-memory-mcp) | [MCP](../topics/mcp.md#repo-deusdata--codebase-memory-mcp) | [Codebase Indexing](../topics/codebase-indexing.md#repo-deusdata--codebase-memory-mcp) | [Codebase Search](../topics/codebase-search.md#repo-deusdata--codebase-memory-mcp) | [Agent Memory](../topics/agent-memory.md#repo-deusdata--codebase-memory-mcp) | [Local First](../topics/local-first.md#repo-deusdata--codebase-memory-mcp) | [Visualization](../topics/visualization.md#repo-deusdata--codebase-memory-mcp)
 - **Kind:** Service
 - **Best for:** Giving MCP-compatible coding agents structural repository context; Exploring architecture, call paths, search results, and change impact
 - **Languages:** C, TypeScript
@@ -317,12 +343,14 @@ A local MCP code-intelligence server and CLI that indexes repositories into pers
   - Exposes MCP tools for architecture, graph search, call paths, impact, and dead-code queries
   - Provides full-text, structural, semantic, and code-search capabilities
 
+<a id="repo-gastownhall--beads"></a>
+
 ## [Beads](https://github.com/gastownhall/beads)
 
 A distributed, dependency-aware issue tracker and persistent memory system for coding agents, backed by the version-controlled SQL database Dolt.
 
-- **Category:** [Developer Tools](../categories/developer-tools.md)
-- **Topics:** [Coding Agents](../topics/coding-agents.md) | [Agent Memory](../topics/agent-memory.md) | [Task Planning](../topics/task-planning.md) | [CLI](../topics/cli.md) | [MCP](../topics/mcp.md) | [Developer Productivity](../topics/developer-productivity.md)
+- **Category:** [Developer Tools](../categories/developer-tools.md#repo-gastownhall--beads)
+- **Topics:** [Coding Agents](../topics/coding-agents.md#repo-gastownhall--beads) | [Agent Memory](../topics/agent-memory.md#repo-gastownhall--beads) | [Task Planning](../topics/task-planning.md#repo-gastownhall--beads) | [CLI](../topics/cli.md#repo-gastownhall--beads) | [MCP](../topics/mcp.md#repo-gastownhall--beads) | [Developer Productivity](../topics/developer-productivity.md#repo-gastownhall--beads)
 - **Kind:** CLI
 - **Best for:** Coding-agent workflows that need durable, claimable tasks instead of Markdown plans; Teams coordinating dependent work across branches, worktrees, or machines
 - **Languages:** Go
@@ -336,12 +364,14 @@ A distributed, dependency-aware issue tracker and persistent memory system for c
   - Atomic task claiming, JSON output, and agent-oriented workflow guidance
   - Content-derived issue IDs designed to avoid collisions across concurrent work
 
+<a id="repo-getagentseal--codeburn"></a>
+
 ## [CodeBurn](https://github.com/getagentseal/codeburn)
 
 A local-first CLI and set of dashboards that reads AI coding-tool session data from disk to report token use and estimated cost by task, model, tool, and project.
 
-- **Category:** [Developer Tools](../categories/developer-tools.md)
-- **Topics:** [Coding Agents](../topics/coding-agents.md) | [CLI](../topics/cli.md) | [TUI](../topics/tui.md) | [Web UI](../topics/web-ui.md) | [Desktop App](../topics/desktop-app.md) | [Local First](../topics/local-first.md) | [Observability](../topics/observability.md) | [Token Usage](../topics/token-usage.md) | [Cost Management](../topics/cost-management.md) | [MCP](../topics/mcp.md)
+- **Category:** [Developer Tools](../categories/developer-tools.md#repo-getagentseal--codeburn)
+- **Topics:** [Coding Agents](../topics/coding-agents.md#repo-getagentseal--codeburn) | [CLI](../topics/cli.md#repo-getagentseal--codeburn) | [TUI](../topics/tui.md#repo-getagentseal--codeburn) | [Web UI](../topics/web-ui.md#repo-getagentseal--codeburn) | [Desktop App](../topics/desktop-app.md#repo-getagentseal--codeburn) | [Local First](../topics/local-first.md#repo-getagentseal--codeburn) | [Observability](../topics/observability.md#repo-getagentseal--codeburn) | [Token Usage](../topics/token-usage.md#repo-getagentseal--codeburn) | [Cost Management](../topics/cost-management.md#repo-getagentseal--codeburn) | [MCP](../topics/mcp.md#repo-getagentseal--codeburn)
 - **Kind:** CLI
 - **Best for:** Developers comparing AI coding-agent spend across local tools and models; Teams seeking local reports and budget-analysis tools without a request proxy
 - **Languages:** TypeScript, Swift
@@ -355,12 +385,14 @@ A local-first CLI and set of dashboards that reads AI coding-tool session data f
   - Provides an interactive terminal dashboard, reports, JSON output, and a localhost web dashboard
   - Breaks down usage by task, model, tool, project, date range, and token category
 
+<a id="repo-gitbutlerapp--gitbutler"></a>
+
 ## [GitButler](https://github.com/gitbutlerapp/gitbutler)
 
 A desktop Git client and CLI for stacked and parallel branches, direct commit editing, conflict handling, undo, forge integration, and agent-assisted development.
 
-- **Category:** [Developer Tools](../categories/developer-tools.md)
-- **Topics:** [Git](../topics/git.md) | [CLI](../topics/cli.md) | [Desktop App](../topics/desktop-app.md) | [Developer Productivity](../topics/developer-productivity.md) | [Code Review](../topics/code-review.md) | [Pull Requests](../topics/pull-requests.md)
+- **Category:** [Developer Tools](../categories/developer-tools.md#repo-gitbutlerapp--gitbutler)
+- **Topics:** [Git](../topics/git.md#repo-gitbutlerapp--gitbutler) | [CLI](../topics/cli.md#repo-gitbutlerapp--gitbutler) | [Desktop App](../topics/desktop-app.md#repo-gitbutlerapp--gitbutler) | [Developer Productivity](../topics/developer-productivity.md#repo-gitbutlerapp--gitbutler) | [Code Review](../topics/code-review.md#repo-gitbutlerapp--gitbutler) | [Pull Requests](../topics/pull-requests.md#repo-gitbutlerapp--gitbutler)
 - **Kind:** Application
 - **Best for:** Developers working with stacked pull requests; Managing several simultaneous branches or agent-produced changes
 - **Languages:** Rust, TypeScript, Svelte
@@ -374,12 +406,14 @@ A desktop Git client and CLI for stacked and parallel branches, direct commit ed
   - Visual commit editing, splitting, moving, squashing, and rewording
   - Operation history with undo and recovery
 
+<a id="repo-githubnext--vitale"></a>
+
 ## [Vitale](https://github.com/githubnext/vitale)
 
 An archived VS Code notebook extension and companion Node.js package for TypeScript projects, providing dependency-aware cells, Node-based execution, rich outputs, and Vite-powered React component rendering.
 
-- **Category:** [Developer Tools](../categories/developer-tools.md)
-- **Topics:** [Desktop App](../topics/desktop-app.md) | [Developer Productivity](../topics/developer-productivity.md) | [Frontend Development](../topics/frontend-development.md) | [Libraries](../topics/libraries.md)
+- **Category:** [Developer Tools](../categories/developer-tools.md#repo-githubnext--vitale)
+- **Topics:** [Desktop App](../topics/desktop-app.md#repo-githubnext--vitale) | [Developer Productivity](../topics/developer-productivity.md#repo-githubnext--vitale) | [Frontend Development](../topics/frontend-development.md#repo-githubnext--vitale) | [Libraries](../topics/libraries.md#repo-githubnext--vitale)
 - **Kind:** Plugin
 - **Best for:** Developers exploring TypeScript code and project modules in VS Code notebooks; Existing users who need to inspect or maintain a matching historical Vitale setup
 - **Languages:** TypeScript
@@ -393,12 +427,14 @@ An archived VS Code notebook extension and companion Node.js package for TypeScr
   - Automatic re-execution of dependent cells and imported project files
   - Node.js server-side execution with asynchronous iterable and promise output handling
 
+<a id="repo-graphify-labs--graphify"></a>
+
 ## [graphify](https://github.com/Graphify-Labs/graphify)
 
 A Python CLI and coding-assistant skill that maps code and selected project materials into a traversable knowledge graph, then supports focused query, path, explanation, report, and visual-graph workflows over that output.
 
-- **Category:** [Developer Tools](../categories/developer-tools.md)
-- **Topics:** [Coding Agents](../topics/coding-agents.md) | [Agent Skills](../topics/agent-skills.md) | [CLI](../topics/cli.md) | [Codebase Indexing](../topics/codebase-indexing.md) | [Codebase Search](../topics/codebase-search.md) | [Visualization](../topics/visualization.md) | [Local First](../topics/local-first.md)
+- **Category:** [Developer Tools](../categories/developer-tools.md#repo-graphify-labs--graphify)
+- **Topics:** [Coding Agents](../topics/coding-agents.md#repo-graphify-labs--graphify) | [Agent Skills](../topics/agent-skills.md#repo-graphify-labs--graphify) | [CLI](../topics/cli.md#repo-graphify-labs--graphify) | [Codebase Indexing](../topics/codebase-indexing.md#repo-graphify-labs--graphify) | [Codebase Search](../topics/codebase-search.md#repo-graphify-labs--graphify) | [Visualization](../topics/visualization.md#repo-graphify-labs--graphify) | [Local First](../topics/local-first.md#repo-graphify-labs--graphify)
 - **Kind:** CLI
 - **Best for:** Developers orienting coding agents in a medium or large codebase; Teams that need code, schema, and supporting-document relationships in one graph
 - **Languages:** Python
@@ -412,12 +448,14 @@ A Python CLI and coding-assistant skill that maps code and selected project mate
   - Produces graph.json, GRAPH_REPORT.md, and an interactive graph.html view
   - Queries, explains, and traces shortest paths between graph concepts
 
+<a id="repo-humanlayer--humanlayer"></a>
+
 ## [HumanLayer](https://github.com/humanlayer/humanlayer)
 
 A HumanLayer repository whose root README says it is now a public issues tracker and that nearly all code is deprecated, while retaining legacy CodeLayer, SDK, and human-approval workflow material.
 
-- **Category:** [Developer Tools](../categories/developer-tools.md)
-- **Topics:** [AI Agents](../topics/ai-agents.md) | [Coding Agents](../topics/coding-agents.md) | [CLI](../topics/cli.md) | [Desktop App](../topics/desktop-app.md) | [Developer Productivity](../topics/developer-productivity.md) | [Open Source](../topics/open-source.md)
+- **Category:** [Developer Tools](../categories/developer-tools.md#repo-humanlayer--humanlayer)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-humanlayer--humanlayer) | [Coding Agents](../topics/coding-agents.md#repo-humanlayer--humanlayer) | [CLI](../topics/cli.md#repo-humanlayer--humanlayer) | [Desktop App](../topics/desktop-app.md#repo-humanlayer--humanlayer) | [Developer Productivity](../topics/developer-productivity.md#repo-humanlayer--humanlayer) | [Open Source](../topics/open-source.md#repo-humanlayer--humanlayer)
 - **Kind:** Monorepo
 - **Best for:** Tracking issues or examining the retained legacy HumanLayer implementation; Understanding the older CodeLayer and human-in-the-loop agent workflow
 - **Languages:** TypeScript, Go, Rust
@@ -431,12 +469,14 @@ A HumanLayer repository whose root README says it is now a public issues tracker
   - Retained CodeLayer documentation describes a macOS desktop coding-agent interface
   - Retained TypeScript documentation demonstrates approval-gated OpenAI tool calls
 
+<a id="repo-liaohch3--claude-tap"></a>
+
 ## [claude-tap](https://github.com/liaohch3/claude-tap)
 
 A local proxy and trace viewer for inspecting coding-agent API traffic, including agent context, tool calls, streaming responses, token use, and request differences.
 
-- **Category:** [Developer Tools](../categories/developer-tools.md)
-- **Topics:** [AI Agents](../topics/ai-agents.md) | [Coding Agents](../topics/coding-agents.md) | [LLMs](../topics/llms.md) | [Observability](../topics/observability.md) | [CLI](../topics/cli.md) | [Tracing](../topics/tracing.md) | [Developer Productivity](../topics/developer-productivity.md)
+- **Category:** [Developer Tools](../categories/developer-tools.md#repo-liaohch3--claude-tap)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-liaohch3--claude-tap) | [Coding Agents](../topics/coding-agents.md#repo-liaohch3--claude-tap) | [LLMs](../topics/llms.md#repo-liaohch3--claude-tap) | [Observability](../topics/observability.md#repo-liaohch3--claude-tap) | [CLI](../topics/cli.md#repo-liaohch3--claude-tap) | [Tracing](../topics/tracing.md#repo-liaohch3--claude-tap) | [Developer Productivity](../topics/developer-productivity.md#repo-liaohch3--claude-tap)
 - **Kind:** CLI
 - **Best for:** Developers debugging the prompts, tools, and context sent by coding agents; Reviewing or exporting local traces from supported agent CLIs and the Codex App
 - **Languages:** Python
@@ -450,12 +490,14 @@ A local proxy and trace viewer for inspecting coding-agent API traffic, includin
   - Local capture of prompts, messages, tool schemas, tool calls, and token usage
   - Self-contained HTML trace viewer with search, filtering, and structured request diffs
 
+<a id="repo-marmutapp--superbased-observer"></a>
+
 ## [SuperBased Observer](https://github.com/marmutapp/superbased-observer)
 
 A local-first observability tool for AI coding activity that captures usage, provider-returned token counts, and costs through a CLI, dashboard, MCP server, and optional API proxy.
 
-- **Category:** [Developer Tools](../categories/developer-tools.md)
-- **Topics:** [AI Agents](../topics/ai-agents.md) | [Coding Agents](../topics/coding-agents.md) | [LLMs](../topics/llms.md) | [Observability](../topics/observability.md) | [Token Usage](../topics/token-usage.md) | [Cost Management](../topics/cost-management.md) | [Local First](../topics/local-first.md) | [MCP](../topics/mcp.md) | [CLI](../topics/cli.md) | [Web UI](../topics/web-ui.md) | [Developer Productivity](../topics/developer-productivity.md)
+- **Category:** [Developer Tools](../categories/developer-tools.md#repo-marmutapp--superbased-observer)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-marmutapp--superbased-observer) | [Coding Agents](../topics/coding-agents.md#repo-marmutapp--superbased-observer) | [LLMs](../topics/llms.md#repo-marmutapp--superbased-observer) | [Observability](../topics/observability.md#repo-marmutapp--superbased-observer) | [Token Usage](../topics/token-usage.md#repo-marmutapp--superbased-observer) | [Cost Management](../topics/cost-management.md#repo-marmutapp--superbased-observer) | [Local First](../topics/local-first.md#repo-marmutapp--superbased-observer) | [MCP](../topics/mcp.md#repo-marmutapp--superbased-observer) | [CLI](../topics/cli.md#repo-marmutapp--superbased-observer) | [Web UI](../topics/web-ui.md#repo-marmutapp--superbased-observer) | [Developer Productivity](../topics/developer-productivity.md#repo-marmutapp--superbased-observer)
 - **Kind:** Application
 - **Best for:** Developers comparing cost and token use across AI coding tools; Teams that need local inspection of coding-agent sessions before opting into sharing
 - **Languages:** Go, TypeScript
@@ -469,12 +511,14 @@ A local-first observability tool for AI coding activity that captures usage, pro
   - Optional reverse proxy for provider-returned token counts and compression
   - MCP server exposing local cross-tool usage intelligence
 
+<a id="repo-mattpocock--sandcastle"></a>
+
 ## [Sandcastle](https://github.com/mattpocock/sandcastle)
 
 A TypeScript library and CLI for running coding agents in configurable sandboxed Git workflows, then collecting or merging their commits.
 
-- **Category:** [Developer Tools](../categories/developer-tools.md)
-- **Topics:** [Coding Agents](../topics/coding-agents.md) | [Agent Orchestration](../topics/agent-orchestration.md) | [Sandboxing](../topics/sandboxing.md) | [Worktrees](../topics/worktrees.md) | [Git](../topics/git.md) | [CLI](../topics/cli.md)
+- **Category:** [Developer Tools](../categories/developer-tools.md#repo-mattpocock--sandcastle)
+- **Topics:** [Coding Agents](../topics/coding-agents.md#repo-mattpocock--sandcastle) | [Agent Orchestration](../topics/agent-orchestration.md#repo-mattpocock--sandcastle) | [Sandboxing](../topics/sandboxing.md#repo-mattpocock--sandcastle) | [Worktrees](../topics/worktrees.md#repo-mattpocock--sandcastle) | [Git](../topics/git.md#repo-mattpocock--sandcastle) | [CLI](../topics/cli.md#repo-mattpocock--sandcastle)
 - **Kind:** Library
 - **Best for:** Automating isolated coding-agent runs from TypeScript, scripts, or CI; Building parallel agent or review workflows with explicit Git branch handling
 - **Languages:** TypeScript
@@ -488,12 +532,14 @@ A TypeScript library and CLI for running coding agents in configurable sandboxed
   - Built-in Docker, Podman, and Vercel sandbox providers plus APIs for custom bind-mount or isolated providers
   - The initializer scaffolds a .sandcastle directory with configuration, Dockerfile, prompt, and environment files
 
+<a id="repo-microsoft--markitdown"></a>
+
 ## [MarkItDown](https://github.com/microsoft/markitdown)
 
 A Python document-to-Markdown converter for text-analysis and LLM workflows, with a command-line tool, a Python API, optional format integrations, plugins, and a separately packaged MCP server.
 
-- **Category:** [Developer Tools](../categories/developer-tools.md)
-- **Topics:** [CLI](../topics/cli.md) | [Document Processing](../topics/document-processing.md) | [LLMs](../topics/llms.md) | [MCP](../topics/mcp.md) | [Automation](../topics/automation.md) | [Open Source](../topics/open-source.md)
+- **Category:** [Developer Tools](../categories/developer-tools.md#repo-microsoft--markitdown)
+- **Topics:** [CLI](../topics/cli.md#repo-microsoft--markitdown) | [Document Processing](../topics/document-processing.md#repo-microsoft--markitdown) | [LLMs](../topics/llms.md#repo-microsoft--markitdown) | [MCP](../topics/mcp.md#repo-microsoft--markitdown) | [Automation](../topics/automation.md#repo-microsoft--markitdown) | [Open Source](../topics/open-source.md#repo-microsoft--markitdown)
 - **Kind:** Library
 - **Best for:** Preparing heterogeneous files as Markdown input for LLM or text-analysis pipelines; Python applications that need programmatic document conversion with controlled input handling
 - **Languages:** Python
@@ -507,12 +553,14 @@ A Python document-to-Markdown converter for text-analysis and LLM workflows, wit
   - Preserves document structure such as headings, lists, tables, and links in Markdown output
   - Provides a command-line program and a Python MarkItDown conversion API
 
+<a id="repo-microsoft--vscode"></a>
+
 ## [vscode](https://github.com/microsoft/vscode)
 
 The MIT-licensed Code - OSS source repository used to develop Visual Studio Code, with code editing, navigation, debugging, extensibility, and tool integration features.
 
-- **Category:** [Developer Tools](../categories/developer-tools.md)
-- **Topics:** [Desktop App](../topics/desktop-app.md) | [Debugging](../topics/debugging.md) | [Developer Productivity](../topics/developer-productivity.md) | [Open Source](../topics/open-source.md)
+- **Category:** [Developer Tools](../categories/developer-tools.md#repo-microsoft--vscode)
+- **Topics:** [Desktop App](../topics/desktop-app.md#repo-microsoft--vscode) | [Debugging](../topics/debugging.md#repo-microsoft--vscode) | [Developer Productivity](../topics/developer-productivity.md#repo-microsoft--vscode) | [Open Source](../topics/open-source.md#repo-microsoft--vscode)
 - **Kind:** Application
 - **Best for:** Developers who want an extensible desktop editor for the edit-build-debug cycle; Contributors and downstream distributors working from the Code - OSS source base
 - **Languages:** TypeScript, JavaScript, Rust
@@ -526,12 +574,14 @@ The MIT-licensed Code - OSS source repository used to develop Visual Studio Code
   - Lightweight debugging
   - Extensibility model and integration with existing tools
 
+<a id="repo-morapelker--hive"></a>
+
 ## [Hive](https://github.com/morapelker/hive)
 
 Desktop orchestration for parallel Claude Code, OpenCode, and Codex coding sessions in isolated Git worktrees.
 
-- **Category:** [Developer Tools](../categories/developer-tools.md)
-- **Topics:** [Coding Agents](../topics/coding-agents.md) | [Agent Orchestration](../topics/agent-orchestration.md) | [Parallel Agents](../topics/parallel-agents.md) | [Worktrees](../topics/worktrees.md) | [Desktop App](../topics/desktop-app.md) | [Git](../topics/git.md)
+- **Category:** [Developer Tools](../categories/developer-tools.md#repo-morapelker--hive)
+- **Topics:** [Coding Agents](../topics/coding-agents.md#repo-morapelker--hive) | [Agent Orchestration](../topics/agent-orchestration.md#repo-morapelker--hive) | [Parallel Agents](../topics/parallel-agents.md#repo-morapelker--hive) | [Worktrees](../topics/worktrees.md#repo-morapelker--hive) | [Desktop App](../topics/desktop-app.md#repo-morapelker--hive) | [Git](../topics/git.md#repo-morapelker--hive)
 - **Kind:** Application
 - **Best for:** Developers coordinating several AI coding tasks across branches or repositories.; Git-worktree users who prefer visual Git, files, diffs, and agent-session management.
 - **Languages:** TypeScript
@@ -545,12 +595,14 @@ Desktop orchestration for parallel Claude Code, OpenCode, and Codex coding sessi
   - Creates, organizes, archives, and switches among isolated Git worktrees from the desktop UI.
   - Provides visual Git operations, inline diffs, file history, and a Monaco-based file explorer.
 
+<a id="repo-nimbalyst--nimbalyst"></a>
+
 ## [Nimbalyst](https://github.com/nimbalyst/nimbalyst)
 
 An open-source visual desktop workspace for working with coding agents, files, sessions, tasks, and Git worktrees, with a companion mobile app.
 
-- **Category:** [Developer Tools](../categories/developer-tools.md)
-- **Topics:** [Coding Agents](../topics/coding-agents.md) | [Agent Development Environments](../topics/agent-development-environments.md) | [Desktop App](../topics/desktop-app.md) | [Mobile App](../topics/mobile-app.md) | [Worktrees](../topics/worktrees.md) | [Realtime Collaboration](../topics/realtime-collaboration.md)
+- **Category:** [Developer Tools](../categories/developer-tools.md#repo-nimbalyst--nimbalyst)
+- **Topics:** [Coding Agents](../topics/coding-agents.md#repo-nimbalyst--nimbalyst) | [Agent Development Environments](../topics/agent-development-environments.md#repo-nimbalyst--nimbalyst) | [Desktop App](../topics/desktop-app.md#repo-nimbalyst--nimbalyst) | [Mobile App](../topics/mobile-app.md#repo-nimbalyst--nimbalyst) | [Worktrees](../topics/worktrees.md#repo-nimbalyst--nimbalyst) | [Realtime Collaboration](../topics/realtime-collaboration.md#repo-nimbalyst--nimbalyst)
 - **Kind:** Application
 - **Best for:** Developers who want to supervise several coding-agent sessions visually; Teams that need shared task, document, and session context around agent work
 - **Languages:** TypeScript, JavaScript, Swift
@@ -564,12 +616,14 @@ An open-source visual desktop workspace for working with coding agents, files, s
   - Supports Markdown, mockups, Mermaid, Excalidraw, CSV, data models, and Monaco code editing
   - Organizes parallel sessions with file links, search and resume, and a Kanban board
 
+<a id="repo-ogulcancelik--herdr"></a>
+
 ## [herdr](https://github.com/ogulcancelik/herdr)
 
 A Rust terminal workspace manager and agent multiplexer that keeps real terminal processes running, surfaces agent state, persists sessions, and exposes a socket API for agents to coordinate panes and workspaces.
 
-- **Category:** [Developer Tools](../categories/developer-tools.md)
-- **Topics:** [AI Agents](../topics/ai-agents.md) | [Agent Orchestration](../topics/agent-orchestration.md) | [CLI](../topics/cli.md) | [Terminal](../topics/terminal.md) | [TUI](../topics/tui.md) | [Remote Control](../topics/remote-control.md) | [Developer Productivity](../topics/developer-productivity.md)
+- **Category:** [Developer Tools](../categories/developer-tools.md#repo-ogulcancelik--herdr)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-ogulcancelik--herdr) | [Agent Orchestration](../topics/agent-orchestration.md#repo-ogulcancelik--herdr) | [CLI](../topics/cli.md#repo-ogulcancelik--herdr) | [Terminal](../topics/terminal.md#repo-ogulcancelik--herdr) | [TUI](../topics/tui.md#repo-ogulcancelik--herdr) | [Remote Control](../topics/remote-control.md#repo-ogulcancelik--herdr) | [Developer Productivity](../topics/developer-productivity.md#repo-ogulcancelik--herdr)
 - **Kind:** CLI
 - **Best for:** Developers supervising multiple coding-agent sessions in terminal workspaces; Teams that want detached, persistent agent sessions reachable over SSH
 - **Languages:** Rust
@@ -583,12 +637,14 @@ A Rust terminal workspace manager and agent multiplexer that keeps real terminal
   - Preserves real terminal panes when a client detaches and later reattaches
   - Supports workspaces, tabs, split panes, mouse interaction, and prefix-key navigation
 
+<a id="repo-openai--codex"></a>
+
 ## [Codex CLI](https://github.com/openai/codex)
 
 An OpenAI coding agent that runs locally, with a terminal CLI as its primary interface and documented paths to IDE integrations and a desktop app command.
 
-- **Category:** [Developer Tools](../categories/developer-tools.md)
-- **Topics:** [AI Agents](../topics/ai-agents.md) | [Coding Agents](../topics/coding-agents.md) | [CLI](../topics/cli.md) | [Code Generation](../topics/code-generation.md) | [Developer Productivity](../topics/developer-productivity.md)
+- **Category:** [Developer Tools](../categories/developer-tools.md#repo-openai--codex)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-openai--codex) | [Coding Agents](../topics/coding-agents.md#repo-openai--codex) | [CLI](../topics/cli.md#repo-openai--codex) | [Code Generation](../topics/code-generation.md#repo-openai--codex) | [Developer Productivity](../topics/developer-productivity.md#repo-openai--codex)
 - **Kind:** CLI
 - **Best for:** Developers who want to run an OpenAI coding agent from a terminal; Teams using supported IDE integrations or the Codex desktop app
 - **Languages:** Rust, JavaScript
@@ -602,12 +658,14 @@ An OpenAI coding agent that runs locally, with a terminal CLI as its primary int
   - Documented IDE integrations for VS Code, Cursor, and Windsurf
   - Desktop-app entry point through the codex app command
 
+<a id="repo-openai--codex-plugin-cc"></a>
+
 ## [Codex plugin for Claude Code](https://github.com/openai/codex-plugin-cc)
 
 A Claude Code plugin that runs Codex reviews, delegates implementation or investigation tasks, transfers sessions to Codex, and manages its background jobs from Claude Code slash commands.
 
-- **Category:** [Developer Tools](../categories/developer-tools.md)
-- **Topics:** [AI Agents](../topics/ai-agents.md) | [Coding Agents](../topics/coding-agents.md) | [CLI](../topics/cli.md) | [Code Review](../topics/code-review.md) | [Developer Productivity](../topics/developer-productivity.md)
+- **Category:** [Developer Tools](../categories/developer-tools.md#repo-openai--codex-plugin-cc)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-openai--codex-plugin-cc) | [Coding Agents](../topics/coding-agents.md#repo-openai--codex-plugin-cc) | [CLI](../topics/cli.md#repo-openai--codex-plugin-cc) | [Code Review](../topics/code-review.md#repo-openai--codex-plugin-cc) | [Developer Productivity](../topics/developer-productivity.md#repo-openai--codex-plugin-cc)
 - **Kind:** Plugin
 - **Best for:** Claude Code users who want Codex review and delegation commands; Developers who want to monitor or resume Codex work from a Claude Code session
 - **Languages:** JavaScript
@@ -621,12 +679,14 @@ A Claude Code plugin that runs Codex reviews, delegates implementation or invest
   - Steerable adversarial review for design and risk questions
   - Task delegation through a Codex subagent
 
+<a id="repo-openchamber--openchamber"></a>
+
 ## [OpenChamber](https://github.com/openchamber/openchamber)
 
 A cross-device interface for OpenCode coding-agent sessions, with desktop, mobile-first web/PWA, CLI, and VS Code experiences plus Git-aware and multi-agent workflows.
 
-- **Category:** [Developer Tools](../categories/developer-tools.md)
-- **Topics:** [Coding Agents](../topics/coding-agents.md) | [AI Agents](../topics/ai-agents.md) | [Desktop App](../topics/desktop-app.md) | [Web UI](../topics/web-ui.md) | [CLI](../topics/cli.md) | [Git](../topics/git.md)
+- **Category:** [Developer Tools](../categories/developer-tools.md#repo-openchamber--openchamber)
+- **Topics:** [Coding Agents](../topics/coding-agents.md#repo-openchamber--openchamber) | [AI Agents](../topics/ai-agents.md#repo-openchamber--openchamber) | [Desktop App](../topics/desktop-app.md#repo-openchamber--openchamber) | [Web UI](../topics/web-ui.md#repo-openchamber--openchamber) | [CLI](../topics/cli.md#repo-openchamber--openchamber) | [Git](../topics/git.md#repo-openchamber--openchamber)
 - **Kind:** Application
 - **Best for:** Developers who want a visual, remote, or cross-device way to use OpenCode; Teams comparing parallel coding-agent runs in isolated Git worktrees
 - **Languages:** TypeScript
@@ -640,12 +700,14 @@ A cross-device interface for OpenCode coding-agent sessions, with desktop, mobil
   - Multi-agent runs in isolated worktrees for side-by-side comparisons
   - In-app Git workflows for commits, pull requests, checks, and merge actions
 
+<a id="repo-oxc-project--oxc"></a>
+
 ## [Oxc](https://github.com/oxc-project/oxc)
 
 A Rust workspace for high-performance JavaScript and TypeScript tooling. It provides parser, transformer, minifier, resolver, semantic-analysis, and linting components, alongside the Oxlint linter and Oxfmt formatter command-line applications.
 
-- **Category:** [Developer Tools](../categories/developer-tools.md)
-- **Topics:** [CLI](../topics/cli.md) | [Performance](../topics/performance.md) | [Frontend Development](../topics/frontend-development.md) | [Developer Productivity](../topics/developer-productivity.md) | [Libraries](../topics/libraries.md) | [Open Source](../topics/open-source.md)
+- **Category:** [Developer Tools](../categories/developer-tools.md#repo-oxc-project--oxc)
+- **Topics:** [CLI](../topics/cli.md#repo-oxc-project--oxc) | [Performance](../topics/performance.md#repo-oxc-project--oxc) | [Frontend Development](../topics/frontend-development.md#repo-oxc-project--oxc) | [Developer Productivity](../topics/developer-productivity.md#repo-oxc-project--oxc) | [Libraries](../topics/libraries.md#repo-oxc-project--oxc) | [Open Source](../topics/open-source.md#repo-oxc-project--oxc)
 - **Kind:** Monorepo
 - **Best for:** Developers who want fast linting or formatting for JavaScript and TypeScript codebases; Tool authors building on Rust components for parsing, transforming, minifying, or resolving modules
 - **Languages:** Rust, JavaScript, TypeScript
@@ -659,12 +721,14 @@ A Rust workspace for high-performance JavaScript and TypeScript tooling. It prov
   - Exposes parser, transformer, minifier, and resolver capabilities for JavaScript and TypeScript
   - Organizes reusable Rust crates with Node-API bindings and a language-server component
 
+<a id="repo-patoles--agent-flow"></a>
+
 ## [Agent Flow](https://github.com/patoles/agent-flow)
 
 A real-time visualizer for Claude Code and Codex execution that displays detected sessions, branching, tool calls, timelines, transcripts, and file-attention data in a browser or VS Code webview.
 
-- **Category:** [Developer Tools](../categories/developer-tools.md)
-- **Topics:** [AI Agents](../topics/ai-agents.md) | [Agent Orchestration](../topics/agent-orchestration.md) | [Observability](../topics/observability.md) | [Developer Productivity](../topics/developer-productivity.md) | [Web UI](../topics/web-ui.md)
+- **Category:** [Developer Tools](../categories/developer-tools.md#repo-patoles--agent-flow)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-patoles--agent-flow) | [Agent Orchestration](../topics/agent-orchestration.md#repo-patoles--agent-flow) | [Observability](../topics/observability.md#repo-patoles--agent-flow) | [Developer Productivity](../topics/developer-productivity.md#repo-patoles--agent-flow) | [Web UI](../topics/web-ui.md#repo-patoles--agent-flow)
 - **Kind:** Application
 - **Best for:** Debugging and understanding active Claude Code or Codex sessions; Comparing concurrent agent sessions and tool-call sequences
 - **Languages:** TypeScript
@@ -678,12 +742,14 @@ A real-time visualizer for Claude Code and Codex execution that displays detecte
   - Concurrent Claude Code and Codex session discovery with runtime filtering
   - Codex rollout tailing with tool calls, reasoning, and token-count display
 
+<a id="repo-psmux--psmux"></a>
+
 ## [psmux](https://github.com/psmux/psmux)
 
 A native Rust terminal multiplexer for Windows that uses ConPTY directly, implements the tmux command language and configuration format, persists sessions, and supports panes, themes, mouse control, scripting, plugins, and agent-team panes.
 
-- **Category:** [Developer Tools](../categories/developer-tools.md)
-- **Topics:** [CLI](../topics/cli.md) | [TUI](../topics/tui.md) | [Terminal](../topics/terminal.md) | [Developer Productivity](../topics/developer-productivity.md) | [Automation](../topics/automation.md) | [Parallel Agents](../topics/parallel-agents.md) | [Realtime Collaboration](../topics/realtime-collaboration.md)
+- **Category:** [Developer Tools](../categories/developer-tools.md#repo-psmux--psmux)
+- **Topics:** [CLI](../topics/cli.md#repo-psmux--psmux) | [TUI](../topics/tui.md#repo-psmux--psmux) | [Terminal](../topics/terminal.md#repo-psmux--psmux) | [Developer Productivity](../topics/developer-productivity.md#repo-psmux--psmux) | [Automation](../topics/automation.md#repo-psmux--psmux) | [Parallel Agents](../topics/parallel-agents.md#repo-psmux--psmux) | [Realtime Collaboration](../topics/realtime-collaboration.md#repo-psmux--psmux)
 - **Kind:** Application
 - **Best for:** Windows developers who want tmux-style persistent sessions without WSL or Cygwin; Claude Code users who want teammate agents displayed in separate terminal panes
 - **Languages:** Rust
@@ -697,12 +763,14 @@ A native Rust terminal multiplexer for Windows that uses ConPTY directly, implem
   - Reads tmux configuration and supports themes, mouse input, layouts, and copy mode
   - Persists sessions across terminal crashes and SSH disconnects
 
+<a id="repo-robertpiosik--codewebchat"></a>
+
 ## [Code Web Chat](https://github.com/robertpiosik/CodeWebChat)
 
 A VS Code extension and companion browser extension for preparing selected files as structured context, sending coding prompts to web chats or configured model APIs, and applying generated edits back into the local workspace.
 
-- **Category:** [Developer Tools](../categories/developer-tools.md)
-- **Topics:** [Code Generation](../topics/code-generation.md) | [LLMs](../topics/llms.md) | [Developer Productivity](../topics/developer-productivity.md) | [Multi Provider](../topics/multi-provider.md) | [Local First](../topics/local-first.md) | [Web UI](../topics/web-ui.md)
+- **Category:** [Developer Tools](../categories/developer-tools.md#repo-robertpiosik--codewebchat)
+- **Topics:** [Code Generation](../topics/code-generation.md#repo-robertpiosik--codewebchat) | [LLMs](../topics/llms.md#repo-robertpiosik--codewebchat) | [Developer Productivity](../topics/developer-productivity.md#repo-robertpiosik--codewebchat) | [Multi Provider](../topics/multi-provider.md#repo-robertpiosik--codewebchat) | [Local First](../topics/local-first.md#repo-robertpiosik--codewebchat) | [Web UI](../topics/web-ui.md#repo-robertpiosik--codewebchat)
 - **Kind:** Plugin
 - **Best for:** VS Code users who want file-aware prompts for hosted chats or their own model APIs; Developers who want to move selected code context between the editor and web chat tools
 - **Languages:** TypeScript
@@ -716,12 +784,14 @@ A VS Code extension and companion browser extension for preparing selected files
   - Prompt types for file edits, questions, cursor completions, and relevant-file discovery
   - Browser extension that fills prompts into supported web-chat interfaces
 
+<a id="repo-rtk-ai--rtk"></a>
+
 ## [RTK](https://github.com/rtk-ai/rtk)
 
 A Rust command-line proxy for coding-agent workflows that runs supported developer commands, filters their output before it reaches the LLM context, tracks resulting token savings, and can install agent-specific hooks or instruction-based integrations.
 
-- **Category:** [Developer Tools](../categories/developer-tools.md)
-- **Topics:** [Coding Agents](../topics/coding-agents.md) | [CLI](../topics/cli.md) | [Context Engineering](../topics/context-engineering.md) | [Token Usage](../topics/token-usage.md) | [Developer Productivity](../topics/developer-productivity.md) | [Git](../topics/git.md) | [Testing](../topics/testing.md)
+- **Category:** [Developer Tools](../categories/developer-tools.md#repo-rtk-ai--rtk)
+- **Topics:** [Coding Agents](../topics/coding-agents.md#repo-rtk-ai--rtk) | [CLI](../topics/cli.md#repo-rtk-ai--rtk) | [Context Engineering](../topics/context-engineering.md#repo-rtk-ai--rtk) | [Token Usage](../topics/token-usage.md#repo-rtk-ai--rtk) | [Developer Productivity](../topics/developer-productivity.md#repo-rtk-ai--rtk) | [Git](../topics/git.md#repo-rtk-ai--rtk) | [Testing](../topics/testing.md#repo-rtk-ai--rtk)
 - **Kind:** CLI
 - **Best for:** Coding-agent users who want more compact shell-command context without changing their normal developer commands; Teams that want local token-savings analytics and configurable command-output filtering
 - **Languages:** Rust
@@ -735,12 +805,14 @@ A Rust command-line proxy for coding-agent workflows that runs supported develop
   - Provides compact wrappers for files, Git and GitHub CLI, tests, builds, linters, containers, cloud, and data commands
   - Installs hooks, plugins, or rules for supported coding assistants to rewrite eligible shell commands automatically
 
+<a id="repo-samuelfaj--distill"></a>
+
 ## [distill](https://github.com/samuelfaj/distill)
 
 A command-line tool that compresses agent command output into targeted answers for downstream LLMs, using a locally onboarded small language model.
 
-- **Category:** [Developer Tools](../categories/developer-tools.md)
-- **Topics:** [AI Agents](../topics/ai-agents.md) | [Coding Agents](../topics/coding-agents.md) | [CLI](../topics/cli.md) | [LLMs](../topics/llms.md) | [Developer Productivity](../topics/developer-productivity.md) | [Local Models](../topics/local-models.md)
+- **Category:** [Developer Tools](../categories/developer-tools.md#repo-samuelfaj--distill)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-samuelfaj--distill) | [Coding Agents](../topics/coding-agents.md#repo-samuelfaj--distill) | [CLI](../topics/cli.md#repo-samuelfaj--distill) | [LLMs](../topics/llms.md#repo-samuelfaj--distill) | [Developer Productivity](../topics/developer-productivity.md#repo-samuelfaj--distill) | [Local Models](../topics/local-models.md#repo-samuelfaj--distill)
 - **Kind:** CLI
 - **Best for:** Coding-agent workflows that need to reduce log or test-output context; Developers who can allocate memory for its local-model runtime
 - **Languages:** TypeScript
@@ -754,12 +826,14 @@ A command-line tool that compresses agent command output into targeted answers f
   - Onboarding for the bundled local-model workflow
   - A documented 1.7B, 4-bit expert language model
 
+<a id="repo-simonw--llm-openai-via-codex"></a>
+
 ## [llm-openai-via-codex](https://github.com/simonw/llm-openai-via-codex)
 
 A Python plugin for Simon Willison's LLM command-line tool that exposes OpenAI models through an existing authenticated OpenAI Codex CLI subscription instead of requiring a separately configured model API key.
 
-- **Category:** [Developer Tools](../categories/developer-tools.md)
-- **Topics:** [LLMs](../topics/llms.md) | [CLI](../topics/cli.md) | [Libraries](../topics/libraries.md) | [Developer Productivity](../topics/developer-productivity.md) | [Open Source](../topics/open-source.md)
+- **Category:** [Developer Tools](../categories/developer-tools.md#repo-simonw--llm-openai-via-codex)
+- **Topics:** [LLMs](../topics/llms.md#repo-simonw--llm-openai-via-codex) | [CLI](../topics/cli.md#repo-simonw--llm-openai-via-codex) | [Libraries](../topics/libraries.md#repo-simonw--llm-openai-via-codex) | [Developer Productivity](../topics/developer-productivity.md#repo-simonw--llm-openai-via-codex) | [Open Source](../topics/open-source.md#repo-simonw--llm-openai-via-codex)
 - **Kind:** Plugin
 - **Best for:** LLM CLI users with an authenticated OpenAI Codex CLI subscription; Prompting OpenAI models through LLM's existing command-line workflows
 - **Languages:** Python
@@ -773,12 +847,14 @@ A Python plugin for Simon Willison's LLM command-line tool that exposes OpenAI m
   - Lists available Codex-backed models with the LLM models command
   - Runs model prompts through names such as openai-codex/gpt-5.5
 
+<a id="repo-sindresorhus--type-fest"></a>
+
 ## [Type-Fest](https://github.com/sindresorhus/type-fest)
 
 An ESM package of essential and utility TypeScript definitions for composing stricter application types without adding a runtime implementation.
 
-- **Category:** [Developer Tools](../categories/developer-tools.md)
-- **Topics:** [Libraries](../topics/libraries.md) | [Developer Productivity](../topics/developer-productivity.md)
+- **Category:** [Developer Tools](../categories/developer-tools.md#repo-sindresorhus--type-fest)
+- **Topics:** [Libraries](../topics/libraries.md#repo-sindresorhus--type-fest) | [Developer Productivity](../topics/developer-productivity.md#repo-sindresorhus--type-fest)
 - **Kind:** Library
 - **Best for:** TypeScript projects needing reusable utility and deep-object types; Teams that can adopt modern TypeScript with strict checking enabled
 - **Languages:** TypeScript
@@ -792,12 +868,14 @@ An ESM package of essential and utility TypeScript definitions for composing str
   - Includes deep object, key-selection, union, and conditional type helpers
   - Exposes the main type collection and a globals entry point
 
+<a id="repo-stablyai--orca"></a>
+
 ## [Orca](https://github.com/stablyai/orca)
 
 An Electron-based agent development environment for running terminal coding agents side by side in isolated Git worktrees, with desktop review and editing tools, a scriptable CLI, and a paired mobile companion application.
 
-- **Category:** [Developer Tools](../categories/developer-tools.md)
-- **Topics:** [AI Agents](../topics/ai-agents.md) | [Coding Agents](../topics/coding-agents.md) | [Parallel Agents](../topics/parallel-agents.md) | [Agent Orchestration](../topics/agent-orchestration.md) | [Agent Development Environments](../topics/agent-development-environments.md) | [Worktrees](../topics/worktrees.md) | [Desktop App](../topics/desktop-app.md) | [CLI](../topics/cli.md)
+- **Category:** [Developer Tools](../categories/developer-tools.md#repo-stablyai--orca)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-stablyai--orca) | [Coding Agents](../topics/coding-agents.md#repo-stablyai--orca) | [Parallel Agents](../topics/parallel-agents.md#repo-stablyai--orca) | [Agent Orchestration](../topics/agent-orchestration.md#repo-stablyai--orca) | [Agent Development Environments](../topics/agent-development-environments.md#repo-stablyai--orca) | [Worktrees](../topics/worktrees.md#repo-stablyai--orca) | [Desktop App](../topics/desktop-app.md#repo-stablyai--orca) | [CLI](../topics/cli.md#repo-stablyai--orca)
 - **Kind:** Application
 - **Best for:** Developers coordinating parallel terminal-based coding agents; Reviewing agent-produced changes across separate Git worktrees
 - **Languages:** TypeScript
@@ -811,12 +889,14 @@ An Electron-based agent development environment for running terminal coding agen
   - Supports parallel prompts, result comparison, and merge-oriented workflows
   - Provides terminal splits with persistent scrollback and WebGL rendering
 
+<a id="repo-stackblitz-labs--bolt.diy"></a>
+
 ## [bolt.diy](https://github.com/stackblitz-labs/bolt.diy)
 
 An open-source, self-hostable version of Bolt.new for AI-assisted web development, with selectable cloud and local model providers plus browser, Docker, and Electron desktop deployment paths.
 
-- **Category:** [Developer Tools](../categories/developer-tools.md)
-- **Topics:** [Coding Agents](../topics/coding-agents.md) | [Agent Development Environments](../topics/agent-development-environments.md) | [Code Generation](../topics/code-generation.md) | [Multi Provider](../topics/multi-provider.md) | [Local Models](../topics/local-models.md) | [Self Hosted](../topics/self-hosted.md) | [Desktop App](../topics/desktop-app.md) | [Web UI](../topics/web-ui.md)
+- **Category:** [Developer Tools](../categories/developer-tools.md#repo-stackblitz-labs--bolt.diy)
+- **Topics:** [Coding Agents](../topics/coding-agents.md#repo-stackblitz-labs--bolt.diy) | [Agent Development Environments](../topics/agent-development-environments.md#repo-stackblitz-labs--bolt.diy) | [Code Generation](../topics/code-generation.md#repo-stackblitz-labs--bolt.diy) | [Multi Provider](../topics/multi-provider.md#repo-stackblitz-labs--bolt.diy) | [Local Models](../topics/local-models.md#repo-stackblitz-labs--bolt.diy) | [Self Hosted](../topics/self-hosted.md#repo-stackblitz-labs--bolt.diy) | [Desktop App](../topics/desktop-app.md#repo-stackblitz-labs--bolt.diy) | [Web UI](../topics/web-ui.md#repo-stackblitz-labs--bolt.diy)
 - **Kind:** Application
 - **Best for:** Developers who want a self-hosted AI web-development environment with provider choice; Teams that need to connect local models or OpenAI-compatible endpoints to an agent workspace
 - **Languages:** TypeScript, JavaScript
@@ -830,12 +910,14 @@ An open-source, self-hostable version of Bolt.new for AI-assisted web developmen
   - Provides web, Docker, and Electron desktop deployment options
   - Includes settings for cloud keys, Ollama, LM Studio, and OpenAI-compatible base URLs
 
+<a id="repo-stackblitz--bolt.new"></a>
+
 ## [Bolt.new](https://github.com/stackblitz/bolt.new)
 
 An AI-powered browser development agent that prompts, runs, edits, and deploys full-stack JavaScript applications in an in-browser WebContainers environment without requiring a local development setup.
 
-- **Category:** [Developer Tools](../categories/developer-tools.md)
-- **Topics:** [Coding Agents](../topics/coding-agents.md) | [Agent Development Environments](../topics/agent-development-environments.md) | [Code Generation](../topics/code-generation.md) | [Web UI](../topics/web-ui.md) | [Web](../topics/web.md)
+- **Category:** [Developer Tools](../categories/developer-tools.md#repo-stackblitz--bolt.new)
+- **Topics:** [Coding Agents](../topics/coding-agents.md#repo-stackblitz--bolt.new) | [Agent Development Environments](../topics/agent-development-environments.md#repo-stackblitz--bolt.new) | [Code Generation](../topics/code-generation.md#repo-stackblitz--bolt.new) | [Web UI](../topics/web-ui.md#repo-stackblitz--bolt.new) | [Web](../topics/web.md#repo-stackblitz--bolt.new)
 - **Kind:** Application
 - **Best for:** Developers, product managers, and designers prototyping full-stack JavaScript applications in a browser; Teams building an AI-powered development experience on top of the open-source Bolt codebase
 - **Languages:** TypeScript, JavaScript
@@ -849,12 +931,14 @@ An AI-powered browser development agent that prompts, runs, edits, and deploys f
   - Uses WebContainers to install npm packages and run Node.js-based development stacks in the browser
   - Supports prompting, editing, running, sharing, and deploying full-stack applications from the web interface
 
+<a id="repo-steipete--oracle"></a>
+
 ## [Oracle](https://github.com/steipete/oracle)
 
 A command-line tool that bundles a prompt and selected files for a contextual AI consultation through provider APIs, browser automation, or a manual copy-and-paste fallback.
 
-- **Category:** [Developer Tools](../categories/developer-tools.md)
-- **Topics:** [AI Agents](../topics/ai-agents.md) | [CLI](../topics/cli.md) | [LLMs](../topics/llms.md) | [Multi Provider](../topics/multi-provider.md) | [MCP](../topics/mcp.md) | [Browser Automation](../topics/browser-automation.md) | [Code Review](../topics/code-review.md) | [Developer Productivity](../topics/developer-productivity.md)
+- **Category:** [Developer Tools](../categories/developer-tools.md#repo-steipete--oracle)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-steipete--oracle) | [CLI](../topics/cli.md#repo-steipete--oracle) | [LLMs](../topics/llms.md#repo-steipete--oracle) | [Multi Provider](../topics/multi-provider.md#repo-steipete--oracle) | [MCP](../topics/mcp.md#repo-steipete--oracle) | [Browser Automation](../topics/browser-automation.md#repo-steipete--oracle) | [Code Review](../topics/code-review.md#repo-steipete--oracle) | [Developer Productivity](../topics/developer-productivity.md#repo-steipete--oracle)
 - **Kind:** CLI
 - **Best for:** Developers seeking a second opinion on code, bugs, or architecture with selected file context; Coding-agent workflows that need a local MCP consultation tool
 - **Languages:** TypeScript
@@ -868,12 +952,14 @@ A command-line tool that bundles a prompt and selected files for a contextual AI
   - Supports OpenAI, Gemini, Anthropic, and OpenRouter-backed API workflows
   - Offers experimental Chrome-based browser runs and a manual rendered-copy fallback
 
+<a id="repo-superset-sh--superset"></a>
+
 ## [Superset](https://github.com/superset-sh/superset)
 
 A desktop code editor and shared workspace system for running terminal-based coding agents in parallel, each isolated in its own Git worktree with built-in terminal, review, and workspace-management tools.
 
-- **Category:** [Developer Tools](../categories/developer-tools.md)
-- **Topics:** [AI Agents](../topics/ai-agents.md) | [Coding Agents](../topics/coding-agents.md) | [Parallel Agents](../topics/parallel-agents.md) | [Desktop App](../topics/desktop-app.md) | [CLI](../topics/cli.md) | [Agent Development Environments](../topics/agent-development-environments.md) | [Git](../topics/git.md) | [Worktrees](../topics/worktrees.md) | [MCP](../topics/mcp.md) | [Code Review](../topics/code-review.md)
+- **Category:** [Developer Tools](../categories/developer-tools.md#repo-superset-sh--superset)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-superset-sh--superset) | [Coding Agents](../topics/coding-agents.md#repo-superset-sh--superset) | [Parallel Agents](../topics/parallel-agents.md#repo-superset-sh--superset) | [Desktop App](../topics/desktop-app.md#repo-superset-sh--superset) | [CLI](../topics/cli.md#repo-superset-sh--superset) | [Agent Development Environments](../topics/agent-development-environments.md#repo-superset-sh--superset) | [Git](../topics/git.md#repo-superset-sh--superset) | [Worktrees](../topics/worktrees.md#repo-superset-sh--superset) | [MCP](../topics/mcp.md#repo-superset-sh--superset) | [Code Review](../topics/code-review.md#repo-superset-sh--superset)
 - **Kind:** Application
 - **Best for:** Developers coordinating several CLI coding agents against the same repository; Teams that want worktree isolation, local review, and remote workspace access
 - **Languages:** TypeScript
@@ -887,12 +973,14 @@ A desktop code editor and shared workspace system for running terminal-based cod
   - Monitors agents with status indicators and attention notifications
   - Includes persistent split terminals, a diff viewer, and in-app code editing
 
+<a id="repo-t3-oss--create-t3-app"></a>
+
 ## [create-t3-app](https://github.com/t3-oss/create-t3-app)
 
 An interactive CLI that scaffolds modular, type-safe full-stack Next.js applications from a selectable T3 Stack configuration.
 
-- **Category:** [Developer Tools](../categories/developer-tools.md)
-- **Topics:** [CLI](../topics/cli.md) | [Web](../topics/web.md) | [Starter Templates](../topics/starter-templates.md) | [Frontend Development](../topics/frontend-development.md) | [Backend Development](../topics/backend-development.md) | [Authentication](../topics/authentication.md) | [Databases](../topics/databases.md) | [Developer Productivity](../topics/developer-productivity.md)
+- **Category:** [Developer Tools](../categories/developer-tools.md#repo-t3-oss--create-t3-app)
+- **Topics:** [CLI](../topics/cli.md#repo-t3-oss--create-t3-app) | [Web](../topics/web.md#repo-t3-oss--create-t3-app) | [Starter Templates](../topics/starter-templates.md#repo-t3-oss--create-t3-app) | [Frontend Development](../topics/frontend-development.md#repo-t3-oss--create-t3-app) | [Backend Development](../topics/backend-development.md#repo-t3-oss--create-t3-app) | [Authentication](../topics/authentication.md#repo-t3-oss--create-t3-app) | [Databases](../topics/databases.md#repo-t3-oss--create-t3-app) | [Developer Productivity](../topics/developer-productivity.md#repo-t3-oss--create-t3-app)
 - **Kind:** CLI
 - **Best for:** Starting a TypeScript-based Next.js application with common full-stack components; Teams that want a maintained baseline rather than assembling the stack manually
 - **Languages:** TypeScript
@@ -906,12 +994,14 @@ An interactive CLI that scaffolds modular, type-safe full-stack Next.js applicat
   - Base template built on Next.js, React, TypeScript, Zod, and environment validation
   - Optional tRPC, Tailwind CSS, Prisma, Drizzle ORM, and database client integrations
 
+<a id="repo-tailcallhq--forgecode"></a>
+
 ## [Forge](https://github.com/tailcallhq/forgecode)
 
 A Rust terminal coding agent that combines an interactive TUI, one-shot commands, and a Zsh prompt plugin with provider login, workspace search, Git worktrees, MCP server configuration, and persistent conversations.
 
-- **Category:** [Developer Tools](../categories/developer-tools.md)
-- **Topics:** [AI Agents](../topics/ai-agents.md) | [Coding Agents](../topics/coding-agents.md) | [CLI](../topics/cli.md) | [TUI](../topics/tui.md) | [Terminal](../topics/terminal.md) | [Worktrees](../topics/worktrees.md) | [Codebase Search](../topics/codebase-search.md) | [Multi Provider](../topics/multi-provider.md) | [MCP](../topics/mcp.md) | [Developer Productivity](../topics/developer-productivity.md)
+- **Category:** [Developer Tools](../categories/developer-tools.md#repo-tailcallhq--forgecode)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-tailcallhq--forgecode) | [Coding Agents](../topics/coding-agents.md#repo-tailcallhq--forgecode) | [CLI](../topics/cli.md#repo-tailcallhq--forgecode) | [TUI](../topics/tui.md#repo-tailcallhq--forgecode) | [Terminal](../topics/terminal.md#repo-tailcallhq--forgecode) | [Worktrees](../topics/worktrees.md#repo-tailcallhq--forgecode) | [Codebase Search](../topics/codebase-search.md#repo-tailcallhq--forgecode) | [Multi Provider](../topics/multi-provider.md#repo-tailcallhq--forgecode) | [MCP](../topics/mcp.md#repo-tailcallhq--forgecode) | [Developer Productivity](../topics/developer-productivity.md#repo-tailcallhq--forgecode)
 - **Kind:** CLI
 - **Best for:** Developers who want a coding agent embedded in a terminal workflow; Scripted or isolated coding tasks that benefit from Git worktrees
 - **Languages:** Rust
@@ -925,12 +1015,14 @@ A Rust terminal coding agent that combines an interactive TUI, one-shot commands
   - One-shot prompts for scripts, piped input, commit messages, and command suggestions
   - Zsh plugin with colon-prefixed agent, conversation, commit, and suggestion commands
 
+<a id="repo-thlorenz--doctoc"></a>
+
 ## [DocToc](https://github.com/thlorenz/doctoc)
 
 A Node.js command-line tool that inserts or updates tables of contents in Markdown files, recursively processes directories, and offers configurable anchors, heading ranges, layout, dry-run, and update-only behavior.
 
-- **Category:** [Developer Tools](../categories/developer-tools.md)
-- **Topics:** [CLI](../topics/cli.md) | [Documentation](../topics/documentation.md) | [Git](../topics/git.md) | [Automation](../topics/automation.md) | [Developer Productivity](../topics/developer-productivity.md)
+- **Category:** [Developer Tools](../categories/developer-tools.md#repo-thlorenz--doctoc)
+- **Topics:** [CLI](../topics/cli.md#repo-thlorenz--doctoc) | [Documentation](../topics/documentation.md#repo-thlorenz--doctoc) | [Git](../topics/git.md#repo-thlorenz--doctoc) | [Automation](../topics/automation.md#repo-thlorenz--doctoc) | [Developer Productivity](../topics/developer-productivity.md#repo-thlorenz--doctoc)
 - **Kind:** CLI
 - **Best for:** Maintaining generated navigation in Markdown documentation repositories; CI, pre-commit, or lint-staged workflows that should detect stale tables of contents
 - **Languages:** JavaScript
@@ -944,12 +1036,14 @@ A Node.js command-line tool that inserts or updates tables of contents in Markdo
   - Recursively processes .md, .markdown, and .mdx files while ignoring .git and node_modules
   - Supports GitHub, GitLab, and Bitbucket-compatible anchor modes
 
+<a id="repo-tiann--hapi"></a>
+
 ## [HAPI](https://github.com/tiann/hapi)
 
 A local-first application that wraps supported coding-agent CLIs, persists their sessions through a hub, and lets users monitor, message, and approve work remotely from a web PWA or Telegram Mini App without restarting a session.
 
-- **Category:** [Developer Tools](../categories/developer-tools.md)
-- **Topics:** [Coding Agents](../topics/coding-agents.md) | [Terminal](../topics/terminal.md) | [Web UI](../topics/web-ui.md) | [Mobile App](../topics/mobile-app.md) | [Remote Control](../topics/remote-control.md) | [Cross Device](../topics/cross-device.md) | [Local First](../topics/local-first.md) | [Self Hosted](../topics/self-hosted.md) | [MCP](../topics/mcp.md) | [Developer Productivity](../topics/developer-productivity.md)
+- **Category:** [Developer Tools](../categories/developer-tools.md#repo-tiann--hapi)
+- **Topics:** [Coding Agents](../topics/coding-agents.md#repo-tiann--hapi) | [Terminal](../topics/terminal.md#repo-tiann--hapi) | [Web UI](../topics/web-ui.md#repo-tiann--hapi) | [Mobile App](../topics/mobile-app.md#repo-tiann--hapi) | [Remote Control](../topics/remote-control.md#repo-tiann--hapi) | [Cross Device](../topics/cross-device.md#repo-tiann--hapi) | [Local First](../topics/local-first.md#repo-tiann--hapi) | [Self Hosted](../topics/self-hosted.md#repo-tiann--hapi) | [MCP](../topics/mcp.md#repo-tiann--hapi) | [Developer Productivity](../topics/developer-productivity.md#repo-tiann--hapi)
 - **Kind:** Application
 - **Best for:** Developers who need to continue or supervise local coding-agent sessions from another device; Teams or individuals willing to run a local or self-hosted hub for remote session access
 - **Languages:** TypeScript
@@ -963,12 +1057,14 @@ A local-first application that wraps supported coding-agent CLIs, persists their
   - Preserves a session while control switches between terminal and remote clients
   - Web PWA supports sessions, chat, permission decisions, file browsing, diffs, and remote spawning
 
+<a id="repo-tmux--tmux"></a>
+
 ## [tmux](https://github.com/tmux/tmux)
 
 A terminal multiplexer that creates, accesses, and controls multiple terminals from one screen, while allowing a session to detach, continue in the background, and later be reattached.
 
-- **Category:** [Developer Tools](../categories/developer-tools.md)
-- **Topics:** [CLI](../topics/cli.md) | [TUI](../topics/tui.md) | [Terminal](../topics/terminal.md) | [Developer Productivity](../topics/developer-productivity.md) | [Open Source](../topics/open-source.md)
+- **Category:** [Developer Tools](../categories/developer-tools.md#repo-tmux--tmux)
+- **Topics:** [CLI](../topics/cli.md#repo-tmux--tmux) | [TUI](../topics/tui.md#repo-tmux--tmux) | [Terminal](../topics/terminal.md#repo-tmux--tmux) | [Developer Productivity](../topics/developer-productivity.md#repo-tmux--tmux) | [Open Source](../topics/open-source.md#repo-tmux--tmux)
 - **Kind:** CLI
 - **Best for:** Developers who need persistent, organized terminal sessions; Remote or local shell workflows that must survive disconnection
 - **Languages:** C
@@ -982,12 +1078,14 @@ A terminal multiplexer that creates, accesses, and controls multiple terminals f
   - Detaches sessions so they continue running in the background before later reattachment
   - Provides a tmux.1 manual page, example configuration, wiki, FAQ, and shell completion reference
 
+<a id="repo-vasihemanth--tokentelemetry"></a>
+
 ## [TokenTelemetry](https://github.com/VasiHemanth/tokentelemetry)
 
 A local dashboard that reads supported AI-agent session logs to show token use, costs, tool calls, reasoning traces, budgets, and project analytics.
 
-- **Category:** [Developer Tools](../categories/developer-tools.md)
-- **Topics:** [AI Agents](../topics/ai-agents.md) | [Observability](../topics/observability.md) | [Token Usage](../topics/token-usage.md) | [Cost Management](../topics/cost-management.md) | [Local First](../topics/local-first.md) | [Self Hosted](../topics/self-hosted.md) | [Web UI](../topics/web-ui.md) | [CLI](../topics/cli.md)
+- **Category:** [Developer Tools](../categories/developer-tools.md#repo-vasihemanth--tokentelemetry)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-vasihemanth--tokentelemetry) | [Observability](../topics/observability.md#repo-vasihemanth--tokentelemetry) | [Token Usage](../topics/token-usage.md#repo-vasihemanth--tokentelemetry) | [Cost Management](../topics/cost-management.md#repo-vasihemanth--tokentelemetry) | [Local First](../topics/local-first.md#repo-vasihemanth--tokentelemetry) | [Self Hosted](../topics/self-hosted.md#repo-vasihemanth--tokentelemetry) | [Web UI](../topics/web-ui.md#repo-vasihemanth--tokentelemetry) | [CLI](../topics/cli.md#repo-vasihemanth--tokentelemetry)
 - **Kind:** Application
 - **Best for:** Developers comparing token use and costs across local coding-agent sessions; Teams needing a local, read-only view of supported AI-agent activity
 - **Languages:** Python, TypeScript, JavaScript
@@ -1001,12 +1099,14 @@ A local dashboard that reads supported AI-agent session logs to show token use, 
   - Waterfall traces for prompts, reasoning, tool calls, and responses
   - Per-project activity, heatmaps, agent leaderboards, and worktree rollups
 
+<a id="repo-vercel-labs--portless"></a>
+
 ## [portless](https://github.com/vercel-labs/portless)
 
 A local-development CLI that replaces per-app port numbers with stable, named URLs by running a local reverse proxy around existing development commands, with configurable TLS, routing, aliases, and sharing modes.
 
-- **Category:** [Developer Tools](../categories/developer-tools.md)
-- **Topics:** [CLI](../topics/cli.md) | [Web](../topics/web.md) | [Developer Productivity](../topics/developer-productivity.md) | [Worktrees](../topics/worktrees.md) | [Open Source](../topics/open-source.md)
+- **Category:** [Developer Tools](../categories/developer-tools.md#repo-vercel-labs--portless)
+- **Topics:** [CLI](../topics/cli.md#repo-vercel-labs--portless) | [Web](../topics/web.md#repo-vercel-labs--portless) | [Developer Productivity](../topics/developer-productivity.md#repo-vercel-labs--portless) | [Worktrees](../topics/worktrees.md#repo-vercel-labs--portless) | [Open Source](../topics/open-source.md#repo-vercel-labs--portless)
 - **Kind:** CLI
 - **Best for:** Developers who run several local web services and want stable browser URLs; Teams or agents whose local commands need predictable URLs without manually managing ports
 - **Languages:** TypeScript
@@ -1020,12 +1120,14 @@ A local-development CLI that replaces per-app port numbers with stable, named UR
   - Assigns an available application port and injects compatible port and host flags for supported frameworks
   - Provides local HTTPS and HTTP/2 with a generated, system-trusted certificate authority by default
 
+<a id="repo-vitejs--vite"></a>
+
 ## [vite](https://github.com/vitejs/vite)
 
 A frontend development server and production build tool that provides fast iteration and optimized static assets for modern web projects.
 
-- **Category:** [Developer Tools](../categories/developer-tools.md)
-- **Topics:** [CLI](../topics/cli.md) | [Web](../topics/web.md) | [Open Source](../topics/open-source.md) | [Frontend Development](../topics/frontend-development.md) | [Developer Productivity](../topics/developer-productivity.md) | [Frameworks](../topics/frameworks.md)
+- **Category:** [Developer Tools](../categories/developer-tools.md#repo-vitejs--vite)
+- **Topics:** [CLI](../topics/cli.md#repo-vitejs--vite) | [Web](../topics/web.md#repo-vitejs--vite) | [Open Source](../topics/open-source.md#repo-vitejs--vite) | [Frontend Development](../topics/frontend-development.md#repo-vitejs--vite) | [Developer Productivity](../topics/developer-productivity.md#repo-vitejs--vite) | [Frameworks](../topics/frameworks.md#repo-vitejs--vite)
 - **Kind:** CLI
 - **Best for:** Web projects that need fast hot module replacement during development and optimized static assets for production.; Tooling integrations that use Vite's typed JavaScript and plugin APIs.
 - **Languages:** TypeScript
@@ -1039,12 +1141,14 @@ A frontend development server and production build tool that provides fast itera
   - Supports fast Hot Module Replacement during development.
   - Builds optimized static production assets with Rolldown.
 
+<a id="repo-waynesutton--opensync"></a>
+
 ## [opensync](https://github.com/waynesutton/opensync)
 
 A hosted or self-hosted dashboard and API for collecting AI coding-session data from supported sync plugins, then searching, analysing, exporting, and reusing that activity for evaluation and context workflows.
 
-- **Category:** [Developer Tools](../categories/developer-tools.md)
-- **Topics:** [Coding Agents](../topics/coding-agents.md) | [Observability](../topics/observability.md) | [Evaluation](../topics/evaluation.md) | [Search](../topics/search.md) | [Token Usage](../topics/token-usage.md) | [Cost Management](../topics/cost-management.md) | [Web UI](../topics/web-ui.md) | [Self Hosted](../topics/self-hosted.md)
+- **Category:** [Developer Tools](../categories/developer-tools.md#repo-waynesutton--opensync)
+- **Topics:** [Coding Agents](../topics/coding-agents.md#repo-waynesutton--opensync) | [Observability](../topics/observability.md#repo-waynesutton--opensync) | [Evaluation](../topics/evaluation.md#repo-waynesutton--opensync) | [Search](../topics/search.md#repo-waynesutton--opensync) | [Token Usage](../topics/token-usage.md#repo-waynesutton--opensync) | [Cost Management](../topics/cost-management.md#repo-waynesutton--opensync) | [Web UI](../topics/web-ui.md#repo-waynesutton--opensync) | [Self Hosted](../topics/self-hosted.md#repo-waynesutton--opensync)
 - **Kind:** Application
 - **Best for:** Teams that want a shared dashboard for coding-agent sessions, tool activity, and token spend; Developers who want to search or export past sessions for evaluations and context retrieval
 - **Languages:** TypeScript
@@ -1058,12 +1162,14 @@ A hosted or self-hosted dashboard and API for collecting AI coding-session data 
   - Provides full-text, semantic, and hybrid session search alongside an API for sessions, search, context, and export
   - Offers dashboard views for usage, sessions, evaluations, and analytics including model, project, and cost breakdowns
 
+<a id="repo-xai-org--grok-build"></a>
+
 ## [grok-build](https://github.com/xai-org/grok-build)
 
 A Rust terminal coding agent distributed as the grok CLI and full-screen TUI, with codebase-aware editing, shell execution, web search, long-running task management, and interactive, scripted, or ACP editor-integrated modes.
 
-- **Category:** [Developer Tools](../categories/developer-tools.md)
-- **Topics:** [Coding Agents](../topics/coding-agents.md) | [CLI](../topics/cli.md) | [TUI](../topics/tui.md) | [Terminal](../topics/terminal.md) | [Codebase Search](../topics/codebase-search.md) | [Web Search](../topics/web-search.md) | [Sandboxing](../topics/sandboxing.md) | [MCP](../topics/mcp.md) | [Agent Protocols](../topics/agent-protocols.md) | [Agent Skills](../topics/agent-skills.md)
+- **Category:** [Developer Tools](../categories/developer-tools.md#repo-xai-org--grok-build)
+- **Topics:** [Coding Agents](../topics/coding-agents.md#repo-xai-org--grok-build) | [CLI](../topics/cli.md#repo-xai-org--grok-build) | [TUI](../topics/tui.md#repo-xai-org--grok-build) | [Terminal](../topics/terminal.md#repo-xai-org--grok-build) | [Codebase Search](../topics/codebase-search.md#repo-xai-org--grok-build) | [Web Search](../topics/web-search.md#repo-xai-org--grok-build) | [Sandboxing](../topics/sandboxing.md#repo-xai-org--grok-build) | [MCP](../topics/mcp.md#repo-xai-org--grok-build) | [Agent Protocols](../topics/agent-protocols.md#repo-xai-org--grok-build) | [Agent Skills](../topics/agent-skills.md#repo-xai-org--grok-build)
 - **Kind:** CLI
 - **Best for:** Developers who prefer a terminal-first Grok coding-agent workflow; Scripted or CI-adjacent agent tasks and editors that support the Agent Client Protocol
 - **Languages:** Rust
@@ -1077,12 +1183,14 @@ A Rust terminal coding agent distributed as the grok CLI and full-screen TUI, wi
   - Codebase-aware file editing and shell-command execution
   - Web search and management of long-running tasks
 
+<a id="repo-xintaofei--codeg"></a>
+
 ## [codeg](https://github.com/xintaofei/codeg)
 
 A local-first multi-agent coding workspace that aggregates sessions from many coding-agent CLIs and adds collaboration, Git worktrees, MCP and skill management, automation, and desktop, browser-server, or Docker deployment.
 
-- **Category:** [Developer Tools](../categories/developer-tools.md)
-- **Topics:** [Coding Agents](../topics/coding-agents.md) | [Agent Development Environments](../topics/agent-development-environments.md) | [Multi Agent](../topics/multi-agent.md) | [Desktop App](../topics/desktop-app.md) | [Git](../topics/git.md) | [Worktrees](../topics/worktrees.md) | [MCP](../topics/mcp.md) | [Agent Skills](../topics/agent-skills.md) | [Automation](../topics/automation.md) | [Web UI](../topics/web-ui.md) | [Self Hosted](../topics/self-hosted.md) | [Local First](../topics/local-first.md)
+- **Category:** [Developer Tools](../categories/developer-tools.md#repo-xintaofei--codeg)
+- **Topics:** [Coding Agents](../topics/coding-agents.md#repo-xintaofei--codeg) | [Agent Development Environments](../topics/agent-development-environments.md#repo-xintaofei--codeg) | [Multi Agent](../topics/multi-agent.md#repo-xintaofei--codeg) | [Desktop App](../topics/desktop-app.md#repo-xintaofei--codeg) | [Git](../topics/git.md#repo-xintaofei--codeg) | [Worktrees](../topics/worktrees.md#repo-xintaofei--codeg) | [MCP](../topics/mcp.md#repo-xintaofei--codeg) | [Agent Skills](../topics/agent-skills.md#repo-xintaofei--codeg) | [Automation](../topics/automation.md#repo-xintaofei--codeg) | [Web UI](../topics/web-ui.md#repo-xintaofei--codeg) | [Self Hosted](../topics/self-hosted.md#repo-xintaofei--codeg) | [Local First](../topics/local-first.md#repo-xintaofei--codeg)
 - **Kind:** Application
 - **Best for:** Developers coordinating sessions from several local coding agents in one workspace; Teams that need a self-hosted browser workspace or desktop interface for agent-assisted Git work
 - **Languages:** TypeScript, Rust
@@ -1096,12 +1204,14 @@ A local-first multi-agent coding workspace that aggregates sessions from many co
   - Multi-agent delegation through the bundled codeg-mcp companion
   - Parallel development with built-in Git worktree flows
 
+<a id="repo-yamadashy--repomix"></a>
+
 ## [Repomix](https://github.com/yamadashy/repomix)
 
 A command-line tool that packages a local or remote repository into a single AI-friendly context file for use with LLMs and other tools.
 
-- **Category:** [Developer Tools](../categories/developer-tools.md)
-- **Topics:** [CLI](../topics/cli.md) | [LLMs](../topics/llms.md) | [MCP](../topics/mcp.md) | [Developer Productivity](../topics/developer-productivity.md) | [Codebase Search](../topics/codebase-search.md)
+- **Category:** [Developer Tools](../categories/developer-tools.md#repo-yamadashy--repomix)
+- **Topics:** [CLI](../topics/cli.md#repo-yamadashy--repomix) | [LLMs](../topics/llms.md#repo-yamadashy--repomix) | [MCP](../topics/mcp.md#repo-yamadashy--repomix) | [Developer Productivity](../topics/developer-productivity.md#repo-yamadashy--repomix) | [Codebase Search](../topics/codebase-search.md#repo-yamadashy--repomix)
 - **Kind:** CLI
 - **Best for:** Preparing a selected codebase for LLM analysis, review, or generation; Keeping repository context within an AI tool's token or file-size limits
 - **Languages:** TypeScript

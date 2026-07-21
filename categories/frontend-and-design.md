@@ -38,12 +38,14 @@
 - [Web](../topics/web.md) (9)
 - [Web UI](../topics/web-ui.md) (4)
 
+<a id="repo-addyosmani--tunnel-bear-login"></a>
+
 ## [Tunnel Bear Login Animation](https://github.com/addyosmani/tunnel-bear-login)
 
 An educational React recreation of a TunnelBear-inspired login form with a bear animation that responds to email and password-field interactions.
 
-- **Category:** [Frontend and Design](../categories/frontend-and-design.md)
-- **Topics:** [Web](../topics/web.md) | [Frontend Development](../topics/frontend-development.md) | [Forms](../topics/forms.md) | [UI Components](../topics/ui-components.md)
+- **Category:** [Frontend and Design](../categories/frontend-and-design.md#repo-addyosmani--tunnel-bear-login)
+- **Topics:** [Web](../topics/web.md#repo-addyosmani--tunnel-bear-login) | [Frontend Development](../topics/frontend-development.md#repo-addyosmani--tunnel-bear-login) | [Forms](../topics/forms.md#repo-addyosmani--tunnel-bear-login) | [UI Components](../topics/ui-components.md#repo-addyosmani--tunnel-bear-login)
 - **Kind:** Application
 - **Best for:** Studying a compact, animated React form implementation; Prototyping playful input-state feedback in a Vite web application
 - **Languages:** TypeScript, JavaScript
@@ -57,12 +59,14 @@ An educational React recreation of a TunnelBear-inspired login form with a bear 
   - Password-field focus triggers a bear hiding animation
   - React components and custom hooks separate form, animation, and image-loading concerns
 
+<a id="repo-assistant-ui--assistant-ui"></a>
+
 ## [assistant-ui](https://github.com/assistant-ui/assistant-ui)
 
 A TypeScript and React library for composing production AI chat interfaces from UI primitives and runtime adapters.
 
-- **Category:** [Frontend and Design](../categories/frontend-and-design.md)
-- **Topics:** [Chat UI](../topics/chat-ui.md) | [Generative UI](../topics/generative-ui.md) | [UI Components](../topics/ui-components.md) | [LLMs](../topics/llms.md) | [Tool Use](../topics/tool-use.md) | [Web UI](../topics/web-ui.md)
+- **Category:** [Frontend and Design](../categories/frontend-and-design.md#repo-assistant-ui--assistant-ui)
+- **Topics:** [Chat UI](../topics/chat-ui.md#repo-assistant-ui--assistant-ui) | [Generative UI](../topics/generative-ui.md#repo-assistant-ui--assistant-ui) | [UI Components](../topics/ui-components.md#repo-assistant-ui--assistant-ui) | [LLMs](../topics/llms.md#repo-assistant-ui--assistant-ui) | [Tool Use](../topics/tool-use.md#repo-assistant-ui--assistant-ui) | [Web UI](../topics/web-ui.md#repo-assistant-ui--assistant-ui)
 - **Kind:** Library
 - **Best for:** React teams building custom AI chat or copilot experiences; Projects that need to connect a chat UI to the AI SDK, agent frameworks, or a custom backend
 - **Languages:** TypeScript
@@ -76,12 +80,14 @@ A TypeScript and React library for composing production AI chat interfaces from 
   - Styled Base UI or Radix UI starter components installed by its CLI
   - Streaming chat UX with retries, attachments, markdown, code highlighting, voice dictation, and accessibility
 
+<a id="repo-blueedgetechno--win11react"></a>
+
 ## [Win11React](https://github.com/blueedgetechno/win11React)
 
 An archived React web application that recreates a Windows 11-like desktop experience in the browser, with desktop controls, windowed sample apps, themes, and an optional packaged desktop build; it is not a Microsoft operating system or cloud PC.
 
-- **Category:** [Frontend and Design](../categories/frontend-and-design.md)
-- **Topics:** [Web UI](../topics/web-ui.md) | [Desktop App](../topics/desktop-app.md) | [Frontend Development](../topics/frontend-development.md) | [Open Source](../topics/open-source.md)
+- **Category:** [Frontend and Design](../categories/frontend-and-design.md#repo-blueedgetechno--win11react)
+- **Topics:** [Web UI](../topics/web-ui.md#repo-blueedgetechno--win11react) | [Desktop App](../topics/desktop-app.md#repo-blueedgetechno--win11react) | [Frontend Development](../topics/frontend-development.md#repo-blueedgetechno--win11react) | [Open Source](../topics/open-source.md#repo-blueedgetechno--win11react)
 - **Kind:** Application
 - **Best for:** Inspecting a desktop-style web UI implemented with React and Redux; Exploring interaction patterns such as movable, resizable, and snapped windows
 - **Languages:** JavaScript
@@ -95,12 +101,14 @@ An archived React web application that recreates a Windows 11-like desktop exper
   - Dragging, resizing, and snap layouts for application windows
   - Built-in examples including a browser, terminal, calculator, file explorer, and settings
 
+<a id="repo-chenglou--pretext"></a>
+
 ## [Pretext](https://github.com/chenglou/pretext)
 
 A JavaScript and TypeScript library for calculating multiline text layout without DOM measurement or reflow, using cached canvas-based measurement and Unicode-aware line breaking for height prediction and manual rendering in DOM, Canvas, SVG, or future server-side targets.
 
-- **Category:** [Frontend and Design](../categories/frontend-and-design.md)
-- **Topics:** [Frontend Development](../topics/frontend-development.md) | [Web](../topics/web.md) | [Performance](../topics/performance.md) | [Libraries](../topics/libraries.md)
+- **Category:** [Frontend and Design](../categories/frontend-and-design.md#repo-chenglou--pretext)
+- **Topics:** [Frontend Development](../topics/frontend-development.md#repo-chenglou--pretext) | [Web](../topics/web.md#repo-chenglou--pretext) | [Performance](../topics/performance.md#repo-chenglou--pretext) | [Libraries](../topics/libraries.md#repo-chenglou--pretext)
 - **Kind:** Library
 - **Best for:** Predicting text heights for virtualized or dynamically sized web interfaces; Building custom multiline layouts or renderers that need line-level geometry
 - **Languages:** TypeScript, JavaScript
@@ -114,12 +122,14 @@ A JavaScript and TypeScript library for calculating multiline text layout withou
   - Line-level ranges, statistics, and materialization for manual text rendering
   - Support for normal and pre-wrap whitespace, keep-all word breaking, and letter spacing
 
+<a id="repo-code-hike--codehike"></a>
+
 ## [Code Hike](https://github.com/code-hike/codehike)
 
 A TypeScript library that combines Markdown and React for technical content sites, with published code, MDX, block, and syntax-highlighting utilities.
 
-- **Category:** [Frontend and Design](../categories/frontend-and-design.md)
-- **Topics:** [Frontend Development](../topics/frontend-development.md) | [Documentation](../topics/documentation.md) | [Libraries](../topics/libraries.md) | [Web](../topics/web.md)
+- **Category:** [Frontend and Design](../categories/frontend-and-design.md#repo-code-hike--codehike)
+- **Topics:** [Frontend Development](../topics/frontend-development.md#repo-code-hike--codehike) | [Documentation](../topics/documentation.md#repo-code-hike--codehike) | [Libraries](../topics/libraries.md#repo-code-hike--codehike) | [Web](../topics/web.md#repo-code-hike--codehike)
 - **Kind:** Library
 - **Best for:** React teams building technical documentation, tutorials, or code-focused sites; Authors who want interactive code content from Markdown and MDX
 - **Languages:** TypeScript
@@ -133,12 +143,14 @@ A TypeScript library that combines Markdown and React for technical content site
   - Bridges Markdown and React for rich technical web content
   - Includes code-oriented package exports and a syntax-highlighting dependency
 
+<a id="repo-copilotkit--opengenerativeui"></a>
+
 ## [Open Generative UI](https://github.com/CopilotKit/OpenGenerativeUI)
 
 A CopilotKit and LangGraph showcase/template for agent-driven web interfaces, including streamed sandboxed HTML/SVG widgets and registered React components.
 
-- **Category:** [Frontend and Design](../categories/frontend-and-design.md)
-- **Topics:** [AI Agents](../topics/ai-agents.md) | [Generative UI](../topics/generative-ui.md) | [Web UI](../topics/web-ui.md) | [MCP](../topics/mcp.md) | [Tool Use](../topics/tool-use.md) | [Visualization](../topics/visualization.md)
+- **Category:** [Frontend and Design](../categories/frontend-and-design.md#repo-copilotkit--opengenerativeui)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-copilotkit--opengenerativeui) | [Generative UI](../topics/generative-ui.md#repo-copilotkit--opengenerativeui) | [Web UI](../topics/web-ui.md#repo-copilotkit--opengenerativeui) | [MCP](../topics/mcp.md#repo-copilotkit--opengenerativeui) | [Tool Use](../topics/tool-use.md#repo-copilotkit--opengenerativeui) | [Visualization](../topics/visualization.md#repo-copilotkit--opengenerativeui)
 - **Kind:** Starter Template
 - **Best for:** Developers exploring agent-generated interactive interfaces in a Next.js application; Teams adapting CopilotKit and LangGraph patterns for stateful generative UI
 - **Languages:** TypeScript, Python
@@ -152,12 +164,14 @@ A CopilotKit and LangGraph showcase/template for agent-driven web interfaces, in
   - Registers agent-rendered React components, browser-side tools, tool renderers, and human-in-the-loop UI
   - Runs a Next.js frontend with a Python FastAPI/LangGraph agent service
 
+<a id="repo-evilmartians--agent-prism"></a>
+
 ## [AgentPrism](https://github.com/evilmartians/agent-prism)
 
 An alpha React component library for exploring AI-agent traces as hierarchical timelines, using adapters that normalize OpenTelemetry and Langfuse data.
 
-- **Category:** [Frontend and Design](../categories/frontend-and-design.md)
-- **Topics:** [AI Agents](../topics/ai-agents.md) | [Observability](../topics/observability.md) | [UI Components](../topics/ui-components.md) | [Libraries](../topics/libraries.md) | [LLMs](../topics/llms.md)
+- **Category:** [Frontend and Design](../categories/frontend-and-design.md#repo-evilmartians--agent-prism)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-evilmartians--agent-prism) | [Observability](../topics/observability.md#repo-evilmartians--agent-prism) | [UI Components](../topics/ui-components.md#repo-evilmartians--agent-prism) | [Libraries](../topics/libraries.md#repo-evilmartians--agent-prism) | [LLMs](../topics/llms.md#repo-evilmartians--agent-prism)
 - **Kind:** Library
 - **Best for:** React teams building custom trace viewers for AI-agent debugging; Developers who need to inspect LLM calls, tool executions, and workflow spans
 - **Languages:** TypeScript
@@ -171,12 +185,14 @@ An alpha React component library for exploring AI-agent traces as hierarchical t
   - Provides composable TraceList, TreeView, and DetailsView components for custom layouts
   - Normalizes OpenTelemetry and Langfuse data through adapters and shared trace types
 
+<a id="repo-excalidraw--excalidraw"></a>
+
 ## [Excalidraw](https://github.com/excalidraw/excalidraw)
 
 An open-source, hand-drawn-style virtual whiteboard for diagrams and wireframes, with a hosted collaborative editor and a React component package for embedding the editor in another application.
 
-- **Category:** [Frontend and Design](../categories/frontend-and-design.md)
-- **Topics:** [Web UI](../topics/web-ui.md) | [Realtime Collaboration](../topics/realtime-collaboration.md) | [Local First](../topics/local-first.md) | [Visualization](../topics/visualization.md) | [Open Source](../topics/open-source.md)
+- **Category:** [Frontend and Design](../categories/frontend-and-design.md#repo-excalidraw--excalidraw)
+- **Topics:** [Web UI](../topics/web-ui.md#repo-excalidraw--excalidraw) | [Realtime Collaboration](../topics/realtime-collaboration.md#repo-excalidraw--excalidraw) | [Local First](../topics/local-first.md#repo-excalidraw--excalidraw) | [Visualization](../topics/visualization.md#repo-excalidraw--excalidraw) | [Open Source](../topics/open-source.md#repo-excalidraw--excalidraw)
 - **Kind:** Application
 - **Best for:** Visual ideation, diagramming, and wireframing in a browser; React applications that need an embeddable canvas-based whiteboard
 - **Languages:** TypeScript
@@ -190,12 +206,14 @@ An open-source, hand-drawn-style virtual whiteboard for diagrams and wireframes,
   - Image and shape-library support plus PNG, SVG, clipboard, and .excalidraw JSON export
   - Hosted editor features real-time collaboration and end-to-end encryption
 
+<a id="repo-gridstack--gridstack.js"></a>
+
 ## [gridstack.js](https://github.com/gridstack/gridstack.js)
 
 A TypeScript library for building responsive, draggable, resizable dashboard grids and managing their widget layouts.
 
-- **Category:** [Frontend and Design](../categories/frontend-and-design.md)
-- **Topics:** [Web](../topics/web.md) | [UI Components](../topics/ui-components.md) | [Frontend Development](../topics/frontend-development.md) | [Libraries](../topics/libraries.md)
+- **Category:** [Frontend and Design](../categories/frontend-and-design.md#repo-gridstack--gridstack.js)
+- **Topics:** [Web](../topics/web.md#repo-gridstack--gridstack.js) | [UI Components](../topics/ui-components.md#repo-gridstack--gridstack.js) | [Frontend Development](../topics/frontend-development.md#repo-gridstack--gridstack.js) | [Libraries](../topics/libraries.md#repo-gridstack--gridstack.js)
 - **Kind:** Library
 - **Best for:** Adding configurable multi-column dashboard layouts to a web application; Applications that need to save and restore user-arranged widget positions
 - **Languages:** TypeScript, JavaScript
@@ -209,12 +227,14 @@ A TypeScript library for building responsive, draggable, resizable dashboard gri
   - Native mouse and touch support without runtime dependencies in the core library
   - APIs for creating widgets, loading serialized layouts, and saving layouts
 
+<a id="repo-hakimel--reveal.js"></a>
+
 ## [reveal.js](https://github.com/hakimel/reveal.js)
 
 An HTML presentation framework for authoring and presenting browser-based slide decks with a JavaScript API and optional plugins.
 
-- **Category:** [Frontend and Design](../categories/frontend-and-design.md)
-- **Topics:** [Web](../topics/web.md) | [Frontend Development](../topics/frontend-development.md) | [Frameworks](../topics/frameworks.md) | [Libraries](../topics/libraries.md) | [Accessibility](../topics/accessibility.md)
+- **Category:** [Frontend and Design](../categories/frontend-and-design.md#repo-hakimel--reveal.js)
+- **Topics:** [Web](../topics/web.md#repo-hakimel--reveal.js) | [Frontend Development](../topics/frontend-development.md#repo-hakimel--reveal.js) | [Frameworks](../topics/frameworks.md#repo-hakimel--reveal.js) | [Libraries](../topics/libraries.md#repo-hakimel--reveal.js) | [Accessibility](../topics/accessibility.md#repo-hakimel--reveal.js)
 - **Kind:** Framework
 - **Best for:** Publishing a customized web presentation from HTML, Markdown, or React components; Developers who need a self-hostable slide-deck framework rather than a hosted editor
 - **Languages:** JavaScript, TypeScript, HTML, CSS
@@ -228,12 +248,14 @@ An HTML presentation framework for authoring and presenting browser-based slide 
   - Plugins for Markdown, syntax highlighting, math, speaker notes, search, and zoom
   - PDF export, speaker view, Auto-Animate, and a documented JavaScript API
 
+<a id="repo-juliangarnier--anime"></a>
+
 ## [Anime.js](https://github.com/juliangarnier/anime)
 
 A JavaScript animation library for animating CSS properties, SVG, DOM attributes, and JavaScript objects through a modular API.
 
-- **Category:** [Frontend and Design](../categories/frontend-and-design.md)
-- **Topics:** [Web](../topics/web.md) | [Frontend Development](../topics/frontend-development.md) | [Libraries](../topics/libraries.md) | [Visualization](../topics/visualization.md)
+- **Category:** [Frontend and Design](../categories/frontend-and-design.md#repo-juliangarnier--anime)
+- **Topics:** [Web](../topics/web.md#repo-juliangarnier--anime) | [Frontend Development](../topics/frontend-development.md#repo-juliangarnier--anime) | [Libraries](../topics/libraries.md#repo-juliangarnier--anime) | [Visualization](../topics/visualization.md#repo-juliangarnier--anime)
 - **Kind:** Library
 - **Best for:** Adding programmatic motion and timelines to a web interface; Projects that need one animation API across DOM, SVG, and object targets
 - **Languages:** JavaScript, TypeScript
@@ -247,12 +269,14 @@ A JavaScript animation library for animating CSS properties, SVG, DOM attributes
   - ESM, CommonJS, UMD, and TypeScript declaration package outputs
   - Modules for SVG, text, layout, scroll, draggable interactions, and the Web Animations API
 
+<a id="repo-leonxlnx--taste-skill"></a>
+
 ## [Taste Skill](https://github.com/Leonxlnx/taste-skill)
 
 A collection of portable agent-skill instruction files for improving the visual design and implementation of AI-generated frontend interfaces.
 
-- **Category:** [Frontend and Design](../categories/frontend-and-design.md)
-- **Topics:** [AI Agents](../topics/ai-agents.md) | [Agent Skills](../topics/agent-skills.md) | [Frontend Development](../topics/frontend-development.md) | [Code Generation](../topics/code-generation.md) | [Design Systems](../topics/design-systems.md)
+- **Category:** [Frontend and Design](../categories/frontend-and-design.md#repo-leonxlnx--taste-skill)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-leonxlnx--taste-skill) | [Agent Skills](../topics/agent-skills.md#repo-leonxlnx--taste-skill) | [Frontend Development](../topics/frontend-development.md#repo-leonxlnx--taste-skill) | [Code Generation](../topics/code-generation.md#repo-leonxlnx--taste-skill) | [Design Systems](../topics/design-systems.md#repo-leonxlnx--taste-skill)
 - **Kind:** Library
 - **Best for:** Developers directing coding agents to build or redesign web interfaces; Teams that want selectable visual-design guidance and image-to-code workflows
 - **Languages:** Markdown, JavaScript
@@ -266,12 +290,14 @@ A collection of portable agent-skill instruction files for improving the visual 
   - Provides specialized skills for existing-project redesign, image-to-code implementation, and visual styles such as soft, minimalist, and brutalist
   - Includes image-generation skills for web comps, mobile screens, and brand-kit reference boards
 
+<a id="repo-nexu-io--open-design"></a>
+
 ## [Open Design](https://github.com/nexu-io/open-design)
 
 A local-first desktop design workspace that uses coding agents, skills, and design systems to generate, preview, and export code-based design artifacts.
 
-- **Category:** [Frontend and Design](../categories/frontend-and-design.md)
-- **Topics:** [Desktop App](../topics/desktop-app.md) | [Design Systems](../topics/design-systems.md) | [Code Generation](../topics/code-generation.md) | [Coding Agents](../topics/coding-agents.md) | [MCP](../topics/mcp.md) | [Local First](../topics/local-first.md)
+- **Category:** [Frontend and Design](../categories/frontend-and-design.md#repo-nexu-io--open-design)
+- **Topics:** [Desktop App](../topics/desktop-app.md#repo-nexu-io--open-design) | [Design Systems](../topics/design-systems.md#repo-nexu-io--open-design) | [Code Generation](../topics/code-generation.md#repo-nexu-io--open-design) | [Coding Agents](../topics/coding-agents.md#repo-nexu-io--open-design) | [MCP](../topics/mcp.md#repo-nexu-io--open-design) | [Local First](../topics/local-first.md#repo-nexu-io--open-design)
 - **Kind:** Application
 - **Best for:** Designers and developers prototyping interface artifacts with a local coding agent; Teams that want reusable DESIGN.md-based brand and design-system inputs
 - **Languages:** TypeScript, JavaScript
@@ -285,12 +311,14 @@ A local-first desktop design workspace that uses coding agents, skills, and desi
   - Previews HTML artifacts in a sandboxed iframe and exports HTML, PDF, PPTX, or MP4
   - Supplies skills, design systems, plugins, a CLI, and an MCP server
 
+<a id="repo-pbakaus--impeccable"></a>
+
 ## [Impeccable](https://github.com/pbakaus/impeccable)
 
 A design skill and command suite for AI coding tools, paired with browser iteration and a standalone CLI that detects deterministic frontend anti-patterns in source files, directories, and URLs.
 
-- **Category:** [Frontend and Design](../categories/frontend-and-design.md)
-- **Topics:** [Coding Agents](../topics/coding-agents.md) | [Agent Skills](../topics/agent-skills.md) | [Frontend Development](../topics/frontend-development.md) | [Design Systems](../topics/design-systems.md) | [Accessibility](../topics/accessibility.md) | [CLI](../topics/cli.md)
+- **Category:** [Frontend and Design](../categories/frontend-and-design.md#repo-pbakaus--impeccable)
+- **Topics:** [Coding Agents](../topics/coding-agents.md#repo-pbakaus--impeccable) | [Agent Skills](../topics/agent-skills.md#repo-pbakaus--impeccable) | [Frontend Development](../topics/frontend-development.md#repo-pbakaus--impeccable) | [Design Systems](../topics/design-systems.md#repo-pbakaus--impeccable) | [Accessibility](../topics/accessibility.md#repo-pbakaus--impeccable) | [CLI](../topics/cli.md#repo-pbakaus--impeccable)
 - **Kind:** Plugin
 - **Best for:** Teams guiding AI coding agents toward an established frontend design language; Reviewing generated interface code for repeatable design and accessibility issues
 - **Languages:** JavaScript
@@ -304,12 +332,14 @@ A design skill and command suite for AI coding tools, paired with browser iterat
   - Project design context through PRODUCT.md and optional DESIGN.md
   - Standalone CLI detector for directories, HTML files, URLs, and JSON output
 
+<a id="repo-pierrecomputer--pierre"></a>
+
 ## [Pierre](https://github.com/pierrecomputer/pierre)
 
 A TypeScript monorepo for public packages that render code diffs and file trees, with React, server-rendered, worker, and web-component entry points.
 
-- **Category:** [Frontend and Design](../categories/frontend-and-design.md)
-- **Topics:** [Web](../topics/web.md) | [UI Components](../topics/ui-components.md) | [Frontend Development](../topics/frontend-development.md) | [Code Review](../topics/code-review.md) | [Libraries](../topics/libraries.md)
+- **Category:** [Frontend and Design](../categories/frontend-and-design.md#repo-pierrecomputer--pierre)
+- **Topics:** [Web](../topics/web.md#repo-pierrecomputer--pierre) | [UI Components](../topics/ui-components.md#repo-pierrecomputer--pierre) | [Frontend Development](../topics/frontend-development.md#repo-pierrecomputer--pierre) | [Code Review](../topics/code-review.md#repo-pierrecomputer--pierre) | [Libraries](../topics/libraries.md#repo-pierrecomputer--pierre)
 - **Kind:** Monorepo
 - **Best for:** Building polished code-review, change-inspection, or repository-navigation interfaces; Teams that need reusable diff and tree renderers rather than a complete Git client
 - **Languages:** TypeScript
@@ -323,12 +353,14 @@ A TypeScript monorepo for public packages that render code diffs and file trees,
   - Public @pierre/trees package with React, SSR, and web-component entry points
   - Separate theming, theme, and path-store packages shared by the UI packages
 
+<a id="repo-rtfpessoa--diff2html"></a>
+
 ## [diff2html](https://github.com/rtfpessoa/diff2html)
 
 A TypeScript library that parses Git or unified diffs and renders them as formatted HTML, with a browser UI wrapper and Node.js distribution.
 
-- **Category:** [Frontend and Design](../categories/frontend-and-design.md)
-- **Topics:** [Git](../topics/git.md) | [Web](../topics/web.md) | [UI Components](../topics/ui-components.md) | [Libraries](../topics/libraries.md)
+- **Category:** [Frontend and Design](../categories/frontend-and-design.md#repo-rtfpessoa--diff2html)
+- **Topics:** [Git](../topics/git.md#repo-rtfpessoa--diff2html) | [Web](../topics/web.md#repo-rtfpessoa--diff2html) | [UI Components](../topics/ui-components.md#repo-rtfpessoa--diff2html) | [Libraries](../topics/libraries.md#repo-rtfpessoa--diff2html)
 - **Kind:** Library
 - **Best for:** Adding rendered file diffs to web interfaces; Converting Git or unified-diff output into embeddable HTML
 - **Languages:** TypeScript, JavaScript
@@ -342,12 +374,14 @@ A TypeScript library that parses Git or unified diffs and renders them as format
   - Renders line-by-line and side-by-side comparisons
   - Provides parser and HTML-generation APIs
 
+<a id="repo-spartan-ng--spartan"></a>
+
 ## [spartan](https://github.com/spartan-ng/spartan)
 
 An Angular monorepo for accessible headless UI primitives, copy-paste shadcn-style components, workspace tooling, and an optional full-stack setup.
 
-- **Category:** [Frontend and Design](../categories/frontend-and-design.md)
-- **Topics:** [Frontend Development](../topics/frontend-development.md) | [UI Components](../topics/ui-components.md) | [Design Systems](../topics/design-systems.md) | [Accessibility](../topics/accessibility.md) | [CLI](../topics/cli.md) | [MCP](../topics/mcp.md)
+- **Category:** [Frontend and Design](../categories/frontend-and-design.md#repo-spartan-ng--spartan)
+- **Topics:** [Frontend Development](../topics/frontend-development.md#repo-spartan-ng--spartan) | [UI Components](../topics/ui-components.md#repo-spartan-ng--spartan) | [Design Systems](../topics/design-systems.md#repo-spartan-ng--spartan) | [Accessibility](../topics/accessibility.md#repo-spartan-ng--spartan) | [CLI](../topics/cli.md#repo-spartan-ng--spartan) | [MCP](../topics/mcp.md#repo-spartan-ng--spartan)
 - **Kind:** Monorepo
 - **Best for:** Angular teams building accessible, customizable component interfaces; Nx or Angular workspaces that want generated spartan UI integration
 - **Languages:** TypeScript
@@ -361,12 +395,14 @@ An Angular monorepo for accessible headless UI primitives, copy-paste shadcn-sty
   - Headless, accessible behavior primitives in @spartan-ng/brain
   - Copy-paste helm styles that remain owned by the application
 
+<a id="repo-swyxio--spark-joy"></a>
+
 ## [Spark Joy](https://github.com/swyxio/spark-joy)
 
 A large, hand-curated README index of resources for adding visual flair, usability, and whimsy to product interfaces, spanning web design, CSS, typography, graphics, interaction, and design inspiration.
 
-- **Category:** [Frontend and Design](../categories/frontend-and-design.md)
-- **Topics:** [Curated Lists](../topics/curated-lists.md) | [Frontend Development](../topics/frontend-development.md) | [Web](../topics/web.md) | [UI Components](../topics/ui-components.md) | [Design Systems](../topics/design-systems.md) | [Accessibility](../topics/accessibility.md) | [Visualization](../topics/visualization.md) | [Reference](../topics/reference.md)
+- **Category:** [Frontend and Design](../categories/frontend-and-design.md#repo-swyxio--spark-joy)
+- **Topics:** [Curated Lists](../topics/curated-lists.md#repo-swyxio--spark-joy) | [Frontend Development](../topics/frontend-development.md#repo-swyxio--spark-joy) | [Web](../topics/web.md#repo-swyxio--spark-joy) | [UI Components](../topics/ui-components.md#repo-swyxio--spark-joy) | [Design Systems](../topics/design-systems.md#repo-swyxio--spark-joy) | [Accessibility](../topics/accessibility.md#repo-swyxio--spark-joy) | [Visualization](../topics/visualization.md#repo-swyxio--spark-joy) | [Reference](../topics/reference.md#repo-swyxio--spark-joy)
 - **Kind:** Curated List
 - **Best for:** Designers and frontend developers collecting interface and visual-design references; Product teams looking for inspiration or a starting point for specific UI details
 - **Languages:** Markdown
@@ -380,12 +416,14 @@ A large, hand-curated README index of resources for adding visual flair, usabili
   - Covers icons, diagrams, illustrations, stock media, and SVG or graphics tools
   - Includes references for form controls, charts, dashboards, and React components
 
+<a id="repo-vercel--ai-elements"></a>
+
 ## [AI Elements](https://github.com/vercel/ai-elements)
 
 A shadcn/ui-based React component library and registry for adding customizable conversation, message, code, reasoning, and other AI interface elements to Next.js applications.
 
-- **Category:** [Frontend and Design](../categories/frontend-and-design.md)
-- **Topics:** [LLMs](../topics/llms.md) | [Chat UI](../topics/chat-ui.md) | [UI Components](../topics/ui-components.md) | [Design Systems](../topics/design-systems.md) | [Frontend Development](../topics/frontend-development.md) | [Libraries](../topics/libraries.md) | [Open Source](../topics/open-source.md)
+- **Category:** [Frontend and Design](../categories/frontend-and-design.md#repo-vercel--ai-elements)
+- **Topics:** [LLMs](../topics/llms.md#repo-vercel--ai-elements) | [Chat UI](../topics/chat-ui.md#repo-vercel--ai-elements) | [UI Components](../topics/ui-components.md#repo-vercel--ai-elements) | [Design Systems](../topics/design-systems.md#repo-vercel--ai-elements) | [Frontend Development](../topics/frontend-development.md#repo-vercel--ai-elements) | [Libraries](../topics/libraries.md#repo-vercel--ai-elements) | [Open Source](../topics/open-source.md#repo-vercel--ai-elements)
 - **Kind:** Library
 - **Best for:** Teams building a customizable chat or generative-AI interface with Next.js; Projects that already use shadcn/ui, Tailwind CSS, and the AI SDK
 - **Languages:** TypeScript

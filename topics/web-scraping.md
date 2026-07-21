@@ -10,12 +10,14 @@
 - [Backend and APIs](../categories/backend-and-apis.md) (1)
 - [Developer Tools](../categories/developer-tools.md) (1)
 
+<a id="repo-browser-use--browser-use"></a>
+
 ## [Browser Use](https://github.com/browser-use/browser-use)
 
 A Python library and CLI for LLM-driven agents that operate web browsers, including navigating pages, clicking controls, entering form data, and extracting information for repeatable web tasks.
 
-- **Category:** [AI and Automation](../categories/ai-and-automation.md)
-- **Topics:** [AI Agents](../topics/ai-agents.md) | [Browser Automation](../topics/browser-automation.md) | [Computer Use](../topics/computer-use.md) | [Tool Use](../topics/tool-use.md) | [CLI](../topics/cli.md) | [MCP](../topics/mcp.md) | [Web Scraping](../topics/web-scraping.md)
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-browser-use--browser-use)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-browser-use--browser-use) | [Browser Automation](../topics/browser-automation.md#repo-browser-use--browser-use) | [Computer Use](../topics/computer-use.md#repo-browser-use--browser-use) | [Tool Use](../topics/tool-use.md#repo-browser-use--browser-use) | [CLI](../topics/cli.md#repo-browser-use--browser-use) | [MCP](../topics/mcp.md#repo-browser-use--browser-use) | [Web Scraping](../topics/web-scraping.md#repo-browser-use--browser-use)
 - **Kind:** Library
 - **Best for:** Developers embedding browser automation in an AI agent or product; Agent users who need a local CLI skill for one-off browser tasks
 - **Languages:** Python
@@ -29,12 +31,14 @@ A Python library and CLI for LLM-driven agents that operate web browsers, includ
   - Browser interactions for pages, buttons, text input, forms, and data extraction
   - Custom action tools for extending an agent's capabilities
 
+<a id="repo-cloakhq--cloakbrowser"></a>
+
 ## [CloakBrowser](https://github.com/CloakHQ/CloakBrowser)
 
 Python and JavaScript wrappers that launch a custom Chromium binary through Playwright or Puppeteer-compatible APIs, with fingerprint-oriented browser modifications and optional humanized input behavior.
 
-- **Category:** [Developer Tools](../categories/developer-tools.md)
-- **Topics:** [Browser Automation](../topics/browser-automation.md) | [Web Scraping](../topics/web-scraping.md) | [CLI](../topics/cli.md) | [Testing](../topics/testing.md) | [Containers](../topics/containers.md)
+- **Category:** [Developer Tools](../categories/developer-tools.md#repo-cloakhq--cloakbrowser)
+- **Topics:** [Browser Automation](../topics/browser-automation.md#repo-cloakhq--cloakbrowser) | [Web Scraping](../topics/web-scraping.md#repo-cloakhq--cloakbrowser) | [CLI](../topics/cli.md#repo-cloakhq--cloakbrowser) | [Testing](../topics/testing.md#repo-cloakhq--cloakbrowser) | [Containers](../topics/containers.md#repo-cloakhq--cloakbrowser)
 - **Kind:** Library
 - **Best for:** Developers adapting existing Playwright or Puppeteer automation; Browser-automation workflows that need custom Chromium builds and proxy-aware settings
 - **Languages:** Python, TypeScript, C++
@@ -48,12 +52,14 @@ Python and JavaScript wrappers that launch a custom Chromium binary through Play
   - Downloads and caches a platform-specific custom Chromium binary on first launch
   - Supports proxy, timezone, locale, persistent-profile, and extension-path options
 
+<a id="repo-davis7dotsh--my-pi-setup"></a>
+
 ## [my pi setup](https://github.com/davis7dotsh/my-pi-setup)
 
 An opinionated TypeScript configuration and extension collection for the Pi coding agent, adding search and scraping, background terminals, subagents, workflows, interactive questions, file search, and terminal UI customization.
 
-- **Category:** [AI and Automation](../categories/ai-and-automation.md)
-- **Topics:** [Coding Agents](../topics/coding-agents.md) | [Agent Skills](../topics/agent-skills.md) | [Multi Agent](../topics/multi-agent.md) | [Terminal](../topics/terminal.md) | [Web Search](../topics/web-search.md) | [Web Scraping](../topics/web-scraping.md) | [Developer Productivity](../topics/developer-productivity.md)
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-davis7dotsh--my-pi-setup)
+- **Topics:** [Coding Agents](../topics/coding-agents.md#repo-davis7dotsh--my-pi-setup) | [Agent Skills](../topics/agent-skills.md#repo-davis7dotsh--my-pi-setup) | [Multi Agent](../topics/multi-agent.md#repo-davis7dotsh--my-pi-setup) | [Terminal](../topics/terminal.md#repo-davis7dotsh--my-pi-setup) | [Web Search](../topics/web-search.md#repo-davis7dotsh--my-pi-setup) | [Web Scraping](../topics/web-scraping.md#repo-davis7dotsh--my-pi-setup) | [Developer Productivity](../topics/developer-productivity.md#repo-davis7dotsh--my-pi-setup)
 - **Kind:** Starter Template
 - **Best for:** Pi users seeking concrete examples of extending a personal coding-agent environment; Exploring a bundled set of search, terminal-management, and subagent extensions before selecting pieces to adapt
 - **Languages:** TypeScript, JavaScript
@@ -67,12 +73,14 @@ An opinionated TypeScript configuration and extension collection for the Pi codi
   - Background terminals with a user interface for managing them
   - Subagents and workflows for Pi
 
+<a id="repo-dzhng--deep-research"></a>
+
 ## [Open Deep Research](https://github.com/dzhng/deep-research)
 
 A compact TypeScript research assistant that iteratively queries search and scraping services, analyzes findings with an LLM, and writes a sourced Markdown report.
 
-- **Category:** [AI and Automation](../categories/ai-and-automation.md)
-- **Topics:** [AI Agents](../topics/ai-agents.md) | [Web Search](../topics/web-search.md) | [Web Scraping](../topics/web-scraping.md) | [LLMs](../topics/llms.md) | [CLI](../topics/cli.md) | [Self Hosted](../topics/self-hosted.md) | [Documentation](../topics/documentation.md)
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-dzhng--deep-research)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-dzhng--deep-research) | [Web Search](../topics/web-search.md#repo-dzhng--deep-research) | [Web Scraping](../topics/web-scraping.md#repo-dzhng--deep-research) | [LLMs](../topics/llms.md#repo-dzhng--deep-research) | [CLI](../topics/cli.md#repo-dzhng--deep-research) | [Self Hosted](../topics/self-hosted.md#repo-dzhng--deep-research) | [Documentation](../topics/documentation.md#repo-dzhng--deep-research)
 - **Kind:** Application
 - **Best for:** Studying a small, configurable implementation of iterative deep research; Running guided research from a local Node.js environment with supported provider credentials
 - **Languages:** TypeScript
@@ -86,12 +94,14 @@ A compact TypeScript research assistant that iteratively queries search and scra
   - Iteratively generates search queries, processes results, and explores new directions
   - Controls research breadth, depth, and concurrency through prompted values and environment settings
 
+<a id="repo-ericciarla--trendfinder"></a>
+
 ## [trendFinder](https://github.com/ericciarla/trendFinder)
 
 A scheduled TypeScript application that collects selected X posts and web pages, uses an AI provider to identify trends, and sends Slack or Discord notifications.
 
-- **Category:** [AI and Automation](../categories/ai-and-automation.md)
-- **Topics:** [LLMs](../topics/llms.md) | [Automation](../topics/automation.md) | [Web](../topics/web.md) | [Web Scraping](../topics/web-scraping.md) | [Containers](../topics/containers.md)
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-ericciarla--trendfinder)
+- **Topics:** [LLMs](../topics/llms.md#repo-ericciarla--trendfinder) | [Automation](../topics/automation.md#repo-ericciarla--trendfinder) | [Web](../topics/web.md#repo-ericciarla--trendfinder) | [Web Scraping](../topics/web-scraping.md#repo-ericciarla--trendfinder) | [Containers](../topics/containers.md#repo-ericciarla--trendfinder)
 - **Kind:** Application
 - **Best for:** Teams monitoring selected social accounts and websites for emerging topics; Marketing workflows that need notifications about detected launches or trends
 - **Languages:** TypeScript
@@ -105,12 +115,14 @@ A scheduled TypeScript application that collects selected X posts and web pages,
   - Website release and news extraction through Firecrawl
   - Together AI-based analysis of trends, releases, sentiment, and relevance
 
+<a id="repo-firecrawl--firecrawl"></a>
+
 ## [firecrawl](https://github.com/firecrawl/firecrawl)
 
 An API and SDK platform for web search, scraping, crawling, and browser interaction that returns AI-ready Markdown, structured data, and other content.
 
-- **Category:** [Backend and APIs](../categories/backend-and-apis.md)
-- **Topics:** [AI Agents](../topics/ai-agents.md) | [LLMs](../topics/llms.md) | [Web Search](../topics/web-search.md) | [Web Scraping](../topics/web-scraping.md) | [Browser Automation](../topics/browser-automation.md) | [Document Processing](../topics/document-processing.md) | [Self Hosted](../topics/self-hosted.md) | [Open Source](../topics/open-source.md)
+- **Category:** [Backend and APIs](../categories/backend-and-apis.md#repo-firecrawl--firecrawl)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-firecrawl--firecrawl) | [LLMs](../topics/llms.md#repo-firecrawl--firecrawl) | [Web Search](../topics/web-search.md#repo-firecrawl--firecrawl) | [Web Scraping](../topics/web-scraping.md#repo-firecrawl--firecrawl) | [Browser Automation](../topics/browser-automation.md#repo-firecrawl--firecrawl) | [Document Processing](../topics/document-processing.md#repo-firecrawl--firecrawl) | [Self Hosted](../topics/self-hosted.md#repo-firecrawl--firecrawl) | [Open Source](../topics/open-source.md#repo-firecrawl--firecrawl)
 - **Kind:** Service
 - **Best for:** Developers supplying current web context to AI applications and agents; Teams that need search, extraction, crawling, and page interaction behind one API
 - **Languages:** TypeScript, Go, Python, Rust
@@ -124,12 +136,14 @@ An API and SDK platform for web search, scraping, crawling, and browser interact
   - Scrape URLs into Markdown, HTML, screenshots, or structured JSON
   - Crawl a site, map its URLs, or batch-scrape many pages asynchronously
 
+<a id="repo-unclecode--crawl4ai"></a>
+
 ## [Crawl4AI](https://github.com/unclecode/crawl4ai)
 
 A Python crawler and scraper that uses browser automation to turn web pages into LLM-ready Markdown or structured data for agents, RAG, and pipelines.
 
-- **Category:** [AI and Automation](../categories/ai-and-automation.md)
-- **Topics:** [Web Scraping](../topics/web-scraping.md) | [LLMs](../topics/llms.md) | [Web](../topics/web.md) | [CLI](../topics/cli.md) | [Browser Automation](../topics/browser-automation.md) | [Document Processing](../topics/document-processing.md) | [Self Hosted](../topics/self-hosted.md) | [Open Source](../topics/open-source.md)
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-unclecode--crawl4ai)
+- **Topics:** [Web Scraping](../topics/web-scraping.md#repo-unclecode--crawl4ai) | [LLMs](../topics/llms.md#repo-unclecode--crawl4ai) | [Web](../topics/web.md#repo-unclecode--crawl4ai) | [CLI](../topics/cli.md#repo-unclecode--crawl4ai) | [Browser Automation](../topics/browser-automation.md#repo-unclecode--crawl4ai) | [Document Processing](../topics/document-processing.md#repo-unclecode--crawl4ai) | [Self Hosted](../topics/self-hosted.md#repo-unclecode--crawl4ai) | [Open Source](../topics/open-source.md#repo-unclecode--crawl4ai)
 - **Kind:** Library
 - **Best for:** Python projects that need controllable asynchronous web extraction; Preparing crawled web content for LLM, RAG, or structured-data workflows
 - **Languages:** Python, JavaScript

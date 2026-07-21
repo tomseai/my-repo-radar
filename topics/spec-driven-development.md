@@ -8,12 +8,14 @@
 
 - [AI and Automation](../categories/ai-and-automation.md) (5)
 
+<a id="repo-addyosmani--agent-skills"></a>
+
 ## [Agent Skills](https://github.com/addyosmani/agent-skills)
 
 An MIT-licensed pack of 24 structured engineering-workflow skills, agent personas, checklists, and lifecycle commands for AI coding agents.
 
-- **Category:** [AI and Automation](../categories/ai-and-automation.md)
-- **Topics:** [AI Agents](../topics/ai-agents.md) | [Coding Agents](../topics/coding-agents.md) | [Agent Skills](../topics/agent-skills.md) | [Agent Governance](../topics/agent-governance.md) | [Spec Driven Development](../topics/spec-driven-development.md) | [Testing](../topics/testing.md) | [Code Review](../topics/code-review.md) | [Developer Productivity](../topics/developer-productivity.md)
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-addyosmani--agent-skills)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-addyosmani--agent-skills) | [Coding Agents](../topics/coding-agents.md#repo-addyosmani--agent-skills) | [Agent Skills](../topics/agent-skills.md#repo-addyosmani--agent-skills) | [Agent Governance](../topics/agent-governance.md#repo-addyosmani--agent-skills) | [Spec Driven Development](../topics/spec-driven-development.md#repo-addyosmani--agent-skills) | [Testing](../topics/testing.md#repo-addyosmani--agent-skills) | [Code Review](../topics/code-review.md#repo-addyosmani--agent-skills) | [Developer Productivity](../topics/developer-productivity.md#repo-addyosmani--agent-skills)
 - **Kind:** Curated List
 - **Best for:** Adding reusable, verification-oriented development workflows to compatible coding agents; Selecting focused skills for specification, planning, implementation, testing, review, and shipping
 - **Languages:** JavaScript
@@ -27,12 +29,14 @@ An MIT-licensed pack of 24 structured engineering-workflow skills, agent persona
   - Eight lifecycle slash commands that activate related skills, including spec, plan, build, test, review, and ship
   - Four specialist review personas for code review, testing, security, and web performance
 
+<a id="repo-bmad-code-org--bmad-method"></a>
+
 ## [BMad Method](https://github.com/bmad-code-org/BMAD-METHOD)
 
 An AI-assisted software-development framework that installs specialized agent skills and guided workflows for taking a project from analysis and planning through architecture, implementation, and deployment.
 
-- **Category:** [AI and Automation](../categories/ai-and-automation.md)
-- **Topics:** [Coding Agents](../topics/coding-agents.md) | [Agent Skills](../topics/agent-skills.md) | [Task Planning](../topics/task-planning.md) | [Spec Driven Development](../topics/spec-driven-development.md) | [Multi Agent](../topics/multi-agent.md) | [CLI](../topics/cli.md) | [Developer Productivity](../topics/developer-productivity.md)
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-bmad-code-org--bmad-method)
+- **Topics:** [Coding Agents](../topics/coding-agents.md#repo-bmad-code-org--bmad-method) | [Agent Skills](../topics/agent-skills.md#repo-bmad-code-org--bmad-method) | [Task Planning](../topics/task-planning.md#repo-bmad-code-org--bmad-method) | [Spec Driven Development](../topics/spec-driven-development.md#repo-bmad-code-org--bmad-method) | [Multi Agent](../topics/multi-agent.md#repo-bmad-code-org--bmad-method) | [CLI](../topics/cli.md#repo-bmad-code-org--bmad-method) | [Developer Productivity](../topics/developer-productivity.md#repo-bmad-code-org--bmad-method)
 - **Kind:** Framework
 - **Best for:** Teams wanting a structured, scale-adaptive workflow for AI-assisted development; Developers using a compatible AI-powered IDE for planning and implementation work
 - **Languages:** JavaScript, Python
@@ -46,12 +50,14 @@ An AI-assisted software-development framework that installs specialized agent sk
   - Planning tracks for quick fixes, product work, and enterprise-oriented projects
   - Specialized agent skills plus bmad-help for context-aware workflow guidance
 
+<a id="repo-fission-ai--openspec"></a>
+
 ## [OpenSpec](https://github.com/Fission-AI/OpenSpec)
 
 A Node.js CLI and coding-agent workflow for keeping Markdown specifications and change artifacts alongside code before and during implementation.
 
-- **Category:** [AI and Automation](../categories/ai-and-automation.md)
-- **Topics:** [Coding Agents](../topics/coding-agents.md) | [Spec Driven Development](../topics/spec-driven-development.md) | [Task Planning](../topics/task-planning.md) | [Context Engineering](../topics/context-engineering.md) | [CLI](../topics/cli.md) | [Documentation](../topics/documentation.md) | [Developer Productivity](../topics/developer-productivity.md)
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-fission-ai--openspec)
+- **Topics:** [Coding Agents](../topics/coding-agents.md#repo-fission-ai--openspec) | [Spec Driven Development](../topics/spec-driven-development.md#repo-fission-ai--openspec) | [Task Planning](../topics/task-planning.md#repo-fission-ai--openspec) | [Context Engineering](../topics/context-engineering.md#repo-fission-ai--openspec) | [CLI](../topics/cli.md#repo-fission-ai--openspec) | [Documentation](../topics/documentation.md#repo-fission-ai--openspec) | [Developer Productivity](../topics/developer-productivity.md#repo-fission-ai--openspec)
 - **Kind:** CLI
 - **Best for:** Teams using coding agents for changes that need shared, reviewable requirements; Existing repositories that need focused specification deltas instead of a rewrite
 - **Languages:** TypeScript
@@ -65,12 +71,14 @@ A Node.js CLI and coding-agent workflow for keeping Markdown specifications and 
   - Per-change proposal, design, task, and delta-spec artifacts
   - Explore, propose, apply, and archive coding-agent command workflow
 
+<a id="repo-github--spec-kit"></a>
+
 ## [Spec Kit](https://github.com/github/spec-kit)
 
 A Python CLI and template toolkit that initializes a repeatable spec-driven-development workflow for AI coding agents, taking projects from governing principles and specifications through planning, tasks, implementation, and review.
 
-- **Category:** [AI and Automation](../categories/ai-and-automation.md)
-- **Topics:** [AI Agents](../topics/ai-agents.md) | [Coding Agents](../topics/coding-agents.md) | [CLI](../topics/cli.md) | [Spec Driven Development](../topics/spec-driven-development.md) | [Task Planning](../topics/task-planning.md) | [Documentation](../topics/documentation.md) | [Developer Productivity](../topics/developer-productivity.md)
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-github--spec-kit)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-github--spec-kit) | [Coding Agents](../topics/coding-agents.md#repo-github--spec-kit) | [CLI](../topics/cli.md#repo-github--spec-kit) | [Spec Driven Development](../topics/spec-driven-development.md#repo-github--spec-kit) | [Task Planning](../topics/task-planning.md#repo-github--spec-kit) | [Documentation](../topics/documentation.md#repo-github--spec-kit) | [Developer Productivity](../topics/developer-productivity.md#repo-github--spec-kit)
 - **Kind:** CLI
 - **Best for:** Teams that want agent-assisted development to start with explicit requirements and plans; Projects that need reusable workflow templates across supported coding-agent integrations
 - **Languages:** Python
@@ -84,12 +92,14 @@ A Python CLI and template toolkit that initializes a repeatable spec-driven-deve
   - Core agent commands cover constitution, specification, clarification, planning, tasks, analysis, implementation, and convergence
   - Integration management can list, install, switch, upgrade, and report managed integration state
 
+<a id="repo-shep-ai--shep"></a>
+
 ## [Shep](https://github.com/shep-ai/shep)
 
 A local-first orchestrator that runs parallel coding agents in isolated Git worktrees and drives feature branches through implementation, optional specification gates, commits, CI retry fixes, and draft pull requests.
 
-- **Category:** [AI and Automation](../categories/ai-and-automation.md)
-- **Topics:** [AI Agents](../topics/ai-agents.md) | [Coding Agents](../topics/coding-agents.md) | [Agent Orchestration](../topics/agent-orchestration.md) | [Parallel Agents](../topics/parallel-agents.md) | [Worktrees](../topics/worktrees.md) | [CLI](../topics/cli.md) | [Web UI](../topics/web-ui.md) | [Git](../topics/git.md) | [Pull Requests](../topics/pull-requests.md) | [Local First](../topics/local-first.md) | [Spec Driven Development](../topics/spec-driven-development.md)
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-shep-ai--shep)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-shep-ai--shep) | [Coding Agents](../topics/coding-agents.md#repo-shep-ai--shep) | [Agent Orchestration](../topics/agent-orchestration.md#repo-shep-ai--shep) | [Parallel Agents](../topics/parallel-agents.md#repo-shep-ai--shep) | [Worktrees](../topics/worktrees.md#repo-shep-ai--shep) | [CLI](../topics/cli.md#repo-shep-ai--shep) | [Web UI](../topics/web-ui.md#repo-shep-ai--shep) | [Git](../topics/git.md#repo-shep-ai--shep) | [Pull Requests](../topics/pull-requests.md#repo-shep-ai--shep) | [Local First](../topics/local-first.md#repo-shep-ai--shep) | [Spec Driven Development](../topics/spec-driven-development.md#repo-shep-ai--shep)
 - **Kind:** Application
 - **Best for:** Developers coordinating several AI coding-agent tasks against one repository; Teams that want agent output isolated in reviewable draft pull-request workflows
 - **Languages:** TypeScript

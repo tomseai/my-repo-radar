@@ -10,12 +10,14 @@
 - [Developer Tools](../categories/developer-tools.md) (2)
 - [Documentation and Learning](../categories/documentation-and-learning.md) (2)
 
+<a id="repo-chromedevtools--chrome-devtools-mcp"></a>
+
 ## [Chrome DevTools for agents](https://github.com/ChromeDevTools/chrome-devtools-mcp)
 
 An MCP server and command-line tool that lets coding agents control and inspect a live Chrome browser for automation, debugging, and performance analysis.
 
-- **Category:** [Developer Tools](../categories/developer-tools.md)
-- **Topics:** [MCP](../topics/mcp.md) | [Coding Agents](../topics/coding-agents.md) | [Browser Automation](../topics/browser-automation.md) | [Debugging](../topics/debugging.md) | [Performance](../topics/performance.md) | [CLI](../topics/cli.md)
+- **Category:** [Developer Tools](../categories/developer-tools.md#repo-chromedevtools--chrome-devtools-mcp)
+- **Topics:** [MCP](../topics/mcp.md#repo-chromedevtools--chrome-devtools-mcp) | [Coding Agents](../topics/coding-agents.md#repo-chromedevtools--chrome-devtools-mcp) | [Browser Automation](../topics/browser-automation.md#repo-chromedevtools--chrome-devtools-mcp) | [Debugging](../topics/debugging.md#repo-chromedevtools--chrome-devtools-mcp) | [Performance](../topics/performance.md#repo-chromedevtools--chrome-devtools-mcp) | [CLI](../topics/cli.md#repo-chromedevtools--chrome-devtools-mcp)
 - **Kind:** Service
 - **Best for:** Coding-agent workflows that need browser inspection and debugging; Developers investigating browser network, console, and performance issues
 - **Languages:** TypeScript, JavaScript
@@ -29,12 +31,14 @@ An MCP server and command-line tool that lets coding agents control and inspect 
   - Automates Chrome actions with Puppeteer and waits for action results
   - Inspects network requests, console messages, and screenshots
 
+<a id="repo-github--copilot-cli"></a>
+
 ## [GitHub Copilot CLI](https://github.com/github/copilot-cli)
 
 A terminal-native GitHub Copilot coding agent that uses natural-language conversations to build, edit, debug, refactor, and understand local code with GitHub repository, issue, and pull-request context.
 
-- **Category:** [AI and Automation](../categories/ai-and-automation.md)
-- **Topics:** [AI Agents](../topics/ai-agents.md) | [Coding Agents](../topics/coding-agents.md) | [CLI](../topics/cli.md) | [Terminal](../topics/terminal.md) | [Code Generation](../topics/code-generation.md) | [Debugging](../topics/debugging.md) | [Automation](../topics/automation.md) | [GitHub](../topics/github.md) | [MCP](../topics/mcp.md) | [Developer Productivity](../topics/developer-productivity.md)
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-github--copilot-cli)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-github--copilot-cli) | [Coding Agents](../topics/coding-agents.md#repo-github--copilot-cli) | [CLI](../topics/cli.md#repo-github--copilot-cli) | [Terminal](../topics/terminal.md#repo-github--copilot-cli) | [Code Generation](../topics/code-generation.md#repo-github--copilot-cli) | [Debugging](../topics/debugging.md#repo-github--copilot-cli) | [Automation](../topics/automation.md#repo-github--copilot-cli) | [GitHub](../topics/github.md#repo-github--copilot-cli) | [MCP](../topics/mcp.md#repo-github--copilot-cli) | [Developer Productivity](../topics/developer-productivity.md#repo-github--copilot-cli)
 - **Kind:** CLI
 - **Best for:** Developers who want a synchronous Copilot agent in the terminal; GitHub workflows that benefit from repository, issue, and pull-request context
 - **Languages:** Unknown
@@ -48,12 +52,14 @@ A terminal-native GitHub Copilot coding agent that uses natural-language convers
   - Authenticated access to GitHub repositories, issues, and pull requests
   - Previews every action for explicit approval before execution
 
+<a id="repo-github--copilot-cli-for-beginners"></a>
+
 ## [GitHub Copilot CLI for Beginners](https://github.com/github/copilot-cli-for-beginners)
 
 A hands-on beginner course for GitHub Copilot CLI that uses a Python book collection application to teach terminal-based AI assistance, code review, test generation, debugging, custom agents, skills, and MCP servers.
 
-- **Category:** [Documentation and Learning](../categories/documentation-and-learning.md)
-- **Topics:** [AI Agents](../topics/ai-agents.md) | [Coding Agents](../topics/coding-agents.md) | [CLI](../topics/cli.md) | [Terminal](../topics/terminal.md) | [Code Generation](../topics/code-generation.md) | [Code Review](../topics/code-review.md) | [Testing](../topics/testing.md) | [Debugging](../topics/debugging.md) | [Automation](../topics/automation.md) | [Agent Skills](../topics/agent-skills.md) | [MCP](../topics/mcp.md) | [Tutorials](../topics/tutorials.md) | [Developer Productivity](../topics/developer-productivity.md)
+- **Category:** [Documentation and Learning](../categories/documentation-and-learning.md#repo-github--copilot-cli-for-beginners)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-github--copilot-cli-for-beginners) | [Coding Agents](../topics/coding-agents.md#repo-github--copilot-cli-for-beginners) | [CLI](../topics/cli.md#repo-github--copilot-cli-for-beginners) | [Terminal](../topics/terminal.md#repo-github--copilot-cli-for-beginners) | [Code Generation](../topics/code-generation.md#repo-github--copilot-cli-for-beginners) | [Code Review](../topics/code-review.md#repo-github--copilot-cli-for-beginners) | [Testing](../topics/testing.md#repo-github--copilot-cli-for-beginners) | [Debugging](../topics/debugging.md#repo-github--copilot-cli-for-beginners) | [Automation](../topics/automation.md#repo-github--copilot-cli-for-beginners) | [Agent Skills](../topics/agent-skills.md#repo-github--copilot-cli-for-beginners) | [MCP](../topics/mcp.md#repo-github--copilot-cli-for-beginners) | [Tutorials](../topics/tutorials.md#repo-github--copilot-cli-for-beginners) | [Developer Productivity](../topics/developer-productivity.md#repo-github--copilot-cli-for-beginners)
 - **Kind:** Course
 - **Best for:** Developers and students who are new to AI-assisted terminal workflows; Teams standardizing GitHub Copilot CLI development and review practices
 - **Languages:** Python, JavaScript, C#
@@ -67,12 +73,14 @@ A hands-on beginner course for GitHub Copilot CLI that uses a Python book collec
   - Runnable terminal examples and assignments in every chapter
   - A single Python book collection application used throughout the learning path
 
+<a id="repo-mattpocock--skills"></a>
+
 ## [Skills For Real Engineers](https://github.com/mattpocock/skills)
 
 A composable collection of coding-agent skills and Markdown guidance for structured engineering workflows, available through skills.sh and as a managed Claude Code plugin.
 
-- **Category:** [Documentation and Learning](../categories/documentation-and-learning.md)
-- **Topics:** [Agent Skills](../topics/agent-skills.md) | [Coding Agents](../topics/coding-agents.md) | [Task Planning](../topics/task-planning.md) | [Testing](../topics/testing.md) | [Debugging](../topics/debugging.md) | [Code Review](../topics/code-review.md)
+- **Category:** [Documentation and Learning](../categories/documentation-and-learning.md#repo-mattpocock--skills)
+- **Topics:** [Agent Skills](../topics/agent-skills.md#repo-mattpocock--skills) | [Coding Agents](../topics/coding-agents.md#repo-mattpocock--skills) | [Task Planning](../topics/task-planning.md#repo-mattpocock--skills) | [Testing](../topics/testing.md#repo-mattpocock--skills) | [Debugging](../topics/debugging.md#repo-mattpocock--skills) | [Code Review](../topics/code-review.md#repo-mattpocock--skills)
 - **Kind:** Plugin
 - **Best for:** Teams wanting reusable agent instructions for planning, implementation, testing, debugging, and review; Developers who want to adapt installed skill files to their own project workflow
 - **Languages:** Markdown, Shell
@@ -86,12 +94,14 @@ A composable collection of coding-agent skills and Markdown guidance for structu
   - Includes workflows for grilling requirements, specifications, ticket decomposition, implementation, TDD, bug diagnosis, and code review
   - The setup skill records project-specific issue-tracker, triage-label, and documentation-location choices for other skills
 
+<a id="repo-microsoft--vscode"></a>
+
 ## [vscode](https://github.com/microsoft/vscode)
 
 The MIT-licensed Code - OSS source repository used to develop Visual Studio Code, with code editing, navigation, debugging, extensibility, and tool integration features.
 
-- **Category:** [Developer Tools](../categories/developer-tools.md)
-- **Topics:** [Desktop App](../topics/desktop-app.md) | [Debugging](../topics/debugging.md) | [Developer Productivity](../topics/developer-productivity.md) | [Open Source](../topics/open-source.md)
+- **Category:** [Developer Tools](../categories/developer-tools.md#repo-microsoft--vscode)
+- **Topics:** [Desktop App](../topics/desktop-app.md#repo-microsoft--vscode) | [Debugging](../topics/debugging.md#repo-microsoft--vscode) | [Developer Productivity](../topics/developer-productivity.md#repo-microsoft--vscode) | [Open Source](../topics/open-source.md#repo-microsoft--vscode)
 - **Kind:** Application
 - **Best for:** Developers who want an extensible desktop editor for the edit-build-debug cycle; Contributors and downstream distributors working from the Code - OSS source base
 - **Languages:** TypeScript, JavaScript, Rust

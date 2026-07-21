@@ -9,12 +9,14 @@
 - [Backend and APIs](../categories/backend-and-apis.md) (1)
 - [DevOps and Cloud](../categories/devops-and-cloud.md) (2)
 
+<a id="repo-kestra-io--kestra"></a>
+
 ## [Kestra](https://github.com/kestra-io/kestra)
 
 An open-source, event-driven orchestration platform for declarative YAML workflows across data, AI, infrastructure, and process automation, with a web UI, APIs, scheduling, event triggers, and a plugin ecosystem.
 
-- **Category:** [DevOps and Cloud](../categories/devops-and-cloud.md)
-- **Topics:** [Automation](../topics/automation.md) | [DevOps](../topics/devops.md) | [Cloud](../topics/cloud.md) | [Self Hosted](../topics/self-hosted.md) | [Deployment](../topics/deployment.md) | [Containers](../topics/containers.md) | [Observability](../topics/observability.md)
+- **Category:** [DevOps and Cloud](../categories/devops-and-cloud.md#repo-kestra-io--kestra)
+- **Topics:** [Automation](../topics/automation.md#repo-kestra-io--kestra) | [DevOps](../topics/devops.md#repo-kestra-io--kestra) | [Cloud](../topics/cloud.md#repo-kestra-io--kestra) | [Self Hosted](../topics/self-hosted.md#repo-kestra-io--kestra) | [Deployment](../topics/deployment.md#repo-kestra-io--kestra) | [Containers](../topics/containers.md#repo-kestra-io--kestra) | [Observability](../topics/observability.md#repo-kestra-io--kestra)
 - **Kind:** Service
 - **Best for:** Teams operating scheduled or event-driven data, infrastructure, or AI workflows; Developers who want workflows defined as code but editable and observable in a UI
 - **Languages:** Java
@@ -28,12 +30,14 @@ An open-source, event-driven orchestration platform for declarative YAML workflo
   - Supports scheduled and event-driven execution, including message-bus and cloud triggers
   - Provides a built-in editor, visual topology view, completion, and real-time validation
 
+<a id="repo-microsoft--aspire"></a>
+
 ## [aspire](https://github.com/microsoft/aspire)
 
 A multi-language, code-first toolchain for defining, running, observing, and deploying distributed applications and their connected resources.
 
-- **Category:** [DevOps and Cloud](../categories/devops-and-cloud.md)
-- **Topics:** [Frameworks](../topics/frameworks.md) | [CLI](../topics/cli.md) | [Observability](../topics/observability.md) | [Deployment](../topics/deployment.md) | [Cloud](../topics/cloud.md) | [Containers](../topics/containers.md) | [Developer Productivity](../topics/developer-productivity.md)
+- **Category:** [DevOps and Cloud](../categories/devops-and-cloud.md#repo-microsoft--aspire)
+- **Topics:** [Frameworks](../topics/frameworks.md#repo-microsoft--aspire) | [CLI](../topics/cli.md#repo-microsoft--aspire) | [Observability](../topics/observability.md#repo-microsoft--aspire) | [Deployment](../topics/deployment.md#repo-microsoft--aspire) | [Cloud](../topics/cloud.md#repo-microsoft--aspire) | [Containers](../topics/containers.md#repo-microsoft--aspire) | [Developer Productivity](../topics/developer-productivity.md#repo-microsoft--aspire)
 - **Kind:** Framework
 - **Best for:** Teams developing distributed applications with services and dependent resources; Workflows that need local orchestration and OpenTelemetry-based observability
 - **Languages:** C#, TypeScript
@@ -47,12 +51,14 @@ A multi-language, code-first toolchain for defining, running, observing, and dep
   - CLI that runs the defined application locally
   - OpenTelemetry-based observability
 
+<a id="repo-pipedreamhq--pipedream"></a>
+
 ## [pipedream](https://github.com/PipedreamHQ/pipedream)
 
 A hosted developer integration platform for building event-driven workflows with pre-built app components and custom Node.js, Python, Go, or Bash code; this repository contains the components, documentation, roadmap, and related source.
 
-- **Category:** [Backend and APIs](../categories/backend-and-apis.md)
-- **Topics:** [Automation](../topics/automation.md) | [API Development](../topics/api-development.md) | [Cloud](../topics/cloud.md) | [Developer Productivity](../topics/developer-productivity.md)
+- **Category:** [Backend and APIs](../categories/backend-and-apis.md#repo-pipedreamhq--pipedream)
+- **Topics:** [Automation](../topics/automation.md#repo-pipedreamhq--pipedream) | [API Development](../topics/api-development.md#repo-pipedreamhq--pipedream) | [Cloud](../topics/cloud.md#repo-pipedreamhq--pipedream) | [Developer Productivity](../topics/developer-productivity.md#repo-pipedreamhq--pipedream)
 - **Kind:** Service
 - **Best for:** Automating a workflow in response to HTTP, schedule, or connected-application events; Combining reusable API-integration steps with custom code for application-specific logic
 - **Languages:** JavaScript, TypeScript, Python, Go, Bash

@@ -47,13 +47,19 @@ function inlineList(values: string[], empty = "Unknown"): string {
   return values.length > 0 ? values.join(", ") : empty;
 }
 
-function categoryLink(category: string | null, fromRoot: boolean): string {
-  if (!category) return "Unknown";
-  return `[${displayName(category)}](${fromRoot ? "" : "../"}categories/${category}.md)`;
+export function repositoryAnchor(repository: CatalogRepository): string {
+  return `repo-${repository.identity.owner.toLowerCase()}--${repository.identity.name.toLowerCase()}`;
 }
 
-function topicLinks(topics: string[], fromRoot: boolean): string {
-  return topics.map((topic) => `[${displayName(topic)}](${fromRoot ? "" : "../"}topics/${topic}.md)`).join(" | ");
+function categoryLink(category: string | null, fromRoot: boolean, repository?: CatalogRepository): string {
+  if (!category) return "Unknown";
+  const anchor = repository ? `#${repositoryAnchor(repository)}` : "";
+  return `[${displayName(category)}](${fromRoot ? "" : "../"}categories/${category}.md${anchor})`;
+}
+
+function topicLinks(topics: string[], fromRoot: boolean, repository?: CatalogRepository): string {
+  const anchor = repository ? `#${repositoryAnchor(repository)}` : "";
+  return topics.map((topic) => `[${displayName(topic)}](${fromRoot ? "" : "../"}topics/${topic}.md${anchor})`).join(" | ");
 }
 
 function summary(repository: CatalogRepository): string {
@@ -66,12 +72,14 @@ function repositoryDetails(repository: CatalogRepository): string {
   const features = repository.key_features.slice(0, 3).map((feature) => `  - ${feature}`).join("\n");
   const bestFor = repository.project.best_for.slice(0, 2).join("; ");
   return [
+    `<a id="${repositoryAnchor(repository)}"></a>`,
+    "",
     `## [${repository.project.name}](${repository.identity.url})`,
     "",
     summary(repository),
     "",
-    `- **Category:** ${categoryLink(repository.classification.primary_category, false)}`,
-    `- **Topics:** ${topicLinks(repository.classification.topics, false) || "None"}`,
+    `- **Category:** ${categoryLink(repository.classification.primary_category, false, repository)}`,
+    `- **Topics:** ${topicLinks(repository.classification.topics, false, repository) || "None"}`,
     `- **Kind:** ${repository.project.kind ? displayName(repository.project.kind) : "Unknown"}`,
     `- **Best for:** ${bestFor || "Not specified"}`,
     `- **Languages:** ${inlineList(repository.technology.languages)}`,
@@ -116,7 +124,7 @@ function renderReadme(catalog: CatalogArtifact, taxonomy: Taxonomy): string {
     lines.push("", `## [${displayName(category)}](categories/${category}.md)`, "");
     for (const repository of repositories) {
       lines.push(`- **[${repository.project.name}](${repository.identity.url})** - ${summary(repository)}`);
-      lines.push(`  Topics: ${topicLinks(repository.classification.topics, true) || "None"}`);
+      lines.push(`  Topics: ${topicLinks(repository.classification.topics, true, repository) || "None"}`);
     }
   }
 

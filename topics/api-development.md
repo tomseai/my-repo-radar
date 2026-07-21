@@ -14,12 +14,14 @@
 - [Platforms and Applications](../categories/platforms-and-applications.md) (1)
 - [Security and Privacy](../categories/security-and-privacy.md) (1)
 
+<a id="repo-adonisjs--core"></a>
+
 ## [AdonisJS Core](https://github.com/adonisjs/core)
 
 The TypeScript-first, full-stack MVC framework core for Node.js web applications, API servers, and microservices.
 
-- **Category:** [Application Frameworks](../categories/application-frameworks.md)
-- **Topics:** [Frameworks](../topics/frameworks.md) | [Web](../topics/web.md) | [Backend Development](../topics/backend-development.md) | [API Development](../topics/api-development.md) | [CLI](../topics/cli.md) | [Testing](../topics/testing.md)
+- **Category:** [Application Frameworks](../categories/application-frameworks.md#repo-adonisjs--core)
+- **Topics:** [Frameworks](../topics/frameworks.md#repo-adonisjs--core) | [Web](../topics/web.md#repo-adonisjs--core) | [Backend Development](../topics/backend-development.md#repo-adonisjs--core) | [API Development](../topics/api-development.md#repo-adonisjs--core) | [CLI](../topics/cli.md#repo-adonisjs--core) | [Testing](../topics/testing.md#repo-adonisjs--core)
 - **Kind:** Framework
 - **Best for:** Teams building server-rendered web applications or API backends with AdonisJS; Node.js projects that benefit from a cohesive framework and official package ecosystem
 - **Languages:** TypeScript, JavaScript
@@ -33,12 +35,14 @@ The TypeScript-first, full-stack MVC framework core for Node.js web applications
   - HTTP server, body parsing, configuration, environment, event, logging, and health modules
   - Command toolkit exposed through the adonis-kit CLI
 
+<a id="repo-anomalyco--openauth"></a>
+
 ## [OpenAuth](https://github.com/anomalyco/openauth)
 
 A TypeScript library for deploying or embedding a self-hosted, OAuth 2.0 authorization provider, with configurable identity providers, storage, and user-subject handling for web, mobile, API, and third-party clients.
 
-- **Category:** [Security and Privacy](../categories/security-and-privacy.md)
-- **Topics:** [Authentication](../topics/authentication.md) | [Self Hosted](../topics/self-hosted.md) | [Web](../topics/web.md) | [API Development](../topics/api-development.md)
+- **Category:** [Security and Privacy](../categories/security-and-privacy.md#repo-anomalyco--openauth)
+- **Topics:** [Authentication](../topics/authentication.md#repo-anomalyco--openauth) | [Self Hosted](../topics/self-hosted.md#repo-anomalyco--openauth) | [Web](../topics/web.md#repo-anomalyco--openauth) | [API Development](../topics/api-development.md#repo-anomalyco--openauth)
 - **Kind:** Library
 - **Best for:** Teams that need a customizable, self-hosted OAuth authorization server; JavaScript applications that need to issue and verify access and refresh tokens
 - **Languages:** TypeScript
@@ -52,12 +56,14 @@ A TypeScript library for deploying or embedding a self-hosted, OAuth 2.0 authori
   - Supports third-party and built-in identity-provider flows, including password UI
   - Supplies client helpers for authorization, token exchange, verification, and refresh
 
+<a id="repo-boundaryml--baml"></a>
+
 ## [BAML](https://github.com/BoundaryML/baml)
 
 A statically typed programming language and toolchain for defining reliable agent and LLM programs, with runtime-preserved types, analyzed errors, filesystem modules, standalone execution, and generated clients for multiple host languages.
 
-- **Category:** [Developer Tools](../categories/developer-tools.md)
-- **Topics:** [AI Agents](../topics/ai-agents.md) | [LLMs](../topics/llms.md) | [Code Generation](../topics/code-generation.md) | [API Development](../topics/api-development.md) | [CLI](../topics/cli.md) | [Developer Productivity](../topics/developer-productivity.md) | [Libraries](../topics/libraries.md)
+- **Category:** [Developer Tools](../categories/developer-tools.md#repo-boundaryml--baml)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-boundaryml--baml) | [LLMs](../topics/llms.md#repo-boundaryml--baml) | [Code Generation](../topics/code-generation.md#repo-boundaryml--baml) | [API Development](../topics/api-development.md#repo-boundaryml--baml) | [CLI](../topics/cli.md#repo-boundaryml--baml) | [Developer Productivity](../topics/developer-productivity.md#repo-boundaryml--baml) | [Libraries](../topics/libraries.md#repo-boundaryml--baml)
 - **Kind:** Other
 - **Best for:** Teams that want typed, versionable LLM and agent definitions outside application code; Polyglot projects that need one agent schema callable from Python, TypeScript, Go, or other hosts
 - **Languages:** Rust, TypeScript, Go
@@ -71,12 +77,14 @@ A statically typed programming language and toolchain for defining reliable agen
   - Preserves types at runtime and statically analyzes typed errors
   - Organizes modules and namespaces through the filesystem
 
+<a id="repo-fastify--fastify"></a>
+
 ## [Fastify](https://github.com/fastify/fastify)
 
 A Node.js web framework for building HTTP servers and APIs with route schemas, structured logging, and an extensible architecture based on hooks, decorators, and encapsulated plugins.
 
-- **Category:** [Application Frameworks](../categories/application-frameworks.md)
-- **Topics:** [Web](../topics/web.md) | [Backend Development](../topics/backend-development.md) | [API Development](../topics/api-development.md) | [Frameworks](../topics/frameworks.md)
+- **Category:** [Application Frameworks](../categories/application-frameworks.md#repo-fastify--fastify)
+- **Topics:** [Web](../topics/web.md#repo-fastify--fastify) | [Backend Development](../topics/backend-development.md#repo-fastify--fastify) | [API Development](../topics/api-development.md#repo-fastify--fastify) | [Frameworks](../topics/frameworks.md#repo-fastify--fastify)
 - **Kind:** Framework
 - **Best for:** Node.js services and APIs that need a concise route API and plugin composition; Teams that want schema-driven validation and response serialization
 - **Languages:** JavaScript
@@ -90,12 +98,14 @@ A Node.js web framework for building HTTP servers and APIs with route schemas, s
   - Hooks, decorators, and encapsulated plugins for extending server behavior
   - JSON Schema-based route validation and response serialization
 
+<a id="repo-getbindu--bindu"></a>
+
 ## [Bindu](https://github.com/GetBindu/Bindu)
 
 A framework and multi-language SDK set for exposing AI agents through A2A messaging with DID identity, mTLS and OAuth2 authorization, x402 payments, deployment, and operational components.
 
-- **Category:** [AI and Automation](../categories/ai-and-automation.md)
-- **Topics:** [AI Agents](../topics/ai-agents.md) | [Agent Protocols](../topics/agent-protocols.md) | [Agent Orchestration](../topics/agent-orchestration.md) | [Authentication](../topics/authentication.md) | [Payments](../topics/payments.md) | [Security](../topics/security.md) | [Deployment](../topics/deployment.md) | [Observability](../topics/observability.md) | [API Development](../topics/api-development.md) | [Libraries](../topics/libraries.md)
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-getbindu--bindu)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-getbindu--bindu) | [Agent Protocols](../topics/agent-protocols.md#repo-getbindu--bindu) | [Agent Orchestration](../topics/agent-orchestration.md#repo-getbindu--bindu) | [Authentication](../topics/authentication.md#repo-getbindu--bindu) | [Payments](../topics/payments.md#repo-getbindu--bindu) | [Security](../topics/security.md#repo-getbindu--bindu) | [Deployment](../topics/deployment.md#repo-getbindu--bindu) | [Observability](../topics/observability.md#repo-getbindu--bindu) | [API Development](../topics/api-development.md#repo-getbindu--bindu) | [Libraries](../topics/libraries.md#repo-getbindu--bindu)
 - **Kind:** Framework
 - **Best for:** Teams building authenticated and monetized agent-to-agent services; Developers who need Python, TypeScript, or Kotlin access to a shared gRPC core
 - **Languages:** Python, TypeScript, Kotlin
@@ -109,12 +119,14 @@ A framework and multi-language SDK set for exposing AI agents through A2A messag
   - DID signing, mTLS transport, and OAuth2 authorization through Hydra
   - x402 USDC payment middleware with configured EVM networks
 
+<a id="repo-honojs--hono"></a>
+
 ## [Hono](https://github.com/honojs/hono)
 
 A small TypeScript web framework built on Web Standards for defining HTTP applications and middleware that can run across edge, serverless, and JavaScript server runtimes including Cloudflare Workers, Deno, Bun, AWS Lambda, and Node.js.
 
-- **Category:** [Application Frameworks](../categories/application-frameworks.md)
-- **Topics:** [Web](../topics/web.md) | [Frameworks](../topics/frameworks.md) | [Backend Development](../topics/backend-development.md) | [API Development](../topics/api-development.md) | [Performance](../topics/performance.md) | [Libraries](../topics/libraries.md)
+- **Category:** [Application Frameworks](../categories/application-frameworks.md#repo-honojs--hono)
+- **Topics:** [Web](../topics/web.md#repo-honojs--hono) | [Frameworks](../topics/frameworks.md#repo-honojs--hono) | [Backend Development](../topics/backend-development.md#repo-honojs--hono) | [API Development](../topics/api-development.md#repo-honojs--hono) | [Performance](../topics/performance.md#repo-honojs--hono) | [Libraries](../topics/libraries.md#repo-honojs--hono)
 - **Kind:** Framework
 - **Best for:** TypeScript teams targeting more than one JavaScript or edge runtime; Small HTTP APIs, web applications, and middleware-driven services
 - **Languages:** TypeScript
@@ -128,12 +140,14 @@ A small TypeScript web framework built on Web Standards for defining HTTP applic
   - Built-in, custom, and third-party middleware support
   - Runtime adapters for edge platforms, serverless functions, and Node.js
 
+<a id="repo-openai--openai-cookbook"></a>
+
 ## [OpenAI Cookbook](https://github.com/openai/openai-cookbook)
 
 An OpenAI-maintained collection of example code and guides for common OpenAI API tasks, published as a browsable Cookbook and repository, with most examples written in Python.
 
-- **Category:** [Documentation and Learning](../categories/documentation-and-learning.md)
-- **Topics:** [Documentation](../topics/documentation.md) | [Tutorials](../topics/tutorials.md) | [Reference](../topics/reference.md) | [LLMs](../topics/llms.md) | [API Development](../topics/api-development.md)
+- **Category:** [Documentation and Learning](../categories/documentation-and-learning.md#repo-openai--openai-cookbook)
+- **Topics:** [Documentation](../topics/documentation.md#repo-openai--openai-cookbook) | [Tutorials](../topics/tutorials.md#repo-openai--openai-cookbook) | [Reference](../topics/reference.md#repo-openai--openai-cookbook) | [LLMs](../topics/llms.md#repo-openai--openai-cookbook) | [API Development](../topics/api-development.md#repo-openai--openai-cookbook)
 - **Kind:** Documentation
 - **Best for:** Developers looking for concrete OpenAI API implementation patterns; Learners who want runnable examples before adapting concepts to another language
 - **Languages:** Python, Jupyter Notebook
@@ -147,12 +161,14 @@ An OpenAI-maintained collection of example code and guides for common OpenAI API
   - A browsable cookbook.openai.com documentation experience
   - Python-first examples whose concepts are intended to transfer to other languages
 
+<a id="repo-paddlepaddle--paddleocr"></a>
+
 ## [PaddleOCR](https://github.com/PaddlePaddle/PaddleOCR)
 
 A Python-centered OCR and document-understanding toolkit that converts images and PDF documents into structured outputs such as JSON and Markdown. It includes scene OCR, document parsing, vision-language models, deployment material, SDKs, and an MCP server.
 
-- **Category:** [AI and Automation](../categories/ai-and-automation.md)
-- **Topics:** [Document Processing](../topics/document-processing.md) | [Machine Learning](../topics/machine-learning.md) | [Multimodal](../topics/multimodal.md) | [MCP](../topics/mcp.md) | [Data Processing](../topics/data-processing.md) | [API Development](../topics/api-development.md) | [Open Source](../topics/open-source.md)
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-paddlepaddle--paddleocr)
+- **Topics:** [Document Processing](../topics/document-processing.md#repo-paddlepaddle--paddleocr) | [Machine Learning](../topics/machine-learning.md#repo-paddlepaddle--paddleocr) | [Multimodal](../topics/multimodal.md#repo-paddlepaddle--paddleocr) | [MCP](../topics/mcp.md#repo-paddlepaddle--paddleocr) | [Data Processing](../topics/data-processing.md#repo-paddlepaddle--paddleocr) | [API Development](../topics/api-development.md#repo-paddlepaddle--paddleocr) | [Open Source](../topics/open-source.md#repo-paddlepaddle--paddleocr)
 - **Kind:** Framework
 - **Best for:** Developers extracting text and structure from images or PDF documents for downstream applications; Teams preparing document data for RAG, LLM, or agent workflows with local or hosted inference options
 - **Languages:** Python, TypeScript, Go, Java, Kotlin
@@ -166,12 +182,14 @@ A Python-centered OCR and document-understanding toolkit that converts images an
   - Produces structured document outputs including Markdown, JSON, and coordinate-rich results
   - Includes PaddleOCR-VL document vision-language models for tables, formulas, charts, and text
 
+<a id="repo-pipedreamhq--pipedream"></a>
+
 ## [pipedream](https://github.com/PipedreamHQ/pipedream)
 
 A hosted developer integration platform for building event-driven workflows with pre-built app components and custom Node.js, Python, Go, or Bash code; this repository contains the components, documentation, roadmap, and related source.
 
-- **Category:** [Backend and APIs](../categories/backend-and-apis.md)
-- **Topics:** [Automation](../topics/automation.md) | [API Development](../topics/api-development.md) | [Cloud](../topics/cloud.md) | [Developer Productivity](../topics/developer-productivity.md)
+- **Category:** [Backend and APIs](../categories/backend-and-apis.md#repo-pipedreamhq--pipedream)
+- **Topics:** [Automation](../topics/automation.md#repo-pipedreamhq--pipedream) | [API Development](../topics/api-development.md#repo-pipedreamhq--pipedream) | [Cloud](../topics/cloud.md#repo-pipedreamhq--pipedream) | [Developer Productivity](../topics/developer-productivity.md#repo-pipedreamhq--pipedream)
 - **Kind:** Service
 - **Best for:** Automating a workflow in response to HTTP, schedule, or connected-application events; Combining reusable API-integration steps with custom code for application-specific logic
 - **Languages:** JavaScript, TypeScript, Python, Go, Bash
@@ -185,12 +203,14 @@ A hosted developer integration platform for building event-driven workflows with
   - Event sources that emit data from connected third-party services and can trigger workflows
   - Reusable actions for API integrations, including community-publishable custom actions
 
+<a id="repo-router-for-me--cliproxyapi"></a>
+
 ## [CLIProxyAPI](https://github.com/router-for-me/CLIProxyAPI)
 
 A Go proxy service that presents OpenAI-, Gemini-, Claude-, Codex-, and Grok-compatible APIs for supported CLI-backed model accounts, enabling compatible clients and SDKs to call those providers through one configurable local service.
 
-- **Category:** [Backend and APIs](../categories/backend-and-apis.md)
-- **Topics:** [LLMs](../topics/llms.md) | [LLM Gateways](../topics/llm-gateways.md) | [Multi Provider](../topics/multi-provider.md) | [API Development](../topics/api-development.md) | [Authentication](../topics/authentication.md) | [CLI](../topics/cli.md) | [Self Hosted](../topics/self-hosted.md)
+- **Category:** [Backend and APIs](../categories/backend-and-apis.md#repo-router-for-me--cliproxyapi)
+- **Topics:** [LLMs](../topics/llms.md#repo-router-for-me--cliproxyapi) | [LLM Gateways](../topics/llm-gateways.md#repo-router-for-me--cliproxyapi) | [Multi Provider](../topics/multi-provider.md#repo-router-for-me--cliproxyapi) | [API Development](../topics/api-development.md#repo-router-for-me--cliproxyapi) | [Authentication](../topics/authentication.md#repo-router-for-me--cliproxyapi) | [CLI](../topics/cli.md#repo-router-for-me--cliproxyapi) | [Self Hosted](../topics/self-hosted.md#repo-router-for-me--cliproxyapi)
 - **Kind:** Service
 - **Best for:** Developers who need one compatible API endpoint for supported CLI-account providers; Self-hosters who want to rotate multiple provider accounts and connect compatible clients or SDKs
 - **Languages:** Go
@@ -204,12 +224,14 @@ A Go proxy service that presents OpenAI-, Gemini-, Claude-, Codex-, and Grok-com
   - Supports OAuth login flows for OpenAI Codex, Claude Code, and Grok Build, plus Gemini and API-key paths
   - Handles streaming, non-streaming, and supported WebSocket responses, function calling, tools, and image input
 
+<a id="repo-rynfar--meridian"></a>
+
 ## [Meridian](https://github.com/rynfar/meridian)
 
 A local HTTP proxy that presents the Claude Agent SDK through Anthropic and OpenAI-compatible APIs, allowing compatible coding tools to use Claude while the SDK manages authentication, rate limits, caching, and context.
 
-- **Category:** [Backend and APIs](../categories/backend-and-apis.md)
-- **Topics:** [LLMs](../topics/llms.md) | [LLM Gateways](../topics/llm-gateways.md) | [API Development](../topics/api-development.md) | [CLI](../topics/cli.md) | [Local First](../topics/local-first.md) | [Observability](../topics/observability.md) | [Self Hosted](../topics/self-hosted.md)
+- **Category:** [Backend and APIs](../categories/backend-and-apis.md#repo-rynfar--meridian)
+- **Topics:** [LLMs](../topics/llms.md#repo-rynfar--meridian) | [LLM Gateways](../topics/llm-gateways.md#repo-rynfar--meridian) | [API Development](../topics/api-development.md#repo-rynfar--meridian) | [CLI](../topics/cli.md#repo-rynfar--meridian) | [Local First](../topics/local-first.md#repo-rynfar--meridian) | [Observability](../topics/observability.md#repo-rynfar--meridian) | [Self Hosted](../topics/self-hosted.md#repo-rynfar--meridian)
 - **Kind:** Service
 - **Best for:** Connecting Anthropic- or OpenAI-compatible developer tools to the Claude Agent SDK; Running local, concurrent Claude-backed coding-agent sessions through a common endpoint
 - **Languages:** TypeScript
@@ -223,12 +245,14 @@ A local HTTP proxy that presents the Claude Agent SDK through Anthropic and Open
   - Streaming, session persistence and resume, concurrent sessions, and subagent model selection
   - Adapter instances and optional passthrough tool execution for connected clients
 
+<a id="repo-strapi--strapi"></a>
+
 ## [Strapi](https://github.com/strapi/strapi)
 
 A self-hosted, JavaScript and TypeScript headless CMS for visually modeling content and supplying it to web, mobile, and IoT clients through generated REST or GraphQL APIs and a customizable administration interface.
 
-- **Category:** [Platforms and Applications](../categories/platforms-and-applications.md)
-- **Topics:** [CMS](../topics/cms.md) | [API Development](../topics/api-development.md) | [Authentication](../topics/authentication.md) | [Self Hosted](../topics/self-hosted.md) | [Web](../topics/web.md)
+- **Category:** [Platforms and Applications](../categories/platforms-and-applications.md#repo-strapi--strapi)
+- **Topics:** [CMS](../topics/cms.md#repo-strapi--strapi) | [API Development](../topics/api-development.md#repo-strapi--strapi) | [Authentication](../topics/authentication.md#repo-strapi--strapi) | [Self Hosted](../topics/self-hosted.md#repo-strapi--strapi) | [Web](../topics/web.md#repo-strapi--strapi)
 - **Kind:** Application
 - **Best for:** Teams that need a customizable content API and editor workflow; Applications that want self-hosted content management with multiple database choices
 - **Languages:** JavaScript, TypeScript
@@ -242,12 +266,14 @@ A self-hosted, JavaScript and TypeScript headless CMS for visually modeling cont
   - Generated REST and GraphQL APIs for each content type
   - Built-in roles and permissions, media library, internationalization, and draft-and-publish workflows
 
+<a id="repo-vendurehq--vendure"></a>
+
 ## [vendure](https://github.com/vendurehq/vendure)
 
 A plugin-first, headless commerce platform with a TypeScript GraphQL backend, React admin dashboard, and extensible business logic.
 
-- **Category:** [Backend and APIs](../categories/backend-and-apis.md)
-- **Topics:** [Ecommerce](../topics/ecommerce.md) | [Payments](../topics/payments.md) | [Open Source](../topics/open-source.md) | [Backend Development](../topics/backend-development.md) | [API Development](../topics/api-development.md) | [Frameworks](../topics/frameworks.md)
+- **Category:** [Backend and APIs](../categories/backend-and-apis.md#repo-vendurehq--vendure)
+- **Topics:** [Ecommerce](../topics/ecommerce.md#repo-vendurehq--vendure) | [Payments](../topics/payments.md#repo-vendurehq--vendure) | [Open Source](../topics/open-source.md#repo-vendurehq--vendure) | [Backend Development](../topics/backend-development.md#repo-vendurehq--vendure) | [API Development](../topics/api-development.md#repo-vendurehq--vendure) | [Frameworks](../topics/frameworks.md#repo-vendurehq--vendure)
 - **Kind:** Monorepo
 - **Best for:** Teams building configurable D2C, B2B, marketplace, or omnichannel commerce services.; Projects needing catalogs, orders, customers, promotions, tax, shipping, payments, and stock on one backend.
 - **Languages:** TypeScript
@@ -261,12 +287,14 @@ A plugin-first, headless commerce platform with a TypeScript GraphQL backend, Re
   - Provides stable plugin contracts, service overrides, and custom-entity extension points.
   - Includes the @vendure/core framework, CLI, official plugins, admin dashboard, and e2e harness.
 
+<a id="repo-zipstack--unstract"></a>
+
 ## [Unstract](https://github.com/Zipstack/unstract)
 
 A self-hostable LLM document-processing platform that turns documents into structured JSON through natural-language extraction prompts, APIs, and ETL workflows.
 
-- **Category:** [AI and Automation](../categories/ai-and-automation.md)
-- **Topics:** [Document Processing](../topics/document-processing.md) | [LLMs](../topics/llms.md) | [Automation](../topics/automation.md) | [API Development](../topics/api-development.md) | [Data Processing](../topics/data-processing.md) | [MCP](../topics/mcp.md) | [Web UI](../topics/web-ui.md) | [Self Hosted](../topics/self-hosted.md)
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-zipstack--unstract)
+- **Topics:** [Document Processing](../topics/document-processing.md#repo-zipstack--unstract) | [LLMs](../topics/llms.md#repo-zipstack--unstract) | [Automation](../topics/automation.md#repo-zipstack--unstract) | [API Development](../topics/api-development.md#repo-zipstack--unstract) | [Data Processing](../topics/data-processing.md#repo-zipstack--unstract) | [MCP](../topics/mcp.md#repo-zipstack--unstract) | [Web UI](../topics/web-ui.md#repo-zipstack--unstract) | [Self Hosted](../topics/self-hosted.md#repo-zipstack--unstract)
 - **Kind:** Application
 - **Best for:** Building document-extraction APIs without writing a custom LLM pipeline; Automating ingestion of business documents into data warehouses or other systems
 - **Languages:** Python, TypeScript

@@ -12,12 +12,14 @@
 - [Documentation and Learning](../categories/documentation-and-learning.md) (6)
 - [Testing and Quality](../categories/testing-and-quality.md) (1)
 
+<a id="repo-addyosmani--agent-engineer"></a>
+
 ## [Agent Engineer](https://github.com/addyosmani/agent-engineer)
 
 A practical, beginner-oriented course that teaches AI-agent fundamentals, then introduces building and shipping agents with Google Cloud AI, Vertex AI, and the Agent Development Kit (ADK).
 
-- **Category:** [Documentation and Learning](../categories/documentation-and-learning.md)
-- **Topics:** [AI Agents](../topics/ai-agents.md) | [Task Planning](../topics/task-planning.md) | [Agent Memory](../topics/agent-memory.md) | [Agent Orchestration](../topics/agent-orchestration.md) | [Agent Protocols](../topics/agent-protocols.md) | [Agent Skills](../topics/agent-skills.md) | [MCP](../topics/mcp.md) | [Multi Agent](../topics/multi-agent.md) | [Evaluation](../topics/evaluation.md) | [Security](../topics/security.md) | [Tutorials](../topics/tutorials.md) | [Documentation](../topics/documentation.md)
+- **Category:** [Documentation and Learning](../categories/documentation-and-learning.md#repo-addyosmani--agent-engineer)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-addyosmani--agent-engineer) | [Task Planning](../topics/task-planning.md#repo-addyosmani--agent-engineer) | [Agent Memory](../topics/agent-memory.md#repo-addyosmani--agent-engineer) | [Agent Orchestration](../topics/agent-orchestration.md#repo-addyosmani--agent-engineer) | [Agent Protocols](../topics/agent-protocols.md#repo-addyosmani--agent-engineer) | [Agent Skills](../topics/agent-skills.md#repo-addyosmani--agent-engineer) | [MCP](../topics/mcp.md#repo-addyosmani--agent-engineer) | [Multi Agent](../topics/multi-agent.md#repo-addyosmani--agent-engineer) | [Evaluation](../topics/evaluation.md#repo-addyosmani--agent-engineer) | [Security](../topics/security.md#repo-addyosmani--agent-engineer) | [Tutorials](../topics/tutorials.md#repo-addyosmani--agent-engineer) | [Documentation](../topics/documentation.md#repo-addyosmani--agent-engineer)
 - **Kind:** Course
 - **Best for:** Software engineers learning core AI-agent concepts before choosing tools; Developers seeking a structured introduction to Google Cloud agent development
 - **Languages:** Markdown
@@ -31,12 +33,14 @@ A practical, beginner-oriented course that teaches AI-agent fundamentals, then i
   - Platform-agnostic introductions to tools, memory, planning, multi-agent systems, RAG, evaluation, and safety
   - Google Cloud, Vertex AI, and ADK lessons, including a first-agent walkthrough
 
+<a id="repo-ai-that-works--ai-that-works"></a>
+
 ## [AI That Works](https://github.com/ai-that-works/ai-that-works)
 
 A weekly live-coding and Q&A series with a repository of episode notes and selected code, focused on taking AI applications from demos toward production through practical engineering topics.
 
-- **Category:** [Documentation and Learning](../categories/documentation-and-learning.md)
-- **Topics:** [Courses](../topics/courses.md) | [Tutorials](../topics/tutorials.md) | [AI Agents](../topics/ai-agents.md) | [LLMs](../topics/llms.md) | [Context Engineering](../topics/context-engineering.md) | [Evaluation](../topics/evaluation.md) | [Documentation](../topics/documentation.md)
+- **Category:** [Documentation and Learning](../categories/documentation-and-learning.md#repo-ai-that-works--ai-that-works)
+- **Topics:** [Courses](../topics/courses.md#repo-ai-that-works--ai-that-works) | [Tutorials](../topics/tutorials.md#repo-ai-that-works--ai-that-works) | [AI Agents](../topics/ai-agents.md#repo-ai-that-works--ai-that-works) | [LLMs](../topics/llms.md#repo-ai-that-works--ai-that-works) | [Context Engineering](../topics/context-engineering.md#repo-ai-that-works--ai-that-works) | [Evaluation](../topics/evaluation.md#repo-ai-that-works--ai-that-works) | [Documentation](../topics/documentation.md#repo-ai-that-works--ai-that-works)
 - **Kind:** Course
 - **Best for:** Engineers learning production-oriented AI techniques from episode-based examples; Participants who want live discussion alongside selected Python and TypeScript materials
 - **Languages:** Python, TypeScript, Go, Markdown
@@ -50,12 +54,14 @@ A weekly live-coding and Q&A series with a repository of episode notes and selec
   - Episode catalog spanning classification, prompting, evaluations, context engineering, agent memory, multimodality, and coding agents
   - Selected episode code linked from the catalog, including Python and TypeScript projects
 
+<a id="repo-arize-ai--phoenix"></a>
+
 ## [Phoenix](https://github.com/Arize-ai/phoenix)
 
 An AI observability and evaluation platform for tracing, experimenting with, and troubleshooting LLM applications.
 
-- **Category:** [AI and Automation](../categories/ai-and-automation.md)
-- **Topics:** [LLMs](../topics/llms.md) | [Observability](../topics/observability.md) | [Tracing](../topics/tracing.md) | [Evaluation](../topics/evaluation.md) | [Self Hosted](../topics/self-hosted.md) | [Web UI](../topics/web-ui.md)
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-arize-ai--phoenix)
+- **Topics:** [LLMs](../topics/llms.md#repo-arize-ai--phoenix) | [Observability](../topics/observability.md#repo-arize-ai--phoenix) | [Tracing](../topics/tracing.md#repo-arize-ai--phoenix) | [Evaluation](../topics/evaluation.md#repo-arize-ai--phoenix) | [Self Hosted](../topics/self-hosted.md#repo-arize-ai--phoenix) | [Web UI](../topics/web-ui.md#repo-arize-ai--phoenix)
 - **Kind:** Application
 - **Best for:** Teams operating LLM applications that need trace inspection and evaluation workflows; Developers who want local, containerized, or cloud deployment choices
 - **Languages:** Python, TypeScript
@@ -69,12 +75,14 @@ An AI observability and evaluation platform for tracing, experimenting with, and
   - Supports response and retrieval evaluations, versioned datasets, and experiments
   - Provides a playground and prompt management for comparing models and prompt changes
 
+<a id="repo-comet-ml--opik"></a>
+
 ## [opik](https://github.com/comet-ml/opik)
 
 An open-source platform for tracing, evaluating, testing, monitoring, and optimizing LLM applications and AI agents across development and production.
 
-- **Category:** [Testing and Quality](../categories/testing-and-quality.md)
-- **Topics:** [AI Agents](../topics/ai-agents.md) | [LLMs](../topics/llms.md) | [Observability](../topics/observability.md) | [Tracing](../topics/tracing.md) | [Evaluation](../topics/evaluation.md) | [Token Usage](../topics/token-usage.md) | [Self Hosted](../topics/self-hosted.md) | [Open Source](../topics/open-source.md)
+- **Category:** [Testing and Quality](../categories/testing-and-quality.md#repo-comet-ml--opik)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-comet-ml--opik) | [LLMs](../topics/llms.md#repo-comet-ml--opik) | [Observability](../topics/observability.md#repo-comet-ml--opik) | [Tracing](../topics/tracing.md#repo-comet-ml--opik) | [Evaluation](../topics/evaluation.md#repo-comet-ml--opik) | [Token Usage](../topics/token-usage.md#repo-comet-ml--opik) | [Self Hosted](../topics/self-hosted.md#repo-comet-ml--opik) | [Open Source](../topics/open-source.md#repo-comet-ml--opik)
 - **Kind:** Service
 - **Best for:** ML and engineering teams operating LLM applications or agentic workflows; Self-hosted teams that need trace-level observability and evaluation
 - **Languages:** Python, TypeScript, Java
@@ -88,12 +96,14 @@ An open-source platform for tracing, evaluating, testing, monitoring, and optimi
   - Build datasets and experiments with LLM-as-a-judge metrics
   - Annotate traces and spans with feedback scores through the SDK or web UI
 
+<a id="repo-innowhyte--gen-ai-patterns"></a>
+
 ## [Gen-AI Patterns](https://github.com/innowhyte/gen-ai-patterns)
 
 A practitioner-oriented Markdown collection of reusable generative-AI system patterns, explaining when to use a pattern, how to apply it, and relevant tradeoffs or failure cases.
 
-- **Category:** [Documentation and Learning](../categories/documentation-and-learning.md)
-- **Topics:** [Reference](../topics/reference.md) | [Documentation](../topics/documentation.md) | [LLMs](../topics/llms.md) | [Evaluation](../topics/evaluation.md) | [Agent Orchestration](../topics/agent-orchestration.md)
+- **Category:** [Documentation and Learning](../categories/documentation-and-learning.md#repo-innowhyte--gen-ai-patterns)
+- **Topics:** [Reference](../topics/reference.md#repo-innowhyte--gen-ai-patterns) | [Documentation](../topics/documentation.md#repo-innowhyte--gen-ai-patterns) | [LLMs](../topics/llms.md#repo-innowhyte--gen-ai-patterns) | [Evaluation](../topics/evaluation.md#repo-innowhyte--gen-ai-patterns) | [Agent Orchestration](../topics/agent-orchestration.md#repo-innowhyte--gen-ai-patterns)
 - **Kind:** Documentation
 - **Best for:** Teams designing retrieval, context, evaluation, extraction, or orchestration parts of a GenAI system; Contributors who want a lightweight structure for documenting practical GenAI patterns
 - **Languages:** Python
@@ -107,12 +117,14 @@ A practitioner-oriented Markdown collection of reusable generative-AI system pat
   - Includes concrete patterns such as graph indexes, sliding windows, grounding, routing, reranking, and hybrid retrieval
   - Gives a problem-first usage workflow: choose a pattern, adapt it, and document successes and failures
 
+<a id="repo-kyrolabs--awesome-agents"></a>
+
 ## [Awesome Agents](https://github.com/kyrolabs/awesome-agents)
 
 A curated Markdown directory of open-source AI-agent tools and products, grouped by agent-building frameworks, evaluation, software development, research, conversational agents, simulation, knowledge management, and automation.
 
-- **Category:** [Documentation and Learning](../categories/documentation-and-learning.md)
-- **Topics:** [AI Agents](../topics/ai-agents.md) | [LLMs](../topics/llms.md) | [Curated Lists](../topics/curated-lists.md) | [Frameworks](../topics/frameworks.md) | [Evaluation](../topics/evaluation.md) | [Automation](../topics/automation.md) | [Open Source](../topics/open-source.md)
+- **Category:** [Documentation and Learning](../categories/documentation-and-learning.md#repo-kyrolabs--awesome-agents)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-kyrolabs--awesome-agents) | [LLMs](../topics/llms.md#repo-kyrolabs--awesome-agents) | [Curated Lists](../topics/curated-lists.md#repo-kyrolabs--awesome-agents) | [Frameworks](../topics/frameworks.md#repo-kyrolabs--awesome-agents) | [Evaluation](../topics/evaluation.md#repo-kyrolabs--awesome-agents) | [Automation](../topics/automation.md#repo-kyrolabs--awesome-agents) | [Open Source](../topics/open-source.md#repo-kyrolabs--awesome-agents)
 - **Kind:** Curated List
 - **Best for:** Developers comparing open-source AI-agent projects; Researchers seeking a broad entry point into agent tooling
 - **Languages:** Unknown
@@ -126,12 +138,14 @@ A curated Markdown directory of open-source AI-agent tools and products, grouped
   - A testing and evaluation section for agent-oriented projects
   - Separate sections for research, general agents, and game or simulation work
 
+<a id="repo-lmnr-ai--lmnr"></a>
+
 ## [Laminar](https://github.com/lmnr-ai/lmnr)
 
 An open-source observability platform for AI agents that combines OpenTelemetry-native tracing, evaluations, alerting signals, datasets, dashboards, and real-time trace investigation.
 
-- **Category:** [AI and Automation](../categories/ai-and-automation.md)
-- **Topics:** [AI Agents](../topics/ai-agents.md) | [LLMs](../topics/llms.md) | [Observability](../topics/observability.md) | [Evaluation](../topics/evaluation.md) | [Self Hosted](../topics/self-hosted.md)
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-lmnr-ai--lmnr)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-lmnr-ai--lmnr) | [LLMs](../topics/llms.md#repo-lmnr-ai--lmnr) | [Observability](../topics/observability.md#repo-lmnr-ai--lmnr) | [Evaluation](../topics/evaluation.md#repo-lmnr-ai--lmnr) | [Self Hosted](../topics/self-hosted.md#repo-lmnr-ai--lmnr)
 - **Kind:** Application
 - **Best for:** Teams instrumenting, evaluating, and debugging AI-agent applications; Organizations that need a managed option or a self-hosted observability stack
 - **Languages:** TypeScript, Python, Rust
@@ -145,12 +159,14 @@ An open-source observability platform for AI agents that combines OpenTelemetry-
   - Defines plain-language signals to detect agent behavior and notify Slack
   - Runs extensible evaluations locally or in CI/CD and compares results in the UI
 
+<a id="repo-mastra-ai--mastra"></a>
+
 ## [Mastra](https://github.com/mastra-ai/mastra)
 
 A TypeScript framework for building AI-powered applications and agents, with model routing, agents, graph-based workflows, context and memory, MCP servers, evaluations, and observability.
 
-- **Category:** [AI and Automation](../categories/ai-and-automation.md)
-- **Topics:** [AI Agents](../topics/ai-agents.md) | [Agent Frameworks](../topics/agent-frameworks.md) | [Agent Orchestration](../topics/agent-orchestration.md) | [Agent Memory](../topics/agent-memory.md) | [LLMs](../topics/llms.md) | [MCP](../topics/mcp.md) | [Evaluation](../topics/evaluation.md) | [Observability](../topics/observability.md)
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-mastra-ai--mastra)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-mastra-ai--mastra) | [Agent Frameworks](../topics/agent-frameworks.md#repo-mastra-ai--mastra) | [Agent Orchestration](../topics/agent-orchestration.md#repo-mastra-ai--mastra) | [Agent Memory](../topics/agent-memory.md#repo-mastra-ai--mastra) | [LLMs](../topics/llms.md#repo-mastra-ai--mastra) | [MCP](../topics/mcp.md#repo-mastra-ai--mastra) | [Evaluation](../topics/evaluation.md#repo-mastra-ai--mastra) | [Observability](../topics/observability.md#repo-mastra-ai--mastra)
 - **Kind:** Framework
 - **Best for:** TypeScript teams building AI applications and agent workflows from prototype to production; Applications that need agent tooling, durable human approval, context management, and evaluation primitives
 - **Languages:** TypeScript
@@ -164,12 +180,14 @@ A TypeScript framework for building AI-powered applications and agents, with mod
   - Builds tool-using agents that can iterate until a final answer or stopping condition
   - Orchestrates graph-based workflows with sequential, branch, and parallel control flow
 
+<a id="repo-mgechev--skills-best-practices"></a>
+
 ## [Best Practices for Creating Agent Skills](https://github.com/mgechev/skills-best-practices)
 
 A concise guide to designing agent skills with discoverable metadata, progressive disclosure, deterministic helpers, and LLM-assisted validation.
 
-- **Category:** [Documentation and Learning](../categories/documentation-and-learning.md)
-- **Topics:** [AI Agents](../topics/ai-agents.md) | [Agent Skills](../topics/agent-skills.md) | [Context Engineering](../topics/context-engineering.md) | [Prompt Engineering](../topics/prompt-engineering.md) | [Evaluation](../topics/evaluation.md) | [Reference](../topics/reference.md)
+- **Category:** [Documentation and Learning](../categories/documentation-and-learning.md#repo-mgechev--skills-best-practices)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-mgechev--skills-best-practices) | [Agent Skills](../topics/agent-skills.md#repo-mgechev--skills-best-practices) | [Context Engineering](../topics/context-engineering.md#repo-mgechev--skills-best-practices) | [Prompt Engineering](../topics/prompt-engineering.md#repo-mgechev--skills-best-practices) | [Evaluation](../topics/evaluation.md#repo-mgechev--skills-best-practices) | [Reference](../topics/reference.md#repo-mgechev--skills-best-practices)
 - **Kind:** Documentation
 - **Best for:** Authors creating or revising agent skills; Teams that want to reduce skill-context cost and prevent prompt-routing regressions
 - **Languages:** Python, Markdown
@@ -183,12 +201,14 @@ A concise guide to designing agent skills with discoverable metadata, progressiv
   - Gives frontmatter naming and description guidance for reliable skill discovery
   - Recommends keeping SKILL.md under 500 lines and loading referenced material just in time
 
+<a id="repo-nibzard--awesome-agentic-patterns"></a>
+
 ## [Awesome Agentic Patterns](https://github.com/nibzard/awesome-agentic-patterns)
 
 A curated, traceable catalogue of reusable patterns for designing and operating autonomous or semi-autonomous AI agents, paired with a searchable documentation website.
 
-- **Category:** [Documentation and Learning](../categories/documentation-and-learning.md)
-- **Topics:** [AI Agents](../topics/ai-agents.md) | [Agent Memory](../topics/agent-memory.md) | [Agent Orchestration](../topics/agent-orchestration.md) | [Multi Agent](../topics/multi-agent.md) | [Evaluation](../topics/evaluation.md) | [Security](../topics/security.md) | [Tool Use](../topics/tool-use.md) | [Curated Lists](../topics/curated-lists.md) | [Reference](../topics/reference.md)
+- **Category:** [Documentation and Learning](../categories/documentation-and-learning.md#repo-nibzard--awesome-agentic-patterns)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-nibzard--awesome-agentic-patterns) | [Agent Memory](../topics/agent-memory.md#repo-nibzard--awesome-agentic-patterns) | [Agent Orchestration](../topics/agent-orchestration.md#repo-nibzard--awesome-agentic-patterns) | [Multi Agent](../topics/multi-agent.md#repo-nibzard--awesome-agentic-patterns) | [Evaluation](../topics/evaluation.md#repo-nibzard--awesome-agentic-patterns) | [Security](../topics/security.md#repo-nibzard--awesome-agentic-patterns) | [Tool Use](../topics/tool-use.md#repo-nibzard--awesome-agentic-patterns) | [Curated Lists](../topics/curated-lists.md#repo-nibzard--awesome-agentic-patterns) | [Reference](../topics/reference.md#repo-nibzard--awesome-agentic-patterns)
 - **Kind:** Curated List
 - **Best for:** Developers selecting proven patterns for an agent system or workflow; Teams seeking references before designing agent memory, orchestration, evaluation, or safety controls
 - **Languages:** TypeScript, Markdown
@@ -202,12 +222,14 @@ A curated, traceable catalogue of reusable patterns for designing and operating 
   - Requires contributed patterns to be repeatable, agent-centric, and backed by a public reference
   - Provides website filtering and search by category, status, complexity, and other pattern attributes
 
+<a id="repo-ucbepic--docetl"></a>
+
 ## [DocETL](https://github.com/ucbepic/docetl)
 
 A Python framework for declarative LLM-powered processing of structured and unstructured datasets, offering map-reduce-style operators, Python and YAML pipelines, automatic cost-quality optimization, parsing extras, and a visual playground.
 
-- **Category:** [Data and Databases](../categories/data-and-databases.md)
-- **Topics:** [Document Processing](../topics/document-processing.md) | [Data Processing](../topics/data-processing.md) | [LLMs](../topics/llms.md) | [Automation](../topics/automation.md) | [Evaluation](../topics/evaluation.md) | [Cost Management](../topics/cost-management.md) | [CLI](../topics/cli.md) | [Web UI](../topics/web-ui.md)
+- **Category:** [Data and Databases](../categories/data-and-databases.md#repo-ucbepic--docetl)
+- **Topics:** [Document Processing](../topics/document-processing.md#repo-ucbepic--docetl) | [Data Processing](../topics/data-processing.md#repo-ucbepic--docetl) | [LLMs](../topics/llms.md#repo-ucbepic--docetl) | [Automation](../topics/automation.md#repo-ucbepic--docetl) | [Evaluation](../topics/evaluation.md#repo-ucbepic--docetl) | [Cost Management](../topics/cost-management.md#repo-ucbepic--docetl) | [CLI](../topics/cli.md#repo-ucbepic--docetl) | [Web UI](../topics/web-ui.md#repo-ucbepic--docetl)
 - **Kind:** Framework
 - **Best for:** Data teams extracting, classifying, resolving, or summarizing large document collections; Developers who need repeatable LLM pipelines with explicit cost and quality optimization
 - **Languages:** Python, TypeScript
@@ -221,12 +243,14 @@ A Python framework for declarative LLM-powered processing of structured and unst
   - Defines pipelines through a Python API or low-code YAML configuration
   - Parallelizes work and reports model-call costs while producing tabular results
 
+<a id="repo-voltagent--voltagent"></a>
+
 ## [voltagent](https://github.com/VoltAgent/voltagent)
 
 A TypeScript agent framework for building agents, multi-step workflows, tools, memory, and provider integrations, accompanied by the VoltOps console for observing, operating, and deploying agent workloads.
 
-- **Category:** [AI and Automation](../categories/ai-and-automation.md)
-- **Topics:** [AI Agents](../topics/ai-agents.md) | [Agent Frameworks](../topics/agent-frameworks.md) | [Agent Orchestration](../topics/agent-orchestration.md) | [Multi Agent](../topics/multi-agent.md) | [LLMs](../topics/llms.md) | [MCP](../topics/mcp.md) | [Agent Memory](../topics/agent-memory.md) | [Automation](../topics/automation.md) | [Observability](../topics/observability.md) | [Evaluation](../topics/evaluation.md) | [Open Source](../topics/open-source.md)
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-voltagent--voltagent)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-voltagent--voltagent) | [Agent Frameworks](../topics/agent-frameworks.md#repo-voltagent--voltagent) | [Agent Orchestration](../topics/agent-orchestration.md#repo-voltagent--voltagent) | [Multi Agent](../topics/multi-agent.md#repo-voltagent--voltagent) | [LLMs](../topics/llms.md#repo-voltagent--voltagent) | [MCP](../topics/mcp.md#repo-voltagent--voltagent) | [Agent Memory](../topics/agent-memory.md#repo-voltagent--voltagent) | [Automation](../topics/automation.md#repo-voltagent--voltagent) | [Observability](../topics/observability.md#repo-voltagent--voltagent) | [Evaluation](../topics/evaluation.md#repo-voltagent--voltagent) | [Open Source](../topics/open-source.md#repo-voltagent--voltagent)
 - **Kind:** Framework
 - **Best for:** TypeScript teams that want code-first agent and workflow primitives with provider flexibility; Teams that want to pair an agent runtime with optional tracing, evaluation, and operations tooling
 - **Languages:** TypeScript
@@ -240,12 +264,14 @@ A TypeScript agent framework for building agents, multi-step workflows, tools, m
   - Builds declarative multi-step workflows, including supervisor-managed teams of specialized sub-agents
   - Connects Zod-typed tools and Model Context Protocol servers with lifecycle hooks and cancellation
 
+<a id="repo-waynesutton--opensync"></a>
+
 ## [opensync](https://github.com/waynesutton/opensync)
 
 A hosted or self-hosted dashboard and API for collecting AI coding-session data from supported sync plugins, then searching, analysing, exporting, and reusing that activity for evaluation and context workflows.
 
-- **Category:** [Developer Tools](../categories/developer-tools.md)
-- **Topics:** [Coding Agents](../topics/coding-agents.md) | [Observability](../topics/observability.md) | [Evaluation](../topics/evaluation.md) | [Search](../topics/search.md) | [Token Usage](../topics/token-usage.md) | [Cost Management](../topics/cost-management.md) | [Web UI](../topics/web-ui.md) | [Self Hosted](../topics/self-hosted.md)
+- **Category:** [Developer Tools](../categories/developer-tools.md#repo-waynesutton--opensync)
+- **Topics:** [Coding Agents](../topics/coding-agents.md#repo-waynesutton--opensync) | [Observability](../topics/observability.md#repo-waynesutton--opensync) | [Evaluation](../topics/evaluation.md#repo-waynesutton--opensync) | [Search](../topics/search.md#repo-waynesutton--opensync) | [Token Usage](../topics/token-usage.md#repo-waynesutton--opensync) | [Cost Management](../topics/cost-management.md#repo-waynesutton--opensync) | [Web UI](../topics/web-ui.md#repo-waynesutton--opensync) | [Self Hosted](../topics/self-hosted.md#repo-waynesutton--opensync)
 - **Kind:** Application
 - **Best for:** Teams that want a shared dashboard for coding-agent sessions, tool activity, and token spend; Developers who want to search or export past sessions for evaluations and context retrieval
 - **Languages:** TypeScript

@@ -10,12 +10,14 @@
 - [Application Frameworks](../categories/application-frameworks.md) (2)
 - [Frontend and Design](../categories/frontend-and-design.md) (9)
 
+<a id="repo-addyosmani--tunnel-bear-login"></a>
+
 ## [Tunnel Bear Login Animation](https://github.com/addyosmani/tunnel-bear-login)
 
 An educational React recreation of a TunnelBear-inspired login form with a bear animation that responds to email and password-field interactions.
 
-- **Category:** [Frontend and Design](../categories/frontend-and-design.md)
-- **Topics:** [Web](../topics/web.md) | [Frontend Development](../topics/frontend-development.md) | [Forms](../topics/forms.md) | [UI Components](../topics/ui-components.md)
+- **Category:** [Frontend and Design](../categories/frontend-and-design.md#repo-addyosmani--tunnel-bear-login)
+- **Topics:** [Web](../topics/web.md#repo-addyosmani--tunnel-bear-login) | [Frontend Development](../topics/frontend-development.md#repo-addyosmani--tunnel-bear-login) | [Forms](../topics/forms.md#repo-addyosmani--tunnel-bear-login) | [UI Components](../topics/ui-components.md#repo-addyosmani--tunnel-bear-login)
 - **Kind:** Application
 - **Best for:** Studying a compact, animated React form implementation; Prototyping playful input-state feedback in a Vite web application
 - **Languages:** TypeScript, JavaScript
@@ -29,12 +31,14 @@ An educational React recreation of a TunnelBear-inspired login form with a bear 
   - Password-field focus triggers a bear hiding animation
   - React components and custom hooks separate form, animation, and image-loading concerns
 
+<a id="repo-anomalyco--opentui"></a>
+
 ## [OpenTUI](https://github.com/anomalyco/opentui)
 
 A native terminal UI library with a Zig core, C ABI, and TypeScript bindings; it offers component-based layout and rendering primitives plus React and Solid reconcilers for building terminal applications.
 
-- **Category:** [Application Frameworks](../categories/application-frameworks.md)
-- **Topics:** [Terminal](../topics/terminal.md) | [TUI](../topics/tui.md) | [Libraries](../topics/libraries.md) | [UI Components](../topics/ui-components.md) | [Frameworks](../topics/frameworks.md)
+- **Category:** [Application Frameworks](../categories/application-frameworks.md#repo-anomalyco--opentui)
+- **Topics:** [Terminal](../topics/terminal.md#repo-anomalyco--opentui) | [TUI](../topics/tui.md#repo-anomalyco--opentui) | [Libraries](../topics/libraries.md#repo-anomalyco--opentui) | [UI Components](../topics/ui-components.md#repo-anomalyco--opentui) | [Frameworks](../topics/frameworks.md#repo-anomalyco--opentui)
 - **Kind:** Library
 - **Best for:** Developers building terminal applications from TypeScript or JavaScript; Teams wanting a native core with optional React or Solid rendering layers
 - **Languages:** Zig, TypeScript
@@ -48,12 +52,14 @@ A native terminal UI library with a Zig core, C ABI, and TypeScript bindings; it
   - Component-based architecture with flexible terminal layout capabilities
   - Core package with imperative APIs and terminal primitives
 
+<a id="repo-assistant-ui--assistant-ui"></a>
+
 ## [assistant-ui](https://github.com/assistant-ui/assistant-ui)
 
 A TypeScript and React library for composing production AI chat interfaces from UI primitives and runtime adapters.
 
-- **Category:** [Frontend and Design](../categories/frontend-and-design.md)
-- **Topics:** [Chat UI](../topics/chat-ui.md) | [Generative UI](../topics/generative-ui.md) | [UI Components](../topics/ui-components.md) | [LLMs](../topics/llms.md) | [Tool Use](../topics/tool-use.md) | [Web UI](../topics/web-ui.md)
+- **Category:** [Frontend and Design](../categories/frontend-and-design.md#repo-assistant-ui--assistant-ui)
+- **Topics:** [Chat UI](../topics/chat-ui.md#repo-assistant-ui--assistant-ui) | [Generative UI](../topics/generative-ui.md#repo-assistant-ui--assistant-ui) | [UI Components](../topics/ui-components.md#repo-assistant-ui--assistant-ui) | [LLMs](../topics/llms.md#repo-assistant-ui--assistant-ui) | [Tool Use](../topics/tool-use.md#repo-assistant-ui--assistant-ui) | [Web UI](../topics/web-ui.md#repo-assistant-ui--assistant-ui)
 - **Kind:** Library
 - **Best for:** React teams building custom AI chat or copilot experiences; Projects that need to connect a chat UI to the AI SDK, agent frameworks, or a custom backend
 - **Languages:** TypeScript
@@ -67,12 +73,14 @@ A TypeScript and React library for composing production AI chat interfaces from 
   - Styled Base UI or Radix UI starter components installed by its CLI
   - Streaming chat UX with retries, attachments, markdown, code highlighting, voice dictation, and accessibility
 
+<a id="repo-evilmartians--agent-prism"></a>
+
 ## [AgentPrism](https://github.com/evilmartians/agent-prism)
 
 An alpha React component library for exploring AI-agent traces as hierarchical timelines, using adapters that normalize OpenTelemetry and Langfuse data.
 
-- **Category:** [Frontend and Design](../categories/frontend-and-design.md)
-- **Topics:** [AI Agents](../topics/ai-agents.md) | [Observability](../topics/observability.md) | [UI Components](../topics/ui-components.md) | [Libraries](../topics/libraries.md) | [LLMs](../topics/llms.md)
+- **Category:** [Frontend and Design](../categories/frontend-and-design.md#repo-evilmartians--agent-prism)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-evilmartians--agent-prism) | [Observability](../topics/observability.md#repo-evilmartians--agent-prism) | [UI Components](../topics/ui-components.md#repo-evilmartians--agent-prism) | [Libraries](../topics/libraries.md#repo-evilmartians--agent-prism) | [LLMs](../topics/llms.md#repo-evilmartians--agent-prism)
 - **Kind:** Library
 - **Best for:** React teams building custom trace viewers for AI-agent debugging; Developers who need to inspect LLM calls, tool executions, and workflow spans
 - **Languages:** TypeScript
@@ -86,12 +94,14 @@ An alpha React component library for exploring AI-agent traces as hierarchical t
   - Provides composable TraceList, TreeView, and DetailsView components for custom layouts
   - Normalizes OpenTelemetry and Langfuse data through adapters and shared trace types
 
+<a id="repo-gridstack--gridstack.js"></a>
+
 ## [gridstack.js](https://github.com/gridstack/gridstack.js)
 
 A TypeScript library for building responsive, draggable, resizable dashboard grids and managing their widget layouts.
 
-- **Category:** [Frontend and Design](../categories/frontend-and-design.md)
-- **Topics:** [Web](../topics/web.md) | [UI Components](../topics/ui-components.md) | [Frontend Development](../topics/frontend-development.md) | [Libraries](../topics/libraries.md)
+- **Category:** [Frontend and Design](../categories/frontend-and-design.md#repo-gridstack--gridstack.js)
+- **Topics:** [Web](../topics/web.md#repo-gridstack--gridstack.js) | [UI Components](../topics/ui-components.md#repo-gridstack--gridstack.js) | [Frontend Development](../topics/frontend-development.md#repo-gridstack--gridstack.js) | [Libraries](../topics/libraries.md#repo-gridstack--gridstack.js)
 - **Kind:** Library
 - **Best for:** Adding configurable multi-column dashboard layouts to a web application; Applications that need to save and restore user-arranged widget positions
 - **Languages:** TypeScript, JavaScript
@@ -105,12 +115,14 @@ A TypeScript library for building responsive, draggable, resizable dashboard gri
   - Native mouse and touch support without runtime dependencies in the core library
   - APIs for creating widgets, loading serialized layouts, and saving layouts
 
+<a id="repo-liveloveapp--hashbrown"></a>
+
 ## [hashbrown](https://github.com/liveloveapp/hashbrown)
 
 A TypeScript framework of core, React, Angular, and provider packages for adding streaming LLM features, structured results, tool calls, generated UI, and code execution to web applications.
 
-- **Category:** [AI and Automation](../categories/ai-and-automation.md)
-- **Topics:** [AI Agents](../topics/ai-agents.md) | [Agent Frameworks](../topics/agent-frameworks.md) | [LLMs](../topics/llms.md) | [Code Generation](../topics/code-generation.md) | [Generative UI](../topics/generative-ui.md) | [Multi Provider](../topics/multi-provider.md) | [Frontend Development](../topics/frontend-development.md) | [UI Components](../topics/ui-components.md)
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-liveloveapp--hashbrown)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-liveloveapp--hashbrown) | [Agent Frameworks](../topics/agent-frameworks.md#repo-liveloveapp--hashbrown) | [LLMs](../topics/llms.md#repo-liveloveapp--hashbrown) | [Code Generation](../topics/code-generation.md#repo-liveloveapp--hashbrown) | [Generative UI](../topics/generative-ui.md#repo-liveloveapp--hashbrown) | [Multi Provider](../topics/multi-provider.md#repo-liveloveapp--hashbrown) | [Frontend Development](../topics/frontend-development.md#repo-liveloveapp--hashbrown) | [UI Components](../topics/ui-components.md#repo-liveloveapp--hashbrown)
 - **Kind:** Framework
 - **Best for:** React or Angular teams building interactive, LLM-powered web interfaces; Applications that need consistent provider wrappers between a Node backend and UI state
 - **Languages:** TypeScript
@@ -124,12 +136,14 @@ A TypeScript framework of core, React, Angular, and provider packages for adding
   - Provider packages for OpenAI, Azure OpenAI, Anthropic, Bedrock, Ollama, Google, and Writer
   - HTTP streaming between Node backend wrappers and UI hooks or resources
 
+<a id="repo-modelcontextprotocol--ext-apps"></a>
+
 ## [MCP Apps](https://github.com/modelcontextprotocol/ext-apps)
 
 A specification and TypeScript SDK for delivering interactive HTML views from MCP tools so compliant chat clients can render forms, charts, dashboards, and other embedded interfaces inline in a conversation.
 
-- **Category:** [Application Frameworks](../categories/application-frameworks.md)
-- **Topics:** [MCP](../topics/mcp.md) | [Chat UI](../topics/chat-ui.md) | [Web UI](../topics/web-ui.md) | [UI Components](../topics/ui-components.md)
+- **Category:** [Application Frameworks](../categories/application-frameworks.md#repo-modelcontextprotocol--ext-apps)
+- **Topics:** [MCP](../topics/mcp.md#repo-modelcontextprotocol--ext-apps) | [Chat UI](../topics/chat-ui.md#repo-modelcontextprotocol--ext-apps) | [Web UI](../topics/web-ui.md#repo-modelcontextprotocol--ext-apps) | [UI Components](../topics/ui-components.md#repo-modelcontextprotocol--ext-apps)
 - **Kind:** Framework
 - **Best for:** MCP server authors adding interactive UI resources to tool results; Chat-client and web-view developers embedding and communicating with MCP App views
 - **Languages:** TypeScript, JavaScript
@@ -143,12 +157,14 @@ A specification and TypeScript SDK for delivering interactive HTML views from MC
   - Defines a host-rendered sandboxed iframe and bidirectional UI-to-tool communication
   - Provides SDK entry points for Views, React hooks, client app bridges, and MCP server helpers
 
+<a id="repo-pierrecomputer--pierre"></a>
+
 ## [Pierre](https://github.com/pierrecomputer/pierre)
 
 A TypeScript monorepo for public packages that render code diffs and file trees, with React, server-rendered, worker, and web-component entry points.
 
-- **Category:** [Frontend and Design](../categories/frontend-and-design.md)
-- **Topics:** [Web](../topics/web.md) | [UI Components](../topics/ui-components.md) | [Frontend Development](../topics/frontend-development.md) | [Code Review](../topics/code-review.md) | [Libraries](../topics/libraries.md)
+- **Category:** [Frontend and Design](../categories/frontend-and-design.md#repo-pierrecomputer--pierre)
+- **Topics:** [Web](../topics/web.md#repo-pierrecomputer--pierre) | [UI Components](../topics/ui-components.md#repo-pierrecomputer--pierre) | [Frontend Development](../topics/frontend-development.md#repo-pierrecomputer--pierre) | [Code Review](../topics/code-review.md#repo-pierrecomputer--pierre) | [Libraries](../topics/libraries.md#repo-pierrecomputer--pierre)
 - **Kind:** Monorepo
 - **Best for:** Building polished code-review, change-inspection, or repository-navigation interfaces; Teams that need reusable diff and tree renderers rather than a complete Git client
 - **Languages:** TypeScript
@@ -162,12 +178,14 @@ A TypeScript monorepo for public packages that render code diffs and file trees,
   - Public @pierre/trees package with React, SSR, and web-component entry points
   - Separate theming, theme, and path-store packages shared by the UI packages
 
+<a id="repo-rtfpessoa--diff2html"></a>
+
 ## [diff2html](https://github.com/rtfpessoa/diff2html)
 
 A TypeScript library that parses Git or unified diffs and renders them as formatted HTML, with a browser UI wrapper and Node.js distribution.
 
-- **Category:** [Frontend and Design](../categories/frontend-and-design.md)
-- **Topics:** [Git](../topics/git.md) | [Web](../topics/web.md) | [UI Components](../topics/ui-components.md) | [Libraries](../topics/libraries.md)
+- **Category:** [Frontend and Design](../categories/frontend-and-design.md#repo-rtfpessoa--diff2html)
+- **Topics:** [Git](../topics/git.md#repo-rtfpessoa--diff2html) | [Web](../topics/web.md#repo-rtfpessoa--diff2html) | [UI Components](../topics/ui-components.md#repo-rtfpessoa--diff2html) | [Libraries](../topics/libraries.md#repo-rtfpessoa--diff2html)
 - **Kind:** Library
 - **Best for:** Adding rendered file diffs to web interfaces; Converting Git or unified-diff output into embeddable HTML
 - **Languages:** TypeScript, JavaScript
@@ -181,12 +199,14 @@ A TypeScript library that parses Git or unified diffs and renders them as format
   - Renders line-by-line and side-by-side comparisons
   - Provides parser and HTML-generation APIs
 
+<a id="repo-spartan-ng--spartan"></a>
+
 ## [spartan](https://github.com/spartan-ng/spartan)
 
 An Angular monorepo for accessible headless UI primitives, copy-paste shadcn-style components, workspace tooling, and an optional full-stack setup.
 
-- **Category:** [Frontend and Design](../categories/frontend-and-design.md)
-- **Topics:** [Frontend Development](../topics/frontend-development.md) | [UI Components](../topics/ui-components.md) | [Design Systems](../topics/design-systems.md) | [Accessibility](../topics/accessibility.md) | [CLI](../topics/cli.md) | [MCP](../topics/mcp.md)
+- **Category:** [Frontend and Design](../categories/frontend-and-design.md#repo-spartan-ng--spartan)
+- **Topics:** [Frontend Development](../topics/frontend-development.md#repo-spartan-ng--spartan) | [UI Components](../topics/ui-components.md#repo-spartan-ng--spartan) | [Design Systems](../topics/design-systems.md#repo-spartan-ng--spartan) | [Accessibility](../topics/accessibility.md#repo-spartan-ng--spartan) | [CLI](../topics/cli.md#repo-spartan-ng--spartan) | [MCP](../topics/mcp.md#repo-spartan-ng--spartan)
 - **Kind:** Monorepo
 - **Best for:** Angular teams building accessible, customizable component interfaces; Nx or Angular workspaces that want generated spartan UI integration
 - **Languages:** TypeScript
@@ -200,12 +220,14 @@ An Angular monorepo for accessible headless UI primitives, copy-paste shadcn-sty
   - Headless, accessible behavior primitives in @spartan-ng/brain
   - Copy-paste helm styles that remain owned by the application
 
+<a id="repo-swyxio--spark-joy"></a>
+
 ## [Spark Joy](https://github.com/swyxio/spark-joy)
 
 A large, hand-curated README index of resources for adding visual flair, usability, and whimsy to product interfaces, spanning web design, CSS, typography, graphics, interaction, and design inspiration.
 
-- **Category:** [Frontend and Design](../categories/frontend-and-design.md)
-- **Topics:** [Curated Lists](../topics/curated-lists.md) | [Frontend Development](../topics/frontend-development.md) | [Web](../topics/web.md) | [UI Components](../topics/ui-components.md) | [Design Systems](../topics/design-systems.md) | [Accessibility](../topics/accessibility.md) | [Visualization](../topics/visualization.md) | [Reference](../topics/reference.md)
+- **Category:** [Frontend and Design](../categories/frontend-and-design.md#repo-swyxio--spark-joy)
+- **Topics:** [Curated Lists](../topics/curated-lists.md#repo-swyxio--spark-joy) | [Frontend Development](../topics/frontend-development.md#repo-swyxio--spark-joy) | [Web](../topics/web.md#repo-swyxio--spark-joy) | [UI Components](../topics/ui-components.md#repo-swyxio--spark-joy) | [Design Systems](../topics/design-systems.md#repo-swyxio--spark-joy) | [Accessibility](../topics/accessibility.md#repo-swyxio--spark-joy) | [Visualization](../topics/visualization.md#repo-swyxio--spark-joy) | [Reference](../topics/reference.md#repo-swyxio--spark-joy)
 - **Kind:** Curated List
 - **Best for:** Designers and frontend developers collecting interface and visual-design references; Product teams looking for inspiration or a starting point for specific UI details
 - **Languages:** Markdown
@@ -219,12 +241,14 @@ A large, hand-curated README index of resources for adding visual flair, usabili
   - Covers icons, diagrams, illustrations, stock media, and SVG or graphics tools
   - Includes references for form controls, charts, dashboards, and React components
 
+<a id="repo-vercel--ai-elements"></a>
+
 ## [AI Elements](https://github.com/vercel/ai-elements)
 
 A shadcn/ui-based React component library and registry for adding customizable conversation, message, code, reasoning, and other AI interface elements to Next.js applications.
 
-- **Category:** [Frontend and Design](../categories/frontend-and-design.md)
-- **Topics:** [LLMs](../topics/llms.md) | [Chat UI](../topics/chat-ui.md) | [UI Components](../topics/ui-components.md) | [Design Systems](../topics/design-systems.md) | [Frontend Development](../topics/frontend-development.md) | [Libraries](../topics/libraries.md) | [Open Source](../topics/open-source.md)
+- **Category:** [Frontend and Design](../categories/frontend-and-design.md#repo-vercel--ai-elements)
+- **Topics:** [LLMs](../topics/llms.md#repo-vercel--ai-elements) | [Chat UI](../topics/chat-ui.md#repo-vercel--ai-elements) | [UI Components](../topics/ui-components.md#repo-vercel--ai-elements) | [Design Systems](../topics/design-systems.md#repo-vercel--ai-elements) | [Frontend Development](../topics/frontend-development.md#repo-vercel--ai-elements) | [Libraries](../topics/libraries.md#repo-vercel--ai-elements) | [Open Source](../topics/open-source.md#repo-vercel--ai-elements)
 - **Kind:** Library
 - **Best for:** Teams building a customizable chat or generative-AI interface with Next.js; Projects that already use shadcn/ui, Tailwind CSS, and the AI SDK
 - **Languages:** TypeScript

@@ -10,12 +10,14 @@
 - [Developer Tools](../categories/developer-tools.md) (2)
 - [Documentation and Learning](../categories/documentation-and-learning.md) (1)
 
+<a id="repo-ahmedkhaleel2004--gitdiagram"></a>
+
 ## [GitDiagram](https://github.com/ahmedkhaleel2004/gitdiagram)
 
 A web application that turns public or authorized private GitHub repositories into validated, interactive system-level architecture diagrams and Mermaid exports.
 
-- **Category:** [Developer Tools](../categories/developer-tools.md)
-- **Topics:** [GitHub](../topics/github.md) | [LLMs](../topics/llms.md) | [Web UI](../topics/web-ui.md) | [Visualization](../topics/visualization.md)
+- **Category:** [Developer Tools](../categories/developer-tools.md#repo-ahmedkhaleel2004--gitdiagram)
+- **Topics:** [GitHub](../topics/github.md#repo-ahmedkhaleel2004--gitdiagram) | [LLMs](../topics/llms.md#repo-ahmedkhaleel2004--gitdiagram) | [Web UI](../topics/web-ui.md#repo-ahmedkhaleel2004--gitdiagram) | [Visualization](../topics/visualization.md#repo-ahmedkhaleel2004--gitdiagram)
 - **Kind:** Application
 - **Best for:** Exploring an unfamiliar GitHub repository through a linked architecture view; Sharing a generated system diagram before reading a codebase in depth
 - **Languages:** TypeScript
@@ -29,12 +31,14 @@ A web application that turns public or authorized private GitHub repositories in
   - Links rendered components to their corresponding GitHub files or directories
   - Streams an architecture explanation and graph-generation progress
 
+<a id="repo-conwnet--github1s"></a>
+
 ## [github1s](https://github.com/conwnet/github1s)
 
 A browser-based, VS Code-style interface for browsing GitHub repositories by replacing github.com with github1s.com in a repository URL.
 
-- **Category:** [Developer Tools](../categories/developer-tools.md)
-- **Topics:** [GitHub](../topics/github.md) | [Web](../topics/web.md) | [Web UI](../topics/web-ui.md) | [Codebase Search](../topics/codebase-search.md) | [Developer Productivity](../topics/developer-productivity.md)
+- **Category:** [Developer Tools](../categories/developer-tools.md#repo-conwnet--github1s)
+- **Topics:** [GitHub](../topics/github.md#repo-conwnet--github1s) | [Web](../topics/web.md#repo-conwnet--github1s) | [Web UI](../topics/web-ui.md#repo-conwnet--github1s) | [Codebase Search](../topics/codebase-search.md#repo-conwnet--github1s) | [Developer Productivity](../topics/developer-productivity.md#repo-conwnet--github1s)
 - **Kind:** Application
 - **Best for:** Quickly reading a public GitHub repository in a VS Code-style interface; Browsing private repositories with a user-supplied GitHub OAuth token
 - **Languages:** TypeScript, JavaScript
@@ -48,12 +52,14 @@ A browser-based, VS Code-style interface for browsing GitHub repositories by rep
   - Uses a VS Code web build and a FileSystemProvider backed by GitHub APIs
   - Supports GitHub, GitLab, and npmjs URL variants
 
+<a id="repo-github--copilot-cli"></a>
+
 ## [GitHub Copilot CLI](https://github.com/github/copilot-cli)
 
 A terminal-native GitHub Copilot coding agent that uses natural-language conversations to build, edit, debug, refactor, and understand local code with GitHub repository, issue, and pull-request context.
 
-- **Category:** [AI and Automation](../categories/ai-and-automation.md)
-- **Topics:** [AI Agents](../topics/ai-agents.md) | [Coding Agents](../topics/coding-agents.md) | [CLI](../topics/cli.md) | [Terminal](../topics/terminal.md) | [Code Generation](../topics/code-generation.md) | [Debugging](../topics/debugging.md) | [Automation](../topics/automation.md) | [GitHub](../topics/github.md) | [MCP](../topics/mcp.md) | [Developer Productivity](../topics/developer-productivity.md)
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-github--copilot-cli)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-github--copilot-cli) | [Coding Agents](../topics/coding-agents.md#repo-github--copilot-cli) | [CLI](../topics/cli.md#repo-github--copilot-cli) | [Terminal](../topics/terminal.md#repo-github--copilot-cli) | [Code Generation](../topics/code-generation.md#repo-github--copilot-cli) | [Debugging](../topics/debugging.md#repo-github--copilot-cli) | [Automation](../topics/automation.md#repo-github--copilot-cli) | [GitHub](../topics/github.md#repo-github--copilot-cli) | [MCP](../topics/mcp.md#repo-github--copilot-cli) | [Developer Productivity](../topics/developer-productivity.md#repo-github--copilot-cli)
 - **Kind:** CLI
 - **Best for:** Developers who want a synchronous Copilot agent in the terminal; GitHub workflows that benefit from repository, issue, and pull-request context
 - **Languages:** Unknown
@@ -67,12 +73,14 @@ A terminal-native GitHub Copilot coding agent that uses natural-language convers
   - Authenticated access to GitHub repositories, issues, and pull requests
   - Previews every action for explicit approval before execution
 
+<a id="repo-johnpapa--ai-ready"></a>
+
 ## [AI Ready](https://github.com/johnpapa/ai-ready)
 
 A GitHub Copilot CLI skill that inspects a repository's code, workflows, documentation, and review patterns, then reports on AI readiness and proposes or creates repository-specific configuration for coding agents.
 
-- **Category:** [AI and Automation](../categories/ai-and-automation.md)
-- **Topics:** [Coding Agents](../topics/coding-agents.md) | [Agent Skills](../topics/agent-skills.md) | [Automation](../topics/automation.md) | [GitHub](../topics/github.md) | [Pull Requests](../topics/pull-requests.md) | [MCP](../topics/mcp.md) | [Developer Productivity](../topics/developer-productivity.md)
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-johnpapa--ai-ready)
+- **Topics:** [Coding Agents](../topics/coding-agents.md#repo-johnpapa--ai-ready) | [Agent Skills](../topics/agent-skills.md#repo-johnpapa--ai-ready) | [Automation](../topics/automation.md#repo-johnpapa--ai-ready) | [GitHub](../topics/github.md#repo-johnpapa--ai-ready) | [Pull Requests](../topics/pull-requests.md#repo-johnpapa--ai-ready) | [MCP](../topics/mcp.md#repo-johnpapa--ai-ready) | [Developer Productivity](../topics/developer-productivity.md#repo-johnpapa--ai-ready)
 - **Kind:** Plugin
 - **Best for:** Maintainers preparing a repository for repeatable AI-agent contributions; Teams that want agent instructions derived from their existing project conventions
 - **Languages:** Unknown
@@ -86,12 +94,14 @@ A GitHub Copilot CLI skill that inspects a repository's code, workflows, documen
   - Mines recent pull-request review comments for repeated team conventions
   - Generates or audits AGENTS.md and GitHub Copilot instructions without overwriting files
 
+<a id="repo-sindresorhus--awesome"></a>
+
 ## [awesome](https://github.com/sindresorhus/awesome)
 
 A curated, categorized index of Awesome lists that links to resource collections across software, platforms, learning, work, and other topics.
 
-- **Category:** [Documentation and Learning](../categories/documentation-and-learning.md)
-- **Topics:** [Curated Lists](../topics/curated-lists.md) | [Reference](../topics/reference.md) | [Open Source](../topics/open-source.md) | [GitHub](../topics/github.md)
+- **Category:** [Documentation and Learning](../categories/documentation-and-learning.md#repo-sindresorhus--awesome)
+- **Topics:** [Curated Lists](../topics/curated-lists.md#repo-sindresorhus--awesome) | [Reference](../topics/reference.md#repo-sindresorhus--awesome) | [Open Source](../topics/open-source.md#repo-sindresorhus--awesome) | [GitHub](../topics/github.md#repo-sindresorhus--awesome)
 - **Kind:** Curated List
 - **Best for:** Finding a starting point for a topic-specific resource collection; Discovering Awesome lists to browse, follow, or contribute to
 - **Languages:** Markdown
@@ -105,12 +115,14 @@ A curated, categorized index of Awesome lists that links to resource collections
   - Links to independently maintained Awesome lists rather than attempting to catalog each resource itself
   - Guidance for adding a list, creating a new list, and contributing through GitHub pull requests
 
+<a id="repo-vercel-labs--open-agents"></a>
+
 ## [Open Agents](https://github.com/vercel-labs/open-agents)
 
 A Vercel-deployable reference application for background coding agents, combining a web interface, durable agent workflows, isolated sandbox VMs, and GitHub-based code-change workflows.
 
-- **Category:** [AI and Automation](../categories/ai-and-automation.md)
-- **Topics:** [Coding Agents](../topics/coding-agents.md) | [Agent Harnesses](../topics/agent-harnesses.md) | [Agent Skills](../topics/agent-skills.md) | [Sandboxing](../topics/sandboxing.md) | [Web UI](../topics/web-ui.md) | [GitHub](../topics/github.md) | [Pull Requests](../topics/pull-requests.md) | [Starter Templates](../topics/starter-templates.md) | [Open Source](../topics/open-source.md)
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-vercel-labs--open-agents)
+- **Topics:** [Coding Agents](../topics/coding-agents.md#repo-vercel-labs--open-agents) | [Agent Harnesses](../topics/agent-harnesses.md#repo-vercel-labs--open-agents) | [Agent Skills](../topics/agent-skills.md#repo-vercel-labs--open-agents) | [Sandboxing](../topics/sandboxing.md#repo-vercel-labs--open-agents) | [Web UI](../topics/web-ui.md#repo-vercel-labs--open-agents) | [GitHub](../topics/github.md#repo-vercel-labs--open-agents) | [Pull Requests](../topics/pull-requests.md#repo-vercel-labs--open-agents) | [Starter Templates](../topics/starter-templates.md#repo-vercel-labs--open-agents) | [Open Source](../topics/open-source.md#repo-vercel-labs--open-agents)
 - **Kind:** Starter Template
 - **Best for:** Teams that want to fork and adapt a cloud-hosted coding-agent application; Developers needing durable agent runs that can continue independently of a browser session
 - **Languages:** TypeScript

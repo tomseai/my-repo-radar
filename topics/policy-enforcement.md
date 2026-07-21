@@ -9,12 +9,14 @@
 - [AI and Automation](../categories/ai-and-automation.md) (2)
 - [Security and Privacy](../categories/security-and-privacy.md) (3)
 
+<a id="repo-dicklesworthstone--destructive_command_guard"></a>
+
 ## [Destructive Command Guard (dcg)](https://github.com/Dicklesworthstone/destructive_command_guard)
 
 A Rust command-line guard and pre-execution hook for AI coding agents that detects and blocks configured destructive Git, shell, filesystem, database, cloud, and container commands before they run.
 
-- **Category:** [Security and Privacy](../categories/security-and-privacy.md)
-- **Topics:** [AI Agents](../topics/ai-agents.md) | [Coding Agents](../topics/coding-agents.md) | [CLI](../topics/cli.md) | [Git](../topics/git.md) | [Policy Enforcement](../topics/policy-enforcement.md) | [Security](../topics/security.md)
+- **Category:** [Security and Privacy](../categories/security-and-privacy.md#repo-dicklesworthstone--destructive_command_guard)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-dicklesworthstone--destructive_command_guard) | [Coding Agents](../topics/coding-agents.md#repo-dicklesworthstone--destructive_command_guard) | [CLI](../topics/cli.md#repo-dicklesworthstone--destructive_command_guard) | [Git](../topics/git.md#repo-dicklesworthstone--destructive_command_guard) | [Policy Enforcement](../topics/policy-enforcement.md#repo-dicklesworthstone--destructive_command_guard) | [Security](../topics/security.md#repo-dicklesworthstone--destructive_command_guard)
 - **Kind:** CLI
 - **Best for:** Adding configurable command-safety checks to supported AI coding agents; Preventing accidental destructive Git or shell operations in local repositories
 - **Languages:** Rust
@@ -28,12 +30,14 @@ A Rust command-line guard and pre-execution hook for AI coding agents that detec
   - Built-in rule packs for Git and filesystem operations, with optional domain-specific packs
   - Heredoc and inline-script scanning alongside direct command matching
 
+<a id="repo-mukul975--anthropic-cybersecurity-skills"></a>
+
 ## [Anthropic Cybersecurity Skills](https://github.com/mukul975/Anthropic-Cybersecurity-Skills)
 
 An independent, agentskills.io-format library of cybersecurity workflows for AI agents, spanning defensive, investigative, governance, and authorized offensive-security work.
 
-- **Category:** [Security and Privacy](../categories/security-and-privacy.md)
-- **Topics:** [AI Agents](../topics/ai-agents.md) | [Agent Skills](../topics/agent-skills.md) | [Security](../topics/security.md) | [Policy Enforcement](../topics/policy-enforcement.md) | [Documentation](../topics/documentation.md) | [Open Source](../topics/open-source.md)
+- **Category:** [Security and Privacy](../categories/security-and-privacy.md#repo-mukul975--anthropic-cybersecurity-skills)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-mukul975--anthropic-cybersecurity-skills) | [Agent Skills](../topics/agent-skills.md#repo-mukul975--anthropic-cybersecurity-skills) | [Security](../topics/security.md#repo-mukul975--anthropic-cybersecurity-skills) | [Policy Enforcement](../topics/policy-enforcement.md#repo-mukul975--anthropic-cybersecurity-skills) | [Documentation](../topics/documentation.md#repo-mukul975--anthropic-cybersecurity-skills) | [Open Source](../topics/open-source.md#repo-mukul975--anthropic-cybersecurity-skills)
 - **Kind:** Library
 - **Best for:** Security teams adding structured workflows to compatible AI agents; Authorized security testing, investigation, defense, and education
 - **Languages:** Python, Markdown
@@ -47,12 +51,14 @@ An independent, agentskills.io-format library of cybersecurity workflows for AI 
   - Maps skills to MITRE ATT&CK, NIST CSF, MITRE ATLAS, D3FEND, NIST AI RMF, and MITRE F3
   - Uses YAML discovery metadata, step-by-step Markdown workflows, references, helpers, and templates
 
+<a id="repo-nvidia--nemoclaw"></a>
+
 ## [NVIDIA NemoClaw](https://github.com/NVIDIA/NemoClaw)
 
 An alpha reference stack and CLI for operating selected always-on AI agents in NVIDIA OpenShell sandboxes, combining guided onboarding, inference routing, declarative network policy, and sandbox lifecycle management.
 
-- **Category:** [Security and Privacy](../categories/security-and-privacy.md)
-- **Topics:** [AI Agents](../topics/ai-agents.md) | [Agent Harnesses](../topics/agent-harnesses.md) | [Sandboxing](../topics/sandboxing.md) | [Security](../topics/security.md) | [Policy Enforcement](../topics/policy-enforcement.md) | [Self Hosted](../topics/self-hosted.md) | [CLI](../topics/cli.md)
+- **Category:** [Security and Privacy](../categories/security-and-privacy.md#repo-nvidia--nemoclaw)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-nvidia--nemoclaw) | [Agent Harnesses](../topics/agent-harnesses.md#repo-nvidia--nemoclaw) | [Sandboxing](../topics/sandboxing.md#repo-nvidia--nemoclaw) | [Security](../topics/security.md#repo-nvidia--nemoclaw) | [Policy Enforcement](../topics/policy-enforcement.md#repo-nvidia--nemoclaw) | [Self Hosted](../topics/self-hosted.md#repo-nvidia--nemoclaw) | [CLI](../topics/cli.md#repo-nvidia--nemoclaw)
 - **Kind:** Framework
 - **Best for:** Teams that need a reference deployment pattern for constrained always-on agents; Operators running supported agents with OpenShell sandbox and egress controls
 - **Languages:** TypeScript, Python
@@ -66,12 +72,14 @@ An alpha reference stack and CLI for operating selected always-on AI agents in N
   - Routes model traffic through OpenShell while keeping credentials on the host
   - Applies declarative egress rules and asks the operator to approve unknown hosts
 
+<a id="repo-omnigent-ai--omnigent"></a>
+
 ## [Omnigent](https://github.com/omnigent-ai/omnigent)
 
 An alpha open-source meta-harness and agent runtime that provides a common orchestration layer across coding-agent harnesses and custom agents, with collaborative sessions, sandbox targets, and configurable action and spend policies.
 
-- **Category:** [AI and Automation](../categories/ai-and-automation.md)
-- **Topics:** [AI Agents](../topics/ai-agents.md) | [Agent Harnesses](../topics/agent-harnesses.md) | [Agent Orchestration](../topics/agent-orchestration.md) | [Multi Agent](../topics/multi-agent.md) | [Agent Governance](../topics/agent-governance.md) | [Sandboxing](../topics/sandboxing.md) | [Policy Enforcement](../topics/policy-enforcement.md) | [CLI](../topics/cli.md) | [Web UI](../topics/web-ui.md) | [Desktop App](../topics/desktop-app.md) | [Mobile App](../topics/mobile-app.md) | [Self Hosted](../topics/self-hosted.md)
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-omnigent-ai--omnigent)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-omnigent-ai--omnigent) | [Agent Harnesses](../topics/agent-harnesses.md#repo-omnigent-ai--omnigent) | [Agent Orchestration](../topics/agent-orchestration.md#repo-omnigent-ai--omnigent) | [Multi Agent](../topics/multi-agent.md#repo-omnigent-ai--omnigent) | [Agent Governance](../topics/agent-governance.md#repo-omnigent-ai--omnigent) | [Sandboxing](../topics/sandboxing.md#repo-omnigent-ai--omnigent) | [Policy Enforcement](../topics/policy-enforcement.md#repo-omnigent-ai--omnigent) | [CLI](../topics/cli.md#repo-omnigent-ai--omnigent) | [Web UI](../topics/web-ui.md#repo-omnigent-ai--omnigent) | [Desktop App](../topics/desktop-app.md#repo-omnigent-ai--omnigent) | [Mobile App](../topics/mobile-app.md#repo-omnigent-ai--omnigent) | [Self Hosted](../topics/self-hosted.md#repo-omnigent-ai--omnigent)
 - **Kind:** Framework
 - **Best for:** Developers who need to mix supported coding-agent harnesses and custom YAML agents; Teams that want shared agent sessions across terminal, browser, phone, or desktop interfaces
 - **Languages:** Python, TypeScript
@@ -85,12 +93,14 @@ An alpha open-source meta-harness and agent runtime that provides a common orche
   - Synchronizes sessions, sub-agents, terminals, and files across terminal, browser, and phone access
   - Offers cloud sandbox targets and server-provisioned managed hosts for sessions
 
+<a id="repo-portkey-ai--gateway"></a>
+
 ## [Portkey AI Gateway](https://github.com/Portkey-AI/gateway)
 
 An MIT-licensed AI gateway that presents one API for routing language and multimodal-model requests, with configurable reliability, security, and operational controls for applications that use multiple providers.
 
-- **Category:** [AI and Automation](../categories/ai-and-automation.md)
-- **Topics:** [LLMs](../topics/llms.md) | [LLM Gateways](../topics/llm-gateways.md) | [Model Routing](../topics/model-routing.md) | [Observability](../topics/observability.md) | [Policy Enforcement](../topics/policy-enforcement.md) | [Self Hosted](../topics/self-hosted.md) | [MCP](../topics/mcp.md)
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-portkey-ai--gateway)
+- **Topics:** [LLMs](../topics/llms.md#repo-portkey-ai--gateway) | [LLM Gateways](../topics/llm-gateways.md#repo-portkey-ai--gateway) | [Model Routing](../topics/model-routing.md#repo-portkey-ai--gateway) | [Observability](../topics/observability.md#repo-portkey-ai--gateway) | [Policy Enforcement](../topics/policy-enforcement.md#repo-portkey-ai--gateway) | [Self Hosted](../topics/self-hosted.md#repo-portkey-ai--gateway) | [MCP](../topics/mcp.md#repo-portkey-ai--gateway)
 - **Kind:** Service
 - **Best for:** Teams centralizing model-provider routing and reliability policies; AI applications that need a self-hosted gateway and local request logs
 - **Languages:** TypeScript

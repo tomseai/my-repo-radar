@@ -8,12 +8,14 @@
 
 - [Platforms and Applications](../categories/platforms-and-applications.md) (1)
 
+<a id="repo-tyrrrz--youtubedownloader"></a>
+
 ## [YoutubeDownloader](https://github.com/Tyrrrz/YoutubeDownloader)
 
 A cross-platform graphical application for downloading YouTube videos, playlists, and channels from URLs or search queries, with selectable media formats, languages, subtitles, tags, and account access for private content.
 
-- **Category:** [Platforms and Applications](../categories/platforms-and-applications.md)
-- **Topics:** [Desktop App](../topics/desktop-app.md) | [Desktop Development](../topics/desktop-development.md) | [Open Source](../topics/open-source.md)
+- **Category:** [Platforms and Applications](../categories/platforms-and-applications.md#repo-tyrrrz--youtubedownloader)
+- **Topics:** [Desktop App](../topics/desktop-app.md#repo-tyrrrz--youtubedownloader) | [Desktop Development](../topics/desktop-development.md#repo-tyrrrz--youtubedownloader) | [Open Source](../topics/open-source.md#repo-tyrrrz--youtubedownloader)
 - **Kind:** Application
 - **Best for:** Downloading YouTube media, playlists, or channels through a desktop graphical interface; Selecting video formats and preserving alternate audio, subtitles, and media tags
 - **Languages:** C#

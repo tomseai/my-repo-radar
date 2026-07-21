@@ -9,12 +9,14 @@
 - [AI and Automation](../categories/ai-and-automation.md) (1)
 - [Application Frameworks](../categories/application-frameworks.md) (1)
 
+<a id="repo-droidrun--mobilerun"></a>
+
 ## [Mobilerun](https://github.com/droidrun/mobilerun)
 
 A Python framework for LLM agents that control Android and iOS devices with mobile-native UI tools through a CLI, terminal UI, Docker, or Python API.
 
-- **Category:** [AI and Automation](../categories/ai-and-automation.md)
-- **Topics:** [AI Agents](../topics/ai-agents.md) | [Mobile App](../topics/mobile-app.md) | [Mobile Development](../topics/mobile-development.md) | [Computer Use](../topics/computer-use.md) | [Tool Use](../topics/tool-use.md) | [Multi Provider](../topics/multi-provider.md) | [Observability](../topics/observability.md) | [Tracing](../topics/tracing.md) | [CLI](../topics/cli.md)
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-droidrun--mobilerun)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-droidrun--mobilerun) | [Mobile App](../topics/mobile-app.md#repo-droidrun--mobilerun) | [Mobile Development](../topics/mobile-development.md#repo-droidrun--mobilerun) | [Computer Use](../topics/computer-use.md#repo-droidrun--mobilerun) | [Tool Use](../topics/tool-use.md#repo-droidrun--mobilerun) | [Multi Provider](../topics/multi-provider.md#repo-droidrun--mobilerun) | [Observability](../topics/observability.md#repo-droidrun--mobilerun) | [Tracing](../topics/tracing.md#repo-droidrun--mobilerun) | [CLI](../topics/cli.md#repo-droidrun--mobilerun)
 - **Kind:** Framework
 - **Best for:** Automating and testing workflows on locally connected mobile devices; Building mobile agents that need UI-tree, screenshot, gesture, and app-control tools
 - **Languages:** Python
@@ -28,12 +30,14 @@ A Python framework for LLM agents that control Android and iOS devices with mobi
   - Combines accessibility trees and screenshots, with vision and screenshot-only modes
   - Offers direct execution and manager-executor reasoning modes for multi-step tasks
 
+<a id="repo-lynx-family--lynx"></a>
+
 ## [Lynx](https://github.com/lynx-family/lynx)
 
 The core engine of an open-source family for creating native mobile and web user interfaces from one codebase using web-oriented CSS and React knowledge.
 
-- **Category:** [Application Frameworks](../categories/application-frameworks.md)
-- **Topics:** [Mobile Development](../topics/mobile-development.md) | [Web](../topics/web.md) | [Frontend Development](../topics/frontend-development.md) | [Frameworks](../topics/frameworks.md) | [Performance](../topics/performance.md) | [Open Source](../topics/open-source.md)
+- **Category:** [Application Frameworks](../categories/application-frameworks.md#repo-lynx-family--lynx)
+- **Topics:** [Mobile Development](../topics/mobile-development.md#repo-lynx-family--lynx) | [Web](../topics/web.md#repo-lynx-family--lynx) | [Frontend Development](../topics/frontend-development.md#repo-lynx-family--lynx) | [Frameworks](../topics/frameworks.md#repo-lynx-family--lynx) | [Performance](../topics/performance.md#repo-lynx-family--lynx) | [Open Source](../topics/open-source.md#repo-lynx-family--lynx)
 - **Kind:** Framework
 - **Best for:** Web developers building Android, iOS, and web user interfaces; Teams that need a native mobile runtime with web-oriented authoring
 - **Languages:** C++, TypeScript, JavaScript

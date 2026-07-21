@@ -15,12 +15,14 @@
 - [Security and Privacy](../categories/security-and-privacy.md) (1)
 - [Systems and Infrastructure](../categories/systems-and-infrastructure.md) (1)
 
+<a id="repo-anomalyco--opentui"></a>
+
 ## [OpenTUI](https://github.com/anomalyco/opentui)
 
 A native terminal UI library with a Zig core, C ABI, and TypeScript bindings; it offers component-based layout and rendering primitives plus React and Solid reconcilers for building terminal applications.
 
-- **Category:** [Application Frameworks](../categories/application-frameworks.md)
-- **Topics:** [Terminal](../topics/terminal.md) | [TUI](../topics/tui.md) | [Libraries](../topics/libraries.md) | [UI Components](../topics/ui-components.md) | [Frameworks](../topics/frameworks.md)
+- **Category:** [Application Frameworks](../categories/application-frameworks.md#repo-anomalyco--opentui)
+- **Topics:** [Terminal](../topics/terminal.md#repo-anomalyco--opentui) | [TUI](../topics/tui.md#repo-anomalyco--opentui) | [Libraries](../topics/libraries.md#repo-anomalyco--opentui) | [UI Components](../topics/ui-components.md#repo-anomalyco--opentui) | [Frameworks](../topics/frameworks.md#repo-anomalyco--opentui)
 - **Kind:** Library
 - **Best for:** Developers building terminal applications from TypeScript or JavaScript; Teams wanting a native core with optional React or Solid rendering layers
 - **Languages:** Zig, TypeScript
@@ -34,12 +36,14 @@ A native terminal UI library with a Zig core, C ABI, and TypeScript bindings; it
   - Component-based architecture with flexible terminal layout capabilities
   - Core package with imperative APIs and terminal primitives
 
+<a id="repo-boundaryml--baml"></a>
+
 ## [BAML](https://github.com/BoundaryML/baml)
 
 A statically typed programming language and toolchain for defining reliable agent and LLM programs, with runtime-preserved types, analyzed errors, filesystem modules, standalone execution, and generated clients for multiple host languages.
 
-- **Category:** [Developer Tools](../categories/developer-tools.md)
-- **Topics:** [AI Agents](../topics/ai-agents.md) | [LLMs](../topics/llms.md) | [Code Generation](../topics/code-generation.md) | [API Development](../topics/api-development.md) | [CLI](../topics/cli.md) | [Developer Productivity](../topics/developer-productivity.md) | [Libraries](../topics/libraries.md)
+- **Category:** [Developer Tools](../categories/developer-tools.md#repo-boundaryml--baml)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-boundaryml--baml) | [LLMs](../topics/llms.md#repo-boundaryml--baml) | [Code Generation](../topics/code-generation.md#repo-boundaryml--baml) | [API Development](../topics/api-development.md#repo-boundaryml--baml) | [CLI](../topics/cli.md#repo-boundaryml--baml) | [Developer Productivity](../topics/developer-productivity.md#repo-boundaryml--baml) | [Libraries](../topics/libraries.md#repo-boundaryml--baml)
 - **Kind:** Other
 - **Best for:** Teams that want typed, versionable LLM and agent definitions outside application code; Polyglot projects that need one agent schema callable from Python, TypeScript, Go, or other hosts
 - **Languages:** Rust, TypeScript, Go
@@ -53,12 +57,14 @@ A statically typed programming language and toolchain for defining reliable agen
   - Preserves types at runtime and statically analyzes typed errors
   - Organizes modules and namespaces through the filesystem
 
+<a id="repo-chenglou--pretext"></a>
+
 ## [Pretext](https://github.com/chenglou/pretext)
 
 A JavaScript and TypeScript library for calculating multiline text layout without DOM measurement or reflow, using cached canvas-based measurement and Unicode-aware line breaking for height prediction and manual rendering in DOM, Canvas, SVG, or future server-side targets.
 
-- **Category:** [Frontend and Design](../categories/frontend-and-design.md)
-- **Topics:** [Frontend Development](../topics/frontend-development.md) | [Web](../topics/web.md) | [Performance](../topics/performance.md) | [Libraries](../topics/libraries.md)
+- **Category:** [Frontend and Design](../categories/frontend-and-design.md#repo-chenglou--pretext)
+- **Topics:** [Frontend Development](../topics/frontend-development.md#repo-chenglou--pretext) | [Web](../topics/web.md#repo-chenglou--pretext) | [Performance](../topics/performance.md#repo-chenglou--pretext) | [Libraries](../topics/libraries.md#repo-chenglou--pretext)
 - **Kind:** Library
 - **Best for:** Predicting text heights for virtualized or dynamically sized web interfaces; Building custom multiline layouts or renderers that need line-level geometry
 - **Languages:** TypeScript, JavaScript
@@ -72,12 +78,14 @@ A JavaScript and TypeScript library for calculating multiline text layout withou
   - Line-level ranges, statistics, and materialization for manual text rendering
   - Support for normal and pre-wrap whitespace, keep-all word breaking, and letter spacing
 
+<a id="repo-code-hike--codehike"></a>
+
 ## [Code Hike](https://github.com/code-hike/codehike)
 
 A TypeScript library that combines Markdown and React for technical content sites, with published code, MDX, block, and syntax-highlighting utilities.
 
-- **Category:** [Frontend and Design](../categories/frontend-and-design.md)
-- **Topics:** [Frontend Development](../topics/frontend-development.md) | [Documentation](../topics/documentation.md) | [Libraries](../topics/libraries.md) | [Web](../topics/web.md)
+- **Category:** [Frontend and Design](../categories/frontend-and-design.md#repo-code-hike--codehike)
+- **Topics:** [Frontend Development](../topics/frontend-development.md#repo-code-hike--codehike) | [Documentation](../topics/documentation.md#repo-code-hike--codehike) | [Libraries](../topics/libraries.md#repo-code-hike--codehike) | [Web](../topics/web.md#repo-code-hike--codehike)
 - **Kind:** Library
 - **Best for:** React teams building technical documentation, tutorials, or code-focused sites; Authors who want interactive code content from Markdown and MDX
 - **Languages:** TypeScript
@@ -91,12 +99,14 @@ A TypeScript library that combines Markdown and React for technical content site
   - Bridges Markdown and React for rich technical web content
   - Includes code-oriented package exports and a syntax-highlighting dependency
 
+<a id="repo-coly010--ng-rspack-build"></a>
+
 ## [ng-rspack-build](https://github.com/Coly010/ng-rspack-build)
 
 A moved monorepo of Angular build packages that integrate Rsbuild and Rspack, including an Rsbuild plugin, Rspack builders, and Nx plugins.
 
-- **Category:** [Developer Tools](../categories/developer-tools.md)
-- **Topics:** [Frontend Development](../topics/frontend-development.md) | [Frameworks](../topics/frameworks.md) | [Libraries](../topics/libraries.md) | [Performance](../topics/performance.md)
+- **Category:** [Developer Tools](../categories/developer-tools.md#repo-coly010--ng-rspack-build)
+- **Topics:** [Frontend Development](../topics/frontend-development.md#repo-coly010--ng-rspack-build) | [Frameworks](../topics/frameworks.md#repo-coly010--ng-rspack-build) | [Libraries](../topics/libraries.md#repo-coly010--ng-rspack-build) | [Performance](../topics/performance.md#repo-coly010--ng-rspack-build)
 - **Kind:** Monorepo
 - **Best for:** Evaluating the historical Angular integration before following its successor repository; Angular and Nx projects experimenting with Rsbuild or Rspack build tooling
 - **Languages:** TypeScript, JavaScript
@@ -110,12 +120,14 @@ A moved monorepo of Angular build packages that integrate Rsbuild and Rspack, in
   - Rspack build and compiler packages for Angular applications
   - Nx generators and executors for Rspack-based Angular applications
 
+<a id="repo-datalab-to--surya"></a>
+
 ## [surya](https://github.com/datalab-to/surya)
 
 A Python-distributed multilingual document-understanding model suite for OCR, layout analysis and reading order, table recognition, text-line detection, and OCR-error detection on images and PDFs.
 
-- **Category:** [AI and Automation](../categories/ai-and-automation.md)
-- **Topics:** [Document Processing](../topics/document-processing.md) | [Machine Learning](../topics/machine-learning.md) | [CLI](../topics/cli.md) | [Libraries](../topics/libraries.md) | [Multimodal](../topics/multimodal.md)
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-datalab-to--surya)
+- **Topics:** [Document Processing](../topics/document-processing.md#repo-datalab-to--surya) | [Machine Learning](../topics/machine-learning.md#repo-datalab-to--surya) | [CLI](../topics/cli.md#repo-datalab-to--surya) | [Libraries](../topics/libraries.md#repo-datalab-to--surya) | [Multimodal](../topics/multimodal.md#repo-datalab-to--surya)
 - **Kind:** Model
 - **Best for:** Developers building local OCR and document-structure extraction into Python workflows; Users who can supply a supported GPU or CPU/Apple-Silicon inference backend
 - **Languages:** Python
@@ -129,12 +141,14 @@ A Python-distributed multilingual document-understanding model suite for OCR, la
   - Provides separate models for text-line detection and OCR-error detection
   - Accepts images, PDFs, and directories through task-specific CLI commands and writes structured JSON
 
+<a id="repo-dicklesworthstone--asupersync"></a>
+
 ## [Asupersync](https://github.com/Dicklesworthstone/asupersync)
 
 An experimental Rust async runtime that uses region-owned tasks, explicit cancellation protocols, capability-gated effects, and deterministic replay testing.
 
-- **Category:** [Systems and Infrastructure](../categories/systems-and-infrastructure.md)
-- **Topics:** [Libraries](../topics/libraries.md) | [Testing](../topics/testing.md) | [Observability](../topics/observability.md) | [Security](../topics/security.md)
+- **Category:** [Systems and Infrastructure](../categories/systems-and-infrastructure.md#repo-dicklesworthstone--asupersync)
+- **Topics:** [Libraries](../topics/libraries.md#repo-dicklesworthstone--asupersync) | [Testing](../topics/testing.md#repo-dicklesworthstone--asupersync) | [Observability](../topics/observability.md#repo-dicklesworthstone--asupersync) | [Security](../topics/security.md#repo-dicklesworthstone--asupersync)
 - **Kind:** Framework
 - **Best for:** Experimental Rust systems that can validate selected adapters and cancellation boundaries; Teams investigating structured shutdown and reproducible concurrency failures
 - **Languages:** Rust, JavaScript, TypeScript
@@ -148,12 +162,14 @@ An experimental Rust async runtime that uses region-owned tasks, explicit cancel
   - Request, drain, and finalize cancellation protocol for covered primitives
   - Capability-gated runtime effects and obligation tracking
 
+<a id="repo-effect-ts--effect"></a>
+
 ## [Effect](https://github.com/Effect-TS/effect)
 
 A TypeScript library and package monorepo for building type-safe, production-grade applications, centered on the Effect package and companion packages for platform, testing, observability, SQL, AI, and UI integrations.
 
-- **Category:** [Application Frameworks](../categories/application-frameworks.md)
-- **Topics:** [Frameworks](../topics/frameworks.md) | [Libraries](../topics/libraries.md) | [Testing](../topics/testing.md) | [Observability](../topics/observability.md)
+- **Category:** [Application Frameworks](../categories/application-frameworks.md#repo-effect-ts--effect)
+- **Topics:** [Frameworks](../topics/frameworks.md#repo-effect-ts--effect) | [Libraries](../topics/libraries.md#repo-effect-ts--effect) | [Testing](../topics/testing.md#repo-effect-ts--effect) | [Observability](../topics/observability.md#repo-effect-ts--effect)
 - **Kind:** Library
 - **Best for:** TypeScript applications that need a shared foundation for typed application concerns; Teams adopting the Effect package ecosystem across Node.js, Bun, or browser targets
 - **Languages:** TypeScript
@@ -167,12 +183,14 @@ A TypeScript library and package monorepo for building type-safe, production-gra
   - A dedicated testing module is exported from the primary package
   - Unstable primary-package exports cover AI, CLI, cluster, HTTP, observability, persistence, RPC, schema, SQL, workflow, and workers
 
+<a id="repo-evilmartians--agent-prism"></a>
+
 ## [AgentPrism](https://github.com/evilmartians/agent-prism)
 
 An alpha React component library for exploring AI-agent traces as hierarchical timelines, using adapters that normalize OpenTelemetry and Langfuse data.
 
-- **Category:** [Frontend and Design](../categories/frontend-and-design.md)
-- **Topics:** [AI Agents](../topics/ai-agents.md) | [Observability](../topics/observability.md) | [UI Components](../topics/ui-components.md) | [Libraries](../topics/libraries.md) | [LLMs](../topics/llms.md)
+- **Category:** [Frontend and Design](../categories/frontend-and-design.md#repo-evilmartians--agent-prism)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-evilmartians--agent-prism) | [Observability](../topics/observability.md#repo-evilmartians--agent-prism) | [UI Components](../topics/ui-components.md#repo-evilmartians--agent-prism) | [Libraries](../topics/libraries.md#repo-evilmartians--agent-prism) | [LLMs](../topics/llms.md#repo-evilmartians--agent-prism)
 - **Kind:** Library
 - **Best for:** React teams building custom trace viewers for AI-agent debugging; Developers who need to inspect LLM calls, tool executions, and workflow spans
 - **Languages:** TypeScript
@@ -186,12 +204,14 @@ An alpha React component library for exploring AI-agent traces as hierarchical t
   - Provides composable TraceList, TreeView, and DetailsView components for custom layouts
   - Normalizes OpenTelemetry and Langfuse data through adapters and shared trace types
 
+<a id="repo-getbindu--bindu"></a>
+
 ## [Bindu](https://github.com/GetBindu/Bindu)
 
 A framework and multi-language SDK set for exposing AI agents through A2A messaging with DID identity, mTLS and OAuth2 authorization, x402 payments, deployment, and operational components.
 
-- **Category:** [AI and Automation](../categories/ai-and-automation.md)
-- **Topics:** [AI Agents](../topics/ai-agents.md) | [Agent Protocols](../topics/agent-protocols.md) | [Agent Orchestration](../topics/agent-orchestration.md) | [Authentication](../topics/authentication.md) | [Payments](../topics/payments.md) | [Security](../topics/security.md) | [Deployment](../topics/deployment.md) | [Observability](../topics/observability.md) | [API Development](../topics/api-development.md) | [Libraries](../topics/libraries.md)
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-getbindu--bindu)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-getbindu--bindu) | [Agent Protocols](../topics/agent-protocols.md#repo-getbindu--bindu) | [Agent Orchestration](../topics/agent-orchestration.md#repo-getbindu--bindu) | [Authentication](../topics/authentication.md#repo-getbindu--bindu) | [Payments](../topics/payments.md#repo-getbindu--bindu) | [Security](../topics/security.md#repo-getbindu--bindu) | [Deployment](../topics/deployment.md#repo-getbindu--bindu) | [Observability](../topics/observability.md#repo-getbindu--bindu) | [API Development](../topics/api-development.md#repo-getbindu--bindu) | [Libraries](../topics/libraries.md#repo-getbindu--bindu)
 - **Kind:** Framework
 - **Best for:** Teams building authenticated and monetized agent-to-agent services; Developers who need Python, TypeScript, or Kotlin access to a shared gRPC core
 - **Languages:** Python, TypeScript, Kotlin
@@ -205,12 +225,14 @@ A framework and multi-language SDK set for exposing AI agents through A2A messag
   - DID signing, mTLS transport, and OAuth2 authorization through Hydra
   - x402 USDC payment middleware with configured EVM networks
 
+<a id="repo-getpaykit--paykit"></a>
+
 ## [PayKit](https://github.com/getpaykit/paykit)
 
 An embedded TypeScript billing framework that keeps billing state in an application's database while managing products, subscriptions, entitlements, usage billing, and Stripe webhooks.
 
-- **Category:** [Backend and APIs](../categories/backend-and-apis.md)
-- **Topics:** [Payments](../topics/payments.md) | [Backend Development](../topics/backend-development.md) | [Libraries](../topics/libraries.md) | [Developer Productivity](../topics/developer-productivity.md) | [Open Source](../topics/open-source.md)
+- **Category:** [Backend and APIs](../categories/backend-and-apis.md#repo-getpaykit--paykit)
+- **Topics:** [Payments](../topics/payments.md#repo-getpaykit--paykit) | [Backend Development](../topics/backend-development.md#repo-getpaykit--paykit) | [Libraries](../topics/libraries.md#repo-getpaykit--paykit) | [Developer Productivity](../topics/developer-productivity.md#repo-getpaykit--paykit) | [Open Source](../topics/open-source.md#repo-getpaykit--paykit)
 - **Kind:** Framework
 - **Best for:** TypeScript applications that want billing logic and state inside their own backend; SaaS products defining plans and feature access as code
 - **Languages:** TypeScript
@@ -224,12 +246,14 @@ An embedded TypeScript billing framework that keeps billing state in an applicat
   - Manage subscriptions and feature entitlements through one application API
   - Track usage and monthly limits for metered features
 
+<a id="repo-github--copilot-sdk"></a>
+
 ## [GitHub Copilot SDK](https://github.com/github/copilot-sdk)
 
 Multi-language SDKs for embedding the Copilot CLI agent runtime in an application, with programmable sessions, streaming responses, custom tools, file-editing workflows, permission handling, and lifecycle hooks.
 
-- **Category:** [AI and Automation](../categories/ai-and-automation.md)
-- **Topics:** [AI Agents](../topics/ai-agents.md) | [Coding Agents](../topics/coding-agents.md) | [LLMs](../topics/llms.md) | [Tool Use](../topics/tool-use.md) | [Code Generation](../topics/code-generation.md) | [Libraries](../topics/libraries.md)
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-github--copilot-sdk)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-github--copilot-sdk) | [Coding Agents](../topics/coding-agents.md#repo-github--copilot-sdk) | [LLMs](../topics/llms.md#repo-github--copilot-sdk) | [Tool Use](../topics/tool-use.md#repo-github--copilot-sdk) | [Code Generation](../topics/code-generation.md#repo-github--copilot-sdk) | [Libraries](../topics/libraries.md#repo-github--copilot-sdk)
 - **Kind:** Library
 - **Best for:** Applications that need Copilot-powered agent workflows without implementing the runtime; Teams building agent-enabled products in TypeScript, Python, Go, .NET, Java, or Rust
 - **Languages:** TypeScript, Python, Go, C#, Java, Rust
@@ -243,12 +267,14 @@ Multi-language SDKs for embedding the Copilot CLI agent runtime in an applicatio
   - Programmatic agent sessions for prompts, planning, tool invocation, and file edits
   - Custom agents, skills, and tools plus application-controlled permission handlers
 
+<a id="repo-githubnext--vitale"></a>
+
 ## [Vitale](https://github.com/githubnext/vitale)
 
 An archived VS Code notebook extension and companion Node.js package for TypeScript projects, providing dependency-aware cells, Node-based execution, rich outputs, and Vite-powered React component rendering.
 
-- **Category:** [Developer Tools](../categories/developer-tools.md)
-- **Topics:** [Desktop App](../topics/desktop-app.md) | [Developer Productivity](../topics/developer-productivity.md) | [Frontend Development](../topics/frontend-development.md) | [Libraries](../topics/libraries.md)
+- **Category:** [Developer Tools](../categories/developer-tools.md#repo-githubnext--vitale)
+- **Topics:** [Desktop App](../topics/desktop-app.md#repo-githubnext--vitale) | [Developer Productivity](../topics/developer-productivity.md#repo-githubnext--vitale) | [Frontend Development](../topics/frontend-development.md#repo-githubnext--vitale) | [Libraries](../topics/libraries.md#repo-githubnext--vitale)
 - **Kind:** Plugin
 - **Best for:** Developers exploring TypeScript code and project modules in VS Code notebooks; Existing users who need to inspect or maintain a matching historical Vitale setup
 - **Languages:** TypeScript
@@ -262,12 +288,14 @@ An archived VS Code notebook extension and companion Node.js package for TypeScr
   - Automatic re-execution of dependent cells and imported project files
   - Node.js server-side execution with asynchronous iterable and promise output handling
 
+<a id="repo-google--magika"></a>
+
 ## [Magika](https://github.com/google/magika)
 
 A deep-learning file-content detector available as a Rust command-line tool and Python, Rust, JavaScript/TypeScript, and work-in-progress Go bindings, designed to classify files even when names or extensions mislead.
 
-- **Category:** [Security and Privacy](../categories/security-and-privacy.md)
-- **Topics:** [Machine Learning](../topics/machine-learning.md) | [CLI](../topics/cli.md) | [Libraries](../topics/libraries.md) | [Security](../topics/security.md) | [Data Processing](../topics/data-processing.md)
+- **Category:** [Security and Privacy](../categories/security-and-privacy.md#repo-google--magika)
+- **Topics:** [Machine Learning](../topics/machine-learning.md#repo-google--magika) | [CLI](../topics/cli.md#repo-google--magika) | [Libraries](../topics/libraries.md#repo-google--magika) | [Security](../topics/security.md#repo-google--magika) | [Data Processing](../topics/data-processing.md#repo-google--magika)
 - **Kind:** CLI
 - **Best for:** Routing untrusted files to suitable security or content-policy scanners; Adding content-type detection to Python, Rust, JavaScript, or CLI workflows
 - **Languages:** Rust, Python, TypeScript, Go
@@ -281,12 +309,14 @@ A deep-learning file-content detector available as a Rust command-line tool and 
   - Scans individual files, standard input, batches, or directories recursively
   - Emits human-readable, MIME-type, label, JSON, JSONL, score, or custom output
 
+<a id="repo-gridstack--gridstack.js"></a>
+
 ## [gridstack.js](https://github.com/gridstack/gridstack.js)
 
 A TypeScript library for building responsive, draggable, resizable dashboard grids and managing their widget layouts.
 
-- **Category:** [Frontend and Design](../categories/frontend-and-design.md)
-- **Topics:** [Web](../topics/web.md) | [UI Components](../topics/ui-components.md) | [Frontend Development](../topics/frontend-development.md) | [Libraries](../topics/libraries.md)
+- **Category:** [Frontend and Design](../categories/frontend-and-design.md#repo-gridstack--gridstack.js)
+- **Topics:** [Web](../topics/web.md#repo-gridstack--gridstack.js) | [UI Components](../topics/ui-components.md#repo-gridstack--gridstack.js) | [Frontend Development](../topics/frontend-development.md#repo-gridstack--gridstack.js) | [Libraries](../topics/libraries.md#repo-gridstack--gridstack.js)
 - **Kind:** Library
 - **Best for:** Adding configurable multi-column dashboard layouts to a web application; Applications that need to save and restore user-arranged widget positions
 - **Languages:** TypeScript, JavaScript
@@ -300,12 +330,14 @@ A TypeScript library for building responsive, draggable, resizable dashboard gri
   - Native mouse and touch support without runtime dependencies in the core library
   - APIs for creating widgets, loading serialized layouts, and saving layouts
 
+<a id="repo-hakimel--reveal.js"></a>
+
 ## [reveal.js](https://github.com/hakimel/reveal.js)
 
 An HTML presentation framework for authoring and presenting browser-based slide decks with a JavaScript API and optional plugins.
 
-- **Category:** [Frontend and Design](../categories/frontend-and-design.md)
-- **Topics:** [Web](../topics/web.md) | [Frontend Development](../topics/frontend-development.md) | [Frameworks](../topics/frameworks.md) | [Libraries](../topics/libraries.md) | [Accessibility](../topics/accessibility.md)
+- **Category:** [Frontend and Design](../categories/frontend-and-design.md#repo-hakimel--reveal.js)
+- **Topics:** [Web](../topics/web.md#repo-hakimel--reveal.js) | [Frontend Development](../topics/frontend-development.md#repo-hakimel--reveal.js) | [Frameworks](../topics/frameworks.md#repo-hakimel--reveal.js) | [Libraries](../topics/libraries.md#repo-hakimel--reveal.js) | [Accessibility](../topics/accessibility.md#repo-hakimel--reveal.js)
 - **Kind:** Framework
 - **Best for:** Publishing a customized web presentation from HTML, Markdown, or React components; Developers who need a self-hostable slide-deck framework rather than a hosted editor
 - **Languages:** JavaScript, TypeScript, HTML, CSS
@@ -319,12 +351,14 @@ An HTML presentation framework for authoring and presenting browser-based slide 
   - Plugins for Markdown, syntax highlighting, math, speaker notes, search, and zoom
   - PDF export, speaker view, Auto-Animate, and a documented JavaScript API
 
+<a id="repo-honojs--hono"></a>
+
 ## [Hono](https://github.com/honojs/hono)
 
 A small TypeScript web framework built on Web Standards for defining HTTP applications and middleware that can run across edge, serverless, and JavaScript server runtimes including Cloudflare Workers, Deno, Bun, AWS Lambda, and Node.js.
 
-- **Category:** [Application Frameworks](../categories/application-frameworks.md)
-- **Topics:** [Web](../topics/web.md) | [Frameworks](../topics/frameworks.md) | [Backend Development](../topics/backend-development.md) | [API Development](../topics/api-development.md) | [Performance](../topics/performance.md) | [Libraries](../topics/libraries.md)
+- **Category:** [Application Frameworks](../categories/application-frameworks.md#repo-honojs--hono)
+- **Topics:** [Web](../topics/web.md#repo-honojs--hono) | [Frameworks](../topics/frameworks.md#repo-honojs--hono) | [Backend Development](../topics/backend-development.md#repo-honojs--hono) | [API Development](../topics/api-development.md#repo-honojs--hono) | [Performance](../topics/performance.md#repo-honojs--hono) | [Libraries](../topics/libraries.md#repo-honojs--hono)
 - **Kind:** Framework
 - **Best for:** TypeScript teams targeting more than one JavaScript or edge runtime; Small HTTP APIs, web applications, and middleware-driven services
 - **Languages:** TypeScript
@@ -338,12 +372,14 @@ A small TypeScript web framework built on Web Standards for defining HTTP applic
   - Built-in, custom, and third-party middleware support
   - Runtime adapters for edge platforms, serverless functions, and Node.js
 
+<a id="repo-juliangarnier--anime"></a>
+
 ## [Anime.js](https://github.com/juliangarnier/anime)
 
 A JavaScript animation library for animating CSS properties, SVG, DOM attributes, and JavaScript objects through a modular API.
 
-- **Category:** [Frontend and Design](../categories/frontend-and-design.md)
-- **Topics:** [Web](../topics/web.md) | [Frontend Development](../topics/frontend-development.md) | [Libraries](../topics/libraries.md) | [Visualization](../topics/visualization.md)
+- **Category:** [Frontend and Design](../categories/frontend-and-design.md#repo-juliangarnier--anime)
+- **Topics:** [Web](../topics/web.md#repo-juliangarnier--anime) | [Frontend Development](../topics/frontend-development.md#repo-juliangarnier--anime) | [Libraries](../topics/libraries.md#repo-juliangarnier--anime) | [Visualization](../topics/visualization.md#repo-juliangarnier--anime)
 - **Kind:** Library
 - **Best for:** Adding programmatic motion and timelines to a web interface; Projects that need one animation API across DOM, SVG, and object targets
 - **Languages:** JavaScript, TypeScript
@@ -357,12 +393,14 @@ A JavaScript animation library for animating CSS properties, SVG, DOM attributes
   - ESM, CommonJS, UMD, and TypeScript declaration package outputs
   - Modules for SVG, text, layout, scroll, draggable interactions, and the Web Animations API
 
+<a id="repo-kyrolabs--awesome-langchain"></a>
+
 ## [Awesome LangChain](https://github.com/kyrolabs/awesome-langchain)
 
 A curated reference directory for the LangChain ecosystem, covering the core framework, language ports, tools, agents, templates, platforms, open-source projects, and learning material.
 
-- **Category:** [Documentation and Learning](../categories/documentation-and-learning.md)
-- **Topics:** [AI Agents](../topics/ai-agents.md) | [LLMs](../topics/llms.md) | [Curated Lists](../topics/curated-lists.md) | [Frameworks](../topics/frameworks.md) | [Libraries](../topics/libraries.md) | [Tutorials](../topics/tutorials.md) | [Reference](../topics/reference.md) | [Open Source](../topics/open-source.md)
+- **Category:** [Documentation and Learning](../categories/documentation-and-learning.md#repo-kyrolabs--awesome-langchain)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-kyrolabs--awesome-langchain) | [LLMs](../topics/llms.md#repo-kyrolabs--awesome-langchain) | [Curated Lists](../topics/curated-lists.md#repo-kyrolabs--awesome-langchain) | [Frameworks](../topics/frameworks.md#repo-kyrolabs--awesome-langchain) | [Libraries](../topics/libraries.md#repo-kyrolabs--awesome-langchain) | [Tutorials](../topics/tutorials.md#repo-kyrolabs--awesome-langchain) | [Reference](../topics/reference.md#repo-kyrolabs--awesome-langchain) | [Open Source](../topics/open-source.md#repo-kyrolabs--awesome-langchain)
 - **Kind:** Curated List
 - **Best for:** Developers looking for LangChain-related projects or integrations; Learners seeking examples, notebooks, and videos for the ecosystem
 - **Languages:** Unknown
@@ -376,12 +414,14 @@ A curated reference directory for the LangChain ecosystem, covering the core fra
   - Tool listings, including low-code services, agents, and templates
   - Open-source project sections for knowledge management and chatbots
 
+<a id="repo-langchain-ai--langchain"></a>
+
 ## [LangChain](https://github.com/langchain-ai/langchain)
 
 A Python framework for building agents and LLM-powered applications with composable components and standardized interfaces for chat models, embeddings, vector stores, tools, retrievers, and provider integrations; the current package depends on LangGraph for agent orchestration.
 
-- **Category:** [AI and Automation](../categories/ai-and-automation.md)
-- **Topics:** [Agent Frameworks](../topics/agent-frameworks.md) | [AI Agents](../topics/ai-agents.md) | [LLMs](../topics/llms.md) | [Multi Provider](../topics/multi-provider.md) | [Tool Use](../topics/tool-use.md) | [Agent Orchestration](../topics/agent-orchestration.md) | [Libraries](../topics/libraries.md) | [Open Source](../topics/open-source.md)
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-langchain-ai--langchain)
+- **Topics:** [Agent Frameworks](../topics/agent-frameworks.md#repo-langchain-ai--langchain) | [AI Agents](../topics/ai-agents.md#repo-langchain-ai--langchain) | [LLMs](../topics/llms.md#repo-langchain-ai--langchain) | [Multi Provider](../topics/multi-provider.md#repo-langchain-ai--langchain) | [Tool Use](../topics/tool-use.md#repo-langchain-ai--langchain) | [Agent Orchestration](../topics/agent-orchestration.md#repo-langchain-ai--langchain) | [Libraries](../topics/libraries.md#repo-langchain-ai--langchain) | [Open Source](../topics/open-source.md#repo-langchain-ai--langchain)
 - **Kind:** Framework
 - **Best for:** Python developers building LLM applications with interchangeable providers and components; Agent applications that need LangGraph-backed orchestration with LangChain integrations
 - **Languages:** Python
@@ -395,12 +435,14 @@ A Python framework for building agents and LLM-powered applications with composa
   - Chat-model initialization through provider-qualified model identifiers
   - Optional integration packages for model providers and community components
 
+<a id="repo-langchain-ai--langchainjs"></a>
+
 ## [LangChain.js](https://github.com/langchain-ai/langchainjs)
 
 A TypeScript framework for assembling LLM-powered applications from interoperable abstractions for agents, models, embeddings, vector stores, tools, retrievers, and third-party integrations across server and browser JavaScript runtimes.
 
-- **Category:** [AI and Automation](../categories/ai-and-automation.md)
-- **Topics:** [AI Agents](../topics/ai-agents.md) | [LLMs](../topics/llms.md) | [Agent Frameworks](../topics/agent-frameworks.md) | [Tool Use](../topics/tool-use.md) | [Multi Provider](../topics/multi-provider.md) | [Libraries](../topics/libraries.md) | [Frameworks](../topics/frameworks.md)
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-langchain-ai--langchainjs)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-langchain-ai--langchainjs) | [LLMs](../topics/llms.md#repo-langchain-ai--langchainjs) | [Agent Frameworks](../topics/agent-frameworks.md#repo-langchain-ai--langchainjs) | [Tool Use](../topics/tool-use.md#repo-langchain-ai--langchainjs) | [Multi Provider](../topics/multi-provider.md#repo-langchain-ai--langchainjs) | [Libraries](../topics/libraries.md#repo-langchain-ai--langchainjs) | [Frameworks](../topics/frameworks.md#repo-langchain-ai--langchainjs)
 - **Kind:** Framework
 - **Best for:** TypeScript teams composing LLM applications from providers, tools, and data sources; Projects that need the same framework across Node.js, browser, edge, or serverless runtimes
 - **Languages:** TypeScript
@@ -414,12 +456,14 @@ A TypeScript framework for assembling LLM-powered applications from interoperabl
   - Modular integrations for model providers, external systems, and data sources
   - Model interoperability that lets applications swap model implementations
 
+<a id="repo-langchain-ai--langgraph"></a>
+
 ## [LangGraph](https://github.com/langchain-ai/langgraph)
 
 A low-level Python framework for building, managing, and deploying long-running stateful agents and multi-actor workflows, with durable execution, checkpoint-backed state, human oversight, and memory-oriented infrastructure.
 
-- **Category:** [AI and Automation](../categories/ai-and-automation.md)
-- **Topics:** [AI Agents](../topics/ai-agents.md) | [LLMs](../topics/llms.md) | [Agent Frameworks](../topics/agent-frameworks.md) | [Agent Orchestration](../topics/agent-orchestration.md) | [Agent Memory](../topics/agent-memory.md) | [Multi Agent](../topics/multi-agent.md) | [Libraries](../topics/libraries.md) | [Frameworks](../topics/frameworks.md)
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-langchain-ai--langgraph)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-langchain-ai--langgraph) | [LLMs](../topics/llms.md#repo-langchain-ai--langgraph) | [Agent Frameworks](../topics/agent-frameworks.md#repo-langchain-ai--langgraph) | [Agent Orchestration](../topics/agent-orchestration.md#repo-langchain-ai--langgraph) | [Agent Memory](../topics/agent-memory.md#repo-langchain-ai--langgraph) | [Multi Agent](../topics/multi-agent.md#repo-langchain-ai--langgraph) | [Libraries](../topics/libraries.md#repo-langchain-ai--langgraph) | [Frameworks](../topics/frameworks.md#repo-langchain-ai--langgraph)
 - **Kind:** Framework
 - **Best for:** Python teams that need explicit control of resilient, stateful agent workflows; Agent systems that must persist state, resume after interruptions, or allow human intervention
 - **Languages:** Python
@@ -433,12 +477,14 @@ A low-level Python framework for building, managing, and deploying long-running 
   - Human-in-the-loop interrupts for inspecting and modifying agent state during execution
   - Short-term working memory and long-term persistent memory patterns
 
+<a id="repo-langroid--langroid"></a>
+
 ## [Langroid](https://github.com/langroid/langroid)
 
 A Python framework for building LLM applications through first-class agents and tasks that exchange messages, delegate sub-tasks, use typed tools and vector stores, and support multi-agent workflows with local or remote language models.
 
-- **Category:** [AI and Automation](../categories/ai-and-automation.md)
-- **Topics:** [AI Agents](../topics/ai-agents.md) | [LLMs](../topics/llms.md) | [Agent Frameworks](../topics/agent-frameworks.md) | [Agent Orchestration](../topics/agent-orchestration.md) | [Multi Agent](../topics/multi-agent.md) | [Agent Memory](../topics/agent-memory.md) | [Tool Use](../topics/tool-use.md) | [MCP](../topics/mcp.md) | [Document Processing](../topics/document-processing.md) | [Local Models](../topics/local-models.md) | [Libraries](../topics/libraries.md) | [Frameworks](../topics/frameworks.md)
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-langroid--langroid)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-langroid--langroid) | [LLMs](../topics/llms.md#repo-langroid--langroid) | [Agent Frameworks](../topics/agent-frameworks.md#repo-langroid--langroid) | [Agent Orchestration](../topics/agent-orchestration.md#repo-langroid--langroid) | [Multi Agent](../topics/multi-agent.md#repo-langroid--langroid) | [Agent Memory](../topics/agent-memory.md#repo-langroid--langroid) | [Tool Use](../topics/tool-use.md#repo-langroid--langroid) | [MCP](../topics/mcp.md#repo-langroid--langroid) | [Document Processing](../topics/document-processing.md#repo-langroid--langroid) | [Local Models](../topics/local-models.md#repo-langroid--langroid) | [Libraries](../topics/libraries.md#repo-langroid--langroid) | [Frameworks](../topics/frameworks.md#repo-langroid--langroid)
 - **Kind:** Framework
 - **Best for:** Python developers who want explicit Agent and Task abstractions for collaborative LLM workflows; Applications combining LLMs with typed tools, document retrieval, vector stores, or MCP servers
 - **Languages:** Python
@@ -452,12 +498,14 @@ A Python framework for building LLM applications through first-class agents and 
   - Message-based multi-agent orchestration inspired by the actor model
   - Pydantic-based typed tools and function calling with validation feedback
 
+<a id="repo-openai--whisper"></a>
+
 ## [Whisper](https://github.com/openai/whisper)
 
 A general-purpose Transformer speech-recognition model with Python and CLI tooling for multilingual transcription, translation into English, and language identification.
 
-- **Category:** [AI and Automation](../categories/ai-and-automation.md)
-- **Topics:** [Speech to Text](../topics/speech-to-text.md) | [Machine Learning](../topics/machine-learning.md) | [CLI](../topics/cli.md) | [Libraries](../topics/libraries.md) | [Open Source](../topics/open-source.md)
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-openai--whisper)
+- **Topics:** [Speech to Text](../topics/speech-to-text.md#repo-openai--whisper) | [Machine Learning](../topics/machine-learning.md#repo-openai--whisper) | [CLI](../topics/cli.md#repo-openai--whisper) | [Libraries](../topics/libraries.md#repo-openai--whisper) | [Open Source](../topics/open-source.md#repo-openai--whisper)
 - **Kind:** Model
 - **Best for:** Applications or scripts that need local multilingual speech transcription; Audio-processing workflows that need either a command line or Python API
 - **Languages:** Python
@@ -471,12 +519,14 @@ A general-purpose Transformer speech-recognition model with Python and CLI tooli
   - Six model sizes with documented speed, memory, and language-coverage tradeoffs
   - A Python API for loading models, transcribing audio, decoding, and language detection
 
+<a id="repo-oxc-project--oxc"></a>
+
 ## [Oxc](https://github.com/oxc-project/oxc)
 
 A Rust workspace for high-performance JavaScript and TypeScript tooling. It provides parser, transformer, minifier, resolver, semantic-analysis, and linting components, alongside the Oxlint linter and Oxfmt formatter command-line applications.
 
-- **Category:** [Developer Tools](../categories/developer-tools.md)
-- **Topics:** [CLI](../topics/cli.md) | [Performance](../topics/performance.md) | [Frontend Development](../topics/frontend-development.md) | [Developer Productivity](../topics/developer-productivity.md) | [Libraries](../topics/libraries.md) | [Open Source](../topics/open-source.md)
+- **Category:** [Developer Tools](../categories/developer-tools.md#repo-oxc-project--oxc)
+- **Topics:** [CLI](../topics/cli.md#repo-oxc-project--oxc) | [Performance](../topics/performance.md#repo-oxc-project--oxc) | [Frontend Development](../topics/frontend-development.md#repo-oxc-project--oxc) | [Developer Productivity](../topics/developer-productivity.md#repo-oxc-project--oxc) | [Libraries](../topics/libraries.md#repo-oxc-project--oxc) | [Open Source](../topics/open-source.md#repo-oxc-project--oxc)
 - **Kind:** Monorepo
 - **Best for:** Developers who want fast linting or formatting for JavaScript and TypeScript codebases; Tool authors building on Rust components for parsing, transforming, minifying, or resolving modules
 - **Languages:** Rust, JavaScript, TypeScript
@@ -490,12 +540,14 @@ A Rust workspace for high-performance JavaScript and TypeScript tooling. It prov
   - Exposes parser, transformer, minifier, and resolver capabilities for JavaScript and TypeScript
   - Organizes reusable Rust crates with Node-API bindings and a language-server component
 
+<a id="repo-pierrecomputer--pierre"></a>
+
 ## [Pierre](https://github.com/pierrecomputer/pierre)
 
 A TypeScript monorepo for public packages that render code diffs and file trees, with React, server-rendered, worker, and web-component entry points.
 
-- **Category:** [Frontend and Design](../categories/frontend-and-design.md)
-- **Topics:** [Web](../topics/web.md) | [UI Components](../topics/ui-components.md) | [Frontend Development](../topics/frontend-development.md) | [Code Review](../topics/code-review.md) | [Libraries](../topics/libraries.md)
+- **Category:** [Frontend and Design](../categories/frontend-and-design.md#repo-pierrecomputer--pierre)
+- **Topics:** [Web](../topics/web.md#repo-pierrecomputer--pierre) | [UI Components](../topics/ui-components.md#repo-pierrecomputer--pierre) | [Frontend Development](../topics/frontend-development.md#repo-pierrecomputer--pierre) | [Code Review](../topics/code-review.md#repo-pierrecomputer--pierre) | [Libraries](../topics/libraries.md#repo-pierrecomputer--pierre)
 - **Kind:** Monorepo
 - **Best for:** Building polished code-review, change-inspection, or repository-navigation interfaces; Teams that need reusable diff and tree renderers rather than a complete Git client
 - **Languages:** TypeScript
@@ -509,12 +561,14 @@ A TypeScript monorepo for public packages that render code diffs and file trees,
   - Public @pierre/trees package with React, SSR, and web-component entry points
   - Separate theming, theme, and path-store packages shared by the UI packages
 
+<a id="repo-pmndrs--jotai"></a>
+
 ## [Jotai](https://github.com/pmndrs/jotai)
 
 An atom-based state-management library for React that composes primitive and derived atoms into application state, with React hooks and store APIs.
 
-- **Category:** [Application Frameworks](../categories/application-frameworks.md)
-- **Topics:** [Web](../topics/web.md) | [Frontend Development](../topics/frontend-development.md) | [Libraries](../topics/libraries.md)
+- **Category:** [Application Frameworks](../categories/application-frameworks.md#repo-pmndrs--jotai)
+- **Topics:** [Web](../topics/web.md#repo-pmndrs--jotai) | [Frontend Development](../topics/frontend-development.md#repo-pmndrs--jotai) | [Libraries](../topics/libraries.md#repo-pmndrs--jotai)
 - **Kind:** Library
 - **Best for:** React applications that benefit from independently composable state units; Teams that want derived state expressed directly from other atoms
 - **Languages:** TypeScript, JavaScript
@@ -528,12 +582,14 @@ An atom-based state-management library for React that composes primitive and der
   - Exposes useAtom and related React hooks for reading and writing atom state
   - Supports asynchronous atoms that integrate with React Suspense behavior
 
+<a id="repo-pmndrs--zustand"></a>
+
 ## [Zustand](https://github.com/pmndrs/zustand)
 
 A small, hook-based state-management library for React that creates stores without requiring context providers and also exposes a vanilla store API.
 
-- **Category:** [Application Frameworks](../categories/application-frameworks.md)
-- **Topics:** [Web](../topics/web.md) | [Frontend Development](../topics/frontend-development.md) | [Libraries](../topics/libraries.md)
+- **Category:** [Application Frameworks](../categories/application-frameworks.md#repo-pmndrs--zustand)
+- **Topics:** [Web](../topics/web.md#repo-pmndrs--zustand) | [Frontend Development](../topics/frontend-development.md#repo-pmndrs--zustand) | [Libraries](../topics/libraries.md#repo-pmndrs--zustand)
 - **Kind:** Library
 - **Best for:** React applications that need concise, provider-free application state; JavaScript applications that need a standalone observable store
 - **Languages:** TypeScript, JavaScript
@@ -547,12 +603,14 @@ A small, hook-based state-management library for React that creates stores witho
   - Re-renders consuming components when their selected state changes
   - Supports vanilla stores outside React through createStore and useStore
 
+<a id="repo-pyscript--pyscript"></a>
+
 ## [PyScript](https://github.com/pyscript/pyscript)
 
 An open-source browser platform for building Python applications with Pyodide or MicroPython, WebAssembly, and modern web technologies.
 
-- **Category:** [Application Frameworks](../categories/application-frameworks.md)
-- **Topics:** [Web](../topics/web.md) | [Frontend Development](../topics/frontend-development.md) | [Libraries](../topics/libraries.md)
+- **Category:** [Application Frameworks](../categories/application-frameworks.md#repo-pyscript--pyscript)
+- **Topics:** [Web](../topics/web.md#repo-pyscript--pyscript) | [Frontend Development](../topics/frontend-development.md#repo-pyscript--pyscript) | [Libraries](../topics/libraries.md#repo-pyscript--pyscript)
 - **Kind:** Framework
 - **Best for:** Browser applications that need Python embedded directly in an HTML page; Prototypes and web experiences that can use Pyodide or MicroPython runtimes
 - **Languages:** Python, JavaScript, HTML
@@ -566,12 +624,14 @@ An open-source browser platform for building Python applications with Pyodide or
   - Publishes browser-ready core JavaScript and CSS release assets
   - Uses WebAssembly and standard web technologies for browser execution
 
+<a id="repo-rtfpessoa--diff2html"></a>
+
 ## [diff2html](https://github.com/rtfpessoa/diff2html)
 
 A TypeScript library that parses Git or unified diffs and renders them as formatted HTML, with a browser UI wrapper and Node.js distribution.
 
-- **Category:** [Frontend and Design](../categories/frontend-and-design.md)
-- **Topics:** [Git](../topics/git.md) | [Web](../topics/web.md) | [UI Components](../topics/ui-components.md) | [Libraries](../topics/libraries.md)
+- **Category:** [Frontend and Design](../categories/frontend-and-design.md#repo-rtfpessoa--diff2html)
+- **Topics:** [Git](../topics/git.md#repo-rtfpessoa--diff2html) | [Web](../topics/web.md#repo-rtfpessoa--diff2html) | [UI Components](../topics/ui-components.md#repo-rtfpessoa--diff2html) | [Libraries](../topics/libraries.md#repo-rtfpessoa--diff2html)
 - **Kind:** Library
 - **Best for:** Adding rendered file diffs to web interfaces; Converting Git or unified-diff output into embeddable HTML
 - **Languages:** TypeScript, JavaScript
@@ -585,12 +645,14 @@ A TypeScript library that parses Git or unified diffs and renders them as format
   - Renders line-by-line and side-by-side comparisons
   - Provides parser and HTML-generation APIs
 
+<a id="repo-simonw--llm-openai-via-codex"></a>
+
 ## [llm-openai-via-codex](https://github.com/simonw/llm-openai-via-codex)
 
 A Python plugin for Simon Willison's LLM command-line tool that exposes OpenAI models through an existing authenticated OpenAI Codex CLI subscription instead of requiring a separately configured model API key.
 
-- **Category:** [Developer Tools](../categories/developer-tools.md)
-- **Topics:** [LLMs](../topics/llms.md) | [CLI](../topics/cli.md) | [Libraries](../topics/libraries.md) | [Developer Productivity](../topics/developer-productivity.md) | [Open Source](../topics/open-source.md)
+- **Category:** [Developer Tools](../categories/developer-tools.md#repo-simonw--llm-openai-via-codex)
+- **Topics:** [LLMs](../topics/llms.md#repo-simonw--llm-openai-via-codex) | [CLI](../topics/cli.md#repo-simonw--llm-openai-via-codex) | [Libraries](../topics/libraries.md#repo-simonw--llm-openai-via-codex) | [Developer Productivity](../topics/developer-productivity.md#repo-simonw--llm-openai-via-codex) | [Open Source](../topics/open-source.md#repo-simonw--llm-openai-via-codex)
 - **Kind:** Plugin
 - **Best for:** LLM CLI users with an authenticated OpenAI Codex CLI subscription; Prompting OpenAI models through LLM's existing command-line workflows
 - **Languages:** Python
@@ -604,12 +666,14 @@ A Python plugin for Simon Willison's LLM command-line tool that exposes OpenAI m
   - Lists available Codex-backed models with the LLM models command
   - Runs model prompts through names such as openai-codex/gpt-5.5
 
+<a id="repo-sindresorhus--type-fest"></a>
+
 ## [Type-Fest](https://github.com/sindresorhus/type-fest)
 
 An ESM package of essential and utility TypeScript definitions for composing stricter application types without adding a runtime implementation.
 
-- **Category:** [Developer Tools](../categories/developer-tools.md)
-- **Topics:** [Libraries](../topics/libraries.md) | [Developer Productivity](../topics/developer-productivity.md)
+- **Category:** [Developer Tools](../categories/developer-tools.md#repo-sindresorhus--type-fest)
+- **Topics:** [Libraries](../topics/libraries.md#repo-sindresorhus--type-fest) | [Developer Productivity](../topics/developer-productivity.md#repo-sindresorhus--type-fest)
 - **Kind:** Library
 - **Best for:** TypeScript projects needing reusable utility and deep-object types; Teams that can adopt modern TypeScript with strict checking enabled
 - **Languages:** TypeScript
@@ -623,12 +687,14 @@ An ESM package of essential and utility TypeScript definitions for composing str
   - Includes deep object, key-selection, union, and conditional type helpers
   - Exposes the main type collection and a globals entry point
 
+<a id="repo-vercel--ai-elements"></a>
+
 ## [AI Elements](https://github.com/vercel/ai-elements)
 
 A shadcn/ui-based React component library and registry for adding customizable conversation, message, code, reasoning, and other AI interface elements to Next.js applications.
 
-- **Category:** [Frontend and Design](../categories/frontend-and-design.md)
-- **Topics:** [LLMs](../topics/llms.md) | [Chat UI](../topics/chat-ui.md) | [UI Components](../topics/ui-components.md) | [Design Systems](../topics/design-systems.md) | [Frontend Development](../topics/frontend-development.md) | [Libraries](../topics/libraries.md) | [Open Source](../topics/open-source.md)
+- **Category:** [Frontend and Design](../categories/frontend-and-design.md#repo-vercel--ai-elements)
+- **Topics:** [LLMs](../topics/llms.md#repo-vercel--ai-elements) | [Chat UI](../topics/chat-ui.md#repo-vercel--ai-elements) | [UI Components](../topics/ui-components.md#repo-vercel--ai-elements) | [Design Systems](../topics/design-systems.md#repo-vercel--ai-elements) | [Frontend Development](../topics/frontend-development.md#repo-vercel--ai-elements) | [Libraries](../topics/libraries.md#repo-vercel--ai-elements) | [Open Source](../topics/open-source.md#repo-vercel--ai-elements)
 - **Kind:** Library
 - **Best for:** Teams building a customizable chat or generative-AI interface with Next.js; Projects that already use shadcn/ui, Tailwind CSS, and the AI SDK
 - **Languages:** TypeScript

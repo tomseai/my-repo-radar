@@ -14,12 +14,14 @@
 - [Frontend and Design](../categories/frontend-and-design.md) (4)
 - [Platforms and Applications](../categories/platforms-and-applications.md) (7)
 
+<a id="repo-adithya-s-k--gitvizz"></a>
+
 ## [GitVizz](https://github.com/adithya-s-k/GitVizz)
 
 A web application for exploring GitHub repositories through dependency graphs, code navigation, LLM-assisted repository chat, and generated documentation.
 
-- **Category:** [Developer Tools](../categories/developer-tools.md)
-- **Topics:** [Git](../topics/git.md) | [Codebase Indexing](../topics/codebase-indexing.md) | [Codebase Search](../topics/codebase-search.md) | [Visualization](../topics/visualization.md) | [LLMs](../topics/llms.md) | [Web UI](../topics/web-ui.md) | [Observability](../topics/observability.md)
+- **Category:** [Developer Tools](../categories/developer-tools.md#repo-adithya-s-k--gitvizz)
+- **Topics:** [Git](../topics/git.md#repo-adithya-s-k--gitvizz) | [Codebase Indexing](../topics/codebase-indexing.md#repo-adithya-s-k--gitvizz) | [Codebase Search](../topics/codebase-search.md#repo-adithya-s-k--gitvizz) | [Visualization](../topics/visualization.md#repo-adithya-s-k--gitvizz) | [LLMs](../topics/llms.md#repo-adithya-s-k--gitvizz) | [Web UI](../topics/web-ui.md#repo-adithya-s-k--gitvizz) | [Observability](../topics/observability.md#repo-adithya-s-k--gitvizz)
 - **Kind:** Application
 - **Best for:** Developers onboarding to, reviewing, or investigating an unfamiliar GitHub codebase; Teams that want visual code relationships and LLM context-building alongside a repository browser
 - **Languages:** TypeScript, Python
@@ -33,12 +35,14 @@ A web application for exploring GitHub repositories through dependency graphs, c
   - Context-aware repository chat backed by configurable LLM providers
   - LLM context builder and automatic documentation generation for repository analysis
 
+<a id="repo-ahmedkhaleel2004--gitdiagram"></a>
+
 ## [GitDiagram](https://github.com/ahmedkhaleel2004/gitdiagram)
 
 A web application that turns public or authorized private GitHub repositories into validated, interactive system-level architecture diagrams and Mermaid exports.
 
-- **Category:** [Developer Tools](../categories/developer-tools.md)
-- **Topics:** [GitHub](../topics/github.md) | [LLMs](../topics/llms.md) | [Web UI](../topics/web-ui.md) | [Visualization](../topics/visualization.md)
+- **Category:** [Developer Tools](../categories/developer-tools.md#repo-ahmedkhaleel2004--gitdiagram)
+- **Topics:** [GitHub](../topics/github.md#repo-ahmedkhaleel2004--gitdiagram) | [LLMs](../topics/llms.md#repo-ahmedkhaleel2004--gitdiagram) | [Web UI](../topics/web-ui.md#repo-ahmedkhaleel2004--gitdiagram) | [Visualization](../topics/visualization.md#repo-ahmedkhaleel2004--gitdiagram)
 - **Kind:** Application
 - **Best for:** Exploring an unfamiliar GitHub repository through a linked architecture view; Sharing a generated system diagram before reading a codebase in depth
 - **Languages:** TypeScript
@@ -52,12 +56,14 @@ A web application that turns public or authorized private GitHub repositories in
   - Links rendered components to their corresponding GitHub files or directories
   - Streams an architecture explanation and graph-generation progress
 
+<a id="repo-arize-ai--phoenix"></a>
+
 ## [Phoenix](https://github.com/Arize-ai/phoenix)
 
 An AI observability and evaluation platform for tracing, experimenting with, and troubleshooting LLM applications.
 
-- **Category:** [AI and Automation](../categories/ai-and-automation.md)
-- **Topics:** [LLMs](../topics/llms.md) | [Observability](../topics/observability.md) | [Tracing](../topics/tracing.md) | [Evaluation](../topics/evaluation.md) | [Self Hosted](../topics/self-hosted.md) | [Web UI](../topics/web-ui.md)
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-arize-ai--phoenix)
+- **Topics:** [LLMs](../topics/llms.md#repo-arize-ai--phoenix) | [Observability](../topics/observability.md#repo-arize-ai--phoenix) | [Tracing](../topics/tracing.md#repo-arize-ai--phoenix) | [Evaluation](../topics/evaluation.md#repo-arize-ai--phoenix) | [Self Hosted](../topics/self-hosted.md#repo-arize-ai--phoenix) | [Web UI](../topics/web-ui.md#repo-arize-ai--phoenix)
 - **Kind:** Application
 - **Best for:** Teams operating LLM applications that need trace inspection and evaluation workflows; Developers who want local, containerized, or cloud deployment choices
 - **Languages:** Python, TypeScript
@@ -71,12 +77,14 @@ An AI observability and evaluation platform for tracing, experimenting with, and
   - Supports response and retrieval evaluations, versioned datasets, and experiments
   - Provides a playground and prompt management for comparing models and prompt changes
 
+<a id="repo-assistant-ui--assistant-ui"></a>
+
 ## [assistant-ui](https://github.com/assistant-ui/assistant-ui)
 
 A TypeScript and React library for composing production AI chat interfaces from UI primitives and runtime adapters.
 
-- **Category:** [Frontend and Design](../categories/frontend-and-design.md)
-- **Topics:** [Chat UI](../topics/chat-ui.md) | [Generative UI](../topics/generative-ui.md) | [UI Components](../topics/ui-components.md) | [LLMs](../topics/llms.md) | [Tool Use](../topics/tool-use.md) | [Web UI](../topics/web-ui.md)
+- **Category:** [Frontend and Design](../categories/frontend-and-design.md#repo-assistant-ui--assistant-ui)
+- **Topics:** [Chat UI](../topics/chat-ui.md#repo-assistant-ui--assistant-ui) | [Generative UI](../topics/generative-ui.md#repo-assistant-ui--assistant-ui) | [UI Components](../topics/ui-components.md#repo-assistant-ui--assistant-ui) | [LLMs](../topics/llms.md#repo-assistant-ui--assistant-ui) | [Tool Use](../topics/tool-use.md#repo-assistant-ui--assistant-ui) | [Web UI](../topics/web-ui.md#repo-assistant-ui--assistant-ui)
 - **Kind:** Library
 - **Best for:** React teams building custom AI chat or copilot experiences; Projects that need to connect a chat UI to the AI SDK, agent frameworks, or a custom backend
 - **Languages:** TypeScript
@@ -90,12 +98,14 @@ A TypeScript and React library for composing production AI chat interfaces from 
   - Styled Base UI or Radix UI starter components installed by its CLI
   - Streaming chat UX with retries, attachments, markdown, code highlighting, voice dictation, and accessibility
 
+<a id="repo-automaker-org--automaker"></a>
+
 ## [Automaker](https://github.com/AutoMaker-Org/automaker)
 
 A desktop or web development studio that uses a Kanban workflow to plan, run, review, and approve coding-agent work in isolated Git worktrees.
 
-- **Category:** [AI and Automation](../categories/ai-and-automation.md)
-- **Topics:** [AI Agents](../topics/ai-agents.md) | [Coding Agents](../topics/coding-agents.md) | [Agent Orchestration](../topics/agent-orchestration.md) | [Multi Agent](../topics/multi-agent.md) | [Task Planning](../topics/task-planning.md) | [Worktrees](../topics/worktrees.md) | [Desktop App](../topics/desktop-app.md) | [Web UI](../topics/web-ui.md) | [Git](../topics/git.md)
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-automaker-org--automaker)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-automaker-org--automaker) | [Coding Agents](../topics/coding-agents.md#repo-automaker-org--automaker) | [Agent Orchestration](../topics/agent-orchestration.md#repo-automaker-org--automaker) | [Multi Agent](../topics/multi-agent.md#repo-automaker-org--automaker) | [Task Planning](../topics/task-planning.md#repo-automaker-org--automaker) | [Worktrees](../topics/worktrees.md#repo-automaker-org--automaker) | [Desktop App](../topics/desktop-app.md#repo-automaker-org--automaker) | [Web UI](../topics/web-ui.md#repo-automaker-org--automaker) | [Git](../topics/git.md#repo-automaker-org--automaker)
 - **Kind:** Application
 - **Best for:** Developers coordinating feature-sized coding-agent tasks visually; Teams that want plan approval and worktree isolation around agent execution
 - **Languages:** TypeScript
@@ -109,12 +119,14 @@ A desktop or web development studio that uses a Kanban workflow to plan, run, re
   - Agent execution with live tool use and progress streaming
   - Isolated Git worktrees for individual features
 
+<a id="repo-benjitaylor--agentation"></a>
+
 ## [Agentation](https://github.com/benjitaylor/agentation)
 
 A React visual-feedback library that lets users annotate page elements and copy structured selectors, positions, and context for AI coding agents.
 
-- **Category:** [Developer Tools](../categories/developer-tools.md)
-- **Topics:** [Coding Agents](../topics/coding-agents.md) | [Frontend Development](../topics/frontend-development.md) | [MCP](../topics/mcp.md) | [Web UI](../topics/web-ui.md)
+- **Category:** [Developer Tools](../categories/developer-tools.md#repo-benjitaylor--agentation)
+- **Topics:** [Coding Agents](../topics/coding-agents.md#repo-benjitaylor--agentation) | [Frontend Development](../topics/frontend-development.md#repo-benjitaylor--agentation) | [MCP](../topics/mcp.md#repo-benjitaylor--agentation) | [Web UI](../topics/web-ui.md#repo-benjitaylor--agentation)
 - **Kind:** Library
 - **Best for:** React teams giving precise visual feedback to an AI coding agent; Turning UI review notes into references that can be located in source code
 - **Languages:** TypeScript
@@ -128,12 +140,14 @@ A React visual-feedback library that lets users annotate page elements and copy 
   - Text, multi-element, and arbitrary-area annotations
   - Animation pausing to capture a specific interface state
 
+<a id="repo-betterdb-inc--monitor"></a>
+
 ## [BetterDB Monitor](https://github.com/BetterDB-inc/monitor)
 
 A self-hosted monitoring application for Valkey and Redis that presents real-time activity, slowlog analysis, audit trails, and database metrics.
 
-- **Category:** [DevOps and Cloud](../categories/devops-and-cloud.md)
-- **Topics:** [Observability](../topics/observability.md) | [Databases](../topics/databases.md) | [Web UI](../topics/web-ui.md) | [CLI](../topics/cli.md) | [Self Hosted](../topics/self-hosted.md)
+- **Category:** [DevOps and Cloud](../categories/devops-and-cloud.md#repo-betterdb-inc--monitor)
+- **Topics:** [Observability](../topics/observability.md#repo-betterdb-inc--monitor) | [Databases](../topics/databases.md#repo-betterdb-inc--monitor) | [Web UI](../topics/web-ui.md#repo-betterdb-inc--monitor) | [CLI](../topics/cli.md#repo-betterdb-inc--monitor) | [Self Hosted](../topics/self-hosted.md#repo-betterdb-inc--monitor)
 - **Kind:** Application
 - **Best for:** Operators who need a web interface for a Valkey or Redis instance; Teams that want either an interactive CLI setup or a Docker deployment
 - **Languages:** TypeScript, Python
@@ -147,12 +161,14 @@ A self-hosted monitoring application for Valkey and Redis that presents real-tim
   - Provides a NestJS/Fastify backend and React/Vite frontend
   - Ships an npx-installable CLI with an interactive connection and storage setup wizard
 
+<a id="repo-bloopai--vibe-kanban"></a>
+
 ## [Vibe Kanban](https://github.com/BloopAI/vibe-kanban)
 
 A sunsetting Kanban workspace for planning coding-agent work, running agents in isolated workspaces, reviewing changes, and creating pull requests.
 
-- **Category:** [AI and Automation](../categories/ai-and-automation.md)
-- **Topics:** [AI Agents](../topics/ai-agents.md) | [Coding Agents](../topics/coding-agents.md) | [Agent Orchestration](../topics/agent-orchestration.md) | [Task Planning](../topics/task-planning.md) | [Worktrees](../topics/worktrees.md) | [Git](../topics/git.md) | [Code Review](../topics/code-review.md) | [Web UI](../topics/web-ui.md) | [Desktop App](../topics/desktop-app.md) | [Self Hosted](../topics/self-hosted.md)
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-bloopai--vibe-kanban)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-bloopai--vibe-kanban) | [Coding Agents](../topics/coding-agents.md#repo-bloopai--vibe-kanban) | [Agent Orchestration](../topics/agent-orchestration.md#repo-bloopai--vibe-kanban) | [Task Planning](../topics/task-planning.md#repo-bloopai--vibe-kanban) | [Worktrees](../topics/worktrees.md#repo-bloopai--vibe-kanban) | [Git](../topics/git.md#repo-bloopai--vibe-kanban) | [Code Review](../topics/code-review.md#repo-bloopai--vibe-kanban) | [Web UI](../topics/web-ui.md#repo-bloopai--vibe-kanban) | [Desktop App](../topics/desktop-app.md#repo-bloopai--vibe-kanban) | [Self Hosted](../topics/self-hosted.md#repo-bloopai--vibe-kanban)
 - **Kind:** Application
 - **Best for:** Evaluating an integrated planning and review workflow for coding agents; Users prepared to self-host or fork a project that is being sunset
 - **Languages:** Rust, TypeScript
@@ -166,12 +182,14 @@ A sunsetting Kanban workspace for planning coding-agent work, running agents in 
   - Agent workspaces with a branch, terminal, and development server
   - Diff review with inline feedback sent back to an agent
 
+<a id="repo-blueedgetechno--win11react"></a>
+
 ## [Win11React](https://github.com/blueedgetechno/win11React)
 
 An archived React web application that recreates a Windows 11-like desktop experience in the browser, with desktop controls, windowed sample apps, themes, and an optional packaged desktop build; it is not a Microsoft operating system or cloud PC.
 
-- **Category:** [Frontend and Design](../categories/frontend-and-design.md)
-- **Topics:** [Web UI](../topics/web-ui.md) | [Desktop App](../topics/desktop-app.md) | [Frontend Development](../topics/frontend-development.md) | [Open Source](../topics/open-source.md)
+- **Category:** [Frontend and Design](../categories/frontend-and-design.md#repo-blueedgetechno--win11react)
+- **Topics:** [Web UI](../topics/web-ui.md#repo-blueedgetechno--win11react) | [Desktop App](../topics/desktop-app.md#repo-blueedgetechno--win11react) | [Frontend Development](../topics/frontend-development.md#repo-blueedgetechno--win11react) | [Open Source](../topics/open-source.md#repo-blueedgetechno--win11react)
 - **Kind:** Application
 - **Best for:** Inspecting a desktop-style web UI implemented with React and Redux; Exploring interaction patterns such as movable, resizable, and snapped windows
 - **Languages:** JavaScript
@@ -185,12 +203,14 @@ An archived React web application that recreates a Windows 11-like desktop exper
   - Dragging, resizing, and snap layouts for application windows
   - Built-in examples including a browser, terminal, calculator, file explorer, and settings
 
+<a id="repo-builderio--agent-native"></a>
+
 ## [Agent-Native](https://github.com/BuilderIO/agent-native)
 
 A TypeScript framework for building agent-centric applications whose actions can be exposed through UI, agent, HTTP, MCP, A2A, and CLI surfaces.
 
-- **Category:** [AI and Automation](../categories/ai-and-automation.md)
-- **Topics:** [AI Agents](../topics/ai-agents.md) | [Agent Frameworks](../topics/agent-frameworks.md) | [MCP](../topics/mcp.md) | [Agent Protocols](../topics/agent-protocols.md) | [CLI](../topics/cli.md) | [Web UI](../topics/web-ui.md)
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-builderio--agent-native)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-builderio--agent-native) | [Agent Frameworks](../topics/agent-frameworks.md#repo-builderio--agent-native) | [MCP](../topics/mcp.md#repo-builderio--agent-native) | [Agent Protocols](../topics/agent-protocols.md#repo-builderio--agent-native) | [CLI](../topics/cli.md#repo-builderio--agent-native) | [Web UI](../topics/web-ui.md#repo-builderio--agent-native)
 - **Kind:** Framework
 - **Best for:** Teams building a customizable agent application rather than a standalone coding agent; Projects that want one action definition shared by application and agent interfaces
 - **Languages:** TypeScript
@@ -204,12 +224,14 @@ A TypeScript framework for building agent-centric applications whose actions can
   - Includes an agent runtime with chat, tools, skills, memory, jobs, observability, and handoffs
   - Supports Drizzle-compatible SQL databases and Nitro-compatible hosting
 
+<a id="repo-bytedance--deer-flow"></a>
+
 ## [DeerFlow](https://github.com/bytedance/deer-flow)
 
 A self-hostable super-agent harness and application for long-running work, combining a lead agent with scoped sub-agents, persistent memory, configurable skills and tools, and sandbox-aware file and command work.
 
-- **Category:** [AI and Automation](../categories/ai-and-automation.md)
-- **Topics:** [AI Agents](../topics/ai-agents.md) | [Agent Harnesses](../topics/agent-harnesses.md) | [Agent Orchestration](../topics/agent-orchestration.md) | [Multi Agent](../topics/multi-agent.md) | [Agent Memory](../topics/agent-memory.md) | [Agent Skills](../topics/agent-skills.md) | [Sandboxing](../topics/sandboxing.md) | [MCP](../topics/mcp.md) | [Web UI](../topics/web-ui.md) | [TUI](../topics/tui.md) | [Self Hosted](../topics/self-hosted.md)
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-bytedance--deer-flow)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-bytedance--deer-flow) | [Agent Harnesses](../topics/agent-harnesses.md#repo-bytedance--deer-flow) | [Agent Orchestration](../topics/agent-orchestration.md#repo-bytedance--deer-flow) | [Multi Agent](../topics/multi-agent.md#repo-bytedance--deer-flow) | [Agent Memory](../topics/agent-memory.md#repo-bytedance--deer-flow) | [Agent Skills](../topics/agent-skills.md#repo-bytedance--deer-flow) | [Sandboxing](../topics/sandboxing.md#repo-bytedance--deer-flow) | [MCP](../topics/mcp.md#repo-bytedance--deer-flow) | [Web UI](../topics/web-ui.md#repo-bytedance--deer-flow) | [TUI](../topics/tui.md#repo-bytedance--deer-flow) | [Self Hosted](../topics/self-hosted.md#repo-bytedance--deer-flow)
 - **Kind:** Application
 - **Best for:** Teams deploying an extensible agent workspace for research, coding, and multi-step automation; Developers who need web, terminal, embedded-Python, or supported chat-channel access to one agent runtime
 - **Languages:** Python, TypeScript
@@ -223,12 +245,14 @@ A self-hostable super-agent harness and application for long-running work, combi
   - Provides persistent local memory, manual context compaction, and goal-based task continuation controls
   - Includes web search, web fetch, rendered capture, file operations, shell execution, custom Python tools, and MCP servers
 
+<a id="repo-camel-ai--owl"></a>
+
 ## [OWL](https://github.com/camel-ai/owl)
 
 A Python framework, built on CAMEL-AI, for composing collaborating agents that automate real-world tasks using configurable models and a broad set of search, browser, document, code-execution, multimodal, and MCP toolkits.
 
-- **Category:** [AI and Automation](../categories/ai-and-automation.md)
-- **Topics:** [AI Agents](../topics/ai-agents.md) | [Agent Frameworks](../topics/agent-frameworks.md) | [Multi Agent](../topics/multi-agent.md) | [Agent Orchestration](../topics/agent-orchestration.md) | [Tool Use](../topics/tool-use.md) | [Web Search](../topics/web-search.md) | [Browser Automation](../topics/browser-automation.md) | [Document Processing](../topics/document-processing.md) | [Multimodal](../topics/multimodal.md) | [MCP](../topics/mcp.md) | [Web UI](../topics/web-ui.md)
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-camel-ai--owl)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-camel-ai--owl) | [Agent Frameworks](../topics/agent-frameworks.md#repo-camel-ai--owl) | [Multi Agent](../topics/multi-agent.md#repo-camel-ai--owl) | [Agent Orchestration](../topics/agent-orchestration.md#repo-camel-ai--owl) | [Tool Use](../topics/tool-use.md#repo-camel-ai--owl) | [Web Search](../topics/web-search.md#repo-camel-ai--owl) | [Browser Automation](../topics/browser-automation.md#repo-camel-ai--owl) | [Document Processing](../topics/document-processing.md#repo-camel-ai--owl) | [Multimodal](../topics/multimodal.md#repo-camel-ai--owl) | [MCP](../topics/mcp.md#repo-camel-ai--owl) | [Web UI](../topics/web-ui.md#repo-camel-ai--owl)
 - **Kind:** Framework
 - **Best for:** Developers prototyping multi-agent task-automation workflows in Python; Users who need configurable toolkits and a local Gradio interface for OWL agent runs
 - **Languages:** Python
@@ -242,12 +266,14 @@ A Python framework, built on CAMEL-AI, for composing collaborating agents that a
   - Supports online search through several engines and Playwright-based browser interaction
   - Processes local or online audio, images, and video, and extracts documents into text or Markdown
 
+<a id="repo-chatboxai--chatbox"></a>
+
 ## [Chatbox Community Edition](https://github.com/chatboxai/chatbox)
 
 A GPL-3.0 desktop-first AI chat client for Windows, macOS, and Linux that also provides web and mobile clients for conversations with hosted and locally served language-model providers.
 
-- **Category:** [Platforms and Applications](../categories/platforms-and-applications.md)
-- **Topics:** [Chat UI](../topics/chat-ui.md) | [LLMs](../topics/llms.md) | [Desktop App](../topics/desktop-app.md) | [Mobile App](../topics/mobile-app.md) | [Web UI](../topics/web-ui.md) | [Local First](../topics/local-first.md) | [Multi Provider](../topics/multi-provider.md)
+- **Category:** [Platforms and Applications](../categories/platforms-and-applications.md#repo-chatboxai--chatbox)
+- **Topics:** [Chat UI](../topics/chat-ui.md#repo-chatboxai--chatbox) | [LLMs](../topics/llms.md#repo-chatboxai--chatbox) | [Desktop App](../topics/desktop-app.md#repo-chatboxai--chatbox) | [Mobile App](../topics/mobile-app.md#repo-chatboxai--chatbox) | [Web UI](../topics/web-ui.md#repo-chatboxai--chatbox) | [Local First](../topics/local-first.md#repo-chatboxai--chatbox) | [Multi Provider](../topics/multi-provider.md#repo-chatboxai--chatbox)
 - **Kind:** Application
 - **Best for:** Individuals who want an installable, local-data AI chat client across desktop and mobile devices; Users connecting their own accounts or endpoints for several hosted or local model providers
 - **Languages:** TypeScript
@@ -261,12 +287,14 @@ A GPL-3.0 desktop-first AI chat client for Windows, macOS, and Linux that also p
   - Stores chat data locally and supports streaming replies, a prompt library, and message quoting
   - Renders Markdown, LaTeX, and syntax-highlighted code in conversations
 
+<a id="repo-chatgptnextweb--nextchat"></a>
+
 ## [NextChat](https://github.com/ChatGPTNextWeb/NextChat)
 
 An MIT-licensed AI chat application available as a deployable web/PWA client and Tauri desktop application, with local browser storage, hosted and self-hosted model endpoints, and optional MCP support.
 
-- **Category:** [Platforms and Applications](../categories/platforms-and-applications.md)
-- **Topics:** [Chat UI](../topics/chat-ui.md) | [LLMs](../topics/llms.md) | [Web UI](../topics/web-ui.md) | [Desktop App](../topics/desktop-app.md) | [Mobile App](../topics/mobile-app.md) | [Self Hosted](../topics/self-hosted.md) | [Local First](../topics/local-first.md) | [MCP](../topics/mcp.md)
+- **Category:** [Platforms and Applications](../categories/platforms-and-applications.md#repo-chatgptnextweb--nextchat)
+- **Topics:** [Chat UI](../topics/chat-ui.md#repo-chatgptnextweb--nextchat) | [LLMs](../topics/llms.md#repo-chatgptnextweb--nextchat) | [Web UI](../topics/web-ui.md#repo-chatgptnextweb--nextchat) | [Desktop App](../topics/desktop-app.md#repo-chatgptnextweb--nextchat) | [Mobile App](../topics/mobile-app.md#repo-chatgptnextweb--nextchat) | [Self Hosted](../topics/self-hosted.md#repo-chatgptnextweb--nextchat) | [Local First](../topics/local-first.md#repo-chatgptnextweb--nextchat) | [MCP](../topics/mcp.md#repo-chatgptnextweb--nextchat)
 - **Kind:** Application
 - **Best for:** Individuals self-hosting a compact AI chat client with their own model-provider credentials; Users who want local browser chat storage, prompt templates, and a cross-platform desktop option
 - **Languages:** TypeScript, Rust
@@ -280,12 +308,14 @@ An MIT-licensed AI chat application available as a deployable web/PWA client and
   - Stores data locally in the browser and offers a responsive PWA with streaming responses
   - Provides prompt templates, conversation-history compression, Markdown, LaTeX, Mermaid, and code highlighting
 
+<a id="repo-coleam00--archon"></a>
+
 ## [Archon](https://github.com/coleam00/Archon)
 
 A workflow engine for defining and executing repeatable AI coding processes as YAML, with deterministic steps around agent work.
 
-- **Category:** [AI and Automation](../categories/ai-and-automation.md)
-- **Topics:** [AI Agents](../topics/ai-agents.md) | [Coding Agents](../topics/coding-agents.md) | [Agent Orchestration](../topics/agent-orchestration.md) | [Automation](../topics/automation.md) | [CLI](../topics/cli.md) | [Git](../topics/git.md) | [Worktrees](../topics/worktrees.md) | [Web UI](../topics/web-ui.md) | [Pull Requests](../topics/pull-requests.md)
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-coleam00--archon)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-coleam00--archon) | [Coding Agents](../topics/coding-agents.md#repo-coleam00--archon) | [Agent Orchestration](../topics/agent-orchestration.md#repo-coleam00--archon) | [Automation](../topics/automation.md#repo-coleam00--archon) | [CLI](../topics/cli.md#repo-coleam00--archon) | [Git](../topics/git.md#repo-coleam00--archon) | [Worktrees](../topics/worktrees.md#repo-coleam00--archon) | [Web UI](../topics/web-ui.md#repo-coleam00--archon) | [Pull Requests](../topics/pull-requests.md#repo-coleam00--archon)
 - **Kind:** Application
 - **Best for:** Teams that want reviewable, repository-local workflows for AI coding tasks; Developers who need planning, validation, review, and pull-request steps to be repeatable
 - **Languages:** TypeScript
@@ -299,12 +329,14 @@ A workflow engine for defining and executing repeatable AI coding processes as Y
   - Isolates each workflow run in its own Git worktree, allowing parallel fixes without conflicts
   - Includes a web dashboard for chats, workflow execution, history, monitoring, and a drag-and-drop workflow builder
 
+<a id="repo-conwnet--github1s"></a>
+
 ## [github1s](https://github.com/conwnet/github1s)
 
 A browser-based, VS Code-style interface for browsing GitHub repositories by replacing github.com with github1s.com in a repository URL.
 
-- **Category:** [Developer Tools](../categories/developer-tools.md)
-- **Topics:** [GitHub](../topics/github.md) | [Web](../topics/web.md) | [Web UI](../topics/web-ui.md) | [Codebase Search](../topics/codebase-search.md) | [Developer Productivity](../topics/developer-productivity.md)
+- **Category:** [Developer Tools](../categories/developer-tools.md#repo-conwnet--github1s)
+- **Topics:** [GitHub](../topics/github.md#repo-conwnet--github1s) | [Web](../topics/web.md#repo-conwnet--github1s) | [Web UI](../topics/web-ui.md#repo-conwnet--github1s) | [Codebase Search](../topics/codebase-search.md#repo-conwnet--github1s) | [Developer Productivity](../topics/developer-productivity.md#repo-conwnet--github1s)
 - **Kind:** Application
 - **Best for:** Quickly reading a public GitHub repository in a VS Code-style interface; Browsing private repositories with a user-supplied GitHub OAuth token
 - **Languages:** TypeScript, JavaScript
@@ -318,12 +350,14 @@ A browser-based, VS Code-style interface for browsing GitHub repositories by rep
   - Uses a VS Code web build and a FileSystemProvider backed by GitHub APIs
   - Supports GitHub, GitLab, and npmjs URL variants
 
+<a id="repo-copilotkit--copilotkit"></a>
+
 ## [CopilotKit](https://github.com/CopilotKit/CopilotKit)
 
 A multi-platform framework for adding agent-driven chat, generative UI, shared state, and approval workflows to application front ends.
 
-- **Category:** [AI and Automation](../categories/ai-and-automation.md)
-- **Topics:** [AI Agents](../topics/ai-agents.md) | [Chat UI](../topics/chat-ui.md) | [Generative UI](../topics/generative-ui.md) | [Agent Protocols](../topics/agent-protocols.md) | [Web UI](../topics/web-ui.md) | [Web](../topics/web.md)
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-copilotkit--copilotkit)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-copilotkit--copilotkit) | [Chat UI](../topics/chat-ui.md#repo-copilotkit--copilotkit) | [Generative UI](../topics/generative-ui.md#repo-copilotkit--copilotkit) | [Agent Protocols](../topics/agent-protocols.md#repo-copilotkit--copilotkit) | [Web UI](../topics/web-ui.md#repo-copilotkit--copilotkit) | [Web](../topics/web.md#repo-copilotkit--copilotkit)
 - **Kind:** Framework
 - **Best for:** Product teams building agent-facing web or mobile application interfaces; Teams that need one agent interaction model across supported front-end surfaces
 - **Languages:** TypeScript, Python
@@ -337,12 +371,14 @@ A multi-platform framework for adding agent-driven chat, generative UI, shared s
   - Renders agent-selected or dynamically updated UI components in the client
   - Synchronizes application state that agents and UI components can both update in real time
 
+<a id="repo-copilotkit--opengenerativeui"></a>
+
 ## [Open Generative UI](https://github.com/CopilotKit/OpenGenerativeUI)
 
 A CopilotKit and LangGraph showcase/template for agent-driven web interfaces, including streamed sandboxed HTML/SVG widgets and registered React components.
 
-- **Category:** [Frontend and Design](../categories/frontend-and-design.md)
-- **Topics:** [AI Agents](../topics/ai-agents.md) | [Generative UI](../topics/generative-ui.md) | [Web UI](../topics/web-ui.md) | [MCP](../topics/mcp.md) | [Tool Use](../topics/tool-use.md) | [Visualization](../topics/visualization.md)
+- **Category:** [Frontend and Design](../categories/frontend-and-design.md#repo-copilotkit--opengenerativeui)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-copilotkit--opengenerativeui) | [Generative UI](../topics/generative-ui.md#repo-copilotkit--opengenerativeui) | [Web UI](../topics/web-ui.md#repo-copilotkit--opengenerativeui) | [MCP](../topics/mcp.md#repo-copilotkit--opengenerativeui) | [Tool Use](../topics/tool-use.md#repo-copilotkit--opengenerativeui) | [Visualization](../topics/visualization.md#repo-copilotkit--opengenerativeui)
 - **Kind:** Starter Template
 - **Best for:** Developers exploring agent-generated interactive interfaces in a Next.js application; Teams adapting CopilotKit and LangGraph patterns for stateful generative UI
 - **Languages:** TypeScript, Python
@@ -356,12 +392,14 @@ A CopilotKit and LangGraph showcase/template for agent-driven web interfaces, in
   - Registers agent-rendered React components, browser-side tools, tool renderers, and human-in-the-loop UI
   - Runs a Next.js frontend with a Python FastAPI/LangGraph agent service
 
+<a id="repo-davis7dotsh--better-context"></a>
+
 ## [btca (Better Context)](https://github.com/davis7dotsh/better-context)
 
 An evolving coding-agent context tool whose current documented local form is a skill that clones and searches library and framework source code; the repository also contains CLI, server, web, sandbox, and documentation packages.
 
-- **Category:** [AI and Automation](../categories/ai-and-automation.md)
-- **Topics:** [Coding Agents](../topics/coding-agents.md) | [Agent Skills](../topics/agent-skills.md) | [Codebase Search](../topics/codebase-search.md) | [Context Engineering](../topics/context-engineering.md) | [CLI](../topics/cli.md) | [Web UI](../topics/web-ui.md)
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-davis7dotsh--better-context)
+- **Topics:** [Coding Agents](../topics/coding-agents.md#repo-davis7dotsh--better-context) | [Agent Skills](../topics/agent-skills.md#repo-davis7dotsh--better-context) | [Codebase Search](../topics/codebase-search.md#repo-davis7dotsh--better-context) | [Context Engineering](../topics/context-engineering.md#repo-davis7dotsh--better-context) | [CLI](../topics/cli.md#repo-davis7dotsh--better-context) | [Web UI](../topics/web-ui.md#repo-davis7dotsh--better-context)
 - **Kind:** Monorepo
 - **Best for:** Giving a compatible coding agent repository-derived context for library or framework questions; Trying the documented btca skill while tracking an in-progress local-product rewrite
 - **Languages:** TypeScript, JavaScript
@@ -375,12 +413,14 @@ An evolving coding-agent context tool whose current documented local form is a s
   - Clones and searches selected repositories in the documented local agent sandbox
   - Supports natural-language prompts and skill invocations with or without a question
 
+<a id="repo-decolua--9router"></a>
+
 ## [9Router](https://github.com/decolua/9router)
 
 A self-hosted AI gateway and dashboard that presents one OpenAI-compatible endpoint to coding tools while routing requests across configured model providers, accounts, and fallback combinations.
 
-- **Category:** [AI and Automation](../categories/ai-and-automation.md)
-- **Topics:** [LLMs](../topics/llms.md) | [LLM Gateways](../topics/llm-gateways.md) | [Model Routing](../topics/model-routing.md) | [Multi Provider](../topics/multi-provider.md) | [CLI](../topics/cli.md) | [Web UI](../topics/web-ui.md) | [Self Hosted](../topics/self-hosted.md) | [Token Usage](../topics/token-usage.md)
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-decolua--9router)
+- **Topics:** [LLMs](../topics/llms.md#repo-decolua--9router) | [LLM Gateways](../topics/llm-gateways.md#repo-decolua--9router) | [Model Routing](../topics/model-routing.md#repo-decolua--9router) | [Multi Provider](../topics/multi-provider.md#repo-decolua--9router) | [CLI](../topics/cli.md#repo-decolua--9router) | [Web UI](../topics/web-ui.md#repo-decolua--9router) | [Self Hosted](../topics/self-hosted.md#repo-decolua--9router) | [Token Usage](../topics/token-usage.md#repo-decolua--9router)
 - **Kind:** Service
 - **Best for:** Running local or self-hosted model routing for compatible coding tools; Combining provider subscriptions, API keys, and fallback models behind one endpoint
 - **Languages:** JavaScript
@@ -394,12 +434,14 @@ A self-hosted AI gateway and dashboard that presents one OpenAI-compatible endpo
   - Configurable model combinations with account- and provider-level fallback
   - OAuth and API-key provider connections with token refresh and quota tracking
 
+<a id="repo-diegosouzapw--omniroute"></a>
+
 ## [OmniRoute](https://github.com/diegosouzapw/OmniRoute)
 
 A self-hosted AI gateway, dashboard, and command-line tool that routes compatible coding clients across configured providers and model combinations through OpenAI-compatible APIs.
 
-- **Category:** [AI and Automation](../categories/ai-and-automation.md)
-- **Topics:** [LLMs](../topics/llms.md) | [LLM Gateways](../topics/llm-gateways.md) | [Model Routing](../topics/model-routing.md) | [Multi Provider](../topics/multi-provider.md) | [CLI](../topics/cli.md) | [Web UI](../topics/web-ui.md) | [MCP](../topics/mcp.md) | [Self Hosted](../topics/self-hosted.md) | [Token Usage](../topics/token-usage.md)
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-diegosouzapw--omniroute)
+- **Topics:** [LLMs](../topics/llms.md#repo-diegosouzapw--omniroute) | [LLM Gateways](../topics/llm-gateways.md#repo-diegosouzapw--omniroute) | [Model Routing](../topics/model-routing.md#repo-diegosouzapw--omniroute) | [Multi Provider](../topics/multi-provider.md#repo-diegosouzapw--omniroute) | [CLI](../topics/cli.md#repo-diegosouzapw--omniroute) | [Web UI](../topics/web-ui.md#repo-diegosouzapw--omniroute) | [MCP](../topics/mcp.md#repo-diegosouzapw--omniroute) | [Self Hosted](../topics/self-hosted.md#repo-diegosouzapw--omniroute) | [Token Usage](../topics/token-usage.md#repo-diegosouzapw--omniroute)
 - **Kind:** Service
 - **Best for:** Centralizing local or remote routing for several coding tools and AI providers; Applying configurable fallback, quota management, and compression to agent traffic
 - **Languages:** TypeScript
@@ -413,12 +455,14 @@ A self-hosted AI gateway, dashboard, and command-line tool that routes compatibl
   - Automatic and user-defined model combos with multiple routing and fallback strategies
   - Provider, account, quota, health, and cost management from a dashboard and CLI
 
+<a id="repo-excalidraw--excalidraw"></a>
+
 ## [Excalidraw](https://github.com/excalidraw/excalidraw)
 
 An open-source, hand-drawn-style virtual whiteboard for diagrams and wireframes, with a hosted collaborative editor and a React component package for embedding the editor in another application.
 
-- **Category:** [Frontend and Design](../categories/frontend-and-design.md)
-- **Topics:** [Web UI](../topics/web-ui.md) | [Realtime Collaboration](../topics/realtime-collaboration.md) | [Local First](../topics/local-first.md) | [Visualization](../topics/visualization.md) | [Open Source](../topics/open-source.md)
+- **Category:** [Frontend and Design](../categories/frontend-and-design.md#repo-excalidraw--excalidraw)
+- **Topics:** [Web UI](../topics/web-ui.md#repo-excalidraw--excalidraw) | [Realtime Collaboration](../topics/realtime-collaboration.md#repo-excalidraw--excalidraw) | [Local First](../topics/local-first.md#repo-excalidraw--excalidraw) | [Visualization](../topics/visualization.md#repo-excalidraw--excalidraw) | [Open Source](../topics/open-source.md#repo-excalidraw--excalidraw)
 - **Kind:** Application
 - **Best for:** Visual ideation, diagramming, and wireframing in a browser; React applications that need an embeddable canvas-based whiteboard
 - **Languages:** TypeScript
@@ -432,12 +476,14 @@ An open-source, hand-drawn-style virtual whiteboard for diagrams and wireframes,
   - Image and shape-library support plus PNG, SVG, clipboard, and .excalidraw JSON export
   - Hosted editor features real-time collaboration and end-to-end encryption
 
+<a id="repo-frappe--crm"></a>
+
 ## [Frappe CRM](https://github.com/frappe/crm)
 
 An open-source CRM application for sales teams, built on the Frappe Framework, with lead and deal workflows, activity management, customizable views, and hosted or self-managed deployment paths.
 
-- **Category:** [Platforms and Applications](../categories/platforms-and-applications.md)
-- **Topics:** [Web UI](../topics/web-ui.md) | [Self Hosted](../topics/self-hosted.md) | [Open Source](../topics/open-source.md)
+- **Category:** [Platforms and Applications](../categories/platforms-and-applications.md#repo-frappe--crm)
+- **Topics:** [Web UI](../topics/web-ui.md#repo-frappe--crm) | [Self Hosted](../topics/self-hosted.md#repo-frappe--crm) | [Open Source](../topics/open-source.md#repo-frappe--crm)
 - **Kind:** Application
 - **Best for:** Sales teams that want an adaptable CRM built on the Frappe ecosystem; Organizations able to operate Frappe Bench or Docker for a self-hosted CRM
 - **Languages:** Vue, Python
@@ -451,12 +497,14 @@ An open-source CRM application for sales teams, built on the Frappe Framework, w
   - Drag-and-drop Kanban boards for tracking leads and deals through stages
   - Custom lead and deal views with filters, sorting, and selected columns
 
+<a id="repo-getagentseal--codeburn"></a>
+
 ## [CodeBurn](https://github.com/getagentseal/codeburn)
 
 A local-first CLI and set of dashboards that reads AI coding-tool session data from disk to report token use and estimated cost by task, model, tool, and project.
 
-- **Category:** [Developer Tools](../categories/developer-tools.md)
-- **Topics:** [Coding Agents](../topics/coding-agents.md) | [CLI](../topics/cli.md) | [TUI](../topics/tui.md) | [Web UI](../topics/web-ui.md) | [Desktop App](../topics/desktop-app.md) | [Local First](../topics/local-first.md) | [Observability](../topics/observability.md) | [Token Usage](../topics/token-usage.md) | [Cost Management](../topics/cost-management.md) | [MCP](../topics/mcp.md)
+- **Category:** [Developer Tools](../categories/developer-tools.md#repo-getagentseal--codeburn)
+- **Topics:** [Coding Agents](../topics/coding-agents.md#repo-getagentseal--codeburn) | [CLI](../topics/cli.md#repo-getagentseal--codeburn) | [TUI](../topics/tui.md#repo-getagentseal--codeburn) | [Web UI](../topics/web-ui.md#repo-getagentseal--codeburn) | [Desktop App](../topics/desktop-app.md#repo-getagentseal--codeburn) | [Local First](../topics/local-first.md#repo-getagentseal--codeburn) | [Observability](../topics/observability.md#repo-getagentseal--codeburn) | [Token Usage](../topics/token-usage.md#repo-getagentseal--codeburn) | [Cost Management](../topics/cost-management.md#repo-getagentseal--codeburn) | [MCP](../topics/mcp.md#repo-getagentseal--codeburn)
 - **Kind:** CLI
 - **Best for:** Developers comparing AI coding-agent spend across local tools and models; Teams seeking local reports and budget-analysis tools without a request proxy
 - **Languages:** TypeScript, Swift
@@ -470,12 +518,14 @@ A local-first CLI and set of dashboards that reads AI coding-tool session data f
   - Provides an interactive terminal dashboard, reports, JSON output, and a localhost web dashboard
   - Breaks down usage by task, model, tool, project, date range, and token category
 
+<a id="repo-iofficeai--aionui"></a>
+
 ## [AionUi](https://github.com/iOfficeAI/AionUi)
 
 An open-source, cross-platform cowork application that supplies a built-in AI agent and a unified interface for compatible CLI agents, with local workspace access, multi-agent teams, model-provider configuration, MCP tools, remote WebUI access, and scheduled automation.
 
-- **Category:** [AI and Automation](../categories/ai-and-automation.md)
-- **Topics:** [AI Agents](../topics/ai-agents.md) | [Multi Agent](../topics/multi-agent.md) | [MCP](../topics/mcp.md) | [Desktop App](../topics/desktop-app.md) | [Chat UI](../topics/chat-ui.md) | [Web UI](../topics/web-ui.md) | [Remote Control](../topics/remote-control.md) | [Multi Provider](../topics/multi-provider.md) | [Local Models](../topics/local-models.md) | [Self Hosted](../topics/self-hosted.md) | [Automation](../topics/automation.md)
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-iofficeai--aionui)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-iofficeai--aionui) | [Multi Agent](../topics/multi-agent.md#repo-iofficeai--aionui) | [MCP](../topics/mcp.md#repo-iofficeai--aionui) | [Desktop App](../topics/desktop-app.md#repo-iofficeai--aionui) | [Chat UI](../topics/chat-ui.md#repo-iofficeai--aionui) | [Web UI](../topics/web-ui.md#repo-iofficeai--aionui) | [Remote Control](../topics/remote-control.md#repo-iofficeai--aionui) | [Multi Provider](../topics/multi-provider.md#repo-iofficeai--aionui) | [Local Models](../topics/local-models.md#repo-iofficeai--aionui) | [Self Hosted](../topics/self-hosted.md#repo-iofficeai--aionui) | [Automation](../topics/automation.md#repo-iofficeai--aionui)
 - **Kind:** Application
 - **Best for:** Individuals who want a desktop workspace for supervised AI-agent tasks; Teams coordinating supported coding agents on a shared local folder
 - **Languages:** TypeScript
@@ -489,12 +539,14 @@ An open-source, cross-platform cowork application that supplies a built-in AI ag
   - Auto-detection and unified sessions for supported external CLI agents
   - Parallel team mode with leader delegation, task board, and asynchronous mailbox
 
+<a id="repo-kitfunso--hippo-memory"></a>
+
 ## [Hippo](https://github.com/kitfunso/hippo-memory)
 
 A local-first, SQLite-backed memory system for AI agents that stores project and global memories, retrieves context through a CLI, MCP, HTTP, and integrations, and applies decay, retrieval strengthening, and sleep consolidation to its memory layers.
 
-- **Category:** [AI and Automation](../categories/ai-and-automation.md)
-- **Topics:** [Agent Memory](../topics/agent-memory.md) | [AI Agents](../topics/ai-agents.md) | [CLI](../topics/cli.md) | [MCP](../topics/mcp.md) | [Local First](../topics/local-first.md) | [Self Hosted](../topics/self-hosted.md) | [Multi Agent](../topics/multi-agent.md) | [Web UI](../topics/web-ui.md) | [Open Source](../topics/open-source.md)
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-kitfunso--hippo-memory)
+- **Topics:** [Agent Memory](../topics/agent-memory.md#repo-kitfunso--hippo-memory) | [AI Agents](../topics/ai-agents.md#repo-kitfunso--hippo-memory) | [CLI](../topics/cli.md#repo-kitfunso--hippo-memory) | [MCP](../topics/mcp.md#repo-kitfunso--hippo-memory) | [Local First](../topics/local-first.md#repo-kitfunso--hippo-memory) | [Self Hosted](../topics/self-hosted.md#repo-kitfunso--hippo-memory) | [Multi Agent](../topics/multi-agent.md#repo-kitfunso--hippo-memory) | [Web UI](../topics/web-ui.md#repo-kitfunso--hippo-memory) | [Open Source](../topics/open-source.md#repo-kitfunso--hippo-memory)
 - **Kind:** Service
 - **Best for:** Teams or individuals wanting persistent context across CLI agent tools and projects; Agent workflows that need inspectable local memory, recall, and session handoffs
 - **Languages:** TypeScript, JavaScript, Python
@@ -508,12 +560,14 @@ A local-first, SQLite-backed memory system for AI agents that stores project and
   - CLI commands for initialization, recall, capture, import, snapshots, and handoffs
   - Stdio MCP server plus HTTP API and an OpenClaw plugin
 
+<a id="repo-langchain-ai--chat-langchain"></a>
+
 ## [Chat LangChain](https://github.com/langchain-ai/chat-langchain)
 
 A documentation assistant for LangChain, LangGraph, and LangSmith that combines managed agent deployment, documentation and support-base search, on-topic guardrails, URL validation, and a Next.js public chat interface.
 
-- **Category:** [AI and Automation](../categories/ai-and-automation.md)
-- **Topics:** [AI Agents](../topics/ai-agents.md) | [Chat UI](../topics/chat-ui.md) | [Documentation](../topics/documentation.md) | [Search](../topics/search.md) | [Tool Use](../topics/tool-use.md) | [Web UI](../topics/web-ui.md) | [Deployment](../topics/deployment.md)
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-langchain-ai--chat-langchain)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-langchain-ai--chat-langchain) | [Chat UI](../topics/chat-ui.md#repo-langchain-ai--chat-langchain) | [Documentation](../topics/documentation.md#repo-langchain-ai--chat-langchain) | [Search](../topics/search.md#repo-langchain-ai--chat-langchain) | [Tool Use](../topics/tool-use.md#repo-langchain-ai--chat-langchain) | [Web UI](../topics/web-ui.md#repo-langchain-ai--chat-langchain) | [Deployment](../topics/deployment.md#repo-langchain-ai--chat-langchain)
 - **Kind:** Application
 - **Best for:** Teams building a managed documentation-support assistant; Developers studying a LangChain agent with a separate public web UI
 - **Languages:** Python, TypeScript
@@ -527,12 +581,14 @@ A documentation assistant for LangChain, LangGraph, and LangSmith that combines 
   - Searches a Pylon support knowledge base for known issues and solutions
   - Filters off-topic requests with guardrail middleware
 
+<a id="repo-lobehub--lobehub"></a>
+
 ## [LobeHub](https://github.com/lobehub/lobehub)
 
 A workspace for building, scheduling, and collaborating with AI agent teams, with shared projects, skills, editable memory, and self-hosting options.
 
-- **Category:** [Platforms and Applications](../categories/platforms-and-applications.md)
-- **Topics:** [AI Agents](../topics/ai-agents.md) | [Agent Orchestration](../topics/agent-orchestration.md) | [Multi Agent](../topics/multi-agent.md) | [Agent Memory](../topics/agent-memory.md) | [Agent Skills](../topics/agent-skills.md) | [LLMs](../topics/llms.md) | [MCP](../topics/mcp.md) | [Automation](../topics/automation.md) | [Self Hosted](../topics/self-hosted.md) | [Web UI](../topics/web-ui.md) | [Desktop App](../topics/desktop-app.md) | [CLI](../topics/cli.md)
+- **Category:** [Platforms and Applications](../categories/platforms-and-applications.md#repo-lobehub--lobehub)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-lobehub--lobehub) | [Agent Orchestration](../topics/agent-orchestration.md#repo-lobehub--lobehub) | [Multi Agent](../topics/multi-agent.md#repo-lobehub--lobehub) | [Agent Memory](../topics/agent-memory.md#repo-lobehub--lobehub) | [Agent Skills](../topics/agent-skills.md#repo-lobehub--lobehub) | [LLMs](../topics/llms.md#repo-lobehub--lobehub) | [MCP](../topics/mcp.md#repo-lobehub--lobehub) | [Automation](../topics/automation.md#repo-lobehub--lobehub) | [Self Hosted](../topics/self-hosted.md#repo-lobehub--lobehub) | [Web UI](../topics/web-ui.md#repo-lobehub--lobehub) | [Desktop App](../topics/desktop-app.md#repo-lobehub--lobehub) | [CLI](../topics/cli.md#repo-lobehub--lobehub)
 - **Kind:** Application
 - **Best for:** People coordinating recurring work across several AI agents; Teams that want a shared workspace for agent-assisted projects
 - **Languages:** TypeScript
@@ -546,12 +602,14 @@ A workspace for building, scheduling, and collaborating with AI agent teams, wit
   - Agent Groups for parallel, task-oriented collaboration
   - Shared pages, projects, workspaces, and scheduled runs
 
+<a id="repo-marmutapp--superbased-observer"></a>
+
 ## [SuperBased Observer](https://github.com/marmutapp/superbased-observer)
 
 A local-first observability tool for AI coding activity that captures usage, provider-returned token counts, and costs through a CLI, dashboard, MCP server, and optional API proxy.
 
-- **Category:** [Developer Tools](../categories/developer-tools.md)
-- **Topics:** [AI Agents](../topics/ai-agents.md) | [Coding Agents](../topics/coding-agents.md) | [LLMs](../topics/llms.md) | [Observability](../topics/observability.md) | [Token Usage](../topics/token-usage.md) | [Cost Management](../topics/cost-management.md) | [Local First](../topics/local-first.md) | [MCP](../topics/mcp.md) | [CLI](../topics/cli.md) | [Web UI](../topics/web-ui.md) | [Developer Productivity](../topics/developer-productivity.md)
+- **Category:** [Developer Tools](../categories/developer-tools.md#repo-marmutapp--superbased-observer)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-marmutapp--superbased-observer) | [Coding Agents](../topics/coding-agents.md#repo-marmutapp--superbased-observer) | [LLMs](../topics/llms.md#repo-marmutapp--superbased-observer) | [Observability](../topics/observability.md#repo-marmutapp--superbased-observer) | [Token Usage](../topics/token-usage.md#repo-marmutapp--superbased-observer) | [Cost Management](../topics/cost-management.md#repo-marmutapp--superbased-observer) | [Local First](../topics/local-first.md#repo-marmutapp--superbased-observer) | [MCP](../topics/mcp.md#repo-marmutapp--superbased-observer) | [CLI](../topics/cli.md#repo-marmutapp--superbased-observer) | [Web UI](../topics/web-ui.md#repo-marmutapp--superbased-observer) | [Developer Productivity](../topics/developer-productivity.md#repo-marmutapp--superbased-observer)
 - **Kind:** Application
 - **Best for:** Developers comparing cost and token use across AI coding tools; Teams that need local inspection of coding-agent sessions before opting into sharing
 - **Languages:** Go, TypeScript
@@ -565,12 +623,14 @@ A local-first observability tool for AI coding activity that captures usage, pro
   - Optional reverse proxy for provider-returned token counts and compression
   - MCP server exposing local cross-tool usage intelligence
 
+<a id="repo-modelcontextprotocol--ext-apps"></a>
+
 ## [MCP Apps](https://github.com/modelcontextprotocol/ext-apps)
 
 A specification and TypeScript SDK for delivering interactive HTML views from MCP tools so compliant chat clients can render forms, charts, dashboards, and other embedded interfaces inline in a conversation.
 
-- **Category:** [Application Frameworks](../categories/application-frameworks.md)
-- **Topics:** [MCP](../topics/mcp.md) | [Chat UI](../topics/chat-ui.md) | [Web UI](../topics/web-ui.md) | [UI Components](../topics/ui-components.md)
+- **Category:** [Application Frameworks](../categories/application-frameworks.md#repo-modelcontextprotocol--ext-apps)
+- **Topics:** [MCP](../topics/mcp.md#repo-modelcontextprotocol--ext-apps) | [Chat UI](../topics/chat-ui.md#repo-modelcontextprotocol--ext-apps) | [Web UI](../topics/web-ui.md#repo-modelcontextprotocol--ext-apps) | [UI Components](../topics/ui-components.md#repo-modelcontextprotocol--ext-apps)
 - **Kind:** Framework
 - **Best for:** MCP server authors adding interactive UI resources to tool results; Chat-client and web-view developers embedding and communicating with MCP App views
 - **Languages:** TypeScript, JavaScript
@@ -584,12 +644,14 @@ A specification and TypeScript SDK for delivering interactive HTML views from MC
   - Defines a host-rendered sandboxed iframe and bidirectional UI-to-tool communication
   - Provides SDK entry points for Views, React hooks, client app bridges, and MCP server helpers
 
+<a id="repo-nearai--ironclaw"></a>
+
 ## [IronClaw](https://github.com/nearai/ironclaw)
 
 A Rust-based personal AI-assistant runtime that offers command-line, web, and messaging-channel operation with configurable model providers.
 
-- **Category:** [AI and Automation](../categories/ai-and-automation.md)
-- **Topics:** [AI Agents](../topics/ai-agents.md) | [Agent Memory](../topics/agent-memory.md) | [Multi Provider](../topics/multi-provider.md) | [CLI](../topics/cli.md) | [Web UI](../topics/web-ui.md) | [MCP](../topics/mcp.md) | [Security](../topics/security.md)
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-nearai--ironclaw)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-nearai--ironclaw) | [Agent Memory](../topics/agent-memory.md#repo-nearai--ironclaw) | [Multi Provider](../topics/multi-provider.md#repo-nearai--ironclaw) | [CLI](../topics/cli.md#repo-nearai--ironclaw) | [Web UI](../topics/web-ui.md#repo-nearai--ironclaw) | [MCP](../topics/mcp.md#repo-nearai--ironclaw) | [Security](../topics/security.md#repo-nearai--ironclaw)
 - **Kind:** Application
 - **Best for:** Individuals who want to run a configurable, security-focused personal agent; Operators who need local or hosted agent services with persistent storage
 - **Languages:** Rust
@@ -603,12 +665,14 @@ A Rust-based personal AI-assistant runtime that offers command-line, web, and me
   - Configures built-in, OpenAI-compatible, and local model-provider routes
   - Connects Model Context Protocol servers and loadable WASM tools or channels
 
+<a id="repo-nesquena--hermes-webui"></a>
+
 ## [Hermes WebUI](https://github.com/nesquena/hermes-webui)
 
 A self-hosted browser interface for Hermes Agent that provides chat, session, workspace, profile, task, memory, and settings workflows.
 
-- **Category:** [AI and Automation](../categories/ai-and-automation.md)
-- **Topics:** [AI Agents](../topics/ai-agents.md) | [Chat UI](../topics/chat-ui.md) | [Web UI](../topics/web-ui.md) | [Self Hosted](../topics/self-hosted.md) | [Local First](../topics/local-first.md) | [Multi Provider](../topics/multi-provider.md)
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-nesquena--hermes-webui)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-nesquena--hermes-webui) | [Chat UI](../topics/chat-ui.md#repo-nesquena--hermes-webui) | [Web UI](../topics/web-ui.md#repo-nesquena--hermes-webui) | [Self Hosted](../topics/self-hosted.md#repo-nesquena--hermes-webui) | [Local First](../topics/local-first.md#repo-nesquena--hermes-webui) | [Multi Provider](../topics/multi-provider.md#repo-nesquena--hermes-webui)
 - **Kind:** Application
 - **Best for:** Operating an existing Hermes Agent installation from a browser; Accessing a persistent agent workspace from desktop or mobile devices
 - **Languages:** Python, JavaScript
@@ -622,12 +686,14 @@ A self-hosted browser interface for Hermes Agent that provides chat, session, wo
   - Workspace browser, file preview, and transcript import or export
   - Agent profiles, persistent memory, skills, tasks, and scheduled-work controls
 
+<a id="repo-omnigent-ai--omnigent"></a>
+
 ## [Omnigent](https://github.com/omnigent-ai/omnigent)
 
 An alpha open-source meta-harness and agent runtime that provides a common orchestration layer across coding-agent harnesses and custom agents, with collaborative sessions, sandbox targets, and configurable action and spend policies.
 
-- **Category:** [AI and Automation](../categories/ai-and-automation.md)
-- **Topics:** [AI Agents](../topics/ai-agents.md) | [Agent Harnesses](../topics/agent-harnesses.md) | [Agent Orchestration](../topics/agent-orchestration.md) | [Multi Agent](../topics/multi-agent.md) | [Agent Governance](../topics/agent-governance.md) | [Sandboxing](../topics/sandboxing.md) | [Policy Enforcement](../topics/policy-enforcement.md) | [CLI](../topics/cli.md) | [Web UI](../topics/web-ui.md) | [Desktop App](../topics/desktop-app.md) | [Mobile App](../topics/mobile-app.md) | [Self Hosted](../topics/self-hosted.md)
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-omnigent-ai--omnigent)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-omnigent-ai--omnigent) | [Agent Harnesses](../topics/agent-harnesses.md#repo-omnigent-ai--omnigent) | [Agent Orchestration](../topics/agent-orchestration.md#repo-omnigent-ai--omnigent) | [Multi Agent](../topics/multi-agent.md#repo-omnigent-ai--omnigent) | [Agent Governance](../topics/agent-governance.md#repo-omnigent-ai--omnigent) | [Sandboxing](../topics/sandboxing.md#repo-omnigent-ai--omnigent) | [Policy Enforcement](../topics/policy-enforcement.md#repo-omnigent-ai--omnigent) | [CLI](../topics/cli.md#repo-omnigent-ai--omnigent) | [Web UI](../topics/web-ui.md#repo-omnigent-ai--omnigent) | [Desktop App](../topics/desktop-app.md#repo-omnigent-ai--omnigent) | [Mobile App](../topics/mobile-app.md#repo-omnigent-ai--omnigent) | [Self Hosted](../topics/self-hosted.md#repo-omnigent-ai--omnigent)
 - **Kind:** Framework
 - **Best for:** Developers who need to mix supported coding-agent harnesses and custom YAML agents; Teams that want shared agent sessions across terminal, browser, phone, or desktop interfaces
 - **Languages:** Python, TypeScript
@@ -641,12 +707,14 @@ An alpha open-source meta-harness and agent runtime that provides a common orche
   - Synchronizes sessions, sub-agents, terminals, and files across terminal, browser, and phone access
   - Offers cloud sandbox targets and server-provisioned managed hosts for sessions
 
+<a id="repo-openchamber--openchamber"></a>
+
 ## [OpenChamber](https://github.com/openchamber/openchamber)
 
 A cross-device interface for OpenCode coding-agent sessions, with desktop, mobile-first web/PWA, CLI, and VS Code experiences plus Git-aware and multi-agent workflows.
 
-- **Category:** [Developer Tools](../categories/developer-tools.md)
-- **Topics:** [Coding Agents](../topics/coding-agents.md) | [AI Agents](../topics/ai-agents.md) | [Desktop App](../topics/desktop-app.md) | [Web UI](../topics/web-ui.md) | [CLI](../topics/cli.md) | [Git](../topics/git.md)
+- **Category:** [Developer Tools](../categories/developer-tools.md#repo-openchamber--openchamber)
+- **Topics:** [Coding Agents](../topics/coding-agents.md#repo-openchamber--openchamber) | [AI Agents](../topics/ai-agents.md#repo-openchamber--openchamber) | [Desktop App](../topics/desktop-app.md#repo-openchamber--openchamber) | [Web UI](../topics/web-ui.md#repo-openchamber--openchamber) | [CLI](../topics/cli.md#repo-openchamber--openchamber) | [Git](../topics/git.md#repo-openchamber--openchamber)
 - **Kind:** Application
 - **Best for:** Developers who want a visual, remote, or cross-device way to use OpenCode; Teams comparing parallel coding-agent runs in isolated Git worktrees
 - **Languages:** TypeScript
@@ -660,12 +728,14 @@ A cross-device interface for OpenCode coding-agent sessions, with desktop, mobil
   - Multi-agent runs in isolated worktrees for side-by-side comparisons
   - In-app Git workflows for commits, pull requests, checks, and merge actions
 
+<a id="repo-openhands--openhands"></a>
+
 ## [OpenHands](https://github.com/OpenHands/OpenHands)
 
 A self-hosted developer control center for starting coding-agent conversations and automations across local, remote, and cloud agent backends.
 
-- **Category:** [AI and Automation](../categories/ai-and-automation.md)
-- **Topics:** [Coding Agents](../topics/coding-agents.md) | [Agent Orchestration](../topics/agent-orchestration.md) | [Automation](../topics/automation.md) | [Web UI](../topics/web-ui.md) | [Self Hosted](../topics/self-hosted.md) | [Agent Protocols](../topics/agent-protocols.md) | [Multi Provider](../topics/multi-provider.md) | [Open Source](../topics/open-source.md)
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-openhands--openhands)
+- **Topics:** [Coding Agents](../topics/coding-agents.md#repo-openhands--openhands) | [Agent Orchestration](../topics/agent-orchestration.md#repo-openhands--openhands) | [Automation](../topics/automation.md#repo-openhands--openhands) | [Web UI](../topics/web-ui.md#repo-openhands--openhands) | [Self Hosted](../topics/self-hosted.md#repo-openhands--openhands) | [Agent Protocols](../topics/agent-protocols.md#repo-openhands--openhands) | [Multi Provider](../topics/multi-provider.md#repo-openhands--openhands) | [Open Source](../topics/open-source.md#repo-openhands--openhands)
 - **Kind:** Application
 - **Best for:** Engineering teams coordinating coding agents across local machines, containers, or virtual machines; Developers creating scheduled or event-driven automations that use compatible coding agents
 - **Languages:** Python, TypeScript
@@ -679,12 +749,14 @@ A self-hosted developer control center for starting coding-agent conversations a
   - Lets one frontend switch among local, remote, and cloud agent backends
   - Provides automations that can run on schedules or in response to webhook events
 
+<a id="repo-osanseviero--instantcoder"></a>
+
 ## [InstantCoder](https://github.com/osanseviero/InstantCoder)
 
 A small Next.js prompt-to-app project that sends a user prompt to the Gemini API and presents generated code in a Sandpack sandbox; the retained README says it is fully based on the llamacoder project and links a hosted demo.
 
-- **Category:** [AI and Automation](../categories/ai-and-automation.md)
-- **Topics:** [Code Generation](../topics/code-generation.md) | [LLMs](../topics/llms.md) | [Web UI](../topics/web-ui.md) | [Frontend Development](../topics/frontend-development.md) | [Sandboxing](../topics/sandboxing.md)
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-osanseviero--instantcoder)
+- **Topics:** [Code Generation](../topics/code-generation.md#repo-osanseviero--instantcoder) | [LLMs](../topics/llms.md#repo-osanseviero--instantcoder) | [Web UI](../topics/web-ui.md#repo-osanseviero--instantcoder) | [Frontend Development](../topics/frontend-development.md#repo-osanseviero--instantcoder) | [Sandboxing](../topics/sandboxing.md#repo-osanseviero--instantcoder)
 - **Kind:** Application
 - **Best for:** Trying a compact Gemini-based prompt-to-app workflow; Developers inspecting a small Next.js and Sandpack code-generation example
 - **Languages:** TypeScript
@@ -698,12 +770,14 @@ A small Next.js prompt-to-app project that sends a user prompt to the Gemini API
   - Uses Sandpack as the generated-code sandbox
   - Uses the Next.js App Router with Tailwind CSS
 
+<a id="repo-paperclipai--paperclip"></a>
+
 ## [Paperclip](https://github.com/paperclipai/paperclip)
 
 A self-hosted Node.js server and React control plane for coordinating teams of AI agents around company goals, tasks, budgets, governance, and operational visibility.
 
-- **Category:** [AI and Automation](../categories/ai-and-automation.md)
-- **Topics:** [AI Agents](../topics/ai-agents.md) | [Agent Orchestration](../topics/agent-orchestration.md) | [Multi Agent](../topics/multi-agent.md) | [Agent Governance](../topics/agent-governance.md) | [Cost Management](../topics/cost-management.md) | [Observability](../topics/observability.md) | [Self Hosted](../topics/self-hosted.md) | [Web UI](../topics/web-ui.md)
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-paperclipai--paperclip)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-paperclipai--paperclip) | [Agent Orchestration](../topics/agent-orchestration.md#repo-paperclipai--paperclip) | [Multi Agent](../topics/multi-agent.md#repo-paperclipai--paperclip) | [Agent Governance](../topics/agent-governance.md#repo-paperclipai--paperclip) | [Cost Management](../topics/cost-management.md#repo-paperclipai--paperclip) | [Observability](../topics/observability.md#repo-paperclipai--paperclip) | [Self Hosted](../topics/self-hosted.md#repo-paperclipai--paperclip) | [Web UI](../topics/web-ui.md#repo-paperclipai--paperclip)
 - **Kind:** Application
 - **Best for:** Teams operating many agent runtimes that need one task and supervision system; Organizations that need cost controls, approvals, auditability, and scheduled agent work
 - **Languages:** TypeScript, JavaScript
@@ -717,12 +791,14 @@ A self-hosted Node.js server and React control plane for coordinating teams of A
   - Provides ticketed work with atomic checkout, session state, structured logs, activity, and audit trails
   - Schedules agent heartbeats and routines while enforcing scoped budget warnings and hard stops
 
+<a id="repo-patoles--agent-flow"></a>
+
 ## [Agent Flow](https://github.com/patoles/agent-flow)
 
 A real-time visualizer for Claude Code and Codex execution that displays detected sessions, branching, tool calls, timelines, transcripts, and file-attention data in a browser or VS Code webview.
 
-- **Category:** [Developer Tools](../categories/developer-tools.md)
-- **Topics:** [AI Agents](../topics/ai-agents.md) | [Agent Orchestration](../topics/agent-orchestration.md) | [Observability](../topics/observability.md) | [Developer Productivity](../topics/developer-productivity.md) | [Web UI](../topics/web-ui.md)
+- **Category:** [Developer Tools](../categories/developer-tools.md#repo-patoles--agent-flow)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-patoles--agent-flow) | [Agent Orchestration](../topics/agent-orchestration.md#repo-patoles--agent-flow) | [Observability](../topics/observability.md#repo-patoles--agent-flow) | [Developer Productivity](../topics/developer-productivity.md#repo-patoles--agent-flow) | [Web UI](../topics/web-ui.md#repo-patoles--agent-flow)
 - **Kind:** Application
 - **Best for:** Debugging and understanding active Claude Code or Codex sessions; Comparing concurrent agent sessions and tool-call sequences
 - **Languages:** TypeScript
@@ -736,12 +812,14 @@ A real-time visualizer for Claude Code and Codex execution that displays detecte
   - Concurrent Claude Code and Codex session discovery with runtime filtering
   - Codex rollout tailing with tool calls, reasoning, and token-count display
 
+<a id="repo-pingdotgg--t3code"></a>
+
 ## [T3 Code](https://github.com/pingdotgg/t3code)
 
 An early web and desktop graphical interface for launching and working with Codex, Claude, Cursor, and OpenCode coding-agent providers from one product.
 
-- **Category:** [AI and Automation](../categories/ai-and-automation.md)
-- **Topics:** [Coding Agents](../topics/coding-agents.md) | [AI Agents](../topics/ai-agents.md) | [Desktop App](../topics/desktop-app.md) | [Web UI](../topics/web-ui.md) | [CLI](../topics/cli.md) | [Multi Provider](../topics/multi-provider.md)
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-pingdotgg--t3code)
+- **Topics:** [Coding Agents](../topics/coding-agents.md#repo-pingdotgg--t3code) | [AI Agents](../topics/ai-agents.md#repo-pingdotgg--t3code) | [Desktop App](../topics/desktop-app.md#repo-pingdotgg--t3code) | [Web UI](../topics/web-ui.md#repo-pingdotgg--t3code) | [CLI](../topics/cli.md#repo-pingdotgg--t3code) | [Multi Provider](../topics/multi-provider.md#repo-pingdotgg--t3code)
 - **Kind:** Application
 - **Best for:** Developers who already use a supported coding-agent CLI and want one GUI; Trying several supported coding-agent providers without changing interfaces
 - **Languages:** TypeScript
@@ -755,12 +833,14 @@ An early web and desktop graphical interface for launching and working with Code
   - Browser launch without a global install through npx t3@latest
   - Desktop distribution through GitHub Releases, winget, Homebrew Cask, and the Arch AUR
 
+<a id="repo-robertpiosik--codewebchat"></a>
+
 ## [Code Web Chat](https://github.com/robertpiosik/CodeWebChat)
 
 A VS Code extension and companion browser extension for preparing selected files as structured context, sending coding prompts to web chats or configured model APIs, and applying generated edits back into the local workspace.
 
-- **Category:** [Developer Tools](../categories/developer-tools.md)
-- **Topics:** [Code Generation](../topics/code-generation.md) | [LLMs](../topics/llms.md) | [Developer Productivity](../topics/developer-productivity.md) | [Multi Provider](../topics/multi-provider.md) | [Local First](../topics/local-first.md) | [Web UI](../topics/web-ui.md)
+- **Category:** [Developer Tools](../categories/developer-tools.md#repo-robertpiosik--codewebchat)
+- **Topics:** [Code Generation](../topics/code-generation.md#repo-robertpiosik--codewebchat) | [LLMs](../topics/llms.md#repo-robertpiosik--codewebchat) | [Developer Productivity](../topics/developer-productivity.md#repo-robertpiosik--codewebchat) | [Multi Provider](../topics/multi-provider.md#repo-robertpiosik--codewebchat) | [Local First](../topics/local-first.md#repo-robertpiosik--codewebchat) | [Web UI](../topics/web-ui.md#repo-robertpiosik--codewebchat)
 - **Kind:** Plugin
 - **Best for:** VS Code users who want file-aware prompts for hosted chats or their own model APIs; Developers who want to move selected code context between the editor and web chat tools
 - **Languages:** TypeScript
@@ -774,12 +854,14 @@ A VS Code extension and companion browser extension for preparing selected files
   - Prompt types for file edits, questions, cursor completions, and relevant-file discovery
   - Browser extension that fills prompts into supported web-chat interfaces
 
+<a id="repo-shep-ai--shep"></a>
+
 ## [Shep](https://github.com/shep-ai/shep)
 
 A local-first orchestrator that runs parallel coding agents in isolated Git worktrees and drives feature branches through implementation, optional specification gates, commits, CI retry fixes, and draft pull requests.
 
-- **Category:** [AI and Automation](../categories/ai-and-automation.md)
-- **Topics:** [AI Agents](../topics/ai-agents.md) | [Coding Agents](../topics/coding-agents.md) | [Agent Orchestration](../topics/agent-orchestration.md) | [Parallel Agents](../topics/parallel-agents.md) | [Worktrees](../topics/worktrees.md) | [CLI](../topics/cli.md) | [Web UI](../topics/web-ui.md) | [Git](../topics/git.md) | [Pull Requests](../topics/pull-requests.md) | [Local First](../topics/local-first.md) | [Spec Driven Development](../topics/spec-driven-development.md)
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-shep-ai--shep)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-shep-ai--shep) | [Coding Agents](../topics/coding-agents.md#repo-shep-ai--shep) | [Agent Orchestration](../topics/agent-orchestration.md#repo-shep-ai--shep) | [Parallel Agents](../topics/parallel-agents.md#repo-shep-ai--shep) | [Worktrees](../topics/worktrees.md#repo-shep-ai--shep) | [CLI](../topics/cli.md#repo-shep-ai--shep) | [Web UI](../topics/web-ui.md#repo-shep-ai--shep) | [Git](../topics/git.md#repo-shep-ai--shep) | [Pull Requests](../topics/pull-requests.md#repo-shep-ai--shep) | [Local First](../topics/local-first.md#repo-shep-ai--shep) | [Spec Driven Development](../topics/spec-driven-development.md#repo-shep-ai--shep)
 - **Kind:** Application
 - **Best for:** Developers coordinating several AI coding-agent tasks against one repository; Teams that want agent output isolated in reviewable draft pull-request workflows
 - **Languages:** TypeScript
@@ -793,12 +875,14 @@ A local-first orchestrator that runs parallel coding agents in isolated Git work
   - Built-in Claude Code, Cursor CLI, and Gemini CLI support plus a generic terminal-agent executor
   - Default prompt-to-implementation-to-draft-PR workflow with configurable CI retry fixes
 
+<a id="repo-significant-gravitas--autogpt"></a>
+
 ## [AutoGPT](https://github.com/Significant-Gravitas/AutoGPT)
 
 An AI-agent platform and monorepo for describing, visually assembling, deploying, and running workflow agents on demand, on schedules, or from triggers, with both a managed web platform and a self-hosted deployment.
 
-- **Category:** [AI and Automation](../categories/ai-and-automation.md)
-- **Topics:** [AI Agents](../topics/ai-agents.md) | [Agent Frameworks](../topics/agent-frameworks.md) | [Agent Orchestration](../topics/agent-orchestration.md) | [Agent Skills](../topics/agent-skills.md) | [Automation](../topics/automation.md) | [Self Hosted](../topics/self-hosted.md) | [Web UI](../topics/web-ui.md) | [Multi Provider](../topics/multi-provider.md)
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-significant-gravitas--autogpt)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-significant-gravitas--autogpt) | [Agent Frameworks](../topics/agent-frameworks.md#repo-significant-gravitas--autogpt) | [Agent Orchestration](../topics/agent-orchestration.md#repo-significant-gravitas--autogpt) | [Agent Skills](../topics/agent-skills.md#repo-significant-gravitas--autogpt) | [Automation](../topics/automation.md#repo-significant-gravitas--autogpt) | [Self Hosted](../topics/self-hosted.md#repo-significant-gravitas--autogpt) | [Web UI](../topics/web-ui.md#repo-significant-gravitas--autogpt) | [Multi Provider](../topics/multi-provider.md#repo-significant-gravitas--autogpt)
 - **Kind:** Monorepo
 - **Best for:** Teams assembling workflow agents visually or from natural-language job descriptions; Organizations choosing between a managed agent platform and self-hosting on their infrastructure
 - **Languages:** Python, TypeScript
@@ -812,12 +896,14 @@ An AI-agent platform and monorepo for describing, visually assembling, deploying
   - AutoPilot surface that turns a plain-English job description into an agent
   - Agent dashboard for runs, costs, statuses, and actions requiring attention
 
+<a id="repo-sipeed--picoclaw"></a>
+
 ## [PicoClaw](https://github.com/sipeed/picoclaw)
 
 A Go-based AI-agent application distributed as a small cross-architecture binary, with a command-line interface, browser-based launcher, chat gateway, MCP tools, skills, schedules, and configurable LLM providers.
 
-- **Category:** [AI and Automation](../categories/ai-and-automation.md)
-- **Topics:** [AI Agents](../topics/ai-agents.md) | [Agent Skills](../topics/agent-skills.md) | [Automation](../topics/automation.md) | [CLI](../topics/cli.md) | [MCP](../topics/mcp.md) | [Multimodal](../topics/multimodal.md) | [Model Routing](../topics/model-routing.md) | [Self Hosted](../topics/self-hosted.md) | [Web UI](../topics/web-ui.md)
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-sipeed--picoclaw)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-sipeed--picoclaw) | [Agent Skills](../topics/agent-skills.md#repo-sipeed--picoclaw) | [Automation](../topics/automation.md#repo-sipeed--picoclaw) | [CLI](../topics/cli.md#repo-sipeed--picoclaw) | [MCP](../topics/mcp.md#repo-sipeed--picoclaw) | [Multimodal](../topics/multimodal.md#repo-sipeed--picoclaw) | [Model Routing](../topics/model-routing.md#repo-sipeed--picoclaw) | [Self Hosted](../topics/self-hosted.md#repo-sipeed--picoclaw) | [Web UI](../topics/web-ui.md#repo-sipeed--picoclaw)
 - **Kind:** Application
 - **Best for:** Running an AI assistant on resource-constrained Linux, ARM, RISC-V, MIPS, or x86 hardware; Self-hosted personal automation that needs MCP tools, skills, schedules, or chat-channel access
 - **Languages:** Go, TypeScript
@@ -831,12 +917,14 @@ A Go-based AI-agent application distributed as a small cross-architecture binary
   - CLI, interactive mode, and a browser-based WebUI launcher
   - Native MCP server configuration and management commands
 
+<a id="repo-siteboon--claudecodeui"></a>
+
 ## [CloudCLI UI](https://github.com/siteboon/claudecodeui)
 
 A self-hostable web, desktop, and mobile interface for viewing projects and sessions and working with Claude Code, Cursor CLI, Codex, and related agents.
 
-- **Category:** [Platforms and Applications](../categories/platforms-and-applications.md)
-- **Topics:** [AI Agents](../topics/ai-agents.md) | [Coding Agents](../topics/coding-agents.md) | [Web UI](../topics/web-ui.md) | [Desktop App](../topics/desktop-app.md) | [Terminal](../topics/terminal.md) | [Self Hosted](../topics/self-hosted.md) | [Sandboxing](../topics/sandboxing.md) | [Multi Provider](../topics/multi-provider.md)
+- **Category:** [Platforms and Applications](../categories/platforms-and-applications.md#repo-siteboon--claudecodeui)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-siteboon--claudecodeui) | [Coding Agents](../topics/coding-agents.md#repo-siteboon--claudecodeui) | [Web UI](../topics/web-ui.md#repo-siteboon--claudecodeui) | [Desktop App](../topics/desktop-app.md#repo-siteboon--claudecodeui) | [Terminal](../topics/terminal.md#repo-siteboon--claudecodeui) | [Self Hosted](../topics/self-hosted.md#repo-siteboon--claudecodeui) | [Sandboxing](../topics/sandboxing.md#repo-siteboon--claudecodeui) | [Multi Provider](../topics/multi-provider.md#repo-siteboon--claudecodeui)
 - **Kind:** Application
 - **Best for:** Developers who want a visual, remote-friendly workspace around supported agent CLIs; Teams evaluating local self-hosting or the separate managed CloudCLI service
 - **Languages:** TypeScript
@@ -850,12 +938,14 @@ A self-hostable web, desktop, and mobile interface for viewing projects and sess
   - Integrated shell terminal, file explorer, Git explorer, and browser sessions
   - Support for Claude Code, Cursor CLI, Codex, and listed GPT or Claude models
 
+<a id="repo-slopus--happy"></a>
+
 ## [Happy](https://github.com/slopus/happy)
 
 A mobile and web companion for Claude Code and Codex sessions that wraps the local agent CLI, enables remote session control and device handoff, sends notifications, and advertises end-to-end encrypted synchronization.
 
-- **Category:** [Platforms and Applications](../categories/platforms-and-applications.md)
-- **Topics:** [Coding Agents](../topics/coding-agents.md) | [Remote Control](../topics/remote-control.md) | [Mobile App](../topics/mobile-app.md) | [Web UI](../topics/web-ui.md) | [CLI](../topics/cli.md) | [Realtime](../topics/realtime.md) | [Security](../topics/security.md) | [Open Source](../topics/open-source.md)
+- **Category:** [Platforms and Applications](../categories/platforms-and-applications.md#repo-slopus--happy)
+- **Topics:** [Coding Agents](../topics/coding-agents.md#repo-slopus--happy) | [Remote Control](../topics/remote-control.md#repo-slopus--happy) | [Mobile App](../topics/mobile-app.md#repo-slopus--happy) | [Web UI](../topics/web-ui.md#repo-slopus--happy) | [CLI](../topics/cli.md#repo-slopus--happy) | [Realtime](../topics/realtime.md#repo-slopus--happy) | [Security](../topics/security.md#repo-slopus--happy) | [Open Source](../topics/open-source.md#repo-slopus--happy)
 - **Kind:** Monorepo
 - **Best for:** Developers who need to check or control active Claude Code or Codex work away from a computer; Teams or individuals who want a remote-control layer without replacing their existing coding agent
 - **Languages:** TypeScript, Rust
@@ -869,12 +959,14 @@ A mobile and web companion for Claude Code and Codex sessions that wraps the loc
   - A CLI wrapper that starts Claude Code or Codex through Happy
   - Remote agent-control commands for creating, sending to, and monitoring sessions
 
+<a id="repo-stackblitz-labs--bolt.diy"></a>
+
 ## [bolt.diy](https://github.com/stackblitz-labs/bolt.diy)
 
 An open-source, self-hostable version of Bolt.new for AI-assisted web development, with selectable cloud and local model providers plus browser, Docker, and Electron desktop deployment paths.
 
-- **Category:** [Developer Tools](../categories/developer-tools.md)
-- **Topics:** [Coding Agents](../topics/coding-agents.md) | [Agent Development Environments](../topics/agent-development-environments.md) | [Code Generation](../topics/code-generation.md) | [Multi Provider](../topics/multi-provider.md) | [Local Models](../topics/local-models.md) | [Self Hosted](../topics/self-hosted.md) | [Desktop App](../topics/desktop-app.md) | [Web UI](../topics/web-ui.md)
+- **Category:** [Developer Tools](../categories/developer-tools.md#repo-stackblitz-labs--bolt.diy)
+- **Topics:** [Coding Agents](../topics/coding-agents.md#repo-stackblitz-labs--bolt.diy) | [Agent Development Environments](../topics/agent-development-environments.md#repo-stackblitz-labs--bolt.diy) | [Code Generation](../topics/code-generation.md#repo-stackblitz-labs--bolt.diy) | [Multi Provider](../topics/multi-provider.md#repo-stackblitz-labs--bolt.diy) | [Local Models](../topics/local-models.md#repo-stackblitz-labs--bolt.diy) | [Self Hosted](../topics/self-hosted.md#repo-stackblitz-labs--bolt.diy) | [Desktop App](../topics/desktop-app.md#repo-stackblitz-labs--bolt.diy) | [Web UI](../topics/web-ui.md#repo-stackblitz-labs--bolt.diy)
 - **Kind:** Application
 - **Best for:** Developers who want a self-hosted AI web-development environment with provider choice; Teams that need to connect local models or OpenAI-compatible endpoints to an agent workspace
 - **Languages:** TypeScript, JavaScript
@@ -888,12 +980,14 @@ An open-source, self-hostable version of Bolt.new for AI-assisted web developmen
   - Provides web, Docker, and Electron desktop deployment options
   - Includes settings for cloud keys, Ollama, LM Studio, and OpenAI-compatible base URLs
 
+<a id="repo-stackblitz--bolt.new"></a>
+
 ## [Bolt.new](https://github.com/stackblitz/bolt.new)
 
 An AI-powered browser development agent that prompts, runs, edits, and deploys full-stack JavaScript applications in an in-browser WebContainers environment without requiring a local development setup.
 
-- **Category:** [Developer Tools](../categories/developer-tools.md)
-- **Topics:** [Coding Agents](../topics/coding-agents.md) | [Agent Development Environments](../topics/agent-development-environments.md) | [Code Generation](../topics/code-generation.md) | [Web UI](../topics/web-ui.md) | [Web](../topics/web.md)
+- **Category:** [Developer Tools](../categories/developer-tools.md#repo-stackblitz--bolt.new)
+- **Topics:** [Coding Agents](../topics/coding-agents.md#repo-stackblitz--bolt.new) | [Agent Development Environments](../topics/agent-development-environments.md#repo-stackblitz--bolt.new) | [Code Generation](../topics/code-generation.md#repo-stackblitz--bolt.new) | [Web UI](../topics/web-ui.md#repo-stackblitz--bolt.new) | [Web](../topics/web.md#repo-stackblitz--bolt.new)
 - **Kind:** Application
 - **Best for:** Developers, product managers, and designers prototyping full-stack JavaScript applications in a browser; Teams building an AI-powered development experience on top of the open-source Bolt codebase
 - **Languages:** TypeScript, JavaScript
@@ -907,12 +1001,14 @@ An AI-powered browser development agent that prompts, runs, edits, and deploys f
   - Uses WebContainers to install npm packages and run Node.js-based development stacks in the browser
   - Supports prompting, editing, running, sharing, and deploying full-stack applications from the web interface
 
+<a id="repo-tiann--hapi"></a>
+
 ## [HAPI](https://github.com/tiann/hapi)
 
 A local-first application that wraps supported coding-agent CLIs, persists their sessions through a hub, and lets users monitor, message, and approve work remotely from a web PWA or Telegram Mini App without restarting a session.
 
-- **Category:** [Developer Tools](../categories/developer-tools.md)
-- **Topics:** [Coding Agents](../topics/coding-agents.md) | [Terminal](../topics/terminal.md) | [Web UI](../topics/web-ui.md) | [Mobile App](../topics/mobile-app.md) | [Remote Control](../topics/remote-control.md) | [Cross Device](../topics/cross-device.md) | [Local First](../topics/local-first.md) | [Self Hosted](../topics/self-hosted.md) | [MCP](../topics/mcp.md) | [Developer Productivity](../topics/developer-productivity.md)
+- **Category:** [Developer Tools](../categories/developer-tools.md#repo-tiann--hapi)
+- **Topics:** [Coding Agents](../topics/coding-agents.md#repo-tiann--hapi) | [Terminal](../topics/terminal.md#repo-tiann--hapi) | [Web UI](../topics/web-ui.md#repo-tiann--hapi) | [Mobile App](../topics/mobile-app.md#repo-tiann--hapi) | [Remote Control](../topics/remote-control.md#repo-tiann--hapi) | [Cross Device](../topics/cross-device.md#repo-tiann--hapi) | [Local First](../topics/local-first.md#repo-tiann--hapi) | [Self Hosted](../topics/self-hosted.md#repo-tiann--hapi) | [MCP](../topics/mcp.md#repo-tiann--hapi) | [Developer Productivity](../topics/developer-productivity.md#repo-tiann--hapi)
 - **Kind:** Application
 - **Best for:** Developers who need to continue or supervise local coding-agent sessions from another device; Teams or individuals willing to run a local or self-hosted hub for remote session access
 - **Languages:** TypeScript
@@ -926,12 +1022,14 @@ A local-first application that wraps supported coding-agent CLIs, persists their
   - Preserves a session while control switches between terminal and remote clients
   - Web PWA supports sessions, chat, permission decisions, file browsing, diffs, and remote spawning
 
+<a id="repo-tinyhumansai--openhuman"></a>
+
 ## [OpenHuman](https://github.com/tinyhumansai/openhuman)
 
 A local-first desktop personal-AI application combining persistent memory, agent orchestration, visual workflows, research tools, and integrations.
 
-- **Category:** [AI and Automation](../categories/ai-and-automation.md)
-- **Topics:** [AI Agents](../topics/ai-agents.md) | [Agent Harnesses](../topics/agent-harnesses.md) | [Agent Memory](../topics/agent-memory.md) | [Agent Orchestration](../topics/agent-orchestration.md) | [Multi Agent](../topics/multi-agent.md) | [LLMs](../topics/llms.md) | [MCP](../topics/mcp.md) | [Local First](../topics/local-first.md) | [Desktop App](../topics/desktop-app.md) | [Web UI](../topics/web-ui.md) | [Automation](../topics/automation.md)
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-tinyhumansai--openhuman)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-tinyhumansai--openhuman) | [Agent Harnesses](../topics/agent-harnesses.md#repo-tinyhumansai--openhuman) | [Agent Memory](../topics/agent-memory.md#repo-tinyhumansai--openhuman) | [Agent Orchestration](../topics/agent-orchestration.md#repo-tinyhumansai--openhuman) | [Multi Agent](../topics/multi-agent.md#repo-tinyhumansai--openhuman) | [LLMs](../topics/llms.md#repo-tinyhumansai--openhuman) | [MCP](../topics/mcp.md#repo-tinyhumansai--openhuman) | [Local First](../topics/local-first.md#repo-tinyhumansai--openhuman) | [Desktop App](../topics/desktop-app.md#repo-tinyhumansai--openhuman) | [Web UI](../topics/web-ui.md#repo-tinyhumansai--openhuman) | [Automation](../topics/automation.md#repo-tinyhumansai--openhuman)
 - **Kind:** Application
 - **Best for:** Individuals who want a local desktop agent with durable personal context; Users who want to review agent-proposed workflows and multi-agent runs
 - **Languages:** Rust, TypeScript, JavaScript
@@ -945,12 +1043,14 @@ A local-first desktop personal-AI application combining persistent memory, agent
   - Runs checkpointed agent graphs, sub-agent fleets, and replayable run journals
   - Creates visual, trigger-driven workflows with approval gates for side effects
 
+<a id="repo-topoteretes--cognee"></a>
+
 ## [Cognee](https://github.com/topoteretes/cognee)
 
 An open-source AI-memory platform that ingests data into a self-hosted knowledge graph and combines graph and vector retrieval for persistent agent context.
 
-- **Category:** [AI and Automation](../categories/ai-and-automation.md)
-- **Topics:** [AI Agents](../topics/ai-agents.md) | [Agent Memory](../topics/agent-memory.md) | [Agent Skills](../topics/agent-skills.md) | [LLMs](../topics/llms.md) | [Search](../topics/search.md) | [Self Hosted](../topics/self-hosted.md) | [MCP](../topics/mcp.md) | [CLI](../topics/cli.md) | [Web UI](../topics/web-ui.md) | [Codebase Indexing](../topics/codebase-indexing.md) | [Open Source](../topics/open-source.md)
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-topoteretes--cognee)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-topoteretes--cognee) | [Agent Memory](../topics/agent-memory.md#repo-topoteretes--cognee) | [Agent Skills](../topics/agent-skills.md#repo-topoteretes--cognee) | [LLMs](../topics/llms.md#repo-topoteretes--cognee) | [Search](../topics/search.md#repo-topoteretes--cognee) | [Self Hosted](../topics/self-hosted.md#repo-topoteretes--cognee) | [MCP](../topics/mcp.md#repo-topoteretes--cognee) | [CLI](../topics/cli.md#repo-topoteretes--cognee) | [Web UI](../topics/web-ui.md#repo-topoteretes--cognee) | [Codebase Indexing](../topics/codebase-indexing.md#repo-topoteretes--cognee) | [Open Source](../topics/open-source.md#repo-topoteretes--cognee)
 - **Kind:** Framework
 - **Best for:** Adding long-term memory and retrieval to AI agents; Self-hosting an agent knowledge layer with a Python API, CLI, or MCP service
 - **Languages:** Python, TypeScript
@@ -964,12 +1064,14 @@ An open-source AI-memory platform that ingests data into a self-hosted knowledge
   - Provides remember, recall, forget, and improve operations for persistent and session memory
   - Routes retrieval across graph, vector, and session-memory search strategies
 
+<a id="repo-ucbepic--docetl"></a>
+
 ## [DocETL](https://github.com/ucbepic/docetl)
 
 A Python framework for declarative LLM-powered processing of structured and unstructured datasets, offering map-reduce-style operators, Python and YAML pipelines, automatic cost-quality optimization, parsing extras, and a visual playground.
 
-- **Category:** [Data and Databases](../categories/data-and-databases.md)
-- **Topics:** [Document Processing](../topics/document-processing.md) | [Data Processing](../topics/data-processing.md) | [LLMs](../topics/llms.md) | [Automation](../topics/automation.md) | [Evaluation](../topics/evaluation.md) | [Cost Management](../topics/cost-management.md) | [CLI](../topics/cli.md) | [Web UI](../topics/web-ui.md)
+- **Category:** [Data and Databases](../categories/data-and-databases.md#repo-ucbepic--docetl)
+- **Topics:** [Document Processing](../topics/document-processing.md#repo-ucbepic--docetl) | [Data Processing](../topics/data-processing.md#repo-ucbepic--docetl) | [LLMs](../topics/llms.md#repo-ucbepic--docetl) | [Automation](../topics/automation.md#repo-ucbepic--docetl) | [Evaluation](../topics/evaluation.md#repo-ucbepic--docetl) | [Cost Management](../topics/cost-management.md#repo-ucbepic--docetl) | [CLI](../topics/cli.md#repo-ucbepic--docetl) | [Web UI](../topics/web-ui.md#repo-ucbepic--docetl)
 - **Kind:** Framework
 - **Best for:** Data teams extracting, classifying, resolving, or summarizing large document collections; Developers who need repeatable LLM pipelines with explicit cost and quality optimization
 - **Languages:** Python, TypeScript
@@ -983,12 +1085,14 @@ A Python framework for declarative LLM-powered processing of structured and unst
   - Defines pipelines through a Python API or low-code YAML configuration
   - Parallelizes work and reports model-call costs while producing tabular results
 
+<a id="repo-vasihemanth--tokentelemetry"></a>
+
 ## [TokenTelemetry](https://github.com/VasiHemanth/tokentelemetry)
 
 A local dashboard that reads supported AI-agent session logs to show token use, costs, tool calls, reasoning traces, budgets, and project analytics.
 
-- **Category:** [Developer Tools](../categories/developer-tools.md)
-- **Topics:** [AI Agents](../topics/ai-agents.md) | [Observability](../topics/observability.md) | [Token Usage](../topics/token-usage.md) | [Cost Management](../topics/cost-management.md) | [Local First](../topics/local-first.md) | [Self Hosted](../topics/self-hosted.md) | [Web UI](../topics/web-ui.md) | [CLI](../topics/cli.md)
+- **Category:** [Developer Tools](../categories/developer-tools.md#repo-vasihemanth--tokentelemetry)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-vasihemanth--tokentelemetry) | [Observability](../topics/observability.md#repo-vasihemanth--tokentelemetry) | [Token Usage](../topics/token-usage.md#repo-vasihemanth--tokentelemetry) | [Cost Management](../topics/cost-management.md#repo-vasihemanth--tokentelemetry) | [Local First](../topics/local-first.md#repo-vasihemanth--tokentelemetry) | [Self Hosted](../topics/self-hosted.md#repo-vasihemanth--tokentelemetry) | [Web UI](../topics/web-ui.md#repo-vasihemanth--tokentelemetry) | [CLI](../topics/cli.md#repo-vasihemanth--tokentelemetry)
 - **Kind:** Application
 - **Best for:** Developers comparing token use and costs across local coding-agent sessions; Teams needing a local, read-only view of supported AI-agent activity
 - **Languages:** Python, TypeScript, JavaScript
@@ -1002,12 +1106,14 @@ A local dashboard that reads supported AI-agent session logs to show token use, 
   - Waterfall traces for prompts, reasoning, tool calls, and responses
   - Per-project activity, heatmaps, agent leaderboards, and worktree rollups
 
+<a id="repo-vercel-labs--open-agents"></a>
+
 ## [Open Agents](https://github.com/vercel-labs/open-agents)
 
 A Vercel-deployable reference application for background coding agents, combining a web interface, durable agent workflows, isolated sandbox VMs, and GitHub-based code-change workflows.
 
-- **Category:** [AI and Automation](../categories/ai-and-automation.md)
-- **Topics:** [Coding Agents](../topics/coding-agents.md) | [Agent Harnesses](../topics/agent-harnesses.md) | [Agent Skills](../topics/agent-skills.md) | [Sandboxing](../topics/sandboxing.md) | [Web UI](../topics/web-ui.md) | [GitHub](../topics/github.md) | [Pull Requests](../topics/pull-requests.md) | [Starter Templates](../topics/starter-templates.md) | [Open Source](../topics/open-source.md)
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-vercel-labs--open-agents)
+- **Topics:** [Coding Agents](../topics/coding-agents.md#repo-vercel-labs--open-agents) | [Agent Harnesses](../topics/agent-harnesses.md#repo-vercel-labs--open-agents) | [Agent Skills](../topics/agent-skills.md#repo-vercel-labs--open-agents) | [Sandboxing](../topics/sandboxing.md#repo-vercel-labs--open-agents) | [Web UI](../topics/web-ui.md#repo-vercel-labs--open-agents) | [GitHub](../topics/github.md#repo-vercel-labs--open-agents) | [Pull Requests](../topics/pull-requests.md#repo-vercel-labs--open-agents) | [Starter Templates](../topics/starter-templates.md#repo-vercel-labs--open-agents) | [Open Source](../topics/open-source.md#repo-vercel-labs--open-agents)
 - **Kind:** Starter Template
 - **Best for:** Teams that want to fork and adapt a cloud-hosted coding-agent application; Developers needing durable agent runs that can continue independently of a browser session
 - **Languages:** TypeScript
@@ -1021,12 +1127,14 @@ A Vercel-deployable reference application for background coding agents, combinin
   - Durable Workflow SDK runs with streaming, cancellation, and reconnectable execution
   - Isolated Vercel Sandboxes with repository cloning, branch work, and snapshot-based resume
 
+<a id="repo-waynesutton--opensync"></a>
+
 ## [opensync](https://github.com/waynesutton/opensync)
 
 A hosted or self-hosted dashboard and API for collecting AI coding-session data from supported sync plugins, then searching, analysing, exporting, and reusing that activity for evaluation and context workflows.
 
-- **Category:** [Developer Tools](../categories/developer-tools.md)
-- **Topics:** [Coding Agents](../topics/coding-agents.md) | [Observability](../topics/observability.md) | [Evaluation](../topics/evaluation.md) | [Search](../topics/search.md) | [Token Usage](../topics/token-usage.md) | [Cost Management](../topics/cost-management.md) | [Web UI](../topics/web-ui.md) | [Self Hosted](../topics/self-hosted.md)
+- **Category:** [Developer Tools](../categories/developer-tools.md#repo-waynesutton--opensync)
+- **Topics:** [Coding Agents](../topics/coding-agents.md#repo-waynesutton--opensync) | [Observability](../topics/observability.md#repo-waynesutton--opensync) | [Evaluation](../topics/evaluation.md#repo-waynesutton--opensync) | [Search](../topics/search.md#repo-waynesutton--opensync) | [Token Usage](../topics/token-usage.md#repo-waynesutton--opensync) | [Cost Management](../topics/cost-management.md#repo-waynesutton--opensync) | [Web UI](../topics/web-ui.md#repo-waynesutton--opensync) | [Self Hosted](../topics/self-hosted.md#repo-waynesutton--opensync)
 - **Kind:** Application
 - **Best for:** Teams that want a shared dashboard for coding-agent sessions, tool activity, and token spend; Developers who want to search or export past sessions for evaluations and context retrieval
 - **Languages:** TypeScript
@@ -1040,12 +1148,14 @@ A hosted or self-hosted dashboard and API for collecting AI coding-session data 
   - Provides full-text, semantic, and hybrid session search alongside an API for sessions, search, context, and export
   - Offers dashboard views for usage, sessions, evaluations, and analytics including model, project, and cost breakdowns
 
+<a id="repo-xintaofei--codeg"></a>
+
 ## [codeg](https://github.com/xintaofei/codeg)
 
 A local-first multi-agent coding workspace that aggregates sessions from many coding-agent CLIs and adds collaboration, Git worktrees, MCP and skill management, automation, and desktop, browser-server, or Docker deployment.
 
-- **Category:** [Developer Tools](../categories/developer-tools.md)
-- **Topics:** [Coding Agents](../topics/coding-agents.md) | [Agent Development Environments](../topics/agent-development-environments.md) | [Multi Agent](../topics/multi-agent.md) | [Desktop App](../topics/desktop-app.md) | [Git](../topics/git.md) | [Worktrees](../topics/worktrees.md) | [MCP](../topics/mcp.md) | [Agent Skills](../topics/agent-skills.md) | [Automation](../topics/automation.md) | [Web UI](../topics/web-ui.md) | [Self Hosted](../topics/self-hosted.md) | [Local First](../topics/local-first.md)
+- **Category:** [Developer Tools](../categories/developer-tools.md#repo-xintaofei--codeg)
+- **Topics:** [Coding Agents](../topics/coding-agents.md#repo-xintaofei--codeg) | [Agent Development Environments](../topics/agent-development-environments.md#repo-xintaofei--codeg) | [Multi Agent](../topics/multi-agent.md#repo-xintaofei--codeg) | [Desktop App](../topics/desktop-app.md#repo-xintaofei--codeg) | [Git](../topics/git.md#repo-xintaofei--codeg) | [Worktrees](../topics/worktrees.md#repo-xintaofei--codeg) | [MCP](../topics/mcp.md#repo-xintaofei--codeg) | [Agent Skills](../topics/agent-skills.md#repo-xintaofei--codeg) | [Automation](../topics/automation.md#repo-xintaofei--codeg) | [Web UI](../topics/web-ui.md#repo-xintaofei--codeg) | [Self Hosted](../topics/self-hosted.md#repo-xintaofei--codeg) | [Local First](../topics/local-first.md#repo-xintaofei--codeg)
 - **Kind:** Application
 - **Best for:** Developers coordinating sessions from several local coding agents in one workspace; Teams that need a self-hosted browser workspace or desktop interface for agent-assisted Git work
 - **Languages:** TypeScript, Rust
@@ -1059,12 +1169,14 @@ A local-first multi-agent coding workspace that aggregates sessions from many co
   - Multi-agent delegation through the bundled codeg-mcp companion
   - Parallel development with built-in Git worktree flows
 
+<a id="repo-zeroclaw-labs--zeroclaw"></a>
+
 ## [ZeroClaw](https://github.com/zeroclaw-labs/zeroclaw)
 
 A self-hosted Rust agent runtime for operating a personal AI assistant through chat channels, a CLI, a gateway, and an optional web dashboard.
 
-- **Category:** [Platforms and Applications](../categories/platforms-and-applications.md)
-- **Topics:** [AI Agents](../topics/ai-agents.md) | [Agent Harnesses](../topics/agent-harnesses.md) | [Automation](../topics/automation.md) | [CLI](../topics/cli.md) | [Web UI](../topics/web-ui.md) | [Multi Provider](../topics/multi-provider.md) | [Tool Use](../topics/tool-use.md) | [Security](../topics/security.md) | [Self Hosted](../topics/self-hosted.md)
+- **Category:** [Platforms and Applications](../categories/platforms-and-applications.md#repo-zeroclaw-labs--zeroclaw)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-zeroclaw-labs--zeroclaw) | [Agent Harnesses](../topics/agent-harnesses.md#repo-zeroclaw-labs--zeroclaw) | [Automation](../topics/automation.md#repo-zeroclaw-labs--zeroclaw) | [CLI](../topics/cli.md#repo-zeroclaw-labs--zeroclaw) | [Web UI](../topics/web-ui.md#repo-zeroclaw-labs--zeroclaw) | [Multi Provider](../topics/multi-provider.md#repo-zeroclaw-labs--zeroclaw) | [Tool Use](../topics/tool-use.md#repo-zeroclaw-labs--zeroclaw) | [Security](../topics/security.md#repo-zeroclaw-labs--zeroclaw) | [Self Hosted](../topics/self-hosted.md#repo-zeroclaw-labs--zeroclaw)
 - **Kind:** Application
 - **Best for:** Running a configurable personal agent on your own machine and workspace; Connecting one agent to multiple messaging channels, tools, and model providers
 - **Languages:** Rust, TypeScript
@@ -1078,12 +1190,14 @@ A self-hosted Rust agent runtime for operating a personal AI assistant through c
   - More than 30 configurable channel adapters, including CLI, email, webhooks, and chat platforms
   - Shell, browser, HTTP, hardware, and custom MCP-server tool integrations
 
+<a id="repo-zipstack--unstract"></a>
+
 ## [Unstract](https://github.com/Zipstack/unstract)
 
 A self-hostable LLM document-processing platform that turns documents into structured JSON through natural-language extraction prompts, APIs, and ETL workflows.
 
-- **Category:** [AI and Automation](../categories/ai-and-automation.md)
-- **Topics:** [Document Processing](../topics/document-processing.md) | [LLMs](../topics/llms.md) | [Automation](../topics/automation.md) | [API Development](../topics/api-development.md) | [Data Processing](../topics/data-processing.md) | [MCP](../topics/mcp.md) | [Web UI](../topics/web-ui.md) | [Self Hosted](../topics/self-hosted.md)
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-zipstack--unstract)
+- **Topics:** [Document Processing](../topics/document-processing.md#repo-zipstack--unstract) | [LLMs](../topics/llms.md#repo-zipstack--unstract) | [Automation](../topics/automation.md#repo-zipstack--unstract) | [API Development](../topics/api-development.md#repo-zipstack--unstract) | [Data Processing](../topics/data-processing.md#repo-zipstack--unstract) | [MCP](../topics/mcp.md#repo-zipstack--unstract) | [Web UI](../topics/web-ui.md#repo-zipstack--unstract) | [Self Hosted](../topics/self-hosted.md#repo-zipstack--unstract)
 - **Kind:** Application
 - **Best for:** Building document-extraction APIs without writing a custom LLM pipeline; Automating ingestion of business documents into data warehouses or other systems
 - **Languages:** Python, TypeScript

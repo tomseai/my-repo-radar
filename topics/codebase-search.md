@@ -9,12 +9,14 @@
 - [AI and Automation](../categories/ai-and-automation.md) (5)
 - [Developer Tools](../categories/developer-tools.md) (7)
 
+<a id="repo-adithya-s-k--gitvizz"></a>
+
 ## [GitVizz](https://github.com/adithya-s-k/GitVizz)
 
 A web application for exploring GitHub repositories through dependency graphs, code navigation, LLM-assisted repository chat, and generated documentation.
 
-- **Category:** [Developer Tools](../categories/developer-tools.md)
-- **Topics:** [Git](../topics/git.md) | [Codebase Indexing](../topics/codebase-indexing.md) | [Codebase Search](../topics/codebase-search.md) | [Visualization](../topics/visualization.md) | [LLMs](../topics/llms.md) | [Web UI](../topics/web-ui.md) | [Observability](../topics/observability.md)
+- **Category:** [Developer Tools](../categories/developer-tools.md#repo-adithya-s-k--gitvizz)
+- **Topics:** [Git](../topics/git.md#repo-adithya-s-k--gitvizz) | [Codebase Indexing](../topics/codebase-indexing.md#repo-adithya-s-k--gitvizz) | [Codebase Search](../topics/codebase-search.md#repo-adithya-s-k--gitvizz) | [Visualization](../topics/visualization.md#repo-adithya-s-k--gitvizz) | [LLMs](../topics/llms.md#repo-adithya-s-k--gitvizz) | [Web UI](../topics/web-ui.md#repo-adithya-s-k--gitvizz) | [Observability](../topics/observability.md#repo-adithya-s-k--gitvizz)
 - **Kind:** Application
 - **Best for:** Developers onboarding to, reviewing, or investigating an unfamiliar GitHub codebase; Teams that want visual code relationships and LLM context-building alongside a repository browser
 - **Languages:** TypeScript, Python
@@ -28,12 +30,14 @@ A web application for exploring GitHub repositories through dependency graphs, c
   - Context-aware repository chat backed by configurable LLM providers
   - LLM context builder and automatic documentation generation for repository analysis
 
+<a id="repo-anomalyco--opencode"></a>
+
 ## [OpenCode](https://github.com/anomalyco/opencode)
 
 An open-source AI coding agent delivered primarily as a command-line and terminal UI application, with built-in build and plan agents, a general subagent for complex tasks, and a separately labeled beta desktop app.
 
-- **Category:** [AI and Automation](../categories/ai-and-automation.md)
-- **Topics:** [AI Agents](../topics/ai-agents.md) | [Coding Agents](../topics/coding-agents.md) | [CLI](../topics/cli.md) | [TUI](../topics/tui.md) | [Desktop App](../topics/desktop-app.md) | [Code Generation](../topics/code-generation.md) | [Codebase Search](../topics/codebase-search.md) | [Multi Provider](../topics/multi-provider.md)
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-anomalyco--opencode)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-anomalyco--opencode) | [Coding Agents](../topics/coding-agents.md#repo-anomalyco--opencode) | [CLI](../topics/cli.md#repo-anomalyco--opencode) | [TUI](../topics/tui.md#repo-anomalyco--opencode) | [Desktop App](../topics/desktop-app.md#repo-anomalyco--opencode) | [Code Generation](../topics/code-generation.md#repo-anomalyco--opencode) | [Codebase Search](../topics/codebase-search.md#repo-anomalyco--opencode) | [Multi Provider](../topics/multi-provider.md#repo-anomalyco--opencode)
 - **Kind:** CLI
 - **Best for:** Developers who want a local terminal-first AI coding agent; Exploring a codebase or planning changes before granting an agent write access
 - **Languages:** TypeScript
@@ -47,12 +51,14 @@ An open-source AI coding agent delivered primarily as a command-line and termina
   - Read-only plan agent with guarded shell-command permissions
   - General subagent for complex search and multistep work
 
+<a id="repo-can1357--oh-my-pi"></a>
+
 ## [oh-my-pi](https://github.com/can1357/oh-my-pi)
 
 A cross-platform terminal coding agent that combines model-provider access, code-editing tools, code intelligence, debugging, browser control, and isolated subagents.
 
-- **Category:** [AI and Automation](../categories/ai-and-automation.md)
-- **Topics:** [AI Agents](../topics/ai-agents.md) | [Coding Agents](../topics/coding-agents.md) | [CLI](../topics/cli.md) | [TUI](../topics/tui.md) | [Multi Provider](../topics/multi-provider.md) | [Tool Use](../topics/tool-use.md) | [Codebase Search](../topics/codebase-search.md) | [Worktrees](../topics/worktrees.md)
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-can1357--oh-my-pi)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-can1357--oh-my-pi) | [Coding Agents](../topics/coding-agents.md#repo-can1357--oh-my-pi) | [CLI](../topics/cli.md#repo-can1357--oh-my-pi) | [TUI](../topics/tui.md#repo-can1357--oh-my-pi) | [Multi Provider](../topics/multi-provider.md#repo-can1357--oh-my-pi) | [Tool Use](../topics/tool-use.md#repo-can1357--oh-my-pi) | [Codebase Search](../topics/codebase-search.md#repo-can1357--oh-my-pi) | [Worktrees](../topics/worktrees.md#repo-can1357--oh-my-pi)
 - **Kind:** CLI
 - **Best for:** Developers who want a feature-rich coding agent in a terminal interface; Workflows that need LSP or debugger access alongside agent-driven edits and commands
 - **Languages:** TypeScript, Rust
@@ -66,12 +72,14 @@ A cross-platform terminal coding agent that combines model-provider access, code
   - Exposes LSP diagnostics, navigation, rename, code actions, and raw requests to the agent
   - Drives Debug Adapter Protocol sessions for breakpoints, stepping, stacks, variables, and evaluation
 
+<a id="repo-code-yeongyu--oh-my-openagent"></a>
+
 ## [oh-my-openagent](https://github.com/code-yeongyu/oh-my-openagent)
 
 An extension suite for OpenCode and Codex CLI that supplies agent workflow, tool, rule, and skill components in two differently scoped editions.
 
-- **Category:** [AI and Automation](../categories/ai-and-automation.md)
-- **Topics:** [AI Agents](../topics/ai-agents.md) | [Coding Agents](../topics/coding-agents.md) | [Agent Harnesses](../topics/agent-harnesses.md) | [Agent Orchestration](../topics/agent-orchestration.md) | [Agent Skills](../topics/agent-skills.md) | [CLI](../topics/cli.md) | [MCP](../topics/mcp.md) | [Codebase Search](../topics/codebase-search.md) | [Codebase Indexing](../topics/codebase-indexing.md)
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-code-yeongyu--oh-my-openagent)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-code-yeongyu--oh-my-openagent) | [Coding Agents](../topics/coding-agents.md#repo-code-yeongyu--oh-my-openagent) | [Agent Harnesses](../topics/agent-harnesses.md#repo-code-yeongyu--oh-my-openagent) | [Agent Orchestration](../topics/agent-orchestration.md#repo-code-yeongyu--oh-my-openagent) | [Agent Skills](../topics/agent-skills.md#repo-code-yeongyu--oh-my-openagent) | [CLI](../topics/cli.md#repo-code-yeongyu--oh-my-openagent) | [MCP](../topics/mcp.md#repo-code-yeongyu--oh-my-openagent) | [Codebase Search](../topics/codebase-search.md#repo-code-yeongyu--oh-my-openagent) | [Codebase Indexing](../topics/codebase-indexing.md#repo-code-yeongyu--oh-my-openagent)
 - **Kind:** Plugin
 - **Best for:** OpenCode users who want an integrated coding-agent harness with team-mode tooling; Codex CLI users who want the documented portable rules, LSP, MCP, and workflow components
 - **Languages:** TypeScript
@@ -85,12 +93,14 @@ An extension suite for OpenCode and Codex CLI that supplies agent workflow, tool
   - The Codex CLI Light edition provides rules, comment checking, Git Bash, LSP, ultrawork, continuation, telemetry, and plugin-scoped MCP components
   - Team Mode lets a lead coordinate up to eight parallel members through dedicated team tools and a tmux view
 
+<a id="repo-conwnet--github1s"></a>
+
 ## [github1s](https://github.com/conwnet/github1s)
 
 A browser-based, VS Code-style interface for browsing GitHub repositories by replacing github.com with github1s.com in a repository URL.
 
-- **Category:** [Developer Tools](../categories/developer-tools.md)
-- **Topics:** [GitHub](../topics/github.md) | [Web](../topics/web.md) | [Web UI](../topics/web-ui.md) | [Codebase Search](../topics/codebase-search.md) | [Developer Productivity](../topics/developer-productivity.md)
+- **Category:** [Developer Tools](../categories/developer-tools.md#repo-conwnet--github1s)
+- **Topics:** [GitHub](../topics/github.md#repo-conwnet--github1s) | [Web](../topics/web.md#repo-conwnet--github1s) | [Web UI](../topics/web-ui.md#repo-conwnet--github1s) | [Codebase Search](../topics/codebase-search.md#repo-conwnet--github1s) | [Developer Productivity](../topics/developer-productivity.md#repo-conwnet--github1s)
 - **Kind:** Application
 - **Best for:** Quickly reading a public GitHub repository in a VS Code-style interface; Browsing private repositories with a user-supplied GitHub OAuth token
 - **Languages:** TypeScript, JavaScript
@@ -104,12 +114,14 @@ A browser-based, VS Code-style interface for browsing GitHub repositories by rep
   - Uses a VS Code web build and a FileSystemProvider backed by GitHub APIs
   - Supports GitHub, GitLab, and npmjs URL variants
 
+<a id="repo-davis7dotsh--better-context"></a>
+
 ## [btca (Better Context)](https://github.com/davis7dotsh/better-context)
 
 An evolving coding-agent context tool whose current documented local form is a skill that clones and searches library and framework source code; the repository also contains CLI, server, web, sandbox, and documentation packages.
 
-- **Category:** [AI and Automation](../categories/ai-and-automation.md)
-- **Topics:** [Coding Agents](../topics/coding-agents.md) | [Agent Skills](../topics/agent-skills.md) | [Codebase Search](../topics/codebase-search.md) | [Context Engineering](../topics/context-engineering.md) | [CLI](../topics/cli.md) | [Web UI](../topics/web-ui.md)
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-davis7dotsh--better-context)
+- **Topics:** [Coding Agents](../topics/coding-agents.md#repo-davis7dotsh--better-context) | [Agent Skills](../topics/agent-skills.md#repo-davis7dotsh--better-context) | [Codebase Search](../topics/codebase-search.md#repo-davis7dotsh--better-context) | [Context Engineering](../topics/context-engineering.md#repo-davis7dotsh--better-context) | [CLI](../topics/cli.md#repo-davis7dotsh--better-context) | [Web UI](../topics/web-ui.md#repo-davis7dotsh--better-context)
 - **Kind:** Monorepo
 - **Best for:** Giving a compatible coding agent repository-derived context for library or framework questions; Trying the documented btca skill while tracking an in-progress local-product rewrite
 - **Languages:** TypeScript, JavaScript
@@ -123,12 +135,14 @@ An evolving coding-agent context tool whose current documented local form is a s
   - Clones and searches selected repositories in the documented local agent sandbox
   - Supports natural-language prompts and skill invocations with or without a question
 
+<a id="repo-deusdata--codebase-memory-mcp"></a>
+
 ## [codebase-memory-mcp](https://github.com/DeusData/codebase-memory-mcp)
 
 A local MCP code-intelligence server and CLI that indexes repositories into persistent SQLite knowledge graphs for structural codebase queries.
 
-- **Category:** [Developer Tools](../categories/developer-tools.md)
-- **Topics:** [AI Agents](../topics/ai-agents.md) | [Coding Agents](../topics/coding-agents.md) | [MCP](../topics/mcp.md) | [Codebase Indexing](../topics/codebase-indexing.md) | [Codebase Search](../topics/codebase-search.md) | [Agent Memory](../topics/agent-memory.md) | [Local First](../topics/local-first.md) | [Visualization](../topics/visualization.md)
+- **Category:** [Developer Tools](../categories/developer-tools.md#repo-deusdata--codebase-memory-mcp)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-deusdata--codebase-memory-mcp) | [Coding Agents](../topics/coding-agents.md#repo-deusdata--codebase-memory-mcp) | [MCP](../topics/mcp.md#repo-deusdata--codebase-memory-mcp) | [Codebase Indexing](../topics/codebase-indexing.md#repo-deusdata--codebase-memory-mcp) | [Codebase Search](../topics/codebase-search.md#repo-deusdata--codebase-memory-mcp) | [Agent Memory](../topics/agent-memory.md#repo-deusdata--codebase-memory-mcp) | [Local First](../topics/local-first.md#repo-deusdata--codebase-memory-mcp) | [Visualization](../topics/visualization.md#repo-deusdata--codebase-memory-mcp)
 - **Kind:** Service
 - **Best for:** Giving MCP-compatible coding agents structural repository context; Exploring architecture, call paths, search results, and change impact
 - **Languages:** C, TypeScript
@@ -142,12 +156,14 @@ A local MCP code-intelligence server and CLI that indexes repositories into pers
   - Exposes MCP tools for architecture, graph search, call paths, impact, and dead-code queries
   - Provides full-text, structural, semantic, and code-search capabilities
 
+<a id="repo-graphify-labs--graphify"></a>
+
 ## [graphify](https://github.com/Graphify-Labs/graphify)
 
 A Python CLI and coding-assistant skill that maps code and selected project materials into a traversable knowledge graph, then supports focused query, path, explanation, report, and visual-graph workflows over that output.
 
-- **Category:** [Developer Tools](../categories/developer-tools.md)
-- **Topics:** [Coding Agents](../topics/coding-agents.md) | [Agent Skills](../topics/agent-skills.md) | [CLI](../topics/cli.md) | [Codebase Indexing](../topics/codebase-indexing.md) | [Codebase Search](../topics/codebase-search.md) | [Visualization](../topics/visualization.md) | [Local First](../topics/local-first.md)
+- **Category:** [Developer Tools](../categories/developer-tools.md#repo-graphify-labs--graphify)
+- **Topics:** [Coding Agents](../topics/coding-agents.md#repo-graphify-labs--graphify) | [Agent Skills](../topics/agent-skills.md#repo-graphify-labs--graphify) | [CLI](../topics/cli.md#repo-graphify-labs--graphify) | [Codebase Indexing](../topics/codebase-indexing.md#repo-graphify-labs--graphify) | [Codebase Search](../topics/codebase-search.md#repo-graphify-labs--graphify) | [Visualization](../topics/visualization.md#repo-graphify-labs--graphify) | [Local First](../topics/local-first.md#repo-graphify-labs--graphify)
 - **Kind:** CLI
 - **Best for:** Developers orienting coding agents in a medium or large codebase; Teams that need code, schema, and supporting-document relationships in one graph
 - **Languages:** Python
@@ -161,12 +177,14 @@ A Python CLI and coding-assistant skill that maps code and selected project mate
   - Produces graph.json, GRAPH_REPORT.md, and an interactive graph.html view
   - Queries, explains, and traces shortest paths between graph concepts
 
+<a id="repo-oraios--serena"></a>
+
 ## [Serena](https://github.com/oraios/serena)
 
 A local MCP coding toolkit that gives AI clients symbol-aware code search, navigation, editing, refactoring, and reusable project memory through language servers or an optional JetBrains backend.
 
-- **Category:** [AI and Automation](../categories/ai-and-automation.md)
-- **Topics:** [AI Agents](../topics/ai-agents.md) | [Coding Agents](../topics/coding-agents.md) | [MCP](../topics/mcp.md) | [Tool Use](../topics/tool-use.md) | [Codebase Search](../topics/codebase-search.md) | [Code Generation](../topics/code-generation.md) | [Agent Memory](../topics/agent-memory.md) | [Developer Productivity](../topics/developer-productivity.md) | [Self Hosted](../topics/self-hosted.md)
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-oraios--serena)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-oraios--serena) | [Coding Agents](../topics/coding-agents.md#repo-oraios--serena) | [MCP](../topics/mcp.md#repo-oraios--serena) | [Tool Use](../topics/tool-use.md#repo-oraios--serena) | [Codebase Search](../topics/codebase-search.md#repo-oraios--serena) | [Code Generation](../topics/code-generation.md#repo-oraios--serena) | [Agent Memory](../topics/agent-memory.md#repo-oraios--serena) | [Developer Productivity](../topics/developer-productivity.md#repo-oraios--serena) | [Self Hosted](../topics/self-hosted.md#repo-oraios--serena)
 - **Kind:** Service
 - **Best for:** Coding agents working in medium or large repositories; Reusing semantic code tools across different MCP clients and models
 - **Languages:** Python
@@ -180,12 +198,14 @@ A local MCP coding toolkit that gives AI clients symbol-aware code search, navig
   - Retrieve focused symbol-level context instead of entire files
   - Apply symbol-aware edits and refactorings
 
+<a id="repo-tailcallhq--forgecode"></a>
+
 ## [Forge](https://github.com/tailcallhq/forgecode)
 
 A Rust terminal coding agent that combines an interactive TUI, one-shot commands, and a Zsh prompt plugin with provider login, workspace search, Git worktrees, MCP server configuration, and persistent conversations.
 
-- **Category:** [Developer Tools](../categories/developer-tools.md)
-- **Topics:** [AI Agents](../topics/ai-agents.md) | [Coding Agents](../topics/coding-agents.md) | [CLI](../topics/cli.md) | [TUI](../topics/tui.md) | [Terminal](../topics/terminal.md) | [Worktrees](../topics/worktrees.md) | [Codebase Search](../topics/codebase-search.md) | [Multi Provider](../topics/multi-provider.md) | [MCP](../topics/mcp.md) | [Developer Productivity](../topics/developer-productivity.md)
+- **Category:** [Developer Tools](../categories/developer-tools.md#repo-tailcallhq--forgecode)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-tailcallhq--forgecode) | [Coding Agents](../topics/coding-agents.md#repo-tailcallhq--forgecode) | [CLI](../topics/cli.md#repo-tailcallhq--forgecode) | [TUI](../topics/tui.md#repo-tailcallhq--forgecode) | [Terminal](../topics/terminal.md#repo-tailcallhq--forgecode) | [Worktrees](../topics/worktrees.md#repo-tailcallhq--forgecode) | [Codebase Search](../topics/codebase-search.md#repo-tailcallhq--forgecode) | [Multi Provider](../topics/multi-provider.md#repo-tailcallhq--forgecode) | [MCP](../topics/mcp.md#repo-tailcallhq--forgecode) | [Developer Productivity](../topics/developer-productivity.md#repo-tailcallhq--forgecode)
 - **Kind:** CLI
 - **Best for:** Developers who want a coding agent embedded in a terminal workflow; Scripted or isolated coding tasks that benefit from Git worktrees
 - **Languages:** Rust
@@ -199,12 +219,14 @@ A Rust terminal coding agent that combines an interactive TUI, one-shot commands
   - One-shot prompts for scripts, piped input, commit messages, and command suggestions
   - Zsh plugin with colon-prefixed agent, conversation, commit, and suggestion commands
 
+<a id="repo-xai-org--grok-build"></a>
+
 ## [grok-build](https://github.com/xai-org/grok-build)
 
 A Rust terminal coding agent distributed as the grok CLI and full-screen TUI, with codebase-aware editing, shell execution, web search, long-running task management, and interactive, scripted, or ACP editor-integrated modes.
 
-- **Category:** [Developer Tools](../categories/developer-tools.md)
-- **Topics:** [Coding Agents](../topics/coding-agents.md) | [CLI](../topics/cli.md) | [TUI](../topics/tui.md) | [Terminal](../topics/terminal.md) | [Codebase Search](../topics/codebase-search.md) | [Web Search](../topics/web-search.md) | [Sandboxing](../topics/sandboxing.md) | [MCP](../topics/mcp.md) | [Agent Protocols](../topics/agent-protocols.md) | [Agent Skills](../topics/agent-skills.md)
+- **Category:** [Developer Tools](../categories/developer-tools.md#repo-xai-org--grok-build)
+- **Topics:** [Coding Agents](../topics/coding-agents.md#repo-xai-org--grok-build) | [CLI](../topics/cli.md#repo-xai-org--grok-build) | [TUI](../topics/tui.md#repo-xai-org--grok-build) | [Terminal](../topics/terminal.md#repo-xai-org--grok-build) | [Codebase Search](../topics/codebase-search.md#repo-xai-org--grok-build) | [Web Search](../topics/web-search.md#repo-xai-org--grok-build) | [Sandboxing](../topics/sandboxing.md#repo-xai-org--grok-build) | [MCP](../topics/mcp.md#repo-xai-org--grok-build) | [Agent Protocols](../topics/agent-protocols.md#repo-xai-org--grok-build) | [Agent Skills](../topics/agent-skills.md#repo-xai-org--grok-build)
 - **Kind:** CLI
 - **Best for:** Developers who prefer a terminal-first Grok coding-agent workflow; Scripted or CI-adjacent agent tasks and editors that support the Agent Client Protocol
 - **Languages:** Rust
@@ -218,12 +240,14 @@ A Rust terminal coding agent distributed as the grok CLI and full-screen TUI, wi
   - Codebase-aware file editing and shell-command execution
   - Web search and management of long-running tasks
 
+<a id="repo-yamadashy--repomix"></a>
+
 ## [Repomix](https://github.com/yamadashy/repomix)
 
 A command-line tool that packages a local or remote repository into a single AI-friendly context file for use with LLMs and other tools.
 
-- **Category:** [Developer Tools](../categories/developer-tools.md)
-- **Topics:** [CLI](../topics/cli.md) | [LLMs](../topics/llms.md) | [MCP](../topics/mcp.md) | [Developer Productivity](../topics/developer-productivity.md) | [Codebase Search](../topics/codebase-search.md)
+- **Category:** [Developer Tools](../categories/developer-tools.md#repo-yamadashy--repomix)
+- **Topics:** [CLI](../topics/cli.md#repo-yamadashy--repomix) | [LLMs](../topics/llms.md#repo-yamadashy--repomix) | [MCP](../topics/mcp.md#repo-yamadashy--repomix) | [Developer Productivity](../topics/developer-productivity.md#repo-yamadashy--repomix) | [Codebase Search](../topics/codebase-search.md#repo-yamadashy--repomix)
 - **Kind:** CLI
 - **Best for:** Preparing a selected codebase for LLM analysis, review, or generation; Keeping repository context within an AI tool's token or file-size limits
 - **Languages:** TypeScript

@@ -11,12 +11,14 @@
 - [DevOps and Cloud](../categories/devops-and-cloud.md) (2)
 - [Testing and Quality](../categories/testing-and-quality.md) (1)
 
+<a id="repo-arize-ai--phoenix"></a>
+
 ## [Phoenix](https://github.com/Arize-ai/phoenix)
 
 An AI observability and evaluation platform for tracing, experimenting with, and troubleshooting LLM applications.
 
-- **Category:** [AI and Automation](../categories/ai-and-automation.md)
-- **Topics:** [LLMs](../topics/llms.md) | [Observability](../topics/observability.md) | [Tracing](../topics/tracing.md) | [Evaluation](../topics/evaluation.md) | [Self Hosted](../topics/self-hosted.md) | [Web UI](../topics/web-ui.md)
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-arize-ai--phoenix)
+- **Topics:** [LLMs](../topics/llms.md#repo-arize-ai--phoenix) | [Observability](../topics/observability.md#repo-arize-ai--phoenix) | [Tracing](../topics/tracing.md#repo-arize-ai--phoenix) | [Evaluation](../topics/evaluation.md#repo-arize-ai--phoenix) | [Self Hosted](../topics/self-hosted.md#repo-arize-ai--phoenix) | [Web UI](../topics/web-ui.md#repo-arize-ai--phoenix)
 - **Kind:** Application
 - **Best for:** Teams operating LLM applications that need trace inspection and evaluation workflows; Developers who want local, containerized, or cloud deployment choices
 - **Languages:** Python, TypeScript
@@ -30,12 +32,14 @@ An AI observability and evaluation platform for tracing, experimenting with, and
   - Supports response and retrieval evaluations, versioned datasets, and experiments
   - Provides a playground and prompt management for comparing models and prompt changes
 
+<a id="repo-comet-ml--opik"></a>
+
 ## [opik](https://github.com/comet-ml/opik)
 
 An open-source platform for tracing, evaluating, testing, monitoring, and optimizing LLM applications and AI agents across development and production.
 
-- **Category:** [Testing and Quality](../categories/testing-and-quality.md)
-- **Topics:** [AI Agents](../topics/ai-agents.md) | [LLMs](../topics/llms.md) | [Observability](../topics/observability.md) | [Tracing](../topics/tracing.md) | [Evaluation](../topics/evaluation.md) | [Token Usage](../topics/token-usage.md) | [Self Hosted](../topics/self-hosted.md) | [Open Source](../topics/open-source.md)
+- **Category:** [Testing and Quality](../categories/testing-and-quality.md#repo-comet-ml--opik)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-comet-ml--opik) | [LLMs](../topics/llms.md#repo-comet-ml--opik) | [Observability](../topics/observability.md#repo-comet-ml--opik) | [Tracing](../topics/tracing.md#repo-comet-ml--opik) | [Evaluation](../topics/evaluation.md#repo-comet-ml--opik) | [Token Usage](../topics/token-usage.md#repo-comet-ml--opik) | [Self Hosted](../topics/self-hosted.md#repo-comet-ml--opik) | [Open Source](../topics/open-source.md#repo-comet-ml--opik)
 - **Kind:** Service
 - **Best for:** ML and engineering teams operating LLM applications or agentic workflows; Self-hosted teams that need trace-level observability and evaluation
 - **Languages:** Python, TypeScript, Java
@@ -49,12 +53,14 @@ An open-source platform for tracing, evaluating, testing, monitoring, and optimi
   - Build datasets and experiments with LLM-as-a-judge metrics
   - Annotate traces and spans with feedback scores through the SDK or web UI
 
+<a id="repo-droidrun--mobilerun"></a>
+
 ## [Mobilerun](https://github.com/droidrun/mobilerun)
 
 A Python framework for LLM agents that control Android and iOS devices with mobile-native UI tools through a CLI, terminal UI, Docker, or Python API.
 
-- **Category:** [AI and Automation](../categories/ai-and-automation.md)
-- **Topics:** [AI Agents](../topics/ai-agents.md) | [Mobile App](../topics/mobile-app.md) | [Mobile Development](../topics/mobile-development.md) | [Computer Use](../topics/computer-use.md) | [Tool Use](../topics/tool-use.md) | [Multi Provider](../topics/multi-provider.md) | [Observability](../topics/observability.md) | [Tracing](../topics/tracing.md) | [CLI](../topics/cli.md)
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-droidrun--mobilerun)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-droidrun--mobilerun) | [Mobile App](../topics/mobile-app.md#repo-droidrun--mobilerun) | [Mobile Development](../topics/mobile-development.md#repo-droidrun--mobilerun) | [Computer Use](../topics/computer-use.md#repo-droidrun--mobilerun) | [Tool Use](../topics/tool-use.md#repo-droidrun--mobilerun) | [Multi Provider](../topics/multi-provider.md#repo-droidrun--mobilerun) | [Observability](../topics/observability.md#repo-droidrun--mobilerun) | [Tracing](../topics/tracing.md#repo-droidrun--mobilerun) | [CLI](../topics/cli.md#repo-droidrun--mobilerun)
 - **Kind:** Framework
 - **Best for:** Automating and testing workflows on locally connected mobile devices; Building mobile agents that need UI-tree, screenshot, gesture, and app-control tools
 - **Languages:** Python
@@ -68,12 +74,14 @@ A Python framework for LLM agents that control Android and iOS devices with mobi
   - Combines accessibility trees and screenshots, with vision and screenshot-only modes
   - Offers direct execution and manager-executor reasoning modes for multi-step tasks
 
+<a id="repo-grafana--docker-otel-lgtm"></a>
+
 ## [docker-otel-lgtm](https://github.com/grafana/docker-otel-lgtm)
 
 A single Docker image that runs an OpenTelemetry backend for local metrics, traces, logs, and profiles by bundling the OpenTelemetry Collector, Prometheus, Tempo, Loki, Pyroscope, and Grafana.
 
-- **Category:** [DevOps and Cloud](../categories/devops-and-cloud.md)
-- **Topics:** [Observability](../topics/observability.md) | [Tracing](../topics/tracing.md) | [Self Hosted](../topics/self-hosted.md) | [Containers](../topics/containers.md) | [DevOps](../topics/devops.md) | [MCP](../topics/mcp.md)
+- **Category:** [DevOps and Cloud](../categories/devops-and-cloud.md#repo-grafana--docker-otel-lgtm)
+- **Topics:** [Observability](../topics/observability.md#repo-grafana--docker-otel-lgtm) | [Tracing](../topics/tracing.md#repo-grafana--docker-otel-lgtm) | [Self Hosted](../topics/self-hosted.md#repo-grafana--docker-otel-lgtm) | [Containers](../topics/containers.md#repo-grafana--docker-otel-lgtm) | [DevOps](../topics/devops.md#repo-grafana--docker-otel-lgtm) | [MCP](../topics/mcp.md#repo-grafana--docker-otel-lgtm)
 - **Kind:** Infrastructure
 - **Best for:** Developers who need a local OpenTelemetry stack for demos, tests, or experimentation; Trying Grafana observability components without configuring each backend separately
 - **Languages:** Shell, Go
@@ -87,12 +95,14 @@ A single Docker image that runs an OpenTelemetry backend for local metrics, trac
   - Accepts OpenTelemetry data at the default OTLP HTTP and gRPC endpoints
   - Offers Grafana dashboards and a web UI for metrics, traces, logs, and profiles
 
+<a id="repo-liaohch3--claude-tap"></a>
+
 ## [claude-tap](https://github.com/liaohch3/claude-tap)
 
 A local proxy and trace viewer for inspecting coding-agent API traffic, including agent context, tool calls, streaming responses, token use, and request differences.
 
-- **Category:** [Developer Tools](../categories/developer-tools.md)
-- **Topics:** [AI Agents](../topics/ai-agents.md) | [Coding Agents](../topics/coding-agents.md) | [LLMs](../topics/llms.md) | [Observability](../topics/observability.md) | [CLI](../topics/cli.md) | [Tracing](../topics/tracing.md) | [Developer Productivity](../topics/developer-productivity.md)
+- **Category:** [Developer Tools](../categories/developer-tools.md#repo-liaohch3--claude-tap)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-liaohch3--claude-tap) | [Coding Agents](../topics/coding-agents.md#repo-liaohch3--claude-tap) | [LLMs](../topics/llms.md#repo-liaohch3--claude-tap) | [Observability](../topics/observability.md#repo-liaohch3--claude-tap) | [CLI](../topics/cli.md#repo-liaohch3--claude-tap) | [Tracing](../topics/tracing.md#repo-liaohch3--claude-tap) | [Developer Productivity](../topics/developer-productivity.md#repo-liaohch3--claude-tap)
 - **Kind:** CLI
 - **Best for:** Developers debugging the prompts, tools, and context sent by coding agents; Reviewing or exporting local traces from supported agent CLIs and the Codex App
 - **Languages:** Python
@@ -106,12 +116,14 @@ A local proxy and trace viewer for inspecting coding-agent API traffic, includin
   - Local capture of prompts, messages, tool schemas, tool calls, and token usage
   - Self-contained HTML trace viewer with search, filtering, and structured request diffs
 
+<a id="repo-tma1-ai--tma1"></a>
+
 ## [TMA1](https://github.com/tma1-ai/tma1)
 
 A local-first observability service for LLM agents that records their activity, presents it in a dashboard, and returns operational context through hooks and MCP.
 
-- **Category:** [DevOps and Cloud](../categories/devops-and-cloud.md)
-- **Topics:** [AI Agents](../topics/ai-agents.md) | [Coding Agents](../topics/coding-agents.md) | [Observability](../topics/observability.md) | [Tracing](../topics/tracing.md) | [MCP](../topics/mcp.md) | [Local First](../topics/local-first.md) | [Self Hosted](../topics/self-hosted.md) | [CLI](../topics/cli.md) | [Developer Productivity](../topics/developer-productivity.md)
+- **Category:** [DevOps and Cloud](../categories/devops-and-cloud.md#repo-tma1-ai--tma1)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-tma1-ai--tma1) | [Coding Agents](../topics/coding-agents.md#repo-tma1-ai--tma1) | [Observability](../topics/observability.md#repo-tma1-ai--tma1) | [Tracing](../topics/tracing.md#repo-tma1-ai--tma1) | [MCP](../topics/mcp.md#repo-tma1-ai--tma1) | [Local First](../topics/local-first.md#repo-tma1-ai--tma1) | [Self Hosted](../topics/self-hosted.md#repo-tma1-ai--tma1) | [CLI](../topics/cli.md#repo-tma1-ai--tma1) | [Developer Productivity](../topics/developer-productivity.md#repo-tma1-ai--tma1)
 - **Kind:** Service
 - **Best for:** Developers running Claude Code or Codex who want local agent-loop visibility; Teams or individuals who want failures and session context fed back to coding agents
 - **Languages:** Go, JavaScript

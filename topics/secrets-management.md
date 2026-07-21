@@ -8,12 +8,14 @@
 
 - [Security and Privacy](../categories/security-and-privacy.md) (1)
 
+<a id="repo-infisical--agent-vault"></a>
+
 ## [Agent Vault](https://github.com/Infisical/agent-vault)
 
 A self-hostable HTTP credential proxy and vault that lets AI agents call external APIs through a MITM proxy, injecting stored credentials without exposing the real values to the agent process.
 
-- **Category:** [Security and Privacy](../categories/security-and-privacy.md)
-- **Topics:** [AI Agents](../topics/ai-agents.md) | [Tool Use](../topics/tool-use.md) | [Security](../topics/security.md) | [Secrets Management](../topics/secrets-management.md) | [Authentication](../topics/authentication.md) | [Self Hosted](../topics/self-hosted.md) | [Containers](../topics/containers.md) | [Observability](../topics/observability.md)
+- **Category:** [Security and Privacy](../categories/security-and-privacy.md#repo-infisical--agent-vault)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-infisical--agent-vault) | [Tool Use](../topics/tool-use.md#repo-infisical--agent-vault) | [Security](../topics/security.md#repo-infisical--agent-vault) | [Secrets Management](../topics/secrets-management.md#repo-infisical--agent-vault) | [Authentication](../topics/authentication.md#repo-infisical--agent-vault) | [Self Hosted](../topics/self-hosted.md#repo-infisical--agent-vault) | [Containers](../topics/containers.md#repo-infisical--agent-vault) | [Observability](../topics/observability.md#repo-infisical--agent-vault)
 - **Kind:** Service
 - **Best for:** Operators giving coding or custom agents controlled access to authenticated APIs; Remote or ephemeral agent environments that need brokered, scoped credentials
 - **Languages:** Go, TypeScript

@@ -10,12 +10,14 @@
 - [Developer Tools](../categories/developer-tools.md) (2)
 - [Platforms and Applications](../categories/platforms-and-applications.md) (1)
 
+<a id="repo-generalaction--emdash"></a>
+
 ## [emdash](https://github.com/generalaction/emdash)
 
 A local-first desktop environment for running AI coding agents in parallel in isolated Git worktrees, then reviewing and integrating their changes.
 
-- **Category:** [AI and Automation](../categories/ai-and-automation.md)
-- **Topics:** [AI Agents](../topics/ai-agents.md) | [Coding Agents](../topics/coding-agents.md) | [Parallel Agents](../topics/parallel-agents.md) | [Agent Development Environments](../topics/agent-development-environments.md) | [Automation](../topics/automation.md) | [Git](../topics/git.md) | [Worktrees](../topics/worktrees.md) | [Desktop App](../topics/desktop-app.md) | [Remote Control](../topics/remote-control.md)
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-generalaction--emdash)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-generalaction--emdash) | [Coding Agents](../topics/coding-agents.md#repo-generalaction--emdash) | [Parallel Agents](../topics/parallel-agents.md#repo-generalaction--emdash) | [Agent Development Environments](../topics/agent-development-environments.md#repo-generalaction--emdash) | [Automation](../topics/automation.md#repo-generalaction--emdash) | [Git](../topics/git.md#repo-generalaction--emdash) | [Worktrees](../topics/worktrees.md#repo-generalaction--emdash) | [Desktop App](../topics/desktop-app.md#repo-generalaction--emdash) | [Remote Control](../topics/remote-control.md#repo-generalaction--emdash)
 - **Kind:** Application
 - **Best for:** Developers managing several coding-agent tasks across local or SSH-connected projects; Teams that want ticket intake, change review, and pull-request workflows in one desktop app
 - **Languages:** TypeScript
@@ -29,12 +31,14 @@ A local-first desktop environment for running AI coding agents in parallel in is
   - Isolate each task in its own Git worktree and branch
   - Send tickets from issue trackers and project-management tools to an agent
 
+<a id="repo-iofficeai--aionui"></a>
+
 ## [AionUi](https://github.com/iOfficeAI/AionUi)
 
 An open-source, cross-platform cowork application that supplies a built-in AI agent and a unified interface for compatible CLI agents, with local workspace access, multi-agent teams, model-provider configuration, MCP tools, remote WebUI access, and scheduled automation.
 
-- **Category:** [AI and Automation](../categories/ai-and-automation.md)
-- **Topics:** [AI Agents](../topics/ai-agents.md) | [Multi Agent](../topics/multi-agent.md) | [MCP](../topics/mcp.md) | [Desktop App](../topics/desktop-app.md) | [Chat UI](../topics/chat-ui.md) | [Web UI](../topics/web-ui.md) | [Remote Control](../topics/remote-control.md) | [Multi Provider](../topics/multi-provider.md) | [Local Models](../topics/local-models.md) | [Self Hosted](../topics/self-hosted.md) | [Automation](../topics/automation.md)
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-iofficeai--aionui)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-iofficeai--aionui) | [Multi Agent](../topics/multi-agent.md#repo-iofficeai--aionui) | [MCP](../topics/mcp.md#repo-iofficeai--aionui) | [Desktop App](../topics/desktop-app.md#repo-iofficeai--aionui) | [Chat UI](../topics/chat-ui.md#repo-iofficeai--aionui) | [Web UI](../topics/web-ui.md#repo-iofficeai--aionui) | [Remote Control](../topics/remote-control.md#repo-iofficeai--aionui) | [Multi Provider](../topics/multi-provider.md#repo-iofficeai--aionui) | [Local Models](../topics/local-models.md#repo-iofficeai--aionui) | [Self Hosted](../topics/self-hosted.md#repo-iofficeai--aionui) | [Automation](../topics/automation.md#repo-iofficeai--aionui)
 - **Kind:** Application
 - **Best for:** Individuals who want a desktop workspace for supervised AI-agent tasks; Teams coordinating supported coding agents on a shared local folder
 - **Languages:** TypeScript
@@ -48,12 +52,14 @@ An open-source, cross-platform cowork application that supplies a built-in AI ag
   - Auto-detection and unified sessions for supported external CLI agents
   - Parallel team mode with leader delegation, task board, and asynchronous mailbox
 
+<a id="repo-ogulcancelik--herdr"></a>
+
 ## [herdr](https://github.com/ogulcancelik/herdr)
 
 A Rust terminal workspace manager and agent multiplexer that keeps real terminal processes running, surfaces agent state, persists sessions, and exposes a socket API for agents to coordinate panes and workspaces.
 
-- **Category:** [Developer Tools](../categories/developer-tools.md)
-- **Topics:** [AI Agents](../topics/ai-agents.md) | [Agent Orchestration](../topics/agent-orchestration.md) | [CLI](../topics/cli.md) | [Terminal](../topics/terminal.md) | [TUI](../topics/tui.md) | [Remote Control](../topics/remote-control.md) | [Developer Productivity](../topics/developer-productivity.md)
+- **Category:** [Developer Tools](../categories/developer-tools.md#repo-ogulcancelik--herdr)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-ogulcancelik--herdr) | [Agent Orchestration](../topics/agent-orchestration.md#repo-ogulcancelik--herdr) | [CLI](../topics/cli.md#repo-ogulcancelik--herdr) | [Terminal](../topics/terminal.md#repo-ogulcancelik--herdr) | [TUI](../topics/tui.md#repo-ogulcancelik--herdr) | [Remote Control](../topics/remote-control.md#repo-ogulcancelik--herdr) | [Developer Productivity](../topics/developer-productivity.md#repo-ogulcancelik--herdr)
 - **Kind:** CLI
 - **Best for:** Developers supervising multiple coding-agent sessions in terminal workspaces; Teams that want detached, persistent agent sessions reachable over SSH
 - **Languages:** Rust
@@ -67,12 +73,14 @@ A Rust terminal workspace manager and agent multiplexer that keeps real terminal
   - Preserves real terminal panes when a client detaches and later reattaches
   - Supports workspaces, tabs, split panes, mouse interaction, and prefix-key navigation
 
+<a id="repo-slopus--happy"></a>
+
 ## [Happy](https://github.com/slopus/happy)
 
 A mobile and web companion for Claude Code and Codex sessions that wraps the local agent CLI, enables remote session control and device handoff, sends notifications, and advertises end-to-end encrypted synchronization.
 
-- **Category:** [Platforms and Applications](../categories/platforms-and-applications.md)
-- **Topics:** [Coding Agents](../topics/coding-agents.md) | [Remote Control](../topics/remote-control.md) | [Mobile App](../topics/mobile-app.md) | [Web UI](../topics/web-ui.md) | [CLI](../topics/cli.md) | [Realtime](../topics/realtime.md) | [Security](../topics/security.md) | [Open Source](../topics/open-source.md)
+- **Category:** [Platforms and Applications](../categories/platforms-and-applications.md#repo-slopus--happy)
+- **Topics:** [Coding Agents](../topics/coding-agents.md#repo-slopus--happy) | [Remote Control](../topics/remote-control.md#repo-slopus--happy) | [Mobile App](../topics/mobile-app.md#repo-slopus--happy) | [Web UI](../topics/web-ui.md#repo-slopus--happy) | [CLI](../topics/cli.md#repo-slopus--happy) | [Realtime](../topics/realtime.md#repo-slopus--happy) | [Security](../topics/security.md#repo-slopus--happy) | [Open Source](../topics/open-source.md#repo-slopus--happy)
 - **Kind:** Monorepo
 - **Best for:** Developers who need to check or control active Claude Code or Codex work away from a computer; Teams or individuals who want a remote-control layer without replacing their existing coding agent
 - **Languages:** TypeScript, Rust
@@ -86,12 +94,14 @@ A mobile and web companion for Claude Code and Codex sessions that wraps the loc
   - A CLI wrapper that starts Claude Code or Codex through Happy
   - Remote agent-control commands for creating, sending to, and monitoring sessions
 
+<a id="repo-tiann--hapi"></a>
+
 ## [HAPI](https://github.com/tiann/hapi)
 
 A local-first application that wraps supported coding-agent CLIs, persists their sessions through a hub, and lets users monitor, message, and approve work remotely from a web PWA or Telegram Mini App without restarting a session.
 
-- **Category:** [Developer Tools](../categories/developer-tools.md)
-- **Topics:** [Coding Agents](../topics/coding-agents.md) | [Terminal](../topics/terminal.md) | [Web UI](../topics/web-ui.md) | [Mobile App](../topics/mobile-app.md) | [Remote Control](../topics/remote-control.md) | [Cross Device](../topics/cross-device.md) | [Local First](../topics/local-first.md) | [Self Hosted](../topics/self-hosted.md) | [MCP](../topics/mcp.md) | [Developer Productivity](../topics/developer-productivity.md)
+- **Category:** [Developer Tools](../categories/developer-tools.md#repo-tiann--hapi)
+- **Topics:** [Coding Agents](../topics/coding-agents.md#repo-tiann--hapi) | [Terminal](../topics/terminal.md#repo-tiann--hapi) | [Web UI](../topics/web-ui.md#repo-tiann--hapi) | [Mobile App](../topics/mobile-app.md#repo-tiann--hapi) | [Remote Control](../topics/remote-control.md#repo-tiann--hapi) | [Cross Device](../topics/cross-device.md#repo-tiann--hapi) | [Local First](../topics/local-first.md#repo-tiann--hapi) | [Self Hosted](../topics/self-hosted.md#repo-tiann--hapi) | [MCP](../topics/mcp.md#repo-tiann--hapi) | [Developer Productivity](../topics/developer-productivity.md#repo-tiann--hapi)
 - **Kind:** Application
 - **Best for:** Developers who need to continue or supervise local coding-agent sessions from another device; Teams or individuals willing to run a local or self-hosted hub for remote session access
 - **Languages:** TypeScript
@@ -105,12 +115,14 @@ A local-first application that wraps supported coding-agent CLIs, persists their
   - Preserves a session while control switches between terminal and remote clients
   - Web PWA supports sessions, chat, permission decisions, file browsing, diffs, and remote spawning
 
+<a id="repo-trycua--cua"></a>
+
 ## [Cua](https://github.com/trycua/cua)
 
 A computer-use monorepo for building and evaluating agents through cross-platform desktop drivers, OS sandboxes, virtual-machine tooling, and benchmarks or reinforcement-learning environments.
 
-- **Category:** [AI and Automation](../categories/ai-and-automation.md)
-- **Topics:** [AI Agents](../topics/ai-agents.md) | [Computer Use](../topics/computer-use.md) | [Sandboxing](../topics/sandboxing.md) | [Remote Control](../topics/remote-control.md) | [Automation](../topics/automation.md) | [CLI](../topics/cli.md) | [MCP](../topics/mcp.md) | [Containers](../topics/containers.md) | [Testing](../topics/testing.md) | [Open Source](../topics/open-source.md)
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-trycua--cua)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-trycua--cua) | [Computer Use](../topics/computer-use.md#repo-trycua--cua) | [Sandboxing](../topics/sandboxing.md#repo-trycua--cua) | [Remote Control](../topics/remote-control.md#repo-trycua--cua) | [Automation](../topics/automation.md#repo-trycua--cua) | [CLI](../topics/cli.md#repo-trycua--cua) | [MCP](../topics/mcp.md#repo-trycua--cua) | [Containers](../topics/containers.md#repo-trycua--cua) | [Testing](../topics/testing.md#repo-trycua--cua) | [Open Source](../topics/open-source.md#repo-trycua--cua)
 - **Kind:** Monorepo
 - **Best for:** Building agents that operate desktop, mobile, container, or VM interfaces; Evaluating or training computer-use agents in reproducible environments
 - **Languages:** Python, Rust, Go, TypeScript

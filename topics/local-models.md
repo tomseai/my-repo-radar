@@ -10,12 +10,14 @@
 - [Developer Tools](../categories/developer-tools.md) (2)
 - [Platforms and Applications](../categories/platforms-and-applications.md) (2)
 
+<a id="repo-arunalabs--mode"></a>
+
 ## [Mode](https://github.com/arunalabs/mode)
 
 A Visual Studio Code extension that provides chat, autonomous coding, contextual file and image input, suggestion application, and experimental autocomplete while connecting directly to configured hosted, local, or VS Code language-model providers.
 
-- **Category:** [AI and Automation](../categories/ai-and-automation.md)
-- **Topics:** [Coding Agents](../topics/coding-agents.md) | [Code Generation](../topics/code-generation.md) | [Multi Provider](../topics/multi-provider.md) | [Local Models](../topics/local-models.md) | [Developer Productivity](../topics/developer-productivity.md)
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-arunalabs--mode)
+- **Topics:** [Coding Agents](../topics/coding-agents.md#repo-arunalabs--mode) | [Code Generation](../topics/code-generation.md#repo-arunalabs--mode) | [Multi Provider](../topics/multi-provider.md#repo-arunalabs--mode) | [Local Models](../topics/local-models.md#repo-arunalabs--mode) | [Developer Productivity](../topics/developer-productivity.md#repo-arunalabs--mode)
 - **Kind:** Plugin
 - **Best for:** VS Code users who want a configurable coding-assistant extension; Developers bringing their own provider API keys or running supported local models
 - **Languages:** TypeScript
@@ -29,12 +31,14 @@ A Visual Studio Code extension that provides chat, autonomous coding, contextual
   - Supports autonomous coding and applies suggested code changes through Auto Merge
   - Configures hosted providers and local models such as Ollama and LM Studio
 
+<a id="repo-coleam00--local-ai-packaged"></a>
+
 ## [local-ai-packaged](https://github.com/coleam00/local-ai-packaged)
 
 A Docker Compose starter template for assembling a self-hosted local-AI and low-code environment around Ollama, n8n, Open WebUI, Supabase, and related data, search, graph, proxy, and observability services.
 
-- **Category:** [AI and Automation](../categories/ai-and-automation.md)
-- **Topics:** [LLMs](../topics/llms.md) | [AI Agents](../topics/ai-agents.md) | [Automation](../topics/automation.md) | [Self Hosted](../topics/self-hosted.md) | [Local Models](../topics/local-models.md) | [Containers](../topics/containers.md) | [Observability](../topics/observability.md)
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-coleam00--local-ai-packaged)
+- **Topics:** [LLMs](../topics/llms.md#repo-coleam00--local-ai-packaged) | [AI Agents](../topics/ai-agents.md#repo-coleam00--local-ai-packaged) | [Automation](../topics/automation.md#repo-coleam00--local-ai-packaged) | [Self Hosted](../topics/self-hosted.md#repo-coleam00--local-ai-packaged) | [Local Models](../topics/local-models.md#repo-coleam00--local-ai-packaged) | [Containers](../topics/containers.md#repo-coleam00--local-ai-packaged) | [Observability](../topics/observability.md#repo-coleam00--local-ai-packaged)
 - **Kind:** Starter Template
 - **Best for:** Developers prototyping self-hosted AI workflows with local models; Teams willing to operate a multi-service stack and configure its secrets
 - **Languages:** Python, YAML
@@ -48,12 +52,14 @@ A Docker Compose starter template for assembling a self-hosted local-AI and low-
   - Includes pre-built n8n RAG-agent workflows and instructions for connecting them to Open WebUI
   - Offers CPU, NVIDIA GPU, and AMD GPU Compose profiles for the Ollama service
 
+<a id="repo-iofficeai--aionui"></a>
+
 ## [AionUi](https://github.com/iOfficeAI/AionUi)
 
 An open-source, cross-platform cowork application that supplies a built-in AI agent and a unified interface for compatible CLI agents, with local workspace access, multi-agent teams, model-provider configuration, MCP tools, remote WebUI access, and scheduled automation.
 
-- **Category:** [AI and Automation](../categories/ai-and-automation.md)
-- **Topics:** [AI Agents](../topics/ai-agents.md) | [Multi Agent](../topics/multi-agent.md) | [MCP](../topics/mcp.md) | [Desktop App](../topics/desktop-app.md) | [Chat UI](../topics/chat-ui.md) | [Web UI](../topics/web-ui.md) | [Remote Control](../topics/remote-control.md) | [Multi Provider](../topics/multi-provider.md) | [Local Models](../topics/local-models.md) | [Self Hosted](../topics/self-hosted.md) | [Automation](../topics/automation.md)
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-iofficeai--aionui)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-iofficeai--aionui) | [Multi Agent](../topics/multi-agent.md#repo-iofficeai--aionui) | [MCP](../topics/mcp.md#repo-iofficeai--aionui) | [Desktop App](../topics/desktop-app.md#repo-iofficeai--aionui) | [Chat UI](../topics/chat-ui.md#repo-iofficeai--aionui) | [Web UI](../topics/web-ui.md#repo-iofficeai--aionui) | [Remote Control](../topics/remote-control.md#repo-iofficeai--aionui) | [Multi Provider](../topics/multi-provider.md#repo-iofficeai--aionui) | [Local Models](../topics/local-models.md#repo-iofficeai--aionui) | [Self Hosted](../topics/self-hosted.md#repo-iofficeai--aionui) | [Automation](../topics/automation.md#repo-iofficeai--aionui)
 - **Kind:** Application
 - **Best for:** Individuals who want a desktop workspace for supervised AI-agent tasks; Teams coordinating supported coding agents on a shared local folder
 - **Languages:** TypeScript
@@ -67,12 +73,14 @@ An open-source, cross-platform cowork application that supplies a built-in AI ag
   - Auto-detection and unified sessions for supported external CLI agents
   - Parallel team mode with leader delegation, task board, and asynchronous mailbox
 
+<a id="repo-khoj-ai--khoj"></a>
+
 ## [Khoj](https://github.com/khoj-ai/khoj)
 
 A self-hostable personal AI application that combines LLM chat, semantic search over personal knowledge, web answers, configurable agents, research automation, and clients for the web, desktop, mobile, Obsidian, and Emacs.
 
-- **Category:** [Platforms and Applications](../categories/platforms-and-applications.md)
-- **Topics:** [AI Agents](../topics/ai-agents.md) | [LLMs](../topics/llms.md) | [Chat UI](../topics/chat-ui.md) | [Search](../topics/search.md) | [Web Search](../topics/web-search.md) | [Document Processing](../topics/document-processing.md) | [Self Hosted](../topics/self-hosted.md) | [Local Models](../topics/local-models.md) | [Desktop App](../topics/desktop-app.md) | [Mobile App](../topics/mobile-app.md)
+- **Category:** [Platforms and Applications](../categories/platforms-and-applications.md#repo-khoj-ai--khoj)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-khoj-ai--khoj) | [LLMs](../topics/llms.md#repo-khoj-ai--khoj) | [Chat UI](../topics/chat-ui.md#repo-khoj-ai--khoj) | [Search](../topics/search.md#repo-khoj-ai--khoj) | [Web Search](../topics/web-search.md#repo-khoj-ai--khoj) | [Document Processing](../topics/document-processing.md#repo-khoj-ai--khoj) | [Self Hosted](../topics/self-hosted.md#repo-khoj-ai--khoj) | [Local Models](../topics/local-models.md#repo-khoj-ai--khoj) | [Desktop App](../topics/desktop-app.md#repo-khoj-ai--khoj) | [Mobile App](../topics/mobile-app.md#repo-khoj-ai--khoj)
 - **Kind:** Application
 - **Best for:** Individuals or teams wanting a private, self-hosted AI assistant for documents and web research; Users who need one personal knowledge interface across local or hosted LLM providers and clients
 - **Languages:** Python, TypeScript
@@ -86,12 +94,14 @@ A self-hostable personal AI application that combines LLM chat, semantic search 
   - Performs semantic search over PDF, Markdown, org-mode, Word, Notion, and other supported sources
   - Lets users create agents with custom knowledge, personas, chat models, and tools
 
+<a id="repo-langroid--langroid"></a>
+
 ## [Langroid](https://github.com/langroid/langroid)
 
 A Python framework for building LLM applications through first-class agents and tasks that exchange messages, delegate sub-tasks, use typed tools and vector stores, and support multi-agent workflows with local or remote language models.
 
-- **Category:** [AI and Automation](../categories/ai-and-automation.md)
-- **Topics:** [AI Agents](../topics/ai-agents.md) | [LLMs](../topics/llms.md) | [Agent Frameworks](../topics/agent-frameworks.md) | [Agent Orchestration](../topics/agent-orchestration.md) | [Multi Agent](../topics/multi-agent.md) | [Agent Memory](../topics/agent-memory.md) | [Tool Use](../topics/tool-use.md) | [MCP](../topics/mcp.md) | [Document Processing](../topics/document-processing.md) | [Local Models](../topics/local-models.md) | [Libraries](../topics/libraries.md) | [Frameworks](../topics/frameworks.md)
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-langroid--langroid)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-langroid--langroid) | [LLMs](../topics/llms.md#repo-langroid--langroid) | [Agent Frameworks](../topics/agent-frameworks.md#repo-langroid--langroid) | [Agent Orchestration](../topics/agent-orchestration.md#repo-langroid--langroid) | [Multi Agent](../topics/multi-agent.md#repo-langroid--langroid) | [Agent Memory](../topics/agent-memory.md#repo-langroid--langroid) | [Tool Use](../topics/tool-use.md#repo-langroid--langroid) | [MCP](../topics/mcp.md#repo-langroid--langroid) | [Document Processing](../topics/document-processing.md#repo-langroid--langroid) | [Local Models](../topics/local-models.md#repo-langroid--langroid) | [Libraries](../topics/libraries.md#repo-langroid--langroid) | [Frameworks](../topics/frameworks.md#repo-langroid--langroid)
 - **Kind:** Framework
 - **Best for:** Python developers who want explicit Agent and Task abstractions for collaborative LLM workflows; Applications combining LLMs with typed tools, document retrieval, vector stores, or MCP servers
 - **Languages:** Python
@@ -105,12 +115,14 @@ A Python framework for building LLM applications through first-class agents and 
   - Message-based multi-agent orchestration inspired by the actor model
   - Pydantic-based typed tools and function calling with validation feedback
 
+<a id="repo-n8n-io--self-hosted-ai-starter-kit"></a>
+
 ## [Self-hosted AI Starter Kit](https://github.com/n8n-io/self-hosted-ai-starter-kit)
 
 Docker Compose template for a self-hosted n8n environment with Ollama, Qdrant, and PostgreSQL for AI and low-code workflows.
 
-- **Category:** [AI and Automation](../categories/ai-and-automation.md)
-- **Topics:** [AI Agents](../topics/ai-agents.md) | [LLMs](../topics/llms.md) | [Self Hosted](../topics/self-hosted.md) | [Local Models](../topics/local-models.md) | [Containers](../topics/containers.md) | [Automation](../topics/automation.md) | [Starter Templates](../topics/starter-templates.md)
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-n8n-io--self-hosted-ai-starter-kit)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-n8n-io--self-hosted-ai-starter-kit) | [LLMs](../topics/llms.md#repo-n8n-io--self-hosted-ai-starter-kit) | [Self Hosted](../topics/self-hosted.md#repo-n8n-io--self-hosted-ai-starter-kit) | [Local Models](../topics/local-models.md#repo-n8n-io--self-hosted-ai-starter-kit) | [Containers](../topics/containers.md#repo-n8n-io--self-hosted-ai-starter-kit) | [Automation](../topics/automation.md#repo-n8n-io--self-hosted-ai-starter-kit) | [Starter Templates](../topics/starter-templates.md#repo-n8n-io--self-hosted-ai-starter-kit)
 - **Kind:** Starter Template
 - **Best for:** Developers prototyping self-hosted n8n AI workflows with local models and vector search.; Teams wanting a working Compose baseline rather than a production-ready platform deployment.
 - **Languages:** YAML
@@ -124,12 +136,14 @@ Docker Compose template for a self-hosted n8n environment with Ollama, Qdrant, a
   - Includes Ollama and an initialization service that pulls the Llama 3.2 model.
   - Includes Qdrant as a persistent vector store exposed on its API port.
 
+<a id="repo-nomic-ai--gpt4all"></a>
+
 ## [GPT4All](https://github.com/nomic-ai/gpt4all)
 
 A desktop application and Python client for downloading and running local large language models on personal computers without hosted API calls.
 
-- **Category:** [AI and Automation](../categories/ai-and-automation.md)
-- **Topics:** [LLMs](../topics/llms.md) | [Local Models](../topics/local-models.md) | [Desktop App](../topics/desktop-app.md) | [Chat UI](../topics/chat-ui.md) | [Self Hosted](../topics/self-hosted.md) | [Local First](../topics/local-first.md)
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-nomic-ai--gpt4all)
+- **Topics:** [LLMs](../topics/llms.md#repo-nomic-ai--gpt4all) | [Local Models](../topics/local-models.md#repo-nomic-ai--gpt4all) | [Desktop App](../topics/desktop-app.md#repo-nomic-ai--gpt4all) | [Chat UI](../topics/chat-ui.md#repo-nomic-ai--gpt4all) | [Self Hosted](../topics/self-hosted.md#repo-nomic-ai--gpt4all) | [Local First](../topics/local-first.md#repo-nomic-ai--gpt4all)
 - **Kind:** Application
 - **Best for:** Private local LLM chat on supported desktop operating systems; Python applications that need to load and generate with local models
 - **Languages:** C++, Python
@@ -143,12 +157,14 @@ A desktop application and Python client for downloading and running local large 
   - Python package for loading a model, starting a chat session, and generating text
   - Local model execution without API calls or a GPU requirement
 
+<a id="repo-open-webui--open-webui"></a>
+
 ## [Open WebUI](https://github.com/open-webui/open-webui)
 
 A self-hosted, offline-capable AI platform and web interface for local Ollama models and OpenAI-compatible APIs, with RAG, plugins and tools, role-based access control, persistent storage, and multiple deployment paths.
 
-- **Category:** [Platforms and Applications](../categories/platforms-and-applications.md)
-- **Topics:** [Chat UI](../topics/chat-ui.md) | [LLMs](../topics/llms.md) | [Self Hosted](../topics/self-hosted.md) | [Local Models](../topics/local-models.md) | [MCP](../topics/mcp.md) | [Document Processing](../topics/document-processing.md) | [Web Search](../topics/web-search.md)
+- **Category:** [Platforms and Applications](../categories/platforms-and-applications.md#repo-open-webui--open-webui)
+- **Topics:** [Chat UI](../topics/chat-ui.md#repo-open-webui--open-webui) | [LLMs](../topics/llms.md#repo-open-webui--open-webui) | [Self Hosted](../topics/self-hosted.md#repo-open-webui--open-webui) | [Local Models](../topics/local-models.md#repo-open-webui--open-webui) | [MCP](../topics/mcp.md#repo-open-webui--open-webui) | [Document Processing](../topics/document-processing.md#repo-open-webui--open-webui) | [Web Search](../topics/web-search.md#repo-open-webui--open-webui)
 - **Kind:** Application
 - **Best for:** Individuals or teams hosting a configurable chat interface for local or API-based models; Administrators who need RAG, access controls, and extensibility in one self-hosted application
 - **Languages:** Python, TypeScript, Svelte
@@ -162,12 +178,14 @@ A self-hosted, offline-capable AI platform and web interface for local Ollama mo
   - Provides RAG with document extraction, vector stores, hybrid search, and reranking
   - Extends chats with filters, actions, pipes, tools, skills, MCP, MCPO, and OpenAPI servers
 
+<a id="repo-samuelfaj--distill"></a>
+
 ## [distill](https://github.com/samuelfaj/distill)
 
 A command-line tool that compresses agent command output into targeted answers for downstream LLMs, using a locally onboarded small language model.
 
-- **Category:** [Developer Tools](../categories/developer-tools.md)
-- **Topics:** [AI Agents](../topics/ai-agents.md) | [Coding Agents](../topics/coding-agents.md) | [CLI](../topics/cli.md) | [LLMs](../topics/llms.md) | [Developer Productivity](../topics/developer-productivity.md) | [Local Models](../topics/local-models.md)
+- **Category:** [Developer Tools](../categories/developer-tools.md#repo-samuelfaj--distill)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-samuelfaj--distill) | [Coding Agents](../topics/coding-agents.md#repo-samuelfaj--distill) | [CLI](../topics/cli.md#repo-samuelfaj--distill) | [LLMs](../topics/llms.md#repo-samuelfaj--distill) | [Developer Productivity](../topics/developer-productivity.md#repo-samuelfaj--distill) | [Local Models](../topics/local-models.md#repo-samuelfaj--distill)
 - **Kind:** CLI
 - **Best for:** Coding-agent workflows that need to reduce log or test-output context; Developers who can allocate memory for its local-model runtime
 - **Languages:** TypeScript
@@ -181,12 +199,14 @@ A command-line tool that compresses agent command output into targeted answers f
   - Onboarding for the bundled local-model workflow
   - A documented 1.7B, 4-bit expert language model
 
+<a id="repo-stackblitz-labs--bolt.diy"></a>
+
 ## [bolt.diy](https://github.com/stackblitz-labs/bolt.diy)
 
 An open-source, self-hostable version of Bolt.new for AI-assisted web development, with selectable cloud and local model providers plus browser, Docker, and Electron desktop deployment paths.
 
-- **Category:** [Developer Tools](../categories/developer-tools.md)
-- **Topics:** [Coding Agents](../topics/coding-agents.md) | [Agent Development Environments](../topics/agent-development-environments.md) | [Code Generation](../topics/code-generation.md) | [Multi Provider](../topics/multi-provider.md) | [Local Models](../topics/local-models.md) | [Self Hosted](../topics/self-hosted.md) | [Desktop App](../topics/desktop-app.md) | [Web UI](../topics/web-ui.md)
+- **Category:** [Developer Tools](../categories/developer-tools.md#repo-stackblitz-labs--bolt.diy)
+- **Topics:** [Coding Agents](../topics/coding-agents.md#repo-stackblitz-labs--bolt.diy) | [Agent Development Environments](../topics/agent-development-environments.md#repo-stackblitz-labs--bolt.diy) | [Code Generation](../topics/code-generation.md#repo-stackblitz-labs--bolt.diy) | [Multi Provider](../topics/multi-provider.md#repo-stackblitz-labs--bolt.diy) | [Local Models](../topics/local-models.md#repo-stackblitz-labs--bolt.diy) | [Self Hosted](../topics/self-hosted.md#repo-stackblitz-labs--bolt.diy) | [Desktop App](../topics/desktop-app.md#repo-stackblitz-labs--bolt.diy) | [Web UI](../topics/web-ui.md#repo-stackblitz-labs--bolt.diy)
 - **Kind:** Application
 - **Best for:** Developers who want a self-hosted AI web-development environment with provider choice; Teams that need to connect local models or OpenAI-compatible endpoints to an agent workspace
 - **Languages:** TypeScript, JavaScript
@@ -200,12 +220,14 @@ An open-source, self-hostable version of Bolt.new for AI-assisted web developmen
   - Provides web, Docker, and Electron desktop deployment options
   - Includes settings for cloud keys, Ollama, LM Studio, and OpenAI-compatible base URLs
 
+<a id="repo-supermemoryai--supermemory"></a>
+
 ## [Supermemory](https://github.com/supermemoryai/supermemory)
 
 An AI memory and context platform repository containing a hosted API, client integrations and MCP support, and a local server for persistent memory, user profiles, hybrid retrieval, connectors, and file processing.
 
-- **Category:** [AI and Automation](../categories/ai-and-automation.md)
-- **Topics:** [AI Agents](../topics/ai-agents.md) | [Agent Memory](../topics/agent-memory.md) | [LLMs](../topics/llms.md) | [MCP](../topics/mcp.md) | [Search](../topics/search.md) | [Self Hosted](../topics/self-hosted.md) | [Local Models](../topics/local-models.md) | [Open Source](../topics/open-source.md)
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-supermemoryai--supermemory)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-supermemoryai--supermemory) | [Agent Memory](../topics/agent-memory.md#repo-supermemoryai--supermemory) | [LLMs](../topics/llms.md#repo-supermemoryai--supermemory) | [MCP](../topics/mcp.md#repo-supermemoryai--supermemory) | [Search](../topics/search.md#repo-supermemoryai--supermemory) | [Self Hosted](../topics/self-hosted.md#repo-supermemoryai--supermemory) | [Local Models](../topics/local-models.md#repo-supermemoryai--supermemory) | [Open Source](../topics/open-source.md#repo-supermemoryai--supermemory)
 - **Kind:** Monorepo
 - **Best for:** AI-product developers adding persistent user context and retrieval to agents or applications; Users who want an MCP-connected memory layer or a local deployment with compatible models
 - **Languages:** TypeScript, Python

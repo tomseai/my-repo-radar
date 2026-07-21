@@ -9,12 +9,14 @@
 - [DevOps and Cloud](../categories/devops-and-cloud.md) (2)
 - [Documentation and Learning](../categories/documentation-and-learning.md) (1)
 
+<a id="repo-grafana--docker-otel-lgtm"></a>
+
 ## [docker-otel-lgtm](https://github.com/grafana/docker-otel-lgtm)
 
 A single Docker image that runs an OpenTelemetry backend for local metrics, traces, logs, and profiles by bundling the OpenTelemetry Collector, Prometheus, Tempo, Loki, Pyroscope, and Grafana.
 
-- **Category:** [DevOps and Cloud](../categories/devops-and-cloud.md)
-- **Topics:** [Observability](../topics/observability.md) | [Tracing](../topics/tracing.md) | [Self Hosted](../topics/self-hosted.md) | [Containers](../topics/containers.md) | [DevOps](../topics/devops.md) | [MCP](../topics/mcp.md)
+- **Category:** [DevOps and Cloud](../categories/devops-and-cloud.md#repo-grafana--docker-otel-lgtm)
+- **Topics:** [Observability](../topics/observability.md#repo-grafana--docker-otel-lgtm) | [Tracing](../topics/tracing.md#repo-grafana--docker-otel-lgtm) | [Self Hosted](../topics/self-hosted.md#repo-grafana--docker-otel-lgtm) | [Containers](../topics/containers.md#repo-grafana--docker-otel-lgtm) | [DevOps](../topics/devops.md#repo-grafana--docker-otel-lgtm) | [MCP](../topics/mcp.md#repo-grafana--docker-otel-lgtm)
 - **Kind:** Infrastructure
 - **Best for:** Developers who need a local OpenTelemetry stack for demos, tests, or experimentation; Trying Grafana observability components without configuring each backend separately
 - **Languages:** Shell, Go
@@ -28,12 +30,14 @@ A single Docker image that runs an OpenTelemetry backend for local metrics, trac
   - Accepts OpenTelemetry data at the default OTLP HTTP and gRPC endpoints
   - Offers Grafana dashboards and a web UI for metrics, traces, logs, and profiles
 
+<a id="repo-kestra-io--kestra"></a>
+
 ## [Kestra](https://github.com/kestra-io/kestra)
 
 An open-source, event-driven orchestration platform for declarative YAML workflows across data, AI, infrastructure, and process automation, with a web UI, APIs, scheduling, event triggers, and a plugin ecosystem.
 
-- **Category:** [DevOps and Cloud](../categories/devops-and-cloud.md)
-- **Topics:** [Automation](../topics/automation.md) | [DevOps](../topics/devops.md) | [Cloud](../topics/cloud.md) | [Self Hosted](../topics/self-hosted.md) | [Deployment](../topics/deployment.md) | [Containers](../topics/containers.md) | [Observability](../topics/observability.md)
+- **Category:** [DevOps and Cloud](../categories/devops-and-cloud.md#repo-kestra-io--kestra)
+- **Topics:** [Automation](../topics/automation.md#repo-kestra-io--kestra) | [DevOps](../topics/devops.md#repo-kestra-io--kestra) | [Cloud](../topics/cloud.md#repo-kestra-io--kestra) | [Self Hosted](../topics/self-hosted.md#repo-kestra-io--kestra) | [Deployment](../topics/deployment.md#repo-kestra-io--kestra) | [Containers](../topics/containers.md#repo-kestra-io--kestra) | [Observability](../topics/observability.md#repo-kestra-io--kestra)
 - **Kind:** Service
 - **Best for:** Teams operating scheduled or event-driven data, infrastructure, or AI workflows; Developers who want workflows defined as code but editable and observable in a UI
 - **Languages:** Java
@@ -47,12 +51,14 @@ An open-source, event-driven orchestration platform for declarative YAML workflo
   - Supports scheduled and event-driven execution, including message-bus and cloud triggers
   - Provides a built-in editor, visual topology view, completion, and real-time validation
 
+<a id="repo-trimstray--the-book-of-secret-knowledge"></a>
+
 ## [The Book of Secret Knowledge](https://github.com/trimstray/the-book-of-secret-knowledge)
 
 A broad technical reference of tools, manuals, cheatsheets, links, and shell examples for operations, development, networking, and security work.
 
-- **Category:** [Documentation and Learning](../categories/documentation-and-learning.md)
-- **Topics:** [CLI](../topics/cli.md) | [Web](../topics/web.md) | [DevOps](../topics/devops.md) | [Containers](../topics/containers.md) | [Security](../topics/security.md) | [Documentation](../topics/documentation.md) | [Curated Lists](../topics/curated-lists.md) | [Reference](../topics/reference.md)
+- **Category:** [Documentation and Learning](../categories/documentation-and-learning.md#repo-trimstray--the-book-of-secret-knowledge)
+- **Topics:** [CLI](../topics/cli.md#repo-trimstray--the-book-of-secret-knowledge) | [Web](../topics/web.md#repo-trimstray--the-book-of-secret-knowledge) | [DevOps](../topics/devops.md#repo-trimstray--the-book-of-secret-knowledge) | [Containers](../topics/containers.md#repo-trimstray--the-book-of-secret-knowledge) | [Security](../topics/security.md#repo-trimstray--the-book-of-secret-knowledge) | [Documentation](../topics/documentation.md#repo-trimstray--the-book-of-secret-knowledge) | [Curated Lists](../topics/curated-lists.md#repo-trimstray--the-book-of-secret-knowledge) | [Reference](../topics/reference.md#repo-trimstray--the-book-of-secret-knowledge)
 - **Kind:** Curated List
 - **Best for:** System, network, and DevOps practitioners seeking a broad reference list; Security researchers and developers looking up tools, resources, or shell patterns
 - **Languages:** Unknown

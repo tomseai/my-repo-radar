@@ -16,12 +16,14 @@
 - [Systems and Infrastructure](../categories/systems-and-infrastructure.md) (2)
 - [Testing and Quality](../categories/testing-and-quality.md) (1)
 
+<a id="repo-adithya-s-k--gitvizz"></a>
+
 ## [GitVizz](https://github.com/adithya-s-k/GitVizz)
 
 A web application for exploring GitHub repositories through dependency graphs, code navigation, LLM-assisted repository chat, and generated documentation.
 
-- **Category:** [Developer Tools](../categories/developer-tools.md)
-- **Topics:** [Git](../topics/git.md) | [Codebase Indexing](../topics/codebase-indexing.md) | [Codebase Search](../topics/codebase-search.md) | [Visualization](../topics/visualization.md) | [LLMs](../topics/llms.md) | [Web UI](../topics/web-ui.md) | [Observability](../topics/observability.md)
+- **Category:** [Developer Tools](../categories/developer-tools.md#repo-adithya-s-k--gitvizz)
+- **Topics:** [Git](../topics/git.md#repo-adithya-s-k--gitvizz) | [Codebase Indexing](../topics/codebase-indexing.md#repo-adithya-s-k--gitvizz) | [Codebase Search](../topics/codebase-search.md#repo-adithya-s-k--gitvizz) | [Visualization](../topics/visualization.md#repo-adithya-s-k--gitvizz) | [LLMs](../topics/llms.md#repo-adithya-s-k--gitvizz) | [Web UI](../topics/web-ui.md#repo-adithya-s-k--gitvizz) | [Observability](../topics/observability.md#repo-adithya-s-k--gitvizz)
 - **Kind:** Application
 - **Best for:** Developers onboarding to, reviewing, or investigating an unfamiliar GitHub codebase; Teams that want visual code relationships and LLM context-building alongside a repository browser
 - **Languages:** TypeScript, Python
@@ -35,12 +37,14 @@ A web application for exploring GitHub repositories through dependency graphs, c
   - Context-aware repository chat backed by configurable LLM providers
   - LLM context builder and automatic documentation generation for repository analysis
 
+<a id="repo-arize-ai--phoenix"></a>
+
 ## [Phoenix](https://github.com/Arize-ai/phoenix)
 
 An AI observability and evaluation platform for tracing, experimenting with, and troubleshooting LLM applications.
 
-- **Category:** [AI and Automation](../categories/ai-and-automation.md)
-- **Topics:** [LLMs](../topics/llms.md) | [Observability](../topics/observability.md) | [Tracing](../topics/tracing.md) | [Evaluation](../topics/evaluation.md) | [Self Hosted](../topics/self-hosted.md) | [Web UI](../topics/web-ui.md)
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-arize-ai--phoenix)
+- **Topics:** [LLMs](../topics/llms.md#repo-arize-ai--phoenix) | [Observability](../topics/observability.md#repo-arize-ai--phoenix) | [Tracing](../topics/tracing.md#repo-arize-ai--phoenix) | [Evaluation](../topics/evaluation.md#repo-arize-ai--phoenix) | [Self Hosted](../topics/self-hosted.md#repo-arize-ai--phoenix) | [Web UI](../topics/web-ui.md#repo-arize-ai--phoenix)
 - **Kind:** Application
 - **Best for:** Teams operating LLM applications that need trace inspection and evaluation workflows; Developers who want local, containerized, or cloud deployment choices
 - **Languages:** Python, TypeScript
@@ -54,12 +58,14 @@ An AI observability and evaluation platform for tracing, experimenting with, and
   - Supports response and retrieval evaluations, versioned datasets, and experiments
   - Provides a playground and prompt management for comparing models and prompt changes
 
+<a id="repo-berriai--litellm"></a>
+
 ## [LiteLLM](https://github.com/BerriAI/litellm)
 
 A Python SDK and deployable AI gateway that presents a unified API for many LLM providers and adds centralized production controls.
 
-- **Category:** [AI and Automation](../categories/ai-and-automation.md)
-- **Topics:** [LLMs](../topics/llms.md) | [LLM Gateways](../topics/llm-gateways.md) | [Multi Provider](../topics/multi-provider.md) | [Model Routing](../topics/model-routing.md) | [Authentication](../topics/authentication.md) | [Observability](../topics/observability.md) | [Self Hosted](../topics/self-hosted.md)
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-berriai--litellm)
+- **Topics:** [LLMs](../topics/llms.md#repo-berriai--litellm) | [LLM Gateways](../topics/llm-gateways.md#repo-berriai--litellm) | [Multi Provider](../topics/multi-provider.md#repo-berriai--litellm) | [Model Routing](../topics/model-routing.md#repo-berriai--litellm) | [Authentication](../topics/authentication.md#repo-berriai--litellm) | [Observability](../topics/observability.md#repo-berriai--litellm) | [Self Hosted](../topics/self-hosted.md#repo-berriai--litellm)
 - **Kind:** Service
 - **Best for:** Applications that need a provider-neutral LLM client interface; Teams centralizing model access, virtual keys, spend controls, and routing
 - **Languages:** Python, Rust, TypeScript
@@ -73,12 +79,14 @@ A Python SDK and deployable AI gateway that presents a unified API for many LLM 
   - Offers a Python SDK as well as a self-hosted proxy or gateway service
   - Provides virtual keys, spend tracking, guardrails, load balancing, logging, and an admin dashboard
 
+<a id="repo-betterdb-inc--monitor"></a>
+
 ## [BetterDB Monitor](https://github.com/BetterDB-inc/monitor)
 
 A self-hosted monitoring application for Valkey and Redis that presents real-time activity, slowlog analysis, audit trails, and database metrics.
 
-- **Category:** [DevOps and Cloud](../categories/devops-and-cloud.md)
-- **Topics:** [Observability](../topics/observability.md) | [Databases](../topics/databases.md) | [Web UI](../topics/web-ui.md) | [CLI](../topics/cli.md) | [Self Hosted](../topics/self-hosted.md)
+- **Category:** [DevOps and Cloud](../categories/devops-and-cloud.md#repo-betterdb-inc--monitor)
+- **Topics:** [Observability](../topics/observability.md#repo-betterdb-inc--monitor) | [Databases](../topics/databases.md#repo-betterdb-inc--monitor) | [Web UI](../topics/web-ui.md#repo-betterdb-inc--monitor) | [CLI](../topics/cli.md#repo-betterdb-inc--monitor) | [Self Hosted](../topics/self-hosted.md#repo-betterdb-inc--monitor)
 - **Kind:** Application
 - **Best for:** Operators who need a web interface for a Valkey or Redis instance; Teams that want either an interactive CLI setup or a Docker deployment
 - **Languages:** TypeScript, Python
@@ -92,12 +100,14 @@ A self-hosted monitoring application for Valkey and Redis that presents real-tim
   - Provides a NestJS/Fastify backend and React/Vite frontend
   - Ships an npx-installable CLI with an interactive connection and storage setup wizard
 
+<a id="repo-ccusage--ccusage"></a>
+
 ## [ccusage](https://github.com/ccusage/ccusage)
 
 A local CLI that reads supported coding-agent usage logs and reports token counts, estimated costs, models, and sessions across multiple agents.
 
-- **Category:** [Developer Tools](../categories/developer-tools.md)
-- **Topics:** [CLI](../topics/cli.md) | [Coding Agents](../topics/coding-agents.md) | [Token Usage](../topics/token-usage.md) | [Cost Management](../topics/cost-management.md) | [Local First](../topics/local-first.md) | [Observability](../topics/observability.md)
+- **Category:** [Developer Tools](../categories/developer-tools.md#repo-ccusage--ccusage)
+- **Topics:** [CLI](../topics/cli.md#repo-ccusage--ccusage) | [Coding Agents](../topics/coding-agents.md#repo-ccusage--ccusage) | [Token Usage](../topics/token-usage.md#repo-ccusage--ccusage) | [Cost Management](../topics/cost-management.md#repo-ccusage--ccusage) | [Local First](../topics/local-first.md#repo-ccusage--ccusage) | [Observability](../topics/observability.md#repo-ccusage--ccusage)
 - **Kind:** CLI
 - **Best for:** Developers comparing local usage across supported coding-agent CLIs; Exporting token and estimated-cost reports for personal analysis or automation
 - **Languages:** Rust, TypeScript
@@ -111,12 +121,14 @@ A local CLI that reads supported coding-agent usage logs and reports token count
   - Source-specific daily, weekly, monthly, and session reports
   - Token, cache-token, model, and estimated USD-cost reporting
 
+<a id="repo-coleam00--local-ai-packaged"></a>
+
 ## [local-ai-packaged](https://github.com/coleam00/local-ai-packaged)
 
 A Docker Compose starter template for assembling a self-hosted local-AI and low-code environment around Ollama, n8n, Open WebUI, Supabase, and related data, search, graph, proxy, and observability services.
 
-- **Category:** [AI and Automation](../categories/ai-and-automation.md)
-- **Topics:** [LLMs](../topics/llms.md) | [AI Agents](../topics/ai-agents.md) | [Automation](../topics/automation.md) | [Self Hosted](../topics/self-hosted.md) | [Local Models](../topics/local-models.md) | [Containers](../topics/containers.md) | [Observability](../topics/observability.md)
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-coleam00--local-ai-packaged)
+- **Topics:** [LLMs](../topics/llms.md#repo-coleam00--local-ai-packaged) | [AI Agents](../topics/ai-agents.md#repo-coleam00--local-ai-packaged) | [Automation](../topics/automation.md#repo-coleam00--local-ai-packaged) | [Self Hosted](../topics/self-hosted.md#repo-coleam00--local-ai-packaged) | [Local Models](../topics/local-models.md#repo-coleam00--local-ai-packaged) | [Containers](../topics/containers.md#repo-coleam00--local-ai-packaged) | [Observability](../topics/observability.md#repo-coleam00--local-ai-packaged)
 - **Kind:** Starter Template
 - **Best for:** Developers prototyping self-hosted AI workflows with local models; Teams willing to operate a multi-service stack and configure its secrets
 - **Languages:** Python, YAML
@@ -130,12 +142,14 @@ A Docker Compose starter template for assembling a self-hosted local-AI and low-
   - Includes pre-built n8n RAG-agent workflows and instructions for connecting them to Open WebUI
   - Offers CPU, NVIDIA GPU, and AMD GPU Compose profiles for the Ollama service
 
+<a id="repo-comet-ml--opik"></a>
+
 ## [opik](https://github.com/comet-ml/opik)
 
 An open-source platform for tracing, evaluating, testing, monitoring, and optimizing LLM applications and AI agents across development and production.
 
-- **Category:** [Testing and Quality](../categories/testing-and-quality.md)
-- **Topics:** [AI Agents](../topics/ai-agents.md) | [LLMs](../topics/llms.md) | [Observability](../topics/observability.md) | [Tracing](../topics/tracing.md) | [Evaluation](../topics/evaluation.md) | [Token Usage](../topics/token-usage.md) | [Self Hosted](../topics/self-hosted.md) | [Open Source](../topics/open-source.md)
+- **Category:** [Testing and Quality](../categories/testing-and-quality.md#repo-comet-ml--opik)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-comet-ml--opik) | [LLMs](../topics/llms.md#repo-comet-ml--opik) | [Observability](../topics/observability.md#repo-comet-ml--opik) | [Tracing](../topics/tracing.md#repo-comet-ml--opik) | [Evaluation](../topics/evaluation.md#repo-comet-ml--opik) | [Token Usage](../topics/token-usage.md#repo-comet-ml--opik) | [Self Hosted](../topics/self-hosted.md#repo-comet-ml--opik) | [Open Source](../topics/open-source.md#repo-comet-ml--opik)
 - **Kind:** Service
 - **Best for:** ML and engineering teams operating LLM applications or agentic workflows; Self-hosted teams that need trace-level observability and evaluation
 - **Languages:** Python, TypeScript, Java
@@ -149,12 +163,14 @@ An open-source platform for tracing, evaluating, testing, monitoring, and optimi
   - Build datasets and experiments with LLM-as-a-judge metrics
   - Annotate traces and spans with feedback scores through the SDK or web UI
 
+<a id="repo-dicklesworthstone--asupersync"></a>
+
 ## [Asupersync](https://github.com/Dicklesworthstone/asupersync)
 
 An experimental Rust async runtime that uses region-owned tasks, explicit cancellation protocols, capability-gated effects, and deterministic replay testing.
 
-- **Category:** [Systems and Infrastructure](../categories/systems-and-infrastructure.md)
-- **Topics:** [Libraries](../topics/libraries.md) | [Testing](../topics/testing.md) | [Observability](../topics/observability.md) | [Security](../topics/security.md)
+- **Category:** [Systems and Infrastructure](../categories/systems-and-infrastructure.md#repo-dicklesworthstone--asupersync)
+- **Topics:** [Libraries](../topics/libraries.md#repo-dicklesworthstone--asupersync) | [Testing](../topics/testing.md#repo-dicklesworthstone--asupersync) | [Observability](../topics/observability.md#repo-dicklesworthstone--asupersync) | [Security](../topics/security.md#repo-dicklesworthstone--asupersync)
 - **Kind:** Framework
 - **Best for:** Experimental Rust systems that can validate selected adapters and cancellation boundaries; Teams investigating structured shutdown and reproducible concurrency failures
 - **Languages:** Rust, JavaScript, TypeScript
@@ -168,12 +184,14 @@ An experimental Rust async runtime that uses region-owned tasks, explicit cancel
   - Request, drain, and finalize cancellation protocol for covered primitives
   - Capability-gated runtime effects and obligation tracking
 
+<a id="repo-droidrun--mobilerun"></a>
+
 ## [Mobilerun](https://github.com/droidrun/mobilerun)
 
 A Python framework for LLM agents that control Android and iOS devices with mobile-native UI tools through a CLI, terminal UI, Docker, or Python API.
 
-- **Category:** [AI and Automation](../categories/ai-and-automation.md)
-- **Topics:** [AI Agents](../topics/ai-agents.md) | [Mobile App](../topics/mobile-app.md) | [Mobile Development](../topics/mobile-development.md) | [Computer Use](../topics/computer-use.md) | [Tool Use](../topics/tool-use.md) | [Multi Provider](../topics/multi-provider.md) | [Observability](../topics/observability.md) | [Tracing](../topics/tracing.md) | [CLI](../topics/cli.md)
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-droidrun--mobilerun)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-droidrun--mobilerun) | [Mobile App](../topics/mobile-app.md#repo-droidrun--mobilerun) | [Mobile Development](../topics/mobile-development.md#repo-droidrun--mobilerun) | [Computer Use](../topics/computer-use.md#repo-droidrun--mobilerun) | [Tool Use](../topics/tool-use.md#repo-droidrun--mobilerun) | [Multi Provider](../topics/multi-provider.md#repo-droidrun--mobilerun) | [Observability](../topics/observability.md#repo-droidrun--mobilerun) | [Tracing](../topics/tracing.md#repo-droidrun--mobilerun) | [CLI](../topics/cli.md#repo-droidrun--mobilerun)
 - **Kind:** Framework
 - **Best for:** Automating and testing workflows on locally connected mobile devices; Building mobile agents that need UI-tree, screenshot, gesture, and app-control tools
 - **Languages:** Python
@@ -187,12 +205,14 @@ A Python framework for LLM agents that control Android and iOS devices with mobi
   - Combines accessibility trees and screenshots, with vision and screenshot-only modes
   - Offers direct execution and manager-executor reasoning modes for multi-step tasks
 
+<a id="repo-effect-ts--effect"></a>
+
 ## [Effect](https://github.com/Effect-TS/effect)
 
 A TypeScript library and package monorepo for building type-safe, production-grade applications, centered on the Effect package and companion packages for platform, testing, observability, SQL, AI, and UI integrations.
 
-- **Category:** [Application Frameworks](../categories/application-frameworks.md)
-- **Topics:** [Frameworks](../topics/frameworks.md) | [Libraries](../topics/libraries.md) | [Testing](../topics/testing.md) | [Observability](../topics/observability.md)
+- **Category:** [Application Frameworks](../categories/application-frameworks.md#repo-effect-ts--effect)
+- **Topics:** [Frameworks](../topics/frameworks.md#repo-effect-ts--effect) | [Libraries](../topics/libraries.md#repo-effect-ts--effect) | [Testing](../topics/testing.md#repo-effect-ts--effect) | [Observability](../topics/observability.md#repo-effect-ts--effect)
 - **Kind:** Library
 - **Best for:** TypeScript applications that need a shared foundation for typed application concerns; Teams adopting the Effect package ecosystem across Node.js, Bun, or browser targets
 - **Languages:** TypeScript
@@ -206,12 +226,14 @@ A TypeScript library and package monorepo for building type-safe, production-gra
   - A dedicated testing module is exported from the primary package
   - Unstable primary-package exports cover AI, CLI, cluster, HTTP, observability, persistence, RPC, schema, SQL, workflow, and workers
 
+<a id="repo-evilmartians--agent-prism"></a>
+
 ## [AgentPrism](https://github.com/evilmartians/agent-prism)
 
 An alpha React component library for exploring AI-agent traces as hierarchical timelines, using adapters that normalize OpenTelemetry and Langfuse data.
 
-- **Category:** [Frontend and Design](../categories/frontend-and-design.md)
-- **Topics:** [AI Agents](../topics/ai-agents.md) | [Observability](../topics/observability.md) | [UI Components](../topics/ui-components.md) | [Libraries](../topics/libraries.md) | [LLMs](../topics/llms.md)
+- **Category:** [Frontend and Design](../categories/frontend-and-design.md#repo-evilmartians--agent-prism)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-evilmartians--agent-prism) | [Observability](../topics/observability.md#repo-evilmartians--agent-prism) | [UI Components](../topics/ui-components.md#repo-evilmartians--agent-prism) | [Libraries](../topics/libraries.md#repo-evilmartians--agent-prism) | [LLMs](../topics/llms.md#repo-evilmartians--agent-prism)
 - **Kind:** Library
 - **Best for:** React teams building custom trace viewers for AI-agent debugging; Developers who need to inspect LLM calls, tool executions, and workflow spans
 - **Languages:** TypeScript
@@ -225,12 +247,14 @@ An alpha React component library for exploring AI-agent traces as hierarchical t
   - Provides composable TraceList, TreeView, and DetailsView components for custom layouts
   - Normalizes OpenTelemetry and Langfuse data through adapters and shared trace types
 
+<a id="repo-gastownhall--gastown"></a>
+
 ## [Gas Town](https://github.com/gastownhall/gastown)
 
 A multi-agent workspace manager that uses git worktree-backed state and Beads to coordinate persistent coding-agent tasks, handoffs, monitoring, and merge workflows.
 
-- **Category:** [AI and Automation](../categories/ai-and-automation.md)
-- **Topics:** [Coding Agents](../topics/coding-agents.md) | [Agent Orchestration](../topics/agent-orchestration.md) | [Multi Agent](../topics/multi-agent.md) | [Agent Memory](../topics/agent-memory.md) | [Task Planning](../topics/task-planning.md) | [Worktrees](../topics/worktrees.md) | [CLI](../topics/cli.md) | [TUI](../topics/tui.md) | [Observability](../topics/observability.md)
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-gastownhall--gastown)
+- **Topics:** [Coding Agents](../topics/coding-agents.md#repo-gastownhall--gastown) | [Agent Orchestration](../topics/agent-orchestration.md#repo-gastownhall--gastown) | [Multi Agent](../topics/multi-agent.md#repo-gastownhall--gastown) | [Agent Memory](../topics/agent-memory.md#repo-gastownhall--gastown) | [Task Planning](../topics/task-planning.md#repo-gastownhall--gastown) | [Worktrees](../topics/worktrees.md#repo-gastownhall--gastown) | [CLI](../topics/cli.md#repo-gastownhall--gastown) | [TUI](../topics/tui.md#repo-gastownhall--gastown) | [Observability](../topics/observability.md#repo-gastownhall--gastown)
 - **Kind:** CLI
 - **Best for:** Teams running several coding agents across one or more repositories; Long-running, multi-issue implementation work that needs durable coordination and recovery
 - **Languages:** Go
@@ -244,12 +268,14 @@ A multi-agent workspace manager that uses git worktree-backed state and Beads to
   - Convoys that bundle Beads tasks for agent assignment, tracking, and stall handling
   - Git worktree-backed hooks that preserve work state across agent restarts
 
+<a id="repo-getagentseal--codeburn"></a>
+
 ## [CodeBurn](https://github.com/getagentseal/codeburn)
 
 A local-first CLI and set of dashboards that reads AI coding-tool session data from disk to report token use and estimated cost by task, model, tool, and project.
 
-- **Category:** [Developer Tools](../categories/developer-tools.md)
-- **Topics:** [Coding Agents](../topics/coding-agents.md) | [CLI](../topics/cli.md) | [TUI](../topics/tui.md) | [Web UI](../topics/web-ui.md) | [Desktop App](../topics/desktop-app.md) | [Local First](../topics/local-first.md) | [Observability](../topics/observability.md) | [Token Usage](../topics/token-usage.md) | [Cost Management](../topics/cost-management.md) | [MCP](../topics/mcp.md)
+- **Category:** [Developer Tools](../categories/developer-tools.md#repo-getagentseal--codeburn)
+- **Topics:** [Coding Agents](../topics/coding-agents.md#repo-getagentseal--codeburn) | [CLI](../topics/cli.md#repo-getagentseal--codeburn) | [TUI](../topics/tui.md#repo-getagentseal--codeburn) | [Web UI](../topics/web-ui.md#repo-getagentseal--codeburn) | [Desktop App](../topics/desktop-app.md#repo-getagentseal--codeburn) | [Local First](../topics/local-first.md#repo-getagentseal--codeburn) | [Observability](../topics/observability.md#repo-getagentseal--codeburn) | [Token Usage](../topics/token-usage.md#repo-getagentseal--codeburn) | [Cost Management](../topics/cost-management.md#repo-getagentseal--codeburn) | [MCP](../topics/mcp.md#repo-getagentseal--codeburn)
 - **Kind:** CLI
 - **Best for:** Developers comparing AI coding-agent spend across local tools and models; Teams seeking local reports and budget-analysis tools without a request proxy
 - **Languages:** TypeScript, Swift
@@ -263,12 +289,14 @@ A local-first CLI and set of dashboards that reads AI coding-tool session data f
   - Provides an interactive terminal dashboard, reports, JSON output, and a localhost web dashboard
   - Breaks down usage by task, model, tool, project, date range, and token category
 
+<a id="repo-getbindu--bindu"></a>
+
 ## [Bindu](https://github.com/GetBindu/Bindu)
 
 A framework and multi-language SDK set for exposing AI agents through A2A messaging with DID identity, mTLS and OAuth2 authorization, x402 payments, deployment, and operational components.
 
-- **Category:** [AI and Automation](../categories/ai-and-automation.md)
-- **Topics:** [AI Agents](../topics/ai-agents.md) | [Agent Protocols](../topics/agent-protocols.md) | [Agent Orchestration](../topics/agent-orchestration.md) | [Authentication](../topics/authentication.md) | [Payments](../topics/payments.md) | [Security](../topics/security.md) | [Deployment](../topics/deployment.md) | [Observability](../topics/observability.md) | [API Development](../topics/api-development.md) | [Libraries](../topics/libraries.md)
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-getbindu--bindu)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-getbindu--bindu) | [Agent Protocols](../topics/agent-protocols.md#repo-getbindu--bindu) | [Agent Orchestration](../topics/agent-orchestration.md#repo-getbindu--bindu) | [Authentication](../topics/authentication.md#repo-getbindu--bindu) | [Payments](../topics/payments.md#repo-getbindu--bindu) | [Security](../topics/security.md#repo-getbindu--bindu) | [Deployment](../topics/deployment.md#repo-getbindu--bindu) | [Observability](../topics/observability.md#repo-getbindu--bindu) | [API Development](../topics/api-development.md#repo-getbindu--bindu) | [Libraries](../topics/libraries.md#repo-getbindu--bindu)
 - **Kind:** Framework
 - **Best for:** Teams building authenticated and monetized agent-to-agent services; Developers who need Python, TypeScript, or Kotlin access to a shared gRPC core
 - **Languages:** Python, TypeScript, Kotlin
@@ -282,12 +310,14 @@ A framework and multi-language SDK set for exposing AI agents through A2A messag
   - DID signing, mTLS transport, and OAuth2 authorization through Hydra
   - x402 USDC payment middleware with configured EVM networks
 
+<a id="repo-grafana--docker-otel-lgtm"></a>
+
 ## [docker-otel-lgtm](https://github.com/grafana/docker-otel-lgtm)
 
 A single Docker image that runs an OpenTelemetry backend for local metrics, traces, logs, and profiles by bundling the OpenTelemetry Collector, Prometheus, Tempo, Loki, Pyroscope, and Grafana.
 
-- **Category:** [DevOps and Cloud](../categories/devops-and-cloud.md)
-- **Topics:** [Observability](../topics/observability.md) | [Tracing](../topics/tracing.md) | [Self Hosted](../topics/self-hosted.md) | [Containers](../topics/containers.md) | [DevOps](../topics/devops.md) | [MCP](../topics/mcp.md)
+- **Category:** [DevOps and Cloud](../categories/devops-and-cloud.md#repo-grafana--docker-otel-lgtm)
+- **Topics:** [Observability](../topics/observability.md#repo-grafana--docker-otel-lgtm) | [Tracing](../topics/tracing.md#repo-grafana--docker-otel-lgtm) | [Self Hosted](../topics/self-hosted.md#repo-grafana--docker-otel-lgtm) | [Containers](../topics/containers.md#repo-grafana--docker-otel-lgtm) | [DevOps](../topics/devops.md#repo-grafana--docker-otel-lgtm) | [MCP](../topics/mcp.md#repo-grafana--docker-otel-lgtm)
 - **Kind:** Infrastructure
 - **Best for:** Developers who need a local OpenTelemetry stack for demos, tests, or experimentation; Trying Grafana observability components without configuring each backend separately
 - **Languages:** Shell, Go
@@ -301,12 +331,14 @@ A single Docker image that runs an OpenTelemetry backend for local metrics, trac
   - Accepts OpenTelemetry data at the default OTLP HTTP and gRPC endpoints
   - Offers Grafana dashboards and a web UI for metrics, traces, logs, and profiles
 
+<a id="repo-infisical--agent-vault"></a>
+
 ## [Agent Vault](https://github.com/Infisical/agent-vault)
 
 A self-hostable HTTP credential proxy and vault that lets AI agents call external APIs through a MITM proxy, injecting stored credentials without exposing the real values to the agent process.
 
-- **Category:** [Security and Privacy](../categories/security-and-privacy.md)
-- **Topics:** [AI Agents](../topics/ai-agents.md) | [Tool Use](../topics/tool-use.md) | [Security](../topics/security.md) | [Secrets Management](../topics/secrets-management.md) | [Authentication](../topics/authentication.md) | [Self Hosted](../topics/self-hosted.md) | [Containers](../topics/containers.md) | [Observability](../topics/observability.md)
+- **Category:** [Security and Privacy](../categories/security-and-privacy.md#repo-infisical--agent-vault)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-infisical--agent-vault) | [Tool Use](../topics/tool-use.md#repo-infisical--agent-vault) | [Security](../topics/security.md#repo-infisical--agent-vault) | [Secrets Management](../topics/secrets-management.md#repo-infisical--agent-vault) | [Authentication](../topics/authentication.md#repo-infisical--agent-vault) | [Self Hosted](../topics/self-hosted.md#repo-infisical--agent-vault) | [Containers](../topics/containers.md#repo-infisical--agent-vault) | [Observability](../topics/observability.md#repo-infisical--agent-vault)
 - **Kind:** Service
 - **Best for:** Operators giving coding or custom agents controlled access to authenticated APIs; Remote or ephemeral agent environments that need brokered, scoped credentials
 - **Languages:** Go, TypeScript
@@ -320,12 +352,14 @@ A self-hostable HTTP credential proxy and vault that lets AI agents call externa
   - Applies service and endpoint access rules, including an optional strict deny policy
   - Logs authenticated requests for agent monitoring and diagnosis
 
+<a id="repo-kestra-io--kestra"></a>
+
 ## [Kestra](https://github.com/kestra-io/kestra)
 
 An open-source, event-driven orchestration platform for declarative YAML workflows across data, AI, infrastructure, and process automation, with a web UI, APIs, scheduling, event triggers, and a plugin ecosystem.
 
-- **Category:** [DevOps and Cloud](../categories/devops-and-cloud.md)
-- **Topics:** [Automation](../topics/automation.md) | [DevOps](../topics/devops.md) | [Cloud](../topics/cloud.md) | [Self Hosted](../topics/self-hosted.md) | [Deployment](../topics/deployment.md) | [Containers](../topics/containers.md) | [Observability](../topics/observability.md)
+- **Category:** [DevOps and Cloud](../categories/devops-and-cloud.md#repo-kestra-io--kestra)
+- **Topics:** [Automation](../topics/automation.md#repo-kestra-io--kestra) | [DevOps](../topics/devops.md#repo-kestra-io--kestra) | [Cloud](../topics/cloud.md#repo-kestra-io--kestra) | [Self Hosted](../topics/self-hosted.md#repo-kestra-io--kestra) | [Deployment](../topics/deployment.md#repo-kestra-io--kestra) | [Containers](../topics/containers.md#repo-kestra-io--kestra) | [Observability](../topics/observability.md#repo-kestra-io--kestra)
 - **Kind:** Service
 - **Best for:** Teams operating scheduled or event-driven data, infrastructure, or AI workflows; Developers who want workflows defined as code but editable and observable in a UI
 - **Languages:** Java
@@ -339,12 +373,14 @@ An open-source, event-driven orchestration platform for declarative YAML workflo
   - Supports scheduled and event-driven execution, including message-bus and cloud triggers
   - Provides a built-in editor, visual topology view, completion, and real-time validation
 
+<a id="repo-langfuse--langfuse"></a>
+
 ## [Langfuse](https://github.com/langfuse/langfuse)
 
 An LLM engineering platform for tracing, prompt management, evaluation, datasets, and debugging AI applications.
 
-- **Category:** [AI and Automation](../categories/ai-and-automation.md)
-- **Topics:** [LLMs](../topics/llms.md) | [Observability](../topics/observability.md) | [Self Hosted](../topics/self-hosted.md)
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-langfuse--langfuse)
+- **Topics:** [LLMs](../topics/llms.md#repo-langfuse--langfuse) | [Observability](../topics/observability.md#repo-langfuse--langfuse) | [Self Hosted](../topics/self-hosted.md#repo-langfuse--langfuse)
 - **Kind:** Application
 - **Best for:** Teams developing and operating LLM applications that need observability and evaluation; Organizations choosing between managed Cloud and self-hosted LLMOps infrastructure
 - **Languages:** TypeScript
@@ -358,12 +394,14 @@ An LLM engineering platform for tracing, prompt management, evaluation, datasets
   - Version, collaboratively manage, and cache prompts
   - Run LLM-as-a-judge, code, feedback, manual-labeling, and custom evaluations
 
+<a id="repo-liaohch3--claude-tap"></a>
+
 ## [claude-tap](https://github.com/liaohch3/claude-tap)
 
 A local proxy and trace viewer for inspecting coding-agent API traffic, including agent context, tool calls, streaming responses, token use, and request differences.
 
-- **Category:** [Developer Tools](../categories/developer-tools.md)
-- **Topics:** [AI Agents](../topics/ai-agents.md) | [Coding Agents](../topics/coding-agents.md) | [LLMs](../topics/llms.md) | [Observability](../topics/observability.md) | [CLI](../topics/cli.md) | [Tracing](../topics/tracing.md) | [Developer Productivity](../topics/developer-productivity.md)
+- **Category:** [Developer Tools](../categories/developer-tools.md#repo-liaohch3--claude-tap)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-liaohch3--claude-tap) | [Coding Agents](../topics/coding-agents.md#repo-liaohch3--claude-tap) | [LLMs](../topics/llms.md#repo-liaohch3--claude-tap) | [Observability](../topics/observability.md#repo-liaohch3--claude-tap) | [CLI](../topics/cli.md#repo-liaohch3--claude-tap) | [Tracing](../topics/tracing.md#repo-liaohch3--claude-tap) | [Developer Productivity](../topics/developer-productivity.md#repo-liaohch3--claude-tap)
 - **Kind:** CLI
 - **Best for:** Developers debugging the prompts, tools, and context sent by coding agents; Reviewing or exporting local traces from supported agent CLIs and the Codex App
 - **Languages:** Python
@@ -377,12 +415,14 @@ A local proxy and trace viewer for inspecting coding-agent API traffic, includin
   - Local capture of prompts, messages, tool schemas, tool calls, and token usage
   - Self-contained HTML trace viewer with search, filtering, and structured request diffs
 
+<a id="repo-lmnr-ai--lmnr"></a>
+
 ## [Laminar](https://github.com/lmnr-ai/lmnr)
 
 An open-source observability platform for AI agents that combines OpenTelemetry-native tracing, evaluations, alerting signals, datasets, dashboards, and real-time trace investigation.
 
-- **Category:** [AI and Automation](../categories/ai-and-automation.md)
-- **Topics:** [AI Agents](../topics/ai-agents.md) | [LLMs](../topics/llms.md) | [Observability](../topics/observability.md) | [Evaluation](../topics/evaluation.md) | [Self Hosted](../topics/self-hosted.md)
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-lmnr-ai--lmnr)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-lmnr-ai--lmnr) | [LLMs](../topics/llms.md#repo-lmnr-ai--lmnr) | [Observability](../topics/observability.md#repo-lmnr-ai--lmnr) | [Evaluation](../topics/evaluation.md#repo-lmnr-ai--lmnr) | [Self Hosted](../topics/self-hosted.md#repo-lmnr-ai--lmnr)
 - **Kind:** Application
 - **Best for:** Teams instrumenting, evaluating, and debugging AI-agent applications; Organizations that need a managed option or a self-hosted observability stack
 - **Languages:** TypeScript, Python, Rust
@@ -396,12 +436,14 @@ An open-source observability platform for AI agents that combines OpenTelemetry-
   - Defines plain-language signals to detect agent behavior and notify Slack
   - Runs extensible evaluations locally or in CI/CD and compares results in the UI
 
+<a id="repo-marmutapp--superbased-observer"></a>
+
 ## [SuperBased Observer](https://github.com/marmutapp/superbased-observer)
 
 A local-first observability tool for AI coding activity that captures usage, provider-returned token counts, and costs through a CLI, dashboard, MCP server, and optional API proxy.
 
-- **Category:** [Developer Tools](../categories/developer-tools.md)
-- **Topics:** [AI Agents](../topics/ai-agents.md) | [Coding Agents](../topics/coding-agents.md) | [LLMs](../topics/llms.md) | [Observability](../topics/observability.md) | [Token Usage](../topics/token-usage.md) | [Cost Management](../topics/cost-management.md) | [Local First](../topics/local-first.md) | [MCP](../topics/mcp.md) | [CLI](../topics/cli.md) | [Web UI](../topics/web-ui.md) | [Developer Productivity](../topics/developer-productivity.md)
+- **Category:** [Developer Tools](../categories/developer-tools.md#repo-marmutapp--superbased-observer)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-marmutapp--superbased-observer) | [Coding Agents](../topics/coding-agents.md#repo-marmutapp--superbased-observer) | [LLMs](../topics/llms.md#repo-marmutapp--superbased-observer) | [Observability](../topics/observability.md#repo-marmutapp--superbased-observer) | [Token Usage](../topics/token-usage.md#repo-marmutapp--superbased-observer) | [Cost Management](../topics/cost-management.md#repo-marmutapp--superbased-observer) | [Local First](../topics/local-first.md#repo-marmutapp--superbased-observer) | [MCP](../topics/mcp.md#repo-marmutapp--superbased-observer) | [CLI](../topics/cli.md#repo-marmutapp--superbased-observer) | [Web UI](../topics/web-ui.md#repo-marmutapp--superbased-observer) | [Developer Productivity](../topics/developer-productivity.md#repo-marmutapp--superbased-observer)
 - **Kind:** Application
 - **Best for:** Developers comparing cost and token use across AI coding tools; Teams that need local inspection of coding-agent sessions before opting into sharing
 - **Languages:** Go, TypeScript
@@ -415,12 +457,14 @@ A local-first observability tool for AI coding activity that captures usage, pro
   - Optional reverse proxy for provider-returned token counts and compression
   - MCP server exposing local cross-tool usage intelligence
 
+<a id="repo-mastra-ai--mastra"></a>
+
 ## [Mastra](https://github.com/mastra-ai/mastra)
 
 A TypeScript framework for building AI-powered applications and agents, with model routing, agents, graph-based workflows, context and memory, MCP servers, evaluations, and observability.
 
-- **Category:** [AI and Automation](../categories/ai-and-automation.md)
-- **Topics:** [AI Agents](../topics/ai-agents.md) | [Agent Frameworks](../topics/agent-frameworks.md) | [Agent Orchestration](../topics/agent-orchestration.md) | [Agent Memory](../topics/agent-memory.md) | [LLMs](../topics/llms.md) | [MCP](../topics/mcp.md) | [Evaluation](../topics/evaluation.md) | [Observability](../topics/observability.md)
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-mastra-ai--mastra)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-mastra-ai--mastra) | [Agent Frameworks](../topics/agent-frameworks.md#repo-mastra-ai--mastra) | [Agent Orchestration](../topics/agent-orchestration.md#repo-mastra-ai--mastra) | [Agent Memory](../topics/agent-memory.md#repo-mastra-ai--mastra) | [LLMs](../topics/llms.md#repo-mastra-ai--mastra) | [MCP](../topics/mcp.md#repo-mastra-ai--mastra) | [Evaluation](../topics/evaluation.md#repo-mastra-ai--mastra) | [Observability](../topics/observability.md#repo-mastra-ai--mastra)
 - **Kind:** Framework
 - **Best for:** TypeScript teams building AI applications and agent workflows from prototype to production; Applications that need agent tooling, durable human approval, context management, and evaluation primitives
 - **Languages:** TypeScript
@@ -434,12 +478,14 @@ A TypeScript framework for building AI-powered applications and agents, with mod
   - Builds tool-using agents that can iterate until a final answer or stopping condition
   - Orchestrates graph-based workflows with sequential, branch, and parallel control flow
 
+<a id="repo-maximhq--bifrost"></a>
+
 ## [Bifrost](https://github.com/maximhq/bifrost)
 
 A high-performance AI gateway that exposes a single OpenAI-compatible API across many model providers, with routing, fallback, load balancing, caching, governance, and observability features.
 
-- **Category:** [AI and Automation](../categories/ai-and-automation.md)
-- **Topics:** [LLMs](../topics/llms.md) | [LLM Gateways](../topics/llm-gateways.md) | [Multi Provider](../topics/multi-provider.md) | [Model Routing](../topics/model-routing.md) | [Observability](../topics/observability.md) | [Cost Management](../topics/cost-management.md) | [MCP](../topics/mcp.md) | [Authentication](../topics/authentication.md)
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-maximhq--bifrost)
+- **Topics:** [LLMs](../topics/llms.md#repo-maximhq--bifrost) | [LLM Gateways](../topics/llm-gateways.md#repo-maximhq--bifrost) | [Multi Provider](../topics/multi-provider.md#repo-maximhq--bifrost) | [Model Routing](../topics/model-routing.md#repo-maximhq--bifrost) | [Observability](../topics/observability.md#repo-maximhq--bifrost) | [Cost Management](../topics/cost-management.md#repo-maximhq--bifrost) | [MCP](../topics/mcp.md#repo-maximhq--bifrost) | [Authentication](../topics/authentication.md#repo-maximhq--bifrost)
 - **Kind:** Service
 - **Best for:** Backend teams centralizing access to multiple AI providers behind a compatible API; Production AI services that need routing reliability, usage governance, and request observability
 - **Languages:** Go, TypeScript
@@ -453,12 +499,14 @@ A high-performance AI gateway that exposes a single OpenAI-compatible API across
   - Provides automatic fallback and load balancing across providers, models, and API keys
   - Adds semantic caching, multimodal and streaming support, plus a plugin architecture
 
+<a id="repo-microsoft--aspire"></a>
+
 ## [aspire](https://github.com/microsoft/aspire)
 
 A multi-language, code-first toolchain for defining, running, observing, and deploying distributed applications and their connected resources.
 
-- **Category:** [DevOps and Cloud](../categories/devops-and-cloud.md)
-- **Topics:** [Frameworks](../topics/frameworks.md) | [CLI](../topics/cli.md) | [Observability](../topics/observability.md) | [Deployment](../topics/deployment.md) | [Cloud](../topics/cloud.md) | [Containers](../topics/containers.md) | [Developer Productivity](../topics/developer-productivity.md)
+- **Category:** [DevOps and Cloud](../categories/devops-and-cloud.md#repo-microsoft--aspire)
+- **Topics:** [Frameworks](../topics/frameworks.md#repo-microsoft--aspire) | [CLI](../topics/cli.md#repo-microsoft--aspire) | [Observability](../topics/observability.md#repo-microsoft--aspire) | [Deployment](../topics/deployment.md#repo-microsoft--aspire) | [Cloud](../topics/cloud.md#repo-microsoft--aspire) | [Containers](../topics/containers.md#repo-microsoft--aspire) | [Developer Productivity](../topics/developer-productivity.md#repo-microsoft--aspire)
 - **Kind:** Framework
 - **Best for:** Teams developing distributed applications with services and dependent resources; Workflows that need local orchestration and OpenTelemetry-based observability
 - **Languages:** C#, TypeScript
@@ -472,12 +520,14 @@ A multi-language, code-first toolchain for defining, running, observing, and dep
   - CLI that runs the defined application locally
   - OpenTelemetry-based observability
 
+<a id="repo-mnfst--manifest"></a>
+
 ## [manifest](https://github.com/mnfst/manifest)
 
 An open-source service for routing AI-agent and application requests through one OpenAI-compatible endpoint while connecting provider keys, subscriptions, local models, fallbacks, and usage tracking.
 
-- **Category:** [AI and Automation](../categories/ai-and-automation.md)
-- **Topics:** [AI Agents](../topics/ai-agents.md) | [LLMs](../topics/llms.md) | [Model Routing](../topics/model-routing.md) | [Multi Provider](../topics/multi-provider.md) | [Observability](../topics/observability.md) | [Self Hosted](../topics/self-hosted.md)
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-mnfst--manifest)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-mnfst--manifest) | [LLMs](../topics/llms.md#repo-mnfst--manifest) | [Model Routing](../topics/model-routing.md#repo-mnfst--manifest) | [Multi Provider](../topics/multi-provider.md#repo-mnfst--manifest) | [Observability](../topics/observability.md#repo-mnfst--manifest) | [Self Hosted](../topics/self-hosted.md#repo-mnfst--manifest)
 - **Kind:** Service
 - **Best for:** Teams centralizing provider access and model routing for AI applications; Self-hosted deployments that need model fallbacks and spend or token visibility
 - **Languages:** TypeScript
@@ -491,12 +541,14 @@ An open-source service for routing AI-agent and application requests through one
   - Mixes API-key providers, subscription flows, local models, and custom compatible endpoints
   - Provides fallback routing when a model query fails
 
+<a id="repo-paperclipai--paperclip"></a>
+
 ## [Paperclip](https://github.com/paperclipai/paperclip)
 
 A self-hosted Node.js server and React control plane for coordinating teams of AI agents around company goals, tasks, budgets, governance, and operational visibility.
 
-- **Category:** [AI and Automation](../categories/ai-and-automation.md)
-- **Topics:** [AI Agents](../topics/ai-agents.md) | [Agent Orchestration](../topics/agent-orchestration.md) | [Multi Agent](../topics/multi-agent.md) | [Agent Governance](../topics/agent-governance.md) | [Cost Management](../topics/cost-management.md) | [Observability](../topics/observability.md) | [Self Hosted](../topics/self-hosted.md) | [Web UI](../topics/web-ui.md)
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-paperclipai--paperclip)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-paperclipai--paperclip) | [Agent Orchestration](../topics/agent-orchestration.md#repo-paperclipai--paperclip) | [Multi Agent](../topics/multi-agent.md#repo-paperclipai--paperclip) | [Agent Governance](../topics/agent-governance.md#repo-paperclipai--paperclip) | [Cost Management](../topics/cost-management.md#repo-paperclipai--paperclip) | [Observability](../topics/observability.md#repo-paperclipai--paperclip) | [Self Hosted](../topics/self-hosted.md#repo-paperclipai--paperclip) | [Web UI](../topics/web-ui.md#repo-paperclipai--paperclip)
 - **Kind:** Application
 - **Best for:** Teams operating many agent runtimes that need one task and supervision system; Organizations that need cost controls, approvals, auditability, and scheduled agent work
 - **Languages:** TypeScript, JavaScript
@@ -510,12 +562,14 @@ A self-hosted Node.js server and React control plane for coordinating teams of A
   - Provides ticketed work with atomic checkout, session state, structured logs, activity, and audit trails
   - Schedules agent heartbeats and routines while enforcing scoped budget warnings and hard stops
 
+<a id="repo-patoles--agent-flow"></a>
+
 ## [Agent Flow](https://github.com/patoles/agent-flow)
 
 A real-time visualizer for Claude Code and Codex execution that displays detected sessions, branching, tool calls, timelines, transcripts, and file-attention data in a browser or VS Code webview.
 
-- **Category:** [Developer Tools](../categories/developer-tools.md)
-- **Topics:** [AI Agents](../topics/ai-agents.md) | [Agent Orchestration](../topics/agent-orchestration.md) | [Observability](../topics/observability.md) | [Developer Productivity](../topics/developer-productivity.md) | [Web UI](../topics/web-ui.md)
+- **Category:** [Developer Tools](../categories/developer-tools.md#repo-patoles--agent-flow)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-patoles--agent-flow) | [Agent Orchestration](../topics/agent-orchestration.md#repo-patoles--agent-flow) | [Observability](../topics/observability.md#repo-patoles--agent-flow) | [Developer Productivity](../topics/developer-productivity.md#repo-patoles--agent-flow) | [Web UI](../topics/web-ui.md#repo-patoles--agent-flow)
 - **Kind:** Application
 - **Best for:** Debugging and understanding active Claude Code or Codex sessions; Comparing concurrent agent sessions and tool-call sequences
 - **Languages:** TypeScript
@@ -529,12 +583,14 @@ A real-time visualizer for Claude Code and Codex execution that displays detecte
   - Concurrent Claude Code and Codex session discovery with runtime filtering
   - Codex rollout tailing with tool calls, reasoning, and token-count display
 
+<a id="repo-pipecat-ai--pipecat"></a>
+
 ## [Pipecat](https://github.com/pipecat-ai/pipecat)
 
 An open-source Python framework for real-time voice and multimodal conversational agents, combining media pipelines, AI services, transports, structured conversations, and multi-agent coordination.
 
-- **Category:** [AI and Automation](../categories/ai-and-automation.md)
-- **Topics:** [AI Agents](../topics/ai-agents.md) | [Agent Frameworks](../topics/agent-frameworks.md) | [Multi Agent](../topics/multi-agent.md) | [LLMs](../topics/llms.md) | [Realtime](../topics/realtime.md) | [Multimodal](../topics/multimodal.md) | [Speech to Text](../topics/speech-to-text.md) | [MCP](../topics/mcp.md) | [Observability](../topics/observability.md)
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-pipecat-ai--pipecat)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-pipecat-ai--pipecat) | [Agent Frameworks](../topics/agent-frameworks.md#repo-pipecat-ai--pipecat) | [Multi Agent](../topics/multi-agent.md#repo-pipecat-ai--pipecat) | [LLMs](../topics/llms.md#repo-pipecat-ai--pipecat) | [Realtime](../topics/realtime.md#repo-pipecat-ai--pipecat) | [Multimodal](../topics/multimodal.md#repo-pipecat-ai--pipecat) | [Speech to Text](../topics/speech-to-text.md#repo-pipecat-ai--pipecat) | [MCP](../topics/mcp.md#repo-pipecat-ai--pipecat) | [Observability](../topics/observability.md#repo-pipecat-ai--pipecat)
 - **Kind:** Framework
 - **Best for:** Building production-oriented voice, video, or multimodal conversational agents; Composing specialist agents that hand off, fan out, or run across processes and machines
 - **Languages:** Python
@@ -548,12 +604,14 @@ An open-source Python framework for real-time voice and multimodal conversationa
   - Speech-to-text, LLM, text-to-speech, speech-to-speech, and vision service integrations
   - WebSocket and WebRTC transport options alongside telephony and local transports
 
+<a id="repo-portkey-ai--gateway"></a>
+
 ## [Portkey AI Gateway](https://github.com/Portkey-AI/gateway)
 
 An MIT-licensed AI gateway that presents one API for routing language and multimodal-model requests, with configurable reliability, security, and operational controls for applications that use multiple providers.
 
-- **Category:** [AI and Automation](../categories/ai-and-automation.md)
-- **Topics:** [LLMs](../topics/llms.md) | [LLM Gateways](../topics/llm-gateways.md) | [Model Routing](../topics/model-routing.md) | [Observability](../topics/observability.md) | [Policy Enforcement](../topics/policy-enforcement.md) | [Self Hosted](../topics/self-hosted.md) | [MCP](../topics/mcp.md)
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-portkey-ai--gateway)
+- **Topics:** [LLMs](../topics/llms.md#repo-portkey-ai--gateway) | [LLM Gateways](../topics/llm-gateways.md#repo-portkey-ai--gateway) | [Model Routing](../topics/model-routing.md#repo-portkey-ai--gateway) | [Observability](../topics/observability.md#repo-portkey-ai--gateway) | [Policy Enforcement](../topics/policy-enforcement.md#repo-portkey-ai--gateway) | [Self Hosted](../topics/self-hosted.md#repo-portkey-ai--gateway) | [MCP](../topics/mcp.md#repo-portkey-ai--gateway)
 - **Kind:** Service
 - **Best for:** Teams centralizing model-provider routing and reliability policies; AI applications that need a self-hosted gateway and local request logs
 - **Languages:** TypeScript
@@ -567,12 +625,14 @@ An MIT-licensed AI gateway that presents one API for routing language and multim
   - Configurable retries, fallbacks, load balancing, timeouts, and routing rules
   - Input and output guardrails plus secure key-management options
 
+<a id="repo-psmux--psnet"></a>
+
 ## [PSNET](https://github.com/psmux/psnet)
 
 A native Rust TUI network monitor for Windows that combines connection and bandwidth views, listening-port inspection, packet details, GeoIP maps, LAN discovery, topology, alerts, and firewall controls in a standalone binary.
 
-- **Category:** [Systems and Infrastructure](../categories/systems-and-infrastructure.md)
-- **Topics:** [TUI](../topics/tui.md) | [Terminal](../topics/terminal.md) | [Observability](../topics/observability.md) | [Security](../topics/security.md) | [Visualization](../topics/visualization.md) | [Local First](../topics/local-first.md) | [Performance](../topics/performance.md)
+- **Category:** [Systems and Infrastructure](../categories/systems-and-infrastructure.md#repo-psmux--psnet)
+- **Topics:** [TUI](../topics/tui.md#repo-psmux--psnet) | [Terminal](../topics/terminal.md#repo-psmux--psnet) | [Observability](../topics/observability.md#repo-psmux--psnet) | [Security](../topics/security.md#repo-psmux--psnet) | [Visualization](../topics/visualization.md#repo-psmux--psnet) | [Local First](../topics/local-first.md#repo-psmux--psnet) | [Performance](../topics/performance.md#repo-psmux--psnet)
 - **Kind:** Application
 - **Best for:** Windows users wanting a terminal-first overview of connections, services, devices, and traffic; Developers diagnosing local ports, adapters, process traffic, or network exposure without a full GUI suite
 - **Languages:** Rust
@@ -586,12 +646,14 @@ A native Rust TUI network monitor for Windows that combines connection and bandw
   - Resolves DNS names and fingerprints listening services and web technologies
   - Embeds GeoIP, server fingerprints, web signatures, and OUI vendor data
 
+<a id="repo-rynfar--meridian"></a>
+
 ## [Meridian](https://github.com/rynfar/meridian)
 
 A local HTTP proxy that presents the Claude Agent SDK through Anthropic and OpenAI-compatible APIs, allowing compatible coding tools to use Claude while the SDK manages authentication, rate limits, caching, and context.
 
-- **Category:** [Backend and APIs](../categories/backend-and-apis.md)
-- **Topics:** [LLMs](../topics/llms.md) | [LLM Gateways](../topics/llm-gateways.md) | [API Development](../topics/api-development.md) | [CLI](../topics/cli.md) | [Local First](../topics/local-first.md) | [Observability](../topics/observability.md) | [Self Hosted](../topics/self-hosted.md)
+- **Category:** [Backend and APIs](../categories/backend-and-apis.md#repo-rynfar--meridian)
+- **Topics:** [LLMs](../topics/llms.md#repo-rynfar--meridian) | [LLM Gateways](../topics/llm-gateways.md#repo-rynfar--meridian) | [API Development](../topics/api-development.md#repo-rynfar--meridian) | [CLI](../topics/cli.md#repo-rynfar--meridian) | [Local First](../topics/local-first.md#repo-rynfar--meridian) | [Observability](../topics/observability.md#repo-rynfar--meridian) | [Self Hosted](../topics/self-hosted.md#repo-rynfar--meridian)
 - **Kind:** Service
 - **Best for:** Connecting Anthropic- or OpenAI-compatible developer tools to the Claude Agent SDK; Running local, concurrent Claude-backed coding-agent sessions through a common endpoint
 - **Languages:** TypeScript
@@ -605,12 +667,14 @@ A local HTTP proxy that presents the Claude Agent SDK through Anthropic and Open
   - Streaming, session persistence and resume, concurrent sessions, and subagent model selection
   - Adapter instances and optional passthrough tool execution for connected clients
 
+<a id="repo-tma1-ai--tma1"></a>
+
 ## [TMA1](https://github.com/tma1-ai/tma1)
 
 A local-first observability service for LLM agents that records their activity, presents it in a dashboard, and returns operational context through hooks and MCP.
 
-- **Category:** [DevOps and Cloud](../categories/devops-and-cloud.md)
-- **Topics:** [AI Agents](../topics/ai-agents.md) | [Coding Agents](../topics/coding-agents.md) | [Observability](../topics/observability.md) | [Tracing](../topics/tracing.md) | [MCP](../topics/mcp.md) | [Local First](../topics/local-first.md) | [Self Hosted](../topics/self-hosted.md) | [CLI](../topics/cli.md) | [Developer Productivity](../topics/developer-productivity.md)
+- **Category:** [DevOps and Cloud](../categories/devops-and-cloud.md#repo-tma1-ai--tma1)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-tma1-ai--tma1) | [Coding Agents](../topics/coding-agents.md#repo-tma1-ai--tma1) | [Observability](../topics/observability.md#repo-tma1-ai--tma1) | [Tracing](../topics/tracing.md#repo-tma1-ai--tma1) | [MCP](../topics/mcp.md#repo-tma1-ai--tma1) | [Local First](../topics/local-first.md#repo-tma1-ai--tma1) | [Self Hosted](../topics/self-hosted.md#repo-tma1-ai--tma1) | [CLI](../topics/cli.md#repo-tma1-ai--tma1) | [Developer Productivity](../topics/developer-productivity.md#repo-tma1-ai--tma1)
 - **Kind:** Service
 - **Best for:** Developers running Claude Code or Codex who want local agent-loop visibility; Teams or individuals who want failures and session context fed back to coding agents
 - **Languages:** Go, JavaScript
@@ -624,12 +688,14 @@ A local-first observability service for LLM agents that records their activity, 
   - Serves a dashboard with cost, latency, tool activity, replay, anomalies, and SQL access
   - Injects compact context through hooks and can block unresolved high-severity issues
 
+<a id="repo-vasihemanth--tokentelemetry"></a>
+
 ## [TokenTelemetry](https://github.com/VasiHemanth/tokentelemetry)
 
 A local dashboard that reads supported AI-agent session logs to show token use, costs, tool calls, reasoning traces, budgets, and project analytics.
 
-- **Category:** [Developer Tools](../categories/developer-tools.md)
-- **Topics:** [AI Agents](../topics/ai-agents.md) | [Observability](../topics/observability.md) | [Token Usage](../topics/token-usage.md) | [Cost Management](../topics/cost-management.md) | [Local First](../topics/local-first.md) | [Self Hosted](../topics/self-hosted.md) | [Web UI](../topics/web-ui.md) | [CLI](../topics/cli.md)
+- **Category:** [Developer Tools](../categories/developer-tools.md#repo-vasihemanth--tokentelemetry)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-vasihemanth--tokentelemetry) | [Observability](../topics/observability.md#repo-vasihemanth--tokentelemetry) | [Token Usage](../topics/token-usage.md#repo-vasihemanth--tokentelemetry) | [Cost Management](../topics/cost-management.md#repo-vasihemanth--tokentelemetry) | [Local First](../topics/local-first.md#repo-vasihemanth--tokentelemetry) | [Self Hosted](../topics/self-hosted.md#repo-vasihemanth--tokentelemetry) | [Web UI](../topics/web-ui.md#repo-vasihemanth--tokentelemetry) | [CLI](../topics/cli.md#repo-vasihemanth--tokentelemetry)
 - **Kind:** Application
 - **Best for:** Developers comparing token use and costs across local coding-agent sessions; Teams needing a local, read-only view of supported AI-agent activity
 - **Languages:** Python, TypeScript, JavaScript
@@ -643,12 +709,14 @@ A local dashboard that reads supported AI-agent session logs to show token use, 
   - Waterfall traces for prompts, reasoning, tool calls, and responses
   - Per-project activity, heatmaps, agent leaderboards, and worktree rollups
 
+<a id="repo-voltagent--voltagent"></a>
+
 ## [voltagent](https://github.com/VoltAgent/voltagent)
 
 A TypeScript agent framework for building agents, multi-step workflows, tools, memory, and provider integrations, accompanied by the VoltOps console for observing, operating, and deploying agent workloads.
 
-- **Category:** [AI and Automation](../categories/ai-and-automation.md)
-- **Topics:** [AI Agents](../topics/ai-agents.md) | [Agent Frameworks](../topics/agent-frameworks.md) | [Agent Orchestration](../topics/agent-orchestration.md) | [Multi Agent](../topics/multi-agent.md) | [LLMs](../topics/llms.md) | [MCP](../topics/mcp.md) | [Agent Memory](../topics/agent-memory.md) | [Automation](../topics/automation.md) | [Observability](../topics/observability.md) | [Evaluation](../topics/evaluation.md) | [Open Source](../topics/open-source.md)
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-voltagent--voltagent)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-voltagent--voltagent) | [Agent Frameworks](../topics/agent-frameworks.md#repo-voltagent--voltagent) | [Agent Orchestration](../topics/agent-orchestration.md#repo-voltagent--voltagent) | [Multi Agent](../topics/multi-agent.md#repo-voltagent--voltagent) | [LLMs](../topics/llms.md#repo-voltagent--voltagent) | [MCP](../topics/mcp.md#repo-voltagent--voltagent) | [Agent Memory](../topics/agent-memory.md#repo-voltagent--voltagent) | [Automation](../topics/automation.md#repo-voltagent--voltagent) | [Observability](../topics/observability.md#repo-voltagent--voltagent) | [Evaluation](../topics/evaluation.md#repo-voltagent--voltagent) | [Open Source](../topics/open-source.md#repo-voltagent--voltagent)
 - **Kind:** Framework
 - **Best for:** TypeScript teams that want code-first agent and workflow primitives with provider flexibility; Teams that want to pair an agent runtime with optional tracing, evaluation, and operations tooling
 - **Languages:** TypeScript
@@ -662,12 +730,14 @@ A TypeScript agent framework for building agents, multi-step workflows, tools, m
   - Builds declarative multi-step workflows, including supervisor-managed teams of specialized sub-agents
   - Connects Zod-typed tools and Model Context Protocol servers with lifecycle hooks and cancellation
 
+<a id="repo-waynesutton--opensync"></a>
+
 ## [opensync](https://github.com/waynesutton/opensync)
 
 A hosted or self-hosted dashboard and API for collecting AI coding-session data from supported sync plugins, then searching, analysing, exporting, and reusing that activity for evaluation and context workflows.
 
-- **Category:** [Developer Tools](../categories/developer-tools.md)
-- **Topics:** [Coding Agents](../topics/coding-agents.md) | [Observability](../topics/observability.md) | [Evaluation](../topics/evaluation.md) | [Search](../topics/search.md) | [Token Usage](../topics/token-usage.md) | [Cost Management](../topics/cost-management.md) | [Web UI](../topics/web-ui.md) | [Self Hosted](../topics/self-hosted.md)
+- **Category:** [Developer Tools](../categories/developer-tools.md#repo-waynesutton--opensync)
+- **Topics:** [Coding Agents](../topics/coding-agents.md#repo-waynesutton--opensync) | [Observability](../topics/observability.md#repo-waynesutton--opensync) | [Evaluation](../topics/evaluation.md#repo-waynesutton--opensync) | [Search](../topics/search.md#repo-waynesutton--opensync) | [Token Usage](../topics/token-usage.md#repo-waynesutton--opensync) | [Cost Management](../topics/cost-management.md#repo-waynesutton--opensync) | [Web UI](../topics/web-ui.md#repo-waynesutton--opensync) | [Self Hosted](../topics/self-hosted.md#repo-waynesutton--opensync)
 - **Kind:** Application
 - **Best for:** Teams that want a shared dashboard for coding-agent sessions, tool activity, and token spend; Developers who want to search or export past sessions for evaluations and context retrieval
 - **Languages:** TypeScript
@@ -681,12 +751,14 @@ A hosted or self-hosted dashboard and API for collecting AI coding-session data 
   - Provides full-text, semantic, and hybrid session search alongside an API for sessions, search, context, and export
   - Offers dashboard views for usage, sessions, evaluations, and analytics including model, project, and cost breakdowns
 
+<a id="repo-withastro--flue"></a>
+
 ## [flue](https://github.com/withastro/flue)
 
 A TypeScript agent-harness framework for building autonomous agents and guided workflows with sessions, tools, skills, filesystem access, and local, virtual, or remote sandbox execution.
 
-- **Category:** [AI and Automation](../categories/ai-and-automation.md)
-- **Topics:** [AI Agents](../topics/ai-agents.md) | [Agent Frameworks](../topics/agent-frameworks.md) | [Agent Harnesses](../topics/agent-harnesses.md) | [Agent Orchestration](../topics/agent-orchestration.md) | [Multi Agent](../topics/multi-agent.md) | [Agent Skills](../topics/agent-skills.md) | [LLMs](../topics/llms.md) | [Sandboxing](../topics/sandboxing.md) | [MCP](../topics/mcp.md) | [Observability](../topics/observability.md)
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-withastro--flue)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-withastro--flue) | [Agent Frameworks](../topics/agent-frameworks.md#repo-withastro--flue) | [Agent Harnesses](../topics/agent-harnesses.md#repo-withastro--flue) | [Agent Orchestration](../topics/agent-orchestration.md#repo-withastro--flue) | [Multi Agent](../topics/multi-agent.md#repo-withastro--flue) | [Agent Skills](../topics/agent-skills.md#repo-withastro--flue) | [LLMs](../topics/llms.md#repo-withastro--flue) | [Sandboxing](../topics/sandboxing.md#repo-withastro--flue) | [MCP](../topics/mcp.md#repo-withastro--flue) | [Observability](../topics/observability.md#repo-withastro--flue)
 - **Kind:** Framework
 - **Best for:** TypeScript teams building model-driven agents that need controlled tools and execution environments; Deploying agent workflows across Node.js, serverless, CI, or hosted runtimes
 - **Languages:** TypeScript

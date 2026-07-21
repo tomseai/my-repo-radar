@@ -11,12 +11,14 @@
 - [Frontend and Design](../categories/frontend-and-design.md) (2)
 - [Platforms and Applications](../categories/platforms-and-applications.md) (6)
 
+<a id="repo-assistant-ui--assistant-ui"></a>
+
 ## [assistant-ui](https://github.com/assistant-ui/assistant-ui)
 
 A TypeScript and React library for composing production AI chat interfaces from UI primitives and runtime adapters.
 
-- **Category:** [Frontend and Design](../categories/frontend-and-design.md)
-- **Topics:** [Chat UI](../topics/chat-ui.md) | [Generative UI](../topics/generative-ui.md) | [UI Components](../topics/ui-components.md) | [LLMs](../topics/llms.md) | [Tool Use](../topics/tool-use.md) | [Web UI](../topics/web-ui.md)
+- **Category:** [Frontend and Design](../categories/frontend-and-design.md#repo-assistant-ui--assistant-ui)
+- **Topics:** [Chat UI](../topics/chat-ui.md#repo-assistant-ui--assistant-ui) | [Generative UI](../topics/generative-ui.md#repo-assistant-ui--assistant-ui) | [UI Components](../topics/ui-components.md#repo-assistant-ui--assistant-ui) | [LLMs](../topics/llms.md#repo-assistant-ui--assistant-ui) | [Tool Use](../topics/tool-use.md#repo-assistant-ui--assistant-ui) | [Web UI](../topics/web-ui.md#repo-assistant-ui--assistant-ui)
 - **Kind:** Library
 - **Best for:** React teams building custom AI chat or copilot experiences; Projects that need to connect a chat UI to the AI SDK, agent frameworks, or a custom backend
 - **Languages:** TypeScript
@@ -30,12 +32,14 @@ A TypeScript and React library for composing production AI chat interfaces from 
   - Styled Base UI or Radix UI starter components installed by its CLI
   - Streaming chat UX with retries, attachments, markdown, code highlighting, voice dictation, and accessibility
 
+<a id="repo-chatboxai--chatbox"></a>
+
 ## [Chatbox Community Edition](https://github.com/chatboxai/chatbox)
 
 A GPL-3.0 desktop-first AI chat client for Windows, macOS, and Linux that also provides web and mobile clients for conversations with hosted and locally served language-model providers.
 
-- **Category:** [Platforms and Applications](../categories/platforms-and-applications.md)
-- **Topics:** [Chat UI](../topics/chat-ui.md) | [LLMs](../topics/llms.md) | [Desktop App](../topics/desktop-app.md) | [Mobile App](../topics/mobile-app.md) | [Web UI](../topics/web-ui.md) | [Local First](../topics/local-first.md) | [Multi Provider](../topics/multi-provider.md)
+- **Category:** [Platforms and Applications](../categories/platforms-and-applications.md#repo-chatboxai--chatbox)
+- **Topics:** [Chat UI](../topics/chat-ui.md#repo-chatboxai--chatbox) | [LLMs](../topics/llms.md#repo-chatboxai--chatbox) | [Desktop App](../topics/desktop-app.md#repo-chatboxai--chatbox) | [Mobile App](../topics/mobile-app.md#repo-chatboxai--chatbox) | [Web UI](../topics/web-ui.md#repo-chatboxai--chatbox) | [Local First](../topics/local-first.md#repo-chatboxai--chatbox) | [Multi Provider](../topics/multi-provider.md#repo-chatboxai--chatbox)
 - **Kind:** Application
 - **Best for:** Individuals who want an installable, local-data AI chat client across desktop and mobile devices; Users connecting their own accounts or endpoints for several hosted or local model providers
 - **Languages:** TypeScript
@@ -49,12 +53,14 @@ A GPL-3.0 desktop-first AI chat client for Windows, macOS, and Linux that also p
   - Stores chat data locally and supports streaming replies, a prompt library, and message quoting
   - Renders Markdown, LaTeX, and syntax-highlighted code in conversations
 
+<a id="repo-chatgptnextweb--nextchat"></a>
+
 ## [NextChat](https://github.com/ChatGPTNextWeb/NextChat)
 
 An MIT-licensed AI chat application available as a deployable web/PWA client and Tauri desktop application, with local browser storage, hosted and self-hosted model endpoints, and optional MCP support.
 
-- **Category:** [Platforms and Applications](../categories/platforms-and-applications.md)
-- **Topics:** [Chat UI](../topics/chat-ui.md) | [LLMs](../topics/llms.md) | [Web UI](../topics/web-ui.md) | [Desktop App](../topics/desktop-app.md) | [Mobile App](../topics/mobile-app.md) | [Self Hosted](../topics/self-hosted.md) | [Local First](../topics/local-first.md) | [MCP](../topics/mcp.md)
+- **Category:** [Platforms and Applications](../categories/platforms-and-applications.md#repo-chatgptnextweb--nextchat)
+- **Topics:** [Chat UI](../topics/chat-ui.md#repo-chatgptnextweb--nextchat) | [LLMs](../topics/llms.md#repo-chatgptnextweb--nextchat) | [Web UI](../topics/web-ui.md#repo-chatgptnextweb--nextchat) | [Desktop App](../topics/desktop-app.md#repo-chatgptnextweb--nextchat) | [Mobile App](../topics/mobile-app.md#repo-chatgptnextweb--nextchat) | [Self Hosted](../topics/self-hosted.md#repo-chatgptnextweb--nextchat) | [Local First](../topics/local-first.md#repo-chatgptnextweb--nextchat) | [MCP](../topics/mcp.md#repo-chatgptnextweb--nextchat)
 - **Kind:** Application
 - **Best for:** Individuals self-hosting a compact AI chat client with their own model-provider credentials; Users who want local browser chat storage, prompt templates, and a cross-platform desktop option
 - **Languages:** TypeScript, Rust
@@ -68,12 +74,14 @@ An MIT-licensed AI chat application available as a deployable web/PWA client and
   - Stores data locally in the browser and offers a responsive PWA with streaming responses
   - Provides prompt templates, conversation-history compression, Markdown, LaTeX, Mermaid, and code highlighting
 
+<a id="repo-copilotkit--copilotkit"></a>
+
 ## [CopilotKit](https://github.com/CopilotKit/CopilotKit)
 
 A multi-platform framework for adding agent-driven chat, generative UI, shared state, and approval workflows to application front ends.
 
-- **Category:** [AI and Automation](../categories/ai-and-automation.md)
-- **Topics:** [AI Agents](../topics/ai-agents.md) | [Chat UI](../topics/chat-ui.md) | [Generative UI](../topics/generative-ui.md) | [Agent Protocols](../topics/agent-protocols.md) | [Web UI](../topics/web-ui.md) | [Web](../topics/web.md)
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-copilotkit--copilotkit)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-copilotkit--copilotkit) | [Chat UI](../topics/chat-ui.md#repo-copilotkit--copilotkit) | [Generative UI](../topics/generative-ui.md#repo-copilotkit--copilotkit) | [Agent Protocols](../topics/agent-protocols.md#repo-copilotkit--copilotkit) | [Web UI](../topics/web-ui.md#repo-copilotkit--copilotkit) | [Web](../topics/web.md#repo-copilotkit--copilotkit)
 - **Kind:** Framework
 - **Best for:** Product teams building agent-facing web or mobile application interfaces; Teams that need one agent interaction model across supported front-end surfaces
 - **Languages:** TypeScript, Python
@@ -87,12 +95,14 @@ A multi-platform framework for adding agent-driven chat, generative UI, shared s
   - Renders agent-selected or dynamically updated UI components in the client
   - Synchronizes application state that agents and UI components can both update in real time
 
+<a id="repo-danny-avila--librechat"></a>
+
 ## [LibreChat](https://github.com/danny-avila/LibreChat)
 
 A self-hosted, multi-user AI chat platform that unifies hosted, custom, and local model endpoints with configurable agents, MCP tools, file workflows, web search, and Docker-based deployment.
 
-- **Category:** [Platforms and Applications](../categories/platforms-and-applications.md)
-- **Topics:** [Chat UI](../topics/chat-ui.md) | [AI Agents](../topics/ai-agents.md) | [Agent Skills](../topics/agent-skills.md) | [MCP](../topics/mcp.md) | [Multi Provider](../topics/multi-provider.md) | [Self Hosted](../topics/self-hosted.md) | [Web Search](../topics/web-search.md) | [Authentication](../topics/authentication.md) | [Document Processing](../topics/document-processing.md)
+- **Category:** [Platforms and Applications](../categories/platforms-and-applications.md#repo-danny-avila--librechat)
+- **Topics:** [Chat UI](../topics/chat-ui.md#repo-danny-avila--librechat) | [AI Agents](../topics/ai-agents.md#repo-danny-avila--librechat) | [Agent Skills](../topics/agent-skills.md#repo-danny-avila--librechat) | [MCP](../topics/mcp.md#repo-danny-avila--librechat) | [Multi Provider](../topics/multi-provider.md#repo-danny-avila--librechat) | [Self Hosted](../topics/self-hosted.md#repo-danny-avila--librechat) | [Web Search](../topics/web-search.md#repo-danny-avila--librechat) | [Authentication](../topics/authentication.md#repo-danny-avila--librechat) | [Document Processing](../topics/document-processing.md#repo-danny-avila--librechat)
 - **Kind:** Application
 - **Best for:** Teams operating a configurable shared AI chat service on their own infrastructure; Users who need one interface for multiple model providers, agents, tools, and conversation controls
 - **Languages:** TypeScript, JavaScript
@@ -106,12 +116,14 @@ A self-hosted, multi-user AI chat platform that unifies hosted, custom, and loca
   - Supports custom agents with skills, subagents, MCP servers, tools, file search, and code execution
   - Adds web search with search providers, content scrapers, and reranking support
 
+<a id="repo-iofficeai--aionui"></a>
+
 ## [AionUi](https://github.com/iOfficeAI/AionUi)
 
 An open-source, cross-platform cowork application that supplies a built-in AI agent and a unified interface for compatible CLI agents, with local workspace access, multi-agent teams, model-provider configuration, MCP tools, remote WebUI access, and scheduled automation.
 
-- **Category:** [AI and Automation](../categories/ai-and-automation.md)
-- **Topics:** [AI Agents](../topics/ai-agents.md) | [Multi Agent](../topics/multi-agent.md) | [MCP](../topics/mcp.md) | [Desktop App](../topics/desktop-app.md) | [Chat UI](../topics/chat-ui.md) | [Web UI](../topics/web-ui.md) | [Remote Control](../topics/remote-control.md) | [Multi Provider](../topics/multi-provider.md) | [Local Models](../topics/local-models.md) | [Self Hosted](../topics/self-hosted.md) | [Automation](../topics/automation.md)
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-iofficeai--aionui)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-iofficeai--aionui) | [Multi Agent](../topics/multi-agent.md#repo-iofficeai--aionui) | [MCP](../topics/mcp.md#repo-iofficeai--aionui) | [Desktop App](../topics/desktop-app.md#repo-iofficeai--aionui) | [Chat UI](../topics/chat-ui.md#repo-iofficeai--aionui) | [Web UI](../topics/web-ui.md#repo-iofficeai--aionui) | [Remote Control](../topics/remote-control.md#repo-iofficeai--aionui) | [Multi Provider](../topics/multi-provider.md#repo-iofficeai--aionui) | [Local Models](../topics/local-models.md#repo-iofficeai--aionui) | [Self Hosted](../topics/self-hosted.md#repo-iofficeai--aionui) | [Automation](../topics/automation.md#repo-iofficeai--aionui)
 - **Kind:** Application
 - **Best for:** Individuals who want a desktop workspace for supervised AI-agent tasks; Teams coordinating supported coding agents on a shared local folder
 - **Languages:** TypeScript
@@ -125,12 +137,14 @@ An open-source, cross-platform cowork application that supplies a built-in AI ag
   - Auto-detection and unified sessions for supported external CLI agents
   - Parallel team mode with leader delegation, task board, and asynchronous mailbox
 
+<a id="repo-khoj-ai--khoj"></a>
+
 ## [Khoj](https://github.com/khoj-ai/khoj)
 
 A self-hostable personal AI application that combines LLM chat, semantic search over personal knowledge, web answers, configurable agents, research automation, and clients for the web, desktop, mobile, Obsidian, and Emacs.
 
-- **Category:** [Platforms and Applications](../categories/platforms-and-applications.md)
-- **Topics:** [AI Agents](../topics/ai-agents.md) | [LLMs](../topics/llms.md) | [Chat UI](../topics/chat-ui.md) | [Search](../topics/search.md) | [Web Search](../topics/web-search.md) | [Document Processing](../topics/document-processing.md) | [Self Hosted](../topics/self-hosted.md) | [Local Models](../topics/local-models.md) | [Desktop App](../topics/desktop-app.md) | [Mobile App](../topics/mobile-app.md)
+- **Category:** [Platforms and Applications](../categories/platforms-and-applications.md#repo-khoj-ai--khoj)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-khoj-ai--khoj) | [LLMs](../topics/llms.md#repo-khoj-ai--khoj) | [Chat UI](../topics/chat-ui.md#repo-khoj-ai--khoj) | [Search](../topics/search.md#repo-khoj-ai--khoj) | [Web Search](../topics/web-search.md#repo-khoj-ai--khoj) | [Document Processing](../topics/document-processing.md#repo-khoj-ai--khoj) | [Self Hosted](../topics/self-hosted.md#repo-khoj-ai--khoj) | [Local Models](../topics/local-models.md#repo-khoj-ai--khoj) | [Desktop App](../topics/desktop-app.md#repo-khoj-ai--khoj) | [Mobile App](../topics/mobile-app.md#repo-khoj-ai--khoj)
 - **Kind:** Application
 - **Best for:** Individuals or teams wanting a private, self-hosted AI assistant for documents and web research; Users who need one personal knowledge interface across local or hosted LLM providers and clients
 - **Languages:** Python, TypeScript
@@ -144,12 +158,14 @@ A self-hostable personal AI application that combines LLM chat, semantic search 
   - Performs semantic search over PDF, Markdown, org-mode, Word, Notion, and other supported sources
   - Lets users create agents with custom knowledge, personas, chat models, and tools
 
+<a id="repo-langchain-ai--chat-langchain"></a>
+
 ## [Chat LangChain](https://github.com/langchain-ai/chat-langchain)
 
 A documentation assistant for LangChain, LangGraph, and LangSmith that combines managed agent deployment, documentation and support-base search, on-topic guardrails, URL validation, and a Next.js public chat interface.
 
-- **Category:** [AI and Automation](../categories/ai-and-automation.md)
-- **Topics:** [AI Agents](../topics/ai-agents.md) | [Chat UI](../topics/chat-ui.md) | [Documentation](../topics/documentation.md) | [Search](../topics/search.md) | [Tool Use](../topics/tool-use.md) | [Web UI](../topics/web-ui.md) | [Deployment](../topics/deployment.md)
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-langchain-ai--chat-langchain)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-langchain-ai--chat-langchain) | [Chat UI](../topics/chat-ui.md#repo-langchain-ai--chat-langchain) | [Documentation](../topics/documentation.md#repo-langchain-ai--chat-langchain) | [Search](../topics/search.md#repo-langchain-ai--chat-langchain) | [Tool Use](../topics/tool-use.md#repo-langchain-ai--chat-langchain) | [Web UI](../topics/web-ui.md#repo-langchain-ai--chat-langchain) | [Deployment](../topics/deployment.md#repo-langchain-ai--chat-langchain)
 - **Kind:** Application
 - **Best for:** Teams building a managed documentation-support assistant; Developers studying a LangChain agent with a separate public web UI
 - **Languages:** Python, TypeScript
@@ -163,12 +179,14 @@ A documentation assistant for LangChain, LangGraph, and LangSmith that combines 
   - Searches a Pylon support knowledge base for known issues and solutions
   - Filters off-topic requests with guardrail middleware
 
+<a id="repo-lfnovo--open-notebook"></a>
+
 ## [open-notebook](https://github.com/lfnovo/open-notebook)
 
 A self-hosted research-notebook application for organizing multimodal sources, searching them, and using configurable AI models for source-grounded chat, notes, and podcast generation.
 
-- **Category:** [AI and Automation](../categories/ai-and-automation.md)
-- **Topics:** [LLMs](../topics/llms.md) | [Chat UI](../topics/chat-ui.md) | [Search](../topics/search.md) | [Self Hosted](../topics/self-hosted.md) | [Document Processing](../topics/document-processing.md) | [Multi Provider](../topics/multi-provider.md)
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-lfnovo--open-notebook)
+- **Topics:** [LLMs](../topics/llms.md#repo-lfnovo--open-notebook) | [Chat UI](../topics/chat-ui.md#repo-lfnovo--open-notebook) | [Search](../topics/search.md#repo-lfnovo--open-notebook) | [Self Hosted](../topics/self-hosted.md#repo-lfnovo--open-notebook) | [Document Processing](../topics/document-processing.md#repo-lfnovo--open-notebook) | [Multi Provider](../topics/multi-provider.md#repo-lfnovo--open-notebook)
 - **Kind:** Application
 - **Best for:** Individuals or teams that want a private research workspace they can host; Research workflows that combine documents, media, web sources, and AI chat
 - **Languages:** TypeScript, Python
@@ -182,12 +200,14 @@ A self-hosted research-notebook application for organizing multimodal sources, s
   - Ingestion of PDFs, videos, audio, web pages, and office documents
   - Full-text and vector search across stored content
 
+<a id="repo-modelcontextprotocol--ext-apps"></a>
+
 ## [MCP Apps](https://github.com/modelcontextprotocol/ext-apps)
 
 A specification and TypeScript SDK for delivering interactive HTML views from MCP tools so compliant chat clients can render forms, charts, dashboards, and other embedded interfaces inline in a conversation.
 
-- **Category:** [Application Frameworks](../categories/application-frameworks.md)
-- **Topics:** [MCP](../topics/mcp.md) | [Chat UI](../topics/chat-ui.md) | [Web UI](../topics/web-ui.md) | [UI Components](../topics/ui-components.md)
+- **Category:** [Application Frameworks](../categories/application-frameworks.md#repo-modelcontextprotocol--ext-apps)
+- **Topics:** [MCP](../topics/mcp.md#repo-modelcontextprotocol--ext-apps) | [Chat UI](../topics/chat-ui.md#repo-modelcontextprotocol--ext-apps) | [Web UI](../topics/web-ui.md#repo-modelcontextprotocol--ext-apps) | [UI Components](../topics/ui-components.md#repo-modelcontextprotocol--ext-apps)
 - **Kind:** Framework
 - **Best for:** MCP server authors adding interactive UI resources to tool results; Chat-client and web-view developers embedding and communicating with MCP App views
 - **Languages:** TypeScript, JavaScript
@@ -201,12 +221,14 @@ A specification and TypeScript SDK for delivering interactive HTML views from MC
   - Defines a host-rendered sandboxed iframe and bidirectional UI-to-tool communication
   - Provides SDK entry points for Views, React hooks, client app bridges, and MCP server helpers
 
+<a id="repo-nanocoai--nanoclaw"></a>
+
 ## [NanoClaw](https://github.com/nanocoai/nanoclaw)
 
 Self-hosted, messaging-based AI assistant that routes each agent session through an isolated Docker container.
 
-- **Category:** [AI and Automation](../categories/ai-and-automation.md)
-- **Topics:** [AI Agents](../topics/ai-agents.md) | [Agent Orchestration](../topics/agent-orchestration.md) | [Agent Memory](../topics/agent-memory.md) | [Agent Skills](../topics/agent-skills.md) | [Chat UI](../topics/chat-ui.md) | [Automation](../topics/automation.md) | [Self Hosted](../topics/self-hosted.md) | [Sandboxing](../topics/sandboxing.md) | [Containers](../topics/containers.md)
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-nanocoai--nanoclaw)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-nanocoai--nanoclaw) | [Agent Orchestration](../topics/agent-orchestration.md#repo-nanocoai--nanoclaw) | [Agent Memory](../topics/agent-memory.md#repo-nanocoai--nanoclaw) | [Agent Skills](../topics/agent-skills.md#repo-nanocoai--nanoclaw) | [Chat UI](../topics/chat-ui.md#repo-nanocoai--nanoclaw) | [Automation](../topics/automation.md#repo-nanocoai--nanoclaw) | [Self Hosted](../topics/self-hosted.md#repo-nanocoai--nanoclaw) | [Sandboxing](../topics/sandboxing.md#repo-nanocoai--nanoclaw) | [Containers](../topics/containers.md#repo-nanocoai--nanoclaw)
 - **Kind:** Application
 - **Best for:** Individual users building a customizable personal assistant across selected messaging channels.; Developers who want per-agent filesystem mounts and container isolation instead of a shared host process.
 - **Languages:** TypeScript, JavaScript, Shell
@@ -220,12 +242,14 @@ Self-hosted, messaging-based AI assistant that routes each agent session through
   - Supports skill-installed messaging channels, including Telegram, Discord, WhatsApp, Slack, Teams, and email.
   - Runs recurring scheduled tasks and can use script gates to avoid unnecessary agent wakeups.
 
+<a id="repo-nesquena--hermes-webui"></a>
+
 ## [Hermes WebUI](https://github.com/nesquena/hermes-webui)
 
 A self-hosted browser interface for Hermes Agent that provides chat, session, workspace, profile, task, memory, and settings workflows.
 
-- **Category:** [AI and Automation](../categories/ai-and-automation.md)
-- **Topics:** [AI Agents](../topics/ai-agents.md) | [Chat UI](../topics/chat-ui.md) | [Web UI](../topics/web-ui.md) | [Self Hosted](../topics/self-hosted.md) | [Local First](../topics/local-first.md) | [Multi Provider](../topics/multi-provider.md)
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-nesquena--hermes-webui)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-nesquena--hermes-webui) | [Chat UI](../topics/chat-ui.md#repo-nesquena--hermes-webui) | [Web UI](../topics/web-ui.md#repo-nesquena--hermes-webui) | [Self Hosted](../topics/self-hosted.md#repo-nesquena--hermes-webui) | [Local First](../topics/local-first.md#repo-nesquena--hermes-webui) | [Multi Provider](../topics/multi-provider.md#repo-nesquena--hermes-webui)
 - **Kind:** Application
 - **Best for:** Operating an existing Hermes Agent installation from a browser; Accessing a persistent agent workspace from desktop or mobile devices
 - **Languages:** Python, JavaScript
@@ -239,12 +263,14 @@ A self-hosted browser interface for Hermes Agent that provides chat, session, wo
   - Workspace browser, file preview, and transcript import or export
   - Agent profiles, persistent memory, skills, tasks, and scheduled-work controls
 
+<a id="repo-nomic-ai--gpt4all"></a>
+
 ## [GPT4All](https://github.com/nomic-ai/gpt4all)
 
 A desktop application and Python client for downloading and running local large language models on personal computers without hosted API calls.
 
-- **Category:** [AI and Automation](../categories/ai-and-automation.md)
-- **Topics:** [LLMs](../topics/llms.md) | [Local Models](../topics/local-models.md) | [Desktop App](../topics/desktop-app.md) | [Chat UI](../topics/chat-ui.md) | [Self Hosted](../topics/self-hosted.md) | [Local First](../topics/local-first.md)
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-nomic-ai--gpt4all)
+- **Topics:** [LLMs](../topics/llms.md#repo-nomic-ai--gpt4all) | [Local Models](../topics/local-models.md#repo-nomic-ai--gpt4all) | [Desktop App](../topics/desktop-app.md#repo-nomic-ai--gpt4all) | [Chat UI](../topics/chat-ui.md#repo-nomic-ai--gpt4all) | [Self Hosted](../topics/self-hosted.md#repo-nomic-ai--gpt4all) | [Local First](../topics/local-first.md#repo-nomic-ai--gpt4all)
 - **Kind:** Application
 - **Best for:** Private local LLM chat on supported desktop operating systems; Python applications that need to load and generate with local models
 - **Languages:** C++, Python
@@ -258,12 +284,14 @@ A desktop application and Python client for downloading and running local large 
   - Python package for loading a model, starting a chat session, and generating text
   - Local model execution without API calls or a GPU requirement
 
+<a id="repo-open-webui--open-webui"></a>
+
 ## [Open WebUI](https://github.com/open-webui/open-webui)
 
 A self-hosted, offline-capable AI platform and web interface for local Ollama models and OpenAI-compatible APIs, with RAG, plugins and tools, role-based access control, persistent storage, and multiple deployment paths.
 
-- **Category:** [Platforms and Applications](../categories/platforms-and-applications.md)
-- **Topics:** [Chat UI](../topics/chat-ui.md) | [LLMs](../topics/llms.md) | [Self Hosted](../topics/self-hosted.md) | [Local Models](../topics/local-models.md) | [MCP](../topics/mcp.md) | [Document Processing](../topics/document-processing.md) | [Web Search](../topics/web-search.md)
+- **Category:** [Platforms and Applications](../categories/platforms-and-applications.md#repo-open-webui--open-webui)
+- **Topics:** [Chat UI](../topics/chat-ui.md#repo-open-webui--open-webui) | [LLMs](../topics/llms.md#repo-open-webui--open-webui) | [Self Hosted](../topics/self-hosted.md#repo-open-webui--open-webui) | [Local Models](../topics/local-models.md#repo-open-webui--open-webui) | [MCP](../topics/mcp.md#repo-open-webui--open-webui) | [Document Processing](../topics/document-processing.md#repo-open-webui--open-webui) | [Web Search](../topics/web-search.md#repo-open-webui--open-webui)
 - **Kind:** Application
 - **Best for:** Individuals or teams hosting a configurable chat interface for local or API-based models; Administrators who need RAG, access controls, and extensibility in one self-hosted application
 - **Languages:** Python, TypeScript, Svelte
@@ -277,12 +305,14 @@ A self-hosted, offline-capable AI platform and web interface for local Ollama mo
   - Provides RAG with document extraction, vector stores, hybrid search, and reranking
   - Extends chats with filters, actions, pipes, tools, skills, MCP, MCPO, and OpenAPI servers
 
+<a id="repo-openclaw--openclaw"></a>
+
 ## [OpenClaw](https://github.com/openclaw/openclaw)
 
 A self-hosted, personal AI assistant with a local-first gateway that connects to existing messaging channels and companion apps across desktop and mobile devices.
 
-- **Category:** [Platforms and Applications](../categories/platforms-and-applications.md)
-- **Topics:** [AI Agents](../topics/ai-agents.md) | [Chat UI](../topics/chat-ui.md) | [CLI](../topics/cli.md) | [Desktop App](../topics/desktop-app.md) | [Mobile App](../topics/mobile-app.md) | [Self Hosted](../topics/self-hosted.md) | [Automation](../topics/automation.md) | [Agent Skills](../topics/agent-skills.md) | [Open Source](../topics/open-source.md)
+- **Category:** [Platforms and Applications](../categories/platforms-and-applications.md#repo-openclaw--openclaw)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-openclaw--openclaw) | [Chat UI](../topics/chat-ui.md#repo-openclaw--openclaw) | [CLI](../topics/cli.md#repo-openclaw--openclaw) | [Desktop App](../topics/desktop-app.md#repo-openclaw--openclaw) | [Mobile App](../topics/mobile-app.md#repo-openclaw--openclaw) | [Self Hosted](../topics/self-hosted.md#repo-openclaw--openclaw) | [Automation](../topics/automation.md#repo-openclaw--openclaw) | [Agent Skills](../topics/agent-skills.md#repo-openclaw--openclaw) | [Open Source](../topics/open-source.md#repo-openclaw--openclaw)
 - **Kind:** Application
 - **Best for:** Individuals operating an always-on personal assistant on their own devices; Users who want to interact with one assistant through messaging channels, voice, and a live canvas
 - **Languages:** TypeScript, Kotlin, Python
@@ -296,12 +326,14 @@ A self-hosted, personal AI assistant with a local-first gateway that connects to
   - Uses a local-first gateway as the control plane for sessions, channels, tools, and events
   - Provides onboarding that configures the gateway, workspace, channels, and skills
 
+<a id="repo-vercel--ai-elements"></a>
+
 ## [AI Elements](https://github.com/vercel/ai-elements)
 
 A shadcn/ui-based React component library and registry for adding customizable conversation, message, code, reasoning, and other AI interface elements to Next.js applications.
 
-- **Category:** [Frontend and Design](../categories/frontend-and-design.md)
-- **Topics:** [LLMs](../topics/llms.md) | [Chat UI](../topics/chat-ui.md) | [UI Components](../topics/ui-components.md) | [Design Systems](../topics/design-systems.md) | [Frontend Development](../topics/frontend-development.md) | [Libraries](../topics/libraries.md) | [Open Source](../topics/open-source.md)
+- **Category:** [Frontend and Design](../categories/frontend-and-design.md#repo-vercel--ai-elements)
+- **Topics:** [LLMs](../topics/llms.md#repo-vercel--ai-elements) | [Chat UI](../topics/chat-ui.md#repo-vercel--ai-elements) | [UI Components](../topics/ui-components.md#repo-vercel--ai-elements) | [Design Systems](../topics/design-systems.md#repo-vercel--ai-elements) | [Frontend Development](../topics/frontend-development.md#repo-vercel--ai-elements) | [Libraries](../topics/libraries.md#repo-vercel--ai-elements) | [Open Source](../topics/open-source.md#repo-vercel--ai-elements)
 - **Kind:** Library
 - **Best for:** Teams building a customizable chat or generative-AI interface with Next.js; Projects that already use shadcn/ui, Tailwind CSS, and the AI SDK
 - **Languages:** TypeScript

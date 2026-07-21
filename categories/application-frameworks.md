@@ -28,12 +28,14 @@
 - [Web](../topics/web.md) (9)
 - [Web UI](../topics/web-ui.md) (1)
 
+<a id="repo-adonisjs--core"></a>
+
 ## [AdonisJS Core](https://github.com/adonisjs/core)
 
 The TypeScript-first, full-stack MVC framework core for Node.js web applications, API servers, and microservices.
 
-- **Category:** [Application Frameworks](../categories/application-frameworks.md)
-- **Topics:** [Frameworks](../topics/frameworks.md) | [Web](../topics/web.md) | [Backend Development](../topics/backend-development.md) | [API Development](../topics/api-development.md) | [CLI](../topics/cli.md) | [Testing](../topics/testing.md)
+- **Category:** [Application Frameworks](../categories/application-frameworks.md#repo-adonisjs--core)
+- **Topics:** [Frameworks](../topics/frameworks.md#repo-adonisjs--core) | [Web](../topics/web.md#repo-adonisjs--core) | [Backend Development](../topics/backend-development.md#repo-adonisjs--core) | [API Development](../topics/api-development.md#repo-adonisjs--core) | [CLI](../topics/cli.md#repo-adonisjs--core) | [Testing](../topics/testing.md#repo-adonisjs--core)
 - **Kind:** Framework
 - **Best for:** Teams building server-rendered web applications or API backends with AdonisJS; Node.js projects that benefit from a cohesive framework and official package ecosystem
 - **Languages:** TypeScript, JavaScript
@@ -47,12 +49,14 @@ The TypeScript-first, full-stack MVC framework core for Node.js web applications
   - HTTP server, body parsing, configuration, environment, event, logging, and health modules
   - Command toolkit exposed through the adonis-kit CLI
 
+<a id="repo-anomalyco--opentui"></a>
+
 ## [OpenTUI](https://github.com/anomalyco/opentui)
 
 A native terminal UI library with a Zig core, C ABI, and TypeScript bindings; it offers component-based layout and rendering primitives plus React and Solid reconcilers for building terminal applications.
 
-- **Category:** [Application Frameworks](../categories/application-frameworks.md)
-- **Topics:** [Terminal](../topics/terminal.md) | [TUI](../topics/tui.md) | [Libraries](../topics/libraries.md) | [UI Components](../topics/ui-components.md) | [Frameworks](../topics/frameworks.md)
+- **Category:** [Application Frameworks](../categories/application-frameworks.md#repo-anomalyco--opentui)
+- **Topics:** [Terminal](../topics/terminal.md#repo-anomalyco--opentui) | [TUI](../topics/tui.md#repo-anomalyco--opentui) | [Libraries](../topics/libraries.md#repo-anomalyco--opentui) | [UI Components](../topics/ui-components.md#repo-anomalyco--opentui) | [Frameworks](../topics/frameworks.md#repo-anomalyco--opentui)
 - **Kind:** Library
 - **Best for:** Developers building terminal applications from TypeScript or JavaScript; Teams wanting a native core with optional React or Solid rendering layers
 - **Languages:** Zig, TypeScript
@@ -66,12 +70,14 @@ A native terminal UI library with a Zig core, C ABI, and TypeScript bindings; it
   - Component-based architecture with flexible terminal layout capabilities
   - Core package with imperative APIs and terminal primitives
 
+<a id="repo-effect-ts--effect"></a>
+
 ## [Effect](https://github.com/Effect-TS/effect)
 
 A TypeScript library and package monorepo for building type-safe, production-grade applications, centered on the Effect package and companion packages for platform, testing, observability, SQL, AI, and UI integrations.
 
-- **Category:** [Application Frameworks](../categories/application-frameworks.md)
-- **Topics:** [Frameworks](../topics/frameworks.md) | [Libraries](../topics/libraries.md) | [Testing](../topics/testing.md) | [Observability](../topics/observability.md)
+- **Category:** [Application Frameworks](../categories/application-frameworks.md#repo-effect-ts--effect)
+- **Topics:** [Frameworks](../topics/frameworks.md#repo-effect-ts--effect) | [Libraries](../topics/libraries.md#repo-effect-ts--effect) | [Testing](../topics/testing.md#repo-effect-ts--effect) | [Observability](../topics/observability.md#repo-effect-ts--effect)
 - **Kind:** Library
 - **Best for:** TypeScript applications that need a shared foundation for typed application concerns; Teams adopting the Effect package ecosystem across Node.js, Bun, or browser targets
 - **Languages:** TypeScript
@@ -85,12 +91,14 @@ A TypeScript library and package monorepo for building type-safe, production-gra
   - A dedicated testing module is exported from the primary package
   - Unstable primary-package exports cover AI, CLI, cluster, HTTP, observability, persistence, RPC, schema, SQL, workflow, and workers
 
+<a id="repo-fastify--fastify"></a>
+
 ## [Fastify](https://github.com/fastify/fastify)
 
 A Node.js web framework for building HTTP servers and APIs with route schemas, structured logging, and an extensible architecture based on hooks, decorators, and encapsulated plugins.
 
-- **Category:** [Application Frameworks](../categories/application-frameworks.md)
-- **Topics:** [Web](../topics/web.md) | [Backend Development](../topics/backend-development.md) | [API Development](../topics/api-development.md) | [Frameworks](../topics/frameworks.md)
+- **Category:** [Application Frameworks](../categories/application-frameworks.md#repo-fastify--fastify)
+- **Topics:** [Web](../topics/web.md#repo-fastify--fastify) | [Backend Development](../topics/backend-development.md#repo-fastify--fastify) | [API Development](../topics/api-development.md#repo-fastify--fastify) | [Frameworks](../topics/frameworks.md#repo-fastify--fastify)
 - **Kind:** Framework
 - **Best for:** Node.js services and APIs that need a concise route API and plugin composition; Teams that want schema-driven validation and response serialization
 - **Languages:** JavaScript
@@ -104,12 +112,14 @@ A Node.js web framework for building HTTP servers and APIs with route schemas, s
   - Hooks, decorators, and encapsulated plugins for extending server behavior
   - JSON Schema-based route validation and response serialization
 
+<a id="repo-honojs--hono"></a>
+
 ## [Hono](https://github.com/honojs/hono)
 
 A small TypeScript web framework built on Web Standards for defining HTTP applications and middleware that can run across edge, serverless, and JavaScript server runtimes including Cloudflare Workers, Deno, Bun, AWS Lambda, and Node.js.
 
-- **Category:** [Application Frameworks](../categories/application-frameworks.md)
-- **Topics:** [Web](../topics/web.md) | [Frameworks](../topics/frameworks.md) | [Backend Development](../topics/backend-development.md) | [API Development](../topics/api-development.md) | [Performance](../topics/performance.md) | [Libraries](../topics/libraries.md)
+- **Category:** [Application Frameworks](../categories/application-frameworks.md#repo-honojs--hono)
+- **Topics:** [Web](../topics/web.md#repo-honojs--hono) | [Frameworks](../topics/frameworks.md#repo-honojs--hono) | [Backend Development](../topics/backend-development.md#repo-honojs--hono) | [API Development](../topics/api-development.md#repo-honojs--hono) | [Performance](../topics/performance.md#repo-honojs--hono) | [Libraries](../topics/libraries.md#repo-honojs--hono)
 - **Kind:** Framework
 - **Best for:** TypeScript teams targeting more than one JavaScript or edge runtime; Small HTTP APIs, web applications, and middleware-driven services
 - **Languages:** TypeScript
@@ -123,12 +133,14 @@ A small TypeScript web framework built on Web Standards for defining HTTP applic
   - Built-in, custom, and third-party middleware support
   - Runtime adapters for edge platforms, serverless functions, and Node.js
 
+<a id="repo-lynx-family--lynx"></a>
+
 ## [Lynx](https://github.com/lynx-family/lynx)
 
 The core engine of an open-source family for creating native mobile and web user interfaces from one codebase using web-oriented CSS and React knowledge.
 
-- **Category:** [Application Frameworks](../categories/application-frameworks.md)
-- **Topics:** [Mobile Development](../topics/mobile-development.md) | [Web](../topics/web.md) | [Frontend Development](../topics/frontend-development.md) | [Frameworks](../topics/frameworks.md) | [Performance](../topics/performance.md) | [Open Source](../topics/open-source.md)
+- **Category:** [Application Frameworks](../categories/application-frameworks.md#repo-lynx-family--lynx)
+- **Topics:** [Mobile Development](../topics/mobile-development.md#repo-lynx-family--lynx) | [Web](../topics/web.md#repo-lynx-family--lynx) | [Frontend Development](../topics/frontend-development.md#repo-lynx-family--lynx) | [Frameworks](../topics/frameworks.md#repo-lynx-family--lynx) | [Performance](../topics/performance.md#repo-lynx-family--lynx) | [Open Source](../topics/open-source.md#repo-lynx-family--lynx)
 - **Kind:** Framework
 - **Best for:** Web developers building Android, iOS, and web user interfaces; Teams that need a native mobile runtime with web-oriented authoring
 - **Languages:** C++, TypeScript, JavaScript
@@ -142,12 +154,14 @@ The core engine of an open-source family for creating native mobile and web user
   - Custom renderer for consistent mobile and desktop output
   - CSS- and React-oriented development model
 
+<a id="repo-modelcontextprotocol--ext-apps"></a>
+
 ## [MCP Apps](https://github.com/modelcontextprotocol/ext-apps)
 
 A specification and TypeScript SDK for delivering interactive HTML views from MCP tools so compliant chat clients can render forms, charts, dashboards, and other embedded interfaces inline in a conversation.
 
-- **Category:** [Application Frameworks](../categories/application-frameworks.md)
-- **Topics:** [MCP](../topics/mcp.md) | [Chat UI](../topics/chat-ui.md) | [Web UI](../topics/web-ui.md) | [UI Components](../topics/ui-components.md)
+- **Category:** [Application Frameworks](../categories/application-frameworks.md#repo-modelcontextprotocol--ext-apps)
+- **Topics:** [MCP](../topics/mcp.md#repo-modelcontextprotocol--ext-apps) | [Chat UI](../topics/chat-ui.md#repo-modelcontextprotocol--ext-apps) | [Web UI](../topics/web-ui.md#repo-modelcontextprotocol--ext-apps) | [UI Components](../topics/ui-components.md#repo-modelcontextprotocol--ext-apps)
 - **Kind:** Framework
 - **Best for:** MCP server authors adding interactive UI resources to tool results; Chat-client and web-view developers embedding and communicating with MCP App views
 - **Languages:** TypeScript, JavaScript
@@ -161,12 +175,14 @@ A specification and TypeScript SDK for delivering interactive HTML views from MC
   - Defines a host-rendered sandboxed iframe and bidirectional UI-to-tool communication
   - Provides SDK entry points for Views, React hooks, client app bridges, and MCP server helpers
 
+<a id="repo-pmndrs--jotai"></a>
+
 ## [Jotai](https://github.com/pmndrs/jotai)
 
 An atom-based state-management library for React that composes primitive and derived atoms into application state, with React hooks and store APIs.
 
-- **Category:** [Application Frameworks](../categories/application-frameworks.md)
-- **Topics:** [Web](../topics/web.md) | [Frontend Development](../topics/frontend-development.md) | [Libraries](../topics/libraries.md)
+- **Category:** [Application Frameworks](../categories/application-frameworks.md#repo-pmndrs--jotai)
+- **Topics:** [Web](../topics/web.md#repo-pmndrs--jotai) | [Frontend Development](../topics/frontend-development.md#repo-pmndrs--jotai) | [Libraries](../topics/libraries.md#repo-pmndrs--jotai)
 - **Kind:** Library
 - **Best for:** React applications that benefit from independently composable state units; Teams that want derived state expressed directly from other atoms
 - **Languages:** TypeScript, JavaScript
@@ -180,12 +196,14 @@ An atom-based state-management library for React that composes primitive and der
   - Exposes useAtom and related React hooks for reading and writing atom state
   - Supports asynchronous atoms that integrate with React Suspense behavior
 
+<a id="repo-pmndrs--zustand"></a>
+
 ## [Zustand](https://github.com/pmndrs/zustand)
 
 A small, hook-based state-management library for React that creates stores without requiring context providers and also exposes a vanilla store API.
 
-- **Category:** [Application Frameworks](../categories/application-frameworks.md)
-- **Topics:** [Web](../topics/web.md) | [Frontend Development](../topics/frontend-development.md) | [Libraries](../topics/libraries.md)
+- **Category:** [Application Frameworks](../categories/application-frameworks.md#repo-pmndrs--zustand)
+- **Topics:** [Web](../topics/web.md#repo-pmndrs--zustand) | [Frontend Development](../topics/frontend-development.md#repo-pmndrs--zustand) | [Libraries](../topics/libraries.md#repo-pmndrs--zustand)
 - **Kind:** Library
 - **Best for:** React applications that need concise, provider-free application state; JavaScript applications that need a standalone observable store
 - **Languages:** TypeScript, JavaScript
@@ -199,12 +217,14 @@ A small, hook-based state-management library for React that creates stores witho
   - Re-renders consuming components when their selected state changes
   - Supports vanilla stores outside React through createStore and useStore
 
+<a id="repo-pyscript--pyscript"></a>
+
 ## [PyScript](https://github.com/pyscript/pyscript)
 
 An open-source browser platform for building Python applications with Pyodide or MicroPython, WebAssembly, and modern web technologies.
 
-- **Category:** [Application Frameworks](../categories/application-frameworks.md)
-- **Topics:** [Web](../topics/web.md) | [Frontend Development](../topics/frontend-development.md) | [Libraries](../topics/libraries.md)
+- **Category:** [Application Frameworks](../categories/application-frameworks.md#repo-pyscript--pyscript)
+- **Topics:** [Web](../topics/web.md#repo-pyscript--pyscript) | [Frontend Development](../topics/frontend-development.md#repo-pyscript--pyscript) | [Libraries](../topics/libraries.md#repo-pyscript--pyscript)
 - **Kind:** Framework
 - **Best for:** Browser applications that need Python embedded directly in an HTML page; Prototypes and web experiences that can use Pyodide or MicroPython runtimes
 - **Languages:** Python, JavaScript, HTML
@@ -218,12 +238,14 @@ An open-source browser platform for building Python applications with Pyodide or
   - Publishes browser-ready core JavaScript and CSS release assets
   - Uses WebAssembly and standard web technologies for browser execution
 
+<a id="repo-standardagents--arrow-js"></a>
+
 ## [ArrowJS](https://github.com/standardagents/arrow-js)
 
 A TypeScript reactive UI framework centered on JavaScript modules, tagged templates, and direct DOM updates, with optional asynchronous components, server-side rendering, hydration, Vite integration, and a QuickJS/WASM sandbox.
 
-- **Category:** [Application Frameworks](../categories/application-frameworks.md)
-- **Topics:** [Coding Agents](../topics/coding-agents.md) | [Agent Skills](../topics/agent-skills.md) | [Frameworks](../topics/frameworks.md) | [Frontend Development](../topics/frontend-development.md) | [Sandboxing](../topics/sandboxing.md) | [Web](../topics/web.md)
+- **Category:** [Application Frameworks](../categories/application-frameworks.md#repo-standardagents--arrow-js)
+- **Topics:** [Coding Agents](../topics/coding-agents.md#repo-standardagents--arrow-js) | [Agent Skills](../topics/agent-skills.md#repo-standardagents--arrow-js) | [Frameworks](../topics/frameworks.md#repo-standardagents--arrow-js) | [Frontend Development](../topics/frontend-development.md#repo-standardagents--arrow-js) | [Sandboxing](../topics/sandboxing.md#repo-standardagents--arrow-js) | [Web](../topics/web.md#repo-standardagents--arrow-js)
 - **Kind:** Framework
 - **Best for:** Developers who want a small reactive DOM runtime with a minimal core API; Projects that need to add async components, SSR, and hydration without changing component models
 - **Languages:** TypeScript, JavaScript
@@ -237,12 +259,14 @@ A TypeScript reactive UI framework centered on JavaScript modules, tagged templa
   - Separate framework package for asynchronous components and rendering boundaries
   - SSR package for rendering HTML and serializing asynchronous payloads
 
+<a id="repo-upstash--jstack"></a>
+
 ## [jstack](https://github.com/upstash/jstack)
 
 A type-safe application stack for building lightweight end-to-end Next.js applications with a Hono server layer and React client support.
 
-- **Category:** [Application Frameworks](../categories/application-frameworks.md)
-- **Topics:** [Web](../topics/web.md) | [Open Source](../topics/open-source.md) | [Frameworks](../topics/frameworks.md) | [Frontend Development](../topics/frontend-development.md) | [Backend Development](../topics/backend-development.md)
+- **Category:** [Application Frameworks](../categories/application-frameworks.md#repo-upstash--jstack)
+- **Topics:** [Web](../topics/web.md#repo-upstash--jstack) | [Open Source](../topics/open-source.md#repo-upstash--jstack) | [Frameworks](../topics/frameworks.md#repo-upstash--jstack) | [Frontend Development](../topics/frontend-development.md#repo-upstash--jstack) | [Backend Development](../topics/backend-development.md#repo-upstash--jstack)
 - **Kind:** Framework
 - **Best for:** Teams that want a pre-composed Next.js, Hono, Tailwind, and Drizzle ORM stack.; Lightweight end-to-end TypeScript web applications with a React client and Hono server layer.
 - **Languages:** TypeScript

@@ -2,7 +2,7 @@ import assert from "node:assert/strict";
 import test from "node:test";
 
 import type { CatalogArtifact, CatalogRepository } from "./generate-catalog.js";
-import { buildMarkdownPages, displayName } from "./generate-pages.js";
+import { buildMarkdownPages, displayName, repositoryAnchor } from "./generate-pages.js";
 
 const repository = {
   id: "github:example/tool",
@@ -36,6 +36,10 @@ test("displayName preserves common technical acronyms", () => {
   assert.equal(displayName("devops-and-cloud"), "DevOps and Cloud");
 });
 
+test("repositoryAnchor is stable and unique to the GitHub identity", () => {
+  assert.equal(repositoryAnchor(repository), "repo-example--tool");
+});
+
 test("buildMarkdownPages creates the root, category, and used topic pages", () => {
   const pages = buildMarkdownPages(catalog, {
     primary_categories: ["developer-tools", "other"],
@@ -49,7 +53,8 @@ test("buildMarkdownPages creates the root, category, and used topic pages", () =
   ]);
   assert.match(pages[0].content, /Repositories by primary category/);
   assert.doesNotMatch(pages[0].content, /Browse by topic/);
-  assert.match(pages[0].content, /topics\/cli\.md/);
+  assert.match(pages[0].content, /topics\/cli\.md#repo-example--tool/);
   assert.match(pages[1].content, /\*\*Key features\*\*/);
   assert.match(pages[2].content, /Primary categories represented/);
+  assert.match(pages[2].content, /<a id="repo-example--tool"><\/a>/);
 });

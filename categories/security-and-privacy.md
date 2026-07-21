@@ -30,12 +30,14 @@
 - [Tool Use](../topics/tool-use.md) (1)
 - [Web](../topics/web.md) (1)
 
+<a id="repo-anomalyco--openauth"></a>
+
 ## [OpenAuth](https://github.com/anomalyco/openauth)
 
 A TypeScript library for deploying or embedding a self-hosted, OAuth 2.0 authorization provider, with configurable identity providers, storage, and user-subject handling for web, mobile, API, and third-party clients.
 
-- **Category:** [Security and Privacy](../categories/security-and-privacy.md)
-- **Topics:** [Authentication](../topics/authentication.md) | [Self Hosted](../topics/self-hosted.md) | [Web](../topics/web.md) | [API Development](../topics/api-development.md)
+- **Category:** [Security and Privacy](../categories/security-and-privacy.md#repo-anomalyco--openauth)
+- **Topics:** [Authentication](../topics/authentication.md#repo-anomalyco--openauth) | [Self Hosted](../topics/self-hosted.md#repo-anomalyco--openauth) | [Web](../topics/web.md#repo-anomalyco--openauth) | [API Development](../topics/api-development.md#repo-anomalyco--openauth)
 - **Kind:** Library
 - **Best for:** Teams that need a customizable, self-hosted OAuth authorization server; JavaScript applications that need to issue and verify access and refresh tokens
 - **Languages:** TypeScript
@@ -49,12 +51,14 @@ A TypeScript library for deploying or embedding a self-hosted, OAuth 2.0 authori
   - Supports third-party and built-in identity-provider flows, including password UI
   - Supplies client helpers for authorization, token exchange, verification, and refresh
 
+<a id="repo-dicklesworthstone--destructive_command_guard"></a>
+
 ## [Destructive Command Guard (dcg)](https://github.com/Dicklesworthstone/destructive_command_guard)
 
 A Rust command-line guard and pre-execution hook for AI coding agents that detects and blocks configured destructive Git, shell, filesystem, database, cloud, and container commands before they run.
 
-- **Category:** [Security and Privacy](../categories/security-and-privacy.md)
-- **Topics:** [AI Agents](../topics/ai-agents.md) | [Coding Agents](../topics/coding-agents.md) | [CLI](../topics/cli.md) | [Git](../topics/git.md) | [Policy Enforcement](../topics/policy-enforcement.md) | [Security](../topics/security.md)
+- **Category:** [Security and Privacy](../categories/security-and-privacy.md#repo-dicklesworthstone--destructive_command_guard)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-dicklesworthstone--destructive_command_guard) | [Coding Agents](../topics/coding-agents.md#repo-dicklesworthstone--destructive_command_guard) | [CLI](../topics/cli.md#repo-dicklesworthstone--destructive_command_guard) | [Git](../topics/git.md#repo-dicklesworthstone--destructive_command_guard) | [Policy Enforcement](../topics/policy-enforcement.md#repo-dicklesworthstone--destructive_command_guard) | [Security](../topics/security.md#repo-dicklesworthstone--destructive_command_guard)
 - **Kind:** CLI
 - **Best for:** Adding configurable command-safety checks to supported AI coding agents; Preventing accidental destructive Git or shell operations in local repositories
 - **Languages:** Rust
@@ -68,12 +72,14 @@ A Rust command-line guard and pre-execution hook for AI coding agents that detec
   - Built-in rule packs for Git and filesystem operations, with optional domain-specific packs
   - Heredoc and inline-script scanning alongside direct command matching
 
+<a id="repo-google--magika"></a>
+
 ## [Magika](https://github.com/google/magika)
 
 A deep-learning file-content detector available as a Rust command-line tool and Python, Rust, JavaScript/TypeScript, and work-in-progress Go bindings, designed to classify files even when names or extensions mislead.
 
-- **Category:** [Security and Privacy](../categories/security-and-privacy.md)
-- **Topics:** [Machine Learning](../topics/machine-learning.md) | [CLI](../topics/cli.md) | [Libraries](../topics/libraries.md) | [Security](../topics/security.md) | [Data Processing](../topics/data-processing.md)
+- **Category:** [Security and Privacy](../categories/security-and-privacy.md#repo-google--magika)
+- **Topics:** [Machine Learning](../topics/machine-learning.md#repo-google--magika) | [CLI](../topics/cli.md#repo-google--magika) | [Libraries](../topics/libraries.md#repo-google--magika) | [Security](../topics/security.md#repo-google--magika) | [Data Processing](../topics/data-processing.md#repo-google--magika)
 - **Kind:** CLI
 - **Best for:** Routing untrusted files to suitable security or content-policy scanners; Adding content-type detection to Python, Rust, JavaScript, or CLI workflows
 - **Languages:** Rust, Python, TypeScript, Go
@@ -87,12 +93,14 @@ A deep-learning file-content detector available as a Rust command-line tool and 
   - Scans individual files, standard input, batches, or directories recursively
   - Emits human-readable, MIME-type, label, JSON, JSONL, score, or custom output
 
+<a id="repo-infisical--agent-vault"></a>
+
 ## [Agent Vault](https://github.com/Infisical/agent-vault)
 
 A self-hostable HTTP credential proxy and vault that lets AI agents call external APIs through a MITM proxy, injecting stored credentials without exposing the real values to the agent process.
 
-- **Category:** [Security and Privacy](../categories/security-and-privacy.md)
-- **Topics:** [AI Agents](../topics/ai-agents.md) | [Tool Use](../topics/tool-use.md) | [Security](../topics/security.md) | [Secrets Management](../topics/secrets-management.md) | [Authentication](../topics/authentication.md) | [Self Hosted](../topics/self-hosted.md) | [Containers](../topics/containers.md) | [Observability](../topics/observability.md)
+- **Category:** [Security and Privacy](../categories/security-and-privacy.md#repo-infisical--agent-vault)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-infisical--agent-vault) | [Tool Use](../topics/tool-use.md#repo-infisical--agent-vault) | [Security](../topics/security.md#repo-infisical--agent-vault) | [Secrets Management](../topics/secrets-management.md#repo-infisical--agent-vault) | [Authentication](../topics/authentication.md#repo-infisical--agent-vault) | [Self Hosted](../topics/self-hosted.md#repo-infisical--agent-vault) | [Containers](../topics/containers.md#repo-infisical--agent-vault) | [Observability](../topics/observability.md#repo-infisical--agent-vault)
 - **Kind:** Service
 - **Best for:** Operators giving coding or custom agents controlled access to authenticated APIs; Remote or ephemeral agent environments that need brokered, scoped credentials
 - **Languages:** Go, TypeScript
@@ -106,12 +114,14 @@ A self-hostable HTTP credential proxy and vault that lets AI agents call externa
   - Applies service and endpoint access rules, including an optional strict deny policy
   - Logs authenticated requests for agent monitoring and diagnosis
 
+<a id="repo-mukul975--anthropic-cybersecurity-skills"></a>
+
 ## [Anthropic Cybersecurity Skills](https://github.com/mukul975/Anthropic-Cybersecurity-Skills)
 
 An independent, agentskills.io-format library of cybersecurity workflows for AI agents, spanning defensive, investigative, governance, and authorized offensive-security work.
 
-- **Category:** [Security and Privacy](../categories/security-and-privacy.md)
-- **Topics:** [AI Agents](../topics/ai-agents.md) | [Agent Skills](../topics/agent-skills.md) | [Security](../topics/security.md) | [Policy Enforcement](../topics/policy-enforcement.md) | [Documentation](../topics/documentation.md) | [Open Source](../topics/open-source.md)
+- **Category:** [Security and Privacy](../categories/security-and-privacy.md#repo-mukul975--anthropic-cybersecurity-skills)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-mukul975--anthropic-cybersecurity-skills) | [Agent Skills](../topics/agent-skills.md#repo-mukul975--anthropic-cybersecurity-skills) | [Security](../topics/security.md#repo-mukul975--anthropic-cybersecurity-skills) | [Policy Enforcement](../topics/policy-enforcement.md#repo-mukul975--anthropic-cybersecurity-skills) | [Documentation](../topics/documentation.md#repo-mukul975--anthropic-cybersecurity-skills) | [Open Source](../topics/open-source.md#repo-mukul975--anthropic-cybersecurity-skills)
 - **Kind:** Library
 - **Best for:** Security teams adding structured workflows to compatible AI agents; Authorized security testing, investigation, defense, and education
 - **Languages:** Python, Markdown
@@ -125,12 +135,14 @@ An independent, agentskills.io-format library of cybersecurity workflows for AI 
   - Maps skills to MITRE ATT&CK, NIST CSF, MITRE ATLAS, D3FEND, NIST AI RMF, and MITRE F3
   - Uses YAML discovery metadata, step-by-step Markdown workflows, references, helpers, and templates
 
+<a id="repo-nvidia--nemoclaw"></a>
+
 ## [NVIDIA NemoClaw](https://github.com/NVIDIA/NemoClaw)
 
 An alpha reference stack and CLI for operating selected always-on AI agents in NVIDIA OpenShell sandboxes, combining guided onboarding, inference routing, declarative network policy, and sandbox lifecycle management.
 
-- **Category:** [Security and Privacy](../categories/security-and-privacy.md)
-- **Topics:** [AI Agents](../topics/ai-agents.md) | [Agent Harnesses](../topics/agent-harnesses.md) | [Sandboxing](../topics/sandboxing.md) | [Security](../topics/security.md) | [Policy Enforcement](../topics/policy-enforcement.md) | [Self Hosted](../topics/self-hosted.md) | [CLI](../topics/cli.md)
+- **Category:** [Security and Privacy](../categories/security-and-privacy.md#repo-nvidia--nemoclaw)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-nvidia--nemoclaw) | [Agent Harnesses](../topics/agent-harnesses.md#repo-nvidia--nemoclaw) | [Sandboxing](../topics/sandboxing.md#repo-nvidia--nemoclaw) | [Security](../topics/security.md#repo-nvidia--nemoclaw) | [Policy Enforcement](../topics/policy-enforcement.md#repo-nvidia--nemoclaw) | [Self Hosted](../topics/self-hosted.md#repo-nvidia--nemoclaw) | [CLI](../topics/cli.md#repo-nvidia--nemoclaw)
 - **Kind:** Framework
 - **Best for:** Teams that need a reference deployment pattern for constrained always-on agents; Operators running supported agents with OpenShell sandbox and egress controls
 - **Languages:** TypeScript, Python
@@ -144,12 +156,14 @@ An alpha reference stack and CLI for operating selected always-on AI agents in N
   - Routes model traffic through OpenShell while keeping credentials on the host
   - Applies declarative egress rules and asks the operator to approve unknown hosts
 
+<a id="repo-vercel-labs--deepsec"></a>
+
 ## [Deepsec](https://github.com/vercel-labs/deepsec)
 
 An agent-powered vulnerability-scanning CLI that combines matcher-based candidate discovery with AI investigation, finding revalidation, and report export for application codebases.
 
-- **Category:** [Security and Privacy](../categories/security-and-privacy.md)
-- **Topics:** [Coding Agents](../topics/coding-agents.md) | [Agent Harnesses](../topics/agent-harnesses.md) | [CLI](../topics/cli.md) | [Security](../topics/security.md) | [Code Review](../topics/code-review.md) | [Sandboxing](../topics/sandboxing.md)
+- **Category:** [Security and Privacy](../categories/security-and-privacy.md#repo-vercel-labs--deepsec)
+- **Topics:** [Coding Agents](../topics/coding-agents.md#repo-vercel-labs--deepsec) | [Agent Harnesses](../topics/agent-harnesses.md#repo-vercel-labs--deepsec) | [CLI](../topics/cli.md#repo-vercel-labs--deepsec) | [Security](../topics/security.md#repo-vercel-labs--deepsec) | [Code Review](../topics/code-review.md#repo-vercel-labs--deepsec) | [Sandboxing](../topics/sandboxing.md#repo-vercel-labs--deepsec)
 - **Kind:** CLI
 - **Best for:** Security teams reviewing established or large codebases for application-specific vulnerabilities; Teams that can budget model usage and want repeatable pull-request or CI security review
 - **Languages:** TypeScript

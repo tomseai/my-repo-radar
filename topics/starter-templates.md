@@ -9,12 +9,14 @@
 - [AI and Automation](../categories/ai-and-automation.md) (2)
 - [Developer Tools](../categories/developer-tools.md) (1)
 
+<a id="repo-n8n-io--self-hosted-ai-starter-kit"></a>
+
 ## [Self-hosted AI Starter Kit](https://github.com/n8n-io/self-hosted-ai-starter-kit)
 
 Docker Compose template for a self-hosted n8n environment with Ollama, Qdrant, and PostgreSQL for AI and low-code workflows.
 
-- **Category:** [AI and Automation](../categories/ai-and-automation.md)
-- **Topics:** [AI Agents](../topics/ai-agents.md) | [LLMs](../topics/llms.md) | [Self Hosted](../topics/self-hosted.md) | [Local Models](../topics/local-models.md) | [Containers](../topics/containers.md) | [Automation](../topics/automation.md) | [Starter Templates](../topics/starter-templates.md)
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-n8n-io--self-hosted-ai-starter-kit)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-n8n-io--self-hosted-ai-starter-kit) | [LLMs](../topics/llms.md#repo-n8n-io--self-hosted-ai-starter-kit) | [Self Hosted](../topics/self-hosted.md#repo-n8n-io--self-hosted-ai-starter-kit) | [Local Models](../topics/local-models.md#repo-n8n-io--self-hosted-ai-starter-kit) | [Containers](../topics/containers.md#repo-n8n-io--self-hosted-ai-starter-kit) | [Automation](../topics/automation.md#repo-n8n-io--self-hosted-ai-starter-kit) | [Starter Templates](../topics/starter-templates.md#repo-n8n-io--self-hosted-ai-starter-kit)
 - **Kind:** Starter Template
 - **Best for:** Developers prototyping self-hosted n8n AI workflows with local models and vector search.; Teams wanting a working Compose baseline rather than a production-ready platform deployment.
 - **Languages:** YAML
@@ -28,12 +30,14 @@ Docker Compose template for a self-hosted n8n environment with Ollama, Qdrant, a
   - Includes Ollama and an initialization service that pulls the Llama 3.2 model.
   - Includes Qdrant as a persistent vector store exposed on its API port.
 
+<a id="repo-t3-oss--create-t3-app"></a>
+
 ## [create-t3-app](https://github.com/t3-oss/create-t3-app)
 
 An interactive CLI that scaffolds modular, type-safe full-stack Next.js applications from a selectable T3 Stack configuration.
 
-- **Category:** [Developer Tools](../categories/developer-tools.md)
-- **Topics:** [CLI](../topics/cli.md) | [Web](../topics/web.md) | [Starter Templates](../topics/starter-templates.md) | [Frontend Development](../topics/frontend-development.md) | [Backend Development](../topics/backend-development.md) | [Authentication](../topics/authentication.md) | [Databases](../topics/databases.md) | [Developer Productivity](../topics/developer-productivity.md)
+- **Category:** [Developer Tools](../categories/developer-tools.md#repo-t3-oss--create-t3-app)
+- **Topics:** [CLI](../topics/cli.md#repo-t3-oss--create-t3-app) | [Web](../topics/web.md#repo-t3-oss--create-t3-app) | [Starter Templates](../topics/starter-templates.md#repo-t3-oss--create-t3-app) | [Frontend Development](../topics/frontend-development.md#repo-t3-oss--create-t3-app) | [Backend Development](../topics/backend-development.md#repo-t3-oss--create-t3-app) | [Authentication](../topics/authentication.md#repo-t3-oss--create-t3-app) | [Databases](../topics/databases.md#repo-t3-oss--create-t3-app) | [Developer Productivity](../topics/developer-productivity.md#repo-t3-oss--create-t3-app)
 - **Kind:** CLI
 - **Best for:** Starting a TypeScript-based Next.js application with common full-stack components; Teams that want a maintained baseline rather than assembling the stack manually
 - **Languages:** TypeScript
@@ -47,12 +51,14 @@ An interactive CLI that scaffolds modular, type-safe full-stack Next.js applicat
   - Base template built on Next.js, React, TypeScript, Zod, and environment validation
   - Optional tRPC, Tailwind CSS, Prisma, Drizzle ORM, and database client integrations
 
+<a id="repo-vercel-labs--open-agents"></a>
+
 ## [Open Agents](https://github.com/vercel-labs/open-agents)
 
 A Vercel-deployable reference application for background coding agents, combining a web interface, durable agent workflows, isolated sandbox VMs, and GitHub-based code-change workflows.
 
-- **Category:** [AI and Automation](../categories/ai-and-automation.md)
-- **Topics:** [Coding Agents](../topics/coding-agents.md) | [Agent Harnesses](../topics/agent-harnesses.md) | [Agent Skills](../topics/agent-skills.md) | [Sandboxing](../topics/sandboxing.md) | [Web UI](../topics/web-ui.md) | [GitHub](../topics/github.md) | [Pull Requests](../topics/pull-requests.md) | [Starter Templates](../topics/starter-templates.md) | [Open Source](../topics/open-source.md)
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-vercel-labs--open-agents)
+- **Topics:** [Coding Agents](../topics/coding-agents.md#repo-vercel-labs--open-agents) | [Agent Harnesses](../topics/agent-harnesses.md#repo-vercel-labs--open-agents) | [Agent Skills](../topics/agent-skills.md#repo-vercel-labs--open-agents) | [Sandboxing](../topics/sandboxing.md#repo-vercel-labs--open-agents) | [Web UI](../topics/web-ui.md#repo-vercel-labs--open-agents) | [GitHub](../topics/github.md#repo-vercel-labs--open-agents) | [Pull Requests](../topics/pull-requests.md#repo-vercel-labs--open-agents) | [Starter Templates](../topics/starter-templates.md#repo-vercel-labs--open-agents) | [Open Source](../topics/open-source.md#repo-vercel-labs--open-agents)
 - **Kind:** Starter Template
 - **Best for:** Teams that want to fork and adapt a cloud-hosted coding-agent application; Developers needing durable agent runs that can continue independently of a browser session
 - **Languages:** TypeScript

@@ -9,12 +9,14 @@
 - [Documentation and Learning](../categories/documentation-and-learning.md) (31)
 - [Frontend and Design](../categories/frontend-and-design.md) (1)
 
+<a id="repo-ai-collection--ai-collection"></a>
+
 ## [AI Collection](https://github.com/ai-collection/ai-collection)
 
 A large, hand-picked Markdown directory of generative-AI applications, organized into categories ranging from agents, coding, and chatbots to creative, business, research, and productivity tools.
 
-- **Category:** [Documentation and Learning](../categories/documentation-and-learning.md)
-- **Topics:** [Curated Lists](../topics/curated-lists.md) | [LLMs](../topics/llms.md) | [AI Agents](../topics/ai-agents.md) | [Code Generation](../topics/code-generation.md) | [Automation](../topics/automation.md) | [Reference](../topics/reference.md)
+- **Category:** [Documentation and Learning](../categories/documentation-and-learning.md#repo-ai-collection--ai-collection)
+- **Topics:** [Curated Lists](../topics/curated-lists.md#repo-ai-collection--ai-collection) | [LLMs](../topics/llms.md#repo-ai-collection--ai-collection) | [AI Agents](../topics/ai-agents.md#repo-ai-collection--ai-collection) | [Code Generation](../topics/code-generation.md#repo-ai-collection--ai-collection) | [Automation](../topics/automation.md#repo-ai-collection--ai-collection) | [Reference](../topics/reference.md#repo-ai-collection--ai-collection)
 - **Kind:** Curated List
 - **Best for:** Discovering AI products by application category; Browsing a broad reference list before evaluating individual tools
 - **Languages:** Markdown, HTML
@@ -28,12 +30,14 @@ A large, hand-picked Markdown directory of generative-AI applications, organized
   - Recently added section alongside a category index and individual application entries
   - Links to an associated AI Collection website for application details and pricing information
 
+<a id="repo-ai-for-developers--awesome-vibe-coding"></a>
+
 ## [Awesome Vibe Coding](https://github.com/ai-for-developers/awesome-vibe-coding)
 
 A hand-picked directory of tools and references for AI-assisted software development through prompting, iteration, and exploration, spanning builders, IDEs, agents, plugins, command-line tools, and reading.
 
-- **Category:** [Documentation and Learning](../categories/documentation-and-learning.md)
-- **Topics:** [Curated Lists](../topics/curated-lists.md) | [Coding Agents](../topics/coding-agents.md) | [Code Generation](../topics/code-generation.md) | [Prompt Engineering](../topics/prompt-engineering.md) | [Developer Productivity](../topics/developer-productivity.md) | [Reference](../topics/reference.md)
+- **Category:** [Documentation and Learning](../categories/documentation-and-learning.md#repo-ai-for-developers--awesome-vibe-coding)
+- **Topics:** [Curated Lists](../topics/curated-lists.md#repo-ai-for-developers--awesome-vibe-coding) | [Coding Agents](../topics/coding-agents.md#repo-ai-for-developers--awesome-vibe-coding) | [Code Generation](../topics/code-generation.md#repo-ai-for-developers--awesome-vibe-coding) | [Prompt Engineering](../topics/prompt-engineering.md#repo-ai-for-developers--awesome-vibe-coding) | [Developer Productivity](../topics/developer-productivity.md#repo-ai-for-developers--awesome-vibe-coding) | [Reference](../topics/reference.md#repo-ai-for-developers--awesome-vibe-coding)
 - **Kind:** Curated List
 - **Best for:** Comparing categories of AI-assisted development tools before choosing one; Finding articles, task-management tools, and documentation for prompt-driven development workflows
 - **Languages:** Markdown
@@ -47,12 +51,14 @@ A hand-picked directory of tools and references for AI-assisted software develop
   - Listings for agentic task management, monitoring and cost tracking, project documentation, and articles
   - Direct official-site or repository links with concise descriptions for each resource
 
+<a id="repo-arindam200--awesome-ai-apps"></a>
+
 ## [Awesome AI Apps](https://github.com/Arindam200/awesome-ai-apps)
 
 A categorized collection of independently runnable AI application examples and tutorials, spanning starter agents, RAG, voice, MCP, memory, advanced multi-step workflows, and fine-tuning rather than one integrated product.
 
-- **Category:** [Documentation and Learning](../categories/documentation-and-learning.md)
-- **Topics:** [AI Agents](../topics/ai-agents.md) | [LLMs](../topics/llms.md) | [MCP](../topics/mcp.md) | [Agent Memory](../topics/agent-memory.md) | [Multimodal](../topics/multimodal.md) | [Tutorials](../topics/tutorials.md) | [Curated Lists](../topics/curated-lists.md)
+- **Category:** [Documentation and Learning](../categories/documentation-and-learning.md#repo-arindam200--awesome-ai-apps)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-arindam200--awesome-ai-apps) | [LLMs](../topics/llms.md#repo-arindam200--awesome-ai-apps) | [MCP](../topics/mcp.md#repo-arindam200--awesome-ai-apps) | [Agent Memory](../topics/agent-memory.md#repo-arindam200--awesome-ai-apps) | [Multimodal](../topics/multimodal.md#repo-arindam200--awesome-ai-apps) | [Tutorials](../topics/tutorials.md#repo-arindam200--awesome-ai-apps) | [Curated Lists](../topics/curated-lists.md#repo-arindam200--awesome-ai-apps)
 - **Kind:** Curated List
 - **Best for:** Developers selecting a concrete AI example to inspect, adapt, or learn from; Teams surveying implementation patterns across agent, RAG, voice, and MCP projects
 - **Languages:** Python, JavaScript
@@ -66,12 +72,14 @@ A categorized collection of independently runnable AI application examples and t
   - Includes agent examples for research, customer support, coding, data, and workflow automation
   - Provides RAG projects for documents, codebases, PDFs, graphs, and citation-oriented answers
 
+<a id="repo-asgeirtj--system_prompts_leaks"></a>
+
 ## [System Prompts Leaks](https://github.com/asgeirtj/system_prompts_leaks)
 
 A repository-organized reference collection of extracted and published system prompts, injected reminders, skills, and commands for AI chatbots and developer tools.
 
-- **Category:** [Documentation and Learning](../categories/documentation-and-learning.md)
-- **Topics:** [LLMs](../topics/llms.md) | [Prompt Engineering](../topics/prompt-engineering.md) | [Documentation](../topics/documentation.md) | [Curated Lists](../topics/curated-lists.md) | [Reference](../topics/reference.md)
+- **Category:** [Documentation and Learning](../categories/documentation-and-learning.md#repo-asgeirtj--system_prompts_leaks)
+- **Topics:** [LLMs](../topics/llms.md#repo-asgeirtj--system_prompts_leaks) | [Prompt Engineering](../topics/prompt-engineering.md#repo-asgeirtj--system_prompts_leaks) | [Documentation](../topics/documentation.md#repo-asgeirtj--system_prompts_leaks) | [Curated Lists](../topics/curated-lists.md#repo-asgeirtj--system_prompts_leaks) | [Reference](../topics/reference.md#repo-asgeirtj--system_prompts_leaks)
 - **Kind:** Curated List
 - **Best for:** Comparing documented or captured instructions across AI products; Studying historical prompt variants, agent roles, and tool guidance
 - **Languages:** Markdown
@@ -85,12 +93,14 @@ A repository-organized reference collection of extracted and published system pr
   - Separate entries for chat products, coding tools, API-injected prompts, and browser or voice assistants
   - Claude Code prompt materials for agents, bundled skills, slash commands, reminders, and MCP servers
 
+<a id="repo-ashishps1--awesome-low-level-design"></a>
+
 ## [Awesome Low Level Design](https://github.com/ashishps1/awesome-low-level-design)
 
 A learning-resource collection for low-level and object-oriented design, combining fundamentals, principles, patterns, UML, concurrency material, interview problems, diagrams, and selected source-code examples.
 
-- **Category:** [Documentation and Learning](../categories/documentation-and-learning.md)
-- **Topics:** [Documentation](../topics/documentation.md) | [Tutorials](../topics/tutorials.md) | [Courses](../topics/courses.md) | [Curated Lists](../topics/curated-lists.md) | [Reference](../topics/reference.md)
+- **Category:** [Documentation and Learning](../categories/documentation-and-learning.md#repo-ashishps1--awesome-low-level-design)
+- **Topics:** [Documentation](../topics/documentation.md#repo-ashishps1--awesome-low-level-design) | [Tutorials](../topics/tutorials.md#repo-ashishps1--awesome-low-level-design) | [Courses](../topics/courses.md#repo-ashishps1--awesome-low-level-design) | [Curated Lists](../topics/curated-lists.md#repo-ashishps1--awesome-low-level-design) | [Reference](../topics/reference.md#repo-ashishps1--awesome-low-level-design)
 - **Kind:** Curated List
 - **Best for:** Learners studying object-oriented design and design patterns; Preparing for low-level-design or concurrency interview exercises
 - **Languages:** Java, JavaScript, Go, Rust, TypeScript
@@ -104,12 +114,14 @@ A learning-resource collection for low-level and object-oriented design, combini
   - Creational, structural, and behavioral design-pattern references
   - UML references plus class diagrams for many interview-style systems
 
+<a id="repo-best-of-ai--ai-directories"></a>
+
 ## [AI Directories](https://github.com/best-of-ai/ai-directories)
 
 A Markdown directory of third-party AI-product directories, intended to help AI product teams find places to discover tools or submit a listing.
 
-- **Category:** [Documentation and Learning](../categories/documentation-and-learning.md)
-- **Topics:** [Curated Lists](../topics/curated-lists.md) | [Reference](../topics/reference.md) | [Web](../topics/web.md)
+- **Category:** [Documentation and Learning](../categories/documentation-and-learning.md#repo-best-of-ai--ai-directories)
+- **Topics:** [Curated Lists](../topics/curated-lists.md#repo-best-of-ai--ai-directories) | [Reference](../topics/reference.md#repo-best-of-ai--ai-directories) | [Web](../topics/web.md#repo-best-of-ai--ai-directories)
 - **Kind:** Curated List
 - **Best for:** Finding potential directories through which to publish or discover an AI product; Browsing an alphabetically organized reference list rather than a hosted submission service
 - **Languages:** Markdown
@@ -123,12 +135,14 @@ A Markdown directory of third-party AI-product directories, intended to help AI 
   - Many entries include a short description and, where offered by the destination, a submission link
   - A featured-directory section and links to the maintainers' separate submission service
 
+<a id="repo-best-of-ai--best-of-ai"></a>
+
 ## [Best of AI](https://github.com/best-of-ai/best-of-ai)
 
 A community-maintained directory and companion website that organizes AI tools by category, professional role, and a maintainer-defined leaderboard.
 
-- **Category:** [Documentation and Learning](../categories/documentation-and-learning.md)
-- **Topics:** [Curated Lists](../topics/curated-lists.md) | [LLMs](../topics/llms.md) | [AI Agents](../topics/ai-agents.md) | [Reference](../topics/reference.md) | [Web](../topics/web.md)
+- **Category:** [Documentation and Learning](../categories/documentation-and-learning.md#repo-best-of-ai--best-of-ai)
+- **Topics:** [Curated Lists](../topics/curated-lists.md#repo-best-of-ai--best-of-ai) | [LLMs](../topics/llms.md#repo-best-of-ai--best-of-ai) | [AI Agents](../topics/ai-agents.md#repo-best-of-ai--best-of-ai) | [Reference](../topics/reference.md#repo-best-of-ai--best-of-ai) | [Web](../topics/web.md#repo-best-of-ai--best-of-ai)
 - **Kind:** Curated List
 - **Best for:** Browsing categorized AI-tool listings and linked tool reviews; Suggesting a new listing or correcting a directory entry through an issue or pull request
 - **Languages:** HTML, Python
@@ -142,12 +156,14 @@ A community-maintained directory and companion website that organizes AI tools b
   - A leaderboard and category listings that link to individual review pages on the companion website
   - Role-oriented tool collections for professionals such as developers, designers, and marketers
 
+<a id="repo-checkcheckzz--system-design-interview"></a>
+
 ## [System Design Interview](https://github.com/checkcheckzz/system-design-interview)
 
 A compact interview-preparation guide that combines a suggested design discussion approach with categorized links to system-design articles, real-system references, questions, books, and object-oriented-design material.
 
-- **Category:** [Documentation and Learning](../categories/documentation-and-learning.md)
-- **Topics:** [Curated Lists](../topics/curated-lists.md) | [Tutorials](../topics/tutorials.md) | [Reference](../topics/reference.md) | [Documentation](../topics/documentation.md)
+- **Category:** [Documentation and Learning](../categories/documentation-and-learning.md#repo-checkcheckzz--system-design-interview)
+- **Topics:** [Curated Lists](../topics/curated-lists.md#repo-checkcheckzz--system-design-interview) | [Tutorials](../topics/tutorials.md#repo-checkcheckzz--system-design-interview) | [Reference](../topics/reference.md#repo-checkcheckzz--system-design-interview) | [Documentation](../topics/documentation.md#repo-checkcheckzz--system-design-interview)
 - **Kind:** Curated List
 - **Best for:** Preparing a structured response to a system-design interview question; Finding further reading and real-system references by topic
 - **Languages:** Markdown
@@ -161,12 +177,14 @@ A compact interview-preparation guide that combines a suggested design discussio
   - Curated introductory links on scalability, distributed-systems concepts, and system-design patterns
   - Company engineering-blog directory for researching prospective interviewers
 
+<a id="repo-codecrafters-io--build-your-own-x"></a>
+
 ## [Build Your Own X](https://github.com/codecrafters-io/build-your-own-x)
 
 A Markdown index of external, step-by-step guides for recreating software technologies from scratch, organized by the kind of system to build.
 
-- **Category:** [Documentation and Learning](../categories/documentation-and-learning.md)
-- **Topics:** [Curated Lists](../topics/curated-lists.md) | [Tutorials](../topics/tutorials.md) | [Reference](../topics/reference.md) | [Documentation](../topics/documentation.md)
+- **Category:** [Documentation and Learning](../categories/documentation-and-learning.md#repo-codecrafters-io--build-your-own-x)
+- **Topics:** [Curated Lists](../topics/curated-lists.md#repo-codecrafters-io--build-your-own-x) | [Tutorials](../topics/tutorials.md#repo-codecrafters-io--build-your-own-x) | [Reference](../topics/reference.md#repo-codecrafters-io--build-your-own-x) | [Documentation](../topics/documentation.md#repo-codecrafters-io--build-your-own-x)
 - **Kind:** Curated List
 - **Best for:** Selecting an implementation-oriented tutorial for a familiar technology; Exploring systems-programming topics through reconstruction exercises
 - **Languages:** Markdown
@@ -180,12 +198,14 @@ A Markdown index of external, step-by-step guides for recreating software techno
   - Additional categories for browsers, web servers, front-end frameworks, shells, text editors, games, and renderers
   - Per-entry language labels and direct links to the original tutorial resources
 
+<a id="repo-composio-community--awesome-codex-skills"></a>
+
 ## [Awesome Codex Skills](https://github.com/composio-community/awesome-codex-skills)
 
 A curated collection of in-repository and external Codex skill references, with installation guidance for adding selected skills to a local Codex setup.
 
-- **Category:** [Documentation and Learning](../categories/documentation-and-learning.md)
-- **Topics:** [AI Agents](../topics/ai-agents.md) | [Coding Agents](../topics/coding-agents.md) | [Agent Skills](../topics/agent-skills.md) | [Automation](../topics/automation.md) | [Curated Lists](../topics/curated-lists.md) | [Reference](../topics/reference.md)
+- **Category:** [Documentation and Learning](../categories/documentation-and-learning.md#repo-composio-community--awesome-codex-skills)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-composio-community--awesome-codex-skills) | [Coding Agents](../topics/coding-agents.md#repo-composio-community--awesome-codex-skills) | [Agent Skills](../topics/agent-skills.md#repo-composio-community--awesome-codex-skills) | [Automation](../topics/automation.md#repo-composio-community--awesome-codex-skills) | [Curated Lists](../topics/curated-lists.md#repo-composio-community--awesome-codex-skills) | [Reference](../topics/reference.md#repo-composio-community--awesome-codex-skills)
 - **Kind:** Curated List
 - **Best for:** Discovering reusable Codex skills across development, collaboration, writing, data, and utility tasks; Installing a selected in-repository skill through the documented installer or a manual folder copy
 - **Languages:** Python
@@ -199,12 +219,14 @@ A curated collection of in-repository and external Codex skill references, with 
   - Quickstart instructions for a GitHub-based installer that copies a selected skill into CODEX_HOME
   - Manual-install instructions and a description of the required SKILL.md metadata layout
 
+<a id="repo-dontriskit--awesome-ai-system-prompts"></a>
+
 ## [awesome-ai-system-prompts](https://github.com/dontriskit/awesome-ai-system-prompts)
 
 A Markdown guide and repository collection that examines captured system prompts from AI products to identify patterns for agent roles, tools, planning, context, safety, and interaction style.
 
-- **Category:** [Documentation and Learning](../categories/documentation-and-learning.md)
-- **Topics:** [AI Agents](../topics/ai-agents.md) | [LLMs](../topics/llms.md) | [Prompt Engineering](../topics/prompt-engineering.md) | [Documentation](../topics/documentation.md) | [Curated Lists](../topics/curated-lists.md) | [Reference](../topics/reference.md)
+- **Category:** [Documentation and Learning](../categories/documentation-and-learning.md#repo-dontriskit--awesome-ai-system-prompts)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-dontriskit--awesome-ai-system-prompts) | [LLMs](../topics/llms.md#repo-dontriskit--awesome-ai-system-prompts) | [Prompt Engineering](../topics/prompt-engineering.md#repo-dontriskit--awesome-ai-system-prompts) | [Documentation](../topics/documentation.md#repo-dontriskit--awesome-ai-system-prompts) | [Curated Lists](../topics/curated-lists.md#repo-dontriskit--awesome-ai-system-prompts) | [Reference](../topics/reference.md#repo-dontriskit--awesome-ai-system-prompts)
 - **Kind:** Documentation
 - **Best for:** Studying patterns in public or captured AI-system prompts before designing an agent; Comparing prompt structure, tool instructions, and workflow conventions across products
 - **Languages:** Markdown
@@ -218,12 +240,14 @@ A Markdown guide and repository collection that examines captured system prompts
   - Case studies of v0, same.new, Manus, ChatGPT, and other AI systems
   - Repository-organized source materials for prompts, tools, and related instruction files
 
+<a id="repo-facundoolano--software-papers"></a>
+
 ## [Papers for Software Engineers](https://github.com/facundoolano/software-papers)
 
 A curated, topic-organized reading list of accessible papers for software engineering students and practitioners, spanning programming, design, systems, data, networking, security, operations, and related fields.
 
-- **Category:** [Documentation and Learning](../categories/documentation-and-learning.md)
-- **Topics:** [Curated Lists](../topics/curated-lists.md) | [Reference](../topics/reference.md) | [Developer Productivity](../topics/developer-productivity.md) | [Documentation](../topics/documentation.md) | [Databases](../topics/databases.md) | [Security](../topics/security.md)
+- **Category:** [Documentation and Learning](../categories/documentation-and-learning.md#repo-facundoolano--software-papers)
+- **Topics:** [Curated Lists](../topics/curated-lists.md#repo-facundoolano--software-papers) | [Reference](../topics/reference.md#repo-facundoolano--software-papers) | [Developer Productivity](../topics/developer-productivity.md#repo-facundoolano--software-papers) | [Documentation](../topics/documentation.md#repo-facundoolano--software-papers) | [Databases](../topics/databases.md#repo-facundoolano--software-papers) | [Security](../topics/security.md#repo-facundoolano--software-papers)
 - **Kind:** Curated List
 - **Best for:** Building a guided reading path through influential software-engineering and computer-science papers; Finding concise primary and follow-up reading for a software practice topic
 - **Languages:** Markdown, Python
@@ -237,12 +261,14 @@ A curated, topic-organized reading list of accessible papers for software engine
   - Systems sections for concurrency, operating systems, databases, networking, distributed systems, and operations
   - Additional coverage of cryptography, human-computer interaction, search, machine learning, and decentralized systems
 
+<a id="repo-georgezouq--awesome-ai-in-finance"></a>
+
 ## [Awesome AI in Finance](https://github.com/georgezouq/awesome-ai-in-finance)
 
 A curated directory of research, code, tools, courses, data sources, and trading-system resources for applying AI and machine learning in finance.
 
-- **Category:** [Documentation and Learning](../categories/documentation-and-learning.md)
-- **Topics:** [Curated Lists](../topics/curated-lists.md) | [Reference](../topics/reference.md) | [Machine Learning](../topics/machine-learning.md) | [LLMs](../topics/llms.md) | [AI Agents](../topics/ai-agents.md)
+- **Category:** [Documentation and Learning](../categories/documentation-and-learning.md#repo-georgezouq--awesome-ai-in-finance)
+- **Topics:** [Curated Lists](../topics/curated-lists.md#repo-georgezouq--awesome-ai-in-finance) | [Reference](../topics/reference.md#repo-georgezouq--awesome-ai-in-finance) | [Machine Learning](../topics/machine-learning.md#repo-georgezouq--awesome-ai-in-finance) | [LLMs](../topics/llms.md#repo-georgezouq--awesome-ai-in-finance) | [AI Agents](../topics/ai-agents.md#repo-georgezouq--awesome-ai-in-finance)
 - **Kind:** Curated List
 - **Best for:** Surveying AI, LLM, and machine-learning resources for financial-market work; Finding starting points for quantitative research, data, and trading infrastructure
 - **Languages:** Markdown
@@ -256,12 +282,14 @@ A curated directory of research, code, tools, courses, data sources, and trading
   - Research and strategy listings for time series, portfolio management, high-frequency trading, and arbitrage
   - Links to traditional-market and cryptocurrency data sources
 
+<a id="repo-github--awesome-copilot"></a>
+
 ## [Awesome GitHub Copilot](https://github.com/github/awesome-copilot)
 
 A community-created collection of GitHub Copilot agents, instructions, skills, hooks, workflows, plugins, API recipes, and learning resources for adapting Copilot to development workflows.
 
-- **Category:** [Documentation and Learning](../categories/documentation-and-learning.md)
-- **Topics:** [AI Agents](../topics/ai-agents.md) | [Coding Agents](../topics/coding-agents.md) | [Agent Skills](../topics/agent-skills.md) | [Prompt Engineering](../topics/prompt-engineering.md) | [MCP](../topics/mcp.md) | [Developer Productivity](../topics/developer-productivity.md) | [Curated Lists](../topics/curated-lists.md) | [Tutorials](../topics/tutorials.md)
+- **Category:** [Documentation and Learning](../categories/documentation-and-learning.md#repo-github--awesome-copilot)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-github--awesome-copilot) | [Coding Agents](../topics/coding-agents.md#repo-github--awesome-copilot) | [Agent Skills](../topics/agent-skills.md#repo-github--awesome-copilot) | [Prompt Engineering](../topics/prompt-engineering.md#repo-github--awesome-copilot) | [MCP](../topics/mcp.md#repo-github--awesome-copilot) | [Developer Productivity](../topics/developer-productivity.md#repo-github--awesome-copilot) | [Curated Lists](../topics/curated-lists.md#repo-github--awesome-copilot) | [Tutorials](../topics/tutorials.md#repo-github--awesome-copilot)
 - **Kind:** Curated List
 - **Best for:** Developers looking for reusable Copilot customizations by workflow; Teams that want examples before authoring their own agents, skills, or instructions
 - **Languages:** Unknown
@@ -275,12 +303,14 @@ A community-created collection of GitHub Copilot agents, instructions, skills, h
   - File-pattern instructions for automatically applied coding standards
   - Self-contained skills with instructions and bundled assets
 
+<a id="repo-hesamsheikh--awesome-openclaw-usecases"></a>
+
 ## [Awesome OpenClaw Use Cases](https://github.com/hesamsheikh/awesome-openclaw-usecases)
 
 A community-maintained Markdown collection of tested real-world OpenClaw use cases, organized to help people adapt the agent to social, building, infrastructure, productivity, research, learning, and finance workflows.
 
-- **Category:** [Documentation and Learning](../categories/documentation-and-learning.md)
-- **Topics:** [AI Agents](../topics/ai-agents.md) | [Automation](../topics/automation.md) | [Curated Lists](../topics/curated-lists.md) | [Agent Skills](../topics/agent-skills.md) | [Agent Orchestration](../topics/agent-orchestration.md) | [Developer Productivity](../topics/developer-productivity.md)
+- **Category:** [Documentation and Learning](../categories/documentation-and-learning.md#repo-hesamsheikh--awesome-openclaw-usecases)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-hesamsheikh--awesome-openclaw-usecases) | [Automation](../topics/automation.md#repo-hesamsheikh--awesome-openclaw-usecases) | [Curated Lists](../topics/curated-lists.md#repo-hesamsheikh--awesome-openclaw-usecases) | [Agent Skills](../topics/agent-skills.md#repo-hesamsheikh--awesome-openclaw-usecases) | [Agent Orchestration](../topics/agent-orchestration.md#repo-hesamsheikh--awesome-openclaw-usecases) | [Developer Productivity](../topics/developer-productivity.md#repo-hesamsheikh--awesome-openclaw-usecases)
 - **Kind:** Curated List
 - **Best for:** OpenClaw users looking for concrete workflow ideas before selecting skills or integrations; Contributors who have verified an OpenClaw use case and can document its prompts, skills, and links
 - **Languages:** Markdown
@@ -294,12 +324,14 @@ A community-maintained Markdown collection of tested real-world OpenClaw use cas
   - Links each listed use case to a dedicated Markdown document intended to explain its implementation
   - Covers personal assistants, digests, content pipelines, project coordination, knowledge bases, voice use, and specialized multi-agent workflows
 
+<a id="repo-hesreallyhim--awesome-claude-code"></a>
+
 ## [Awesome Claude Code](https://github.com/hesreallyhim/awesome-claude-code)
 
 A maintained Markdown directory of Claude Code learning resources, extensions, and adjacent tools, with editorial descriptions grouped by workflow areas such as skills, security, orchestration, and observability.
 
-- **Category:** [Documentation and Learning](../categories/documentation-and-learning.md)
-- **Topics:** [AI Agents](../topics/ai-agents.md) | [LLMs](../topics/llms.md) | [Coding Agents](../topics/coding-agents.md) | [Curated Lists](../topics/curated-lists.md) | [Agent Skills](../topics/agent-skills.md) | [Agent Orchestration](../topics/agent-orchestration.md) | [Security](../topics/security.md) | [Developer Productivity](../topics/developer-productivity.md)
+- **Category:** [Documentation and Learning](../categories/documentation-and-learning.md#repo-hesreallyhim--awesome-claude-code)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-hesreallyhim--awesome-claude-code) | [LLMs](../topics/llms.md#repo-hesreallyhim--awesome-claude-code) | [Coding Agents](../topics/coding-agents.md#repo-hesreallyhim--awesome-claude-code) | [Curated Lists](../topics/curated-lists.md#repo-hesreallyhim--awesome-claude-code) | [Agent Skills](../topics/agent-skills.md#repo-hesreallyhim--awesome-claude-code) | [Agent Orchestration](../topics/agent-orchestration.md#repo-hesreallyhim--awesome-claude-code) | [Security](../topics/security.md#repo-hesreallyhim--awesome-claude-code) | [Developer Productivity](../topics/developer-productivity.md#repo-hesreallyhim--awesome-claude-code)
 - **Kind:** Curated List
 - **Best for:** Claude Code users comparing learning material, skills, plugins, and supporting tools; Developers seeking categorized discovery of agent workflow, security, and monitoring resources
 - **Languages:** Python, Markdown
@@ -313,12 +345,14 @@ A maintained Markdown directory of Claude Code learning resources, extensions, a
   - Categorizes entries across documentation, research, providers, remote control, clients, status lines, design, writing, media, DevOps, and security
   - Includes dedicated sections for multi-agent orchestration, skills, memory and context persistence, observability, and linting
 
+<a id="repo-ikaijua--awesome-aitools"></a>
+
 ## [Awesome AI Tools](https://github.com/ikaijua/Awesome-AITools)
 
 A bilingual Markdown directory of AI tools and resources, organized across chatbots, models, agents, coding, media, research, and other AI topics.
 
-- **Category:** [Documentation and Learning](../categories/documentation-and-learning.md)
-- **Topics:** [Curated Lists](../topics/curated-lists.md) | [Reference](../topics/reference.md) | [AI Agents](../topics/ai-agents.md) | [LLMs](../topics/llms.md) | [Code Generation](../topics/code-generation.md)
+- **Category:** [Documentation and Learning](../categories/documentation-and-learning.md#repo-ikaijua--awesome-aitools)
+- **Topics:** [Curated Lists](../topics/curated-lists.md#repo-ikaijua--awesome-aitools) | [Reference](../topics/reference.md#repo-ikaijua--awesome-aitools) | [AI Agents](../topics/ai-agents.md#repo-ikaijua--awesome-aitools) | [LLMs](../topics/llms.md#repo-ikaijua--awesome-aitools) | [Code Generation](../topics/code-generation.md#repo-ikaijua--awesome-aitools)
 - **Kind:** Curated List
 - **Best for:** Finding a broad starting set of AI products, projects, and resources; Browsing AI-agent and AI-coding entries alongside topic-specific guides
 - **Languages:** Unknown
@@ -332,12 +366,14 @@ A bilingual Markdown directory of AI tools and resources, organized across chatb
   - Provides English and Chinese top-level READMEs
   - Links selected agent and tool entries to dedicated Markdown introduction pages
 
+<a id="repo-jamesmurdza--awesome-ai-devtools"></a>
+
 ## [Awesome AI-Powered Developer Tools](https://github.com/jamesmurdza/awesome-ai-devtools)
 
 A GitHub-curated reference of AI-powered developer tools, organized by development environment, terminal, web, desktop, workflow, agent infrastructure, specialized-tool, and resource categories.
 
-- **Category:** [Documentation and Learning](../categories/documentation-and-learning.md)
-- **Topics:** [Coding Agents](../topics/coding-agents.md) | [Code Generation](../topics/code-generation.md) | [Developer Productivity](../topics/developer-productivity.md) | [Curated Lists](../topics/curated-lists.md) | [Documentation](../topics/documentation.md)
+- **Category:** [Documentation and Learning](../categories/documentation-and-learning.md#repo-jamesmurdza--awesome-ai-devtools)
+- **Topics:** [Coding Agents](../topics/coding-agents.md#repo-jamesmurdza--awesome-ai-devtools) | [Code Generation](../topics/code-generation.md#repo-jamesmurdza--awesome-ai-devtools) | [Developer Productivity](../topics/developer-productivity.md#repo-jamesmurdza--awesome-ai-devtools) | [Curated Lists](../topics/curated-lists.md#repo-jamesmurdza--awesome-ai-devtools) | [Documentation](../topics/documentation.md#repo-jamesmurdza--awesome-ai-devtools)
 - **Kind:** Curated List
 - **Best for:** Developers comparing AI-assisted development tools across several interface types; Researchers who need a broad starting index for developer-focused AI tools
 - **Languages:** Markdown, YAML
@@ -351,12 +387,14 @@ A GitHub-curated reference of AI-powered developer tools, organized by developme
   - Groups browser-based tools into app builders, UI generators, coding agents, codebase intelligence, and database tools
   - Covers automated pull-request review, CI/CD, and testing tools alongside coding assistants
 
+<a id="repo-jim-schwoebel--awesome_ai_agents"></a>
+
 ## [Awesome AI Agents](https://github.com/jim-schwoebel/awesome_ai_agents)
 
 A large, community-contributed Markdown hub for finding, learning about, and building AI agents through categorized links to applications, repositories, courses, benchmarks, datasets, frameworks, models, tools, security resources, and workflows.
 
-- **Category:** [Documentation and Learning](../categories/documentation-and-learning.md)
-- **Topics:** [AI Agents](../topics/ai-agents.md) | [Agent Frameworks](../topics/agent-frameworks.md) | [LLMs](../topics/llms.md) | [Machine Learning](../topics/machine-learning.md) | [Curated Lists](../topics/curated-lists.md) | [Courses](../topics/courses.md)
+- **Category:** [Documentation and Learning](../categories/documentation-and-learning.md#repo-jim-schwoebel--awesome_ai_agents)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-jim-schwoebel--awesome_ai_agents) | [Agent Frameworks](../topics/agent-frameworks.md#repo-jim-schwoebel--awesome_ai_agents) | [LLMs](../topics/llms.md#repo-jim-schwoebel--awesome_ai_agents) | [Machine Learning](../topics/machine-learning.md#repo-jim-schwoebel--awesome_ai_agents) | [Curated Lists](../topics/curated-lists.md#repo-jim-schwoebel--awesome_ai_agents) | [Courses](../topics/courses.md#repo-jim-schwoebel--awesome_ai_agents)
 - **Kind:** Curated List
 - **Best for:** People seeking a broad starting point for AI-agent tools and learning resources; Builders who want links spanning agent applications, frameworks, evaluation material, and deployment resources
 - **Languages:** Markdown
@@ -370,12 +408,14 @@ A large, community-contributed Markdown hub for finding, learning about, and bui
   - Lists agent applications across many task and industry categories
   - Curates repositories, courses, benchmarks, datasets, frameworks, LLM models, and prompt-engineering material
 
+<a id="repo-kyrolabs--awesome-agents"></a>
+
 ## [Awesome Agents](https://github.com/kyrolabs/awesome-agents)
 
 A curated Markdown directory of open-source AI-agent tools and products, grouped by agent-building frameworks, evaluation, software development, research, conversational agents, simulation, knowledge management, and automation.
 
-- **Category:** [Documentation and Learning](../categories/documentation-and-learning.md)
-- **Topics:** [AI Agents](../topics/ai-agents.md) | [LLMs](../topics/llms.md) | [Curated Lists](../topics/curated-lists.md) | [Frameworks](../topics/frameworks.md) | [Evaluation](../topics/evaluation.md) | [Automation](../topics/automation.md) | [Open Source](../topics/open-source.md)
+- **Category:** [Documentation and Learning](../categories/documentation-and-learning.md#repo-kyrolabs--awesome-agents)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-kyrolabs--awesome-agents) | [LLMs](../topics/llms.md#repo-kyrolabs--awesome-agents) | [Curated Lists](../topics/curated-lists.md#repo-kyrolabs--awesome-agents) | [Frameworks](../topics/frameworks.md#repo-kyrolabs--awesome-agents) | [Evaluation](../topics/evaluation.md#repo-kyrolabs--awesome-agents) | [Automation](../topics/automation.md#repo-kyrolabs--awesome-agents) | [Open Source](../topics/open-source.md#repo-kyrolabs--awesome-agents)
 - **Kind:** Curated List
 - **Best for:** Developers comparing open-source AI-agent projects; Researchers seeking a broad entry point into agent tooling
 - **Languages:** Unknown
@@ -389,12 +429,14 @@ A curated Markdown directory of open-source AI-agent tools and products, grouped
   - A testing and evaluation section for agent-oriented projects
   - Separate sections for research, general agents, and game or simulation work
 
+<a id="repo-kyrolabs--awesome-langchain"></a>
+
 ## [Awesome LangChain](https://github.com/kyrolabs/awesome-langchain)
 
 A curated reference directory for the LangChain ecosystem, covering the core framework, language ports, tools, agents, templates, platforms, open-source projects, and learning material.
 
-- **Category:** [Documentation and Learning](../categories/documentation-and-learning.md)
-- **Topics:** [AI Agents](../topics/ai-agents.md) | [LLMs](../topics/llms.md) | [Curated Lists](../topics/curated-lists.md) | [Frameworks](../topics/frameworks.md) | [Libraries](../topics/libraries.md) | [Tutorials](../topics/tutorials.md) | [Reference](../topics/reference.md) | [Open Source](../topics/open-source.md)
+- **Category:** [Documentation and Learning](../categories/documentation-and-learning.md#repo-kyrolabs--awesome-langchain)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-kyrolabs--awesome-langchain) | [LLMs](../topics/llms.md#repo-kyrolabs--awesome-langchain) | [Curated Lists](../topics/curated-lists.md#repo-kyrolabs--awesome-langchain) | [Frameworks](../topics/frameworks.md#repo-kyrolabs--awesome-langchain) | [Libraries](../topics/libraries.md#repo-kyrolabs--awesome-langchain) | [Tutorials](../topics/tutorials.md#repo-kyrolabs--awesome-langchain) | [Reference](../topics/reference.md#repo-kyrolabs--awesome-langchain) | [Open Source](../topics/open-source.md#repo-kyrolabs--awesome-langchain)
 - **Kind:** Curated List
 - **Best for:** Developers looking for LangChain-related projects or integrations; Learners seeking examples, notebooks, and videos for the ecosystem
 - **Languages:** Unknown
@@ -408,12 +450,14 @@ A curated reference directory for the LangChain ecosystem, covering the core fra
   - Tool listings, including low-code services, agents, and templates
   - Open-source project sections for knowledge management and chatbots
 
+<a id="repo-mahseema--awesome-ai-tools"></a>
+
 ## [Awesome AI Tools](https://github.com/mahseema/awesome-ai-tools)
 
 A Markdown directory of AI products and learning resources, grouped around text, code, image, video, audio, marketing, phone, and general-purpose tools.
 
-- **Category:** [Documentation and Learning](../categories/documentation-and-learning.md)
-- **Topics:** [Curated Lists](../topics/curated-lists.md) | [Reference](../topics/reference.md) | [LLMs](../topics/llms.md) | [Machine Learning](../topics/machine-learning.md) | [Code Generation](../topics/code-generation.md)
+- **Category:** [Documentation and Learning](../categories/documentation-and-learning.md#repo-mahseema--awesome-ai-tools)
+- **Topics:** [Curated Lists](../topics/curated-lists.md#repo-mahseema--awesome-ai-tools) | [Reference](../topics/reference.md#repo-mahseema--awesome-ai-tools) | [LLMs](../topics/llms.md#repo-mahseema--awesome-ai-tools) | [Machine Learning](../topics/machine-learning.md#repo-mahseema--awesome-ai-tools) | [Code Generation](../topics/code-generation.md#repo-mahseema--awesome-ai-tools)
 - **Kind:** Curated List
 - **Best for:** Browsing categorized references to discover AI tools and models; Finding AI-focused developer and learning-resource lists
 - **Languages:** Markdown
@@ -427,12 +471,14 @@ A Markdown directory of AI products and learning resources, grouped around text,
   - Sections for language models and chatbots, code assistants, and image or video generation
   - Separate voice-cloning, music-generation, marketing, phone-agent, and learning-resource sections
 
+<a id="repo-nibzard--awesome-agentic-patterns"></a>
+
 ## [Awesome Agentic Patterns](https://github.com/nibzard/awesome-agentic-patterns)
 
 A curated, traceable catalogue of reusable patterns for designing and operating autonomous or semi-autonomous AI agents, paired with a searchable documentation website.
 
-- **Category:** [Documentation and Learning](../categories/documentation-and-learning.md)
-- **Topics:** [AI Agents](../topics/ai-agents.md) | [Agent Memory](../topics/agent-memory.md) | [Agent Orchestration](../topics/agent-orchestration.md) | [Multi Agent](../topics/multi-agent.md) | [Evaluation](../topics/evaluation.md) | [Security](../topics/security.md) | [Tool Use](../topics/tool-use.md) | [Curated Lists](../topics/curated-lists.md) | [Reference](../topics/reference.md)
+- **Category:** [Documentation and Learning](../categories/documentation-and-learning.md#repo-nibzard--awesome-agentic-patterns)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-nibzard--awesome-agentic-patterns) | [Agent Memory](../topics/agent-memory.md#repo-nibzard--awesome-agentic-patterns) | [Agent Orchestration](../topics/agent-orchestration.md#repo-nibzard--awesome-agentic-patterns) | [Multi Agent](../topics/multi-agent.md#repo-nibzard--awesome-agentic-patterns) | [Evaluation](../topics/evaluation.md#repo-nibzard--awesome-agentic-patterns) | [Security](../topics/security.md#repo-nibzard--awesome-agentic-patterns) | [Tool Use](../topics/tool-use.md#repo-nibzard--awesome-agentic-patterns) | [Curated Lists](../topics/curated-lists.md#repo-nibzard--awesome-agentic-patterns) | [Reference](../topics/reference.md#repo-nibzard--awesome-agentic-patterns)
 - **Kind:** Curated List
 - **Best for:** Developers selecting proven patterns for an agent system or workflow; Teams seeking references before designing agent memory, orchestration, evaluation, or safety controls
 - **Languages:** TypeScript, Markdown
@@ -446,12 +492,14 @@ A curated, traceable catalogue of reusable patterns for designing and operating 
   - Requires contributed patterns to be repeatable, agent-centric, and backed by a public reference
   - Provides website filtering and search by category, status, complexity, and other pattern attributes
 
+<a id="repo-patrickjs--awesome-cursorrules"></a>
+
 ## [Awesome Cursor Rules](https://github.com/PatrickJS/awesome-cursorrules)
 
 A curated collection of Markdown-based Cursor Project Rules (`.mdc`) that provide project, framework, file-type, and workflow guidance for Cursor's AI-assisted code editor.
 
-- **Category:** [Documentation and Learning](../categories/documentation-and-learning.md)
-- **Topics:** [Coding Agents](../topics/coding-agents.md) | [Prompt Engineering](../topics/prompt-engineering.md) | [Context Engineering](../topics/context-engineering.md) | [Developer Productivity](../topics/developer-productivity.md) | [Curated Lists](../topics/curated-lists.md) | [Documentation](../topics/documentation.md)
+- **Category:** [Documentation and Learning](../categories/documentation-and-learning.md#repo-patrickjs--awesome-cursorrules)
+- **Topics:** [Coding Agents](../topics/coding-agents.md#repo-patrickjs--awesome-cursorrules) | [Prompt Engineering](../topics/prompt-engineering.md#repo-patrickjs--awesome-cursorrules) | [Context Engineering](../topics/context-engineering.md#repo-patrickjs--awesome-cursorrules) | [Developer Productivity](../topics/developer-productivity.md#repo-patrickjs--awesome-cursorrules) | [Curated Lists](../topics/curated-lists.md#repo-patrickjs--awesome-cursorrules) | [Documentation](../topics/documentation.md#repo-patrickjs--awesome-cursorrules)
 - **Kind:** Curated List
 - **Best for:** Cursor users adapting reusable guidance to a specific codebase or framework; Teams sharing AI-editor conventions, coding standards, and project context
 - **Languages:** JavaScript, Markdown
@@ -465,12 +513,14 @@ A curated collection of Markdown-based Cursor Project Rules (`.mdc`) that provid
   - Modern `.mdc` Project Rules format with description, glob, and always-apply frontmatter
   - Copy-to-project workflow for `.cursor/rules/`
 
+<a id="repo-reorx--awesome-chatgpt-api"></a>
+
 ## [Awesome ChatGPT API](https://github.com/reorx/awesome-chatgpt-api)
 
 A curated Markdown directory of applications, extensions, command-line tools, chatbots, and development resources built around the ChatGPT API.
 
-- **Category:** [Documentation and Learning](../categories/documentation-and-learning.md)
-- **Topics:** [Curated Lists](../topics/curated-lists.md) | [LLMs](../topics/llms.md) | [Documentation](../topics/documentation.md)
+- **Category:** [Documentation and Learning](../categories/documentation-and-learning.md#repo-reorx--awesome-chatgpt-api)
+- **Topics:** [Curated Lists](../topics/curated-lists.md#repo-reorx--awesome-chatgpt-api) | [LLMs](../topics/llms.md#repo-reorx--awesome-chatgpt-api) | [Documentation](../topics/documentation.md#repo-reorx--awesome-chatgpt-api)
 - **Kind:** Curated List
 - **Best for:** Finding self-hosted or client-side ChatGPT API project examples; Browsing categorized implementation references and developer tools
 - **Languages:** Markdown
@@ -484,12 +534,14 @@ A curated Markdown directory of applications, extensions, command-line tools, ch
   - A command-line section covering interactive clients, translation utilities, and API-oriented tools
   - Chatbot entries plus a development section with projects, tools, and articles
 
+<a id="repo-shubhamsaboo--awesome-llm-apps"></a>
+
 ## [Awesome LLM Apps](https://github.com/Shubhamsaboo/awesome-llm-apps)
 
 An Apache-2.0 collection of 100-plus runnable AI-agent, agent-skill, RAG, generative-UI, and LLM application templates that users can clone and adapt.
 
-- **Category:** [Documentation and Learning](../categories/documentation-and-learning.md)
-- **Topics:** [Curated Lists](../topics/curated-lists.md) | [AI Agents](../topics/ai-agents.md) | [Agent Skills](../topics/agent-skills.md) | [Multi Agent](../topics/multi-agent.md) | [MCP](../topics/mcp.md) | [LLMs](../topics/llms.md) | [Generative UI](../topics/generative-ui.md)
+- **Category:** [Documentation and Learning](../categories/documentation-and-learning.md#repo-shubhamsaboo--awesome-llm-apps)
+- **Topics:** [Curated Lists](../topics/curated-lists.md#repo-shubhamsaboo--awesome-llm-apps) | [AI Agents](../topics/ai-agents.md#repo-shubhamsaboo--awesome-llm-apps) | [Agent Skills](../topics/agent-skills.md#repo-shubhamsaboo--awesome-llm-apps) | [Multi Agent](../topics/multi-agent.md#repo-shubhamsaboo--awesome-llm-apps) | [MCP](../topics/mcp.md#repo-shubhamsaboo--awesome-llm-apps) | [LLMs](../topics/llms.md#repo-shubhamsaboo--awesome-llm-apps) | [Generative UI](../topics/generative-ui.md#repo-shubhamsaboo--awesome-llm-apps)
 - **Kind:** Curated List
 - **Best for:** Developers choosing a practical starting point for an AI-agent or RAG prototype; Coding-agent users looking for installable skills and example implementations
 - **Languages:** Python, TypeScript
@@ -503,12 +555,14 @@ An Apache-2.0 collection of 100-plus runnable AI-agent, agent-skill, RAG, genera
   - Starter agents designed as small API-key-driven examples alongside more advanced tool- and memory-oriented agents
   - Multi-agent, voice, always-on, and autonomous-game agent categories
 
+<a id="repo-sindresorhus--awesome"></a>
+
 ## [awesome](https://github.com/sindresorhus/awesome)
 
 A curated, categorized index of Awesome lists that links to resource collections across software, platforms, learning, work, and other topics.
 
-- **Category:** [Documentation and Learning](../categories/documentation-and-learning.md)
-- **Topics:** [Curated Lists](../topics/curated-lists.md) | [Reference](../topics/reference.md) | [Open Source](../topics/open-source.md) | [GitHub](../topics/github.md)
+- **Category:** [Documentation and Learning](../categories/documentation-and-learning.md#repo-sindresorhus--awesome)
+- **Topics:** [Curated Lists](../topics/curated-lists.md#repo-sindresorhus--awesome) | [Reference](../topics/reference.md#repo-sindresorhus--awesome) | [Open Source](../topics/open-source.md#repo-sindresorhus--awesome) | [GitHub](../topics/github.md#repo-sindresorhus--awesome)
 - **Kind:** Curated List
 - **Best for:** Finding a starting point for a topic-specific resource collection; Discovering Awesome lists to browse, follow, or contribute to
 - **Languages:** Markdown
@@ -522,12 +576,14 @@ A curated, categorized index of Awesome lists that links to resource collections
   - Links to independently maintained Awesome lists rather than attempting to catalog each resource itself
   - Guidance for adding a list, creating a new list, and contributing through GitHub pull requests
 
+<a id="repo-swyxio--spark-joy"></a>
+
 ## [Spark Joy](https://github.com/swyxio/spark-joy)
 
 A large, hand-curated README index of resources for adding visual flair, usability, and whimsy to product interfaces, spanning web design, CSS, typography, graphics, interaction, and design inspiration.
 
-- **Category:** [Frontend and Design](../categories/frontend-and-design.md)
-- **Topics:** [Curated Lists](../topics/curated-lists.md) | [Frontend Development](../topics/frontend-development.md) | [Web](../topics/web.md) | [UI Components](../topics/ui-components.md) | [Design Systems](../topics/design-systems.md) | [Accessibility](../topics/accessibility.md) | [Visualization](../topics/visualization.md) | [Reference](../topics/reference.md)
+- **Category:** [Frontend and Design](../categories/frontend-and-design.md#repo-swyxio--spark-joy)
+- **Topics:** [Curated Lists](../topics/curated-lists.md#repo-swyxio--spark-joy) | [Frontend Development](../topics/frontend-development.md#repo-swyxio--spark-joy) | [Web](../topics/web.md#repo-swyxio--spark-joy) | [UI Components](../topics/ui-components.md#repo-swyxio--spark-joy) | [Design Systems](../topics/design-systems.md#repo-swyxio--spark-joy) | [Accessibility](../topics/accessibility.md#repo-swyxio--spark-joy) | [Visualization](../topics/visualization.md#repo-swyxio--spark-joy) | [Reference](../topics/reference.md#repo-swyxio--spark-joy)
 - **Kind:** Curated List
 - **Best for:** Designers and frontend developers collecting interface and visual-design references; Product teams looking for inspiration or a starting point for specific UI details
 - **Languages:** Markdown
@@ -541,12 +597,14 @@ A large, hand-curated README index of resources for adding visual flair, usabili
   - Covers icons, diagrams, illustrations, stock media, and SVG or graphics tools
   - Includes references for form controls, charts, dashboards, and React components
 
+<a id="repo-travisvn--awesome-claude-skills"></a>
+
 ## [Awesome Claude Skills](https://github.com/travisvn/awesome-claude-skills)
 
 A curated reference to official and community Claude Skills, skill-authoring guidance, related tools, and documentation for customizing Claude workflows.
 
-- **Category:** [Documentation and Learning](../categories/documentation-and-learning.md)
-- **Topics:** [AI Agents](../topics/ai-agents.md) | [Agent Skills](../topics/agent-skills.md) | [LLMs](../topics/llms.md) | [CLI](../topics/cli.md) | [MCP](../topics/mcp.md) | [Documentation](../topics/documentation.md) | [Curated Lists](../topics/curated-lists.md)
+- **Category:** [Documentation and Learning](../categories/documentation-and-learning.md#repo-travisvn--awesome-claude-skills)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-travisvn--awesome-claude-skills) | [Agent Skills](../topics/agent-skills.md#repo-travisvn--awesome-claude-skills) | [LLMs](../topics/llms.md#repo-travisvn--awesome-claude-skills) | [CLI](../topics/cli.md#repo-travisvn--awesome-claude-skills) | [MCP](../topics/mcp.md#repo-travisvn--awesome-claude-skills) | [Documentation](../topics/documentation.md#repo-travisvn--awesome-claude-skills) | [Curated Lists](../topics/curated-lists.md#repo-travisvn--awesome-claude-skills)
 - **Kind:** Curated List
 - **Best for:** Discovering reusable skills for Claude Code or Claude.ai workflows; Learning the expected structure and distribution options for a custom skill
 - **Languages:** Unknown
@@ -560,12 +618,14 @@ A curated reference to official and community Claude Skills, skill-authoring gui
   - Catalogs community skill collections, individual skills, and supporting tools
   - Explains progressive disclosure and the folder-based skill structure
 
+<a id="repo-trimstray--the-book-of-secret-knowledge"></a>
+
 ## [The Book of Secret Knowledge](https://github.com/trimstray/the-book-of-secret-knowledge)
 
 A broad technical reference of tools, manuals, cheatsheets, links, and shell examples for operations, development, networking, and security work.
 
-- **Category:** [Documentation and Learning](../categories/documentation-and-learning.md)
-- **Topics:** [CLI](../topics/cli.md) | [Web](../topics/web.md) | [DevOps](../topics/devops.md) | [Containers](../topics/containers.md) | [Security](../topics/security.md) | [Documentation](../topics/documentation.md) | [Curated Lists](../topics/curated-lists.md) | [Reference](../topics/reference.md)
+- **Category:** [Documentation and Learning](../categories/documentation-and-learning.md#repo-trimstray--the-book-of-secret-knowledge)
+- **Topics:** [CLI](../topics/cli.md#repo-trimstray--the-book-of-secret-knowledge) | [Web](../topics/web.md#repo-trimstray--the-book-of-secret-knowledge) | [DevOps](../topics/devops.md#repo-trimstray--the-book-of-secret-knowledge) | [Containers](../topics/containers.md#repo-trimstray--the-book-of-secret-knowledge) | [Security](../topics/security.md#repo-trimstray--the-book-of-secret-knowledge) | [Documentation](../topics/documentation.md#repo-trimstray--the-book-of-secret-knowledge) | [Curated Lists](../topics/curated-lists.md#repo-trimstray--the-book-of-secret-knowledge) | [Reference](../topics/reference.md#repo-trimstray--the-book-of-secret-knowledge)
 - **Kind:** Curated List
 - **Best for:** System, network, and DevOps practitioners seeking a broad reference list; Security researchers and developers looking up tools, resources, or shell patterns
 - **Languages:** Unknown
@@ -579,12 +639,14 @@ A broad technical reference of tools, manuals, cheatsheets, links, and shell exa
   - Collects manuals, how-tos, tutorials, blogs, and other curated references
   - Includes security, privacy, penetration-testing, and hardening resources
 
+<a id="repo-x1xhlol--system-prompts-and-models-of-ai-tools"></a>
+
 ## [System Prompts and Models of AI Tools](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools)
 
 A file collection of system prompts, tool descriptions, and model-related artifacts from a range of AI assistants and coding tools.
 
-- **Category:** [Documentation and Learning](../categories/documentation-and-learning.md)
-- **Topics:** [AI Agents](../topics/ai-agents.md) | [Coding Agents](../topics/coding-agents.md) | [LLMs](../topics/llms.md) | [Prompt Engineering](../topics/prompt-engineering.md) | [Tool Use](../topics/tool-use.md) | [Code Generation](../topics/code-generation.md) | [Curated Lists](../topics/curated-lists.md) | [Reference](../topics/reference.md)
+- **Category:** [Documentation and Learning](../categories/documentation-and-learning.md#repo-x1xhlol--system-prompts-and-models-of-ai-tools)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-x1xhlol--system-prompts-and-models-of-ai-tools) | [Coding Agents](../topics/coding-agents.md#repo-x1xhlol--system-prompts-and-models-of-ai-tools) | [LLMs](../topics/llms.md#repo-x1xhlol--system-prompts-and-models-of-ai-tools) | [Prompt Engineering](../topics/prompt-engineering.md#repo-x1xhlol--system-prompts-and-models-of-ai-tools) | [Tool Use](../topics/tool-use.md#repo-x1xhlol--system-prompts-and-models-of-ai-tools) | [Code Generation](../topics/code-generation.md#repo-x1xhlol--system-prompts-and-models-of-ai-tools) | [Curated Lists](../topics/curated-lists.md#repo-x1xhlol--system-prompts-and-models-of-ai-tools) | [Reference](../topics/reference.md#repo-x1xhlol--system-prompts-and-models-of-ai-tools)
 - **Kind:** Curated List
 - **Best for:** Studying prompt and tool-design patterns used by AI assistants and coding agents; Comparing published prompt or tool artifacts across multiple AI products
 - **Languages:** Unknown
@@ -598,12 +660,14 @@ A file collection of system prompts, tool descriptions, and model-related artifa
   - Includes artifacts for coding assistants, general assistants, and browser-oriented tools
   - Retains both natural-language prompts and structured JSON or YAML tool definitions
 
+<a id="repo-zslucky--awesome-ai-books"></a>
+
 ## [Awesome AI books](https://github.com/zslucky/awesome-AI-books)
 
 A curated README-based collection of AI reading links, books, papers, research organizations, training environments, and selected notebooks.
 
-- **Category:** [Documentation and Learning](../categories/documentation-and-learning.md)
-- **Topics:** [Curated Lists](../topics/curated-lists.md) | [Documentation](../topics/documentation.md) | [Reference](../topics/reference.md) | [Tutorials](../topics/tutorials.md) | [Machine Learning](../topics/machine-learning.md) | [LLMs](../topics/llms.md)
+- **Category:** [Documentation and Learning](../categories/documentation-and-learning.md#repo-zslucky--awesome-ai-books)
+- **Topics:** [Curated Lists](../topics/curated-lists.md#repo-zslucky--awesome-ai-books) | [Documentation](../topics/documentation.md#repo-zslucky--awesome-ai-books) | [Reference](../topics/reference.md#repo-zslucky--awesome-ai-books) | [Tutorials](../topics/tutorials.md#repo-zslucky--awesome-ai-books) | [Machine Learning](../topics/machine-learning.md#repo-zslucky--awesome-ai-books) | [LLMs](../topics/llms.md#repo-zslucky--awesome-ai-books)
 - **Kind:** Curated List
 - **Best for:** Finding introductory and reference material across AI and machine learning subjects; Browsing learning links for reinforcement learning, deep learning, quantum AI, and related areas
 - **Languages:** Jupyter Notebook

@@ -10,12 +10,14 @@
 - [Data and Databases](../categories/data-and-databases.md) (1)
 - [DevOps and Cloud](../categories/devops-and-cloud.md) (2)
 
+<a id="repo-get-convex--convex-backend"></a>
+
 ## [Convex](https://github.com/get-convex/convex-backend)
 
 A reactive database and application backend that combines strongly consistent TypeScript server functions with client libraries for dynamic, live-updating applications.
 
-- **Category:** [Data and Databases](../categories/data-and-databases.md)
-- **Topics:** [Databases](../topics/databases.md) | [Backend Development](../topics/backend-development.md) | [Realtime](../topics/realtime.md) | [Self Hosted](../topics/self-hosted.md) | [Open Source](../topics/open-source.md) | [Deployment](../topics/deployment.md)
+- **Category:** [Data and Databases](../categories/data-and-databases.md#repo-get-convex--convex-backend)
+- **Topics:** [Databases](../topics/databases.md#repo-get-convex--convex-backend) | [Backend Development](../topics/backend-development.md#repo-get-convex--convex-backend) | [Realtime](../topics/realtime.md#repo-get-convex--convex-backend) | [Self Hosted](../topics/self-hosted.md#repo-get-convex--convex-backend) | [Open Source](../topics/open-source.md#repo-get-convex--convex-backend) | [Deployment](../topics/deployment.md#repo-get-convex--convex-backend)
 - **Kind:** Service
 - **Best for:** Teams building a reactive web application with TypeScript server logic; Operators who need an available self-hosted Convex backend
 - **Languages:** Rust, TypeScript
@@ -29,12 +31,14 @@ A reactive database and application backend that combines strongly consistent Ty
   - Client libraries for dynamic live-updating applications
   - Self-hosted dashboard and CLI alongside the backend
 
+<a id="repo-getbindu--bindu"></a>
+
 ## [Bindu](https://github.com/GetBindu/Bindu)
 
 A framework and multi-language SDK set for exposing AI agents through A2A messaging with DID identity, mTLS and OAuth2 authorization, x402 payments, deployment, and operational components.
 
-- **Category:** [AI and Automation](../categories/ai-and-automation.md)
-- **Topics:** [AI Agents](../topics/ai-agents.md) | [Agent Protocols](../topics/agent-protocols.md) | [Agent Orchestration](../topics/agent-orchestration.md) | [Authentication](../topics/authentication.md) | [Payments](../topics/payments.md) | [Security](../topics/security.md) | [Deployment](../topics/deployment.md) | [Observability](../topics/observability.md) | [API Development](../topics/api-development.md) | [Libraries](../topics/libraries.md)
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-getbindu--bindu)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-getbindu--bindu) | [Agent Protocols](../topics/agent-protocols.md#repo-getbindu--bindu) | [Agent Orchestration](../topics/agent-orchestration.md#repo-getbindu--bindu) | [Authentication](../topics/authentication.md#repo-getbindu--bindu) | [Payments](../topics/payments.md#repo-getbindu--bindu) | [Security](../topics/security.md#repo-getbindu--bindu) | [Deployment](../topics/deployment.md#repo-getbindu--bindu) | [Observability](../topics/observability.md#repo-getbindu--bindu) | [API Development](../topics/api-development.md#repo-getbindu--bindu) | [Libraries](../topics/libraries.md#repo-getbindu--bindu)
 - **Kind:** Framework
 - **Best for:** Teams building authenticated and monetized agent-to-agent services; Developers who need Python, TypeScript, or Kotlin access to a shared gRPC core
 - **Languages:** Python, TypeScript, Kotlin
@@ -48,12 +52,14 @@ A framework and multi-language SDK set for exposing AI agents through A2A messag
   - DID signing, mTLS transport, and OAuth2 authorization through Hydra
   - x402 USDC payment middleware with configured EVM networks
 
+<a id="repo-kestra-io--kestra"></a>
+
 ## [Kestra](https://github.com/kestra-io/kestra)
 
 An open-source, event-driven orchestration platform for declarative YAML workflows across data, AI, infrastructure, and process automation, with a web UI, APIs, scheduling, event triggers, and a plugin ecosystem.
 
-- **Category:** [DevOps and Cloud](../categories/devops-and-cloud.md)
-- **Topics:** [Automation](../topics/automation.md) | [DevOps](../topics/devops.md) | [Cloud](../topics/cloud.md) | [Self Hosted](../topics/self-hosted.md) | [Deployment](../topics/deployment.md) | [Containers](../topics/containers.md) | [Observability](../topics/observability.md)
+- **Category:** [DevOps and Cloud](../categories/devops-and-cloud.md#repo-kestra-io--kestra)
+- **Topics:** [Automation](../topics/automation.md#repo-kestra-io--kestra) | [DevOps](../topics/devops.md#repo-kestra-io--kestra) | [Cloud](../topics/cloud.md#repo-kestra-io--kestra) | [Self Hosted](../topics/self-hosted.md#repo-kestra-io--kestra) | [Deployment](../topics/deployment.md#repo-kestra-io--kestra) | [Containers](../topics/containers.md#repo-kestra-io--kestra) | [Observability](../topics/observability.md#repo-kestra-io--kestra)
 - **Kind:** Service
 - **Best for:** Teams operating scheduled or event-driven data, infrastructure, or AI workflows; Developers who want workflows defined as code but editable and observable in a UI
 - **Languages:** Java
@@ -67,12 +73,14 @@ An open-source, event-driven orchestration platform for declarative YAML workflo
   - Supports scheduled and event-driven execution, including message-bus and cloud triggers
   - Provides a built-in editor, visual topology view, completion, and real-time validation
 
+<a id="repo-langchain-ai--chat-langchain"></a>
+
 ## [Chat LangChain](https://github.com/langchain-ai/chat-langchain)
 
 A documentation assistant for LangChain, LangGraph, and LangSmith that combines managed agent deployment, documentation and support-base search, on-topic guardrails, URL validation, and a Next.js public chat interface.
 
-- **Category:** [AI and Automation](../categories/ai-and-automation.md)
-- **Topics:** [AI Agents](../topics/ai-agents.md) | [Chat UI](../topics/chat-ui.md) | [Documentation](../topics/documentation.md) | [Search](../topics/search.md) | [Tool Use](../topics/tool-use.md) | [Web UI](../topics/web-ui.md) | [Deployment](../topics/deployment.md)
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-langchain-ai--chat-langchain)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-langchain-ai--chat-langchain) | [Chat UI](../topics/chat-ui.md#repo-langchain-ai--chat-langchain) | [Documentation](../topics/documentation.md#repo-langchain-ai--chat-langchain) | [Search](../topics/search.md#repo-langchain-ai--chat-langchain) | [Tool Use](../topics/tool-use.md#repo-langchain-ai--chat-langchain) | [Web UI](../topics/web-ui.md#repo-langchain-ai--chat-langchain) | [Deployment](../topics/deployment.md#repo-langchain-ai--chat-langchain)
 - **Kind:** Application
 - **Best for:** Teams building a managed documentation-support assistant; Developers studying a LangChain agent with a separate public web UI
 - **Languages:** Python, TypeScript
@@ -86,12 +94,14 @@ A documentation assistant for LangChain, LangGraph, and LangSmith that combines 
   - Searches a Pylon support knowledge base for known issues and solutions
   - Filters off-topic requests with guardrail middleware
 
+<a id="repo-microsoft--aspire"></a>
+
 ## [aspire](https://github.com/microsoft/aspire)
 
 A multi-language, code-first toolchain for defining, running, observing, and deploying distributed applications and their connected resources.
 
-- **Category:** [DevOps and Cloud](../categories/devops-and-cloud.md)
-- **Topics:** [Frameworks](../topics/frameworks.md) | [CLI](../topics/cli.md) | [Observability](../topics/observability.md) | [Deployment](../topics/deployment.md) | [Cloud](../topics/cloud.md) | [Containers](../topics/containers.md) | [Developer Productivity](../topics/developer-productivity.md)
+- **Category:** [DevOps and Cloud](../categories/devops-and-cloud.md#repo-microsoft--aspire)
+- **Topics:** [Frameworks](../topics/frameworks.md#repo-microsoft--aspire) | [CLI](../topics/cli.md#repo-microsoft--aspire) | [Observability](../topics/observability.md#repo-microsoft--aspire) | [Deployment](../topics/deployment.md#repo-microsoft--aspire) | [Cloud](../topics/cloud.md#repo-microsoft--aspire) | [Containers](../topics/containers.md#repo-microsoft--aspire) | [Developer Productivity](../topics/developer-productivity.md#repo-microsoft--aspire)
 - **Kind:** Framework
 - **Best for:** Teams developing distributed applications with services and dependent resources; Workflows that need local orchestration and OpenTelemetry-based observability
 - **Languages:** C#, TypeScript

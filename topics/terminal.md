@@ -13,12 +13,14 @@
 - [Platforms and Applications](../categories/platforms-and-applications.md) (1)
 - [Systems and Infrastructure](../categories/systems-and-infrastructure.md) (1)
 
+<a id="repo-anomalyco--opentui"></a>
+
 ## [OpenTUI](https://github.com/anomalyco/opentui)
 
 A native terminal UI library with a Zig core, C ABI, and TypeScript bindings; it offers component-based layout and rendering primitives plus React and Solid reconcilers for building terminal applications.
 
-- **Category:** [Application Frameworks](../categories/application-frameworks.md)
-- **Topics:** [Terminal](../topics/terminal.md) | [TUI](../topics/tui.md) | [Libraries](../topics/libraries.md) | [UI Components](../topics/ui-components.md) | [Frameworks](../topics/frameworks.md)
+- **Category:** [Application Frameworks](../categories/application-frameworks.md#repo-anomalyco--opentui)
+- **Topics:** [Terminal](../topics/terminal.md#repo-anomalyco--opentui) | [TUI](../topics/tui.md#repo-anomalyco--opentui) | [Libraries](../topics/libraries.md#repo-anomalyco--opentui) | [UI Components](../topics/ui-components.md#repo-anomalyco--opentui) | [Frameworks](../topics/frameworks.md#repo-anomalyco--opentui)
 - **Kind:** Library
 - **Best for:** Developers building terminal applications from TypeScript or JavaScript; Teams wanting a native core with optional React or Solid rendering layers
 - **Languages:** Zig, TypeScript
@@ -32,12 +34,14 @@ A native terminal UI library with a Zig core, C ABI, and TypeScript bindings; it
   - Component-based architecture with flexible terminal layout capabilities
   - Core package with imperative APIs and terminal primitives
 
+<a id="repo-anthropics--claude-code"></a>
+
 ## [Claude Code](https://github.com/anthropics/claude-code)
 
 An Anthropic agentic coding tool that works with a codebase through natural-language commands in the terminal, IDEs, and GitHub.
 
-- **Category:** [AI and Automation](../categories/ai-and-automation.md)
-- **Topics:** [AI Agents](../topics/ai-agents.md) | [Coding Agents](../topics/coding-agents.md) | [CLI](../topics/cli.md) | [Terminal](../topics/terminal.md) | [Git](../topics/git.md) | [Code Generation](../topics/code-generation.md) | [Developer Productivity](../topics/developer-productivity.md) | [Agent Skills](../topics/agent-skills.md)
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-anthropics--claude-code)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-anthropics--claude-code) | [Coding Agents](../topics/coding-agents.md#repo-anthropics--claude-code) | [CLI](../topics/cli.md#repo-anthropics--claude-code) | [Terminal](../topics/terminal.md#repo-anthropics--claude-code) | [Git](../topics/git.md#repo-anthropics--claude-code) | [Code Generation](../topics/code-generation.md#repo-anthropics--claude-code) | [Developer Productivity](../topics/developer-productivity.md#repo-anthropics--claude-code) | [Agent Skills](../topics/agent-skills.md#repo-anthropics--claude-code)
 - **Kind:** CLI
 - **Best for:** Developers who want an interactive coding agent in their existing workflow; Teams that need managed Claude Code settings and plugin extensions
 - **Languages:** Unknown
@@ -51,12 +55,14 @@ An Anthropic agentic coding tool that works with a codebase through natural-lang
   - Handles Git workflows through natural-language commands
   - Works from the terminal, supported IDEs, or GitHub mentions
 
+<a id="repo-davis7dotsh--my-pi-setup"></a>
+
 ## [my pi setup](https://github.com/davis7dotsh/my-pi-setup)
 
 An opinionated TypeScript configuration and extension collection for the Pi coding agent, adding search and scraping, background terminals, subagents, workflows, interactive questions, file search, and terminal UI customization.
 
-- **Category:** [AI and Automation](../categories/ai-and-automation.md)
-- **Topics:** [Coding Agents](../topics/coding-agents.md) | [Agent Skills](../topics/agent-skills.md) | [Multi Agent](../topics/multi-agent.md) | [Terminal](../topics/terminal.md) | [Web Search](../topics/web-search.md) | [Web Scraping](../topics/web-scraping.md) | [Developer Productivity](../topics/developer-productivity.md)
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-davis7dotsh--my-pi-setup)
+- **Topics:** [Coding Agents](../topics/coding-agents.md#repo-davis7dotsh--my-pi-setup) | [Agent Skills](../topics/agent-skills.md#repo-davis7dotsh--my-pi-setup) | [Multi Agent](../topics/multi-agent.md#repo-davis7dotsh--my-pi-setup) | [Terminal](../topics/terminal.md#repo-davis7dotsh--my-pi-setup) | [Web Search](../topics/web-search.md#repo-davis7dotsh--my-pi-setup) | [Web Scraping](../topics/web-scraping.md#repo-davis7dotsh--my-pi-setup) | [Developer Productivity](../topics/developer-productivity.md#repo-davis7dotsh--my-pi-setup)
 - **Kind:** Starter Template
 - **Best for:** Pi users seeking concrete examples of extending a personal coding-agent environment; Exploring a bundled set of search, terminal-management, and subagent extensions before selecting pieces to adapt
 - **Languages:** TypeScript, JavaScript
@@ -70,12 +76,14 @@ An opinionated TypeScript configuration and extension collection for the Pi codi
   - Background terminals with a user interface for managing them
   - Subagents and workflows for Pi
 
+<a id="repo-earendil-works--pi"></a>
+
 ## [Pi Agent Harness](https://github.com/earendil-works/pi)
 
 A TypeScript monorepo for a multi-provider LLM API, tool-calling agent runtime, terminal UI library, and interactive coding-agent CLI.
 
-- **Category:** [AI and Automation](../categories/ai-and-automation.md)
-- **Topics:** [AI Agents](../topics/ai-agents.md) | [Coding Agents](../topics/coding-agents.md) | [Agent Harnesses](../topics/agent-harnesses.md) | [Tool Use](../topics/tool-use.md) | [Multi Provider](../topics/multi-provider.md) | [CLI](../topics/cli.md) | [TUI](../topics/tui.md) | [Terminal](../topics/terminal.md) | [Sandboxing](../topics/sandboxing.md)
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-earendil-works--pi)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-earendil-works--pi) | [Coding Agents](../topics/coding-agents.md#repo-earendil-works--pi) | [Agent Harnesses](../topics/agent-harnesses.md#repo-earendil-works--pi) | [Tool Use](../topics/tool-use.md#repo-earendil-works--pi) | [Multi Provider](../topics/multi-provider.md#repo-earendil-works--pi) | [CLI](../topics/cli.md#repo-earendil-works--pi) | [TUI](../topics/tui.md#repo-earendil-works--pi) | [Terminal](../topics/terminal.md#repo-earendil-works--pi) | [Sandboxing](../topics/sandboxing.md#repo-earendil-works--pi)
 - **Kind:** Monorepo
 - **Best for:** Developers who want a self-extensible terminal coding agent; TypeScript projects that need reusable multi-provider LLM and agent-runtime packages
 - **Languages:** TypeScript
@@ -89,12 +97,14 @@ A TypeScript monorepo for a multi-provider LLM API, tool-calling agent runtime, 
   - General-purpose agent runtime with tool calling, state management, transport abstraction, and attachments
   - Unified API for OpenAI, Anthropic, Google, and other LLM providers
 
+<a id="repo-github--copilot-cli"></a>
+
 ## [GitHub Copilot CLI](https://github.com/github/copilot-cli)
 
 A terminal-native GitHub Copilot coding agent that uses natural-language conversations to build, edit, debug, refactor, and understand local code with GitHub repository, issue, and pull-request context.
 
-- **Category:** [AI and Automation](../categories/ai-and-automation.md)
-- **Topics:** [AI Agents](../topics/ai-agents.md) | [Coding Agents](../topics/coding-agents.md) | [CLI](../topics/cli.md) | [Terminal](../topics/terminal.md) | [Code Generation](../topics/code-generation.md) | [Debugging](../topics/debugging.md) | [Automation](../topics/automation.md) | [GitHub](../topics/github.md) | [MCP](../topics/mcp.md) | [Developer Productivity](../topics/developer-productivity.md)
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-github--copilot-cli)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-github--copilot-cli) | [Coding Agents](../topics/coding-agents.md#repo-github--copilot-cli) | [CLI](../topics/cli.md#repo-github--copilot-cli) | [Terminal](../topics/terminal.md#repo-github--copilot-cli) | [Code Generation](../topics/code-generation.md#repo-github--copilot-cli) | [Debugging](../topics/debugging.md#repo-github--copilot-cli) | [Automation](../topics/automation.md#repo-github--copilot-cli) | [GitHub](../topics/github.md#repo-github--copilot-cli) | [MCP](../topics/mcp.md#repo-github--copilot-cli) | [Developer Productivity](../topics/developer-productivity.md#repo-github--copilot-cli)
 - **Kind:** CLI
 - **Best for:** Developers who want a synchronous Copilot agent in the terminal; GitHub workflows that benefit from repository, issue, and pull-request context
 - **Languages:** Unknown
@@ -108,12 +118,14 @@ A terminal-native GitHub Copilot coding agent that uses natural-language convers
   - Authenticated access to GitHub repositories, issues, and pull requests
   - Previews every action for explicit approval before execution
 
+<a id="repo-github--copilot-cli-for-beginners"></a>
+
 ## [GitHub Copilot CLI for Beginners](https://github.com/github/copilot-cli-for-beginners)
 
 A hands-on beginner course for GitHub Copilot CLI that uses a Python book collection application to teach terminal-based AI assistance, code review, test generation, debugging, custom agents, skills, and MCP servers.
 
-- **Category:** [Documentation and Learning](../categories/documentation-and-learning.md)
-- **Topics:** [AI Agents](../topics/ai-agents.md) | [Coding Agents](../topics/coding-agents.md) | [CLI](../topics/cli.md) | [Terminal](../topics/terminal.md) | [Code Generation](../topics/code-generation.md) | [Code Review](../topics/code-review.md) | [Testing](../topics/testing.md) | [Debugging](../topics/debugging.md) | [Automation](../topics/automation.md) | [Agent Skills](../topics/agent-skills.md) | [MCP](../topics/mcp.md) | [Tutorials](../topics/tutorials.md) | [Developer Productivity](../topics/developer-productivity.md)
+- **Category:** [Documentation and Learning](../categories/documentation-and-learning.md#repo-github--copilot-cli-for-beginners)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-github--copilot-cli-for-beginners) | [Coding Agents](../topics/coding-agents.md#repo-github--copilot-cli-for-beginners) | [CLI](../topics/cli.md#repo-github--copilot-cli-for-beginners) | [Terminal](../topics/terminal.md#repo-github--copilot-cli-for-beginners) | [Code Generation](../topics/code-generation.md#repo-github--copilot-cli-for-beginners) | [Code Review](../topics/code-review.md#repo-github--copilot-cli-for-beginners) | [Testing](../topics/testing.md#repo-github--copilot-cli-for-beginners) | [Debugging](../topics/debugging.md#repo-github--copilot-cli-for-beginners) | [Automation](../topics/automation.md#repo-github--copilot-cli-for-beginners) | [Agent Skills](../topics/agent-skills.md#repo-github--copilot-cli-for-beginners) | [MCP](../topics/mcp.md#repo-github--copilot-cli-for-beginners) | [Tutorials](../topics/tutorials.md#repo-github--copilot-cli-for-beginners) | [Developer Productivity](../topics/developer-productivity.md#repo-github--copilot-cli-for-beginners)
 - **Kind:** Course
 - **Best for:** Developers and students who are new to AI-assisted terminal workflows; Teams standardizing GitHub Copilot CLI development and review practices
 - **Languages:** Python, JavaScript, C#
@@ -127,12 +139,14 @@ A hands-on beginner course for GitHub Copilot CLI that uses a Python book collec
   - Runnable terminal examples and assignments in every chapter
   - A single Python book collection application used throughout the learning path
 
+<a id="repo-ogulcancelik--herdr"></a>
+
 ## [herdr](https://github.com/ogulcancelik/herdr)
 
 A Rust terminal workspace manager and agent multiplexer that keeps real terminal processes running, surfaces agent state, persists sessions, and exposes a socket API for agents to coordinate panes and workspaces.
 
-- **Category:** [Developer Tools](../categories/developer-tools.md)
-- **Topics:** [AI Agents](../topics/ai-agents.md) | [Agent Orchestration](../topics/agent-orchestration.md) | [CLI](../topics/cli.md) | [Terminal](../topics/terminal.md) | [TUI](../topics/tui.md) | [Remote Control](../topics/remote-control.md) | [Developer Productivity](../topics/developer-productivity.md)
+- **Category:** [Developer Tools](../categories/developer-tools.md#repo-ogulcancelik--herdr)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-ogulcancelik--herdr) | [Agent Orchestration](../topics/agent-orchestration.md#repo-ogulcancelik--herdr) | [CLI](../topics/cli.md#repo-ogulcancelik--herdr) | [Terminal](../topics/terminal.md#repo-ogulcancelik--herdr) | [TUI](../topics/tui.md#repo-ogulcancelik--herdr) | [Remote Control](../topics/remote-control.md#repo-ogulcancelik--herdr) | [Developer Productivity](../topics/developer-productivity.md#repo-ogulcancelik--herdr)
 - **Kind:** CLI
 - **Best for:** Developers supervising multiple coding-agent sessions in terminal workspaces; Teams that want detached, persistent agent sessions reachable over SSH
 - **Languages:** Rust
@@ -146,12 +160,14 @@ A Rust terminal workspace manager and agent multiplexer that keeps real terminal
   - Preserves real terminal panes when a client detaches and later reattaches
   - Supports workspaces, tabs, split panes, mouse interaction, and prefix-key navigation
 
+<a id="repo-psmux--psmux"></a>
+
 ## [psmux](https://github.com/psmux/psmux)
 
 A native Rust terminal multiplexer for Windows that uses ConPTY directly, implements the tmux command language and configuration format, persists sessions, and supports panes, themes, mouse control, scripting, plugins, and agent-team panes.
 
-- **Category:** [Developer Tools](../categories/developer-tools.md)
-- **Topics:** [CLI](../topics/cli.md) | [TUI](../topics/tui.md) | [Terminal](../topics/terminal.md) | [Developer Productivity](../topics/developer-productivity.md) | [Automation](../topics/automation.md) | [Parallel Agents](../topics/parallel-agents.md) | [Realtime Collaboration](../topics/realtime-collaboration.md)
+- **Category:** [Developer Tools](../categories/developer-tools.md#repo-psmux--psmux)
+- **Topics:** [CLI](../topics/cli.md#repo-psmux--psmux) | [TUI](../topics/tui.md#repo-psmux--psmux) | [Terminal](../topics/terminal.md#repo-psmux--psmux) | [Developer Productivity](../topics/developer-productivity.md#repo-psmux--psmux) | [Automation](../topics/automation.md#repo-psmux--psmux) | [Parallel Agents](../topics/parallel-agents.md#repo-psmux--psmux) | [Realtime Collaboration](../topics/realtime-collaboration.md#repo-psmux--psmux)
 - **Kind:** Application
 - **Best for:** Windows developers who want tmux-style persistent sessions without WSL or Cygwin; Claude Code users who want teammate agents displayed in separate terminal panes
 - **Languages:** Rust
@@ -165,12 +181,14 @@ A native Rust terminal multiplexer for Windows that uses ConPTY directly, implem
   - Reads tmux configuration and supports themes, mouse input, layouts, and copy mode
   - Persists sessions across terminal crashes and SSH disconnects
 
+<a id="repo-psmux--psnet"></a>
+
 ## [PSNET](https://github.com/psmux/psnet)
 
 A native Rust TUI network monitor for Windows that combines connection and bandwidth views, listening-port inspection, packet details, GeoIP maps, LAN discovery, topology, alerts, and firewall controls in a standalone binary.
 
-- **Category:** [Systems and Infrastructure](../categories/systems-and-infrastructure.md)
-- **Topics:** [TUI](../topics/tui.md) | [Terminal](../topics/terminal.md) | [Observability](../topics/observability.md) | [Security](../topics/security.md) | [Visualization](../topics/visualization.md) | [Local First](../topics/local-first.md) | [Performance](../topics/performance.md)
+- **Category:** [Systems and Infrastructure](../categories/systems-and-infrastructure.md#repo-psmux--psnet)
+- **Topics:** [TUI](../topics/tui.md#repo-psmux--psnet) | [Terminal](../topics/terminal.md#repo-psmux--psnet) | [Observability](../topics/observability.md#repo-psmux--psnet) | [Security](../topics/security.md#repo-psmux--psnet) | [Visualization](../topics/visualization.md#repo-psmux--psnet) | [Local First](../topics/local-first.md#repo-psmux--psnet) | [Performance](../topics/performance.md#repo-psmux--psnet)
 - **Kind:** Application
 - **Best for:** Windows users wanting a terminal-first overview of connections, services, devices, and traffic; Developers diagnosing local ports, adapters, process traffic, or network exposure without a full GUI suite
 - **Languages:** Rust
@@ -184,12 +202,14 @@ A native Rust TUI network monitor for Windows that combines connection and bandw
   - Resolves DNS names and fingerprints listening services and web technologies
   - Embeds GeoIP, server fingerprints, web signatures, and OUI vendor data
 
+<a id="repo-siteboon--claudecodeui"></a>
+
 ## [CloudCLI UI](https://github.com/siteboon/claudecodeui)
 
 A self-hostable web, desktop, and mobile interface for viewing projects and sessions and working with Claude Code, Cursor CLI, Codex, and related agents.
 
-- **Category:** [Platforms and Applications](../categories/platforms-and-applications.md)
-- **Topics:** [AI Agents](../topics/ai-agents.md) | [Coding Agents](../topics/coding-agents.md) | [Web UI](../topics/web-ui.md) | [Desktop App](../topics/desktop-app.md) | [Terminal](../topics/terminal.md) | [Self Hosted](../topics/self-hosted.md) | [Sandboxing](../topics/sandboxing.md) | [Multi Provider](../topics/multi-provider.md)
+- **Category:** [Platforms and Applications](../categories/platforms-and-applications.md#repo-siteboon--claudecodeui)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-siteboon--claudecodeui) | [Coding Agents](../topics/coding-agents.md#repo-siteboon--claudecodeui) | [Web UI](../topics/web-ui.md#repo-siteboon--claudecodeui) | [Desktop App](../topics/desktop-app.md#repo-siteboon--claudecodeui) | [Terminal](../topics/terminal.md#repo-siteboon--claudecodeui) | [Self Hosted](../topics/self-hosted.md#repo-siteboon--claudecodeui) | [Sandboxing](../topics/sandboxing.md#repo-siteboon--claudecodeui) | [Multi Provider](../topics/multi-provider.md#repo-siteboon--claudecodeui)
 - **Kind:** Application
 - **Best for:** Developers who want a visual, remote-friendly workspace around supported agent CLIs; Teams evaluating local self-hosting or the separate managed CloudCLI service
 - **Languages:** TypeScript
@@ -203,12 +223,14 @@ A self-hostable web, desktop, and mobile interface for viewing projects and sess
   - Integrated shell terminal, file explorer, Git explorer, and browser sessions
   - Support for Claude Code, Cursor CLI, Codex, and listed GPT or Claude models
 
+<a id="repo-tailcallhq--forgecode"></a>
+
 ## [Forge](https://github.com/tailcallhq/forgecode)
 
 A Rust terminal coding agent that combines an interactive TUI, one-shot commands, and a Zsh prompt plugin with provider login, workspace search, Git worktrees, MCP server configuration, and persistent conversations.
 
-- **Category:** [Developer Tools](../categories/developer-tools.md)
-- **Topics:** [AI Agents](../topics/ai-agents.md) | [Coding Agents](../topics/coding-agents.md) | [CLI](../topics/cli.md) | [TUI](../topics/tui.md) | [Terminal](../topics/terminal.md) | [Worktrees](../topics/worktrees.md) | [Codebase Search](../topics/codebase-search.md) | [Multi Provider](../topics/multi-provider.md) | [MCP](../topics/mcp.md) | [Developer Productivity](../topics/developer-productivity.md)
+- **Category:** [Developer Tools](../categories/developer-tools.md#repo-tailcallhq--forgecode)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-tailcallhq--forgecode) | [Coding Agents](../topics/coding-agents.md#repo-tailcallhq--forgecode) | [CLI](../topics/cli.md#repo-tailcallhq--forgecode) | [TUI](../topics/tui.md#repo-tailcallhq--forgecode) | [Terminal](../topics/terminal.md#repo-tailcallhq--forgecode) | [Worktrees](../topics/worktrees.md#repo-tailcallhq--forgecode) | [Codebase Search](../topics/codebase-search.md#repo-tailcallhq--forgecode) | [Multi Provider](../topics/multi-provider.md#repo-tailcallhq--forgecode) | [MCP](../topics/mcp.md#repo-tailcallhq--forgecode) | [Developer Productivity](../topics/developer-productivity.md#repo-tailcallhq--forgecode)
 - **Kind:** CLI
 - **Best for:** Developers who want a coding agent embedded in a terminal workflow; Scripted or isolated coding tasks that benefit from Git worktrees
 - **Languages:** Rust
@@ -222,12 +244,14 @@ A Rust terminal coding agent that combines an interactive TUI, one-shot commands
   - One-shot prompts for scripts, piped input, commit messages, and command suggestions
   - Zsh plugin with colon-prefixed agent, conversation, commit, and suggestion commands
 
+<a id="repo-tiann--hapi"></a>
+
 ## [HAPI](https://github.com/tiann/hapi)
 
 A local-first application that wraps supported coding-agent CLIs, persists their sessions through a hub, and lets users monitor, message, and approve work remotely from a web PWA or Telegram Mini App without restarting a session.
 
-- **Category:** [Developer Tools](../categories/developer-tools.md)
-- **Topics:** [Coding Agents](../topics/coding-agents.md) | [Terminal](../topics/terminal.md) | [Web UI](../topics/web-ui.md) | [Mobile App](../topics/mobile-app.md) | [Remote Control](../topics/remote-control.md) | [Cross Device](../topics/cross-device.md) | [Local First](../topics/local-first.md) | [Self Hosted](../topics/self-hosted.md) | [MCP](../topics/mcp.md) | [Developer Productivity](../topics/developer-productivity.md)
+- **Category:** [Developer Tools](../categories/developer-tools.md#repo-tiann--hapi)
+- **Topics:** [Coding Agents](../topics/coding-agents.md#repo-tiann--hapi) | [Terminal](../topics/terminal.md#repo-tiann--hapi) | [Web UI](../topics/web-ui.md#repo-tiann--hapi) | [Mobile App](../topics/mobile-app.md#repo-tiann--hapi) | [Remote Control](../topics/remote-control.md#repo-tiann--hapi) | [Cross Device](../topics/cross-device.md#repo-tiann--hapi) | [Local First](../topics/local-first.md#repo-tiann--hapi) | [Self Hosted](../topics/self-hosted.md#repo-tiann--hapi) | [MCP](../topics/mcp.md#repo-tiann--hapi) | [Developer Productivity](../topics/developer-productivity.md#repo-tiann--hapi)
 - **Kind:** Application
 - **Best for:** Developers who need to continue or supervise local coding-agent sessions from another device; Teams or individuals willing to run a local or self-hosted hub for remote session access
 - **Languages:** TypeScript
@@ -241,12 +265,14 @@ A local-first application that wraps supported coding-agent CLIs, persists their
   - Preserves a session while control switches between terminal and remote clients
   - Web PWA supports sessions, chat, permission decisions, file browsing, diffs, and remote spawning
 
+<a id="repo-tmux--tmux"></a>
+
 ## [tmux](https://github.com/tmux/tmux)
 
 A terminal multiplexer that creates, accesses, and controls multiple terminals from one screen, while allowing a session to detach, continue in the background, and later be reattached.
 
-- **Category:** [Developer Tools](../categories/developer-tools.md)
-- **Topics:** [CLI](../topics/cli.md) | [TUI](../topics/tui.md) | [Terminal](../topics/terminal.md) | [Developer Productivity](../topics/developer-productivity.md) | [Open Source](../topics/open-source.md)
+- **Category:** [Developer Tools](../categories/developer-tools.md#repo-tmux--tmux)
+- **Topics:** [CLI](../topics/cli.md#repo-tmux--tmux) | [TUI](../topics/tui.md#repo-tmux--tmux) | [Terminal](../topics/terminal.md#repo-tmux--tmux) | [Developer Productivity](../topics/developer-productivity.md#repo-tmux--tmux) | [Open Source](../topics/open-source.md#repo-tmux--tmux)
 - **Kind:** CLI
 - **Best for:** Developers who need persistent, organized terminal sessions; Remote or local shell workflows that must survive disconnection
 - **Languages:** C
@@ -260,12 +286,14 @@ A terminal multiplexer that creates, accesses, and controls multiple terminals f
   - Detaches sessions so they continue running in the background before later reattachment
   - Provides a tmux.1 manual page, example configuration, wiki, FAQ, and shell completion reference
 
+<a id="repo-ultraworkers--claw-code"></a>
+
 ## [Claw Code](https://github.com/ultraworkers/claw-code)
 
 A build-from-source Rust implementation of the claw CLI agent harness, explicitly maintained as an agent-managed public exhibit rather than a serious production project.
 
-- **Category:** [AI and Automation](../categories/ai-and-automation.md)
-- **Topics:** [Coding Agents](../topics/coding-agents.md) | [Agent Harnesses](../topics/agent-harnesses.md) | [LLMs](../topics/llms.md) | [CLI](../topics/cli.md) | [Terminal](../topics/terminal.md) | [Multi Provider](../topics/multi-provider.md) | [MCP](../topics/mcp.md) | [Containers](../topics/containers.md) | [Developer Productivity](../topics/developer-productivity.md) | [Open Source](../topics/open-source.md)
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-ultraworkers--claw-code)
+- **Topics:** [Coding Agents](../topics/coding-agents.md#repo-ultraworkers--claw-code) | [Agent Harnesses](../topics/agent-harnesses.md#repo-ultraworkers--claw-code) | [LLMs](../topics/llms.md#repo-ultraworkers--claw-code) | [CLI](../topics/cli.md#repo-ultraworkers--claw-code) | [Terminal](../topics/terminal.md#repo-ultraworkers--claw-code) | [Multi Provider](../topics/multi-provider.md#repo-ultraworkers--claw-code) | [MCP](../topics/mcp.md#repo-ultraworkers--claw-code) | [Containers](../topics/containers.md#repo-ultraworkers--claw-code) | [Developer Productivity](../topics/developer-productivity.md#repo-ultraworkers--claw-code) | [Open Source](../topics/open-source.md#repo-ultraworkers--claw-code)
 - **Kind:** CLI
 - **Best for:** Inspecting an agent-managed Rust CLI harness and its implementation; Experimenting with prompt, interactive-session, provider, plugin, and RAG workflows
 - **Languages:** Rust, Python
@@ -279,12 +307,14 @@ A build-from-source Rust implementation of the claw CLI agent harness, explicitl
   - Provides doctor and status commands for configuration and health checks
   - Supports Anthropic and OpenAI-compatible provider configuration
 
+<a id="repo-unclebob--swarm-forge"></a>
+
 ## [SwarmForge](https://github.com/unclebob/swarm-forge)
 
 A local, tmux-based multi-agent orchestration framework that gives agents dedicated Git worktrees, role prompts, and file-based handoffs.
 
-- **Category:** [AI and Automation](../categories/ai-and-automation.md)
-- **Topics:** [AI Agents](../topics/ai-agents.md) | [Agent Orchestration](../topics/agent-orchestration.md) | [Multi Agent](../topics/multi-agent.md) | [Parallel Agents](../topics/parallel-agents.md) | [Worktrees](../topics/worktrees.md) | [CLI](../topics/cli.md) | [Terminal](../topics/terminal.md) | [Self Hosted](../topics/self-hosted.md)
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-unclebob--swarm-forge)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-unclebob--swarm-forge) | [Agent Orchestration](../topics/agent-orchestration.md#repo-unclebob--swarm-forge) | [Multi Agent](../topics/multi-agent.md#repo-unclebob--swarm-forge) | [Parallel Agents](../topics/parallel-agents.md#repo-unclebob--swarm-forge) | [Worktrees](../topics/worktrees.md#repo-unclebob--swarm-forge) | [CLI](../topics/cli.md#repo-unclebob--swarm-forge) | [Terminal](../topics/terminal.md#repo-unclebob--swarm-forge) | [Self Hosted](../topics/self-hosted.md#repo-unclebob--swarm-forge)
 - **Kind:** Framework
 - **Best for:** Teams applying a defined multi-agent coding workflow to a local Git project; Projects that need separate implementation, review, and QA agent roles
 - **Languages:** Clojure, Shell
@@ -298,12 +328,14 @@ A local, tmux-based multi-agent orchestration framework that gives agents dedica
   - Git worktree creation and assignment for roles that need isolated changes
   - Per-role prompts and layered, project-local engineering constitution files
 
+<a id="repo-xai-org--grok-build"></a>
+
 ## [grok-build](https://github.com/xai-org/grok-build)
 
 A Rust terminal coding agent distributed as the grok CLI and full-screen TUI, with codebase-aware editing, shell execution, web search, long-running task management, and interactive, scripted, or ACP editor-integrated modes.
 
-- **Category:** [Developer Tools](../categories/developer-tools.md)
-- **Topics:** [Coding Agents](../topics/coding-agents.md) | [CLI](../topics/cli.md) | [TUI](../topics/tui.md) | [Terminal](../topics/terminal.md) | [Codebase Search](../topics/codebase-search.md) | [Web Search](../topics/web-search.md) | [Sandboxing](../topics/sandboxing.md) | [MCP](../topics/mcp.md) | [Agent Protocols](../topics/agent-protocols.md) | [Agent Skills](../topics/agent-skills.md)
+- **Category:** [Developer Tools](../categories/developer-tools.md#repo-xai-org--grok-build)
+- **Topics:** [Coding Agents](../topics/coding-agents.md#repo-xai-org--grok-build) | [CLI](../topics/cli.md#repo-xai-org--grok-build) | [TUI](../topics/tui.md#repo-xai-org--grok-build) | [Terminal](../topics/terminal.md#repo-xai-org--grok-build) | [Codebase Search](../topics/codebase-search.md#repo-xai-org--grok-build) | [Web Search](../topics/web-search.md#repo-xai-org--grok-build) | [Sandboxing](../topics/sandboxing.md#repo-xai-org--grok-build) | [MCP](../topics/mcp.md#repo-xai-org--grok-build) | [Agent Protocols](../topics/agent-protocols.md#repo-xai-org--grok-build) | [Agent Skills](../topics/agent-skills.md#repo-xai-org--grok-build)
 - **Kind:** CLI
 - **Best for:** Developers who prefer a terminal-first Grok coding-agent workflow; Scripted or CI-adjacent agent tasks and editors that support the Agent Client Protocol
 - **Languages:** Rust

@@ -8,12 +8,14 @@
 
 - [Documentation and Learning](../categories/documentation-and-learning.md) (23)
 
+<a id="repo-addyosmani--agent-engineer"></a>
+
 ## [Agent Engineer](https://github.com/addyosmani/agent-engineer)
 
 A practical, beginner-oriented course that teaches AI-agent fundamentals, then introduces building and shipping agents with Google Cloud AI, Vertex AI, and the Agent Development Kit (ADK).
 
-- **Category:** [Documentation and Learning](../categories/documentation-and-learning.md)
-- **Topics:** [AI Agents](../topics/ai-agents.md) | [Task Planning](../topics/task-planning.md) | [Agent Memory](../topics/agent-memory.md) | [Agent Orchestration](../topics/agent-orchestration.md) | [Agent Protocols](../topics/agent-protocols.md) | [Agent Skills](../topics/agent-skills.md) | [MCP](../topics/mcp.md) | [Multi Agent](../topics/multi-agent.md) | [Evaluation](../topics/evaluation.md) | [Security](../topics/security.md) | [Tutorials](../topics/tutorials.md) | [Documentation](../topics/documentation.md)
+- **Category:** [Documentation and Learning](../categories/documentation-and-learning.md#repo-addyosmani--agent-engineer)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-addyosmani--agent-engineer) | [Task Planning](../topics/task-planning.md#repo-addyosmani--agent-engineer) | [Agent Memory](../topics/agent-memory.md#repo-addyosmani--agent-engineer) | [Agent Orchestration](../topics/agent-orchestration.md#repo-addyosmani--agent-engineer) | [Agent Protocols](../topics/agent-protocols.md#repo-addyosmani--agent-engineer) | [Agent Skills](../topics/agent-skills.md#repo-addyosmani--agent-engineer) | [MCP](../topics/mcp.md#repo-addyosmani--agent-engineer) | [Multi Agent](../topics/multi-agent.md#repo-addyosmani--agent-engineer) | [Evaluation](../topics/evaluation.md#repo-addyosmani--agent-engineer) | [Security](../topics/security.md#repo-addyosmani--agent-engineer) | [Tutorials](../topics/tutorials.md#repo-addyosmani--agent-engineer) | [Documentation](../topics/documentation.md#repo-addyosmani--agent-engineer)
 - **Kind:** Course
 - **Best for:** Software engineers learning core AI-agent concepts before choosing tools; Developers seeking a structured introduction to Google Cloud agent development
 - **Languages:** Markdown
@@ -27,12 +29,14 @@ A practical, beginner-oriented course that teaches AI-agent fundamentals, then i
   - Platform-agnostic introductions to tools, memory, planning, multi-agent systems, RAG, evaluation, and safety
   - Google Cloud, Vertex AI, and ADK lessons, including a first-agent walkthrough
 
+<a id="repo-ai-that-works--ai-that-works"></a>
+
 ## [AI That Works](https://github.com/ai-that-works/ai-that-works)
 
 A weekly live-coding and Q&A series with a repository of episode notes and selected code, focused on taking AI applications from demos toward production through practical engineering topics.
 
-- **Category:** [Documentation and Learning](../categories/documentation-and-learning.md)
-- **Topics:** [Courses](../topics/courses.md) | [Tutorials](../topics/tutorials.md) | [AI Agents](../topics/ai-agents.md) | [LLMs](../topics/llms.md) | [Context Engineering](../topics/context-engineering.md) | [Evaluation](../topics/evaluation.md) | [Documentation](../topics/documentation.md)
+- **Category:** [Documentation and Learning](../categories/documentation-and-learning.md#repo-ai-that-works--ai-that-works)
+- **Topics:** [Courses](../topics/courses.md#repo-ai-that-works--ai-that-works) | [Tutorials](../topics/tutorials.md#repo-ai-that-works--ai-that-works) | [AI Agents](../topics/ai-agents.md#repo-ai-that-works--ai-that-works) | [LLMs](../topics/llms.md#repo-ai-that-works--ai-that-works) | [Context Engineering](../topics/context-engineering.md#repo-ai-that-works--ai-that-works) | [Evaluation](../topics/evaluation.md#repo-ai-that-works--ai-that-works) | [Documentation](../topics/documentation.md#repo-ai-that-works--ai-that-works)
 - **Kind:** Course
 - **Best for:** Engineers learning production-oriented AI techniques from episode-based examples; Participants who want live discussion alongside selected Python and TypeScript materials
 - **Languages:** Python, TypeScript, Go, Markdown
@@ -46,12 +50,14 @@ A weekly live-coding and Q&A series with a repository of episode notes and selec
   - Episode catalog spanning classification, prompting, evaluations, context engineering, agent memory, multimodality, and coding agents
   - Selected episode code linked from the catalog, including Python and TypeScript projects
 
+<a id="repo-alirezadir--agentic-ai-systems"></a>
+
 ## [Agentic AI Systems](https://github.com/alirezadir/Agentic-AI-Systems)
 
 A curated, hands-on knowledge base for learning how to design and build production-oriented AI agents and multi-agent systems, with foundations, framework tutorials, system-design material, examples, and reference links.
 
-- **Category:** [Documentation and Learning](../categories/documentation-and-learning.md)
-- **Topics:** [AI Agents](../topics/ai-agents.md) | [Multi Agent](../topics/multi-agent.md) | [LLMs](../topics/llms.md) | [Agent Frameworks](../topics/agent-frameworks.md) | [Tutorials](../topics/tutorials.md) | [Reference](../topics/reference.md)
+- **Category:** [Documentation and Learning](../categories/documentation-and-learning.md#repo-alirezadir--agentic-ai-systems)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-alirezadir--agentic-ai-systems) | [Multi Agent](../topics/multi-agent.md#repo-alirezadir--agentic-ai-systems) | [LLMs](../topics/llms.md#repo-alirezadir--agentic-ai-systems) | [Agent Frameworks](../topics/agent-frameworks.md#repo-alirezadir--agentic-ai-systems) | [Tutorials](../topics/tutorials.md#repo-alirezadir--agentic-ai-systems) | [Reference](../topics/reference.md#repo-alirezadir--agentic-ai-systems)
 - **Kind:** Documentation
 - **Best for:** Learners mapping the concepts and design choices behind agentic systems; Developers comparing example workflows across several agent frameworks
 - **Languages:** Python
@@ -65,12 +71,14 @@ A curated, hands-on knowledge base for learning how to design and build producti
   - Tutorials and example code for OpenAI, LangGraph, LlamaIndex, LangChain, CrewAI, and Chainlit
   - System-design material on architectures, layers, patterns, diagrams, and RAG variants
 
+<a id="repo-anthropics--claude-cookbooks"></a>
+
 ## [Claude Cookbooks](https://github.com/anthropics/claude-cookbooks)
 
 A collection of copyable code snippets, notebooks, and guides for building with Claude, covering common LLM capabilities, tool integrations, multimodal work, evaluation, and selected agent-oriented examples.
 
-- **Category:** [Documentation and Learning](../categories/documentation-and-learning.md)
-- **Topics:** [LLMs](../topics/llms.md) | [AI Agents](../topics/ai-agents.md) | [Tool Use](../topics/tool-use.md) | [Multimodal](../topics/multimodal.md) | [Tutorials](../topics/tutorials.md) | [Reference](../topics/reference.md)
+- **Category:** [Documentation and Learning](../categories/documentation-and-learning.md#repo-anthropics--claude-cookbooks)
+- **Topics:** [LLMs](../topics/llms.md#repo-anthropics--claude-cookbooks) | [AI Agents](../topics/ai-agents.md#repo-anthropics--claude-cookbooks) | [Tool Use](../topics/tool-use.md#repo-anthropics--claude-cookbooks) | [Multimodal](../topics/multimodal.md#repo-anthropics--claude-cookbooks) | [Tutorials](../topics/tutorials.md#repo-anthropics--claude-cookbooks) | [Reference](../topics/reference.md#repo-anthropics--claude-cookbooks)
 - **Kind:** Documentation
 - **Best for:** Developers adapting focused Claude API examples into their own projects; Teams learning documented patterns for retrieval, tools, vision, and evaluations
 - **Languages:** Python, Jupyter Notebook
@@ -84,12 +92,14 @@ A collection of copyable code snippets, notebooks, and guides for building with 
   - Tool-use examples including a customer-service agent, calculator, and SQL queries
   - Third-party retrieval examples using vector databases, Wikipedia, and web pages
 
+<a id="repo-arindam200--awesome-ai-apps"></a>
+
 ## [Awesome AI Apps](https://github.com/Arindam200/awesome-ai-apps)
 
 A categorized collection of independently runnable AI application examples and tutorials, spanning starter agents, RAG, voice, MCP, memory, advanced multi-step workflows, and fine-tuning rather than one integrated product.
 
-- **Category:** [Documentation and Learning](../categories/documentation-and-learning.md)
-- **Topics:** [AI Agents](../topics/ai-agents.md) | [LLMs](../topics/llms.md) | [MCP](../topics/mcp.md) | [Agent Memory](../topics/agent-memory.md) | [Multimodal](../topics/multimodal.md) | [Tutorials](../topics/tutorials.md) | [Curated Lists](../topics/curated-lists.md)
+- **Category:** [Documentation and Learning](../categories/documentation-and-learning.md#repo-arindam200--awesome-ai-apps)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-arindam200--awesome-ai-apps) | [LLMs](../topics/llms.md#repo-arindam200--awesome-ai-apps) | [MCP](../topics/mcp.md#repo-arindam200--awesome-ai-apps) | [Agent Memory](../topics/agent-memory.md#repo-arindam200--awesome-ai-apps) | [Multimodal](../topics/multimodal.md#repo-arindam200--awesome-ai-apps) | [Tutorials](../topics/tutorials.md#repo-arindam200--awesome-ai-apps) | [Curated Lists](../topics/curated-lists.md#repo-arindam200--awesome-ai-apps)
 - **Kind:** Curated List
 - **Best for:** Developers selecting a concrete AI example to inspect, adapt, or learn from; Teams surveying implementation patterns across agent, RAG, voice, and MCP projects
 - **Languages:** Python, JavaScript
@@ -103,12 +113,14 @@ A categorized collection of independently runnable AI application examples and t
   - Includes agent examples for research, customer support, coding, data, and workflow automation
   - Provides RAG projects for documents, codebases, PDFs, graphs, and citation-oriented answers
 
+<a id="repo-ashishps1--awesome-low-level-design"></a>
+
 ## [Awesome Low Level Design](https://github.com/ashishps1/awesome-low-level-design)
 
 A learning-resource collection for low-level and object-oriented design, combining fundamentals, principles, patterns, UML, concurrency material, interview problems, diagrams, and selected source-code examples.
 
-- **Category:** [Documentation and Learning](../categories/documentation-and-learning.md)
-- **Topics:** [Documentation](../topics/documentation.md) | [Tutorials](../topics/tutorials.md) | [Courses](../topics/courses.md) | [Curated Lists](../topics/curated-lists.md) | [Reference](../topics/reference.md)
+- **Category:** [Documentation and Learning](../categories/documentation-and-learning.md#repo-ashishps1--awesome-low-level-design)
+- **Topics:** [Documentation](../topics/documentation.md#repo-ashishps1--awesome-low-level-design) | [Tutorials](../topics/tutorials.md#repo-ashishps1--awesome-low-level-design) | [Courses](../topics/courses.md#repo-ashishps1--awesome-low-level-design) | [Curated Lists](../topics/curated-lists.md#repo-ashishps1--awesome-low-level-design) | [Reference](../topics/reference.md#repo-ashishps1--awesome-low-level-design)
 - **Kind:** Curated List
 - **Best for:** Learners studying object-oriented design and design patterns; Preparing for low-level-design or concurrency interview exercises
 - **Languages:** Java, JavaScript, Go, Rust, TypeScript
@@ -122,12 +134,14 @@ A learning-resource collection for low-level and object-oriented design, combini
   - Creational, structural, and behavioral design-pattern references
   - UML references plus class diagrams for many interview-style systems
 
+<a id="repo-bragai--brag-langchain"></a>
+
 ## [bRAG-langchain](https://github.com/bragai/bRAG-langchain)
 
 A hands-on notebook course for learning retrieval-augmented generation (RAG), progressing from a basic customizable chatbot to routing, advanced indexing and retrieval, reranking, and scalable RAG techniques.
 
-- **Category:** [Documentation and Learning](../categories/documentation-and-learning.md)
-- **Topics:** [LLMs](../topics/llms.md) | [Machine Learning](../topics/machine-learning.md) | [Document Processing](../topics/document-processing.md) | [Tutorials](../topics/tutorials.md) | [Documentation](../topics/documentation.md)
+- **Category:** [Documentation and Learning](../categories/documentation-and-learning.md#repo-bragai--brag-langchain)
+- **Topics:** [LLMs](../topics/llms.md#repo-bragai--brag-langchain) | [Machine Learning](../topics/machine-learning.md#repo-bragai--brag-langchain) | [Document Processing](../topics/document-processing.md#repo-bragai--brag-langchain) | [Tutorials](../topics/tutorials.md#repo-bragai--brag-langchain) | [Documentation](../topics/documentation.md#repo-bragai--brag-langchain)
 - **Kind:** Course
 - **Best for:** Developers learning how RAG pipelines fit together through runnable notebooks; Practitioners adapting examples for a LangChain-based RAG prototype
 - **Languages:** Python, Jupyter Notebook
@@ -141,12 +155,14 @@ A hands-on notebook course for learning retrieval-augmented generation (RAG), pr
   - Includes a full basic RAG notebook with starter code for a customizable chatbot
   - Demonstrates multi-query retrieval, query routing, structured metadata filters, and vector-store integration
 
+<a id="repo-checkcheckzz--system-design-interview"></a>
+
 ## [System Design Interview](https://github.com/checkcheckzz/system-design-interview)
 
 A compact interview-preparation guide that combines a suggested design discussion approach with categorized links to system-design articles, real-system references, questions, books, and object-oriented-design material.
 
-- **Category:** [Documentation and Learning](../categories/documentation-and-learning.md)
-- **Topics:** [Curated Lists](../topics/curated-lists.md) | [Tutorials](../topics/tutorials.md) | [Reference](../topics/reference.md) | [Documentation](../topics/documentation.md)
+- **Category:** [Documentation and Learning](../categories/documentation-and-learning.md#repo-checkcheckzz--system-design-interview)
+- **Topics:** [Curated Lists](../topics/curated-lists.md#repo-checkcheckzz--system-design-interview) | [Tutorials](../topics/tutorials.md#repo-checkcheckzz--system-design-interview) | [Reference](../topics/reference.md#repo-checkcheckzz--system-design-interview) | [Documentation](../topics/documentation.md#repo-checkcheckzz--system-design-interview)
 - **Kind:** Curated List
 - **Best for:** Preparing a structured response to a system-design interview question; Finding further reading and real-system references by topic
 - **Languages:** Markdown
@@ -160,12 +176,14 @@ A compact interview-preparation guide that combines a suggested design discussio
   - Curated introductory links on scalability, distributed-systems concepts, and system-design patterns
   - Company engineering-blog directory for researching prospective interviewers
 
+<a id="repo-codecrafters-io--build-your-own-x"></a>
+
 ## [Build Your Own X](https://github.com/codecrafters-io/build-your-own-x)
 
 A Markdown index of external, step-by-step guides for recreating software technologies from scratch, organized by the kind of system to build.
 
-- **Category:** [Documentation and Learning](../categories/documentation-and-learning.md)
-- **Topics:** [Curated Lists](../topics/curated-lists.md) | [Tutorials](../topics/tutorials.md) | [Reference](../topics/reference.md) | [Documentation](../topics/documentation.md)
+- **Category:** [Documentation and Learning](../categories/documentation-and-learning.md#repo-codecrafters-io--build-your-own-x)
+- **Topics:** [Curated Lists](../topics/curated-lists.md#repo-codecrafters-io--build-your-own-x) | [Tutorials](../topics/tutorials.md#repo-codecrafters-io--build-your-own-x) | [Reference](../topics/reference.md#repo-codecrafters-io--build-your-own-x) | [Documentation](../topics/documentation.md#repo-codecrafters-io--build-your-own-x)
 - **Kind:** Curated List
 - **Best for:** Selecting an implementation-oriented tutorial for a familiar technology; Exploring systems-programming topics through reconstruction exercises
 - **Languages:** Markdown
@@ -179,12 +197,14 @@ A Markdown index of external, step-by-step guides for recreating software techno
   - Additional categories for browsers, web servers, front-end frameworks, shells, text editors, games, and renderers
   - Per-entry language labels and direct links to the original tutorial resources
 
+<a id="repo-dair-ai--prompt-engineering-guide"></a>
+
 ## [Prompt Engineering Guide](https://github.com/dair-ai/Prompt-Engineering-Guide)
 
 A web-first guide and resource collection for learning prompt engineering with language models, including techniques, applications, model references, risks, papers, tools, notebooks, and related agent material.
 
-- **Category:** [Documentation and Learning](../categories/documentation-and-learning.md)
-- **Topics:** [Prompt Engineering](../topics/prompt-engineering.md) | [LLMs](../topics/llms.md) | [AI Agents](../topics/ai-agents.md) | [Tutorials](../topics/tutorials.md) | [Reference](../topics/reference.md)
+- **Category:** [Documentation and Learning](../categories/documentation-and-learning.md#repo-dair-ai--prompt-engineering-guide)
+- **Topics:** [Prompt Engineering](../topics/prompt-engineering.md#repo-dair-ai--prompt-engineering-guide) | [LLMs](../topics/llms.md#repo-dair-ai--prompt-engineering-guide) | [AI Agents](../topics/ai-agents.md#repo-dair-ai--prompt-engineering-guide) | [Tutorials](../topics/tutorials.md#repo-dair-ai--prompt-engineering-guide) | [Reference](../topics/reference.md#repo-dair-ai--prompt-engineering-guide)
 - **Kind:** Documentation
 - **Best for:** Learning and comparing prompt-engineering techniques for LLM work; Finding introductory guides, papers, tools, and examples before building an LLM feature
 - **Languages:** MDX, JavaScript
@@ -198,12 +218,14 @@ A web-first guide and resource collection for learning prompt engineering with l
   - Technique index covering zero- and few-shot prompting, chain of thought, retrieval, and tool use
   - Application and prompt-hub sections spanning coding, evaluation, extraction, reasoning, and other tasks
 
+<a id="repo-ddd-crew--ddd-starter-modelling-process"></a>
+
 ## [Domain-Driven Design Starter Modelling Process](https://github.com/ddd-crew/ddd-starter-modelling-process)
 
 A beginner-oriented, iterative guide to applying domain-driven design from understanding a business and domain through defining contexts and coding.
 
-- **Category:** [Documentation and Learning](../categories/documentation-and-learning.md)
-- **Topics:** [Documentation](../topics/documentation.md) | [Reference](../topics/reference.md) | [Tutorials](../topics/tutorials.md) | [Task Planning](../topics/task-planning.md)
+- **Category:** [Documentation and Learning](../categories/documentation-and-learning.md#repo-ddd-crew--ddd-starter-modelling-process)
+- **Topics:** [Documentation](../topics/documentation.md#repo-ddd-crew--ddd-starter-modelling-process) | [Reference](../topics/reference.md#repo-ddd-crew--ddd-starter-modelling-process) | [Tutorials](../topics/tutorials.md#repo-ddd-crew--ddd-starter-modelling-process) | [Task Planning](../topics/task-planning.md#repo-ddd-crew--ddd-starter-modelling-process)
 - **Kind:** Documentation
 - **Best for:** Teams beginning a domain-driven design initiative or migration; Facilitators teaching a practical starting process for domain modelling
 - **Languages:** Unknown
@@ -217,12 +239,14 @@ A beginner-oriented, iterative guide to applying domain-driven design from under
   - Suggested collaborative modelling tools and the people to involve at each stage
   - Adaptation guidance for greenfield work, migrations, team changes, and learning
 
+<a id="repo-donnemartin--system-design-primer"></a>
+
 ## [The System Design Primer](https://github.com/donnemartin/system-design-primer)
 
 An open learning reference for scalable-system design and interview preparation, with a study guide, concept summaries, design exercises, linked solutions, diagrams, Python examples, and Anki decks.
 
-- **Category:** [Documentation and Learning](../categories/documentation-and-learning.md)
-- **Topics:** [Tutorials](../topics/tutorials.md) | [Documentation](../topics/documentation.md) | [Reference](../topics/reference.md) | [Courses](../topics/courses.md)
+- **Category:** [Documentation and Learning](../categories/documentation-and-learning.md#repo-donnemartin--system-design-primer)
+- **Topics:** [Tutorials](../topics/tutorials.md#repo-donnemartin--system-design-primer) | [Documentation](../topics/documentation.md#repo-donnemartin--system-design-primer) | [Reference](../topics/reference.md#repo-donnemartin--system-design-primer) | [Courses](../topics/courses.md#repo-donnemartin--system-design-primer)
 - **Kind:** Documentation
 - **Best for:** Building a system-design interview study plan around a chosen timeline; Reviewing scalability concepts and comparing solutions to common design prompts
 - **Languages:** Markdown, Python
@@ -236,12 +260,14 @@ An open learning reference for scalable-system design and interview preparation,
   - Four-step interview approach covering requirements, high-level design, core components, and scaling trade-offs
   - Topic reference covering availability, consistency, DNS, CDNs, load balancing, databases, caching, queues, and communication
 
+<a id="repo-ed-donner--agents"></a>
+
 ## [agents](https://github.com/ed-donner/agents)
 
 A six-week course repository for coding and deploying AI agents with several agent SDKs, frameworks, and Model Context Protocol material.
 
-- **Category:** [Documentation and Learning](../categories/documentation-and-learning.md)
-- **Topics:** [AI Agents](../topics/ai-agents.md) | [LLMs](../topics/llms.md) | [MCP](../topics/mcp.md) | [Courses](../topics/courses.md) | [Tutorials](../topics/tutorials.md)
+- **Category:** [Documentation and Learning](../categories/documentation-and-learning.md#repo-ed-donner--agents)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-ed-donner--agents) | [LLMs](../topics/llms.md#repo-ed-donner--agents) | [MCP](../topics/mcp.md#repo-ed-donner--agents) | [Courses](../topics/courses.md#repo-ed-donner--agents) | [Tutorials](../topics/tutorials.md#repo-ed-donner--agents)
 - **Kind:** Course
 - **Best for:** Learners who want a structured introduction to agentic AI engineering; Comparing several agent SDKs and frameworks through course exercises
 - **Languages:** Jupyter Notebook, Python
@@ -255,12 +281,14 @@ A six-week course repository for coding and deploying AI agents with several age
   - Material for OpenAI Agents SDK, CrewAI, LangGraph, Google ADK, Pydantic AI, and MCP
   - Platform-specific setup instructions for Windows, macOS, and Linux
 
+<a id="repo-github--awesome-copilot"></a>
+
 ## [Awesome GitHub Copilot](https://github.com/github/awesome-copilot)
 
 A community-created collection of GitHub Copilot agents, instructions, skills, hooks, workflows, plugins, API recipes, and learning resources for adapting Copilot to development workflows.
 
-- **Category:** [Documentation and Learning](../categories/documentation-and-learning.md)
-- **Topics:** [AI Agents](../topics/ai-agents.md) | [Coding Agents](../topics/coding-agents.md) | [Agent Skills](../topics/agent-skills.md) | [Prompt Engineering](../topics/prompt-engineering.md) | [MCP](../topics/mcp.md) | [Developer Productivity](../topics/developer-productivity.md) | [Curated Lists](../topics/curated-lists.md) | [Tutorials](../topics/tutorials.md)
+- **Category:** [Documentation and Learning](../categories/documentation-and-learning.md#repo-github--awesome-copilot)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-github--awesome-copilot) | [Coding Agents](../topics/coding-agents.md#repo-github--awesome-copilot) | [Agent Skills](../topics/agent-skills.md#repo-github--awesome-copilot) | [Prompt Engineering](../topics/prompt-engineering.md#repo-github--awesome-copilot) | [MCP](../topics/mcp.md#repo-github--awesome-copilot) | [Developer Productivity](../topics/developer-productivity.md#repo-github--awesome-copilot) | [Curated Lists](../topics/curated-lists.md#repo-github--awesome-copilot) | [Tutorials](../topics/tutorials.md#repo-github--awesome-copilot)
 - **Kind:** Curated List
 - **Best for:** Developers looking for reusable Copilot customizations by workflow; Teams that want examples before authoring their own agents, skills, or instructions
 - **Languages:** Unknown
@@ -274,12 +302,14 @@ A community-created collection of GitHub Copilot agents, instructions, skills, h
   - File-pattern instructions for automatically applied coding standards
   - Self-contained skills with instructions and bundled assets
 
+<a id="repo-github--copilot-cli-for-beginners"></a>
+
 ## [GitHub Copilot CLI for Beginners](https://github.com/github/copilot-cli-for-beginners)
 
 A hands-on beginner course for GitHub Copilot CLI that uses a Python book collection application to teach terminal-based AI assistance, code review, test generation, debugging, custom agents, skills, and MCP servers.
 
-- **Category:** [Documentation and Learning](../categories/documentation-and-learning.md)
-- **Topics:** [AI Agents](../topics/ai-agents.md) | [Coding Agents](../topics/coding-agents.md) | [CLI](../topics/cli.md) | [Terminal](../topics/terminal.md) | [Code Generation](../topics/code-generation.md) | [Code Review](../topics/code-review.md) | [Testing](../topics/testing.md) | [Debugging](../topics/debugging.md) | [Automation](../topics/automation.md) | [Agent Skills](../topics/agent-skills.md) | [MCP](../topics/mcp.md) | [Tutorials](../topics/tutorials.md) | [Developer Productivity](../topics/developer-productivity.md)
+- **Category:** [Documentation and Learning](../categories/documentation-and-learning.md#repo-github--copilot-cli-for-beginners)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-github--copilot-cli-for-beginners) | [Coding Agents](../topics/coding-agents.md#repo-github--copilot-cli-for-beginners) | [CLI](../topics/cli.md#repo-github--copilot-cli-for-beginners) | [Terminal](../topics/terminal.md#repo-github--copilot-cli-for-beginners) | [Code Generation](../topics/code-generation.md#repo-github--copilot-cli-for-beginners) | [Code Review](../topics/code-review.md#repo-github--copilot-cli-for-beginners) | [Testing](../topics/testing.md#repo-github--copilot-cli-for-beginners) | [Debugging](../topics/debugging.md#repo-github--copilot-cli-for-beginners) | [Automation](../topics/automation.md#repo-github--copilot-cli-for-beginners) | [Agent Skills](../topics/agent-skills.md#repo-github--copilot-cli-for-beginners) | [MCP](../topics/mcp.md#repo-github--copilot-cli-for-beginners) | [Tutorials](../topics/tutorials.md#repo-github--copilot-cli-for-beginners) | [Developer Productivity](../topics/developer-productivity.md#repo-github--copilot-cli-for-beginners)
 - **Kind:** Course
 - **Best for:** Developers and students who are new to AI-assisted terminal workflows; Teams standardizing GitHub Copilot CLI development and review practices
 - **Languages:** Python, JavaScript, C#
@@ -293,12 +323,14 @@ A hands-on beginner course for GitHub Copilot CLI that uses a Python book collec
   - Runnable terminal examples and assignments in every chapter
   - A single Python book collection application used throughout the learning path
 
+<a id="repo-imagineailab--ai-by-hand-excel"></a>
+
 ## [AI by Hand: Exercises in Excel](https://github.com/ImagineAILab/ai-by-hand-excel)
 
 A collection of Excel workbooks for manually working through machine-learning and neural-network concepts, from dot products and softmax to transformers, Mamba, and AlphaFold.
 
-- **Category:** [Documentation and Learning](../categories/documentation-and-learning.md)
-- **Topics:** [Courses](../topics/courses.md) | [Tutorials](../topics/tutorials.md) | [Machine Learning](../topics/machine-learning.md)
+- **Category:** [Documentation and Learning](../categories/documentation-and-learning.md#repo-imagineailab--ai-by-hand-excel)
+- **Topics:** [Courses](../topics/courses.md#repo-imagineailab--ai-by-hand-excel) | [Tutorials](../topics/tutorials.md#repo-imagineailab--ai-by-hand-excel) | [Machine Learning](../topics/machine-learning.md#repo-imagineailab--ai-by-hand-excel)
 - **Kind:** Course
 - **Best for:** Learners who want to inspect model mechanics in spreadsheet exercises; Teaching or self-study that benefits from small, editable worked examples
 - **Languages:** Unknown
@@ -312,12 +344,14 @@ A collection of Excel workbooks for manually working through machine-learning an
   - Provides advanced workbooks for MLPs, backpropagation, RNNs, LSTMs, ResNet, attention, transformers, autoencoders, Mamba, and AlphaFold
   - Supplies a blank DeepSeek lecture workbook for multi-head latent attention and mixture-of-experts material
 
+<a id="repo-kyrolabs--awesome-langchain"></a>
+
 ## [Awesome LangChain](https://github.com/kyrolabs/awesome-langchain)
 
 A curated reference directory for the LangChain ecosystem, covering the core framework, language ports, tools, agents, templates, platforms, open-source projects, and learning material.
 
-- **Category:** [Documentation and Learning](../categories/documentation-and-learning.md)
-- **Topics:** [AI Agents](../topics/ai-agents.md) | [LLMs](../topics/llms.md) | [Curated Lists](../topics/curated-lists.md) | [Frameworks](../topics/frameworks.md) | [Libraries](../topics/libraries.md) | [Tutorials](../topics/tutorials.md) | [Reference](../topics/reference.md) | [Open Source](../topics/open-source.md)
+- **Category:** [Documentation and Learning](../categories/documentation-and-learning.md#repo-kyrolabs--awesome-langchain)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-kyrolabs--awesome-langchain) | [LLMs](../topics/llms.md#repo-kyrolabs--awesome-langchain) | [Curated Lists](../topics/curated-lists.md#repo-kyrolabs--awesome-langchain) | [Frameworks](../topics/frameworks.md#repo-kyrolabs--awesome-langchain) | [Libraries](../topics/libraries.md#repo-kyrolabs--awesome-langchain) | [Tutorials](../topics/tutorials.md#repo-kyrolabs--awesome-langchain) | [Reference](../topics/reference.md#repo-kyrolabs--awesome-langchain) | [Open Source](../topics/open-source.md#repo-kyrolabs--awesome-langchain)
 - **Kind:** Curated List
 - **Best for:** Developers looking for LangChain-related projects or integrations; Learners seeking examples, notebooks, and videos for the ecosystem
 - **Languages:** Unknown
@@ -331,12 +365,14 @@ A curated reference directory for the LangChain ecosystem, covering the core fra
   - Tool listings, including low-code services, agents, and templates
   - Open-source project sections for knowledge management and chatbots
 
+<a id="repo-microsoft--ai-for-beginners"></a>
+
 ## [Artificial Intelligence for Beginners](https://github.com/microsoft/AI-For-Beginners)
 
 A beginner-friendly, 12-week curriculum of AI lessons, executable notebooks, quizzes, and selected practical labs.
 
-- **Category:** [Documentation and Learning](../categories/documentation-and-learning.md)
-- **Topics:** [Courses](../topics/courses.md) | [Tutorials](../topics/tutorials.md) | [Machine Learning](../topics/machine-learning.md) | [Documentation](../topics/documentation.md) | [Open Source](../topics/open-source.md)
+- **Category:** [Documentation and Learning](../categories/documentation-and-learning.md#repo-microsoft--ai-for-beginners)
+- **Topics:** [Courses](../topics/courses.md#repo-microsoft--ai-for-beginners) | [Tutorials](../topics/tutorials.md#repo-microsoft--ai-for-beginners) | [Machine Learning](../topics/machine-learning.md#repo-microsoft--ai-for-beginners) | [Documentation](../topics/documentation.md#repo-microsoft--ai-for-beginners) | [Open Source](../topics/open-source.md#repo-microsoft--ai-for-beginners)
 - **Kind:** Course
 - **Best for:** Learners seeking a structured introduction to AI concepts and neural networks; Educators adapting an open curriculum with hands-on notebook material
 - **Languages:** Jupyter Notebook, Python, JavaScript
@@ -350,12 +386,14 @@ A beginner-friendly, 12-week curriculum of AI lessons, executable notebooks, qui
   - Framework-specific executable notebooks for TensorFlow and PyTorch, plus selected labs
   - Short beginner examples for pattern recognition, neural networks, image classification, and sentiment analysis
 
+<a id="repo-microsoft--mcp-for-beginners"></a>
+
 ## [MCP for Beginners](https://github.com/microsoft/mcp-for-beginners)
 
 A hands-on, multilingual curriculum for learning the Model Context Protocol, progressing from fundamentals and security through server and client examples, testing, deployment, advanced integrations, and case studies.
 
-- **Category:** [Documentation and Learning](../categories/documentation-and-learning.md)
-- **Topics:** [MCP](../topics/mcp.md) | [Tutorials](../topics/tutorials.md) | [AI Agents](../topics/ai-agents.md) | [Security](../topics/security.md) | [Documentation](../topics/documentation.md) | [Open Source](../topics/open-source.md)
+- **Category:** [Documentation and Learning](../categories/documentation-and-learning.md#repo-microsoft--mcp-for-beginners)
+- **Topics:** [MCP](../topics/mcp.md#repo-microsoft--mcp-for-beginners) | [Tutorials](../topics/tutorials.md#repo-microsoft--mcp-for-beginners) | [AI Agents](../topics/ai-agents.md#repo-microsoft--mcp-for-beginners) | [Security](../topics/security.md#repo-microsoft--mcp-for-beginners) | [Documentation](../topics/documentation.md#repo-microsoft--mcp-for-beginners) | [Open Source](../topics/open-source.md#repo-microsoft--mcp-for-beginners)
 - **Kind:** Course
 - **Best for:** Developers learning to build and integrate MCP clients and servers; Teams that want guided examples in C#, Java, JavaScript, Rust, Python, or TypeScript
 - **Languages:** C#, Java, JavaScript, Python, Rust, TypeScript
@@ -369,12 +407,14 @@ A hands-on, multilingual curriculum for learning the Model Context Protocol, pro
   - Provides progressive guides for first servers, clients, LLM clients, stdio, HTTP streaming, testing, and deployment
   - Includes implementation samples in C#, Java, JavaScript, Rust, Python, and TypeScript
 
+<a id="repo-openai--openai-cookbook"></a>
+
 ## [OpenAI Cookbook](https://github.com/openai/openai-cookbook)
 
 An OpenAI-maintained collection of example code and guides for common OpenAI API tasks, published as a browsable Cookbook and repository, with most examples written in Python.
 
-- **Category:** [Documentation and Learning](../categories/documentation-and-learning.md)
-- **Topics:** [Documentation](../topics/documentation.md) | [Tutorials](../topics/tutorials.md) | [Reference](../topics/reference.md) | [LLMs](../topics/llms.md) | [API Development](../topics/api-development.md)
+- **Category:** [Documentation and Learning](../categories/documentation-and-learning.md#repo-openai--openai-cookbook)
+- **Topics:** [Documentation](../topics/documentation.md#repo-openai--openai-cookbook) | [Tutorials](../topics/tutorials.md#repo-openai--openai-cookbook) | [Reference](../topics/reference.md#repo-openai--openai-cookbook) | [LLMs](../topics/llms.md#repo-openai--openai-cookbook) | [API Development](../topics/api-development.md#repo-openai--openai-cookbook)
 - **Kind:** Documentation
 - **Best for:** Developers looking for concrete OpenAI API implementation patterns; Learners who want runnable examples before adapting concepts to another language
 - **Languages:** Python, Jupyter Notebook
@@ -388,12 +428,14 @@ An OpenAI-maintained collection of example code and guides for common OpenAI API
   - A browsable cookbook.openai.com documentation experience
   - Python-first examples whose concepts are intended to transfer to other languages
 
+<a id="repo-rohitg00--ai-engineering-from-scratch"></a>
+
 ## [AI Engineering from Scratch](https://github.com/rohitg00/ai-engineering-from-scratch)
 
 A self-paced, from-scratch AI-engineering curriculum spanning mathematics, machine learning, LLMs, agents, production systems, safety, and capstones.
 
-- **Category:** [Documentation and Learning](../categories/documentation-and-learning.md)
-- **Topics:** [Courses](../topics/courses.md) | [Tutorials](../topics/tutorials.md) | [Machine Learning](../topics/machine-learning.md) | [LLMs](../topics/llms.md) | [AI Agents](../topics/ai-agents.md) | [MCP](../topics/mcp.md) | [Multi Agent](../topics/multi-agent.md)
+- **Category:** [Documentation and Learning](../categories/documentation-and-learning.md#repo-rohitg00--ai-engineering-from-scratch)
+- **Topics:** [Courses](../topics/courses.md#repo-rohitg00--ai-engineering-from-scratch) | [Tutorials](../topics/tutorials.md#repo-rohitg00--ai-engineering-from-scratch) | [Machine Learning](../topics/machine-learning.md#repo-rohitg00--ai-engineering-from-scratch) | [LLMs](../topics/llms.md#repo-rohitg00--ai-engineering-from-scratch) | [AI Agents](../topics/ai-agents.md#repo-rohitg00--ai-engineering-from-scratch) | [MCP](../topics/mcp.md#repo-rohitg00--ai-engineering-from-scratch) | [Multi Agent](../topics/multi-agent.md#repo-rohitg00--ai-engineering-from-scratch)
 - **Kind:** Course
 - **Best for:** Developers seeking a structured, implementation-first route into AI engineering; Engineers who want focused LLM, agent, MCP, or production-system learning tracks
 - **Languages:** Python, TypeScript, Rust, Julia
@@ -407,12 +449,14 @@ A self-paced, from-scratch AI-engineering curriculum spanning mathematics, machi
   - A repeatable lesson structure: concept, raw implementation, production-library use, and a reusable output
   - Coverage of vision, NLP, speech, transformers, generative AI, reinforcement learning, LLM engineering, and safety
 
+<a id="repo-typescript-cheatsheets--react"></a>
+
 ## [React TypeScript Cheatsheet](https://github.com/typescript-cheatsheets/react)
 
 A documentation resource for using React with TypeScript effectively, combining opinionated best practices, copy-and-paste examples, setup guidance, and advanced generic-type material for reusable utilities and libraries.
 
-- **Category:** [Documentation and Learning](../categories/documentation-and-learning.md)
-- **Topics:** [Frontend Development](../topics/frontend-development.md) | [Documentation](../topics/documentation.md) | [Reference](../topics/reference.md) | [Tutorials](../topics/tutorials.md) | [Open Source](../topics/open-source.md)
+- **Category:** [Documentation and Learning](../categories/documentation-and-learning.md#repo-typescript-cheatsheets--react)
+- **Topics:** [Frontend Development](../topics/frontend-development.md#repo-typescript-cheatsheets--react) | [Documentation](../topics/documentation.md#repo-typescript-cheatsheets--react) | [Reference](../topics/reference.md#repo-typescript-cheatsheets--react) | [Tutorials](../topics/tutorials.md#repo-typescript-cheatsheets--react) | [Open Source](../topics/open-source.md#repo-typescript-cheatsheets--react)
 - **Kind:** Documentation
 - **Best for:** React developers who are adopting TypeScript or need type-pattern references; Library authors who need advanced React and TypeScript generic-type examples
 - **Languages:** TypeScript, Markdown
@@ -426,12 +470,14 @@ A documentation resource for using React with TypeScript effectively, combining 
   - Includes advanced guidance for generic types, reusable utilities, React and TypeScript libraries, and DefinitelyTyped contributions
   - Publishes its content both as the repository README and as a searchable documentation website
 
+<a id="repo-zslucky--awesome-ai-books"></a>
+
 ## [Awesome AI books](https://github.com/zslucky/awesome-AI-books)
 
 A curated README-based collection of AI reading links, books, papers, research organizations, training environments, and selected notebooks.
 
-- **Category:** [Documentation and Learning](../categories/documentation-and-learning.md)
-- **Topics:** [Curated Lists](../topics/curated-lists.md) | [Documentation](../topics/documentation.md) | [Reference](../topics/reference.md) | [Tutorials](../topics/tutorials.md) | [Machine Learning](../topics/machine-learning.md) | [LLMs](../topics/llms.md)
+- **Category:** [Documentation and Learning](../categories/documentation-and-learning.md#repo-zslucky--awesome-ai-books)
+- **Topics:** [Curated Lists](../topics/curated-lists.md#repo-zslucky--awesome-ai-books) | [Documentation](../topics/documentation.md#repo-zslucky--awesome-ai-books) | [Reference](../topics/reference.md#repo-zslucky--awesome-ai-books) | [Tutorials](../topics/tutorials.md#repo-zslucky--awesome-ai-books) | [Machine Learning](../topics/machine-learning.md#repo-zslucky--awesome-ai-books) | [LLMs](../topics/llms.md#repo-zslucky--awesome-ai-books)
 - **Kind:** Curated List
 - **Best for:** Finding introductory and reference material across AI and machine learning subjects; Browsing learning links for reinforcement learning, deep learning, quantum AI, and related areas
 - **Languages:** Jupyter Notebook

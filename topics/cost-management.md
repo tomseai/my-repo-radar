@@ -10,12 +10,14 @@
 - [Data and Databases](../categories/data-and-databases.md) (1)
 - [Developer Tools](../categories/developer-tools.md) (5)
 
+<a id="repo-ccusage--ccusage"></a>
+
 ## [ccusage](https://github.com/ccusage/ccusage)
 
 A local CLI that reads supported coding-agent usage logs and reports token counts, estimated costs, models, and sessions across multiple agents.
 
-- **Category:** [Developer Tools](../categories/developer-tools.md)
-- **Topics:** [CLI](../topics/cli.md) | [Coding Agents](../topics/coding-agents.md) | [Token Usage](../topics/token-usage.md) | [Cost Management](../topics/cost-management.md) | [Local First](../topics/local-first.md) | [Observability](../topics/observability.md)
+- **Category:** [Developer Tools](../categories/developer-tools.md#repo-ccusage--ccusage)
+- **Topics:** [CLI](../topics/cli.md#repo-ccusage--ccusage) | [Coding Agents](../topics/coding-agents.md#repo-ccusage--ccusage) | [Token Usage](../topics/token-usage.md#repo-ccusage--ccusage) | [Cost Management](../topics/cost-management.md#repo-ccusage--ccusage) | [Local First](../topics/local-first.md#repo-ccusage--ccusage) | [Observability](../topics/observability.md#repo-ccusage--ccusage)
 - **Kind:** CLI
 - **Best for:** Developers comparing local usage across supported coding-agent CLIs; Exporting token and estimated-cost reports for personal analysis or automation
 - **Languages:** Rust, TypeScript
@@ -29,12 +31,14 @@ A local CLI that reads supported coding-agent usage logs and reports token count
   - Source-specific daily, weekly, monthly, and session reports
   - Token, cache-token, model, and estimated USD-cost reporting
 
+<a id="repo-getagentseal--codeburn"></a>
+
 ## [CodeBurn](https://github.com/getagentseal/codeburn)
 
 A local-first CLI and set of dashboards that reads AI coding-tool session data from disk to report token use and estimated cost by task, model, tool, and project.
 
-- **Category:** [Developer Tools](../categories/developer-tools.md)
-- **Topics:** [Coding Agents](../topics/coding-agents.md) | [CLI](../topics/cli.md) | [TUI](../topics/tui.md) | [Web UI](../topics/web-ui.md) | [Desktop App](../topics/desktop-app.md) | [Local First](../topics/local-first.md) | [Observability](../topics/observability.md) | [Token Usage](../topics/token-usage.md) | [Cost Management](../topics/cost-management.md) | [MCP](../topics/mcp.md)
+- **Category:** [Developer Tools](../categories/developer-tools.md#repo-getagentseal--codeburn)
+- **Topics:** [Coding Agents](../topics/coding-agents.md#repo-getagentseal--codeburn) | [CLI](../topics/cli.md#repo-getagentseal--codeburn) | [TUI](../topics/tui.md#repo-getagentseal--codeburn) | [Web UI](../topics/web-ui.md#repo-getagentseal--codeburn) | [Desktop App](../topics/desktop-app.md#repo-getagentseal--codeburn) | [Local First](../topics/local-first.md#repo-getagentseal--codeburn) | [Observability](../topics/observability.md#repo-getagentseal--codeburn) | [Token Usage](../topics/token-usage.md#repo-getagentseal--codeburn) | [Cost Management](../topics/cost-management.md#repo-getagentseal--codeburn) | [MCP](../topics/mcp.md#repo-getagentseal--codeburn)
 - **Kind:** CLI
 - **Best for:** Developers comparing AI coding-agent spend across local tools and models; Teams seeking local reports and budget-analysis tools without a request proxy
 - **Languages:** TypeScript, Swift
@@ -48,12 +52,14 @@ A local-first CLI and set of dashboards that reads AI coding-tool session data f
   - Provides an interactive terminal dashboard, reports, JSON output, and a localhost web dashboard
   - Breaks down usage by task, model, tool, project, date range, and token category
 
+<a id="repo-marmutapp--superbased-observer"></a>
+
 ## [SuperBased Observer](https://github.com/marmutapp/superbased-observer)
 
 A local-first observability tool for AI coding activity that captures usage, provider-returned token counts, and costs through a CLI, dashboard, MCP server, and optional API proxy.
 
-- **Category:** [Developer Tools](../categories/developer-tools.md)
-- **Topics:** [AI Agents](../topics/ai-agents.md) | [Coding Agents](../topics/coding-agents.md) | [LLMs](../topics/llms.md) | [Observability](../topics/observability.md) | [Token Usage](../topics/token-usage.md) | [Cost Management](../topics/cost-management.md) | [Local First](../topics/local-first.md) | [MCP](../topics/mcp.md) | [CLI](../topics/cli.md) | [Web UI](../topics/web-ui.md) | [Developer Productivity](../topics/developer-productivity.md)
+- **Category:** [Developer Tools](../categories/developer-tools.md#repo-marmutapp--superbased-observer)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-marmutapp--superbased-observer) | [Coding Agents](../topics/coding-agents.md#repo-marmutapp--superbased-observer) | [LLMs](../topics/llms.md#repo-marmutapp--superbased-observer) | [Observability](../topics/observability.md#repo-marmutapp--superbased-observer) | [Token Usage](../topics/token-usage.md#repo-marmutapp--superbased-observer) | [Cost Management](../topics/cost-management.md#repo-marmutapp--superbased-observer) | [Local First](../topics/local-first.md#repo-marmutapp--superbased-observer) | [MCP](../topics/mcp.md#repo-marmutapp--superbased-observer) | [CLI](../topics/cli.md#repo-marmutapp--superbased-observer) | [Web UI](../topics/web-ui.md#repo-marmutapp--superbased-observer) | [Developer Productivity](../topics/developer-productivity.md#repo-marmutapp--superbased-observer)
 - **Kind:** Application
 - **Best for:** Developers comparing cost and token use across AI coding tools; Teams that need local inspection of coding-agent sessions before opting into sharing
 - **Languages:** Go, TypeScript
@@ -67,12 +73,14 @@ A local-first observability tool for AI coding activity that captures usage, pro
   - Optional reverse proxy for provider-returned token counts and compression
   - MCP server exposing local cross-tool usage intelligence
 
+<a id="repo-maximhq--bifrost"></a>
+
 ## [Bifrost](https://github.com/maximhq/bifrost)
 
 A high-performance AI gateway that exposes a single OpenAI-compatible API across many model providers, with routing, fallback, load balancing, caching, governance, and observability features.
 
-- **Category:** [AI and Automation](../categories/ai-and-automation.md)
-- **Topics:** [LLMs](../topics/llms.md) | [LLM Gateways](../topics/llm-gateways.md) | [Multi Provider](../topics/multi-provider.md) | [Model Routing](../topics/model-routing.md) | [Observability](../topics/observability.md) | [Cost Management](../topics/cost-management.md) | [MCP](../topics/mcp.md) | [Authentication](../topics/authentication.md)
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-maximhq--bifrost)
+- **Topics:** [LLMs](../topics/llms.md#repo-maximhq--bifrost) | [LLM Gateways](../topics/llm-gateways.md#repo-maximhq--bifrost) | [Multi Provider](../topics/multi-provider.md#repo-maximhq--bifrost) | [Model Routing](../topics/model-routing.md#repo-maximhq--bifrost) | [Observability](../topics/observability.md#repo-maximhq--bifrost) | [Cost Management](../topics/cost-management.md#repo-maximhq--bifrost) | [MCP](../topics/mcp.md#repo-maximhq--bifrost) | [Authentication](../topics/authentication.md#repo-maximhq--bifrost)
 - **Kind:** Service
 - **Best for:** Backend teams centralizing access to multiple AI providers behind a compatible API; Production AI services that need routing reliability, usage governance, and request observability
 - **Languages:** Go, TypeScript
@@ -86,12 +94,14 @@ A high-performance AI gateway that exposes a single OpenAI-compatible API across
   - Provides automatic fallback and load balancing across providers, models, and API keys
   - Adds semantic caching, multimodal and streaming support, plus a plugin architecture
 
+<a id="repo-paperclipai--paperclip"></a>
+
 ## [Paperclip](https://github.com/paperclipai/paperclip)
 
 A self-hosted Node.js server and React control plane for coordinating teams of AI agents around company goals, tasks, budgets, governance, and operational visibility.
 
-- **Category:** [AI and Automation](../categories/ai-and-automation.md)
-- **Topics:** [AI Agents](../topics/ai-agents.md) | [Agent Orchestration](../topics/agent-orchestration.md) | [Multi Agent](../topics/multi-agent.md) | [Agent Governance](../topics/agent-governance.md) | [Cost Management](../topics/cost-management.md) | [Observability](../topics/observability.md) | [Self Hosted](../topics/self-hosted.md) | [Web UI](../topics/web-ui.md)
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-paperclipai--paperclip)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-paperclipai--paperclip) | [Agent Orchestration](../topics/agent-orchestration.md#repo-paperclipai--paperclip) | [Multi Agent](../topics/multi-agent.md#repo-paperclipai--paperclip) | [Agent Governance](../topics/agent-governance.md#repo-paperclipai--paperclip) | [Cost Management](../topics/cost-management.md#repo-paperclipai--paperclip) | [Observability](../topics/observability.md#repo-paperclipai--paperclip) | [Self Hosted](../topics/self-hosted.md#repo-paperclipai--paperclip) | [Web UI](../topics/web-ui.md#repo-paperclipai--paperclip)
 - **Kind:** Application
 - **Best for:** Teams operating many agent runtimes that need one task and supervision system; Organizations that need cost controls, approvals, auditability, and scheduled agent work
 - **Languages:** TypeScript, JavaScript
@@ -105,12 +115,14 @@ A self-hosted Node.js server and React control plane for coordinating teams of A
   - Provides ticketed work with atomic checkout, session state, structured logs, activity, and audit trails
   - Schedules agent heartbeats and routines while enforcing scoped budget warnings and hard stops
 
+<a id="repo-ucbepic--docetl"></a>
+
 ## [DocETL](https://github.com/ucbepic/docetl)
 
 A Python framework for declarative LLM-powered processing of structured and unstructured datasets, offering map-reduce-style operators, Python and YAML pipelines, automatic cost-quality optimization, parsing extras, and a visual playground.
 
-- **Category:** [Data and Databases](../categories/data-and-databases.md)
-- **Topics:** [Document Processing](../topics/document-processing.md) | [Data Processing](../topics/data-processing.md) | [LLMs](../topics/llms.md) | [Automation](../topics/automation.md) | [Evaluation](../topics/evaluation.md) | [Cost Management](../topics/cost-management.md) | [CLI](../topics/cli.md) | [Web UI](../topics/web-ui.md)
+- **Category:** [Data and Databases](../categories/data-and-databases.md#repo-ucbepic--docetl)
+- **Topics:** [Document Processing](../topics/document-processing.md#repo-ucbepic--docetl) | [Data Processing](../topics/data-processing.md#repo-ucbepic--docetl) | [LLMs](../topics/llms.md#repo-ucbepic--docetl) | [Automation](../topics/automation.md#repo-ucbepic--docetl) | [Evaluation](../topics/evaluation.md#repo-ucbepic--docetl) | [Cost Management](../topics/cost-management.md#repo-ucbepic--docetl) | [CLI](../topics/cli.md#repo-ucbepic--docetl) | [Web UI](../topics/web-ui.md#repo-ucbepic--docetl)
 - **Kind:** Framework
 - **Best for:** Data teams extracting, classifying, resolving, or summarizing large document collections; Developers who need repeatable LLM pipelines with explicit cost and quality optimization
 - **Languages:** Python, TypeScript
@@ -124,12 +136,14 @@ A Python framework for declarative LLM-powered processing of structured and unst
   - Defines pipelines through a Python API or low-code YAML configuration
   - Parallelizes work and reports model-call costs while producing tabular results
 
+<a id="repo-vasihemanth--tokentelemetry"></a>
+
 ## [TokenTelemetry](https://github.com/VasiHemanth/tokentelemetry)
 
 A local dashboard that reads supported AI-agent session logs to show token use, costs, tool calls, reasoning traces, budgets, and project analytics.
 
-- **Category:** [Developer Tools](../categories/developer-tools.md)
-- **Topics:** [AI Agents](../topics/ai-agents.md) | [Observability](../topics/observability.md) | [Token Usage](../topics/token-usage.md) | [Cost Management](../topics/cost-management.md) | [Local First](../topics/local-first.md) | [Self Hosted](../topics/self-hosted.md) | [Web UI](../topics/web-ui.md) | [CLI](../topics/cli.md)
+- **Category:** [Developer Tools](../categories/developer-tools.md#repo-vasihemanth--tokentelemetry)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-vasihemanth--tokentelemetry) | [Observability](../topics/observability.md#repo-vasihemanth--tokentelemetry) | [Token Usage](../topics/token-usage.md#repo-vasihemanth--tokentelemetry) | [Cost Management](../topics/cost-management.md#repo-vasihemanth--tokentelemetry) | [Local First](../topics/local-first.md#repo-vasihemanth--tokentelemetry) | [Self Hosted](../topics/self-hosted.md#repo-vasihemanth--tokentelemetry) | [Web UI](../topics/web-ui.md#repo-vasihemanth--tokentelemetry) | [CLI](../topics/cli.md#repo-vasihemanth--tokentelemetry)
 - **Kind:** Application
 - **Best for:** Developers comparing token use and costs across local coding-agent sessions; Teams needing a local, read-only view of supported AI-agent activity
 - **Languages:** Python, TypeScript, JavaScript
@@ -143,12 +157,14 @@ A local dashboard that reads supported AI-agent session logs to show token use, 
   - Waterfall traces for prompts, reasoning, tool calls, and responses
   - Per-project activity, heatmaps, agent leaderboards, and worktree rollups
 
+<a id="repo-waynesutton--opensync"></a>
+
 ## [opensync](https://github.com/waynesutton/opensync)
 
 A hosted or self-hosted dashboard and API for collecting AI coding-session data from supported sync plugins, then searching, analysing, exporting, and reusing that activity for evaluation and context workflows.
 
-- **Category:** [Developer Tools](../categories/developer-tools.md)
-- **Topics:** [Coding Agents](../topics/coding-agents.md) | [Observability](../topics/observability.md) | [Evaluation](../topics/evaluation.md) | [Search](../topics/search.md) | [Token Usage](../topics/token-usage.md) | [Cost Management](../topics/cost-management.md) | [Web UI](../topics/web-ui.md) | [Self Hosted](../topics/self-hosted.md)
+- **Category:** [Developer Tools](../categories/developer-tools.md#repo-waynesutton--opensync)
+- **Topics:** [Coding Agents](../topics/coding-agents.md#repo-waynesutton--opensync) | [Observability](../topics/observability.md#repo-waynesutton--opensync) | [Evaluation](../topics/evaluation.md#repo-waynesutton--opensync) | [Search](../topics/search.md#repo-waynesutton--opensync) | [Token Usage](../topics/token-usage.md#repo-waynesutton--opensync) | [Cost Management](../topics/cost-management.md#repo-waynesutton--opensync) | [Web UI](../topics/web-ui.md#repo-waynesutton--opensync) | [Self Hosted](../topics/self-hosted.md#repo-waynesutton--opensync)
 - **Kind:** Application
 - **Best for:** Teams that want a shared dashboard for coding-agent sessions, tool activity, and token spend; Developers who want to search or export past sessions for evaluations and context retrieval
 - **Languages:** TypeScript

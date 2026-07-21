@@ -9,12 +9,14 @@
 - [AI and Automation](../categories/ai-and-automation.md) (5)
 - [Developer Tools](../categories/developer-tools.md) (1)
 
+<a id="repo-coleam00--archon"></a>
+
 ## [Archon](https://github.com/coleam00/Archon)
 
 A workflow engine for defining and executing repeatable AI coding processes as YAML, with deterministic steps around agent work.
 
-- **Category:** [AI and Automation](../categories/ai-and-automation.md)
-- **Topics:** [AI Agents](../topics/ai-agents.md) | [Coding Agents](../topics/coding-agents.md) | [Agent Orchestration](../topics/agent-orchestration.md) | [Automation](../topics/automation.md) | [CLI](../topics/cli.md) | [Git](../topics/git.md) | [Worktrees](../topics/worktrees.md) | [Web UI](../topics/web-ui.md) | [Pull Requests](../topics/pull-requests.md)
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-coleam00--archon)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-coleam00--archon) | [Coding Agents](../topics/coding-agents.md#repo-coleam00--archon) | [Agent Orchestration](../topics/agent-orchestration.md#repo-coleam00--archon) | [Automation](../topics/automation.md#repo-coleam00--archon) | [CLI](../topics/cli.md#repo-coleam00--archon) | [Git](../topics/git.md#repo-coleam00--archon) | [Worktrees](../topics/worktrees.md#repo-coleam00--archon) | [Web UI](../topics/web-ui.md#repo-coleam00--archon) | [Pull Requests](../topics/pull-requests.md#repo-coleam00--archon)
 - **Kind:** Application
 - **Best for:** Teams that want reviewable, repository-local workflows for AI coding tasks; Developers who need planning, validation, review, and pull-request steps to be repeatable
 - **Languages:** TypeScript
@@ -28,12 +30,14 @@ A workflow engine for defining and executing repeatable AI coding processes as Y
   - Isolates each workflow run in its own Git worktree, allowing parallel fixes without conflicts
   - Includes a web dashboard for chats, workflow execution, history, monitoring, and a drag-and-drop workflow builder
 
+<a id="repo-everyinc--compound-engineering-plugin"></a>
+
 ## [Compound Engineering](https://github.com/EveryInc/compound-engineering-plugin)
 
 A cross-harness plugin of coding-agent skills that structures engineering work around requirements, implementation planning, execution, review, and reusable solution notes.
 
-- **Category:** [AI and Automation](../categories/ai-and-automation.md)
-- **Topics:** [Coding Agents](../topics/coding-agents.md) | [Agent Skills](../topics/agent-skills.md) | [Task Planning](../topics/task-planning.md) | [Code Review](../topics/code-review.md) | [Worktrees](../topics/worktrees.md) | [Git](../topics/git.md) | [Pull Requests](../topics/pull-requests.md) | [Testing](../topics/testing.md) | [Developer Productivity](../topics/developer-productivity.md)
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-everyinc--compound-engineering-plugin)
+- **Topics:** [Coding Agents](../topics/coding-agents.md#repo-everyinc--compound-engineering-plugin) | [Agent Skills](../topics/agent-skills.md#repo-everyinc--compound-engineering-plugin) | [Task Planning](../topics/task-planning.md#repo-everyinc--compound-engineering-plugin) | [Code Review](../topics/code-review.md#repo-everyinc--compound-engineering-plugin) | [Worktrees](../topics/worktrees.md#repo-everyinc--compound-engineering-plugin) | [Git](../topics/git.md#repo-everyinc--compound-engineering-plugin) | [Pull Requests](../topics/pull-requests.md#repo-everyinc--compound-engineering-plugin) | [Testing](../topics/testing.md#repo-everyinc--compound-engineering-plugin) | [Developer Productivity](../topics/developer-productivity.md#repo-everyinc--compound-engineering-plugin)
 - **Kind:** Plugin
 - **Best for:** Teams that want repeatable, agent-assisted feature and bug-fix workflows; Coding-agent users who want repository learnings to inform later work
 - **Languages:** TypeScript
@@ -47,12 +51,14 @@ A cross-harness plugin of coding-agent skills that structures engineering work a
   - Interactive requirements and implementation-plan skills
   - Worktree-based implementation and task tracking
 
+<a id="repo-gitbutlerapp--gitbutler"></a>
+
 ## [GitButler](https://github.com/gitbutlerapp/gitbutler)
 
 A desktop Git client and CLI for stacked and parallel branches, direct commit editing, conflict handling, undo, forge integration, and agent-assisted development.
 
-- **Category:** [Developer Tools](../categories/developer-tools.md)
-- **Topics:** [Git](../topics/git.md) | [CLI](../topics/cli.md) | [Desktop App](../topics/desktop-app.md) | [Developer Productivity](../topics/developer-productivity.md) | [Code Review](../topics/code-review.md) | [Pull Requests](../topics/pull-requests.md)
+- **Category:** [Developer Tools](../categories/developer-tools.md#repo-gitbutlerapp--gitbutler)
+- **Topics:** [Git](../topics/git.md#repo-gitbutlerapp--gitbutler) | [CLI](../topics/cli.md#repo-gitbutlerapp--gitbutler) | [Desktop App](../topics/desktop-app.md#repo-gitbutlerapp--gitbutler) | [Developer Productivity](../topics/developer-productivity.md#repo-gitbutlerapp--gitbutler) | [Code Review](../topics/code-review.md#repo-gitbutlerapp--gitbutler) | [Pull Requests](../topics/pull-requests.md#repo-gitbutlerapp--gitbutler)
 - **Kind:** Application
 - **Best for:** Developers working with stacked pull requests; Managing several simultaneous branches or agent-produced changes
 - **Languages:** Rust, TypeScript, Svelte
@@ -66,12 +72,14 @@ A desktop Git client and CLI for stacked and parallel branches, direct commit ed
   - Visual commit editing, splitting, moving, squashing, and rewording
   - Operation history with undo and recovery
 
+<a id="repo-johnpapa--ai-ready"></a>
+
 ## [AI Ready](https://github.com/johnpapa/ai-ready)
 
 A GitHub Copilot CLI skill that inspects a repository's code, workflows, documentation, and review patterns, then reports on AI readiness and proposes or creates repository-specific configuration for coding agents.
 
-- **Category:** [AI and Automation](../categories/ai-and-automation.md)
-- **Topics:** [Coding Agents](../topics/coding-agents.md) | [Agent Skills](../topics/agent-skills.md) | [Automation](../topics/automation.md) | [GitHub](../topics/github.md) | [Pull Requests](../topics/pull-requests.md) | [MCP](../topics/mcp.md) | [Developer Productivity](../topics/developer-productivity.md)
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-johnpapa--ai-ready)
+- **Topics:** [Coding Agents](../topics/coding-agents.md#repo-johnpapa--ai-ready) | [Agent Skills](../topics/agent-skills.md#repo-johnpapa--ai-ready) | [Automation](../topics/automation.md#repo-johnpapa--ai-ready) | [GitHub](../topics/github.md#repo-johnpapa--ai-ready) | [Pull Requests](../topics/pull-requests.md#repo-johnpapa--ai-ready) | [MCP](../topics/mcp.md#repo-johnpapa--ai-ready) | [Developer Productivity](../topics/developer-productivity.md#repo-johnpapa--ai-ready)
 - **Kind:** Plugin
 - **Best for:** Maintainers preparing a repository for repeatable AI-agent contributions; Teams that want agent instructions derived from their existing project conventions
 - **Languages:** Unknown
@@ -85,12 +93,14 @@ A GitHub Copilot CLI skill that inspects a repository's code, workflows, documen
   - Mines recent pull-request review comments for repeated team conventions
   - Generates or audits AGENTS.md and GitHub Copilot instructions without overwriting files
 
+<a id="repo-shep-ai--shep"></a>
+
 ## [Shep](https://github.com/shep-ai/shep)
 
 A local-first orchestrator that runs parallel coding agents in isolated Git worktrees and drives feature branches through implementation, optional specification gates, commits, CI retry fixes, and draft pull requests.
 
-- **Category:** [AI and Automation](../categories/ai-and-automation.md)
-- **Topics:** [AI Agents](../topics/ai-agents.md) | [Coding Agents](../topics/coding-agents.md) | [Agent Orchestration](../topics/agent-orchestration.md) | [Parallel Agents](../topics/parallel-agents.md) | [Worktrees](../topics/worktrees.md) | [CLI](../topics/cli.md) | [Web UI](../topics/web-ui.md) | [Git](../topics/git.md) | [Pull Requests](../topics/pull-requests.md) | [Local First](../topics/local-first.md) | [Spec Driven Development](../topics/spec-driven-development.md)
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-shep-ai--shep)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-shep-ai--shep) | [Coding Agents](../topics/coding-agents.md#repo-shep-ai--shep) | [Agent Orchestration](../topics/agent-orchestration.md#repo-shep-ai--shep) | [Parallel Agents](../topics/parallel-agents.md#repo-shep-ai--shep) | [Worktrees](../topics/worktrees.md#repo-shep-ai--shep) | [CLI](../topics/cli.md#repo-shep-ai--shep) | [Web UI](../topics/web-ui.md#repo-shep-ai--shep) | [Git](../topics/git.md#repo-shep-ai--shep) | [Pull Requests](../topics/pull-requests.md#repo-shep-ai--shep) | [Local First](../topics/local-first.md#repo-shep-ai--shep) | [Spec Driven Development](../topics/spec-driven-development.md#repo-shep-ai--shep)
 - **Kind:** Application
 - **Best for:** Developers coordinating several AI coding-agent tasks against one repository; Teams that want agent output isolated in reviewable draft pull-request workflows
 - **Languages:** TypeScript
@@ -104,12 +114,14 @@ A local-first orchestrator that runs parallel coding agents in isolated Git work
   - Built-in Claude Code, Cursor CLI, and Gemini CLI support plus a generic terminal-agent executor
   - Default prompt-to-implementation-to-draft-PR workflow with configurable CI retry fixes
 
+<a id="repo-vercel-labs--open-agents"></a>
+
 ## [Open Agents](https://github.com/vercel-labs/open-agents)
 
 A Vercel-deployable reference application for background coding agents, combining a web interface, durable agent workflows, isolated sandbox VMs, and GitHub-based code-change workflows.
 
-- **Category:** [AI and Automation](../categories/ai-and-automation.md)
-- **Topics:** [Coding Agents](../topics/coding-agents.md) | [Agent Harnesses](../topics/agent-harnesses.md) | [Agent Skills](../topics/agent-skills.md) | [Sandboxing](../topics/sandboxing.md) | [Web UI](../topics/web-ui.md) | [GitHub](../topics/github.md) | [Pull Requests](../topics/pull-requests.md) | [Starter Templates](../topics/starter-templates.md) | [Open Source](../topics/open-source.md)
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-vercel-labs--open-agents)
+- **Topics:** [Coding Agents](../topics/coding-agents.md#repo-vercel-labs--open-agents) | [Agent Harnesses](../topics/agent-harnesses.md#repo-vercel-labs--open-agents) | [Agent Skills](../topics/agent-skills.md#repo-vercel-labs--open-agents) | [Sandboxing](../topics/sandboxing.md#repo-vercel-labs--open-agents) | [Web UI](../topics/web-ui.md#repo-vercel-labs--open-agents) | [GitHub](../topics/github.md#repo-vercel-labs--open-agents) | [Pull Requests](../topics/pull-requests.md#repo-vercel-labs--open-agents) | [Starter Templates](../topics/starter-templates.md#repo-vercel-labs--open-agents) | [Open Source](../topics/open-source.md#repo-vercel-labs--open-agents)
 - **Kind:** Starter Template
 - **Best for:** Teams that want to fork and adapt a cloud-hosted coding-agent application; Developers needing durable agent runs that can continue independently of a browser session
 - **Languages:** TypeScript

@@ -10,12 +10,14 @@
 - [Developer Tools](../categories/developer-tools.md) (1)
 - [Documentation and Learning](../categories/documentation-and-learning.md) (3)
 
+<a id="repo-addyosmani--agent-engineer"></a>
+
 ## [Agent Engineer](https://github.com/addyosmani/agent-engineer)
 
 A practical, beginner-oriented course that teaches AI-agent fundamentals, then introduces building and shipping agents with Google Cloud AI, Vertex AI, and the Agent Development Kit (ADK).
 
-- **Category:** [Documentation and Learning](../categories/documentation-and-learning.md)
-- **Topics:** [AI Agents](../topics/ai-agents.md) | [Task Planning](../topics/task-planning.md) | [Agent Memory](../topics/agent-memory.md) | [Agent Orchestration](../topics/agent-orchestration.md) | [Agent Protocols](../topics/agent-protocols.md) | [Agent Skills](../topics/agent-skills.md) | [MCP](../topics/mcp.md) | [Multi Agent](../topics/multi-agent.md) | [Evaluation](../topics/evaluation.md) | [Security](../topics/security.md) | [Tutorials](../topics/tutorials.md) | [Documentation](../topics/documentation.md)
+- **Category:** [Documentation and Learning](../categories/documentation-and-learning.md#repo-addyosmani--agent-engineer)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-addyosmani--agent-engineer) | [Task Planning](../topics/task-planning.md#repo-addyosmani--agent-engineer) | [Agent Memory](../topics/agent-memory.md#repo-addyosmani--agent-engineer) | [Agent Orchestration](../topics/agent-orchestration.md#repo-addyosmani--agent-engineer) | [Agent Protocols](../topics/agent-protocols.md#repo-addyosmani--agent-engineer) | [Agent Skills](../topics/agent-skills.md#repo-addyosmani--agent-engineer) | [MCP](../topics/mcp.md#repo-addyosmani--agent-engineer) | [Multi Agent](../topics/multi-agent.md#repo-addyosmani--agent-engineer) | [Evaluation](../topics/evaluation.md#repo-addyosmani--agent-engineer) | [Security](../topics/security.md#repo-addyosmani--agent-engineer) | [Tutorials](../topics/tutorials.md#repo-addyosmani--agent-engineer) | [Documentation](../topics/documentation.md#repo-addyosmani--agent-engineer)
 - **Kind:** Course
 - **Best for:** Software engineers learning core AI-agent concepts before choosing tools; Developers seeking a structured introduction to Google Cloud agent development
 - **Languages:** Markdown
@@ -29,12 +31,14 @@ A practical, beginner-oriented course that teaches AI-agent fundamentals, then i
   - Platform-agnostic introductions to tools, memory, planning, multi-agent systems, RAG, evaluation, and safety
   - Google Cloud, Vertex AI, and ADK lessons, including a first-agent walkthrough
 
+<a id="repo-andymik90--aperant"></a>
+
 ## [Aperant](https://github.com/AndyMik90/Aperant)
 
 An Electron desktop application for planning, executing, and validating parallel AI coding tasks in isolated Git worktrees, with a visual task board, agent terminals, review loops, and project-management integrations.
 
-- **Category:** [AI and Automation](../categories/ai-and-automation.md)
-- **Topics:** [AI Agents](../topics/ai-agents.md) | [Coding Agents](../topics/coding-agents.md) | [Multi Agent](../topics/multi-agent.md) | [Parallel Agents](../topics/parallel-agents.md) | [Worktrees](../topics/worktrees.md) | [Git](../topics/git.md) | [Desktop App](../topics/desktop-app.md) | [Task Planning](../topics/task-planning.md) | [Testing](../topics/testing.md)
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-andymik90--aperant)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-andymik90--aperant) | [Coding Agents](../topics/coding-agents.md#repo-andymik90--aperant) | [Multi Agent](../topics/multi-agent.md#repo-andymik90--aperant) | [Parallel Agents](../topics/parallel-agents.md#repo-andymik90--aperant) | [Worktrees](../topics/worktrees.md#repo-andymik90--aperant) | [Git](../topics/git.md#repo-andymik90--aperant) | [Desktop App](../topics/desktop-app.md#repo-andymik90--aperant) | [Task Planning](../topics/task-planning.md#repo-andymik90--aperant) | [Testing](../topics/testing.md#repo-andymik90--aperant)
 - **Kind:** Application
 - **Best for:** Claude Code users running parallel implementation tasks in Git repositories; Developers who prefer a visual desktop workflow for autonomous coding sessions
 - **Languages:** TypeScript
@@ -48,12 +52,14 @@ An Electron desktop application for planning, executing, and validating parallel
   - Up to twelve parallel agent terminals and Git-worktree isolation
   - Built-in quality assurance and AI-assisted merge-conflict resolution
 
+<a id="repo-automaker-org--automaker"></a>
+
 ## [Automaker](https://github.com/AutoMaker-Org/automaker)
 
 A desktop or web development studio that uses a Kanban workflow to plan, run, review, and approve coding-agent work in isolated Git worktrees.
 
-- **Category:** [AI and Automation](../categories/ai-and-automation.md)
-- **Topics:** [AI Agents](../topics/ai-agents.md) | [Coding Agents](../topics/coding-agents.md) | [Agent Orchestration](../topics/agent-orchestration.md) | [Multi Agent](../topics/multi-agent.md) | [Task Planning](../topics/task-planning.md) | [Worktrees](../topics/worktrees.md) | [Desktop App](../topics/desktop-app.md) | [Web UI](../topics/web-ui.md) | [Git](../topics/git.md)
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-automaker-org--automaker)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-automaker-org--automaker) | [Coding Agents](../topics/coding-agents.md#repo-automaker-org--automaker) | [Agent Orchestration](../topics/agent-orchestration.md#repo-automaker-org--automaker) | [Multi Agent](../topics/multi-agent.md#repo-automaker-org--automaker) | [Task Planning](../topics/task-planning.md#repo-automaker-org--automaker) | [Worktrees](../topics/worktrees.md#repo-automaker-org--automaker) | [Desktop App](../topics/desktop-app.md#repo-automaker-org--automaker) | [Web UI](../topics/web-ui.md#repo-automaker-org--automaker) | [Git](../topics/git.md#repo-automaker-org--automaker)
 - **Kind:** Application
 - **Best for:** Developers coordinating feature-sized coding-agent tasks visually; Teams that want plan approval and worktree isolation around agent execution
 - **Languages:** TypeScript
@@ -67,12 +73,14 @@ A desktop or web development studio that uses a Kanban workflow to plan, run, re
   - Agent execution with live tool use and progress streaming
   - Isolated Git worktrees for individual features
 
+<a id="repo-bloopai--vibe-kanban"></a>
+
 ## [Vibe Kanban](https://github.com/BloopAI/vibe-kanban)
 
 A sunsetting Kanban workspace for planning coding-agent work, running agents in isolated workspaces, reviewing changes, and creating pull requests.
 
-- **Category:** [AI and Automation](../categories/ai-and-automation.md)
-- **Topics:** [AI Agents](../topics/ai-agents.md) | [Coding Agents](../topics/coding-agents.md) | [Agent Orchestration](../topics/agent-orchestration.md) | [Task Planning](../topics/task-planning.md) | [Worktrees](../topics/worktrees.md) | [Git](../topics/git.md) | [Code Review](../topics/code-review.md) | [Web UI](../topics/web-ui.md) | [Desktop App](../topics/desktop-app.md) | [Self Hosted](../topics/self-hosted.md)
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-bloopai--vibe-kanban)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-bloopai--vibe-kanban) | [Coding Agents](../topics/coding-agents.md#repo-bloopai--vibe-kanban) | [Agent Orchestration](../topics/agent-orchestration.md#repo-bloopai--vibe-kanban) | [Task Planning](../topics/task-planning.md#repo-bloopai--vibe-kanban) | [Worktrees](../topics/worktrees.md#repo-bloopai--vibe-kanban) | [Git](../topics/git.md#repo-bloopai--vibe-kanban) | [Code Review](../topics/code-review.md#repo-bloopai--vibe-kanban) | [Web UI](../topics/web-ui.md#repo-bloopai--vibe-kanban) | [Desktop App](../topics/desktop-app.md#repo-bloopai--vibe-kanban) | [Self Hosted](../topics/self-hosted.md#repo-bloopai--vibe-kanban)
 - **Kind:** Application
 - **Best for:** Evaluating an integrated planning and review workflow for coding agents; Users prepared to self-host or fork a project that is being sunset
 - **Languages:** Rust, TypeScript
@@ -86,12 +94,14 @@ A sunsetting Kanban workspace for planning coding-agent work, running agents in 
   - Agent workspaces with a branch, terminal, and development server
   - Diff review with inline feedback sent back to an agent
 
+<a id="repo-bmad-code-org--bmad-method"></a>
+
 ## [BMad Method](https://github.com/bmad-code-org/BMAD-METHOD)
 
 An AI-assisted software-development framework that installs specialized agent skills and guided workflows for taking a project from analysis and planning through architecture, implementation, and deployment.
 
-- **Category:** [AI and Automation](../categories/ai-and-automation.md)
-- **Topics:** [Coding Agents](../topics/coding-agents.md) | [Agent Skills](../topics/agent-skills.md) | [Task Planning](../topics/task-planning.md) | [Spec Driven Development](../topics/spec-driven-development.md) | [Multi Agent](../topics/multi-agent.md) | [CLI](../topics/cli.md) | [Developer Productivity](../topics/developer-productivity.md)
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-bmad-code-org--bmad-method)
+- **Topics:** [Coding Agents](../topics/coding-agents.md#repo-bmad-code-org--bmad-method) | [Agent Skills](../topics/agent-skills.md#repo-bmad-code-org--bmad-method) | [Task Planning](../topics/task-planning.md#repo-bmad-code-org--bmad-method) | [Spec Driven Development](../topics/spec-driven-development.md#repo-bmad-code-org--bmad-method) | [Multi Agent](../topics/multi-agent.md#repo-bmad-code-org--bmad-method) | [CLI](../topics/cli.md#repo-bmad-code-org--bmad-method) | [Developer Productivity](../topics/developer-productivity.md#repo-bmad-code-org--bmad-method)
 - **Kind:** Framework
 - **Best for:** Teams wanting a structured, scale-adaptive workflow for AI-assisted development; Developers using a compatible AI-powered IDE for planning and implementation work
 - **Languages:** JavaScript, Python
@@ -105,12 +115,14 @@ An AI-assisted software-development framework that installs specialized agent sk
   - Planning tracks for quick fixes, product work, and enterprise-oriented projects
   - Specialized agent skills plus bmad-help for context-aware workflow guidance
 
+<a id="repo-coleam00--context-engineering-intro"></a>
+
 ## [Context Engineering Template](https://github.com/coleam00/context-engineering-intro)
 
 A Claude Code-centered starter template for supplying AI coding assistants with project rules, examples, feature requests, and Product Requirements Prompts (PRPs) that guide planned and validated implementation.
 
-- **Category:** [AI and Automation](../categories/ai-and-automation.md)
-- **Topics:** [AI Agents](../topics/ai-agents.md) | [Coding Agents](../topics/coding-agents.md) | [Context Engineering](../topics/context-engineering.md) | [Prompt Engineering](../topics/prompt-engineering.md) | [Task Planning](../topics/task-planning.md) | [Testing](../topics/testing.md) | [Documentation](../topics/documentation.md)
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-coleam00--context-engineering-intro)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-coleam00--context-engineering-intro) | [Coding Agents](../topics/coding-agents.md#repo-coleam00--context-engineering-intro) | [Context Engineering](../topics/context-engineering.md#repo-coleam00--context-engineering-intro) | [Prompt Engineering](../topics/prompt-engineering.md#repo-coleam00--context-engineering-intro) | [Task Planning](../topics/task-planning.md#repo-coleam00--context-engineering-intro) | [Testing](../topics/testing.md#repo-coleam00--context-engineering-intro) | [Documentation](../topics/documentation.md#repo-coleam00--context-engineering-intro)
 - **Kind:** Starter Template
 - **Best for:** Teams establishing reusable project context for AI-assisted feature work; Claude Code users who want a repeatable feature-request-to-implementation workflow
 - **Languages:** Markdown, Python, TypeScript
@@ -124,12 +136,14 @@ A Claude Code-centered starter template for supplying AI coding assistants with 
   - INITIAL.md and example files for structured feature requests, examples, documentation, and constraints
   - PRP templates and a multi-agent PRP example for implementation blueprints
 
+<a id="repo-ddd-crew--ddd-starter-modelling-process"></a>
+
 ## [Domain-Driven Design Starter Modelling Process](https://github.com/ddd-crew/ddd-starter-modelling-process)
 
 A beginner-oriented, iterative guide to applying domain-driven design from understanding a business and domain through defining contexts and coding.
 
-- **Category:** [Documentation and Learning](../categories/documentation-and-learning.md)
-- **Topics:** [Documentation](../topics/documentation.md) | [Reference](../topics/reference.md) | [Tutorials](../topics/tutorials.md) | [Task Planning](../topics/task-planning.md)
+- **Category:** [Documentation and Learning](../categories/documentation-and-learning.md#repo-ddd-crew--ddd-starter-modelling-process)
+- **Topics:** [Documentation](../topics/documentation.md#repo-ddd-crew--ddd-starter-modelling-process) | [Reference](../topics/reference.md#repo-ddd-crew--ddd-starter-modelling-process) | [Tutorials](../topics/tutorials.md#repo-ddd-crew--ddd-starter-modelling-process) | [Task Planning](../topics/task-planning.md#repo-ddd-crew--ddd-starter-modelling-process)
 - **Kind:** Documentation
 - **Best for:** Teams beginning a domain-driven design initiative or migration; Facilitators teaching a practical starting process for domain modelling
 - **Languages:** Unknown
@@ -143,12 +157,14 @@ A beginner-oriented, iterative guide to applying domain-driven design from under
   - Suggested collaborative modelling tools and the people to involve at each stage
   - Adaptation guidance for greenfield work, migrations, team changes, and learning
 
+<a id="repo-everyinc--compound-engineering-plugin"></a>
+
 ## [Compound Engineering](https://github.com/EveryInc/compound-engineering-plugin)
 
 A cross-harness plugin of coding-agent skills that structures engineering work around requirements, implementation planning, execution, review, and reusable solution notes.
 
-- **Category:** [AI and Automation](../categories/ai-and-automation.md)
-- **Topics:** [Coding Agents](../topics/coding-agents.md) | [Agent Skills](../topics/agent-skills.md) | [Task Planning](../topics/task-planning.md) | [Code Review](../topics/code-review.md) | [Worktrees](../topics/worktrees.md) | [Git](../topics/git.md) | [Pull Requests](../topics/pull-requests.md) | [Testing](../topics/testing.md) | [Developer Productivity](../topics/developer-productivity.md)
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-everyinc--compound-engineering-plugin)
+- **Topics:** [Coding Agents](../topics/coding-agents.md#repo-everyinc--compound-engineering-plugin) | [Agent Skills](../topics/agent-skills.md#repo-everyinc--compound-engineering-plugin) | [Task Planning](../topics/task-planning.md#repo-everyinc--compound-engineering-plugin) | [Code Review](../topics/code-review.md#repo-everyinc--compound-engineering-plugin) | [Worktrees](../topics/worktrees.md#repo-everyinc--compound-engineering-plugin) | [Git](../topics/git.md#repo-everyinc--compound-engineering-plugin) | [Pull Requests](../topics/pull-requests.md#repo-everyinc--compound-engineering-plugin) | [Testing](../topics/testing.md#repo-everyinc--compound-engineering-plugin) | [Developer Productivity](../topics/developer-productivity.md#repo-everyinc--compound-engineering-plugin)
 - **Kind:** Plugin
 - **Best for:** Teams that want repeatable, agent-assisted feature and bug-fix workflows; Coding-agent users who want repository learnings to inform later work
 - **Languages:** TypeScript
@@ -162,12 +178,14 @@ A cross-harness plugin of coding-agent skills that structures engineering work a
   - Interactive requirements and implementation-plan skills
   - Worktree-based implementation and task tracking
 
+<a id="repo-fission-ai--openspec"></a>
+
 ## [OpenSpec](https://github.com/Fission-AI/OpenSpec)
 
 A Node.js CLI and coding-agent workflow for keeping Markdown specifications and change artifacts alongside code before and during implementation.
 
-- **Category:** [AI and Automation](../categories/ai-and-automation.md)
-- **Topics:** [Coding Agents](../topics/coding-agents.md) | [Spec Driven Development](../topics/spec-driven-development.md) | [Task Planning](../topics/task-planning.md) | [Context Engineering](../topics/context-engineering.md) | [CLI](../topics/cli.md) | [Documentation](../topics/documentation.md) | [Developer Productivity](../topics/developer-productivity.md)
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-fission-ai--openspec)
+- **Topics:** [Coding Agents](../topics/coding-agents.md#repo-fission-ai--openspec) | [Spec Driven Development](../topics/spec-driven-development.md#repo-fission-ai--openspec) | [Task Planning](../topics/task-planning.md#repo-fission-ai--openspec) | [Context Engineering](../topics/context-engineering.md#repo-fission-ai--openspec) | [CLI](../topics/cli.md#repo-fission-ai--openspec) | [Documentation](../topics/documentation.md#repo-fission-ai--openspec) | [Developer Productivity](../topics/developer-productivity.md#repo-fission-ai--openspec)
 - **Kind:** CLI
 - **Best for:** Teams using coding agents for changes that need shared, reviewable requirements; Existing repositories that need focused specification deltas instead of a rewrite
 - **Languages:** TypeScript
@@ -181,12 +199,14 @@ A Node.js CLI and coding-agent workflow for keeping Markdown specifications and 
   - Per-change proposal, design, task, and delta-spec artifacts
   - Explore, propose, apply, and archive coding-agent command workflow
 
+<a id="repo-gastownhall--beads"></a>
+
 ## [Beads](https://github.com/gastownhall/beads)
 
 A distributed, dependency-aware issue tracker and persistent memory system for coding agents, backed by the version-controlled SQL database Dolt.
 
-- **Category:** [Developer Tools](../categories/developer-tools.md)
-- **Topics:** [Coding Agents](../topics/coding-agents.md) | [Agent Memory](../topics/agent-memory.md) | [Task Planning](../topics/task-planning.md) | [CLI](../topics/cli.md) | [MCP](../topics/mcp.md) | [Developer Productivity](../topics/developer-productivity.md)
+- **Category:** [Developer Tools](../categories/developer-tools.md#repo-gastownhall--beads)
+- **Topics:** [Coding Agents](../topics/coding-agents.md#repo-gastownhall--beads) | [Agent Memory](../topics/agent-memory.md#repo-gastownhall--beads) | [Task Planning](../topics/task-planning.md#repo-gastownhall--beads) | [CLI](../topics/cli.md#repo-gastownhall--beads) | [MCP](../topics/mcp.md#repo-gastownhall--beads) | [Developer Productivity](../topics/developer-productivity.md#repo-gastownhall--beads)
 - **Kind:** CLI
 - **Best for:** Coding-agent workflows that need durable, claimable tasks instead of Markdown plans; Teams coordinating dependent work across branches, worktrees, or machines
 - **Languages:** Go
@@ -200,12 +220,14 @@ A distributed, dependency-aware issue tracker and persistent memory system for c
   - Atomic task claiming, JSON output, and agent-oriented workflow guidance
   - Content-derived issue IDs designed to avoid collisions across concurrent work
 
+<a id="repo-gastownhall--gastown"></a>
+
 ## [Gas Town](https://github.com/gastownhall/gastown)
 
 A multi-agent workspace manager that uses git worktree-backed state and Beads to coordinate persistent coding-agent tasks, handoffs, monitoring, and merge workflows.
 
-- **Category:** [AI and Automation](../categories/ai-and-automation.md)
-- **Topics:** [Coding Agents](../topics/coding-agents.md) | [Agent Orchestration](../topics/agent-orchestration.md) | [Multi Agent](../topics/multi-agent.md) | [Agent Memory](../topics/agent-memory.md) | [Task Planning](../topics/task-planning.md) | [Worktrees](../topics/worktrees.md) | [CLI](../topics/cli.md) | [TUI](../topics/tui.md) | [Observability](../topics/observability.md)
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-gastownhall--gastown)
+- **Topics:** [Coding Agents](../topics/coding-agents.md#repo-gastownhall--gastown) | [Agent Orchestration](../topics/agent-orchestration.md#repo-gastownhall--gastown) | [Multi Agent](../topics/multi-agent.md#repo-gastownhall--gastown) | [Agent Memory](../topics/agent-memory.md#repo-gastownhall--gastown) | [Task Planning](../topics/task-planning.md#repo-gastownhall--gastown) | [Worktrees](../topics/worktrees.md#repo-gastownhall--gastown) | [CLI](../topics/cli.md#repo-gastownhall--gastown) | [TUI](../topics/tui.md#repo-gastownhall--gastown) | [Observability](../topics/observability.md#repo-gastownhall--gastown)
 - **Kind:** CLI
 - **Best for:** Teams running several coding agents across one or more repositories; Long-running, multi-issue implementation work that needs durable coordination and recovery
 - **Languages:** Go
@@ -219,12 +241,14 @@ A multi-agent workspace manager that uses git worktree-backed state and Beads to
   - Convoys that bundle Beads tasks for agent assignment, tracking, and stall handling
   - Git worktree-backed hooks that preserve work state across agent restarts
 
+<a id="repo-github--spec-kit"></a>
+
 ## [Spec Kit](https://github.com/github/spec-kit)
 
 A Python CLI and template toolkit that initializes a repeatable spec-driven-development workflow for AI coding agents, taking projects from governing principles and specifications through planning, tasks, implementation, and review.
 
-- **Category:** [AI and Automation](../categories/ai-and-automation.md)
-- **Topics:** [AI Agents](../topics/ai-agents.md) | [Coding Agents](../topics/coding-agents.md) | [CLI](../topics/cli.md) | [Spec Driven Development](../topics/spec-driven-development.md) | [Task Planning](../topics/task-planning.md) | [Documentation](../topics/documentation.md) | [Developer Productivity](../topics/developer-productivity.md)
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-github--spec-kit)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-github--spec-kit) | [Coding Agents](../topics/coding-agents.md#repo-github--spec-kit) | [CLI](../topics/cli.md#repo-github--spec-kit) | [Spec Driven Development](../topics/spec-driven-development.md#repo-github--spec-kit) | [Task Planning](../topics/task-planning.md#repo-github--spec-kit) | [Documentation](../topics/documentation.md#repo-github--spec-kit) | [Developer Productivity](../topics/developer-productivity.md#repo-github--spec-kit)
 - **Kind:** CLI
 - **Best for:** Teams that want agent-assisted development to start with explicit requirements and plans; Projects that need reusable workflow templates across supported coding-agent integrations
 - **Languages:** Python
@@ -238,12 +262,14 @@ A Python CLI and template toolkit that initializes a repeatable spec-driven-deve
   - Core agent commands cover constitution, specification, clarification, planning, tasks, analysis, implementation, and convergence
   - Integration management can list, install, switch, upgrade, and report managed integration state
 
+<a id="repo-mattpocock--skills"></a>
+
 ## [Skills For Real Engineers](https://github.com/mattpocock/skills)
 
 A composable collection of coding-agent skills and Markdown guidance for structured engineering workflows, available through skills.sh and as a managed Claude Code plugin.
 
-- **Category:** [Documentation and Learning](../categories/documentation-and-learning.md)
-- **Topics:** [Agent Skills](../topics/agent-skills.md) | [Coding Agents](../topics/coding-agents.md) | [Task Planning](../topics/task-planning.md) | [Testing](../topics/testing.md) | [Debugging](../topics/debugging.md) | [Code Review](../topics/code-review.md)
+- **Category:** [Documentation and Learning](../categories/documentation-and-learning.md#repo-mattpocock--skills)
+- **Topics:** [Agent Skills](../topics/agent-skills.md#repo-mattpocock--skills) | [Coding Agents](../topics/coding-agents.md#repo-mattpocock--skills) | [Task Planning](../topics/task-planning.md#repo-mattpocock--skills) | [Testing](../topics/testing.md#repo-mattpocock--skills) | [Debugging](../topics/debugging.md#repo-mattpocock--skills) | [Code Review](../topics/code-review.md#repo-mattpocock--skills)
 - **Kind:** Plugin
 - **Best for:** Teams wanting reusable agent instructions for planning, implementation, testing, debugging, and review; Developers who want to adapt installed skill files to their own project workflow
 - **Languages:** Markdown, Shell
@@ -257,12 +283,14 @@ A composable collection of coding-agent skills and Markdown guidance for structu
   - Includes workflows for grilling requirements, specifications, ticket decomposition, implementation, TDD, bug diagnosis, and code review
   - The setup skill records project-specific issue-tracker, triage-label, and documentation-location choices for other skills
 
+<a id="repo-obra--superpowers"></a>
+
 ## [Superpowers](https://github.com/obra/superpowers)
 
 A coding-agent plugin and methodology built from composable skills and bootstrap instructions. It guides a workflow from requirements discovery and design through plans, test-driven implementation, review, worktree use, and branch completion.
 
-- **Category:** [AI and Automation](../categories/ai-and-automation.md)
-- **Topics:** [AI Agents](../topics/ai-agents.md) | [Coding Agents](../topics/coding-agents.md) | [Agent Skills](../topics/agent-skills.md) | [Task Planning](../topics/task-planning.md) | [Testing](../topics/testing.md) | [Code Review](../topics/code-review.md) | [Worktrees](../topics/worktrees.md) | [Developer Productivity](../topics/developer-productivity.md)
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-obra--superpowers)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-obra--superpowers) | [Coding Agents](../topics/coding-agents.md#repo-obra--superpowers) | [Agent Skills](../topics/agent-skills.md#repo-obra--superpowers) | [Task Planning](../topics/task-planning.md#repo-obra--superpowers) | [Testing](../topics/testing.md#repo-obra--superpowers) | [Code Review](../topics/code-review.md#repo-obra--superpowers) | [Worktrees](../topics/worktrees.md#repo-obra--superpowers) | [Developer Productivity](../topics/developer-productivity.md#repo-obra--superpowers)
 - **Kind:** Plugin
 - **Best for:** Teams adopting a prescriptive, skill-triggered workflow for supported coding agents; Developers who want reusable guidance for planning, testing, debugging, and review
 - **Languages:** Shell, JavaScript, TypeScript, Markdown
@@ -276,12 +304,14 @@ A coding-agent plugin and methodology built from composable skills and bootstrap
   - Defines a staged workflow from approved design through implementation and branch completion
   - Supports installations for Claude Code, Codex, Cursor, OpenCode, Pi, and several other agent harnesses
 
+<a id="repo-openai--symphony"></a>
+
 ## [Symphony](https://github.com/openai/symphony)
 
 An engineering-preview orchestration system and experimental Elixir reference implementation for turning project work into isolated, autonomous coding-agent runs.
 
-- **Category:** [AI and Automation](../categories/ai-and-automation.md)
-- **Topics:** [AI Agents](../topics/ai-agents.md) | [Agent Orchestration](../topics/agent-orchestration.md) | [Task Planning](../topics/task-planning.md) | [Automation](../topics/automation.md) | [Git](../topics/git.md)
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-openai--symphony)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-openai--symphony) | [Agent Orchestration](../topics/agent-orchestration.md#repo-openai--symphony) | [Task Planning](../topics/task-planning.md#repo-openai--symphony) | [Automation](../topics/automation.md#repo-openai--symphony) | [Git](../topics/git.md#repo-openai--symphony)
 - **Kind:** Infrastructure
 - **Best for:** Teams experimenting with higher-level management of agent-executed project work; Trusted environments that can evaluate an early orchestration implementation
 - **Languages:** Elixir
@@ -295,12 +325,14 @@ An engineering-preview orchestration system and experimental Elixir reference im
   - Linear-board monitoring and task dispatch in the documented demonstration
   - Proof of work including CI status, review feedback, complexity analysis, and videos
 
+<a id="repo-othmanadi--planning-with-files"></a>
+
 ## [Planning with Files](https://github.com/OthmanAdi/planning-with-files)
 
 A persistent, file-based planning skill for AI coding agents that keeps plans, findings, and progress on disk to survive context loss, compaction, and interrupted sessions.
 
-- **Category:** [AI and Automation](../categories/ai-and-automation.md)
-- **Topics:** [AI Agents](../topics/ai-agents.md) | [Coding Agents](../topics/coding-agents.md) | [Agent Skills](../topics/agent-skills.md) | [Task Planning](../topics/task-planning.md) | [Context Engineering](../topics/context-engineering.md) | [Multi Agent](../topics/multi-agent.md)
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-othmanadi--planning-with-files)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-othmanadi--planning-with-files) | [Coding Agents](../topics/coding-agents.md#repo-othmanadi--planning-with-files) | [Agent Skills](../topics/agent-skills.md#repo-othmanadi--planning-with-files) | [Task Planning](../topics/task-planning.md#repo-othmanadi--planning-with-files) | [Context Engineering](../topics/context-engineering.md#repo-othmanadi--planning-with-files) | [Multi Agent](../topics/multi-agent.md#repo-othmanadi--planning-with-files)
 - **Kind:** Plugin
 - **Best for:** Long-running coding-agent tasks that need a durable, inspectable execution plan; Agent teams that need file-based task state and an explicit completion check
 - **Languages:** Python, Shell, PowerShell, Markdown
@@ -314,12 +346,14 @@ A persistent, file-based planning skill for AI coding agents that keeps plans, f
   - Re-reads plan state through supported lifecycle hooks and provides session recovery after a reset or clear
   - Supports opt-in autonomous and gated modes with a structured JSONL run ledger and plan attestation
 
+<a id="repo-yeachan-heo--oh-my-codex"></a>
+
 ## [oh-my-codex](https://github.com/Yeachan-Heo/oh-my-codex)
 
 A workflow and orchestration layer around OpenAI Codex CLI that adds reusable skills and roles, durable project state, planning flows, and optional multi-agent team execution.
 
-- **Category:** [AI and Automation](../categories/ai-and-automation.md)
-- **Topics:** [Coding Agents](../topics/coding-agents.md) | [Agent Orchestration](../topics/agent-orchestration.md) | [Multi Agent](../topics/multi-agent.md) | [Agent Skills](../topics/agent-skills.md) | [Task Planning](../topics/task-planning.md) | [Worktrees](../topics/worktrees.md) | [CLI](../topics/cli.md) | [MCP](../topics/mcp.md)
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-yeachan-heo--oh-my-codex)
+- **Topics:** [Coding Agents](../topics/coding-agents.md#repo-yeachan-heo--oh-my-codex) | [Agent Orchestration](../topics/agent-orchestration.md#repo-yeachan-heo--oh-my-codex) | [Multi Agent](../topics/multi-agent.md#repo-yeachan-heo--oh-my-codex) | [Agent Skills](../topics/agent-skills.md#repo-yeachan-heo--oh-my-codex) | [Task Planning](../topics/task-planning.md#repo-yeachan-heo--oh-my-codex) | [Worktrees](../topics/worktrees.md#repo-yeachan-heo--oh-my-codex) | [CLI](../topics/cli.md#repo-yeachan-heo--oh-my-codex) | [MCP](../topics/mcp.md#repo-yeachan-heo--oh-my-codex)
 - **Kind:** CLI
 - **Best for:** Codex CLI users who want reusable planning and execution workflows; Larger trusted Git tasks that benefit from isolated worktrees and coordinated agents
 - **Languages:** TypeScript, Rust

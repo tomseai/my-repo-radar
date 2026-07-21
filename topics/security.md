@@ -13,12 +13,14 @@
 - [Systems and Infrastructure](../categories/systems-and-infrastructure.md) (2)
 - [Testing and Quality](../categories/testing-and-quality.md) (1)
 
+<a id="repo-addyosmani--agent-engineer"></a>
+
 ## [Agent Engineer](https://github.com/addyosmani/agent-engineer)
 
 A practical, beginner-oriented course that teaches AI-agent fundamentals, then introduces building and shipping agents with Google Cloud AI, Vertex AI, and the Agent Development Kit (ADK).
 
-- **Category:** [Documentation and Learning](../categories/documentation-and-learning.md)
-- **Topics:** [AI Agents](../topics/ai-agents.md) | [Task Planning](../topics/task-planning.md) | [Agent Memory](../topics/agent-memory.md) | [Agent Orchestration](../topics/agent-orchestration.md) | [Agent Protocols](../topics/agent-protocols.md) | [Agent Skills](../topics/agent-skills.md) | [MCP](../topics/mcp.md) | [Multi Agent](../topics/multi-agent.md) | [Evaluation](../topics/evaluation.md) | [Security](../topics/security.md) | [Tutorials](../topics/tutorials.md) | [Documentation](../topics/documentation.md)
+- **Category:** [Documentation and Learning](../categories/documentation-and-learning.md#repo-addyosmani--agent-engineer)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-addyosmani--agent-engineer) | [Task Planning](../topics/task-planning.md#repo-addyosmani--agent-engineer) | [Agent Memory](../topics/agent-memory.md#repo-addyosmani--agent-engineer) | [Agent Orchestration](../topics/agent-orchestration.md#repo-addyosmani--agent-engineer) | [Agent Protocols](../topics/agent-protocols.md#repo-addyosmani--agent-engineer) | [Agent Skills](../topics/agent-skills.md#repo-addyosmani--agent-engineer) | [MCP](../topics/mcp.md#repo-addyosmani--agent-engineer) | [Multi Agent](../topics/multi-agent.md#repo-addyosmani--agent-engineer) | [Evaluation](../topics/evaluation.md#repo-addyosmani--agent-engineer) | [Security](../topics/security.md#repo-addyosmani--agent-engineer) | [Tutorials](../topics/tutorials.md#repo-addyosmani--agent-engineer) | [Documentation](../topics/documentation.md#repo-addyosmani--agent-engineer)
 - **Kind:** Course
 - **Best for:** Software engineers learning core AI-agent concepts before choosing tools; Developers seeking a structured introduction to Google Cloud agent development
 - **Languages:** Markdown
@@ -32,12 +34,14 @@ A practical, beginner-oriented course that teaches AI-agent fundamentals, then i
   - Platform-agnostic introductions to tools, memory, planning, multi-agent systems, RAG, evaluation, and safety
   - Google Cloud, Vertex AI, and ADK lessons, including a first-agent walkthrough
 
+<a id="repo-affaan-m--ecc"></a>
+
 ## [ECC](https://github.com/affaan-m/ECC)
 
 A reusable workflow layer of skills, rules, hooks, MCP configuration, and installers for AI-agent development harnesses.
 
-- **Category:** [AI and Automation](../categories/ai-and-automation.md)
-- **Topics:** [AI Agents](../topics/ai-agents.md) | [Agent Harnesses](../topics/agent-harnesses.md) | [Agent Skills](../topics/agent-skills.md) | [MCP](../topics/mcp.md) | [Security](../topics/security.md) | [Developer Productivity](../topics/developer-productivity.md)
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-affaan-m--ecc)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-affaan-m--ecc) | [Agent Harnesses](../topics/agent-harnesses.md#repo-affaan-m--ecc) | [Agent Skills](../topics/agent-skills.md#repo-affaan-m--ecc) | [MCP](../topics/mcp.md#repo-affaan-m--ecc) | [Security](../topics/security.md#repo-affaan-m--ecc) | [Developer Productivity](../topics/developer-productivity.md#repo-affaan-m--ecc)
 - **Kind:** Framework
 - **Best for:** Teams standardizing agent-assisted software-development workflows across more than one supported harness.
 - **Languages:** JavaScript, Python, Rust
@@ -51,12 +55,14 @@ A reusable workflow layer of skills, rules, hooks, MCP configuration, and instal
   - Provides target-aware installation profiles, previews, durable install state, and doctor, repair, and uninstall commands.
   - Includes hooks, security scanning, research, evaluation, and orchestration workflow assets where the target harness supports them.
 
+<a id="repo-dicklesworthstone--asupersync"></a>
+
 ## [Asupersync](https://github.com/Dicklesworthstone/asupersync)
 
 An experimental Rust async runtime that uses region-owned tasks, explicit cancellation protocols, capability-gated effects, and deterministic replay testing.
 
-- **Category:** [Systems and Infrastructure](../categories/systems-and-infrastructure.md)
-- **Topics:** [Libraries](../topics/libraries.md) | [Testing](../topics/testing.md) | [Observability](../topics/observability.md) | [Security](../topics/security.md)
+- **Category:** [Systems and Infrastructure](../categories/systems-and-infrastructure.md#repo-dicklesworthstone--asupersync)
+- **Topics:** [Libraries](../topics/libraries.md#repo-dicklesworthstone--asupersync) | [Testing](../topics/testing.md#repo-dicklesworthstone--asupersync) | [Observability](../topics/observability.md#repo-dicklesworthstone--asupersync) | [Security](../topics/security.md#repo-dicklesworthstone--asupersync)
 - **Kind:** Framework
 - **Best for:** Experimental Rust systems that can validate selected adapters and cancellation boundaries; Teams investigating structured shutdown and reproducible concurrency failures
 - **Languages:** Rust, JavaScript, TypeScript
@@ -70,12 +76,14 @@ An experimental Rust async runtime that uses region-owned tasks, explicit cancel
   - Request, drain, and finalize cancellation protocol for covered primitives
   - Capability-gated runtime effects and obligation tracking
 
+<a id="repo-dicklesworthstone--destructive_command_guard"></a>
+
 ## [Destructive Command Guard (dcg)](https://github.com/Dicklesworthstone/destructive_command_guard)
 
 A Rust command-line guard and pre-execution hook for AI coding agents that detects and blocks configured destructive Git, shell, filesystem, database, cloud, and container commands before they run.
 
-- **Category:** [Security and Privacy](../categories/security-and-privacy.md)
-- **Topics:** [AI Agents](../topics/ai-agents.md) | [Coding Agents](../topics/coding-agents.md) | [CLI](../topics/cli.md) | [Git](../topics/git.md) | [Policy Enforcement](../topics/policy-enforcement.md) | [Security](../topics/security.md)
+- **Category:** [Security and Privacy](../categories/security-and-privacy.md#repo-dicklesworthstone--destructive_command_guard)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-dicklesworthstone--destructive_command_guard) | [Coding Agents](../topics/coding-agents.md#repo-dicklesworthstone--destructive_command_guard) | [CLI](../topics/cli.md#repo-dicklesworthstone--destructive_command_guard) | [Git](../topics/git.md#repo-dicklesworthstone--destructive_command_guard) | [Policy Enforcement](../topics/policy-enforcement.md#repo-dicklesworthstone--destructive_command_guard) | [Security](../topics/security.md#repo-dicklesworthstone--destructive_command_guard)
 - **Kind:** CLI
 - **Best for:** Adding configurable command-safety checks to supported AI coding agents; Preventing accidental destructive Git or shell operations in local repositories
 - **Languages:** Rust
@@ -89,12 +97,14 @@ A Rust command-line guard and pre-execution hook for AI coding agents that detec
   - Built-in rule packs for Git and filesystem operations, with optional domain-specific packs
   - Heredoc and inline-script scanning alongside direct command matching
 
+<a id="repo-facundoolano--software-papers"></a>
+
 ## [Papers for Software Engineers](https://github.com/facundoolano/software-papers)
 
 A curated, topic-organized reading list of accessible papers for software engineering students and practitioners, spanning programming, design, systems, data, networking, security, operations, and related fields.
 
-- **Category:** [Documentation and Learning](../categories/documentation-and-learning.md)
-- **Topics:** [Curated Lists](../topics/curated-lists.md) | [Reference](../topics/reference.md) | [Developer Productivity](../topics/developer-productivity.md) | [Documentation](../topics/documentation.md) | [Databases](../topics/databases.md) | [Security](../topics/security.md)
+- **Category:** [Documentation and Learning](../categories/documentation-and-learning.md#repo-facundoolano--software-papers)
+- **Topics:** [Curated Lists](../topics/curated-lists.md#repo-facundoolano--software-papers) | [Reference](../topics/reference.md#repo-facundoolano--software-papers) | [Developer Productivity](../topics/developer-productivity.md#repo-facundoolano--software-papers) | [Documentation](../topics/documentation.md#repo-facundoolano--software-papers) | [Databases](../topics/databases.md#repo-facundoolano--software-papers) | [Security](../topics/security.md#repo-facundoolano--software-papers)
 - **Kind:** Curated List
 - **Best for:** Building a guided reading path through influential software-engineering and computer-science papers; Finding concise primary and follow-up reading for a software practice topic
 - **Languages:** Markdown, Python
@@ -108,12 +118,14 @@ A curated, topic-organized reading list of accessible papers for software engine
   - Systems sections for concurrency, operating systems, databases, networking, distributed systems, and operations
   - Additional coverage of cryptography, human-computer interaction, search, machine learning, and decentralized systems
 
+<a id="repo-garrytan--gstack"></a>
+
 ## [gstack](https://github.com/garrytan/gstack)
 
 An MIT-licensed collection of skills and command-line tools that adds structured planning, review, QA, browser, security, and release workflows to supported AI coding agents.
 
-- **Category:** [AI and Automation](../categories/ai-and-automation.md)
-- **Topics:** [Coding Agents](../topics/coding-agents.md) | [Agent Skills](../topics/agent-skills.md) | [Code Review](../topics/code-review.md) | [Browser Automation](../topics/browser-automation.md) | [Testing](../topics/testing.md) | [Security](../topics/security.md) | [Developer Productivity](../topics/developer-productivity.md)
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-garrytan--gstack)
+- **Topics:** [Coding Agents](../topics/coding-agents.md#repo-garrytan--gstack) | [Agent Skills](../topics/agent-skills.md#repo-garrytan--gstack) | [Code Review](../topics/code-review.md#repo-garrytan--gstack) | [Browser Automation](../topics/browser-automation.md#repo-garrytan--gstack) | [Testing](../topics/testing.md#repo-garrytan--gstack) | [Security](../topics/security.md#repo-garrytan--gstack) | [Developer Productivity](../topics/developer-productivity.md#repo-garrytan--gstack)
 - **Kind:** Plugin
 - **Best for:** Developers who want opinionated software-delivery workflows in an AI coding agent; Technical leads who want repeatable review, QA, security, and release steps
 - **Languages:** TypeScript, Markdown
@@ -127,12 +139,14 @@ An MIT-licensed collection of skills and command-line tools that adds structured
   - An automated planning pipeline that chains product, design, engineering, and developer-experience review
   - Real Chromium browser control with screenshots and authenticated-session cookie import
 
+<a id="repo-getbindu--bindu"></a>
+
 ## [Bindu](https://github.com/GetBindu/Bindu)
 
 A framework and multi-language SDK set for exposing AI agents through A2A messaging with DID identity, mTLS and OAuth2 authorization, x402 payments, deployment, and operational components.
 
-- **Category:** [AI and Automation](../categories/ai-and-automation.md)
-- **Topics:** [AI Agents](../topics/ai-agents.md) | [Agent Protocols](../topics/agent-protocols.md) | [Agent Orchestration](../topics/agent-orchestration.md) | [Authentication](../topics/authentication.md) | [Payments](../topics/payments.md) | [Security](../topics/security.md) | [Deployment](../topics/deployment.md) | [Observability](../topics/observability.md) | [API Development](../topics/api-development.md) | [Libraries](../topics/libraries.md)
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-getbindu--bindu)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-getbindu--bindu) | [Agent Protocols](../topics/agent-protocols.md#repo-getbindu--bindu) | [Agent Orchestration](../topics/agent-orchestration.md#repo-getbindu--bindu) | [Authentication](../topics/authentication.md#repo-getbindu--bindu) | [Payments](../topics/payments.md#repo-getbindu--bindu) | [Security](../topics/security.md#repo-getbindu--bindu) | [Deployment](../topics/deployment.md#repo-getbindu--bindu) | [Observability](../topics/observability.md#repo-getbindu--bindu) | [API Development](../topics/api-development.md#repo-getbindu--bindu) | [Libraries](../topics/libraries.md#repo-getbindu--bindu)
 - **Kind:** Framework
 - **Best for:** Teams building authenticated and monetized agent-to-agent services; Developers who need Python, TypeScript, or Kotlin access to a shared gRPC core
 - **Languages:** Python, TypeScript, Kotlin
@@ -146,12 +160,14 @@ A framework and multi-language SDK set for exposing AI agents through A2A messag
   - DID signing, mTLS transport, and OAuth2 authorization through Hydra
   - x402 USDC payment middleware with configured EVM networks
 
+<a id="repo-google--magika"></a>
+
 ## [Magika](https://github.com/google/magika)
 
 A deep-learning file-content detector available as a Rust command-line tool and Python, Rust, JavaScript/TypeScript, and work-in-progress Go bindings, designed to classify files even when names or extensions mislead.
 
-- **Category:** [Security and Privacy](../categories/security-and-privacy.md)
-- **Topics:** [Machine Learning](../topics/machine-learning.md) | [CLI](../topics/cli.md) | [Libraries](../topics/libraries.md) | [Security](../topics/security.md) | [Data Processing](../topics/data-processing.md)
+- **Category:** [Security and Privacy](../categories/security-and-privacy.md#repo-google--magika)
+- **Topics:** [Machine Learning](../topics/machine-learning.md#repo-google--magika) | [CLI](../topics/cli.md#repo-google--magika) | [Libraries](../topics/libraries.md#repo-google--magika) | [Security](../topics/security.md#repo-google--magika) | [Data Processing](../topics/data-processing.md#repo-google--magika)
 - **Kind:** CLI
 - **Best for:** Routing untrusted files to suitable security or content-policy scanners; Adding content-type detection to Python, Rust, JavaScript, or CLI workflows
 - **Languages:** Rust, Python, TypeScript, Go
@@ -165,12 +181,14 @@ A deep-learning file-content detector available as a Rust command-line tool and 
   - Scans individual files, standard input, batches, or directories recursively
   - Emits human-readable, MIME-type, label, JSON, JSONL, score, or custom output
 
+<a id="repo-hesreallyhim--awesome-claude-code"></a>
+
 ## [Awesome Claude Code](https://github.com/hesreallyhim/awesome-claude-code)
 
 A maintained Markdown directory of Claude Code learning resources, extensions, and adjacent tools, with editorial descriptions grouped by workflow areas such as skills, security, orchestration, and observability.
 
-- **Category:** [Documentation and Learning](../categories/documentation-and-learning.md)
-- **Topics:** [AI Agents](../topics/ai-agents.md) | [LLMs](../topics/llms.md) | [Coding Agents](../topics/coding-agents.md) | [Curated Lists](../topics/curated-lists.md) | [Agent Skills](../topics/agent-skills.md) | [Agent Orchestration](../topics/agent-orchestration.md) | [Security](../topics/security.md) | [Developer Productivity](../topics/developer-productivity.md)
+- **Category:** [Documentation and Learning](../categories/documentation-and-learning.md#repo-hesreallyhim--awesome-claude-code)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-hesreallyhim--awesome-claude-code) | [LLMs](../topics/llms.md#repo-hesreallyhim--awesome-claude-code) | [Coding Agents](../topics/coding-agents.md#repo-hesreallyhim--awesome-claude-code) | [Curated Lists](../topics/curated-lists.md#repo-hesreallyhim--awesome-claude-code) | [Agent Skills](../topics/agent-skills.md#repo-hesreallyhim--awesome-claude-code) | [Agent Orchestration](../topics/agent-orchestration.md#repo-hesreallyhim--awesome-claude-code) | [Security](../topics/security.md#repo-hesreallyhim--awesome-claude-code) | [Developer Productivity](../topics/developer-productivity.md#repo-hesreallyhim--awesome-claude-code)
 - **Kind:** Curated List
 - **Best for:** Claude Code users comparing learning material, skills, plugins, and supporting tools; Developers seeking categorized discovery of agent workflow, security, and monitoring resources
 - **Languages:** Python, Markdown
@@ -184,12 +202,14 @@ A maintained Markdown directory of Claude Code learning resources, extensions, a
   - Categorizes entries across documentation, research, providers, remote control, clients, status lines, design, writing, media, DevOps, and security
   - Includes dedicated sections for multi-agent orchestration, skills, memory and context persistence, observability, and linting
 
+<a id="repo-infisical--agent-vault"></a>
+
 ## [Agent Vault](https://github.com/Infisical/agent-vault)
 
 A self-hostable HTTP credential proxy and vault that lets AI agents call external APIs through a MITM proxy, injecting stored credentials without exposing the real values to the agent process.
 
-- **Category:** [Security and Privacy](../categories/security-and-privacy.md)
-- **Topics:** [AI Agents](../topics/ai-agents.md) | [Tool Use](../topics/tool-use.md) | [Security](../topics/security.md) | [Secrets Management](../topics/secrets-management.md) | [Authentication](../topics/authentication.md) | [Self Hosted](../topics/self-hosted.md) | [Containers](../topics/containers.md) | [Observability](../topics/observability.md)
+- **Category:** [Security and Privacy](../categories/security-and-privacy.md#repo-infisical--agent-vault)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-infisical--agent-vault) | [Tool Use](../topics/tool-use.md#repo-infisical--agent-vault) | [Security](../topics/security.md#repo-infisical--agent-vault) | [Secrets Management](../topics/secrets-management.md#repo-infisical--agent-vault) | [Authentication](../topics/authentication.md#repo-infisical--agent-vault) | [Self Hosted](../topics/self-hosted.md#repo-infisical--agent-vault) | [Containers](../topics/containers.md#repo-infisical--agent-vault) | [Observability](../topics/observability.md#repo-infisical--agent-vault)
 - **Kind:** Service
 - **Best for:** Operators giving coding or custom agents controlled access to authenticated APIs; Remote or ephemeral agent environments that need brokered, scoped credentials
 - **Languages:** Go, TypeScript
@@ -203,12 +223,14 @@ A self-hostable HTTP credential proxy and vault that lets AI agents call externa
   - Applies service and endpoint access rules, including an optional strict deny policy
   - Logs authenticated requests for agent monitoring and diagnosis
 
+<a id="repo-microsoft--mcp-for-beginners"></a>
+
 ## [MCP for Beginners](https://github.com/microsoft/mcp-for-beginners)
 
 A hands-on, multilingual curriculum for learning the Model Context Protocol, progressing from fundamentals and security through server and client examples, testing, deployment, advanced integrations, and case studies.
 
-- **Category:** [Documentation and Learning](../categories/documentation-and-learning.md)
-- **Topics:** [MCP](../topics/mcp.md) | [Tutorials](../topics/tutorials.md) | [AI Agents](../topics/ai-agents.md) | [Security](../topics/security.md) | [Documentation](../topics/documentation.md) | [Open Source](../topics/open-source.md)
+- **Category:** [Documentation and Learning](../categories/documentation-and-learning.md#repo-microsoft--mcp-for-beginners)
+- **Topics:** [MCP](../topics/mcp.md#repo-microsoft--mcp-for-beginners) | [Tutorials](../topics/tutorials.md#repo-microsoft--mcp-for-beginners) | [AI Agents](../topics/ai-agents.md#repo-microsoft--mcp-for-beginners) | [Security](../topics/security.md#repo-microsoft--mcp-for-beginners) | [Documentation](../topics/documentation.md#repo-microsoft--mcp-for-beginners) | [Open Source](../topics/open-source.md#repo-microsoft--mcp-for-beginners)
 - **Kind:** Course
 - **Best for:** Developers learning to build and integrate MCP clients and servers; Teams that want guided examples in C#, Java, JavaScript, Rust, Python, or TypeScript
 - **Languages:** C#, Java, JavaScript, Python, Rust, TypeScript
@@ -222,12 +244,14 @@ A hands-on, multilingual curriculum for learning the Model Context Protocol, pro
   - Provides progressive guides for first servers, clients, LLM clients, stdio, HTTP streaming, testing, and deployment
   - Includes implementation samples in C#, Java, JavaScript, Rust, Python, and TypeScript
 
+<a id="repo-mukul975--anthropic-cybersecurity-skills"></a>
+
 ## [Anthropic Cybersecurity Skills](https://github.com/mukul975/Anthropic-Cybersecurity-Skills)
 
 An independent, agentskills.io-format library of cybersecurity workflows for AI agents, spanning defensive, investigative, governance, and authorized offensive-security work.
 
-- **Category:** [Security and Privacy](../categories/security-and-privacy.md)
-- **Topics:** [AI Agents](../topics/ai-agents.md) | [Agent Skills](../topics/agent-skills.md) | [Security](../topics/security.md) | [Policy Enforcement](../topics/policy-enforcement.md) | [Documentation](../topics/documentation.md) | [Open Source](../topics/open-source.md)
+- **Category:** [Security and Privacy](../categories/security-and-privacy.md#repo-mukul975--anthropic-cybersecurity-skills)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-mukul975--anthropic-cybersecurity-skills) | [Agent Skills](../topics/agent-skills.md#repo-mukul975--anthropic-cybersecurity-skills) | [Security](../topics/security.md#repo-mukul975--anthropic-cybersecurity-skills) | [Policy Enforcement](../topics/policy-enforcement.md#repo-mukul975--anthropic-cybersecurity-skills) | [Documentation](../topics/documentation.md#repo-mukul975--anthropic-cybersecurity-skills) | [Open Source](../topics/open-source.md#repo-mukul975--anthropic-cybersecurity-skills)
 - **Kind:** Library
 - **Best for:** Security teams adding structured workflows to compatible AI agents; Authorized security testing, investigation, defense, and education
 - **Languages:** Python, Markdown
@@ -241,12 +265,14 @@ An independent, agentskills.io-format library of cybersecurity workflows for AI 
   - Maps skills to MITRE ATT&CK, NIST CSF, MITRE ATLAS, D3FEND, NIST AI RMF, and MITRE F3
   - Uses YAML discovery metadata, step-by-step Markdown workflows, references, helpers, and templates
 
+<a id="repo-nearai--ironclaw"></a>
+
 ## [IronClaw](https://github.com/nearai/ironclaw)
 
 A Rust-based personal AI-assistant runtime that offers command-line, web, and messaging-channel operation with configurable model providers.
 
-- **Category:** [AI and Automation](../categories/ai-and-automation.md)
-- **Topics:** [AI Agents](../topics/ai-agents.md) | [Agent Memory](../topics/agent-memory.md) | [Multi Provider](../topics/multi-provider.md) | [CLI](../topics/cli.md) | [Web UI](../topics/web-ui.md) | [MCP](../topics/mcp.md) | [Security](../topics/security.md)
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-nearai--ironclaw)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-nearai--ironclaw) | [Agent Memory](../topics/agent-memory.md#repo-nearai--ironclaw) | [Multi Provider](../topics/multi-provider.md#repo-nearai--ironclaw) | [CLI](../topics/cli.md#repo-nearai--ironclaw) | [Web UI](../topics/web-ui.md#repo-nearai--ironclaw) | [MCP](../topics/mcp.md#repo-nearai--ironclaw) | [Security](../topics/security.md#repo-nearai--ironclaw)
 - **Kind:** Application
 - **Best for:** Individuals who want to run a configurable, security-focused personal agent; Operators who need local or hosted agent services with persistent storage
 - **Languages:** Rust
@@ -260,12 +286,14 @@ A Rust-based personal AI-assistant runtime that offers command-line, web, and me
   - Configures built-in, OpenAI-compatible, and local model-provider routes
   - Connects Model Context Protocol servers and loadable WASM tools or channels
 
+<a id="repo-nibzard--awesome-agentic-patterns"></a>
+
 ## [Awesome Agentic Patterns](https://github.com/nibzard/awesome-agentic-patterns)
 
 A curated, traceable catalogue of reusable patterns for designing and operating autonomous or semi-autonomous AI agents, paired with a searchable documentation website.
 
-- **Category:** [Documentation and Learning](../categories/documentation-and-learning.md)
-- **Topics:** [AI Agents](../topics/ai-agents.md) | [Agent Memory](../topics/agent-memory.md) | [Agent Orchestration](../topics/agent-orchestration.md) | [Multi Agent](../topics/multi-agent.md) | [Evaluation](../topics/evaluation.md) | [Security](../topics/security.md) | [Tool Use](../topics/tool-use.md) | [Curated Lists](../topics/curated-lists.md) | [Reference](../topics/reference.md)
+- **Category:** [Documentation and Learning](../categories/documentation-and-learning.md#repo-nibzard--awesome-agentic-patterns)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-nibzard--awesome-agentic-patterns) | [Agent Memory](../topics/agent-memory.md#repo-nibzard--awesome-agentic-patterns) | [Agent Orchestration](../topics/agent-orchestration.md#repo-nibzard--awesome-agentic-patterns) | [Multi Agent](../topics/multi-agent.md#repo-nibzard--awesome-agentic-patterns) | [Evaluation](../topics/evaluation.md#repo-nibzard--awesome-agentic-patterns) | [Security](../topics/security.md#repo-nibzard--awesome-agentic-patterns) | [Tool Use](../topics/tool-use.md#repo-nibzard--awesome-agentic-patterns) | [Curated Lists](../topics/curated-lists.md#repo-nibzard--awesome-agentic-patterns) | [Reference](../topics/reference.md#repo-nibzard--awesome-agentic-patterns)
 - **Kind:** Curated List
 - **Best for:** Developers selecting proven patterns for an agent system or workflow; Teams seeking references before designing agent memory, orchestration, evaluation, or safety controls
 - **Languages:** TypeScript, Markdown
@@ -279,12 +307,14 @@ A curated, traceable catalogue of reusable patterns for designing and operating 
   - Requires contributed patterns to be repeatable, agent-centric, and backed by a public reference
   - Provides website filtering and search by category, status, complexity, and other pattern attributes
 
+<a id="repo-nvidia--nemoclaw"></a>
+
 ## [NVIDIA NemoClaw](https://github.com/NVIDIA/NemoClaw)
 
 An alpha reference stack and CLI for operating selected always-on AI agents in NVIDIA OpenShell sandboxes, combining guided onboarding, inference routing, declarative network policy, and sandbox lifecycle management.
 
-- **Category:** [Security and Privacy](../categories/security-and-privacy.md)
-- **Topics:** [AI Agents](../topics/ai-agents.md) | [Agent Harnesses](../topics/agent-harnesses.md) | [Sandboxing](../topics/sandboxing.md) | [Security](../topics/security.md) | [Policy Enforcement](../topics/policy-enforcement.md) | [Self Hosted](../topics/self-hosted.md) | [CLI](../topics/cli.md)
+- **Category:** [Security and Privacy](../categories/security-and-privacy.md#repo-nvidia--nemoclaw)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-nvidia--nemoclaw) | [Agent Harnesses](../topics/agent-harnesses.md#repo-nvidia--nemoclaw) | [Sandboxing](../topics/sandboxing.md#repo-nvidia--nemoclaw) | [Security](../topics/security.md#repo-nvidia--nemoclaw) | [Policy Enforcement](../topics/policy-enforcement.md#repo-nvidia--nemoclaw) | [Self Hosted](../topics/self-hosted.md#repo-nvidia--nemoclaw) | [CLI](../topics/cli.md#repo-nvidia--nemoclaw)
 - **Kind:** Framework
 - **Best for:** Teams that need a reference deployment pattern for constrained always-on agents; Operators running supported agents with OpenShell sandbox and egress controls
 - **Languages:** TypeScript, Python
@@ -298,12 +328,14 @@ An alpha reference stack and CLI for operating selected always-on AI agents in N
   - Routes model traffic through OpenShell while keeping credentials on the host
   - Applies declarative egress rules and asks the operator to approve unknown hosts
 
+<a id="repo-psmux--psnet"></a>
+
 ## [PSNET](https://github.com/psmux/psnet)
 
 A native Rust TUI network monitor for Windows that combines connection and bandwidth views, listening-port inspection, packet details, GeoIP maps, LAN discovery, topology, alerts, and firewall controls in a standalone binary.
 
-- **Category:** [Systems and Infrastructure](../categories/systems-and-infrastructure.md)
-- **Topics:** [TUI](../topics/tui.md) | [Terminal](../topics/terminal.md) | [Observability](../topics/observability.md) | [Security](../topics/security.md) | [Visualization](../topics/visualization.md) | [Local First](../topics/local-first.md) | [Performance](../topics/performance.md)
+- **Category:** [Systems and Infrastructure](../categories/systems-and-infrastructure.md#repo-psmux--psnet)
+- **Topics:** [TUI](../topics/tui.md#repo-psmux--psnet) | [Terminal](../topics/terminal.md#repo-psmux--psnet) | [Observability](../topics/observability.md#repo-psmux--psnet) | [Security](../topics/security.md#repo-psmux--psnet) | [Visualization](../topics/visualization.md#repo-psmux--psnet) | [Local First](../topics/local-first.md#repo-psmux--psnet) | [Performance](../topics/performance.md#repo-psmux--psnet)
 - **Kind:** Application
 - **Best for:** Windows users wanting a terminal-first overview of connections, services, devices, and traffic; Developers diagnosing local ports, adapters, process traffic, or network exposure without a full GUI suite
 - **Languages:** Rust
@@ -317,12 +349,14 @@ A native Rust TUI network monitor for Windows that combines connection and bandw
   - Resolves DNS names and fingerprints listening services and web technologies
   - Embeds GeoIP, server fingerprints, web signatures, and OUI vendor data
 
+<a id="repo-ruvnet--ruflo"></a>
+
 ## [Ruflo](https://github.com/ruvnet/ruflo)
 
 An agent meta-harness for Claude Code and Codex that layers specialized agents, swarm coordination, persistent memory, MCP tools, hooks, and optional federation around coding-agent workflows.
 
-- **Category:** [AI and Automation](../categories/ai-and-automation.md)
-- **Topics:** [AI Agents](../topics/ai-agents.md) | [Agent Harnesses](../topics/agent-harnesses.md) | [Agent Orchestration](../topics/agent-orchestration.md) | [Multi Agent](../topics/multi-agent.md) | [Agent Memory](../topics/agent-memory.md) | [MCP](../topics/mcp.md) | [Multi Provider](../topics/multi-provider.md) | [Security](../topics/security.md)
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-ruvnet--ruflo)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-ruvnet--ruflo) | [Agent Harnesses](../topics/agent-harnesses.md#repo-ruvnet--ruflo) | [Agent Orchestration](../topics/agent-orchestration.md#repo-ruvnet--ruflo) | [Multi Agent](../topics/multi-agent.md#repo-ruvnet--ruflo) | [Agent Memory](../topics/agent-memory.md#repo-ruvnet--ruflo) | [MCP](../topics/mcp.md#repo-ruvnet--ruflo) | [Multi Provider](../topics/multi-provider.md#repo-ruvnet--ruflo) | [Security](../topics/security.md#repo-ruvnet--ruflo)
 - **Kind:** Framework
 - **Best for:** Teams extending Claude Code or Codex with coordinated multi-agent workflows; Developers who need an MCP-accessible orchestration and memory layer
 - **Languages:** TypeScript, Rust
@@ -336,12 +370,14 @@ An agent meta-harness for Claude Code and Codex that layers specialized agents, 
   - Swarm coordination with hierarchical, mesh, and adaptive topologies
   - Persistent HNSW-indexed AgentDB vector memory and self-learning components
 
+<a id="repo-slopus--happy"></a>
+
 ## [Happy](https://github.com/slopus/happy)
 
 A mobile and web companion for Claude Code and Codex sessions that wraps the local agent CLI, enables remote session control and device handoff, sends notifications, and advertises end-to-end encrypted synchronization.
 
-- **Category:** [Platforms and Applications](../categories/platforms-and-applications.md)
-- **Topics:** [Coding Agents](../topics/coding-agents.md) | [Remote Control](../topics/remote-control.md) | [Mobile App](../topics/mobile-app.md) | [Web UI](../topics/web-ui.md) | [CLI](../topics/cli.md) | [Realtime](../topics/realtime.md) | [Security](../topics/security.md) | [Open Source](../topics/open-source.md)
+- **Category:** [Platforms and Applications](../categories/platforms-and-applications.md#repo-slopus--happy)
+- **Topics:** [Coding Agents](../topics/coding-agents.md#repo-slopus--happy) | [Remote Control](../topics/remote-control.md#repo-slopus--happy) | [Mobile App](../topics/mobile-app.md#repo-slopus--happy) | [Web UI](../topics/web-ui.md#repo-slopus--happy) | [CLI](../topics/cli.md#repo-slopus--happy) | [Realtime](../topics/realtime.md#repo-slopus--happy) | [Security](../topics/security.md#repo-slopus--happy) | [Open Source](../topics/open-source.md#repo-slopus--happy)
 - **Kind:** Monorepo
 - **Best for:** Developers who need to check or control active Claude Code or Codex work away from a computer; Teams or individuals who want a remote-control layer without replacing their existing coding agent
 - **Languages:** TypeScript, Rust
@@ -355,12 +391,14 @@ A mobile and web companion for Claude Code and Codex sessions that wraps the loc
   - A CLI wrapper that starts Claude Code or Codex through Happy
   - Remote agent-control commands for creating, sending to, and monitoring sessions
 
+<a id="repo-thedaviddias--front-end-checklist"></a>
+
 ## [Front-End Checklist](https://github.com/thedaviddias/Front-End-Checklist)
 
 A front-end quality system containing 385 prioritized rules across eleven categories, delivered as a browsable website, a README checklist, reusable skills, and hosted or local MCP tooling for review and audit workflows.
 
-- **Category:** [Testing and Quality](../categories/testing-and-quality.md)
-- **Topics:** [Web](../topics/web.md) | [Frontend Development](../topics/frontend-development.md) | [Accessibility](../topics/accessibility.md) | [Security](../topics/security.md) | [Testing](../topics/testing.md) | [Performance](../topics/performance.md) | [MCP](../topics/mcp.md) | [AI Agents](../topics/ai-agents.md) | [Documentation](../topics/documentation.md)
+- **Category:** [Testing and Quality](../categories/testing-and-quality.md#repo-thedaviddias--front-end-checklist)
+- **Topics:** [Web](../topics/web.md#repo-thedaviddias--front-end-checklist) | [Frontend Development](../topics/frontend-development.md#repo-thedaviddias--front-end-checklist) | [Accessibility](../topics/accessibility.md#repo-thedaviddias--front-end-checklist) | [Security](../topics/security.md#repo-thedaviddias--front-end-checklist) | [Testing](../topics/testing.md#repo-thedaviddias--front-end-checklist) | [Performance](../topics/performance.md#repo-thedaviddias--front-end-checklist) | [MCP](../topics/mcp.md#repo-thedaviddias--front-end-checklist) | [AI Agents](../topics/ai-agents.md#repo-thedaviddias--front-end-checklist) | [Documentation](../topics/documentation.md#repo-thedaviddias--front-end-checklist)
 - **Kind:** Monorepo
 - **Best for:** Teams reviewing web applications for accessibility, performance, security, and SEO concerns; MCP-capable agents that need a structured front-end rule corpus and remediation guidance
 - **Languages:** TypeScript, MDX
@@ -374,12 +412,14 @@ A front-end quality system containing 385 prioritized rules across eleven catego
   - Priority labels for critical, high, medium, and low-impact findings
   - Hosted MCP server with tools to review code, audit public URLs, search rules, and retrieve workflows
 
+<a id="repo-trimstray--the-book-of-secret-knowledge"></a>
+
 ## [The Book of Secret Knowledge](https://github.com/trimstray/the-book-of-secret-knowledge)
 
 A broad technical reference of tools, manuals, cheatsheets, links, and shell examples for operations, development, networking, and security work.
 
-- **Category:** [Documentation and Learning](../categories/documentation-and-learning.md)
-- **Topics:** [CLI](../topics/cli.md) | [Web](../topics/web.md) | [DevOps](../topics/devops.md) | [Containers](../topics/containers.md) | [Security](../topics/security.md) | [Documentation](../topics/documentation.md) | [Curated Lists](../topics/curated-lists.md) | [Reference](../topics/reference.md)
+- **Category:** [Documentation and Learning](../categories/documentation-and-learning.md#repo-trimstray--the-book-of-secret-knowledge)
+- **Topics:** [CLI](../topics/cli.md#repo-trimstray--the-book-of-secret-knowledge) | [Web](../topics/web.md#repo-trimstray--the-book-of-secret-knowledge) | [DevOps](../topics/devops.md#repo-trimstray--the-book-of-secret-knowledge) | [Containers](../topics/containers.md#repo-trimstray--the-book-of-secret-knowledge) | [Security](../topics/security.md#repo-trimstray--the-book-of-secret-knowledge) | [Documentation](../topics/documentation.md#repo-trimstray--the-book-of-secret-knowledge) | [Curated Lists](../topics/curated-lists.md#repo-trimstray--the-book-of-secret-knowledge) | [Reference](../topics/reference.md#repo-trimstray--the-book-of-secret-knowledge)
 - **Kind:** Curated List
 - **Best for:** System, network, and DevOps practitioners seeking a broad reference list; Security researchers and developers looking up tools, resources, or shell patterns
 - **Languages:** Unknown
@@ -393,12 +433,14 @@ A broad technical reference of tools, manuals, cheatsheets, links, and shell exa
   - Collects manuals, how-tos, tutorials, blogs, and other curated references
   - Includes security, privacy, penetration-testing, and hardening resources
 
+<a id="repo-vercel-labs--deepsec"></a>
+
 ## [Deepsec](https://github.com/vercel-labs/deepsec)
 
 An agent-powered vulnerability-scanning CLI that combines matcher-based candidate discovery with AI investigation, finding revalidation, and report export for application codebases.
 
-- **Category:** [Security and Privacy](../categories/security-and-privacy.md)
-- **Topics:** [Coding Agents](../topics/coding-agents.md) | [Agent Harnesses](../topics/agent-harnesses.md) | [CLI](../topics/cli.md) | [Security](../topics/security.md) | [Code Review](../topics/code-review.md) | [Sandboxing](../topics/sandboxing.md)
+- **Category:** [Security and Privacy](../categories/security-and-privacy.md#repo-vercel-labs--deepsec)
+- **Topics:** [Coding Agents](../topics/coding-agents.md#repo-vercel-labs--deepsec) | [Agent Harnesses](../topics/agent-harnesses.md#repo-vercel-labs--deepsec) | [CLI](../topics/cli.md#repo-vercel-labs--deepsec) | [Security](../topics/security.md#repo-vercel-labs--deepsec) | [Code Review](../topics/code-review.md#repo-vercel-labs--deepsec) | [Sandboxing](../topics/sandboxing.md#repo-vercel-labs--deepsec)
 - **Kind:** CLI
 - **Best for:** Security teams reviewing established or large codebases for application-specific vulnerabilities; Teams that can budget model usage and want repeatable pull-request or CI security review
 - **Languages:** TypeScript
@@ -412,12 +454,14 @@ An agent-powered vulnerability-scanning CLI that combines matcher-based candidat
   - AI-powered process and revalidate stages with Codex, Claude, or Pi backends
   - Resumable, append-only runs that preserve findings and analysis history
 
+<a id="repo-zeroclaw-labs--zeroclaw"></a>
+
 ## [ZeroClaw](https://github.com/zeroclaw-labs/zeroclaw)
 
 A self-hosted Rust agent runtime for operating a personal AI assistant through chat channels, a CLI, a gateway, and an optional web dashboard.
 
-- **Category:** [Platforms and Applications](../categories/platforms-and-applications.md)
-- **Topics:** [AI Agents](../topics/ai-agents.md) | [Agent Harnesses](../topics/agent-harnesses.md) | [Automation](../topics/automation.md) | [CLI](../topics/cli.md) | [Web UI](../topics/web-ui.md) | [Multi Provider](../topics/multi-provider.md) | [Tool Use](../topics/tool-use.md) | [Security](../topics/security.md) | [Self Hosted](../topics/self-hosted.md)
+- **Category:** [Platforms and Applications](../categories/platforms-and-applications.md#repo-zeroclaw-labs--zeroclaw)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-zeroclaw-labs--zeroclaw) | [Agent Harnesses](../topics/agent-harnesses.md#repo-zeroclaw-labs--zeroclaw) | [Automation](../topics/automation.md#repo-zeroclaw-labs--zeroclaw) | [CLI](../topics/cli.md#repo-zeroclaw-labs--zeroclaw) | [Web UI](../topics/web-ui.md#repo-zeroclaw-labs--zeroclaw) | [Multi Provider](../topics/multi-provider.md#repo-zeroclaw-labs--zeroclaw) | [Tool Use](../topics/tool-use.md#repo-zeroclaw-labs--zeroclaw) | [Security](../topics/security.md#repo-zeroclaw-labs--zeroclaw) | [Self Hosted](../topics/self-hosted.md#repo-zeroclaw-labs--zeroclaw)
 - **Kind:** Application
 - **Best for:** Running a configurable personal agent on your own machine and workspace; Connecting one agent to multiple messaging channels, tools, and model providers
 - **Languages:** Rust, TypeScript

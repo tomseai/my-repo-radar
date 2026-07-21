@@ -10,12 +10,14 @@
 - [Developer Tools](../categories/developer-tools.md) (2)
 - [Platforms and Applications](../categories/platforms-and-applications.md) (2)
 
+<a id="repo-burntsushi--ripgrep"></a>
+
 ## [ripgrep](https://github.com/BurntSushi/ripgrep)
 
 A Rust command-line search tool that recursively searches files with regular expressions, observes ignore rules by default, and ships precompiled binaries for Windows, macOS, and Linux.
 
-- **Category:** [Developer Tools](../categories/developer-tools.md)
-- **Topics:** [CLI](../topics/cli.md) | [Git](../topics/git.md) | [Search](../topics/search.md) | [Performance](../topics/performance.md) | [Developer Productivity](../topics/developer-productivity.md)
+- **Category:** [Developer Tools](../categories/developer-tools.md#repo-burntsushi--ripgrep)
+- **Topics:** [CLI](../topics/cli.md#repo-burntsushi--ripgrep) | [Git](../topics/git.md#repo-burntsushi--ripgrep) | [Search](../topics/search.md#repo-burntsushi--ripgrep) | [Performance](../topics/performance.md#repo-burntsushi--ripgrep) | [Developer Productivity](../topics/developer-productivity.md#repo-burntsushi--ripgrep)
 - **Kind:** CLI
 - **Best for:** Searching source trees from the terminal; Code-oriented workflows that need gitignore-aware file filtering
 - **Languages:** Rust
@@ -29,12 +31,14 @@ A Rust command-line search tool that recursively searches files with regular exp
   - File-type filters and user-defined file-type rules
   - Unicode-aware search, match context, multiple patterns, and colorized output
 
+<a id="repo-garrytan--gbrain"></a>
+
 ## [GBrain](https://github.com/garrytan/gbrain)
 
 A self-hostable knowledge layer for agents that syncs Markdown brain repositories into local or Postgres-backed retrieval, graph, and cited synthesis capabilities.
 
-- **Category:** [AI and Automation](../categories/ai-and-automation.md)
-- **Topics:** [Agent Memory](../topics/agent-memory.md) | [Agent Skills](../topics/agent-skills.md) | [MCP](../topics/mcp.md) | [Search](../topics/search.md) | [Self Hosted](../topics/self-hosted.md) | [Local First](../topics/local-first.md) | [Authentication](../topics/authentication.md) | [LLMs](../topics/llms.md)
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-garrytan--gbrain)
+- **Topics:** [Agent Memory](../topics/agent-memory.md#repo-garrytan--gbrain) | [Agent Skills](../topics/agent-skills.md#repo-garrytan--gbrain) | [MCP](../topics/mcp.md#repo-garrytan--gbrain) | [Search](../topics/search.md#repo-garrytan--gbrain) | [Self Hosted](../topics/self-hosted.md#repo-garrytan--gbrain) | [Local First](../topics/local-first.md#repo-garrytan--gbrain) | [Authentication](../topics/authentication.md#repo-garrytan--gbrain) | [LLMs](../topics/llms.md#repo-garrytan--gbrain)
 - **Kind:** Service
 - **Best for:** Agent users who need persistent, source-linked personal or team memory; Teams willing to operate a Postgres deployment for remote shared access
 - **Languages:** TypeScript
@@ -48,12 +52,14 @@ A self-hostable knowledge layer for agents that syncs Markdown brain repositorie
   - Cited answer synthesis with explicit knowledge-gap analysis
   - Markdown brain repository as the system of record with database synchronization
 
+<a id="repo-khoj-ai--khoj"></a>
+
 ## [Khoj](https://github.com/khoj-ai/khoj)
 
 A self-hostable personal AI application that combines LLM chat, semantic search over personal knowledge, web answers, configurable agents, research automation, and clients for the web, desktop, mobile, Obsidian, and Emacs.
 
-- **Category:** [Platforms and Applications](../categories/platforms-and-applications.md)
-- **Topics:** [AI Agents](../topics/ai-agents.md) | [LLMs](../topics/llms.md) | [Chat UI](../topics/chat-ui.md) | [Search](../topics/search.md) | [Web Search](../topics/web-search.md) | [Document Processing](../topics/document-processing.md) | [Self Hosted](../topics/self-hosted.md) | [Local Models](../topics/local-models.md) | [Desktop App](../topics/desktop-app.md) | [Mobile App](../topics/mobile-app.md)
+- **Category:** [Platforms and Applications](../categories/platforms-and-applications.md#repo-khoj-ai--khoj)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-khoj-ai--khoj) | [LLMs](../topics/llms.md#repo-khoj-ai--khoj) | [Chat UI](../topics/chat-ui.md#repo-khoj-ai--khoj) | [Search](../topics/search.md#repo-khoj-ai--khoj) | [Web Search](../topics/web-search.md#repo-khoj-ai--khoj) | [Document Processing](../topics/document-processing.md#repo-khoj-ai--khoj) | [Self Hosted](../topics/self-hosted.md#repo-khoj-ai--khoj) | [Local Models](../topics/local-models.md#repo-khoj-ai--khoj) | [Desktop App](../topics/desktop-app.md#repo-khoj-ai--khoj) | [Mobile App](../topics/mobile-app.md#repo-khoj-ai--khoj)
 - **Kind:** Application
 - **Best for:** Individuals or teams wanting a private, self-hosted AI assistant for documents and web research; Users who need one personal knowledge interface across local or hosted LLM providers and clients
 - **Languages:** Python, TypeScript
@@ -67,12 +73,14 @@ A self-hostable personal AI application that combines LLM chat, semantic search 
   - Performs semantic search over PDF, Markdown, org-mode, Word, Notion, and other supported sources
   - Lets users create agents with custom knowledge, personas, chat models, and tools
 
+<a id="repo-langchain-ai--chat-langchain"></a>
+
 ## [Chat LangChain](https://github.com/langchain-ai/chat-langchain)
 
 A documentation assistant for LangChain, LangGraph, and LangSmith that combines managed agent deployment, documentation and support-base search, on-topic guardrails, URL validation, and a Next.js public chat interface.
 
-- **Category:** [AI and Automation](../categories/ai-and-automation.md)
-- **Topics:** [AI Agents](../topics/ai-agents.md) | [Chat UI](../topics/chat-ui.md) | [Documentation](../topics/documentation.md) | [Search](../topics/search.md) | [Tool Use](../topics/tool-use.md) | [Web UI](../topics/web-ui.md) | [Deployment](../topics/deployment.md)
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-langchain-ai--chat-langchain)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-langchain-ai--chat-langchain) | [Chat UI](../topics/chat-ui.md#repo-langchain-ai--chat-langchain) | [Documentation](../topics/documentation.md#repo-langchain-ai--chat-langchain) | [Search](../topics/search.md#repo-langchain-ai--chat-langchain) | [Tool Use](../topics/tool-use.md#repo-langchain-ai--chat-langchain) | [Web UI](../topics/web-ui.md#repo-langchain-ai--chat-langchain) | [Deployment](../topics/deployment.md#repo-langchain-ai--chat-langchain)
 - **Kind:** Application
 - **Best for:** Teams building a managed documentation-support assistant; Developers studying a LangChain agent with a separate public web UI
 - **Languages:** Python, TypeScript
@@ -86,12 +94,14 @@ A documentation assistant for LangChain, LangGraph, and LangSmith that combines 
   - Searches a Pylon support knowledge base for known issues and solutions
   - Filters off-topic requests with guardrail middleware
 
+<a id="repo-lfnovo--open-notebook"></a>
+
 ## [open-notebook](https://github.com/lfnovo/open-notebook)
 
 A self-hosted research-notebook application for organizing multimodal sources, searching them, and using configurable AI models for source-grounded chat, notes, and podcast generation.
 
-- **Category:** [AI and Automation](../categories/ai-and-automation.md)
-- **Topics:** [LLMs](../topics/llms.md) | [Chat UI](../topics/chat-ui.md) | [Search](../topics/search.md) | [Self Hosted](../topics/self-hosted.md) | [Document Processing](../topics/document-processing.md) | [Multi Provider](../topics/multi-provider.md)
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-lfnovo--open-notebook)
+- **Topics:** [LLMs](../topics/llms.md#repo-lfnovo--open-notebook) | [Chat UI](../topics/chat-ui.md#repo-lfnovo--open-notebook) | [Search](../topics/search.md#repo-lfnovo--open-notebook) | [Self Hosted](../topics/self-hosted.md#repo-lfnovo--open-notebook) | [Document Processing](../topics/document-processing.md#repo-lfnovo--open-notebook) | [Multi Provider](../topics/multi-provider.md#repo-lfnovo--open-notebook)
 - **Kind:** Application
 - **Best for:** Individuals or teams that want a private research workspace they can host; Research workflows that combine documents, media, web sources, and AI chat
 - **Languages:** TypeScript, Python
@@ -105,12 +115,14 @@ A self-hosted research-notebook application for organizing multimodal sources, s
   - Ingestion of PDFs, videos, audio, web pages, and office documents
   - Full-text and vector search across stored content
 
+<a id="repo-plastic-labs--honcho"></a>
+
 ## [honcho](https://github.com/plastic-labs/honcho)
 
 A FastAPI-based memory service for stateful agents that stores interactions, processes them asynchronously into peer and session insights, and exposes context, search, representation, and chat capabilities through SDKs and APIs.
 
-- **Category:** [AI and Automation](../categories/ai-and-automation.md)
-- **Topics:** [AI Agents](../topics/ai-agents.md) | [Agent Memory](../topics/agent-memory.md) | [LLMs](../topics/llms.md) | [Search](../topics/search.md) | [Self Hosted](../topics/self-hosted.md) | [MCP](../topics/mcp.md) | [Multi Provider](../topics/multi-provider.md)
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-plastic-labs--honcho)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-plastic-labs--honcho) | [Agent Memory](../topics/agent-memory.md#repo-plastic-labs--honcho) | [LLMs](../topics/llms.md#repo-plastic-labs--honcho) | [Search](../topics/search.md#repo-plastic-labs--honcho) | [Self Hosted](../topics/self-hosted.md#repo-plastic-labs--honcho) | [MCP](../topics/mcp.md#repo-plastic-labs--honcho) | [Multi Provider](../topics/multi-provider.md#repo-plastic-labs--honcho)
 - **Kind:** Service
 - **Best for:** Adding persistent, queryable memory and prompt-ready context to an agent or LLM application; Teams that need a managed service or self-hosted memory server with Python and TypeScript SDKs
 - **Languages:** Python, TypeScript
@@ -124,12 +136,14 @@ A FastAPI-based memory service for stateful agents that stores interactions, pro
   - Runs background reasoning to create conclusions, representations, summaries, and peer cards
   - Provides context retrieval, hybrid search, low-latency representations, and a natural-language chat endpoint
 
+<a id="repo-rohitg00--agentmemory"></a>
+
 ## [agentmemory](https://github.com/rohitg00/agentmemory)
 
 A persistent memory service for coding agents that captures session activity, stores and consolidates it through a local engine, and returns selected context through hooks, MCP, and a local REST API for future sessions and compatible clients.
 
-- **Category:** [AI and Automation](../categories/ai-and-automation.md)
-- **Topics:** [AI Agents](../topics/ai-agents.md) | [Coding Agents](../topics/coding-agents.md) | [Agent Memory](../topics/agent-memory.md) | [MCP](../topics/mcp.md) | [Multi Agent](../topics/multi-agent.md) | [Search](../topics/search.md) | [Self Hosted](../topics/self-hosted.md)
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-rohitg00--agentmemory)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-rohitg00--agentmemory) | [Coding Agents](../topics/coding-agents.md#repo-rohitg00--agentmemory) | [Agent Memory](../topics/agent-memory.md#repo-rohitg00--agentmemory) | [MCP](../topics/mcp.md#repo-rohitg00--agentmemory) | [Multi Agent](../topics/multi-agent.md#repo-rohitg00--agentmemory) | [Search](../topics/search.md#repo-rohitg00--agentmemory) | [Self Hosted](../topics/self-hosted.md#repo-rohitg00--agentmemory)
 - **Kind:** Service
 - **Best for:** Coding-agent users who want persistent, searchable context across sessions and tools; Teams that need shared and private agent memory with traceable source observations
 - **Languages:** TypeScript, JavaScript
@@ -143,12 +157,14 @@ A persistent memory service for coding agents that captures session activity, st
   - Searches memory through BM25, optional vector embeddings, and knowledge-graph traversal fused with reciprocal-rank fusion
   - Provides four memory tiers, decay, contradiction handling, provenance, and Git-versioned memory snapshots
 
+<a id="repo-siyuan-note--siyuan"></a>
+
 ## [SiYuan](https://github.com/siyuan-note/siyuan)
 
 A privacy-first personal knowledge-management application with a block-based Markdown WYSIWYG editor, desktop and mobile clients, a built-in command-line interface, and optional browser-based Docker hosting.
 
-- **Category:** [Platforms and Applications](../categories/platforms-and-applications.md)
-- **Topics:** [Desktop App](../topics/desktop-app.md) | [Mobile App](../topics/mobile-app.md) | [Self Hosted](../topics/self-hosted.md) | [Local First](../topics/local-first.md) | [Search](../topics/search.md) | [Open Source](../topics/open-source.md)
+- **Category:** [Platforms and Applications](../categories/platforms-and-applications.md#repo-siyuan-note--siyuan)
+- **Topics:** [Desktop App](../topics/desktop-app.md#repo-siyuan-note--siyuan) | [Mobile App](../topics/mobile-app.md#repo-siyuan-note--siyuan) | [Self Hosted](../topics/self-hosted.md#repo-siyuan-note--siyuan) | [Local First](../topics/local-first.md#repo-siyuan-note--siyuan) | [Search](../topics/search.md#repo-siyuan-note--siyuan) | [Open Source](../topics/open-source.md#repo-siyuan-note--siyuan)
 - **Kind:** Application
 - **Best for:** Individuals who want a block-oriented personal knowledge base; Self-hosters who want local workspace data with a browser interface
 - **Languages:** TypeScript, Go
@@ -162,12 +178,14 @@ A privacy-first personal knowledge-management application with a block-based Mar
   - Markdown WYSIWYG editing, large-document editing, and outline views
   - Full-text and asset-content search through the built-in CLI
 
+<a id="repo-supermemoryai--supermemory"></a>
+
 ## [Supermemory](https://github.com/supermemoryai/supermemory)
 
 An AI memory and context platform repository containing a hosted API, client integrations and MCP support, and a local server for persistent memory, user profiles, hybrid retrieval, connectors, and file processing.
 
-- **Category:** [AI and Automation](../categories/ai-and-automation.md)
-- **Topics:** [AI Agents](../topics/ai-agents.md) | [Agent Memory](../topics/agent-memory.md) | [LLMs](../topics/llms.md) | [MCP](../topics/mcp.md) | [Search](../topics/search.md) | [Self Hosted](../topics/self-hosted.md) | [Local Models](../topics/local-models.md) | [Open Source](../topics/open-source.md)
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-supermemoryai--supermemory)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-supermemoryai--supermemory) | [Agent Memory](../topics/agent-memory.md#repo-supermemoryai--supermemory) | [LLMs](../topics/llms.md#repo-supermemoryai--supermemory) | [MCP](../topics/mcp.md#repo-supermemoryai--supermemory) | [Search](../topics/search.md#repo-supermemoryai--supermemory) | [Self Hosted](../topics/self-hosted.md#repo-supermemoryai--supermemory) | [Local Models](../topics/local-models.md#repo-supermemoryai--supermemory) | [Open Source](../topics/open-source.md#repo-supermemoryai--supermemory)
 - **Kind:** Monorepo
 - **Best for:** AI-product developers adding persistent user context and retrieval to agents or applications; Users who want an MCP-connected memory layer or a local deployment with compatible models
 - **Languages:** TypeScript, Python
@@ -181,12 +199,14 @@ An AI memory and context platform repository containing a hosted API, client int
   - Hybrid search combines document retrieval with stored memories
   - Processes text, files, images, videos, and code for searchable context
 
+<a id="repo-thedotmack--claude-mem"></a>
+
 ## [Claude-Mem](https://github.com/thedotmack/claude-mem)
 
 A persistent-memory plugin for coding agents that captures session activity, creates AI summaries, and retrieves relevant project context in later sessions.
 
-- **Category:** [AI and Automation](../categories/ai-and-automation.md)
-- **Topics:** [AI Agents](../topics/ai-agents.md) | [Agent Memory](../topics/agent-memory.md) | [Coding Agents](../topics/coding-agents.md) | [Context Engineering](../topics/context-engineering.md) | [MCP](../topics/mcp.md) | [Local First](../topics/local-first.md) | [Search](../topics/search.md) | [Developer Productivity](../topics/developer-productivity.md)
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-thedotmack--claude-mem)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-thedotmack--claude-mem) | [Agent Memory](../topics/agent-memory.md#repo-thedotmack--claude-mem) | [Coding Agents](../topics/coding-agents.md#repo-thedotmack--claude-mem) | [Context Engineering](../topics/context-engineering.md#repo-thedotmack--claude-mem) | [MCP](../topics/mcp.md#repo-thedotmack--claude-mem) | [Local First](../topics/local-first.md#repo-thedotmack--claude-mem) | [Search](../topics/search.md#repo-thedotmack--claude-mem) | [Developer Productivity](../topics/developer-productivity.md#repo-thedotmack--claude-mem)
 - **Kind:** Plugin
 - **Best for:** Claude Code users who want searchable continuity across coding sessions; Supported coding-agent users who need local project-memory retrieval
 - **Languages:** TypeScript, JavaScript
@@ -200,12 +220,14 @@ A persistent-memory plugin for coding agents that captures session activity, cre
   - Stores sessions, observations, and summaries in a local SQLite database
   - Provides progressive-disclosure memory search through MCP tools and a skill
 
+<a id="repo-topoteretes--cognee"></a>
+
 ## [Cognee](https://github.com/topoteretes/cognee)
 
 An open-source AI-memory platform that ingests data into a self-hosted knowledge graph and combines graph and vector retrieval for persistent agent context.
 
-- **Category:** [AI and Automation](../categories/ai-and-automation.md)
-- **Topics:** [AI Agents](../topics/ai-agents.md) | [Agent Memory](../topics/agent-memory.md) | [Agent Skills](../topics/agent-skills.md) | [LLMs](../topics/llms.md) | [Search](../topics/search.md) | [Self Hosted](../topics/self-hosted.md) | [MCP](../topics/mcp.md) | [CLI](../topics/cli.md) | [Web UI](../topics/web-ui.md) | [Codebase Indexing](../topics/codebase-indexing.md) | [Open Source](../topics/open-source.md)
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-topoteretes--cognee)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-topoteretes--cognee) | [Agent Memory](../topics/agent-memory.md#repo-topoteretes--cognee) | [Agent Skills](../topics/agent-skills.md#repo-topoteretes--cognee) | [LLMs](../topics/llms.md#repo-topoteretes--cognee) | [Search](../topics/search.md#repo-topoteretes--cognee) | [Self Hosted](../topics/self-hosted.md#repo-topoteretes--cognee) | [MCP](../topics/mcp.md#repo-topoteretes--cognee) | [CLI](../topics/cli.md#repo-topoteretes--cognee) | [Web UI](../topics/web-ui.md#repo-topoteretes--cognee) | [Codebase Indexing](../topics/codebase-indexing.md#repo-topoteretes--cognee) | [Open Source](../topics/open-source.md#repo-topoteretes--cognee)
 - **Kind:** Framework
 - **Best for:** Adding long-term memory and retrieval to AI agents; Self-hosting an agent knowledge layer with a Python API, CLI, or MCP service
 - **Languages:** Python, TypeScript
@@ -219,12 +241,14 @@ An open-source AI-memory platform that ingests data into a self-hosted knowledge
   - Provides remember, recall, forget, and improve operations for persistent and session memory
   - Routes retrieval across graph, vector, and session-memory search strategies
 
+<a id="repo-waynesutton--opensync"></a>
+
 ## [opensync](https://github.com/waynesutton/opensync)
 
 A hosted or self-hosted dashboard and API for collecting AI coding-session data from supported sync plugins, then searching, analysing, exporting, and reusing that activity for evaluation and context workflows.
 
-- **Category:** [Developer Tools](../categories/developer-tools.md)
-- **Topics:** [Coding Agents](../topics/coding-agents.md) | [Observability](../topics/observability.md) | [Evaluation](../topics/evaluation.md) | [Search](../topics/search.md) | [Token Usage](../topics/token-usage.md) | [Cost Management](../topics/cost-management.md) | [Web UI](../topics/web-ui.md) | [Self Hosted](../topics/self-hosted.md)
+- **Category:** [Developer Tools](../categories/developer-tools.md#repo-waynesutton--opensync)
+- **Topics:** [Coding Agents](../topics/coding-agents.md#repo-waynesutton--opensync) | [Observability](../topics/observability.md#repo-waynesutton--opensync) | [Evaluation](../topics/evaluation.md#repo-waynesutton--opensync) | [Search](../topics/search.md#repo-waynesutton--opensync) | [Token Usage](../topics/token-usage.md#repo-waynesutton--opensync) | [Cost Management](../topics/cost-management.md#repo-waynesutton--opensync) | [Web UI](../topics/web-ui.md#repo-waynesutton--opensync) | [Self Hosted](../topics/self-hosted.md#repo-waynesutton--opensync)
 - **Kind:** Application
 - **Best for:** Teams that want a shared dashboard for coding-agent sessions, tool activity, and token spend; Developers who want to search or export past sessions for evaluations and context retrieval
 - **Languages:** TypeScript

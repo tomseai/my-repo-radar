@@ -10,12 +10,14 @@
 - [Frontend and Design](../categories/frontend-and-design.md) (4)
 - [Testing and Quality](../categories/testing-and-quality.md) (2)
 
+<a id="repo-addyosmani--web-quality-skills"></a>
+
 ## [Web Quality Skills](https://github.com/addyosmani/web-quality-skills)
 
 A stack-agnostic collection of six agent skills for reviewing and improving web performance, Core Web Vitals, accessibility, SEO, and best practices.
 
-- **Category:** [Testing and Quality](../categories/testing-and-quality.md)
-- **Topics:** [AI Agents](../topics/ai-agents.md) | [Agent Skills](../topics/agent-skills.md) | [Automation](../topics/automation.md) | [Testing](../topics/testing.md) | [Performance](../topics/performance.md) | [Accessibility](../topics/accessibility.md) | [Web](../topics/web.md)
+- **Category:** [Testing and Quality](../categories/testing-and-quality.md#repo-addyosmani--web-quality-skills)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-addyosmani--web-quality-skills) | [Agent Skills](../topics/agent-skills.md#repo-addyosmani--web-quality-skills) | [Automation](../topics/automation.md#repo-addyosmani--web-quality-skills) | [Testing](../topics/testing.md#repo-addyosmani--web-quality-skills) | [Performance](../topics/performance.md#repo-addyosmani--web-quality-skills) | [Accessibility](../topics/accessibility.md#repo-addyosmani--web-quality-skills) | [Web](../topics/web.md#repo-addyosmani--web-quality-skills)
 - **Kind:** Plugin
 - **Best for:** Developers asking coding agents for focused web-quality reviews or improvements; Teams that want reusable Lighthouse-, Core Web Vitals-, and WCAG-informed guidance
 - **Languages:** Shell
@@ -29,12 +31,14 @@ A stack-agnostic collection of six agent skills for reviewing and improving web 
   - Dedicated performance guidance covering rendering, code splitting, images, fonts, caching, and server response
   - Core Web Vitals guidance for LCP, INP, and CLS with documented target thresholds
 
+<a id="repo-carmahhawwari--ui-design-brain"></a>
+
 ## [UI Design Brain](https://github.com/carmahhawwari/ui-design-brain)
 
 A Cursor skill and Markdown knowledge pack for AI-assisted UI development, supplying component-specific best practices, layout patterns, aliases, accessibility guidance, design directions, and anti-patterns for more than 60 interface components.
 
-- **Category:** [AI and Automation](../categories/ai-and-automation.md)
-- **Topics:** [AI Agents](../topics/ai-agents.md) | [Agent Skills](../topics/agent-skills.md) | [Code Generation](../topics/code-generation.md) | [Design Systems](../topics/design-systems.md) | [Accessibility](../topics/accessibility.md) | [Frontend Development](../topics/frontend-development.md)
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-carmahhawwari--ui-design-brain)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-carmahhawwari--ui-design-brain) | [Agent Skills](../topics/agent-skills.md#repo-carmahhawwari--ui-design-brain) | [Code Generation](../topics/code-generation.md#repo-carmahhawwari--ui-design-brain) | [Design Systems](../topics/design-systems.md#repo-carmahhawwari--ui-design-brain) | [Accessibility](../topics/accessibility.md#repo-carmahhawwari--ui-design-brain) | [Frontend Development](../topics/frontend-development.md#repo-carmahhawwari--ui-design-brain)
 - **Kind:** Plugin
 - **Best for:** Cursor users who want reusable UI design guidance applied while generating interfaces; Teams sharing component and layout conventions through a project-local Cursor skill
 - **Languages:** Unknown
@@ -48,12 +52,14 @@ A Cursor skill and Markdown knowledge pack for AI-assisted UI development, suppl
   - Component best practices, common layouts, aliases, and anti-patterns
   - Accessibility guidance including focus, ARIA, and keyboard-navigation considerations
 
+<a id="repo-hakimel--reveal.js"></a>
+
 ## [reveal.js](https://github.com/hakimel/reveal.js)
 
 An HTML presentation framework for authoring and presenting browser-based slide decks with a JavaScript API and optional plugins.
 
-- **Category:** [Frontend and Design](../categories/frontend-and-design.md)
-- **Topics:** [Web](../topics/web.md) | [Frontend Development](../topics/frontend-development.md) | [Frameworks](../topics/frameworks.md) | [Libraries](../topics/libraries.md) | [Accessibility](../topics/accessibility.md)
+- **Category:** [Frontend and Design](../categories/frontend-and-design.md#repo-hakimel--reveal.js)
+- **Topics:** [Web](../topics/web.md#repo-hakimel--reveal.js) | [Frontend Development](../topics/frontend-development.md#repo-hakimel--reveal.js) | [Frameworks](../topics/frameworks.md#repo-hakimel--reveal.js) | [Libraries](../topics/libraries.md#repo-hakimel--reveal.js) | [Accessibility](../topics/accessibility.md#repo-hakimel--reveal.js)
 - **Kind:** Framework
 - **Best for:** Publishing a customized web presentation from HTML, Markdown, or React components; Developers who need a self-hostable slide-deck framework rather than a hosted editor
 - **Languages:** JavaScript, TypeScript, HTML, CSS
@@ -67,12 +73,14 @@ An HTML presentation framework for authoring and presenting browser-based slide 
   - Plugins for Markdown, syntax highlighting, math, speaker notes, search, and zoom
   - PDF export, speaker view, Auto-Animate, and a documented JavaScript API
 
+<a id="repo-pbakaus--impeccable"></a>
+
 ## [Impeccable](https://github.com/pbakaus/impeccable)
 
 A design skill and command suite for AI coding tools, paired with browser iteration and a standalone CLI that detects deterministic frontend anti-patterns in source files, directories, and URLs.
 
-- **Category:** [Frontend and Design](../categories/frontend-and-design.md)
-- **Topics:** [Coding Agents](../topics/coding-agents.md) | [Agent Skills](../topics/agent-skills.md) | [Frontend Development](../topics/frontend-development.md) | [Design Systems](../topics/design-systems.md) | [Accessibility](../topics/accessibility.md) | [CLI](../topics/cli.md)
+- **Category:** [Frontend and Design](../categories/frontend-and-design.md#repo-pbakaus--impeccable)
+- **Topics:** [Coding Agents](../topics/coding-agents.md#repo-pbakaus--impeccable) | [Agent Skills](../topics/agent-skills.md#repo-pbakaus--impeccable) | [Frontend Development](../topics/frontend-development.md#repo-pbakaus--impeccable) | [Design Systems](../topics/design-systems.md#repo-pbakaus--impeccable) | [Accessibility](../topics/accessibility.md#repo-pbakaus--impeccable) | [CLI](../topics/cli.md#repo-pbakaus--impeccable)
 - **Kind:** Plugin
 - **Best for:** Teams guiding AI coding agents toward an established frontend design language; Reviewing generated interface code for repeatable design and accessibility issues
 - **Languages:** JavaScript
@@ -86,12 +94,14 @@ A design skill and command suite for AI coding tools, paired with browser iterat
   - Project design context through PRODUCT.md and optional DESIGN.md
   - Standalone CLI detector for directories, HTML files, URLs, and JSON output
 
+<a id="repo-spartan-ng--spartan"></a>
+
 ## [spartan](https://github.com/spartan-ng/spartan)
 
 An Angular monorepo for accessible headless UI primitives, copy-paste shadcn-style components, workspace tooling, and an optional full-stack setup.
 
-- **Category:** [Frontend and Design](../categories/frontend-and-design.md)
-- **Topics:** [Frontend Development](../topics/frontend-development.md) | [UI Components](../topics/ui-components.md) | [Design Systems](../topics/design-systems.md) | [Accessibility](../topics/accessibility.md) | [CLI](../topics/cli.md) | [MCP](../topics/mcp.md)
+- **Category:** [Frontend and Design](../categories/frontend-and-design.md#repo-spartan-ng--spartan)
+- **Topics:** [Frontend Development](../topics/frontend-development.md#repo-spartan-ng--spartan) | [UI Components](../topics/ui-components.md#repo-spartan-ng--spartan) | [Design Systems](../topics/design-systems.md#repo-spartan-ng--spartan) | [Accessibility](../topics/accessibility.md#repo-spartan-ng--spartan) | [CLI](../topics/cli.md#repo-spartan-ng--spartan) | [MCP](../topics/mcp.md#repo-spartan-ng--spartan)
 - **Kind:** Monorepo
 - **Best for:** Angular teams building accessible, customizable component interfaces; Nx or Angular workspaces that want generated spartan UI integration
 - **Languages:** TypeScript
@@ -105,12 +115,14 @@ An Angular monorepo for accessible headless UI primitives, copy-paste shadcn-sty
   - Headless, accessible behavior primitives in @spartan-ng/brain
   - Copy-paste helm styles that remain owned by the application
 
+<a id="repo-swyxio--spark-joy"></a>
+
 ## [Spark Joy](https://github.com/swyxio/spark-joy)
 
 A large, hand-curated README index of resources for adding visual flair, usability, and whimsy to product interfaces, spanning web design, CSS, typography, graphics, interaction, and design inspiration.
 
-- **Category:** [Frontend and Design](../categories/frontend-and-design.md)
-- **Topics:** [Curated Lists](../topics/curated-lists.md) | [Frontend Development](../topics/frontend-development.md) | [Web](../topics/web.md) | [UI Components](../topics/ui-components.md) | [Design Systems](../topics/design-systems.md) | [Accessibility](../topics/accessibility.md) | [Visualization](../topics/visualization.md) | [Reference](../topics/reference.md)
+- **Category:** [Frontend and Design](../categories/frontend-and-design.md#repo-swyxio--spark-joy)
+- **Topics:** [Curated Lists](../topics/curated-lists.md#repo-swyxio--spark-joy) | [Frontend Development](../topics/frontend-development.md#repo-swyxio--spark-joy) | [Web](../topics/web.md#repo-swyxio--spark-joy) | [UI Components](../topics/ui-components.md#repo-swyxio--spark-joy) | [Design Systems](../topics/design-systems.md#repo-swyxio--spark-joy) | [Accessibility](../topics/accessibility.md#repo-swyxio--spark-joy) | [Visualization](../topics/visualization.md#repo-swyxio--spark-joy) | [Reference](../topics/reference.md#repo-swyxio--spark-joy)
 - **Kind:** Curated List
 - **Best for:** Designers and frontend developers collecting interface and visual-design references; Product teams looking for inspiration or a starting point for specific UI details
 - **Languages:** Markdown
@@ -124,12 +136,14 @@ A large, hand-curated README index of resources for adding visual flair, usabili
   - Covers icons, diagrams, illustrations, stock media, and SVG or graphics tools
   - Includes references for form controls, charts, dashboards, and React components
 
+<a id="repo-thedaviddias--front-end-checklist"></a>
+
 ## [Front-End Checklist](https://github.com/thedaviddias/Front-End-Checklist)
 
 A front-end quality system containing 385 prioritized rules across eleven categories, delivered as a browsable website, a README checklist, reusable skills, and hosted or local MCP tooling for review and audit workflows.
 
-- **Category:** [Testing and Quality](../categories/testing-and-quality.md)
-- **Topics:** [Web](../topics/web.md) | [Frontend Development](../topics/frontend-development.md) | [Accessibility](../topics/accessibility.md) | [Security](../topics/security.md) | [Testing](../topics/testing.md) | [Performance](../topics/performance.md) | [MCP](../topics/mcp.md) | [AI Agents](../topics/ai-agents.md) | [Documentation](../topics/documentation.md)
+- **Category:** [Testing and Quality](../categories/testing-and-quality.md#repo-thedaviddias--front-end-checklist)
+- **Topics:** [Web](../topics/web.md#repo-thedaviddias--front-end-checklist) | [Frontend Development](../topics/frontend-development.md#repo-thedaviddias--front-end-checklist) | [Accessibility](../topics/accessibility.md#repo-thedaviddias--front-end-checklist) | [Security](../topics/security.md#repo-thedaviddias--front-end-checklist) | [Testing](../topics/testing.md#repo-thedaviddias--front-end-checklist) | [Performance](../topics/performance.md#repo-thedaviddias--front-end-checklist) | [MCP](../topics/mcp.md#repo-thedaviddias--front-end-checklist) | [AI Agents](../topics/ai-agents.md#repo-thedaviddias--front-end-checklist) | [Documentation](../topics/documentation.md#repo-thedaviddias--front-end-checklist)
 - **Kind:** Monorepo
 - **Best for:** Teams reviewing web applications for accessibility, performance, security, and SEO concerns; MCP-capable agents that need a structured front-end rule corpus and remediation guidance
 - **Languages:** TypeScript, MDX

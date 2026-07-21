@@ -13,12 +13,14 @@
 - [Systems and Infrastructure](../categories/systems-and-infrastructure.md) (1)
 - [Testing and Quality](../categories/testing-and-quality.md) (2)
 
+<a id="repo-addyosmani--web-quality-skills"></a>
+
 ## [Web Quality Skills](https://github.com/addyosmani/web-quality-skills)
 
 A stack-agnostic collection of six agent skills for reviewing and improving web performance, Core Web Vitals, accessibility, SEO, and best practices.
 
-- **Category:** [Testing and Quality](../categories/testing-and-quality.md)
-- **Topics:** [AI Agents](../topics/ai-agents.md) | [Agent Skills](../topics/agent-skills.md) | [Automation](../topics/automation.md) | [Testing](../topics/testing.md) | [Performance](../topics/performance.md) | [Accessibility](../topics/accessibility.md) | [Web](../topics/web.md)
+- **Category:** [Testing and Quality](../categories/testing-and-quality.md#repo-addyosmani--web-quality-skills)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-addyosmani--web-quality-skills) | [Agent Skills](../topics/agent-skills.md#repo-addyosmani--web-quality-skills) | [Automation](../topics/automation.md#repo-addyosmani--web-quality-skills) | [Testing](../topics/testing.md#repo-addyosmani--web-quality-skills) | [Performance](../topics/performance.md#repo-addyosmani--web-quality-skills) | [Accessibility](../topics/accessibility.md#repo-addyosmani--web-quality-skills) | [Web](../topics/web.md#repo-addyosmani--web-quality-skills)
 - **Kind:** Plugin
 - **Best for:** Developers asking coding agents for focused web-quality reviews or improvements; Teams that want reusable Lighthouse-, Core Web Vitals-, and WCAG-informed guidance
 - **Languages:** Shell
@@ -32,12 +34,14 @@ A stack-agnostic collection of six agent skills for reviewing and improving web 
   - Dedicated performance guidance covering rendering, code splitting, images, fonts, caching, and server response
   - Core Web Vitals guidance for LCP, INP, and CLS with documented target thresholds
 
+<a id="repo-babycommando--entity-db"></a>
+
 ## [EntityDB](https://github.com/babycommando/entity-db)
 
 A JavaScript browser library for persisting vector embeddings in IndexedDB and searching them locally, with optional text embedding through Transformers.js and experimental binary-vector query paths.
 
-- **Category:** [Data and Databases](../categories/data-and-databases.md)
-- **Topics:** [Databases](../topics/databases.md) | [Local First](../topics/local-first.md) | [Web](../topics/web.md) | [Machine Learning](../topics/machine-learning.md) | [Performance](../topics/performance.md)
+- **Category:** [Data and Databases](../categories/data-and-databases.md#repo-babycommando--entity-db)
+- **Topics:** [Databases](../topics/databases.md#repo-babycommando--entity-db) | [Local First](../topics/local-first.md#repo-babycommando--entity-db) | [Web](../topics/web.md#repo-babycommando--entity-db) | [Machine Learning](../topics/machine-learning.md#repo-babycommando--entity-db) | [Performance](../topics/performance.md#repo-babycommando--entity-db)
 - **Kind:** Library
 - **Best for:** Browser applications that need local vector storage without a server component; Prototypes or client-side search features that can use Transformers.js embeddings
 - **Languages:** JavaScript, WebAssembly
@@ -51,12 +55,14 @@ A JavaScript browser library for persisting vector embeddings in IndexedDB and s
   - Generates text embeddings with Transformers.js or accepts precomputed vectors
   - Queries dense vectors with cosine similarity
 
+<a id="repo-burntsushi--ripgrep"></a>
+
 ## [ripgrep](https://github.com/BurntSushi/ripgrep)
 
 A Rust command-line search tool that recursively searches files with regular expressions, observes ignore rules by default, and ships precompiled binaries for Windows, macOS, and Linux.
 
-- **Category:** [Developer Tools](../categories/developer-tools.md)
-- **Topics:** [CLI](../topics/cli.md) | [Git](../topics/git.md) | [Search](../topics/search.md) | [Performance](../topics/performance.md) | [Developer Productivity](../topics/developer-productivity.md)
+- **Category:** [Developer Tools](../categories/developer-tools.md#repo-burntsushi--ripgrep)
+- **Topics:** [CLI](../topics/cli.md#repo-burntsushi--ripgrep) | [Git](../topics/git.md#repo-burntsushi--ripgrep) | [Search](../topics/search.md#repo-burntsushi--ripgrep) | [Performance](../topics/performance.md#repo-burntsushi--ripgrep) | [Developer Productivity](../topics/developer-productivity.md#repo-burntsushi--ripgrep)
 - **Kind:** CLI
 - **Best for:** Searching source trees from the terminal; Code-oriented workflows that need gitignore-aware file filtering
 - **Languages:** Rust
@@ -70,12 +76,14 @@ A Rust command-line search tool that recursively searches files with regular exp
   - File-type filters and user-defined file-type rules
   - Unicode-aware search, match context, multiple patterns, and colorized output
 
+<a id="repo-chenglou--pretext"></a>
+
 ## [Pretext](https://github.com/chenglou/pretext)
 
 A JavaScript and TypeScript library for calculating multiline text layout without DOM measurement or reflow, using cached canvas-based measurement and Unicode-aware line breaking for height prediction and manual rendering in DOM, Canvas, SVG, or future server-side targets.
 
-- **Category:** [Frontend and Design](../categories/frontend-and-design.md)
-- **Topics:** [Frontend Development](../topics/frontend-development.md) | [Web](../topics/web.md) | [Performance](../topics/performance.md) | [Libraries](../topics/libraries.md)
+- **Category:** [Frontend and Design](../categories/frontend-and-design.md#repo-chenglou--pretext)
+- **Topics:** [Frontend Development](../topics/frontend-development.md#repo-chenglou--pretext) | [Web](../topics/web.md#repo-chenglou--pretext) | [Performance](../topics/performance.md#repo-chenglou--pretext) | [Libraries](../topics/libraries.md#repo-chenglou--pretext)
 - **Kind:** Library
 - **Best for:** Predicting text heights for virtualized or dynamically sized web interfaces; Building custom multiline layouts or renderers that need line-level geometry
 - **Languages:** TypeScript, JavaScript
@@ -89,12 +97,14 @@ A JavaScript and TypeScript library for calculating multiline text layout withou
   - Line-level ranges, statistics, and materialization for manual text rendering
   - Support for normal and pre-wrap whitespace, keep-all word breaking, and letter spacing
 
+<a id="repo-chromedevtools--chrome-devtools-mcp"></a>
+
 ## [Chrome DevTools for agents](https://github.com/ChromeDevTools/chrome-devtools-mcp)
 
 An MCP server and command-line tool that lets coding agents control and inspect a live Chrome browser for automation, debugging, and performance analysis.
 
-- **Category:** [Developer Tools](../categories/developer-tools.md)
-- **Topics:** [MCP](../topics/mcp.md) | [Coding Agents](../topics/coding-agents.md) | [Browser Automation](../topics/browser-automation.md) | [Debugging](../topics/debugging.md) | [Performance](../topics/performance.md) | [CLI](../topics/cli.md)
+- **Category:** [Developer Tools](../categories/developer-tools.md#repo-chromedevtools--chrome-devtools-mcp)
+- **Topics:** [MCP](../topics/mcp.md#repo-chromedevtools--chrome-devtools-mcp) | [Coding Agents](../topics/coding-agents.md#repo-chromedevtools--chrome-devtools-mcp) | [Browser Automation](../topics/browser-automation.md#repo-chromedevtools--chrome-devtools-mcp) | [Debugging](../topics/debugging.md#repo-chromedevtools--chrome-devtools-mcp) | [Performance](../topics/performance.md#repo-chromedevtools--chrome-devtools-mcp) | [CLI](../topics/cli.md#repo-chromedevtools--chrome-devtools-mcp)
 - **Kind:** Service
 - **Best for:** Coding-agent workflows that need browser inspection and debugging; Developers investigating browser network, console, and performance issues
 - **Languages:** TypeScript, JavaScript
@@ -108,12 +118,14 @@ An MCP server and command-line tool that lets coding agents control and inspect 
   - Automates Chrome actions with Puppeteer and waits for action results
   - Inspects network requests, console messages, and screenshots
 
+<a id="repo-coly010--ng-rspack-build"></a>
+
 ## [ng-rspack-build](https://github.com/Coly010/ng-rspack-build)
 
 A moved monorepo of Angular build packages that integrate Rsbuild and Rspack, including an Rsbuild plugin, Rspack builders, and Nx plugins.
 
-- **Category:** [Developer Tools](../categories/developer-tools.md)
-- **Topics:** [Frontend Development](../topics/frontend-development.md) | [Frameworks](../topics/frameworks.md) | [Libraries](../topics/libraries.md) | [Performance](../topics/performance.md)
+- **Category:** [Developer Tools](../categories/developer-tools.md#repo-coly010--ng-rspack-build)
+- **Topics:** [Frontend Development](../topics/frontend-development.md#repo-coly010--ng-rspack-build) | [Frameworks](../topics/frameworks.md#repo-coly010--ng-rspack-build) | [Libraries](../topics/libraries.md#repo-coly010--ng-rspack-build) | [Performance](../topics/performance.md#repo-coly010--ng-rspack-build)
 - **Kind:** Monorepo
 - **Best for:** Evaluating the historical Angular integration before following its successor repository; Angular and Nx projects experimenting with Rsbuild or Rspack build tooling
 - **Languages:** TypeScript, JavaScript
@@ -127,12 +139,14 @@ A moved monorepo of Angular build packages that integrate Rsbuild and Rspack, in
   - Rspack build and compiler packages for Angular applications
   - Nx generators and executors for Rspack-based Angular applications
 
+<a id="repo-honojs--hono"></a>
+
 ## [Hono](https://github.com/honojs/hono)
 
 A small TypeScript web framework built on Web Standards for defining HTTP applications and middleware that can run across edge, serverless, and JavaScript server runtimes including Cloudflare Workers, Deno, Bun, AWS Lambda, and Node.js.
 
-- **Category:** [Application Frameworks](../categories/application-frameworks.md)
-- **Topics:** [Web](../topics/web.md) | [Frameworks](../topics/frameworks.md) | [Backend Development](../topics/backend-development.md) | [API Development](../topics/api-development.md) | [Performance](../topics/performance.md) | [Libraries](../topics/libraries.md)
+- **Category:** [Application Frameworks](../categories/application-frameworks.md#repo-honojs--hono)
+- **Topics:** [Web](../topics/web.md#repo-honojs--hono) | [Frameworks](../topics/frameworks.md#repo-honojs--hono) | [Backend Development](../topics/backend-development.md#repo-honojs--hono) | [API Development](../topics/api-development.md#repo-honojs--hono) | [Performance](../topics/performance.md#repo-honojs--hono) | [Libraries](../topics/libraries.md#repo-honojs--hono)
 - **Kind:** Framework
 - **Best for:** TypeScript teams targeting more than one JavaScript or edge runtime; Small HTTP APIs, web applications, and middleware-driven services
 - **Languages:** TypeScript
@@ -146,12 +160,14 @@ A small TypeScript web framework built on Web Standards for defining HTTP applic
   - Built-in, custom, and third-party middleware support
   - Runtime adapters for edge platforms, serverless functions, and Node.js
 
+<a id="repo-lynx-family--lynx"></a>
+
 ## [Lynx](https://github.com/lynx-family/lynx)
 
 The core engine of an open-source family for creating native mobile and web user interfaces from one codebase using web-oriented CSS and React knowledge.
 
-- **Category:** [Application Frameworks](../categories/application-frameworks.md)
-- **Topics:** [Mobile Development](../topics/mobile-development.md) | [Web](../topics/web.md) | [Frontend Development](../topics/frontend-development.md) | [Frameworks](../topics/frameworks.md) | [Performance](../topics/performance.md) | [Open Source](../topics/open-source.md)
+- **Category:** [Application Frameworks](../categories/application-frameworks.md#repo-lynx-family--lynx)
+- **Topics:** [Mobile Development](../topics/mobile-development.md#repo-lynx-family--lynx) | [Web](../topics/web.md#repo-lynx-family--lynx) | [Frontend Development](../topics/frontend-development.md#repo-lynx-family--lynx) | [Frameworks](../topics/frameworks.md#repo-lynx-family--lynx) | [Performance](../topics/performance.md#repo-lynx-family--lynx) | [Open Source](../topics/open-source.md#repo-lynx-family--lynx)
 - **Kind:** Framework
 - **Best for:** Web developers building Android, iOS, and web user interfaces; Teams that need a native mobile runtime with web-oriented authoring
 - **Languages:** C++, TypeScript, JavaScript
@@ -165,12 +181,14 @@ The core engine of an open-source family for creating native mobile and web user
   - Custom renderer for consistent mobile and desktop output
   - CSS- and React-oriented development model
 
+<a id="repo-oxc-project--oxc"></a>
+
 ## [Oxc](https://github.com/oxc-project/oxc)
 
 A Rust workspace for high-performance JavaScript and TypeScript tooling. It provides parser, transformer, minifier, resolver, semantic-analysis, and linting components, alongside the Oxlint linter and Oxfmt formatter command-line applications.
 
-- **Category:** [Developer Tools](../categories/developer-tools.md)
-- **Topics:** [CLI](../topics/cli.md) | [Performance](../topics/performance.md) | [Frontend Development](../topics/frontend-development.md) | [Developer Productivity](../topics/developer-productivity.md) | [Libraries](../topics/libraries.md) | [Open Source](../topics/open-source.md)
+- **Category:** [Developer Tools](../categories/developer-tools.md#repo-oxc-project--oxc)
+- **Topics:** [CLI](../topics/cli.md#repo-oxc-project--oxc) | [Performance](../topics/performance.md#repo-oxc-project--oxc) | [Frontend Development](../topics/frontend-development.md#repo-oxc-project--oxc) | [Developer Productivity](../topics/developer-productivity.md#repo-oxc-project--oxc) | [Libraries](../topics/libraries.md#repo-oxc-project--oxc) | [Open Source](../topics/open-source.md#repo-oxc-project--oxc)
 - **Kind:** Monorepo
 - **Best for:** Developers who want fast linting or formatting for JavaScript and TypeScript codebases; Tool authors building on Rust components for parsing, transforming, minifying, or resolving modules
 - **Languages:** Rust, JavaScript, TypeScript
@@ -184,12 +202,14 @@ A Rust workspace for high-performance JavaScript and TypeScript tooling. It prov
   - Exposes parser, transformer, minifier, and resolver capabilities for JavaScript and TypeScript
   - Organizes reusable Rust crates with Node-API bindings and a language-server component
 
+<a id="repo-psmux--psnet"></a>
+
 ## [PSNET](https://github.com/psmux/psnet)
 
 A native Rust TUI network monitor for Windows that combines connection and bandwidth views, listening-port inspection, packet details, GeoIP maps, LAN discovery, topology, alerts, and firewall controls in a standalone binary.
 
-- **Category:** [Systems and Infrastructure](../categories/systems-and-infrastructure.md)
-- **Topics:** [TUI](../topics/tui.md) | [Terminal](../topics/terminal.md) | [Observability](../topics/observability.md) | [Security](../topics/security.md) | [Visualization](../topics/visualization.md) | [Local First](../topics/local-first.md) | [Performance](../topics/performance.md)
+- **Category:** [Systems and Infrastructure](../categories/systems-and-infrastructure.md#repo-psmux--psnet)
+- **Topics:** [TUI](../topics/tui.md#repo-psmux--psnet) | [Terminal](../topics/terminal.md#repo-psmux--psnet) | [Observability](../topics/observability.md#repo-psmux--psnet) | [Security](../topics/security.md#repo-psmux--psnet) | [Visualization](../topics/visualization.md#repo-psmux--psnet) | [Local First](../topics/local-first.md#repo-psmux--psnet) | [Performance](../topics/performance.md#repo-psmux--psnet)
 - **Kind:** Application
 - **Best for:** Windows users wanting a terminal-first overview of connections, services, devices, and traffic; Developers diagnosing local ports, adapters, process traffic, or network exposure without a full GUI suite
 - **Languages:** Rust
@@ -203,12 +223,14 @@ A native Rust TUI network monitor for Windows that combines connection and bandw
   - Resolves DNS names and fingerprints listening services and web technologies
   - Embeds GeoIP, server fingerprints, web signatures, and OUI vendor data
 
+<a id="repo-thedaviddias--front-end-checklist"></a>
+
 ## [Front-End Checklist](https://github.com/thedaviddias/Front-End-Checklist)
 
 A front-end quality system containing 385 prioritized rules across eleven categories, delivered as a browsable website, a README checklist, reusable skills, and hosted or local MCP tooling for review and audit workflows.
 
-- **Category:** [Testing and Quality](../categories/testing-and-quality.md)
-- **Topics:** [Web](../topics/web.md) | [Frontend Development](../topics/frontend-development.md) | [Accessibility](../topics/accessibility.md) | [Security](../topics/security.md) | [Testing](../topics/testing.md) | [Performance](../topics/performance.md) | [MCP](../topics/mcp.md) | [AI Agents](../topics/ai-agents.md) | [Documentation](../topics/documentation.md)
+- **Category:** [Testing and Quality](../categories/testing-and-quality.md#repo-thedaviddias--front-end-checklist)
+- **Topics:** [Web](../topics/web.md#repo-thedaviddias--front-end-checklist) | [Frontend Development](../topics/frontend-development.md#repo-thedaviddias--front-end-checklist) | [Accessibility](../topics/accessibility.md#repo-thedaviddias--front-end-checklist) | [Security](../topics/security.md#repo-thedaviddias--front-end-checklist) | [Testing](../topics/testing.md#repo-thedaviddias--front-end-checklist) | [Performance](../topics/performance.md#repo-thedaviddias--front-end-checklist) | [MCP](../topics/mcp.md#repo-thedaviddias--front-end-checklist) | [AI Agents](../topics/ai-agents.md#repo-thedaviddias--front-end-checklist) | [Documentation](../topics/documentation.md#repo-thedaviddias--front-end-checklist)
 - **Kind:** Monorepo
 - **Best for:** Teams reviewing web applications for accessibility, performance, security, and SEO concerns; MCP-capable agents that need a structured front-end rule corpus and remediation guidance
 - **Languages:** TypeScript, MDX

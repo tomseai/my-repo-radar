@@ -30,12 +30,14 @@
 - [Web Scraping](../topics/web-scraping.md) (1)
 - [Web Search](../topics/web-search.md) (1)
 
+<a id="repo-firecrawl--firecrawl"></a>
+
 ## [firecrawl](https://github.com/firecrawl/firecrawl)
 
 An API and SDK platform for web search, scraping, crawling, and browser interaction that returns AI-ready Markdown, structured data, and other content.
 
-- **Category:** [Backend and APIs](../categories/backend-and-apis.md)
-- **Topics:** [AI Agents](../topics/ai-agents.md) | [LLMs](../topics/llms.md) | [Web Search](../topics/web-search.md) | [Web Scraping](../topics/web-scraping.md) | [Browser Automation](../topics/browser-automation.md) | [Document Processing](../topics/document-processing.md) | [Self Hosted](../topics/self-hosted.md) | [Open Source](../topics/open-source.md)
+- **Category:** [Backend and APIs](../categories/backend-and-apis.md#repo-firecrawl--firecrawl)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-firecrawl--firecrawl) | [LLMs](../topics/llms.md#repo-firecrawl--firecrawl) | [Web Search](../topics/web-search.md#repo-firecrawl--firecrawl) | [Web Scraping](../topics/web-scraping.md#repo-firecrawl--firecrawl) | [Browser Automation](../topics/browser-automation.md#repo-firecrawl--firecrawl) | [Document Processing](../topics/document-processing.md#repo-firecrawl--firecrawl) | [Self Hosted](../topics/self-hosted.md#repo-firecrawl--firecrawl) | [Open Source](../topics/open-source.md#repo-firecrawl--firecrawl)
 - **Kind:** Service
 - **Best for:** Developers supplying current web context to AI applications and agents; Teams that need search, extraction, crawling, and page interaction behind one API
 - **Languages:** TypeScript, Go, Python, Rust
@@ -49,12 +51,14 @@ An API and SDK platform for web search, scraping, crawling, and browser interact
   - Scrape URLs into Markdown, HTML, screenshots, or structured JSON
   - Crawl a site, map its URLs, or batch-scrape many pages asynchronously
 
+<a id="repo-getpaykit--paykit"></a>
+
 ## [PayKit](https://github.com/getpaykit/paykit)
 
 An embedded TypeScript billing framework that keeps billing state in an application's database while managing products, subscriptions, entitlements, usage billing, and Stripe webhooks.
 
-- **Category:** [Backend and APIs](../categories/backend-and-apis.md)
-- **Topics:** [Payments](../topics/payments.md) | [Backend Development](../topics/backend-development.md) | [Libraries](../topics/libraries.md) | [Developer Productivity](../topics/developer-productivity.md) | [Open Source](../topics/open-source.md)
+- **Category:** [Backend and APIs](../categories/backend-and-apis.md#repo-getpaykit--paykit)
+- **Topics:** [Payments](../topics/payments.md#repo-getpaykit--paykit) | [Backend Development](../topics/backend-development.md#repo-getpaykit--paykit) | [Libraries](../topics/libraries.md#repo-getpaykit--paykit) | [Developer Productivity](../topics/developer-productivity.md#repo-getpaykit--paykit) | [Open Source](../topics/open-source.md#repo-getpaykit--paykit)
 - **Kind:** Framework
 - **Best for:** TypeScript applications that want billing logic and state inside their own backend; SaaS products defining plans and feature access as code
 - **Languages:** TypeScript
@@ -68,12 +72,14 @@ An embedded TypeScript billing framework that keeps billing state in an applicat
   - Manage subscriptions and feature entitlements through one application API
   - Track usage and monthly limits for metered features
 
+<a id="repo-pipedreamhq--pipedream"></a>
+
 ## [pipedream](https://github.com/PipedreamHQ/pipedream)
 
 A hosted developer integration platform for building event-driven workflows with pre-built app components and custom Node.js, Python, Go, or Bash code; this repository contains the components, documentation, roadmap, and related source.
 
-- **Category:** [Backend and APIs](../categories/backend-and-apis.md)
-- **Topics:** [Automation](../topics/automation.md) | [API Development](../topics/api-development.md) | [Cloud](../topics/cloud.md) | [Developer Productivity](../topics/developer-productivity.md)
+- **Category:** [Backend and APIs](../categories/backend-and-apis.md#repo-pipedreamhq--pipedream)
+- **Topics:** [Automation](../topics/automation.md#repo-pipedreamhq--pipedream) | [API Development](../topics/api-development.md#repo-pipedreamhq--pipedream) | [Cloud](../topics/cloud.md#repo-pipedreamhq--pipedream) | [Developer Productivity](../topics/developer-productivity.md#repo-pipedreamhq--pipedream)
 - **Kind:** Service
 - **Best for:** Automating a workflow in response to HTTP, schedule, or connected-application events; Combining reusable API-integration steps with custom code for application-specific logic
 - **Languages:** JavaScript, TypeScript, Python, Go, Bash
@@ -87,12 +93,14 @@ A hosted developer integration platform for building event-driven workflows with
   - Event sources that emit data from connected third-party services and can trigger workflows
   - Reusable actions for API integrations, including community-publishable custom actions
 
+<a id="repo-router-for-me--cliproxyapi"></a>
+
 ## [CLIProxyAPI](https://github.com/router-for-me/CLIProxyAPI)
 
 A Go proxy service that presents OpenAI-, Gemini-, Claude-, Codex-, and Grok-compatible APIs for supported CLI-backed model accounts, enabling compatible clients and SDKs to call those providers through one configurable local service.
 
-- **Category:** [Backend and APIs](../categories/backend-and-apis.md)
-- **Topics:** [LLMs](../topics/llms.md) | [LLM Gateways](../topics/llm-gateways.md) | [Multi Provider](../topics/multi-provider.md) | [API Development](../topics/api-development.md) | [Authentication](../topics/authentication.md) | [CLI](../topics/cli.md) | [Self Hosted](../topics/self-hosted.md)
+- **Category:** [Backend and APIs](../categories/backend-and-apis.md#repo-router-for-me--cliproxyapi)
+- **Topics:** [LLMs](../topics/llms.md#repo-router-for-me--cliproxyapi) | [LLM Gateways](../topics/llm-gateways.md#repo-router-for-me--cliproxyapi) | [Multi Provider](../topics/multi-provider.md#repo-router-for-me--cliproxyapi) | [API Development](../topics/api-development.md#repo-router-for-me--cliproxyapi) | [Authentication](../topics/authentication.md#repo-router-for-me--cliproxyapi) | [CLI](../topics/cli.md#repo-router-for-me--cliproxyapi) | [Self Hosted](../topics/self-hosted.md#repo-router-for-me--cliproxyapi)
 - **Kind:** Service
 - **Best for:** Developers who need one compatible API endpoint for supported CLI-account providers; Self-hosters who want to rotate multiple provider accounts and connect compatible clients or SDKs
 - **Languages:** Go
@@ -106,12 +114,14 @@ A Go proxy service that presents OpenAI-, Gemini-, Claude-, Codex-, and Grok-com
   - Supports OAuth login flows for OpenAI Codex, Claude Code, and Grok Build, plus Gemini and API-key paths
   - Handles streaming, non-streaming, and supported WebSocket responses, function calling, tools, and image input
 
+<a id="repo-rynfar--meridian"></a>
+
 ## [Meridian](https://github.com/rynfar/meridian)
 
 A local HTTP proxy that presents the Claude Agent SDK through Anthropic and OpenAI-compatible APIs, allowing compatible coding tools to use Claude while the SDK manages authentication, rate limits, caching, and context.
 
-- **Category:** [Backend and APIs](../categories/backend-and-apis.md)
-- **Topics:** [LLMs](../topics/llms.md) | [LLM Gateways](../topics/llm-gateways.md) | [API Development](../topics/api-development.md) | [CLI](../topics/cli.md) | [Local First](../topics/local-first.md) | [Observability](../topics/observability.md) | [Self Hosted](../topics/self-hosted.md)
+- **Category:** [Backend and APIs](../categories/backend-and-apis.md#repo-rynfar--meridian)
+- **Topics:** [LLMs](../topics/llms.md#repo-rynfar--meridian) | [LLM Gateways](../topics/llm-gateways.md#repo-rynfar--meridian) | [API Development](../topics/api-development.md#repo-rynfar--meridian) | [CLI](../topics/cli.md#repo-rynfar--meridian) | [Local First](../topics/local-first.md#repo-rynfar--meridian) | [Observability](../topics/observability.md#repo-rynfar--meridian) | [Self Hosted](../topics/self-hosted.md#repo-rynfar--meridian)
 - **Kind:** Service
 - **Best for:** Connecting Anthropic- or OpenAI-compatible developer tools to the Claude Agent SDK; Running local, concurrent Claude-backed coding-agent sessions through a common endpoint
 - **Languages:** TypeScript
@@ -125,12 +135,14 @@ A local HTTP proxy that presents the Claude Agent SDK through Anthropic and Open
   - Streaming, session persistence and resume, concurrent sessions, and subagent model selection
   - Adapter instances and optional passthrough tool execution for connected clients
 
+<a id="repo-vendurehq--vendure"></a>
+
 ## [vendure](https://github.com/vendurehq/vendure)
 
 A plugin-first, headless commerce platform with a TypeScript GraphQL backend, React admin dashboard, and extensible business logic.
 
-- **Category:** [Backend and APIs](../categories/backend-and-apis.md)
-- **Topics:** [Ecommerce](../topics/ecommerce.md) | [Payments](../topics/payments.md) | [Open Source](../topics/open-source.md) | [Backend Development](../topics/backend-development.md) | [API Development](../topics/api-development.md) | [Frameworks](../topics/frameworks.md)
+- **Category:** [Backend and APIs](../categories/backend-and-apis.md#repo-vendurehq--vendure)
+- **Topics:** [Ecommerce](../topics/ecommerce.md#repo-vendurehq--vendure) | [Payments](../topics/payments.md#repo-vendurehq--vendure) | [Open Source](../topics/open-source.md#repo-vendurehq--vendure) | [Backend Development](../topics/backend-development.md#repo-vendurehq--vendure) | [API Development](../topics/api-development.md#repo-vendurehq--vendure) | [Frameworks](../topics/frameworks.md#repo-vendurehq--vendure)
 - **Kind:** Monorepo
 - **Best for:** Teams building configurable D2C, B2B, marketplace, or omnichannel commerce services.; Projects needing catalogs, orders, customers, promotions, tax, shipping, payments, and stock on one backend.
 - **Languages:** TypeScript

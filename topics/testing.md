@@ -13,12 +13,14 @@
 - [Systems and Infrastructure](../categories/systems-and-infrastructure.md) (1)
 - [Testing and Quality](../categories/testing-and-quality.md) (2)
 
+<a id="repo-addyosmani--agent-skills"></a>
+
 ## [Agent Skills](https://github.com/addyosmani/agent-skills)
 
 An MIT-licensed pack of 24 structured engineering-workflow skills, agent personas, checklists, and lifecycle commands for AI coding agents.
 
-- **Category:** [AI and Automation](../categories/ai-and-automation.md)
-- **Topics:** [AI Agents](../topics/ai-agents.md) | [Coding Agents](../topics/coding-agents.md) | [Agent Skills](../topics/agent-skills.md) | [Agent Governance](../topics/agent-governance.md) | [Spec Driven Development](../topics/spec-driven-development.md) | [Testing](../topics/testing.md) | [Code Review](../topics/code-review.md) | [Developer Productivity](../topics/developer-productivity.md)
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-addyosmani--agent-skills)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-addyosmani--agent-skills) | [Coding Agents](../topics/coding-agents.md#repo-addyosmani--agent-skills) | [Agent Skills](../topics/agent-skills.md#repo-addyosmani--agent-skills) | [Agent Governance](../topics/agent-governance.md#repo-addyosmani--agent-skills) | [Spec Driven Development](../topics/spec-driven-development.md#repo-addyosmani--agent-skills) | [Testing](../topics/testing.md#repo-addyosmani--agent-skills) | [Code Review](../topics/code-review.md#repo-addyosmani--agent-skills) | [Developer Productivity](../topics/developer-productivity.md#repo-addyosmani--agent-skills)
 - **Kind:** Curated List
 - **Best for:** Adding reusable, verification-oriented development workflows to compatible coding agents; Selecting focused skills for specification, planning, implementation, testing, review, and shipping
 - **Languages:** JavaScript
@@ -32,12 +34,14 @@ An MIT-licensed pack of 24 structured engineering-workflow skills, agent persona
   - Eight lifecycle slash commands that activate related skills, including spec, plan, build, test, review, and ship
   - Four specialist review personas for code review, testing, security, and web performance
 
+<a id="repo-addyosmani--web-quality-skills"></a>
+
 ## [Web Quality Skills](https://github.com/addyosmani/web-quality-skills)
 
 A stack-agnostic collection of six agent skills for reviewing and improving web performance, Core Web Vitals, accessibility, SEO, and best practices.
 
-- **Category:** [Testing and Quality](../categories/testing-and-quality.md)
-- **Topics:** [AI Agents](../topics/ai-agents.md) | [Agent Skills](../topics/agent-skills.md) | [Automation](../topics/automation.md) | [Testing](../topics/testing.md) | [Performance](../topics/performance.md) | [Accessibility](../topics/accessibility.md) | [Web](../topics/web.md)
+- **Category:** [Testing and Quality](../categories/testing-and-quality.md#repo-addyosmani--web-quality-skills)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-addyosmani--web-quality-skills) | [Agent Skills](../topics/agent-skills.md#repo-addyosmani--web-quality-skills) | [Automation](../topics/automation.md#repo-addyosmani--web-quality-skills) | [Testing](../topics/testing.md#repo-addyosmani--web-quality-skills) | [Performance](../topics/performance.md#repo-addyosmani--web-quality-skills) | [Accessibility](../topics/accessibility.md#repo-addyosmani--web-quality-skills) | [Web](../topics/web.md#repo-addyosmani--web-quality-skills)
 - **Kind:** Plugin
 - **Best for:** Developers asking coding agents for focused web-quality reviews or improvements; Teams that want reusable Lighthouse-, Core Web Vitals-, and WCAG-informed guidance
 - **Languages:** Shell
@@ -51,12 +55,14 @@ A stack-agnostic collection of six agent skills for reviewing and improving web 
   - Dedicated performance guidance covering rendering, code splitting, images, fonts, caching, and server response
   - Core Web Vitals guidance for LCP, INP, and CLS with documented target thresholds
 
+<a id="repo-adonisjs--core"></a>
+
 ## [AdonisJS Core](https://github.com/adonisjs/core)
 
 The TypeScript-first, full-stack MVC framework core for Node.js web applications, API servers, and microservices.
 
-- **Category:** [Application Frameworks](../categories/application-frameworks.md)
-- **Topics:** [Frameworks](../topics/frameworks.md) | [Web](../topics/web.md) | [Backend Development](../topics/backend-development.md) | [API Development](../topics/api-development.md) | [CLI](../topics/cli.md) | [Testing](../topics/testing.md)
+- **Category:** [Application Frameworks](../categories/application-frameworks.md#repo-adonisjs--core)
+- **Topics:** [Frameworks](../topics/frameworks.md#repo-adonisjs--core) | [Web](../topics/web.md#repo-adonisjs--core) | [Backend Development](../topics/backend-development.md#repo-adonisjs--core) | [API Development](../topics/api-development.md#repo-adonisjs--core) | [CLI](../topics/cli.md#repo-adonisjs--core) | [Testing](../topics/testing.md#repo-adonisjs--core)
 - **Kind:** Framework
 - **Best for:** Teams building server-rendered web applications or API backends with AdonisJS; Node.js projects that benefit from a cohesive framework and official package ecosystem
 - **Languages:** TypeScript, JavaScript
@@ -70,12 +76,14 @@ The TypeScript-first, full-stack MVC framework core for Node.js web applications
   - HTTP server, body parsing, configuration, environment, event, logging, and health modules
   - Command toolkit exposed through the adonis-kit CLI
 
+<a id="repo-andymik90--aperant"></a>
+
 ## [Aperant](https://github.com/AndyMik90/Aperant)
 
 An Electron desktop application for planning, executing, and validating parallel AI coding tasks in isolated Git worktrees, with a visual task board, agent terminals, review loops, and project-management integrations.
 
-- **Category:** [AI and Automation](../categories/ai-and-automation.md)
-- **Topics:** [AI Agents](../topics/ai-agents.md) | [Coding Agents](../topics/coding-agents.md) | [Multi Agent](../topics/multi-agent.md) | [Parallel Agents](../topics/parallel-agents.md) | [Worktrees](../topics/worktrees.md) | [Git](../topics/git.md) | [Desktop App](../topics/desktop-app.md) | [Task Planning](../topics/task-planning.md) | [Testing](../topics/testing.md)
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-andymik90--aperant)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-andymik90--aperant) | [Coding Agents](../topics/coding-agents.md#repo-andymik90--aperant) | [Multi Agent](../topics/multi-agent.md#repo-andymik90--aperant) | [Parallel Agents](../topics/parallel-agents.md#repo-andymik90--aperant) | [Worktrees](../topics/worktrees.md#repo-andymik90--aperant) | [Git](../topics/git.md#repo-andymik90--aperant) | [Desktop App](../topics/desktop-app.md#repo-andymik90--aperant) | [Task Planning](../topics/task-planning.md#repo-andymik90--aperant) | [Testing](../topics/testing.md#repo-andymik90--aperant)
 - **Kind:** Application
 - **Best for:** Claude Code users running parallel implementation tasks in Git repositories; Developers who prefer a visual desktop workflow for autonomous coding sessions
 - **Languages:** TypeScript
@@ -89,12 +97,14 @@ An Electron desktop application for planning, executing, and validating parallel
   - Up to twelve parallel agent terminals and Git-worktree isolation
   - Built-in quality assurance and AI-assisted merge-conflict resolution
 
+<a id="repo-cloakhq--cloakbrowser"></a>
+
 ## [CloakBrowser](https://github.com/CloakHQ/CloakBrowser)
 
 Python and JavaScript wrappers that launch a custom Chromium binary through Playwright or Puppeteer-compatible APIs, with fingerprint-oriented browser modifications and optional humanized input behavior.
 
-- **Category:** [Developer Tools](../categories/developer-tools.md)
-- **Topics:** [Browser Automation](../topics/browser-automation.md) | [Web Scraping](../topics/web-scraping.md) | [CLI](../topics/cli.md) | [Testing](../topics/testing.md) | [Containers](../topics/containers.md)
+- **Category:** [Developer Tools](../categories/developer-tools.md#repo-cloakhq--cloakbrowser)
+- **Topics:** [Browser Automation](../topics/browser-automation.md#repo-cloakhq--cloakbrowser) | [Web Scraping](../topics/web-scraping.md#repo-cloakhq--cloakbrowser) | [CLI](../topics/cli.md#repo-cloakhq--cloakbrowser) | [Testing](../topics/testing.md#repo-cloakhq--cloakbrowser) | [Containers](../topics/containers.md#repo-cloakhq--cloakbrowser)
 - **Kind:** Library
 - **Best for:** Developers adapting existing Playwright or Puppeteer automation; Browser-automation workflows that need custom Chromium builds and proxy-aware settings
 - **Languages:** Python, TypeScript, C++
@@ -108,12 +118,14 @@ Python and JavaScript wrappers that launch a custom Chromium binary through Play
   - Downloads and caches a platform-specific custom Chromium binary on first launch
   - Supports proxy, timezone, locale, persistent-profile, and extension-path options
 
+<a id="repo-coleam00--context-engineering-intro"></a>
+
 ## [Context Engineering Template](https://github.com/coleam00/context-engineering-intro)
 
 A Claude Code-centered starter template for supplying AI coding assistants with project rules, examples, feature requests, and Product Requirements Prompts (PRPs) that guide planned and validated implementation.
 
-- **Category:** [AI and Automation](../categories/ai-and-automation.md)
-- **Topics:** [AI Agents](../topics/ai-agents.md) | [Coding Agents](../topics/coding-agents.md) | [Context Engineering](../topics/context-engineering.md) | [Prompt Engineering](../topics/prompt-engineering.md) | [Task Planning](../topics/task-planning.md) | [Testing](../topics/testing.md) | [Documentation](../topics/documentation.md)
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-coleam00--context-engineering-intro)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-coleam00--context-engineering-intro) | [Coding Agents](../topics/coding-agents.md#repo-coleam00--context-engineering-intro) | [Context Engineering](../topics/context-engineering.md#repo-coleam00--context-engineering-intro) | [Prompt Engineering](../topics/prompt-engineering.md#repo-coleam00--context-engineering-intro) | [Task Planning](../topics/task-planning.md#repo-coleam00--context-engineering-intro) | [Testing](../topics/testing.md#repo-coleam00--context-engineering-intro) | [Documentation](../topics/documentation.md#repo-coleam00--context-engineering-intro)
 - **Kind:** Starter Template
 - **Best for:** Teams establishing reusable project context for AI-assisted feature work; Claude Code users who want a repeatable feature-request-to-implementation workflow
 - **Languages:** Markdown, Python, TypeScript
@@ -127,12 +139,14 @@ A Claude Code-centered starter template for supplying AI coding assistants with 
   - INITIAL.md and example files for structured feature requests, examples, documentation, and constraints
   - PRP templates and a multi-agent PRP example for implementation blueprints
 
+<a id="repo-dicklesworthstone--asupersync"></a>
+
 ## [Asupersync](https://github.com/Dicklesworthstone/asupersync)
 
 An experimental Rust async runtime that uses region-owned tasks, explicit cancellation protocols, capability-gated effects, and deterministic replay testing.
 
-- **Category:** [Systems and Infrastructure](../categories/systems-and-infrastructure.md)
-- **Topics:** [Libraries](../topics/libraries.md) | [Testing](../topics/testing.md) | [Observability](../topics/observability.md) | [Security](../topics/security.md)
+- **Category:** [Systems and Infrastructure](../categories/systems-and-infrastructure.md#repo-dicklesworthstone--asupersync)
+- **Topics:** [Libraries](../topics/libraries.md#repo-dicklesworthstone--asupersync) | [Testing](../topics/testing.md#repo-dicklesworthstone--asupersync) | [Observability](../topics/observability.md#repo-dicklesworthstone--asupersync) | [Security](../topics/security.md#repo-dicklesworthstone--asupersync)
 - **Kind:** Framework
 - **Best for:** Experimental Rust systems that can validate selected adapters and cancellation boundaries; Teams investigating structured shutdown and reproducible concurrency failures
 - **Languages:** Rust, JavaScript, TypeScript
@@ -146,12 +160,14 @@ An experimental Rust async runtime that uses region-owned tasks, explicit cancel
   - Request, drain, and finalize cancellation protocol for covered primitives
   - Capability-gated runtime effects and obligation tracking
 
+<a id="repo-effect-ts--effect"></a>
+
 ## [Effect](https://github.com/Effect-TS/effect)
 
 A TypeScript library and package monorepo for building type-safe, production-grade applications, centered on the Effect package and companion packages for platform, testing, observability, SQL, AI, and UI integrations.
 
-- **Category:** [Application Frameworks](../categories/application-frameworks.md)
-- **Topics:** [Frameworks](../topics/frameworks.md) | [Libraries](../topics/libraries.md) | [Testing](../topics/testing.md) | [Observability](../topics/observability.md)
+- **Category:** [Application Frameworks](../categories/application-frameworks.md#repo-effect-ts--effect)
+- **Topics:** [Frameworks](../topics/frameworks.md#repo-effect-ts--effect) | [Libraries](../topics/libraries.md#repo-effect-ts--effect) | [Testing](../topics/testing.md#repo-effect-ts--effect) | [Observability](../topics/observability.md#repo-effect-ts--effect)
 - **Kind:** Library
 - **Best for:** TypeScript applications that need a shared foundation for typed application concerns; Teams adopting the Effect package ecosystem across Node.js, Bun, or browser targets
 - **Languages:** TypeScript
@@ -165,12 +181,14 @@ A TypeScript library and package monorepo for building type-safe, production-gra
   - A dedicated testing module is exported from the primary package
   - Unstable primary-package exports cover AI, CLI, cluster, HTTP, observability, persistence, RPC, schema, SQL, workflow, and workers
 
+<a id="repo-everyinc--compound-engineering-plugin"></a>
+
 ## [Compound Engineering](https://github.com/EveryInc/compound-engineering-plugin)
 
 A cross-harness plugin of coding-agent skills that structures engineering work around requirements, implementation planning, execution, review, and reusable solution notes.
 
-- **Category:** [AI and Automation](../categories/ai-and-automation.md)
-- **Topics:** [Coding Agents](../topics/coding-agents.md) | [Agent Skills](../topics/agent-skills.md) | [Task Planning](../topics/task-planning.md) | [Code Review](../topics/code-review.md) | [Worktrees](../topics/worktrees.md) | [Git](../topics/git.md) | [Pull Requests](../topics/pull-requests.md) | [Testing](../topics/testing.md) | [Developer Productivity](../topics/developer-productivity.md)
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-everyinc--compound-engineering-plugin)
+- **Topics:** [Coding Agents](../topics/coding-agents.md#repo-everyinc--compound-engineering-plugin) | [Agent Skills](../topics/agent-skills.md#repo-everyinc--compound-engineering-plugin) | [Task Planning](../topics/task-planning.md#repo-everyinc--compound-engineering-plugin) | [Code Review](../topics/code-review.md#repo-everyinc--compound-engineering-plugin) | [Worktrees](../topics/worktrees.md#repo-everyinc--compound-engineering-plugin) | [Git](../topics/git.md#repo-everyinc--compound-engineering-plugin) | [Pull Requests](../topics/pull-requests.md#repo-everyinc--compound-engineering-plugin) | [Testing](../topics/testing.md#repo-everyinc--compound-engineering-plugin) | [Developer Productivity](../topics/developer-productivity.md#repo-everyinc--compound-engineering-plugin)
 - **Kind:** Plugin
 - **Best for:** Teams that want repeatable, agent-assisted feature and bug-fix workflows; Coding-agent users who want repository learnings to inform later work
 - **Languages:** TypeScript
@@ -184,12 +202,14 @@ A cross-harness plugin of coding-agent skills that structures engineering work a
   - Interactive requirements and implementation-plan skills
   - Worktree-based implementation and task tracking
 
+<a id="repo-garrytan--gstack"></a>
+
 ## [gstack](https://github.com/garrytan/gstack)
 
 An MIT-licensed collection of skills and command-line tools that adds structured planning, review, QA, browser, security, and release workflows to supported AI coding agents.
 
-- **Category:** [AI and Automation](../categories/ai-and-automation.md)
-- **Topics:** [Coding Agents](../topics/coding-agents.md) | [Agent Skills](../topics/agent-skills.md) | [Code Review](../topics/code-review.md) | [Browser Automation](../topics/browser-automation.md) | [Testing](../topics/testing.md) | [Security](../topics/security.md) | [Developer Productivity](../topics/developer-productivity.md)
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-garrytan--gstack)
+- **Topics:** [Coding Agents](../topics/coding-agents.md#repo-garrytan--gstack) | [Agent Skills](../topics/agent-skills.md#repo-garrytan--gstack) | [Code Review](../topics/code-review.md#repo-garrytan--gstack) | [Browser Automation](../topics/browser-automation.md#repo-garrytan--gstack) | [Testing](../topics/testing.md#repo-garrytan--gstack) | [Security](../topics/security.md#repo-garrytan--gstack) | [Developer Productivity](../topics/developer-productivity.md#repo-garrytan--gstack)
 - **Kind:** Plugin
 - **Best for:** Developers who want opinionated software-delivery workflows in an AI coding agent; Technical leads who want repeatable review, QA, security, and release steps
 - **Languages:** TypeScript, Markdown
@@ -203,12 +223,14 @@ An MIT-licensed collection of skills and command-line tools that adds structured
   - An automated planning pipeline that chains product, design, engineering, and developer-experience review
   - Real Chromium browser control with screenshots and authenticated-session cookie import
 
+<a id="repo-github--copilot-cli-for-beginners"></a>
+
 ## [GitHub Copilot CLI for Beginners](https://github.com/github/copilot-cli-for-beginners)
 
 A hands-on beginner course for GitHub Copilot CLI that uses a Python book collection application to teach terminal-based AI assistance, code review, test generation, debugging, custom agents, skills, and MCP servers.
 
-- **Category:** [Documentation and Learning](../categories/documentation-and-learning.md)
-- **Topics:** [AI Agents](../topics/ai-agents.md) | [Coding Agents](../topics/coding-agents.md) | [CLI](../topics/cli.md) | [Terminal](../topics/terminal.md) | [Code Generation](../topics/code-generation.md) | [Code Review](../topics/code-review.md) | [Testing](../topics/testing.md) | [Debugging](../topics/debugging.md) | [Automation](../topics/automation.md) | [Agent Skills](../topics/agent-skills.md) | [MCP](../topics/mcp.md) | [Tutorials](../topics/tutorials.md) | [Developer Productivity](../topics/developer-productivity.md)
+- **Category:** [Documentation and Learning](../categories/documentation-and-learning.md#repo-github--copilot-cli-for-beginners)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-github--copilot-cli-for-beginners) | [Coding Agents](../topics/coding-agents.md#repo-github--copilot-cli-for-beginners) | [CLI](../topics/cli.md#repo-github--copilot-cli-for-beginners) | [Terminal](../topics/terminal.md#repo-github--copilot-cli-for-beginners) | [Code Generation](../topics/code-generation.md#repo-github--copilot-cli-for-beginners) | [Code Review](../topics/code-review.md#repo-github--copilot-cli-for-beginners) | [Testing](../topics/testing.md#repo-github--copilot-cli-for-beginners) | [Debugging](../topics/debugging.md#repo-github--copilot-cli-for-beginners) | [Automation](../topics/automation.md#repo-github--copilot-cli-for-beginners) | [Agent Skills](../topics/agent-skills.md#repo-github--copilot-cli-for-beginners) | [MCP](../topics/mcp.md#repo-github--copilot-cli-for-beginners) | [Tutorials](../topics/tutorials.md#repo-github--copilot-cli-for-beginners) | [Developer Productivity](../topics/developer-productivity.md#repo-github--copilot-cli-for-beginners)
 - **Kind:** Course
 - **Best for:** Developers and students who are new to AI-assisted terminal workflows; Teams standardizing GitHub Copilot CLI development and review practices
 - **Languages:** Python, JavaScript, C#
@@ -222,12 +244,14 @@ A hands-on beginner course for GitHub Copilot CLI that uses a Python book collec
   - Runnable terminal examples and assignments in every chapter
   - A single Python book collection application used throughout the learning path
 
+<a id="repo-mattpocock--skills"></a>
+
 ## [Skills For Real Engineers](https://github.com/mattpocock/skills)
 
 A composable collection of coding-agent skills and Markdown guidance for structured engineering workflows, available through skills.sh and as a managed Claude Code plugin.
 
-- **Category:** [Documentation and Learning](../categories/documentation-and-learning.md)
-- **Topics:** [Agent Skills](../topics/agent-skills.md) | [Coding Agents](../topics/coding-agents.md) | [Task Planning](../topics/task-planning.md) | [Testing](../topics/testing.md) | [Debugging](../topics/debugging.md) | [Code Review](../topics/code-review.md)
+- **Category:** [Documentation and Learning](../categories/documentation-and-learning.md#repo-mattpocock--skills)
+- **Topics:** [Agent Skills](../topics/agent-skills.md#repo-mattpocock--skills) | [Coding Agents](../topics/coding-agents.md#repo-mattpocock--skills) | [Task Planning](../topics/task-planning.md#repo-mattpocock--skills) | [Testing](../topics/testing.md#repo-mattpocock--skills) | [Debugging](../topics/debugging.md#repo-mattpocock--skills) | [Code Review](../topics/code-review.md#repo-mattpocock--skills)
 - **Kind:** Plugin
 - **Best for:** Teams wanting reusable agent instructions for planning, implementation, testing, debugging, and review; Developers who want to adapt installed skill files to their own project workflow
 - **Languages:** Markdown, Shell
@@ -241,12 +265,14 @@ A composable collection of coding-agent skills and Markdown guidance for structu
   - Includes workflows for grilling requirements, specifications, ticket decomposition, implementation, TDD, bug diagnosis, and code review
   - The setup skill records project-specific issue-tracker, triage-label, and documentation-location choices for other skills
 
+<a id="repo-obra--superpowers"></a>
+
 ## [Superpowers](https://github.com/obra/superpowers)
 
 A coding-agent plugin and methodology built from composable skills and bootstrap instructions. It guides a workflow from requirements discovery and design through plans, test-driven implementation, review, worktree use, and branch completion.
 
-- **Category:** [AI and Automation](../categories/ai-and-automation.md)
-- **Topics:** [AI Agents](../topics/ai-agents.md) | [Coding Agents](../topics/coding-agents.md) | [Agent Skills](../topics/agent-skills.md) | [Task Planning](../topics/task-planning.md) | [Testing](../topics/testing.md) | [Code Review](../topics/code-review.md) | [Worktrees](../topics/worktrees.md) | [Developer Productivity](../topics/developer-productivity.md)
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-obra--superpowers)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-obra--superpowers) | [Coding Agents](../topics/coding-agents.md#repo-obra--superpowers) | [Agent Skills](../topics/agent-skills.md#repo-obra--superpowers) | [Task Planning](../topics/task-planning.md#repo-obra--superpowers) | [Testing](../topics/testing.md#repo-obra--superpowers) | [Code Review](../topics/code-review.md#repo-obra--superpowers) | [Worktrees](../topics/worktrees.md#repo-obra--superpowers) | [Developer Productivity](../topics/developer-productivity.md#repo-obra--superpowers)
 - **Kind:** Plugin
 - **Best for:** Teams adopting a prescriptive, skill-triggered workflow for supported coding agents; Developers who want reusable guidance for planning, testing, debugging, and review
 - **Languages:** Shell, JavaScript, TypeScript, Markdown
@@ -260,12 +286,14 @@ A coding-agent plugin and methodology built from composable skills and bootstrap
   - Defines a staged workflow from approved design through implementation and branch completion
   - Supports installations for Claude Code, Codex, Cursor, OpenCode, Pi, and several other agent harnesses
 
+<a id="repo-openclaw--clawpatch"></a>
+
 ## [Clawpatch](https://github.com/openclaw/clawpatch)
 
 An early command-line tool that maps a codebase into feature slices, reviews them through a local coding-agent provider, records findings, and supports an explicit, validated patch attempt for one selected finding.
 
-- **Category:** [AI and Automation](../categories/ai-and-automation.md)
-- **Topics:** [Coding Agents](../topics/coding-agents.md) | [Code Review](../topics/code-review.md) | [CLI](../topics/cli.md) | [Git](../topics/git.md) | [Automation](../topics/automation.md) | [Testing](../topics/testing.md) | [Open Source](../topics/open-source.md)
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-openclaw--clawpatch)
+- **Topics:** [Coding Agents](../topics/coding-agents.md#repo-openclaw--clawpatch) | [Code Review](../topics/code-review.md#repo-openclaw--clawpatch) | [CLI](../topics/cli.md#repo-openclaw--clawpatch) | [Git](../topics/git.md#repo-openclaw--clawpatch) | [Automation](../topics/automation.md#repo-openclaw--clawpatch) | [Testing](../topics/testing.md#repo-openclaw--clawpatch) | [Open Source](../topics/open-source.md#repo-openclaw--clawpatch)
 - **Kind:** CLI
 - **Best for:** Teams wanting an agent-assisted review workflow with persisted, inspectable findings; Developers who want to review and manually approve generated fixes in Git repositories
 - **Languages:** TypeScript
@@ -279,12 +307,14 @@ An early command-line tool that maps a codebase into feature slices, reviews the
   - Runs provider-backed reviews in parallel and persists findings under .clawpatch/
   - Produces Markdown or JSON reports and supports triage and revalidation of findings
 
+<a id="repo-rtk-ai--rtk"></a>
+
 ## [RTK](https://github.com/rtk-ai/rtk)
 
 A Rust command-line proxy for coding-agent workflows that runs supported developer commands, filters their output before it reaches the LLM context, tracks resulting token savings, and can install agent-specific hooks or instruction-based integrations.
 
-- **Category:** [Developer Tools](../categories/developer-tools.md)
-- **Topics:** [Coding Agents](../topics/coding-agents.md) | [CLI](../topics/cli.md) | [Context Engineering](../topics/context-engineering.md) | [Token Usage](../topics/token-usage.md) | [Developer Productivity](../topics/developer-productivity.md) | [Git](../topics/git.md) | [Testing](../topics/testing.md)
+- **Category:** [Developer Tools](../categories/developer-tools.md#repo-rtk-ai--rtk)
+- **Topics:** [Coding Agents](../topics/coding-agents.md#repo-rtk-ai--rtk) | [CLI](../topics/cli.md#repo-rtk-ai--rtk) | [Context Engineering](../topics/context-engineering.md#repo-rtk-ai--rtk) | [Token Usage](../topics/token-usage.md#repo-rtk-ai--rtk) | [Developer Productivity](../topics/developer-productivity.md#repo-rtk-ai--rtk) | [Git](../topics/git.md#repo-rtk-ai--rtk) | [Testing](../topics/testing.md#repo-rtk-ai--rtk)
 - **Kind:** CLI
 - **Best for:** Coding-agent users who want more compact shell-command context without changing their normal developer commands; Teams that want local token-savings analytics and configurable command-output filtering
 - **Languages:** Rust
@@ -298,12 +328,14 @@ A Rust command-line proxy for coding-agent workflows that runs supported develop
   - Provides compact wrappers for files, Git and GitHub CLI, tests, builds, linters, containers, cloud, and data commands
   - Installs hooks, plugins, or rules for supported coding assistants to rewrite eligible shell commands automatically
 
+<a id="repo-thedaviddias--front-end-checklist"></a>
+
 ## [Front-End Checklist](https://github.com/thedaviddias/Front-End-Checklist)
 
 A front-end quality system containing 385 prioritized rules across eleven categories, delivered as a browsable website, a README checklist, reusable skills, and hosted or local MCP tooling for review and audit workflows.
 
-- **Category:** [Testing and Quality](../categories/testing-and-quality.md)
-- **Topics:** [Web](../topics/web.md) | [Frontend Development](../topics/frontend-development.md) | [Accessibility](../topics/accessibility.md) | [Security](../topics/security.md) | [Testing](../topics/testing.md) | [Performance](../topics/performance.md) | [MCP](../topics/mcp.md) | [AI Agents](../topics/ai-agents.md) | [Documentation](../topics/documentation.md)
+- **Category:** [Testing and Quality](../categories/testing-and-quality.md#repo-thedaviddias--front-end-checklist)
+- **Topics:** [Web](../topics/web.md#repo-thedaviddias--front-end-checklist) | [Frontend Development](../topics/frontend-development.md#repo-thedaviddias--front-end-checklist) | [Accessibility](../topics/accessibility.md#repo-thedaviddias--front-end-checklist) | [Security](../topics/security.md#repo-thedaviddias--front-end-checklist) | [Testing](../topics/testing.md#repo-thedaviddias--front-end-checklist) | [Performance](../topics/performance.md#repo-thedaviddias--front-end-checklist) | [MCP](../topics/mcp.md#repo-thedaviddias--front-end-checklist) | [AI Agents](../topics/ai-agents.md#repo-thedaviddias--front-end-checklist) | [Documentation](../topics/documentation.md#repo-thedaviddias--front-end-checklist)
 - **Kind:** Monorepo
 - **Best for:** Teams reviewing web applications for accessibility, performance, security, and SEO concerns; MCP-capable agents that need a structured front-end rule corpus and remediation guidance
 - **Languages:** TypeScript, MDX
@@ -317,12 +349,14 @@ A front-end quality system containing 385 prioritized rules across eleven catego
   - Priority labels for critical, high, medium, and low-impact findings
   - Hosted MCP server with tools to review code, audit public URLs, search rules, and retrieve workflows
 
+<a id="repo-trycua--cua"></a>
+
 ## [Cua](https://github.com/trycua/cua)
 
 A computer-use monorepo for building and evaluating agents through cross-platform desktop drivers, OS sandboxes, virtual-machine tooling, and benchmarks or reinforcement-learning environments.
 
-- **Category:** [AI and Automation](../categories/ai-and-automation.md)
-- **Topics:** [AI Agents](../topics/ai-agents.md) | [Computer Use](../topics/computer-use.md) | [Sandboxing](../topics/sandboxing.md) | [Remote Control](../topics/remote-control.md) | [Automation](../topics/automation.md) | [CLI](../topics/cli.md) | [MCP](../topics/mcp.md) | [Containers](../topics/containers.md) | [Testing](../topics/testing.md) | [Open Source](../topics/open-source.md)
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-trycua--cua)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-trycua--cua) | [Computer Use](../topics/computer-use.md#repo-trycua--cua) | [Sandboxing](../topics/sandboxing.md#repo-trycua--cua) | [Remote Control](../topics/remote-control.md#repo-trycua--cua) | [Automation](../topics/automation.md#repo-trycua--cua) | [CLI](../topics/cli.md#repo-trycua--cua) | [MCP](../topics/mcp.md#repo-trycua--cua) | [Containers](../topics/containers.md#repo-trycua--cua) | [Testing](../topics/testing.md#repo-trycua--cua) | [Open Source](../topics/open-source.md#repo-trycua--cua)
 - **Kind:** Monorepo
 - **Best for:** Building agents that operate desktop, mobile, container, or VM interfaces; Evaluating or training computer-use agents in reproducible environments
 - **Languages:** Python, Rust, Go, TypeScript

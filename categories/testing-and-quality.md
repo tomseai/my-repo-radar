@@ -27,12 +27,14 @@
 - [Tracing](../topics/tracing.md) (1)
 - [Web](../topics/web.md) (2)
 
+<a id="repo-addyosmani--web-quality-skills"></a>
+
 ## [Web Quality Skills](https://github.com/addyosmani/web-quality-skills)
 
 A stack-agnostic collection of six agent skills for reviewing and improving web performance, Core Web Vitals, accessibility, SEO, and best practices.
 
-- **Category:** [Testing and Quality](../categories/testing-and-quality.md)
-- **Topics:** [AI Agents](../topics/ai-agents.md) | [Agent Skills](../topics/agent-skills.md) | [Automation](../topics/automation.md) | [Testing](../topics/testing.md) | [Performance](../topics/performance.md) | [Accessibility](../topics/accessibility.md) | [Web](../topics/web.md)
+- **Category:** [Testing and Quality](../categories/testing-and-quality.md#repo-addyosmani--web-quality-skills)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-addyosmani--web-quality-skills) | [Agent Skills](../topics/agent-skills.md#repo-addyosmani--web-quality-skills) | [Automation](../topics/automation.md#repo-addyosmani--web-quality-skills) | [Testing](../topics/testing.md#repo-addyosmani--web-quality-skills) | [Performance](../topics/performance.md#repo-addyosmani--web-quality-skills) | [Accessibility](../topics/accessibility.md#repo-addyosmani--web-quality-skills) | [Web](../topics/web.md#repo-addyosmani--web-quality-skills)
 - **Kind:** Plugin
 - **Best for:** Developers asking coding agents for focused web-quality reviews or improvements; Teams that want reusable Lighthouse-, Core Web Vitals-, and WCAG-informed guidance
 - **Languages:** Shell
@@ -46,12 +48,14 @@ A stack-agnostic collection of six agent skills for reviewing and improving web 
   - Dedicated performance guidance covering rendering, code splitting, images, fonts, caching, and server response
   - Core Web Vitals guidance for LCP, INP, and CLS with documented target thresholds
 
+<a id="repo-comet-ml--opik"></a>
+
 ## [opik](https://github.com/comet-ml/opik)
 
 An open-source platform for tracing, evaluating, testing, monitoring, and optimizing LLM applications and AI agents across development and production.
 
-- **Category:** [Testing and Quality](../categories/testing-and-quality.md)
-- **Topics:** [AI Agents](../topics/ai-agents.md) | [LLMs](../topics/llms.md) | [Observability](../topics/observability.md) | [Tracing](../topics/tracing.md) | [Evaluation](../topics/evaluation.md) | [Token Usage](../topics/token-usage.md) | [Self Hosted](../topics/self-hosted.md) | [Open Source](../topics/open-source.md)
+- **Category:** [Testing and Quality](../categories/testing-and-quality.md#repo-comet-ml--opik)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-comet-ml--opik) | [LLMs](../topics/llms.md#repo-comet-ml--opik) | [Observability](../topics/observability.md#repo-comet-ml--opik) | [Tracing](../topics/tracing.md#repo-comet-ml--opik) | [Evaluation](../topics/evaluation.md#repo-comet-ml--opik) | [Token Usage](../topics/token-usage.md#repo-comet-ml--opik) | [Self Hosted](../topics/self-hosted.md#repo-comet-ml--opik) | [Open Source](../topics/open-source.md#repo-comet-ml--opik)
 - **Kind:** Service
 - **Best for:** ML and engineering teams operating LLM applications or agentic workflows; Self-hosted teams that need trace-level observability and evaluation
 - **Languages:** Python, TypeScript, Java
@@ -65,12 +69,14 @@ An open-source platform for tracing, evaluating, testing, monitoring, and optimi
   - Build datasets and experiments with LLM-as-a-judge metrics
   - Annotate traces and spans with feedback scores through the SDK or web UI
 
+<a id="repo-copilotkit--aimock"></a>
+
 ## [aimock](https://github.com/CopilotKit/aimock)
 
 A zero-dependency TypeScript mock server and library for exercising AI application integrations without calling their live dependencies.
 
-- **Category:** [Testing and Quality](../categories/testing-and-quality.md)
-- **Topics:** [AI Agents](../topics/ai-agents.md) | [LLMs](../topics/llms.md) | [MCP](../topics/mcp.md) | [Agent Protocols](../topics/agent-protocols.md) | [CLI](../topics/cli.md) | [Automation](../topics/automation.md)
+- **Category:** [Testing and Quality](../categories/testing-and-quality.md#repo-copilotkit--aimock)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-copilotkit--aimock) | [LLMs](../topics/llms.md#repo-copilotkit--aimock) | [MCP](../topics/mcp.md#repo-copilotkit--aimock) | [Agent Protocols](../topics/agent-protocols.md#repo-copilotkit--aimock) | [CLI](../topics/cli.md#repo-copilotkit--aimock) | [Automation](../topics/automation.md#repo-copilotkit--aimock)
 - **Kind:** Library
 - **Best for:** Testing applications that call LLM, agent-protocol, tool, or vector-service APIs; Creating deterministic fixtures for local development and CI
 - **Languages:** TypeScript, Python
@@ -84,12 +90,14 @@ A zero-dependency TypeScript mock server and library for exercising AI applicati
   - Provides fixture-based record and replay, including approximate replay timing controls
   - Supports a programmatic API, the full-featured aimock CLI, and the legacy llmock compatibility CLI
 
+<a id="repo-thedaviddias--front-end-checklist"></a>
+
 ## [Front-End Checklist](https://github.com/thedaviddias/Front-End-Checklist)
 
 A front-end quality system containing 385 prioritized rules across eleven categories, delivered as a browsable website, a README checklist, reusable skills, and hosted or local MCP tooling for review and audit workflows.
 
-- **Category:** [Testing and Quality](../categories/testing-and-quality.md)
-- **Topics:** [Web](../topics/web.md) | [Frontend Development](../topics/frontend-development.md) | [Accessibility](../topics/accessibility.md) | [Security](../topics/security.md) | [Testing](../topics/testing.md) | [Performance](../topics/performance.md) | [MCP](../topics/mcp.md) | [AI Agents](../topics/ai-agents.md) | [Documentation](../topics/documentation.md)
+- **Category:** [Testing and Quality](../categories/testing-and-quality.md#repo-thedaviddias--front-end-checklist)
+- **Topics:** [Web](../topics/web.md#repo-thedaviddias--front-end-checklist) | [Frontend Development](../topics/frontend-development.md#repo-thedaviddias--front-end-checklist) | [Accessibility](../topics/accessibility.md#repo-thedaviddias--front-end-checklist) | [Security](../topics/security.md#repo-thedaviddias--front-end-checklist) | [Testing](../topics/testing.md#repo-thedaviddias--front-end-checklist) | [Performance](../topics/performance.md#repo-thedaviddias--front-end-checklist) | [MCP](../topics/mcp.md#repo-thedaviddias--front-end-checklist) | [AI Agents](../topics/ai-agents.md#repo-thedaviddias--front-end-checklist) | [Documentation](../topics/documentation.md#repo-thedaviddias--front-end-checklist)
 - **Kind:** Monorepo
 - **Best for:** Teams reviewing web applications for accessibility, performance, security, and SEO concerns; MCP-capable agents that need a structured front-end rule corpus and remediation guidance
 - **Languages:** TypeScript, MDX

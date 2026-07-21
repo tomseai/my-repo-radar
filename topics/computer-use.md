@@ -8,12 +8,14 @@
 
 - [AI and Automation](../categories/ai-and-automation.md) (6)
 
+<a id="repo-browser-use--browser-use"></a>
+
 ## [Browser Use](https://github.com/browser-use/browser-use)
 
 A Python library and CLI for LLM-driven agents that operate web browsers, including navigating pages, clicking controls, entering form data, and extracting information for repeatable web tasks.
 
-- **Category:** [AI and Automation](../categories/ai-and-automation.md)
-- **Topics:** [AI Agents](../topics/ai-agents.md) | [Browser Automation](../topics/browser-automation.md) | [Computer Use](../topics/computer-use.md) | [Tool Use](../topics/tool-use.md) | [CLI](../topics/cli.md) | [MCP](../topics/mcp.md) | [Web Scraping](../topics/web-scraping.md)
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-browser-use--browser-use)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-browser-use--browser-use) | [Browser Automation](../topics/browser-automation.md#repo-browser-use--browser-use) | [Computer Use](../topics/computer-use.md#repo-browser-use--browser-use) | [Tool Use](../topics/tool-use.md#repo-browser-use--browser-use) | [CLI](../topics/cli.md#repo-browser-use--browser-use) | [MCP](../topics/mcp.md#repo-browser-use--browser-use) | [Web Scraping](../topics/web-scraping.md#repo-browser-use--browser-use)
 - **Kind:** Library
 - **Best for:** Developers embedding browser automation in an AI agent or product; Agent users who need a local CLI skill for one-off browser tasks
 - **Languages:** Python
@@ -27,12 +29,14 @@ A Python library and CLI for LLM-driven agents that operate web browsers, includ
   - Browser interactions for pages, buttons, text input, forms, and data extraction
   - Custom action tools for extending an agent's capabilities
 
+<a id="repo-droidrun--mobilerun"></a>
+
 ## [Mobilerun](https://github.com/droidrun/mobilerun)
 
 A Python framework for LLM agents that control Android and iOS devices with mobile-native UI tools through a CLI, terminal UI, Docker, or Python API.
 
-- **Category:** [AI and Automation](../categories/ai-and-automation.md)
-- **Topics:** [AI Agents](../topics/ai-agents.md) | [Mobile App](../topics/mobile-app.md) | [Mobile Development](../topics/mobile-development.md) | [Computer Use](../topics/computer-use.md) | [Tool Use](../topics/tool-use.md) | [Multi Provider](../topics/multi-provider.md) | [Observability](../topics/observability.md) | [Tracing](../topics/tracing.md) | [CLI](../topics/cli.md)
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-droidrun--mobilerun)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-droidrun--mobilerun) | [Mobile App](../topics/mobile-app.md#repo-droidrun--mobilerun) | [Mobile Development](../topics/mobile-development.md#repo-droidrun--mobilerun) | [Computer Use](../topics/computer-use.md#repo-droidrun--mobilerun) | [Tool Use](../topics/tool-use.md#repo-droidrun--mobilerun) | [Multi Provider](../topics/multi-provider.md#repo-droidrun--mobilerun) | [Observability](../topics/observability.md#repo-droidrun--mobilerun) | [Tracing](../topics/tracing.md#repo-droidrun--mobilerun) | [CLI](../topics/cli.md#repo-droidrun--mobilerun)
 - **Kind:** Framework
 - **Best for:** Automating and testing workflows on locally connected mobile devices; Building mobile agents that need UI-tree, screenshot, gesture, and app-control tools
 - **Languages:** Python
@@ -46,12 +50,14 @@ A Python framework for LLM agents that control Android and iOS devices with mobi
   - Combines accessibility trees and screenshots, with vision and screenshot-only modes
   - Offers direct execution and manager-executor reasoning modes for multi-step tasks
 
+<a id="repo-jackwener--opencli"></a>
+
 ## [OpenCLI](https://github.com/jackwener/OpenCLI)
 
 A Node.js CLI that turns supported websites, logged-in Chrome sessions, Electron apps, and registered local binaries into deterministic commands, with browser-control primitives and skills for AI agents.
 
-- **Category:** [AI and Automation](../categories/ai-and-automation.md)
-- **Topics:** [AI Agents](../topics/ai-agents.md) | [CLI](../topics/cli.md) | [Browser Automation](../topics/browser-automation.md) | [Computer Use](../topics/computer-use.md) | [Tool Use](../topics/tool-use.md) | [Web](../topics/web.md) | [Automation](../topics/automation.md) | [Developer Productivity](../topics/developer-productivity.md) | [Open Source](../topics/open-source.md)
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-jackwener--opencli)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-jackwener--opencli) | [CLI](../topics/cli.md#repo-jackwener--opencli) | [Browser Automation](../topics/browser-automation.md#repo-jackwener--opencli) | [Computer Use](../topics/computer-use.md#repo-jackwener--opencli) | [Tool Use](../topics/tool-use.md#repo-jackwener--opencli) | [Web](../topics/web.md#repo-jackwener--opencli) | [Automation](../topics/automation.md#repo-jackwener--opencli) | [Developer Productivity](../topics/developer-productivity.md#repo-jackwener--opencli) | [Open Source](../topics/open-source.md#repo-jackwener--opencli)
 - **Kind:** CLI
 - **Best for:** Developers and agents automating websites through an existing authenticated Chrome profile; Authors building reusable site adapters or consolidating local tools behind one CLI
 - **Languages:** JavaScript, TypeScript
@@ -65,12 +71,14 @@ A Node.js CLI that turns supported websites, logged-in Chrome sessions, Electron
   - Drives logged-in Chrome through a Browser Bridge extension and local daemon
   - Exposes browser navigation, interaction, extraction, network inspection, and screenshot commands
 
+<a id="repo-microsoft--omniparser"></a>
+
 ## [OmniParser](https://github.com/microsoft/OmniParser)
 
 A Python-based screen-parsing project that turns UI screenshots into structured, understandable elements for vision-based GUI agents, with demos, model checkpoints, and OmniTool support for controlling a Windows 11 virtual machine.
 
-- **Category:** [AI and Automation](../categories/ai-and-automation.md)
-- **Topics:** [AI Agents](../topics/ai-agents.md) | [Computer Use](../topics/computer-use.md) | [Multimodal](../topics/multimodal.md) | [Machine Learning](../topics/machine-learning.md) | [Desktop App](../topics/desktop-app.md) | [Open Source](../topics/open-source.md)
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-microsoft--omniparser)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-microsoft--omniparser) | [Computer Use](../topics/computer-use.md#repo-microsoft--omniparser) | [Multimodal](../topics/multimodal.md#repo-microsoft--omniparser) | [Machine Learning](../topics/machine-learning.md#repo-microsoft--omniparser) | [Desktop App](../topics/desktop-app.md#repo-microsoft--omniparser) | [Open Source](../topics/open-source.md#repo-microsoft--omniparser)
 - **Kind:** Other
 - **Best for:** Researchers and developers building vision-based GUI-agent or computer-use workflows; Experimenting with screenshot grounding before integrating a chosen vision model or agent
 - **Languages:** Python, Jupyter Notebook
@@ -84,12 +92,14 @@ A Python-based screen-parsing project that turns UI screenshots into structured,
   - Provides version 2 model checkpoint instructions and a Gradio demonstration
   - Includes notebooks with simple examples
 
+<a id="repo-openinterpreter--openinterpreter"></a>
+
 ## [Open Interpreter](https://github.com/openinterpreter/openinterpreter)
 
 A Rust terminal coding agent, forked from OpenAI Codex, that targets lower-cost models through selectable native harnesses, sandboxed command execution, computer-use QA, ACP clients, and the Codex exec protocol.
 
-- **Category:** [AI and Automation](../categories/ai-and-automation.md)
-- **Topics:** [Coding Agents](../topics/coding-agents.md) | [Agent Harnesses](../topics/agent-harnesses.md) | [CLI](../topics/cli.md) | [Computer Use](../topics/computer-use.md) | [Sandboxing](../topics/sandboxing.md) | [MCP](../topics/mcp.md)
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-openinterpreter--openinterpreter)
+- **Topics:** [Coding Agents](../topics/coding-agents.md#repo-openinterpreter--openinterpreter) | [Agent Harnesses](../topics/agent-harnesses.md#repo-openinterpreter--openinterpreter) | [CLI](../topics/cli.md#repo-openinterpreter--openinterpreter) | [Computer Use](../topics/computer-use.md#repo-openinterpreter--openinterpreter) | [Sandboxing](../topics/sandboxing.md#repo-openinterpreter--openinterpreter) | [MCP](../topics/mcp.md#repo-openinterpreter--openinterpreter)
 - **Kind:** CLI
 - **Best for:** Developers who want a terminal coding agent with selectable model harnesses; ACP-client users who need a local agent process with sandbox controls
 - **Languages:** Rust
@@ -103,12 +113,14 @@ A Rust terminal coding agent, forked from OpenAI Codex, that targets lower-cost 
   - Native command sandboxing on macOS, Linux, and Windows
   - QA skill for driving and testing web or native applications
 
+<a id="repo-trycua--cua"></a>
+
 ## [Cua](https://github.com/trycua/cua)
 
 A computer-use monorepo for building and evaluating agents through cross-platform desktop drivers, OS sandboxes, virtual-machine tooling, and benchmarks or reinforcement-learning environments.
 
-- **Category:** [AI and Automation](../categories/ai-and-automation.md)
-- **Topics:** [AI Agents](../topics/ai-agents.md) | [Computer Use](../topics/computer-use.md) | [Sandboxing](../topics/sandboxing.md) | [Remote Control](../topics/remote-control.md) | [Automation](../topics/automation.md) | [CLI](../topics/cli.md) | [MCP](../topics/mcp.md) | [Containers](../topics/containers.md) | [Testing](../topics/testing.md) | [Open Source](../topics/open-source.md)
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-trycua--cua)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-trycua--cua) | [Computer Use](../topics/computer-use.md#repo-trycua--cua) | [Sandboxing](../topics/sandboxing.md#repo-trycua--cua) | [Remote Control](../topics/remote-control.md#repo-trycua--cua) | [Automation](../topics/automation.md#repo-trycua--cua) | [CLI](../topics/cli.md#repo-trycua--cua) | [MCP](../topics/mcp.md#repo-trycua--cua) | [Containers](../topics/containers.md#repo-trycua--cua) | [Testing](../topics/testing.md#repo-trycua--cua) | [Open Source](../topics/open-source.md#repo-trycua--cua)
 - **Kind:** Monorepo
 - **Best for:** Building agents that operate desktop, mobile, container, or VM interfaces; Evaluating or training computer-use agents in reproducible environments
 - **Languages:** Python, Rust, Go, TypeScript

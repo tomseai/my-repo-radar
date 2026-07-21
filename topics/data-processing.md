@@ -10,12 +10,14 @@
 - [Data and Databases](../categories/data-and-databases.md) (1)
 - [Security and Privacy](../categories/security-and-privacy.md) (1)
 
+<a id="repo-datalab-to--marker"></a>
+
 ## [marker](https://github.com/datalab-to/marker)
 
 A Python document-intelligence library and command-line converter that turns PDFs, images, office documents, HTML, and EPUB files into structured Markdown, JSON, chunks, or HTML while extracting document structure and images.
 
-- **Category:** [AI and Automation](../categories/ai-and-automation.md)
-- **Topics:** [Document Processing](../topics/document-processing.md) | [Machine Learning](../topics/machine-learning.md) | [CLI](../topics/cli.md) | [Data Processing](../topics/data-processing.md) | [LLMs](../topics/llms.md)
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-datalab-to--marker)
+- **Topics:** [Document Processing](../topics/document-processing.md#repo-datalab-to--marker) | [Machine Learning](../topics/machine-learning.md#repo-datalab-to--marker) | [CLI](../topics/cli.md#repo-datalab-to--marker) | [Data Processing](../topics/data-processing.md#repo-datalab-to--marker) | [LLMs](../topics/llms.md#repo-datalab-to--marker)
 - **Kind:** Library
 - **Best for:** Developers preparing heterogeneous documents for search, RAG, or data pipelines; Python users needing configurable document conversion with local or optional LLM assistance
 - **Languages:** Python
@@ -29,12 +31,14 @@ A Python document-intelligence library and command-line converter that turns PDF
   - Preserves or formats tables, forms, equations, math, links, references, code blocks, and extracted images
   - Provides CLI commands for individual files, directories, chunks, a Streamlit UI, and a small API server
 
+<a id="repo-foundationagents--openmanus"></a>
+
 ## [OpenManus](https://github.com/FoundationAgents/OpenManus)
 
 A Python framework and command-line runtime for configuring LLM-backed general agents with optional browser automation, MCP tools, and multi-agent flows.
 
-- **Category:** [AI and Automation](../categories/ai-and-automation.md)
-- **Topics:** [AI Agents](../topics/ai-agents.md) | [Agent Frameworks](../topics/agent-frameworks.md) | [Multi Agent](../topics/multi-agent.md) | [MCP](../topics/mcp.md) | [Browser Automation](../topics/browser-automation.md) | [Data Processing](../topics/data-processing.md) | [LLMs](../topics/llms.md) | [Containers](../topics/containers.md)
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-foundationagents--openmanus)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-foundationagents--openmanus) | [Agent Frameworks](../topics/agent-frameworks.md#repo-foundationagents--openmanus) | [Multi Agent](../topics/multi-agent.md#repo-foundationagents--openmanus) | [MCP](../topics/mcp.md#repo-foundationagents--openmanus) | [Browser Automation](../topics/browser-automation.md#repo-foundationagents--openmanus) | [Data Processing](../topics/data-processing.md#repo-foundationagents--openmanus) | [LLMs](../topics/llms.md#repo-foundationagents--openmanus) | [Containers](../topics/containers.md#repo-foundationagents--openmanus)
 - **Kind:** Framework
 - **Best for:** Developers experimenting with configurable general-purpose AI agents; Agent workflows that need optional browser, MCP, or data-analysis tools
 - **Languages:** Python
@@ -48,12 +52,14 @@ A Python framework and command-line runtime for configuring LLM-backed general a
   - Configurable global and vision-model API settings
   - Optional Playwright browser-automation installation
 
+<a id="repo-google--magika"></a>
+
 ## [Magika](https://github.com/google/magika)
 
 A deep-learning file-content detector available as a Rust command-line tool and Python, Rust, JavaScript/TypeScript, and work-in-progress Go bindings, designed to classify files even when names or extensions mislead.
 
-- **Category:** [Security and Privacy](../categories/security-and-privacy.md)
-- **Topics:** [Machine Learning](../topics/machine-learning.md) | [CLI](../topics/cli.md) | [Libraries](../topics/libraries.md) | [Security](../topics/security.md) | [Data Processing](../topics/data-processing.md)
+- **Category:** [Security and Privacy](../categories/security-and-privacy.md#repo-google--magika)
+- **Topics:** [Machine Learning](../topics/machine-learning.md#repo-google--magika) | [CLI](../topics/cli.md#repo-google--magika) | [Libraries](../topics/libraries.md#repo-google--magika) | [Security](../topics/security.md#repo-google--magika) | [Data Processing](../topics/data-processing.md#repo-google--magika)
 - **Kind:** CLI
 - **Best for:** Routing untrusted files to suitable security or content-policy scanners; Adding content-type detection to Python, Rust, JavaScript, or CLI workflows
 - **Languages:** Rust, Python, TypeScript, Go
@@ -67,12 +73,14 @@ A deep-learning file-content detector available as a Rust command-line tool and 
   - Scans individual files, standard input, batches, or directories recursively
   - Emits human-readable, MIME-type, label, JSON, JSONL, score, or custom output
 
+<a id="repo-paddlepaddle--paddleocr"></a>
+
 ## [PaddleOCR](https://github.com/PaddlePaddle/PaddleOCR)
 
 A Python-centered OCR and document-understanding toolkit that converts images and PDF documents into structured outputs such as JSON and Markdown. It includes scene OCR, document parsing, vision-language models, deployment material, SDKs, and an MCP server.
 
-- **Category:** [AI and Automation](../categories/ai-and-automation.md)
-- **Topics:** [Document Processing](../topics/document-processing.md) | [Machine Learning](../topics/machine-learning.md) | [Multimodal](../topics/multimodal.md) | [MCP](../topics/mcp.md) | [Data Processing](../topics/data-processing.md) | [API Development](../topics/api-development.md) | [Open Source](../topics/open-source.md)
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-paddlepaddle--paddleocr)
+- **Topics:** [Document Processing](../topics/document-processing.md#repo-paddlepaddle--paddleocr) | [Machine Learning](../topics/machine-learning.md#repo-paddlepaddle--paddleocr) | [Multimodal](../topics/multimodal.md#repo-paddlepaddle--paddleocr) | [MCP](../topics/mcp.md#repo-paddlepaddle--paddleocr) | [Data Processing](../topics/data-processing.md#repo-paddlepaddle--paddleocr) | [API Development](../topics/api-development.md#repo-paddlepaddle--paddleocr) | [Open Source](../topics/open-source.md#repo-paddlepaddle--paddleocr)
 - **Kind:** Framework
 - **Best for:** Developers extracting text and structure from images or PDF documents for downstream applications; Teams preparing document data for RAG, LLM, or agent workflows with local or hosted inference options
 - **Languages:** Python, TypeScript, Go, Java, Kotlin
@@ -86,12 +94,14 @@ A Python-centered OCR and document-understanding toolkit that converts images an
   - Produces structured document outputs including Markdown, JSON, and coordinate-rich results
   - Includes PaddleOCR-VL document vision-language models for tables, formulas, charts, and text
 
+<a id="repo-ucbepic--docetl"></a>
+
 ## [DocETL](https://github.com/ucbepic/docetl)
 
 A Python framework for declarative LLM-powered processing of structured and unstructured datasets, offering map-reduce-style operators, Python and YAML pipelines, automatic cost-quality optimization, parsing extras, and a visual playground.
 
-- **Category:** [Data and Databases](../categories/data-and-databases.md)
-- **Topics:** [Document Processing](../topics/document-processing.md) | [Data Processing](../topics/data-processing.md) | [LLMs](../topics/llms.md) | [Automation](../topics/automation.md) | [Evaluation](../topics/evaluation.md) | [Cost Management](../topics/cost-management.md) | [CLI](../topics/cli.md) | [Web UI](../topics/web-ui.md)
+- **Category:** [Data and Databases](../categories/data-and-databases.md#repo-ucbepic--docetl)
+- **Topics:** [Document Processing](../topics/document-processing.md#repo-ucbepic--docetl) | [Data Processing](../topics/data-processing.md#repo-ucbepic--docetl) | [LLMs](../topics/llms.md#repo-ucbepic--docetl) | [Automation](../topics/automation.md#repo-ucbepic--docetl) | [Evaluation](../topics/evaluation.md#repo-ucbepic--docetl) | [Cost Management](../topics/cost-management.md#repo-ucbepic--docetl) | [CLI](../topics/cli.md#repo-ucbepic--docetl) | [Web UI](../topics/web-ui.md#repo-ucbepic--docetl)
 - **Kind:** Framework
 - **Best for:** Data teams extracting, classifying, resolving, or summarizing large document collections; Developers who need repeatable LLM pipelines with explicit cost and quality optimization
 - **Languages:** Python, TypeScript
@@ -105,12 +115,14 @@ A Python framework for declarative LLM-powered processing of structured and unst
   - Defines pipelines through a Python API or low-code YAML configuration
   - Parallelizes work and reports model-call costs while producing tabular results
 
+<a id="repo-zipstack--unstract"></a>
+
 ## [Unstract](https://github.com/Zipstack/unstract)
 
 A self-hostable LLM document-processing platform that turns documents into structured JSON through natural-language extraction prompts, APIs, and ETL workflows.
 
-- **Category:** [AI and Automation](../categories/ai-and-automation.md)
-- **Topics:** [Document Processing](../topics/document-processing.md) | [LLMs](../topics/llms.md) | [Automation](../topics/automation.md) | [API Development](../topics/api-development.md) | [Data Processing](../topics/data-processing.md) | [MCP](../topics/mcp.md) | [Web UI](../topics/web-ui.md) | [Self Hosted](../topics/self-hosted.md)
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-zipstack--unstract)
+- **Topics:** [Document Processing](../topics/document-processing.md#repo-zipstack--unstract) | [LLMs](../topics/llms.md#repo-zipstack--unstract) | [Automation](../topics/automation.md#repo-zipstack--unstract) | [API Development](../topics/api-development.md#repo-zipstack--unstract) | [Data Processing](../topics/data-processing.md#repo-zipstack--unstract) | [MCP](../topics/mcp.md#repo-zipstack--unstract) | [Web UI](../topics/web-ui.md#repo-zipstack--unstract) | [Self Hosted](../topics/self-hosted.md#repo-zipstack--unstract)
 - **Kind:** Application
 - **Best for:** Building document-extraction APIs without writing a custom LLM pipeline; Automating ingestion of business documents into data warehouses or other systems
 - **Languages:** Python, TypeScript

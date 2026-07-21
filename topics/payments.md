@@ -9,12 +9,14 @@
 - [AI and Automation](../categories/ai-and-automation.md) (1)
 - [Backend and APIs](../categories/backend-and-apis.md) (2)
 
+<a id="repo-getbindu--bindu"></a>
+
 ## [Bindu](https://github.com/GetBindu/Bindu)
 
 A framework and multi-language SDK set for exposing AI agents through A2A messaging with DID identity, mTLS and OAuth2 authorization, x402 payments, deployment, and operational components.
 
-- **Category:** [AI and Automation](../categories/ai-and-automation.md)
-- **Topics:** [AI Agents](../topics/ai-agents.md) | [Agent Protocols](../topics/agent-protocols.md) | [Agent Orchestration](../topics/agent-orchestration.md) | [Authentication](../topics/authentication.md) | [Payments](../topics/payments.md) | [Security](../topics/security.md) | [Deployment](../topics/deployment.md) | [Observability](../topics/observability.md) | [API Development](../topics/api-development.md) | [Libraries](../topics/libraries.md)
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-getbindu--bindu)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-getbindu--bindu) | [Agent Protocols](../topics/agent-protocols.md#repo-getbindu--bindu) | [Agent Orchestration](../topics/agent-orchestration.md#repo-getbindu--bindu) | [Authentication](../topics/authentication.md#repo-getbindu--bindu) | [Payments](../topics/payments.md#repo-getbindu--bindu) | [Security](../topics/security.md#repo-getbindu--bindu) | [Deployment](../topics/deployment.md#repo-getbindu--bindu) | [Observability](../topics/observability.md#repo-getbindu--bindu) | [API Development](../topics/api-development.md#repo-getbindu--bindu) | [Libraries](../topics/libraries.md#repo-getbindu--bindu)
 - **Kind:** Framework
 - **Best for:** Teams building authenticated and monetized agent-to-agent services; Developers who need Python, TypeScript, or Kotlin access to a shared gRPC core
 - **Languages:** Python, TypeScript, Kotlin
@@ -28,12 +30,14 @@ A framework and multi-language SDK set for exposing AI agents through A2A messag
   - DID signing, mTLS transport, and OAuth2 authorization through Hydra
   - x402 USDC payment middleware with configured EVM networks
 
+<a id="repo-getpaykit--paykit"></a>
+
 ## [PayKit](https://github.com/getpaykit/paykit)
 
 An embedded TypeScript billing framework that keeps billing state in an application's database while managing products, subscriptions, entitlements, usage billing, and Stripe webhooks.
 
-- **Category:** [Backend and APIs](../categories/backend-and-apis.md)
-- **Topics:** [Payments](../topics/payments.md) | [Backend Development](../topics/backend-development.md) | [Libraries](../topics/libraries.md) | [Developer Productivity](../topics/developer-productivity.md) | [Open Source](../topics/open-source.md)
+- **Category:** [Backend and APIs](../categories/backend-and-apis.md#repo-getpaykit--paykit)
+- **Topics:** [Payments](../topics/payments.md#repo-getpaykit--paykit) | [Backend Development](../topics/backend-development.md#repo-getpaykit--paykit) | [Libraries](../topics/libraries.md#repo-getpaykit--paykit) | [Developer Productivity](../topics/developer-productivity.md#repo-getpaykit--paykit) | [Open Source](../topics/open-source.md#repo-getpaykit--paykit)
 - **Kind:** Framework
 - **Best for:** TypeScript applications that want billing logic and state inside their own backend; SaaS products defining plans and feature access as code
 - **Languages:** TypeScript
@@ -47,12 +51,14 @@ An embedded TypeScript billing framework that keeps billing state in an applicat
   - Manage subscriptions and feature entitlements through one application API
   - Track usage and monthly limits for metered features
 
+<a id="repo-vendurehq--vendure"></a>
+
 ## [vendure](https://github.com/vendurehq/vendure)
 
 A plugin-first, headless commerce platform with a TypeScript GraphQL backend, React admin dashboard, and extensible business logic.
 
-- **Category:** [Backend and APIs](../categories/backend-and-apis.md)
-- **Topics:** [Ecommerce](../topics/ecommerce.md) | [Payments](../topics/payments.md) | [Open Source](../topics/open-source.md) | [Backend Development](../topics/backend-development.md) | [API Development](../topics/api-development.md) | [Frameworks](../topics/frameworks.md)
+- **Category:** [Backend and APIs](../categories/backend-and-apis.md#repo-vendurehq--vendure)
+- **Topics:** [Ecommerce](../topics/ecommerce.md#repo-vendurehq--vendure) | [Payments](../topics/payments.md#repo-vendurehq--vendure) | [Open Source](../topics/open-source.md#repo-vendurehq--vendure) | [Backend Development](../topics/backend-development.md#repo-vendurehq--vendure) | [API Development](../topics/api-development.md#repo-vendurehq--vendure) | [Frameworks](../topics/frameworks.md#repo-vendurehq--vendure)
 - **Kind:** Monorepo
 - **Best for:** Teams building configurable D2C, B2B, marketplace, or omnichannel commerce services.; Projects needing catalogs, orders, customers, promotions, tax, shipping, payments, and stock on one backend.
 - **Languages:** TypeScript

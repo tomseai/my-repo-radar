@@ -8,12 +8,14 @@
 
 - [AI and Automation](../categories/ai-and-automation.md) (4)
 
+<a id="repo-m-bain--whisperx"></a>
+
 ## [whisperX](https://github.com/m-bain/whisperX)
 
 A Python automatic speech-recognition tool that adds batched Whisper transcription, word-level alignment, voice-activity detection, and optional speaker diarization.
 
-- **Category:** [AI and Automation](../categories/ai-and-automation.md)
-- **Topics:** [Speech to Text](../topics/speech-to-text.md) | [Machine Learning](../topics/machine-learning.md) | [CLI](../topics/cli.md) | [Open Source](../topics/open-source.md)
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-m-bain--whisperx)
+- **Topics:** [Speech to Text](../topics/speech-to-text.md#repo-m-bain--whisperx) | [Machine Learning](../topics/machine-learning.md#repo-m-bain--whisperx) | [CLI](../topics/cli.md#repo-m-bain--whisperx) | [Open Source](../topics/open-source.md#repo-m-bain--whisperx)
 - **Kind:** CLI
 - **Best for:** Producing timestamped transcripts and subtitles from recorded audio; Python workflows that need speaker labels alongside Whisper transcription
 - **Languages:** Python
@@ -27,12 +29,14 @@ A Python automatic speech-recognition tool that adds batched Whisper transcripti
   - Word-level timestamps through wav2vec2 forced alignment
   - Voice-activity detection before transcription and batching
 
+<a id="repo-openai--whisper"></a>
+
 ## [Whisper](https://github.com/openai/whisper)
 
 A general-purpose Transformer speech-recognition model with Python and CLI tooling for multilingual transcription, translation into English, and language identification.
 
-- **Category:** [AI and Automation](../categories/ai-and-automation.md)
-- **Topics:** [Speech to Text](../topics/speech-to-text.md) | [Machine Learning](../topics/machine-learning.md) | [CLI](../topics/cli.md) | [Libraries](../topics/libraries.md) | [Open Source](../topics/open-source.md)
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-openai--whisper)
+- **Topics:** [Speech to Text](../topics/speech-to-text.md#repo-openai--whisper) | [Machine Learning](../topics/machine-learning.md#repo-openai--whisper) | [CLI](../topics/cli.md#repo-openai--whisper) | [Libraries](../topics/libraries.md#repo-openai--whisper) | [Open Source](../topics/open-source.md#repo-openai--whisper)
 - **Kind:** Model
 - **Best for:** Applications or scripts that need local multilingual speech transcription; Audio-processing workflows that need either a command line or Python API
 - **Languages:** Python
@@ -46,12 +50,14 @@ A general-purpose Transformer speech-recognition model with Python and CLI tooli
   - Six model sizes with documented speed, memory, and language-coverage tradeoffs
   - A Python API for loading models, transcribing audio, decoding, and language detection
 
+<a id="repo-pipecat-ai--pipecat"></a>
+
 ## [Pipecat](https://github.com/pipecat-ai/pipecat)
 
 An open-source Python framework for real-time voice and multimodal conversational agents, combining media pipelines, AI services, transports, structured conversations, and multi-agent coordination.
 
-- **Category:** [AI and Automation](../categories/ai-and-automation.md)
-- **Topics:** [AI Agents](../topics/ai-agents.md) | [Agent Frameworks](../topics/agent-frameworks.md) | [Multi Agent](../topics/multi-agent.md) | [LLMs](../topics/llms.md) | [Realtime](../topics/realtime.md) | [Multimodal](../topics/multimodal.md) | [Speech to Text](../topics/speech-to-text.md) | [MCP](../topics/mcp.md) | [Observability](../topics/observability.md)
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-pipecat-ai--pipecat)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-pipecat-ai--pipecat) | [Agent Frameworks](../topics/agent-frameworks.md#repo-pipecat-ai--pipecat) | [Multi Agent](../topics/multi-agent.md#repo-pipecat-ai--pipecat) | [LLMs](../topics/llms.md#repo-pipecat-ai--pipecat) | [Realtime](../topics/realtime.md#repo-pipecat-ai--pipecat) | [Multimodal](../topics/multimodal.md#repo-pipecat-ai--pipecat) | [Speech to Text](../topics/speech-to-text.md#repo-pipecat-ai--pipecat) | [MCP](../topics/mcp.md#repo-pipecat-ai--pipecat) | [Observability](../topics/observability.md#repo-pipecat-ai--pipecat)
 - **Kind:** Framework
 - **Best for:** Building production-oriented voice, video, or multimodal conversational agents; Composing specialist agents that hand off, fan out, or run across processes and machines
 - **Languages:** Python
@@ -65,12 +71,14 @@ An open-source Python framework for real-time voice and multimodal conversationa
   - Speech-to-text, LLM, text-to-speech, speech-to-speech, and vision service integrations
   - WebSocket and WebRTC transport options alongside telephony and local transports
 
+<a id="repo-southbridgeai--offmute"></a>
+
 ## [offmute](https://github.com/SouthBridgeAI/offmute)
 
 A TypeScript CLI and package that uses Google Gemini models to analyze meeting audio or video, produce speaker-labeled transcripts, and optionally generate structured reports with meeting context and action items.
 
-- **Category:** [AI and Automation](../categories/ai-and-automation.md)
-- **Topics:** [LLMs](../topics/llms.md) | [CLI](../topics/cli.md) | [Speech to Text](../topics/speech-to-text.md) | [Multimodal](../topics/multimodal.md) | [Automation](../topics/automation.md) | [Open Source](../topics/open-source.md)
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-southbridgeai--offmute)
+- **Topics:** [LLMs](../topics/llms.md#repo-southbridgeai--offmute) | [CLI](../topics/cli.md#repo-southbridgeai--offmute) | [Speech to Text](../topics/speech-to-text.md#repo-southbridgeai--offmute) | [Multimodal](../topics/multimodal.md#repo-southbridgeai--offmute) | [Automation](../topics/automation.md#repo-southbridgeai--offmute) | [Open Source](../topics/open-source.md#repo-southbridgeai--offmute)
 - **Kind:** CLI
 - **Best for:** Processing recorded meetings into transcripts and reports; Teams that can supply a Google Gemini API key and local ffmpeg
 - **Languages:** TypeScript

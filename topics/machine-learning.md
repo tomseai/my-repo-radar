@@ -11,12 +11,14 @@
 - [Documentation and Learning](../categories/documentation-and-learning.md) (8)
 - [Security and Privacy](../categories/security-and-privacy.md) (1)
 
+<a id="repo-babycommando--entity-db"></a>
+
 ## [EntityDB](https://github.com/babycommando/entity-db)
 
 A JavaScript browser library for persisting vector embeddings in IndexedDB and searching them locally, with optional text embedding through Transformers.js and experimental binary-vector query paths.
 
-- **Category:** [Data and Databases](../categories/data-and-databases.md)
-- **Topics:** [Databases](../topics/databases.md) | [Local First](../topics/local-first.md) | [Web](../topics/web.md) | [Machine Learning](../topics/machine-learning.md) | [Performance](../topics/performance.md)
+- **Category:** [Data and Databases](../categories/data-and-databases.md#repo-babycommando--entity-db)
+- **Topics:** [Databases](../topics/databases.md#repo-babycommando--entity-db) | [Local First](../topics/local-first.md#repo-babycommando--entity-db) | [Web](../topics/web.md#repo-babycommando--entity-db) | [Machine Learning](../topics/machine-learning.md#repo-babycommando--entity-db) | [Performance](../topics/performance.md#repo-babycommando--entity-db)
 - **Kind:** Library
 - **Best for:** Browser applications that need local vector storage without a server component; Prototypes or client-side search features that can use Transformers.js embeddings
 - **Languages:** JavaScript, WebAssembly
@@ -30,12 +32,14 @@ A JavaScript browser library for persisting vector embeddings in IndexedDB and s
   - Generates text embeddings with Transformers.js or accepts precomputed vectors
   - Queries dense vectors with cosine similarity
 
+<a id="repo-bragai--brag-langchain"></a>
+
 ## [bRAG-langchain](https://github.com/bragai/bRAG-langchain)
 
 A hands-on notebook course for learning retrieval-augmented generation (RAG), progressing from a basic customizable chatbot to routing, advanced indexing and retrieval, reranking, and scalable RAG techniques.
 
-- **Category:** [Documentation and Learning](../categories/documentation-and-learning.md)
-- **Topics:** [LLMs](../topics/llms.md) | [Machine Learning](../topics/machine-learning.md) | [Document Processing](../topics/document-processing.md) | [Tutorials](../topics/tutorials.md) | [Documentation](../topics/documentation.md)
+- **Category:** [Documentation and Learning](../categories/documentation-and-learning.md#repo-bragai--brag-langchain)
+- **Topics:** [LLMs](../topics/llms.md#repo-bragai--brag-langchain) | [Machine Learning](../topics/machine-learning.md#repo-bragai--brag-langchain) | [Document Processing](../topics/document-processing.md#repo-bragai--brag-langchain) | [Tutorials](../topics/tutorials.md#repo-bragai--brag-langchain) | [Documentation](../topics/documentation.md#repo-bragai--brag-langchain)
 - **Kind:** Course
 - **Best for:** Developers learning how RAG pipelines fit together through runnable notebooks; Practitioners adapting examples for a LangChain-based RAG prototype
 - **Languages:** Python, Jupyter Notebook
@@ -49,12 +53,14 @@ A hands-on notebook course for learning retrieval-augmented generation (RAG), pr
   - Includes a full basic RAG notebook with starter code for a customizable chatbot
   - Demonstrates multi-query retrieval, query routing, structured metadata filters, and vector-store integration
 
+<a id="repo-datalab-to--marker"></a>
+
 ## [marker](https://github.com/datalab-to/marker)
 
 A Python document-intelligence library and command-line converter that turns PDFs, images, office documents, HTML, and EPUB files into structured Markdown, JSON, chunks, or HTML while extracting document structure and images.
 
-- **Category:** [AI and Automation](../categories/ai-and-automation.md)
-- **Topics:** [Document Processing](../topics/document-processing.md) | [Machine Learning](../topics/machine-learning.md) | [CLI](../topics/cli.md) | [Data Processing](../topics/data-processing.md) | [LLMs](../topics/llms.md)
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-datalab-to--marker)
+- **Topics:** [Document Processing](../topics/document-processing.md#repo-datalab-to--marker) | [Machine Learning](../topics/machine-learning.md#repo-datalab-to--marker) | [CLI](../topics/cli.md#repo-datalab-to--marker) | [Data Processing](../topics/data-processing.md#repo-datalab-to--marker) | [LLMs](../topics/llms.md#repo-datalab-to--marker)
 - **Kind:** Library
 - **Best for:** Developers preparing heterogeneous documents for search, RAG, or data pipelines; Python users needing configurable document conversion with local or optional LLM assistance
 - **Languages:** Python
@@ -68,12 +74,14 @@ A Python document-intelligence library and command-line converter that turns PDF
   - Preserves or formats tables, forms, equations, math, links, references, code blocks, and extracted images
   - Provides CLI commands for individual files, directories, chunks, a Streamlit UI, and a small API server
 
+<a id="repo-datalab-to--surya"></a>
+
 ## [surya](https://github.com/datalab-to/surya)
 
 A Python-distributed multilingual document-understanding model suite for OCR, layout analysis and reading order, table recognition, text-line detection, and OCR-error detection on images and PDFs.
 
-- **Category:** [AI and Automation](../categories/ai-and-automation.md)
-- **Topics:** [Document Processing](../topics/document-processing.md) | [Machine Learning](../topics/machine-learning.md) | [CLI](../topics/cli.md) | [Libraries](../topics/libraries.md) | [Multimodal](../topics/multimodal.md)
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-datalab-to--surya)
+- **Topics:** [Document Processing](../topics/document-processing.md#repo-datalab-to--surya) | [Machine Learning](../topics/machine-learning.md#repo-datalab-to--surya) | [CLI](../topics/cli.md#repo-datalab-to--surya) | [Libraries](../topics/libraries.md#repo-datalab-to--surya) | [Multimodal](../topics/multimodal.md#repo-datalab-to--surya)
 - **Kind:** Model
 - **Best for:** Developers building local OCR and document-structure extraction into Python workflows; Users who can supply a supported GPU or CPU/Apple-Silicon inference backend
 - **Languages:** Python
@@ -87,12 +95,14 @@ A Python-distributed multilingual document-understanding model suite for OCR, la
   - Provides separate models for text-line detection and OCR-error detection
   - Accepts images, PDFs, and directories through task-specific CLI commands and writes structured JSON
 
+<a id="repo-georgezouq--awesome-ai-in-finance"></a>
+
 ## [Awesome AI in Finance](https://github.com/georgezouq/awesome-ai-in-finance)
 
 A curated directory of research, code, tools, courses, data sources, and trading-system resources for applying AI and machine learning in finance.
 
-- **Category:** [Documentation and Learning](../categories/documentation-and-learning.md)
-- **Topics:** [Curated Lists](../topics/curated-lists.md) | [Reference](../topics/reference.md) | [Machine Learning](../topics/machine-learning.md) | [LLMs](../topics/llms.md) | [AI Agents](../topics/ai-agents.md)
+- **Category:** [Documentation and Learning](../categories/documentation-and-learning.md#repo-georgezouq--awesome-ai-in-finance)
+- **Topics:** [Curated Lists](../topics/curated-lists.md#repo-georgezouq--awesome-ai-in-finance) | [Reference](../topics/reference.md#repo-georgezouq--awesome-ai-in-finance) | [Machine Learning](../topics/machine-learning.md#repo-georgezouq--awesome-ai-in-finance) | [LLMs](../topics/llms.md#repo-georgezouq--awesome-ai-in-finance) | [AI Agents](../topics/ai-agents.md#repo-georgezouq--awesome-ai-in-finance)
 - **Kind:** Curated List
 - **Best for:** Surveying AI, LLM, and machine-learning resources for financial-market work; Finding starting points for quantitative research, data, and trading infrastructure
 - **Languages:** Markdown
@@ -106,12 +116,14 @@ A curated directory of research, code, tools, courses, data sources, and trading
   - Research and strategy listings for time series, portfolio management, high-frequency trading, and arbitrage
   - Links to traditional-market and cryptocurrency data sources
 
+<a id="repo-google--magika"></a>
+
 ## [Magika](https://github.com/google/magika)
 
 A deep-learning file-content detector available as a Rust command-line tool and Python, Rust, JavaScript/TypeScript, and work-in-progress Go bindings, designed to classify files even when names or extensions mislead.
 
-- **Category:** [Security and Privacy](../categories/security-and-privacy.md)
-- **Topics:** [Machine Learning](../topics/machine-learning.md) | [CLI](../topics/cli.md) | [Libraries](../topics/libraries.md) | [Security](../topics/security.md) | [Data Processing](../topics/data-processing.md)
+- **Category:** [Security and Privacy](../categories/security-and-privacy.md#repo-google--magika)
+- **Topics:** [Machine Learning](../topics/machine-learning.md#repo-google--magika) | [CLI](../topics/cli.md#repo-google--magika) | [Libraries](../topics/libraries.md#repo-google--magika) | [Security](../topics/security.md#repo-google--magika) | [Data Processing](../topics/data-processing.md#repo-google--magika)
 - **Kind:** CLI
 - **Best for:** Routing untrusted files to suitable security or content-policy scanners; Adding content-type detection to Python, Rust, JavaScript, or CLI workflows
 - **Languages:** Rust, Python, TypeScript, Go
@@ -125,12 +137,14 @@ A deep-learning file-content detector available as a Rust command-line tool and 
   - Scans individual files, standard input, batches, or directories recursively
   - Emits human-readable, MIME-type, label, JSON, JSONL, score, or custom output
 
+<a id="repo-imagineailab--ai-by-hand-excel"></a>
+
 ## [AI by Hand: Exercises in Excel](https://github.com/ImagineAILab/ai-by-hand-excel)
 
 A collection of Excel workbooks for manually working through machine-learning and neural-network concepts, from dot products and softmax to transformers, Mamba, and AlphaFold.
 
-- **Category:** [Documentation and Learning](../categories/documentation-and-learning.md)
-- **Topics:** [Courses](../topics/courses.md) | [Tutorials](../topics/tutorials.md) | [Machine Learning](../topics/machine-learning.md)
+- **Category:** [Documentation and Learning](../categories/documentation-and-learning.md#repo-imagineailab--ai-by-hand-excel)
+- **Topics:** [Courses](../topics/courses.md#repo-imagineailab--ai-by-hand-excel) | [Tutorials](../topics/tutorials.md#repo-imagineailab--ai-by-hand-excel) | [Machine Learning](../topics/machine-learning.md#repo-imagineailab--ai-by-hand-excel)
 - **Kind:** Course
 - **Best for:** Learners who want to inspect model mechanics in spreadsheet exercises; Teaching or self-study that benefits from small, editable worked examples
 - **Languages:** Unknown
@@ -144,12 +158,14 @@ A collection of Excel workbooks for manually working through machine-learning an
   - Provides advanced workbooks for MLPs, backpropagation, RNNs, LSTMs, ResNet, attention, transformers, autoencoders, Mamba, and AlphaFold
   - Supplies a blank DeepSeek lecture workbook for multi-head latent attention and mixture-of-experts material
 
+<a id="repo-jim-schwoebel--awesome_ai_agents"></a>
+
 ## [Awesome AI Agents](https://github.com/jim-schwoebel/awesome_ai_agents)
 
 A large, community-contributed Markdown hub for finding, learning about, and building AI agents through categorized links to applications, repositories, courses, benchmarks, datasets, frameworks, models, tools, security resources, and workflows.
 
-- **Category:** [Documentation and Learning](../categories/documentation-and-learning.md)
-- **Topics:** [AI Agents](../topics/ai-agents.md) | [Agent Frameworks](../topics/agent-frameworks.md) | [LLMs](../topics/llms.md) | [Machine Learning](../topics/machine-learning.md) | [Curated Lists](../topics/curated-lists.md) | [Courses](../topics/courses.md)
+- **Category:** [Documentation and Learning](../categories/documentation-and-learning.md#repo-jim-schwoebel--awesome_ai_agents)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-jim-schwoebel--awesome_ai_agents) | [Agent Frameworks](../topics/agent-frameworks.md#repo-jim-schwoebel--awesome_ai_agents) | [LLMs](../topics/llms.md#repo-jim-schwoebel--awesome_ai_agents) | [Machine Learning](../topics/machine-learning.md#repo-jim-schwoebel--awesome_ai_agents) | [Curated Lists](../topics/curated-lists.md#repo-jim-schwoebel--awesome_ai_agents) | [Courses](../topics/courses.md#repo-jim-schwoebel--awesome_ai_agents)
 - **Kind:** Curated List
 - **Best for:** People seeking a broad starting point for AI-agent tools and learning resources; Builders who want links spanning agent applications, frameworks, evaluation material, and deployment resources
 - **Languages:** Markdown
@@ -163,12 +179,14 @@ A large, community-contributed Markdown hub for finding, learning about, and bui
   - Lists agent applications across many task and industry categories
   - Curates repositories, courses, benchmarks, datasets, frameworks, LLM models, and prompt-engineering material
 
+<a id="repo-m-bain--whisperx"></a>
+
 ## [whisperX](https://github.com/m-bain/whisperX)
 
 A Python automatic speech-recognition tool that adds batched Whisper transcription, word-level alignment, voice-activity detection, and optional speaker diarization.
 
-- **Category:** [AI and Automation](../categories/ai-and-automation.md)
-- **Topics:** [Speech to Text](../topics/speech-to-text.md) | [Machine Learning](../topics/machine-learning.md) | [CLI](../topics/cli.md) | [Open Source](../topics/open-source.md)
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-m-bain--whisperx)
+- **Topics:** [Speech to Text](../topics/speech-to-text.md#repo-m-bain--whisperx) | [Machine Learning](../topics/machine-learning.md#repo-m-bain--whisperx) | [CLI](../topics/cli.md#repo-m-bain--whisperx) | [Open Source](../topics/open-source.md#repo-m-bain--whisperx)
 - **Kind:** CLI
 - **Best for:** Producing timestamped transcripts and subtitles from recorded audio; Python workflows that need speaker labels alongside Whisper transcription
 - **Languages:** Python
@@ -182,12 +200,14 @@ A Python automatic speech-recognition tool that adds batched Whisper transcripti
   - Word-level timestamps through wav2vec2 forced alignment
   - Voice-activity detection before transcription and batching
 
+<a id="repo-mahseema--awesome-ai-tools"></a>
+
 ## [Awesome AI Tools](https://github.com/mahseema/awesome-ai-tools)
 
 A Markdown directory of AI products and learning resources, grouped around text, code, image, video, audio, marketing, phone, and general-purpose tools.
 
-- **Category:** [Documentation and Learning](../categories/documentation-and-learning.md)
-- **Topics:** [Curated Lists](../topics/curated-lists.md) | [Reference](../topics/reference.md) | [LLMs](../topics/llms.md) | [Machine Learning](../topics/machine-learning.md) | [Code Generation](../topics/code-generation.md)
+- **Category:** [Documentation and Learning](../categories/documentation-and-learning.md#repo-mahseema--awesome-ai-tools)
+- **Topics:** [Curated Lists](../topics/curated-lists.md#repo-mahseema--awesome-ai-tools) | [Reference](../topics/reference.md#repo-mahseema--awesome-ai-tools) | [LLMs](../topics/llms.md#repo-mahseema--awesome-ai-tools) | [Machine Learning](../topics/machine-learning.md#repo-mahseema--awesome-ai-tools) | [Code Generation](../topics/code-generation.md#repo-mahseema--awesome-ai-tools)
 - **Kind:** Curated List
 - **Best for:** Browsing categorized references to discover AI tools and models; Finding AI-focused developer and learning-resource lists
 - **Languages:** Markdown
@@ -201,12 +221,14 @@ A Markdown directory of AI products and learning resources, grouped around text,
   - Sections for language models and chatbots, code assistants, and image or video generation
   - Separate voice-cloning, music-generation, marketing, phone-agent, and learning-resource sections
 
+<a id="repo-microsoft--ai-for-beginners"></a>
+
 ## [Artificial Intelligence for Beginners](https://github.com/microsoft/AI-For-Beginners)
 
 A beginner-friendly, 12-week curriculum of AI lessons, executable notebooks, quizzes, and selected practical labs.
 
-- **Category:** [Documentation and Learning](../categories/documentation-and-learning.md)
-- **Topics:** [Courses](../topics/courses.md) | [Tutorials](../topics/tutorials.md) | [Machine Learning](../topics/machine-learning.md) | [Documentation](../topics/documentation.md) | [Open Source](../topics/open-source.md)
+- **Category:** [Documentation and Learning](../categories/documentation-and-learning.md#repo-microsoft--ai-for-beginners)
+- **Topics:** [Courses](../topics/courses.md#repo-microsoft--ai-for-beginners) | [Tutorials](../topics/tutorials.md#repo-microsoft--ai-for-beginners) | [Machine Learning](../topics/machine-learning.md#repo-microsoft--ai-for-beginners) | [Documentation](../topics/documentation.md#repo-microsoft--ai-for-beginners) | [Open Source](../topics/open-source.md#repo-microsoft--ai-for-beginners)
 - **Kind:** Course
 - **Best for:** Learners seeking a structured introduction to AI concepts and neural networks; Educators adapting an open curriculum with hands-on notebook material
 - **Languages:** Jupyter Notebook, Python, JavaScript
@@ -220,12 +242,14 @@ A beginner-friendly, 12-week curriculum of AI lessons, executable notebooks, qui
   - Framework-specific executable notebooks for TensorFlow and PyTorch, plus selected labs
   - Short beginner examples for pattern recognition, neural networks, image classification, and sentiment analysis
 
+<a id="repo-microsoft--omniparser"></a>
+
 ## [OmniParser](https://github.com/microsoft/OmniParser)
 
 A Python-based screen-parsing project that turns UI screenshots into structured, understandable elements for vision-based GUI agents, with demos, model checkpoints, and OmniTool support for controlling a Windows 11 virtual machine.
 
-- **Category:** [AI and Automation](../categories/ai-and-automation.md)
-- **Topics:** [AI Agents](../topics/ai-agents.md) | [Computer Use](../topics/computer-use.md) | [Multimodal](../topics/multimodal.md) | [Machine Learning](../topics/machine-learning.md) | [Desktop App](../topics/desktop-app.md) | [Open Source](../topics/open-source.md)
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-microsoft--omniparser)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-microsoft--omniparser) | [Computer Use](../topics/computer-use.md#repo-microsoft--omniparser) | [Multimodal](../topics/multimodal.md#repo-microsoft--omniparser) | [Machine Learning](../topics/machine-learning.md#repo-microsoft--omniparser) | [Desktop App](../topics/desktop-app.md#repo-microsoft--omniparser) | [Open Source](../topics/open-source.md#repo-microsoft--omniparser)
 - **Kind:** Other
 - **Best for:** Researchers and developers building vision-based GUI-agent or computer-use workflows; Experimenting with screenshot grounding before integrating a chosen vision model or agent
 - **Languages:** Python, Jupyter Notebook
@@ -239,12 +263,14 @@ A Python-based screen-parsing project that turns UI screenshots into structured,
   - Provides version 2 model checkpoint instructions and a Gradio demonstration
   - Includes notebooks with simple examples
 
+<a id="repo-openai--whisper"></a>
+
 ## [Whisper](https://github.com/openai/whisper)
 
 A general-purpose Transformer speech-recognition model with Python and CLI tooling for multilingual transcription, translation into English, and language identification.
 
-- **Category:** [AI and Automation](../categories/ai-and-automation.md)
-- **Topics:** [Speech to Text](../topics/speech-to-text.md) | [Machine Learning](../topics/machine-learning.md) | [CLI](../topics/cli.md) | [Libraries](../topics/libraries.md) | [Open Source](../topics/open-source.md)
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-openai--whisper)
+- **Topics:** [Speech to Text](../topics/speech-to-text.md#repo-openai--whisper) | [Machine Learning](../topics/machine-learning.md#repo-openai--whisper) | [CLI](../topics/cli.md#repo-openai--whisper) | [Libraries](../topics/libraries.md#repo-openai--whisper) | [Open Source](../topics/open-source.md#repo-openai--whisper)
 - **Kind:** Model
 - **Best for:** Applications or scripts that need local multilingual speech transcription; Audio-processing workflows that need either a command line or Python API
 - **Languages:** Python
@@ -258,12 +284,14 @@ A general-purpose Transformer speech-recognition model with Python and CLI tooli
   - Six model sizes with documented speed, memory, and language-coverage tradeoffs
   - A Python API for loading models, transcribing audio, decoding, and language detection
 
+<a id="repo-paddlepaddle--paddleocr"></a>
+
 ## [PaddleOCR](https://github.com/PaddlePaddle/PaddleOCR)
 
 A Python-centered OCR and document-understanding toolkit that converts images and PDF documents into structured outputs such as JSON and Markdown. It includes scene OCR, document parsing, vision-language models, deployment material, SDKs, and an MCP server.
 
-- **Category:** [AI and Automation](../categories/ai-and-automation.md)
-- **Topics:** [Document Processing](../topics/document-processing.md) | [Machine Learning](../topics/machine-learning.md) | [Multimodal](../topics/multimodal.md) | [MCP](../topics/mcp.md) | [Data Processing](../topics/data-processing.md) | [API Development](../topics/api-development.md) | [Open Source](../topics/open-source.md)
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-paddlepaddle--paddleocr)
+- **Topics:** [Document Processing](../topics/document-processing.md#repo-paddlepaddle--paddleocr) | [Machine Learning](../topics/machine-learning.md#repo-paddlepaddle--paddleocr) | [Multimodal](../topics/multimodal.md#repo-paddlepaddle--paddleocr) | [MCP](../topics/mcp.md#repo-paddlepaddle--paddleocr) | [Data Processing](../topics/data-processing.md#repo-paddlepaddle--paddleocr) | [API Development](../topics/api-development.md#repo-paddlepaddle--paddleocr) | [Open Source](../topics/open-source.md#repo-paddlepaddle--paddleocr)
 - **Kind:** Framework
 - **Best for:** Developers extracting text and structure from images or PDF documents for downstream applications; Teams preparing document data for RAG, LLM, or agent workflows with local or hosted inference options
 - **Languages:** Python, TypeScript, Go, Java, Kotlin
@@ -277,12 +305,14 @@ A Python-centered OCR and document-understanding toolkit that converts images an
   - Produces structured document outputs including Markdown, JSON, and coordinate-rich results
   - Includes PaddleOCR-VL document vision-language models for tables, formulas, charts, and text
 
+<a id="repo-rohitg00--ai-engineering-from-scratch"></a>
+
 ## [AI Engineering from Scratch](https://github.com/rohitg00/ai-engineering-from-scratch)
 
 A self-paced, from-scratch AI-engineering curriculum spanning mathematics, machine learning, LLMs, agents, production systems, safety, and capstones.
 
-- **Category:** [Documentation and Learning](../categories/documentation-and-learning.md)
-- **Topics:** [Courses](../topics/courses.md) | [Tutorials](../topics/tutorials.md) | [Machine Learning](../topics/machine-learning.md) | [LLMs](../topics/llms.md) | [AI Agents](../topics/ai-agents.md) | [MCP](../topics/mcp.md) | [Multi Agent](../topics/multi-agent.md)
+- **Category:** [Documentation and Learning](../categories/documentation-and-learning.md#repo-rohitg00--ai-engineering-from-scratch)
+- **Topics:** [Courses](../topics/courses.md#repo-rohitg00--ai-engineering-from-scratch) | [Tutorials](../topics/tutorials.md#repo-rohitg00--ai-engineering-from-scratch) | [Machine Learning](../topics/machine-learning.md#repo-rohitg00--ai-engineering-from-scratch) | [LLMs](../topics/llms.md#repo-rohitg00--ai-engineering-from-scratch) | [AI Agents](../topics/ai-agents.md#repo-rohitg00--ai-engineering-from-scratch) | [MCP](../topics/mcp.md#repo-rohitg00--ai-engineering-from-scratch) | [Multi Agent](../topics/multi-agent.md#repo-rohitg00--ai-engineering-from-scratch)
 - **Kind:** Course
 - **Best for:** Developers seeking a structured, implementation-first route into AI engineering; Engineers who want focused LLM, agent, MCP, or production-system learning tracks
 - **Languages:** Python, TypeScript, Rust, Julia
@@ -296,12 +326,14 @@ A self-paced, from-scratch AI-engineering curriculum spanning mathematics, machi
   - A repeatable lesson structure: concept, raw implementation, production-library use, and a reusable output
   - Coverage of vision, NLP, speech, transformers, generative AI, reinforcement learning, LLM engineering, and safety
 
+<a id="repo-zslucky--awesome-ai-books"></a>
+
 ## [Awesome AI books](https://github.com/zslucky/awesome-AI-books)
 
 A curated README-based collection of AI reading links, books, papers, research organizations, training environments, and selected notebooks.
 
-- **Category:** [Documentation and Learning](../categories/documentation-and-learning.md)
-- **Topics:** [Curated Lists](../topics/curated-lists.md) | [Documentation](../topics/documentation.md) | [Reference](../topics/reference.md) | [Tutorials](../topics/tutorials.md) | [Machine Learning](../topics/machine-learning.md) | [LLMs](../topics/llms.md)
+- **Category:** [Documentation and Learning](../categories/documentation-and-learning.md#repo-zslucky--awesome-ai-books)
+- **Topics:** [Curated Lists](../topics/curated-lists.md#repo-zslucky--awesome-ai-books) | [Documentation](../topics/documentation.md#repo-zslucky--awesome-ai-books) | [Reference](../topics/reference.md#repo-zslucky--awesome-ai-books) | [Tutorials](../topics/tutorials.md#repo-zslucky--awesome-ai-books) | [Machine Learning](../topics/machine-learning.md#repo-zslucky--awesome-ai-books) | [LLMs](../topics/llms.md#repo-zslucky--awesome-ai-books)
 - **Kind:** Curated List
 - **Best for:** Finding introductory and reference material across AI and machine learning subjects; Browsing learning links for reinforcement learning, deep learning, quantum AI, and related areas
 - **Languages:** Jupyter Notebook

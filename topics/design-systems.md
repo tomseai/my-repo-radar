@@ -9,12 +9,14 @@
 - [AI and Automation](../categories/ai-and-automation.md) (1)
 - [Frontend and Design](../categories/frontend-and-design.md) (6)
 
+<a id="repo-carmahhawwari--ui-design-brain"></a>
+
 ## [UI Design Brain](https://github.com/carmahhawwari/ui-design-brain)
 
 A Cursor skill and Markdown knowledge pack for AI-assisted UI development, supplying component-specific best practices, layout patterns, aliases, accessibility guidance, design directions, and anti-patterns for more than 60 interface components.
 
-- **Category:** [AI and Automation](../categories/ai-and-automation.md)
-- **Topics:** [AI Agents](../topics/ai-agents.md) | [Agent Skills](../topics/agent-skills.md) | [Code Generation](../topics/code-generation.md) | [Design Systems](../topics/design-systems.md) | [Accessibility](../topics/accessibility.md) | [Frontend Development](../topics/frontend-development.md)
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-carmahhawwari--ui-design-brain)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-carmahhawwari--ui-design-brain) | [Agent Skills](../topics/agent-skills.md#repo-carmahhawwari--ui-design-brain) | [Code Generation](../topics/code-generation.md#repo-carmahhawwari--ui-design-brain) | [Design Systems](../topics/design-systems.md#repo-carmahhawwari--ui-design-brain) | [Accessibility](../topics/accessibility.md#repo-carmahhawwari--ui-design-brain) | [Frontend Development](../topics/frontend-development.md#repo-carmahhawwari--ui-design-brain)
 - **Kind:** Plugin
 - **Best for:** Cursor users who want reusable UI design guidance applied while generating interfaces; Teams sharing component and layout conventions through a project-local Cursor skill
 - **Languages:** Unknown
@@ -28,12 +30,14 @@ A Cursor skill and Markdown knowledge pack for AI-assisted UI development, suppl
   - Component best practices, common layouts, aliases, and anti-patterns
   - Accessibility guidance including focus, ARIA, and keyboard-navigation considerations
 
+<a id="repo-leonxlnx--taste-skill"></a>
+
 ## [Taste Skill](https://github.com/Leonxlnx/taste-skill)
 
 A collection of portable agent-skill instruction files for improving the visual design and implementation of AI-generated frontend interfaces.
 
-- **Category:** [Frontend and Design](../categories/frontend-and-design.md)
-- **Topics:** [AI Agents](../topics/ai-agents.md) | [Agent Skills](../topics/agent-skills.md) | [Frontend Development](../topics/frontend-development.md) | [Code Generation](../topics/code-generation.md) | [Design Systems](../topics/design-systems.md)
+- **Category:** [Frontend and Design](../categories/frontend-and-design.md#repo-leonxlnx--taste-skill)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-leonxlnx--taste-skill) | [Agent Skills](../topics/agent-skills.md#repo-leonxlnx--taste-skill) | [Frontend Development](../topics/frontend-development.md#repo-leonxlnx--taste-skill) | [Code Generation](../topics/code-generation.md#repo-leonxlnx--taste-skill) | [Design Systems](../topics/design-systems.md#repo-leonxlnx--taste-skill)
 - **Kind:** Library
 - **Best for:** Developers directing coding agents to build or redesign web interfaces; Teams that want selectable visual-design guidance and image-to-code workflows
 - **Languages:** Markdown, JavaScript
@@ -47,12 +51,14 @@ A collection of portable agent-skill instruction files for improving the visual 
   - Provides specialized skills for existing-project redesign, image-to-code implementation, and visual styles such as soft, minimalist, and brutalist
   - Includes image-generation skills for web comps, mobile screens, and brand-kit reference boards
 
+<a id="repo-nexu-io--open-design"></a>
+
 ## [Open Design](https://github.com/nexu-io/open-design)
 
 A local-first desktop design workspace that uses coding agents, skills, and design systems to generate, preview, and export code-based design artifacts.
 
-- **Category:** [Frontend and Design](../categories/frontend-and-design.md)
-- **Topics:** [Desktop App](../topics/desktop-app.md) | [Design Systems](../topics/design-systems.md) | [Code Generation](../topics/code-generation.md) | [Coding Agents](../topics/coding-agents.md) | [MCP](../topics/mcp.md) | [Local First](../topics/local-first.md)
+- **Category:** [Frontend and Design](../categories/frontend-and-design.md#repo-nexu-io--open-design)
+- **Topics:** [Desktop App](../topics/desktop-app.md#repo-nexu-io--open-design) | [Design Systems](../topics/design-systems.md#repo-nexu-io--open-design) | [Code Generation](../topics/code-generation.md#repo-nexu-io--open-design) | [Coding Agents](../topics/coding-agents.md#repo-nexu-io--open-design) | [MCP](../topics/mcp.md#repo-nexu-io--open-design) | [Local First](../topics/local-first.md#repo-nexu-io--open-design)
 - **Kind:** Application
 - **Best for:** Designers and developers prototyping interface artifacts with a local coding agent; Teams that want reusable DESIGN.md-based brand and design-system inputs
 - **Languages:** TypeScript, JavaScript
@@ -66,12 +72,14 @@ A local-first desktop design workspace that uses coding agents, skills, and desi
   - Previews HTML artifacts in a sandboxed iframe and exports HTML, PDF, PPTX, or MP4
   - Supplies skills, design systems, plugins, a CLI, and an MCP server
 
+<a id="repo-pbakaus--impeccable"></a>
+
 ## [Impeccable](https://github.com/pbakaus/impeccable)
 
 A design skill and command suite for AI coding tools, paired with browser iteration and a standalone CLI that detects deterministic frontend anti-patterns in source files, directories, and URLs.
 
-- **Category:** [Frontend and Design](../categories/frontend-and-design.md)
-- **Topics:** [Coding Agents](../topics/coding-agents.md) | [Agent Skills](../topics/agent-skills.md) | [Frontend Development](../topics/frontend-development.md) | [Design Systems](../topics/design-systems.md) | [Accessibility](../topics/accessibility.md) | [CLI](../topics/cli.md)
+- **Category:** [Frontend and Design](../categories/frontend-and-design.md#repo-pbakaus--impeccable)
+- **Topics:** [Coding Agents](../topics/coding-agents.md#repo-pbakaus--impeccable) | [Agent Skills](../topics/agent-skills.md#repo-pbakaus--impeccable) | [Frontend Development](../topics/frontend-development.md#repo-pbakaus--impeccable) | [Design Systems](../topics/design-systems.md#repo-pbakaus--impeccable) | [Accessibility](../topics/accessibility.md#repo-pbakaus--impeccable) | [CLI](../topics/cli.md#repo-pbakaus--impeccable)
 - **Kind:** Plugin
 - **Best for:** Teams guiding AI coding agents toward an established frontend design language; Reviewing generated interface code for repeatable design and accessibility issues
 - **Languages:** JavaScript
@@ -85,12 +93,14 @@ A design skill and command suite for AI coding tools, paired with browser iterat
   - Project design context through PRODUCT.md and optional DESIGN.md
   - Standalone CLI detector for directories, HTML files, URLs, and JSON output
 
+<a id="repo-spartan-ng--spartan"></a>
+
 ## [spartan](https://github.com/spartan-ng/spartan)
 
 An Angular monorepo for accessible headless UI primitives, copy-paste shadcn-style components, workspace tooling, and an optional full-stack setup.
 
-- **Category:** [Frontend and Design](../categories/frontend-and-design.md)
-- **Topics:** [Frontend Development](../topics/frontend-development.md) | [UI Components](../topics/ui-components.md) | [Design Systems](../topics/design-systems.md) | [Accessibility](../topics/accessibility.md) | [CLI](../topics/cli.md) | [MCP](../topics/mcp.md)
+- **Category:** [Frontend and Design](../categories/frontend-and-design.md#repo-spartan-ng--spartan)
+- **Topics:** [Frontend Development](../topics/frontend-development.md#repo-spartan-ng--spartan) | [UI Components](../topics/ui-components.md#repo-spartan-ng--spartan) | [Design Systems](../topics/design-systems.md#repo-spartan-ng--spartan) | [Accessibility](../topics/accessibility.md#repo-spartan-ng--spartan) | [CLI](../topics/cli.md#repo-spartan-ng--spartan) | [MCP](../topics/mcp.md#repo-spartan-ng--spartan)
 - **Kind:** Monorepo
 - **Best for:** Angular teams building accessible, customizable component interfaces; Nx or Angular workspaces that want generated spartan UI integration
 - **Languages:** TypeScript
@@ -104,12 +114,14 @@ An Angular monorepo for accessible headless UI primitives, copy-paste shadcn-sty
   - Headless, accessible behavior primitives in @spartan-ng/brain
   - Copy-paste helm styles that remain owned by the application
 
+<a id="repo-swyxio--spark-joy"></a>
+
 ## [Spark Joy](https://github.com/swyxio/spark-joy)
 
 A large, hand-curated README index of resources for adding visual flair, usability, and whimsy to product interfaces, spanning web design, CSS, typography, graphics, interaction, and design inspiration.
 
-- **Category:** [Frontend and Design](../categories/frontend-and-design.md)
-- **Topics:** [Curated Lists](../topics/curated-lists.md) | [Frontend Development](../topics/frontend-development.md) | [Web](../topics/web.md) | [UI Components](../topics/ui-components.md) | [Design Systems](../topics/design-systems.md) | [Accessibility](../topics/accessibility.md) | [Visualization](../topics/visualization.md) | [Reference](../topics/reference.md)
+- **Category:** [Frontend and Design](../categories/frontend-and-design.md#repo-swyxio--spark-joy)
+- **Topics:** [Curated Lists](../topics/curated-lists.md#repo-swyxio--spark-joy) | [Frontend Development](../topics/frontend-development.md#repo-swyxio--spark-joy) | [Web](../topics/web.md#repo-swyxio--spark-joy) | [UI Components](../topics/ui-components.md#repo-swyxio--spark-joy) | [Design Systems](../topics/design-systems.md#repo-swyxio--spark-joy) | [Accessibility](../topics/accessibility.md#repo-swyxio--spark-joy) | [Visualization](../topics/visualization.md#repo-swyxio--spark-joy) | [Reference](../topics/reference.md#repo-swyxio--spark-joy)
 - **Kind:** Curated List
 - **Best for:** Designers and frontend developers collecting interface and visual-design references; Product teams looking for inspiration or a starting point for specific UI details
 - **Languages:** Markdown
@@ -123,12 +135,14 @@ A large, hand-curated README index of resources for adding visual flair, usabili
   - Covers icons, diagrams, illustrations, stock media, and SVG or graphics tools
   - Includes references for form controls, charts, dashboards, and React components
 
+<a id="repo-vercel--ai-elements"></a>
+
 ## [AI Elements](https://github.com/vercel/ai-elements)
 
 A shadcn/ui-based React component library and registry for adding customizable conversation, message, code, reasoning, and other AI interface elements to Next.js applications.
 
-- **Category:** [Frontend and Design](../categories/frontend-and-design.md)
-- **Topics:** [LLMs](../topics/llms.md) | [Chat UI](../topics/chat-ui.md) | [UI Components](../topics/ui-components.md) | [Design Systems](../topics/design-systems.md) | [Frontend Development](../topics/frontend-development.md) | [Libraries](../topics/libraries.md) | [Open Source](../topics/open-source.md)
+- **Category:** [Frontend and Design](../categories/frontend-and-design.md#repo-vercel--ai-elements)
+- **Topics:** [LLMs](../topics/llms.md#repo-vercel--ai-elements) | [Chat UI](../topics/chat-ui.md#repo-vercel--ai-elements) | [UI Components](../topics/ui-components.md#repo-vercel--ai-elements) | [Design Systems](../topics/design-systems.md#repo-vercel--ai-elements) | [Frontend Development](../topics/frontend-development.md#repo-vercel--ai-elements) | [Libraries](../topics/libraries.md#repo-vercel--ai-elements) | [Open Source](../topics/open-source.md#repo-vercel--ai-elements)
 - **Kind:** Library
 - **Best for:** Teams building a customizable chat or generative-AI interface with Next.js; Projects that already use shadcn/ui, Tailwind CSS, and the AI SDK
 - **Languages:** TypeScript

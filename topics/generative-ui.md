@@ -10,12 +10,14 @@
 - [Documentation and Learning](../categories/documentation-and-learning.md) (2)
 - [Frontend and Design](../categories/frontend-and-design.md) (2)
 
+<a id="repo-ag-ui-protocol--ag-ui"></a>
+
 ## [AG-UI](https://github.com/ag-ui-protocol/ag-ui)
 
 An open event-based protocol and reference implementation for connecting AI-agent backends to interactive user-facing applications.
 
-- **Category:** [AI and Automation](../categories/ai-and-automation.md)
-- **Topics:** [AI Agents](../topics/ai-agents.md) | [Agent Protocols](../topics/agent-protocols.md) | [Realtime](../topics/realtime.md) | [Generative UI](../topics/generative-ui.md) | [Tool Use](../topics/tool-use.md) | [MCP](../topics/mcp.md)
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-ag-ui-protocol--ag-ui)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-ag-ui-protocol--ag-ui) | [Agent Protocols](../topics/agent-protocols.md#repo-ag-ui-protocol--ag-ui) | [Realtime](../topics/realtime.md#repo-ag-ui-protocol--ag-ui) | [Generative UI](../topics/generative-ui.md#repo-ag-ui-protocol--ag-ui) | [Tool Use](../topics/tool-use.md#repo-ag-ui-protocol--ag-ui) | [MCP](../topics/mcp.md#repo-ag-ui-protocol--ag-ui)
 - **Kind:** Protocol
 - **Best for:** Teams adding real-time agent interactions to frontend applications; Builders of interoperable agent clients, server adapters, and middleware
 - **Languages:** TypeScript, Python
@@ -29,12 +31,14 @@ An open event-based protocol and reference implementation for connecting AI-agen
   - Streaming chat, bidirectional state synchronization, and context enrichment
   - Generative UI, structured messages, frontend tools, and human-in-the-loop flows
 
+<a id="repo-assistant-ui--assistant-ui"></a>
+
 ## [assistant-ui](https://github.com/assistant-ui/assistant-ui)
 
 A TypeScript and React library for composing production AI chat interfaces from UI primitives and runtime adapters.
 
-- **Category:** [Frontend and Design](../categories/frontend-and-design.md)
-- **Topics:** [Chat UI](../topics/chat-ui.md) | [Generative UI](../topics/generative-ui.md) | [UI Components](../topics/ui-components.md) | [LLMs](../topics/llms.md) | [Tool Use](../topics/tool-use.md) | [Web UI](../topics/web-ui.md)
+- **Category:** [Frontend and Design](../categories/frontend-and-design.md#repo-assistant-ui--assistant-ui)
+- **Topics:** [Chat UI](../topics/chat-ui.md#repo-assistant-ui--assistant-ui) | [Generative UI](../topics/generative-ui.md#repo-assistant-ui--assistant-ui) | [UI Components](../topics/ui-components.md#repo-assistant-ui--assistant-ui) | [LLMs](../topics/llms.md#repo-assistant-ui--assistant-ui) | [Tool Use](../topics/tool-use.md#repo-assistant-ui--assistant-ui) | [Web UI](../topics/web-ui.md#repo-assistant-ui--assistant-ui)
 - **Kind:** Library
 - **Best for:** React teams building custom AI chat or copilot experiences; Projects that need to connect a chat UI to the AI SDK, agent frameworks, or a custom backend
 - **Languages:** TypeScript
@@ -48,12 +52,14 @@ A TypeScript and React library for composing production AI chat interfaces from 
   - Styled Base UI or Radix UI starter components installed by its CLI
   - Streaming chat UX with retries, attachments, markdown, code highlighting, voice dictation, and accessibility
 
+<a id="repo-copilotkit--copilotkit"></a>
+
 ## [CopilotKit](https://github.com/CopilotKit/CopilotKit)
 
 A multi-platform framework for adding agent-driven chat, generative UI, shared state, and approval workflows to application front ends.
 
-- **Category:** [AI and Automation](../categories/ai-and-automation.md)
-- **Topics:** [AI Agents](../topics/ai-agents.md) | [Chat UI](../topics/chat-ui.md) | [Generative UI](../topics/generative-ui.md) | [Agent Protocols](../topics/agent-protocols.md) | [Web UI](../topics/web-ui.md) | [Web](../topics/web.md)
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-copilotkit--copilotkit)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-copilotkit--copilotkit) | [Chat UI](../topics/chat-ui.md#repo-copilotkit--copilotkit) | [Generative UI](../topics/generative-ui.md#repo-copilotkit--copilotkit) | [Agent Protocols](../topics/agent-protocols.md#repo-copilotkit--copilotkit) | [Web UI](../topics/web-ui.md#repo-copilotkit--copilotkit) | [Web](../topics/web.md#repo-copilotkit--copilotkit)
 - **Kind:** Framework
 - **Best for:** Product teams building agent-facing web or mobile application interfaces; Teams that need one agent interaction model across supported front-end surfaces
 - **Languages:** TypeScript, Python
@@ -67,12 +73,14 @@ A multi-platform framework for adding agent-driven chat, generative UI, shared s
   - Renders agent-selected or dynamically updated UI components in the client
   - Synchronizes application state that agents and UI components can both update in real time
 
+<a id="repo-copilotkit--generative-ui"></a>
+
 ## [generative-ui](https://github.com/CopilotKit/generative-ui)
 
 A conceptual guide and set of examples that compares controlled, declarative, and open-ended generative UI patterns for agentic apps.
 
-- **Category:** [Documentation and Learning](../categories/documentation-and-learning.md)
-- **Topics:** [AI Agents](../topics/ai-agents.md) | [Generative UI](../topics/generative-ui.md) | [Agent Protocols](../topics/agent-protocols.md) | [MCP](../topics/mcp.md) | [Documentation](../topics/documentation.md) | [Reference](../topics/reference.md) | [Web](../topics/web.md)
+- **Category:** [Documentation and Learning](../categories/documentation-and-learning.md#repo-copilotkit--generative-ui)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-copilotkit--generative-ui) | [Generative UI](../topics/generative-ui.md#repo-copilotkit--generative-ui) | [Agent Protocols](../topics/agent-protocols.md#repo-copilotkit--generative-ui) | [MCP](../topics/mcp.md#repo-copilotkit--generative-ui) | [Documentation](../topics/documentation.md#repo-copilotkit--generative-ui) | [Reference](../topics/reference.md#repo-copilotkit--generative-ui) | [Web](../topics/web.md#repo-copilotkit--generative-ui)
 - **Kind:** Documentation
 - **Best for:** Developers choosing a generative UI pattern or agent-to-application protocol; Learners who want implementation-oriented examples for CopilotKit-based generative UI
 - **Languages:** Unknown
@@ -86,12 +94,14 @@ A conceptual guide and set of examples that compares controlled, declarative, an
   - Describes declarative UI with A2UI and Open-JSON-UI structured specifications
   - Covers open-ended UI through MCP Apps and a separate useComponent approach
 
+<a id="repo-copilotkit--opengenerativeui"></a>
+
 ## [Open Generative UI](https://github.com/CopilotKit/OpenGenerativeUI)
 
 A CopilotKit and LangGraph showcase/template for agent-driven web interfaces, including streamed sandboxed HTML/SVG widgets and registered React components.
 
-- **Category:** [Frontend and Design](../categories/frontend-and-design.md)
-- **Topics:** [AI Agents](../topics/ai-agents.md) | [Generative UI](../topics/generative-ui.md) | [Web UI](../topics/web-ui.md) | [MCP](../topics/mcp.md) | [Tool Use](../topics/tool-use.md) | [Visualization](../topics/visualization.md)
+- **Category:** [Frontend and Design](../categories/frontend-and-design.md#repo-copilotkit--opengenerativeui)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-copilotkit--opengenerativeui) | [Generative UI](../topics/generative-ui.md#repo-copilotkit--opengenerativeui) | [Web UI](../topics/web-ui.md#repo-copilotkit--opengenerativeui) | [MCP](../topics/mcp.md#repo-copilotkit--opengenerativeui) | [Tool Use](../topics/tool-use.md#repo-copilotkit--opengenerativeui) | [Visualization](../topics/visualization.md#repo-copilotkit--opengenerativeui)
 - **Kind:** Starter Template
 - **Best for:** Developers exploring agent-generated interactive interfaces in a Next.js application; Teams adapting CopilotKit and LangGraph patterns for stateful generative UI
 - **Languages:** TypeScript, Python
@@ -105,12 +115,14 @@ A CopilotKit and LangGraph showcase/template for agent-driven web interfaces, in
   - Registers agent-rendered React components, browser-side tools, tool renderers, and human-in-the-loop UI
   - Runs a Next.js frontend with a Python FastAPI/LangGraph agent service
 
+<a id="repo-liveloveapp--hashbrown"></a>
+
 ## [hashbrown](https://github.com/liveloveapp/hashbrown)
 
 A TypeScript framework of core, React, Angular, and provider packages for adding streaming LLM features, structured results, tool calls, generated UI, and code execution to web applications.
 
-- **Category:** [AI and Automation](../categories/ai-and-automation.md)
-- **Topics:** [AI Agents](../topics/ai-agents.md) | [Agent Frameworks](../topics/agent-frameworks.md) | [LLMs](../topics/llms.md) | [Code Generation](../topics/code-generation.md) | [Generative UI](../topics/generative-ui.md) | [Multi Provider](../topics/multi-provider.md) | [Frontend Development](../topics/frontend-development.md) | [UI Components](../topics/ui-components.md)
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-liveloveapp--hashbrown)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-liveloveapp--hashbrown) | [Agent Frameworks](../topics/agent-frameworks.md#repo-liveloveapp--hashbrown) | [LLMs](../topics/llms.md#repo-liveloveapp--hashbrown) | [Code Generation](../topics/code-generation.md#repo-liveloveapp--hashbrown) | [Generative UI](../topics/generative-ui.md#repo-liveloveapp--hashbrown) | [Multi Provider](../topics/multi-provider.md#repo-liveloveapp--hashbrown) | [Frontend Development](../topics/frontend-development.md#repo-liveloveapp--hashbrown) | [UI Components](../topics/ui-components.md#repo-liveloveapp--hashbrown)
 - **Kind:** Framework
 - **Best for:** React or Angular teams building interactive, LLM-powered web interfaces; Applications that need consistent provider wrappers between a Node backend and UI state
 - **Languages:** TypeScript
@@ -124,12 +136,14 @@ A TypeScript framework of core, React, Angular, and provider packages for adding
   - Provider packages for OpenAI, Azure OpenAI, Anthropic, Bedrock, Ollama, Google, and Writer
   - HTTP streaming between Node backend wrappers and UI hooks or resources
 
+<a id="repo-shubhamsaboo--awesome-llm-apps"></a>
+
 ## [Awesome LLM Apps](https://github.com/Shubhamsaboo/awesome-llm-apps)
 
 An Apache-2.0 collection of 100-plus runnable AI-agent, agent-skill, RAG, generative-UI, and LLM application templates that users can clone and adapt.
 
-- **Category:** [Documentation and Learning](../categories/documentation-and-learning.md)
-- **Topics:** [Curated Lists](../topics/curated-lists.md) | [AI Agents](../topics/ai-agents.md) | [Agent Skills](../topics/agent-skills.md) | [Multi Agent](../topics/multi-agent.md) | [MCP](../topics/mcp.md) | [LLMs](../topics/llms.md) | [Generative UI](../topics/generative-ui.md)
+- **Category:** [Documentation and Learning](../categories/documentation-and-learning.md#repo-shubhamsaboo--awesome-llm-apps)
+- **Topics:** [Curated Lists](../topics/curated-lists.md#repo-shubhamsaboo--awesome-llm-apps) | [AI Agents](../topics/ai-agents.md#repo-shubhamsaboo--awesome-llm-apps) | [Agent Skills](../topics/agent-skills.md#repo-shubhamsaboo--awesome-llm-apps) | [Multi Agent](../topics/multi-agent.md#repo-shubhamsaboo--awesome-llm-apps) | [MCP](../topics/mcp.md#repo-shubhamsaboo--awesome-llm-apps) | [LLMs](../topics/llms.md#repo-shubhamsaboo--awesome-llm-apps) | [Generative UI](../topics/generative-ui.md#repo-shubhamsaboo--awesome-llm-apps)
 - **Kind:** Curated List
 - **Best for:** Developers choosing a practical starting point for an AI-agent or RAG prototype; Coding-agent users looking for installable skills and example implementations
 - **Languages:** Python, TypeScript

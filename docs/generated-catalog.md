@@ -16,6 +16,8 @@ The top-level `schema_version` versions the public artifact. `source_versions` r
 
 The root `README.md` is the main catalog. It lists every repository exactly once under its `primary_category`, with a short description and links to its topics.
 
+Repository topic links include a stable identity-based fragment, so following a topic from the main catalog opens that topic page directly at the selected repository. Category and topic entries expose the same unique repository anchors.
+
 `categories/<category>.md` provides a page for each used primary category. `topics/<topic>.md` provides a cross-category page for each used controlled topic. Category and topic pages add audience, kind, languages, license, lifecycle, stars, and key features to the short repository description.
 
 ## Commands

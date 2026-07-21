@@ -16,12 +16,14 @@
 - [Security and Privacy](../categories/security-and-privacy.md) (1)
 - [Testing and Quality](../categories/testing-and-quality.md) (2)
 
+<a id="repo-addyosmani--recorder"></a>
+
 ## [Record](https://github.com/addyosmani/recorder)
 
 A browser-hosted screen and camera recorder that captures a tab, window, or screen locally and downloads recordings as WEBM or optionally converted MP4.
 
-- **Category:** [Platforms and Applications](../categories/platforms-and-applications.md)
-- **Topics:** [Web](../topics/web.md) | [Local First](../topics/local-first.md)
+- **Category:** [Platforms and Applications](../categories/platforms-and-applications.md#repo-addyosmani--recorder)
+- **Topics:** [Web](../topics/web.md#repo-addyosmani--recorder) | [Local First](../topics/local-first.md#repo-addyosmani--recorder)
 - **Kind:** Application
 - **Best for:** Creating screen-and-camera recordings in Chrome or Chromium; Recording scripted browser demonstrations without installing an application
 - **Languages:** TypeScript
@@ -35,12 +37,14 @@ A browser-hosted screen and camera recorder that captures a tab, window, or scre
   - Tab, window, and full-screen capture options
   - Picture-in-picture camera view with circular or square camera shapes
 
+<a id="repo-addyosmani--tunnel-bear-login"></a>
+
 ## [Tunnel Bear Login Animation](https://github.com/addyosmani/tunnel-bear-login)
 
 An educational React recreation of a TunnelBear-inspired login form with a bear animation that responds to email and password-field interactions.
 
-- **Category:** [Frontend and Design](../categories/frontend-and-design.md)
-- **Topics:** [Web](../topics/web.md) | [Frontend Development](../topics/frontend-development.md) | [Forms](../topics/forms.md) | [UI Components](../topics/ui-components.md)
+- **Category:** [Frontend and Design](../categories/frontend-and-design.md#repo-addyosmani--tunnel-bear-login)
+- **Topics:** [Web](../topics/web.md#repo-addyosmani--tunnel-bear-login) | [Frontend Development](../topics/frontend-development.md#repo-addyosmani--tunnel-bear-login) | [Forms](../topics/forms.md#repo-addyosmani--tunnel-bear-login) | [UI Components](../topics/ui-components.md#repo-addyosmani--tunnel-bear-login)
 - **Kind:** Application
 - **Best for:** Studying a compact, animated React form implementation; Prototyping playful input-state feedback in a Vite web application
 - **Languages:** TypeScript, JavaScript
@@ -54,12 +58,14 @@ An educational React recreation of a TunnelBear-inspired login form with a bear 
   - Password-field focus triggers a bear hiding animation
   - React components and custom hooks separate form, animation, and image-loading concerns
 
+<a id="repo-addyosmani--web-quality-skills"></a>
+
 ## [Web Quality Skills](https://github.com/addyosmani/web-quality-skills)
 
 A stack-agnostic collection of six agent skills for reviewing and improving web performance, Core Web Vitals, accessibility, SEO, and best practices.
 
-- **Category:** [Testing and Quality](../categories/testing-and-quality.md)
-- **Topics:** [AI Agents](../topics/ai-agents.md) | [Agent Skills](../topics/agent-skills.md) | [Automation](../topics/automation.md) | [Testing](../topics/testing.md) | [Performance](../topics/performance.md) | [Accessibility](../topics/accessibility.md) | [Web](../topics/web.md)
+- **Category:** [Testing and Quality](../categories/testing-and-quality.md#repo-addyosmani--web-quality-skills)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-addyosmani--web-quality-skills) | [Agent Skills](../topics/agent-skills.md#repo-addyosmani--web-quality-skills) | [Automation](../topics/automation.md#repo-addyosmani--web-quality-skills) | [Testing](../topics/testing.md#repo-addyosmani--web-quality-skills) | [Performance](../topics/performance.md#repo-addyosmani--web-quality-skills) | [Accessibility](../topics/accessibility.md#repo-addyosmani--web-quality-skills) | [Web](../topics/web.md#repo-addyosmani--web-quality-skills)
 - **Kind:** Plugin
 - **Best for:** Developers asking coding agents for focused web-quality reviews or improvements; Teams that want reusable Lighthouse-, Core Web Vitals-, and WCAG-informed guidance
 - **Languages:** Shell
@@ -73,12 +79,14 @@ A stack-agnostic collection of six agent skills for reviewing and improving web 
   - Dedicated performance guidance covering rendering, code splitting, images, fonts, caching, and server response
   - Core Web Vitals guidance for LCP, INP, and CLS with documented target thresholds
 
+<a id="repo-adonisjs--core"></a>
+
 ## [AdonisJS Core](https://github.com/adonisjs/core)
 
 The TypeScript-first, full-stack MVC framework core for Node.js web applications, API servers, and microservices.
 
-- **Category:** [Application Frameworks](../categories/application-frameworks.md)
-- **Topics:** [Frameworks](../topics/frameworks.md) | [Web](../topics/web.md) | [Backend Development](../topics/backend-development.md) | [API Development](../topics/api-development.md) | [CLI](../topics/cli.md) | [Testing](../topics/testing.md)
+- **Category:** [Application Frameworks](../categories/application-frameworks.md#repo-adonisjs--core)
+- **Topics:** [Frameworks](../topics/frameworks.md#repo-adonisjs--core) | [Web](../topics/web.md#repo-adonisjs--core) | [Backend Development](../topics/backend-development.md#repo-adonisjs--core) | [API Development](../topics/api-development.md#repo-adonisjs--core) | [CLI](../topics/cli.md#repo-adonisjs--core) | [Testing](../topics/testing.md#repo-adonisjs--core)
 - **Kind:** Framework
 - **Best for:** Teams building server-rendered web applications or API backends with AdonisJS; Node.js projects that benefit from a cohesive framework and official package ecosystem
 - **Languages:** TypeScript, JavaScript
@@ -92,12 +100,14 @@ The TypeScript-first, full-stack MVC framework core for Node.js web applications
   - HTTP server, body parsing, configuration, environment, event, logging, and health modules
   - Command toolkit exposed through the adonis-kit CLI
 
+<a id="repo-alibaba--page-agent"></a>
+
 ## [Page Agent](https://github.com/alibaba/page-agent)
 
 A TypeScript library for embedding an AI GUI agent into a web page, where a configured language model performs text-based DOM interactions through the in-page PageAgent API rather than a headless browser or backend service.
 
-- **Category:** [AI and Automation](../categories/ai-and-automation.md)
-- **Topics:** [AI Agents](../topics/ai-agents.md) | [Browser Automation](../topics/browser-automation.md) | [Web](../topics/web.md) | [Tool Use](../topics/tool-use.md) | [MCP](../topics/mcp.md)
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-alibaba--page-agent)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-alibaba--page-agent) | [Browser Automation](../topics/browser-automation.md#repo-alibaba--page-agent) | [Web](../topics/web.md#repo-alibaba--page-agent) | [Tool Use](../topics/tool-use.md#repo-alibaba--page-agent) | [MCP](../topics/mcp.md#repo-alibaba--page-agent)
 - **Kind:** Library
 - **Best for:** Web applications adding an in-page natural-language copilot or form-filling flow; Developers who need DOM-based interaction with their own configured language-model provider
 - **Languages:** TypeScript
@@ -111,12 +121,14 @@ A TypeScript library for embedding an AI GUI agent into a web page, where a conf
   - Executes natural-language tasks through text-based DOM manipulation without screenshots
   - Supports configured mainstream or locally deployed language models
 
+<a id="repo-anomalyco--openauth"></a>
+
 ## [OpenAuth](https://github.com/anomalyco/openauth)
 
 A TypeScript library for deploying or embedding a self-hosted, OAuth 2.0 authorization provider, with configurable identity providers, storage, and user-subject handling for web, mobile, API, and third-party clients.
 
-- **Category:** [Security and Privacy](../categories/security-and-privacy.md)
-- **Topics:** [Authentication](../topics/authentication.md) | [Self Hosted](../topics/self-hosted.md) | [Web](../topics/web.md) | [API Development](../topics/api-development.md)
+- **Category:** [Security and Privacy](../categories/security-and-privacy.md#repo-anomalyco--openauth)
+- **Topics:** [Authentication](../topics/authentication.md#repo-anomalyco--openauth) | [Self Hosted](../topics/self-hosted.md#repo-anomalyco--openauth) | [Web](../topics/web.md#repo-anomalyco--openauth) | [API Development](../topics/api-development.md#repo-anomalyco--openauth)
 - **Kind:** Library
 - **Best for:** Teams that need a customizable, self-hosted OAuth authorization server; JavaScript applications that need to issue and verify access and refresh tokens
 - **Languages:** TypeScript
@@ -130,12 +142,14 @@ A TypeScript library for deploying or embedding a self-hosted, OAuth 2.0 authori
   - Supports third-party and built-in identity-provider flows, including password UI
   - Supplies client helpers for authorization, token exchange, verification, and refresh
 
+<a id="repo-babycommando--entity-db"></a>
+
 ## [EntityDB](https://github.com/babycommando/entity-db)
 
 A JavaScript browser library for persisting vector embeddings in IndexedDB and searching them locally, with optional text embedding through Transformers.js and experimental binary-vector query paths.
 
-- **Category:** [Data and Databases](../categories/data-and-databases.md)
-- **Topics:** [Databases](../topics/databases.md) | [Local First](../topics/local-first.md) | [Web](../topics/web.md) | [Machine Learning](../topics/machine-learning.md) | [Performance](../topics/performance.md)
+- **Category:** [Data and Databases](../categories/data-and-databases.md#repo-babycommando--entity-db)
+- **Topics:** [Databases](../topics/databases.md#repo-babycommando--entity-db) | [Local First](../topics/local-first.md#repo-babycommando--entity-db) | [Web](../topics/web.md#repo-babycommando--entity-db) | [Machine Learning](../topics/machine-learning.md#repo-babycommando--entity-db) | [Performance](../topics/performance.md#repo-babycommando--entity-db)
 - **Kind:** Library
 - **Best for:** Browser applications that need local vector storage without a server component; Prototypes or client-side search features that can use Transformers.js embeddings
 - **Languages:** JavaScript, WebAssembly
@@ -149,12 +163,14 @@ A JavaScript browser library for persisting vector embeddings in IndexedDB and s
   - Generates text embeddings with Transformers.js or accepts precomputed vectors
   - Queries dense vectors with cosine similarity
 
+<a id="repo-best-of-ai--ai-directories"></a>
+
 ## [AI Directories](https://github.com/best-of-ai/ai-directories)
 
 A Markdown directory of third-party AI-product directories, intended to help AI product teams find places to discover tools or submit a listing.
 
-- **Category:** [Documentation and Learning](../categories/documentation-and-learning.md)
-- **Topics:** [Curated Lists](../topics/curated-lists.md) | [Reference](../topics/reference.md) | [Web](../topics/web.md)
+- **Category:** [Documentation and Learning](../categories/documentation-and-learning.md#repo-best-of-ai--ai-directories)
+- **Topics:** [Curated Lists](../topics/curated-lists.md#repo-best-of-ai--ai-directories) | [Reference](../topics/reference.md#repo-best-of-ai--ai-directories) | [Web](../topics/web.md#repo-best-of-ai--ai-directories)
 - **Kind:** Curated List
 - **Best for:** Finding potential directories through which to publish or discover an AI product; Browsing an alphabetically organized reference list rather than a hosted submission service
 - **Languages:** Markdown
@@ -168,12 +184,14 @@ A Markdown directory of third-party AI-product directories, intended to help AI 
   - Many entries include a short description and, where offered by the destination, a submission link
   - A featured-directory section and links to the maintainers' separate submission service
 
+<a id="repo-best-of-ai--best-of-ai"></a>
+
 ## [Best of AI](https://github.com/best-of-ai/best-of-ai)
 
 A community-maintained directory and companion website that organizes AI tools by category, professional role, and a maintainer-defined leaderboard.
 
-- **Category:** [Documentation and Learning](../categories/documentation-and-learning.md)
-- **Topics:** [Curated Lists](../topics/curated-lists.md) | [LLMs](../topics/llms.md) | [AI Agents](../topics/ai-agents.md) | [Reference](../topics/reference.md) | [Web](../topics/web.md)
+- **Category:** [Documentation and Learning](../categories/documentation-and-learning.md#repo-best-of-ai--best-of-ai)
+- **Topics:** [Curated Lists](../topics/curated-lists.md#repo-best-of-ai--best-of-ai) | [LLMs](../topics/llms.md#repo-best-of-ai--best-of-ai) | [AI Agents](../topics/ai-agents.md#repo-best-of-ai--best-of-ai) | [Reference](../topics/reference.md#repo-best-of-ai--best-of-ai) | [Web](../topics/web.md#repo-best-of-ai--best-of-ai)
 - **Kind:** Curated List
 - **Best for:** Browsing categorized AI-tool listings and linked tool reviews; Suggesting a new listing or correcting a directory entry through an issue or pull request
 - **Languages:** HTML, Python
@@ -187,12 +205,14 @@ A community-maintained directory and companion website that organizes AI tools b
   - A leaderboard and category listings that link to individual review pages on the companion website
   - Role-oriented tool collections for professionals such as developers, designers, and marketers
 
+<a id="repo-chenglou--pretext"></a>
+
 ## [Pretext](https://github.com/chenglou/pretext)
 
 A JavaScript and TypeScript library for calculating multiline text layout without DOM measurement or reflow, using cached canvas-based measurement and Unicode-aware line breaking for height prediction and manual rendering in DOM, Canvas, SVG, or future server-side targets.
 
-- **Category:** [Frontend and Design](../categories/frontend-and-design.md)
-- **Topics:** [Frontend Development](../topics/frontend-development.md) | [Web](../topics/web.md) | [Performance](../topics/performance.md) | [Libraries](../topics/libraries.md)
+- **Category:** [Frontend and Design](../categories/frontend-and-design.md#repo-chenglou--pretext)
+- **Topics:** [Frontend Development](../topics/frontend-development.md#repo-chenglou--pretext) | [Web](../topics/web.md#repo-chenglou--pretext) | [Performance](../topics/performance.md#repo-chenglou--pretext) | [Libraries](../topics/libraries.md#repo-chenglou--pretext)
 - **Kind:** Library
 - **Best for:** Predicting text heights for virtualized or dynamically sized web interfaces; Building custom multiline layouts or renderers that need line-level geometry
 - **Languages:** TypeScript, JavaScript
@@ -206,12 +226,14 @@ A JavaScript and TypeScript library for calculating multiline text layout withou
   - Line-level ranges, statistics, and materialization for manual text rendering
   - Support for normal and pre-wrap whitespace, keep-all word breaking, and letter spacing
 
+<a id="repo-code-hike--codehike"></a>
+
 ## [Code Hike](https://github.com/code-hike/codehike)
 
 A TypeScript library that combines Markdown and React for technical content sites, with published code, MDX, block, and syntax-highlighting utilities.
 
-- **Category:** [Frontend and Design](../categories/frontend-and-design.md)
-- **Topics:** [Frontend Development](../topics/frontend-development.md) | [Documentation](../topics/documentation.md) | [Libraries](../topics/libraries.md) | [Web](../topics/web.md)
+- **Category:** [Frontend and Design](../categories/frontend-and-design.md#repo-code-hike--codehike)
+- **Topics:** [Frontend Development](../topics/frontend-development.md#repo-code-hike--codehike) | [Documentation](../topics/documentation.md#repo-code-hike--codehike) | [Libraries](../topics/libraries.md#repo-code-hike--codehike) | [Web](../topics/web.md#repo-code-hike--codehike)
 - **Kind:** Library
 - **Best for:** React teams building technical documentation, tutorials, or code-focused sites; Authors who want interactive code content from Markdown and MDX
 - **Languages:** TypeScript
@@ -225,12 +247,14 @@ A TypeScript library that combines Markdown and React for technical content site
   - Bridges Markdown and React for rich technical web content
   - Includes code-oriented package exports and a syntax-highlighting dependency
 
+<a id="repo-conwnet--github1s"></a>
+
 ## [github1s](https://github.com/conwnet/github1s)
 
 A browser-based, VS Code-style interface for browsing GitHub repositories by replacing github.com with github1s.com in a repository URL.
 
-- **Category:** [Developer Tools](../categories/developer-tools.md)
-- **Topics:** [GitHub](../topics/github.md) | [Web](../topics/web.md) | [Web UI](../topics/web-ui.md) | [Codebase Search](../topics/codebase-search.md) | [Developer Productivity](../topics/developer-productivity.md)
+- **Category:** [Developer Tools](../categories/developer-tools.md#repo-conwnet--github1s)
+- **Topics:** [GitHub](../topics/github.md#repo-conwnet--github1s) | [Web](../topics/web.md#repo-conwnet--github1s) | [Web UI](../topics/web-ui.md#repo-conwnet--github1s) | [Codebase Search](../topics/codebase-search.md#repo-conwnet--github1s) | [Developer Productivity](../topics/developer-productivity.md#repo-conwnet--github1s)
 - **Kind:** Application
 - **Best for:** Quickly reading a public GitHub repository in a VS Code-style interface; Browsing private repositories with a user-supplied GitHub OAuth token
 - **Languages:** TypeScript, JavaScript
@@ -244,12 +268,14 @@ A browser-based, VS Code-style interface for browsing GitHub repositories by rep
   - Uses a VS Code web build and a FileSystemProvider backed by GitHub APIs
   - Supports GitHub, GitLab, and npmjs URL variants
 
+<a id="repo-copilotkit--copilotkit"></a>
+
 ## [CopilotKit](https://github.com/CopilotKit/CopilotKit)
 
 A multi-platform framework for adding agent-driven chat, generative UI, shared state, and approval workflows to application front ends.
 
-- **Category:** [AI and Automation](../categories/ai-and-automation.md)
-- **Topics:** [AI Agents](../topics/ai-agents.md) | [Chat UI](../topics/chat-ui.md) | [Generative UI](../topics/generative-ui.md) | [Agent Protocols](../topics/agent-protocols.md) | [Web UI](../topics/web-ui.md) | [Web](../topics/web.md)
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-copilotkit--copilotkit)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-copilotkit--copilotkit) | [Chat UI](../topics/chat-ui.md#repo-copilotkit--copilotkit) | [Generative UI](../topics/generative-ui.md#repo-copilotkit--copilotkit) | [Agent Protocols](../topics/agent-protocols.md#repo-copilotkit--copilotkit) | [Web UI](../topics/web-ui.md#repo-copilotkit--copilotkit) | [Web](../topics/web.md#repo-copilotkit--copilotkit)
 - **Kind:** Framework
 - **Best for:** Product teams building agent-facing web or mobile application interfaces; Teams that need one agent interaction model across supported front-end surfaces
 - **Languages:** TypeScript, Python
@@ -263,12 +289,14 @@ A multi-platform framework for adding agent-driven chat, generative UI, shared s
   - Renders agent-selected or dynamically updated UI components in the client
   - Synchronizes application state that agents and UI components can both update in real time
 
+<a id="repo-copilotkit--generative-ui"></a>
+
 ## [generative-ui](https://github.com/CopilotKit/generative-ui)
 
 A conceptual guide and set of examples that compares controlled, declarative, and open-ended generative UI patterns for agentic apps.
 
-- **Category:** [Documentation and Learning](../categories/documentation-and-learning.md)
-- **Topics:** [AI Agents](../topics/ai-agents.md) | [Generative UI](../topics/generative-ui.md) | [Agent Protocols](../topics/agent-protocols.md) | [MCP](../topics/mcp.md) | [Documentation](../topics/documentation.md) | [Reference](../topics/reference.md) | [Web](../topics/web.md)
+- **Category:** [Documentation and Learning](../categories/documentation-and-learning.md#repo-copilotkit--generative-ui)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-copilotkit--generative-ui) | [Generative UI](../topics/generative-ui.md#repo-copilotkit--generative-ui) | [Agent Protocols](../topics/agent-protocols.md#repo-copilotkit--generative-ui) | [MCP](../topics/mcp.md#repo-copilotkit--generative-ui) | [Documentation](../topics/documentation.md#repo-copilotkit--generative-ui) | [Reference](../topics/reference.md#repo-copilotkit--generative-ui) | [Web](../topics/web.md#repo-copilotkit--generative-ui)
 - **Kind:** Documentation
 - **Best for:** Developers choosing a generative UI pattern or agent-to-application protocol; Learners who want implementation-oriented examples for CopilotKit-based generative UI
 - **Languages:** Unknown
@@ -282,12 +310,14 @@ A conceptual guide and set of examples that compares controlled, declarative, an
   - Describes declarative UI with A2UI and Open-JSON-UI structured specifications
   - Covers open-ended UI through MCP Apps and a separate useComponent approach
 
+<a id="repo-ericciarla--trendfinder"></a>
+
 ## [trendFinder](https://github.com/ericciarla/trendFinder)
 
 A scheduled TypeScript application that collects selected X posts and web pages, uses an AI provider to identify trends, and sends Slack or Discord notifications.
 
-- **Category:** [AI and Automation](../categories/ai-and-automation.md)
-- **Topics:** [LLMs](../topics/llms.md) | [Automation](../topics/automation.md) | [Web](../topics/web.md) | [Web Scraping](../topics/web-scraping.md) | [Containers](../topics/containers.md)
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-ericciarla--trendfinder)
+- **Topics:** [LLMs](../topics/llms.md#repo-ericciarla--trendfinder) | [Automation](../topics/automation.md#repo-ericciarla--trendfinder) | [Web](../topics/web.md#repo-ericciarla--trendfinder) | [Web Scraping](../topics/web-scraping.md#repo-ericciarla--trendfinder) | [Containers](../topics/containers.md#repo-ericciarla--trendfinder)
 - **Kind:** Application
 - **Best for:** Teams monitoring selected social accounts and websites for emerging topics; Marketing workflows that need notifications about detected launches or trends
 - **Languages:** TypeScript
@@ -301,12 +331,14 @@ A scheduled TypeScript application that collects selected X posts and web pages,
   - Website release and news extraction through Firecrawl
   - Together AI-based analysis of trends, releases, sentiment, and relevance
 
+<a id="repo-fastify--fastify"></a>
+
 ## [Fastify](https://github.com/fastify/fastify)
 
 A Node.js web framework for building HTTP servers and APIs with route schemas, structured logging, and an extensible architecture based on hooks, decorators, and encapsulated plugins.
 
-- **Category:** [Application Frameworks](../categories/application-frameworks.md)
-- **Topics:** [Web](../topics/web.md) | [Backend Development](../topics/backend-development.md) | [API Development](../topics/api-development.md) | [Frameworks](../topics/frameworks.md)
+- **Category:** [Application Frameworks](../categories/application-frameworks.md#repo-fastify--fastify)
+- **Topics:** [Web](../topics/web.md#repo-fastify--fastify) | [Backend Development](../topics/backend-development.md#repo-fastify--fastify) | [API Development](../topics/api-development.md#repo-fastify--fastify) | [Frameworks](../topics/frameworks.md#repo-fastify--fastify)
 - **Kind:** Framework
 - **Best for:** Node.js services and APIs that need a concise route API and plugin composition; Teams that want schema-driven validation and response serialization
 - **Languages:** JavaScript
@@ -320,12 +352,14 @@ A Node.js web framework for building HTTP servers and APIs with route schemas, s
   - Hooks, decorators, and encapsulated plugins for extending server behavior
   - JSON Schema-based route validation and response serialization
 
+<a id="repo-gridstack--gridstack.js"></a>
+
 ## [gridstack.js](https://github.com/gridstack/gridstack.js)
 
 A TypeScript library for building responsive, draggable, resizable dashboard grids and managing their widget layouts.
 
-- **Category:** [Frontend and Design](../categories/frontend-and-design.md)
-- **Topics:** [Web](../topics/web.md) | [UI Components](../topics/ui-components.md) | [Frontend Development](../topics/frontend-development.md) | [Libraries](../topics/libraries.md)
+- **Category:** [Frontend and Design](../categories/frontend-and-design.md#repo-gridstack--gridstack.js)
+- **Topics:** [Web](../topics/web.md#repo-gridstack--gridstack.js) | [UI Components](../topics/ui-components.md#repo-gridstack--gridstack.js) | [Frontend Development](../topics/frontend-development.md#repo-gridstack--gridstack.js) | [Libraries](../topics/libraries.md#repo-gridstack--gridstack.js)
 - **Kind:** Library
 - **Best for:** Adding configurable multi-column dashboard layouts to a web application; Applications that need to save and restore user-arranged widget positions
 - **Languages:** TypeScript, JavaScript
@@ -339,12 +373,14 @@ A TypeScript library for building responsive, draggable, resizable dashboard gri
   - Native mouse and touch support without runtime dependencies in the core library
   - APIs for creating widgets, loading serialized layouts, and saving layouts
 
+<a id="repo-hakimel--reveal.js"></a>
+
 ## [reveal.js](https://github.com/hakimel/reveal.js)
 
 An HTML presentation framework for authoring and presenting browser-based slide decks with a JavaScript API and optional plugins.
 
-- **Category:** [Frontend and Design](../categories/frontend-and-design.md)
-- **Topics:** [Web](../topics/web.md) | [Frontend Development](../topics/frontend-development.md) | [Frameworks](../topics/frameworks.md) | [Libraries](../topics/libraries.md) | [Accessibility](../topics/accessibility.md)
+- **Category:** [Frontend and Design](../categories/frontend-and-design.md#repo-hakimel--reveal.js)
+- **Topics:** [Web](../topics/web.md#repo-hakimel--reveal.js) | [Frontend Development](../topics/frontend-development.md#repo-hakimel--reveal.js) | [Frameworks](../topics/frameworks.md#repo-hakimel--reveal.js) | [Libraries](../topics/libraries.md#repo-hakimel--reveal.js) | [Accessibility](../topics/accessibility.md#repo-hakimel--reveal.js)
 - **Kind:** Framework
 - **Best for:** Publishing a customized web presentation from HTML, Markdown, or React components; Developers who need a self-hostable slide-deck framework rather than a hosted editor
 - **Languages:** JavaScript, TypeScript, HTML, CSS
@@ -358,12 +394,14 @@ An HTML presentation framework for authoring and presenting browser-based slide 
   - Plugins for Markdown, syntax highlighting, math, speaker notes, search, and zoom
   - PDF export, speaker view, Auto-Animate, and a documented JavaScript API
 
+<a id="repo-haydenbleasel--blume"></a>
+
 ## [Blume](https://github.com/haydenbleasel/blume)
 
 A zero-configuration Node.js CLI that turns a folder of Markdown or MDX files into a documentation site with an Astro runtime, static output, navigation, search, theming, and optional AI-oriented features.
 
-- **Category:** [Documentation and Learning](../categories/documentation-and-learning.md)
-- **Topics:** [CLI](../topics/cli.md) | [Web](../topics/web.md) | [Documentation](../topics/documentation.md) | [Frontend Development](../topics/frontend-development.md) | [MCP](../topics/mcp.md) | [Agent Skills](../topics/agent-skills.md)
+- **Category:** [Documentation and Learning](../categories/documentation-and-learning.md#repo-haydenbleasel--blume)
+- **Topics:** [CLI](../topics/cli.md#repo-haydenbleasel--blume) | [Web](../topics/web.md#repo-haydenbleasel--blume) | [Documentation](../topics/documentation.md#repo-haydenbleasel--blume) | [Frontend Development](../topics/frontend-development.md#repo-haydenbleasel--blume) | [MCP](../topics/mcp.md#repo-haydenbleasel--blume) | [Agent Skills](../topics/agent-skills.md#repo-haydenbleasel--blume)
 - **Kind:** CLI
 - **Best for:** Teams that want a docs site without maintaining an Astro application scaffold; Documentation authors who need Markdown or MDX content, local search, and static-host deployment
 - **Languages:** TypeScript, MDX
@@ -377,12 +415,14 @@ A zero-configuration Node.js CLI that turns a folder of Markdown or MDX files in
   - Provides CLI commands for project initialization, development, builds, previews, checks, validation, diagnostics, content sync, and component installation
   - Produces static HTML and a local search index, with support for self-hosted search and optional external search providers
 
+<a id="repo-honojs--hono"></a>
+
 ## [Hono](https://github.com/honojs/hono)
 
 A small TypeScript web framework built on Web Standards for defining HTTP applications and middleware that can run across edge, serverless, and JavaScript server runtimes including Cloudflare Workers, Deno, Bun, AWS Lambda, and Node.js.
 
-- **Category:** [Application Frameworks](../categories/application-frameworks.md)
-- **Topics:** [Web](../topics/web.md) | [Frameworks](../topics/frameworks.md) | [Backend Development](../topics/backend-development.md) | [API Development](../topics/api-development.md) | [Performance](../topics/performance.md) | [Libraries](../topics/libraries.md)
+- **Category:** [Application Frameworks](../categories/application-frameworks.md#repo-honojs--hono)
+- **Topics:** [Web](../topics/web.md#repo-honojs--hono) | [Frameworks](../topics/frameworks.md#repo-honojs--hono) | [Backend Development](../topics/backend-development.md#repo-honojs--hono) | [API Development](../topics/api-development.md#repo-honojs--hono) | [Performance](../topics/performance.md#repo-honojs--hono) | [Libraries](../topics/libraries.md#repo-honojs--hono)
 - **Kind:** Framework
 - **Best for:** TypeScript teams targeting more than one JavaScript or edge runtime; Small HTTP APIs, web applications, and middleware-driven services
 - **Languages:** TypeScript
@@ -396,12 +436,14 @@ A small TypeScript web framework built on Web Standards for defining HTTP applic
   - Built-in, custom, and third-party middleware support
   - Runtime adapters for edge platforms, serverless functions, and Node.js
 
+<a id="repo-jackwener--opencli"></a>
+
 ## [OpenCLI](https://github.com/jackwener/OpenCLI)
 
 A Node.js CLI that turns supported websites, logged-in Chrome sessions, Electron apps, and registered local binaries into deterministic commands, with browser-control primitives and skills for AI agents.
 
-- **Category:** [AI and Automation](../categories/ai-and-automation.md)
-- **Topics:** [AI Agents](../topics/ai-agents.md) | [CLI](../topics/cli.md) | [Browser Automation](../topics/browser-automation.md) | [Computer Use](../topics/computer-use.md) | [Tool Use](../topics/tool-use.md) | [Web](../topics/web.md) | [Automation](../topics/automation.md) | [Developer Productivity](../topics/developer-productivity.md) | [Open Source](../topics/open-source.md)
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-jackwener--opencli)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-jackwener--opencli) | [CLI](../topics/cli.md#repo-jackwener--opencli) | [Browser Automation](../topics/browser-automation.md#repo-jackwener--opencli) | [Computer Use](../topics/computer-use.md#repo-jackwener--opencli) | [Tool Use](../topics/tool-use.md#repo-jackwener--opencli) | [Web](../topics/web.md#repo-jackwener--opencli) | [Automation](../topics/automation.md#repo-jackwener--opencli) | [Developer Productivity](../topics/developer-productivity.md#repo-jackwener--opencli) | [Open Source](../topics/open-source.md#repo-jackwener--opencli)
 - **Kind:** CLI
 - **Best for:** Developers and agents automating websites through an existing authenticated Chrome profile; Authors building reusable site adapters or consolidating local tools behind one CLI
 - **Languages:** JavaScript, TypeScript
@@ -415,12 +457,14 @@ A Node.js CLI that turns supported websites, logged-in Chrome sessions, Electron
   - Drives logged-in Chrome through a Browser Bridge extension and local daemon
   - Exposes browser navigation, interaction, extraction, network inspection, and screenshot commands
 
+<a id="repo-jely2002--youtube-dl-gui"></a>
+
 ## [Open Video Downloader](https://github.com/jely2002/youtube-dl-gui)
 
 A cross-platform desktop GUI, also known as youtube-dl-gui, that uses yt-dlp to download video, audio, subtitles, and metadata from supported sites, offering format controls, playlists, queues, output templates, progress feedback, and desktop installers for Windows, macOS, and Linux.
 
-- **Category:** [Platforms and Applications](../categories/platforms-and-applications.md)
-- **Topics:** [Desktop App](../topics/desktop-app.md) | [Automation](../topics/automation.md) | [Web](../topics/web.md) | [Open Source](../topics/open-source.md)
+- **Category:** [Platforms and Applications](../categories/platforms-and-applications.md#repo-jely2002--youtube-dl-gui)
+- **Topics:** [Desktop App](../topics/desktop-app.md#repo-jely2002--youtube-dl-gui) | [Automation](../topics/automation.md#repo-jely2002--youtube-dl-gui) | [Web](../topics/web.md#repo-jely2002--youtube-dl-gui) | [Open Source](../topics/open-source.md#repo-jely2002--youtube-dl-gui)
 - **Kind:** Application
 - **Best for:** People who prefer a desktop interface to yt-dlp's command line; Downloading selected media, playlists, captions, or metadata from supported sites
 - **Languages:** Rust, TypeScript
@@ -434,12 +478,14 @@ A cross-platform desktop GUI, also known as youtube-dl-gui, that uses yt-dlp to 
   - Captions and metadata download when available from the selected source
   - Resolution, frame-rate, and MP4 or MKV output controls
 
+<a id="repo-juliangarnier--anime"></a>
+
 ## [Anime.js](https://github.com/juliangarnier/anime)
 
 A JavaScript animation library for animating CSS properties, SVG, DOM attributes, and JavaScript objects through a modular API.
 
-- **Category:** [Frontend and Design](../categories/frontend-and-design.md)
-- **Topics:** [Web](../topics/web.md) | [Frontend Development](../topics/frontend-development.md) | [Libraries](../topics/libraries.md) | [Visualization](../topics/visualization.md)
+- **Category:** [Frontend and Design](../categories/frontend-and-design.md#repo-juliangarnier--anime)
+- **Topics:** [Web](../topics/web.md#repo-juliangarnier--anime) | [Frontend Development](../topics/frontend-development.md#repo-juliangarnier--anime) | [Libraries](../topics/libraries.md#repo-juliangarnier--anime) | [Visualization](../topics/visualization.md#repo-juliangarnier--anime)
 - **Kind:** Library
 - **Best for:** Adding programmatic motion and timelines to a web interface; Projects that need one animation API across DOM, SVG, and object targets
 - **Languages:** JavaScript, TypeScript
@@ -453,12 +499,14 @@ A JavaScript animation library for animating CSS properties, SVG, DOM attributes
   - ESM, CommonJS, UMD, and TypeScript declaration package outputs
   - Modules for SVG, text, layout, scroll, draggable interactions, and the Web Animations API
 
+<a id="repo-lynx-family--lynx"></a>
+
 ## [Lynx](https://github.com/lynx-family/lynx)
 
 The core engine of an open-source family for creating native mobile and web user interfaces from one codebase using web-oriented CSS and React knowledge.
 
-- **Category:** [Application Frameworks](../categories/application-frameworks.md)
-- **Topics:** [Mobile Development](../topics/mobile-development.md) | [Web](../topics/web.md) | [Frontend Development](../topics/frontend-development.md) | [Frameworks](../topics/frameworks.md) | [Performance](../topics/performance.md) | [Open Source](../topics/open-source.md)
+- **Category:** [Application Frameworks](../categories/application-frameworks.md#repo-lynx-family--lynx)
+- **Topics:** [Mobile Development](../topics/mobile-development.md#repo-lynx-family--lynx) | [Web](../topics/web.md#repo-lynx-family--lynx) | [Frontend Development](../topics/frontend-development.md#repo-lynx-family--lynx) | [Frameworks](../topics/frameworks.md#repo-lynx-family--lynx) | [Performance](../topics/performance.md#repo-lynx-family--lynx) | [Open Source](../topics/open-source.md#repo-lynx-family--lynx)
 - **Kind:** Framework
 - **Best for:** Web developers building Android, iOS, and web user interfaces; Teams that need a native mobile runtime with web-oriented authoring
 - **Languages:** C++, TypeScript, JavaScript
@@ -472,12 +520,14 @@ The core engine of an open-source family for creating native mobile and web user
   - Custom renderer for consistent mobile and desktop output
   - CSS- and React-oriented development model
 
+<a id="repo-pierrecomputer--pierre"></a>
+
 ## [Pierre](https://github.com/pierrecomputer/pierre)
 
 A TypeScript monorepo for public packages that render code diffs and file trees, with React, server-rendered, worker, and web-component entry points.
 
-- **Category:** [Frontend and Design](../categories/frontend-and-design.md)
-- **Topics:** [Web](../topics/web.md) | [UI Components](../topics/ui-components.md) | [Frontend Development](../topics/frontend-development.md) | [Code Review](../topics/code-review.md) | [Libraries](../topics/libraries.md)
+- **Category:** [Frontend and Design](../categories/frontend-and-design.md#repo-pierrecomputer--pierre)
+- **Topics:** [Web](../topics/web.md#repo-pierrecomputer--pierre) | [UI Components](../topics/ui-components.md#repo-pierrecomputer--pierre) | [Frontend Development](../topics/frontend-development.md#repo-pierrecomputer--pierre) | [Code Review](../topics/code-review.md#repo-pierrecomputer--pierre) | [Libraries](../topics/libraries.md#repo-pierrecomputer--pierre)
 - **Kind:** Monorepo
 - **Best for:** Building polished code-review, change-inspection, or repository-navigation interfaces; Teams that need reusable diff and tree renderers rather than a complete Git client
 - **Languages:** TypeScript
@@ -491,12 +541,14 @@ A TypeScript monorepo for public packages that render code diffs and file trees,
   - Public @pierre/trees package with React, SSR, and web-component entry points
   - Separate theming, theme, and path-store packages shared by the UI packages
 
+<a id="repo-pmndrs--jotai"></a>
+
 ## [Jotai](https://github.com/pmndrs/jotai)
 
 An atom-based state-management library for React that composes primitive and derived atoms into application state, with React hooks and store APIs.
 
-- **Category:** [Application Frameworks](../categories/application-frameworks.md)
-- **Topics:** [Web](../topics/web.md) | [Frontend Development](../topics/frontend-development.md) | [Libraries](../topics/libraries.md)
+- **Category:** [Application Frameworks](../categories/application-frameworks.md#repo-pmndrs--jotai)
+- **Topics:** [Web](../topics/web.md#repo-pmndrs--jotai) | [Frontend Development](../topics/frontend-development.md#repo-pmndrs--jotai) | [Libraries](../topics/libraries.md#repo-pmndrs--jotai)
 - **Kind:** Library
 - **Best for:** React applications that benefit from independently composable state units; Teams that want derived state expressed directly from other atoms
 - **Languages:** TypeScript, JavaScript
@@ -510,12 +562,14 @@ An atom-based state-management library for React that composes primitive and der
   - Exposes useAtom and related React hooks for reading and writing atom state
   - Supports asynchronous atoms that integrate with React Suspense behavior
 
+<a id="repo-pmndrs--zustand"></a>
+
 ## [Zustand](https://github.com/pmndrs/zustand)
 
 A small, hook-based state-management library for React that creates stores without requiring context providers and also exposes a vanilla store API.
 
-- **Category:** [Application Frameworks](../categories/application-frameworks.md)
-- **Topics:** [Web](../topics/web.md) | [Frontend Development](../topics/frontend-development.md) | [Libraries](../topics/libraries.md)
+- **Category:** [Application Frameworks](../categories/application-frameworks.md#repo-pmndrs--zustand)
+- **Topics:** [Web](../topics/web.md#repo-pmndrs--zustand) | [Frontend Development](../topics/frontend-development.md#repo-pmndrs--zustand) | [Libraries](../topics/libraries.md#repo-pmndrs--zustand)
 - **Kind:** Library
 - **Best for:** React applications that need concise, provider-free application state; JavaScript applications that need a standalone observable store
 - **Languages:** TypeScript, JavaScript
@@ -529,12 +583,14 @@ A small, hook-based state-management library for React that creates stores witho
   - Re-renders consuming components when their selected state changes
   - Supports vanilla stores outside React through createStore and useStore
 
+<a id="repo-pyscript--pyscript"></a>
+
 ## [PyScript](https://github.com/pyscript/pyscript)
 
 An open-source browser platform for building Python applications with Pyodide or MicroPython, WebAssembly, and modern web technologies.
 
-- **Category:** [Application Frameworks](../categories/application-frameworks.md)
-- **Topics:** [Web](../topics/web.md) | [Frontend Development](../topics/frontend-development.md) | [Libraries](../topics/libraries.md)
+- **Category:** [Application Frameworks](../categories/application-frameworks.md#repo-pyscript--pyscript)
+- **Topics:** [Web](../topics/web.md#repo-pyscript--pyscript) | [Frontend Development](../topics/frontend-development.md#repo-pyscript--pyscript) | [Libraries](../topics/libraries.md#repo-pyscript--pyscript)
 - **Kind:** Framework
 - **Best for:** Browser applications that need Python embedded directly in an HTML page; Prototypes and web experiences that can use Pyodide or MicroPython runtimes
 - **Languages:** Python, JavaScript, HTML
@@ -548,12 +604,14 @@ An open-source browser platform for building Python applications with Pyodide or
   - Publishes browser-ready core JavaScript and CSS release assets
   - Uses WebAssembly and standard web technologies for browser execution
 
+<a id="repo-rtfpessoa--diff2html"></a>
+
 ## [diff2html](https://github.com/rtfpessoa/diff2html)
 
 A TypeScript library that parses Git or unified diffs and renders them as formatted HTML, with a browser UI wrapper and Node.js distribution.
 
-- **Category:** [Frontend and Design](../categories/frontend-and-design.md)
-- **Topics:** [Git](../topics/git.md) | [Web](../topics/web.md) | [UI Components](../topics/ui-components.md) | [Libraries](../topics/libraries.md)
+- **Category:** [Frontend and Design](../categories/frontend-and-design.md#repo-rtfpessoa--diff2html)
+- **Topics:** [Git](../topics/git.md#repo-rtfpessoa--diff2html) | [Web](../topics/web.md#repo-rtfpessoa--diff2html) | [UI Components](../topics/ui-components.md#repo-rtfpessoa--diff2html) | [Libraries](../topics/libraries.md#repo-rtfpessoa--diff2html)
 - **Kind:** Library
 - **Best for:** Adding rendered file diffs to web interfaces; Converting Git or unified-diff output into embeddable HTML
 - **Languages:** TypeScript, JavaScript
@@ -567,12 +625,14 @@ A TypeScript library that parses Git or unified diffs and renders them as format
   - Renders line-by-line and side-by-side comparisons
   - Provides parser and HTML-generation APIs
 
+<a id="repo-stackblitz--bolt.new"></a>
+
 ## [Bolt.new](https://github.com/stackblitz/bolt.new)
 
 An AI-powered browser development agent that prompts, runs, edits, and deploys full-stack JavaScript applications in an in-browser WebContainers environment without requiring a local development setup.
 
-- **Category:** [Developer Tools](../categories/developer-tools.md)
-- **Topics:** [Coding Agents](../topics/coding-agents.md) | [Agent Development Environments](../topics/agent-development-environments.md) | [Code Generation](../topics/code-generation.md) | [Web UI](../topics/web-ui.md) | [Web](../topics/web.md)
+- **Category:** [Developer Tools](../categories/developer-tools.md#repo-stackblitz--bolt.new)
+- **Topics:** [Coding Agents](../topics/coding-agents.md#repo-stackblitz--bolt.new) | [Agent Development Environments](../topics/agent-development-environments.md#repo-stackblitz--bolt.new) | [Code Generation](../topics/code-generation.md#repo-stackblitz--bolt.new) | [Web UI](../topics/web-ui.md#repo-stackblitz--bolt.new) | [Web](../topics/web.md#repo-stackblitz--bolt.new)
 - **Kind:** Application
 - **Best for:** Developers, product managers, and designers prototyping full-stack JavaScript applications in a browser; Teams building an AI-powered development experience on top of the open-source Bolt codebase
 - **Languages:** TypeScript, JavaScript
@@ -586,12 +646,14 @@ An AI-powered browser development agent that prompts, runs, edits, and deploys f
   - Uses WebContainers to install npm packages and run Node.js-based development stacks in the browser
   - Supports prompting, editing, running, sharing, and deploying full-stack applications from the web interface
 
+<a id="repo-standardagents--arrow-js"></a>
+
 ## [ArrowJS](https://github.com/standardagents/arrow-js)
 
 A TypeScript reactive UI framework centered on JavaScript modules, tagged templates, and direct DOM updates, with optional asynchronous components, server-side rendering, hydration, Vite integration, and a QuickJS/WASM sandbox.
 
-- **Category:** [Application Frameworks](../categories/application-frameworks.md)
-- **Topics:** [Coding Agents](../topics/coding-agents.md) | [Agent Skills](../topics/agent-skills.md) | [Frameworks](../topics/frameworks.md) | [Frontend Development](../topics/frontend-development.md) | [Sandboxing](../topics/sandboxing.md) | [Web](../topics/web.md)
+- **Category:** [Application Frameworks](../categories/application-frameworks.md#repo-standardagents--arrow-js)
+- **Topics:** [Coding Agents](../topics/coding-agents.md#repo-standardagents--arrow-js) | [Agent Skills](../topics/agent-skills.md#repo-standardagents--arrow-js) | [Frameworks](../topics/frameworks.md#repo-standardagents--arrow-js) | [Frontend Development](../topics/frontend-development.md#repo-standardagents--arrow-js) | [Sandboxing](../topics/sandboxing.md#repo-standardagents--arrow-js) | [Web](../topics/web.md#repo-standardagents--arrow-js)
 - **Kind:** Framework
 - **Best for:** Developers who want a small reactive DOM runtime with a minimal core API; Projects that need to add async components, SSR, and hydration without changing component models
 - **Languages:** TypeScript, JavaScript
@@ -605,12 +667,14 @@ A TypeScript reactive UI framework centered on JavaScript modules, tagged templa
   - Separate framework package for asynchronous components and rendering boundaries
   - SSR package for rendering HTML and serializing asynchronous payloads
 
+<a id="repo-strapi--strapi"></a>
+
 ## [Strapi](https://github.com/strapi/strapi)
 
 A self-hosted, JavaScript and TypeScript headless CMS for visually modeling content and supplying it to web, mobile, and IoT clients through generated REST or GraphQL APIs and a customizable administration interface.
 
-- **Category:** [Platforms and Applications](../categories/platforms-and-applications.md)
-- **Topics:** [CMS](../topics/cms.md) | [API Development](../topics/api-development.md) | [Authentication](../topics/authentication.md) | [Self Hosted](../topics/self-hosted.md) | [Web](../topics/web.md)
+- **Category:** [Platforms and Applications](../categories/platforms-and-applications.md#repo-strapi--strapi)
+- **Topics:** [CMS](../topics/cms.md#repo-strapi--strapi) | [API Development](../topics/api-development.md#repo-strapi--strapi) | [Authentication](../topics/authentication.md#repo-strapi--strapi) | [Self Hosted](../topics/self-hosted.md#repo-strapi--strapi) | [Web](../topics/web.md#repo-strapi--strapi)
 - **Kind:** Application
 - **Best for:** Teams that need a customizable content API and editor workflow; Applications that want self-hosted content management with multiple database choices
 - **Languages:** JavaScript, TypeScript
@@ -624,12 +688,14 @@ A self-hosted, JavaScript and TypeScript headless CMS for visually modeling cont
   - Generated REST and GraphQL APIs for each content type
   - Built-in roles and permissions, media library, internationalization, and draft-and-publish workflows
 
+<a id="repo-swyxio--spark-joy"></a>
+
 ## [Spark Joy](https://github.com/swyxio/spark-joy)
 
 A large, hand-curated README index of resources for adding visual flair, usability, and whimsy to product interfaces, spanning web design, CSS, typography, graphics, interaction, and design inspiration.
 
-- **Category:** [Frontend and Design](../categories/frontend-and-design.md)
-- **Topics:** [Curated Lists](../topics/curated-lists.md) | [Frontend Development](../topics/frontend-development.md) | [Web](../topics/web.md) | [UI Components](../topics/ui-components.md) | [Design Systems](../topics/design-systems.md) | [Accessibility](../topics/accessibility.md) | [Visualization](../topics/visualization.md) | [Reference](../topics/reference.md)
+- **Category:** [Frontend and Design](../categories/frontend-and-design.md#repo-swyxio--spark-joy)
+- **Topics:** [Curated Lists](../topics/curated-lists.md#repo-swyxio--spark-joy) | [Frontend Development](../topics/frontend-development.md#repo-swyxio--spark-joy) | [Web](../topics/web.md#repo-swyxio--spark-joy) | [UI Components](../topics/ui-components.md#repo-swyxio--spark-joy) | [Design Systems](../topics/design-systems.md#repo-swyxio--spark-joy) | [Accessibility](../topics/accessibility.md#repo-swyxio--spark-joy) | [Visualization](../topics/visualization.md#repo-swyxio--spark-joy) | [Reference](../topics/reference.md#repo-swyxio--spark-joy)
 - **Kind:** Curated List
 - **Best for:** Designers and frontend developers collecting interface and visual-design references; Product teams looking for inspiration or a starting point for specific UI details
 - **Languages:** Markdown
@@ -643,12 +709,14 @@ A large, hand-curated README index of resources for adding visual flair, usabili
   - Covers icons, diagrams, illustrations, stock media, and SVG or graphics tools
   - Includes references for form controls, charts, dashboards, and React components
 
+<a id="repo-t3-oss--create-t3-app"></a>
+
 ## [create-t3-app](https://github.com/t3-oss/create-t3-app)
 
 An interactive CLI that scaffolds modular, type-safe full-stack Next.js applications from a selectable T3 Stack configuration.
 
-- **Category:** [Developer Tools](../categories/developer-tools.md)
-- **Topics:** [CLI](../topics/cli.md) | [Web](../topics/web.md) | [Starter Templates](../topics/starter-templates.md) | [Frontend Development](../topics/frontend-development.md) | [Backend Development](../topics/backend-development.md) | [Authentication](../topics/authentication.md) | [Databases](../topics/databases.md) | [Developer Productivity](../topics/developer-productivity.md)
+- **Category:** [Developer Tools](../categories/developer-tools.md#repo-t3-oss--create-t3-app)
+- **Topics:** [CLI](../topics/cli.md#repo-t3-oss--create-t3-app) | [Web](../topics/web.md#repo-t3-oss--create-t3-app) | [Starter Templates](../topics/starter-templates.md#repo-t3-oss--create-t3-app) | [Frontend Development](../topics/frontend-development.md#repo-t3-oss--create-t3-app) | [Backend Development](../topics/backend-development.md#repo-t3-oss--create-t3-app) | [Authentication](../topics/authentication.md#repo-t3-oss--create-t3-app) | [Databases](../topics/databases.md#repo-t3-oss--create-t3-app) | [Developer Productivity](../topics/developer-productivity.md#repo-t3-oss--create-t3-app)
 - **Kind:** CLI
 - **Best for:** Starting a TypeScript-based Next.js application with common full-stack components; Teams that want a maintained baseline rather than assembling the stack manually
 - **Languages:** TypeScript
@@ -662,12 +730,14 @@ An interactive CLI that scaffolds modular, type-safe full-stack Next.js applicat
   - Base template built on Next.js, React, TypeScript, Zod, and environment validation
   - Optional tRPC, Tailwind CSS, Prisma, Drizzle ORM, and database client integrations
 
+<a id="repo-thedaviddias--front-end-checklist"></a>
+
 ## [Front-End Checklist](https://github.com/thedaviddias/Front-End-Checklist)
 
 A front-end quality system containing 385 prioritized rules across eleven categories, delivered as a browsable website, a README checklist, reusable skills, and hosted or local MCP tooling for review and audit workflows.
 
-- **Category:** [Testing and Quality](../categories/testing-and-quality.md)
-- **Topics:** [Web](../topics/web.md) | [Frontend Development](../topics/frontend-development.md) | [Accessibility](../topics/accessibility.md) | [Security](../topics/security.md) | [Testing](../topics/testing.md) | [Performance](../topics/performance.md) | [MCP](../topics/mcp.md) | [AI Agents](../topics/ai-agents.md) | [Documentation](../topics/documentation.md)
+- **Category:** [Testing and Quality](../categories/testing-and-quality.md#repo-thedaviddias--front-end-checklist)
+- **Topics:** [Web](../topics/web.md#repo-thedaviddias--front-end-checklist) | [Frontend Development](../topics/frontend-development.md#repo-thedaviddias--front-end-checklist) | [Accessibility](../topics/accessibility.md#repo-thedaviddias--front-end-checklist) | [Security](../topics/security.md#repo-thedaviddias--front-end-checklist) | [Testing](../topics/testing.md#repo-thedaviddias--front-end-checklist) | [Performance](../topics/performance.md#repo-thedaviddias--front-end-checklist) | [MCP](../topics/mcp.md#repo-thedaviddias--front-end-checklist) | [AI Agents](../topics/ai-agents.md#repo-thedaviddias--front-end-checklist) | [Documentation](../topics/documentation.md#repo-thedaviddias--front-end-checklist)
 - **Kind:** Monorepo
 - **Best for:** Teams reviewing web applications for accessibility, performance, security, and SEO concerns; MCP-capable agents that need a structured front-end rule corpus and remediation guidance
 - **Languages:** TypeScript, MDX
@@ -681,12 +751,14 @@ A front-end quality system containing 385 prioritized rules across eleven catego
   - Priority labels for critical, high, medium, and low-impact findings
   - Hosted MCP server with tools to review code, audit public URLs, search rules, and retrieve workflows
 
+<a id="repo-trimstray--the-book-of-secret-knowledge"></a>
+
 ## [The Book of Secret Knowledge](https://github.com/trimstray/the-book-of-secret-knowledge)
 
 A broad technical reference of tools, manuals, cheatsheets, links, and shell examples for operations, development, networking, and security work.
 
-- **Category:** [Documentation and Learning](../categories/documentation-and-learning.md)
-- **Topics:** [CLI](../topics/cli.md) | [Web](../topics/web.md) | [DevOps](../topics/devops.md) | [Containers](../topics/containers.md) | [Security](../topics/security.md) | [Documentation](../topics/documentation.md) | [Curated Lists](../topics/curated-lists.md) | [Reference](../topics/reference.md)
+- **Category:** [Documentation and Learning](../categories/documentation-and-learning.md#repo-trimstray--the-book-of-secret-knowledge)
+- **Topics:** [CLI](../topics/cli.md#repo-trimstray--the-book-of-secret-knowledge) | [Web](../topics/web.md#repo-trimstray--the-book-of-secret-knowledge) | [DevOps](../topics/devops.md#repo-trimstray--the-book-of-secret-knowledge) | [Containers](../topics/containers.md#repo-trimstray--the-book-of-secret-knowledge) | [Security](../topics/security.md#repo-trimstray--the-book-of-secret-knowledge) | [Documentation](../topics/documentation.md#repo-trimstray--the-book-of-secret-knowledge) | [Curated Lists](../topics/curated-lists.md#repo-trimstray--the-book-of-secret-knowledge) | [Reference](../topics/reference.md#repo-trimstray--the-book-of-secret-knowledge)
 - **Kind:** Curated List
 - **Best for:** System, network, and DevOps practitioners seeking a broad reference list; Security researchers and developers looking up tools, resources, or shell patterns
 - **Languages:** Unknown
@@ -700,12 +772,14 @@ A broad technical reference of tools, manuals, cheatsheets, links, and shell exa
   - Collects manuals, how-tos, tutorials, blogs, and other curated references
   - Includes security, privacy, penetration-testing, and hardening resources
 
+<a id="repo-unclecode--crawl4ai"></a>
+
 ## [Crawl4AI](https://github.com/unclecode/crawl4ai)
 
 A Python crawler and scraper that uses browser automation to turn web pages into LLM-ready Markdown or structured data for agents, RAG, and pipelines.
 
-- **Category:** [AI and Automation](../categories/ai-and-automation.md)
-- **Topics:** [Web Scraping](../topics/web-scraping.md) | [LLMs](../topics/llms.md) | [Web](../topics/web.md) | [CLI](../topics/cli.md) | [Browser Automation](../topics/browser-automation.md) | [Document Processing](../topics/document-processing.md) | [Self Hosted](../topics/self-hosted.md) | [Open Source](../topics/open-source.md)
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-unclecode--crawl4ai)
+- **Topics:** [Web Scraping](../topics/web-scraping.md#repo-unclecode--crawl4ai) | [LLMs](../topics/llms.md#repo-unclecode--crawl4ai) | [Web](../topics/web.md#repo-unclecode--crawl4ai) | [CLI](../topics/cli.md#repo-unclecode--crawl4ai) | [Browser Automation](../topics/browser-automation.md#repo-unclecode--crawl4ai) | [Document Processing](../topics/document-processing.md#repo-unclecode--crawl4ai) | [Self Hosted](../topics/self-hosted.md#repo-unclecode--crawl4ai) | [Open Source](../topics/open-source.md#repo-unclecode--crawl4ai)
 - **Kind:** Library
 - **Best for:** Python projects that need controllable asynchronous web extraction; Preparing crawled web content for LLM, RAG, or structured-data workflows
 - **Languages:** Python, JavaScript
@@ -719,12 +793,14 @@ A Python crawler and scraper that uses browser automation to turn web pages into
   - Clean and relevance-filtered Markdown with citations and custom strategies
   - CSS/XPath and LLM-driven structured-data extraction
 
+<a id="repo-upstash--jstack"></a>
+
 ## [jstack](https://github.com/upstash/jstack)
 
 A type-safe application stack for building lightweight end-to-end Next.js applications with a Hono server layer and React client support.
 
-- **Category:** [Application Frameworks](../categories/application-frameworks.md)
-- **Topics:** [Web](../topics/web.md) | [Open Source](../topics/open-source.md) | [Frameworks](../topics/frameworks.md) | [Frontend Development](../topics/frontend-development.md) | [Backend Development](../topics/backend-development.md)
+- **Category:** [Application Frameworks](../categories/application-frameworks.md#repo-upstash--jstack)
+- **Topics:** [Web](../topics/web.md#repo-upstash--jstack) | [Open Source](../topics/open-source.md#repo-upstash--jstack) | [Frameworks](../topics/frameworks.md#repo-upstash--jstack) | [Frontend Development](../topics/frontend-development.md#repo-upstash--jstack) | [Backend Development](../topics/backend-development.md#repo-upstash--jstack)
 - **Kind:** Framework
 - **Best for:** Teams that want a pre-composed Next.js, Hono, Tailwind, and Drizzle ORM stack.; Lightweight end-to-end TypeScript web applications with a React client and Hono server layer.
 - **Languages:** TypeScript
@@ -738,12 +814,14 @@ A type-safe application stack for building lightweight end-to-end Next.js applic
   - Includes the published jstack package with server and client entry points.
   - Provides a create-jstack-app command-line scaffolder in this source tree.
 
+<a id="repo-vercel-labs--portless"></a>
+
 ## [portless](https://github.com/vercel-labs/portless)
 
 A local-development CLI that replaces per-app port numbers with stable, named URLs by running a local reverse proxy around existing development commands, with configurable TLS, routing, aliases, and sharing modes.
 
-- **Category:** [Developer Tools](../categories/developer-tools.md)
-- **Topics:** [CLI](../topics/cli.md) | [Web](../topics/web.md) | [Developer Productivity](../topics/developer-productivity.md) | [Worktrees](../topics/worktrees.md) | [Open Source](../topics/open-source.md)
+- **Category:** [Developer Tools](../categories/developer-tools.md#repo-vercel-labs--portless)
+- **Topics:** [CLI](../topics/cli.md#repo-vercel-labs--portless) | [Web](../topics/web.md#repo-vercel-labs--portless) | [Developer Productivity](../topics/developer-productivity.md#repo-vercel-labs--portless) | [Worktrees](../topics/worktrees.md#repo-vercel-labs--portless) | [Open Source](../topics/open-source.md#repo-vercel-labs--portless)
 - **Kind:** CLI
 - **Best for:** Developers who run several local web services and want stable browser URLs; Teams or agents whose local commands need predictable URLs without manually managing ports
 - **Languages:** TypeScript
@@ -757,12 +835,14 @@ A local-development CLI that replaces per-app port numbers with stable, named UR
   - Assigns an available application port and injects compatible port and host flags for supported frameworks
   - Provides local HTTPS and HTTP/2 with a generated, system-trusted certificate authority by default
 
+<a id="repo-vitejs--vite"></a>
+
 ## [vite](https://github.com/vitejs/vite)
 
 A frontend development server and production build tool that provides fast iteration and optimized static assets for modern web projects.
 
-- **Category:** [Developer Tools](../categories/developer-tools.md)
-- **Topics:** [CLI](../topics/cli.md) | [Web](../topics/web.md) | [Open Source](../topics/open-source.md) | [Frontend Development](../topics/frontend-development.md) | [Developer Productivity](../topics/developer-productivity.md) | [Frameworks](../topics/frameworks.md)
+- **Category:** [Developer Tools](../categories/developer-tools.md#repo-vitejs--vite)
+- **Topics:** [CLI](../topics/cli.md#repo-vitejs--vite) | [Web](../topics/web.md#repo-vitejs--vite) | [Open Source](../topics/open-source.md#repo-vitejs--vite) | [Frontend Development](../topics/frontend-development.md#repo-vitejs--vite) | [Developer Productivity](../topics/developer-productivity.md#repo-vitejs--vite) | [Frameworks](../topics/frameworks.md#repo-vitejs--vite)
 - **Kind:** CLI
 - **Best for:** Web projects that need fast hot module replacement during development and optimized static assets for production.; Tooling integrations that use Vite's typed JavaScript and plugin APIs.
 - **Languages:** TypeScript

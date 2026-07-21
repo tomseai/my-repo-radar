@@ -16,12 +16,14 @@
 - [TUI](../topics/tui.md) (1)
 - [Visualization](../topics/visualization.md) (1)
 
+<a id="repo-dicklesworthstone--asupersync"></a>
+
 ## [Asupersync](https://github.com/Dicklesworthstone/asupersync)
 
 An experimental Rust async runtime that uses region-owned tasks, explicit cancellation protocols, capability-gated effects, and deterministic replay testing.
 
-- **Category:** [Systems and Infrastructure](../categories/systems-and-infrastructure.md)
-- **Topics:** [Libraries](../topics/libraries.md) | [Testing](../topics/testing.md) | [Observability](../topics/observability.md) | [Security](../topics/security.md)
+- **Category:** [Systems and Infrastructure](../categories/systems-and-infrastructure.md#repo-dicklesworthstone--asupersync)
+- **Topics:** [Libraries](../topics/libraries.md#repo-dicklesworthstone--asupersync) | [Testing](../topics/testing.md#repo-dicklesworthstone--asupersync) | [Observability](../topics/observability.md#repo-dicklesworthstone--asupersync) | [Security](../topics/security.md#repo-dicklesworthstone--asupersync)
 - **Kind:** Framework
 - **Best for:** Experimental Rust systems that can validate selected adapters and cancellation boundaries; Teams investigating structured shutdown and reproducible concurrency failures
 - **Languages:** Rust, JavaScript, TypeScript
@@ -35,12 +37,14 @@ An experimental Rust async runtime that uses region-owned tasks, explicit cancel
   - Request, drain, and finalize cancellation protocol for covered primitives
   - Capability-gated runtime effects and obligation tracking
 
+<a id="repo-psmux--psnet"></a>
+
 ## [PSNET](https://github.com/psmux/psnet)
 
 A native Rust TUI network monitor for Windows that combines connection and bandwidth views, listening-port inspection, packet details, GeoIP maps, LAN discovery, topology, alerts, and firewall controls in a standalone binary.
 
-- **Category:** [Systems and Infrastructure](../categories/systems-and-infrastructure.md)
-- **Topics:** [TUI](../topics/tui.md) | [Terminal](../topics/terminal.md) | [Observability](../topics/observability.md) | [Security](../topics/security.md) | [Visualization](../topics/visualization.md) | [Local First](../topics/local-first.md) | [Performance](../topics/performance.md)
+- **Category:** [Systems and Infrastructure](../categories/systems-and-infrastructure.md#repo-psmux--psnet)
+- **Topics:** [TUI](../topics/tui.md#repo-psmux--psnet) | [Terminal](../topics/terminal.md#repo-psmux--psnet) | [Observability](../topics/observability.md#repo-psmux--psnet) | [Security](../topics/security.md#repo-psmux--psnet) | [Visualization](../topics/visualization.md#repo-psmux--psnet) | [Local First](../topics/local-first.md#repo-psmux--psnet) | [Performance](../topics/performance.md#repo-psmux--psnet)
 - **Kind:** Application
 - **Best for:** Windows users wanting a terminal-first overview of connections, services, devices, and traffic; Developers diagnosing local ports, adapters, process traffic, or network exposure without a full GUI suite
 - **Languages:** Rust

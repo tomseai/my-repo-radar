@@ -11,12 +11,14 @@
 - [Data and Databases](../categories/data-and-databases.md) (2)
 - [Developer Tools](../categories/developer-tools.md) (1)
 
+<a id="repo-adonisjs--core"></a>
+
 ## [AdonisJS Core](https://github.com/adonisjs/core)
 
 The TypeScript-first, full-stack MVC framework core for Node.js web applications, API servers, and microservices.
 
-- **Category:** [Application Frameworks](../categories/application-frameworks.md)
-- **Topics:** [Frameworks](../topics/frameworks.md) | [Web](../topics/web.md) | [Backend Development](../topics/backend-development.md) | [API Development](../topics/api-development.md) | [CLI](../topics/cli.md) | [Testing](../topics/testing.md)
+- **Category:** [Application Frameworks](../categories/application-frameworks.md#repo-adonisjs--core)
+- **Topics:** [Frameworks](../topics/frameworks.md#repo-adonisjs--core) | [Web](../topics/web.md#repo-adonisjs--core) | [Backend Development](../topics/backend-development.md#repo-adonisjs--core) | [API Development](../topics/api-development.md#repo-adonisjs--core) | [CLI](../topics/cli.md#repo-adonisjs--core) | [Testing](../topics/testing.md#repo-adonisjs--core)
 - **Kind:** Framework
 - **Best for:** Teams building server-rendered web applications or API backends with AdonisJS; Node.js projects that benefit from a cohesive framework and official package ecosystem
 - **Languages:** TypeScript, JavaScript
@@ -30,12 +32,14 @@ The TypeScript-first, full-stack MVC framework core for Node.js web applications
   - HTTP server, body parsing, configuration, environment, event, logging, and health modules
   - Command toolkit exposed through the adonis-kit CLI
 
+<a id="repo-dolthub--dolt"></a>
+
 ## [Dolt](https://github.com/dolthub/dolt)
 
 A Go SQL database that versions tables and schema with Git-like cloning, branching, merging, diffing, commits, and remotes, exposed through both a command-line client and a MySQL-compatible server.
 
-- **Category:** [Data and Databases](../categories/data-and-databases.md)
-- **Topics:** [Databases](../topics/databases.md) | [Git](../topics/git.md) | [CLI](../topics/cli.md) | [Self Hosted](../topics/self-hosted.md) | [Backend Development](../topics/backend-development.md)
+- **Category:** [Data and Databases](../categories/data-and-databases.md#repo-dolthub--dolt)
+- **Topics:** [Databases](../topics/databases.md#repo-dolthub--dolt) | [Git](../topics/git.md#repo-dolthub--dolt) | [CLI](../topics/cli.md#repo-dolthub--dolt) | [Self Hosted](../topics/self-hosted.md#repo-dolthub--dolt) | [Backend Development](../topics/backend-development.md#repo-dolthub--dolt)
 - **Kind:** Service
 - **Best for:** Teams that need versioned data and schema changes alongside SQL workflows; Isolating, comparing, merging, and restoring database changes with Git-like operations
 - **Languages:** Go
@@ -49,12 +53,14 @@ A Go SQL database that versions tables and schema with Git-like cloning, branchi
   - MySQL-compatible server and client interfaces for SQL data and schema access
   - SQL system tables, functions, and stored procedures for version-control operations
 
+<a id="repo-fastify--fastify"></a>
+
 ## [Fastify](https://github.com/fastify/fastify)
 
 A Node.js web framework for building HTTP servers and APIs with route schemas, structured logging, and an extensible architecture based on hooks, decorators, and encapsulated plugins.
 
-- **Category:** [Application Frameworks](../categories/application-frameworks.md)
-- **Topics:** [Web](../topics/web.md) | [Backend Development](../topics/backend-development.md) | [API Development](../topics/api-development.md) | [Frameworks](../topics/frameworks.md)
+- **Category:** [Application Frameworks](../categories/application-frameworks.md#repo-fastify--fastify)
+- **Topics:** [Web](../topics/web.md#repo-fastify--fastify) | [Backend Development](../topics/backend-development.md#repo-fastify--fastify) | [API Development](../topics/api-development.md#repo-fastify--fastify) | [Frameworks](../topics/frameworks.md#repo-fastify--fastify)
 - **Kind:** Framework
 - **Best for:** Node.js services and APIs that need a concise route API and plugin composition; Teams that want schema-driven validation and response serialization
 - **Languages:** JavaScript
@@ -68,12 +74,14 @@ A Node.js web framework for building HTTP servers and APIs with route schemas, s
   - Hooks, decorators, and encapsulated plugins for extending server behavior
   - JSON Schema-based route validation and response serialization
 
+<a id="repo-get-convex--convex-backend"></a>
+
 ## [Convex](https://github.com/get-convex/convex-backend)
 
 A reactive database and application backend that combines strongly consistent TypeScript server functions with client libraries for dynamic, live-updating applications.
 
-- **Category:** [Data and Databases](../categories/data-and-databases.md)
-- **Topics:** [Databases](../topics/databases.md) | [Backend Development](../topics/backend-development.md) | [Realtime](../topics/realtime.md) | [Self Hosted](../topics/self-hosted.md) | [Open Source](../topics/open-source.md) | [Deployment](../topics/deployment.md)
+- **Category:** [Data and Databases](../categories/data-and-databases.md#repo-get-convex--convex-backend)
+- **Topics:** [Databases](../topics/databases.md#repo-get-convex--convex-backend) | [Backend Development](../topics/backend-development.md#repo-get-convex--convex-backend) | [Realtime](../topics/realtime.md#repo-get-convex--convex-backend) | [Self Hosted](../topics/self-hosted.md#repo-get-convex--convex-backend) | [Open Source](../topics/open-source.md#repo-get-convex--convex-backend) | [Deployment](../topics/deployment.md#repo-get-convex--convex-backend)
 - **Kind:** Service
 - **Best for:** Teams building a reactive web application with TypeScript server logic; Operators who need an available self-hosted Convex backend
 - **Languages:** Rust, TypeScript
@@ -87,12 +95,14 @@ A reactive database and application backend that combines strongly consistent Ty
   - Client libraries for dynamic live-updating applications
   - Self-hosted dashboard and CLI alongside the backend
 
+<a id="repo-getpaykit--paykit"></a>
+
 ## [PayKit](https://github.com/getpaykit/paykit)
 
 An embedded TypeScript billing framework that keeps billing state in an application's database while managing products, subscriptions, entitlements, usage billing, and Stripe webhooks.
 
-- **Category:** [Backend and APIs](../categories/backend-and-apis.md)
-- **Topics:** [Payments](../topics/payments.md) | [Backend Development](../topics/backend-development.md) | [Libraries](../topics/libraries.md) | [Developer Productivity](../topics/developer-productivity.md) | [Open Source](../topics/open-source.md)
+- **Category:** [Backend and APIs](../categories/backend-and-apis.md#repo-getpaykit--paykit)
+- **Topics:** [Payments](../topics/payments.md#repo-getpaykit--paykit) | [Backend Development](../topics/backend-development.md#repo-getpaykit--paykit) | [Libraries](../topics/libraries.md#repo-getpaykit--paykit) | [Developer Productivity](../topics/developer-productivity.md#repo-getpaykit--paykit) | [Open Source](../topics/open-source.md#repo-getpaykit--paykit)
 - **Kind:** Framework
 - **Best for:** TypeScript applications that want billing logic and state inside their own backend; SaaS products defining plans and feature access as code
 - **Languages:** TypeScript
@@ -106,12 +116,14 @@ An embedded TypeScript billing framework that keeps billing state in an applicat
   - Manage subscriptions and feature entitlements through one application API
   - Track usage and monthly limits for metered features
 
+<a id="repo-honojs--hono"></a>
+
 ## [Hono](https://github.com/honojs/hono)
 
 A small TypeScript web framework built on Web Standards for defining HTTP applications and middleware that can run across edge, serverless, and JavaScript server runtimes including Cloudflare Workers, Deno, Bun, AWS Lambda, and Node.js.
 
-- **Category:** [Application Frameworks](../categories/application-frameworks.md)
-- **Topics:** [Web](../topics/web.md) | [Frameworks](../topics/frameworks.md) | [Backend Development](../topics/backend-development.md) | [API Development](../topics/api-development.md) | [Performance](../topics/performance.md) | [Libraries](../topics/libraries.md)
+- **Category:** [Application Frameworks](../categories/application-frameworks.md#repo-honojs--hono)
+- **Topics:** [Web](../topics/web.md#repo-honojs--hono) | [Frameworks](../topics/frameworks.md#repo-honojs--hono) | [Backend Development](../topics/backend-development.md#repo-honojs--hono) | [API Development](../topics/api-development.md#repo-honojs--hono) | [Performance](../topics/performance.md#repo-honojs--hono) | [Libraries](../topics/libraries.md#repo-honojs--hono)
 - **Kind:** Framework
 - **Best for:** TypeScript teams targeting more than one JavaScript or edge runtime; Small HTTP APIs, web applications, and middleware-driven services
 - **Languages:** TypeScript
@@ -125,12 +137,14 @@ A small TypeScript web framework built on Web Standards for defining HTTP applic
   - Built-in, custom, and third-party middleware support
   - Runtime adapters for edge platforms, serverless functions, and Node.js
 
+<a id="repo-t3-oss--create-t3-app"></a>
+
 ## [create-t3-app](https://github.com/t3-oss/create-t3-app)
 
 An interactive CLI that scaffolds modular, type-safe full-stack Next.js applications from a selectable T3 Stack configuration.
 
-- **Category:** [Developer Tools](../categories/developer-tools.md)
-- **Topics:** [CLI](../topics/cli.md) | [Web](../topics/web.md) | [Starter Templates](../topics/starter-templates.md) | [Frontend Development](../topics/frontend-development.md) | [Backend Development](../topics/backend-development.md) | [Authentication](../topics/authentication.md) | [Databases](../topics/databases.md) | [Developer Productivity](../topics/developer-productivity.md)
+- **Category:** [Developer Tools](../categories/developer-tools.md#repo-t3-oss--create-t3-app)
+- **Topics:** [CLI](../topics/cli.md#repo-t3-oss--create-t3-app) | [Web](../topics/web.md#repo-t3-oss--create-t3-app) | [Starter Templates](../topics/starter-templates.md#repo-t3-oss--create-t3-app) | [Frontend Development](../topics/frontend-development.md#repo-t3-oss--create-t3-app) | [Backend Development](../topics/backend-development.md#repo-t3-oss--create-t3-app) | [Authentication](../topics/authentication.md#repo-t3-oss--create-t3-app) | [Databases](../topics/databases.md#repo-t3-oss--create-t3-app) | [Developer Productivity](../topics/developer-productivity.md#repo-t3-oss--create-t3-app)
 - **Kind:** CLI
 - **Best for:** Starting a TypeScript-based Next.js application with common full-stack components; Teams that want a maintained baseline rather than assembling the stack manually
 - **Languages:** TypeScript
@@ -144,12 +158,14 @@ An interactive CLI that scaffolds modular, type-safe full-stack Next.js applicat
   - Base template built on Next.js, React, TypeScript, Zod, and environment validation
   - Optional tRPC, Tailwind CSS, Prisma, Drizzle ORM, and database client integrations
 
+<a id="repo-upstash--jstack"></a>
+
 ## [jstack](https://github.com/upstash/jstack)
 
 A type-safe application stack for building lightweight end-to-end Next.js applications with a Hono server layer and React client support.
 
-- **Category:** [Application Frameworks](../categories/application-frameworks.md)
-- **Topics:** [Web](../topics/web.md) | [Open Source](../topics/open-source.md) | [Frameworks](../topics/frameworks.md) | [Frontend Development](../topics/frontend-development.md) | [Backend Development](../topics/backend-development.md)
+- **Category:** [Application Frameworks](../categories/application-frameworks.md#repo-upstash--jstack)
+- **Topics:** [Web](../topics/web.md#repo-upstash--jstack) | [Open Source](../topics/open-source.md#repo-upstash--jstack) | [Frameworks](../topics/frameworks.md#repo-upstash--jstack) | [Frontend Development](../topics/frontend-development.md#repo-upstash--jstack) | [Backend Development](../topics/backend-development.md#repo-upstash--jstack)
 - **Kind:** Framework
 - **Best for:** Teams that want a pre-composed Next.js, Hono, Tailwind, and Drizzle ORM stack.; Lightweight end-to-end TypeScript web applications with a React client and Hono server layer.
 - **Languages:** TypeScript
@@ -163,12 +179,14 @@ A type-safe application stack for building lightweight end-to-end Next.js applic
   - Includes the published jstack package with server and client entry points.
   - Provides a create-jstack-app command-line scaffolder in this source tree.
 
+<a id="repo-vendurehq--vendure"></a>
+
 ## [vendure](https://github.com/vendurehq/vendure)
 
 A plugin-first, headless commerce platform with a TypeScript GraphQL backend, React admin dashboard, and extensible business logic.
 
-- **Category:** [Backend and APIs](../categories/backend-and-apis.md)
-- **Topics:** [Ecommerce](../topics/ecommerce.md) | [Payments](../topics/payments.md) | [Open Source](../topics/open-source.md) | [Backend Development](../topics/backend-development.md) | [API Development](../topics/api-development.md) | [Frameworks](../topics/frameworks.md)
+- **Category:** [Backend and APIs](../categories/backend-and-apis.md#repo-vendurehq--vendure)
+- **Topics:** [Ecommerce](../topics/ecommerce.md#repo-vendurehq--vendure) | [Payments](../topics/payments.md#repo-vendurehq--vendure) | [Open Source](../topics/open-source.md#repo-vendurehq--vendure) | [Backend Development](../topics/backend-development.md#repo-vendurehq--vendure) | [API Development](../topics/api-development.md#repo-vendurehq--vendure) | [Frameworks](../topics/frameworks.md#repo-vendurehq--vendure)
 - **Kind:** Monorepo
 - **Best for:** Teams building configurable D2C, B2B, marketplace, or omnichannel commerce services.; Projects needing catalogs, orders, customers, promotions, tax, shipping, payments, and stock on one backend.
 - **Languages:** TypeScript

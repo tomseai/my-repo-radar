@@ -8,12 +8,14 @@
 
 - [Frontend and Design](../categories/frontend-and-design.md) (1)
 
+<a id="repo-addyosmani--tunnel-bear-login"></a>
+
 ## [Tunnel Bear Login Animation](https://github.com/addyosmani/tunnel-bear-login)
 
 An educational React recreation of a TunnelBear-inspired login form with a bear animation that responds to email and password-field interactions.
 
-- **Category:** [Frontend and Design](../categories/frontend-and-design.md)
-- **Topics:** [Web](../topics/web.md) | [Frontend Development](../topics/frontend-development.md) | [Forms](../topics/forms.md) | [UI Components](../topics/ui-components.md)
+- **Category:** [Frontend and Design](../categories/frontend-and-design.md#repo-addyosmani--tunnel-bear-login)
+- **Topics:** [Web](../topics/web.md#repo-addyosmani--tunnel-bear-login) | [Frontend Development](../topics/frontend-development.md#repo-addyosmani--tunnel-bear-login) | [Forms](../topics/forms.md#repo-addyosmani--tunnel-bear-login) | [UI Components](../topics/ui-components.md#repo-addyosmani--tunnel-bear-login)
 - **Kind:** Application
 - **Best for:** Studying a compact, animated React form implementation; Prototyping playful input-state feedback in a Vite web application
 - **Languages:** TypeScript, JavaScript

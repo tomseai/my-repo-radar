@@ -8,12 +8,14 @@
 
 - [Platforms and Applications](../categories/platforms-and-applications.md) (1)
 
+<a id="repo-strapi--strapi"></a>
+
 ## [Strapi](https://github.com/strapi/strapi)
 
 A self-hosted, JavaScript and TypeScript headless CMS for visually modeling content and supplying it to web, mobile, and IoT clients through generated REST or GraphQL APIs and a customizable administration interface.
 
-- **Category:** [Platforms and Applications](../categories/platforms-and-applications.md)
-- **Topics:** [CMS](../topics/cms.md) | [API Development](../topics/api-development.md) | [Authentication](../topics/authentication.md) | [Self Hosted](../topics/self-hosted.md) | [Web](../topics/web.md)
+- **Category:** [Platforms and Applications](../categories/platforms-and-applications.md#repo-strapi--strapi)
+- **Topics:** [CMS](../topics/cms.md#repo-strapi--strapi) | [API Development](../topics/api-development.md#repo-strapi--strapi) | [Authentication](../topics/authentication.md#repo-strapi--strapi) | [Self Hosted](../topics/self-hosted.md#repo-strapi--strapi) | [Web](../topics/web.md#repo-strapi--strapi)
 - **Kind:** Application
 - **Best for:** Teams that need a customizable content API and editor workflow; Applications that want self-hosted content management with multiple database choices
 - **Languages:** JavaScript, TypeScript
