@@ -48,3 +48,9 @@ the common starting point for every analysis.
 
 The cache is an input artifact, not the public catalog. Public repository
 records should cite the immutable source URLs recorded in bundle manifests.
+
+Local dossier validation cross-checks `research.source_commit` against the
+matching cache manifest when `.research-cache/repositories/` is present. Clean
+CI checkouts do not contain the ignored cache, so they skip only this cache
+cross-check. Schema, identity, taxonomy, completion, and commit-pinned source
+validation still run for every dossier.

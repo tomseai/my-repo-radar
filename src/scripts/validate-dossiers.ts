@@ -1,5 +1,5 @@
 import { createRequire } from "node:module";
-import { readFile, readdir } from "node:fs/promises";
+import { access, readFile, readdir } from "node:fs/promises";
 import { join, resolve } from "node:path";
 
 import type { ErrorObject } from "ajv/dist/2020.js";
@@ -34,6 +34,13 @@ function formatError(error: ErrorObject): string {
 async function main(): Promise<void> {
   const root = resolve(process.cwd());
   const dossierDirectory = join(root, "data", "dossiers");
+  const bundleDirectory = join(root, ".research-cache", "repositories");
+  let verifyResearchBundles = true;
+  try {
+    await access(bundleDirectory);
+  } catch {
+    verifyResearchBundles = false;
+  }
   let filenames: string[];
   try {
     filenames = (await readdir(dossierDirectory)).filter((file) => file.endsWith(".yaml")).sort();
@@ -76,16 +83,18 @@ async function main(): Promise<void> {
       if (!taxonomy.topics.includes(topic)) errors.push(`${filename}: unknown topic ${topic}`);
     }
 
-    try {
-      const bundleManifest = JSON.parse(await readFile(
-        join(root, ".research-cache", "repositories", filename.replace(/\.yaml$/, ""), "manifest.json"),
-        "utf8",
-      )) as { source_commit: string };
-      if (bundleManifest.source_commit !== dossier.research.source_commit) {
-        errors.push(`${filename}: dossier source_commit differs from the research bundle`);
+    if (verifyResearchBundles) {
+      try {
+        const bundleManifest = JSON.parse(await readFile(
+          join(bundleDirectory, filename.replace(/\.yaml$/, ""), "manifest.json"),
+          "utf8",
+        )) as { source_commit: string };
+        if (bundleManifest.source_commit !== dossier.research.source_commit) {
+          errors.push(`${filename}: dossier source_commit differs from the research bundle`);
+        }
+      } catch {
+        errors.push(`${filename}: missing research bundle manifest`);
       }
-    } catch {
-      errors.push(`${filename}: missing research bundle manifest`);
     }
 
     if (dossier.research.state === "complete") {
@@ -120,7 +129,10 @@ async function main(): Promise<void> {
     errors.forEach((error) => console.error(`- ${error}`));
     throw new Error(`Dossier validation failed with ${errors.length} error${errors.length === 1 ? "" : "s"}.`);
   }
-  console.log(`Validated ${filenames.length} repository dossiers.`);
+  const bundleStatus = verifyResearchBundles
+    ? " Research bundle commits were cross-checked."
+    : " Research bundle cross-check skipped because .research-cache is not present.";
+  console.log(`Validated ${filenames.length} repository dossiers.${bundleStatus}`);
 }
 
 main().catch((error: unknown) => {
