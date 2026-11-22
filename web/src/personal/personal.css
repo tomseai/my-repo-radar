@@ -1,0 +1,167 @@
+.personal-link {
+  white-space: nowrap;
+  font-weight: 650;
+}
+.personal-editor,
+.personal-connections,
+.import-review {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 9px;
+  padding: 1.2rem;
+  margin: 1.2rem 0;
+}
+.personal-editor {
+  border-left: 3px solid var(--accent);
+}
+.personal-editor h2,
+.import-review h2 {
+  margin-top: 0;
+}
+.personal-editor fieldset {
+  border: 0;
+  padding: 0;
+  margin: 0;
+  min-width: 0;
+}
+.personal-fields {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+}
+.personal-fields label,
+.personal-notes {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  font-size: 0.875rem;
+  color: var(--muted);
+}
+.personal-fields input:not([type="checkbox"]),
+.personal-notes textarea {
+  font: inherit;
+  padding: 0.6rem 0.7rem;
+  background: var(--surface);
+  color: var(--text);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  width: 100%;
+  min-width: 0;
+}
+.personal-notes {
+  margin: 1rem 0;
+}
+.personal-notes textarea {
+  resize: vertical;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+.personal-check {
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: center;
+  gap: 0.6rem !important;
+  font-size: 0.94rem;
+}
+.personal-check input {
+  width: 18px;
+  height: 18px;
+}
+.personal-actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.6rem;
+}
+.personal-actions a {
+  font-size: 0.875rem;
+}
+.personal-message {
+  font-size: 0.94rem;
+  color: var(--accent);
+  margin: 0.8rem 0;
+  overflow-wrap: anywhere;
+}
+.personal-message:empty {
+  display: none;
+}
+.personal-warning {
+  border: 1px solid var(--warning);
+  padding: 0.8rem;
+  border-radius: 6px;
+  color: var(--warning);
+  font-size: 0.94rem;
+}
+.personal-location {
+  color: var(--muted);
+  font-size: 0.8rem;
+  overflow-wrap: anywhere;
+}
+.personal-badge {
+  display: inline-block;
+  font-size: 0.8rem;
+  margin: 0.4rem 0.4rem 0.2rem 0;
+  padding: 0.15rem 0.5rem;
+  background: var(--tint);
+  color: var(--accent);
+  border-radius: 5px;
+}
+.workspace-filters {
+  margin: 1.8rem 0 1rem;
+}
+.personal-record {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  flex-wrap: wrap;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 1rem;
+  margin: 0.8rem 0;
+  background: var(--surface);
+}
+.personal-record > div:first-child {
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+.personal-record > div:first-child span {
+  display: block;
+  font-size: 0.875rem;
+  color: var(--muted);
+}
+.personal-record > .personal-editor {
+  flex-basis: 100%;
+  min-width: 0;
+}
+@media (max-width: 760px) {
+  .top-actions > .personal-link {
+    display: inline;
+    font-size: 0.8rem;
+    white-space: normal;
+    max-width: 65px;
+  }
+  .personal-fields {
+    grid-template-columns: minmax(0, 1fr);
+  }
+  .personal-editor,
+  .personal-connections {
+    padding: 1rem;
+  }
+  .personal-actions > button {
+    min-height: 40px;
+  }
+}
+@media (max-width: 420px) {
+  .topbar {
+    flex-wrap: wrap;
+    gap: 0.65rem;
+  }
+  .top-actions {
+    margin-left: auto;
+  }
+  .top-actions > .personal-link {
+    max-width: none;
+    white-space: nowrap;
+  }
+}

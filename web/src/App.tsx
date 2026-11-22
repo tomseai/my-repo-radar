@@ -21,6 +21,12 @@ import {
   type SearchArtifact,
   type ViewState,
 } from "../../src/web-model";
+import {
+  PersonalBadge,
+  PersonalEditor,
+  PersonalWorkspace,
+  usePersonal,
+} from "./personal/Personal";
 
 const subscribe = (notify: () => void) => {
   window.addEventListener("hashchange", notify);
@@ -117,6 +123,7 @@ export function App({
   catalog: CatalogArtifact;
   search: SearchArtifact;
 }) {
+  const personal = usePersonal();
   const hash = useSyncExternalStore(subscribe, () => location.hash);
   const state = useMemo(() => parseHash(hash), [hash]);
   const repositories = catalog.repositories;
@@ -196,13 +203,15 @@ export function App({
   const detail = byId.get(state.repo);
   const title = state.repo
     ? (detail?.project.name ?? "Repository not found")
-    : state.view === "compare"
-      ? "Compare repositories"
-      : state.topic
-        ? label(state.topic)
-        : state.category
-          ? label(state.category)
-          : "Find your next useful repo.";
+    : state.view === "personal"
+      ? "Private workspace"
+      : state.view === "compare"
+        ? "Compare repositories"
+        : state.topic
+          ? label(state.topic)
+          : state.category
+            ? label(state.category)
+            : "Find your next useful repo.";
   useEffect(() => {
     document.title = `${title} · My Repo Radar`;
   }, [title]);
@@ -233,6 +242,7 @@ export function App({
           </span>
           {repo.status.archived && <span className="badge">Archived</span>}
         </div>
+        <PersonalBadge repo={repo} />
         <p>{summary(repo)}</p>
         <div className="tags">
           {repo.classification.topics.map((topic) => (
@@ -288,6 +298,9 @@ export function App({
             GitHub catalog
           </External>
           <ThemePicker />
+          <a className="personal-link" href={browseHref({ view: "personal" })}>
+            Private workspace{personal.hasDrafts ? " •" : ""}
+          </a>
         </div>
       </header>
       <div className="app-layout">
@@ -343,7 +356,9 @@ export function App({
         </aside>
         <main id="main" tabIndex={-1} className="main-content">
           <div className="eyebrow">THE OPEN-SOURCE SHELF</div>
-          {(state.repo || state.view === "compare") && (
+          {(state.repo ||
+            state.view === "compare" ||
+            state.view === "personal") && (
             <a className="back-link" href={href({ repo: "", view: "" })}>
               Back to results
             </a>
@@ -364,6 +379,10 @@ export function App({
                 <a href={browseHref({})}>Browse all repositories</a>
               </div>
             )
+          ) : state.view === "personal" ? (
+            <PersonalWorkspace
+              repositoryHref={(id) => href({ view: "", repo: id })}
+            />
           ) : state.view === "compare" ? (
             <Comparison
               repositories={selected}
@@ -688,6 +707,7 @@ function RepositoryDetail({
           </dd>
         </div>
       </dl>
+      <PersonalEditor repo={repo} />
       <div className="detail-grid">
         <section>
           <h2>Best for</h2>

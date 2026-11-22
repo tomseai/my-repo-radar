@@ -9,3 +9,9 @@ coverage/
 .env.*
 !.env.example
 *.log
+
+# Personal workspace output must never enter the public catalog.
+repo-radar-personal.yaml
+github%3A*.yaml
+repo-radar-personal-*.zip
+repo-radar-draft.yaml

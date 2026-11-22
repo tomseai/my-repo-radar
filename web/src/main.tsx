@@ -8,6 +8,7 @@ import {
   type SearchArtifact,
 } from "../../src/web-model";
 import { App } from "./App";
+import { PersonalProvider } from "./personal/Personal";
 import "./styles.css";
 
 function Bootstrap() {
@@ -60,7 +61,9 @@ function Bootstrap() {
       </main>
     );
   return data ? (
-    <App {...data} />
+    <PersonalProvider repositories={data.catalog.repositories}>
+      <App {...data} />
+    </PersonalProvider>
   ) : (
     <main className="boot" role="status">
       <span className="radar-mark" aria-hidden="true" />

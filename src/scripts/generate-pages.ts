@@ -147,7 +147,7 @@ function renderReadme(catalog: CatalogArtifact, taxonomy: Taxonomy): string {
     "",
     "## React catalog",
     "",
-    "Run `npm run dev:web` to browse the catalog with search, filters, repository details, comparisons, and light/dark themes. Run `npm run build:web` for the static production build. See [`docs/web-app.md`](docs/web-app.md) for setup, behavior, and deployment instructions.",
+    "Run `npm run dev:web` to browse the catalog with search, filters, repository details, comparisons, and light/dark themes. An optional [private workspace](docs/personal-workspace.md) keeps your notes in your own folder, with ZIP import/export. Run `npm run build:web` for the static production build. See [`docs/web-app.md`](docs/web-app.md) for setup, behavior, and deployment instructions.",
   );
   return `${lines.join("\n")}\n`;
 }

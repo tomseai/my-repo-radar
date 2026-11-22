@@ -1,6 +1,6 @@
 # React catalog
 
-The read-only React application in `web/` consumes the existing versioned
+The React application in `web/` consumes the existing versioned
 `generated/catalog.json` and `generated/search-index.json`. It does not create a
 second repository database. The Markdown catalog remains independently usable.
 
@@ -60,13 +60,16 @@ TypeScript before building. After changes to canonical YAML, run
 ## Data and privacy boundary
 
 The Vite build includes only explicitly imported public JSON plus application
-assets. It never imports research caches or workspace planning. No accounts,
-notes, private folders, analytics, external fonts, or third-party runtime APIs
-are used. External repository/source links open only when selected.
+assets; automatic public-directory copying is disabled. It never imports
+research caches or workspace planning. No accounts, analytics, external fonts,
+or third-party runtime APIs are used. External links open only when selected.
 
-Theme preference is the only persistent browser storage. Public comparison
-selections are encoded in the URL. Personal notes and sync are outside this
-read-only milestone.
+Theme preference lives in localStorage. The optional private workspace stores
+only a selected-folder handle in IndexedDB; its notes live in one YAML file per
+repository in the user's folder. Public comparison selections use the URL;
+private notes and private filters do not. See [Private repository notes](personal-workspace.md)
+for folder permissions, drafts, conflicts, backups, temporary mode, and ZIP/folder
+import/export. Desktop cloud synchronization is external to the application.
 
 ## GitHub Pages
 
@@ -103,8 +106,11 @@ mode, theme persistence, keyboard search, filters and empty results, detail
 links, topic-to-repository focus, Back/Forward, comparison limits and shared
 URLs, mobile layout, and load failures. Build success alone is not browser QA.
 
-Local verification on 2026-11-22 passed 33 automated tests, validation of all 369
+Local verification on 2026-11-22 passed 46 automated tests, validation of all 367
 inventory/dossier pairs, generated-file freshness, and the production build.
 Chromium checks exercised the behaviors above at desktop, 390px, and 320px
 widths, including simulated failed fetches and unavailable browser storage.
 No live GitHub Pages deployment or hosted cross-browser verification is claimed.
+Private folder/ZIP transfer and conflict checks were also exercised; see the
+[personal workspace verification scope](personal-workspace.md#verification-scope)
+for the native-picker and cloud-sync checks still requiring user verification.
