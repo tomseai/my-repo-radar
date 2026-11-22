@@ -2,13 +2,13 @@ import {
   createContext,
   useContext,
   useEffect,
+  useMemo,
   useRef,
   useState,
   type ReactNode,
 } from "react";
 import type { CatalogRepository } from "../../../src/web-model";
 import {
-  MAX_FILES,
   MAX_FILE_BYTES,
   MAX_TOTAL_BYTES,
   PersonalError,
@@ -17,6 +17,8 @@ import {
   exportZip,
   importFiles,
   importZip,
+  isSystemFile,
+  selectPersonalImportFiles,
   newPersonalRecord,
   normalizeId,
   priorities,
@@ -120,6 +122,26 @@ function parsedDraft(draft: Draft): PersonalRecord {
     personal_tags: values(draft.tags),
     useful_for: values(draft.uses),
   });
+}
+/** Normalized personal-record identities a catalog repository may be stored under. */
+function identityCandidates(repo: CatalogRepository): string[] {
+  const ids = [
+    repo.id,
+    ...repo.identity.aliases.map((alias) =>
+      alias.startsWith("github:")
+        ? alias
+        : `github:${alias.replace(/^https:\/\/github\.com\//, "")}`,
+    ),
+  ]
+    .map((id) => {
+      try {
+        return normalizeId(id);
+      } catch {
+        return "";
+      }
+    })
+    .filter(Boolean);
+  return [...new Set(ids)];
 }
 function useController(repositories: CatalogRepository[]) {
   const [mode, setMode] = useState<Mode>("disconnected");
@@ -261,23 +283,7 @@ function useController(repositories: CatalogRepository[]) {
     id: string;
     ambiguous: boolean;
   } {
-    const candidates = [
-      repo.id,
-      ...repo.identity.aliases.map((alias) =>
-        alias.startsWith("github:")
-          ? alias
-          : `github:${alias.replace(/^https:\/\/github.com\//, "")}`,
-      ),
-    ]
-      .map((id) => {
-        try {
-          return normalizeId(id);
-        } catch {
-          return "";
-        }
-      })
-      .filter(Boolean);
-    const matches = [...new Set(candidates)].filter(
+    const matches = identityCandidates(repo).filter(
       (id) => snapshot.records.has(id) || drafts.has(id),
     );
     return {
@@ -306,7 +312,9 @@ function useController(repositories: CatalogRepository[]) {
           "Resolve the workspace file warnings and reload before writing. Your draft is intact.",
         );
       const record = parsedDraft(draft);
-      record.updated_at = new Date().toISOString();
+      // Never move updated_at before created_at, e.g. for records from a device whose clock ran ahead.
+      const now = new Date().toISOString();
+      record.updated_at = now < record.created_at ? record.created_at : now;
       exportFiles([...new Map(snapshot.records).set(id, record).values()]);
       let raw: string;
       if (store.current) {
@@ -362,10 +370,11 @@ function useController(repositories: CatalogRepository[]) {
       const records = [...current.records.values()];
       exportFiles(records);
       if (root) {
-        for await (const _entry of root.entries())
-          throw new PersonalError(
-            "Export to an empty folder to avoid replacing any existing files.",
-          );
+        for await (const [name] of root.entries())
+          if (!isSystemFile(name))
+            throw new PersonalError(
+              "Export to an empty folder to avoid replacing any existing files.",
+            );
         const target = new FolderStore(root);
         await target.open();
         for (const record of records) await target.save(record, null);
@@ -376,7 +385,8 @@ function useController(repositories: CatalogRepository[]) {
           "application/zip",
         );
       setSnapshot(current);
-      setMemoryDirty(false);
+      // A ZIP is only a download request; the user may cancel it, so keep the unload guard.
+      if (asFolder) setMemoryDirty(false);
       setNotice(
         asFolder
           ? "Exported current records to the chosen folder. Local backup history is not included."
@@ -391,19 +401,7 @@ function useController(repositories: CatalogRepository[]) {
         throw new PersonalError(
           "Save or export/discard drafts before importing.",
         );
-      const selected = Array.from(files).filter(
-        (file) =>
-          !directory ||
-          !file.webkitRelativePath
-            .split("/")
-            .slice(1)
-            .join("/")
-            .startsWith("backups/"),
-      );
-      if (selected.length > MAX_FILES + 1)
-        throw new PersonalError(
-          "Select at most 2,000 records and a workspace marker.",
-        );
+      const selected = selectPersonalImportFiles(files, directory);
       let records: PersonalRecord[];
       if (
         !directory &&
@@ -469,10 +467,10 @@ function useController(repositories: CatalogRepository[]) {
             raw: new Map(current.raw).set(record.repository_id, raw),
           }));
           count++;
-        } catch {
+        } catch (error) {
           setPending(null);
           throw new PersonalError(
-            `Import stopped after ${count} saved records. Earlier records remain saved; remaining records were not imported. Reload the folder and inspect for conflicts before retrying.`,
+            `Import stopped after ${count} saved records: ${messageFor(error)} Earlier records remain saved; remaining records were not imported. Reload the folder and inspect for conflicts before retrying.`,
           );
         }
       }
@@ -912,6 +910,13 @@ export function PersonalWorkspace({
   }, [personal.mode]);
   const fileRef = useRef<HTMLInputElement>(null);
   const folderRef = useRef<HTMLInputElement>(null);
+  const repoByIdentity = useMemo(() => {
+    const map = new Map<string, CatalogRepository>();
+    for (const repo of personal.repositories)
+      for (const id of identityCandidates(repo))
+        if (!map.has(id)) map.set(id, repo);
+    return map;
+  }, [personal.repositories]);
   const ids = [
     ...new Set([
       ...personal.snapshot.records.keys(),
@@ -922,10 +927,7 @@ export function PersonalWorkspace({
     const record = personal.drafts.has(id)
       ? personal.drafts.get(id)!.record
       : personal.snapshot.records.get(id)!;
-    const repo = personal.repositories.find(
-      (repo) => personal.resolve(repo).id === id || normalizeId(repo.id) === id,
-    );
-    return { id, record, repo };
+    return { id, record, repo: repoByIdentity.get(id) };
   });
   const visible = all
     .filter(

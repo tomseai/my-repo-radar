@@ -3,6 +3,8 @@ import test from "node:test";
 import { strToU8, zipSync } from "fflate";
 import {
   ConflictError,
+  MAX_FILES,
+  MAX_TOTAL_BYTES,
   PROFILE,
   PROFILE_FILE,
   exportFiles,
@@ -13,6 +15,7 @@ import {
   parsePersonal,
   personalFilename,
   serializePersonal,
+  selectPersonalImportFiles,
   validatePersonal,
 } from "../personal-model.js";
 import {
@@ -39,6 +42,7 @@ class MemoryFile implements PersonalFile {
   raw = "";
   failWrite = false;
   locked = false;
+  onOpen: (() => void) | null = null;
   async getFile() {
     const text = this.raw;
     return {
@@ -50,6 +54,7 @@ class MemoryFile implements PersonalFile {
     if (this.locked)
       throw Object.assign(new Error(), { name: "NoModificationAllowedError" });
     this.locked = true;
+    this.onOpen?.();
     let next = this.raw;
     return {
       write: async (raw: string) => {
@@ -299,4 +304,118 @@ test("multibyte notes exceeding the byte limit are rejected before touching file
   assert.throws(() => serializePersonal(oversized), /256 KB/);
   await assert.rejects(store.save(oversized, null), /256 KB/);
   assert.equal(root.children.has("repositories"), false);
+});
+
+test("OS and sync metadata files never block a workspace, import or ZIP", async () => {
+  const root = new MemoryDirectory();
+  await root.getFileHandle(".DS_Store", { create: true });
+  await root.getFileHandle("desktop.ini", { create: true });
+  const store = new FolderStore(root);
+  await store.open();
+  await store.save(record(), null);
+  const dir = await root.getDirectoryHandle("repositories");
+  (await dir.getFileHandle(".DS_Store", { create: true })).raw = "\0binary";
+  (await dir.getFileHandle("Thumbs.db", { create: true })).raw = "\0binary";
+  const loaded = await store.load();
+  assert.deepEqual(loaded.issues, []);
+  assert.equal(loaded.records.size, 1);
+  const files = exportFiles([record()]);
+  assert.equal(
+    importFiles({
+      ...files,
+      ".DS_Store": "\0binary",
+      "repositories/desktop.ini": "[.ShellClassInfo]",
+    }).length,
+    1,
+  );
+  const zipped = zipSync({
+    ...Object.fromEntries(
+      Object.entries(files).map(([name, raw]) => [name, strToU8(raw)]),
+    ),
+    "__MACOSX/._repo-radar-personal.yaml": strToU8("\0"),
+    "repositories/.DS_Store": strToU8("\0"),
+  });
+  assert.equal(importZip(zipped).length, 1);
+});
+test("folder import skips empty placeholders exactly like the folder store", () => {
+  const files = exportFiles([record()]);
+  files[`repositories/${personalFilename("github:other/placeholder")}`] = "";
+  assert.equal(importFiles(files).length, 1);
+});
+test("a conflicting save writes no backup entry", async () => {
+  const root = new MemoryDirectory();
+  const store = new FolderStore(root);
+  await store.open();
+  const raw = await store.save(record(), null);
+  const file = await (
+    await root.getDirectoryHandle("repositories")
+  ).getFileHandle(personalFilename(record().repository_id));
+  file.raw = raw.replace("Private note", "Edited elsewhere");
+  await assert.rejects(
+    store.save({ ...record(), notes: "Stale" }, raw),
+    ConflictError,
+  );
+  assert.equal(root.children.has("backups"), false);
+});
+
+test("metadata is excluded before import count, size checks and content reads", () => {
+  const yaml = {
+    name: "record.yaml",
+    webkitRelativePath: "notes/repositories/record.yaml",
+  };
+  const metadata = Array.from({ length: MAX_FILES + 2 }, (_, i) => ({
+    name: "Thumbs.db",
+    webkitRelativePath: `notes/__MACOSX/${i}/Thumbs.db`,
+    get size(): number {
+      throw new Error("Metadata size must not be inspected");
+    },
+    text(): never {
+      throw new Error("Metadata content must not be read");
+    },
+  }));
+  assert.deepEqual(selectPersonalImportFiles([yaml, ...metadata], true), [
+    yaml,
+  ]);
+  assert.deepEqual(selectPersonalImportFiles([yaml, ...metadata], false), [
+    yaml,
+  ]);
+  const files = exportFiles([record()]);
+  for (let i = 0; i < MAX_FILES + 2; i++) files[`__MACOSX/${i}/Thumbs.db`] = "";
+  files["desktop.ini"] = "x".repeat(MAX_TOTAL_BYTES + 1);
+  assert.equal(importFiles(files).length, 1);
+  assert.throws(
+    () =>
+      selectPersonalImportFiles(
+        Array.from({ length: MAX_FILES + 2 }, () => yaml),
+        true,
+      ),
+    /2,000/,
+  );
+});
+
+test("a change while opening the writer aborts without a backup or overwrite", async () => {
+  const root = new MemoryDirectory();
+  const store = new FolderStore(root);
+  await store.open();
+  const raw = await store.save(record(), null);
+  const file = await (
+    await root.getDirectoryHandle("repositories")
+  ).getFileHandle(personalFilename(record().repository_id));
+  const external = serializePersonal({
+    ...record(),
+    notes: "Changed while acquiring writer",
+  });
+  let opened = false;
+  file.onOpen = () => {
+    opened = true;
+    file.raw = external;
+  };
+  await assert.rejects(
+    store.save({ ...record(), notes: "Stale draft" }, raw),
+    ConflictError,
+  );
+  assert.equal(opened, true);
+  assert.equal(file.locked, false);
+  assert.equal(file.raw, external);
+  assert.equal(root.children.has("backups"), false);
 });

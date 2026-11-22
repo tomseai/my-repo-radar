@@ -38,6 +38,37 @@ export interface PersonalRecord {
   created_at: string;
   updated_at: string;
 }
+const systemFiles = new Set([
+  "desktop.ini",
+  "thumbs.db",
+  "ehthumbs.db",
+  "icon\r",
+]);
+/** OS and sync-tool metadata (e.g. .DS_Store, desktop.ini) that may appear in any folder and is never a record. */
+export function isSystemFile(path: string): boolean {
+  const name = path.split("/").pop() ?? path;
+  return (
+    name.startsWith(".") ||
+    systemFiles.has(name.toLowerCase()) ||
+    path.split("/").includes("__MACOSX")
+  );
+}
+/** Filter metadata before counting files, inspecting sizes, or reading content. */
+export function selectPersonalImportFiles<
+  T extends { name: string; webkitRelativePath: string },
+>(files: Iterable<T>, directory: boolean): T[] {
+  const selected = Array.from(files).filter((file) => {
+    const path = directory
+      ? file.webkitRelativePath.split("/").slice(1).join("/")
+      : file.name;
+    return !isSystemFile(path) && !(directory && path.startsWith("backups/"));
+  });
+  if (selected.length > MAX_FILES + 1)
+    throw new PersonalError(
+      "Select at most 2,000 records and a workspace marker.",
+    );
+  return selected;
+}
 export function normalizeId(id: string): string {
   if (
     !/^github:[a-z\d][a-z\d-]*\/[a-z\d_.-]+$/i.test(id) ||
@@ -223,7 +254,8 @@ export function importFiles(
   files: Record<string, string>,
   requireProfile = true,
 ): PersonalRecord[] {
-  if (Object.keys(files).length > MAX_FILES + 1)
+  const entries = Object.entries(files).filter(([path]) => !isSystemFile(path));
+  if (entries.length > MAX_FILES + 1)
     throw new PersonalError("Too many import files.");
   if (requireProfile) {
     if (!files[PROFILE_FILE])
@@ -234,7 +266,7 @@ export function importFiles(
   if (files[PROFILE_FILE]) validateProfile(files[PROFILE_FILE]);
   const records = new Map<string, PersonalRecord>();
   let total = 0;
-  for (const [path, raw] of Object.entries(files)) {
+  for (const [path, raw] of entries) {
     total += strToU8(raw).length;
     if (total > MAX_TOTAL_BYTES)
       throw new PersonalError("Import exceeds the 20 MB limit.");
@@ -245,6 +277,8 @@ export function importFiles(
       path.includes(":")
     )
       throw new PersonalError("Unsupported import path.");
+    // Matches FolderStore.load: a failed first write may leave an empty placeholder, not a record.
+    if (raw === "") continue;
     const record = parsePersonal(raw);
     if (records.has(record.repository_id))
       throw new PersonalError(
@@ -265,7 +299,7 @@ export function importZip(data: Uint8Array): PersonalRecord[] {
       filter(file) {
         if (/^[a-z]:|^\/|\\|(?:^|\/)\.\.(?:\/|$)/i.test(file.name))
           throw new PersonalError("Unsafe archive path.");
-        if (file.name.endsWith("/")) return false;
+        if (file.name.endsWith("/") || isSystemFile(file.name)) return false;
         if (
           file.name !== PROFILE_FILE &&
           !/^repositories\/[^/]+\.yaml$/.test(file.name)

@@ -6,6 +6,7 @@ import {
   PersonalError,
   PROFILE,
   PROFILE_FILE,
+  isSystemFile,
   parsePersonal,
   personalFilename,
   serializePersonal,
@@ -83,10 +84,11 @@ export class FolderStore {
       );
     const profile = await readOptional(this.root, PROFILE_FILE);
     if (profile === null) {
-      for await (const _entry of this.root.entries())
-        throw new PersonalError(
-          "Choose an empty dedicated folder or an existing personal workspace. Do not select the public repository.",
-        );
+      for await (const [name] of this.root.entries())
+        if (!isSystemFile(name))
+          throw new PersonalError(
+            "Choose an empty dedicated folder or an existing personal workspace. Do not select the public repository.",
+          );
       await write(this.root, PROFILE_FILE, PROFILE);
     } else validateProfile(profile);
     return this.load();
@@ -113,6 +115,7 @@ export class FolderStore {
     let total = 0;
     let count = 0;
     for await (const [name, handle] of dir.entries()) {
+      if (isSystemFile(name)) continue;
       if (++count > MAX_FILES)
         throw new PersonalError("Workspace has too many files.");
       if (handle.kind !== "file" || !name.endsWith(".yaml")) {
@@ -159,16 +162,6 @@ export class FolderStore {
     const current = await readOptional(dir, name);
     if (current !== expected && !(expected === null && current === ""))
       throw new ConflictError();
-    if (current !== null) {
-      const history = await this.root.getDirectoryHandle("backups", {
-        create: true,
-      });
-      const backup = await history.getDirectoryHandle(
-        `${new Date().toISOString().replace(/[:.]/g, "-")}-${crypto.randomUUID()}`,
-        { create: true },
-      );
-      await write(backup, name, current);
-    }
     const handle = await dir.getFileHandle(name, { create: true });
     const stream = await handle.createWritable({ mode: "exclusive" });
     try {
@@ -176,6 +169,17 @@ export class FolderStore {
       const latest = await readOptional(dir, name);
       if (latest !== expected && !(expected === null && latest === ""))
         throw new ConflictError();
+      // Back up only once the save is known to proceed, so a conflict leaves no history entry.
+      if (latest) {
+        const history = await this.root.getDirectoryHandle("backups", {
+          create: true,
+        });
+        const backup = await history.getDirectoryHandle(
+          `${new Date().toISOString().replace(/[:.]/g, "-")}-${crypto.randomUUID()}`,
+          { create: true },
+        );
+        await write(backup, name, latest);
+      }
       await stream.write(raw);
       await stream.close();
     } catch (error) {

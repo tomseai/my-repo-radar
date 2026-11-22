@@ -98,6 +98,8 @@ this is not a distributed transaction or a live multi-device editing service.
 
 Invalid files and sync-conflict copies cause visible warnings and disable
 writes until reviewed. Inspect the folder in a file manager and reload it.
+OS metadata such as `.DS_Store`, `desktop.ini`, and `Thumbs.db` is ignored,
+including during import; it does not count against record or content limits.
 Restore a backup by copying its YAML back to `repositories/` while the editor
 has no unsaved draft, then reload. Backups are local files and are not pruned
 automatically. To remove a private record, remove its file yourself and reload.
@@ -134,7 +136,9 @@ unsupported files, and excessive expansion are rejected.
 This is an explicit fallback, not durable storage. Notes and drafts exist only
 in this tab. Save into the temporary workspace, then export a ZIP before closing
 or reloading. Import that ZIP next time. The app warns when temporary changes
-have not been exported. It never silently substitutes browser storage for a
+have not been exported to a folder. The warning remains after a ZIP download
+request because the app cannot confirm whether you saved or cancelled it.
+It never silently substitutes browser storage for a
 failed folder save.
 
 ## Privacy boundary

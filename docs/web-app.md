@@ -106,7 +106,7 @@ mode, theme persistence, keyboard search, filters and empty results, detail
 links, topic-to-repository focus, Back/Forward, comparison limits and shared
 URLs, mobile layout, and load failures. Build success alone is not browser QA.
 
-Local verification on 2026-11-22 passed 46 automated tests, validation of all 367
+Local verification on 2026-11-22 passed 51 automated tests, validation of all 367
 inventory/dossier pairs, generated-file freshness, and the production build.
 Chromium checks exercised the behaviors above at desktop, 390px, and 320px
 widths, including simulated failed fetches and unavailable browser storage.
