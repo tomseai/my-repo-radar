@@ -2,11 +2,10 @@ schema_version: 2
 repository_id: github:yamadashy/repomix
 research:
   state: complete
-  source_commit: 44457c890236440bc683e9e5d84499a0a4911550
-  bundle_collected_at: 2026-07-19T20:46:04.840Z
-  researched_at: 2026-07-20T16:16:45.953Z
+  source_commit: f0bcc08ab07d2dff2415fa40fb26d07eaf55b4ff
+  bundle_collected_at: 2026-11-22T12:10:40.659Z
+  researched_at: 2026-11-22T12:24:03.849Z
   confidence: high
-
 classification:
   primary_category: developer-tools
   topics:
@@ -15,25 +14,26 @@ classification:
     - mcp
     - developer-productivity
     - codebase-search
-
 project:
   name: Repomix
   kind: cli
-  summary: >-
-    A command-line tool that packages a local or remote repository into a
+  summary: A command-line tool that packages a local or remote repository into a
     single AI-friendly context file for use with LLMs and other tools.
   best_for:
     - Preparing a selected codebase for LLM analysis, review, or generation
     - Keeping repository context within an AI tool's token or file-size limits
-
 key_features:
-  - Packages local directories or remote repositories into XML, Markdown, JSON, or plain-text output
-  - Counts tokens per file and across the repository, with token budgets and a token-count tree
-  - Respects Git, ignore, and Repomix ignore rules while allowing explicit include and exclude patterns
-  - Uses Tree-sitter-based compression to retain structural code context with fewer tokens
-  - Scans output for sensitive data with Secretlint
-  - Provides Docker, web, browser-extension, and MCP-server paths in addition to the CLI
-
+  - Packages local directories or remote repositories into XML, Markdown,
+    JSON, or plain-text output
+  - Counts tokens per file and across the repository, with token budgets and a
+    token-count tree
+  - Respects Git, ignore, and Repomix ignore rules while allowing explicit
+    include and exclude patterns
+  - Uses Tree-sitter-based compression to retain structural code context with
+    fewer tokens
+  - Uses Secretlint to omit files matching known credential patterns
+  - Provides Docker, web, browser-extension, and MCP-server paths in addition
+    to the CLI
 usage:
   interfaces:
     - CLI
@@ -45,7 +45,6 @@ usage:
     - Homebrew
     - Docker image
   setup: low
-
 technology:
   languages:
     - TypeScript
@@ -54,30 +53,35 @@ technology:
     - Tree-sitter
     - Secretlint
     - Model Context Protocol
-
 license:
   spdx: MIT
   name: MIT License
-  notes: Permissive license with the standard copyright and license-notice requirement.
-
+  notes: Permissive license with the standard copyright and license-notice
+    requirement.
 status:
   lifecycle: active
   archived: false
-  latest_release: v1.16.1
-  latest_release_at: 2026-07-11
-
+  latest_release: v1.19.0
+  latest_release_at: 2026-11-08
 strengths:
-  - Several output formats and token controls make context preparation adaptable to different AI tools
-  - File-selection, ignore-rule, compression, and splitting controls help with large repositories
-  - Sensitive-data checks and conservative remote-config handling are built into the workflow
-
+  - Several output formats and token controls make context preparation
+    adaptable to different AI tools
+  - File-selection, ignore-rule, compression, and splitting controls help with
+    large repositories
+  - Sensitive-data checks and conservative remote-config handling are built
+    into the workflow
 caveats:
-  - Packed output can still exceed a target model's context or upload limits without careful selection or splitting
-  - Secret scanning reduces accidental exposure risk but is not a guarantee that output contains no sensitive data
-  - Remote repository configuration is not loaded by default; enabling remote-config trust changes that safety posture
-
+  - Packed output can still exceed a target model's context or upload limits
+    without careful selection or splitting
+  - Secret scanning reduces accidental exposure risk but is not a guarantee
+    that output contains no sensitive data
+  - Remote repository configuration is not loaded by default; enabling
+    remote-config trust changes that safety posture
+  - The MCP file tools inherit host read access by default. Optional sandbox
+    mode confines paths to a workspace
 sources:
-  - https://raw.githubusercontent.com/yamadashy/repomix/44457c890236440bc683e9e5d84499a0a4911550/README.md
-  - https://raw.githubusercontent.com/yamadashy/repomix/44457c890236440bc683e9e5d84499a0a4911550/LICENSE
-  - https://raw.githubusercontent.com/yamadashy/repomix/44457c890236440bc683e9e5d84499a0a4911550/package.json
+  - https://raw.githubusercontent.com/yamadashy/repomix/f0bcc08ab07d2dff2415fa40fb26d07eaf55b4ff/README.md
+  - https://raw.githubusercontent.com/yamadashy/repomix/f0bcc08ab07d2dff2415fa40fb26d07eaf55b4ff/LICENSE
+  - https://raw.githubusercontent.com/yamadashy/repomix/f0bcc08ab07d2dff2415fa40fb26d07eaf55b4ff/package.json
   - https://github.com/yamadashy/repomix/releases.atom
+  - https://github.com/yamadashy/repomix/releases/tag/v1.19.0

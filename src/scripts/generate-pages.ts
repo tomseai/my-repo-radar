@@ -144,6 +144,10 @@ function renderReadme(catalog: CatalogArtifact, taxonomy: Taxonomy): string {
     "```",
     "",
     "See [`docs/generated-catalog.md`](docs/generated-catalog.md) for the generated data contracts and freshness rules.",
+    "",
+    "## React catalog",
+    "",
+    "Run `npm run dev:web` to browse the catalog with search, filters, repository details, comparisons, and light/dark themes. Run `npm run build:web` for the static production build. See [`docs/web-app.md`](docs/web-app.md) for setup, behavior, and deployment instructions.",
   );
   return `${lines.join("\n")}\n`;
 }

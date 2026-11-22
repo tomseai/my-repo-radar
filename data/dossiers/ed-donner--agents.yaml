@@ -2,9 +2,9 @@ schema_version: 2
 repository_id: github:ed-donner/agents
 research:
   state: complete
-  source_commit: 031f65e7e181dba5094a15c5bb195c1bdf461f49
-  bundle_collected_at: 2026-07-19T20:42:45.515Z
-  researched_at: 2026-07-20T15:23:05.034Z
+  source_commit: 3d7c65bb4b0c632f02f5420ca158d45de50707ad
+  bundle_collected_at: 2026-11-22T12:09:26.357Z
+  researched_at: 2026-11-22T12:18:43.417Z
   confidence: high
 
 classification:
@@ -20,15 +20,16 @@ project:
   name: agents
   kind: course
   summary: >-
-    A six-week course repository for coding and deploying AI agents with
-    several agent SDKs, frameworks, and Model Context Protocol material.
+    A six-week course repository for coding and deploying AI agents with several
+    agent SDKs, frameworks, and Model Context Protocol material.
   best_for:
     - Learners who want a structured introduction to agentic AI engineering
     - Comparing several agent SDKs and frameworks through course exercises
 
 key_features:
   - Six-week agentic AI engineering course
-  - Material for OpenAI Agents SDK, CrewAI, LangGraph, Google ADK, Pydantic AI, and MCP
+  - Material for OpenAI Agents SDK, CrewAI, LangGraph, Google ADK, Pydantic AI,
+    and MCP
   - Platform-specific setup instructions for Windows, macOS, and Linux
   - Linked course resources, guides, supplemental videos, and an FAQ assistant
   - Python project dependencies for several agent frameworks and LLM providers
@@ -57,7 +58,8 @@ technology:
 license:
   spdx: MIT
   name: MIT License
-  notes: Permission notice and warranty disclaimer are retained in the repository LICENSE file.
+  notes: Permission notice and warranty disclaimer are retained in the repository
+    LICENSE file.
 
 status:
   lifecycle: active
@@ -72,11 +74,13 @@ strengths:
 
 caveats:
   - Exercises can require API keys and paid calls to frontier model providers
-  - The broad framework coverage may require separate provider and tool configuration
-  - The releases feed's only retained entry is the unversioned pre-2026-refresh; no primary-project release can be established
+  - The broad framework coverage may require separate provider and tool
+    configuration
+  - The releases feed's only retained entry is the unversioned pre-2026-refresh;
+    no primary-project release can be established
 
 sources:
-  - https://raw.githubusercontent.com/ed-donner/agents/031f65e7e181dba5094a15c5bb195c1bdf461f49/README.md
-  - https://raw.githubusercontent.com/ed-donner/agents/031f65e7e181dba5094a15c5bb195c1bdf461f49/LICENSE
-  - https://raw.githubusercontent.com/ed-donner/agents/031f65e7e181dba5094a15c5bb195c1bdf461f49/pyproject.toml
+  - https://raw.githubusercontent.com/ed-donner/agents/3d7c65bb4b0c632f02f5420ca158d45de50707ad/README.md
+  - https://raw.githubusercontent.com/ed-donner/agents/3d7c65bb4b0c632f02f5420ca158d45de50707ad/LICENSE
+  - https://raw.githubusercontent.com/ed-donner/agents/3d7c65bb4b0c632f02f5420ca158d45de50707ad/pyproject.toml
   - https://github.com/ed-donner/agents/releases.atom

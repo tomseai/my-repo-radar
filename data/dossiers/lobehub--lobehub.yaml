@@ -2,9 +2,9 @@ schema_version: 2
 repository_id: github:lobehub/lobehub
 research:
   state: complete
-  source_commit: 3c42297798da885952fc94647201c3c189ed7ad4
-  bundle_collected_at: 2026-07-19T20:43:52.678Z
-  researched_at: 2026-07-20T15:41:53.3142160Z
+  source_commit: ed5f42c00b49ad820ddd863ba595f85a4a30e9d7
+  bundle_collected_at: 2026-11-22T12:09:51.988Z
+  researched_at: 2026-11-22T12:22:17.630569+00:00
   confidence: medium
 
 classification:
@@ -70,21 +70,24 @@ license:
 status:
   lifecycle: active
   archived: false
-  latest_release: null
-  latest_release_at: null
+  latest_release: v2.3.5
+  latest_release_at: 2026-11-22
 
 strengths:
-  - Combines agent creation, scheduling, collaboration, and memory in one workspace
+  - Combines agent creation, scheduling, collaboration, and memory in one
+    workspace
   - Supports shared team-oriented work as well as personal agent use
   - Offers self-hosting alongside web and desktop delivery
 
 caveats:
-  - The license is not a standard permissive open-source license for commercial derivatives
-  - The retained release feed contains Desktop Canary and PR nightly builds, not a stable primary-project release
-  - Model access, skills, and plugin choices can require separate providers or configuration
+  - The license is not a standard permissive open-source license for commercial
+    derivatives
+  - Model access, skills, and plugin choices can require separate providers or
+    configuration
 
 sources:
-  - https://raw.githubusercontent.com/lobehub/lobehub/3c42297798da885952fc94647201c3c189ed7ad4/README.md
-  - https://raw.githubusercontent.com/lobehub/lobehub/3c42297798da885952fc94647201c3c189ed7ad4/LICENSE
-  - https://raw.githubusercontent.com/lobehub/lobehub/3c42297798da885952fc94647201c3c189ed7ad4/apps/cli/package.json
+  - https://raw.githubusercontent.com/lobehub/lobehub/ed5f42c00b49ad820ddd863ba595f85a4a30e9d7/README.md
+  - https://raw.githubusercontent.com/lobehub/lobehub/ed5f42c00b49ad820ddd863ba595f85a4a30e9d7/LICENSE
+  - https://raw.githubusercontent.com/lobehub/lobehub/ed5f42c00b49ad820ddd863ba595f85a4a30e9d7/apps/cli/package.json
   - https://github.com/lobehub/lobehub/releases.atom
+  - https://github.com/lobehub/lobehub/releases/tag/v2.3.5

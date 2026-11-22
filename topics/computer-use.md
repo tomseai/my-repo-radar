@@ -2,17 +2,17 @@
 
 # Computer Use
 
-[Back to the main catalog](../README.md) | **6 repositories**
+[Back to the main catalog](../README.md) | **8 repositories**
 
 ## Primary categories represented
 
-- [AI and Automation](../categories/ai-and-automation.md) (6)
+- [AI and Automation](../categories/ai-and-automation.md) (8)
 
 <a id="repo-browser-use--browser-use"></a>
 
 ## [Browser Use](https://github.com/browser-use/browser-use)
 
-A Python library and CLI for LLM-driven agents that operate web browsers, including navigating pages, clicking controls, entering form data, and extracting information for repeatable web tasks.
+A Python library and CLI for language-model-driven browser tasks, built around a persistent Python execution context and Chrome DevTools Protocol, with local or hosted browser options.
 
 - **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-browser-use--browser-use)
 - **Topics:** [AI Agents](../topics/ai-agents.md#repo-browser-use--browser-use) | [Browser Automation](../topics/browser-automation.md#repo-browser-use--browser-use) | [Computer Use](../topics/computer-use.md#repo-browser-use--browser-use) | [Tool Use](../topics/tool-use.md#repo-browser-use--browser-use) | [CLI](../topics/cli.md#repo-browser-use--browser-use) | [MCP](../topics/mcp.md#repo-browser-use--browser-use) | [Web Scraping](../topics/web-scraping.md#repo-browser-use--browser-use)
@@ -21,13 +21,55 @@ A Python library and CLI for LLM-driven agents that operate web browsers, includ
 - **Languages:** Python
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 105,551
+- **GitHub stars:** 121,730
 
 **Key features**
 
-  - Agent API that executes a natural-language task with a selected LLM
-  - Browser interactions for pages, buttons, text input, forms, and data extraction
-  - Custom action tools for extending an agent's capabilities
+  - Accepts a browser task and runs it through a model-backed agent based on Pydantic AI
+  - Keeps Python execution state across task steps and operates a browser through Chrome DevTools Protocol
+  - Offers a local Python API and CLI and can connect either to local Chromium or cloud browsers
+
+<a id="repo-copilotkit--openbot"></a>
+
+## [OpenBot](https://github.com/CopilotKit/OpenBot)
+
+A self-hostable workspace for AI coworkers that connects built-in or external AG-UI agents to governed browser, file, shell, and tool access, with desktop and Kubernetes deployment.
+
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-copilotkit--openbot)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-copilotkit--openbot) | [Agent Governance](../topics/agent-governance.md#repo-copilotkit--openbot) | [Agent Protocols](../topics/agent-protocols.md#repo-copilotkit--openbot) | [Computer Use](../topics/computer-use.md#repo-copilotkit--openbot) | [Browser Automation](../topics/browser-automation.md#repo-copilotkit--openbot) | [Tool Use](../topics/tool-use.md#repo-copilotkit--openbot) | [MCP](../topics/mcp.md#repo-copilotkit--openbot) | [Agent Skills](../topics/agent-skills.md#repo-copilotkit--openbot) | [Generative UI](../topics/generative-ui.md#repo-copilotkit--openbot) | [Chat UI](../topics/chat-ui.md#repo-copilotkit--openbot) | [Self Hosted](../topics/self-hosted.md#repo-copilotkit--openbot) | [Sandboxing](../topics/sandboxing.md#repo-copilotkit--openbot) | [Automation](../topics/automation.md#repo-copilotkit--openbot) | [Local Models](../topics/local-models.md#repo-copilotkit--openbot)
+- **Kind:** Starter Template
+- **Best for:** Teams building self-hosted AI coworkers that operate browsers, files, and external tools; Developers bringing AG-UI agents into a governed multi-user web workspace
+- **Languages:** TypeScript, Python
+- **License:** MIT
+- **Lifecycle:** Active
+- **GitHub stars:** 13,167
+
+**Key features**
+
+  - Supports one computer per person and optional per-Bot containers, depending on deployment configuration
+  - Evaluates policy and records an audit event before the action gateway executes an approved computer action
+  - Supports human takeover for login and two-factor authentication
+
+<a id="repo-deepseek-ai--deepseek-harness"></a>
+
+## [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness)
+
+A developer-preview agent harness built around an everything-is-a-plugin Cordis architecture, with a local Web UI, command-line and headless flows, extensible tools, skills, sessions, and experimental browser and computer use.
+
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-deepseek-ai--deepseek-harness)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-deepseek-ai--deepseek-harness) | [Coding Agents](../topics/coding-agents.md#repo-deepseek-ai--deepseek-harness) | [Agent Harnesses](../topics/agent-harnesses.md#repo-deepseek-ai--deepseek-harness) | [Agent Skills](../topics/agent-skills.md#repo-deepseek-ai--deepseek-harness) | [Tool Use](../topics/tool-use.md#repo-deepseek-ai--deepseek-harness) | [MCP](../topics/mcp.md#repo-deepseek-ai--deepseek-harness) | [Computer Use](../topics/computer-use.md#repo-deepseek-ai--deepseek-harness) | [Browser Automation](../topics/browser-automation.md#repo-deepseek-ai--deepseek-harness) | [Web UI](../topics/web-ui.md#repo-deepseek-ai--deepseek-harness) | [CLI](../topics/cli.md#repo-deepseek-ai--deepseek-harness) | [Sandboxing](../topics/sandboxing.md#repo-deepseek-ai--deepseek-harness)
+- **Kind:** Framework
+- **Best for:** Developers evaluating a highly modular local harness for coding and tool-using agents; Plugin authors experimenting with DeepSeek Harness services, tools, interfaces, and runtime extensions
+- **Languages:** TypeScript, Python
+- **License:** MIT
+- **Lifecycle:** Experimental
+- **GitHub stars:** 285,342
+
+**Key features**
+
+  - Cordis-based plugin architecture used across the agent runtime, tools, interfaces, and configuration
+  - Local Web UI with session management, file previews, trajectories, and an integrated multi-tab terminal
+  - Headless operation that accepts tasks on standard input, resumes sessions, and streams JSON events
 
 <a id="repo-droidrun--mobilerun"></a>
 
@@ -42,7 +84,7 @@ A Python framework for LLM agents that control Android and iOS devices with mobi
 - **Languages:** Python
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 8,814
+- **GitHub stars:** 10,089
 
 **Key features**
 
@@ -63,11 +105,11 @@ A Node.js CLI that turns supported websites, logged-in Chrome sessions, Electron
 - **Languages:** JavaScript, TypeScript
 - **License:** Apache-2.0
 - **Lifecycle:** Active
-- **GitHub stars:** 26,949
+- **GitHub stars:** 31,223
 
 **Key features**
 
-  - Provides built-in site adapters and JSON, YAML, Markdown, CSV, and table output
+  - Provides built-in site adapters and defaults to structured JSON success and error responses
   - Drives logged-in Chrome through a Browser Bridge extension and local daemon
   - Exposes browser navigation, interaction, extraction, network inspection, and screenshot commands
 
@@ -84,7 +126,7 @@ A Python-based screen-parsing project that turns UI screenshots into structured,
 - **Languages:** Python, Jupyter Notebook
 - **License:** CC-BY-4.0
 - **Lifecycle:** Active
-- **GitHub stars:** 25,175
+- **GitHub stars:** 25,633
 
 **Key features**
 
@@ -105,7 +147,7 @@ A Rust terminal coding agent, forked from OpenAI Codex, that targets lower-cost 
 - **Languages:** Rust
 - **License:** Apache-2.0
 - **Lifecycle:** Active
-- **GitHub stars:** 66,803
+- **GitHub stars:** 68,935
 
 **Key features**
 
@@ -117,19 +159,19 @@ A Rust terminal coding agent, forked from OpenAI Codex, that targets lower-cost 
 
 ## [Cua](https://github.com/trycua/cua)
 
-A computer-use monorepo for building and evaluating agents through cross-platform desktop drivers, OS sandboxes, virtual-machine tooling, and benchmarks or reinforcement-learning environments.
+A computer-use monorepo for building and evaluating agents through Cua Spaces for shared desktops, cross-platform desktop drivers, virtual machines, and benchmarks for computer-use agents.
 
 - **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-trycua--cua)
 - **Topics:** [AI Agents](../topics/ai-agents.md#repo-trycua--cua) | [Computer Use](../topics/computer-use.md#repo-trycua--cua) | [Sandboxing](../topics/sandboxing.md#repo-trycua--cua) | [Remote Control](../topics/remote-control.md#repo-trycua--cua) | [Automation](../topics/automation.md#repo-trycua--cua) | [CLI](../topics/cli.md#repo-trycua--cua) | [MCP](../topics/mcp.md#repo-trycua--cua) | [Containers](../topics/containers.md#repo-trycua--cua) | [Testing](../topics/testing.md#repo-trycua--cua) | [Open Source](../topics/open-source.md#repo-trycua--cua)
 - **Kind:** Monorepo
 - **Best for:** Building agents that operate desktop, mobile, container, or VM interfaces; Evaluating or training computer-use agents in reproducible environments
 - **Languages:** Python, Rust, Go, TypeScript
-- **License:** MIT
+- **License:** Mixed MIT and FSL-1.1-MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 20,200
+- **GitHub stars:** 32,769
 
 **Key features**
 
+  - Provides Cua Spaces for shared desktop environments across owned computers
   - Drives native desktop applications in the background on macOS, Windows, and Linux
   - Provides one sandbox API for Linux, macOS, Windows, Android, and local or cloud runtimes
-  - Supplies Cua-Bench environments and trajectory export for evaluation and training

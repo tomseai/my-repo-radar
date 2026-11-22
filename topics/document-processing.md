@@ -2,12 +2,13 @@
 
 # Document Processing
 
-[Back to the main catalog](../README.md) | **17 repositories**
+[Back to the main catalog](../README.md) | **19 repositories**
 
 ## Primary categories represented
 
-- [AI and Automation](../categories/ai-and-automation.md) (8)
+- [AI and Automation](../categories/ai-and-automation.md) (9)
 - [Backend and APIs](../categories/backend-and-apis.md) (1)
+- [Collaboration and Productivity](../categories/collaboration-and-productivity.md) (1)
 - [Data and Databases](../categories/data-and-databases.md) (2)
 - [Developer Tools](../categories/developer-tools.md) (2)
 - [Documentation and Learning](../categories/documentation-and-learning.md) (1)
@@ -26,7 +27,7 @@ A hands-on notebook course for learning retrieval-augmented generation (RAG), pr
 - **Languages:** Python, Jupyter Notebook
 - **License:** MIT License with an additional attribution condition
 - **Lifecycle:** Unknown
-- **GitHub stars:** 4,141
+- **GitHub stars:** 4,203
 
 **Key features**
 
@@ -47,7 +48,7 @@ A Python framework, built on CAMEL-AI, for composing collaborating agents that a
 - **Languages:** Python
 - **License:** Apache-2.0
 - **Lifecycle:** Active
-- **GitHub stars:** 19,976
+- **GitHub stars:** 20,193
 
 **Key features**
 
@@ -68,34 +69,13 @@ A Python CLI and library that converts local or GitHub-hosted Git repositories i
 - **Languages:** Python
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 15,201
+- **GitHub stars:** 16,168
 
 **Key features**
 
   - Creates text digests with repository structure, size, and token-count statistics
   - Accepts local directories, GitHub repository URLs, and repository subdirectories
   - Provides a CLI and importable synchronous and asynchronous Python APIs
-
-<a id="repo-danny-avila--librechat"></a>
-
-## [LibreChat](https://github.com/danny-avila/LibreChat)
-
-A self-hosted, multi-user AI chat platform that unifies hosted, custom, and local model endpoints with configurable agents, MCP tools, file workflows, web search, and Docker-based deployment.
-
-- **Category:** [Platforms and Applications](../categories/platforms-and-applications.md#repo-danny-avila--librechat)
-- **Topics:** [Chat UI](../topics/chat-ui.md#repo-danny-avila--librechat) | [AI Agents](../topics/ai-agents.md#repo-danny-avila--librechat) | [Agent Skills](../topics/agent-skills.md#repo-danny-avila--librechat) | [MCP](../topics/mcp.md#repo-danny-avila--librechat) | [Multi Provider](../topics/multi-provider.md#repo-danny-avila--librechat) | [Self Hosted](../topics/self-hosted.md#repo-danny-avila--librechat) | [Web Search](../topics/web-search.md#repo-danny-avila--librechat) | [Authentication](../topics/authentication.md#repo-danny-avila--librechat) | [Document Processing](../topics/document-processing.md#repo-danny-avila--librechat)
-- **Kind:** Application
-- **Best for:** Teams operating a configurable shared AI chat service on their own infrastructure; Users who need one interface for multiple model providers, agents, tools, and conversation controls
-- **Languages:** TypeScript, JavaScript
-- **License:** MIT
-- **Lifecycle:** Active
-- **GitHub stars:** 40,941
-
-**Key features**
-
-  - Connects to major hosted providers, custom OpenAI-compatible endpoints, and local or remote model providers
-  - Supports custom agents with skills, subagents, MCP servers, tools, file search, and code execution
-  - Adds web search with search providers, content scrapers, and reranking support
 
 <a id="repo-datalab-to--marker"></a>
 
@@ -108,9 +88,9 @@ A Python document-intelligence library and command-line converter that turns PDF
 - **Kind:** Library
 - **Best for:** Developers preparing heterogeneous documents for search, RAG, or data pipelines; Python users needing configurable document conversion with local or optional LLM assistance
 - **Languages:** Python
-- **License:** GPL-3.0-or-later
+- **License:** Apache-2.0
 - **Lifecycle:** Active
-- **GitHub stars:** 37,653
+- **GitHub stars:** 41,016
 
 **Key features**
 
@@ -131,7 +111,7 @@ A Python-distributed multilingual document-understanding model suite for OCR, la
 - **Languages:** Python
 - **License:** Apache-2.0
 - **Lifecycle:** Active
-- **GitHub stars:** 21,119
+- **GitHub stars:** 21,610
 
 **Key features**
 
@@ -139,26 +119,68 @@ A Python-distributed multilingual document-understanding model suite for OCR, la
   - Provides separate models for text-line detection and OCR-error detection
   - Accepts images, PDFs, and directories through task-specific CLI commands and writes structured JSON
 
+<a id="repo-drcathicks--informed-patient"></a>
+
+## [Informed Patient](https://github.com/DrCatHicks/informed-patient)
+
+A Claude skill that structures research and an evidence review around a person's health question for discussion with their healthcare team.
+
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-drcathicks--informed-patient)
+- **Topics:** [Agent Skills](../topics/agent-skills.md#repo-drcathicks--informed-patient) | [LLMs](../topics/llms.md#repo-drcathicks--informed-patient) | [Web Search](../topics/web-search.md#repo-drcathicks--informed-patient) | [Document Processing](../topics/document-processing.md#repo-drcathicks--informed-patient)
+- **Kind:** Plugin
+- **Best for:** Organizing health research questions before a healthcare appointment
+- **Languages:** Unknown
+- **License:** CC-BY-4.0
+- **Lifecycle:** Active
+- **GitHub stars:** 196
+
+**Key features**
+
+  - Guided context gathering for a health question
+  - Structured or exploratory evidence search modes
+  - Evidence review with sources, limitations, and questions for clinicians
+
+<a id="repo-ether--etherpad"></a>
+
+## [Etherpad](https://github.com/ether/etherpad)
+
+A self-hosted realtime collaborative text editor with authorship tracking, revision history, plugins, localization, and optional AI assistance.
+
+- **Category:** [Collaboration and Productivity](../categories/collaboration-and-productivity.md#repo-ether--etherpad)
+- **Topics:** [Realtime Collaboration](../topics/realtime-collaboration.md#repo-ether--etherpad) | [Realtime](../topics/realtime.md#repo-ether--etherpad) | [Self Hosted](../topics/self-hosted.md#repo-ether--etherpad) | [Web UI](../topics/web-ui.md#repo-ether--etherpad) | [Document Processing](../topics/document-processing.md#repo-ether--etherpad) | [Open Source](../topics/open-source.md#repo-ether--etherpad)
+- **Kind:** Application
+- **Best for:** Teams and communities that need a controllable collaborative document editor; Organizations that prefer self-hosting and no mandatory telemetry
+- **Languages:** TypeScript
+- **License:** Apache-2.0
+- **Lifecycle:** Active
+- **GitHub stars:** 18,628
+
+**Key features**
+
+  - Supports simultaneous editing with authorship colors and shared presence
+  - Retains complete revision history with a visual timeslider
+  - Extends through plugins and supports more than one hundred languages
+
 <a id="repo-firecrawl--firecrawl"></a>
 
 ## [firecrawl](https://github.com/firecrawl/firecrawl)
 
-An API and SDK platform for web search, scraping, crawling, and browser interaction that returns AI-ready Markdown, structured data, and other content.
+A web-content toolkit with a local CLI and MCP server, a hosted API, and a separately deployable self-hosted server for extracting and using website content.
 
 - **Category:** [Backend and APIs](../categories/backend-and-apis.md#repo-firecrawl--firecrawl)
 - **Topics:** [AI Agents](../topics/ai-agents.md#repo-firecrawl--firecrawl) | [LLMs](../topics/llms.md#repo-firecrawl--firecrawl) | [Web Search](../topics/web-search.md#repo-firecrawl--firecrawl) | [Web Scraping](../topics/web-scraping.md#repo-firecrawl--firecrawl) | [Browser Automation](../topics/browser-automation.md#repo-firecrawl--firecrawl) | [Document Processing](../topics/document-processing.md#repo-firecrawl--firecrawl) | [Self Hosted](../topics/self-hosted.md#repo-firecrawl--firecrawl) | [Open Source](../topics/open-source.md#repo-firecrawl--firecrawl)
 - **Kind:** Service
-- **Best for:** Developers supplying current web context to AI applications and agents; Teams that need search, extraction, crawling, and page interaction behind one API
+- **Best for:** Developers supplying web content to AI applications and agents; Teams choosing between a local parser, hosted web tools, and a self-hosted server
 - **Languages:** TypeScript, Go, Python, Rust
 - **License:** AGPL-3.0-or-later
 - **Lifecycle:** Active
-- **GitHub stars:** 153,101
+- **GitHub stars:** 206,568
 
 **Key features**
 
-  - Search the web and retrieve page content from results
-  - Scrape URLs into Markdown, HTML, screenshots, or structured JSON
-  - Crawl a site, map its URLs, or batch-scrape many pages asynchronously
+  - Scrape, crawl, map, and batch-scrape websites locally or through hosted APIs
+  - Convert pages to Markdown or structured data and handle JavaScript rendering for supported pages
+  - Expose the local tools through an MCP server and a localhost API
 
 <a id="repo-khoj-ai--khoj"></a>
 
@@ -173,7 +195,7 @@ A self-hostable personal AI application that combines LLM chat, semantic search 
 - **Languages:** Python, TypeScript
 - **License:** AGPL-3.0-or-later
 - **Lifecycle:** Active
-- **GitHub stars:** 35,878
+- **GitHub stars:** 38,206
 
 **Key features**
 
@@ -194,7 +216,7 @@ A Python framework for building LLM applications through first-class agents and 
 - **Languages:** Python
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 4,077
+- **GitHub stars:** 4,153
 
 **Key features**
 
@@ -215,13 +237,34 @@ A self-hosted research-notebook application for organizing multimodal sources, s
 - **Languages:** TypeScript, Python
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 35,748
+- **GitHub stars:** 42,126
 
 **Key features**
 
   - Multiple notebooks for separate research projects
   - Ingestion of PDFs, videos, audio, web pages, and office documents
   - Full-text and vector search across stored content
+
+<a id="repo-librechat-ai--librechat"></a>
+
+## [LibreChat](https://github.com/LibreChat-AI/LibreChat)
+
+A self-hosted, multi-user AI chat platform that unifies hosted, custom, and local model endpoints with configurable agents, MCP tools, file workflows, web search, and Docker-based deployment.
+
+- **Category:** [Platforms and Applications](../categories/platforms-and-applications.md#repo-librechat-ai--librechat)
+- **Topics:** [Chat UI](../topics/chat-ui.md#repo-librechat-ai--librechat) | [AI Agents](../topics/ai-agents.md#repo-librechat-ai--librechat) | [Agent Skills](../topics/agent-skills.md#repo-librechat-ai--librechat) | [MCP](../topics/mcp.md#repo-librechat-ai--librechat) | [Multi Provider](../topics/multi-provider.md#repo-librechat-ai--librechat) | [Self Hosted](../topics/self-hosted.md#repo-librechat-ai--librechat) | [Web Search](../topics/web-search.md#repo-librechat-ai--librechat) | [Authentication](../topics/authentication.md#repo-librechat-ai--librechat) | [Document Processing](../topics/document-processing.md#repo-librechat-ai--librechat)
+- **Kind:** Application
+- **Best for:** Teams operating a configurable shared AI chat service on their own infrastructure; Users who need one interface for multiple model providers, agents, tools, and conversation controls
+- **Languages:** TypeScript, JavaScript
+- **License:** MIT
+- **Lifecycle:** Active
+- **GitHub stars:** 47,405
+
+**Key features**
+
+  - Connects to major hosted providers, custom OpenAI-compatible endpoints, and local or remote model providers
+  - Supports custom agents with skills, subagents, MCP servers, tools, file search, and code execution
+  - Exposes an Agent Management API for deployment-bound OIDC clients
 
 <a id="repo-microsoft--markitdown"></a>
 
@@ -236,7 +279,7 @@ A Python document-to-Markdown converter for text-analysis and LLM workflows, wit
 - **Languages:** Python
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 167,293
+- **GitHub stars:** 197,762
 
 **Key features**
 
@@ -257,7 +300,7 @@ A self-hosted, offline-capable AI platform and web interface for local Ollama mo
 - **Languages:** Python, TypeScript, Svelte
 - **License:** Open WebUI License and prior original licenses
 - **Lifecycle:** Active
-- **GitHub stars:** 145,966
+- **GitHub stars:** 159,254
 
 **Key features**
 
@@ -278,7 +321,7 @@ A Python-centered OCR and document-understanding toolkit that converts images an
 - **Languages:** Python, TypeScript, Go, Java, Kotlin
 - **License:** Apache-2.0
 - **Lifecycle:** Active
-- **GitHub stars:** 85,803
+- **GitHub stars:** 92,998
 
 **Key features**
 
@@ -299,7 +342,7 @@ A local PDF and document parsing library and CLI that performs spatial text extr
 - **Languages:** Rust, TypeScript, Python
 - **License:** Apache-2.0
 - **Lifecycle:** Active
-- **GitHub stars:** 11,673
+- **GitHub stars:** 13,076
 
 **Key features**
 
@@ -320,7 +363,7 @@ A Python framework for declarative LLM-powered processing of structured and unst
 - **Languages:** Python, TypeScript
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 3,897
+- **GitHub stars:** 4,266
 
 **Key features**
 
@@ -341,7 +384,7 @@ A Python crawler and scraper that uses browser automation to turn web pages into
 - **Languages:** Python, JavaScript
 - **License:** Apache License 2.0 with an additional attribution requirement
 - **Lifecycle:** Active
-- **GitHub stars:** 73,307
+- **GitHub stars:** 87,654
 
 **Key features**
 
@@ -362,7 +405,7 @@ A self-hostable LLM document-processing platform that turns documents into struc
 - **Languages:** Python, TypeScript
 - **License:** AGPL-3.0-only
 - **Lifecycle:** Active
-- **GitHub stars:** 6,708
+- **GitHub stars:** 7,463
 
 **Key features**
 

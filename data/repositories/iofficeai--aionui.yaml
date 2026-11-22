@@ -18,15 +18,20 @@ analysis:
       - "improve-developer-workflow"
       - "run-personal-or-team-tools"
   evidence:
-    - claim: "AionUi is a free, open-source cowork platform in which AI agents can read files, write code, browse the web, and automate tasks; it includes a built-in agent and integrates multiple CLI agents through one interface."
+    - claim: "AionUi is a free, open-source cowork platform in which AI agents can
+        read files, write code, browse the web, and automate tasks; it includes
+        a built-in agent and integrates multiple CLI agents through one
+        interface."
       source_type: "repository-file"
       url: "https://github.com/iOfficeAI/AionUi/blob/main/readme.md"
       checked_at: "2026-07-19"
       confidence: "high"
   state: "researched"
   summary:
-    one_line: "An open-source cowork application that unifies built-in and CLI-based AI agents."
-    why_useful: "It provides supervised multi-agent task execution, local storage, and cross-platform or self-hosted access."
+    one_line: "An open-source cowork application that unifies built-in and CLI-based
+      AI agents."
+    why_useful: "It provides supervised multi-agent task execution, local storage,
+      and cross-platform or self-hosted access."
 curation:
   confidence: null
   evidence: []
@@ -40,48 +45,53 @@ id: "github:iOfficeAI/AionUi"
 import:
   github_snapshot:
     archived: false
-    created_at: "2025-08-07T10:29:51Z"
-    default_branch: "main"
-    description: "Free, local, open-source 24/7 Cowork app for OpenClaw, Hermes Agent, Claude Code, Codex, OpenCode, Gemini CLI and 20+ more CLI | Customize your assistants | Star if you like it!"
+    created_at: 2025-08-07T10:29:51Z
+    default_branch: main
+    description: Open-source 24/7 Cowork app for OpenClaw, Hermes, Claude Code,
+      Codex, OpenCode and 20+ more CLI Agent | Customize your assistants | Team
+      them up｜Star if you like it!
     disabled: false
-    fetched_at: "2026-07-19T19:16:14.796Z"
+    fetched_at: 2026-11-22T12:07:00.148Z
     fork: false
-    forks: 3049
-    homepage: "https://www.aionui.com"
-    latest_release: null
-    license_spdx: "Apache-2.0"
-    open_issues: 690
-    primary_language: "TypeScript"
-    pushed_at: "2026-07-18T12:57:47Z"
-    stars: 30446
+    forks: 3599
+    homepage: https://www.aionui.com
+    latest_release:
+      tag: v2.2.2
+      published_at: 2026-09-09T11:29:49Z
+      url: https://github.com/iOfficeAI/AionUi/releases/tag/v2.2.2
+    license_spdx: Apache-2.0
+    open_issues: 906
+    primary_language: TypeScript
+    pushed_at: 2026-11-05T05:31:20Z
+    stars: 34431
     topics:
-      - "acp"
-      - "agent-team"
-      - "ai"
-      - "ai-agent"
-      - "chat"
-      - "chatbot"
-      - "claude-code"
-      - "clawdbot"
-      - "codex"
-      - "cowork"
-      - "gemini"
-      - "gemini-cli"
-      - "hermes"
-      - "llm"
-      - "nano-banana"
-      - "office"
-      - "openclaw"
-      - "opencode"
-      - "skills"
-      - "webui"
-    updated_at: "2026-07-19T19:07:08Z"
+      - acp
+      - agent-team
+      - ai
+      - ai-agent
+      - chat
+      - chatbot
+      - claude-code
+      - clawdbot
+      - codex
+      - cowork
+      - gemini
+      - gemini-cli
+      - hermes
+      - llm
+      - nano-banana
+      - office
+      - openclaw
+      - opencode
+      - skills
+      - webui
+    updated_at: 2026-11-22T09:57:38Z
   sources:
-    - observed_at: "2026-07-19T14:20:21Z"
-      relation: "starred"
-      source_id: "github:user:tomseai:stars"
-      source_url: "https://github.com/tomseai?tab=stars"
-  state: "imported"
+    - observed_at: 2026-07-19T14:20:21Z
+      relation: starred
+      source_id: github:user:tomseai:stars
+      source_url: https://github.com/tomseai?tab=stars
+  state: refreshed
 repository:
   aliases: []
   github_node_id: "R_kgDOPZ417g"

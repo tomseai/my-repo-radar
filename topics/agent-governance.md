@@ -2,17 +2,17 @@
 
 # Agent Governance
 
-[Back to the main catalog](../README.md) | **3 repositories**
+[Back to the main catalog](../README.md) | **9 repositories**
 
 ## Primary categories represented
 
-- [AI and Automation](../categories/ai-and-automation.md) (3)
+- [AI and Automation](../categories/ai-and-automation.md) (9)
 
 <a id="repo-addyosmani--agent-skills"></a>
 
 ## [Agent Skills](https://github.com/addyosmani/agent-skills)
 
-An MIT-licensed pack of 24 structured engineering-workflow skills, agent personas, checklists, and lifecycle commands for AI coding agents.
+An MIT-licensed engineering workflow pack with 26 reusable agent skills, specialist review personas, shared checklists, and host-specific lifecycle commands.
 
 - **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-addyosmani--agent-skills)
 - **Topics:** [AI Agents](../topics/ai-agents.md#repo-addyosmani--agent-skills) | [Coding Agents](../topics/coding-agents.md#repo-addyosmani--agent-skills) | [Agent Skills](../topics/agent-skills.md#repo-addyosmani--agent-skills) | [Agent Governance](../topics/agent-governance.md#repo-addyosmani--agent-skills) | [Spec Driven Development](../topics/spec-driven-development.md#repo-addyosmani--agent-skills) | [Testing](../topics/testing.md#repo-addyosmani--agent-skills) | [Code Review](../topics/code-review.md#repo-addyosmani--agent-skills) | [Developer Productivity](../topics/developer-productivity.md#repo-addyosmani--agent-skills)
@@ -21,13 +21,97 @@ An MIT-licensed pack of 24 structured engineering-workflow skills, agent persona
 - **Languages:** JavaScript
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 79,292
+- **GitHub stars:** 119,672
 
 **Key features**
 
-  - 24 skills covering definition, planning, implementation, verification, review, and shipping workflows
-  - Eight lifecycle slash commands that activate related skills, including spec, plan, build, test, review, and ship
-  - Four specialist review personas for code review, testing, security, and web performance
+  - 26 skills covering specification, planning, implementation, verification, review, shipping, and skill selection
+  - Lifecycle commands through supported host adapters, including 10 command wrappers for Claude Code and Gemini CLI
+  - Five specialist personas and seven shared reference checklists
+
+<a id="repo-addyosmani--factory"></a>
+
+## [Factory](https://github.com/addyosmani/factory)
+
+A reference software-factory template and installer that adds a repository-owned, human-governed delivery loop for Claude Code and Codex, using GitHub issues and pull requests as the queue, deterministic gates, independent verification, and human merge authority.
+
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-addyosmani--factory)
+- **Topics:** [Coding Agents](../topics/coding-agents.md#repo-addyosmani--factory) | [Agent Harnesses](../topics/agent-harnesses.md#repo-addyosmani--factory) | [Agent Orchestration](../topics/agent-orchestration.md#repo-addyosmani--factory) | [Agent Governance](../topics/agent-governance.md#repo-addyosmani--factory) | [Agent Skills](../topics/agent-skills.md#repo-addyosmani--factory) | [Task Planning](../topics/task-planning.md#repo-addyosmani--factory) | [Spec Driven Development](../topics/spec-driven-development.md#repo-addyosmani--factory) | [Code Review](../topics/code-review.md#repo-addyosmani--factory) | [Testing](../topics/testing.md#repo-addyosmani--factory) | [GitHub](../topics/github.md#repo-addyosmani--factory) | [Automation](../topics/automation.md#repo-addyosmani--factory) | [Developer Productivity](../topics/developer-productivity.md#repo-addyosmani--factory)
+- **Kind:** Starter Template
+- **Best for:** Teams introducing bounded coding-agent automation into an existing GitHub repository; Projects that need version-controlled agent policy, durable handoffs, and review back-pressure
+- **Languages:** Shell, Markdown
+- **License:** MIT
+- **Lifecycle:** Active
+- **GitHub stars:** 374
+
+**Key features**
+
+  - Installs a shared charter, contract, queue protocol, gates, run records, and Claude Code and Codex workflow adapters
+  - Routes issues through triage, specification, implementation, independent review, pull-request verification, and monitoring
+  - Runs fail-closed type, lint, test, build, audit, mutation, and architecture gates at configurable levels
+
+<a id="repo-aiblueprinthq--ai-blueprint"></a>
+
+## [AI Blueprint](https://github.com/aiblueprinthq/ai-blueprint)
+
+A file-backed, spec-driven workflow overlay for building existing software projects with coding agents through reviewed specs, small implementation steps, explicit verification, durable findings, and controlled completion.
+
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-aiblueprinthq--ai-blueprint)
+- **Topics:** [Coding Agents](../topics/coding-agents.md#repo-aiblueprinthq--ai-blueprint) | [Agent Skills](../topics/agent-skills.md#repo-aiblueprinthq--ai-blueprint) | [Spec Driven Development](../topics/spec-driven-development.md#repo-aiblueprinthq--ai-blueprint) | [Task Planning](../topics/task-planning.md#repo-aiblueprinthq--ai-blueprint) | [Context Engineering](../topics/context-engineering.md#repo-aiblueprinthq--ai-blueprint) | [Code Review](../topics/code-review.md#repo-aiblueprinthq--ai-blueprint) | [Testing](../topics/testing.md#repo-aiblueprinthq--ai-blueprint) | [Agent Governance](../topics/agent-governance.md#repo-aiblueprinthq--ai-blueprint) | [Git](../topics/git.md#repo-aiblueprinthq--ai-blueprint) | [GitHub](../topics/github.md#repo-aiblueprinthq--ai-blueprint) | [Automation](../topics/automation.md#repo-aiblueprinthq--ai-blueprint)
+- **Kind:** Starter Template
+- **Best for:** Developers who want structured human checkpoints around AI-assisted implementation; Existing or newly scaffolded repositories that need durable agent context outside chat
+- **Languages:** JavaScript, Markdown
+- **License:** MIT
+- **Lifecycle:** Active
+- **GitHub stars:** 516
+
+**Key features**
+
+  - Generates project context and feature specifications from user-owned planning documents
+  - Keeps one active work item and archives completed features, fixes, and rollbacks
+  - Provides skills for planning, implementation, checks, audits, completion, CI, and releases
+
+<a id="repo-copilotkit--openbot"></a>
+
+## [OpenBot](https://github.com/CopilotKit/OpenBot)
+
+A self-hostable workspace for AI coworkers that connects built-in or external AG-UI agents to governed browser, file, shell, and tool access, with desktop and Kubernetes deployment.
+
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-copilotkit--openbot)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-copilotkit--openbot) | [Agent Governance](../topics/agent-governance.md#repo-copilotkit--openbot) | [Agent Protocols](../topics/agent-protocols.md#repo-copilotkit--openbot) | [Computer Use](../topics/computer-use.md#repo-copilotkit--openbot) | [Browser Automation](../topics/browser-automation.md#repo-copilotkit--openbot) | [Tool Use](../topics/tool-use.md#repo-copilotkit--openbot) | [MCP](../topics/mcp.md#repo-copilotkit--openbot) | [Agent Skills](../topics/agent-skills.md#repo-copilotkit--openbot) | [Generative UI](../topics/generative-ui.md#repo-copilotkit--openbot) | [Chat UI](../topics/chat-ui.md#repo-copilotkit--openbot) | [Self Hosted](../topics/self-hosted.md#repo-copilotkit--openbot) | [Sandboxing](../topics/sandboxing.md#repo-copilotkit--openbot) | [Automation](../topics/automation.md#repo-copilotkit--openbot) | [Local Models](../topics/local-models.md#repo-copilotkit--openbot)
+- **Kind:** Starter Template
+- **Best for:** Teams building self-hosted AI coworkers that operate browsers, files, and external tools; Developers bringing AG-UI agents into a governed multi-user web workspace
+- **Languages:** TypeScript, Python
+- **License:** MIT
+- **Lifecycle:** Active
+- **GitHub stars:** 13,167
+
+**Key features**
+
+  - Supports one computer per person and optional per-Bot containers, depending on deployment configuration
+  - Evaluates policy and records an audit event before the action gateway executes an approved computer action
+  - Supports human takeover for login and two-factor authentication
+
+<a id="repo-levi-qiao--longgraph-skill"></a>
+
+## [longgraph](https://github.com/levi-qiao/longgraph-skill)
+
+A portable Markdown skill and prompt library that compiles durable executor-supervisor graphs for long-running agent work, with file-backed progress, independent verification, and host-switchable continuation.
+
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-levi-qiao--longgraph-skill)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-levi-qiao--longgraph-skill) | [Agent Skills](../topics/agent-skills.md#repo-levi-qiao--longgraph-skill) | [Agent Orchestration](../topics/agent-orchestration.md#repo-levi-qiao--longgraph-skill) | [Multi Agent](../topics/multi-agent.md#repo-levi-qiao--longgraph-skill) | [Parallel Agents](../topics/parallel-agents.md#repo-levi-qiao--longgraph-skill) | [Agent Governance](../topics/agent-governance.md#repo-levi-qiao--longgraph-skill) | [Task Planning](../topics/task-planning.md#repo-levi-qiao--longgraph-skill) | [Spec Driven Development](../topics/spec-driven-development.md#repo-levi-qiao--longgraph-skill) | [Context Engineering](../topics/context-engineering.md#repo-levi-qiao--longgraph-skill) | [Prompt Engineering](../topics/prompt-engineering.md#repo-levi-qiao--longgraph-skill) | [Automation](../topics/automation.md#repo-levi-qiao--longgraph-skill)
+- **Kind:** Plugin
+- **Best for:** Multi-hour or multi-milestone agent tasks that outlive one context window; Teams needing a durable task queue, independent verification, and explicit acceptance gates
+- **Languages:** Markdown, Shell
+- **License:** MIT
+- **Lifecycle:** Active
+- **GitHub stars:** 79
+
+**Key features**
+
+  - Stores the task queue and progress in a single-writer ledger outside chat history
+  - Separates execution from clean-context supervision through a one-way directive edge
+  - Compiles focused delivery, convergence, research, or custom graph runs
 
 <a id="repo-omnigent-ai--omnigent"></a>
 
@@ -42,7 +126,7 @@ An alpha open-source meta-harness and agent runtime that provides a common orche
 - **Languages:** Python, TypeScript
 - **License:** Apache-2.0
 - **Lifecycle:** Experimental
-- **GitHub stars:** 7,503
+- **GitHub stars:** 11,489
 
 **Key features**
 
@@ -63,10 +147,52 @@ A self-hosted Node.js server and React control plane for coordinating teams of A
 - **Languages:** TypeScript, JavaScript
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 74,192
+- **GitHub stars:** 115,806
 
 **Key features**
 
   - Models companies, goals, projects, agents, roles, reporting lines, and task dependencies
   - Provides ticketed work with atomic checkout, session state, structured logs, activity, and audit trails
   - Schedules agent heartbeats and routines while enforcing scoped budget warnings and hard stops
+
+<a id="repo-staltz--fabrica"></a>
+
+## [Fabrica](https://github.com/staltz/fabrica)
+
+A software factory framework for versioning and deploying reusable coding-agent skills, rules, and routines across repositories and supported tools.
+
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-staltz--fabrica)
+- **Topics:** [Coding Agents](../topics/coding-agents.md#repo-staltz--fabrica) | [Agent Skills](../topics/agent-skills.md#repo-staltz--fabrica) | [Agent Governance](../topics/agent-governance.md#repo-staltz--fabrica) | [MCP](../topics/mcp.md#repo-staltz--fabrica) | [Automation](../topics/automation.md#repo-staltz--fabrica) | [Observability](../topics/observability.md#repo-staltz--fabrica) | [CLI](../topics/cli.md#repo-staltz--fabrica)
+- **Kind:** Framework
+- **Best for:** Teams sharing coding-agent workflows across projects and tools
+- **Languages:** Go
+- **License:** MIT
+- **Lifecycle:** Active
+- **GitHub stars:** 32
+
+**Key features**
+
+  - Composable Git-backed blueprints separate process from product repositories
+  - Plan and apply factory configurations to supported agent runtimes
+  - Serves current blueprint instructions over MCP
+
+<a id="repo-statelyai--agent"></a>
+
+## [Stately Agent](https://github.com/statelyai/agent)
+
+A TypeScript framework for representing LLM-agent control flow as XState machines whose typed states, guards, and events constrain the actions a model may propose.
+
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-statelyai--agent)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-statelyai--agent) | [Agent Frameworks](../topics/agent-frameworks.md#repo-statelyai--agent) | [Agent Governance](../topics/agent-governance.md#repo-statelyai--agent) | [Policy Enforcement](../topics/policy-enforcement.md#repo-statelyai--agent) | [Multi Provider](../topics/multi-provider.md#repo-statelyai--agent) | [Observability](../topics/observability.md#repo-statelyai--agent) | [Evaluation](../topics/evaluation.md#repo-statelyai--agent) | [Testing](../topics/testing.md#repo-statelyai--agent)
+- **Kind:** Framework
+- **Best for:** Teams that need inspectable, resumable agent workflows with explicit legal transitions; Developers testing agent control flow independently from live model calls
+- **Languages:** TypeScript
+- **License:** MIT
+- **Lifecycle:** Experimental
+- **GitHub stars:** 505
+
+**Key features**
+
+  - Gives the state machine authority over control flow while models select only allowed events
+  - Separates portable machine definitions from model, execution, hosting, and persistence adapters
+  - Supports snapshots, verified event logs, human approval, retries, parallel work, and child agents

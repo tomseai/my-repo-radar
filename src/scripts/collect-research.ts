@@ -371,8 +371,12 @@ async function exists(path: string): Promise<boolean> {
   }
 }
 
+export function safeGitArguments(arguments_: string[], cwd?: string): string[] {
+  return cwd ? ["-c", `safe.directory=${resolve(cwd)}`, ...arguments_] : arguments_;
+}
+
 async function runGit(arguments_: string[], cwd?: string): Promise<string> {
-  const result = await execFileAsync("git", arguments_, {
+  const result = await execFileAsync("git", safeGitArguments(arguments_, cwd), {
     cwd,
     encoding: "utf8",
     maxBuffer: MAX_GIT_OUTPUT_BYTES,

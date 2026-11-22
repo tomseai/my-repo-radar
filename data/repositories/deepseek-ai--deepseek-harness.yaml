@@ -1,0 +1,85 @@
+analysis:
+  analyzed_at: 2026-09-16T15:45:00.000Z
+  classification:
+    primary_category: ai-and-automation
+    state: confirmed
+    technologies:
+      - typescript
+      - python
+      - react
+      - nodejs
+    topics:
+      - ai-agents
+      - coding-agents
+      - agent-harnesses
+      - agent-skills
+      - tool-use
+      - mcp
+      - computer-use
+      - browser-automation
+      - web-ui
+      - cli
+      - sandboxing
+    use_cases:
+      - build-ai-products
+      - improve-developer-workflow
+  evidence:
+    - claim: A developer-preview, plugin-oriented agent harness with web, CLI,
+        headless, skills, tools, MCP, and computer-use surfaces.
+      source_type: repository-file
+      url: https://raw.githubusercontent.com/deepseek-ai/deepseek-harness/0d1f50007f9bca3f52b06e1c3074fa14d5fb0720/README.md
+      checked_at: 2026-09-16
+      confidence: medium
+  state: complete
+  summary:
+    one_line: A developer-preview, plugin-oriented agent harness with web, CLI,
+      headless, skills, tools, MCP, and computer-use surfaces.
+    why_useful: Developers evaluating a highly modular local harness for coding and
+      tool-using agents
+curation:
+  confidence: null
+  evidence: []
+  limitations: []
+  recommendation: null
+  reviewed_at: null
+  state: uncurated
+  strengths: []
+  verdict: null
+id: github:deepseek-ai/deepseek-harness
+import:
+  github_snapshot:
+    archived: false
+    created_at: 2026-08-13T11:56:32Z
+    default_branch: master
+    description: "DeepSeek Harness: Everything is a Plugin."
+    disabled: false
+    fetched_at: 2026-11-22T12:07:00.148Z
+    fork: false
+    forks: 35490
+    homepage: https://deepseek.com/harness
+    latest_release: null
+    license_spdx: MIT
+    open_issues: 0
+    primary_language: TypeScript
+    pushed_at: 2026-11-22T11:00:05Z
+    stars: 285342
+    topics:
+      - ai-agents
+      - cordis
+      - dsh
+      - dsh-plugin
+    updated_at: 2026-11-22T12:06:27Z
+  sources:
+    - observed_at: 2026-08-20T14:52:55Z
+      relation: starred
+      source_id: github:user:tomseai:stars
+      source_url: https://github.com/tomseai?tab=stars
+  state: refreshed
+repository:
+  aliases: []
+  github_node_id: R_kgDOT3T1gw
+  host: github.com
+  name: deepseek-harness
+  owner: deepseek-ai
+  url: https://github.com/deepseek-ai/deepseek-harness
+version: 1

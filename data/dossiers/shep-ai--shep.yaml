@@ -2,9 +2,9 @@ schema_version: 2
 repository_id: github:shep-ai/shep
 research:
   state: complete
-  source_commit: df4199fe5a3a7050f57bcfad00f485a371fac9a0
-  bundle_collected_at: 2026-07-19T20:45:16.348Z
-  researched_at: 2026-07-20T00:52:00.000Z
+  source_commit: 56301d59a0d5faa4cb98ab487ea8726353237ab9
+  bundle_collected_at: 2026-11-22T12:10:24.514Z
+  researched_at: 2026-11-22T12:24:16.311Z
   confidence: high
 classification:
   primary_category: ai-and-automation
@@ -33,7 +33,7 @@ project:
 
 key_features:
   - Isolated Git worktree and branch for every feature
-  - Built-in Claude Code, Cursor CLI, and Gemini CLI support plus a generic terminal-agent executor
+  - Built-in support for Claude Code, Kimi Code, Codex CLI, Copilot CLI, Cursor CLI, Gemini CLI, and Cline, plus a generic terminal-agent executor
   - Default prompt-to-implementation-to-draft-PR workflow with configurable CI retry fixes
   - Optional requirements, research, and plan approval gates as versioned YAML artifacts
   - Local CLI, terminal UI, and real-time web control center
@@ -68,8 +68,8 @@ license:
 status:
   lifecycle: active
   archived: false
-  latest_release: v1.219.0
-  latest_release_at: 2026-07-17
+  latest_release: v1.253.1
+  latest_release_at: "2026-10-31"
 
 strengths:
   - Keeps concurrent agent work out of the developer's active working directory
@@ -77,14 +77,14 @@ strengths:
   - Is not locked to one coding agent or model provider
 
 caveats:
-  - Running a feature requires Node.js 22+, Git, GitHub CLI, and an authenticated supported agent CLI
+  - Local operation requires Node.js 22+, pnpm 10+, Git, GitHub CLI, and an authenticated supported agent CLI
   - By default, Shep passes non-interactive permission-bypass flags to configured agent CLIs
-  - Worktree isolation and draft PRs do not replace security scanning or CI coverage
+  - Usage telemetry is enabled by default and can be disabled with the CLI
   - Agent prompts and code are sent to the separately configured agent provider under that provider's terms
 
 sources:
-  - https://raw.githubusercontent.com/shep-ai/shep/df4199fe5a3a7050f57bcfad00f485a371fac9a0/README.md
-  - https://raw.githubusercontent.com/shep-ai/shep/df4199fe5a3a7050f57bcfad00f485a371fac9a0/package.json
-  - https://raw.githubusercontent.com/shep-ai/shep/df4199fe5a3a7050f57bcfad00f485a371fac9a0/ARCHITECTURE.md
-  - https://raw.githubusercontent.com/shep-ai/shep/df4199fe5a3a7050f57bcfad00f485a371fac9a0/LICENSE
+  - https://raw.githubusercontent.com/shep-ai/shep/56301d59a0d5faa4cb98ab487ea8726353237ab9/README.md
+  - https://raw.githubusercontent.com/shep-ai/shep/56301d59a0d5faa4cb98ab487ea8726353237ab9/package.json
+  - https://raw.githubusercontent.com/shep-ai/shep/56301d59a0d5faa4cb98ab487ea8726353237ab9/ARCHITECTURE.md
+  - https://raw.githubusercontent.com/shep-ai/shep/56301d59a0d5faa4cb98ab487ea8726353237ab9/LICENSE
   - https://github.com/shep-ai/shep/releases.atom

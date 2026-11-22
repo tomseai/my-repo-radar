@@ -2,11 +2,10 @@ schema_version: 2
 repository_id: github:samuelfaj/distill
 research:
   state: complete
-  source_commit: 4e2eaac06c839f518a312014390ab3e2a470fb1f
-  bundle_collected_at: 2026-07-19T20:45:09.689Z
-  researched_at: 2026-07-20T18:02:08+02:00
-  confidence: medium
-
+  source_commit: 4da0b4ed81d6db75327b1e005acaa4026a5c0f6b
+  bundle_collected_at: 2026-11-22T12:10:24.139Z
+  researched_at: 2026-11-22T12:22:21.084Z
+  confidence: high
 classification:
   primary_category: developer-tools
   topics:
@@ -15,67 +14,64 @@ classification:
     - cli
     - llms
     - developer-productivity
-    - local-models
-
 project:
-  name: distill
+  name: Distill
   kind: cli
-  summary: >-
-    A command-line tool that compresses agent command output into targeted
-    answers for downstream LLMs, using a locally onboarded small language model.
+  summary: A terminal coding-agent harness that assigns planning, delegated coding
+    work, and context compression to separately configurable language-model
+    tiers.
   best_for:
-    - Coding-agent workflows that need to reduce log or test-output context
-    - Developers who can allocate memory for its local-model runtime
-
+    - Developers who want a terminal agent with separate models for planning and
+      delegated work
+    - Teams evaluating different coding-agent execution modes with their own
+      provider accounts
 key_features:
-  - A distill command that accepts piped command output and a task prompt
-  - Onboarding for the bundled local-model workflow
-  - A documented 1.7B, 4-bit expert language model
-  - Platform packages for macOS, Linux, and Windows architectures
-  - Automatic local-server startup and reuse, according to the v1.5.0 release
-
+  - Configures a required main model, an optional worker model, and a utility
+    model
+  - Lets the main model specify and review work delegated to the worker
+  - Uses the utility tier for extraction, summarization, and context compression
+  - Offers five execution modes and documents Grok, Claude, Codex, and
+    OpenAI-compatible model paths
 usage:
   interfaces:
+    - Terminal user interface
     - CLI
-    - shell pipeline
   installation:
-    - npm global package
+    - macOS and Linux release installer
+    - Windows PowerShell release installer
   setup: moderate
-
 technology:
   languages:
-    - TypeScript
+    - Rust
   notable_components:
-    - Node.js
-    - Bun
-    - MLX
-    - llama.cpp
-
+    - Cargo workspace
+    - OpenAI-compatible model protocol
 license:
-  spdx: MIT
-  name: MIT License (declared in CLI package metadata)
-  notes: >-
-    No repository-level license file was retained in this bundle; the CLI package
-    declares MIT, so the complete licensing terms were not independently verified.
-
+  spdx: Apache-2.0
+  name: Apache License 2.0
+  notes: The root license identifies both upstream and Distill modification
+    copyright holders.
 status:
   lifecycle: active
   archived: false
-  latest_release: v1.5.2
-  latest_release_at: 2026-05-14
-
+  latest_release: v2.0.83
+  latest_release_at: 2026-11-20
 strengths:
-  - Directly targets a common source of coding-agent context and token cost
-  - Documents local-model onboarding rather than requiring a hosted model by default
-  - Published packages cover the main desktop operating-system families
-
+  - Lets users choose different models for planning, implementation, and context
+    handling
+  - Publishes installers for macOS, Linux, and Windows
+  - Documents execution modes with example output, runtime, and cost
 caveats:
-  - The README recommends at least 8 GB RAM, with 16 GB described as more comfortable
-  - Retained documentation is brief and does not fully specify output quality or model behavior
-  - Repository-wide license text is absent from the retained evidence, despite the CLI package declaring MIT
-
+  - Setup depends on credentials and model availability for the selected
+    providers
+  - Concise output and the built-in Ponytail coding rules apply across sessions;
+    the README says both are always enabled
+  - The maintainer's benchmark results depend on its chosen tasks, models, and
+    pricing assumptions
 sources:
-  - https://raw.githubusercontent.com/samuelfaj/distill/4e2eaac06c839f518a312014390ab3e2a470fb1f/README.md
-  - https://raw.githubusercontent.com/samuelfaj/distill/4e2eaac06c839f518a312014390ab3e2a470fb1f/packages/cli/package.json
-  - https://raw.githubusercontent.com/samuelfaj/distill/4e2eaac06c839f518a312014390ab3e2a470fb1f/package.json
-  - https://github.com/samuelfaj/distill/releases.atom
+  - https://raw.githubusercontent.com/samuelfaj/distill/4da0b4ed81d6db75327b1e005acaa4026a5c0f6b/README.md
+  - https://raw.githubusercontent.com/samuelfaj/distill/4da0b4ed81d6db75327b1e005acaa4026a5c0f6b/LICENSE
+  - https://raw.githubusercontent.com/samuelfaj/distill/4da0b4ed81d6db75327b1e005acaa4026a5c0f6b/Cargo.toml
+  - https://raw.githubusercontent.com/samuelfaj/distill/4da0b4ed81d6db75327b1e005acaa4026a5c0f6b/install.sh
+  - https://raw.githubusercontent.com/samuelfaj/distill/4da0b4ed81d6db75327b1e005acaa4026a5c0f6b/install.ps1
+  - https://github.com/samuelfaj/distill/releases/tag/v2.0.83

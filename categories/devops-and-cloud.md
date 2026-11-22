@@ -2,27 +2,50 @@
 
 # DevOps and Cloud
 
-[Back to the main catalog](../README.md) | **5 repositories**
+[Back to the main catalog](../README.md) | **7 repositories**
 
 ## Topics in this category
 
-- [AI Agents](../topics/ai-agents.md) (1)
-- [Automation](../topics/automation.md) (1)
+- [AI Agents](../topics/ai-agents.md) (2)
+- [API Development](../topics/api-development.md) (1)
+- [Automation](../topics/automation.md) (3)
 - [CLI](../topics/cli.md) (3)
-- [Cloud](../topics/cloud.md) (2)
+- [Cloud](../topics/cloud.md) (4)
 - [Coding Agents](../topics/coding-agents.md) (1)
 - [Containers](../topics/containers.md) (3)
 - [Databases](../topics/databases.md) (1)
-- [Deployment](../topics/deployment.md) (2)
-- [Developer Productivity](../topics/developer-productivity.md) (2)
-- [DevOps](../topics/devops.md) (2)
+- [Deployment](../topics/deployment.md) (4)
+- [Developer Productivity](../topics/developer-productivity.md) (3)
+- [DevOps](../topics/devops.md) (3)
 - [Frameworks](../topics/frameworks.md) (1)
 - [Local First](../topics/local-first.md) (1)
 - [MCP](../topics/mcp.md) (2)
-- [Observability](../topics/observability.md) (5)
-- [Self Hosted](../topics/self-hosted.md) (4)
-- [Tracing](../topics/tracing.md) (2)
+- [Observability](../topics/observability.md) (6)
+- [Realtime](../topics/realtime.md) (1)
+- [Self Hosted](../topics/self-hosted.md) (5)
+- [Tracing](../topics/tracing.md) (3)
 - [Web UI](../topics/web-ui.md) (1)
+
+<a id="repo-alchemy-run--alchemy"></a>
+
+## [Alchemy](https://github.com/alchemy-run/alchemy)
+
+A TypeScript infrastructure-as-code framework built on Effect that combines cloud resources and application logic in one type-safe executable program.
+
+- **Category:** [DevOps and Cloud](../categories/devops-and-cloud.md#repo-alchemy-run--alchemy)
+- **Topics:** [Cloud](../topics/cloud.md#repo-alchemy-run--alchemy) | [Deployment](../topics/deployment.md#repo-alchemy-run--alchemy) | [DevOps](../topics/devops.md#repo-alchemy-run--alchemy) | [Automation](../topics/automation.md#repo-alchemy-run--alchemy) | [Developer Productivity](../topics/developer-productivity.md#repo-alchemy-run--alchemy)
+- **Kind:** Infrastructure
+- **Best for:** TypeScript teams defining application code and cloud infrastructure together; Effect users deploying to AWS or Cloudflare with typed resource bindings
+- **Languages:** TypeScript
+- **License:** Apache-2.0
+- **Lifecycle:** Experimental
+- **GitHub stars:** 2,041
+
+**Key features**
+
+  - Models infrastructure resources and application logic in one Effect program
+  - Provides typed bindings, errors, planning, deployment, and local development
+  - Supports AWS services, Cloudflare resources, IAM, SDKs, and smoke tests
 
 <a id="repo-betterdb-inc--monitor"></a>
 
@@ -37,7 +60,7 @@ A self-hosted monitoring application for Valkey and Redis that presents real-tim
 - **Languages:** TypeScript, Python
 - **License:** MIT Expat outside separately licensed paths
 - **Lifecycle:** Active
-- **GitHub stars:** 1,246
+- **GitHub stars:** 1,308
 
 **Key features**
 
@@ -58,7 +81,7 @@ A single Docker image that runs an OpenTelemetry backend for local metrics, trac
 - **Languages:** Shell, Go
 - **License:** Apache-2.0
 - **Lifecycle:** Active
-- **GitHub stars:** 1,943
+- **GitHub stars:** 2,168
 
 **Key features**
 
@@ -79,13 +102,13 @@ An open-source, event-driven orchestration platform for declarative YAML workflo
 - **Languages:** Java
 - **License:** Apache-2.0
 - **Lifecycle:** Active
-- **GitHub stars:** 27,391
+- **GitHub stars:** 30,310
 
 **Key features**
 
   - Defines flows, tasks, inputs, variables, and triggers in declarative YAML
+  - Offers AI agents, RAG workflows, and a built-in MCP server
   - Supports scheduled and event-driven execution, including message-bus and cloud triggers
-  - Provides a built-in editor, visual topology view, completion, and real-time validation
 
 <a id="repo-microsoft--aspire"></a>
 
@@ -100,7 +123,7 @@ A multi-language, code-first toolchain for defining, running, observing, and dep
 - **Languages:** C#, TypeScript
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 6,173
+- **GitHub stars:** 6,445
 
 **Key features**
 
@@ -121,10 +144,31 @@ A local-first observability service for LLM agents that records their activity, 
 - **Languages:** Go, JavaScript
 - **License:** Apache-2.0
 - **Lifecycle:** Experimental
-- **GitHub stars:** 113
+- **GitHub stars:** 125
 
 **Key features**
 
   - Records local LLM calls, OpenTelemetry signals, hooks, and JSONL agent transcripts
   - Serves a dashboard with cost, latency, tool activity, replay, anomalies, and SQL access
   - Injects compact context through hooks and can block unresolved high-severity issues
+
+<a id="repo-triggerdotdev--trigger.dev"></a>
+
+## [Trigger.dev](https://github.com/triggerdotdev/trigger.dev)
+
+An open-source durable execution platform for TypeScript AI agents and workflows, available as a managed cloud service or a self-hosted deployment.
+
+- **Category:** [DevOps and Cloud](../categories/devops-and-cloud.md#repo-triggerdotdev--trigger.dev)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-triggerdotdev--trigger.dev) | [Automation](../topics/automation.md#repo-triggerdotdev--trigger.dev) | [Deployment](../topics/deployment.md#repo-triggerdotdev--trigger.dev) | [Cloud](../topics/cloud.md#repo-triggerdotdev--trigger.dev) | [Self Hosted](../topics/self-hosted.md#repo-triggerdotdev--trigger.dev) | [Observability](../topics/observability.md#repo-triggerdotdev--trigger.dev) | [Tracing](../topics/tracing.md#repo-triggerdotdev--trigger.dev) | [Realtime](../topics/realtime.md#repo-triggerdotdev--trigger.dev) | [API Development](../topics/api-development.md#repo-triggerdotdev--trigger.dev)
+- **Kind:** Service
+- **Best for:** Teams building long-running TypeScript jobs, agents, and background workflows; Applications that need retries, queues, waits, streaming, schedules, and operational visibility
+- **Languages:** TypeScript
+- **License:** Apache-2.0
+- **Lifecycle:** Active
+- **GitHub stars:** 16,802
+
+**Key features**
+
+  - Runs long-lived tasks with durability, retries, queues, concurrency, and idempotency
+  - Supports human-in-the-loop waits, schedules, realtime updates, and streaming
+  - Provides logs, tracing, observability, environments, and deployment tooling

@@ -2,16 +2,37 @@
 
 # Agent Development Environments
 
-[Back to the main catalog](../README.md) | **7 repositories**
+[Back to the main catalog](../README.md) | **8 repositories**
 
 ## Primary categories represented
 
-- [AI and Automation](../categories/ai-and-automation.md) (1)
+- [AI and Automation](../categories/ai-and-automation.md) (2)
 - [Developer Tools](../categories/developer-tools.md) (6)
+
+<a id="repo-agegr--pi-web"></a>
+
+## [pi-web](https://github.com/agegr/pi-web)
+
+A local web interface for the pi coding agent that reuses pi sessions and configuration while adding project browsing, Git diffs, worktrees, and model setup.
+
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-agegr--pi-web)
+- **Topics:** [Coding Agents](../topics/coding-agents.md#repo-agegr--pi-web) | [Agent Development Environments](../topics/agent-development-environments.md#repo-agegr--pi-web) | [Web UI](../topics/web-ui.md#repo-agegr--pi-web) | [Git](../topics/git.md#repo-agegr--pi-web) | [Worktrees](../topics/worktrees.md#repo-agegr--pi-web) | [Local First](../topics/local-first.md#repo-agegr--pi-web) | [Multi Provider](../topics/multi-provider.md#repo-agegr--pi-web)
+- **Kind:** Application
+- **Best for:** Pi users who prefer a browser workspace over a terminal-only interface; Developers managing pi sessions, files, diffs, and worktrees from one local UI
+- **Languages:** TypeScript
+- **License:** MIT
+- **Lifecycle:** Active
+- **GitHub stars:** 8,361
+
+**Key features**
+
+  - Resumes, branches, exports, and deletes existing pi sessions
+  - Browses project files and renders Git diffs and file previews
+  - Switches Git worktrees and configures providers, models, plugins, and skills
 
 <a id="repo-generalaction--emdash"></a>
 
-## [emdash](https://github.com/generalaction/emdash)
+## [Emdash Classic](https://github.com/generalaction/emdash)
 
 A local-first desktop environment for running AI coding agents in parallel in isolated Git worktrees, then reviewing and integrating their changes.
 
@@ -22,7 +43,7 @@ A local-first desktop environment for running AI coding agents in parallel in is
 - **Languages:** TypeScript
 - **License:** Apache-2.0
 - **Lifecycle:** Active
-- **GitHub stars:** 5,218
+- **GitHub stars:** 6,290
 
 **Key features**
 
@@ -43,13 +64,55 @@ An open-source visual desktop workspace for working with coding agents, files, s
 - **Languages:** TypeScript, JavaScript, Swift
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 1,270
+- **GitHub stars:** 2,096
 
 **Key features**
 
   - Provides WYSIWYG editors and red/green approval flows for agent-authored file changes
   - Supports Markdown, mockups, Mermaid, Excalidraw, CSV, data models, and Monaco code editing
   - Organizes parallel sessions with file links, search and resume, and a Kanban board
+
+<a id="repo-paradevai--paradev"></a>
+
+## [Paradev](https://github.com/ParadevAI/Paradev)
+
+An open-source workspace for running coding agents in parallel with separate Git worktrees, branches, and terminals, and for reviewing changes and resuming work across devices.
+
+- **Category:** [Developer Tools](../categories/developer-tools.md#repo-paradevai--paradev)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-paradevai--paradev) | [Coding Agents](../topics/coding-agents.md#repo-paradevai--paradev) | [Parallel Agents](../topics/parallel-agents.md#repo-paradevai--paradev) | [Desktop App](../topics/desktop-app.md#repo-paradevai--paradev) | [CLI](../topics/cli.md#repo-paradevai--paradev) | [Agent Development Environments](../topics/agent-development-environments.md#repo-paradevai--paradev) | [Git](../topics/git.md#repo-paradevai--paradev) | [Worktrees](../topics/worktrees.md#repo-paradevai--paradev) | [MCP](../topics/mcp.md#repo-paradevai--paradev) | [Code Review](../topics/code-review.md#repo-paradevai--paradev)
+- **Kind:** Application
+- **Best for:** Developers coordinating several CLI coding agents against the same repository; Teams that want worktree isolation, local review, and remote workspace access
+- **Languages:** TypeScript
+- **License:** MIT
+- **Lifecycle:** Active
+- **GitHub stars:** 16,465
+
+**Key features**
+
+  - Runs agents concurrently with a dedicated worktree, branch, and terminal per task
+  - Supports local, cloud, and remote-machine workspaces
+  - Exposes workflow controls through a CLI, MCP server, and skills
+
+<a id="repo-spacering-net--codeg"></a>
+
+## [codeg](https://github.com/spacering-net/codeg)
+
+A local-first multi-agent coding workspace that aggregates sessions from many coding-agent CLIs and adds collaboration, Git worktrees, MCP and skill management, automation, and desktop, browser-server, or Docker deployment.
+
+- **Category:** [Developer Tools](../categories/developer-tools.md#repo-spacering-net--codeg)
+- **Topics:** [Coding Agents](../topics/coding-agents.md#repo-spacering-net--codeg) | [Agent Development Environments](../topics/agent-development-environments.md#repo-spacering-net--codeg) | [Multi Agent](../topics/multi-agent.md#repo-spacering-net--codeg) | [Desktop App](../topics/desktop-app.md#repo-spacering-net--codeg) | [Git](../topics/git.md#repo-spacering-net--codeg) | [Worktrees](../topics/worktrees.md#repo-spacering-net--codeg) | [MCP](../topics/mcp.md#repo-spacering-net--codeg) | [Agent Skills](../topics/agent-skills.md#repo-spacering-net--codeg) | [Automation](../topics/automation.md#repo-spacering-net--codeg) | [Web UI](../topics/web-ui.md#repo-spacering-net--codeg) | [Self Hosted](../topics/self-hosted.md#repo-spacering-net--codeg) | [Local First](../topics/local-first.md#repo-spacering-net--codeg)
+- **Kind:** Application
+- **Best for:** Developers coordinating sessions from several local coding agents in one workspace; Teams that need a self-hosted browser workspace or desktop interface for agent-assisted Git work
+- **Languages:** TypeScript, Rust
+- **License:** Apache-2.0
+- **Lifecycle:** Active
+- **GitHub stars:** 4,566
+
+**Key features**
+
+  - Imports existing agent sessions and supports multiple built-in agents plus Agent Client Protocol integrations
+  - Multi-agent delegation through the bundled codeg-mcp companion
+  - Parallel development with built-in Git worktree flows
 
 <a id="repo-stablyai--orca"></a>
 
@@ -64,13 +127,13 @@ An Electron-based agent development environment for running terminal coding agen
 - **Languages:** TypeScript
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 22,231
+- **GitHub stars:** 132,463
 
 **Key features**
 
   - Runs terminal-based coding agents in tracked, isolated Git worktrees
   - Supports parallel prompts, result comparison, and merge-oriented workflows
-  - Provides terminal splits with persistent scrollback and WebGL rendering
+  - Provides split panes for agents, terminals, browsers, and diffs
 
 <a id="repo-stackblitz-labs--bolt.diy"></a>
 
@@ -85,11 +148,11 @@ An open-source, self-hostable version of Bolt.new for AI-assisted web developmen
 - **Languages:** TypeScript, JavaScript
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 19,622
+- **GitHub stars:** 20,117
 
 **Key features**
 
-  - Selects from 19-plus documented cloud and local AI-provider integrations through the Vercel AI SDK
+  - Supports more than 22 documented cloud and local model providers through the Vercel AI SDK
   - Provides web, Docker, and Electron desktop deployment options
   - Includes settings for cloud keys, Ollama, LM Studio, and OpenAI-compatible base URLs
 
@@ -106,52 +169,10 @@ An AI-powered browser development agent that prompts, runs, edits, and deploys f
 - **Languages:** TypeScript, JavaScript
 - **License:** MIT
 - **Lifecycle:** Experimental
-- **GitHub stars:** 16,471
+- **GitHub stars:** 16,610
 
 **Key features**
 
   - Gives an AI model control of the project filesystem, Node.js server, package manager, terminal, and browser console
   - Uses WebContainers to install npm packages and run Node.js-based development stacks in the browser
   - Supports prompting, editing, running, sharing, and deploying full-stack applications from the web interface
-
-<a id="repo-superset-sh--superset"></a>
-
-## [Superset](https://github.com/superset-sh/superset)
-
-A desktop code editor and shared workspace system for running terminal-based coding agents in parallel, each isolated in its own Git worktree with built-in terminal, review, and workspace-management tools.
-
-- **Category:** [Developer Tools](../categories/developer-tools.md#repo-superset-sh--superset)
-- **Topics:** [AI Agents](../topics/ai-agents.md#repo-superset-sh--superset) | [Coding Agents](../topics/coding-agents.md#repo-superset-sh--superset) | [Parallel Agents](../topics/parallel-agents.md#repo-superset-sh--superset) | [Desktop App](../topics/desktop-app.md#repo-superset-sh--superset) | [CLI](../topics/cli.md#repo-superset-sh--superset) | [Agent Development Environments](../topics/agent-development-environments.md#repo-superset-sh--superset) | [Git](../topics/git.md#repo-superset-sh--superset) | [Worktrees](../topics/worktrees.md#repo-superset-sh--superset) | [MCP](../topics/mcp.md#repo-superset-sh--superset) | [Code Review](../topics/code-review.md#repo-superset-sh--superset)
-- **Kind:** Application
-- **Best for:** Developers coordinating several CLI coding agents against the same repository; Teams that want worktree isolation, local review, and remote workspace access
-- **Languages:** TypeScript
-- **License:** Elastic-2.0
-- **Lifecycle:** Active
-- **GitHub stars:** 12,507
-
-**Key features**
-
-  - Runs parallel agent workspaces with separate branches, terminals, and environments
-  - Monitors agents with status indicators and attention notifications
-  - Includes persistent split terminals, a diff viewer, and in-app code editing
-
-<a id="repo-xintaofei--codeg"></a>
-
-## [codeg](https://github.com/xintaofei/codeg)
-
-A local-first multi-agent coding workspace that aggregates sessions from many coding-agent CLIs and adds collaboration, Git worktrees, MCP and skill management, automation, and desktop, browser-server, or Docker deployment.
-
-- **Category:** [Developer Tools](../categories/developer-tools.md#repo-xintaofei--codeg)
-- **Topics:** [Coding Agents](../topics/coding-agents.md#repo-xintaofei--codeg) | [Agent Development Environments](../topics/agent-development-environments.md#repo-xintaofei--codeg) | [Multi Agent](../topics/multi-agent.md#repo-xintaofei--codeg) | [Desktop App](../topics/desktop-app.md#repo-xintaofei--codeg) | [Git](../topics/git.md#repo-xintaofei--codeg) | [Worktrees](../topics/worktrees.md#repo-xintaofei--codeg) | [MCP](../topics/mcp.md#repo-xintaofei--codeg) | [Agent Skills](../topics/agent-skills.md#repo-xintaofei--codeg) | [Automation](../topics/automation.md#repo-xintaofei--codeg) | [Web UI](../topics/web-ui.md#repo-xintaofei--codeg) | [Self Hosted](../topics/self-hosted.md#repo-xintaofei--codeg) | [Local First](../topics/local-first.md#repo-xintaofei--codeg)
-- **Kind:** Application
-- **Best for:** Developers coordinating sessions from several local coding agents in one workspace; Teams that need a self-hosted browser workspace or desktop interface for agent-assisted Git work
-- **Languages:** TypeScript, Rust
-- **License:** Apache-2.0
-- **Lifecycle:** Active
-- **GitHub stars:** 2,223
-
-**Key features**
-
-  - Imports and aggregates conversation sessions from twelve supported coding agents
-  - Multi-agent delegation through the bundled codeg-mcp companion
-  - Parallel development with built-in Git worktree flows

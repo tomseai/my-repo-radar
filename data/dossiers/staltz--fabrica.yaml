@@ -1,0 +1,52 @@
+schema_version: 2
+repository_id: github:staltz/fabrica
+research:
+  state: complete
+  source_commit: dee05a35d92e85d9e34578f5964a67484215a570
+  bundle_collected_at: 2026-11-22T11:27:06.320Z
+  researched_at: 2026-11-22T11:28:29Z
+  confidence: high
+classification:
+  primary_category: ai-and-automation
+  topics: [coding-agents, agent-skills, agent-governance, mcp, automation, observability, cli]
+project:
+  name: Fabrica
+  kind: framework
+  summary: >-
+    A software factory framework for versioning and deploying reusable coding-agent
+    skills, rules, and routines across repositories and supported tools.
+  best_for:
+    - Teams sharing coding-agent workflows across projects and tools
+key_features:
+  - Composable Git-backed blueprints separate process from product repositories
+  - Plan and apply factory configurations to supported agent runtimes
+  - Serves current blueprint instructions over MCP
+  - Records agent runs for CLI inspection and a local dashboard
+  - Supports import locking and previewing blueprint updates
+usage:
+  interfaces: [CLI, MCP server, web dashboard, macOS menu bar app]
+  installation: [install script, macOS app download, Go install]
+  setup: moderate
+technology:
+  languages: [Go]
+  notable_components: [Model Context Protocol, SQLite, Git]
+license:
+  spdx: MIT
+  name: MIT License
+  notes: null
+status:
+  lifecycle: active
+  archived: false
+  latest_release: v1.7.0
+  latest_release_at: 2026-11-11
+strengths:
+  - Centralizes and versions reusable agent processes across tools
+  - Plans changes before applying them and offers run history
+caveats:
+  - Most built-in cloud routines require manual handoffs rather than automatic provisioning
+  - Hosted agents require a Cursor team with agent hosting enabled
+  - Cloud routines support text-only skills; local shell access can read local run history
+sources:
+  - https://raw.githubusercontent.com/staltz/fabrica/dee05a35d92e85d9e34578f5964a67484215a570/README.md
+  - https://raw.githubusercontent.com/staltz/fabrica/dee05a35d92e85d9e34578f5964a67484215a570/LICENSE
+  - https://github.com/staltz/fabrica/releases.atom

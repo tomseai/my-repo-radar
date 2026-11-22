@@ -14,15 +14,19 @@ analysis:
     use_cases:
       - "improve-developer-workflow"
   evidence:
-    - claim: "Forge is a terminal development environment and coding agent with interactive, one-shot CLI, and shell-plugin modes, multiple model providers, Git worktrees, and workspace semantic search."
+    - claim: "Forge is a terminal development environment and coding agent with
+        interactive, one-shot CLI, and shell-plugin modes, multiple model
+        providers, Git worktrees, and workspace semantic search."
       source_type: "repository-file"
       url: "https://github.com/tailcallhq/forgecode/blob/main/README.md"
       checked_at: "2026-07-19"
       confidence: "high"
   state: "complete"
   summary:
-    one_line: "A terminal-based AI coding environment with interactive and scripted agent workflows."
-    why_useful: "It combines coding assistance, Git worktrees, configurable agents, and workspace search in the shell."
+    one_line: "A terminal-based AI coding environment with interactive and scripted
+      agent workflows."
+    why_useful: "It combines coding assistance, Git worktrees, configurable agents,
+      and workspace search in the shell."
 curation:
   confidence: null
   evidence: []
@@ -36,44 +40,48 @@ id: "github:tailcallhq/forgecode"
 import:
   github_snapshot:
     archived: false
-    created_at: "2024-12-08T20:33:37Z"
-    default_branch: "main"
-    description: "AI enabled pair programmer for Claude, GPT, O Series, Grok, Deepseek, Gemini and 300+ models"
+    created_at: 2024-12-08T20:33:37Z
+    default_branch: main
+    description: AI enabled pair programmer for Claude, GPT, O Series, Grok,
+      Deepseek, Gemini and 300+ models
     disabled: false
-    fetched_at: "2026-07-19T19:16:14.796Z"
+    fetched_at: 2026-11-22T12:07:00.148Z
     fork: false
-    forks: 1442
-    homepage: "https://forgecode.dev"
-    latest_release: null
-    license_spdx: "Apache-2.0"
-    open_issues: 41
-    primary_language: "Rust"
-    pushed_at: "2026-07-19T18:12:53Z"
-    stars: 7460
+    forks: 1454
+    homepage: https://forgecode.dev
+    latest_release:
+      tag: v2.14.0
+      published_at: 2026-10-01T08:41:12Z
+      url: https://github.com/tailcallhq/forgecode/releases/tag/v2.14.0
+    license_spdx: Apache-2.0
+    open_issues: 38
+    primary_language: Rust
+    pushed_at: 2026-11-21T04:06:56Z
+    stars: 7635
     topics:
-      - "ai-pair-programming"
-      - "ai-workflows"
-      - "artifical-intelligense"
-      - "claude-3-7-sonnet"
-      - "claude-4"
-      - "claude-4-sonnet"
-      - "cli-assistant"
-      - "command-line"
-      - "grok"
-      - "llm"
-      - "multi-agent-reinforcement-learning"
-      - "open-router"
-      - "open-source-claude-code"
-      - "openai"
-      - "qwen"
-      - "shell"
-    updated_at: "2026-07-19T11:55:58Z"
+      - ai-pair-programming
+      - ai-workflows
+      - artifical-intelligense
+      - claude-3-7-sonnet
+      - claude-4
+      - claude-4-sonnet
+      - cli-assistant
+      - command-line
+      - grok
+      - llm
+      - multi-agent-reinforcement-learning
+      - open-router
+      - open-source-claude-code
+      - openai
+      - qwen
+      - shell
+    updated_at: 2026-11-21T21:21:51Z
   sources:
-    - observed_at: "2026-04-20T18:13:26Z"
-      relation: "starred"
-      source_id: "github:user:tomseai:stars"
-      source_url: "https://github.com/tomseai?tab=stars"
-  state: "imported"
+    - observed_at: 2026-04-20T18:13:26Z
+      relation: starred
+      source_id: github:user:tomseai:stars
+      source_url: https://github.com/tomseai?tab=stars
+  state: refreshed
 repository:
   aliases: []
   github_node_id: "R_kgDONavzBg"

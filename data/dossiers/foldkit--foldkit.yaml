@@ -1,0 +1,75 @@
+schema_version: 2
+repository_id: github:foldkit/foldkit
+research:
+  state: complete
+  source_commit: 144eeb4797f1b1d7a07fde8b112bae5d290fe90d
+  bundle_collected_at: 2026-11-22T12:09:30.588Z
+  researched_at: 2026-11-22T12:28:13.437063+00:00
+  confidence: high
+classification:
+  primary_category: frontend-and-design
+  topics:
+    - frontend-development
+    - frameworks
+    - ui-components
+    - testing
+    - mcp
+    - developer-productivity
+project:
+  name: Foldkit
+  kind: framework
+  summary: >-
+    A TypeScript frontend framework built on Effect and Elm-style architecture,
+    with explicit models, updates, effects, routing, UI components, and
+    deterministic testing.
+  best_for:
+    - Teams prioritizing explicit state transitions and testable frontend
+      behavior
+    - Effect users who want an Elm-like architecture with TypeScript tooling
+key_features:
+  - Centralizes state in a model and pure update function without hooks or
+    hidden mutation
+  - Represents commands, subscriptions, routing, and managed resources as
+    explicit effects
+  - Includes accessible UI components, virtual DOM rendering, and React embedding
+  - Provides time-travel devtools, MCP inspection, scenes, tests, and hot-module
+    replacement
+usage:
+  interfaces:
+    - TypeScript framework
+    - development tools
+    - MCP devtools
+  installation:
+    - npm packages
+    - project templates
+  setup: moderate
+technology:
+  languages:
+    - TypeScript
+  notable_components:
+    - Effect
+    - Elm architecture
+    - virtual DOM
+license:
+  spdx: MIT
+  name: MIT License
+  notes: Permissive license requiring preservation of the copyright and license
+    notice.
+status:
+  lifecycle: experimental
+  archived: false
+  latest_release: foldkit@0.171.0
+  latest_release_at: 2026-11-17
+strengths:
+  - Makes state changes and side effects explicit and inspectable
+  - Integrates runtime devtools and deterministic scene testing into the
+    framework
+caveats:
+  - The project is pre-1.0 and may introduce breaking changes in minor releases
+  - The architecture and Effect dependency impose a larger learning curve than
+    conventional React patterns
+sources:
+  - https://raw.githubusercontent.com/foldkit/foldkit/144eeb4797f1b1d7a07fde8b112bae5d290fe90d/README.md
+  - https://raw.githubusercontent.com/foldkit/foldkit/144eeb4797f1b1d7a07fde8b112bae5d290fe90d/LICENSE
+  - https://github.com/foldkit/foldkit/releases.atom
+  - https://github.com/foldkit/foldkit/releases/tag/foldkit%400.171.0

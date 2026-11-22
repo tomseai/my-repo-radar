@@ -24,7 +24,7 @@ An open-source AI coding agent delivered primarily as a command-line and termina
 - **Languages:** TypeScript
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 187,478
+- **GitHub stars:** 228,502
 
 **Key features**
 
@@ -36,20 +36,20 @@ An open-source AI coding agent delivered primarily as a command-line and termina
 
 ## [OpenTUI](https://github.com/anomalyco/opentui)
 
-A native terminal UI library with a Zig core, C ABI, and TypeScript bindings; it offers component-based layout and rendering primitives plus React and Solid reconcilers for building terminal applications.
+A terminal UI library with a Zig core, C ABI, Rust and TypeScript interfaces, and React and Solid rendering layers.
 
 - **Category:** [Application Frameworks](../categories/application-frameworks.md#repo-anomalyco--opentui)
 - **Topics:** [Terminal](../topics/terminal.md#repo-anomalyco--opentui) | [TUI](../topics/tui.md#repo-anomalyco--opentui) | [Libraries](../topics/libraries.md#repo-anomalyco--opentui) | [UI Components](../topics/ui-components.md#repo-anomalyco--opentui) | [Frameworks](../topics/frameworks.md#repo-anomalyco--opentui)
 - **Kind:** Library
-- **Best for:** Developers building terminal applications from TypeScript or JavaScript; Teams wanting a native core with optional React or Solid rendering layers
-- **Languages:** Zig, TypeScript
+- **Best for:** Developers building terminal applications in TypeScript or Rust; Teams wanting a native core with optional React or Solid rendering layers
+- **Languages:** Zig, TypeScript, Rust
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 12,594
+- **GitHub stars:** 13,886
 
 **Key features**
 
-  - Native Zig core that exposes a C ABI and TypeScript bindings
+  - Native Zig core with a C ABI and TypeScript and Rust interfaces
   - Component-based architecture with flexible terminal layout capabilities
   - Core package with imperative APIs and terminal primitives
 
@@ -66,7 +66,7 @@ A self-hostable super-agent harness and application for long-running work, combi
 - **Languages:** Python, TypeScript
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 77,390
+- **GitHub stars:** 85,596
 
 **Key features**
 
@@ -87,7 +87,7 @@ A cross-platform terminal coding agent that combines model-provider access, code
 - **Languages:** TypeScript, Rust
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 18,467
+- **GitHub stars:** 39,630
 
 **Key features**
 
@@ -97,7 +97,7 @@ A cross-platform terminal coding agent that combines model-provider access, code
 
 <a id="repo-earendil-works--pi"></a>
 
-## [Pi Agent Harness](https://github.com/earendil-works/pi)
+## [Pi](https://github.com/earendil-works/pi)
 
 A TypeScript monorepo for a multi-provider LLM API, tool-calling agent runtime, terminal UI library, and interactive coding-agent CLI.
 
@@ -108,7 +108,7 @@ A TypeScript monorepo for a multi-provider LLM API, tool-calling agent runtime, 
 - **Languages:** TypeScript
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 72,718
+- **GitHub stars:** 123,278
 
 **Key features**
 
@@ -129,7 +129,7 @@ A multi-agent workspace manager that uses git worktree-backed state and Beads to
 - **Languages:** Go
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 17,102
+- **GitHub stars:** 18,867
 
 **Key features**
 
@@ -150,34 +150,34 @@ A local-first CLI and set of dashboards that reads AI coding-tool session data f
 - **Languages:** TypeScript, Swift
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 8,755
+- **GitHub stars:** 11,882
 
 **Key features**
 
-  - Reads local session data for 36 supported AI tools and agents
+  - Reads local session data for 42 supported AI tools and agents
   - Provides an interactive terminal dashboard, reports, JSON output, and a localhost web dashboard
   - Breaks down usage by task, model, tool, project, date range, and token category
 
-<a id="repo-ogulcancelik--herdr"></a>
+<a id="repo-herdrdev--herdr"></a>
 
-## [herdr](https://github.com/ogulcancelik/herdr)
+## [herdr](https://github.com/herdrdev/herdr)
 
-A Rust terminal workspace manager and agent multiplexer that keeps real terminal processes running, surfaces agent state, persists sessions, and exposes a socket API for agents to coordinate panes and workspaces.
+A Rust terminal workspace and runtime for coding agents that preserves real processes, displays agent state, and exposes CLI and socket controls for coordination.
 
-- **Category:** [Developer Tools](../categories/developer-tools.md#repo-ogulcancelik--herdr)
-- **Topics:** [AI Agents](../topics/ai-agents.md#repo-ogulcancelik--herdr) | [Agent Orchestration](../topics/agent-orchestration.md#repo-ogulcancelik--herdr) | [CLI](../topics/cli.md#repo-ogulcancelik--herdr) | [Terminal](../topics/terminal.md#repo-ogulcancelik--herdr) | [TUI](../topics/tui.md#repo-ogulcancelik--herdr) | [Remote Control](../topics/remote-control.md#repo-ogulcancelik--herdr) | [Developer Productivity](../topics/developer-productivity.md#repo-ogulcancelik--herdr)
+- **Category:** [Developer Tools](../categories/developer-tools.md#repo-herdrdev--herdr)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-herdrdev--herdr) | [Coding Agents](../topics/coding-agents.md#repo-herdrdev--herdr) | [Agent Orchestration](../topics/agent-orchestration.md#repo-herdrdev--herdr) | [CLI](../topics/cli.md#repo-herdrdev--herdr) | [Terminal](../topics/terminal.md#repo-herdrdev--herdr) | [TUI](../topics/tui.md#repo-herdrdev--herdr) | [Remote Control](../topics/remote-control.md#repo-herdrdev--herdr) | [Developer Productivity](../topics/developer-productivity.md#repo-herdrdev--herdr)
 - **Kind:** CLI
-- **Best for:** Developers supervising multiple coding-agent sessions in terminal workspaces; Teams that want detached, persistent agent sessions reachable over SSH
+- **Best for:** Developers supervising multiple coding-agent sessions in terminal workspaces; Users who need persistent agent terminals that can be reattached locally or over SSH
 - **Languages:** Rust
-- **License:** AGPL-3.0-or-later
+- **License:** Apache-2.0
 - **Lifecycle:** Active
-- **GitHub stars:** 18,312
+- **GitHub stars:** 52,270
 
 **Key features**
 
-  - Shows recognized agents as blocked, working, done, idle, or unknown
-  - Preserves real terminal panes when a client detaches and later reattaches
-  - Supports workspaces, tabs, split panes, mouse interaction, and prefix-key navigation
+  - Keeps terminals and agents running in a background server across client disconnects
+  - Marks recognized agents as working, blocked, or idle
+  - Supports workspaces, tabs, splits, keyboard and mouse control, and plugins
 
 <a id="repo-psmux--psmux"></a>
 
@@ -192,7 +192,7 @@ A native Rust terminal multiplexer for Windows that uses ConPTY directly, implem
 - **Languages:** Rust
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 2,994
+- **GitHub stars:** 3,893
 
 **Key features**
 
@@ -213,7 +213,7 @@ A native Rust TUI network monitor for Windows that combines connection and bandw
 - **Languages:** Rust
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 125
+- **GitHub stars:** 152
 
 **Key features**
 
@@ -234,7 +234,7 @@ A Rust terminal coding agent that combines an interactive TUI, one-shot commands
 - **Languages:** Rust
 - **License:** Apache-2.0
 - **Lifecycle:** Active
-- **GitHub stars:** 7,460
+- **GitHub stars:** 7,635
 
 **Key features**
 
@@ -255,7 +255,7 @@ A terminal multiplexer that creates, accesses, and controls multiple terminals f
 - **Languages:** C
 - **License:** ISC
 - **Lifecycle:** Active
-- **GitHub stars:** 47,883
+- **GitHub stars:** 50,541
 
 **Key features**
 
@@ -276,7 +276,7 @@ A Rust terminal coding agent distributed as the grok CLI and full-screen TUI, wi
 - **Languages:** Rust
 - **License:** Apache-2.0
 - **Lifecycle:** Active
-- **GitHub stars:** 19,918
+- **GitHub stars:** 27,825
 
 **Key features**
 

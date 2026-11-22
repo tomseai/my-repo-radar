@@ -1,0 +1,92 @@
+analysis:
+  analyzed_at: "2026-08-16T09:35:00.000Z"
+  classification:
+    primary_category: "ai-and-automation"
+    state: "confirmed"
+    technologies:
+      - "javascript"
+      - "typescript"
+      - "nodejs"
+    topics:
+      - "coding-agents"
+      - "agent-frameworks"
+      - "agent-orchestration"
+      - "multi-agent"
+      - "parallel-agents"
+      - "agent-skills"
+      - "spec-driven-development"
+      - "context-engineering"
+      - "task-planning"
+      - "code-review"
+      - "testing"
+      - "mcp"
+      - "pull-requests"
+      - "developer-productivity"
+    use_cases:
+      - "build-ai-products"
+      - "improve-developer-workflow"
+      - "test-software"
+  evidence:
+    - claim: "GSD Core guides coding agents through discuss, plan, parallel execution,
+        verification, and shipping phases using fresh subagent contexts."
+      source_type: "repository-file"
+      url: "https://raw.githubusercontent.com/open-gsd/gsd-core/a4a02a7a01fb52ad6414d\
+        dda0055b06c0e103a81/README.md"
+      checked_at: "2026-08-16"
+      confidence: "high"
+  state: "complete"
+  summary:
+    one_line: "A multi-runtime framework for context-engineered, spec-driven
+      coding-agent projects."
+    why_useful: "It keeps project state durable while separating heavy planning and
+      execution into fresh, verifiable agent contexts."
+curation:
+  confidence: null
+  evidence: []
+  limitations: []
+  recommendation: null
+  reviewed_at: null
+  state: "uncurated"
+  strengths: []
+  verdict: null
+id: "github:open-gsd/gsd-core"
+import:
+  github_snapshot:
+    archived: false
+    created_at: 2026-05-22T11:36:21Z
+    default_branch: next
+    description: Git. Ship. Done - Core
+    disabled: false
+    fetched_at: 2026-11-22T12:07:00.148Z
+    fork: false
+    forks: 852
+    homepage: https://opengsd.net
+    latest_release:
+      tag: v1.22.0
+      published_at: 2026-11-19T04:04:25Z
+      url: https://github.com/open-gsd/gsd-core/releases/tag/v1.22.0
+    license_spdx: MIT
+    open_issues: 409
+    primary_language: JavaScript
+    pushed_at: 2026-11-22T12:06:44Z
+    stars: 11768
+    topics:
+      - claude-code
+      - context-engineering
+      - meta-prompting
+      - spec-driven-development
+    updated_at: 2026-11-22T11:44:05Z
+  sources:
+    - observed_at: 2026-08-16T09:21:03Z
+      relation: starred
+      source_id: github:user:tomseai:stars
+      source_url: https://github.com/tomseai?tab=stars
+  state: refreshed
+repository:
+  aliases: []
+  github_node_id: "R_kgDOSk3_ZA"
+  host: "github.com"
+  name: "gsd-core"
+  owner: "open-gsd"
+  url: "https://github.com/open-gsd/gsd-core"
+version: 1

@@ -1,0 +1,76 @@
+schema_version: 2
+repository_id: github:herdrdev/herdr
+research:
+  state: complete
+  source_commit: e8d7d9705a7a2c89cef4dd42079379f05685af87
+  bundle_collected_at: 2026-11-22T12:09:39.860Z
+  researched_at: 2026-11-22T12:24:20.664Z
+  confidence: high
+classification:
+  primary_category: developer-tools
+  topics:
+    - ai-agents
+    - coding-agents
+    - agent-orchestration
+    - cli
+    - terminal
+    - tui
+    - remote-control
+    - developer-productivity
+project:
+  name: herdr
+  kind: cli
+  summary: A Rust terminal workspace and runtime for coding agents that preserves real
+    processes, displays agent state, and exposes CLI and socket controls for
+    coordination.
+  best_for:
+    - Developers supervising multiple coding-agent sessions in terminal workspaces
+    - Users who need persistent agent terminals that can be reattached locally or
+      over SSH
+key_features:
+  - Keeps terminals and agents running in a background server across client
+    disconnects
+  - Marks recognized agents as working, blocked, or idle
+  - Supports workspaces, tabs, splits, keyboard and mouse control, and plugins
+  - Lets agents create panes, prompt each other, and wait through CLI and socket APIs
+  - Combines local terminals and saved SSH machines in one agent list with
+    independent reconnects
+usage:
+  interfaces:
+    - terminal user interface
+    - command-line interface
+    - socket API
+  installation:
+    - shell or PowerShell installer
+    - Homebrew, mise, or release binary
+  setup: low
+technology:
+  languages:
+    - Rust
+  notable_components:
+    - Ratatui
+    - portable PTY runtime
+    - socket API
+license:
+  spdx: Apache-2.0
+  name: Apache License 2.0
+  notes: The current repository replaced its former AGPL/commercial dual licensing with
+    Apache-2.0.
+status:
+  lifecycle: active
+  archived: false
+  latest_release: v0.9.5
+  latest_release_at: 2026-10-14
+strengths:
+  - Preserves actual terminal processes instead of wrapping agent implementations
+  - Supports both human supervision and agent-to-agent terminal coordination
+caveats:
+  - Disconnects preserve live terminals, whereas a server or machine restart restores
+    layout and can resume supported sessions
+  - The retained release feed contains preview builds; v0.9.5 is the newest stable
+    release
+sources:
+  - https://raw.githubusercontent.com/herdrdev/herdr/e8d7d9705a7a2c89cef4dd42079379f05685af87/README.md
+  - https://raw.githubusercontent.com/herdrdev/herdr/e8d7d9705a7a2c89cef4dd42079379f05685af87/LICENSE
+  - https://github.com/herdrdev/herdr/releases.atom
+  - https://github.com/herdrdev/herdr/releases/tag/v0.9.5

@@ -1,0 +1,103 @@
+schema_version: 2
+repository_id: github:coleam00/skills
+research:
+  state: complete
+  source_commit: 8c30da9d042935248293eaab22439754f494c006
+  bundle_collected_at: 2026-11-22T12:09:12.714Z
+  researched_at: 2026-11-22T12:25:34.783Z
+  confidence: high
+classification:
+  primary_category: ai-and-automation
+  topics:
+    - agent-skills
+    - coding-agents
+    - task-planning
+    - spec-driven-development
+    - context-engineering
+    - worktrees
+    - testing
+    - code-review
+    - automation
+project:
+  name: Cole's AI Skills
+  kind: plugin
+  summary: >-
+    A portable collection of coding-agent skills and optional Claude Code hooks
+    for a prime-plan-implement-validate-review delivery loop, parallel
+    worktrees, project guidance, and building a reusable AI workflow layer.
+  best_for:
+    - Developers who want editable, reusable instructions for an end-to-end
+      coding-agent workflow
+    - Teams standardizing planning, validation, review, worktrees, hooks, and
+      agent context across repositories
+key_features:
+  - Plain-Markdown skills spanning codebase priming, product and
+    architecture planning, implementation, validation, review, commits, and pull
+    requests
+  - A composable PIV loop that can run skill by skill or through one end-to-end
+    orchestration skill
+  - Worktree skills for preparing parallel branches and merging them through an
+    integration branch
+  - Meta-skills for authoring skills and rules, creating hooks, auditing
+    workflow drift, and evolving an AI layer
+  - Includes a read-only audit of agent configuration and guidance for building a source-monitoring digest
+  - Copy-in Python hooks for secrets and destructive-command protection,
+    dependency enforcement, tool logging, session context, test gates, and
+    notifications
+  - Installation as an updating Claude Code plugin or editable project/global
+    files for Codex and many other agents
+usage:
+  interfaces:
+    - Agent skill commands and SKILL.md instruction files
+    - Claude Code plugin
+    - npx skills command-line installer
+    - Optional Claude Code lifecycle hooks
+  installation:
+    - Add coleam00/skills as a Claude Code plugin marketplace and install
+      skills@cole-medin
+    - Run npx skills add coleam00/skills for editable files, optionally
+      selecting skills or target agents
+    - Clone the repository and copy selected .claude/skills directories
+  setup: moderate
+technology:
+  languages:
+    - Markdown
+    - Python
+    - Shell
+  notable_components:
+    - Agent Skills SKILL.md format
+    - PIV workflow
+    - Git worktrees
+    - Claude Code hooks and plugin manifest
+license:
+  spdx: MIT
+  name: MIT License
+  notes: >-
+    Reuse and modification are permitted provided the copyright and license
+    notice are retained.
+status:
+  lifecycle: active
+  archived: false
+  latest_release: null
+  latest_release_at: null
+strengths:
+  - Covers the software-delivery loop as small readable skills that users can
+    adopt or rewrite independently
+  - Supports editable installation across many agents while also offering a
+    managed Claude Code plugin
+  - Pairs probabilistic agent instructions with optional deterministic lifecycle
+    hooks and validation gates
+caveats:
+  - Many commands, tool declarations, and hook settings assume Claude Code
+    conventions and need adaptation for other agents
+  - The validation and commit or pull-request convention templates require
+    project-specific configuration before dependable use
+  - Skill descriptions remain in context, and full instructions load when triggered
+  - Hooks execute automatically once configured, so their exit behavior, secret
+    paths, dependencies, and test command should be reviewed locally
+  - The retained release feed has no entries, so no authoritative versioned
+    release can be established
+sources:
+  - https://raw.githubusercontent.com/coleam00/skills/8c30da9d042935248293eaab22439754f494c006/README.md
+  - https://raw.githubusercontent.com/coleam00/skills/8c30da9d042935248293eaab22439754f494c006/LICENSE
+  - https://github.com/coleam00/skills/releases.atom

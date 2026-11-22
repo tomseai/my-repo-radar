@@ -2,13 +2,14 @@
 
 # UI Components
 
-[Back to the main catalog](../README.md) | **12 repositories**
+[Back to the main catalog](../README.md) | **15 repositories**
 
 ## Primary categories represented
 
 - [AI and Automation](../categories/ai-and-automation.md) (1)
-- [Application Frameworks](../categories/application-frameworks.md) (2)
-- [Frontend and Design](../categories/frontend-and-design.md) (9)
+- [Application Frameworks](../categories/application-frameworks.md) (3)
+- [Collaboration and Productivity](../categories/collaboration-and-productivity.md) (1)
+- [Frontend and Design](../categories/frontend-and-design.md) (10)
 
 <a id="repo-addyosmani--tunnel-bear-login"></a>
 
@@ -23,7 +24,7 @@ An educational React recreation of a TunnelBear-inspired login form with a bear 
 - **Languages:** TypeScript, JavaScript
 - **License:** No open-source license declared
 - **Lifecycle:** Unknown
-- **GitHub stars:** 405
+- **GitHub stars:** 407
 
 **Key features**
 
@@ -35,20 +36,20 @@ An educational React recreation of a TunnelBear-inspired login form with a bear 
 
 ## [OpenTUI](https://github.com/anomalyco/opentui)
 
-A native terminal UI library with a Zig core, C ABI, and TypeScript bindings; it offers component-based layout and rendering primitives plus React and Solid reconcilers for building terminal applications.
+A terminal UI library with a Zig core, C ABI, Rust and TypeScript interfaces, and React and Solid rendering layers.
 
 - **Category:** [Application Frameworks](../categories/application-frameworks.md#repo-anomalyco--opentui)
 - **Topics:** [Terminal](../topics/terminal.md#repo-anomalyco--opentui) | [TUI](../topics/tui.md#repo-anomalyco--opentui) | [Libraries](../topics/libraries.md#repo-anomalyco--opentui) | [UI Components](../topics/ui-components.md#repo-anomalyco--opentui) | [Frameworks](../topics/frameworks.md#repo-anomalyco--opentui)
 - **Kind:** Library
-- **Best for:** Developers building terminal applications from TypeScript or JavaScript; Teams wanting a native core with optional React or Solid rendering layers
-- **Languages:** Zig, TypeScript
+- **Best for:** Developers building terminal applications in TypeScript or Rust; Teams wanting a native core with optional React or Solid rendering layers
+- **Languages:** Zig, TypeScript, Rust
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 12,594
+- **GitHub stars:** 13,886
 
 **Key features**
 
-  - Native Zig core that exposes a C ABI and TypeScript bindings
+  - Native Zig core with a C ABI and TypeScript and Rust interfaces
   - Component-based architecture with flexible terminal layout capabilities
   - Core package with imperative APIs and terminal primitives
 
@@ -65,7 +66,7 @@ A TypeScript and React library for composing production AI chat interfaces from 
 - **Languages:** TypeScript
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 11,158
+- **GitHub stars:** 13,371
 
 **Key features**
 
@@ -86,13 +87,34 @@ An alpha React component library for exploring AI-agent traces as hierarchical t
 - **Languages:** TypeScript
 - **License:** MIT
 - **Lifecycle:** Experimental
-- **GitHub stars:** 373
+- **GitHub stars:** 410
 
 **Key features**
 
   - Supplies a full TraceViewer with trace list, span tree, search, detail panel, and responsive layouts
   - Provides composable TraceList, TreeView, and DetailsView components for custom layouts
   - Normalizes OpenTelemetry and Langfuse data through adapters and shared trace types
+
+<a id="repo-foldkit--foldkit"></a>
+
+## [Foldkit](https://github.com/foldkit/foldkit)
+
+A TypeScript frontend framework built on Effect and Elm-style architecture, with explicit models, updates, effects, routing, UI components, and deterministic testing.
+
+- **Category:** [Frontend and Design](../categories/frontend-and-design.md#repo-foldkit--foldkit)
+- **Topics:** [Frontend Development](../topics/frontend-development.md#repo-foldkit--foldkit) | [Frameworks](../topics/frameworks.md#repo-foldkit--foldkit) | [UI Components](../topics/ui-components.md#repo-foldkit--foldkit) | [Testing](../topics/testing.md#repo-foldkit--foldkit) | [MCP](../topics/mcp.md#repo-foldkit--foldkit) | [Developer Productivity](../topics/developer-productivity.md#repo-foldkit--foldkit)
+- **Kind:** Framework
+- **Best for:** Teams prioritizing explicit state transitions and testable frontend behavior; Effect users who want an Elm-like architecture with TypeScript tooling
+- **Languages:** TypeScript
+- **License:** MIT
+- **Lifecycle:** Experimental
+- **GitHub stars:** 1,302
+
+**Key features**
+
+  - Centralizes state in a model and pure update function without hooks or hidden mutation
+  - Represents commands, subscriptions, routing, and managed resources as explicit effects
+  - Includes accessible UI components, virtual DOM rendering, and React embedding
 
 <a id="repo-gridstack--gridstack.js"></a>
 
@@ -107,13 +129,34 @@ A TypeScript library for building responsive, draggable, resizable dashboard gri
 - **Languages:** TypeScript, JavaScript
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 8,999
+- **GitHub stars:** 9,260
 
 **Key features**
 
   - Responsive multi-column grids with drag-and-drop and resize interactions
   - Native mouse and touch support without runtime dependencies in the core library
   - APIs for creating widgets, loading serialized layouts, and saving layouts
+
+<a id="repo-liveblocks--liveblocks"></a>
+
+## [Liveblocks](https://github.com/liveblocks/liveblocks)
+
+A collaboration SDK and hosted infrastructure for adding realtime synchronization, contextual comments, and notifications to web applications.
+
+- **Category:** [Collaboration and Productivity](../categories/collaboration-and-productivity.md#repo-liveblocks--liveblocks)
+- **Topics:** [Realtime Collaboration](../topics/realtime-collaboration.md#repo-liveblocks--liveblocks) | [Realtime](../topics/realtime.md#repo-liveblocks--liveblocks) | [AI Agents](../topics/ai-agents.md#repo-liveblocks--liveblocks) | [Frontend Development](../topics/frontend-development.md#repo-liveblocks--liveblocks) | [UI Components](../topics/ui-components.md#repo-liveblocks--liveblocks) | [Libraries](../topics/libraries.md#repo-liveblocks--liveblocks)
+- **Kind:** Monorepo
+- **Best for:** Product teams adding realtime collaboration without building synchronization infrastructure; React and JavaScript teams building collaborative editors and shared workspaces
+- **Languages:** TypeScript, Python
+- **License:** Mixed Apache-2.0 and AGPL-3.0-or-later licensing
+- **Lifecycle:** Active
+- **GitHub stars:** 4,773
+
+**Key features**
+
+  - Provides Sync, Comments, and Notifications products for composing collaboration features
+  - Supplies React, JavaScript, Node, REST, Python, and Yjs integrations, plus packages for React Flow, CodeMirror, and ProseMirror
+  - Includes collaborative UI components and presence, storage, and room primitives
 
 <a id="repo-liveloveapp--hashbrown"></a>
 
@@ -128,12 +171,12 @@ A TypeScript framework of core, React, Angular, and provider packages for adding
 - **Languages:** TypeScript
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 709
+- **GitHub stars:** 736
 
 **Key features**
 
   - Core state primitives with framework bindings for React and Angular
-  - Provider packages for OpenAI, Azure OpenAI, Anthropic, Bedrock, Ollama, Google, and Writer
+  - Provider packages for OpenAI, Azure OpenAI, Anthropic, Bedrock, Ollama, and Google
   - HTTP streaming between Node backend wrappers and UI hooks or resources
 
 <a id="repo-modelcontextprotocol--ext-apps"></a>
@@ -149,7 +192,7 @@ A specification and TypeScript SDK for delivering interactive HTML views from MC
 - **Languages:** TypeScript, JavaScript
 - **License:** Mixed licensing during Apache-2.0 transition
 - **Lifecycle:** Active
-- **GitHub stars:** 2,593
+- **GitHub stars:** 3,135
 
 **Key features**
 
@@ -170,7 +213,7 @@ A TypeScript monorepo for public packages that render code diffs and file trees,
 - **Languages:** TypeScript
 - **License:** Apache-2.0
 - **Lifecycle:** Active
-- **GitHub stars:** 5,444
+- **GitHub stars:** 6,638
 
 **Key features**
 
@@ -191,7 +234,7 @@ A TypeScript library that parses Git or unified diffs and renders them as format
 - **Languages:** TypeScript, JavaScript
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 3,389
+- **GitHub stars:** 3,433
 
 **Key features**
 
@@ -212,7 +255,7 @@ An Angular monorepo for accessible headless UI primitives, copy-paste shadcn-sty
 - **Languages:** TypeScript
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 2,779
+- **GitHub stars:** 3,007
 
 **Key features**
 
@@ -232,14 +275,35 @@ A large, hand-curated README index of resources for adding visual flair, usabili
 - **Best for:** Designers and frontend developers collecting interface and visual-design references; Product teams looking for inspiration or a starting point for specific UI details
 - **Languages:** Markdown
 - **License:** MIT
-- **Lifecycle:** Active
-- **GitHub stars:** 9,786
+- **Lifecycle:** Archived
+- **GitHub stars:** 9,775
 
 **Key features**
 
   - Organizes linked resources by CSS frameworks, layout, typography, color, and backgrounds
   - Covers icons, diagrams, illustrations, stock media, and SVG or graphics tools
   - Includes references for form controls, charts, dashboards, and React components
+
+<a id="repo-vercel-labs--native"></a>
+
+## [Native SDK](https://github.com/vercel-labs/native)
+
+A declarative toolkit for compiling TypeScript-authored desktop interfaces to native executables, with optional embedded web content.
+
+- **Category:** [Application Frameworks](../categories/application-frameworks.md#repo-vercel-labs--native)
+- **Topics:** [Desktop Development](../topics/desktop-development.md#repo-vercel-labs--native) | [UI Components](../topics/ui-components.md#repo-vercel-labs--native) | [Design Systems](../topics/design-systems.md#repo-vercel-labs--native) | [Testing](../topics/testing.md#repo-vercel-labs--native) | [Agent Skills](../topics/agent-skills.md#repo-vercel-labs--native) | [Automation](../topics/automation.md#repo-vercel-labs--native) | [Developer Productivity](../topics/developer-productivity.md#repo-vercel-labs--native)
+- **Kind:** Framework
+- **Best for:** Developers building lightweight native desktop applications from TypeScript; Agent-driven UI workflows that benefit from deterministic record and replay
+- **Languages:** Zig, TypeScript
+- **License:** Apache-2.0
+- **Lifecycle:** Experimental
+- **GitHub stars:** 7,852
+
+**Key features**
+
+  - Compiles declarative .native markup and TypeScript logic to native binaries
+  - Provides components, design tokens, state architecture, and a development CLI
+  - Provides testing and automation interfaces for inspecting and driving apps
 
 <a id="repo-vercel--ai-elements"></a>
 
@@ -253,8 +317,8 @@ A shadcn/ui-based React component library and registry for adding customizable c
 - **Best for:** Teams building a customizable chat or generative-AI interface with Next.js; Projects that already use shadcn/ui, Tailwind CSS, and the AI SDK
 - **Languages:** TypeScript
 - **License:** Apache-2.0
-- **Lifecycle:** Active
-- **GitHub stars:** 2,242
+- **Lifecycle:** Maintenance
+- **GitHub stars:** 2,533
 
 **Key features**
 

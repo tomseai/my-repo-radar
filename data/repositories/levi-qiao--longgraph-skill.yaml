@@ -1,0 +1,103 @@
+analysis:
+  analyzed_at: "2026-09-16T15:40:00.000Z"
+  classification:
+    primary_category: "ai-and-automation"
+    state: "confirmed"
+    technologies: []
+    topics:
+      - "ai-agents"
+      - "agent-skills"
+      - "agent-orchestration"
+      - "multi-agent"
+      - "parallel-agents"
+      - "agent-governance"
+      - "task-planning"
+      - "spec-driven-development"
+      - "context-engineering"
+      - "prompt-engineering"
+      - "automation"
+    use_cases:
+      - "build-ai-products"
+      - "improve-developer-workflow"
+  evidence:
+    - claim: "longgraph compiles file-backed executor-supervisor workflows for
+        long-running agent work and portable continuation across hosts."
+      source_type: "repository-file"
+      url: "https://raw.githubusercontent.com/levi-qiao/longgraph-skill/b27376fd44f30\
+        505cbc52c2520c42e725b028ea1/README.md"
+      checked_at: "2026-09-16"
+      confidence: "high"
+  state: "complete"
+  summary:
+    one_line: "A portable agent skill for durable, independently verified
+      long-horizon task graphs."
+    why_useful: "It moves progress and supervision outside chat memory so long tasks
+      can survive context resets and host changes."
+curation:
+  confidence: null
+  evidence: []
+  limitations: []
+  recommendation: null
+  reviewed_at: null
+  state: "uncurated"
+  strengths: []
+  verdict: null
+id: "github:levi-qiao/longgraph-skill"
+import:
+  github_snapshot:
+    archived: false
+    created_at: 2026-07-19T02:26:19Z
+    default_branch: main
+    description: Long-horizon agent skill for Claude Code / Cursor / Codex / Grok
+      Build — multi-task ledger loop, host-portable, clean-context supervisor,
+      verified gates. Markdown library (loop-graph), not a framework.
+    disabled: false
+    fetched_at: 2026-11-22T12:07:00.148Z
+    fork: false
+    forks: 8
+    homepage: ""
+    latest_release:
+      tag: v0.2.3
+      published_at: 2026-08-02T06:49:15Z
+      url: https://github.com/levi-qiao/longgraph-skill/releases/tag/v0.2.3
+    license_spdx: MIT
+    open_issues: 0
+    primary_language: Shell
+    pushed_at: 2026-09-23T01:17:29Z
+    stars: 79
+    topics:
+      - agent-graph
+      - agent-skills
+      - agentic-workflow
+      - ai-agents
+      - automation
+      - claude-code
+      - claude-code-plugin
+      - claude-code-skills
+      - codex
+      - cursor
+      - graph-engineering
+      - grok-build
+      - llm-agents
+      - long-horizon
+      - multi-agent
+      - orchestration
+      - prompt-engineering
+      - prompt-library
+      - prompts
+      - skill
+    updated_at: 2026-11-11T07:57:05Z
+  sources:
+    - observed_at: 2026-09-16T15:15:12Z
+      relation: starred
+      source_id: github:user:tomseai:stars
+      source_url: https://github.com/tomseai?tab=stars
+  state: refreshed
+repository:
+  aliases: []
+  github_node_id: "R_kgDOTc49gg"
+  host: "github.com"
+  name: "longgraph-skill"
+  owner: "levi-qiao"
+  url: "https://github.com/levi-qiao/longgraph-skill"
+version: 1

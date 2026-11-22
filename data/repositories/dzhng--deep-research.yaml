@@ -16,15 +16,19 @@ analysis:
       - "build-ai-products"
       - "run-personal-or-team-tools"
   evidence:
-    - claim: "Open Deep Research is an AI research assistant that combines search engines, web scraping, and LLMs to iteratively investigate a topic and produce Markdown reports with sources."
+    - claim: "Open Deep Research is an AI research assistant that combines search
+        engines, web scraping, and LLMs to iteratively investigate a topic and
+        produce Markdown reports with sources."
       source_type: "repository-file"
       url: "https://github.com/dzhng/deep-research/blob/main/README.md"
       checked_at: "2026-07-19"
       confidence: "high"
   state: "researched"
   summary:
-    one_line: "A compact deep-research agent that iteratively searches, analyzes, and reports on a topic."
-    why_useful: "It demonstrates a configurable research workflow that combines web results with LLM-generated follow-up directions."
+    one_line: "A compact deep-research agent that iteratively searches, analyzes,
+      and reports on a topic."
+    why_useful: "It demonstrates a configurable research workflow that combines web
+      results with LLM-generated follow-up directions."
 curation:
   confidence: null
   evidence: []
@@ -38,33 +42,37 @@ id: "github:dzhng/deep-research"
 import:
   github_snapshot:
     archived: false
-    created_at: "2025-02-04T01:27:56Z"
-    default_branch: "main"
-    description: "An AI-powered research assistant that performs iterative, deep research on any topic by combining search engines, web scraping, and large language models.  The goal of this repo is to provide the simplest implementation of a deep research agent - e.g. an agent that can refine its research direction overtime and deep dive into a topic."
+    created_at: 2025-02-04T01:27:56Z
+    default_branch: main
+    description: An AI-powered research assistant that performs iterative, deep
+      research on any topic by combining search engines, web scraping, and large
+      language models.  The goal of this repo is to provide the simplest
+      implementation of a deep research agent - e.g. an agent that can refine
+      its research direction overtime and deep dive into a topic.
     disabled: false
-    fetched_at: "2026-07-19T19:16:14.796Z"
+    fetched_at: 2026-11-22T12:07:00.148Z
     fork: false
-    forks: 1977
+    forks: 2009
     homepage: ""
     latest_release: null
-    license_spdx: "MIT"
-    open_issues: 90
-    primary_language: "TypeScript"
-    pushed_at: "2026-04-11T23:58:25Z"
-    stars: 19376
+    license_spdx: MIT
+    open_issues: 93
+    primary_language: TypeScript
+    pushed_at: 2026-04-11T23:58:25Z
+    stars: 19912
     topics:
-      - "agent"
-      - "ai"
-      - "gpt"
-      - "o3-mini"
-      - "research"
-    updated_at: "2026-07-19T06:29:46Z"
+      - agent
+      - ai
+      - gpt
+      - o3-mini
+      - research
+    updated_at: 2026-11-22T09:43:15Z
   sources:
-    - observed_at: "2025-02-26T12:32:02Z"
-      relation: "starred"
-      source_id: "github:user:tomseai:stars"
-      source_url: "https://github.com/tomseai?tab=stars"
-  state: "imported"
+    - observed_at: 2025-02-26T12:32:02Z
+      relation: starred
+      source_id: github:user:tomseai:stars
+      source_url: https://github.com/tomseai?tab=stars
+  state: refreshed
 repository:
   aliases: []
   github_node_id: "R_kgDONz7H2A"

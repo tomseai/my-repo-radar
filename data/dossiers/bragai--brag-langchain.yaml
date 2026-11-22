@@ -2,9 +2,9 @@ schema_version: 2
 repository_id: github:bragai/bRAG-langchain
 research:
   state: complete
-  source_commit: a3e5c7b063f42af9260668239a1cf94275737dd6
-  bundle_collected_at: 2026-07-19T20:41:57.200Z
-  researched_at: 2026-07-20T12:00:00+02:00
+  source_commit: f67435251fc63c6c86f96d15febecf747ea4b34a
+  bundle_collected_at: 2026-11-22T12:09:06.674Z
+  researched_at: 2026-11-22T12:22:02Z
   confidence: high
 classification:
   primary_category: documentation-and-learning
@@ -22,13 +22,18 @@ project:
     (RAG), progressing from a basic customizable chatbot to routing, advanced
     indexing and retrieval, reranking, and scalable RAG techniques.
   best_for:
-    - Developers learning how RAG pipelines fit together through runnable notebooks
+    - Developers learning how RAG pipelines fit together through runnable
+      notebooks
     - Practitioners adapting examples for a LangChain-based RAG prototype
 key_features:
-  - Introduces document loading, embedding generation, vector stores, and a baseline retrieval-and-generation pipeline
-  - Includes a full basic RAG notebook with starter code for a customizable chatbot
-  - Demonstrates multi-query retrieval, query routing, structured metadata filters, and vector-store integration
-  - Covers multi-vector indexing, RAPTOR and ColBERT examples, plus retrieval-and-reranking approaches
+  - Introduces document loading, embedding generation, vector stores, and a
+    baseline retrieval-and-generation pipeline
+  - Includes a full basic RAG notebook with starter code for a customizable
+    chatbot
+  - Demonstrates multi-query retrieval, query routing, structured metadata
+    filters, and vector-store integration
+  - Covers multi-vector indexing, RAPTOR and ColBERT examples, plus
+    retrieval-and-reranking approaches
 usage:
   interfaces:
     - Jupyter notebooks
@@ -52,25 +57,33 @@ license:
   name: MIT License with an additional attribution condition
   notes: >-
     The bundled text starts with the MIT License but additionally requires
-    derivative works to credit bRAG AI and reference the original repository;
-    it is therefore not the unmodified standard MIT text.
+    derivative works to credit bRAG AI and reference the original repository; it
+    is therefore not the unmodified standard MIT text.
 status:
   lifecycle: unknown
   archived: false
   latest_release: null
   latest_release_at: null
 strengths:
-  - A clear notebook sequence connects introductory RAG concepts to concrete retrieval techniques
-  - Provides examples across multiple vector stores, retrievers, and reranking approaches
-  - Documents the required Python version, dependencies, environment variables, and execution order
+  - A clear notebook sequence connects introductory RAG concepts to concrete
+    retrieval techniques
+  - Provides examples across multiple vector stores, retrievers, and reranking
+    approaches
+  - Documents the required Python version, dependencies, environment variables,
+    and execution order
 caveats:
-  - This is instructional notebook material, not a packaged production RAG service or library
-  - Running all examples requires credentials for one or more external model, tracing, vector-store, or reranking services
-  - The repository has no entries in the retained release feed, so a project release cannot be established
-  - No lifecycle commitment is stated in the retained sources; lifecycle is recorded as unknown
-  - The extra attribution condition should be reviewed before redistributing modifications or derivative works
+  - This is instructional notebook material, not a packaged production RAG
+    service or library
+  - Running all examples requires credentials for one or more external model,
+    tracing, vector-store, or reranking services
+  - The repository has no entries in the retained release feed, so a project
+    release cannot be established
+  - No lifecycle commitment is stated in the retained sources; lifecycle is
+    recorded as unknown
+  - The extra attribution condition should be reviewed before redistributing
+    modifications or derivative works
 sources:
-  - https://raw.githubusercontent.com/bragai/bRAG-langchain/a3e5c7b063f42af9260668239a1cf94275737dd6/README.md
-  - https://raw.githubusercontent.com/bragai/bRAG-langchain/a3e5c7b063f42af9260668239a1cf94275737dd6/requirements.txt
-  - https://raw.githubusercontent.com/bragai/bRAG-langchain/a3e5c7b063f42af9260668239a1cf94275737dd6/LICENSE
+  - https://raw.githubusercontent.com/bragai/bRAG-langchain/f67435251fc63c6c86f96d15febecf747ea4b34a/README.md
+  - https://raw.githubusercontent.com/bragai/bRAG-langchain/f67435251fc63c6c86f96d15febecf747ea4b34a/requirements.txt
+  - https://raw.githubusercontent.com/bragai/bRAG-langchain/f67435251fc63c6c86f96d15febecf747ea4b34a/LICENSE
   - https://github.com/bragai/bRAG-langchain/releases.atom

@@ -1,0 +1,88 @@
+schema_version: 2
+repository_id: github:garciaalan186/squeaky-clean
+research:
+  state: complete
+  source_commit: 5105faf4878ec0e2639b997515dc31f11cd0cde9
+  bundle_collected_at: 2026-09-16T15:11:25.294Z
+  researched_at: 2026-09-16T15:13:59.527Z
+  confidence: high
+classification:
+  primary_category: ai-and-automation
+  topics:
+    - coding-agents
+    - agent-orchestration
+    - parallel-agents
+    - code-generation
+    - spec-driven-development
+    - cli
+    - llms
+    - evaluation
+    - testing
+    - developer-productivity
+project:
+  name: Squeaky Clean
+  kind: cli
+  summary: >-
+    An agentic code-generation and architecture-recovery CLI that turns a
+    declarative ProblemSpec into Clean-Architecture applications by
+    orchestrating parallel, pattern-specialized agents through the compact
+    Squib architecture DSL.
+  best_for:
+    - Generating backend applications from explicit requirements while enforcing Clean Architecture boundaries
+    - Experimenting with cost-tiered parallel coding-agent pipelines and reproducible evaluations
+    - Recovering and refactoring brownfield Python, JavaScript, TypeScript, or Java projects
+key_features:
+  - Generates buildable application projects from a declarative JSON ProblemSpec
+  - Uses a validated Squib architecture DSL between model tiers
+  - Runs pattern-specialized implementation agents in parallel across 34 GoF and DDD/Clean patterns
+  - Enforces dependency rules and cross-service contract compatibility
+  - Generates and validates Python, Java, JavaScript, and TypeScript project structures
+  - Recovers architecture from existing projects and supports reviewed refactoring before regeneration
+  - Includes replicated benchmarks, micro-evals, regression gates, and cached replay
+usage:
+  interfaces:
+    - command-line interface
+  installation:
+    - pip install from GitHub
+    - editable source installation
+  setup: moderate
+technology:
+  languages:
+    - Python
+  notable_components:
+    - Anthropic API
+    - Squib architecture DSL
+    - JSON Schema
+    - content-addressed LLM response cache
+    - Clean Architecture validators
+    - pytest
+license:
+  spdx: Apache-2.0
+  name: Apache License 2.0
+  notes: >-
+    Permissive license with an express patent grant; redistributed licensed
+    material must retain the required license and notices.
+status:
+  lifecycle: experimental
+  archived: false
+  latest_release: null
+  latest_release_at: null
+strengths:
+  - Decomposes generation into small validated architecture units instead of one large prompt
+  - Combines generation, architecture validation, testing, measurement, and brownfield recovery
+  - Provides dedicated pattern emitters and infrastructure-adapter coverage across four active target languages
+  - Supports reproducible evaluation through cached replay, replicated baselines, and explicit regression gates
+caveats:
+  - The project is pre-launch, uses a 0.x package version, and is seeking early users
+  - Normal generation requires an Anthropic API key and orchestrates many model calls
+  - Output quality depends on a detailed ProblemSpec and accurate boundaries and acceptance criteria
+  - Non-Python generation and recovery paths have lower or still-improving documented maturity
+  - The pyproject description mentions Go and Rust, while current README coverage focuses on Python, JavaScript, TypeScript, and Java
+  - The retained release feed is empty; package version 0.1.0 has no authoritative GitHub release date
+sources:
+  - https://raw.githubusercontent.com/garciaalan186/squeaky-clean/5105faf4878ec0e2639b997515dc31f11cd0cde9/README.md
+  - https://raw.githubusercontent.com/garciaalan186/squeaky-clean/5105faf4878ec0e2639b997515dc31f11cd0cde9/pyproject.toml
+  - https://raw.githubusercontent.com/garciaalan186/squeaky-clean/5105faf4878ec0e2639b997515dc31f11cd0cde9/LICENSE
+  - https://raw.githubusercontent.com/garciaalan186/squeaky-clean/5105faf4878ec0e2639b997515dc31f11cd0cde9/docs/overview.md
+  - https://raw.githubusercontent.com/garciaalan186/squeaky-clean/5105faf4878ec0e2639b997515dc31f11cd0cde9/docs/roadmap.md
+  - https://github.com/garciaalan186/squeaky-clean/releases.atom

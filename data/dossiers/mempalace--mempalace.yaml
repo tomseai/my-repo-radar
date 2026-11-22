@@ -2,9 +2,9 @@ schema_version: 2
 repository_id: github:MemPalace/mempalace
 research:
   state: complete
-  source_commit: 5cd961eef97c9a37b60c06a97c608d0a83e8ef10
-  bundle_collected_at: 2026-07-19T20:44:06.157Z
-  researched_at: 2026-07-20T17:41:07.234+02:00
+  source_commit: b2ef8fed22f53b48acbda1ffebac040cb8a22f69
+  bundle_collected_at: 2026-11-22T12:09:56.494Z
+  researched_at: 2026-11-22T12:22:45.491824+00:00
   confidence: high
 
 classification:
@@ -26,16 +26,24 @@ project:
     conversations into verbatim searchable storage, exposes a CLI and MCP
     server, and organizes scoped memories with pluggable retrieval backends.
   best_for:
-    - Retaining and retrieving local coding-agent or conversation context without a required cloud API
-    - Developers who want searchable project and transcript memory with scoped storage boundaries
+    - Retaining and retrieving local coding-agent or conversation context
+      without a required cloud API
+    - Developers who want searchable project and transcript memory with scoped
+      storage boundaries
 
 key_features:
-  - Verbatim conversation and file storage without summary or paraphrase during core ingestion
-  - CLI commands to mine sources, search memories, and load context for a new session
-  - MCP server with tools for memory, graph, navigation, drawer, and agent-diary operations
-  - Structured wings, rooms, and drawers for scoped retrieval rather than a flat corpus
-  - Pluggable storage backends including embedded ChromaDB and optional Milvus, Qdrant, and pgvector
-  - Local SQLite-backed temporal entity-relationship graph and integrations for editor hooks
+  - Verbatim conversation and file storage without summary or paraphrase during
+    core ingestion
+  - CLI commands to mine sources, search memories, and load context for a new
+    session
+  - MCP server with tools for memory, graph, navigation, drawer, and agent-diary
+    operations
+  - Structured wings, rooms, and drawers for scoped retrieval rather than a flat
+    corpus
+  - Pluggable storage backends including embedded ChromaDB and optional Milvus,
+    Qdrant, and pgvector
+  - Local SQLite-backed temporal entity-relationship graph and integrations for
+    editor hooks
 
 usage:
   interfaces:
@@ -53,6 +61,7 @@ usage:
 technology:
   languages:
     - Python
+    - Rust
   notable_components:
     - ChromaDB
     - SQLite
@@ -62,27 +71,35 @@ technology:
 license:
   spdx: MIT
   name: MIT License
-  notes: Permissive license requiring preservation of the copyright and permission notice; provided without warranty.
+  notes: Permissive license requiring preservation of the copyright and permission
+    notice; provided without warranty.
 
 status:
   lifecycle: active
   archived: false
-  latest_release: v3.6.0
-  latest_release_at: 2026-07-17
+  latest_release: v3.12.0
+  latest_release_at: 2026-11-12
 
 strengths:
-  - Core local semantic search and storage do not require an API key or external model service
+  - Core local semantic search and storage do not require an API key or external
+    model service
   - Supports both direct terminal use and reusable MCP-client integration
-  - Makes retrieval boundaries explicit through its palace, wing, room, and drawer model
+  - Makes retrieval boundaries explicit through its palace, wing, room, and
+    drawer model
 
 caveats:
-  - The default embedding model is downloaded on first use and requires roughly 300 MB of disk space
-  - Non-default backends and GPU acceleration add installation and operational dependencies
-  - Optional full reranking requires a separately configured LLM; the baseline retrieval path remains local
-  - Hook-based IDE integrations require separate configuration and depend on each client's lifecycle support
+  - The embedding model is downloaded on first use; the README gives different
+    defaults and sizes in different sections, so verify the selected model
+  - Non-default backends and GPU acceleration add installation and operational
+    dependencies
+  - Optional full reranking requires a separately configured LLM; the baseline
+    retrieval path remains local
+  - Hook-based IDE integrations require separate configuration and depend on
+    each client's lifecycle support
 
 sources:
-  - https://raw.githubusercontent.com/MemPalace/mempalace/5cd961eef97c9a37b60c06a97c608d0a83e8ef10/README.md
-  - https://raw.githubusercontent.com/MemPalace/mempalace/5cd961eef97c9a37b60c06a97c608d0a83e8ef10/LICENSE
-  - https://raw.githubusercontent.com/MemPalace/mempalace/5cd961eef97c9a37b60c06a97c608d0a83e8ef10/pyproject.toml
+  - https://raw.githubusercontent.com/MemPalace/mempalace/b2ef8fed22f53b48acbda1ffebac040cb8a22f69/README.md
+  - https://raw.githubusercontent.com/MemPalace/mempalace/b2ef8fed22f53b48acbda1ffebac040cb8a22f69/LICENSE
+  - https://raw.githubusercontent.com/MemPalace/mempalace/b2ef8fed22f53b48acbda1ffebac040cb8a22f69/pyproject.toml
   - https://github.com/MemPalace/mempalace/releases.atom
+  - https://github.com/MemPalace/mempalace/releases/tag/v3.12.0

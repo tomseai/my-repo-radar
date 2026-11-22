@@ -1,0 +1,93 @@
+schema_version: 2
+repository_id: github:hyhmrright/brooks-lint
+research:
+  state: complete
+  source_commit: 5e2d4b92e8e11a0af7e0da6fc074a13b3cf9288c
+  bundle_collected_at: 2026-11-22T12:09:40.851Z
+  researched_at: 2026-11-22T12:21:29.215093+00:00
+  confidence: high
+classification:
+  primary_category: testing-and-quality
+  topics:
+    - coding-agents
+    - agent-skills
+    - code-review
+    - testing
+    - evaluation
+    - visualization
+    - documentation
+    - automation
+    - developer-productivity
+project:
+  name: brooks-lint
+  kind: plugin
+  summary: >-
+    A portable agent-skill and Claude Code plugin for reviewing production code,
+    architecture, technical debt, and tests against risk dimensions synthesized
+    from twelve software-engineering books.
+  best_for:
+    - Developers who want structured AI-assisted code and architecture reviews
+    - Teams auditing technical debt and test quality across several agent
+      platforms
+key_features:
+  - Produces symptom, source, consequence, and remedy chains with book citations
+    and severity
+  - Covers production-code decay, test-suite decay, architecture, debt, health,
+    and sweep modes
+  - Generates Mermaid dependency graphs, health scores, SARIF output, and CI
+    gates
+  - Supports strict, balanced, and legacy-friendly scoring plus project-specific
+    suppressions
+  - Installs as standard Agent Skills across many coding-agent platforms
+usage:
+  interfaces:
+    - agent skills
+    - Claude Code plugin
+    - slash commands
+    - CI and SARIF output
+  installation:
+    - Claude Code plugin marketplace
+    - platform-aware shell installer
+    - project-local Agent Skills installation
+  setup: low
+technology:
+  languages:
+    - JavaScript
+    - Markdown
+  notable_components:
+    - Agent Skills
+    - SARIF 2.1.0
+    - Mermaid graphs
+    - evaluation corpus
+license:
+  spdx: MIT
+  name: MIT License
+  notes: Permissive license requiring preservation of the copyright and license
+    notice.
+status:
+  lifecycle: active
+  archived: false
+  latest_release: v2.0.0
+  latest_release_at: 2026-11-17
+strengths:
+  - Gives review findings a consistent structure, severity vocabulary, and cited
+    rationale
+  - Covers architectural and test-quality concerns that syntax-oriented linters
+    do not model
+  - Provides deterministic parser benchmarks and a separate live model
+    evaluation suite
+caveats:
+  - Review correctness still depends on the selected model, supplied context,
+    and agent execution
+  - The advertised deterministic benchmark measures report-parser fidelity, not
+    whether model findings are correct
+  - Health scores and severities encode the project's rubric and should support,
+    not replace, human judgment
+  - Only Codex is currently maintainer-verified end to end; other integrations
+    are available but layout tests do not establish end-to-end compatibility
+sources:
+  - https://raw.githubusercontent.com/hyhmrright/brooks-lint/5e2d4b92e8e11a0af7e0da6fc074a13b3cf9288c/README.md
+  - https://raw.githubusercontent.com/hyhmrright/brooks-lint/5e2d4b92e8e11a0af7e0da6fc074a13b3cf9288c/package.json
+  - https://raw.githubusercontent.com/hyhmrright/brooks-lint/5e2d4b92e8e11a0af7e0da6fc074a13b3cf9288c/LICENSE
+  - https://github.com/hyhmrright/brooks-lint/releases.atom
+  - https://github.com/hyhmrright/brooks-lint/releases/tag/v2.0.0

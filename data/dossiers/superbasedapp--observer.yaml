@@ -1,0 +1,83 @@
+schema_version: 2
+repository_id: github:superbasedapp/observer
+research:
+  state: complete
+  source_commit: 234723c1ae32aba73ed541c2f9beb6c7392deb86
+  bundle_collected_at: 2026-11-22T12:10:29.954Z
+  researched_at: 2026-11-22T12:28:13.437063+00:00
+  confidence: high
+classification:
+  primary_category: developer-tools
+  topics:
+    - ai-agents
+    - coding-agents
+    - observability
+    - tracing
+    - token-usage
+    - cost-management
+    - local-first
+    - mcp
+    - cli
+    - web-ui
+project:
+  name: SuperBased Observer
+  kind: application
+  summary: >-
+    A local-first observability and cost-attribution tool for AI coding
+    activity, with a CLI, dashboard, provider proxy, MCP server, terminals, and
+    optional team rollups.
+  best_for:
+    - Developers reconciling token use and cost across many AI coding tools
+    - Teams that want local capture before selectively enabling shared
+      observability
+key_features:
+  - Normalizes local session data from dozens of coding-agent tools
+  - Captures provider-returned token counts and pricing through an optional proxy
+  - Offers local usage reports, dashboard, terminals, CLI, MCP, traces, and
+    guardrails
+  - Shows estimated next-message costs and usage-limit gauges for proxied sessions
+  - Stores data locally by default with opt-in team and OpenTelemetry paths
+usage:
+  interfaces:
+    - command-line interface
+    - local web dashboard
+    - MCP server
+    - API proxy
+  installation:
+    - npx one-shot report
+    - VS Code extension
+    - npm, Python, Go, or release binary installation
+  setup: moderate
+technology:
+  languages:
+    - Go
+    - TypeScript
+  notable_components:
+    - SQLite
+    - OpenTelemetry
+    - React dashboard
+license:
+  spdx: Apache-2.0
+  name: Apache License 2.0
+  notes: The LICENSE file contains Apache-2.0 despite absent GitHub SPDX detection.
+status:
+  lifecycle: active
+  archived: false
+  latest_release: v1.42.0
+  latest_release_at: 2026-11-21
+strengths:
+  - Reconciles multiple local agent formats through one normalized cost and
+    activity view
+  - Keeps standard capture, storage, dashboard, CLI, and MCP paths local by
+    default
+caveats:
+  - Provider-grade token accuracy requires routing supported traffic through the
+    local proxy
+  - Browser chat adapters need a separately installed browser-capture extension
+  - Team sharing, exports, and guardrails are optional paths requiring
+    deliberate configuration
+sources:
+  - https://raw.githubusercontent.com/superbasedapp/observer/234723c1ae32aba73ed541c2f9beb6c7392deb86/README.md
+  - https://raw.githubusercontent.com/superbasedapp/observer/234723c1ae32aba73ed541c2f9beb6c7392deb86/LICENSE
+  - https://github.com/superbasedapp/observer/releases.atom
+  - https://github.com/superbasedapp/observer/releases/tag/v1.42.0

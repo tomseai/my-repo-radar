@@ -23,7 +23,7 @@ A Rust command-line search tool that recursively searches files with regular exp
 - **Languages:** Rust
 - **License:** Unlicense OR MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 66,334
+- **GitHub stars:** 70,137
 
 **Key features**
 
@@ -44,7 +44,7 @@ A self-hostable knowledge layer for agents that syncs Markdown brain repositorie
 - **Languages:** TypeScript
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 26,609
+- **GitHub stars:** 33,388
 
 **Key features**
 
@@ -65,7 +65,7 @@ A self-hostable personal AI application that combines LLM chat, semantic search 
 - **Languages:** Python, TypeScript
 - **License:** AGPL-3.0-or-later
 - **Lifecycle:** Active
-- **GitHub stars:** 35,878
+- **GitHub stars:** 38,206
 
 **Key features**
 
@@ -86,11 +86,11 @@ A documentation assistant for LangChain, LangGraph, and LangSmith that combines 
 - **Languages:** Python, TypeScript
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 6,412
+- **GitHub stars:** 6,479
 
 **Key features**
 
-  - Searches official LangChain documentation through a Mintlify API
+  - Searches official LangChain documentation through managed MCP
   - Searches a Pylon support knowledge base for known issues and solutions
   - Filters off-topic requests with guardrail middleware
 
@@ -107,7 +107,7 @@ A self-hosted research-notebook application for organizing multimodal sources, s
 - **Languages:** TypeScript, Python
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 35,748
+- **GitHub stars:** 42,126
 
 **Key features**
 
@@ -128,7 +128,7 @@ A FastAPI-based memory service for stateful agents that stores interactions, pro
 - **Languages:** Python, TypeScript
 - **License:** AGPL-3.0
 - **Lifecycle:** Active
-- **GitHub stars:** 6,055
+- **GitHub stars:** 8,226
 
 **Key features**
 
@@ -149,7 +149,7 @@ A persistent memory service for coding agents that captures session activity, st
 - **Languages:** TypeScript, JavaScript
 - **License:** Apache-2.0
 - **Lifecycle:** Active
-- **GitHub stars:** 25,360
+- **GitHub stars:** 30,530
 
 **Key features**
 
@@ -170,7 +170,7 @@ A privacy-first personal knowledge-management application with a block-based Mar
 - **Languages:** TypeScript, Go
 - **License:** AGPL-3.0
 - **Lifecycle:** Active
-- **GitHub stars:** 45,263
+- **GitHub stars:** 47,338
 
 **Key features**
 
@@ -191,7 +191,7 @@ An AI memory and context platform repository containing a hosted API, client int
 - **Languages:** TypeScript, Python
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 28,484
+- **GitHub stars:** 31,686
 
 **Key features**
 
@@ -208,11 +208,11 @@ A persistent-memory plugin for coding agents that captures session activity, cre
 - **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-thedotmack--claude-mem)
 - **Topics:** [AI Agents](../topics/ai-agents.md#repo-thedotmack--claude-mem) | [Agent Memory](../topics/agent-memory.md#repo-thedotmack--claude-mem) | [Coding Agents](../topics/coding-agents.md#repo-thedotmack--claude-mem) | [Context Engineering](../topics/context-engineering.md#repo-thedotmack--claude-mem) | [MCP](../topics/mcp.md#repo-thedotmack--claude-mem) | [Local First](../topics/local-first.md#repo-thedotmack--claude-mem) | [Search](../topics/search.md#repo-thedotmack--claude-mem) | [Developer Productivity](../topics/developer-productivity.md#repo-thedotmack--claude-mem)
 - **Kind:** Plugin
-- **Best for:** Claude Code users who want searchable continuity across coding sessions; Supported coding-agent users who need local project-memory retrieval
+- **Best for:** Coding-agent users who want searchable continuity across sessions with a supported host; Supported coding-agent users who need local project-memory retrieval
 - **Languages:** TypeScript, JavaScript
 - **License:** Apache-2.0
 - **Lifecycle:** Active
-- **GitHub stars:** 87,862
+- **GitHub stars:** 118,943
 
 **Key features**
 
@@ -233,7 +233,7 @@ An open-source AI-memory platform that ingests data into a self-hosted knowledge
 - **Languages:** Python, TypeScript
 - **License:** Apache-2.0
 - **Lifecycle:** Active
-- **GitHub stars:** 28,454
+- **GitHub stars:** 33,457
 
 **Key features**
 
@@ -254,7 +254,7 @@ A hosted or self-hosted dashboard and API for collecting AI coding-session data 
 - **Languages:** TypeScript
 - **License:** MIT
 - **Lifecycle:** Maintenance
-- **GitHub stars:** 407
+- **GitHub stars:** 413
 
 **Key features**
 

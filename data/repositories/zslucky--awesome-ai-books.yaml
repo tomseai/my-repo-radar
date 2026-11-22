@@ -9,7 +9,9 @@ analysis:
     use_cases:
       - "learn-and-reference"
   evidence:
-    - claim: "The repository's maintained GitHub metadata describes a collection of AI-related books, PDFs, and learning playground models covering artificial intelligence and machine-learning topics."
+    - claim: "The repository's maintained GitHub metadata describes a collection of
+        AI-related books, PDFs, and learning playground models covering
+        artificial intelligence and machine-learning topics."
       source_type: "github-metadata"
       url: "https://github.com/zslucky/awesome-AI-books"
       checked_at: "2026-07-19"
@@ -17,7 +19,8 @@ analysis:
   state: "complete"
   summary:
     one_line: "A reference collection of AI-related books, PDFs, and learning materials."
-    why_useful: "It gathers learning resources across artificial intelligence and machine-learning subjects."
+    why_useful: "It gathers learning resources across artificial intelligence and
+      machine-learning subjects."
 curation:
   confidence: null
   evidence: []
@@ -31,44 +34,45 @@ id: "github:zslucky/awesome-AI-books"
 import:
   github_snapshot:
     archived: false
-    created_at: "2018-02-25T23:56:56Z"
-    default_branch: "master"
-    description: "Some awesome AI related books and pdfs for learning and downloading, also apply some playground models for learning"
+    created_at: 2018-02-25T23:56:56Z
+    default_branch: master
+    description: Some awesome AI related books and pdfs for learning and
+      downloading, also apply some playground models for learning
     disabled: false
-    fetched_at: "2026-07-19T19:16:14.796Z"
+    fetched_at: 2026-11-22T12:07:00.148Z
     fork: false
-    forks: 397
+    forks: 398
     homepage: ""
     latest_release: null
-    license_spdx: "MIT"
+    license_spdx: MIT
     open_issues: 1
-    primary_language: "Jupyter Notebook"
-    pushed_at: "2026-07-07T00:40:24Z"
-    stars: 1756
+    primary_language: Jupyter Notebook
+    pushed_at: 2026-07-07T00:40:24Z
+    stars: 1842
     topics:
-      - "ai"
-      - "algorithms"
-      - "artificial-intelligence"
-      - "books"
-      - "data-mining"
-      - "deep-learning"
-      - "learning"
-      - "machine-learning"
-      - "mathematics"
-      - "pdf"
-      - "playground"
-      - "quantum-algorithms"
-      - "quantum-computing"
-      - "quantum-information"
-      - "reading"
-      - "reinforcement-learning"
-    updated_at: "2026-07-19T06:15:39Z"
+      - ai
+      - algorithms
+      - artificial-intelligence
+      - books
+      - data-mining
+      - deep-learning
+      - learning
+      - machine-learning
+      - mathematics
+      - pdf
+      - playground
+      - quantum-algorithms
+      - quantum-computing
+      - quantum-information
+      - reading
+      - reinforcement-learning
+    updated_at: 2026-11-20T07:28:26Z
   sources:
-    - observed_at: "2026-04-03T15:52:29Z"
-      relation: "starred"
-      source_id: "github:user:tomseai:stars"
-      source_url: "https://github.com/tomseai?tab=stars"
-  state: "imported"
+    - observed_at: 2026-04-03T15:52:29Z
+      relation: starred
+      source_id: github:user:tomseai:stars
+      source_url: https://github.com/tomseai?tab=stars
+  state: refreshed
 repository:
   aliases: []
   github_node_id: "MDEwOlJlcG9zaXRvcnkxMjI4ODk2ODE="

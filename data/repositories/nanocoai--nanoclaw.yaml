@@ -17,15 +17,19 @@ analysis:
       - "run-personal-or-team-tools"
       - "secure-software"
   evidence:
-    - claim: "NanoClaw is a self-hosted AI assistant that runs agents in isolated Docker containers, supports messaging channels and scheduled tasks, and uses a Node host with per-session SQLite databases."
+    - claim: "NanoClaw is a self-hosted AI assistant that runs agents in isolated
+        Docker containers, supports messaging channels and scheduled tasks, and
+        uses a Node host with per-session SQLite databases."
       source_type: "repository-file"
       url: "https://github.com/nanocoai/nanoclaw/blob/main/README.md"
       checked_at: "2026-07-19"
       confidence: "high"
   state: "complete"
   summary:
-    one_line: "A self-hosted AI assistant that runs messaging agents in isolated containers."
-    why_useful: "It combines multi-channel agent access, scheduled work, persistent sessions, and container isolation for a customizable personal assistant."
+    one_line: "A self-hosted AI assistant that runs messaging agents in isolated
+      containers."
+    why_useful: "It combines multi-channel agent access, scheduled work, persistent
+      sessions, and container isolation for a customizable personal assistant."
 curation:
   confidence: null
   evidence: []
@@ -39,33 +43,44 @@ id: "github:nanocoai/nanoclaw"
 import:
   github_snapshot:
     archived: false
-    created_at: "2026-01-31T15:47:22Z"
-    default_branch: "main"
-    description: "A lightweight alternative to OpenClaw that runs in containers for security. Connects to WhatsApp, Telegram, Slack, Discord, Gmail and other messaging apps,, has memory, scheduled jobs, and runs directly on Anthropic's Agents SDK"
+    created_at: 2026-01-31T15:47:22Z
+    default_branch: main
+    description: "Your own always-on AI assistant: self-hosted, open source,
+      lightweight. Each agent runs in its own container on your machine, on the
+      harness you choose (Claude Code, Codex, Cursor, OpenCode). Talk to it from
+      Slack, WhatsApp, Telegram, Discord and more."
     disabled: false
-    fetched_at: "2026-07-19T19:16:14.796Z"
+    fetched_at: 2026-11-22T12:07:00.148Z
     fork: false
-    forks: 12878
-    homepage: "https://nanoclaw.dev"
-    latest_release: null
-    license_spdx: "MIT"
-    open_issues: 823
-    primary_language: "TypeScript"
-    pushed_at: "2026-07-19T17:38:24Z"
-    stars: 30288
+    forks: 12638
+    homepage: https://nanoclaw.dev
+    latest_release:
+      tag: v2026.11.0
+      published_at: 2026-11-20T18:45:10Z
+      url: https://github.com/nanocoai/nanoclaw/releases/tag/v2026.11.0
+    license_spdx: MIT
+    open_issues: 1057
+    primary_language: TypeScript
+    pushed_at: 2026-11-22T10:57:05Z
+    stars: 31139
     topics:
-      - "ai-agents"
-      - "ai-assistant"
-      - "claude-code"
-      - "claude-skills"
-      - "openclaw"
-    updated_at: "2026-07-19T18:42:10Z"
+      - ai-agents
+      - ai-assistant
+      - claude-code
+      - claude-skills
+      - codex
+      - cursor
+      - docker
+      - openclaw
+      - opencode
+      - self-hosted
+    updated_at: 2026-11-22T10:53:05Z
   sources:
-    - observed_at: "2026-02-02T11:51:52Z"
-      relation: "starred"
-      source_id: "github:user:tomseai:stars"
-      source_url: "https://github.com/tomseai?tab=stars"
-  state: "imported"
+    - observed_at: 2026-02-02T11:51:52Z
+      relation: starred
+      source_id: github:user:tomseai:stars
+      source_url: https://github.com/tomseai?tab=stars
+  state: refreshed
 repository:
   aliases: []
   github_node_id: "R_kgDORFnVqQ"

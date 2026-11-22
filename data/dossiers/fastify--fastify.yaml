@@ -2,9 +2,9 @@ schema_version: 2
 repository_id: github:fastify/fastify
 research:
   state: complete
-  source_commit: ada0623dce9ed776306f2ccaa095b8ee01a492ba
-  bundle_collected_at: 2026-07-19T20:42:52.829Z
-  researched_at: 2026-07-20T17:23:16.092+02:00
+  source_commit: 6de5abedb24424f0e8fa3612035d212d580f8d90
+  bundle_collected_at: 2026-11-22T12:09:27.131Z
+  researched_at: 2026-11-22T12:24:38.207794+00:00
   confidence: high
 
 classification:
@@ -23,7 +23,8 @@ project:
     schemas, structured logging, and an extensible architecture based on hooks,
     decorators, and encapsulated plugins.
   best_for:
-    - Node.js services and APIs that need a concise route API and plugin composition
+    - Node.js services and APIs that need a concise route API and plugin
+      composition
     - Teams that want schema-driven validation and response serialization
 
 key_features:
@@ -31,7 +32,8 @@ key_features:
   - Hooks, decorators, and encapsulated plugins for extending server behavior
   - JSON Schema-based route validation and response serialization
   - Integrated Pino logging support
-  - Project generator through npm init fastify and package installation through npm
+  - Project generator through npm init fastify and package installation through
+    npm
 
 usage:
   interfaces:
@@ -54,28 +56,37 @@ technology:
 license:
   spdx: MIT
   name: MIT License
-  notes: Permission to use, modify, distribute, sublicense, and sell requires retaining the copyright and license notice.
+  notes: Permission to use, modify, distribute, sublicense, and sell requires
+    retaining the copyright and license notice.
 
 status:
   lifecycle: active
   archived: false
-  latest_release: v5.10.0
-  latest_release_at: 2026-07-05
+  latest_release: v5.12.8
+  latest_release_at: 2026-11-02
 
 strengths:
-  - Plugin encapsulation and loading order provide a documented composition model for larger services
+  - Plugin encapsulation and loading order provide a documented composition
+    model for larger services
   - Route schemas can serve both validation and efficient response serialization
-  - The core package, project generator, and getting-started guide provide a direct path from install to a listening server
+  - The core package, project generator, and getting-started guide provide a
+    direct path from install to a listening server
 
 caveats:
-  - Fastify is a Node.js framework, not a complete application platform; authentication, persistence, and deployment remain application choices
-  - JSON Schema use is recommended but not mandatory, so validation coverage depends on route definitions
-  - Servers listen on localhost by default; container or external deployment needs an explicit host configuration and exposure review
-  - Repository benchmarks are workload- and machine-specific rather than a general performance guarantee
+  - The feed also contains a newer v6 alpha; the recorded v5 release is stable
+  - Fastify is a Node.js framework, not a complete application platform;
+    authentication, persistence, and deployment remain application choices
+  - JSON Schema use is recommended but not mandatory, so validation coverage
+    depends on route definitions
+  - Servers listen on localhost by default; container or external deployment
+    needs an explicit host configuration and exposure review
+  - Repository benchmarks are workload- and machine-specific rather than a
+    general performance guarantee
 
 sources:
-  - https://raw.githubusercontent.com/fastify/fastify/ada0623dce9ed776306f2ccaa095b8ee01a492ba/README.md
-  - https://raw.githubusercontent.com/fastify/fastify/ada0623dce9ed776306f2ccaa095b8ee01a492ba/docs/Guides/Getting-Started.md
-  - https://raw.githubusercontent.com/fastify/fastify/ada0623dce9ed776306f2ccaa095b8ee01a492ba/package.json
-  - https://raw.githubusercontent.com/fastify/fastify/ada0623dce9ed776306f2ccaa095b8ee01a492ba/LICENSE
+  - https://raw.githubusercontent.com/fastify/fastify/6de5abedb24424f0e8fa3612035d212d580f8d90/README.md
+  - https://raw.githubusercontent.com/fastify/fastify/6de5abedb24424f0e8fa3612035d212d580f8d90/docs/Guides/Getting-Started.md
+  - https://raw.githubusercontent.com/fastify/fastify/6de5abedb24424f0e8fa3612035d212d580f8d90/package.json
+  - https://raw.githubusercontent.com/fastify/fastify/6de5abedb24424f0e8fa3612035d212d580f8d90/LICENSE
   - https://github.com/fastify/fastify/releases.atom
+  - https://github.com/fastify/fastify/releases/tag/v5.12.8

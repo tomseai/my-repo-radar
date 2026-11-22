@@ -1,0 +1,48 @@
+schema_version: 2
+repository_id: github:Shopify/roast
+research:
+  state: complete
+  source_commit: c55ba249d71db12f98e38dd254aeef0bb4ddc03b
+  bundle_collected_at: 2026-11-22T11:27:11.747Z
+  researched_at: 2026-11-22T12:00:00Z
+  confidence: high
+classification:
+  primary_category: ai-and-automation
+  topics: [ai-agents, coding-agents, agent-orchestration, llms, multi-provider, automation, cli]
+project:
+  name: roast
+  kind: framework
+  summary: A Ruby DSL for composing structured AI workflows from reusable chat, coding-agent, Ruby, and command steps with explicit control flow.
+  best_for: [Ruby developers automating multi-step AI workflows]
+key_features:
+  - Chain chat, agent, Ruby and command steps
+  - Map collections serially or in parallel
+  - Conditional execution, iteration and reusable scopes
+  - Multiple cloud chat providers and local coding agents
+usage:
+  interfaces: [Ruby DSL, CLI]
+  installation: [Ruby gem, Bundler]
+  setup: moderate
+technology:
+  languages:
+    - Ruby
+  notable_components: []
+license:
+  spdx: MIT
+  name: MIT License
+  notes: null
+status:
+  lifecycle: active
+  archived: false
+  latest_release: v1.4.1
+  latest_release_at: 2026-11-10
+strengths: [Composable workflow control flow and multiple providers]
+caveats:
+  - Provider credentials and local agent installations may be required.
+  - Workflows can run commands and agents with filesystem access; use trusted workflows and appropriate permissions.
+sources:
+  - https://raw.githubusercontent.com/Shopify/roast/c55ba249d71db12f98e38dd254aeef0bb4ddc03b/README.md
+  - https://raw.githubusercontent.com/Shopify/roast/c55ba249d71db12f98e38dd254aeef0bb4ddc03b/LICENSE.md
+  - https://raw.githubusercontent.com/Shopify/roast/c55ba249d71db12f98e38dd254aeef0bb4ddc03b/CONTRIBUTING.md
+  - https://raw.githubusercontent.com/Shopify/roast/c55ba249d71db12f98e38dd254aeef0bb4ddc03b/Gemfile
+  - https://github.com/Shopify/roast/releases.atom

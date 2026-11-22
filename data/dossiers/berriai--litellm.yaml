@@ -2,9 +2,9 @@ schema_version: 2
 repository_id: github:BerriAI/litellm
 research:
   state: complete
-  source_commit: bd44c9e305b89526d4c5d773ee39ca935561b9c8
-  bundle_collected_at: 2026-07-19T20:41:54.647Z
-  researched_at: 2026-07-20T15:11:42.194Z
+  source_commit: 90dce4b93bd2b090621a6b9083311294d3358bc6
+  bundle_collected_at: 2026-11-22T12:09:10.612Z
+  researched_at: 2026-11-22T12:30:21.520Z
   confidence: medium
 classification:
   primary_category: ai-and-automation
@@ -26,10 +26,16 @@ project:
     - Applications that need a provider-neutral LLM client interface
     - Teams centralizing model access, virtual keys, spend controls, and routing
 key_features:
-  - Calls more than 100 LLM providers through a unified OpenAI-compatible interface
-  - Offers a Python SDK as well as a self-hosted proxy or gateway service
-  - Provides virtual keys, spend tracking, guardrails, load balancing, logging, and an admin dashboard
-  - Supports model endpoints including chat, responses, embeddings, images, audio, batches, and reranking
+  - Presents a unified OpenAI-compatible interface for more than 100 model
+    providers
+  - Offers a Python SDK and a separately deployable proxy with routing and load
+    balancing
+  - Provides virtual keys, spend tracking, guardrails, observability, and an
+    admin dashboard
+  - Supports multiple model endpoints including chat, responses, embeddings,
+    images, audio, and reranking
+  - Includes SDK interfaces for model routing and integrations with agent and
+    tool protocols
 usage:
   interfaces:
     - Python SDK
@@ -53,27 +59,35 @@ technology:
     - Rust core package
 license:
   spdx: null
-  name: MIT for repository content outside enterprise/; enterprise license for enterprise/
+  name: MIT for most repository content, with separate terms for litellm/enterprise/
   notes: >-
-    The root LICENSE grants MIT terms outside enterprise/ and assigns enterprise/
-    content to enterprise/LICENSE; the retained bundle does not include that separate license text.
+    The root LICENSE applies MIT terms outside litellm/enterprise/ and points to
+    litellm/enterprise/LICENSE for that directory. The separate enterprise
+    license text is outside the retained file sample.
 status:
   lifecycle: active
   archived: false
-  latest_release: v1.93.0
-  latest_release_at: "2026-07-19"
+  latest_release: v1.110.2
+  latest_release_at: "2026-11-20"
 strengths:
-  - Supports both direct application integration and a centralized gateway deployment
+  - Supports both direct application integration and a centralized gateway
+    deployment
   - Standardizes provider access while retaining OpenAI-compatible client usage
-  - Combines access controls, spending controls, guardrails, routing, and logging in the gateway
+  - Combines access controls, spending controls, guardrails, routing, and
+    logging in the gateway
 caveats:
-  - "The repository has mixed licensing: enterprise/ is governed by a separate license not retained in this bundle"
-  - The source commit declares version 1.94.0 while the feed contains 1.94.0 prereleases; v1.93.0 is selected as the newest stable release in the retained feed
-  - Gateway operation requires configuration of model-provider credentials and, where used, persistence or control-plane services
-  - Provider capabilities and endpoint availability vary by model and provider
+  - Enterprise components are governed by separate terms under
+    litellm/enterprise/
+  - The default branch identifies source version 1.112.0, and the feed has
+    development, release-candidate, and LTS streams alongside the selected
+    published v1.110.2 stable release
+  - Gateway operation requires credentials and any persistence or control-plane
+    services used by the deployment
+  - Endpoint coverage and behavior vary by provider and model
 sources:
-  - https://raw.githubusercontent.com/BerriAI/litellm/bd44c9e305b89526d4c5d773ee39ca935561b9c8/README.md
-  - https://raw.githubusercontent.com/BerriAI/litellm/bd44c9e305b89526d4c5d773ee39ca935561b9c8/LICENSE
-  - https://raw.githubusercontent.com/BerriAI/litellm/bd44c9e305b89526d4c5d773ee39ca935561b9c8/pyproject.toml
-  - https://raw.githubusercontent.com/BerriAI/litellm/bd44c9e305b89526d4c5d773ee39ca935561b9c8/docker-compose.yml
+  - https://raw.githubusercontent.com/BerriAI/litellm/90dce4b93bd2b090621a6b9083311294d3358bc6/README.md
+  - https://raw.githubusercontent.com/BerriAI/litellm/90dce4b93bd2b090621a6b9083311294d3358bc6/LICENSE
+  - https://raw.githubusercontent.com/BerriAI/litellm/90dce4b93bd2b090621a6b9083311294d3358bc6/pyproject.toml
+  - https://raw.githubusercontent.com/BerriAI/litellm/90dce4b93bd2b090621a6b9083311294d3358bc6/litellm/deploy/compose/docker-compose.yml
   - https://github.com/BerriAI/litellm/releases.atom
+  - https://github.com/BerriAI/litellm/releases/tag/v1.110.2

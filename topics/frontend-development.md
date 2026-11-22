@@ -2,15 +2,16 @@
 
 # Frontend Development
 
-[Back to the main catalog](../README.md) | **31 repositories**
+[Back to the main catalog](../README.md) | **36 repositories**
 
 ## Primary categories represented
 
 - [AI and Automation](../categories/ai-and-automation.md) (3)
 - [Application Frameworks](../categories/application-frameworks.md) (6)
+- [Collaboration and Productivity](../categories/collaboration-and-productivity.md) (2)
 - [Developer Tools](../categories/developer-tools.md) (6)
 - [Documentation and Learning](../categories/documentation-and-learning.md) (2)
-- [Frontend and Design](../categories/frontend-and-design.md) (13)
+- [Frontend and Design](../categories/frontend-and-design.md) (16)
 - [Testing and Quality](../categories/testing-and-quality.md) (1)
 
 <a id="repo-addyosmani--tunnel-bear-login"></a>
@@ -26,7 +27,7 @@ An educational React recreation of a TunnelBear-inspired login form with a bear 
 - **Languages:** TypeScript, JavaScript
 - **License:** No open-source license declared
 - **Lifecycle:** Unknown
-- **GitHub stars:** 405
+- **GitHub stars:** 407
 
 **Key features**
 
@@ -47,13 +48,13 @@ A React visual-feedback library that lets users annotate page elements and copy 
 - **Languages:** TypeScript
 - **License:** PolyForm Shield License 1.0.0
 - **Lifecycle:** Unknown
-- **GitHub stars:** 4,175
+- **GitHub stars:** 5,461
 
 **Key features**
 
   - Click-to-annotate elements with automatic selector identification
-  - Text, multi-element, and arbitrary-area annotations
-  - Animation pausing to capture a specific interface state
+  - Text, multi-element, and area annotations, including open shadow roots and same-origin iframes
+  - Pauses supported CSS animations, Web Animations, and videos to capture interface states
 
 <a id="repo-blueedgetechno--win11react"></a>
 
@@ -68,7 +69,7 @@ An archived React web application that recreates a Windows 11-like desktop exper
 - **Languages:** JavaScript
 - **License:** CC0-1.0
 - **Lifecycle:** Archived
-- **GitHub stars:** 9,685
+- **GitHub stars:** 9,661
 
 **Key features**
 
@@ -89,7 +90,7 @@ A Cursor skill and Markdown knowledge pack for AI-assisted UI development, suppl
 - **Languages:** Unknown
 - **License:** MIT
 - **Lifecycle:** Unknown
-- **GitHub stars:** 845
+- **GitHub stars:** 910
 
 **Key features**
 
@@ -110,7 +111,7 @@ A JavaScript and TypeScript library for calculating multiline text layout withou
 - **Languages:** TypeScript, JavaScript
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 49,223
+- **GitHub stars:** 51,087
 
 **Key features**
 
@@ -131,7 +132,7 @@ A TypeScript library that combines Markdown and React for technical content site
 - **Languages:** TypeScript
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 5,368
+- **GitHub stars:** 5,400
 
 **Key features**
 
@@ -152,13 +153,55 @@ A moved monorepo of Angular build packages that integrate Rsbuild and Rspack, in
 - **Languages:** TypeScript, JavaScript
 - **License:** MIT
 - **Lifecycle:** Deprecated
-- **GitHub stars:** 111
+- **GitHub stars:** 109
 
 **Key features**
 
   - Rsbuild plugin for Angular client-side and server-side rendered applications
   - Rspack build and compiler packages for Angular applications
   - Nx generators and executors for Rspack-based Angular applications
+
+<a id="repo-davidkpiano--useeffectreducer"></a>
+
+## [useEffectReducer](https://github.com/davidkpiano/useEffectReducer)
+
+A React hook that lets reducers describe effects alongside state transitions and executes the queued effects after React commits the state.
+
+- **Category:** [Frontend and Design](../categories/frontend-and-design.md#repo-davidkpiano--useeffectreducer)
+- **Topics:** [Frontend Development](../topics/frontend-development.md#repo-davidkpiano--useeffectreducer) | [Libraries](../topics/libraries.md#repo-davidkpiano--useeffectreducer)
+- **Kind:** Library
+- **Best for:** React developers coordinating asynchronous effects with reducer events
+- **Languages:** TypeScript
+- **License:** MIT
+- **Lifecycle:** Active
+- **GitHub stars:** 865
+
+**Key features**
+
+  - Queue effects to run after React commits state
+  - Stop or replace effects using effect entities and abort signals
+  - Dispatch events from asynchronous effects and run cleanup on stop
+
+<a id="repo-foldkit--foldkit"></a>
+
+## [Foldkit](https://github.com/foldkit/foldkit)
+
+A TypeScript frontend framework built on Effect and Elm-style architecture, with explicit models, updates, effects, routing, UI components, and deterministic testing.
+
+- **Category:** [Frontend and Design](../categories/frontend-and-design.md#repo-foldkit--foldkit)
+- **Topics:** [Frontend Development](../topics/frontend-development.md#repo-foldkit--foldkit) | [Frameworks](../topics/frameworks.md#repo-foldkit--foldkit) | [UI Components](../topics/ui-components.md#repo-foldkit--foldkit) | [Testing](../topics/testing.md#repo-foldkit--foldkit) | [MCP](../topics/mcp.md#repo-foldkit--foldkit) | [Developer Productivity](../topics/developer-productivity.md#repo-foldkit--foldkit)
+- **Kind:** Framework
+- **Best for:** Teams prioritizing explicit state transitions and testable frontend behavior; Effect users who want an Elm-like architecture with TypeScript tooling
+- **Languages:** TypeScript
+- **License:** MIT
+- **Lifecycle:** Experimental
+- **GitHub stars:** 1,302
+
+**Key features**
+
+  - Centralizes state in a model and pure update function without hooks or hidden mutation
+  - Represents commands, subscriptions, routing, and managed resources as explicit effects
+  - Includes accessible UI components, virtual DOM rendering, and React embedding
 
 <a id="repo-githubnext--vitale"></a>
 
@@ -173,7 +216,7 @@ An archived VS Code notebook extension and companion Node.js package for TypeScr
 - **Languages:** TypeScript
 - **License:** MIT
 - **Lifecycle:** Archived
-- **GitHub stars:** 259
+- **GitHub stars:** 257
 
 **Key features**
 
@@ -194,7 +237,7 @@ A TypeScript library for building responsive, draggable, resizable dashboard gri
 - **Languages:** TypeScript, JavaScript
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 8,999
+- **GitHub stars:** 9,260
 
 **Key features**
 
@@ -215,7 +258,7 @@ An HTML presentation framework for authoring and presenting browser-based slide 
 - **Languages:** JavaScript, TypeScript, HTML, CSS
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 71,969
+- **GitHub stars:** 72,615
 
 **Key features**
 
@@ -236,7 +279,7 @@ A zero-configuration Node.js CLI that turns a folder of Markdown or MDX files in
 - **Languages:** TypeScript, MDX
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 724
+- **GitHub stars:** 1,846
 
 **Key features**
 
@@ -257,7 +300,7 @@ A JavaScript animation library for animating CSS properties, SVG, DOM attributes
 - **Languages:** JavaScript, TypeScript
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 71,196
+- **GitHub stars:** 74,968
 
 **Key features**
 
@@ -269,22 +312,43 @@ A JavaScript animation library for animating CSS properties, SVG, DOM attributes
 
 ## [Taste Skill](https://github.com/Leonxlnx/taste-skill)
 
-A collection of portable agent-skill instruction files for improving the visual design and implementation of AI-generated frontend interfaces.
+A frontend-design skill for coding agents that guides visual direction, website implementation, and browser-based quality checks.
 
 - **Category:** [Frontend and Design](../categories/frontend-and-design.md#repo-leonxlnx--taste-skill)
 - **Topics:** [AI Agents](../topics/ai-agents.md#repo-leonxlnx--taste-skill) | [Agent Skills](../topics/agent-skills.md#repo-leonxlnx--taste-skill) | [Frontend Development](../topics/frontend-development.md#repo-leonxlnx--taste-skill) | [Code Generation](../topics/code-generation.md#repo-leonxlnx--taste-skill) | [Design Systems](../topics/design-systems.md#repo-leonxlnx--taste-skill)
 - **Kind:** Library
-- **Best for:** Developers directing coding agents to build or redesign web interfaces; Teams that want selectable visual-design guidance and image-to-code workflows
+- **Best for:** Developers directing coding agents to build or redesign web interfaces; Teams that want design guidance and repeatable checks for finished websites
 - **Languages:** Markdown, JavaScript
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 65,196
+- **GitHub stars:** 119,906
 
 **Key features**
 
-  - Supplies a default frontend-design skill with configurable variance, motion, and visual-density dials
-  - Provides specialized skills for existing-project redesign, image-to-code implementation, and visual styles such as soft, minimalist, and brutalist
-  - Includes image-generation skills for web comps, mobile screens, and brand-kit reference boards
+  - Ships design-taste-frontend as the single skill in the main repository
+  - Supplies layout, typography, illustration, and motion assets for website design
+  - Checks responsive layout, visual consistency, and performance in headless Chrome
+
+<a id="repo-liveblocks--liveblocks"></a>
+
+## [Liveblocks](https://github.com/liveblocks/liveblocks)
+
+A collaboration SDK and hosted infrastructure for adding realtime synchronization, contextual comments, and notifications to web applications.
+
+- **Category:** [Collaboration and Productivity](../categories/collaboration-and-productivity.md#repo-liveblocks--liveblocks)
+- **Topics:** [Realtime Collaboration](../topics/realtime-collaboration.md#repo-liveblocks--liveblocks) | [Realtime](../topics/realtime.md#repo-liveblocks--liveblocks) | [AI Agents](../topics/ai-agents.md#repo-liveblocks--liveblocks) | [Frontend Development](../topics/frontend-development.md#repo-liveblocks--liveblocks) | [UI Components](../topics/ui-components.md#repo-liveblocks--liveblocks) | [Libraries](../topics/libraries.md#repo-liveblocks--liveblocks)
+- **Kind:** Monorepo
+- **Best for:** Product teams adding realtime collaboration without building synchronization infrastructure; React and JavaScript teams building collaborative editors and shared workspaces
+- **Languages:** TypeScript, Python
+- **License:** Mixed Apache-2.0 and AGPL-3.0-or-later licensing
+- **Lifecycle:** Active
+- **GitHub stars:** 4,773
+
+**Key features**
+
+  - Provides Sync, Comments, and Notifications products for composing collaboration features
+  - Supplies React, JavaScript, Node, REST, Python, and Yjs integrations, plus packages for React Flow, CodeMirror, and ProseMirror
+  - Includes collaborative UI components and presence, storage, and room primitives
 
 <a id="repo-liveloveapp--hashbrown"></a>
 
@@ -299,12 +363,12 @@ A TypeScript framework of core, React, Angular, and provider packages for adding
 - **Languages:** TypeScript
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 709
+- **GitHub stars:** 736
 
 **Key features**
 
   - Core state primitives with framework bindings for React and Angular
-  - Provider packages for OpenAI, Azure OpenAI, Anthropic, Bedrock, Ollama, Google, and Writer
+  - Provider packages for OpenAI, Azure OpenAI, Anthropic, Bedrock, Ollama, and Google
   - HTTP streaming between Node backend wrappers and UI hooks or resources
 
 <a id="repo-lynx-family--lynx"></a>
@@ -320,13 +384,34 @@ The core engine of an open-source family for creating native mobile and web user
 - **Languages:** C++, TypeScript, JavaScript
 - **License:** Apache-2.0
 - **Lifecycle:** Active
-- **GitHub stars:** 14,996
+- **GitHub stars:** 15,269
 
 **Key features**
 
   - Native rendering for Android, iOS, and the web
   - Custom renderer for consistent mobile and desktop output
   - CSS- and React-oriented development model
+
+<a id="repo-obsidianmd--pele"></a>
+
+## [Pele](https://github.com/obsidianmd/pele)
+
+A synchronous renderer that turns supported Mermaid diagrams into SVG and exposes color and font styling through CSS variables.
+
+- **Category:** [Frontend and Design](../categories/frontend-and-design.md#repo-obsidianmd--pele)
+- **Topics:** [Visualization](../topics/visualization.md#repo-obsidianmd--pele) | [Libraries](../topics/libraries.md#repo-obsidianmd--pele) | [Frontend Development](../topics/frontend-development.md#repo-obsidianmd--pele)
+- **Kind:** Library
+- **Best for:** Applications rendering Mermaid diagrams with customizable styling
+- **Languages:** TypeScript
+- **License:** MIT
+- **Lifecycle:** Active
+- **GitHub stars:** 4,677
+
+**Key features**
+
+  - Supports the diagram types built into Mermaid 12.1.0
+  - Renders SVG synchronously or mounts responsive diagrams in the browser
+  - Uses CSS variables for colors and fonts
 
 <a id="repo-osanseviero--instantcoder"></a>
 
@@ -341,7 +426,7 @@ A small Next.js prompt-to-app project that sends a user prompt to the Gemini API
 - **Languages:** TypeScript
 - **License:** MIT
 - **Lifecycle:** Unknown
-- **GitHub stars:** 932
+- **GitHub stars:** 936
 
 **Key features**
 
@@ -362,7 +447,7 @@ A Rust workspace for high-performance JavaScript and TypeScript tooling. It prov
 - **Languages:** Rust, JavaScript, TypeScript
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 22,018
+- **GitHub stars:** 23,538
 
 **Key features**
 
@@ -383,11 +468,11 @@ A design skill and command suite for AI coding tools, paired with browser iterat
 - **Languages:** JavaScript
 - **License:** Apache-2.0
 - **Lifecycle:** Active
-- **GitHub stars:** 48,090
+- **GitHub stars:** 114,759
 
 **Key features**
 
-  - One skill with 23 design commands, including setup, critique, audit, and live iteration
+  - One skill with 24 design commands, including setup, critique, audit, and live iteration
   - Project design context through PRODUCT.md and optional DESIGN.md
   - Standalone CLI detector for directories, HTML files, URLs, and JSON output
 
@@ -404,7 +489,7 @@ A TypeScript monorepo for public packages that render code diffs and file trees,
 - **Languages:** TypeScript
 - **License:** Apache-2.0
 - **Lifecycle:** Active
-- **GitHub stars:** 5,444
+- **GitHub stars:** 6,638
 
 **Key features**
 
@@ -425,7 +510,7 @@ An atom-based state-management library for React that composes primitive and der
 - **Languages:** TypeScript, JavaScript
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 21,229
+- **GitHub stars:** 21,336
 
 **Key features**
 
@@ -446,7 +531,7 @@ A small, hook-based state-management library for React that creates stores witho
 - **Languages:** TypeScript, JavaScript
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 58,442
+- **GitHub stars:** 58,976
 
 **Key features**
 
@@ -466,8 +551,8 @@ An open-source browser platform for building Python applications with Pyodide or
 - **Best for:** Browser applications that need Python embedded directly in an HTML page; Prototypes and web experiences that can use Pyodide or MicroPython runtimes
 - **Languages:** Python, JavaScript, HTML
 - **License:** Apache-2.0
-- **Lifecycle:** Active
-- **GitHub stars:** 18,694
+- **Lifecycle:** Maintenance
+- **GitHub stars:** 18,670
 
 **Key features**
 
@@ -488,7 +573,7 @@ An Angular monorepo for accessible headless UI primitives, copy-paste shadcn-sty
 - **Languages:** TypeScript
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 2,779
+- **GitHub stars:** 3,007
 
 **Key features**
 
@@ -509,7 +594,7 @@ A TypeScript reactive UI framework centered on JavaScript modules, tagged templa
 - **Languages:** TypeScript, JavaScript
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 3,706
+- **GitHub stars:** 3,783
 
 **Key features**
 
@@ -529,8 +614,8 @@ A large, hand-curated README index of resources for adding visual flair, usabili
 - **Best for:** Designers and frontend developers collecting interface and visual-design references; Product teams looking for inspiration or a starting point for specific UI details
 - **Languages:** Markdown
 - **License:** MIT
-- **Lifecycle:** Active
-- **GitHub stars:** 9,786
+- **Lifecycle:** Archived
+- **GitHub stars:** 9,775
 
 **Key features**
 
@@ -551,7 +636,7 @@ An interactive CLI that scaffolds modular, type-safe full-stack Next.js applicat
 - **Languages:** TypeScript
 - **License:** MIT
 - **Lifecycle:** Maintenance
-- **GitHub stars:** 29,045
+- **GitHub stars:** 29,248
 
 **Key features**
 
@@ -563,7 +648,7 @@ An interactive CLI that scaffolds modular, type-safe full-stack Next.js applicat
 
 ## [Front-End Checklist](https://github.com/thedaviddias/Front-End-Checklist)
 
-A front-end quality system containing 385 prioritized rules across eleven categories, delivered as a browsable website, a README checklist, reusable skills, and hosted or local MCP tooling for review and audit workflows.
+A front-end quality system containing 386 prioritized rules across eleven categories, delivered as a browsable website, a README checklist, reusable skills, and hosted or local MCP tooling for review and audit workflows.
 
 - **Category:** [Testing and Quality](../categories/testing-and-quality.md#repo-thedaviddias--front-end-checklist)
 - **Topics:** [Web](../topics/web.md#repo-thedaviddias--front-end-checklist) | [Frontend Development](../topics/frontend-development.md#repo-thedaviddias--front-end-checklist) | [Accessibility](../topics/accessibility.md#repo-thedaviddias--front-end-checklist) | [Security](../topics/security.md#repo-thedaviddias--front-end-checklist) | [Testing](../topics/testing.md#repo-thedaviddias--front-end-checklist) | [Performance](../topics/performance.md#repo-thedaviddias--front-end-checklist) | [MCP](../topics/mcp.md#repo-thedaviddias--front-end-checklist) | [AI Agents](../topics/ai-agents.md#repo-thedaviddias--front-end-checklist) | [Documentation](../topics/documentation.md#repo-thedaviddias--front-end-checklist)
@@ -572,11 +657,11 @@ A front-end quality system containing 385 prioritized rules across eleven catego
 - **Languages:** TypeScript, MDX
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 73,256
+- **GitHub stars:** 74,793
 
 **Key features**
 
-  - 385 English rules organized into eleven active front-end quality categories
+  - 386 English rules organized into eleven active front-end quality categories
   - Priority labels for critical, high, medium, and low-impact findings
   - Hosted MCP server with tools to review code, audit public URLs, search rules, and retrieve workflows
 
@@ -593,7 +678,7 @@ A documentation resource for using React with TypeScript effectively, combining 
 - **Languages:** TypeScript, Markdown
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 47,096
+- **GitHub stars:** 47,089
 
 **Key features**
 
@@ -614,7 +699,7 @@ A type-safe application stack for building lightweight end-to-end Next.js applic
 - **Languages:** TypeScript
 - **License:** MIT
 - **Lifecycle:** Unknown
-- **GitHub stars:** 3,751
+- **GitHub stars:** 3,737
 
 **Key features**
 
@@ -634,8 +719,8 @@ A shadcn/ui-based React component library and registry for adding customizable c
 - **Best for:** Teams building a customizable chat or generative-AI interface with Next.js; Projects that already use shadcn/ui, Tailwind CSS, and the AI SDK
 - **Languages:** TypeScript
 - **License:** Apache-2.0
-- **Lifecycle:** Active
-- **GitHub stars:** 2,242
+- **Lifecycle:** Maintenance
+- **GitHub stars:** 2,533
 
 **Key features**
 
@@ -656,10 +741,31 @@ A frontend development server and production build tool that provides fast itera
 - **Languages:** TypeScript
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 81,984
+- **GitHub stars:** 84,029
 
 **Key features**
 
   - Provides a development server that enhances native ES modules.
   - Supports fast Hot Module Replacement during development.
   - Builds optimized static production assets with Rolldown.
+
+<a id="repo-yjs--yjs"></a>
+
+## [Yjs](https://github.com/yjs/yjs)
+
+A high-performance CRDT framework with shared data types for building collaborative and local-first applications across arbitrary network providers.
+
+- **Category:** [Collaboration and Productivity](../categories/collaboration-and-productivity.md#repo-yjs--yjs)
+- **Topics:** [Realtime Collaboration](../topics/realtime-collaboration.md#repo-yjs--yjs) | [Realtime](../topics/realtime.md#repo-yjs--yjs) | [Local First](../topics/local-first.md#repo-yjs--yjs) | [Libraries](../topics/libraries.md#repo-yjs--yjs) | [Frontend Development](../topics/frontend-development.md#repo-yjs--yjs)
+- **Kind:** Library
+- **Best for:** Developers implementing conflict-free collaborative state and editing; Applications that need offline changes, peer-to-peer sync, and eventual convergence
+- **Languages:** JavaScript
+- **License:** MIT
+- **Lifecycle:** Active
+- **GitHub stars:** 23,096
+
+**Key features**
+
+  - Provides shared Map, Array, Text, and XML-like data types with automatic merging
+  - Works independently of the network transport and supports peer-to-peer designs
+  - Supports offline editing, snapshots, undo and redo, and shared cursors

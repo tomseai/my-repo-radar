@@ -2,9 +2,9 @@ schema_version: 2
 repository_id: github:plastic-labs/honcho
 research:
   state: complete
-  source_commit: 055d73b580fa0437e1a17cecf3a5c88247ce9209
-  bundle_collected_at: 2026-07-19T20:44:58.112Z
-  researched_at: 2026-07-20T18:00:00+02:00
+  source_commit: dcd320347313d495e539fd125c0529418c1741fb
+  bundle_collected_at: 2026-11-22T12:10:18.213Z
+  researched_at: 2026-11-22T12:23:21.739Z
   confidence: high
 classification:
   primary_category: ai-and-automation
@@ -19,20 +19,24 @@ classification:
 project:
   name: honcho
   kind: service
-  summary: >-
-    A FastAPI-based memory service for stateful agents that stores interactions,
+  summary: A FastAPI-based memory service for stateful agents that stores interactions,
     processes them asynchronously into peer and session insights, and exposes
     context, search, representation, and chat capabilities through SDKs and APIs.
   best_for:
-    - Adding persistent, queryable memory and prompt-ready context to an agent or LLM application
-    - Teams that need a managed service or self-hosted memory server with Python and TypeScript SDKs
+    - Adding persistent, queryable memory and prompt-ready context to an agent or LLM
+      application
+    - Teams that need a managed service or self-hosted memory server with Python and
+      TypeScript SDKs
 key_features:
-  - Stores workspaces, peers, sessions, messages, and internal collections for multi-participant interactions
-  - Runs background reasoning to create conclusions, representations, summaries, and peer cards
-  - Provides context retrieval, hybrid search, low-latency representations, and a natural-language chat endpoint
-  - Supports managed deployment, Docker self-hosting, Python and TypeScript SDKs, and MCP-client integration
+  - Stores workspaces, peers, sessions, messages, and internal collections for
+    multi-participant interactions
+  - Runs background reasoning to create conclusions, representations, summaries, and
+    peer cards
+  - Provides context retrieval, hybrid search, low-latency representations, and a
+    natural-language chat endpoint
+  - Provides a CLI for local server setup and first-party memory integrations for
+    supported coding agents
   - Allows configurable LLM providers for different reasoning operations
-
 usage:
   interfaces:
     - Python SDK
@@ -40,12 +44,12 @@ usage:
     - HTTP API
     - MCP server
     - Docker Compose service
+    - Honcho CLI
   installation:
     - pip install honcho-ai
     - npm install @honcho-ai/sdk
-    - clone the repository and run Docker Compose for a self-hosted server
+    - Honcho CLI for local setup, or Docker Compose from source
   setup: moderate
-
 technology:
   languages:
     - Python
@@ -55,36 +59,40 @@ technology:
     - PostgreSQL with pgvector
     - Docker Compose
     - Model Context Protocol
-
 license:
   spdx: AGPL-3.0
   name: GNU Affero General Public License v3.0
-  notes: >-
-    Copyleft license for network-server software; modified versions used to
-    interact remotely with users must offer their corresponding source, subject
-    to the license's complete terms.
-
+  notes: Copyleft license for network-server software; modified versions used to
+    interact remotely with users must offer their corresponding source, subject to
+    the license's complete terms.
 status:
   lifecycle: active
   archived: false
-  latest_release: v3.0.12
-  latest_release_at: 2026-07-13
-
+  latest_release: v3.6.1
+  latest_release_at: 2026-11-11
 strengths:
-  - Couples persistent interaction storage with asynchronous reasoning and multiple retrieval modes
-  - Supports a managed service and a documented local Docker deployment from the same core project
-  - Offers SDK and MCP paths for both product integration and coding-agent memory workflows
-
+  - Couples persistent interaction storage with asynchronous reasoning and multiple
+    retrieval modes
+  - Supports a managed service and a documented local Docker deployment from the same
+    core project
+  - Offers SDK and MCP paths for both product integration and coding-agent memory
+    workflows
 caveats:
-  - Background reasoning is asynchronous, so newly added messages may not immediately appear in insight or chat results
-  - Self-hosting requires Docker or a Python environment, PostgreSQL with pgvector, configuration, and provider API keys for documented reasoning features
-  - The repository's server, Python SDK, TypeScript SDK, and MCP server are versioned independently; v3.0.12 is the latest retained server release, not a common version for every package
-  - AGPL-3.0 network-copyleft obligations may be incompatible with some deployment or distribution plans
-
+  - Background reasoning is asynchronous, so newly added messages may not immediately
+    appear in insight or chat results
+  - Self-hosting requires Docker or a Python environment, PostgreSQL with pgvector,
+    configuration, and provider API keys for documented reasoning features
+  - The server, SDKs, and MCP server are independently versioned. The server
+    changelog and feed include a v3.6.2 tag without a published GitHub release.
+  - AGPL-3.0 network-copyleft obligations may be incompatible with some deployment or
+    distribution plans
 sources:
-  - https://raw.githubusercontent.com/plastic-labs/honcho/055d73b580fa0437e1a17cecf3a5c88247ce9209/README.md
-  - https://raw.githubusercontent.com/plastic-labs/honcho/055d73b580fa0437e1a17cecf3a5c88247ce9209/LICENSE
-  - https://raw.githubusercontent.com/plastic-labs/honcho/055d73b580fa0437e1a17cecf3a5c88247ce9209/pyproject.toml
-  - https://raw.githubusercontent.com/plastic-labs/honcho/055d73b580fa0437e1a17cecf3a5c88247ce9209/sdks/typescript/package.json
-  - https://raw.githubusercontent.com/plastic-labs/honcho/055d73b580fa0437e1a17cecf3a5c88247ce9209/mcp/package.json
+  - https://raw.githubusercontent.com/plastic-labs/honcho/dcd320347313d495e539fd125c0529418c1741fb/README.md
+  - https://raw.githubusercontent.com/plastic-labs/honcho/dcd320347313d495e539fd125c0529418c1741fb/LICENSE
+  - https://raw.githubusercontent.com/plastic-labs/honcho/dcd320347313d495e539fd125c0529418c1741fb/pyproject.toml
+  - https://raw.githubusercontent.com/plastic-labs/honcho/dcd320347313d495e539fd125c0529418c1741fb/sdks/typescript/package.json
+  - https://raw.githubusercontent.com/plastic-labs/honcho/dcd320347313d495e539fd125c0529418c1741fb/mcp/package.json
   - https://github.com/plastic-labs/honcho/releases.atom
+  - https://github.com/plastic-labs/honcho/releases/tag/v3.6.1
+  - https://raw.githubusercontent.com/plastic-labs/honcho/dcd320347313d495e539fd125c0529418c1741fb/honcho-cli/pyproject.toml
+  - https://raw.githubusercontent.com/plastic-labs/honcho/dcd320347313d495e539fd125c0529418c1741fb/CHANGELOG.md

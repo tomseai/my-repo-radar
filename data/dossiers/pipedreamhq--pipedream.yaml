@@ -2,9 +2,9 @@ schema_version: 2
 repository_id: github:PipedreamHQ/pipedream
 research:
   state: complete
-  source_commit: c622c98b5271564b7f23db9998441d353bd5db23
-  bundle_collected_at: 2026-07-19T20:44:55.644Z
-  researched_at: 2026-07-20T18:00:00+02:00
+  source_commit: 1d228b7230b3d3559e19d451d44d318e5725ec63
+  bundle_collected_at: 2026-11-22T12:10:17.712Z
+  researched_at: 2026-11-22T12:24:40.685Z
   confidence: medium
 
 classification:
@@ -21,15 +21,21 @@ project:
   summary: >-
     A hosted developer integration platform for building event-driven workflows
     with pre-built app components and custom Node.js, Python, Go, or Bash code;
-    this repository contains the components, documentation, roadmap, and related source.
+    this repository contains the components, documentation, roadmap, and related
+    source.
   best_for:
-    - Automating a workflow in response to HTTP, schedule, or connected-application events
-    - Combining reusable API-integration steps with custom code for application-specific logic
+    - Automating a workflow in response to HTTP, schedule, or
+      connected-application events
+    - Combining reusable API-integration steps with custom code for
+      application-specific logic
 
 key_features:
-  - Event-triggered workflows composed from pre-built actions or custom code steps
-  - Event sources that emit data from connected third-party services and can trigger workflows
-  - Reusable actions for API integrations, including community-publishable custom actions
+  - Event-triggered workflows composed from pre-built actions or custom code
+    steps
+  - Event sources that emit data from connected third-party services and can
+    trigger workflows
+  - Reusable actions for API integrations, including community-publishable
+    custom actions
   - Asynchronous destinations for Amazon S3, Snowflake, HTTP, email, and SSE
   - REST API and private real-time SSE access for consuming source events
 
@@ -72,19 +78,28 @@ status:
   latest_release_at: null
 
 strengths:
-  - Supports both ready-made application actions and arbitrary code when pre-built steps do not fit
-  - Covers the full event path from trigger sources through workflows to multiple asynchronous destinations
-  - Documents several language choices for custom code instead of limiting workflows to one runtime
+  - Supports both ready-made application actions and arbitrary code when
+    pre-built steps do not fit
+  - Covers the full event path from trigger sources through workflows to
+    multiple asynchronous destinations
+  - Documents several language choices for custom code instead of limiting
+    workflows to one runtime
 
 caveats:
-  - Running workflows depends on the hosted platform, its pricing tiers, and documented runtime limits
-  - The root package is marked private and identifies itself as a monorepo, so it is not a standalone package installation path for the hosted product
-  - The retained release feed is dominated by independently versioned platform packages; it does not establish a current release for Pipedream as a hosted platform
-  - The root package metadata says MIT while the repository-root LICENSE is the more restrictive Pipedream Source Available License; confirm applicable terms before reuse
+  - Running workflows depends on the hosted platform, its pricing tiers, and
+    documented runtime limits
+  - The root package is marked private and identifies itself as a monorepo, so
+    it is not a standalone package installation path for the hosted product
+  - The retained release feed is dominated by independently versioned platform
+    packages; it does not establish a current release for Pipedream as a hosted
+    platform
+  - The root package metadata says MIT while the repository-root LICENSE is the
+    more restrictive Pipedream Source Available License; confirm applicable
+    terms before reuse
 
 sources:
-  - https://raw.githubusercontent.com/PipedreamHQ/pipedream/c622c98b5271564b7f23db9998441d353bd5db23/README.md
-  - https://raw.githubusercontent.com/PipedreamHQ/pipedream/c622c98b5271564b7f23db9998441d353bd5db23/LICENSE
-  - https://raw.githubusercontent.com/PipedreamHQ/pipedream/c622c98b5271564b7f23db9998441d353bd5db23/package.json
-  - https://raw.githubusercontent.com/PipedreamHQ/pipedream/c622c98b5271564b7f23db9998441d353bd5db23/SECURITY.md
+  - https://raw.githubusercontent.com/PipedreamHQ/pipedream/1d228b7230b3d3559e19d451d44d318e5725ec63/README.md
+  - https://raw.githubusercontent.com/PipedreamHQ/pipedream/1d228b7230b3d3559e19d451d44d318e5725ec63/LICENSE
+  - https://raw.githubusercontent.com/PipedreamHQ/pipedream/1d228b7230b3d3559e19d451d44d318e5725ec63/package.json
+  - https://raw.githubusercontent.com/PipedreamHQ/pipedream/1d228b7230b3d3559e19d451d44d318e5725ec63/SECURITY.md
   - https://github.com/PipedreamHQ/pipedream/releases.atom

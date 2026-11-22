@@ -1,0 +1,86 @@
+schema_version: 2
+repository_id: github:dmmulroy/anti-slop
+research:
+  state: complete
+  source_commit: 63dbb09f73438e550a6991dc6d778f979ffbf183
+  bundle_collected_at: 2026-11-22T12:09:19.958Z
+  researched_at: 2026-11-22T12:23:58.023Z
+  confidence: high
+classification:
+  primary_category: testing-and-quality
+  topics:
+    - agent-skills
+    - policy-enforcement
+    - testing
+    - developer-productivity
+project:
+  name: anti-slop
+  kind: plugin
+  summary: An opinionated, source-vendored Oxlint plugin and agent skill that enforces
+    evidence-preserving TypeScript and JavaScript patterns, with an optional
+    Effect-specific rule set.
+  best_for:
+    - TypeScript and JavaScript teams that want strict, locally customizable lint
+      policy
+    - Coding-agent workflows that can install and maintain vendored Oxlint rules
+key_features:
+  - Generic lint rules covering type evidence, runtime narrowing, dictionaries,
+    mocks, assertions, performance, and spacing
+  - Five opt-in Effect rules for tagged values, matching, error handling, and service
+    construction boundaries
+  - Agent skill for initial installation and customization-preserving updates with
+    provenance tracking
+  - Manual source-vendoring workflow with exact Oxlint and @oxlint/plugins version
+    alignment
+  - Same-file alias and lexical-scope analysis through Oxlint ESTree APIs
+usage:
+  interfaces:
+    - Oxlint JavaScript plugin
+    - agent skill
+  installation:
+    - npx skills add dmmulroy/anti-slop --skill install-anti-slop
+    - manually vendor the src directory and register it in oxlint.config.ts
+  setup: moderate
+technology:
+  languages:
+    - TypeScript
+    - JavaScript
+  notable_components:
+    - Oxlint
+    - "@oxlint/plugins"
+    - Effect
+    - Agent Skills
+license:
+  spdx: MIT
+  name: MIT License
+  notes: The vendored ESLint Stylistic comment-aware engine retains its own MIT license
+    and provenance file, which must be copied with the code.
+status:
+  lifecycle: maintenance
+  archived: false
+  latest_release: v0.1.2
+  latest_release_at: 2026-08-31
+strengths:
+  - Provides broad, documented policy coverage for preserving type evidence and
+    discouraging low-signal patterns
+  - Vendoring makes the rules inspectable and adaptable to local standards
+  - The installation skill supports conservative updates that preserve customizations
+    and record provenance
+  - Dedicated rule tests and CI cover linting, tests, type checking, and skill-asset
+    drift
+caveats:
+  - The rules intentionally reflect the maintainer's preferences rather than a
+    universal coding standard
+  - There is no official npm package; adopters own the vendored copy and its
+    maintenance
+  - Analysis is syntactic and same-file scoped, without TypeScript type-checker or
+    cross-file inference
+  - Several rules omit autofixes because safe rewrites require semantic review
+  - The maintainer recommends Cloudflare’s Oxlint configuration for most adopters and
+    reserves this project for rules or behavior unique to it
+sources:
+  - https://raw.githubusercontent.com/dmmulroy/anti-slop/63dbb09f73438e550a6991dc6d778f979ffbf183/README.md
+  - https://raw.githubusercontent.com/dmmulroy/anti-slop/63dbb09f73438e550a6991dc6d778f979ffbf183/package.json
+  - https://raw.githubusercontent.com/dmmulroy/anti-slop/63dbb09f73438e550a6991dc6d778f979ffbf183/LICENSE
+  - https://raw.githubusercontent.com/dmmulroy/anti-slop/63dbb09f73438e550a6991dc6d778f979ffbf183/.github/workflows/ci.yml
+  - https://github.com/dmmulroy/anti-slop/releases.atom

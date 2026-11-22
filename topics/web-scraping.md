@@ -14,7 +14,7 @@
 
 ## [Browser Use](https://github.com/browser-use/browser-use)
 
-A Python library and CLI for LLM-driven agents that operate web browsers, including navigating pages, clicking controls, entering form data, and extracting information for repeatable web tasks.
+A Python library and CLI for language-model-driven browser tasks, built around a persistent Python execution context and Chrome DevTools Protocol, with local or hosted browser options.
 
 - **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-browser-use--browser-use)
 - **Topics:** [AI Agents](../topics/ai-agents.md#repo-browser-use--browser-use) | [Browser Automation](../topics/browser-automation.md#repo-browser-use--browser-use) | [Computer Use](../topics/computer-use.md#repo-browser-use--browser-use) | [Tool Use](../topics/tool-use.md#repo-browser-use--browser-use) | [CLI](../topics/cli.md#repo-browser-use--browser-use) | [MCP](../topics/mcp.md#repo-browser-use--browser-use) | [Web Scraping](../topics/web-scraping.md#repo-browser-use--browser-use)
@@ -23,13 +23,13 @@ A Python library and CLI for LLM-driven agents that operate web browsers, includ
 - **Languages:** Python
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 105,551
+- **GitHub stars:** 121,730
 
 **Key features**
 
-  - Agent API that executes a natural-language task with a selected LLM
-  - Browser interactions for pages, buttons, text input, forms, and data extraction
-  - Custom action tools for extending an agent's capabilities
+  - Accepts a browser task and runs it through a model-backed agent based on Pydantic AI
+  - Keeps Python execution state across task steps and operates a browser through Chrome DevTools Protocol
+  - Offers a local Python API and CLI and can connect either to local Chromium or cloud browsers
 
 <a id="repo-cloakhq--cloakbrowser"></a>
 
@@ -44,7 +44,7 @@ Python and JavaScript wrappers that launch a custom Chromium binary through Play
 - **Languages:** Python, TypeScript, C++
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 28,626
+- **GitHub stars:** 33,017
 
 **Key features**
 
@@ -63,9 +63,9 @@ An opinionated TypeScript configuration and extension collection for the Pi codi
 - **Kind:** Starter Template
 - **Best for:** Pi users seeking concrete examples of extending a personal coding-agent environment; Exploring a bundled set of search, terminal-management, and subagent extensions before selecting pieces to adapt
 - **Languages:** TypeScript, JavaScript
-- **License:** No repository license grant
+- **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 617
+- **GitHub stars:** 1,099
 
 **Key features**
 
@@ -86,7 +86,7 @@ A compact TypeScript research assistant that iteratively queries search and scra
 - **Languages:** TypeScript
 - **License:** MIT
 - **Lifecycle:** Unknown
-- **GitHub stars:** 19,376
+- **GitHub stars:** 19,912
 
 **Key features**
 
@@ -107,7 +107,7 @@ A scheduled TypeScript application that collects selected X posts and web pages,
 - **Languages:** TypeScript
 - **License:** MIT
 - **Lifecycle:** Unknown
-- **GitHub stars:** 4,102
+- **GitHub stars:** 4,130
 
 **Key features**
 
@@ -119,22 +119,22 @@ A scheduled TypeScript application that collects selected X posts and web pages,
 
 ## [firecrawl](https://github.com/firecrawl/firecrawl)
 
-An API and SDK platform for web search, scraping, crawling, and browser interaction that returns AI-ready Markdown, structured data, and other content.
+A web-content toolkit with a local CLI and MCP server, a hosted API, and a separately deployable self-hosted server for extracting and using website content.
 
 - **Category:** [Backend and APIs](../categories/backend-and-apis.md#repo-firecrawl--firecrawl)
 - **Topics:** [AI Agents](../topics/ai-agents.md#repo-firecrawl--firecrawl) | [LLMs](../topics/llms.md#repo-firecrawl--firecrawl) | [Web Search](../topics/web-search.md#repo-firecrawl--firecrawl) | [Web Scraping](../topics/web-scraping.md#repo-firecrawl--firecrawl) | [Browser Automation](../topics/browser-automation.md#repo-firecrawl--firecrawl) | [Document Processing](../topics/document-processing.md#repo-firecrawl--firecrawl) | [Self Hosted](../topics/self-hosted.md#repo-firecrawl--firecrawl) | [Open Source](../topics/open-source.md#repo-firecrawl--firecrawl)
 - **Kind:** Service
-- **Best for:** Developers supplying current web context to AI applications and agents; Teams that need search, extraction, crawling, and page interaction behind one API
+- **Best for:** Developers supplying web content to AI applications and agents; Teams choosing between a local parser, hosted web tools, and a self-hosted server
 - **Languages:** TypeScript, Go, Python, Rust
 - **License:** AGPL-3.0-or-later
 - **Lifecycle:** Active
-- **GitHub stars:** 153,101
+- **GitHub stars:** 206,568
 
 **Key features**
 
-  - Search the web and retrieve page content from results
-  - Scrape URLs into Markdown, HTML, screenshots, or structured JSON
-  - Crawl a site, map its URLs, or batch-scrape many pages asynchronously
+  - Scrape, crawl, map, and batch-scrape websites locally or through hosted APIs
+  - Convert pages to Markdown or structured data and handle JavaScript rendering for supported pages
+  - Expose the local tools through an MCP server and a localhost API
 
 <a id="repo-unclecode--crawl4ai"></a>
 
@@ -149,7 +149,7 @@ A Python crawler and scraper that uses browser automation to turn web pages into
 - **Languages:** Python, JavaScript
 - **License:** Apache License 2.0 with an additional attribution requirement
 - **Lifecycle:** Active
-- **GitHub stars:** 73,307
+- **GitHub stars:** 87,654
 
 **Key features**
 

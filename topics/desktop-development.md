@@ -2,10 +2,11 @@
 
 # Desktop Development
 
-[Back to the main catalog](../README.md) | **1 repositories**
+[Back to the main catalog](../README.md) | **2 repositories**
 
 ## Primary categories represented
 
+- [Application Frameworks](../categories/application-frameworks.md) (1)
 - [Platforms and Applications](../categories/platforms-and-applications.md) (1)
 
 <a id="repo-tyrrrz--youtubedownloader"></a>
@@ -21,10 +22,31 @@ A cross-platform graphical application for downloading YouTube videos, playlists
 - **Languages:** C#
 - **License:** MIT
 - **Lifecycle:** Maintenance
-- **GitHub stars:** 15,695
+- **GitHub stars:** 16,781
 
 **Key features**
 
   - Downloads videos by URL, playlist, channel, or keyword search query
   - Lets users select video quality and output format
   - Embeds alternate-language audio tracks, subtitles, and media tags automatically
+
+<a id="repo-vercel-labs--native"></a>
+
+## [Native SDK](https://github.com/vercel-labs/native)
+
+A declarative toolkit for compiling TypeScript-authored desktop interfaces to native executables, with optional embedded web content.
+
+- **Category:** [Application Frameworks](../categories/application-frameworks.md#repo-vercel-labs--native)
+- **Topics:** [Desktop Development](../topics/desktop-development.md#repo-vercel-labs--native) | [UI Components](../topics/ui-components.md#repo-vercel-labs--native) | [Design Systems](../topics/design-systems.md#repo-vercel-labs--native) | [Testing](../topics/testing.md#repo-vercel-labs--native) | [Agent Skills](../topics/agent-skills.md#repo-vercel-labs--native) | [Automation](../topics/automation.md#repo-vercel-labs--native) | [Developer Productivity](../topics/developer-productivity.md#repo-vercel-labs--native)
+- **Kind:** Framework
+- **Best for:** Developers building lightweight native desktop applications from TypeScript; Agent-driven UI workflows that benefit from deterministic record and replay
+- **Languages:** Zig, TypeScript
+- **License:** Apache-2.0
+- **Lifecycle:** Experimental
+- **GitHub stars:** 7,852
+
+**Key features**
+
+  - Compiles declarative .native markup and TypeScript logic to native binaries
+  - Provides components, design tokens, state architecture, and a development CLI
+  - Provides testing and automation interfaces for inspecting and driving apps

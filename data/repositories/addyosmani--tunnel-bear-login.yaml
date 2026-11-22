@@ -11,15 +11,19 @@ analysis:
     use_cases:
       - "design-interfaces"
   evidence:
-    - claim: "Tunnel Bear Login Animation is an educational React, TypeScript, Tailwind CSS, and Vite recreation of an animated login form, including input-responsive bear animations."
+    - claim: "Tunnel Bear Login Animation is an educational React, TypeScript,
+        Tailwind CSS, and Vite recreation of an animated login form, including
+        input-responsive bear animations."
       source_type: "repository-file"
       url: "https://github.com/addyosmani/tunnel-bear-login/blob/main/README.md"
       checked_at: "2026-07-19"
       confidence: "high"
   state: "researched"
   summary:
-    one_line: "An educational React recreation of an animated TunnelBear-inspired login form."
-    why_useful: "It demonstrates component-based interactive form animation and focused visual-state handling."
+    one_line: "An educational React recreation of an animated TunnelBear-inspired
+      login form."
+    why_useful: "It demonstrates component-based interactive form animation and
+      focused visual-state handling."
 curation:
   confidence: null
   evidence: []
@@ -33,29 +37,29 @@ id: "github:addyosmani/tunnel-bear-login"
 import:
   github_snapshot:
     archived: false
-    created_at: "2025-02-16T06:59:29Z"
-    default_branch: "main"
-    description: "Repro of \"The Tunnel Bear\" login page"
+    created_at: 2025-02-16T06:59:29Z
+    default_branch: main
+    description: Repro of "The Tunnel Bear" login page
     disabled: false
-    fetched_at: "2026-07-19T19:16:14.796Z"
+    fetched_at: 2026-11-22T12:07:00.148Z
     fork: false
-    forks: 80
-    homepage: "https://bear.addy.ie"
+    forks: 81
+    homepage: https://bear.addy.ie
     latest_release: null
     license_spdx: null
     open_issues: 6
-    primary_language: "TypeScript"
-    pushed_at: "2025-02-16T21:31:08Z"
-    stars: 405
+    primary_language: TypeScript
+    pushed_at: 2025-02-16T21:31:08Z
+    stars: 407
     topics:
-      - "login"
-    updated_at: "2026-06-30T19:21:57Z"
+      - login
+    updated_at: 2026-11-17T03:28:18Z
   sources:
-    - observed_at: "2025-03-06T15:23:57Z"
-      relation: "starred"
-      source_id: "github:user:tomseai:stars"
-      source_url: "https://github.com/tomseai?tab=stars"
-  state: "imported"
+    - observed_at: 2025-03-06T15:23:57Z
+      relation: starred
+      source_id: github:user:tomseai:stars
+      source_url: https://github.com/tomseai?tab=stars
+  state: refreshed
 repository:
   aliases: []
   github_node_id: "R_kgDON6R4tA"

@@ -2,9 +2,9 @@ schema_version: 2
 repository_id: github:waynesutton/opensync
 research:
   state: complete
-  source_commit: 80005262fed8dac894fe618352a5e4b94c53813d
-  bundle_collected_at: 2026-07-19T20:45:58.972Z
-  researched_at: 2026-07-20T15:55:00.000Z
+  source_commit: 030d4a55f8475b412ee8a9b072bcf55e721116f8
+  bundle_collected_at: 2026-11-22T12:10:39.344Z
+  researched_at: 2026-11-22T12:18:43.417Z
   confidence: high
 classification:
   primary_category: developer-tools
@@ -22,17 +22,24 @@ project:
   kind: application
   summary: >-
     A hosted or self-hosted dashboard and API for collecting AI coding-session
-    data from supported sync plugins, then searching, analysing, exporting,
-    and reusing that activity for evaluation and context workflows.
+    data from supported sync plugins, then searching, analysing, exporting, and
+    reusing that activity for evaluation and context workflows.
   best_for:
-    - Teams that want a shared dashboard for coding-agent sessions, tool activity, and token spend
-    - Developers who want to search or export past sessions for evaluations and context retrieval
+    - Teams that want a shared dashboard for coding-agent sessions, tool
+      activity, and token spend
+    - Developers who want to search or export past sessions for evaluations and
+      context retrieval
 key_features:
-  - Syncs sessions in real time through separate plugins for OpenCode, Claude Code, Codex CLI, Cursor, Pi, and Factory Droid
-  - Provides full-text, semantic, and hybrid session search alongside an API for sessions, search, context, and export
-  - Offers dashboard views for usage, sessions, evaluations, and analytics including model, project, and cost breakdowns
-  - Marks sessions for evaluation and exports DeepEval JSON, OpenAI Evals JSONL, or plain text
-  - Supports self-hosting with Convex, WorkOS authentication, React, and OpenAI embeddings
+  - Syncs sessions in real time through separate plugins for OpenCode, Claude
+    Code, Codex CLI, Cursor, Pi, and Factory Droid
+  - Provides full-text, semantic, and hybrid session search alongside an API for
+    sessions, search, context, and export
+  - Offers dashboard views for usage, sessions, evaluations, and analytics
+    including model, project, and cost breakdowns
+  - Marks sessions for evaluation and exports DeepEval JSON, OpenAI Evals JSONL,
+    or plain text
+  - Supports self-hosting with Convex, WorkOS authentication, React, and OpenAI
+    embeddings
 usage:
   interfaces:
     - hosted web dashboard
@@ -56,24 +63,30 @@ technology:
 license:
   spdx: MIT
   name: MIT License
-  notes: Permissive license; retain the copyright and permission notice in copies or substantial portions.
+  notes: Permissive license; retain the copyright and permission notice in copies
+    or substantial portions.
 status:
   lifecycle: maintenance
   archived: false
   latest_release: v1.2.0
   latest_release_at: 2026-01-22
 strengths:
-  - Unifies session telemetry from several coding-agent ecosystems in one searchable data model
-  - Has direct paths from recorded sessions to evaluation datasets and context retrieval
+  - Unifies session telemetry from several coding-agent ecosystems in one
+    searchable data model
+  - Has direct paths from recorded sessions to evaluation datasets and context
+    retrieval
   - Documents both an immediate hosted flow and a self-hosted deployment option
 caveats:
-  - The retained release feed's newest release is v1.2.0 from January 2026, and the imported snapshot records the last repository push in February 2026
-  - Self-hosting requires configuring Convex, WorkOS, OpenAI, environment variables, and at least one separate sync plugin
-  - Semantic search depends on an OpenAI API key and is asynchronous after session synchronization
+  - The retained release feed's newest release is v1.2.0 from January 2026, and
+    the imported snapshot records the last repository push in February 2026
+  - Self-hosting requires configuring Convex, WorkOS, OpenAI, environment
+    variables, and at least one separate sync plugin
+  - Semantic search depends on an OpenAI API key and is asynchronous after
+    session synchronization
 sources:
-  - https://raw.githubusercontent.com/waynesutton/opensync/80005262fed8dac894fe618352a5e4b94c53813d/README.md
-  - https://raw.githubusercontent.com/waynesutton/opensync/80005262fed8dac894fe618352a5e4b94c53813d/LICENSE
-  - https://raw.githubusercontent.com/waynesutton/opensync/80005262fed8dac894fe618352a5e4b94c53813d/package.json
-  - https://raw.githubusercontent.com/waynesutton/opensync/80005262fed8dac894fe618352a5e4b94c53813d/changelog.md
-  - https://raw.githubusercontent.com/waynesutton/opensync/80005262fed8dac894fe618352a5e4b94c53813d/install.md
+  - https://raw.githubusercontent.com/waynesutton/opensync/030d4a55f8475b412ee8a9b072bcf55e721116f8/README.md
+  - https://raw.githubusercontent.com/waynesutton/opensync/030d4a55f8475b412ee8a9b072bcf55e721116f8/LICENSE
+  - https://raw.githubusercontent.com/waynesutton/opensync/030d4a55f8475b412ee8a9b072bcf55e721116f8/package.json
+  - https://raw.githubusercontent.com/waynesutton/opensync/030d4a55f8475b412ee8a9b072bcf55e721116f8/changelog.md
+  - https://raw.githubusercontent.com/waynesutton/opensync/030d4a55f8475b412ee8a9b072bcf55e721116f8/install.md
   - https://github.com/waynesutton/opensync/releases.atom

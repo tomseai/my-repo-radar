@@ -1,0 +1,72 @@
+analysis:
+  analyzed_at: 2026-11-22T11:28:29Z
+  classification:
+    primary_category: testing-and-quality
+    state: confirmed
+    technologies:
+      - rust
+    topics:
+      - cli
+      - libraries
+      - developer-productivity
+    use_cases:
+      - improve-developer-workflow
+  evidence:
+    - claim: A Rust CLI and library for measuring cognitive and cyclomatic complexity
+        across mixed-language source trees.
+      source_type: repository-file
+      url: https://raw.githubusercontent.com/moznion/cccc/118d362372f53c2c391b2b41a7a0f16c1e29dda7/README.md
+      checked_at: 2026-11-22
+      confidence: high
+  state: complete
+  summary:
+    one_line: A Rust CLI and library for measuring cognitive and cyclomatic
+      complexity across mixed-language source trees.
+    why_useful: Developers reviewing complexity hotspots or enforcing thresholds in CI
+curation:
+  confidence: null
+  evidence: []
+  limitations: []
+  recommendation: null
+  reviewed_at: null
+  state: "uncurated"
+  strengths: []
+  verdict: null
+id: "github:moznion/cccc"
+import:
+  github_snapshot:
+    archived: false
+    created_at: 2026-05-31T14:53:11Z
+    default_branch: main
+    description: A tool/library for measurement of "C"ognitive "C"omplexity and
+      "C"yclomatic "C"omplexity
+    disabled: false
+    fetched_at: 2026-11-22T12:07:00.148Z
+    fork: false
+    forks: 18
+    homepage: https://crates.io/crates/cccc-core
+    latest_release:
+      tag: v1.10.0
+      published_at: 2026-11-22T01:45:30Z
+      url: https://github.com/moznion/cccc/releases/tag/v1.10.0
+    license_spdx: MIT
+    open_issues: 1
+    primary_language: Rust
+    pushed_at: 2026-11-22T01:42:05Z
+    stars: 614
+    topics: []
+    updated_at: 2026-11-22T03:55:36Z
+  sources:
+    - observed_at: 2026-10-19T16:48:52Z
+      relation: starred
+      source_id: github:user:tomseai:stars
+      source_url: https://github.com/tomseai?tab=stars
+  state: refreshed
+repository:
+  aliases: []
+  github_node_id: "R_kgDOStELNQ"
+  host: "github.com"
+  name: "cccc"
+  owner: "moznion"
+  url: "https://github.com/moznion/cccc"
+version: 1

@@ -2,9 +2,9 @@ schema_version: 2
 repository_id: github:vercel-labs/deepsec
 research:
   state: complete
-  source_commit: 97ebd04b455a492dfd5b9ad86f2dd9cf8b05fa04
-  bundle_collected_at: 2026-07-19T20:45:53.150Z
-  researched_at: 2026-07-20T16:13:10.340Z
+  source_commit: 9444b896ca60eb399f9cebaea0bef61655781d42
+  bundle_collected_at: 2026-11-22T12:10:36.851Z
+  researched_at: 2026-11-22T12:23:58.000Z
   confidence: high
 classification:
   primary_category: security-and-privacy
@@ -18,19 +18,21 @@ classification:
 project:
   name: Deepsec
   kind: cli
-  summary: >-
-    An agent-powered vulnerability-scanning CLI that combines matcher-based
-    candidate discovery with AI investigation, finding revalidation, and
-    report export for application codebases.
+  summary: An agent-powered vulnerability-scanning CLI that combines matcher-based
+    candidate discovery with AI investigation, finding revalidation, and report
+    export for application codebases.
   best_for:
-    - Security teams reviewing established or large codebases for application-specific vulnerabilities
-    - Teams that can budget model usage and want repeatable pull-request or CI security review
+    - Security teams reviewing established or large codebases for
+      application-specific vulnerabilities
+    - Teams that can budget model usage and want repeatable pull-request or CI
+      security review
 key_features:
   - Fast regex matcher scans to find candidate code locations before AI investigation
   - AI-powered process and revalidate stages with Codex, Claude, or Pi backends
   - Resumable, append-only runs that preserve findings and analysis history
   - Diff-only processing for pull-request review and CI gating
-  - Markdown-directory or JSON finding exports, with optional distributed Vercel Sandbox execution
+  - Markdown-directory or JSON finding exports, with optional distributed Vercel
+    Sandbox execution
 usage:
   interfaces:
     - CLI
@@ -58,16 +60,21 @@ status:
   latest_release_at: null
 strengths:
   - Separates inexpensive candidate discovery from targeted agent investigation
-  - Revalidation and append-only history make findings easier to revisit without replacing earlier evidence
-  - Supports local operation and optional parallel sandbox execution for large repositories
+  - Revalidation and append-only history make findings easier to revisit without
+    replacing earlier evidence
+  - Supports local operation and optional parallel sandbox execution for large
+    repositories
 caveats:
-  - Deepsec runs coding agents with full shell access, so it should be used only on trusted code or in an appropriate sandbox
-  - Full scans of large repositories can require substantial model spend; the documentation cites costs in the thousands or tens of thousands of dollars
-  - Real scans require AI-provider credentials, with Vercel AI Gateway documented as the standard path; distributed execution also needs a Vercel account
-  - The captured GitHub release feed contains no release entries, so no latest GitHub release can be established
+  - Deepsec runs coding agents with full shell access, so it should be used only on
+    trusted code or in an appropriate sandbox
+  - Full scans of large repositories can require substantial model spend; the
+    documentation cites costs in the thousands or tens of thousands of dollars
+  - Scans need provider credentials such as a direct OpenAI or Anthropic API key or
+    Vercel AI Gateway; Vercel-hosted worker sandboxes require a Vercel account
+  - The retained evidence establishes no GitHub project release
 sources:
-  - https://raw.githubusercontent.com/vercel-labs/deepsec/97ebd04b455a492dfd5b9ad86f2dd9cf8b05fa04/README.md
-  - https://raw.githubusercontent.com/vercel-labs/deepsec/97ebd04b455a492dfd5b9ad86f2dd9cf8b05fa04/LICENSE
-  - https://raw.githubusercontent.com/vercel-labs/deepsec/97ebd04b455a492dfd5b9ad86f2dd9cf8b05fa04/docs/architecture.md
-  - https://raw.githubusercontent.com/vercel-labs/deepsec/97ebd04b455a492dfd5b9ad86f2dd9cf8b05fa04/docs/vercel-setup.md
+  - https://raw.githubusercontent.com/vercel-labs/deepsec/9444b896ca60eb399f9cebaea0bef61655781d42/README.md
+  - https://raw.githubusercontent.com/vercel-labs/deepsec/9444b896ca60eb399f9cebaea0bef61655781d42/LICENSE
+  - https://raw.githubusercontent.com/vercel-labs/deepsec/9444b896ca60eb399f9cebaea0bef61655781d42/docs/architecture.md
+  - https://raw.githubusercontent.com/vercel-labs/deepsec/9444b896ca60eb399f9cebaea0bef61655781d42/docs/vercel-setup.md
   - https://github.com/vercel-labs/deepsec/releases.atom

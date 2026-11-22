@@ -2,9 +2,9 @@ schema_version: 2
 repository_id: github:lfnovo/open-notebook
 research:
   state: complete
-  source_commit: c04c26dfade4b5540ad6017d611b8c5e1de9dd87
-  bundle_collected_at: 2026-07-19T20:43:51.724Z
-  researched_at: 2026-07-20T15:41:35.736Z
+  source_commit: 0c1e7abbd77411057d8feef02fc4588ec9a556d6
+  bundle_collected_at: 2026-11-22T12:09:49.676Z
+  researched_at: 2026-11-22T12:28:47.673Z
   confidence: high
 classification:
   primary_category: ai-and-automation
@@ -56,18 +56,21 @@ license:
 status:
   lifecycle: active
   archived: false
-  latest_release: v1.13.0
-  latest_release_at: 2026-07-14
+  latest_release: v1.15.1
+  latest_release_at: 2026-11-04
 strengths:
-  - Combines source management, search, chat, notes, and audio generation in one self-hosted application
+  - Combines source management, search, chat, notes, and audio generation in one
+    self-hosted application
   - Supports a broad mix of local and hosted AI providers
   - Provides both an interactive UI and programmatic REST API
 caveats:
   - Docker is required for the documented quick-start deployment
   - Hosted-model features require configuring the relevant provider credentials
-  - Advanced extraction engines are optional and can add first-start downloads or runtime requirements
+  - Advanced extraction engines are optional and can add first-start downloads
+    or runtime requirements
 sources:
-  - https://raw.githubusercontent.com/lfnovo/open-notebook/c04c26dfade4b5540ad6017d611b8c5e1de9dd87/README.md
-  - https://raw.githubusercontent.com/lfnovo/open-notebook/c04c26dfade4b5540ad6017d611b8c5e1de9dd87/LICENSE
-  - https://raw.githubusercontent.com/lfnovo/open-notebook/c04c26dfade4b5540ad6017d611b8c5e1de9dd87/docs/7-DEVELOPMENT/architecture.md
+  - https://raw.githubusercontent.com/lfnovo/open-notebook/0c1e7abbd77411057d8feef02fc4588ec9a556d6/README.md
+  - https://raw.githubusercontent.com/lfnovo/open-notebook/0c1e7abbd77411057d8feef02fc4588ec9a556d6/LICENSE
+  - https://raw.githubusercontent.com/lfnovo/open-notebook/0c1e7abbd77411057d8feef02fc4588ec9a556d6/docs/7-DEVELOPMENT/architecture.md
   - https://github.com/lfnovo/open-notebook/releases.atom
+  - https://github.com/lfnovo/open-notebook/releases/tag/v1.15.1

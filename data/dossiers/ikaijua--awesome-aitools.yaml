@@ -2,9 +2,9 @@ schema_version: 2
 repository_id: github:ikaijua/Awesome-AITools
 research:
   state: complete
-  source_commit: 1d89f91523991a58627c951337bc814603033e91
-  bundle_collected_at: 2026-07-19T20:43:28.660Z
-  researched_at: 2026-07-20T10:00:00+02:00
+  source_commit: fbc357c8999efb785e873f523e41273550637df6
+  bundle_collected_at: 2026-11-22T12:09:37.447Z
+  researched_at: 2026-11-22T12:21:35.737034+00:00
   confidence: medium
 classification:
   primary_category: documentation-and-learning
@@ -24,10 +24,11 @@ project:
     - Finding a broad starting set of AI products, projects, and resources
     - Browsing AI-agent and AI-coding entries alongside topic-specific guides
 key_features:
-  - Groups entries into many topic sections, including AI chatbots, open-source LLMs, AI agents, agent skills, and AI coding
+  - Groups entries into many topic sections, including AI chatbots, open-source
+    LLMs, AI agents, agent skills, and AI coding
   - Provides English and Chinese top-level READMEs
-  - Links selected agent and tool entries to dedicated Markdown introduction pages
-  - Includes a maintained changelog that records additions, removals, renames, and category changes
+  - Includes a maintained changelog that records additions, removals, renames,
+    and category changes
 usage:
   interfaces:
     - GitHub repository README
@@ -40,13 +41,11 @@ technology:
   notable_components:
     - Categorized Markdown directory
     - English and Chinese README entry points
-    - Topic-specific introduction pages under docs
 license:
-  spdx: null
-  name: No license detected
-  notes: >-
-    No license file is present in the retained repository tree and the imported
-    GitHub snapshot reports no SPDX license; reuse permission is therefore not established.
+  spdx: CC-BY-4.0
+  name: Creative Commons Attribution 4.0 International
+  notes: The list may be shared and adapted with attribution. Listed third-party
+    tools retain their own licenses.
 status:
   lifecycle: active
   archived: false
@@ -54,16 +53,17 @@ status:
   latest_release_at: null
 strengths:
   - Covers a notably broad set of AI discovery areas in one navigable directory
-  - Makes selected fast-moving agent tools easier to compare through linked explanatory pages
-  - Records recent list maintenance in a changelog rather than leaving changes implicit
+  - Records recent list maintenance in a changelog rather than leaving changes
+    implicit
 caveats:
-  - This is a directory of third-party tools, not an implementation or compatibility guarantee for any listed item
-  - Entry descriptions and external links can change faster than the list's commit-pinned snapshot
-  - No repository license was found, so downstream copying or redistribution needs permission from the copyright holder
-  - The cached GitHub releases feed contains no release entries; no project release can be established
+  - This is a directory of third-party tools, not an implementation or
+    compatibility guarantee for any listed item
+  - Entry descriptions and external links can change faster than the list's
+    commit-pinned snapshot
+  - The releases feed contains weekly directory updates rather than a versioned
+    product release; no primary release is recorded
 sources:
-  - https://raw.githubusercontent.com/ikaijua/Awesome-AITools/1d89f91523991a58627c951337bc814603033e91/README.md
-  - https://raw.githubusercontent.com/ikaijua/Awesome-AITools/1d89f91523991a58627c951337bc814603033e91/CHANGELOG.md
-  - https://raw.githubusercontent.com/ikaijua/Awesome-AITools/1d89f91523991a58627c951337bc814603033e91/docs/agents/README.md
-  - https://raw.githubusercontent.com/ikaijua/Awesome-AITools/1d89f91523991a58627c951337bc814603033e91/docs/COMPARISON.md
+  - https://raw.githubusercontent.com/ikaijua/Awesome-AITools/fbc357c8999efb785e873f523e41273550637df6/README.md
+  - https://raw.githubusercontent.com/ikaijua/Awesome-AITools/fbc357c8999efb785e873f523e41273550637df6/CHANGELOG.md
   - https://github.com/ikaijua/Awesome-AITools/releases.atom
+  - https://raw.githubusercontent.com/ikaijua/Awesome-AITools/fbc357c8999efb785e873f523e41273550637df6/LICENSE

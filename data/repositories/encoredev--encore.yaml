@@ -1,0 +1,95 @@
+analysis:
+  analyzed_at: 2026-11-22T12:00:00Z
+  classification:
+    primary_category: application-frameworks
+    state: confirmed
+    technologies:
+      - go
+      - typescript
+    topics:
+      - backend-development
+      - api-development
+      - cloud
+      - deployment
+      - observability
+      - frameworks
+      - cli
+    use_cases:
+      - build-backend-services
+      - ship-and-operate-software
+  evidence:
+    - claim: A Go and TypeScript backend framework with local infrastructure
+        orchestration and an optional managed cloud deployment platform.
+      source_type: repository-file
+      url: https://raw.githubusercontent.com/encoredev/encore/8a7465a4498237ef22b66dc40ffd6ac8aad1eee6/README.md
+      checked_at: 2026-11-22
+      confidence: high
+  state: complete
+  summary:
+    one_line: A Go and TypeScript backend framework with local infrastructure
+      orchestration and an optional managed cloud deployment platform.
+    why_useful: Teams building backend services with consistent local and cloud
+      infrastructure
+curation:
+  confidence: null
+  evidence: []
+  limitations: []
+  recommendation: null
+  reviewed_at: null
+  state: "uncurated"
+  strengths: []
+  verdict: null
+id: "github:encoredev/encore"
+import:
+  github_snapshot:
+    archived: false
+    created_at: 2021-02-17T16:33:24Z
+    default_branch: main
+    description: Infrastructure orchestration from local to your cloud
+    disabled: false
+    fetched_at: 2026-11-22T12:07:00.148Z
+    fork: false
+    forks: 663
+    homepage: https://encore.dev
+    latest_release:
+      tag: v1.58.9
+      published_at: 2026-11-12T21:31:16Z
+      url: https://github.com/encoredev/encore/releases/tag/v1.58.9
+    license_spdx: MPL-2.0
+    open_issues: 154
+    primary_language: Go
+    pushed_at: 2026-11-13T10:05:22Z
+    stars: 12733
+    topics:
+      - aws
+      - backend
+      - cloud
+      - cloud-native
+      - database
+      - devops
+      - devops-automation
+      - distributed-systems
+      - encore
+      - gcp
+      - go
+      - golang
+      - infrastructure-as-code
+      - infrastructure-automation
+      - microservices
+      - serverless
+      - typescript
+    updated_at: 2026-11-21T22:58:53Z
+  sources:
+    - observed_at: 2026-09-25T12:58:24Z
+      relation: starred
+      source_id: github:user:tomseai:stars
+      source_url: https://github.com/tomseai?tab=stars
+  state: refreshed
+repository:
+  aliases: []
+  github_node_id: "MDEwOlJlcG9zaXRvcnkzMzk3ODY5NTA="
+  host: "github.com"
+  name: "encore"
+  owner: "encoredev"
+  url: "https://github.com/encoredev/encore"
+version: 1

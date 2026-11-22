@@ -16,15 +16,20 @@ analysis:
       - "build-ai-products"
       - "improve-developer-workflow"
   evidence:
-    - claim: "Claw Code is a public Rust implementation of the claw CLI agent harness, with commands for prompts, interactive sessions, configuration, and health checks; its maintainers describe the repository as an agent-managed exhibit rather than a production project."
+    - claim: "Claw Code is a public Rust implementation of the claw CLI agent harness,
+        with commands for prompts, interactive sessions, configuration, and
+        health checks; its maintainers describe the repository as an
+        agent-managed exhibit rather than a production project."
       source_type: "repository-file"
       url: "https://github.com/ultraworkers/claw-code/blob/main/README.md"
       checked_at: "2026-07-19"
       confidence: "high"
   state: "researched"
   summary:
-    one_line: "A Rust implementation of a CLI agent harness, maintained as an agent-managed public exhibit."
-    why_useful: "It exposes a buildable agent CLI and documents its configuration, session, provider, and parity-harness workflows."
+    one_line: "A Rust implementation of a CLI agent harness, maintained as an
+      agent-managed public exhibit."
+    why_useful: "It exposes a buildable agent CLI and documents its configuration,
+      session, provider, and parity-harness workflows."
 curation:
   confidence: null
   evidence: []
@@ -38,28 +43,32 @@ id: "github:ultraworkers/claw-code"
 import:
   github_snapshot:
     archived: false
-    created_at: "2026-03-31T08:58:08Z"
-    default_branch: "main"
-    description: "An agent-managed museum exhibit, built in Rust with Gajae-Code / LazyCodex — developed and maintained with no human intervention."
+    created_at: 2026-03-31T08:58:08Z
+    default_branch: main
+    description: An agent-managed museum exhibit, built in Rust with Gajae-Code /
+      LazyCodex — developed and maintained with no human intervention.
     disabled: false
-    fetched_at: "2026-07-19T19:16:14.796Z"
+    fetched_at: 2026-11-22T12:07:00.148Z
     fork: false
-    forks: 109606
+    forks: 107155
     homepage: ""
-    latest_release: null
-    license_spdx: "MIT"
-    open_issues: 31
-    primary_language: "Rust"
-    pushed_at: "2026-06-26T16:17:10Z"
-    stars: 194826
+    latest_release:
+      tag: v0.1.13
+      published_at: 2026-11-09T03:09:53Z
+      url: https://github.com/ultraworkers/claw-code/releases/tag/v0.1.13
+    license_spdx: MIT
+    open_issues: 13
+    primary_language: Rust
+    pushed_at: 2026-11-10T05:59:18Z
+    stars: 194743
     topics: []
-    updated_at: "2026-07-19T18:31:58Z"
+    updated_at: 2026-11-22T10:49:42Z
   sources:
-    - observed_at: "2026-04-03T15:14:00Z"
-      relation: "starred"
-      source_id: "github:user:tomseai:stars"
-      source_url: "https://github.com/tomseai?tab=stars"
-  state: "imported"
+    - observed_at: 2026-04-03T15:14:00Z
+      relation: starred
+      source_id: github:user:tomseai:stars
+      source_url: https://github.com/tomseai?tab=stars
+  state: refreshed
 repository:
   aliases: []
   github_node_id: "R_kgDOR1kXog"

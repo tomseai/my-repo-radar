@@ -10,7 +10,8 @@ analysis:
     use_cases:
       - "improve-developer-workflow"
   evidence:
-    - claim: "The repository contains Pierre's open-source TypeScript projects for rendering code diffs and repository trees."
+    - claim: "The repository contains Pierre's open-source TypeScript projects for
+        rendering code diffs and repository trees."
       confidence: "high"
       source_type: "repository-file"
       url: "https://github.com/pierrecomputer/pierre/blob/main/README.md"
@@ -18,7 +19,8 @@ analysis:
   state: "complete"
   summary:
     one_line: "TypeScript components for rendering code diffs and repository trees."
-    why_useful: "It provides reusable visual building blocks for code review and repository navigation interfaces."
+    why_useful: "It provides reusable visual building blocks for code review and
+      repository navigation interfaces."
 curation:
   confidence: null
   evidence: []
@@ -32,30 +34,34 @@ id: "github:pierrecomputer/pierre"
 import:
   github_snapshot:
     archived: false
-    created_at: "2025-09-19T17:26:04Z"
-    default_branch: "main"
-    description: "pierre’s open source code"
+    created_at: 2025-09-19T17:26:04Z
+    default_branch: main
+    description: pierre’s open source code
     disabled: false
-    fetched_at: "2026-07-19T19:16:14.796Z"
+    fetched_at: 2026-11-22T12:07:00.148Z
     fork: false
-    forks: 179
-    homepage: "https://pierre.computer"
-    latest_release: null
-    license_spdx: null
-    open_issues: 60
-    primary_language: "TypeScript"
-    pushed_at: "2026-07-19T18:45:21Z"
-    stars: 5444
+    forks: 295
+    homepage: https://pierre.computer
+    latest_release:
+      tag: diffs-v1.6.4
+      published_at: 2026-11-03T23:45:15Z
+      url: https://github.com/pierrecomputer/pierre/releases/tag/diffs-v1.6.4
+    license_spdx: Apache-2.0
+    open_issues: 88
+    primary_language: TypeScript
+    pushed_at: 2026-11-21T01:55:45Z
+    stars: 6638
     topics:
-      - "diffs"
-      - "memescale"
-    updated_at: "2026-07-19T17:23:23Z"
+      - diffs
+      - memescale
+      - trees
+    updated_at: 2026-11-22T10:12:21Z
   sources:
-    - observed_at: "2026-05-24T19:57:01Z"
-      relation: "starred"
-      source_id: "github:user:tomseai:stars"
-      source_url: "https://github.com/tomseai?tab=stars"
-  state: "imported"
+    - observed_at: 2026-07-19T20:05:24Z
+      relation: starred
+      source_id: github:user:tomseai:stars
+      source_url: https://github.com/tomseai?tab=stars
+  state: refreshed
 repository:
   aliases: []
   github_node_id: "R_kgDOPzLn5Q"

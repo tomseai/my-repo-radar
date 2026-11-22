@@ -1,25 +1,30 @@
 analysis:
-  analyzed_at: "2026-07-19T19:47:51.088Z"
+  analyzed_at: "2026-11-22T12:25:03.789Z"
   classification:
     primary_category: "developer-tools"
     state: "provisional"
-    technologies: []
+    technologies:
+      - rust
     topics:
-      - "ai-agents"
-      - "llms"
-      - "cli"
+      - coding-agents
+      - agent-harnesses
+      - llms
+      - cli
     use_cases:
       - "improve-developer-workflow"
   evidence:
-    - claim: "Distill is an npm-installed command-line tool that compresses agent command output to the information needed by an LLM and ships with a 1.7B 4-bit MLX model."
-      source_type: "repository-file"
-      url: "https://github.com/samuelfaj/distill/blob/main/README.md"
-      checked_at: "2026-07-19"
-      confidence: "high"
+    - claim: A Rust terminal coding-agent harness with configurable model tiers. It
+        lets developers select models for different levels of work within a
+        single terminal workflow.
+      source_type: repository-file
+      url: https://raw.githubusercontent.com/samuelfaj/distill/4da0b4ed81d6db75327b1e005acaa4026a5c0f6b/README.md
+      checked_at: 2026-11-22
+      confidence: high
   state: "researched"
   summary:
-    one_line: "CLI tool for compressing agent command output before it is sent to an LLM."
-    why_useful: "It reduces the command-output context that coding-agent workflows need to process."
+    one_line: A Rust terminal coding-agent harness with configurable model tiers.
+    why_useful: It lets developers select models for different levels of work within
+      a single terminal workflow.
 curation:
   confidence: null
   evidence: []
@@ -33,32 +38,37 @@ id: "github:samuelfaj/distill"
 import:
   github_snapshot:
     archived: false
-    created_at: "2026-03-06T14:37:09Z"
-    default_branch: "main"
-    description: "Distill large CLI outputs into small answers for LLMs and save tokens!"
+    created_at: 2026-03-06T14:37:09Z
+    default_branch: main
+    description: Get FAR MORE done with FAR FEWER tokens 🔥
     disabled: false
-    fetched_at: "2026-07-19T19:16:14.796Z"
+    fetched_at: 2026-11-22T12:07:00.148Z
     fork: false
-    forks: 42
-    homepage: ""
-    latest_release: null
-    license_spdx: null
-    open_issues: 7
-    primary_language: "TypeScript"
-    pushed_at: "2026-06-18T03:43:09Z"
-    stars: 651
+    forks: 55
+    homepage: https://www.samuelfaj.com/en/distill/
+    latest_release:
+      tag: v2.0.83
+      published_at: 2026-11-20T20:19:22Z
+      url: https://github.com/samuelfaj/distill/releases/tag/v2.0.83
+    license_spdx: Apache-2.0
+    open_issues: 0
+    primary_language: Rust
+    pushed_at: 2026-11-20T19:15:47Z
+    stars: 780
     topics:
-      - "claude-code"
-      - "codex"
-      - "llm"
-      - "tokens"
-    updated_at: "2026-07-18T15:15:32Z"
+      - claude-code
+      - codex
+      - grok
+      - jev
+      - llm
+      - tokens
+    updated_at: 2026-11-21T18:20:15Z
   sources:
-    - observed_at: "2026-04-04T16:14:08Z"
-      relation: "starred"
-      source_id: "github:user:tomseai:stars"
-      source_url: "https://github.com/tomseai?tab=stars"
-  state: "imported"
+    - observed_at: 2026-04-04T16:14:08Z
+      relation: starred
+      source_id: github:user:tomseai:stars
+      source_url: https://github.com/tomseai?tab=stars
+  state: refreshed
 repository:
   aliases: []
   github_node_id: "R_kgDORgHAWg"

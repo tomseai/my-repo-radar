@@ -1,0 +1,97 @@
+schema_version: 2
+repository_id: github:cheaper-inference/OmniRoute
+research:
+  state: complete
+  source_commit: 5ffa68e835442a12ed1204a2eebf4076c298aecb
+  bundle_collected_at: 2026-11-22T12:09:17.783Z
+  researched_at: 2026-11-22T12:22:05Z
+  confidence: high
+classification:
+  primary_category: ai-and-automation
+  topics:
+    - llms
+    - llm-gateways
+    - model-routing
+    - multi-provider
+    - cli
+    - web-ui
+    - mcp
+    - self-hosted
+    - token-usage
+project:
+  name: OmniRoute
+  kind: service
+  summary: >-
+    A self-hosted AI gateway, dashboard, and command-line tool that routes
+    compatible coding clients across configured providers and model combinations
+    through OpenAI-compatible APIs.
+  best_for:
+    - Centralizing local or remote routing for several coding tools and AI
+      providers
+    - Applying configurable fallback, quota management, and compression to agent
+      traffic
+key_features:
+  - OpenAI-compatible APIs with provider-format translation and streaming support
+  - Automatic and user-defined model combos with multiple routing and fallback
+    strategies
+  - Provider, account, quota, health, and cost management from a dashboard and
+    CLI
+  - Compression pipeline for tool results and context, with optional fidelity
+    evaluation tooling
+  - MCP transports and an A2A endpoint for agents to operate gateway functions
+  - Docker, source, pnpm, and platform-specific installation paths
+usage:
+  interfaces:
+    - Web dashboard
+    - CLI and terminal chat client
+    - OpenAI-compatible HTTP API
+    - MCP server
+    - A2A endpoint
+  installation:
+    - npm global package
+    - Docker image
+    - Source checkout with Node.js
+    - pnpm package
+  setup: moderate
+technology:
+  languages:
+    - TypeScript
+  notable_components:
+    - Next.js
+    - React
+    - SQLite
+    - Model Context Protocol
+    - Server-Sent Events
+license:
+  spdx: MIT
+  name: MIT License
+  notes: >-
+    Permits use, modification, distribution, sublicensing, and sale when the
+    copyright and permission notice are retained; it is provided without
+    warranty.
+status:
+  lifecycle: active
+  archived: false
+  latest_release: v3.8.54
+  latest_release_at: 2026-11-17
+strengths:
+  - Combines provider routing, operator controls, and coding-client
+    configuration in one application
+  - Supports local dashboard, CLI, HTTP API, MCP, and A2A access patterns
+  - Documents dedicated security controls, scoped remote access, and several
+    deployment modes
+caveats:
+  - The repository has moved from diegosouzapw/OmniRoute to cheaper-inference/OmniRoute; the current default branch is a release branch.
+  - Node.js version requirements and the broad provider and protocol surface
+    make self-hosted operation non-trivial
+  - Provider credentials, free-tier availability, routing behavior, and costs
+    remain dependent on external services
+  - Compression modes may alter natural-language context or output; review their
+    documented trade-offs before enabling them
+sources:
+  - https://raw.githubusercontent.com/cheaper-inference/OmniRoute/5ffa68e835442a12ed1204a2eebf4076c298aecb/README.md
+  - https://raw.githubusercontent.com/cheaper-inference/OmniRoute/5ffa68e835442a12ed1204a2eebf4076c298aecb/SECURITY.md
+  - https://raw.githubusercontent.com/cheaper-inference/OmniRoute/5ffa68e835442a12ed1204a2eebf4076c298aecb/package.json
+  - https://raw.githubusercontent.com/cheaper-inference/OmniRoute/5ffa68e835442a12ed1204a2eebf4076c298aecb/LICENSE
+  - https://github.com/cheaper-inference/OmniRoute/releases/tag/v3.8.54
+  - https://github.com/cheaper-inference/OmniRoute/commit/5ffa68e835442a12ed1204a2eebf4076c298aecb

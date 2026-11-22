@@ -12,15 +12,19 @@ analysis:
     use_cases:
       - "improve-developer-workflow"
   evidence:
-    - claim: "Agentation is a React visual-feedback tool that lets users annotate page elements and copy selectors, positions, and context for AI coding agents."
+    - claim: "Agentation is a React visual-feedback tool that lets users annotate page
+        elements and copy selectors, positions, and context for AI coding
+        agents."
       source_type: "repository-file"
       url: "https://github.com/benjitaylor/agentation/blob/main/README.md"
       checked_at: "2026-07-19"
       confidence: "high"
   state: "researched"
   summary:
-    one_line: "A React visual-feedback tool that gives AI coding agents precise page-element context."
-    why_useful: "It converts visual annotations into structured references that agents can use to locate the relevant interface code."
+    one_line: "A React visual-feedback tool that gives AI coding agents precise
+      page-element context."
+    why_useful: "It converts visual annotations into structured references that
+      agents can use to locate the relevant interface code."
 curation:
   confidence: null
   evidence: []
@@ -34,32 +38,35 @@ id: "github:benjitaylor/agentation"
 import:
   github_snapshot:
     archived: false
-    created_at: "2026-01-18T02:01:24Z"
-    default_branch: "main"
-    description: "The visual feedback tool for agents."
+    created_at: 2026-01-18T02:01:24Z
+    default_branch: main
+    description: The visual feedback tool for agents.
     disabled: false
-    fetched_at: "2026-07-19T19:16:14.796Z"
+    fetched_at: 2026-11-22T12:07:00.148Z
     fork: false
-    forks: 332
-    homepage: "https://agentation.com"
-    latest_release: null
-    license_spdx: "NOASSERTION"
-    open_issues: 51
-    primary_language: "TypeScript"
-    pushed_at: "2026-06-07T06:16:06Z"
-    stars: 4175
+    forks: 438
+    homepage: https://agentation.com
+    latest_release:
+      tag: v3.1.0
+      published_at: 2026-09-21T07:12:11Z
+      url: https://github.com/benjitaylor/agentation/releases/tag/v3.1.0
+    license_spdx: NOASSERTION
+    open_issues: 26
+    primary_language: TypeScript
+    pushed_at: 2026-09-22T02:43:16Z
+    stars: 5461
     topics:
-      - "ai"
-      - "design"
-      - "tools"
-      - "ui"
-    updated_at: "2026-07-19T17:36:16Z"
+      - ai
+      - design
+      - tools
+      - ui
+    updated_at: 2026-11-22T03:39:28Z
   sources:
-    - observed_at: "2026-05-10T10:27:44Z"
-      relation: "starred"
-      source_id: "github:user:tomseai:stars"
-      source_url: "https://github.com/tomseai?tab=stars"
-  state: "imported"
+    - observed_at: 2026-05-10T10:27:44Z
+      relation: starred
+      source_id: github:user:tomseai:stars
+      source_url: https://github.com/tomseai?tab=stars
+  state: refreshed
 repository:
   aliases: []
   github_node_id: "R_kgDOQ79DpA"

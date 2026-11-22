@@ -1,0 +1,73 @@
+schema_version: 2
+repository_id: github:liveblocks/liveblocks
+research:
+  state: complete
+  source_commit: d91fcd75028788bd3e8b93df174df378a5a4d005
+  bundle_collected_at: 2026-11-22T12:09:49.631Z
+  researched_at: 2026-11-22T12:24:36.209Z
+  confidence: high
+classification:
+  primary_category: collaboration-and-productivity
+  topics:
+    - realtime-collaboration
+    - realtime
+    - ai-agents
+    - frontend-development
+    - ui-components
+    - libraries
+project:
+  name: Liveblocks
+  kind: monorepo
+  summary: A collaboration SDK and hosted infrastructure for adding realtime
+    synchronization, contextual comments, and notifications to web applications.
+  best_for:
+    - Product teams adding realtime collaboration without building synchronization
+      infrastructure
+    - React and JavaScript teams building collaborative editors and shared workspaces
+key_features:
+  - Provides Sync, Comments, and Notifications products for composing collaboration
+    features
+  - Supplies React, JavaScript, Node, REST, Python, and Yjs integrations, plus
+    packages for React Flow, CodeMirror, and ProseMirror
+  - Includes collaborative UI components and presence, storage, and room primitives
+  - Connects SDKs to managed realtime infrastructure
+usage:
+  interfaces:
+    - JavaScript and React SDKs
+    - Node and Python SDKs
+    - REST API
+    - hosted dashboard
+  installation:
+    - npm packages
+    - Liveblocks account and project
+  setup: moderate
+technology:
+  languages:
+    - TypeScript
+    - Python
+  notable_components:
+    - React
+    - Yjs
+    - editor integrations
+license:
+  spdx: null
+  name: Mixed Apache-2.0 and AGPL-3.0-or-later licensing
+  notes: Most packages use Apache-2.0; the server package and CLI use AGPL-3.0-or-later.
+status:
+  lifecycle: active
+  archived: false
+  latest_release: v3.25.1
+  latest_release_at: 2026-11-13
+strengths:
+  - Covers both low-level collaboration primitives and ready-made product components
+  - Maintains broad framework and editor integrations in one ecosystem
+caveats:
+  - The main workflow depends on a Liveblocks hosted account and service
+  - Licensing varies by package, so consumers should verify the component they use
+  - v3.25.2 appears as a Git tag, while v3.25.1 is the latest published GitHub release
+sources:
+  - https://raw.githubusercontent.com/liveblocks/liveblocks/d91fcd75028788bd3e8b93df174df378a5a4d005/README.md
+  - https://raw.githubusercontent.com/liveblocks/liveblocks/d91fcd75028788bd3e8b93df174df378a5a4d005/LICENSE
+  - https://github.com/liveblocks/liveblocks/releases.atom
+  - https://github.com/liveblocks/liveblocks/releases/tag/v3.25.1
+  - https://raw.githubusercontent.com/liveblocks/liveblocks/d91fcd75028788bd3e8b93df174df378a5a4d005/CHANGELOG.md

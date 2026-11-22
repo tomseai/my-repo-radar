@@ -1,0 +1,96 @@
+schema_version: 2
+repository_id: github:CodeWebChat/CWC
+research:
+  state: complete
+  source_commit: 5f266e841e8218042169fda10e14e81a60d9011a
+  bundle_collected_at: 2026-11-22T12:09:14.152Z
+  researched_at: 2026-11-22T12:21:35.737034+00:00
+  confidence: medium
+
+classification:
+  primary_category: developer-tools
+  topics:
+    - code-generation
+    - llms
+    - developer-productivity
+    - multi-provider
+    - local-first
+    - web-ui
+
+project:
+  name: CWC
+  kind: plugin
+  summary: >-
+    An editor extension that turns selected workspace files into structured
+    Markdown prompts for browser chatbots, configured model APIs, or agentic
+    CLIs and helps apply the resulting edits.
+  best_for:
+    - VS Code users who want file-aware prompts for hosted chats or their own
+      model APIs
+    - Developers who want to move selected code context between the editor and
+      web chat tools
+
+key_features:
+  - Context selection for workspace files and selected web documents
+  - Prompt types for file edits, questions, cursor completions, and
+    relevant-file discovery
+  - Browser extension that fills prompts into supported web-chat interfaces
+  - API tools for completions, context editing, intelligent updates, and commit
+    messages
+  - Saved workspaces, checkpoints, and configurable model-provider settings
+
+usage:
+  interfaces:
+    - VS Code extension
+    - browser extension
+    - editor webview
+    - model-provider APIs
+  installation:
+    - build locally using the repository installation script
+    - build the editor extension from source with pnpm
+  setup: moderate
+
+technology:
+  languages:
+    - TypeScript
+  notable_components:
+    - Visual Studio Code Extension API
+    - React
+    - Node.js
+    - Webpack
+
+license:
+  spdx: NOASSERTION
+  name: License terms not established in retained evidence
+  notes: >-
+    The retained bundle contains no LICENSE file or license declaration; the
+    README has a copyright notice only, so reuse rights cannot be established.
+
+status:
+  lifecycle: active
+  archived: false
+  latest_release: 2026.1122.511
+  latest_release_at: 2026-11-22
+
+strengths:
+  - Keeps context selection and prompt construction inside the editor workflow
+  - Supports both copy-and-paste web chats and direct configured-provider API
+    calls
+  - Documents local operation, direct provider requests, and no telemetry as
+    project principles
+
+caveats:
+  - Reuse rights are unknown because no license terms are retained with the
+    research bundle
+  - Selected file and web-document content is included in prompts sent to the
+    chosen chatbot or provider
+  - Applying generated changes can use model-assisted full-file rewrites after
+    failed or partial edits
+  - The project supports building the extension locally from its public source.
+
+sources:
+  - https://raw.githubusercontent.com/CodeWebChat/CWC/5f266e841e8218042169fda10e14e81a60d9011a/README.md
+  - https://raw.githubusercontent.com/CodeWebChat/CWC/ac244512d5db42bf6c30965c52fd6bfdba4380d8/docs/privacy.mdx
+  - https://raw.githubusercontent.com/CodeWebChat/CWC/5f266e841e8218042169fda10e14e81a60d9011a/apps/editor/package.json
+  - https://github.com/CodeWebChat/CWC/releases.atom
+  - https://github.com/CodeWebChat/CWC/releases/tag/2026.1122.511

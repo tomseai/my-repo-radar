@@ -1,0 +1,86 @@
+analysis:
+  analyzed_at: 2026-08-15T13:30:00.000Z
+  classification:
+    primary_category: documentation-and-learning
+    state: confirmed
+    technologies: []
+    topics:
+      - curated-lists
+      - coding-agents
+      - code-generation
+      - prompt-engineering
+      - developer-productivity
+      - reference
+    use_cases:
+      - learn-and-reference
+      - improve-developer-workflow
+  evidence:
+    - claim: A categorized directory of tools and references for AI-assisted software
+        development.
+      source_type: repository-file
+      url: https://raw.githubusercontent.com/awesome-vibe-coding/awesome-vibe-coding/46d0f0d655915e1af0a41e51d38f18921379907a/readme.md
+      checked_at: 2026-08-15
+      confidence: high
+  state: complete
+  summary:
+    one_line: A categorized directory of tools and references for AI-assisted
+      software development.
+    why_useful: Comparing categories of AI-assisted development tools before choosing one
+curation:
+  confidence: null
+  evidence: []
+  limitations: []
+  recommendation: null
+  reviewed_at: null
+  state: uncurated
+  strengths: []
+  verdict: null
+id: github:awesome-vibe-coding/awesome-vibe-coding
+import:
+  github_snapshot:
+    archived: false
+    created_at: 2023-08-28T16:37:06Z
+    default_branch: main
+    description: A hand-picked collection of tools and resources for Vibe Coding
+    disabled: false
+    fetched_at: 2026-11-22T12:07:00.148Z
+    fork: false
+    forks: 328
+    homepage: https://vibecoding.rest/
+    latest_release: null
+    license_spdx: CC0-1.0
+    open_issues: 187
+    primary_language: HTML
+    pushed_at: 2026-08-13T09:17:26Z
+    stars: 899
+    topics:
+      - ai
+      - ai-agents
+      - ai-app-builder
+      - ai-ide
+      - ai-tools
+      - awesome-ai
+      - awesome-ai-tools
+      - awesome-list
+      - awesome-vibe-coding
+      - vibe
+      - vibe-coding
+      - vibecode
+      - vibecoding
+      - vibecoding-tool
+    updated_at: 2026-11-22T11:13:51Z
+  sources:
+    - observed_at: 2026-04-03T15:39:03Z
+      relation: starred
+      source_id: github:user:tomseai:stars
+      source_url: https://github.com/tomseai?tab=stars
+  state: refreshed
+repository:
+  aliases:
+    - github:ai-for-developers/awesome-vibe-coding
+  github_node_id: R_kgDOKMfz6w
+  host: github.com
+  name: awesome-vibe-coding
+  owner: awesome-vibe-coding
+  url: https://github.com/awesome-vibe-coding/awesome-vibe-coding
+version: 1

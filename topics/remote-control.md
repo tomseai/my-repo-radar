@@ -12,7 +12,7 @@
 
 <a id="repo-generalaction--emdash"></a>
 
-## [emdash](https://github.com/generalaction/emdash)
+## [Emdash Classic](https://github.com/generalaction/emdash)
 
 A local-first desktop environment for running AI coding agents in parallel in isolated Git worktrees, then reviewing and integrating their changes.
 
@@ -23,13 +23,34 @@ A local-first desktop environment for running AI coding agents in parallel in is
 - **Languages:** TypeScript
 - **License:** Apache-2.0
 - **Lifecycle:** Active
-- **GitHub stars:** 5,218
+- **GitHub stars:** 6,290
 
 **Key features**
 
   - Run several coding agents concurrently without manually managing terminals
   - Isolate each task in its own Git worktree and branch
   - Send tickets from issue trackers and project-management tools to an agent
+
+<a id="repo-herdrdev--herdr"></a>
+
+## [herdr](https://github.com/herdrdev/herdr)
+
+A Rust terminal workspace and runtime for coding agents that preserves real processes, displays agent state, and exposes CLI and socket controls for coordination.
+
+- **Category:** [Developer Tools](../categories/developer-tools.md#repo-herdrdev--herdr)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-herdrdev--herdr) | [Coding Agents](../topics/coding-agents.md#repo-herdrdev--herdr) | [Agent Orchestration](../topics/agent-orchestration.md#repo-herdrdev--herdr) | [CLI](../topics/cli.md#repo-herdrdev--herdr) | [Terminal](../topics/terminal.md#repo-herdrdev--herdr) | [TUI](../topics/tui.md#repo-herdrdev--herdr) | [Remote Control](../topics/remote-control.md#repo-herdrdev--herdr) | [Developer Productivity](../topics/developer-productivity.md#repo-herdrdev--herdr)
+- **Kind:** CLI
+- **Best for:** Developers supervising multiple coding-agent sessions in terminal workspaces; Users who need persistent agent terminals that can be reattached locally or over SSH
+- **Languages:** Rust
+- **License:** Apache-2.0
+- **Lifecycle:** Active
+- **GitHub stars:** 52,270
+
+**Key features**
+
+  - Keeps terminals and agents running in a background server across client disconnects
+  - Marks recognized agents as working, blocked, or idle
+  - Supports workspaces, tabs, splits, keyboard and mouse control, and plugins
 
 <a id="repo-iofficeai--aionui"></a>
 
@@ -44,7 +65,7 @@ An open-source, cross-platform cowork application that supplies a built-in AI ag
 - **Languages:** TypeScript
 - **License:** Apache-2.0
 - **Lifecycle:** Active
-- **GitHub stars:** 30,446
+- **GitHub stars:** 34,431
 
 **Key features**
 
@@ -52,53 +73,32 @@ An open-source, cross-platform cowork application that supplies a built-in AI ag
   - Auto-detection and unified sessions for supported external CLI agents
   - Parallel team mode with leader delegation, task board, and asynchronous mailbox
 
-<a id="repo-ogulcancelik--herdr"></a>
-
-## [herdr](https://github.com/ogulcancelik/herdr)
-
-A Rust terminal workspace manager and agent multiplexer that keeps real terminal processes running, surfaces agent state, persists sessions, and exposes a socket API for agents to coordinate panes and workspaces.
-
-- **Category:** [Developer Tools](../categories/developer-tools.md#repo-ogulcancelik--herdr)
-- **Topics:** [AI Agents](../topics/ai-agents.md#repo-ogulcancelik--herdr) | [Agent Orchestration](../topics/agent-orchestration.md#repo-ogulcancelik--herdr) | [CLI](../topics/cli.md#repo-ogulcancelik--herdr) | [Terminal](../topics/terminal.md#repo-ogulcancelik--herdr) | [TUI](../topics/tui.md#repo-ogulcancelik--herdr) | [Remote Control](../topics/remote-control.md#repo-ogulcancelik--herdr) | [Developer Productivity](../topics/developer-productivity.md#repo-ogulcancelik--herdr)
-- **Kind:** CLI
-- **Best for:** Developers supervising multiple coding-agent sessions in terminal workspaces; Teams that want detached, persistent agent sessions reachable over SSH
-- **Languages:** Rust
-- **License:** AGPL-3.0-or-later
-- **Lifecycle:** Active
-- **GitHub stars:** 18,312
-
-**Key features**
-
-  - Shows recognized agents as blocked, working, done, idle, or unknown
-  - Preserves real terminal panes when a client detaches and later reattaches
-  - Supports workspaces, tabs, split panes, mouse interaction, and prefix-key navigation
-
 <a id="repo-slopus--happy"></a>
 
-## [Happy](https://github.com/slopus/happy)
+## [Happy Engineering](https://github.com/slopus/happy)
 
-A mobile and web companion for Claude Code and Codex sessions that wraps the local agent CLI, enables remote session control and device handoff, sends notifications, and advertises end-to-end encrypted synchronization.
+A multi-model coding workspace with desktop and agent runtime companion repositories, native mobile session access, and a CLI wrapper for existing Claude Code and Codex users.
 
 - **Category:** [Platforms and Applications](../categories/platforms-and-applications.md#repo-slopus--happy)
 - **Topics:** [Coding Agents](../topics/coding-agents.md#repo-slopus--happy) | [Remote Control](../topics/remote-control.md#repo-slopus--happy) | [Mobile App](../topics/mobile-app.md#repo-slopus--happy) | [Web UI](../topics/web-ui.md#repo-slopus--happy) | [CLI](../topics/cli.md#repo-slopus--happy) | [Realtime](../topics/realtime.md#repo-slopus--happy) | [Security](../topics/security.md#repo-slopus--happy) | [Open Source](../topics/open-source.md#repo-slopus--happy)
 - **Kind:** Monorepo
-- **Best for:** Developers who need to check or control active Claude Code or Codex work away from a computer; Teams or individuals who want a remote-control layer without replacing their existing coding agent
-- **Languages:** TypeScript, Rust
+- **Best for:** Developers who want to continue coding-agent sessions across desktop and mobile; Teams using the new desktop and harness stack to collaborate in shared sessions
+- **Languages:** TypeScript, Rust, Swift, Kotlin
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 22,734
+- **GitHub stars:** 24,754
 
 **Key features**
 
-  - iOS, Android, and web clients for Claude Code and Codex sessions
-  - A CLI wrapper that starts Claude Code or Codex through Happy
-  - Remote agent-control commands for creating, sending to, and monitoring sessions
+  - Coordinates Claude, Codex, Grok, and additional models or harnesses through the desktop stack
+  - Supports multiplayer sessions that participants can observe and steer together
+  - Continues sessions on native iOS and Android apps with documented end-to-end encrypted sync
 
 <a id="repo-tiann--hapi"></a>
 
 ## [HAPI](https://github.com/tiann/hapi)
 
-A local-first application that wraps supported coding-agent CLIs, persists their sessions through a hub, and lets users monitor, message, and approve work remotely from a web PWA or Telegram Mini App without restarting a session.
+A local-first application that wraps supported coding-agent CLIs, persists their sessions through a hub, and lets users monitor, message, and approve work remotely from native mobile apps, a web PWA, or Telegram Mini App without restarting a session.
 
 - **Category:** [Developer Tools](../categories/developer-tools.md#repo-tiann--hapi)
 - **Topics:** [Coding Agents](../topics/coding-agents.md#repo-tiann--hapi) | [Terminal](../topics/terminal.md#repo-tiann--hapi) | [Web UI](../topics/web-ui.md#repo-tiann--hapi) | [Mobile App](../topics/mobile-app.md#repo-tiann--hapi) | [Remote Control](../topics/remote-control.md#repo-tiann--hapi) | [Cross Device](../topics/cross-device.md#repo-tiann--hapi) | [Local First](../topics/local-first.md#repo-tiann--hapi) | [Self Hosted](../topics/self-hosted.md#repo-tiann--hapi) | [MCP](../topics/mcp.md#repo-tiann--hapi) | [Developer Productivity](../topics/developer-productivity.md#repo-tiann--hapi)
@@ -107,11 +107,11 @@ A local-first application that wraps supported coding-agent CLIs, persists their
 - **Languages:** TypeScript
 - **License:** AGPL-3.0-only
 - **Lifecycle:** Active
-- **GitHub stars:** 4,592
+- **GitHub stars:** 5,442
 
 **Key features**
 
-  - Wraps Claude Code, Codex, Cursor Agent, Gemini CLI, Grok Build, and OpenCode sessions
+  - Wraps Claude Code, Codex, Cursor Agent, Grok Build, OpenCode, and other supported agent sessions
   - Preserves a session while control switches between terminal and remote clients
   - Web PWA supports sessions, chat, permission decisions, file browsing, diffs, and remote spawning
 
@@ -119,19 +119,19 @@ A local-first application that wraps supported coding-agent CLIs, persists their
 
 ## [Cua](https://github.com/trycua/cua)
 
-A computer-use monorepo for building and evaluating agents through cross-platform desktop drivers, OS sandboxes, virtual-machine tooling, and benchmarks or reinforcement-learning environments.
+A computer-use monorepo for building and evaluating agents through Cua Spaces for shared desktops, cross-platform desktop drivers, virtual machines, and benchmarks for computer-use agents.
 
 - **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-trycua--cua)
 - **Topics:** [AI Agents](../topics/ai-agents.md#repo-trycua--cua) | [Computer Use](../topics/computer-use.md#repo-trycua--cua) | [Sandboxing](../topics/sandboxing.md#repo-trycua--cua) | [Remote Control](../topics/remote-control.md#repo-trycua--cua) | [Automation](../topics/automation.md#repo-trycua--cua) | [CLI](../topics/cli.md#repo-trycua--cua) | [MCP](../topics/mcp.md#repo-trycua--cua) | [Containers](../topics/containers.md#repo-trycua--cua) | [Testing](../topics/testing.md#repo-trycua--cua) | [Open Source](../topics/open-source.md#repo-trycua--cua)
 - **Kind:** Monorepo
 - **Best for:** Building agents that operate desktop, mobile, container, or VM interfaces; Evaluating or training computer-use agents in reproducible environments
 - **Languages:** Python, Rust, Go, TypeScript
-- **License:** MIT
+- **License:** Mixed MIT and FSL-1.1-MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 20,200
+- **GitHub stars:** 32,769
 
 **Key features**
 
+  - Provides Cua Spaces for shared desktop environments across owned computers
   - Drives native desktop applications in the background on macOS, Windows, and Linux
   - Provides one sandbox API for Linux, macOS, Windows, Android, and local or cloud runtimes
-  - Supplies Cua-Bench environments and trajectory export for evaluation and training

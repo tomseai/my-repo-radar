@@ -2,9 +2,9 @@ schema_version: 2
 repository_id: github:thedotmack/claude-mem
 research:
   state: complete
-  source_commit: f5633c1f84181673896c038cbe285131c6d669a3
-  bundle_collected_at: 2026-07-19T20:45:38.850Z
-  researched_at: 2026-07-20T16:11:09.793Z
+  source_commit: 79d33254e5570b43175c639c2a2ce58bd1e221b9
+  bundle_collected_at: 2026-11-22T12:10:30.826Z
+  researched_at: 2026-11-22T12:25:34.831Z
   confidence: high
 classification:
   primary_category: ai-and-automation
@@ -20,11 +20,12 @@ classification:
 project:
   name: Claude-Mem
   kind: plugin
-  summary: >-
-    A persistent-memory plugin for coding agents that captures session activity,
-    creates AI summaries, and retrieves relevant project context in later sessions.
+  summary: A persistent-memory plugin for coding agents that captures session
+    activity, creates AI summaries, and retrieves relevant project context in
+    later sessions.
   best_for:
-    - Claude Code users who want searchable continuity across coding sessions
+    - Coding-agent users who want searchable continuity across sessions with a
+      supported host
     - Supported coding-agent users who need local project-memory retrieval
 key_features:
   - Captures lifecycle-hook observations and session summaries
@@ -57,27 +58,31 @@ technology:
 license:
   spdx: Apache-2.0
   name: Apache License 2.0
-  notes: >-
-    Permissive license with notice, license-copy, and modification-notice
-    requirements for redistribution; it includes a patent grant and termination
-    on specified patent litigation.
+  notes: Permissive license with notice, license-copy, and modification-notice
+    requirements for redistribution; it includes a patent grant and
+    termination on specified patent litigation.
 status:
   lifecycle: active
   archived: false
-  latest_release: v13.11.0
-  latest_release_at: 2026-07-13
+  latest_release: v16.0.3
+  latest_release_at: 2026-11-21
 strengths:
   - Carries compressed, searchable context between otherwise separate sessions
   - Supports automatic hook-based capture as well as agent-initiated retrieval
   - Provides local storage, local viewing, and configurable context injection
 caveats:
-  - Full plugin setup requires a supported coding agent plus Node.js, Bun, and uv
+  - Full setup requires a supported coding agent plus Node.js 20.19 or later
+    on the 20.x line, or Node.js 22.12 or later, and the installer manages
+    other runtime dependencies
   - The npm global package alone does not register hooks or start the worker
   - Optional cloud sync sends memories to cmem.ai when configured
-  - The evidence describes several integrations, but support details can vary by host
+  - Cloud sign-in can be skipped. Anonymous usage analytics are on by default,
+    with a documented opt-out
+  - Tool screenshots are kept locally by default, with separate controls for
+    storage, cloud sync, and model image inference
 sources:
-  - https://raw.githubusercontent.com/thedotmack/claude-mem/f5633c1f84181673896c038cbe285131c6d669a3/README.md
-  - https://raw.githubusercontent.com/thedotmack/claude-mem/f5633c1f84181673896c038cbe285131c6d669a3/LICENSE
-  - https://raw.githubusercontent.com/thedotmack/claude-mem/f5633c1f84181673896c038cbe285131c6d669a3/package.json
-  - https://raw.githubusercontent.com/thedotmack/claude-mem/f5633c1f84181673896c038cbe285131c6d669a3/docs/public/architecture/overview.mdx
+  - https://raw.githubusercontent.com/thedotmack/claude-mem/79d33254e5570b43175c639c2a2ce58bd1e221b9/README.md
+  - https://raw.githubusercontent.com/thedotmack/claude-mem/79d33254e5570b43175c639c2a2ce58bd1e221b9/LICENSE
+  - https://raw.githubusercontent.com/thedotmack/claude-mem/79d33254e5570b43175c639c2a2ce58bd1e221b9/package.json
   - https://github.com/thedotmack/claude-mem/releases.atom
+  - https://github.com/thedotmack/claude-mem/releases/tag/v16.0.3

@@ -1,0 +1,107 @@
+analysis:
+  analyzed_at: 2026-08-15T13:30:00.000Z
+  classification:
+    primary_category: developer-tools
+    state: confirmed
+    technologies:
+      - go
+      - typescript
+      - react
+      - sqlite
+    topics:
+      - ai-agents
+      - coding-agents
+      - observability
+      - tracing
+      - token-usage
+      - cost-management
+      - local-first
+      - mcp
+      - cli
+      - web-ui
+    use_cases:
+      - improve-developer-workflow
+      - ship-and-operate-software
+  evidence:
+    - claim: A local-first observability and cost-attribution layer for many AI coding
+        tools.
+      source_type: repository-file
+      url: https://raw.githubusercontent.com/superbasedapp/observer/9695292ac7b3b3516192a0c3eafbf4824ea531c6/README.md
+      checked_at: 2026-08-15
+      confidence: high
+  state: complete
+  summary:
+    one_line: A local-first observability and cost-attribution layer for many AI
+      coding tools.
+    why_useful: Developers reconciling token use and cost across many AI coding tools
+curation:
+  confidence: null
+  evidence: []
+  limitations: []
+  recommendation: null
+  reviewed_at: null
+  state: uncurated
+  strengths: []
+  verdict: null
+id: github:superbasedapp/observer
+import:
+  github_snapshot:
+    archived: false
+    created_at: 2026-04-30T05:47:13Z
+    default_branch: main
+    description: Track what every AI coding agent costs and see the limit coming.
+      Per-session, per-model cost for Claude Code, Codex, Cursor and 37 more
+      tools from your provider's own token counts, plus limit gauges, a
+      dangerous-command guard and dashboard terminals. Free, Apache-2.0, runs on
+      your machine.
+    disabled: false
+    fetched_at: 2026-11-22T12:07:00.148Z
+    fork: false
+    forks: 6
+    homepage: https://superbased.app
+    latest_release:
+      tag: v1.42.0
+      published_at: 2026-11-21T15:19:16Z
+      url: https://github.com/superbasedapp/observer/releases/tag/v1.42.0
+    license_spdx: NOASSERTION
+    open_issues: 4
+    primary_language: Go
+    pushed_at: 2026-11-21T16:17:27Z
+    stars: 62
+    topics:
+      - agent-observability
+      - ai-agents
+      - browser-terminal
+      - claude-code
+      - codex-cli
+      - coding-agents
+      - cost-tracking
+      - cursor
+      - developer-tools
+      - gemini-cli
+      - github-copilot
+      - llm-cost
+      - local-first
+      - mcp-server
+      - opencode
+      - prompt-caching
+      - rate-limits
+      - self-hosted
+      - token-tracking
+      - usage-tracker
+    updated_at: 2026-11-21T22:40:28Z
+  sources:
+    - observed_at: 2026-07-11T17:39:21Z
+      relation: starred
+      source_id: github:user:tomseai:stars
+      source_url: https://github.com/tomseai?tab=stars
+  state: refreshed
+repository:
+  aliases:
+    - github:marmutapp/superbased-observer
+  github_node_id: R_kgDOSQgo5w
+  host: github.com
+  name: observer
+  owner: superbasedapp
+  url: https://github.com/superbasedapp/observer
+version: 1

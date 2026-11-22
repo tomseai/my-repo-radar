@@ -1,0 +1,50 @@
+schema_version: 2
+repository_id: github:DreambigOu/ELI5
+research:
+  state: complete
+  source_commit: a766623b062331fdde53467001379b4ddf3acc2f
+  bundle_collected_at: 2026-11-22T11:27:03.739Z
+  researched_at: 2026-11-22T11:28:28Z
+  confidence: high
+classification:
+  primary_category: ai-and-automation
+  topics: [agent-skills, llms, prompt-engineering, evaluation]
+project:
+  name: ELI5
+  kind: plugin
+  summary: >-
+    A Claude Code skill that adapts explanations to an audience's age,
+    education, role, or relationship to the user.
+  best_for:
+    - Claude Code users explaining concepts to varied audiences
+key_features:
+  - Detects the intended audience from a prompt
+  - Adjusts vocabulary, analogies, tone, depth, and framing
+  - Includes an evaluation workflow comparing skill and baseline outputs
+usage:
+  interfaces: [Claude Code skill]
+  installation: [copy skill directory into Claude Code]
+  setup: low
+technology:
+  languages: [Python]
+  notable_components: [Claude Code]
+license:
+  spdx: MIT
+  name: MIT License
+  notes: null
+status:
+  lifecycle: unknown
+  archived: false
+  latest_release: null
+  latest_release_at: null
+strengths:
+  - Provides explicit audience-oriented explanation guidance
+  - Includes test cases and a baseline comparison workflow
+caveats:
+  - Requires Claude Code for the documented skill and evaluation workflow
+  - Example evaluation results cover a small set of tests and are not a general performance guarantee
+  - The release feed contains no entries
+sources:
+  - https://raw.githubusercontent.com/DreambigOu/ELI5/a766623b062331fdde53467001379b4ddf3acc2f/README.md
+  - https://raw.githubusercontent.com/DreambigOu/ELI5/a766623b062331fdde53467001379b4ddf3acc2f/LICENSE
+  - https://github.com/DreambigOu/ELI5/releases.atom

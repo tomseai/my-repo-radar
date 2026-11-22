@@ -2,9 +2,9 @@ schema_version: 2
 repository_id: github:CloakHQ/CloakBrowser
 research:
   state: complete
-  source_commit: fd2b6024c6bf3dfe3c6b48b177aa79265a145295
-  bundle_collected_at: 2026-07-19T20:42:11.984Z
-  researched_at: 2026-07-20T00:39:44.6237658+02:00
+  source_commit: 3f7504b1fce760575e5bcf155bc73be7e4199edb
+  bundle_collected_at: 2026-11-22T12:09:12.636Z
+  researched_at: 2026-11-22T12:24:08Z
   confidence: medium
 classification:
   primary_category: developer-tools
@@ -23,13 +23,18 @@ project:
     modifications and optional humanized input behavior.
   best_for:
     - Developers adapting existing Playwright or Puppeteer automation
-    - Browser-automation workflows that need custom Chromium builds and proxy-aware settings
+    - Browser-automation workflows that need custom Chromium builds and
+      proxy-aware settings
 key_features:
-  - Provides Python and JavaScript launch APIs compatible with Playwright, plus a Puppeteer entry point
-  - Downloads and caches a platform-specific custom Chromium binary on first launch
-  - Supports proxy, timezone, locale, persistent-profile, and extension-path options
+  - Provides Python and JavaScript launch APIs compatible with Playwright, plus
+    a Puppeteer entry point
+  - Downloads and caches a platform-specific custom Chromium binary on first
+    launch
+  - Supports proxy, timezone, locale, persistent-profile, and extension-path
+    options
   - Includes humanized mouse, keyboard, and scroll interaction wrappers
-  - Supplies a CLI for binary installation, diagnostics, updates, and cache management
+  - Supplies a CLI for binary installation, diagnostics, updates, and cache
+    management
 usage:
   interfaces:
     - Python library and CLI
@@ -57,26 +62,34 @@ license:
   notes: >-
     The included LICENSE grants MIT terms for the repository software and the
     README identifies the Python and JavaScript wrappers as MIT. The downloaded
-    Chromium binary has a separate delayed-free-release model; current Pro
-    builds require a subscription/license key, so binary reuse terms must be
+    Chromium binary is separately licensed; a free key permits one concurrent
+    session and Pro plans offer higher concurrency. Binary reuse terms must be
     reviewed separately.
 status:
   lifecycle: active
   archived: false
-  latest_release: v0.4.12
-  latest_release_at: 2026-07-18
+  latest_release: null
+  latest_release_at: null
 strengths:
-  - Keeps familiar Playwright and Puppeteer-style interfaces while selecting its custom binary
+  - Keeps familiar Playwright and Puppeteer-style interfaces while selecting its
+    custom binary
   - Supports local, Docker, and Linux, Windows, and macOS binary workflows
-  - Verifies official binary downloads against signed published checksums according to the README
+  - Verifies official binary downloads against signed published checksums
+    according to the README
 caveats:
-  - The current Chromium builds and fingerprint claims are vendor assertions; their effectiveness varies by target and can change
-  - The newest binary is a separately licensed Pro offering, while the free binary intentionally trails it
-  - The source bundle does not retain the separate binary-license text, so its detailed redistribution terms remain unverified here
-  - Proxy and GeoIP features can make external requests and require users to supply suitable proxy infrastructure
+  - The current Chromium builds and fingerprint claims are vendor assertions;
+    their effectiveness varies by target and can change
+  - Every launch requires a license key; the free key requires an email address
+    and allows one concurrent session, while Pro offers higher concurrency
+  - The README identifies wrapper version v0.7.3, but a published primary
+    wrapper release and its publication date could not be verified
+  - The source bundle does not retain the separate binary-license text, so its
+    detailed redistribution terms remain unverified here
+  - Proxy and GeoIP features can make external requests and require users to
+    supply suitable proxy infrastructure
 sources:
-  - https://raw.githubusercontent.com/CloakHQ/CloakBrowser/fd2b6024c6bf3dfe3c6b48b177aa79265a145295/README.md
-  - https://raw.githubusercontent.com/CloakHQ/CloakBrowser/fd2b6024c6bf3dfe3c6b48b177aa79265a145295/LICENSE
-  - https://raw.githubusercontent.com/CloakHQ/CloakBrowser/fd2b6024c6bf3dfe3c6b48b177aa79265a145295/pyproject.toml
-  - https://raw.githubusercontent.com/CloakHQ/CloakBrowser/fd2b6024c6bf3dfe3c6b48b177aa79265a145295/js/package.json
+  - https://raw.githubusercontent.com/CloakHQ/CloakBrowser/3f7504b1fce760575e5bcf155bc73be7e4199edb/README.md
+  - https://raw.githubusercontent.com/CloakHQ/CloakBrowser/3f7504b1fce760575e5bcf155bc73be7e4199edb/LICENSE
+  - https://raw.githubusercontent.com/CloakHQ/CloakBrowser/3f7504b1fce760575e5bcf155bc73be7e4199edb/pyproject.toml
+  - https://raw.githubusercontent.com/CloakHQ/CloakBrowser/3f7504b1fce760575e5bcf155bc73be7e4199edb/js/package.json
   - https://github.com/CloakHQ/CloakBrowser/releases.atom

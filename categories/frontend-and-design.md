@@ -2,40 +2,44 @@
 
 # Frontend and Design
 
-[Back to the main catalog](../README.md) | **19 repositories**
+[Back to the main catalog](../README.md) | **23 repositories**
 
 ## Topics in this category
 
 - [Accessibility](../topics/accessibility.md) (4)
-- [Agent Skills](../topics/agent-skills.md) (2)
+- [Agent Skills](../topics/agent-skills.md) (3)
 - [AI Agents](../topics/ai-agents.md) (3)
+- [Automation](../topics/automation.md) (1)
 - [Chat UI](../topics/chat-ui.md) (2)
-- [CLI](../topics/cli.md) (2)
+- [CLI](../topics/cli.md) (3)
 - [Code Generation](../topics/code-generation.md) (2)
 - [Code Review](../topics/code-review.md) (1)
 - [Coding Agents](../topics/coding-agents.md) (2)
 - [Curated Lists](../topics/curated-lists.md) (1)
 - [Design Systems](../topics/design-systems.md) (6)
 - [Desktop App](../topics/desktop-app.md) (2)
+- [Developer Productivity](../topics/developer-productivity.md) (1)
 - [Documentation](../topics/documentation.md) (1)
 - [Forms](../topics/forms.md) (1)
-- [Frameworks](../topics/frameworks.md) (1)
-- [Frontend Development](../topics/frontend-development.md) (13)
-- [Generative UI](../topics/generative-ui.md) (2)
+- [Frameworks](../topics/frameworks.md) (2)
+- [Frontend Development](../topics/frontend-development.md) (16)
+- [Generative UI](../topics/generative-ui.md) (3)
 - [Git](../topics/git.md) (1)
-- [Libraries](../topics/libraries.md) (9)
+- [Libraries](../topics/libraries.md) (11)
 - [LLMs](../topics/llms.md) (3)
 - [Local First](../topics/local-first.md) (2)
-- [MCP](../topics/mcp.md) (3)
+- [MCP](../topics/mcp.md) (4)
+- [Multimodal](../topics/multimodal.md) (1)
 - [Observability](../topics/observability.md) (1)
 - [Open Source](../topics/open-source.md) (3)
 - [Performance](../topics/performance.md) (1)
 - [Realtime Collaboration](../topics/realtime-collaboration.md) (1)
 - [Reference](../topics/reference.md) (1)
+- [Testing](../topics/testing.md) (1)
 - [Tool Use](../topics/tool-use.md) (2)
-- [UI Components](../topics/ui-components.md) (9)
-- [Visualization](../topics/visualization.md) (4)
-- [Web](../topics/web.md) (9)
+- [UI Components](../topics/ui-components.md) (10)
+- [Visualization](../topics/visualization.md) (5)
+- [Web](../topics/web.md) (10)
 - [Web UI](../topics/web-ui.md) (4)
 
 <a id="repo-addyosmani--tunnel-bear-login"></a>
@@ -51,7 +55,7 @@ An educational React recreation of a TunnelBear-inspired login form with a bear 
 - **Languages:** TypeScript, JavaScript
 - **License:** No open-source license declared
 - **Lifecycle:** Unknown
-- **GitHub stars:** 405
+- **GitHub stars:** 407
 
 **Key features**
 
@@ -72,7 +76,7 @@ A TypeScript and React library for composing production AI chat interfaces from 
 - **Languages:** TypeScript
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 11,158
+- **GitHub stars:** 13,371
 
 **Key features**
 
@@ -93,7 +97,7 @@ An archived React web application that recreates a Windows 11-like desktop exper
 - **Languages:** JavaScript
 - **License:** CC0-1.0
 - **Lifecycle:** Archived
-- **GitHub stars:** 9,685
+- **GitHub stars:** 9,661
 
 **Key features**
 
@@ -114,7 +118,7 @@ A JavaScript and TypeScript library for calculating multiline text layout withou
 - **Languages:** TypeScript, JavaScript
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 49,223
+- **GitHub stars:** 51,087
 
 **Key features**
 
@@ -135,7 +139,7 @@ A TypeScript library that combines Markdown and React for technical content site
 - **Languages:** TypeScript
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 5,368
+- **GitHub stars:** 5,400
 
 **Key features**
 
@@ -143,26 +147,47 @@ A TypeScript library that combines Markdown and React for technical content site
   - Bridges Markdown and React for rich technical web content
   - Includes code-oriented package exports and a syntax-highlighting dependency
 
-<a id="repo-copilotkit--opengenerativeui"></a>
+<a id="repo-copilotkit--openintelligentui"></a>
 
-## [Open Generative UI](https://github.com/CopilotKit/OpenGenerativeUI)
+## [Open Intelligent UI](https://github.com/CopilotKit/OpenIntelligentUI)
 
-A CopilotKit and LangGraph showcase/template for agent-driven web interfaces, including streamed sandboxed HTML/SVG widgets and registered React components.
+An open-source CopilotKit and AG-UI chat application that can answer with text, native components, or generated interactive tools and visualizations for the current conversation.
 
-- **Category:** [Frontend and Design](../categories/frontend-and-design.md#repo-copilotkit--opengenerativeui)
-- **Topics:** [AI Agents](../topics/ai-agents.md#repo-copilotkit--opengenerativeui) | [Generative UI](../topics/generative-ui.md#repo-copilotkit--opengenerativeui) | [Web UI](../topics/web-ui.md#repo-copilotkit--opengenerativeui) | [MCP](../topics/mcp.md#repo-copilotkit--opengenerativeui) | [Tool Use](../topics/tool-use.md#repo-copilotkit--opengenerativeui) | [Visualization](../topics/visualization.md#repo-copilotkit--opengenerativeui)
+- **Category:** [Frontend and Design](../categories/frontend-and-design.md#repo-copilotkit--openintelligentui)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-copilotkit--openintelligentui) | [Generative UI](../topics/generative-ui.md#repo-copilotkit--openintelligentui) | [Web UI](../topics/web-ui.md#repo-copilotkit--openintelligentui) | [MCP](../topics/mcp.md#repo-copilotkit--openintelligentui) | [Tool Use](../topics/tool-use.md#repo-copilotkit--openintelligentui) | [Visualization](../topics/visualization.md#repo-copilotkit--openintelligentui)
 - **Kind:** Starter Template
 - **Best for:** Developers exploring agent-generated interactive interfaces in a Next.js application; Teams adapting CopilotKit and LangGraph patterns for stateful generative UI
 - **Languages:** TypeScript, Python
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 1,446
+- **GitHub stars:** 4,264
 
 **Key features**
 
   - Streams free-form HTML and SVG widgets into a sandboxed iframe
   - Registers agent-rendered React components, browser-side tools, tool renderers, and human-in-the-loop UI
   - Runs a Next.js frontend with a Python FastAPI/LangGraph agent service
+
+<a id="repo-davidkpiano--useeffectreducer"></a>
+
+## [useEffectReducer](https://github.com/davidkpiano/useEffectReducer)
+
+A React hook that lets reducers describe effects alongside state transitions and executes the queued effects after React commits the state.
+
+- **Category:** [Frontend and Design](../categories/frontend-and-design.md#repo-davidkpiano--useeffectreducer)
+- **Topics:** [Frontend Development](../topics/frontend-development.md#repo-davidkpiano--useeffectreducer) | [Libraries](../topics/libraries.md#repo-davidkpiano--useeffectreducer)
+- **Kind:** Library
+- **Best for:** React developers coordinating asynchronous effects with reducer events
+- **Languages:** TypeScript
+- **License:** MIT
+- **Lifecycle:** Active
+- **GitHub stars:** 865
+
+**Key features**
+
+  - Queue effects to run after React commits state
+  - Stop or replace effects using effect entities and abort signals
+  - Dispatch events from asynchronous effects and run cleanup on stop
 
 <a id="repo-evilmartians--agent-prism"></a>
 
@@ -177,7 +202,7 @@ An alpha React component library for exploring AI-agent traces as hierarchical t
 - **Languages:** TypeScript
 - **License:** MIT
 - **Lifecycle:** Experimental
-- **GitHub stars:** 373
+- **GitHub stars:** 410
 
 **Key features**
 
@@ -198,13 +223,34 @@ An open-source, hand-drawn-style virtual whiteboard for diagrams and wireframes,
 - **Languages:** TypeScript
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 127,866
+- **GitHub stars:** 136,103
 
 **Key features**
 
   - Infinite canvas with drawing tools, arrow binding, labeled arrows, undo, zoom, and panning
   - Image and shape-library support plus PNG, SVG, clipboard, and .excalidraw JSON export
   - Hosted editor features real-time collaboration and end-to-end encryption
+
+<a id="repo-foldkit--foldkit"></a>
+
+## [Foldkit](https://github.com/foldkit/foldkit)
+
+A TypeScript frontend framework built on Effect and Elm-style architecture, with explicit models, updates, effects, routing, UI components, and deterministic testing.
+
+- **Category:** [Frontend and Design](../categories/frontend-and-design.md#repo-foldkit--foldkit)
+- **Topics:** [Frontend Development](../topics/frontend-development.md#repo-foldkit--foldkit) | [Frameworks](../topics/frameworks.md#repo-foldkit--foldkit) | [UI Components](../topics/ui-components.md#repo-foldkit--foldkit) | [Testing](../topics/testing.md#repo-foldkit--foldkit) | [MCP](../topics/mcp.md#repo-foldkit--foldkit) | [Developer Productivity](../topics/developer-productivity.md#repo-foldkit--foldkit)
+- **Kind:** Framework
+- **Best for:** Teams prioritizing explicit state transitions and testable frontend behavior; Effect users who want an Elm-like architecture with TypeScript tooling
+- **Languages:** TypeScript
+- **License:** MIT
+- **Lifecycle:** Experimental
+- **GitHub stars:** 1,302
+
+**Key features**
+
+  - Centralizes state in a model and pure update function without hooks or hidden mutation
+  - Represents commands, subscriptions, routing, and managed resources as explicit effects
+  - Includes accessible UI components, virtual DOM rendering, and React embedding
 
 <a id="repo-gridstack--gridstack.js"></a>
 
@@ -219,7 +265,7 @@ A TypeScript library for building responsive, draggable, resizable dashboard gri
 - **Languages:** TypeScript, JavaScript
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 8,999
+- **GitHub stars:** 9,260
 
 **Key features**
 
@@ -240,13 +286,34 @@ An HTML presentation framework for authoring and presenting browser-based slide 
 - **Languages:** JavaScript, TypeScript, HTML, CSS
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 71,969
+- **GitHub stars:** 72,615
 
 **Key features**
 
   - Horizontal and nested vertical slides with configurable themes and transitions
   - Plugins for Markdown, syntax highlighting, math, speaker notes, search, and zoom
   - PDF export, speaker view, Auto-Animate, and a documented JavaScript API
+
+<a id="repo-heygen-com--hyperframes"></a>
+
+## [Hyperframes](https://github.com/heygen-com/hyperframes)
+
+A deterministic HTML and CSS video framework with a local CLI, preview and rendering workflow, SDK, hosted execution options, and reusable skills for AI agents.
+
+- **Category:** [Frontend and Design](../categories/frontend-and-design.md#repo-heygen-com--hyperframes)
+- **Topics:** [Multimodal](../topics/multimodal.md#repo-heygen-com--hyperframes) | [Agent Skills](../topics/agent-skills.md#repo-heygen-com--hyperframes) | [CLI](../topics/cli.md#repo-heygen-com--hyperframes) | [Web](../topics/web.md#repo-heygen-com--hyperframes) | [Automation](../topics/automation.md#repo-heygen-com--hyperframes) | [Generative UI](../topics/generative-ui.md#repo-heygen-com--hyperframes)
+- **Kind:** Framework
+- **Best for:** Developers generating videos from familiar web technologies; Agents automating repeatable product, explainer, caption, and motion-graphics videos
+- **Languages:** TypeScript
+- **License:** Apache-2.0
+- **Lifecycle:** Active
+- **GitHub stars:** 88,021
+
+**Key features**
+
+  - Renders HTML, CSS, media, and seekable animations to MP4 deterministically
+  - Provides init, preview, and render commands plus SDK and studio workflows
+  - Bundles reusable agent skills for common video-production tasks
 
 <a id="repo-juliangarnier--anime"></a>
 
@@ -261,7 +328,7 @@ A JavaScript animation library for animating CSS properties, SVG, DOM attributes
 - **Languages:** JavaScript, TypeScript
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 71,196
+- **GitHub stars:** 74,968
 
 **Key features**
 
@@ -273,43 +340,64 @@ A JavaScript animation library for animating CSS properties, SVG, DOM attributes
 
 ## [Taste Skill](https://github.com/Leonxlnx/taste-skill)
 
-A collection of portable agent-skill instruction files for improving the visual design and implementation of AI-generated frontend interfaces.
+A frontend-design skill for coding agents that guides visual direction, website implementation, and browser-based quality checks.
 
 - **Category:** [Frontend and Design](../categories/frontend-and-design.md#repo-leonxlnx--taste-skill)
 - **Topics:** [AI Agents](../topics/ai-agents.md#repo-leonxlnx--taste-skill) | [Agent Skills](../topics/agent-skills.md#repo-leonxlnx--taste-skill) | [Frontend Development](../topics/frontend-development.md#repo-leonxlnx--taste-skill) | [Code Generation](../topics/code-generation.md#repo-leonxlnx--taste-skill) | [Design Systems](../topics/design-systems.md#repo-leonxlnx--taste-skill)
 - **Kind:** Library
-- **Best for:** Developers directing coding agents to build or redesign web interfaces; Teams that want selectable visual-design guidance and image-to-code workflows
+- **Best for:** Developers directing coding agents to build or redesign web interfaces; Teams that want design guidance and repeatable checks for finished websites
 - **Languages:** Markdown, JavaScript
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 65,196
+- **GitHub stars:** 119,906
 
 **Key features**
 
-  - Supplies a default frontend-design skill with configurable variance, motion, and visual-density dials
-  - Provides specialized skills for existing-project redesign, image-to-code implementation, and visual styles such as soft, minimalist, and brutalist
-  - Includes image-generation skills for web comps, mobile screens, and brand-kit reference boards
+  - Ships design-taste-frontend as the single skill in the main repository
+  - Supplies layout, typography, illustration, and motion assets for website design
+  - Checks responsive layout, visual consistency, and performance in headless Chrome
 
 <a id="repo-nexu-io--open-design"></a>
 
 ## [Open Design](https://github.com/nexu-io/open-design)
 
-A local-first desktop design workspace that uses coding agents, skills, and design systems to generate, preview, and export code-based design artifacts.
+A collaborative design workspace that uses installed coding agents or OpenDesign Cloud to create prototypes, decks, and motion graphics from briefs and shared design systems.
 
 - **Category:** [Frontend and Design](../categories/frontend-and-design.md#repo-nexu-io--open-design)
 - **Topics:** [Desktop App](../topics/desktop-app.md#repo-nexu-io--open-design) | [Design Systems](../topics/design-systems.md#repo-nexu-io--open-design) | [Code Generation](../topics/code-generation.md#repo-nexu-io--open-design) | [Coding Agents](../topics/coding-agents.md#repo-nexu-io--open-design) | [MCP](../topics/mcp.md#repo-nexu-io--open-design) | [Local First](../topics/local-first.md#repo-nexu-io--open-design)
 - **Kind:** Application
-- **Best for:** Designers and developers prototyping interface artifacts with a local coding agent; Teams that want reusable DESIGN.md-based brand and design-system inputs
+- **Best for:** Designers and developers prototyping interfaces with a local coding agent or hosted model access; Teams that want reusable DESIGN.md-based brand and design-system inputs
 - **Languages:** TypeScript, JavaScript
 - **License:** Apache-2.0
 - **Lifecycle:** Active
-- **GitHub stars:** 79,699
+- **GitHub stars:** 108,907
 
 **Key features**
 
   - Generates web, desktop, and mobile prototypes from briefs and local agent workflows
   - Previews HTML artifacts in a sandboxed iframe and exports HTML, PDF, PPTX, or MP4
   - Supplies skills, design systems, plugins, a CLI, and an MCP server
+
+<a id="repo-obsidianmd--pele"></a>
+
+## [Pele](https://github.com/obsidianmd/pele)
+
+A synchronous renderer that turns supported Mermaid diagrams into SVG and exposes color and font styling through CSS variables.
+
+- **Category:** [Frontend and Design](../categories/frontend-and-design.md#repo-obsidianmd--pele)
+- **Topics:** [Visualization](../topics/visualization.md#repo-obsidianmd--pele) | [Libraries](../topics/libraries.md#repo-obsidianmd--pele) | [Frontend Development](../topics/frontend-development.md#repo-obsidianmd--pele)
+- **Kind:** Library
+- **Best for:** Applications rendering Mermaid diagrams with customizable styling
+- **Languages:** TypeScript
+- **License:** MIT
+- **Lifecycle:** Active
+- **GitHub stars:** 4,677
+
+**Key features**
+
+  - Supports the diagram types built into Mermaid 12.1.0
+  - Renders SVG synchronously or mounts responsive diagrams in the browser
+  - Uses CSS variables for colors and fonts
 
 <a id="repo-pbakaus--impeccable"></a>
 
@@ -324,11 +412,11 @@ A design skill and command suite for AI coding tools, paired with browser iterat
 - **Languages:** JavaScript
 - **License:** Apache-2.0
 - **Lifecycle:** Active
-- **GitHub stars:** 48,090
+- **GitHub stars:** 114,759
 
 **Key features**
 
-  - One skill with 23 design commands, including setup, critique, audit, and live iteration
+  - One skill with 24 design commands, including setup, critique, audit, and live iteration
   - Project design context through PRODUCT.md and optional DESIGN.md
   - Standalone CLI detector for directories, HTML files, URLs, and JSON output
 
@@ -345,7 +433,7 @@ A TypeScript monorepo for public packages that render code diffs and file trees,
 - **Languages:** TypeScript
 - **License:** Apache-2.0
 - **Lifecycle:** Active
-- **GitHub stars:** 5,444
+- **GitHub stars:** 6,638
 
 **Key features**
 
@@ -366,7 +454,7 @@ A TypeScript library that parses Git or unified diffs and renders them as format
 - **Languages:** TypeScript, JavaScript
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 3,389
+- **GitHub stars:** 3,433
 
 **Key features**
 
@@ -387,7 +475,7 @@ An Angular monorepo for accessible headless UI primitives, copy-paste shadcn-sty
 - **Languages:** TypeScript
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 2,779
+- **GitHub stars:** 3,007
 
 **Key features**
 
@@ -407,8 +495,8 @@ A large, hand-curated README index of resources for adding visual flair, usabili
 - **Best for:** Designers and frontend developers collecting interface and visual-design references; Product teams looking for inspiration or a starting point for specific UI details
 - **Languages:** Markdown
 - **License:** MIT
-- **Lifecycle:** Active
-- **GitHub stars:** 9,786
+- **Lifecycle:** Archived
+- **GitHub stars:** 9,775
 
 **Key features**
 
@@ -428,8 +516,8 @@ A shadcn/ui-based React component library and registry for adding customizable c
 - **Best for:** Teams building a customizable chat or generative-AI interface with Next.js; Projects that already use shadcn/ui, Tailwind CSS, and the AI SDK
 - **Languages:** TypeScript
 - **License:** Apache-2.0
-- **Lifecycle:** Active
-- **GitHub stars:** 2,242
+- **Lifecycle:** Maintenance
+- **GitHub stars:** 2,533
 
 **Key features**
 

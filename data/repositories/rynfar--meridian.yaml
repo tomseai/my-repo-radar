@@ -15,20 +15,26 @@ analysis:
       - "build-backend-services"
       - "improve-developer-workflow"
   evidence:
-    - claim: "Meridian bridges the Claude Agent SDK to standard Anthropic and OpenAI-compatible APIs through a local HTTP proxy, with sessions, streaming, concurrent use, profiles, multimodal input, and optional dashboard telemetry."
+    - claim: "Meridian bridges the Claude Agent SDK to standard Anthropic and
+        OpenAI-compatible APIs through a local HTTP proxy, with sessions,
+        streaming, concurrent use, profiles, multimodal input, and optional
+        dashboard telemetry."
       source_type: "repository-file"
       url: "https://github.com/rynfar/meridian/blob/main/README.md"
       checked_at: "2026-07-19"
       confidence: "high"
-    - claim: "The repository's imported GitHub metadata identifies TypeScript as its primary language."
+    - claim: "The repository's imported GitHub metadata identifies TypeScript as its
+        primary language."
       source_type: "github-metadata"
       url: "https://github.com/rynfar/meridian"
       checked_at: "2026-07-19"
       confidence: "medium"
   state: "researched"
   summary:
-    one_line: "Local compatibility proxy exposing the Claude Agent SDK through standard APIs."
-    why_useful: "It lets third-party tools use Claude Agent SDK capabilities through Anthropic- or OpenAI-style local endpoints."
+    one_line: "Local compatibility proxy exposing the Claude Agent SDK through
+      standard APIs."
+    why_useful: "It lets third-party tools use Claude Agent SDK capabilities through
+      Anthropic- or OpenAI-style local endpoints."
 curation:
   confidence: null
   evidence: []
@@ -42,45 +48,53 @@ id: "github:rynfar/meridian"
 import:
   github_snapshot:
     archived: false
-    created_at: "2026-01-20T21:39:40Z"
-    default_branch: "main"
-    description: "Use your Claude Max subscription with OpenCode, Pi, Droid, Aider, Crush, Cline. Proxy that bridges Anthropic's official SDK to enable Claude Max in third-party tools."
+    created_at: 2026-01-20T21:39:40Z
+    default_branch: main
+    description: Use Claude and Antigravity with Pi, OpenCode and other coding
+      clients. Local API bridge, usage dashboard and Mac app. Antigravity
+      preview available in 1.74.0.
     disabled: false
-    fetched_at: "2026-07-19T19:16:14.796Z"
+    fetched_at: 2026-11-22T12:07:00.148Z
     fork: false
-    forks: 195
-    homepage: "https://www.npmjs.com/package/@rynfar/meridian"
-    latest_release: null
-    license_spdx: null
-    open_issues: 4
-    primary_language: "TypeScript"
-    pushed_at: "2026-07-19T07:40:41Z"
-    stars: 1698
+    forks: 255
+    homepage: https://www.npmjs.com/package/@rynfar/meridian
+    latest_release:
+      tag: meridian-v1.93.0
+      published_at: 2026-11-17T01:21:49Z
+      url: https://github.com/rynfar/meridian/releases/tag/meridian-v1.93.0
+    license_spdx: MIT
+    open_issues: 74
+    primary_language: TypeScript
+    pushed_at: 2026-11-20T20:31:35Z
+    stars: 2213
     topics:
-      - "ai-coding"
-      - "aider"
-      - "anthropic"
-      - "bun"
-      - "charmbracelet"
-      - "claude"
-      - "claude-agent-sdk"
-      - "claude-max"
-      - "cline"
-      - "crush-cli"
-      - "llm"
-      - "opencode"
-      - "opencode-plugin"
-      - "pi-coding-agent"
-      - "proxy"
-      - "pylon-orchestrator"
-      - "whatsapp-automation"
-    updated_at: "2026-07-19T15:19:26Z"
+      - ai-agents
+      - ai-coding
+      - aider
+      - anthropic
+      - antigravity
+      - bun
+      - claude
+      - claude-agent-sdk
+      - claude-max
+      - cline
+      - crush-cli
+      - gemini
+      - google-antigravity
+      - jcode
+      - llm
+      - mcp
+      - opencode
+      - opencode-plugin
+      - pi-coding-agent
+      - proxy
+    updated_at: 2026-11-22T04:44:36Z
   sources:
-    - observed_at: "2026-03-21T19:47:18Z"
-      relation: "starred"
-      source_id: "github:user:tomseai:stars"
-      source_url: "https://github.com/tomseai?tab=stars"
-  state: "imported"
+    - observed_at: 2026-03-21T19:47:18Z
+      relation: starred
+      source_id: github:user:tomseai:stars
+      source_url: https://github.com/tomseai?tab=stars
+  state: refreshed
 repository:
   aliases: []
   github_node_id: "R_kgDOQ919ew"

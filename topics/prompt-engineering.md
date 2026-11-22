@@ -2,33 +2,12 @@
 
 # Prompt Engineering
 
-[Back to the main catalog](../README.md) | **13 repositories**
+[Back to the main catalog](../README.md) | **16 repositories**
 
 ## Primary categories represented
 
-- [AI and Automation](../categories/ai-and-automation.md) (2)
+- [AI and Automation](../categories/ai-and-automation.md) (5)
 - [Documentation and Learning](../categories/documentation-and-learning.md) (11)
-
-<a id="repo-ai-for-developers--awesome-vibe-coding"></a>
-
-## [Awesome Vibe Coding](https://github.com/ai-for-developers/awesome-vibe-coding)
-
-A hand-picked directory of tools and references for AI-assisted software development through prompting, iteration, and exploration, spanning builders, IDEs, agents, plugins, command-line tools, and reading.
-
-- **Category:** [Documentation and Learning](../categories/documentation-and-learning.md#repo-ai-for-developers--awesome-vibe-coding)
-- **Topics:** [Curated Lists](../topics/curated-lists.md#repo-ai-for-developers--awesome-vibe-coding) | [Coding Agents](../topics/coding-agents.md#repo-ai-for-developers--awesome-vibe-coding) | [Code Generation](../topics/code-generation.md#repo-ai-for-developers--awesome-vibe-coding) | [Prompt Engineering](../topics/prompt-engineering.md#repo-ai-for-developers--awesome-vibe-coding) | [Developer Productivity](../topics/developer-productivity.md#repo-ai-for-developers--awesome-vibe-coding) | [Reference](../topics/reference.md#repo-ai-for-developers--awesome-vibe-coding)
-- **Kind:** Curated List
-- **Best for:** Comparing categories of AI-assisted development tools before choosing one; Finding articles, task-management tools, and documentation for prompt-driven development workflows
-- **Languages:** Markdown
-- **License:** CC0-1.0
-- **Lifecycle:** Active
-- **GitHub stars:** 788
-
-**Key features**
-
-  - Separate sections for web builders, IDEs, mobile tools, extensions, local apps, and command-line tools
-  - Listings for agentic task management, monitoring and cost tracking, project documentation, and articles
-  - Direct official-site or repository links with concise descriptions for each resource
 
 <a id="repo-asgeirtj--system_prompts_leaks"></a>
 
@@ -43,13 +22,34 @@ A repository-organized reference collection of extracted and published system pr
 - **Languages:** Markdown
 - **License:** CC0-1.0
 - **Lifecycle:** Active
-- **GitHub stars:** 59,037
+- **GitHub stars:** 72,369
 
 **Key features**
 
   - Provider-organized prompt files for Anthropic, OpenAI, Google, xAI, Microsoft, and other products
   - Separate entries for chat products, coding tools, API-injected prompts, and browser or voice assistants
   - Claude Code prompt materials for agents, bundled skills, slash commands, reminders, and MCP servers
+
+<a id="repo-awesome-vibe-coding--awesome-vibe-coding"></a>
+
+## [Awesome Vibe Coding](https://github.com/awesome-vibe-coding/awesome-vibe-coding)
+
+A hand-picked directory of tools and references for AI-assisted software development, spanning builders, editors, agents, plugins, CLI tools, and reading.
+
+- **Category:** [Documentation and Learning](../categories/documentation-and-learning.md#repo-awesome-vibe-coding--awesome-vibe-coding)
+- **Topics:** [Curated Lists](../topics/curated-lists.md#repo-awesome-vibe-coding--awesome-vibe-coding) | [Coding Agents](../topics/coding-agents.md#repo-awesome-vibe-coding--awesome-vibe-coding) | [Code Generation](../topics/code-generation.md#repo-awesome-vibe-coding--awesome-vibe-coding) | [Prompt Engineering](../topics/prompt-engineering.md#repo-awesome-vibe-coding--awesome-vibe-coding) | [Developer Productivity](../topics/developer-productivity.md#repo-awesome-vibe-coding--awesome-vibe-coding) | [Reference](../topics/reference.md#repo-awesome-vibe-coding--awesome-vibe-coding)
+- **Kind:** Curated List
+- **Best for:** Comparing categories of AI-assisted development tools before choosing one; Finding references and supporting tools for prompt-driven development workflows
+- **Languages:** Markdown
+- **License:** CC0-1.0
+- **Lifecycle:** Active
+- **GitHub stars:** 899
+
+**Key features**
+
+  - Groups web builders, IDEs, mobile tools, extensions, local apps, and CLI tools
+  - Includes agentic task management, monitoring, documentation, and articles
+  - Links directly to official sites or repositories with concise descriptions
 
 <a id="repo-coleam00--context-engineering-intro"></a>
 
@@ -64,7 +64,7 @@ A Claude Code-centered starter template for supplying AI coding assistants with 
 - **Languages:** Markdown, Python, TypeScript
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 13,719
+- **GitHub stars:** 13,923
 
 **Key features**
 
@@ -85,7 +85,7 @@ A web-first guide and resource collection for learning prompt engineering with l
 - **Languages:** MDX, JavaScript
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 76,743
+- **GitHub stars:** 80,288
 
 **Key features**
 
@@ -106,13 +106,34 @@ A Markdown guide and repository collection that examines captured system prompts
 - **Languages:** Markdown
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 6,084
+- **GitHub stars:** 6,300
 
 **Key features**
 
   - Eight-principle guide covering role definition, structure, tool use, planning, context, constraints, safety, and tone
   - Case studies of v0, same.new, Manus, ChatGPT, and other AI systems
   - Repository-organized source materials for prompts, tools, and related instruction files
+
+<a id="repo-dreambigou--eli5"></a>
+
+## [ELI5](https://github.com/DreambigOu/ELI5)
+
+A Claude Code skill that adapts explanations to an audience's age, education, role, or relationship to the user.
+
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-dreambigou--eli5)
+- **Topics:** [Agent Skills](../topics/agent-skills.md#repo-dreambigou--eli5) | [LLMs](../topics/llms.md#repo-dreambigou--eli5) | [Prompt Engineering](../topics/prompt-engineering.md#repo-dreambigou--eli5) | [Evaluation](../topics/evaluation.md#repo-dreambigou--eli5)
+- **Kind:** Plugin
+- **Best for:** Claude Code users explaining concepts to varied audiences
+- **Languages:** Python
+- **License:** MIT
+- **Lifecycle:** Unknown
+- **GitHub stars:** 2,049
+
+**Key features**
+
+  - Detects the intended audience from a prompt
+  - Adjusts vocabulary, analogies, tone, depth, and framing
+  - Includes an evaluation workflow comparing skill and baseline outputs
 
 <a id="repo-github--awesome-copilot"></a>
 
@@ -127,7 +148,7 @@ A community-created collection of GitHub Copilot agents, instructions, skills, h
 - **Languages:** Unknown
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 36,773
+- **GitHub stars:** 41,437
 
 **Key features**
 
@@ -148,7 +169,7 @@ A public principles guide for building production-oriented LLM applications from
 - **Languages:** TypeScript, Python
 - **License:** Apache-2.0 AND CC-BY-SA-4.0
 - **Lifecycle:** Unknown
-- **GitHub stars:** 24,512
+- **GitHub stars:** 27,368
 
 **Key features**
 
@@ -160,20 +181,20 @@ A public principles guide for building production-oriented LLM applications from
 
 ## [caveman](https://github.com/JuliusBrussee/caveman)
 
-An installable skill and plugin collection that tells supported AI coding agents to produce terse, technical "caveman" responses, with session modes, optional memory-file compression, Claude Code hooks, and an MCP-description compression proxy.
+An agent tooling collection combining terse response skills with optional proxy-based tool-output compression, memory-file compression, hooks, and utilities for supported coding agents.
 
 - **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-juliusbrussee--caveman)
 - **Topics:** [Agent Skills](../topics/agent-skills.md#repo-juliusbrussee--caveman) | [Coding Agents](../topics/coding-agents.md#repo-juliusbrussee--caveman) | [Prompt Engineering](../topics/prompt-engineering.md#repo-juliusbrussee--caveman) | [Token Usage](../topics/token-usage.md#repo-juliusbrussee--caveman) | [MCP](../topics/mcp.md#repo-juliusbrussee--caveman) | [CLI](../topics/cli.md#repo-juliusbrussee--caveman) | [Open Source](../topics/open-source.md#repo-juliusbrussee--caveman)
 - **Kind:** Plugin
 - **Best for:** Users of supported AI coding agents who prefer concise technical replies; Output-heavy agent sessions where shorter responses are worth measuring
 - **Languages:** JavaScript
-- **License:** MIT
+- **License:** Apache-2.0
 - **Lifecycle:** Active
-- **GitHub stars:** 90,801
+- **GitHub stars:** 122,069
 
 **Key features**
 
-  - Six response modes, including lite, full, ultra, and wenyan
+  - Response-style skills offer several levels of concision
   - Commands for concise commit messages, code-review comments, and session statistics
   - Optional compression of named agent-memory files while preserving code, URLs, and paths
 
@@ -190,13 +211,34 @@ A Chinese-language collection of copy-ready prompts and linked agent-skill workf
 - **Languages:** Markdown
 - **License:** No license identified
 - **Lifecycle:** Active
-- **GitHub stars:** 31,732
+- **GitHub stars:** 36,232
 
 **Key features**
 
   - Provides Chinese-to-English and English-to-Chinese academic-paper prompts for both LaTeX and Word workflows
   - Includes prompts for polishing, logical checks, shortening or expanding text, experiment analysis, and reviewer-style paper review
   - Covers paper-figure, table-title, and figure-caption preparation alongside writing prompts
+
+<a id="repo-levi-qiao--longgraph-skill"></a>
+
+## [longgraph](https://github.com/levi-qiao/longgraph-skill)
+
+A portable Markdown skill and prompt library that compiles durable executor-supervisor graphs for long-running agent work, with file-backed progress, independent verification, and host-switchable continuation.
+
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-levi-qiao--longgraph-skill)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-levi-qiao--longgraph-skill) | [Agent Skills](../topics/agent-skills.md#repo-levi-qiao--longgraph-skill) | [Agent Orchestration](../topics/agent-orchestration.md#repo-levi-qiao--longgraph-skill) | [Multi Agent](../topics/multi-agent.md#repo-levi-qiao--longgraph-skill) | [Parallel Agents](../topics/parallel-agents.md#repo-levi-qiao--longgraph-skill) | [Agent Governance](../topics/agent-governance.md#repo-levi-qiao--longgraph-skill) | [Task Planning](../topics/task-planning.md#repo-levi-qiao--longgraph-skill) | [Spec Driven Development](../topics/spec-driven-development.md#repo-levi-qiao--longgraph-skill) | [Context Engineering](../topics/context-engineering.md#repo-levi-qiao--longgraph-skill) | [Prompt Engineering](../topics/prompt-engineering.md#repo-levi-qiao--longgraph-skill) | [Automation](../topics/automation.md#repo-levi-qiao--longgraph-skill)
+- **Kind:** Plugin
+- **Best for:** Multi-hour or multi-milestone agent tasks that outlive one context window; Teams needing a durable task queue, independent verification, and explicit acceptance gates
+- **Languages:** Markdown, Shell
+- **License:** MIT
+- **Lifecycle:** Active
+- **GitHub stars:** 79
+
+**Key features**
+
+  - Stores the task queue and progress in a single-writer ledger outside chat history
+  - Separates execution from clean-context supervision through a one-way directive edge
+  - Compiles focused delivery, convergence, research, or custom graph runs
 
 <a id="repo-mgechev--skills-best-practices"></a>
 
@@ -211,7 +253,7 @@ A concise guide to designing agent skills with discoverable metadata, progressiv
 - **Languages:** Python, Markdown
 - **License:** No repository license grant
 - **Lifecycle:** Active
-- **GitHub stars:** 2,126
+- **GitHub stars:** 2,298
 
 **Key features**
 
@@ -232,7 +274,7 @@ A curated collection of Markdown-based Cursor Project Rules (`.mdc`) that provid
 - **Languages:** JavaScript, Markdown
 - **License:** CC0-1.0
 - **Lifecycle:** Active
-- **GitHub stars:** 40,363
+- **GitHub stars:** 41,181
 
 **Key features**
 
@@ -253,13 +295,34 @@ A versioned, Markdown-based reference that extracts and tracks Claude Code syste
 - **Languages:** Markdown, JavaScript
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 11,907
+- **GitHub stars:** 13,209
 
 **Key features**
 
   - Lists over 500 extracted prompt strings, including system, tool, agent, utility, and skill prompts
   - Records prompt token counts and notes that environment-specific interpolation can change counts in a live session
   - Maintains a changelog spanning Claude Code prompt changes from version 2.0.14 onward
+
+<a id="repo-staltz--microskills"></a>
+
+## [microskills](https://github.com/staltz/microskills)
+
+A compact collection of reusable SKILL.md prompts for everyday agent work, including concise prose inspection, session debriefing, and locating code.
+
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-staltz--microskills)
+- **Topics:** [Agent Skills](../topics/agent-skills.md#repo-staltz--microskills) | [Coding Agents](../topics/coding-agents.md#repo-staltz--microskills) | [Prompt Engineering](../topics/prompt-engineering.md#repo-staltz--microskills) | [Developer Productivity](../topics/developer-productivity.md#repo-staltz--microskills)
+- **Kind:** Curated List
+- **Best for:** Developers who want small, composable prompts instead of large workflow skills; Agent users who want portable skills compatible with skills.sh conventions
+- **Languages:** Markdown
+- **License:** MIT
+- **Lifecycle:** Experimental
+- **GitHub stars:** 88
+
+**Key features**
+
+  - Packages each prompt as a focused, independently installable agent skill
+  - Includes skills for prose inspection, session debriefs, code discovery, and turning agent sessions into comics
+  - Uses the portable SKILL.md format supported by multiple coding agents
 
 <a id="repo-x1xhlol--system-prompts-and-models-of-ai-tools"></a>
 
@@ -274,7 +337,7 @@ A file collection of system prompts, tool descriptions, and model-related artifa
 - **Languages:** Unknown
 - **License:** GPL-3.0-only
 - **Lifecycle:** Active
-- **GitHub stars:** 142,077
+- **GitHub stars:** 144,810
 
 **Key features**
 

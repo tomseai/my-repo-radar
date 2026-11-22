@@ -2,9 +2,9 @@ schema_version: 2
 repository_id: github:strapi/strapi
 research:
   state: complete
-  source_commit: 878314aff3a80bfd0671ab10875193bf4def82ca
-  bundle_collected_at: 2026-07-19T20:45:30.014Z
-  researched_at: 2026-07-20T16:05:00Z
+  source_commit: d42ae3fd836a35e23b42a8b0a32cb3c19fdd20a2
+  bundle_collected_at: 2026-11-22T12:10:29.161Z
+  researched_at: 2026-11-22T12:22:35Z
   confidence: high
 classification:
   primary_category: platforms-and-applications
@@ -23,11 +23,14 @@ project:
     REST or GraphQL APIs and a customizable administration interface.
   best_for:
     - Teams that need a customizable content API and editor workflow
-    - Applications that want self-hosted content management with multiple database choices
+    - Applications that want self-hosted content management with multiple
+      database choices
 key_features:
-  - Visual Content-Type Builder for defining content structures without hand-writing the model UI
+  - Visual Content-Type Builder for defining content structures without
+    hand-writing the model UI
   - Generated REST and GraphQL APIs for each content type
-  - Built-in roles and permissions, media library, internationalization, and draft-and-publish workflows
+  - Built-in roles and permissions, media library, internationalization, and
+    draft-and-publish workflows
   - Extensible plugins and a customizable administration dashboard
   - TypeScript support with SQLite, PostgreSQL, MySQL, and MariaDB options
 usage:
@@ -38,7 +41,8 @@ usage:
     - command-line project generator
   installation:
     - create a project with npx create-strapi@latest my-project
-    - deploy a self-managed project using the documented database and hosting requirements
+    - deploy a self-managed project using the documented database and hosting
+      requirements
     - use Strapi Cloud for the managed-hosting option
   setup: moderate
 technology:
@@ -52,7 +56,8 @@ technology:
     - Yarn workspaces
 license:
   spdx: NOASSERTION
-  name: MIT Expat License for Community Edition; Enterprise Edition separately licensed
+  name: MIT Expat License for Community Edition; Enterprise Edition separately
+    licensed
   notes: >-
     The root license grants MIT Expat terms only outside ee/ directories for
     Community Edition use without a Strapi Cloud account; enterprise components
@@ -60,18 +65,25 @@ license:
 status:
   lifecycle: active
   archived: false
-  latest_release: v5.50.2
-  latest_release_at: 2026-07-15
+  latest_release: v5.63.0
+  latest_release_at: 2026-11-18
 strengths:
-  - Couples a content-editor workflow with generated APIs rather than requiring separate CMS and backend services
-  - Covers common content operations, localization, media, publishing, and authorization in the core product
-  - Supports self-managed deployments while also offering an official hosted option
+  - Couples a content-editor workflow with generated APIs rather than requiring
+    separate CMS and backend services
+  - Covers common content operations, localization, media, publishing, and
+    authorization in the core product
+  - Supports self-managed deployments while also offering an official hosted
+    option
 caveats:
-  - Production setup still requires selecting, operating, and securing a supported database and deployment environment
-  - "The license is not uniformly MIT across the repository: ee/ code and cloud-related use have separate terms"
-  - API, plugin, and database configuration require project-specific design and maintenance
+  - Production setup still requires selecting, operating, and securing a
+    supported database and deployment environment
+  - "The license is not uniformly MIT across the repository: ee/ code and
+    cloud-related use have separate terms"
+  - API, plugin, and database configuration require project-specific design and
+    maintenance
 sources:
-  - https://raw.githubusercontent.com/strapi/strapi/878314aff3a80bfd0671ab10875193bf4def82ca/README.md
-  - https://raw.githubusercontent.com/strapi/strapi/878314aff3a80bfd0671ab10875193bf4def82ca/LICENSE
-  - https://raw.githubusercontent.com/strapi/strapi/878314aff3a80bfd0671ab10875193bf4def82ca/package.json
+  - https://raw.githubusercontent.com/strapi/strapi/d42ae3fd836a35e23b42a8b0a32cb3c19fdd20a2/README.md
+  - https://raw.githubusercontent.com/strapi/strapi/d42ae3fd836a35e23b42a8b0a32cb3c19fdd20a2/LICENSE
+  - https://raw.githubusercontent.com/strapi/strapi/d42ae3fd836a35e23b42a8b0a32cb3c19fdd20a2/package.json
   - https://github.com/strapi/strapi/releases.atom
+  - https://github.com/strapi/strapi/releases/tag/v5.63.0

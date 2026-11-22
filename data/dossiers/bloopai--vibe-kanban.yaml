@@ -3,9 +3,9 @@ repository_id: github:BloopAI/vibe-kanban
 
 research:
   state: complete
-  source_commit: 4deb7eca8f381f7cbc1f9d15515a9ab8f8009053
-  bundle_collected_at: 2026-07-19T20:41:56.395Z
-  researched_at: 2026-07-20T00:30:00Z
+  source_commit: 3f095f0186f6e68d67143d38b02da2238f6524d8
+  bundle_collected_at: 2026-11-22T12:09:09.467Z
+  researched_at: 2026-11-22T12:18:43.417Z
   confidence: high
 
 classification:
@@ -65,26 +65,31 @@ technology:
 license:
   spdx: Apache-2.0
   name: Apache License 2.0
-  notes: Permissive license with an express patent grant and notice-retention requirements.
+  notes: Permissive license with an express patent grant and notice-retention
+    requirements.
 
 status:
   lifecycle: deprecated
   archived: false
-  latest_release: v0.1.44
-  latest_release_at: 2026-04-24
+  latest_release: v0.1.46.1794744340
+  latest_release_at: 2026-11-15
 
 strengths:
-  - Combines task planning, isolated agent execution, review, preview, and pull requests
-  - Supports a broad set of coding-agent command-line tools through one workspace model
+  - Combines task planning, isolated agent execution, review, preview, and pull
+    requests
+  - Supports a broad set of coding-agent command-line tools through one
+    workspace model
 
 caveats:
   - The README explicitly says the project is sunsetting
   - Coding agents must be installed and authenticated separately
-  - Building from source requires Rust, Node.js, and pnpm; deployed access needs suitable origin controls
+  - Building from source requires Rust, Node.js, and pnpm; deployed access needs
+    suitable origin controls
 
 sources:
-  - https://raw.githubusercontent.com/BloopAI/vibe-kanban/4deb7eca8f381f7cbc1f9d15515a9ab8f8009053/README.md
-  - https://raw.githubusercontent.com/BloopAI/vibe-kanban/4deb7eca8f381f7cbc1f9d15515a9ab8f8009053/LICENSE
-  - https://raw.githubusercontent.com/BloopAI/vibe-kanban/4deb7eca8f381f7cbc1f9d15515a9ab8f8009053/Cargo.toml
-  - https://raw.githubusercontent.com/BloopAI/vibe-kanban/4deb7eca8f381f7cbc1f9d15515a9ab8f8009053/npx-cli/package.json
+  - https://raw.githubusercontent.com/BloopAI/vibe-kanban/3f095f0186f6e68d67143d38b02da2238f6524d8/README.md
+  - https://raw.githubusercontent.com/BloopAI/vibe-kanban/3f095f0186f6e68d67143d38b02da2238f6524d8/LICENSE
+  - https://raw.githubusercontent.com/BloopAI/vibe-kanban/3f095f0186f6e68d67143d38b02da2238f6524d8/Cargo.toml
+  - https://raw.githubusercontent.com/BloopAI/vibe-kanban/3f095f0186f6e68d67143d38b02da2238f6524d8/npx-cli/package.json
   - https://github.com/BloopAI/vibe-kanban/releases.atom
+  - https://github.com/BloopAI/vibe-kanban/releases/tag/v0.1.46.1794744340

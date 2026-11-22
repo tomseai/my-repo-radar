@@ -2,9 +2,9 @@ schema_version: 2
 repository_id: github:pipecat-ai/pipecat
 research:
   state: complete
-  source_commit: 5b5cc30ff223b45f59a49cb33d6cb7c6b35d5b98
-  bundle_collected_at: 2026-07-19T20:44:54.946Z
-  researched_at: 2026-07-20T15:52:01.019Z
+  source_commit: a5c0749f021b5ce3398db2c15fbd54c69e8d9674
+  bundle_collected_at: 2026-11-22T12:10:17.772Z
+  researched_at: 2026-11-22T12:27:12.982Z
   confidence: high
 classification:
   primary_category: ai-and-automation
@@ -26,15 +26,23 @@ project:
     conversational agents, combining media pipelines, AI services, transports,
     structured conversations, and multi-agent coordination.
   best_for:
-    - Building production-oriented voice, video, or multimodal conversational agents
-    - Composing specialist agents that hand off, fan out, or run across processes and machines
+    - Building production-oriented voice, video, or multimodal conversational
+      agents
+    - Composing specialist agents that hand off, fan out, or run across
+      processes and machines
 key_features:
-  - Composable pipelines for audio, video, AI services, transports, and conversations
-  - Speech-to-text, LLM, text-to-speech, speech-to-speech, and vision service integrations
-  - WebSocket and WebRTC transport options alongside telephony and local transports
-  - Pipecat Flows for predefined or dynamic structured conversations with state management
-  - Multi-agent handoff, parallel fan-out, sidecar workers, and distributed coordination
-  - CLI support for interactive project initialization, monitoring, and deployment workflows
+  - Composable pipelines for audio, video, AI services, transports, and
+    conversations
+  - Speech-to-text, LLM, text-to-speech, speech-to-speech, and vision service
+    integrations
+  - WebSocket and WebRTC transport options alongside telephony and local
+    transports
+  - Pipecat Flows for predefined or dynamic structured conversations with state
+    management
+  - Multi-agent handoff, parallel fan-out, sidecar workers, and distributed
+    coordination
+  - CLI support for interactive project initialization, monitoring, and
+    deployment workflows
 usage:
   interfaces:
     - Python library
@@ -56,24 +64,32 @@ technology:
 license:
   spdx: BSD-2-Clause
   name: BSD 2-Clause License
-  notes: Redistribution in source or binary form is permitted when copyright, conditions, and disclaimer notices are retained; the software is provided without warranty.
+  notes: Redistribution in source or binary form is permitted when copyright,
+    conditions, and disclaimer notices are retained; the software is provided
+    without warranty.
 status:
   lifecycle: active
   archived: false
-  latest_release: v1.5.0
-  latest_release_at: "2026-07-04"
+  latest_release: v1.16.0
+  latest_release_at: "2026-11-12"
 strengths:
-  - Covers the end-to-end real-time media pipeline rather than only model invocation
+  - Covers the end-to-end real-time media pipeline rather than only model
+    invocation
   - Supports both a single voice agent and coordinated multi-agent topologies
   - Lets applications select from many service providers and transports
 caveats:
-  - Practical deployments require selecting, configuring, and securing third-party providers and transports
-  - Examples require service credentials in environment variables, and local audio needs the PortAudio system dependency
-  - The framework requires Python 3.11 or newer; the README recommends Python 3.12 or newer
-  - The base install is intentionally lean, so provider and CLI capabilities can require optional extras
+  - Practical deployments require selecting, configuring, and securing
+    third-party providers and transports
+  - Examples require service credentials in environment variables, and local
+    audio needs the PortAudio system dependency
+  - The framework requires Python 3.11 or newer; the README recommends Python
+    3.12 or newer
+  - The base install is intentionally lean, so provider and CLI capabilities can
+    require optional extras
 sources:
-  - https://raw.githubusercontent.com/pipecat-ai/pipecat/5b5cc30ff223b45f59a49cb33d6cb7c6b35d5b98/README.md
-  - https://raw.githubusercontent.com/pipecat-ai/pipecat/5b5cc30ff223b45f59a49cb33d6cb7c6b35d5b98/LICENSE
-  - https://raw.githubusercontent.com/pipecat-ai/pipecat/5b5cc30ff223b45f59a49cb33d6cb7c6b35d5b98/pyproject.toml
-  - https://raw.githubusercontent.com/pipecat-ai/pipecat/5b5cc30ff223b45f59a49cb33d6cb7c6b35d5b98/examples/README.md
+  - https://raw.githubusercontent.com/pipecat-ai/pipecat/a5c0749f021b5ce3398db2c15fbd54c69e8d9674/README.md
+  - https://raw.githubusercontent.com/pipecat-ai/pipecat/a5c0749f021b5ce3398db2c15fbd54c69e8d9674/LICENSE
+  - https://raw.githubusercontent.com/pipecat-ai/pipecat/a5c0749f021b5ce3398db2c15fbd54c69e8d9674/pyproject.toml
+  - https://raw.githubusercontent.com/pipecat-ai/pipecat/a5c0749f021b5ce3398db2c15fbd54c69e8d9674/examples/README.md
   - https://github.com/pipecat-ai/pipecat/releases.atom
+  - https://github.com/pipecat-ai/pipecat/releases/tag/v1.16.0

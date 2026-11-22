@@ -3,9 +3,9 @@ repository_id: github:stablyai/orca
 
 research:
   state: complete
-  source_commit: 37039cd09571b434773aa551618c11c5405a2aed
-  bundle_collected_at: 2026-07-19T20:45:26.573Z
-  researched_at: 2026-07-20T00:00:00Z
+  source_commit: 8408e2dfa0f5a73f708fd01e62ea3ba184f0a548
+  bundle_collected_at: 2026-11-22T12:10:28.568Z
+  researched_at: 2026-11-22T12:26:58Z
   confidence: high
 
 classification:
@@ -34,7 +34,7 @@ project:
 key_features:
   - Runs terminal-based coding agents in tracked, isolated Git worktrees
   - Supports parallel prompts, result comparison, and merge-oriented workflows
-  - Provides terminal splits with persistent scrollback and WebGL rendering
+  - Provides split panes for agents, terminals, browsers, and diffs
   - Includes GitHub and Linear task, pull-request, and review workflows
   - Lets users annotate generated diffs and send feedback to an agent
   - Offers a mobile companion for monitoring agents and sending follow-ups
@@ -47,7 +47,7 @@ usage:
   installation:
     - official desktop download
     - Homebrew or AUR package
-    - App Store, TestFlight, or Android APK mobile companion
+    - iOS App Store, Google Play, or Android APK mobile companion
     - build from source
   setup: moderate
 
@@ -64,13 +64,14 @@ technology:
 license:
   spdx: MIT
   name: MIT License
-  notes: Permissive license requiring preservation of the copyright and permission notice in copies or substantial portions.
+  notes: Permissive license requiring preservation of the copyright and permission
+    notice in copies or substantial portions.
 
 status:
   lifecycle: active
   archived: false
-  latest_release: v1.4.146
-  latest_release_at: 2026-07-19
+  latest_release: v1.4.269
+  latest_release_at: 2026-11-21
 
 strengths:
   - Combines agent orchestration, worktree isolation, terminal work, and review
@@ -78,13 +79,17 @@ strengths:
   - Offers desktop, command-line, remote-worktree, and mobile workflows
 
 caveats:
-  - It coordinates external terminal agents; subscriptions and authentication remain separate
-  - The latest feed entry is v1.4.147-rc.0; v1.4.146 is the latest non-RC Orca release
-  - The release feed also includes an issue-assets entry unrelated to product versioning
-  - Building from source requires Node.js 24 and the pnpm toolchain specified by the project
+  - It coordinates external terminal agents; subscriptions and authentication
+    remain separate
+  - The feed lists v1.4.270, but the release API did not establish a published release; v1.4.269 remains the latest verified release
+  - The release feed also includes an issue-assets entry unrelated to product
+    versioning
+  - Building from source requires Node.js 24 and the pnpm toolchain specified by
+    the project
 
 sources:
-  - https://raw.githubusercontent.com/stablyai/orca/37039cd09571b434773aa551618c11c5405a2aed/README.md
-  - https://raw.githubusercontent.com/stablyai/orca/37039cd09571b434773aa551618c11c5405a2aed/package.json
-  - https://raw.githubusercontent.com/stablyai/orca/37039cd09571b434773aa551618c11c5405a2aed/LICENSE
+  - https://raw.githubusercontent.com/stablyai/orca/8408e2dfa0f5a73f708fd01e62ea3ba184f0a548/README.md
+  - https://raw.githubusercontent.com/stablyai/orca/8408e2dfa0f5a73f708fd01e62ea3ba184f0a548/package.json
+  - https://raw.githubusercontent.com/stablyai/orca/8408e2dfa0f5a73f708fd01e62ea3ba184f0a548/LICENSE
   - https://github.com/stablyai/orca/releases.atom
+  - https://github.com/stablyai/orca/releases/tag/v1.4.269

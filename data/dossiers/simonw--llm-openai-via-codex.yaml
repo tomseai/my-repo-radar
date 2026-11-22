@@ -5,7 +5,7 @@ research:
   state: complete
   source_commit: ba5b0234b9850440b8a4a4eb97faa9667dbe0761
   bundle_collected_at: 2026-07-19T20:45:13.850Z
-  researched_at: 2026-07-20T00:00:00Z
+  researched_at: 2026-11-22T12:22:40.906Z
   confidence: high
 
 classification:
@@ -61,8 +61,8 @@ license:
 status:
   lifecycle: unknown
   archived: false
-  latest_release: 0.1a0
-  latest_release_at: 2026-04-23
+  latest_release: null
+  latest_release_at: null
 
 strengths:
   - Fits directly into an established LLM command-line workflow

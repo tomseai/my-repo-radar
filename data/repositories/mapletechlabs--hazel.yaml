@@ -1,0 +1,79 @@
+analysis:
+  analyzed_at: 2026-11-22T12:25:03.789Z
+  classification:
+    primary_category: collaboration-and-productivity
+    state: confirmed
+    technologies:
+      - typescript
+      - sqlite
+      - docker
+    topics:
+      - chat-ui
+      - realtime-collaboration
+      - realtime
+      - web-ui
+    use_cases:
+      - build-web-applications
+      - collaborate-on-work
+      - run-personal-or-team-tools
+  evidence:
+    - claim: A real-time team chat application with a Foldkit web client and
+        Cloudflare Durable Objects. It shows how typed Effect RPC and TanStack
+        DB can keep channels and direct messages synchronized.
+      source_type: repository-file
+      url: https://raw.githubusercontent.com/MapleTechLabs/hazel/264154a1228cdd1537f7075284a6c0c80177f9bc/README.md
+      checked_at: 2026-11-22
+      confidence: high
+  state: researched
+  summary:
+    one_line: A real-time team chat application with a Foldkit web client and
+      Cloudflare Durable Objects.
+    why_useful: It shows how typed Effect RPC and TanStack DB can keep channels and
+      direct messages synchronized.
+curation:
+  confidence: null
+  evidence: []
+  limitations: []
+  recommendation: null
+  reviewed_at: null
+  state: uncurated
+  strengths: []
+  verdict: null
+id: github:MapleTechLabs/hazel
+import:
+  github_snapshot:
+    archived: false
+    created_at: 2025-04-24T23:19:39Z
+    default_branch: main
+    description: null
+    disabled: false
+    fetched_at: 2026-11-22T12:07:00.148Z
+    fork: false
+    forks: 59
+    homepage: https://hazel.sh
+    latest_release:
+      tag: v1.3.0
+      published_at: 2026-11-21T14:37:23Z
+      url: https://github.com/MapleTechLabs/hazel/releases/tag/v1.3.0
+    license_spdx: NOASSERTION
+    open_issues: 20
+    primary_language: TypeScript
+    pushed_at: 2026-11-22T12:04:30Z
+    stars: 741
+    topics: []
+    updated_at: 2026-11-21T22:58:53Z
+  sources:
+    - observed_at: 2026-09-06T23:16:56Z
+      relation: starred
+      source_id: github:user:tomseai:stars
+      source_url: https://github.com/tomseai?tab=stars
+  state: transferred
+repository:
+  aliases:
+    - github:HazelChat/hazel
+  github_node_id: R_kgDOOfS6Ag
+  host: github.com
+  name: hazel
+  owner: MapleTechLabs
+  url: https://github.com/MapleTechLabs/hazel
+version: 1

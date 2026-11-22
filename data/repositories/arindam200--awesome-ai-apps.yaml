@@ -13,15 +13,19 @@ analysis:
       - "build-ai-products"
       - "learn-and-reference"
   evidence:
-    - claim: "Awesome AI Apps documents a collection of practical LLM application examples, tutorials, and recipes covering agents, voice assistants, RAG applications, and MCP-backed tools."
+    - claim: "Awesome AI Apps documents a collection of practical LLM application
+        examples, tutorials, and recipes covering agents, voice assistants, RAG
+        applications, and MCP-backed tools."
       source_type: "repository-file"
       url: "https://github.com/Arindam200/awesome-ai-apps/blob/main/README.md"
       checked_at: "2026-07-19"
       confidence: "high"
   state: "researched"
   summary:
-    one_line: "A collection of practical examples and tutorials for LLM-powered applications."
-    why_useful: "It helps developers explore implementations across agents, RAG, voice, and MCP use cases."
+    one_line: "A collection of practical examples and tutorials for LLM-powered
+      applications."
+    why_useful: "It helps developers explore implementations across agents, RAG,
+      voice, and MCP use cases."
 curation:
   confidence: null
   evidence: []
@@ -35,33 +39,34 @@ id: "github:Arindam200/awesome-ai-apps"
 import:
   github_snapshot:
     archived: false
-    created_at: "2025-02-16T13:57:00Z"
-    default_branch: "main"
-    description: "A collection of projects showcasing RAG, agents, workflows, and other AI use cases"
+    created_at: 2025-02-16T13:57:00Z
+    default_branch: main
+    description: A collection of projects showcasing RAG, agents, workflows, and
+      other AI use cases
     disabled: false
-    fetched_at: "2026-07-19T19:16:14.796Z"
+    fetched_at: 2026-11-22T12:07:00.148Z
     fork: false
-    forks: 1710
-    homepage: "https://raah.dev"
+    forks: 1899
+    homepage: https://studio1hq.com
     latest_release: null
-    license_spdx: "MIT"
-    open_issues: 81
-    primary_language: "Python"
-    pushed_at: "2026-07-19T10:53:08Z"
-    stars: 13208
+    license_spdx: MIT
+    open_issues: 74
+    primary_language: Python
+    pushed_at: 2026-11-16T12:20:04Z
+    stars: 16774
     topics:
-      - "agents"
-      - "ai"
-      - "hacktoberfest"
-      - "llm"
-      - "mcp"
-    updated_at: "2026-07-19T15:32:06Z"
+      - agents
+      - ai
+      - hacktoberfest
+      - llm
+      - mcp
+    updated_at: 2026-11-22T10:50:31Z
   sources:
-    - observed_at: "2026-04-03T15:36:21Z"
-      relation: "starred"
-      source_id: "github:user:tomseai:stars"
-      source_url: "https://github.com/tomseai?tab=stars"
-  state: "imported"
+    - observed_at: 2026-04-03T15:36:21Z
+      relation: starred
+      source_id: github:user:tomseai:stars
+      source_url: https://github.com/tomseai?tab=stars
+  state: refreshed
 repository:
   aliases: []
   github_node_id: "R_kgDON6cn0g"

@@ -2,9 +2,9 @@ schema_version: 2
 repository_id: github:gridstack/gridstack.js
 research:
   state: complete
-  source_commit: 86e0c783216af5fd9769ae7b5333fcc145dc4bd9
-  bundle_collected_at: 2026-07-19T20:43:19.342Z
-  researched_at: 2026-07-19T22:39:49.560Z
+  source_commit: a7f828af1c5366c02aff8a8c8fafda2abbff58a6
+  bundle_collected_at: 2026-11-22T12:09:36.301Z
+  researched_at: 2026-11-22T12:24:06.721456+00:00
   confidence: high
 classification:
   primary_category: frontend-and-design
@@ -17,14 +17,15 @@ project:
   name: gridstack.js
   kind: library
   summary: >-
-    A TypeScript library for building responsive, draggable, resizable
-    dashboard grids and managing their widget layouts.
+    A TypeScript library for building responsive, draggable, resizable dashboard
+    grids and managing their widget layouts.
   best_for:
     - Adding configurable multi-column dashboard layouts to a web application
     - Applications that need to save and restore user-arranged widget positions
 key_features:
   - Responsive multi-column grids with drag-and-drop and resize interactions
-  - Native mouse and touch support without runtime dependencies in the core library
+  - Native mouse and touch support without runtime dependencies in the core
+    library
   - APIs for creating widgets, loading serialized layouts, and saving layouts
   - Included Angular, React, and Vue wrappers alongside the core package
   - Extensible layout engine and drag-in setup APIs
@@ -52,28 +53,35 @@ license:
   name: MIT License
   notes: >-
     Permissive license allowing use, modification, distribution, sublicensing,
-    and sale when the copyright and license notice are retained; provided without warranty.
+    and sale when the copyright and license notice are retained; provided
+    without warranty.
 status:
   lifecycle: active
   archived: false
-  latest_release: v13.0.0
-  latest_release_at: "2026-07-19"
+  latest_release: v14.1.1
+  latest_release_at: "2026-11-17"
 strengths:
   - Covers layout interaction and persistence through a documented core API
   - Provides maintained framework wrappers instead of requiring custom bindings
-  - Supports responsive layouts and touch interaction for dashboard-style interfaces
+  - Supports responsive layouts and touch interaction for dashboard-style
+    interfaces
 caveats:
-  - It manages grid layout and widget placement, not the data or rendering logic inside dashboard widgets
-  - Integrating a wrapper still requires application-specific component registration and state handling
-  - Version 13 changes the Angular wrapper's widget property and registration names, so Angular upgrades require review
-  - Internet Explorer support was removed again in version 12; the documented current approach targets modern browsers
+  - It manages grid layout and widget placement, not the data or rendering logic
+    inside dashboard widgets
+  - Integrating a wrapper still requires application-specific component
+    registration and state handling
+  - Version 13 changes the Angular wrapper's widget property and registration
+    names, so Angular upgrades require review
+  - Internet Explorer support was removed again in version 12; the documented
+    current approach targets modern browsers
 sources:
-  - https://raw.githubusercontent.com/gridstack/gridstack.js/86e0c783216af5fd9769ae7b5333fcc145dc4bd9/README.md
-  - https://raw.githubusercontent.com/gridstack/gridstack.js/86e0c783216af5fd9769ae7b5333fcc145dc4bd9/doc/API.md
-  - https://raw.githubusercontent.com/gridstack/gridstack.js/86e0c783216af5fd9769ae7b5333fcc145dc4bd9/doc/CHANGES.md
-  - https://raw.githubusercontent.com/gridstack/gridstack.js/86e0c783216af5fd9769ae7b5333fcc145dc4bd9/package.json
-  - https://raw.githubusercontent.com/gridstack/gridstack.js/86e0c783216af5fd9769ae7b5333fcc145dc4bd9/angular/projects/lib/package.json
-  - https://raw.githubusercontent.com/gridstack/gridstack.js/86e0c783216af5fd9769ae7b5333fcc145dc4bd9/react/package.json
-  - https://raw.githubusercontent.com/gridstack/gridstack.js/86e0c783216af5fd9769ae7b5333fcc145dc4bd9/vue/package.json
-  - https://raw.githubusercontent.com/gridstack/gridstack.js/86e0c783216af5fd9769ae7b5333fcc145dc4bd9/LICENSE
+  - https://raw.githubusercontent.com/gridstack/gridstack.js/a7f828af1c5366c02aff8a8c8fafda2abbff58a6/README.md
+  - https://raw.githubusercontent.com/gridstack/gridstack.js/a7f828af1c5366c02aff8a8c8fafda2abbff58a6/doc/API.md
+  - https://raw.githubusercontent.com/gridstack/gridstack.js/a7f828af1c5366c02aff8a8c8fafda2abbff58a6/doc/CHANGES.md
+  - https://raw.githubusercontent.com/gridstack/gridstack.js/a7f828af1c5366c02aff8a8c8fafda2abbff58a6/package.json
+  - https://raw.githubusercontent.com/gridstack/gridstack.js/a7f828af1c5366c02aff8a8c8fafda2abbff58a6/angular/projects/lib/package.json
+  - https://raw.githubusercontent.com/gridstack/gridstack.js/a7f828af1c5366c02aff8a8c8fafda2abbff58a6/react/package.json
+  - https://raw.githubusercontent.com/gridstack/gridstack.js/a7f828af1c5366c02aff8a8c8fafda2abbff58a6/vue/package.json
+  - https://raw.githubusercontent.com/gridstack/gridstack.js/a7f828af1c5366c02aff8a8c8fafda2abbff58a6/LICENSE
   - https://github.com/gridstack/gridstack.js/releases.atom
+  - https://github.com/gridstack/gridstack.js/releases/tag/v14.1.1

@@ -2,14 +2,15 @@
 
 # Local First
 
-[Back to the main catalog](../README.md) | **31 repositories**
+[Back to the main catalog](../README.md) | **36 repositories**
 
 ## Primary categories represented
 
-- [AI and Automation](../categories/ai-and-automation.md) (11)
+- [AI and Automation](../categories/ai-and-automation.md) (13)
 - [Backend and APIs](../categories/backend-and-apis.md) (1)
+- [Collaboration and Productivity](../categories/collaboration-and-productivity.md) (2)
 - [Data and Databases](../categories/data-and-databases.md) (2)
-- [Developer Tools](../categories/developer-tools.md) (9)
+- [Developer Tools](../categories/developer-tools.md) (10)
 - [DevOps and Cloud](../categories/devops-and-cloud.md) (1)
 - [Frontend and Design](../categories/frontend-and-design.md) (2)
 - [Platforms and Applications](../categories/platforms-and-applications.md) (4)
@@ -28,13 +29,34 @@ A browser-hosted screen and camera recorder that captures a tab, window, or scre
 - **Languages:** TypeScript
 - **License:** MIT
 - **Lifecycle:** Unknown
-- **GitHub stars:** 519
+- **GitHub stars:** 534
 
 **Key features**
 
   - Screen-only, screen-and-camera, and camera-only recording modes
   - Tab, window, and full-screen capture options
   - Picture-in-picture camera view with circular or square camera shapes
+
+<a id="repo-agegr--pi-web"></a>
+
+## [pi-web](https://github.com/agegr/pi-web)
+
+A local web interface for the pi coding agent that reuses pi sessions and configuration while adding project browsing, Git diffs, worktrees, and model setup.
+
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-agegr--pi-web)
+- **Topics:** [Coding Agents](../topics/coding-agents.md#repo-agegr--pi-web) | [Agent Development Environments](../topics/agent-development-environments.md#repo-agegr--pi-web) | [Web UI](../topics/web-ui.md#repo-agegr--pi-web) | [Git](../topics/git.md#repo-agegr--pi-web) | [Worktrees](../topics/worktrees.md#repo-agegr--pi-web) | [Local First](../topics/local-first.md#repo-agegr--pi-web) | [Multi Provider](../topics/multi-provider.md#repo-agegr--pi-web)
+- **Kind:** Application
+- **Best for:** Pi users who prefer a browser workspace over a terminal-only interface; Developers managing pi sessions, files, diffs, and worktrees from one local UI
+- **Languages:** TypeScript
+- **License:** MIT
+- **Lifecycle:** Active
+- **GitHub stars:** 8,361
+
+**Key features**
+
+  - Resumes, branches, exports, and deletes existing pi sessions
+  - Browses project files and renders Git diffs and file previews
+  - Switches Git worktrees and configures providers, models, plugins, and skills
 
 <a id="repo-babycommando--entity-db"></a>
 
@@ -49,7 +71,7 @@ A JavaScript browser library for persisting vector embeddings in IndexedDB and s
 - **Languages:** JavaScript, WebAssembly
 - **License:** Apache-2.0
 - **Lifecycle:** Unknown
-- **GitHub stars:** 296
+- **GitHub stars:** 295
 
 **Key features**
 
@@ -70,7 +92,7 @@ A local CLI that reads supported coding-agent usage logs and reports token count
 - **Languages:** Rust, TypeScript
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 17,294
+- **GitHub stars:** 19,541
 
 **Key features**
 
@@ -91,7 +113,7 @@ A GPL-3.0 desktop-first AI chat client for Windows, macOS, and Linux that also p
 - **Languages:** TypeScript
 - **License:** GPL-3.0
 - **Lifecycle:** Active
-- **GitHub stars:** 41,064
+- **GitHub stars:** 42,474
 
 **Key features**
 
@@ -112,13 +134,34 @@ An MIT-licensed AI chat application available as a deployable web/PWA client and
 - **Languages:** TypeScript, Rust
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 88,519
+- **GitHub stars:** 88,983
 
 **Key features**
 
   - Supports OpenAI-compatible, Azure, Anthropic, Google, DeepSeek, and other configured model endpoints
   - Stores data locally in the browser and offers a responsive PWA with streaming responses
   - Provides prompt templates, conversation-history compression, Markdown, LaTeX, Mermaid, and code highlighting
+
+<a id="repo-codewebchat--cwc"></a>
+
+## [CWC](https://github.com/CodeWebChat/CWC)
+
+An editor extension that turns selected workspace files into structured Markdown prompts for browser chatbots, configured model APIs, or agentic CLIs and helps apply the resulting edits.
+
+- **Category:** [Developer Tools](../categories/developer-tools.md#repo-codewebchat--cwc)
+- **Topics:** [Code Generation](../topics/code-generation.md#repo-codewebchat--cwc) | [LLMs](../topics/llms.md#repo-codewebchat--cwc) | [Developer Productivity](../topics/developer-productivity.md#repo-codewebchat--cwc) | [Multi Provider](../topics/multi-provider.md#repo-codewebchat--cwc) | [Local First](../topics/local-first.md#repo-codewebchat--cwc) | [Web UI](../topics/web-ui.md#repo-codewebchat--cwc)
+- **Kind:** Plugin
+- **Best for:** VS Code users who want file-aware prompts for hosted chats or their own model APIs; Developers who want to move selected code context between the editor and web chat tools
+- **Languages:** TypeScript
+- **License:** NOASSERTION
+- **Lifecycle:** Active
+- **GitHub stars:** 1,408
+
+**Key features**
+
+  - Context selection for workspace files and selected web documents
+  - Prompt types for file edits, questions, cursor completions, and relevant-file discovery
+  - Browser extension that fills prompts into supported web-chat interfaces
 
 <a id="repo-deusdata--codebase-memory-mcp"></a>
 
@@ -133,7 +176,7 @@ A local MCP code-intelligence server and CLI that indexes repositories into pers
 - **Languages:** C, TypeScript
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 32,935
+- **GitHub stars:** 49,018
 
 **Key features**
 
@@ -154,7 +197,7 @@ An open-source, hand-drawn-style virtual whiteboard for diagrams and wireframes,
 - **Languages:** TypeScript
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 127,866
+- **GitHub stars:** 136,103
 
 **Key features**
 
@@ -175,7 +218,7 @@ A self-hostable knowledge layer for agents that syncs Markdown brain repositorie
 - **Languages:** TypeScript
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 26,609
+- **GitHub stars:** 33,388
 
 **Key features**
 
@@ -196,11 +239,11 @@ A local-first CLI and set of dashboards that reads AI coding-tool session data f
 - **Languages:** TypeScript, Swift
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 8,755
+- **GitHub stars:** 11,882
 
 **Key features**
 
-  - Reads local session data for 36 supported AI tools and agents
+  - Reads local session data for 42 supported AI tools and agents
   - Provides an interactive terminal dashboard, reports, JSON output, and a localhost web dashboard
   - Breaks down usage by task, model, tool, project, date range, and token category
 
@@ -215,9 +258,9 @@ A Python CLI and coding-assistant skill that maps code and selected project mate
 - **Kind:** CLI
 - **Best for:** Developers orienting coding agents in a medium or large codebase; Teams that need code, schema, and supporting-document relationships in one graph
 - **Languages:** Python
-- **License:** MIT
+- **License:** Apache-2.0
 - **Lifecycle:** Active
-- **GitHub stars:** 91,491
+- **GitHub stars:** 151,789
 
 **Key features**
 
@@ -238,13 +281,34 @@ A local-first context-compression system for LLM applications and coding agents,
 - **Languages:** Python, TypeScript, Rust
 - **License:** Apache-2.0
 - **Lifecycle:** Active
-- **GitHub stars:** 60,173
+- **GitHub stars:** 80,358
 
 **Key features**
 
   - Routes JSON, code, prose, images, and other inputs to content-aware compressors
   - Exposes Python and TypeScript library integration paths
   - Runs as a local OpenAI-compatible proxy for no-code client changes
+
+<a id="repo-intent-hq--intent"></a>
+
+## [Intent](https://github.com/intent-hq/intent)
+
+A local-first workspace where specialist coding agents plan work in specifications and delegate tasks to agents running in parallel on local or cloud machines.
+
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-intent-hq--intent)
+- **Topics:** [Coding Agents](../topics/coding-agents.md#repo-intent-hq--intent) | [Agent Orchestration](../topics/agent-orchestration.md#repo-intent-hq--intent) | [Multi Agent](../topics/multi-agent.md#repo-intent-hq--intent) | [Parallel Agents](../topics/parallel-agents.md#repo-intent-hq--intent) | [Spec Driven Development](../topics/spec-driven-development.md#repo-intent-hq--intent) | [Local First](../topics/local-first.md#repo-intent-hq--intent) | [MCP](../topics/mcp.md#repo-intent-hq--intent) | [Desktop App](../topics/desktop-app.md#repo-intent-hq--intent) | [Web UI](../topics/web-ui.md#repo-intent-hq--intent)
+- **Kind:** Monorepo
+- **Best for:** Teams coordinating coding agents across a shared repository
+- **Languages:** Rust, JavaScript, Swift
+- **License:** Apache-2.0
+- **Lifecycle:** Active
+- **GitHub stars:** 463
+
+**Key features**
+
+  - Specialist agents plan, delegate, and review work
+  - Supports Claude Code, Codex, Cursor, OpenCode, and local models
+  - Isolated workspace checkouts and branches
 
 <a id="repo-kitfunso--hippo-memory"></a>
 
@@ -259,7 +323,7 @@ A local-first, SQLite-backed memory system for AI agents that stores project and
 - **Languages:** TypeScript, JavaScript, Python
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 718
+- **GitHub stars:** 794
 
 **Key features**
 
@@ -267,26 +331,26 @@ A local-first, SQLite-backed memory system for AI agents that stores project and
   - CLI commands for initialization, recall, capture, import, snapshots, and handoffs
   - Stdio MCP server plus HTTP API and an OpenClaw plugin
 
-<a id="repo-marmutapp--superbased-observer"></a>
+<a id="repo-mapletechlabs--hazel"></a>
 
-## [SuperBased Observer](https://github.com/marmutapp/superbased-observer)
+## [Hazel Chat](https://github.com/MapleTechLabs/hazel)
 
-A local-first observability tool for AI coding activity that captures usage, provider-returned token counts, and costs through a CLI, dashboard, MCP server, and optional API proxy.
+A team chat application with channels and direct messages, a Foldkit web interface, and real-time synchronization from Cloudflare Durable Objects into TanStack DB.
 
-- **Category:** [Developer Tools](../categories/developer-tools.md#repo-marmutapp--superbased-observer)
-- **Topics:** [AI Agents](../topics/ai-agents.md#repo-marmutapp--superbased-observer) | [Coding Agents](../topics/coding-agents.md#repo-marmutapp--superbased-observer) | [LLMs](../topics/llms.md#repo-marmutapp--superbased-observer) | [Observability](../topics/observability.md#repo-marmutapp--superbased-observer) | [Token Usage](../topics/token-usage.md#repo-marmutapp--superbased-observer) | [Cost Management](../topics/cost-management.md#repo-marmutapp--superbased-observer) | [Local First](../topics/local-first.md#repo-marmutapp--superbased-observer) | [MCP](../topics/mcp.md#repo-marmutapp--superbased-observer) | [CLI](../topics/cli.md#repo-marmutapp--superbased-observer) | [Web UI](../topics/web-ui.md#repo-marmutapp--superbased-observer) | [Developer Productivity](../topics/developer-productivity.md#repo-marmutapp--superbased-observer)
+- **Category:** [Collaboration and Productivity](../categories/collaboration-and-productivity.md#repo-mapletechlabs--hazel)
+- **Topics:** [Chat UI](../topics/chat-ui.md#repo-mapletechlabs--hazel) | [Realtime Collaboration](../topics/realtime-collaboration.md#repo-mapletechlabs--hazel) | [Local First](../topics/local-first.md#repo-mapletechlabs--hazel) | [Realtime](../topics/realtime.md#repo-mapletechlabs--hazel) | [Web UI](../topics/web-ui.md#repo-mapletechlabs--hazel) | [Desktop App](../topics/desktop-app.md#repo-mapletechlabs--hazel)
 - **Kind:** Application
-- **Best for:** Developers comparing cost and token use across AI coding tools; Teams that need local inspection of coding-agent sessions before opting into sharing
-- **Languages:** Go, TypeScript
-- **License:** Apache-2.0
+- **Best for:** Teams looking for an inspectable, real-time team chat application; Developers studying an Effect and Cloudflare Durable Objects application
+- **Languages:** TypeScript
+- **License:** FSL-1.1-ALv2
 - **Lifecycle:** Active
-- **GitHub stars:** 31
+- **GitHub stars:** 741
 
 **Key features**
 
-  - Local dashboard and CLI for sessions, actions, tokens, and costs
-  - Optional reverse proxy for provider-returned token counts and compression
-  - MCP server exposing local cross-tool usage intelligence
+  - Real-time channels and direct messages with presence and typing indicators
+  - Emoji reactions, pinned messages, file attachments, and notifications
+  - Type-safe Effect RPC for client-server communication
 
 <a id="repo-mempalace--mempalace"></a>
 
@@ -298,10 +362,10 @@ A local-first, Python-based memory tool that mines project files and AI conversa
 - **Topics:** [AI Agents](../topics/ai-agents.md#repo-mempalace--mempalace) | [Agent Memory](../topics/agent-memory.md#repo-mempalace--mempalace) | [MCP](../topics/mcp.md#repo-mempalace--mempalace) | [CLI](../topics/cli.md#repo-mempalace--mempalace) | [Local First](../topics/local-first.md#repo-mempalace--mempalace) | [Self Hosted](../topics/self-hosted.md#repo-mempalace--mempalace) | [Databases](../topics/databases.md#repo-mempalace--mempalace)
 - **Kind:** Application
 - **Best for:** Retaining and retrieving local coding-agent or conversation context without a required cloud API; Developers who want searchable project and transcript memory with scoped storage boundaries
-- **Languages:** Python
+- **Languages:** Python, Rust
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 57,477
+- **GitHub stars:** 60,655
 
 **Key features**
 
@@ -322,13 +386,34 @@ A Python memory framework and service for LLM applications and agents that provi
 - **Languages:** Python, TypeScript
 - **License:** Apache-2.0
 - **Lifecycle:** Active
-- **GitHub stars:** 10,270
+- **GitHub stars:** 12,476
 
 **Key features**
 
   - Unified API to add, retrieve, edit, delete, transfer, and roll back memories
   - MemCube containers for isolating and composing user, agent, project, or session memory
   - Plaintext vector and graph-oriented memory types alongside modular connectors and parsers
+
+<a id="repo-morluto--rea"></a>
+
+## [REA](https://github.com/morluto/rea)
+
+A local software analysis toolkit exposing application and binary analysis to AI agents through MCP and to users through a CLI.
+
+- **Category:** [Developer Tools](../categories/developer-tools.md#repo-morluto--rea)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-morluto--rea) | [MCP](../topics/mcp.md#repo-morluto--rea) | [CLI](../topics/cli.md#repo-morluto--rea) | [Agent Skills](../topics/agent-skills.md#repo-morluto--rea) | [Security](../topics/security.md#repo-morluto--rea) | [Local First](../topics/local-first.md#repo-morluto--rea)
+- **Kind:** Application
+- **Best for:** Authorized software research and interoperability investigations
+- **Languages:** TypeScript
+- **License:** MIT
+- **Lifecycle:** Active
+- **GitHub stars:** 473,417
+
+**Key features**
+
+  - Agent access through MCP and a matching investigation skill
+  - Analysis of several application and binary formats
+  - Evidence and limitations accompany analysis results
 
 <a id="repo-nesquena--hermes-webui"></a>
 
@@ -343,7 +428,7 @@ A self-hosted browser interface for Hermes Agent that provides chat, session, wo
 - **Languages:** Python, JavaScript
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 16,264
+- **GitHub stars:** 19,605
 
 **Key features**
 
@@ -355,16 +440,16 @@ A self-hosted browser interface for Hermes Agent that provides chat, session, wo
 
 ## [Open Design](https://github.com/nexu-io/open-design)
 
-A local-first desktop design workspace that uses coding agents, skills, and design systems to generate, preview, and export code-based design artifacts.
+A collaborative design workspace that uses installed coding agents or OpenDesign Cloud to create prototypes, decks, and motion graphics from briefs and shared design systems.
 
 - **Category:** [Frontend and Design](../categories/frontend-and-design.md#repo-nexu-io--open-design)
 - **Topics:** [Desktop App](../topics/desktop-app.md#repo-nexu-io--open-design) | [Design Systems](../topics/design-systems.md#repo-nexu-io--open-design) | [Code Generation](../topics/code-generation.md#repo-nexu-io--open-design) | [Coding Agents](../topics/coding-agents.md#repo-nexu-io--open-design) | [MCP](../topics/mcp.md#repo-nexu-io--open-design) | [Local First](../topics/local-first.md#repo-nexu-io--open-design)
 - **Kind:** Application
-- **Best for:** Designers and developers prototyping interface artifacts with a local coding agent; Teams that want reusable DESIGN.md-based brand and design-system inputs
+- **Best for:** Designers and developers prototyping interfaces with a local coding agent or hosted model access; Teams that want reusable DESIGN.md-based brand and design-system inputs
 - **Languages:** TypeScript, JavaScript
 - **License:** Apache-2.0
 - **Lifecycle:** Active
-- **GitHub stars:** 79,699
+- **GitHub stars:** 108,907
 
 **Key features**
 
@@ -385,7 +470,7 @@ A desktop application and Python client for downloading and running local large 
 - **Languages:** C++, Python
 - **License:** MIT
 - **Lifecycle:** Unknown
-- **GitHub stars:** 77,392
+- **GitHub stars:** 77,328
 
 **Key features**
 
@@ -406,7 +491,7 @@ A native Rust TUI network monitor for Windows that combines connection and bandw
 - **Languages:** Rust
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 125
+- **GitHub stars:** 152
 
 **Key features**
 
@@ -427,34 +512,13 @@ An MIT-licensed local compatibility server that signs in with a ChatGPT account 
 - **Languages:** Python
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 1,514
+- **GitHub stars:** 1,566
 
 **Key features**
 
   - Local OpenAI-compatible /v1/responses endpoint over HTTP and WebSocket
   - Ollama-compatible endpoints for clients that require that protocol shape
   - Tool calling, vision input, configurable thinking, fast mode, and web search
-
-<a id="repo-robertpiosik--codewebchat"></a>
-
-## [Code Web Chat](https://github.com/robertpiosik/CodeWebChat)
-
-A VS Code extension and companion browser extension for preparing selected files as structured context, sending coding prompts to web chats or configured model APIs, and applying generated edits back into the local workspace.
-
-- **Category:** [Developer Tools](../categories/developer-tools.md#repo-robertpiosik--codewebchat)
-- **Topics:** [Code Generation](../topics/code-generation.md#repo-robertpiosik--codewebchat) | [LLMs](../topics/llms.md#repo-robertpiosik--codewebchat) | [Developer Productivity](../topics/developer-productivity.md#repo-robertpiosik--codewebchat) | [Multi Provider](../topics/multi-provider.md#repo-robertpiosik--codewebchat) | [Local First](../topics/local-first.md#repo-robertpiosik--codewebchat) | [Web UI](../topics/web-ui.md#repo-robertpiosik--codewebchat)
-- **Kind:** Plugin
-- **Best for:** VS Code users who want file-aware prompts for hosted chats or their own model APIs; Developers who want to move selected code context between the editor and web chat tools
-- **Languages:** TypeScript
-- **License:** NOASSERTION
-- **Lifecycle:** Active
-- **GitHub stars:** 1,384
-
-**Key features**
-
-  - Context selection for workspace files and selected web documents
-  - Prompt types for file edits, questions, cursor completions, and relevant-file discovery
-  - Browser extension that fills prompts into supported web-chat interfaces
 
 <a id="repo-run-llama--liteparse"></a>
 
@@ -469,7 +533,7 @@ A local PDF and document parsing library and CLI that performs spatial text extr
 - **Languages:** Rust, TypeScript, Python
 - **License:** Apache-2.0
 - **Lifecycle:** Active
-- **GitHub stars:** 11,673
+- **GitHub stars:** 13,076
 
 **Key features**
 
@@ -481,16 +545,16 @@ A local PDF and document parsing library and CLI that performs spatial text extr
 
 ## [Meridian](https://github.com/rynfar/meridian)
 
-A local HTTP proxy that presents the Claude Agent SDK through Anthropic and OpenAI-compatible APIs, allowing compatible coding tools to use Claude while the SDK manages authentication, rate limits, caching, and context.
+A local API proxy and dashboard connecting coding clients to Anthropic Claude through the Claude Agent SDK and, in preview, Google Antigravity through the signed-in agy CLI.
 
 - **Category:** [Backend and APIs](../categories/backend-and-apis.md#repo-rynfar--meridian)
 - **Topics:** [LLMs](../topics/llms.md#repo-rynfar--meridian) | [LLM Gateways](../topics/llm-gateways.md#repo-rynfar--meridian) | [API Development](../topics/api-development.md#repo-rynfar--meridian) | [CLI](../topics/cli.md#repo-rynfar--meridian) | [Local First](../topics/local-first.md#repo-rynfar--meridian) | [Observability](../topics/observability.md#repo-rynfar--meridian) | [Self Hosted](../topics/self-hosted.md#repo-rynfar--meridian)
 - **Kind:** Service
-- **Best for:** Connecting Anthropic- or OpenAI-compatible developer tools to the Claude Agent SDK; Running local, concurrent Claude-backed coding-agent sessions through a common endpoint
+- **Best for:** Connecting compatible coding clients to a signed-in Claude environment or trying the Antigravity preview; Running local, concurrent Claude-backed coding-agent sessions through a common endpoint
 - **Languages:** TypeScript
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 1,698
+- **GitHub stars:** 2,213
 
 **Key features**
 
@@ -511,12 +575,12 @@ A local-first orchestrator that runs parallel coding agents in isolated Git work
 - **Languages:** TypeScript
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 233
+- **GitHub stars:** 282
 
 **Key features**
 
   - Isolated Git worktree and branch for every feature
-  - Built-in Claude Code, Cursor CLI, and Gemini CLI support plus a generic terminal-agent executor
+  - Built-in support for Claude Code, Kimi Code, Codex CLI, Copilot CLI, Cursor CLI, Gemini CLI, and Cline, plus a generic terminal-agent executor
   - Default prompt-to-implementation-to-draft-PR workflow with configurable CI retry fixes
 
 <a id="repo-siyuan-note--siyuan"></a>
@@ -532,13 +596,55 @@ A privacy-first personal knowledge-management application with a block-based Mar
 - **Languages:** TypeScript, Go
 - **License:** AGPL-3.0
 - **Lifecycle:** Active
-- **GitHub stars:** 45,263
+- **GitHub stars:** 47,338
 
 **Key features**
 
   - Block references, two-way links, custom attributes, and embedded SQL queries
   - Markdown WYSIWYG editing, large-document editing, and outline views
   - Full-text and asset-content search through the built-in CLI
+
+<a id="repo-spacering-net--codeg"></a>
+
+## [codeg](https://github.com/spacering-net/codeg)
+
+A local-first multi-agent coding workspace that aggregates sessions from many coding-agent CLIs and adds collaboration, Git worktrees, MCP and skill management, automation, and desktop, browser-server, or Docker deployment.
+
+- **Category:** [Developer Tools](../categories/developer-tools.md#repo-spacering-net--codeg)
+- **Topics:** [Coding Agents](../topics/coding-agents.md#repo-spacering-net--codeg) | [Agent Development Environments](../topics/agent-development-environments.md#repo-spacering-net--codeg) | [Multi Agent](../topics/multi-agent.md#repo-spacering-net--codeg) | [Desktop App](../topics/desktop-app.md#repo-spacering-net--codeg) | [Git](../topics/git.md#repo-spacering-net--codeg) | [Worktrees](../topics/worktrees.md#repo-spacering-net--codeg) | [MCP](../topics/mcp.md#repo-spacering-net--codeg) | [Agent Skills](../topics/agent-skills.md#repo-spacering-net--codeg) | [Automation](../topics/automation.md#repo-spacering-net--codeg) | [Web UI](../topics/web-ui.md#repo-spacering-net--codeg) | [Self Hosted](../topics/self-hosted.md#repo-spacering-net--codeg) | [Local First](../topics/local-first.md#repo-spacering-net--codeg)
+- **Kind:** Application
+- **Best for:** Developers coordinating sessions from several local coding agents in one workspace; Teams that need a self-hosted browser workspace or desktop interface for agent-assisted Git work
+- **Languages:** TypeScript, Rust
+- **License:** Apache-2.0
+- **Lifecycle:** Active
+- **GitHub stars:** 4,566
+
+**Key features**
+
+  - Imports existing agent sessions and supports multiple built-in agents plus Agent Client Protocol integrations
+  - Multi-agent delegation through the bundled codeg-mcp companion
+  - Parallel development with built-in Git worktree flows
+
+<a id="repo-superbasedapp--observer"></a>
+
+## [SuperBased Observer](https://github.com/superbasedapp/observer)
+
+A local-first observability and cost-attribution tool for AI coding activity, with a CLI, dashboard, provider proxy, MCP server, terminals, and optional team rollups.
+
+- **Category:** [Developer Tools](../categories/developer-tools.md#repo-superbasedapp--observer)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-superbasedapp--observer) | [Coding Agents](../topics/coding-agents.md#repo-superbasedapp--observer) | [Observability](../topics/observability.md#repo-superbasedapp--observer) | [Tracing](../topics/tracing.md#repo-superbasedapp--observer) | [Token Usage](../topics/token-usage.md#repo-superbasedapp--observer) | [Cost Management](../topics/cost-management.md#repo-superbasedapp--observer) | [Local First](../topics/local-first.md#repo-superbasedapp--observer) | [MCP](../topics/mcp.md#repo-superbasedapp--observer) | [CLI](../topics/cli.md#repo-superbasedapp--observer) | [Web UI](../topics/web-ui.md#repo-superbasedapp--observer)
+- **Kind:** Application
+- **Best for:** Developers reconciling token use and cost across many AI coding tools; Teams that want local capture before selectively enabling shared observability
+- **Languages:** Go, TypeScript
+- **License:** Apache-2.0
+- **Lifecycle:** Active
+- **GitHub stars:** 62
+
+**Key features**
+
+  - Normalizes local session data from dozens of coding-agent tools
+  - Captures provider-returned token counts and pricing through an optional proxy
+  - Offers local usage reports, dashboard, terminals, CLI, MCP, traces, and guardrails
 
 <a id="repo-thedotmack--claude-mem"></a>
 
@@ -549,11 +655,11 @@ A persistent-memory plugin for coding agents that captures session activity, cre
 - **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-thedotmack--claude-mem)
 - **Topics:** [AI Agents](../topics/ai-agents.md#repo-thedotmack--claude-mem) | [Agent Memory](../topics/agent-memory.md#repo-thedotmack--claude-mem) | [Coding Agents](../topics/coding-agents.md#repo-thedotmack--claude-mem) | [Context Engineering](../topics/context-engineering.md#repo-thedotmack--claude-mem) | [MCP](../topics/mcp.md#repo-thedotmack--claude-mem) | [Local First](../topics/local-first.md#repo-thedotmack--claude-mem) | [Search](../topics/search.md#repo-thedotmack--claude-mem) | [Developer Productivity](../topics/developer-productivity.md#repo-thedotmack--claude-mem)
 - **Kind:** Plugin
-- **Best for:** Claude Code users who want searchable continuity across coding sessions; Supported coding-agent users who need local project-memory retrieval
+- **Best for:** Coding-agent users who want searchable continuity across sessions with a supported host; Supported coding-agent users who need local project-memory retrieval
 - **Languages:** TypeScript, JavaScript
 - **License:** Apache-2.0
 - **Lifecycle:** Active
-- **GitHub stars:** 87,862
+- **GitHub stars:** 118,943
 
 **Key features**
 
@@ -565,7 +671,7 @@ A persistent-memory plugin for coding agents that captures session activity, cre
 
 ## [HAPI](https://github.com/tiann/hapi)
 
-A local-first application that wraps supported coding-agent CLIs, persists their sessions through a hub, and lets users monitor, message, and approve work remotely from a web PWA or Telegram Mini App without restarting a session.
+A local-first application that wraps supported coding-agent CLIs, persists their sessions through a hub, and lets users monitor, message, and approve work remotely from native mobile apps, a web PWA, or Telegram Mini App without restarting a session.
 
 - **Category:** [Developer Tools](../categories/developer-tools.md#repo-tiann--hapi)
 - **Topics:** [Coding Agents](../topics/coding-agents.md#repo-tiann--hapi) | [Terminal](../topics/terminal.md#repo-tiann--hapi) | [Web UI](../topics/web-ui.md#repo-tiann--hapi) | [Mobile App](../topics/mobile-app.md#repo-tiann--hapi) | [Remote Control](../topics/remote-control.md#repo-tiann--hapi) | [Cross Device](../topics/cross-device.md#repo-tiann--hapi) | [Local First](../topics/local-first.md#repo-tiann--hapi) | [Self Hosted](../topics/self-hosted.md#repo-tiann--hapi) | [MCP](../topics/mcp.md#repo-tiann--hapi) | [Developer Productivity](../topics/developer-productivity.md#repo-tiann--hapi)
@@ -574,11 +680,11 @@ A local-first application that wraps supported coding-agent CLIs, persists their
 - **Languages:** TypeScript
 - **License:** AGPL-3.0-only
 - **Lifecycle:** Active
-- **GitHub stars:** 4,592
+- **GitHub stars:** 5,442
 
 **Key features**
 
-  - Wraps Claude Code, Codex, Cursor Agent, Gemini CLI, Grok Build, and OpenCode sessions
+  - Wraps Claude Code, Codex, Cursor Agent, Grok Build, OpenCode, and other supported agent sessions
   - Preserves a session while control switches between terminal and remote clients
   - Web PWA supports sessions, chat, permission decisions, file browsing, diffs, and remote spawning
 
@@ -586,7 +692,7 @@ A local-first application that wraps supported coding-agent CLIs, persists their
 
 ## [OpenHuman](https://github.com/tinyhumansai/openhuman)
 
-A local-first desktop personal-AI application combining persistent memory, agent orchestration, visual workflows, research tools, and integrations.
+An early-beta agent harness for desktop, terminal, headless, and embedded Rust use, with persistent memory, workflow graphs, tools, and integrations.
 
 - **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-tinyhumansai--openhuman)
 - **Topics:** [AI Agents](../topics/ai-agents.md#repo-tinyhumansai--openhuman) | [Agent Harnesses](../topics/agent-harnesses.md#repo-tinyhumansai--openhuman) | [Agent Memory](../topics/agent-memory.md#repo-tinyhumansai--openhuman) | [Agent Orchestration](../topics/agent-orchestration.md#repo-tinyhumansai--openhuman) | [Multi Agent](../topics/multi-agent.md#repo-tinyhumansai--openhuman) | [LLMs](../topics/llms.md#repo-tinyhumansai--openhuman) | [MCP](../topics/mcp.md#repo-tinyhumansai--openhuman) | [Local First](../topics/local-first.md#repo-tinyhumansai--openhuman) | [Desktop App](../topics/desktop-app.md#repo-tinyhumansai--openhuman) | [Web UI](../topics/web-ui.md#repo-tinyhumansai--openhuman) | [Automation](../topics/automation.md#repo-tinyhumansai--openhuman)
@@ -595,13 +701,13 @@ A local-first desktop personal-AI application combining persistent memory, agent
 - **Languages:** Rust, TypeScript, JavaScript
 - **License:** GPL-3.0
 - **Lifecycle:** Experimental
-- **GitHub stars:** 35,093
+- **GitHub stars:** 42,805
 
 **Key features**
 
-  - Builds local Memory Trees and an editable Obsidian-compatible Markdown vault
-  - Runs checkpointed agent graphs, sub-agent fleets, and replayable run journals
-  - Creates visual, trigger-driven workflows with approval gates for side effects
+  - Recalls relevant context from files, repositories, feeds, and apps through a configurable memory engine
+  - Runs checkpointed agent workflows and provides a Rust API for embedding agents
+  - Runs durable workflow graphs with cron, event, or manual triggers and approval steps
 
 <a id="repo-tma1-ai--tma1"></a>
 
@@ -616,7 +722,7 @@ A local-first observability service for LLM agents that records their activity, 
 - **Languages:** Go, JavaScript
 - **License:** Apache-2.0
 - **Lifecycle:** Experimental
-- **GitHub stars:** 113
+- **GitHub stars:** 125
 
 **Key features**
 
@@ -637,7 +743,7 @@ A local dashboard that reads supported AI-agent session logs to show token use, 
 - **Languages:** Python, TypeScript, JavaScript
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 255
+- **GitHub stars:** 387
 
 **Key features**
 
@@ -645,23 +751,23 @@ A local dashboard that reads supported AI-agent session logs to show token use, 
   - Waterfall traces for prompts, reasoning, tool calls, and responses
   - Per-project activity, heatmaps, agent leaderboards, and worktree rollups
 
-<a id="repo-xintaofei--codeg"></a>
+<a id="repo-yjs--yjs"></a>
 
-## [codeg](https://github.com/xintaofei/codeg)
+## [Yjs](https://github.com/yjs/yjs)
 
-A local-first multi-agent coding workspace that aggregates sessions from many coding-agent CLIs and adds collaboration, Git worktrees, MCP and skill management, automation, and desktop, browser-server, or Docker deployment.
+A high-performance CRDT framework with shared data types for building collaborative and local-first applications across arbitrary network providers.
 
-- **Category:** [Developer Tools](../categories/developer-tools.md#repo-xintaofei--codeg)
-- **Topics:** [Coding Agents](../topics/coding-agents.md#repo-xintaofei--codeg) | [Agent Development Environments](../topics/agent-development-environments.md#repo-xintaofei--codeg) | [Multi Agent](../topics/multi-agent.md#repo-xintaofei--codeg) | [Desktop App](../topics/desktop-app.md#repo-xintaofei--codeg) | [Git](../topics/git.md#repo-xintaofei--codeg) | [Worktrees](../topics/worktrees.md#repo-xintaofei--codeg) | [MCP](../topics/mcp.md#repo-xintaofei--codeg) | [Agent Skills](../topics/agent-skills.md#repo-xintaofei--codeg) | [Automation](../topics/automation.md#repo-xintaofei--codeg) | [Web UI](../topics/web-ui.md#repo-xintaofei--codeg) | [Self Hosted](../topics/self-hosted.md#repo-xintaofei--codeg) | [Local First](../topics/local-first.md#repo-xintaofei--codeg)
-- **Kind:** Application
-- **Best for:** Developers coordinating sessions from several local coding agents in one workspace; Teams that need a self-hosted browser workspace or desktop interface for agent-assisted Git work
-- **Languages:** TypeScript, Rust
-- **License:** Apache-2.0
+- **Category:** [Collaboration and Productivity](../categories/collaboration-and-productivity.md#repo-yjs--yjs)
+- **Topics:** [Realtime Collaboration](../topics/realtime-collaboration.md#repo-yjs--yjs) | [Realtime](../topics/realtime.md#repo-yjs--yjs) | [Local First](../topics/local-first.md#repo-yjs--yjs) | [Libraries](../topics/libraries.md#repo-yjs--yjs) | [Frontend Development](../topics/frontend-development.md#repo-yjs--yjs)
+- **Kind:** Library
+- **Best for:** Developers implementing conflict-free collaborative state and editing; Applications that need offline changes, peer-to-peer sync, and eventual convergence
+- **Languages:** JavaScript
+- **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 2,223
+- **GitHub stars:** 23,096
 
 **Key features**
 
-  - Imports and aggregates conversation sessions from twelve supported coding agents
-  - Multi-agent delegation through the bundled codeg-mcp companion
-  - Parallel development with built-in Git worktree flows
+  - Provides shared Map, Array, Text, and XML-like data types with automatic merging
+  - Works independently of the network transport and supports peer-to-peer designs
+  - Supports offline editing, snapshots, undo and redo, and shared cursors

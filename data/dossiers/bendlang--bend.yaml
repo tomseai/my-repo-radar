@@ -1,0 +1,49 @@
+schema_version: 2
+repository_id: github:bendlang/bend
+research:
+  state: complete
+  source_commit: 0e2f38f759cc830849e489307f3d256a7d148288
+  bundle_collected_at: 2026-11-22T11:27:12.374Z
+  researched_at: 2026-11-22T12:00:00Z
+  confidence: high
+classification:
+  primary_category: developer-tools
+  topics: [cli, performance, developer-productivity]
+project:
+  name: bend
+  kind: other
+  summary: A dependent-type programming language and compiler for parallel computation and mechanically checked program laws.
+  best_for: [Developers exploring proof-backed programs and parallel computation]
+key_features:
+  - Dependent types and mathematical proofs
+  - Declared program laws checked against proofs
+  - Parallel execution targeting CPU and GPU
+  - C, Metal, CUDA and JavaScript targets
+usage:
+  interfaces: [CLI]
+  installation: [Official install script]
+  setup: moderate
+technology:
+  languages:
+    - TypeScript
+  notable_components: []
+license:
+  spdx: Apache-2.0
+  name: Apache License 2.0
+  notes: null
+status:
+  lifecycle: experimental
+  archived: false
+  latest_release: v2.0.40
+  latest_release_at: 2026-11-06
+strengths: [Combines proof checking with parallel execution targets]
+caveats:
+  - Bend 2 is young and incompatible with Bend 1 programs.
+  - The checker and backends have documented limitations; proofs do not eliminate all implementation risks.
+  - Native compilation and GPU execution require appropriate platform toolchains.
+sources:
+  - https://raw.githubusercontent.com/bendlang/bend/0e2f38f759cc830849e489307f3d256a7d148288/README.md
+  - https://raw.githubusercontent.com/bendlang/bend/0e2f38f759cc830849e489307f3d256a7d148288/LICENSE
+  - https://raw.githubusercontent.com/bendlang/bend/0e2f38f759cc830849e489307f3d256a7d148288/bend2/pack/package.json
+  - https://raw.githubusercontent.com/bendlang/bend/0e2f38f759cc830849e489307f3d256a7d148288/CHANGELOG.md
+  - https://github.com/bendlang/bend/releases.atom

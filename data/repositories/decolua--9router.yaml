@@ -15,7 +15,10 @@ analysis:
       - "improve-developer-workflow"
       - "run-personal-or-team-tools"
   evidence:
-    - claim: "9Router is a local AI router and token-saving service that exposes an OpenAI-compatible endpoint, translates formats, tracks quotas, compresses tool results, and falls back across provider tiers for coding tools."
+    - claim: "9Router is a local AI router and token-saving service that exposes an
+        OpenAI-compatible endpoint, translates formats, tracks quotas,
+        compresses tool results, and falls back across provider tiers for coding
+        tools."
       source_type: "repository-file"
       url: "https://github.com/decolua/9router/blob/master/README.md"
       checked_at: "2026-07-19"
@@ -23,7 +26,8 @@ analysis:
   state: "complete"
   summary:
     one_line: "A local AI router and token-saving service for coding tools."
-    why_useful: "It centralizes provider selection, quota handling, format translation, and fallback behind one compatible endpoint."
+    why_useful: "It centralizes provider selection, quota handling, format
+      translation, and fallback behind one compatible endpoint."
 curation:
   confidence: null
   evidence: []
@@ -37,48 +41,53 @@ id: "github:decolua/9router"
 import:
   github_snapshot:
     archived: false
-    created_at: "2026-01-05T02:59:30Z"
-    default_branch: "master"
-    description: "Unlimited FREE AI coding. Connect Claude Code, Codex, Cursor, Cline, Copilot, Antigravity to FREE Claude/GPT/Gemini via 40+ providers. Auto-fallback, RTK -40% tokens, never hit limits."
+    created_at: 2026-01-05T02:59:30Z
+    default_branch: master
+    description: Unlimited FREE AI coding. Connect Claude Code, Codex, Cursor,
+      Cline, Copilot, Antigravity to FREE Claude/GPT/Gemini via 40+ providers.
+      Auto-fallback, RTK -40% tokens, never hit limits.
     disabled: false
-    fetched_at: "2026-07-19T19:16:14.796Z"
+    fetched_at: 2026-11-22T12:07:00.148Z
     fork: false
-    forks: 3767
-    homepage: "https://9router.com"
-    latest_release: null
-    license_spdx: "MIT"
-    open_issues: 1219
-    primary_language: "JavaScript"
-    pushed_at: "2026-07-19T06:19:19Z"
-    stars: 22689
+    forks: 6419
+    homepage: https://9router.com
+    latest_release:
+      tag: v0.5.35
+      published_at: 2026-07-16T11:14:39Z
+      url: https://github.com/decolua/9router/releases/tag/v0.5.35
+    license_spdx: MIT
+    open_issues: 2879
+    primary_language: JavaScript
+    pushed_at: 2026-11-16T02:39:05Z
+    stars: 32727
     topics:
-      - "ai-agents"
-      - "ai-gateway"
-      - "anthropic"
-      - "chatgpt"
-      - "claude"
-      - "claude-code"
-      - "cline"
-      - "codex"
-      - "copilot"
-      - "cursor"
-      - "deepseek"
-      - "free-ai"
-      - "gemini"
-      - "gemini-cli"
-      - "llm"
-      - "llm-gateway"
-      - "openai"
-      - "openai-proxy"
-      - "qwen"
-      - "token-saver"
-    updated_at: "2026-07-19T19:12:57Z"
+      - ai-agents
+      - ai-gateway
+      - anthropic
+      - chatgpt
+      - claude
+      - claude-code
+      - cline
+      - codex
+      - copilot
+      - cursor
+      - deepseek
+      - free-ai
+      - gemini
+      - gemini-cli
+      - llm
+      - llm-gateway
+      - openai
+      - openai-proxy
+      - qwen
+      - token-saver
+    updated_at: 2026-11-22T12:01:55Z
   sources:
-    - observed_at: "2026-04-03T19:22:04Z"
-      relation: "starred"
-      source_id: "github:user:tomseai:stars"
-      source_url: "https://github.com/tomseai?tab=stars"
-  state: "imported"
+    - observed_at: 2026-04-03T19:22:04Z
+      relation: starred
+      source_id: github:user:tomseai:stars
+      source_url: https://github.com/tomseai?tab=stars
+  state: refreshed
 repository:
   aliases: []
   github_node_id: "R_kgDOQzxPKw"

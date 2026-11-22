@@ -1,0 +1,78 @@
+schema_version: 2
+repository_id: github:triggerdotdev/trigger.dev
+research:
+  state: complete
+  source_commit: 1483d021ebeb9152ae68f69bf7366290e42e609f
+  bundle_collected_at: 2026-11-22T12:10:34.308Z
+  researched_at: 2026-11-22T12:24:20.634Z
+  confidence: high
+classification:
+  primary_category: devops-and-cloud
+  topics:
+    - ai-agents
+    - automation
+    - deployment
+    - cloud
+    - self-hosted
+    - observability
+    - tracing
+    - realtime
+    - api-development
+project:
+  name: Trigger.dev
+  kind: service
+  summary: An open-source durable execution platform for TypeScript AI agents and
+    workflows, available as a managed cloud service or a self-hosted deployment.
+  best_for:
+    - Teams building long-running TypeScript jobs, agents, and background workflows
+    - Applications that need retries, queues, waits, streaming, schedules, and
+      operational visibility
+key_features:
+  - Runs long-lived tasks with durability, retries, queues, concurrency, and
+    idempotency
+  - Supports human-in-the-loop waits, schedules, realtime updates, and streaming
+  - Provides logs, tracing, observability, environments, and deployment tooling
+  - Offers managed hosting plus Docker and Kubernetes self-hosting paths
+  - Runs durable AI chat conversations, versions prompt templates, and traces Vercel
+    AI SDK model usage and costs
+usage:
+  interfaces:
+    - TypeScript SDK
+    - web dashboard
+    - command-line interface
+    - MCP server
+  installation:
+    - npm packages and project CLI
+    - Trigger.dev Cloud
+    - Docker or Kubernetes self-hosting
+  setup: moderate
+technology:
+  languages:
+    - TypeScript
+  notable_components:
+    - React hooks
+    - Docker
+    - Kubernetes
+license:
+  spdx: Apache-2.0
+  name: Apache License 2.0
+  notes: Permissive license with patent grant and notice requirements.
+status:
+  lifecycle: active
+  archived: false
+  latest_release: v4.8.8
+  latest_release_at: 2026-11-20
+strengths:
+  - Packages durable execution and agent operations behind a TypeScript-native API
+  - Supports both hosted convenience and self-managed infrastructure
+caveats:
+  - Self-hosting introduces database, worker, scaling, and operational
+    responsibilities
+  - The release feed mixes application, Docker, Helm, documentation, and test tags;
+    v4.8.8 is the newest primary product release
+  - Hosted webhook routing is in public beta
+sources:
+  - https://raw.githubusercontent.com/triggerdotdev/trigger.dev/1483d021ebeb9152ae68f69bf7366290e42e609f/README.md
+  - https://raw.githubusercontent.com/triggerdotdev/trigger.dev/1483d021ebeb9152ae68f69bf7366290e42e609f/LICENSE
+  - https://github.com/triggerdotdev/trigger.dev/releases.atom
+  - https://github.com/triggerdotdev/trigger.dev/releases/tag/v4.8.8

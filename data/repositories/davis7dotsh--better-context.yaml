@@ -11,15 +11,21 @@ analysis:
     use_cases:
       - "improve-developer-workflow"
   evidence:
-    - claim: "Better Context currently distributes a coding-agent skill that searches cloned library and framework source code for up-to-date answers; its README says the project is being rewritten and the new version will replace the current one."
+    - claim: "Better Context currently distributes a coding-agent skill that searches
+        cloned library and framework source code for up-to-date answers; its
+        README says the project is being rewritten and the new version will
+        replace the current one."
       source_type: "repository-file"
       url: "https://github.com/davis7dotsh/better-context/blob/main/README.md"
       checked_at: "2026-07-19"
       confidence: "high"
   state: "researched"
   summary:
-    one_line: "An evolving coding-agent skill for querying current library and framework source code."
-    why_useful: "It gives coding agents repository-derived context instead of relying only on documentation, using the currently distributed skill while the rewrite proceeds."
+    one_line: "An evolving coding-agent skill for querying current library and
+      framework source code."
+    why_useful: "It gives coding agents repository-derived context instead of
+      relying only on documentation, using the currently distributed skill while
+      the rewrite proceeds."
 curation:
   confidence: null
   evidence: []
@@ -33,31 +39,32 @@ id: "github:davis7dotsh/better-context"
 import:
   github_snapshot:
     archived: false
-    created_at: "2025-11-29T00:56:58Z"
-    default_branch: "main"
-    description: "A better way to get up to date context on libraries/technologies in your projects"
+    created_at: 2025-11-29T00:56:58Z
+    default_branch: main
+    description: A better way to get up to date context on libraries/technologies in
+      your projects
     disabled: false
-    fetched_at: "2026-07-19T19:16:14.796Z"
+    fetched_at: 2026-11-22T12:07:00.148Z
     fork: false
-    forks: 83
-    homepage: "https://btca.dev"
+    forks: 79
+    homepage: https://btca.dev
     latest_release: null
-    license_spdx: "MIT"
-    open_issues: 52
-    primary_language: "TypeScript"
-    pushed_at: "2026-04-12T03:16:58Z"
-    stars: 1151
+    license_spdx: MIT
+    open_issues: 53
+    primary_language: TypeScript
+    pushed_at: 2026-04-12T03:16:58Z
+    stars: 1148
     topics:
-      - "ai"
-      - "context"
-      - "docs"
-    updated_at: "2026-07-18T18:09:51Z"
+      - ai
+      - context
+      - docs
+    updated_at: 2026-11-16T22:16:44Z
   sources:
-    - observed_at: "2026-01-24T19:00:54Z"
-      relation: "starred"
-      source_id: "github:user:tomseai:stars"
-      source_url: "https://github.com/tomseai?tab=stars"
-  state: "imported"
+    - observed_at: 2026-01-24T19:00:54Z
+      relation: starred
+      source_id: github:user:tomseai:stars
+      source_url: https://github.com/tomseai?tab=stars
+  state: refreshed
 repository:
   aliases: []
   github_node_id: "R_kgDOQfC0Nw"

@@ -1,0 +1,80 @@
+analysis:
+  analyzed_at: 2026-08-15T13:30:00.000Z
+  classification:
+    primary_category: devops-and-cloud
+    state: confirmed
+    technologies:
+      - typescript
+    topics:
+      - cloud
+      - deployment
+      - devops
+      - automation
+      - developer-productivity
+    use_cases:
+      - ship-and-operate-software
+      - improve-developer-workflow
+  evidence:
+    - claim: An Effect-based TypeScript framework unifying cloud infrastructure and
+        application code.
+      source_type: repository-file
+      url: https://raw.githubusercontent.com/alchemy-run/alchemy/6e7fa35a3c86c71b1360f8017ada9ea696f8375e/README.md
+      checked_at: 2026-08-15
+      confidence: high
+  state: complete
+  summary:
+    one_line: An Effect-based TypeScript framework unifying cloud infrastructure and
+      application code.
+    why_useful: TypeScript teams defining application code and cloud infrastructure
+      together
+curation:
+  confidence: null
+  evidence: []
+  limitations: []
+  recommendation: null
+  reviewed_at: null
+  state: uncurated
+  strengths: []
+  verdict: null
+id: github:alchemy-run/alchemy
+import:
+  github_snapshot:
+    archived: false
+    created_at: 2025-10-22T18:11:16Z
+    default_branch: main
+    description: Infrastructure as Effects
+    disabled: false
+    fetched_at: 2026-11-22T12:07:00.148Z
+    fork: false
+    forks: 307
+    homepage: https://alchemy.run
+    latest_release:
+      tag: v2.0.0-beta.87
+      published_at: 2026-11-12T22:23:24Z
+      url: https://github.com/alchemy-run/alchemy/releases/tag/v2.0.0-beta.87
+    license_spdx: Apache-2.0
+    open_issues: 649
+    primary_language: TypeScript
+    pushed_at: 2026-11-22T11:37:11Z
+    stars: 2041
+    topics:
+      - alchemy
+      - cloud
+      - effect
+      - iac
+      - typescript
+    updated_at: 2026-11-22T10:00:21Z
+  sources:
+    - observed_at: 2026-07-25T20:46:36Z
+      relation: starred
+      source_id: github:user:tomseai:stars
+      source_url: https://github.com/tomseai?tab=stars
+  state: refreshed
+repository:
+  aliases: []
+  github_node_id: R_kgDOQHTFGg
+  host: github.com
+  name: alchemy
+  owner: alchemy-run
+  url: https://github.com/alchemy-run/alchemy
+version: 1

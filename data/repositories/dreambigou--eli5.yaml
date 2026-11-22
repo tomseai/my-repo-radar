@@ -1,0 +1,80 @@
+analysis:
+  analyzed_at: 2026-11-22T11:28:28Z
+  classification:
+    primary_category: ai-and-automation
+    state: confirmed
+    technologies: []
+    topics:
+      - agent-skills
+      - llms
+      - prompt-engineering
+      - evaluation
+    use_cases:
+      - learn-and-reference
+  evidence:
+    - claim: A Claude Code skill that adapts explanations to an audience's age,
+        education, role, or relationship to the user.
+      source_type: repository-file
+      url: https://raw.githubusercontent.com/DreambigOu/ELI5/a766623b062331fdde53467001379b4ddf3acc2f/README.md
+      checked_at: 2026-11-22
+      confidence: high
+  state: complete
+  summary:
+    one_line: A Claude Code skill that adapts explanations to an audience's age,
+      education, role, or relationship to the user.
+    why_useful: Claude Code users explaining concepts to varied audiences
+curation:
+  confidence: null
+  evidence: []
+  limitations: []
+  recommendation: null
+  reviewed_at: null
+  state: "uncurated"
+  strengths: []
+  verdict: null
+id: "github:DreambigOu/ELI5"
+import:
+  github_snapshot:
+    archived: false
+    created_at: 2026-03-17T02:15:34Z
+    default_branch: main
+    description: "ELI5 — A Claude Code skill that explains anything to anyone: kids,
+      managers, engineers, parents. Adapts tone, vocabulary, and analogies to
+      match the audience."
+    disabled: false
+    fetched_at: 2026-11-22T12:07:00.148Z
+    fork: false
+    forks: 120
+    homepage: https://andrewou.pages.dev/posts/building-an-eli5-skill-for-claude/
+    latest_release: null
+    license_spdx: MIT
+    open_issues: 1
+    primary_language: Python
+    pushed_at: 2026-03-18T03:35:25Z
+    stars: 2049
+    topics:
+      - ai-skill
+      - anthropic
+      - claude
+      - claude-code
+      - claude-skill
+      - education
+      - eli5
+      - explain-like-im-5
+      - llm
+      - prompt-engineering
+    updated_at: 2026-11-22T11:54:54Z
+  sources:
+    - observed_at: 2026-10-17T08:58:10Z
+      relation: starred
+      source_id: github:user:tomseai:stars
+      source_url: https://github.com/tomseai?tab=stars
+  state: refreshed
+repository:
+  aliases: []
+  github_node_id: "R_kgDORpANWQ"
+  host: "github.com"
+  name: "ELI5"
+  owner: "DreambigOu"
+  url: "https://github.com/DreambigOu/ELI5"
+version: 1

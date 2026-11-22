@@ -21,7 +21,7 @@ A self-hosted, JavaScript and TypeScript headless CMS for visually modeling cont
 - **Languages:** JavaScript, TypeScript
 - **License:** NOASSERTION
 - **Lifecycle:** Active
-- **GitHub stars:** 72,685
+- **GitHub stars:** 73,533
 
 **Key features**
 

@@ -2,9 +2,9 @@ schema_version: 2
 repository_id: github:tiann/hapi
 research:
   state: complete
-  source_commit: b74a11ecc39451b1ae92cbfc7fb98744227a204a
-  bundle_collected_at: 2026-07-19T20:45:40.230Z
-  researched_at: 2026-07-20T16:11:13.003Z
+  source_commit: 201042a67a9086d75b2efd3bb9bcd6ee0758f633
+  bundle_collected_at: 2026-11-22T12:10:32.618Z
+  researched_at: 2026-11-22T12:24:38.207794+00:00
   confidence: high
 classification:
   primary_category: developer-tools
@@ -25,15 +25,22 @@ project:
   summary: >-
     A local-first application that wraps supported coding-agent CLIs, persists
     their sessions through a hub, and lets users monitor, message, and approve
-    work remotely from a web PWA or Telegram Mini App without restarting a session.
+    work remotely from native mobile apps, a web PWA, or Telegram Mini App without restarting a
+    session.
   best_for:
-    - Developers who need to continue or supervise local coding-agent sessions from another device
-    - Teams or individuals willing to run a local or self-hosted hub for remote session access
+    - Developers who need to continue or supervise local coding-agent sessions
+      from another device
+    - Teams or individuals willing to run a local or self-hosted hub for remote
+      session access
 key_features:
-  - Wraps Claude Code, Codex, Cursor Agent, Gemini CLI, Grok Build, and OpenCode sessions
-  - Preserves a session while control switches between terminal and remote clients
-  - Web PWA supports sessions, chat, permission decisions, file browsing, diffs, and remote spawning
-  - Hub stores session data in SQLite and coordinates CLI, REST, Socket.IO, and SSE communication
+  - Wraps Claude Code, Codex, Cursor Agent, Grok Build, OpenCode, and other
+    supported agent sessions
+  - Preserves a session while control switches between terminal and remote
+    clients
+  - Web PWA supports sessions, chat, permission decisions, file browsing, diffs,
+    and remote spawning
+  - Hub stores session data in SQLite and coordinates CLI, REST, Socket.IO, and
+    SSE communication
   - Optional runner can start sessions remotely on a connected machine
   - Relay mode uses WireGuard plus TLS for end-to-end encrypted remote access
 usage:
@@ -43,6 +50,7 @@ usage:
     - web application
     - progressive web app
     - Telegram Mini App
+    - native iOS and Android apps
   installation:
     - npm global package
     - Homebrew formula
@@ -62,27 +70,34 @@ technology:
 license:
   spdx: AGPL-3.0-only
   name: GNU Affero General Public License v3.0 only
-  notes: Strong copyleft license; network-service users must be offered corresponding source under its terms.
+  notes: Strong copyleft license; network-service users must be offered
+    corresponding source under its terms.
 
 status:
   lifecycle: active
   archived: false
-  latest_release: v0.23.1
-  latest_release_at: 2026-07-19
+  latest_release: v0.36.5
+  latest_release_at: 2026-11-18
 
 strengths:
-  - Keeps the supported agent running locally while making messages and permission decisions available remotely
+  - Keeps the supported agent running locally while making messages and
+    permission decisions available remotely
   - Combines local-only, encrypted relay, and self-hosted tunnel deployment paths
 
 caveats:
-  - A supported coding-agent CLI must already be installed on the machine that runs HAPI
-  - Remote control requires a running hub and either the relay or a correctly configured reachable deployment
-  - AGPLv3 obligations can affect redistribution and network-service deployment decisions
+  - Native mobile apps are paid; the web PWA is free
+  - A supported coding-agent CLI must already be installed on the machine that
+    runs HAPI
+  - Remote control requires a running hub and either the relay or a correctly
+    configured reachable deployment
+  - AGPLv3 obligations can affect redistribution and network-service deployment
+    decisions
 
 sources:
-  - https://raw.githubusercontent.com/tiann/hapi/b74a11ecc39451b1ae92cbfc7fb98744227a204a/README.md
-  - https://raw.githubusercontent.com/tiann/hapi/b74a11ecc39451b1ae92cbfc7fb98744227a204a/LICENSE
-  - https://raw.githubusercontent.com/tiann/hapi/b74a11ecc39451b1ae92cbfc7fb98744227a204a/cli/package.json
-  - https://raw.githubusercontent.com/tiann/hapi/b74a11ecc39451b1ae92cbfc7fb98744227a204a/docs/guide/installation.md
+  - https://raw.githubusercontent.com/tiann/hapi/201042a67a9086d75b2efd3bb9bcd6ee0758f633/README.md
+  - https://raw.githubusercontent.com/tiann/hapi/201042a67a9086d75b2efd3bb9bcd6ee0758f633/LICENSE
+  - https://raw.githubusercontent.com/tiann/hapi/201042a67a9086d75b2efd3bb9bcd6ee0758f633/cli/package.json
+  - https://raw.githubusercontent.com/tiann/hapi/201042a67a9086d75b2efd3bb9bcd6ee0758f633/docs/guide/installation.md
   - https://raw.githubusercontent.com/tiann/hapi/b74a11ecc39451b1ae92cbfc7fb98744227a204a/docs/guide/how-it-works.md
   - https://github.com/tiann/hapi/releases.atom
+  - https://github.com/tiann/hapi/releases/tag/v0.36.5

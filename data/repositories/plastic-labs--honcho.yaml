@@ -15,15 +15,19 @@ analysis:
     use_cases:
       - "build-ai-products"
   evidence:
-    - claim: "Honcho provides memory infrastructure for stateful agents, with message and event storage, background reasoning, search, and a self-hostable FastAPI service with Python and TypeScript SDKs."
+    - claim: "Honcho provides memory infrastructure for stateful agents, with message
+        and event storage, background reasoning, search, and a self-hostable
+        FastAPI service with Python and TypeScript SDKs."
       confidence: "high"
       source_type: "repository-file"
       url: "https://github.com/plastic-labs/honcho/blob/main/README.md"
       checked_at: "2026-07-19"
   state: "complete"
   summary:
-    one_line: "Memory infrastructure for stateful AI agents, available as a managed API or self-hosted service."
-    why_useful: "It adds persistent context, reasoning, and search capabilities to agent applications."
+    one_line: "Memory infrastructure for stateful AI agents, available as a managed
+      API or self-hosted service."
+    why_useful: "It adds persistent context, reasoning, and search capabilities to
+      agent applications."
 curation:
   confidence: null
   evidence: []
@@ -37,48 +41,41 @@ id: "github:plastic-labs/honcho"
 import:
   github_snapshot:
     archived: false
-    created_at: "2023-09-10T21:29:54Z"
-    default_branch: "main"
+    created_at: 2023-09-10T21:29:54Z
+    default_branch: main
     description: " Memory library for building stateful agents"
     disabled: false
-    fetched_at: "2026-07-19T19:16:14.796Z"
+    fetched_at: 2026-11-22T12:07:00.148Z
     fork: false
-    forks: 731
-    homepage: "https://docs.honcho.dev"
-    latest_release: null
-    license_spdx: "AGPL-3.0"
-    open_issues: 167
-    primary_language: "Python"
-    pushed_at: "2026-07-17T20:16:55Z"
-    stars: 6055
+    forks: 1002
+    homepage: https://honcho.dev/docs
+    latest_release:
+      tag: v3.6.1
+      published_at: 2026-11-11T16:21:35Z
+      url: https://github.com/plastic-labs/honcho/releases/tag/v3.6.1
+    license_spdx: AGPL-3.0
+    open_issues: 202
+    primary_language: Python
+    pushed_at: 2026-11-21T17:48:40Z
+    stars: 8226
     topics:
-      - "agent-memory"
-      - "ai"
-      - "ai-agents"
-      - "ai-memory"
-      - "anthropic"
-      - "context-engineering"
-      - "continual-learning"
-      - "embeddings"
-      - "fastapi"
-      - "langchain"
-      - "llm"
-      - "long-term-memory"
-      - "memory"
-      - "openai"
-      - "personalization"
-      - "python"
-      - "rag"
-      - "state-management"
-      - "typescript"
-      - "vector-database"
-    updated_at: "2026-07-19T18:33:33Z"
+      - agent-memory
+      - agentic-rag
+      - ai
+      - ai-agents
+      - ai-memory
+      - context-engineering
+      - continual-learning
+      - dsh-plugin
+      - llm
+      - memory
+    updated_at: 2026-11-22T11:32:52Z
   sources:
-    - observed_at: "2026-05-23T13:17:49Z"
-      relation: "starred"
-      source_id: "github:user:tomseai:stars"
-      source_url: "https://github.com/tomseai?tab=stars"
-  state: "imported"
+    - observed_at: 2026-05-23T13:17:49Z
+      relation: starred
+      source_id: github:user:tomseai:stars
+      source_url: https://github.com/tomseai?tab=stars
+  state: refreshed
 repository:
   aliases: []
   github_node_id: "R_kgDOKR0qhg"

@@ -2,11 +2,11 @@
 
 # Context Engineering
 
-[Back to the main catalog](../README.md) | **12 repositories**
+[Back to the main catalog](../README.md) | **17 repositories**
 
 ## Primary categories represented
 
-- [AI and Automation](../categories/ai-and-automation.md) (7)
+- [AI and Automation](../categories/ai-and-automation.md) (12)
 - [Developer Tools](../categories/developer-tools.md) (1)
 - [Documentation and Learning](../categories/documentation-and-learning.md) (4)
 
@@ -23,13 +23,34 @@ A weekly live-coding and Q&A series with a repository of episode notes and selec
 - **Languages:** Python, TypeScript, Go, Markdown
 - **License:** No license file found in retained source bundle
 - **Lifecycle:** Active
-- **GitHub stars:** 1,852
+- **GitHub stars:** 2,016
 
 **Key features**
 
   - Weekly Tuesday Zoom sessions with a linked YouTube playlist for episodes
   - Episode catalog spanning classification, prompting, evaluations, context engineering, agent memory, multimodality, and coding agents
   - Selected episode code linked from the catalog, including Python and TypeScript projects
+
+<a id="repo-aiblueprinthq--ai-blueprint"></a>
+
+## [AI Blueprint](https://github.com/aiblueprinthq/ai-blueprint)
+
+A file-backed, spec-driven workflow overlay for building existing software projects with coding agents through reviewed specs, small implementation steps, explicit verification, durable findings, and controlled completion.
+
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-aiblueprinthq--ai-blueprint)
+- **Topics:** [Coding Agents](../topics/coding-agents.md#repo-aiblueprinthq--ai-blueprint) | [Agent Skills](../topics/agent-skills.md#repo-aiblueprinthq--ai-blueprint) | [Spec Driven Development](../topics/spec-driven-development.md#repo-aiblueprinthq--ai-blueprint) | [Task Planning](../topics/task-planning.md#repo-aiblueprinthq--ai-blueprint) | [Context Engineering](../topics/context-engineering.md#repo-aiblueprinthq--ai-blueprint) | [Code Review](../topics/code-review.md#repo-aiblueprinthq--ai-blueprint) | [Testing](../topics/testing.md#repo-aiblueprinthq--ai-blueprint) | [Agent Governance](../topics/agent-governance.md#repo-aiblueprinthq--ai-blueprint) | [Git](../topics/git.md#repo-aiblueprinthq--ai-blueprint) | [GitHub](../topics/github.md#repo-aiblueprinthq--ai-blueprint) | [Automation](../topics/automation.md#repo-aiblueprinthq--ai-blueprint)
+- **Kind:** Starter Template
+- **Best for:** Developers who want structured human checkpoints around AI-assisted implementation; Existing or newly scaffolded repositories that need durable agent context outside chat
+- **Languages:** JavaScript, Markdown
+- **License:** MIT
+- **Lifecycle:** Active
+- **GitHub stars:** 516
+
+**Key features**
+
+  - Generates project context and feature specifications from user-owned planning documents
+  - Keeps one active work item and archives completed features, fixes, and rollbacks
+  - Provides skills for planning, implementation, checks, audits, completion, CI, and releases
 
 <a id="repo-alexgreensh--token-optimizer"></a>
 
@@ -44,7 +65,7 @@ A plugin suite for supported AI coding assistants that audits context and token 
 - **Languages:** Python, TypeScript
 - **License:** PolyForm-Noncommercial-1.0.0
 - **Lifecycle:** Active
-- **GitHub stars:** 1,678
+- **GitHub stars:** 3,043
 
 **Key features**
 
@@ -65,13 +86,34 @@ A Claude Code-centered starter template for supplying AI coding assistants with 
 - **Languages:** Markdown, Python, TypeScript
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 13,719
+- **GitHub stars:** 13,923
 
 **Key features**
 
   - A CLAUDE.md template for project-wide conventions, testing expectations, and documentation standards
   - INITIAL.md and example files for structured feature requests, examples, documentation, and constraints
   - PRP templates and a multi-agent PRP example for implementation blueprints
+
+<a id="repo-coleam00--skills"></a>
+
+## [Cole's AI Skills](https://github.com/coleam00/skills)
+
+A portable collection of coding-agent skills and optional Claude Code hooks for a prime-plan-implement-validate-review delivery loop, parallel worktrees, project guidance, and building a reusable AI workflow layer.
+
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-coleam00--skills)
+- **Topics:** [Agent Skills](../topics/agent-skills.md#repo-coleam00--skills) | [Coding Agents](../topics/coding-agents.md#repo-coleam00--skills) | [Task Planning](../topics/task-planning.md#repo-coleam00--skills) | [Spec Driven Development](../topics/spec-driven-development.md#repo-coleam00--skills) | [Context Engineering](../topics/context-engineering.md#repo-coleam00--skills) | [Worktrees](../topics/worktrees.md#repo-coleam00--skills) | [Testing](../topics/testing.md#repo-coleam00--skills) | [Code Review](../topics/code-review.md#repo-coleam00--skills) | [Automation](../topics/automation.md#repo-coleam00--skills)
+- **Kind:** Plugin
+- **Best for:** Developers who want editable, reusable instructions for an end-to-end coding-agent workflow; Teams standardizing planning, validation, review, worktrees, hooks, and agent context across repositories
+- **Languages:** Markdown, Python, Shell
+- **License:** MIT
+- **Lifecycle:** Active
+- **GitHub stars:** 780
+
+**Key features**
+
+  - Plain-Markdown skills spanning codebase priming, product and architecture planning, implementation, validation, review, commits, and pull requests
+  - A composable PIV loop that can run skill by skill or through one end-to-end orchestration skill
+  - Worktree skills for preparing parallel branches and merging them through an integration branch
 
 <a id="repo-davis7dotsh--better-context"></a>
 
@@ -86,7 +128,7 @@ An evolving coding-agent context tool whose current documented local form is a s
 - **Languages:** TypeScript, JavaScript
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 1,151
+- **GitHub stars:** 1,148
 
 **Key features**
 
@@ -98,7 +140,7 @@ An evolving coding-agent context tool whose current documented local form is a s
 
 ## [OpenSpec](https://github.com/Fission-AI/OpenSpec)
 
-A Node.js CLI and coding-agent workflow for keeping Markdown specifications and change artifacts alongside code before and during implementation.
+A CLI and coding-agent workflow for keeping Markdown specifications and change artifacts alongside code before and during implementation.
 
 - **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-fission-ai--openspec)
 - **Topics:** [Coding Agents](../topics/coding-agents.md#repo-fission-ai--openspec) | [Spec Driven Development](../topics/spec-driven-development.md#repo-fission-ai--openspec) | [Task Planning](../topics/task-planning.md#repo-fission-ai--openspec) | [Context Engineering](../topics/context-engineering.md#repo-fission-ai--openspec) | [CLI](../topics/cli.md#repo-fission-ai--openspec) | [Documentation](../topics/documentation.md#repo-fission-ai--openspec) | [Developer Productivity](../topics/developer-productivity.md#repo-fission-ai--openspec)
@@ -107,7 +149,7 @@ A Node.js CLI and coding-agent workflow for keeping Markdown specifications and 
 - **Languages:** TypeScript
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 61,593
+- **GitHub stars:** 75,443
 
 **Key features**
 
@@ -128,7 +170,7 @@ A local-first context-compression system for LLM applications and coding agents,
 - **Languages:** Python, TypeScript, Rust
 - **License:** Apache-2.0
 - **Lifecycle:** Active
-- **GitHub stars:** 60,173
+- **GitHub stars:** 80,358
 
 **Key features**
 
@@ -149,13 +191,34 @@ A public principles guide for building production-oriented LLM applications from
 - **Languages:** TypeScript, Python
 - **License:** Apache-2.0 AND CC-BY-SA-4.0
 - **Lifecycle:** Unknown
-- **GitHub stars:** 24,512
+- **GitHub stars:** 27,368
 
 **Key features**
 
   - Twelve linked factors spanning natural-language tool calls through stateless reducers
   - Guidance for owning prompts and the context window
   - Recommendations for structured tool outputs and human contact through tools
+
+<a id="repo-levi-qiao--longgraph-skill"></a>
+
+## [longgraph](https://github.com/levi-qiao/longgraph-skill)
+
+A portable Markdown skill and prompt library that compiles durable executor-supervisor graphs for long-running agent work, with file-backed progress, independent verification, and host-switchable continuation.
+
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-levi-qiao--longgraph-skill)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-levi-qiao--longgraph-skill) | [Agent Skills](../topics/agent-skills.md#repo-levi-qiao--longgraph-skill) | [Agent Orchestration](../topics/agent-orchestration.md#repo-levi-qiao--longgraph-skill) | [Multi Agent](../topics/multi-agent.md#repo-levi-qiao--longgraph-skill) | [Parallel Agents](../topics/parallel-agents.md#repo-levi-qiao--longgraph-skill) | [Agent Governance](../topics/agent-governance.md#repo-levi-qiao--longgraph-skill) | [Task Planning](../topics/task-planning.md#repo-levi-qiao--longgraph-skill) | [Spec Driven Development](../topics/spec-driven-development.md#repo-levi-qiao--longgraph-skill) | [Context Engineering](../topics/context-engineering.md#repo-levi-qiao--longgraph-skill) | [Prompt Engineering](../topics/prompt-engineering.md#repo-levi-qiao--longgraph-skill) | [Automation](../topics/automation.md#repo-levi-qiao--longgraph-skill)
+- **Kind:** Plugin
+- **Best for:** Multi-hour or multi-milestone agent tasks that outlive one context window; Teams needing a durable task queue, independent verification, and explicit acceptance gates
+- **Languages:** Markdown, Shell
+- **License:** MIT
+- **Lifecycle:** Active
+- **GitHub stars:** 79
+
+**Key features**
+
+  - Stores the task queue and progress in a single-writer ledger outside chat history
+  - Separates execution from clean-context supervision through a one-way directive edge
+  - Compiles focused delivery, convergence, research, or custom graph runs
 
 <a id="repo-mgechev--skills-best-practices"></a>
 
@@ -170,13 +233,34 @@ A concise guide to designing agent skills with discoverable metadata, progressiv
 - **Languages:** Python, Markdown
 - **License:** No repository license grant
 - **Lifecycle:** Active
-- **GitHub stars:** 2,126
+- **GitHub stars:** 2,298
 
 **Key features**
 
   - Defines a conventional skill layout around SKILL.md, scripts, references, and assets
   - Gives frontmatter naming and description guidance for reliable skill discovery
   - Recommends keeping SKILL.md under 500 lines and loading referenced material just in time
+
+<a id="repo-open-gsd--gsd-core"></a>
+
+## [GSD Core](https://github.com/open-gsd/gsd-core)
+
+A multi-runtime context-engineering and spec-driven development framework that guides coding agents through discuss, plan, parallel execution, verification, and shipping phases while moving heavy work into fresh subagent contexts.
+
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-open-gsd--gsd-core)
+- **Topics:** [Coding Agents](../topics/coding-agents.md#repo-open-gsd--gsd-core) | [Agent Frameworks](../topics/agent-frameworks.md#repo-open-gsd--gsd-core) | [Agent Orchestration](../topics/agent-orchestration.md#repo-open-gsd--gsd-core) | [Multi Agent](../topics/multi-agent.md#repo-open-gsd--gsd-core) | [Parallel Agents](../topics/parallel-agents.md#repo-open-gsd--gsd-core) | [Agent Skills](../topics/agent-skills.md#repo-open-gsd--gsd-core) | [Spec Driven Development](../topics/spec-driven-development.md#repo-open-gsd--gsd-core) | [Context Engineering](../topics/context-engineering.md#repo-open-gsd--gsd-core) | [Task Planning](../topics/task-planning.md#repo-open-gsd--gsd-core) | [Code Review](../topics/code-review.md#repo-open-gsd--gsd-core) | [Testing](../topics/testing.md#repo-open-gsd--gsd-core) | [MCP](../topics/mcp.md#repo-open-gsd--gsd-core) | [Pull Requests](../topics/pull-requests.md#repo-open-gsd--gsd-core) | [Developer Productivity](../topics/developer-productivity.md#repo-open-gsd--gsd-core)
+- **Kind:** Framework
+- **Best for:** Developers running multi-phase software projects with coding agents; Teams that need durable project state and repeatable planning, execution, and verification loops
+- **Languages:** JavaScript, TypeScript
+- **License:** MIT
+- **Lifecycle:** Active
+- **GitHub stars:** 11,768
+
+**Key features**
+
+  - Runs a repeatable discuss, plan, execute, verify, and ship loop for each milestone phase
+  - Uses fresh-context subagents for research, planning, and parallel execution waves
+  - Preserves cross-session state in structured project, context, and status artifacts
 
 <a id="repo-othmanadi--planning-with-files"></a>
 
@@ -191,7 +275,7 @@ A persistent, file-based planning skill for AI coding agents that keeps plans, f
 - **Languages:** Python, Shell, PowerShell, Markdown
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 25,517
+- **GitHub stars:** 28,191
 
 **Key features**
 
@@ -212,7 +296,7 @@ A curated collection of Markdown-based Cursor Project Rules (`.mdc`) that provid
 - **Languages:** JavaScript, Markdown
 - **License:** CC0-1.0
 - **Lifecycle:** Active
-- **GitHub stars:** 40,363
+- **GitHub stars:** 41,181
 
 **Key features**
 
@@ -220,11 +304,32 @@ A curated collection of Markdown-based Cursor Project Rules (`.mdc`) that provid
   - Modern `.mdc` Project Rules format with description, glob, and always-apply frontmatter
   - Copy-to-project workflow for `.cursor/rules/`
 
+<a id="repo-primeintellect-ai--prime-agent"></a>
+
+## [PRIME Agent](https://github.com/PrimeIntellect-ai/prime-agent)
+
+A coding and research agent for long-running work that combines recursive subagents, a persistent Python environment, durable memory and skills, and background autonomy.
+
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-primeintellect-ai--prime-agent)
+- **Topics:** [Coding Agents](../topics/coding-agents.md#repo-primeintellect-ai--prime-agent) | [Agent Harnesses](../topics/agent-harnesses.md#repo-primeintellect-ai--prime-agent) | [Agent Orchestration](../topics/agent-orchestration.md#repo-primeintellect-ai--prime-agent) | [Multi Agent](../topics/multi-agent.md#repo-primeintellect-ai--prime-agent) | [Agent Memory](../topics/agent-memory.md#repo-primeintellect-ai--prime-agent) | [Agent Skills](../topics/agent-skills.md#repo-primeintellect-ai--prime-agent) | [Context Engineering](../topics/context-engineering.md#repo-primeintellect-ai--prime-agent) | [Terminal](../topics/terminal.md#repo-primeintellect-ai--prime-agent) | [Automation](../topics/automation.md#repo-primeintellect-ai--prime-agent)
+- **Kind:** Application
+- **Best for:** Developers running long-horizon coding or research tasks from the terminal; Users who want an agent to refine reusable prompts, memories, skills, and subagent specifications
+- **Languages:** TypeScript, Python
+- **License:** MIT
+- **Lifecycle:** Active
+- **GitHub stars:** 22,878
+
+**Key features**
+
+  - Uses recursive language-model calls and a persistent IPython environment
+  - Stores durable prompts, memories, skills, and subagent specifications
+  - Runs through a background daemon with attach, resume, messaging, goals, and schedules
+
 <a id="repo-rtk-ai--rtk"></a>
 
 ## [RTK](https://github.com/rtk-ai/rtk)
 
-A Rust command-line proxy for coding-agent workflows that runs supported developer commands, filters their output before it reaches the LLM context, tracks resulting token savings, and can install agent-specific hooks or instruction-based integrations.
+A Rust command-line tool that compresses coding-agent command output and tracks estimated token savings. Optional pipelines can extend filtering or route selected work through other models.
 
 - **Category:** [Developer Tools](../categories/developer-tools.md#repo-rtk-ai--rtk)
 - **Topics:** [Coding Agents](../topics/coding-agents.md#repo-rtk-ai--rtk) | [CLI](../topics/cli.md#repo-rtk-ai--rtk) | [Context Engineering](../topics/context-engineering.md#repo-rtk-ai--rtk) | [Token Usage](../topics/token-usage.md#repo-rtk-ai--rtk) | [Developer Productivity](../topics/developer-productivity.md#repo-rtk-ai--rtk) | [Git](../topics/git.md#repo-rtk-ai--rtk) | [Testing](../topics/testing.md#repo-rtk-ai--rtk)
@@ -233,7 +338,7 @@ A Rust command-line proxy for coding-agent workflows that runs supported develop
 - **Languages:** Rust
 - **License:** Apache-2.0
 - **Lifecycle:** Active
-- **GitHub stars:** 71,851
+- **GitHub stars:** 87,463
 
 **Key features**
 
@@ -250,11 +355,11 @@ A persistent-memory plugin for coding agents that captures session activity, cre
 - **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-thedotmack--claude-mem)
 - **Topics:** [AI Agents](../topics/ai-agents.md#repo-thedotmack--claude-mem) | [Agent Memory](../topics/agent-memory.md#repo-thedotmack--claude-mem) | [Coding Agents](../topics/coding-agents.md#repo-thedotmack--claude-mem) | [Context Engineering](../topics/context-engineering.md#repo-thedotmack--claude-mem) | [MCP](../topics/mcp.md#repo-thedotmack--claude-mem) | [Local First](../topics/local-first.md#repo-thedotmack--claude-mem) | [Search](../topics/search.md#repo-thedotmack--claude-mem) | [Developer Productivity](../topics/developer-productivity.md#repo-thedotmack--claude-mem)
 - **Kind:** Plugin
-- **Best for:** Claude Code users who want searchable continuity across coding sessions; Supported coding-agent users who need local project-memory retrieval
+- **Best for:** Coding-agent users who want searchable continuity across sessions with a supported host; Supported coding-agent users who need local project-memory retrieval
 - **Languages:** TypeScript, JavaScript
 - **License:** Apache-2.0
 - **Lifecycle:** Active
-- **GitHub stars:** 87,862
+- **GitHub stars:** 118,943
 
 **Key features**
 

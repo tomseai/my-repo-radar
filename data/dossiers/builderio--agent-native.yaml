@@ -2,9 +2,9 @@ schema_version: 2
 repository_id: github:BuilderIO/agent-native
 research:
   state: complete
-  source_commit: 4c89c3b8c82b85d317415058503c36ff90ae4ecb
-  bundle_collected_at: 2026-07-19T20:42:02.751Z
-  researched_at: 2026-07-20T17:12:16.8776321+02:00
+  source_commit: 6d92e0a879d1bda55e2325e4f6fb6577bbb9b623
+  bundle_collected_at: 2026-11-22T12:09:11.014Z
+  researched_at: 2026-11-22T12:23:57.997Z
   confidence: medium
 classification:
   primary_category: ai-and-automation
@@ -18,17 +18,21 @@ classification:
 project:
   name: Agent-Native
   kind: framework
-  summary: >-
-    A TypeScript framework for building agent-centric applications whose
-    actions can be exposed through UI, agent, HTTP, MCP, A2A, and CLI surfaces.
+  summary: A TypeScript framework for building agent-centric applications whose actions
+    can be exposed through UI, agent, HTTP, MCP, A2A, and CLI surfaces.
   best_for:
-    - Teams building a customizable agent application rather than a standalone coding agent
-    - Projects that want one action definition shared by application and agent interfaces
+    - Teams building a customizable agent application rather than a standalone coding
+      agent
+    - Projects that want one action definition shared by application and agent
+      interfaces
 key_features:
-  - Defines reusable actions with a schema and run function for multiple application surfaces
-  - Includes an agent runtime with chat, tools, skills, memory, jobs, observability, and handoffs
+  - Defines reusable actions with a schema and run function for multiple application
+    surfaces
+  - Includes an agent runtime with chat, tools, skills, memory, jobs, observability,
+    and handoffs
   - Supports Drizzle-compatible SQL databases and Nitro-compatible hosting
-  - Provides reusable toolkit building blocks for collaboration, sharing, settings, teams, and observability
+  - Provides reusable toolkit building blocks for collaboration, sharing, settings,
+    teams, and observability
   - Includes templates and a create command for starting a local application
 usage:
   interfaces:
@@ -50,28 +54,32 @@ technology:
     - Nitro-compatible hosts
     - pnpm workspaces
 license:
-  spdx: null
-  name: Repository-wide license unresolved
-  notes: >-
-    Repository-wide licensing is not established by the retained bundle: the README
-    says MIT and @agent-native/core declares MIT, but the root package declares ISC
-    and no root LICENSE file was retained. Confirm applicable package and repository rights before reuse.
+  spdx: MIT
+  name: MIT License
+  notes: The root MIT license requires retaining its copyright and permission notice in
+    copies or substantial portions.
 status:
   lifecycle: active
   archived: false
-  latest_release: "@agent-native/core@0.112.0"
-  latest_release_at: 2026-07-19
+  latest_release: null
+  latest_release_at: null
 strengths:
   - Shares one action model across human-facing and agent-facing application surfaces
-  - Combines agent-runtime facilities with scaffolding and reusable application toolkits
-  - Documents a direct local starter workflow rather than requiring manual framework assembly
+  - Combines agent-runtime facilities with scaffolding and reusable application
+    toolkits
+  - Documents a direct local starter workflow rather than requiring manual framework
+    assembly
 caveats:
-  - This is a framework and template collection, so teams still own the application's model, authentication, data, and deployment choices
-  - The repository is a monorepo with independently versioned packages; the selected release is the primary @agent-native/core package, not the first feed entry
-  - The retained root package requires Node.js 22.22 or newer and pnpm, while project setup needs additional application-specific configuration
-  - Conflicting retained license declarations and the absence of a retained LICENSE file make repository-wide reuse terms uncertain
+  - This is a framework and template collection, so teams still own the application's
+    model, authentication, data, and deployment choices
+  - The retained release feed contains desktop and Clips nightlies, including
+    Agent-Native Nightly v0.1.150-nightly.458; the core package manifest reports
+    0.231.0, but this does not establish a published stable framework release
+  - The retained root package requires Node.js 22.22 or newer and pnpm, while project
+    setup needs additional application-specific configuration
 sources:
-  - https://raw.githubusercontent.com/BuilderIO/agent-native/4c89c3b8c82b85d317415058503c36ff90ae4ecb/README.md
-  - https://raw.githubusercontent.com/BuilderIO/agent-native/4c89c3b8c82b85d317415058503c36ff90ae4ecb/package.json
-  - https://raw.githubusercontent.com/BuilderIO/agent-native/4c89c3b8c82b85d317415058503c36ff90ae4ecb/packages/core/package.json
+  - https://raw.githubusercontent.com/BuilderIO/agent-native/6d92e0a879d1bda55e2325e4f6fb6577bbb9b623/README.md
+  - https://raw.githubusercontent.com/BuilderIO/agent-native/6d92e0a879d1bda55e2325e4f6fb6577bbb9b623/package.json
+  - https://raw.githubusercontent.com/BuilderIO/agent-native/6d92e0a879d1bda55e2325e4f6fb6577bbb9b623/packages/core/package.json
   - https://github.com/BuilderIO/agent-native/releases.atom
+  - https://raw.githubusercontent.com/BuilderIO/agent-native/6d92e0a879d1bda55e2325e4f6fb6577bbb9b623/LICENSE

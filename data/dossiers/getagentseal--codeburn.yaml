@@ -2,9 +2,9 @@ schema_version: 2
 repository_id: github:getagentseal/codeburn
 research:
   state: complete
-  source_commit: 3472885629c41725b40c19c0780ecce148b067bf
-  bundle_collected_at: 2026-07-19T20:43:05.811Z
-  researched_at: 2026-07-20T17:34:00+02:00
+  source_commit: c08d761087afe8aaf132777f58326a6e7fecc7ef
+  bundle_collected_at: 2026-11-22T12:09:33.198Z
+  researched_at: 2026-11-22T12:22:05Z
   confidence: high
 classification:
   primary_category: developer-tools
@@ -28,13 +28,17 @@ project:
     and project.
   best_for:
     - Developers comparing AI coding-agent spend across local tools and models
-    - Teams seeking local reports and budget-analysis tools without a request proxy
+    - Teams seeking local reports and budget-analysis tools without a request
+      proxy
 key_features:
-  - Reads local session data for 36 supported AI tools and agents
-  - Provides an interactive terminal dashboard, reports, JSON output, and a localhost web dashboard
-  - Breaks down usage by task, model, tool, project, date range, and token category
-  - Identifies waste patterns and offers reversible Claude Code configuration changes
-  - Compares models and correlates sessions with nearby Git commits using a timestamp-window heuristic
+  - Reads local session data for 42 supported AI tools and agents
+  - Provides an interactive terminal dashboard, reports, JSON output, and a
+    localhost web dashboard
+  - Breaks down usage by task, model, tool, project, date range, and token
+    category
+  - Identifies waste patterns and offers reversible Claude Code configuration
+    changes
+  - Compares models and matches session spend to pull requests
   - Exposes local usage and savings analysis through a stdio MCP server
 usage:
   interfaces:
@@ -67,23 +71,31 @@ license:
 status:
   lifecycle: active
   archived: false
-  latest_release: v0.9.16
-  latest_release_at: 2026-07-17
+  latest_release: v0.9.28
+  latest_release_at: 2026-11-08
 
 strengths:
-  - Keeps session parsing and the web dashboard on the user's machine; the dashboard binds to localhost
-  - Offers several interfaces over the same local data, including MCP for agent-assisted spend analysis
-  - Includes actionable cost controls, model comparison, export, and diagnostic commands
+  - Keeps session parsing and the web dashboard on the user's machine; the
+    dashboard binds to localhost
+  - Offers several interfaces over the same local data, including MCP for
+    agent-assisted spend analysis
+  - Includes actionable cost controls, model comparison, export, and diagnostic
+    commands
 
 caveats:
-  - Requires Node.js 22.13+ and local session data from at least one supported tool
-  - Parsed fields and cost accuracy depend on each upstream tool's changing local data formats; some providers require estimation
-  - The Git-commit yield classification is explicitly timestamp-window based and can be ambiguous for concurrent work
-  - Desktop and menu-bar releases are versioned separately; v0.9.16 is the latest primary CLI package release in the retained feed
+  - Requires Node.js 22.15+ and local session data from at least one supported
+    tool
+  - Parsed fields and cost accuracy depend on each upstream tool's changing
+    local data formats; some providers require estimation
+  - Pull-request attribution depends on the session data available to the tool
+  - Desktop and menu-bar releases are versioned separately; v0.9.28 is the
+    latest primary CLI package release in the retained feed
 
 sources:
-  - https://raw.githubusercontent.com/getagentseal/codeburn/3472885629c41725b40c19c0780ecce148b067bf/README.md
-  - https://raw.githubusercontent.com/getagentseal/codeburn/3472885629c41725b40c19c0780ecce148b067bf/LICENSE
-  - https://raw.githubusercontent.com/getagentseal/codeburn/3472885629c41725b40c19c0780ecce148b067bf/package.json
-  - https://raw.githubusercontent.com/getagentseal/codeburn/3472885629c41725b40c19c0780ecce148b067bf/docs/architecture.md
+  - https://raw.githubusercontent.com/getagentseal/codeburn/c08d761087afe8aaf132777f58326a6e7fecc7ef/README.md
+  - https://raw.githubusercontent.com/getagentseal/codeburn/c08d761087afe8aaf132777f58326a6e7fecc7ef/LICENSE
+  - https://raw.githubusercontent.com/getagentseal/codeburn/c08d761087afe8aaf132777f58326a6e7fecc7ef/package.json
+  - https://raw.githubusercontent.com/getagentseal/codeburn/c08d761087afe8aaf132777f58326a6e7fecc7ef/docs/architecture.md
   - https://github.com/getagentseal/codeburn/releases.atom
+  - https://github.com/getagentseal/codeburn/releases/tag/v0.9.28
+  - https://github.com/getagentseal/codeburn/commit/c08d761087afe8aaf132777f58326a6e7fecc7ef

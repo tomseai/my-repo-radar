@@ -2,18 +2,42 @@
 
 # Automation
 
-[Back to the main catalog](../README.md) | **43 repositories**
+[Back to the main catalog](../README.md) | **60 repositories**
 
 ## Primary categories represented
 
-- [AI and Automation](../categories/ai-and-automation.md) (25)
+- [AI and Automation](../categories/ai-and-automation.md) (33)
+- [Application Frameworks](../categories/application-frameworks.md) (1)
 - [Backend and APIs](../categories/backend-and-apis.md) (1)
 - [Data and Databases](../categories/data-and-databases.md) (1)
 - [Developer Tools](../categories/developer-tools.md) (4)
-- [DevOps and Cloud](../categories/devops-and-cloud.md) (1)
+- [DevOps and Cloud](../categories/devops-and-cloud.md) (3)
 - [Documentation and Learning](../categories/documentation-and-learning.md) (5)
+- [Frontend and Design](../categories/frontend-and-design.md) (1)
 - [Platforms and Applications](../categories/platforms-and-applications.md) (4)
-- [Testing and Quality](../categories/testing-and-quality.md) (2)
+- [Security and Privacy](../categories/security-and-privacy.md) (1)
+- [Testing and Quality](../categories/testing-and-quality.md) (6)
+
+<a id="repo-addyosmani--factory"></a>
+
+## [Factory](https://github.com/addyosmani/factory)
+
+A reference software-factory template and installer that adds a repository-owned, human-governed delivery loop for Claude Code and Codex, using GitHub issues and pull requests as the queue, deterministic gates, independent verification, and human merge authority.
+
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-addyosmani--factory)
+- **Topics:** [Coding Agents](../topics/coding-agents.md#repo-addyosmani--factory) | [Agent Harnesses](../topics/agent-harnesses.md#repo-addyosmani--factory) | [Agent Orchestration](../topics/agent-orchestration.md#repo-addyosmani--factory) | [Agent Governance](../topics/agent-governance.md#repo-addyosmani--factory) | [Agent Skills](../topics/agent-skills.md#repo-addyosmani--factory) | [Task Planning](../topics/task-planning.md#repo-addyosmani--factory) | [Spec Driven Development](../topics/spec-driven-development.md#repo-addyosmani--factory) | [Code Review](../topics/code-review.md#repo-addyosmani--factory) | [Testing](../topics/testing.md#repo-addyosmani--factory) | [GitHub](../topics/github.md#repo-addyosmani--factory) | [Automation](../topics/automation.md#repo-addyosmani--factory) | [Developer Productivity](../topics/developer-productivity.md#repo-addyosmani--factory)
+- **Kind:** Starter Template
+- **Best for:** Teams introducing bounded coding-agent automation into an existing GitHub repository; Projects that need version-controlled agent policy, durable handoffs, and review back-pressure
+- **Languages:** Shell, Markdown
+- **License:** MIT
+- **Lifecycle:** Active
+- **GitHub stars:** 374
+
+**Key features**
+
+  - Installs a shared charter, contract, queue protocol, gates, run records, and Claude Code and Codex workflow adapters
+  - Routes issues through triage, specification, implementation, independent review, pull-request verification, and monitoring
+  - Runs fail-closed type, lint, test, build, audit, mutation, and architecture gates at configurable levels
 
 <a id="repo-addyosmani--web-quality-skills"></a>
 
@@ -28,7 +52,7 @@ A stack-agnostic collection of six agent skills for reviewing and improving web 
 - **Languages:** Shell
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 2,518
+- **GitHub stars:** 3,117
 
 **Key features**
 
@@ -49,7 +73,7 @@ A large, hand-picked Markdown directory of generative-AI applications, organized
 - **Languages:** Markdown, HTML
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 9,071
+- **GitHub stars:** 9,289
 
 **Key features**
 
@@ -57,11 +81,74 @@ A large, hand-picked Markdown directory of generative-AI applications, organized
   - Recently added section alongside a category index and individual application entries
   - Links to an associated AI Collection website for application details and pricing information
 
+<a id="repo-aiblueprinthq--ai-blueprint"></a>
+
+## [AI Blueprint](https://github.com/aiblueprinthq/ai-blueprint)
+
+A file-backed, spec-driven workflow overlay for building existing software projects with coding agents through reviewed specs, small implementation steps, explicit verification, durable findings, and controlled completion.
+
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-aiblueprinthq--ai-blueprint)
+- **Topics:** [Coding Agents](../topics/coding-agents.md#repo-aiblueprinthq--ai-blueprint) | [Agent Skills](../topics/agent-skills.md#repo-aiblueprinthq--ai-blueprint) | [Spec Driven Development](../topics/spec-driven-development.md#repo-aiblueprinthq--ai-blueprint) | [Task Planning](../topics/task-planning.md#repo-aiblueprinthq--ai-blueprint) | [Context Engineering](../topics/context-engineering.md#repo-aiblueprinthq--ai-blueprint) | [Code Review](../topics/code-review.md#repo-aiblueprinthq--ai-blueprint) | [Testing](../topics/testing.md#repo-aiblueprinthq--ai-blueprint) | [Agent Governance](../topics/agent-governance.md#repo-aiblueprinthq--ai-blueprint) | [Git](../topics/git.md#repo-aiblueprinthq--ai-blueprint) | [GitHub](../topics/github.md#repo-aiblueprinthq--ai-blueprint) | [Automation](../topics/automation.md#repo-aiblueprinthq--ai-blueprint)
+- **Kind:** Starter Template
+- **Best for:** Developers who want structured human checkpoints around AI-assisted implementation; Existing or newly scaffolded repositories that need durable agent context outside chat
+- **Languages:** JavaScript, Markdown
+- **License:** MIT
+- **Lifecycle:** Active
+- **GitHub stars:** 516
+
+**Key features**
+
+  - Generates project context and feature specifications from user-owned planning documents
+  - Keeps one active work item and archives completed features, fixes, and rollbacks
+  - Provides skills for planning, implementation, checks, audits, completion, CI, and releases
+
+<a id="repo-alchemy-run--alchemy"></a>
+
+## [Alchemy](https://github.com/alchemy-run/alchemy)
+
+A TypeScript infrastructure-as-code framework built on Effect that combines cloud resources and application logic in one type-safe executable program.
+
+- **Category:** [DevOps and Cloud](../categories/devops-and-cloud.md#repo-alchemy-run--alchemy)
+- **Topics:** [Cloud](../topics/cloud.md#repo-alchemy-run--alchemy) | [Deployment](../topics/deployment.md#repo-alchemy-run--alchemy) | [DevOps](../topics/devops.md#repo-alchemy-run--alchemy) | [Automation](../topics/automation.md#repo-alchemy-run--alchemy) | [Developer Productivity](../topics/developer-productivity.md#repo-alchemy-run--alchemy)
+- **Kind:** Infrastructure
+- **Best for:** TypeScript teams defining application code and cloud infrastructure together; Effect users deploying to AWS or Cloudflare with typed resource bindings
+- **Languages:** TypeScript
+- **License:** Apache-2.0
+- **Lifecycle:** Experimental
+- **GitHub stars:** 2,041
+
+**Key features**
+
+  - Models infrastructure resources and application logic in one Effect program
+  - Provides typed bindings, errors, planning, deployment, and local development
+  - Supports AWS services, Cloudflare resources, IAM, SDKs, and smoke tests
+
+<a id="repo-antithesishq--bombadil"></a>
+
+## [bombadil](https://github.com/antithesishq/bombadil)
+
+Property-based testing tool that autonomously explores web and terminal interfaces and checks correctness properties.
+
+- **Category:** [Testing and Quality](../categories/testing-and-quality.md#repo-antithesishq--bombadil)
+- **Topics:** [Testing](../topics/testing.md#repo-antithesishq--bombadil) | [Automation](../topics/automation.md#repo-antithesishq--bombadil) | [CLI](../topics/cli.md#repo-antithesishq--bombadil)
+- **Kind:** CLI
+- **Best for:** Developers testing interactive applications for reliability
+- **Languages:** Rust
+- **License:** MIT
+- **Lifecycle:** Active
+- **GitHub stars:** 3,020
+
+**Key features**
+
+  - Automated exploration of web interfaces
+  - Property-based testing of terminal interfaces
+  - Runs locally, in CI, and inside Antithesis
+
 <a id="repo-bubbuild--bub"></a>
 
 ## [Bub](https://github.com/bubbuild/bub)
 
-A small hook-first Python runtime for agents and people in shared conversational environments, using an inspectable turn pipeline, append-only context records, and adapters for command-line, Telegram, and custom channels.
+A Python agent kernel and customizable application with model and tool configuration, conversation storage, plugins, and channel integrations.
 
 - **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-bubbuild--bub)
 - **Topics:** [AI Agents](../topics/ai-agents.md#repo-bubbuild--bub) | [Agent Frameworks](../topics/agent-frameworks.md#repo-bubbuild--bub) | [Agent Skills](../topics/agent-skills.md#repo-bubbuild--bub) | [Agent Memory](../topics/agent-memory.md#repo-bubbuild--bub) | [CLI](../topics/cli.md#repo-bubbuild--bub) | [Tool Use](../topics/tool-use.md#repo-bubbuild--bub) | [Automation](../topics/automation.md#repo-bubbuild--bub)
@@ -70,19 +157,19 @@ A small hook-first Python runtime for agents and people in shared conversational
 - **Languages:** Python
 - **License:** Apache-2.0
 - **Lifecycle:** Active
-- **GitHub stars:** 1,553
+- **GitHub stars:** 1,704
 
 **Key features**
 
-  - Replaceable pluggy hooks for every inbound-message turn stage
+  - Python agent kernel with configurable model, tools, instructions, and storage
+  - Optional application layer with pluggy hooks and channel integrations
   - Append-only tape context that can be inspected, replayed, and handed off
-  - One runtime model for CLI, Telegram, and custom channel adapters
 
 <a id="repo-coleam00--archon"></a>
 
 ## [Archon](https://github.com/coleam00/Archon)
 
-A workflow engine for defining and executing repeatable AI coding processes as YAML, with deterministic steps around agent work.
+A self-hosted workflow engine for running YAML-defined processes with AI agents, scripts, and approval gates. Its bundled software-development pack coordinates work from issue intake to merged pull request.
 
 - **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-coleam00--archon)
 - **Topics:** [AI Agents](../topics/ai-agents.md#repo-coleam00--archon) | [Coding Agents](../topics/coding-agents.md#repo-coleam00--archon) | [Agent Orchestration](../topics/agent-orchestration.md#repo-coleam00--archon) | [Automation](../topics/automation.md#repo-coleam00--archon) | [CLI](../topics/cli.md#repo-coleam00--archon) | [Git](../topics/git.md#repo-coleam00--archon) | [Worktrees](../topics/worktrees.md#repo-coleam00--archon) | [Web UI](../topics/web-ui.md#repo-coleam00--archon) | [Pull Requests](../topics/pull-requests.md#repo-coleam00--archon)
@@ -91,13 +178,13 @@ A workflow engine for defining and executing repeatable AI coding processes as Y
 - **Languages:** TypeScript
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 22,944
+- **GitHub stars:** 23,980
 
 **Key features**
 
   - Defines planning, implementation, validation, review, and pull-request processes as YAML workflows with validation gates and artifacts
   - Isolates each workflow run in its own Git worktree, allowing parallel fixes without conflicts
-  - Includes a web dashboard for chats, workflow execution, history, monitoring, and a drag-and-drop workflow builder
+  - Provides a web interface to run and monitor workflows and handle approval requests
 
 <a id="repo-coleam00--local-ai-packaged"></a>
 
@@ -112,13 +199,34 @@ A Docker Compose starter template for assembling a self-hosted local-AI and low-
 - **Languages:** Python, YAML
 - **License:** Apache-2.0
 - **Lifecycle:** Active
-- **GitHub stars:** 3,735
+- **GitHub stars:** 3,789
 
 **Key features**
 
   - Combines Ollama, n8n, Open WebUI, Supabase, Qdrant, Neo4j, Flowise, SearXNG, Caddy, and Langfuse in one Compose configuration
   - Includes pre-built n8n RAG-agent workflows and instructions for connecting them to Open WebUI
   - Offers CPU, NVIDIA GPU, and AMD GPU Compose profiles for the Ollama service
+
+<a id="repo-coleam00--skills"></a>
+
+## [Cole's AI Skills](https://github.com/coleam00/skills)
+
+A portable collection of coding-agent skills and optional Claude Code hooks for a prime-plan-implement-validate-review delivery loop, parallel worktrees, project guidance, and building a reusable AI workflow layer.
+
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-coleam00--skills)
+- **Topics:** [Agent Skills](../topics/agent-skills.md#repo-coleam00--skills) | [Coding Agents](../topics/coding-agents.md#repo-coleam00--skills) | [Task Planning](../topics/task-planning.md#repo-coleam00--skills) | [Spec Driven Development](../topics/spec-driven-development.md#repo-coleam00--skills) | [Context Engineering](../topics/context-engineering.md#repo-coleam00--skills) | [Worktrees](../topics/worktrees.md#repo-coleam00--skills) | [Testing](../topics/testing.md#repo-coleam00--skills) | [Code Review](../topics/code-review.md#repo-coleam00--skills) | [Automation](../topics/automation.md#repo-coleam00--skills)
+- **Kind:** Plugin
+- **Best for:** Developers who want editable, reusable instructions for an end-to-end coding-agent workflow; Teams standardizing planning, validation, review, worktrees, hooks, and agent context across repositories
+- **Languages:** Markdown, Python, Shell
+- **License:** MIT
+- **Lifecycle:** Active
+- **GitHub stars:** 780
+
+**Key features**
+
+  - Plain-Markdown skills spanning codebase priming, product and architecture planning, implementation, validation, review, commits, and pull requests
+  - A composable PIV loop that can run skill by skill or through one end-to-end orchestration skill
+  - Worktree skills for preparing parallel branches and merging them through an integration branch
 
 <a id="repo-composio-community--awesome-codex-skills"></a>
 
@@ -133,7 +241,7 @@ A curated collection of in-repository and external Codex skill references, with 
 - **Languages:** Python
 - **License:** Repository-wide license not established
 - **Lifecycle:** Active
-- **GitHub stars:** 15,128
+- **GitHub stars:** 17,387
 
 **Key features**
 
@@ -154,7 +262,7 @@ A TypeScript and Python SDK monorepo for giving AI agents authenticated, session
 - **Languages:** TypeScript, Python
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 29,287
+- **GitHub stars:** 31,233
 
 **Key features**
 
@@ -175,13 +283,55 @@ A zero-dependency TypeScript mock server and library for exercising AI applicati
 - **Languages:** TypeScript, Python
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 650
+- **GitHub stars:** 1,031
 
 **Key features**
 
   - Runs LLM, MCP, A2A, AG-UI, vector, search, rerank, and moderation mocks on one port
   - Provides fixture-based record and replay, including approximate replay timing controls
   - Supports a programmatic API, the full-featured aimock CLI, and the legacy llmock compatibility CLI
+
+<a id="repo-copilotkit--openbot"></a>
+
+## [OpenBot](https://github.com/CopilotKit/OpenBot)
+
+A self-hostable workspace for AI coworkers that connects built-in or external AG-UI agents to governed browser, file, shell, and tool access, with desktop and Kubernetes deployment.
+
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-copilotkit--openbot)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-copilotkit--openbot) | [Agent Governance](../topics/agent-governance.md#repo-copilotkit--openbot) | [Agent Protocols](../topics/agent-protocols.md#repo-copilotkit--openbot) | [Computer Use](../topics/computer-use.md#repo-copilotkit--openbot) | [Browser Automation](../topics/browser-automation.md#repo-copilotkit--openbot) | [Tool Use](../topics/tool-use.md#repo-copilotkit--openbot) | [MCP](../topics/mcp.md#repo-copilotkit--openbot) | [Agent Skills](../topics/agent-skills.md#repo-copilotkit--openbot) | [Generative UI](../topics/generative-ui.md#repo-copilotkit--openbot) | [Chat UI](../topics/chat-ui.md#repo-copilotkit--openbot) | [Self Hosted](../topics/self-hosted.md#repo-copilotkit--openbot) | [Sandboxing](../topics/sandboxing.md#repo-copilotkit--openbot) | [Automation](../topics/automation.md#repo-copilotkit--openbot) | [Local Models](../topics/local-models.md#repo-copilotkit--openbot)
+- **Kind:** Starter Template
+- **Best for:** Teams building self-hosted AI coworkers that operate browsers, files, and external tools; Developers bringing AG-UI agents into a governed multi-user web workspace
+- **Languages:** TypeScript, Python
+- **License:** MIT
+- **Lifecycle:** Active
+- **GitHub stars:** 13,167
+
+**Key features**
+
+  - Supports one computer per person and optional per-Bot containers, depending on deployment configuration
+  - Evaluates policy and records an audit event before the action gateway executes an approved computer action
+  - Supports human takeover for login and two-factor authentication
+
+<a id="repo-e2e-inc--e2e"></a>
+
+## [e2e](https://github.com/e2e-inc/e2e)
+
+An end-to-end testing framework for web and mobile apps combining natural-language agent actions with conventional locators and assertions.
+
+- **Category:** [Testing and Quality](../categories/testing-and-quality.md#repo-e2e-inc--e2e)
+- **Topics:** [Testing](../topics/testing.md#repo-e2e-inc--e2e) | [Automation](../topics/automation.md#repo-e2e-inc--e2e) | [AI Agents](../topics/ai-agents.md#repo-e2e-inc--e2e) | [Browser Automation](../topics/browser-automation.md#repo-e2e-inc--e2e) | [MCP](../topics/mcp.md#repo-e2e-inc--e2e) | [Mobile Development](../topics/mobile-development.md#repo-e2e-inc--e2e)
+- **Kind:** Framework
+- **Best for:** Teams automating application journeys across browsers and mobile devices
+- **Languages:** TypeScript
+- **License:** Apache-2.0
+- **Lifecycle:** Active
+- **GitHub stars:** 14,113
+
+**Key features**
+
+  - Agent-driven actions and assertions alongside deterministic test assertions
+  - Replays verified agent actions without model calls until the app changes
+  - Browser engines via Playwright and mobile simulators and emulators
 
 <a id="repo-ericciarla--trendfinder"></a>
 
@@ -196,7 +346,7 @@ A scheduled TypeScript application that collects selected X posts and web pages,
 - **Languages:** TypeScript
 - **License:** MIT
 - **Lifecycle:** Unknown
-- **GitHub stars:** 4,102
+- **GitHub stars:** 4,130
 
 **Key features**
 
@@ -206,7 +356,7 @@ A scheduled TypeScript application that collects selected X posts and web pages,
 
 <a id="repo-generalaction--emdash"></a>
 
-## [emdash](https://github.com/generalaction/emdash)
+## [Emdash Classic](https://github.com/generalaction/emdash)
 
 A local-first desktop environment for running AI coding agents in parallel in isolated Git worktrees, then reviewing and integrating their changes.
 
@@ -217,7 +367,7 @@ A local-first desktop environment for running AI coding agents in parallel in is
 - **Languages:** TypeScript
 - **License:** Apache-2.0
 - **Lifecycle:** Active
-- **GitHub stars:** 5,218
+- **GitHub stars:** 6,290
 
 **Key features**
 
@@ -238,7 +388,7 @@ A terminal-native GitHub Copilot coding agent that uses natural-language convers
 - **Languages:** Unknown
 - **License:** GitHub Copilot CLI License
 - **Lifecycle:** Active
-- **GitHub stars:** 10,985
+- **GitHub stars:** 11,451
 
 **Key features**
 
@@ -259,7 +409,7 @@ A hands-on beginner course for GitHub Copilot CLI that uses a Python book collec
 - **Languages:** Python, JavaScript, C#
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 2,744
+- **GitHub stars:** 2,922
 
 **Key features**
 
@@ -280,7 +430,7 @@ An open-source terminal AI agent that connects Gemini models to codebases, file 
 - **Languages:** TypeScript
 - **License:** Apache-2.0
 - **Lifecycle:** Active
-- **GitHub stars:** 106,073
+- **GitHub stars:** 108,993
 
 **Key features**
 
@@ -301,13 +451,55 @@ A community-maintained Markdown collection of tested real-world OpenClaw use cas
 - **Languages:** Markdown
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 31,528
+- **GitHub stars:** 31,635
 
 **Key features**
 
   - Groups real-life examples across social media, creative building, infrastructure and DevOps, productivity, research, learning, and finance
   - Links each listed use case to a dedicated Markdown document intended to explain its implementation
   - Covers personal assistants, digests, content pipelines, project coordination, knowledge bases, voice use, and specialized multi-agent workflows
+
+<a id="repo-heygen-com--hyperframes"></a>
+
+## [Hyperframes](https://github.com/heygen-com/hyperframes)
+
+A deterministic HTML and CSS video framework with a local CLI, preview and rendering workflow, SDK, hosted execution options, and reusable skills for AI agents.
+
+- **Category:** [Frontend and Design](../categories/frontend-and-design.md#repo-heygen-com--hyperframes)
+- **Topics:** [Multimodal](../topics/multimodal.md#repo-heygen-com--hyperframes) | [Agent Skills](../topics/agent-skills.md#repo-heygen-com--hyperframes) | [CLI](../topics/cli.md#repo-heygen-com--hyperframes) | [Web](../topics/web.md#repo-heygen-com--hyperframes) | [Automation](../topics/automation.md#repo-heygen-com--hyperframes) | [Generative UI](../topics/generative-ui.md#repo-heygen-com--hyperframes)
+- **Kind:** Framework
+- **Best for:** Developers generating videos from familiar web technologies; Agents automating repeatable product, explainer, caption, and motion-graphics videos
+- **Languages:** TypeScript
+- **License:** Apache-2.0
+- **Lifecycle:** Active
+- **GitHub stars:** 88,021
+
+**Key features**
+
+  - Renders HTML, CSS, media, and seekable animations to MP4 deterministically
+  - Provides init, preview, and render commands plus SDK and studio workflows
+  - Bundles reusable agent skills for common video-production tasks
+
+<a id="repo-hyhmrright--brooks-lint"></a>
+
+## [brooks-lint](https://github.com/hyhmrright/brooks-lint)
+
+A portable agent-skill and Claude Code plugin for reviewing production code, architecture, technical debt, and tests against risk dimensions synthesized from twelve software-engineering books.
+
+- **Category:** [Testing and Quality](../categories/testing-and-quality.md#repo-hyhmrright--brooks-lint)
+- **Topics:** [Coding Agents](../topics/coding-agents.md#repo-hyhmrright--brooks-lint) | [Agent Skills](../topics/agent-skills.md#repo-hyhmrright--brooks-lint) | [Code Review](../topics/code-review.md#repo-hyhmrright--brooks-lint) | [Testing](../topics/testing.md#repo-hyhmrright--brooks-lint) | [Evaluation](../topics/evaluation.md#repo-hyhmrright--brooks-lint) | [Visualization](../topics/visualization.md#repo-hyhmrright--brooks-lint) | [Documentation](../topics/documentation.md#repo-hyhmrright--brooks-lint) | [Automation](../topics/automation.md#repo-hyhmrright--brooks-lint) | [Developer Productivity](../topics/developer-productivity.md#repo-hyhmrright--brooks-lint)
+- **Kind:** Plugin
+- **Best for:** Developers who want structured AI-assisted code and architecture reviews; Teams auditing technical debt and test quality across several agent platforms
+- **Languages:** JavaScript, Markdown
+- **License:** MIT
+- **Lifecycle:** Active
+- **GitHub stars:** 1,585
+
+**Key features**
+
+  - Produces symptom, source, consequence, and remedy chains with book citations and severity
+  - Covers production-code decay, test-suite decay, architecture, debt, health, and sweep modes
+  - Generates Mermaid dependency graphs, health scores, SARIF output, and CI gates
 
 <a id="repo-iofficeai--aionui"></a>
 
@@ -322,7 +514,7 @@ An open-source, cross-platform cowork application that supplies a built-in AI ag
 - **Languages:** TypeScript
 - **License:** Apache-2.0
 - **Lifecycle:** Active
-- **GitHub stars:** 30,446
+- **GitHub stars:** 34,431
 
 **Key features**
 
@@ -343,11 +535,11 @@ A Node.js CLI that turns supported websites, logged-in Chrome sessions, Electron
 - **Languages:** JavaScript, TypeScript
 - **License:** Apache-2.0
 - **Lifecycle:** Active
-- **GitHub stars:** 26,949
+- **GitHub stars:** 31,223
 
 **Key features**
 
-  - Provides built-in site adapters and JSON, YAML, Markdown, CSV, and table output
+  - Provides built-in site adapters and defaults to structured JSON success and error responses
   - Drives logged-in Chrome through a Browser Bridge extension and local daemon
   - Exposes browser navigation, interaction, extraction, network inspection, and screenshot commands
 
@@ -364,7 +556,7 @@ A cross-platform desktop GUI, also known as youtube-dl-gui, that uses yt-dlp to 
 - **Languages:** Rust, TypeScript
 - **License:** AGPL-3.0-or-later
 - **Lifecycle:** Active
-- **GitHub stars:** 8,873
+- **GitHub stars:** 9,760
 
 **Key features**
 
@@ -376,7 +568,7 @@ A cross-platform desktop GUI, also known as youtube-dl-gui, that uses yt-dlp to 
 
 ## [AI Ready](https://github.com/johnpapa/ai-ready)
 
-A GitHub Copilot CLI skill that inspects a repository's code, workflows, documentation, and review patterns, then reports on AI readiness and proposes or creates repository-specific configuration for coding agents.
+An Agent Skill that inspects a repository's code, workflows, documentation, and review patterns, then reports on AI readiness and proposes or creates repository-specific configuration for coding agents.
 
 - **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-johnpapa--ai-ready)
 - **Topics:** [Coding Agents](../topics/coding-agents.md#repo-johnpapa--ai-ready) | [Agent Skills](../topics/agent-skills.md#repo-johnpapa--ai-ready) | [Automation](../topics/automation.md#repo-johnpapa--ai-ready) | [GitHub](../topics/github.md#repo-johnpapa--ai-ready) | [Pull Requests](../topics/pull-requests.md#repo-johnpapa--ai-ready) | [MCP](../topics/mcp.md#repo-johnpapa--ai-ready) | [Developer Productivity](../topics/developer-productivity.md#repo-johnpapa--ai-ready)
@@ -385,7 +577,7 @@ A GitHub Copilot CLI skill that inspects a repository's code, workflows, documen
 - **Languages:** Unknown
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 112
+- **GitHub stars:** 237
 
 **Key features**
 
@@ -406,13 +598,13 @@ An open-source, event-driven orchestration platform for declarative YAML workflo
 - **Languages:** Java
 - **License:** Apache-2.0
 - **Lifecycle:** Active
-- **GitHub stars:** 27,391
+- **GitHub stars:** 30,310
 
 **Key features**
 
   - Defines flows, tasks, inputs, variables, and triggers in declarative YAML
+  - Offers AI agents, RAG workflows, and a built-in MCP server
   - Supports scheduled and event-driven execution, including message-bus and cloud triggers
-  - Provides a built-in editor, visual topology view, completion, and real-time validation
 
 <a id="repo-kyrolabs--awesome-agents"></a>
 
@@ -427,13 +619,34 @@ A curated Markdown directory of open-source AI-agent tools and products, grouped
 - **Languages:** Unknown
 - **License:** unknown
 - **Lifecycle:** Active
-- **GitHub stars:** 2,637
+- **GitHub stars:** 3,014
 
 **Key features**
 
   - Categorized links to agent frameworks and development tools
   - A testing and evaluation section for agent-oriented projects
   - Separate sections for research, general agents, and game or simulation work
+
+<a id="repo-levi-qiao--longgraph-skill"></a>
+
+## [longgraph](https://github.com/levi-qiao/longgraph-skill)
+
+A portable Markdown skill and prompt library that compiles durable executor-supervisor graphs for long-running agent work, with file-backed progress, independent verification, and host-switchable continuation.
+
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-levi-qiao--longgraph-skill)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-levi-qiao--longgraph-skill) | [Agent Skills](../topics/agent-skills.md#repo-levi-qiao--longgraph-skill) | [Agent Orchestration](../topics/agent-orchestration.md#repo-levi-qiao--longgraph-skill) | [Multi Agent](../topics/multi-agent.md#repo-levi-qiao--longgraph-skill) | [Parallel Agents](../topics/parallel-agents.md#repo-levi-qiao--longgraph-skill) | [Agent Governance](../topics/agent-governance.md#repo-levi-qiao--longgraph-skill) | [Task Planning](../topics/task-planning.md#repo-levi-qiao--longgraph-skill) | [Spec Driven Development](../topics/spec-driven-development.md#repo-levi-qiao--longgraph-skill) | [Context Engineering](../topics/context-engineering.md#repo-levi-qiao--longgraph-skill) | [Prompt Engineering](../topics/prompt-engineering.md#repo-levi-qiao--longgraph-skill) | [Automation](../topics/automation.md#repo-levi-qiao--longgraph-skill)
+- **Kind:** Plugin
+- **Best for:** Multi-hour or multi-milestone agent tasks that outlive one context window; Teams needing a durable task queue, independent verification, and explicit acceptance gates
+- **Languages:** Markdown, Shell
+- **License:** MIT
+- **Lifecycle:** Active
+- **GitHub stars:** 79
+
+**Key features**
+
+  - Stores the task queue and progress in a single-writer ledger outside chat history
+  - Separates execution from clean-context supervision through a one-way directive edge
+  - Compiles focused delivery, convergence, research, or custom graph runs
 
 <a id="repo-lobehub--lobehub"></a>
 
@@ -448,13 +661,34 @@ A workspace for building, scheduling, and collaborating with AI agent teams, wit
 - **Languages:** TypeScript
 - **License:** LobeHub Community License
 - **Lifecycle:** Active
-- **GitHub stars:** 80,525
+- **GitHub stars:** 85,981
 
 **Key features**
 
   - Agent Builder for creating and configuring agent teammates
   - Agent Groups for parallel, task-oriented collaboration
   - Shared pages, projects, workspaces, and scheduled runs
+
+<a id="repo-mgechev--skillgrade"></a>
+
+## [skillgrade](https://github.com/mgechev/skillgrade)
+
+A test and evaluation runner for agent skills that checks whether different agents discover and use SKILL.md instructions with deterministic or model-based graders.
+
+- **Category:** [Testing and Quality](../categories/testing-and-quality.md#repo-mgechev--skillgrade)
+- **Topics:** [Agent Skills](../topics/agent-skills.md#repo-mgechev--skillgrade) | [Evaluation](../topics/evaluation.md#repo-mgechev--skillgrade) | [Testing](../topics/testing.md#repo-mgechev--skillgrade) | [Multi Provider](../topics/multi-provider.md#repo-mgechev--skillgrade) | [CLI](../topics/cli.md#repo-mgechev--skillgrade) | [Web UI](../topics/web-ui.md#repo-mgechev--skillgrade) | [Automation](../topics/automation.md#repo-mgechev--skillgrade)
+- **Kind:** CLI
+- **Best for:** Skill authors validating behavior across several agent harnesses and models; Teams adding repeatable skill regression checks to continuous integration
+- **Languages:** TypeScript
+- **License:** MIT
+- **Lifecycle:** Active
+- **GitHub stars:** 737
+
+**Key features**
+
+  - Runs skill scenarios against Gemini, Claude, Codex, ACP, OpenCode, or custom commands
+  - Supports deterministic checks and LLM rubric graders
+  - Repeats trials for smoke, reliability, and regression testing
 
 <a id="repo-microsoft--markitdown"></a>
 
@@ -469,7 +703,7 @@ A Python document-to-Markdown converter for text-analysis and LLM workflows, wit
 - **Languages:** Python
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 167,293
+- **GitHub stars:** 197,762
 
 **Key features**
 
@@ -490,13 +724,13 @@ A Model Context Protocol server that lets LLM clients automate web pages through
 - **Languages:** TypeScript, JavaScript
 - **License:** Apache-2.0
 - **Lifecycle:** Active
-- **GitHub stars:** 35,268
+- **GitHub stars:** 39,994
 
 **Key features**
 
-  - Uses Playwright accessibility-tree snapshots as structured page input rather than pixel-based interaction
-  - Exposes browser automation to LLM clients through a standard MCP server
-  - Supports browser selection, device emulation, persistent or isolated profiles, and remote CDP endpoints
+  - Uses structured Playwright accessibility snapshots for browser interaction
+  - Exposes browser automation through MCP to compatible clients
+  - Supports device emulation, persistent or isolated profiles, and remote CDP connections
 
 <a id="repo-n8n-io--self-hosted-ai-starter-kit"></a>
 
@@ -511,7 +745,7 @@ Docker Compose template for a self-hosted n8n environment with Ollama, Qdrant, a
 - **Languages:** YAML
 - **License:** Apache-2.0
 - **Lifecycle:** Active
-- **GitHub stars:** 15,094
+- **GitHub stars:** 15,383
 
 **Key features**
 
@@ -532,7 +766,7 @@ Self-hosted, messaging-based AI assistant that routes each agent session through
 - **Languages:** TypeScript, JavaScript, Shell
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 30,288
+- **GitHub stars:** 31,139
 
 **Key features**
 
@@ -553,13 +787,34 @@ A self-improving, multi-provider AI agent with a terminal UI, messaging gateway,
 - **Languages:** Python, TypeScript, Rust
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 217,198
+- **GitHub stars:** 265,303
 
 **Key features**
 
   - Provides a streaming terminal UI with conversation history and slash commands
   - Runs one messaging gateway for Telegram, Discord, Slack, WhatsApp, Signal, Email, and CLI conversations
   - Creates and improves skills, retains memory, and searches past sessions with FTS5-based recall
+
+<a id="repo-openai--codex-security"></a>
+
+## [Codex Security](https://github.com/openai/codex-security)
+
+OpenAI’s defensive code-security tooling for scanning repositories, reviewing and tracking findings, and planning or verifying fixes through Codex, a CLI, and a TypeScript SDK.
+
+- **Category:** [Security and Privacy](../categories/security-and-privacy.md#repo-openai--codex-security)
+- **Topics:** [Security](../topics/security.md#repo-openai--codex-security) | [CLI](../topics/cli.md#repo-openai--codex-security) | [Code Review](../topics/code-review.md#repo-openai--codex-security) | [Codebase Search](../topics/codebase-search.md#repo-openai--codex-security) | [Automation](../topics/automation.md#repo-openai--codex-security) | [Multi Provider](../topics/multi-provider.md#repo-openai--codex-security) | [Parallel Agents](../topics/parallel-agents.md#repo-openai--codex-security) | [Containers](../topics/containers.md#repo-openai--codex-security) | [GitHub](../topics/github.md#repo-openai--codex-security)
+- **Kind:** CLI
+- **Best for:** Security and engineering teams scanning repositories they own or may assess; CI and bulk workflows that need resumable findings, coverage, and scan comparison
+- **Languages:** TypeScript, Python
+- **License:** Apache-2.0
+- **Lifecycle:** Active
+- **GitHub stars:** 14,266
+
+**Key features**
+
+  - Scans repositories, selected paths, or Git changes and consolidates duplicate findings
+  - Reviews findings, verifies fixes, and drafts repository security policies and reusable threat models
+  - Compares saved scans and exports findings as SARIF, JSON, or CSV
 
 <a id="repo-openai--symphony"></a>
 
@@ -574,7 +829,7 @@ An engineering-preview orchestration system and experimental Elixir reference im
 - **Languages:** Elixir
 - **License:** Apache-2.0
 - **Lifecycle:** Experimental
-- **GitHub stars:** 26,046
+- **GitHub stars:** 28,124
 
 **Key features**
 
@@ -595,7 +850,7 @@ An early command-line tool that maps a codebase into feature slices, reviews the
 - **Languages:** TypeScript
 - **License:** MIT
 - **Lifecycle:** Experimental
-- **GitHub stars:** 778
+- **GitHub stars:** 820
 
 **Key features**
 
@@ -616,7 +871,7 @@ A self-hosted, personal AI assistant with a local-first gateway that connects to
 - **Languages:** TypeScript, Kotlin, Python
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 383,479
+- **GitHub stars:** 395,024
 
 **Key features**
 
@@ -635,9 +890,9 @@ A self-hosted developer control center for starting coding-agent conversations a
 - **Kind:** Application
 - **Best for:** Engineering teams coordinating coding agents across local machines, containers, or virtual machines; Developers creating scheduled or event-driven automations that use compatible coding agents
 - **Languages:** Python, TypeScript
-- **License:** Mixed licensing
+- **License:** MIT
 - **Lifecycle:** Experimental
-- **GitHub stars:** 81,305
+- **GitHub stars:** 94,026
 
 **Key features**
 
@@ -658,13 +913,34 @@ A hosted developer integration platform for building event-driven workflows with
 - **Languages:** JavaScript, TypeScript, Python, Go, Bash
 - **License:** Pipedream Source Available License Version 1.0
 - **Lifecycle:** Active
-- **GitHub stars:** 11,556
+- **GitHub stars:** 11,796
 
 **Key features**
 
   - Event-triggered workflows composed from pre-built actions or custom code steps
   - Event sources that emit data from connected third-party services and can trigger workflows
   - Reusable actions for API integrations, including community-publishable custom actions
+
+<a id="repo-primeintellect-ai--prime-agent"></a>
+
+## [PRIME Agent](https://github.com/PrimeIntellect-ai/prime-agent)
+
+A coding and research agent for long-running work that combines recursive subagents, a persistent Python environment, durable memory and skills, and background autonomy.
+
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-primeintellect-ai--prime-agent)
+- **Topics:** [Coding Agents](../topics/coding-agents.md#repo-primeintellect-ai--prime-agent) | [Agent Harnesses](../topics/agent-harnesses.md#repo-primeintellect-ai--prime-agent) | [Agent Orchestration](../topics/agent-orchestration.md#repo-primeintellect-ai--prime-agent) | [Multi Agent](../topics/multi-agent.md#repo-primeintellect-ai--prime-agent) | [Agent Memory](../topics/agent-memory.md#repo-primeintellect-ai--prime-agent) | [Agent Skills](../topics/agent-skills.md#repo-primeintellect-ai--prime-agent) | [Context Engineering](../topics/context-engineering.md#repo-primeintellect-ai--prime-agent) | [Terminal](../topics/terminal.md#repo-primeintellect-ai--prime-agent) | [Automation](../topics/automation.md#repo-primeintellect-ai--prime-agent)
+- **Kind:** Application
+- **Best for:** Developers running long-horizon coding or research tasks from the terminal; Users who want an agent to refine reusable prompts, memories, skills, and subagent specifications
+- **Languages:** TypeScript, Python
+- **License:** MIT
+- **Lifecycle:** Active
+- **GitHub stars:** 22,878
+
+**Key features**
+
+  - Uses recursive language-model calls and a persistent IPython environment
+  - Stores durable prompts, memories, skills, and subagent specifications
+  - Runs through a background daemon with attach, resume, messaging, goals, and schedules
 
 <a id="repo-psmux--psmux"></a>
 
@@ -679,7 +955,7 @@ A native Rust terminal multiplexer for Windows that uses ConPTY directly, implem
 - **Languages:** Rust
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 2,994
+- **GitHub stars:** 3,893
 
 **Key features**
 
@@ -687,26 +963,47 @@ A native Rust terminal multiplexer for Windows that uses ConPTY directly, implem
   - Reads tmux configuration and supports themes, mouse input, layouts, and copy mode
   - Persists sessions across terminal crashes and SSH disconnects
 
+<a id="repo-shopify--roast"></a>
+
+## [roast](https://github.com/Shopify/roast)
+
+A Ruby DSL for composing structured AI workflows from reusable chat, coding-agent, Ruby, and command steps with explicit control flow.
+
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-shopify--roast)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-shopify--roast) | [Coding Agents](../topics/coding-agents.md#repo-shopify--roast) | [Agent Orchestration](../topics/agent-orchestration.md#repo-shopify--roast) | [LLMs](../topics/llms.md#repo-shopify--roast) | [Multi Provider](../topics/multi-provider.md#repo-shopify--roast) | [Automation](../topics/automation.md#repo-shopify--roast) | [CLI](../topics/cli.md#repo-shopify--roast)
+- **Kind:** Framework
+- **Best for:** Ruby developers automating multi-step AI workflows
+- **Languages:** Ruby
+- **License:** MIT
+- **Lifecycle:** Active
+- **GitHub stars:** 1,258
+
+**Key features**
+
+  - Chain chat, agent, Ruby and command steps
+  - Map collections serially or in parallel
+  - Conditional execution, iteration and reusable scopes
+
 <a id="repo-significant-gravitas--autogpt"></a>
 
 ## [AutoGPT](https://github.com/Significant-Gravitas/AutoGPT)
 
-An AI-agent platform and monorepo for describing, visually assembling, deploying, and running workflow agents on demand, on schedules, or from triggers, with both a managed web platform and a self-hosted deployment.
+An AI-agent platform for briefing specialist agents in conversation, delegating work through a coordinator, and building recurring workflows. It offers paid hosting and Docker-based self-hosting.
 
 - **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-significant-gravitas--autogpt)
-- **Topics:** [AI Agents](../topics/ai-agents.md#repo-significant-gravitas--autogpt) | [Agent Frameworks](../topics/agent-frameworks.md#repo-significant-gravitas--autogpt) | [Agent Orchestration](../topics/agent-orchestration.md#repo-significant-gravitas--autogpt) | [Agent Skills](../topics/agent-skills.md#repo-significant-gravitas--autogpt) | [Automation](../topics/automation.md#repo-significant-gravitas--autogpt) | [Self Hosted](../topics/self-hosted.md#repo-significant-gravitas--autogpt) | [Web UI](../topics/web-ui.md#repo-significant-gravitas--autogpt) | [Multi Provider](../topics/multi-provider.md#repo-significant-gravitas--autogpt)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-significant-gravitas--autogpt) | [Agent Frameworks](../topics/agent-frameworks.md#repo-significant-gravitas--autogpt) | [Agent Orchestration](../topics/agent-orchestration.md#repo-significant-gravitas--autogpt) | [Agent Skills](../topics/agent-skills.md#repo-significant-gravitas--autogpt) | [Automation](../topics/automation.md#repo-significant-gravitas--autogpt) | [Self Hosted](../topics/self-hosted.md#repo-significant-gravitas--autogpt) | [Web UI](../topics/web-ui.md#repo-significant-gravitas--autogpt) | [Multi Provider](../topics/multi-provider.md#repo-significant-gravitas--autogpt) | [MCP](../topics/mcp.md#repo-significant-gravitas--autogpt)
 - **Kind:** Monorepo
-- **Best for:** Teams assembling workflow agents visually or from natural-language job descriptions; Organizations choosing between a managed agent platform and self-hosting on their infrastructure
+- **Best for:** Teams delegating recurring work to configurable specialist agents; Builders defining repeatable tasks with connected applications and a visual workflow editor
 - **Languages:** Python, TypeScript
 - **License:** PolyForm Shield License 1.0.0 and MIT License
 - **Lifecycle:** Active
-- **GitHub stars:** 185,615
+- **GitHub stars:** 188,130
 
 **Key features**
 
-  - Visual Build canvas for connecting, branching, and inspecting agent-workflow blocks
-  - AutoPilot surface that turns a plain-English job description into an agent
-  - Agent dashboard for runs, costs, statuses, and actions requiring attention
+  - Otto routes a brief to specialist agents and brings their work back
+  - Specialists can be customized with instructions, skills, context, and connected apps
+  - Routines enable recurring work; account access and spending controls can be configured
 
 <a id="repo-sipeed--picoclaw"></a>
 
@@ -721,7 +1018,7 @@ A Go-based AI-agent application distributed as a small cross-architecture binary
 - **Languages:** Go, TypeScript
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 29,690
+- **GitHub stars:** 30,148
 
 **Key features**
 
@@ -742,13 +1039,55 @@ A TypeScript CLI and package that uses Google Gemini models to analyze meeting a
 - **Languages:** TypeScript
 - **License:** Apache-2.0
 - **Lifecycle:** Unknown
-- **GitHub stars:** 567
+- **GitHub stars:** 568
 
 **Key features**
 
   - Transcribes audio or video while attempting speaker diarization
   - Extracts video screenshots for visual meeting analysis
   - Generates Markdown transcripts and optional structured meeting reports
+
+<a id="repo-spacering-net--codeg"></a>
+
+## [codeg](https://github.com/spacering-net/codeg)
+
+A local-first multi-agent coding workspace that aggregates sessions from many coding-agent CLIs and adds collaboration, Git worktrees, MCP and skill management, automation, and desktop, browser-server, or Docker deployment.
+
+- **Category:** [Developer Tools](../categories/developer-tools.md#repo-spacering-net--codeg)
+- **Topics:** [Coding Agents](../topics/coding-agents.md#repo-spacering-net--codeg) | [Agent Development Environments](../topics/agent-development-environments.md#repo-spacering-net--codeg) | [Multi Agent](../topics/multi-agent.md#repo-spacering-net--codeg) | [Desktop App](../topics/desktop-app.md#repo-spacering-net--codeg) | [Git](../topics/git.md#repo-spacering-net--codeg) | [Worktrees](../topics/worktrees.md#repo-spacering-net--codeg) | [MCP](../topics/mcp.md#repo-spacering-net--codeg) | [Agent Skills](../topics/agent-skills.md#repo-spacering-net--codeg) | [Automation](../topics/automation.md#repo-spacering-net--codeg) | [Web UI](../topics/web-ui.md#repo-spacering-net--codeg) | [Self Hosted](../topics/self-hosted.md#repo-spacering-net--codeg) | [Local First](../topics/local-first.md#repo-spacering-net--codeg)
+- **Kind:** Application
+- **Best for:** Developers coordinating sessions from several local coding agents in one workspace; Teams that need a self-hosted browser workspace or desktop interface for agent-assisted Git work
+- **Languages:** TypeScript, Rust
+- **License:** Apache-2.0
+- **Lifecycle:** Active
+- **GitHub stars:** 4,566
+
+**Key features**
+
+  - Imports existing agent sessions and supports multiple built-in agents plus Agent Client Protocol integrations
+  - Multi-agent delegation through the bundled codeg-mcp companion
+  - Parallel development with built-in Git worktree flows
+
+<a id="repo-staltz--fabrica"></a>
+
+## [Fabrica](https://github.com/staltz/fabrica)
+
+A software factory framework for versioning and deploying reusable coding-agent skills, rules, and routines across repositories and supported tools.
+
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-staltz--fabrica)
+- **Topics:** [Coding Agents](../topics/coding-agents.md#repo-staltz--fabrica) | [Agent Skills](../topics/agent-skills.md#repo-staltz--fabrica) | [Agent Governance](../topics/agent-governance.md#repo-staltz--fabrica) | [MCP](../topics/mcp.md#repo-staltz--fabrica) | [Automation](../topics/automation.md#repo-staltz--fabrica) | [Observability](../topics/observability.md#repo-staltz--fabrica) | [CLI](../topics/cli.md#repo-staltz--fabrica)
+- **Kind:** Framework
+- **Best for:** Teams sharing coding-agent workflows across projects and tools
+- **Languages:** Go
+- **License:** MIT
+- **Lifecycle:** Active
+- **GitHub stars:** 32
+
+**Key features**
+
+  - Composable Git-backed blueprints separate process from product repositories
+  - Plan and apply factory configurations to supported agent runtimes
+  - Serves current blueprint instructions over MCP
 
 <a id="repo-thlorenz--doctoc"></a>
 
@@ -763,7 +1102,7 @@ A Node.js command-line tool that inserts or updates tables of contents in Markdo
 - **Languages:** JavaScript
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 4,456
+- **GitHub stars:** 4,476
 
 **Key features**
 
@@ -775,7 +1114,7 @@ A Node.js command-line tool that inserts or updates tables of contents in Markdo
 
 ## [OpenHuman](https://github.com/tinyhumansai/openhuman)
 
-A local-first desktop personal-AI application combining persistent memory, agent orchestration, visual workflows, research tools, and integrations.
+An early-beta agent harness for desktop, terminal, headless, and embedded Rust use, with persistent memory, workflow graphs, tools, and integrations.
 
 - **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-tinyhumansai--openhuman)
 - **Topics:** [AI Agents](../topics/ai-agents.md#repo-tinyhumansai--openhuman) | [Agent Harnesses](../topics/agent-harnesses.md#repo-tinyhumansai--openhuman) | [Agent Memory](../topics/agent-memory.md#repo-tinyhumansai--openhuman) | [Agent Orchestration](../topics/agent-orchestration.md#repo-tinyhumansai--openhuman) | [Multi Agent](../topics/multi-agent.md#repo-tinyhumansai--openhuman) | [LLMs](../topics/llms.md#repo-tinyhumansai--openhuman) | [MCP](../topics/mcp.md#repo-tinyhumansai--openhuman) | [Local First](../topics/local-first.md#repo-tinyhumansai--openhuman) | [Desktop App](../topics/desktop-app.md#repo-tinyhumansai--openhuman) | [Web UI](../topics/web-ui.md#repo-tinyhumansai--openhuman) | [Automation](../topics/automation.md#repo-tinyhumansai--openhuman)
@@ -784,34 +1123,55 @@ A local-first desktop personal-AI application combining persistent memory, agent
 - **Languages:** Rust, TypeScript, JavaScript
 - **License:** GPL-3.0
 - **Lifecycle:** Experimental
-- **GitHub stars:** 35,093
+- **GitHub stars:** 42,805
 
 **Key features**
 
-  - Builds local Memory Trees and an editable Obsidian-compatible Markdown vault
-  - Runs checkpointed agent graphs, sub-agent fleets, and replayable run journals
-  - Creates visual, trigger-driven workflows with approval gates for side effects
+  - Recalls relevant context from files, repositories, feeds, and apps through a configurable memory engine
+  - Runs checkpointed agent workflows and provides a Rust API for embedding agents
+  - Runs durable workflow graphs with cron, event, or manual triggers and approval steps
+
+<a id="repo-triggerdotdev--trigger.dev"></a>
+
+## [Trigger.dev](https://github.com/triggerdotdev/trigger.dev)
+
+An open-source durable execution platform for TypeScript AI agents and workflows, available as a managed cloud service or a self-hosted deployment.
+
+- **Category:** [DevOps and Cloud](../categories/devops-and-cloud.md#repo-triggerdotdev--trigger.dev)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-triggerdotdev--trigger.dev) | [Automation](../topics/automation.md#repo-triggerdotdev--trigger.dev) | [Deployment](../topics/deployment.md#repo-triggerdotdev--trigger.dev) | [Cloud](../topics/cloud.md#repo-triggerdotdev--trigger.dev) | [Self Hosted](../topics/self-hosted.md#repo-triggerdotdev--trigger.dev) | [Observability](../topics/observability.md#repo-triggerdotdev--trigger.dev) | [Tracing](../topics/tracing.md#repo-triggerdotdev--trigger.dev) | [Realtime](../topics/realtime.md#repo-triggerdotdev--trigger.dev) | [API Development](../topics/api-development.md#repo-triggerdotdev--trigger.dev)
+- **Kind:** Service
+- **Best for:** Teams building long-running TypeScript jobs, agents, and background workflows; Applications that need retries, queues, waits, streaming, schedules, and operational visibility
+- **Languages:** TypeScript
+- **License:** Apache-2.0
+- **Lifecycle:** Active
+- **GitHub stars:** 16,802
+
+**Key features**
+
+  - Runs long-lived tasks with durability, retries, queues, concurrency, and idempotency
+  - Supports human-in-the-loop waits, schedules, realtime updates, and streaming
+  - Provides logs, tracing, observability, environments, and deployment tooling
 
 <a id="repo-trycua--cua"></a>
 
 ## [Cua](https://github.com/trycua/cua)
 
-A computer-use monorepo for building and evaluating agents through cross-platform desktop drivers, OS sandboxes, virtual-machine tooling, and benchmarks or reinforcement-learning environments.
+A computer-use monorepo for building and evaluating agents through Cua Spaces for shared desktops, cross-platform desktop drivers, virtual machines, and benchmarks for computer-use agents.
 
 - **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-trycua--cua)
 - **Topics:** [AI Agents](../topics/ai-agents.md#repo-trycua--cua) | [Computer Use](../topics/computer-use.md#repo-trycua--cua) | [Sandboxing](../topics/sandboxing.md#repo-trycua--cua) | [Remote Control](../topics/remote-control.md#repo-trycua--cua) | [Automation](../topics/automation.md#repo-trycua--cua) | [CLI](../topics/cli.md#repo-trycua--cua) | [MCP](../topics/mcp.md#repo-trycua--cua) | [Containers](../topics/containers.md#repo-trycua--cua) | [Testing](../topics/testing.md#repo-trycua--cua) | [Open Source](../topics/open-source.md#repo-trycua--cua)
 - **Kind:** Monorepo
 - **Best for:** Building agents that operate desktop, mobile, container, or VM interfaces; Evaluating or training computer-use agents in reproducible environments
 - **Languages:** Python, Rust, Go, TypeScript
-- **License:** MIT
+- **License:** Mixed MIT and FSL-1.1-MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 20,200
+- **GitHub stars:** 32,769
 
 **Key features**
 
+  - Provides Cua Spaces for shared desktop environments across owned computers
   - Drives native desktop applications in the background on macOS, Windows, and Linux
   - Provides one sandbox API for Linux, macOS, Windows, Android, and local or cloud runtimes
-  - Supplies Cua-Bench environments and trajectory export for evaluation and training
 
 <a id="repo-ucbepic--docetl"></a>
 
@@ -826,13 +1186,34 @@ A Python framework for declarative LLM-powered processing of structured and unst
 - **Languages:** Python, TypeScript
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 3,897
+- **GitHub stars:** 4,266
 
 **Key features**
 
   - Provides map, reduce, filter, resolve, split, gather, cluster, and other data operators
   - Defines pipelines through a Python API or low-code YAML configuration
   - Parallelizes work and reports model-call costs while producing tabular results
+
+<a id="repo-vercel-labs--native"></a>
+
+## [Native SDK](https://github.com/vercel-labs/native)
+
+A declarative toolkit for compiling TypeScript-authored desktop interfaces to native executables, with optional embedded web content.
+
+- **Category:** [Application Frameworks](../categories/application-frameworks.md#repo-vercel-labs--native)
+- **Topics:** [Desktop Development](../topics/desktop-development.md#repo-vercel-labs--native) | [UI Components](../topics/ui-components.md#repo-vercel-labs--native) | [Design Systems](../topics/design-systems.md#repo-vercel-labs--native) | [Testing](../topics/testing.md#repo-vercel-labs--native) | [Agent Skills](../topics/agent-skills.md#repo-vercel-labs--native) | [Automation](../topics/automation.md#repo-vercel-labs--native) | [Developer Productivity](../topics/developer-productivity.md#repo-vercel-labs--native)
+- **Kind:** Framework
+- **Best for:** Developers building lightweight native desktop applications from TypeScript; Agent-driven UI workflows that benefit from deterministic record and replay
+- **Languages:** Zig, TypeScript
+- **License:** Apache-2.0
+- **Lifecycle:** Experimental
+- **GitHub stars:** 7,852
+
+**Key features**
+
+  - Compiles declarative .native markup and TypeScript logic to native binaries
+  - Provides components, design tokens, state architecture, and a development CLI
+  - Provides testing and automation interfaces for inspecting and driving apps
 
 <a id="repo-voltagent--voltagent"></a>
 
@@ -847,34 +1228,13 @@ A TypeScript agent framework for building agents, multi-step workflows, tools, m
 - **Languages:** TypeScript
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 10,096
+- **GitHub stars:** 11,000
 
 **Key features**
 
   - Defines typed agents with roles, tools, memory, model providers, and server integration through @voltagent/core
   - Builds declarative multi-step workflows, including supervisor-managed teams of specialized sub-agents
   - Connects Zod-typed tools and Model Context Protocol servers with lifecycle hooks and cancellation
-
-<a id="repo-xintaofei--codeg"></a>
-
-## [codeg](https://github.com/xintaofei/codeg)
-
-A local-first multi-agent coding workspace that aggregates sessions from many coding-agent CLIs and adds collaboration, Git worktrees, MCP and skill management, automation, and desktop, browser-server, or Docker deployment.
-
-- **Category:** [Developer Tools](../categories/developer-tools.md#repo-xintaofei--codeg)
-- **Topics:** [Coding Agents](../topics/coding-agents.md#repo-xintaofei--codeg) | [Agent Development Environments](../topics/agent-development-environments.md#repo-xintaofei--codeg) | [Multi Agent](../topics/multi-agent.md#repo-xintaofei--codeg) | [Desktop App](../topics/desktop-app.md#repo-xintaofei--codeg) | [Git](../topics/git.md#repo-xintaofei--codeg) | [Worktrees](../topics/worktrees.md#repo-xintaofei--codeg) | [MCP](../topics/mcp.md#repo-xintaofei--codeg) | [Agent Skills](../topics/agent-skills.md#repo-xintaofei--codeg) | [Automation](../topics/automation.md#repo-xintaofei--codeg) | [Web UI](../topics/web-ui.md#repo-xintaofei--codeg) | [Self Hosted](../topics/self-hosted.md#repo-xintaofei--codeg) | [Local First](../topics/local-first.md#repo-xintaofei--codeg)
-- **Kind:** Application
-- **Best for:** Developers coordinating sessions from several local coding agents in one workspace; Teams that need a self-hosted browser workspace or desktop interface for agent-assisted Git work
-- **Languages:** TypeScript, Rust
-- **License:** Apache-2.0
-- **Lifecycle:** Active
-- **GitHub stars:** 2,223
-
-**Key features**
-
-  - Imports and aggregates conversation sessions from twelve supported coding agents
-  - Multi-agent delegation through the bundled codeg-mcp companion
-  - Parallel development with built-in Git worktree flows
 
 <a id="repo-zeroclaw-labs--zeroclaw"></a>
 
@@ -889,7 +1249,7 @@ A self-hosted Rust agent runtime for operating a personal AI assistant through c
 - **Languages:** Rust, TypeScript
 - **License:** MIT OR Apache-2.0
 - **Lifecycle:** Active
-- **GitHub stars:** 32,316
+- **GitHub stars:** 33,564
 
 **Key features**
 
@@ -910,7 +1270,7 @@ A self-hostable LLM document-processing platform that turns documents into struc
 - **Languages:** Python, TypeScript
 - **License:** AGPL-3.0-only
 - **Lifecycle:** Active
-- **GitHub stars:** 6,708
+- **GitHub stars:** 7,463
 
 **Key features**
 

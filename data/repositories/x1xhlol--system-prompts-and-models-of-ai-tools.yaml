@@ -12,15 +12,19 @@ analysis:
       - "improve-developer-workflow"
       - "learn-and-reference"
   evidence:
-    - claim: "The repository's maintained GitHub metadata describes a collection of AI-tool system prompts, internal tools, and model information covering multiple coding and assistant products."
+    - claim: "The repository's maintained GitHub metadata describes a collection of
+        AI-tool system prompts, internal tools, and model information covering
+        multiple coding and assistant products."
       source_type: "github-metadata"
       url: "https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools"
       checked_at: "2026-07-19"
       confidence: "high"
   state: "complete"
   summary:
-    one_line: "A reference collection of system prompts, internal-tool descriptions, and model information from AI tools."
-    why_useful: "It helps developers inspect and compare the instructional and tool-design patterns used by AI products."
+    one_line: "A reference collection of system prompts, internal-tool descriptions,
+      and model information from AI tools."
+    why_useful: "It helps developers inspect and compare the instructional and
+      tool-design patterns used by AI products."
 curation:
   confidence: null
   evidence: []
@@ -34,48 +38,52 @@ id: "github:x1xhlol/system-prompts-and-models-of-ai-tools"
 import:
   github_snapshot:
     archived: false
-    created_at: "2025-03-05T16:38:29Z"
-    default_branch: "main"
-    description: "FULL Augment Code, Claude Code, Cluely, CodeBuddy, Comet, Cursor, Devin AI, Junie, Kiro, Leap.new, Lovable, Manus, NotionAI, Orchids.app, Perplexity, Poke, Qoder, Replit, Same.dev, Trae, Traycer AI, VSCode Agent, Warp.dev, Windsurf, Xcode, Z.ai Code, Dia & v0. (And other Open Sourced) System Prompts, Internal Tools & AI Models"
+    created_at: 2025-03-05T16:38:29Z
+    default_branch: main
+    description: FULL Augment Code, Claude Code, Cluely, CodeBuddy, Comet, Cursor,
+      Devin AI, Junie, Kiro, Leap.new, Lovable, Manus, NotionAI, Orchids.app,
+      Perplexity, Poke, Qoder, Replit, Same.dev, Trae, Traycer AI, VSCode Agent,
+      Warp.dev, Windsurf, Xcode, Z.ai Code, Dia & v0. (And other Open Sourced)
+      System Prompts, Internal Tools & AI Models
     disabled: false
-    fetched_at: "2026-07-19T19:16:14.796Z"
+    fetched_at: 2026-11-22T12:07:00.148Z
     fork: false
-    forks: 34818
+    forks: 34647
     homepage: ""
     latest_release: null
-    license_spdx: "GPL-3.0"
-    open_issues: 157
+    license_spdx: GPL-3.0
+    open_issues: 161
     primary_language: null
-    pushed_at: "2026-07-12T15:42:00Z"
-    stars: 142077
+    pushed_at: 2026-10-12T15:19:01Z
+    stars: 144810
     topics:
-      - "ai"
-      - "bolt"
-      - "cluely"
-      - "copilot"
-      - "cursor"
-      - "cursorai"
-      - "devin"
-      - "github-copilot"
-      - "lovable"
-      - "open-source"
-      - "perplexity"
-      - "replit"
-      - "system-prompts"
-      - "trae"
-      - "trae-ai"
-      - "trae-ide"
-      - "v0"
-      - "vscode"
-      - "windsurf"
-      - "windsurf-ai"
-    updated_at: "2026-07-19T18:40:19Z"
+      - ai
+      - bolt
+      - cluely
+      - copilot
+      - cursor
+      - cursorai
+      - devin
+      - github-copilot
+      - lovable
+      - open-source
+      - perplexity
+      - replit
+      - system-prompts
+      - trae
+      - trae-ai
+      - trae-ide
+      - v0
+      - vscode
+      - windsurf
+      - windsurf-ai
+    updated_at: 2026-11-22T11:23:00Z
   sources:
-    - observed_at: "2025-03-15T20:44:49Z"
-      relation: "starred"
-      source_id: "github:user:tomseai:stars"
-      source_url: "https://github.com/tomseai?tab=stars"
-  state: "imported"
+    - observed_at: 2025-03-15T20:44:49Z
+      relation: starred
+      source_id: github:user:tomseai:stars
+      source_url: https://github.com/tomseai?tab=stars
+  state: refreshed
 repository:
   aliases: []
   github_node_id: "R_kgDOODsgVw"

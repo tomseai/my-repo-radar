@@ -22,7 +22,7 @@ A web application for exploring GitHub repositories through dependency graphs, c
 - **Languages:** TypeScript, Python
 - **License:** Component-specific AGPL-3.0 and Apache-2.0/MIT declarations
 - **Lifecycle:** Active
-- **GitHub stars:** 451
+- **GitHub stars:** 466
 
 **Key features**
 
@@ -34,22 +34,22 @@ A web application for exploring GitHub repositories through dependency graphs, c
 
 ## [oh-my-openagent](https://github.com/code-yeongyu/oh-my-openagent)
 
-An extension suite for OpenCode and Codex CLI that supplies agent workflow, tool, rule, and skill components in two differently scoped editions.
+A coding-agent CLI built on the senpi fork of Pi that combines persistent Markdown memory, model routing, and project workflows. The repository also contains OpenCode and Codex components.
 
 - **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-code-yeongyu--oh-my-openagent)
 - **Topics:** [AI Agents](../topics/ai-agents.md#repo-code-yeongyu--oh-my-openagent) | [Coding Agents](../topics/coding-agents.md#repo-code-yeongyu--oh-my-openagent) | [Agent Harnesses](../topics/agent-harnesses.md#repo-code-yeongyu--oh-my-openagent) | [Agent Orchestration](../topics/agent-orchestration.md#repo-code-yeongyu--oh-my-openagent) | [Agent Skills](../topics/agent-skills.md#repo-code-yeongyu--oh-my-openagent) | [CLI](../topics/cli.md#repo-code-yeongyu--oh-my-openagent) | [MCP](../topics/mcp.md#repo-code-yeongyu--oh-my-openagent) | [Codebase Search](../topics/codebase-search.md#repo-code-yeongyu--oh-my-openagent) | [Codebase Indexing](../topics/codebase-indexing.md#repo-code-yeongyu--oh-my-openagent)
-- **Kind:** Plugin
-- **Best for:** OpenCode users who want an integrated coding-agent harness with team-mode tooling; Codex CLI users who want the documented portable rules, LSP, MCP, and workflow components
+- **Kind:** CLI
+- **Best for:** Developers who want a terminal agent with persistent project memory and multiple model providers; Users migrating settings from the earlier OpenCode or LazyCodex editions
 - **Languages:** TypeScript
 - **License:** SUL-1.0
 - **Lifecycle:** Active
-- **GitHub stars:** 66,168
+- **GitHub stars:** 71,053
 
 **Key features**
 
-  - The OpenCode Ultimate edition includes 11 agents, lifecycle hooks, built-in MCPs, slash commands, and opt-in Team Mode
-  - The Codex CLI Light edition provides rules, comment checking, Git Bash, LSP, ultrawork, continuation, telemetry, and plugin-scoped MCP components
-  - Team Mode lets a lead coordinate up to eight parallel members through dedicated team tools and a tmux view
+  - Runs coding tasks through an interactive CLI powered by senpi
+  - Keeps agent memory as Markdown in a Git repository and uses a secondary model to retrieve relevant context
+  - Offers configurable model providers, sign-in, and reasoning levels
 
 <a id="repo-deusdata--codebase-memory-mcp"></a>
 
@@ -64,7 +64,7 @@ A local MCP code-intelligence server and CLI that indexes repositories into pers
 - **Languages:** C, TypeScript
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 32,935
+- **GitHub stars:** 49,018
 
 **Key features**
 
@@ -83,9 +83,9 @@ A Python CLI and coding-assistant skill that maps code and selected project mate
 - **Kind:** CLI
 - **Best for:** Developers orienting coding agents in a medium or large codebase; Teams that need code, schema, and supporting-document relationships in one graph
 - **Languages:** Python
-- **License:** MIT
+- **License:** Apache-2.0
 - **Lifecycle:** Active
-- **GitHub stars:** 91,491
+- **GitHub stars:** 151,789
 
 **Key features**
 
@@ -106,7 +106,7 @@ An open-source AI-memory platform that ingests data into a self-hosted knowledge
 - **Languages:** Python, TypeScript
 - **License:** Apache-2.0
 - **Lifecycle:** Active
-- **GitHub stars:** 28,454
+- **GitHub stars:** 33,457
 
 **Key features**
 

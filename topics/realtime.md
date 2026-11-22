@@ -2,12 +2,14 @@
 
 # Realtime
 
-[Back to the main catalog](../README.md) | **4 repositories**
+[Back to the main catalog](../README.md) | **10 repositories**
 
 ## Primary categories represented
 
-- [AI and Automation](../categories/ai-and-automation.md) (2)
+- [AI and Automation](../categories/ai-and-automation.md) (3)
+- [Collaboration and Productivity](../categories/collaboration-and-productivity.md) (4)
 - [Data and Databases](../categories/data-and-databases.md) (1)
+- [DevOps and Cloud](../categories/devops-and-cloud.md) (1)
 - [Platforms and Applications](../categories/platforms-and-applications.md) (1)
 
 <a id="repo-ag-ui-protocol--ag-ui"></a>
@@ -23,7 +25,7 @@ An open event-based protocol and reference implementation for connecting AI-agen
 - **Languages:** TypeScript, Python
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 14,808
+- **GitHub stars:** 21,096
 
 **Key features**
 
@@ -31,26 +33,110 @@ An open event-based protocol and reference implementation for connecting AI-agen
   - Streaming chat, bidirectional state synchronization, and context enrichment
   - Generative UI, structured messages, frontend tools, and human-in-the-loop flows
 
-<a id="repo-get-convex--convex-backend"></a>
+<a id="repo-convex--convex-backend"></a>
 
-## [Convex](https://github.com/get-convex/convex-backend)
+## [Convex](https://github.com/convex/convex-backend)
 
 A reactive database and application backend that combines strongly consistent TypeScript server functions with client libraries for dynamic, live-updating applications.
 
-- **Category:** [Data and Databases](../categories/data-and-databases.md#repo-get-convex--convex-backend)
-- **Topics:** [Databases](../topics/databases.md#repo-get-convex--convex-backend) | [Backend Development](../topics/backend-development.md#repo-get-convex--convex-backend) | [Realtime](../topics/realtime.md#repo-get-convex--convex-backend) | [Self Hosted](../topics/self-hosted.md#repo-get-convex--convex-backend) | [Open Source](../topics/open-source.md#repo-get-convex--convex-backend) | [Deployment](../topics/deployment.md#repo-get-convex--convex-backend)
+- **Category:** [Data and Databases](../categories/data-and-databases.md#repo-convex--convex-backend)
+- **Topics:** [Databases](../topics/databases.md#repo-convex--convex-backend) | [Backend Development](../topics/backend-development.md#repo-convex--convex-backend) | [Realtime](../topics/realtime.md#repo-convex--convex-backend) | [Self Hosted](../topics/self-hosted.md#repo-convex--convex-backend) | [Open Source](../topics/open-source.md#repo-convex--convex-backend) | [Deployment](../topics/deployment.md#repo-convex--convex-backend)
 - **Kind:** Service
 - **Best for:** Teams building a reactive web application with TypeScript server logic; Operators who need an available self-hosted Convex backend
 - **Languages:** Rust, TypeScript
 - **License:** FSL-1.1-Apache-2.0
 - **Lifecycle:** Active
-- **GitHub stars:** 12,203
+- **GitHub stars:** 12,808
 
 **Key features**
 
   - Strongly consistent database operations written as TypeScript server functions
   - Client libraries for dynamic live-updating applications
   - Self-hosted dashboard and CLI alongside the backend
+
+<a id="repo-ether--etherpad"></a>
+
+## [Etherpad](https://github.com/ether/etherpad)
+
+A self-hosted realtime collaborative text editor with authorship tracking, revision history, plugins, localization, and optional AI assistance.
+
+- **Category:** [Collaboration and Productivity](../categories/collaboration-and-productivity.md#repo-ether--etherpad)
+- **Topics:** [Realtime Collaboration](../topics/realtime-collaboration.md#repo-ether--etherpad) | [Realtime](../topics/realtime.md#repo-ether--etherpad) | [Self Hosted](../topics/self-hosted.md#repo-ether--etherpad) | [Web UI](../topics/web-ui.md#repo-ether--etherpad) | [Document Processing](../topics/document-processing.md#repo-ether--etherpad) | [Open Source](../topics/open-source.md#repo-ether--etherpad)
+- **Kind:** Application
+- **Best for:** Teams and communities that need a controllable collaborative document editor; Organizations that prefer self-hosting and no mandatory telemetry
+- **Languages:** TypeScript
+- **License:** Apache-2.0
+- **Lifecycle:** Active
+- **GitHub stars:** 18,628
+
+**Key features**
+
+  - Supports simultaneous editing with authorship colors and shared presence
+  - Retains complete revision history with a visual timeslider
+  - Extends through plugins and supports more than one hundred languages
+
+<a id="repo-liveblocks--liveblocks"></a>
+
+## [Liveblocks](https://github.com/liveblocks/liveblocks)
+
+A collaboration SDK and hosted infrastructure for adding realtime synchronization, contextual comments, and notifications to web applications.
+
+- **Category:** [Collaboration and Productivity](../categories/collaboration-and-productivity.md#repo-liveblocks--liveblocks)
+- **Topics:** [Realtime Collaboration](../topics/realtime-collaboration.md#repo-liveblocks--liveblocks) | [Realtime](../topics/realtime.md#repo-liveblocks--liveblocks) | [AI Agents](../topics/ai-agents.md#repo-liveblocks--liveblocks) | [Frontend Development](../topics/frontend-development.md#repo-liveblocks--liveblocks) | [UI Components](../topics/ui-components.md#repo-liveblocks--liveblocks) | [Libraries](../topics/libraries.md#repo-liveblocks--liveblocks)
+- **Kind:** Monorepo
+- **Best for:** Product teams adding realtime collaboration without building synchronization infrastructure; React and JavaScript teams building collaborative editors and shared workspaces
+- **Languages:** TypeScript, Python
+- **License:** Mixed Apache-2.0 and AGPL-3.0-or-later licensing
+- **Lifecycle:** Active
+- **GitHub stars:** 4,773
+
+**Key features**
+
+  - Provides Sync, Comments, and Notifications products for composing collaboration features
+  - Supplies React, JavaScript, Node, REST, Python, and Yjs integrations, plus packages for React Flow, CodeMirror, and ProseMirror
+  - Includes collaborative UI components and presence, storage, and room primitives
+
+<a id="repo-mapletechlabs--hazel"></a>
+
+## [Hazel Chat](https://github.com/MapleTechLabs/hazel)
+
+A team chat application with channels and direct messages, a Foldkit web interface, and real-time synchronization from Cloudflare Durable Objects into TanStack DB.
+
+- **Category:** [Collaboration and Productivity](../categories/collaboration-and-productivity.md#repo-mapletechlabs--hazel)
+- **Topics:** [Chat UI](../topics/chat-ui.md#repo-mapletechlabs--hazel) | [Realtime Collaboration](../topics/realtime-collaboration.md#repo-mapletechlabs--hazel) | [Local First](../topics/local-first.md#repo-mapletechlabs--hazel) | [Realtime](../topics/realtime.md#repo-mapletechlabs--hazel) | [Web UI](../topics/web-ui.md#repo-mapletechlabs--hazel) | [Desktop App](../topics/desktop-app.md#repo-mapletechlabs--hazel)
+- **Kind:** Application
+- **Best for:** Teams looking for an inspectable, real-time team chat application; Developers studying an Effect and Cloudflare Durable Objects application
+- **Languages:** TypeScript
+- **License:** FSL-1.1-ALv2
+- **Lifecycle:** Active
+- **GitHub stars:** 741
+
+**Key features**
+
+  - Real-time channels and direct messages with presence and typing indicators
+  - Emoji reactions, pinned messages, file attachments, and notifications
+  - Type-safe Effect RPC for client-server communication
+
+<a id="repo-neondatabase--electric"></a>
+
+## [Electric](https://github.com/neondatabase/electric)
+
+A monorepo for an agent platform built on Electric's Postgres read-path sync engine, combining agent runtime and application packages with partial replication, HTTP data delivery, and client integrations.
+
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-neondatabase--electric)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-neondatabase--electric) | [Agent Frameworks](../topics/agent-frameworks.md#repo-neondatabase--electric) | [MCP](../topics/mcp.md#repo-neondatabase--electric) | [Sandboxing](../topics/sandboxing.md#repo-neondatabase--electric) | [Databases](../topics/databases.md#repo-neondatabase--electric) | [Realtime](../topics/realtime.md#repo-neondatabase--electric)
+- **Kind:** Monorepo
+- **Best for:** Teams building stateful agent applications around live Postgres data; Applications that need selective real-time replication from Postgres to clients
+- **Languages:** TypeScript, Elixir
+- **License:** Apache-2.0
+- **Lifecycle:** Active
+- **GitHub stars:** 10,435
+
+**Key features**
+
+  - Agent runtime, server, desktop, mobile, and MCP-oriented packages in the commit-pinned monorepo
+  - Read-path synchronization from Postgres with partial replication through Shapes
+  - Low-level HTTP API designed to work with CDNs for scalable data delivery
 
 <a id="repo-pipecat-ai--pipecat"></a>
 
@@ -65,7 +151,7 @@ An open-source Python framework for real-time voice and multimodal conversationa
 - **Languages:** Python
 - **License:** BSD-2-Clause
 - **Lifecycle:** Active
-- **GitHub stars:** 13,575
+- **GitHub stars:** 17,374
 
 **Key features**
 
@@ -75,21 +161,63 @@ An open-source Python framework for real-time voice and multimodal conversationa
 
 <a id="repo-slopus--happy"></a>
 
-## [Happy](https://github.com/slopus/happy)
+## [Happy Engineering](https://github.com/slopus/happy)
 
-A mobile and web companion for Claude Code and Codex sessions that wraps the local agent CLI, enables remote session control and device handoff, sends notifications, and advertises end-to-end encrypted synchronization.
+A multi-model coding workspace with desktop and agent runtime companion repositories, native mobile session access, and a CLI wrapper for existing Claude Code and Codex users.
 
 - **Category:** [Platforms and Applications](../categories/platforms-and-applications.md#repo-slopus--happy)
 - **Topics:** [Coding Agents](../topics/coding-agents.md#repo-slopus--happy) | [Remote Control](../topics/remote-control.md#repo-slopus--happy) | [Mobile App](../topics/mobile-app.md#repo-slopus--happy) | [Web UI](../topics/web-ui.md#repo-slopus--happy) | [CLI](../topics/cli.md#repo-slopus--happy) | [Realtime](../topics/realtime.md#repo-slopus--happy) | [Security](../topics/security.md#repo-slopus--happy) | [Open Source](../topics/open-source.md#repo-slopus--happy)
 - **Kind:** Monorepo
-- **Best for:** Developers who need to check or control active Claude Code or Codex work away from a computer; Teams or individuals who want a remote-control layer without replacing their existing coding agent
-- **Languages:** TypeScript, Rust
+- **Best for:** Developers who want to continue coding-agent sessions across desktop and mobile; Teams using the new desktop and harness stack to collaborate in shared sessions
+- **Languages:** TypeScript, Rust, Swift, Kotlin
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 22,734
+- **GitHub stars:** 24,754
 
 **Key features**
 
-  - iOS, Android, and web clients for Claude Code and Codex sessions
-  - A CLI wrapper that starts Claude Code or Codex through Happy
-  - Remote agent-control commands for creating, sending to, and monitoring sessions
+  - Coordinates Claude, Codex, Grok, and additional models or harnesses through the desktop stack
+  - Supports multiplayer sessions that participants can observe and steer together
+  - Continues sessions on native iOS and Android apps with documented end-to-end encrypted sync
+
+<a id="repo-triggerdotdev--trigger.dev"></a>
+
+## [Trigger.dev](https://github.com/triggerdotdev/trigger.dev)
+
+An open-source durable execution platform for TypeScript AI agents and workflows, available as a managed cloud service or a self-hosted deployment.
+
+- **Category:** [DevOps and Cloud](../categories/devops-and-cloud.md#repo-triggerdotdev--trigger.dev)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-triggerdotdev--trigger.dev) | [Automation](../topics/automation.md#repo-triggerdotdev--trigger.dev) | [Deployment](../topics/deployment.md#repo-triggerdotdev--trigger.dev) | [Cloud](../topics/cloud.md#repo-triggerdotdev--trigger.dev) | [Self Hosted](../topics/self-hosted.md#repo-triggerdotdev--trigger.dev) | [Observability](../topics/observability.md#repo-triggerdotdev--trigger.dev) | [Tracing](../topics/tracing.md#repo-triggerdotdev--trigger.dev) | [Realtime](../topics/realtime.md#repo-triggerdotdev--trigger.dev) | [API Development](../topics/api-development.md#repo-triggerdotdev--trigger.dev)
+- **Kind:** Service
+- **Best for:** Teams building long-running TypeScript jobs, agents, and background workflows; Applications that need retries, queues, waits, streaming, schedules, and operational visibility
+- **Languages:** TypeScript
+- **License:** Apache-2.0
+- **Lifecycle:** Active
+- **GitHub stars:** 16,802
+
+**Key features**
+
+  - Runs long-lived tasks with durability, retries, queues, concurrency, and idempotency
+  - Supports human-in-the-loop waits, schedules, realtime updates, and streaming
+  - Provides logs, tracing, observability, environments, and deployment tooling
+
+<a id="repo-yjs--yjs"></a>
+
+## [Yjs](https://github.com/yjs/yjs)
+
+A high-performance CRDT framework with shared data types for building collaborative and local-first applications across arbitrary network providers.
+
+- **Category:** [Collaboration and Productivity](../categories/collaboration-and-productivity.md#repo-yjs--yjs)
+- **Topics:** [Realtime Collaboration](../topics/realtime-collaboration.md#repo-yjs--yjs) | [Realtime](../topics/realtime.md#repo-yjs--yjs) | [Local First](../topics/local-first.md#repo-yjs--yjs) | [Libraries](../topics/libraries.md#repo-yjs--yjs) | [Frontend Development](../topics/frontend-development.md#repo-yjs--yjs)
+- **Kind:** Library
+- **Best for:** Developers implementing conflict-free collaborative state and editing; Applications that need offline changes, peer-to-peer sync, and eventual convergence
+- **Languages:** JavaScript
+- **License:** MIT
+- **Lifecycle:** Active
+- **GitHub stars:** 23,096
+
+**Key features**
+
+  - Provides shared Map, Array, Text, and XML-like data types with automatic merging
+  - Works independently of the network transport and supports peer-to-peer designs
+  - Supports offline editing, snapshots, undo and redo, and shared cursors

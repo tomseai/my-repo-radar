@@ -2,12 +2,55 @@
 
 # Cloud
 
-[Back to the main catalog](../README.md) | **3 repositories**
+[Back to the main catalog](../README.md) | **6 repositories**
 
 ## Primary categories represented
 
+- [Application Frameworks](../categories/application-frameworks.md) (1)
 - [Backend and APIs](../categories/backend-and-apis.md) (1)
-- [DevOps and Cloud](../categories/devops-and-cloud.md) (2)
+- [DevOps and Cloud](../categories/devops-and-cloud.md) (4)
+
+<a id="repo-alchemy-run--alchemy"></a>
+
+## [Alchemy](https://github.com/alchemy-run/alchemy)
+
+A TypeScript infrastructure-as-code framework built on Effect that combines cloud resources and application logic in one type-safe executable program.
+
+- **Category:** [DevOps and Cloud](../categories/devops-and-cloud.md#repo-alchemy-run--alchemy)
+- **Topics:** [Cloud](../topics/cloud.md#repo-alchemy-run--alchemy) | [Deployment](../topics/deployment.md#repo-alchemy-run--alchemy) | [DevOps](../topics/devops.md#repo-alchemy-run--alchemy) | [Automation](../topics/automation.md#repo-alchemy-run--alchemy) | [Developer Productivity](../topics/developer-productivity.md#repo-alchemy-run--alchemy)
+- **Kind:** Infrastructure
+- **Best for:** TypeScript teams defining application code and cloud infrastructure together; Effect users deploying to AWS or Cloudflare with typed resource bindings
+- **Languages:** TypeScript
+- **License:** Apache-2.0
+- **Lifecycle:** Experimental
+- **GitHub stars:** 2,041
+
+**Key features**
+
+  - Models infrastructure resources and application logic in one Effect program
+  - Provides typed bindings, errors, planning, deployment, and local development
+  - Supports AWS services, Cloudflare resources, IAM, SDKs, and smoke tests
+
+<a id="repo-encoredev--encore"></a>
+
+## [Encore](https://github.com/encoredev/encore)
+
+A Go and TypeScript backend framework with local infrastructure orchestration and an optional managed cloud deployment platform.
+
+- **Category:** [Application Frameworks](../categories/application-frameworks.md#repo-encoredev--encore)
+- **Topics:** [Backend Development](../topics/backend-development.md#repo-encoredev--encore) | [API Development](../topics/api-development.md#repo-encoredev--encore) | [Cloud](../topics/cloud.md#repo-encoredev--encore) | [Deployment](../topics/deployment.md#repo-encoredev--encore) | [Observability](../topics/observability.md#repo-encoredev--encore) | [Frameworks](../topics/frameworks.md#repo-encoredev--encore) | [CLI](../topics/cli.md#repo-encoredev--encore)
+- **Kind:** Framework
+- **Best for:** Teams building backend services with consistent local and cloud infrastructure
+- **Languages:** Go, TypeScript, Rust
+- **License:** MPL-2.0
+- **Lifecycle:** Active
+- **GitHub stars:** 12,733
+
+**Key features**
+
+  - Declare services, databases, messaging, storage, and other infrastructure in application code
+  - Run local infrastructure with a dashboard and distributed traces
+  - Provision and deploy to AWS or Google Cloud through the optional platform
 
 <a id="repo-kestra-io--kestra"></a>
 
@@ -22,13 +65,13 @@ An open-source, event-driven orchestration platform for declarative YAML workflo
 - **Languages:** Java
 - **License:** Apache-2.0
 - **Lifecycle:** Active
-- **GitHub stars:** 27,391
+- **GitHub stars:** 30,310
 
 **Key features**
 
   - Defines flows, tasks, inputs, variables, and triggers in declarative YAML
+  - Offers AI agents, RAG workflows, and a built-in MCP server
   - Supports scheduled and event-driven execution, including message-bus and cloud triggers
-  - Provides a built-in editor, visual topology view, completion, and real-time validation
 
 <a id="repo-microsoft--aspire"></a>
 
@@ -43,7 +86,7 @@ A multi-language, code-first toolchain for defining, running, observing, and dep
 - **Languages:** C#, TypeScript
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 6,173
+- **GitHub stars:** 6,445
 
 **Key features**
 
@@ -64,10 +107,31 @@ A hosted developer integration platform for building event-driven workflows with
 - **Languages:** JavaScript, TypeScript, Python, Go, Bash
 - **License:** Pipedream Source Available License Version 1.0
 - **Lifecycle:** Active
-- **GitHub stars:** 11,556
+- **GitHub stars:** 11,796
 
 **Key features**
 
   - Event-triggered workflows composed from pre-built actions or custom code steps
   - Event sources that emit data from connected third-party services and can trigger workflows
   - Reusable actions for API integrations, including community-publishable custom actions
+
+<a id="repo-triggerdotdev--trigger.dev"></a>
+
+## [Trigger.dev](https://github.com/triggerdotdev/trigger.dev)
+
+An open-source durable execution platform for TypeScript AI agents and workflows, available as a managed cloud service or a self-hosted deployment.
+
+- **Category:** [DevOps and Cloud](../categories/devops-and-cloud.md#repo-triggerdotdev--trigger.dev)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-triggerdotdev--trigger.dev) | [Automation](../topics/automation.md#repo-triggerdotdev--trigger.dev) | [Deployment](../topics/deployment.md#repo-triggerdotdev--trigger.dev) | [Cloud](../topics/cloud.md#repo-triggerdotdev--trigger.dev) | [Self Hosted](../topics/self-hosted.md#repo-triggerdotdev--trigger.dev) | [Observability](../topics/observability.md#repo-triggerdotdev--trigger.dev) | [Tracing](../topics/tracing.md#repo-triggerdotdev--trigger.dev) | [Realtime](../topics/realtime.md#repo-triggerdotdev--trigger.dev) | [API Development](../topics/api-development.md#repo-triggerdotdev--trigger.dev)
+- **Kind:** Service
+- **Best for:** Teams building long-running TypeScript jobs, agents, and background workflows; Applications that need retries, queues, waits, streaming, schedules, and operational visibility
+- **Languages:** TypeScript
+- **License:** Apache-2.0
+- **Lifecycle:** Active
+- **GitHub stars:** 16,802
+
+**Key features**
+
+  - Runs long-lived tasks with durability, retries, queues, concurrency, and idempotency
+  - Supports human-in-the-loop waits, schedules, realtime updates, and streaming
+  - Provides logs, tracing, observability, environments, and deployment tooling

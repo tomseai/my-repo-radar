@@ -2,9 +2,9 @@ schema_version: 2
 repository_id: github:langfuse/langfuse
 research:
   state: complete
-  source_commit: 1cb1bbcf6b269fd887a6667796f1a15417cca336
-  bundle_collected_at: 2026-07-19T20:43:46.196Z
-  researched_at: 2026-07-19T21:45:29.959Z
+  source_commit: a39972648160c6bb86f8e123d8e9981b023b06fc
+  bundle_collected_at: 2026-11-22T12:09:48.264Z
+  researched_at: 2026-11-22T12:23:50.110Z
   confidence: high
 classification:
   primary_category: ai-and-automation
@@ -19,14 +19,20 @@ project:
     An LLM engineering platform for tracing, prompt management, evaluation,
     datasets, and debugging AI applications.
   best_for:
-    - Teams developing and operating LLM applications that need observability and evaluation
-    - Organizations choosing between managed Cloud and self-hosted LLMOps infrastructure
+    - Teams developing and operating LLM applications that need observability
+      and evaluation
+    - Organizations choosing between managed Cloud and self-hosted LLMOps
+      infrastructure
 key_features:
-  - Trace LLM calls, retrieval, embeddings, agent actions, sessions, and application logic
+  - Trace LLM calls, retrieval, embeddings, agent actions, sessions, and
+    application logic
   - Version, collaboratively manage, and cache prompts
   - Run LLM-as-a-judge, code, feedback, manual-labeling, and custom evaluations
   - Build datasets, test sets, benchmarks, experiments, and pre-deployment tests
-  - Use a playground plus API, OpenAPI specification, and typed Python and JS/TS SDKs
+  - Optionally routes model requests through an AI gateway for centralized usage
+    tracking and cost controls
+  - Use a playground plus API, OpenAPI specification, and typed Python and JS/TS
+    SDKs
 usage:
   interfaces:
     - web UI
@@ -52,24 +58,32 @@ license:
   spdx: null
   name: MIT Expat for non-EE code; separate EE license
   notes: >-
-    Code outside ee/, web/src/ee/, and worker/src/ee/ is MIT Expat; those
-    Enterprise Edition paths are licensed separately under ee/LICENSE.
+    MIT Expat generally applies. Enterprise Edition code in ee/, web/src/ee/,
+    worker/src/ee/, and packages/shared/src/server/ee/ uses ee/LICENSE.
+    Incorporated third-party code retains its own terms.
 status:
   lifecycle: active
   archived: false
-  latest_release: v3.221.1
-  latest_release_at: "2026-07-17"
+  latest_release: v4.83.0
+  latest_release_at: "2026-11-19"
 strengths:
-  - Connects tracing, prompt iteration, datasets, evaluations, and debugging in one platform
-  - Supports Cloud as well as documented Docker Compose, VM, and Kubernetes self-hosting
-  - Offers flexible manual SDK instrumentation and integrations for common AI frameworks and providers
+  - Connects tracing, prompt iteration, datasets, evaluations, and debugging in
+    one platform
+  - Supports Cloud as well as documented Docker Compose, VM, and Kubernetes
+    self-hosting
+  - Offers flexible manual SDK instrumentation and integrations for common AI
+    frameworks and providers
 caveats:
-  - "The repository is not wholly MIT: Enterprise Edition directories use a separate license"
-  - Self-hosting runs a multi-service stack including ClickHouse, PostgreSQL, Redis, and object storage
-  - Instrumentation requires project credentials and application-side SDK or integration configuration
+  - "The repository is not wholly MIT: Enterprise Edition directories use a
+    separate license"
+  - Self-hosting runs a multi-service stack including ClickHouse, PostgreSQL,
+    Redis, and object storage
+  - Instrumentation requires project credentials and application-side SDK or
+    integration configuration
 sources:
-  - https://raw.githubusercontent.com/langfuse/langfuse/1cb1bbcf6b269fd887a6667796f1a15417cca336/README.md
-  - https://raw.githubusercontent.com/langfuse/langfuse/1cb1bbcf6b269fd887a6667796f1a15417cca336/LICENSE
-  - https://raw.githubusercontent.com/langfuse/langfuse/1cb1bbcf6b269fd887a6667796f1a15417cca336/package.json
-  - https://raw.githubusercontent.com/langfuse/langfuse/1cb1bbcf6b269fd887a6667796f1a15417cca336/docker-compose.yml
+  - https://raw.githubusercontent.com/langfuse/langfuse/a39972648160c6bb86f8e123d8e9981b023b06fc/README.md
+  - https://raw.githubusercontent.com/langfuse/langfuse/a39972648160c6bb86f8e123d8e9981b023b06fc/LICENSE
+  - https://raw.githubusercontent.com/langfuse/langfuse/a39972648160c6bb86f8e123d8e9981b023b06fc/package.json
+  - https://raw.githubusercontent.com/langfuse/langfuse/a39972648160c6bb86f8e123d8e9981b023b06fc/docker-compose.yml
   - https://github.com/langfuse/langfuse/releases.atom
+  - https://github.com/langfuse/langfuse/releases/tag/v4.83.0

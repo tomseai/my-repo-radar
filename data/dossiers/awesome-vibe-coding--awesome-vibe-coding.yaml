@@ -1,0 +1,65 @@
+schema_version: 2
+repository_id: github:awesome-vibe-coding/awesome-vibe-coding
+research:
+  state: complete
+  source_commit: 46d0f0d655915e1af0a41e51d38f18921379907a
+  bundle_collected_at: 2026-08-15T12:33:48.283Z
+  researched_at: 2026-08-15T15:30:00+02:00
+  confidence: high
+classification:
+  primary_category: documentation-and-learning
+  topics:
+    - curated-lists
+    - coding-agents
+    - code-generation
+    - prompt-engineering
+    - developer-productivity
+    - reference
+project:
+  name: Awesome Vibe Coding
+  kind: curated-list
+  summary: >-
+    A hand-picked directory of tools and references for AI-assisted software
+    development, spanning builders, editors, agents, plugins, CLI tools, and reading.
+  best_for:
+    - Comparing categories of AI-assisted development tools before choosing one
+    - Finding references and supporting tools for prompt-driven development workflows
+key_features:
+  - Groups web builders, IDEs, mobile tools, extensions, local apps, and CLI tools
+  - Includes agentic task management, monitoring, documentation, and articles
+  - Links directly to official sites or repositories with concise descriptions
+  - Defines contribution rules for relevance, factual wording, and focused changes
+usage:
+  interfaces:
+    - Markdown directory
+    - GitHub repository
+  installation:
+    - browse the repository README
+    - follow links to listed resources
+  setup: low
+technology:
+  languages:
+    - Markdown
+  notable_components:
+    - categorized resource index
+    - awesome-lint checks
+license:
+  spdx: CC0-1.0
+  name: CC0 1.0 Universal
+  notes: Content is dedicated to the public domain to the extent permitted, with standard limitations.
+status:
+  lifecycle: active
+  archived: false
+  latest_release: null
+  latest_release_at: null
+strengths:
+  - Covers discovery from hosted builders and editors to terminal agents and workflow tools
+  - Uses scoped sections and concise entries for fast scanning
+caveats:
+  - Third-party tools vary in pricing, privacy, provider support, and maturity
+  - Inclusion is not an independent quality or fit guarantee
+  - No versioned releases are present in the retained feed
+sources:
+  - https://raw.githubusercontent.com/awesome-vibe-coding/awesome-vibe-coding/46d0f0d655915e1af0a41e51d38f18921379907a/readme.md
+  - https://raw.githubusercontent.com/awesome-vibe-coding/awesome-vibe-coding/46d0f0d655915e1af0a41e51d38f18921379907a/LICENSE
+  - https://github.com/awesome-vibe-coding/awesome-vibe-coding/releases.atom

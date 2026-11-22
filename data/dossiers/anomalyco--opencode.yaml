@@ -2,9 +2,9 @@ schema_version: 2
 repository_id: github:anomalyco/opencode
 research:
   state: complete
-  source_commit: 67caf894e0843ee370e72839e8265e483233479b
-  bundle_collected_at: 2026-07-19T20:41:41.431Z
-  researched_at: 2026-07-20T00:38:21.429Z
+  source_commit: ee5fe34e136488a1839ac73bcca8321c51a31b75
+  bundle_collected_at: 2026-11-22T12:09:03.880Z
+  researched_at: 2026-11-22T12:27:12.992Z
   confidence: high
 
 classification:
@@ -28,7 +28,8 @@ project:
     subagent for complex tasks, and a separately labeled beta desktop app.
   best_for:
     - Developers who want a local terminal-first AI coding agent
-    - Exploring a codebase or planning changes before granting an agent write access
+    - Exploring a codebase or planning changes before granting an agent write
+      access
 
 key_features:
   - Full-access build agent for development work
@@ -46,7 +47,7 @@ usage:
     - opt-in HTTP server
   installation:
     - official install script
-    - npm package
+    - npm package @opencode/cli
     - package managers
     - desktop download
   setup: low
@@ -68,11 +69,12 @@ license:
 status:
   lifecycle: active
   archived: false
-  latest_release: v1.18.3
-  latest_release_at: 2026-07-16
+  latest_release: v2.3.2
+  latest_release_at: 2026-11-18
 
 strengths:
-  - Clear separation between a write-capable development agent and a read-only planning agent
+  - Clear separation between a write-capable development agent and a read-only
+    planning agent
   - Several supported installation paths for a terminal-first workflow
   - Maintained project release stream that covers core and desktop changes
 
@@ -80,11 +82,13 @@ caveats:
   - The desktop application is explicitly labeled beta
   - The permission system is a user-awareness feature, not a security sandbox
   - Users needing isolation must run the agent in a container or virtual machine
-  - Opt-in server mode needs a password configured to avoid unauthenticated HTTP access
+  - Opt-in server mode needs a password configured to avoid unauthenticated HTTP
+    access
 
 sources:
-  - https://raw.githubusercontent.com/anomalyco/opencode/67caf894e0843ee370e72839e8265e483233479b/README.md
-  - https://raw.githubusercontent.com/anomalyco/opencode/67caf894e0843ee370e72839e8265e483233479b/packages/opencode/package.json
-  - https://raw.githubusercontent.com/anomalyco/opencode/67caf894e0843ee370e72839e8265e483233479b/SECURITY.md
-  - https://raw.githubusercontent.com/anomalyco/opencode/67caf894e0843ee370e72839e8265e483233479b/LICENSE
+  - https://raw.githubusercontent.com/anomalyco/opencode/ee5fe34e136488a1839ac73bcca8321c51a31b75/README.md
+  - https://raw.githubusercontent.com/anomalyco/opencode/ee5fe34e136488a1839ac73bcca8321c51a31b75/packages/opencode/package.json
+  - https://raw.githubusercontent.com/anomalyco/opencode/ee5fe34e136488a1839ac73bcca8321c51a31b75/SECURITY.md
+  - https://raw.githubusercontent.com/anomalyco/opencode/ee5fe34e136488a1839ac73bcca8321c51a31b75/LICENSE
   - https://github.com/anomalyco/opencode/releases.atom
+  - https://github.com/anomalyco/opencode/releases/tag/v2.3.2

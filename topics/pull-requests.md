@@ -2,18 +2,18 @@
 
 # Pull Requests
 
-[Back to the main catalog](../README.md) | **6 repositories**
+[Back to the main catalog](../README.md) | **8 repositories**
 
 ## Primary categories represented
 
-- [AI and Automation](../categories/ai-and-automation.md) (5)
+- [AI and Automation](../categories/ai-and-automation.md) (7)
 - [Developer Tools](../categories/developer-tools.md) (1)
 
 <a id="repo-coleam00--archon"></a>
 
 ## [Archon](https://github.com/coleam00/Archon)
 
-A workflow engine for defining and executing repeatable AI coding processes as YAML, with deterministic steps around agent work.
+A self-hosted workflow engine for running YAML-defined processes with AI agents, scripts, and approval gates. Its bundled software-development pack coordinates work from issue intake to merged pull request.
 
 - **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-coleam00--archon)
 - **Topics:** [AI Agents](../topics/ai-agents.md#repo-coleam00--archon) | [Coding Agents](../topics/coding-agents.md#repo-coleam00--archon) | [Agent Orchestration](../topics/agent-orchestration.md#repo-coleam00--archon) | [Automation](../topics/automation.md#repo-coleam00--archon) | [CLI](../topics/cli.md#repo-coleam00--archon) | [Git](../topics/git.md#repo-coleam00--archon) | [Worktrees](../topics/worktrees.md#repo-coleam00--archon) | [Web UI](../topics/web-ui.md#repo-coleam00--archon) | [Pull Requests](../topics/pull-requests.md#repo-coleam00--archon)
@@ -22,13 +22,13 @@ A workflow engine for defining and executing repeatable AI coding processes as Y
 - **Languages:** TypeScript
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 22,944
+- **GitHub stars:** 23,980
 
 **Key features**
 
   - Defines planning, implementation, validation, review, and pull-request processes as YAML workflows with validation gates and artifacts
   - Isolates each workflow run in its own Git worktree, allowing parallel fixes without conflicts
-  - Includes a web dashboard for chats, workflow execution, history, monitoring, and a drag-and-drop workflow builder
+  - Provides a web interface to run and monitor workflows and handle approval requests
 
 <a id="repo-everyinc--compound-engineering-plugin"></a>
 
@@ -43,11 +43,11 @@ A cross-harness plugin of coding-agent skills that structures engineering work a
 - **Languages:** TypeScript
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 23,228
+- **GitHub stars:** 26,185
 
 **Key features**
 
-  - A six-step brainstorm, plan, work, simplify, review, and compound workflow
+  - A workflow that moves from brainstorming and planning through implementation, review, and recording lessons
   - Interactive requirements and implementation-plan skills
   - Worktree-based implementation and task tracking
 
@@ -64,7 +64,7 @@ A desktop Git client and CLI for stacked and parallel branches, direct commit ed
 - **Languages:** Rust, TypeScript, Svelte
 - **License:** FSL-1.1-MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 21,336
+- **GitHub stars:** 22,002
 
 **Key features**
 
@@ -76,7 +76,7 @@ A desktop Git client and CLI for stacked and parallel branches, direct commit ed
 
 ## [AI Ready](https://github.com/johnpapa/ai-ready)
 
-A GitHub Copilot CLI skill that inspects a repository's code, workflows, documentation, and review patterns, then reports on AI readiness and proposes or creates repository-specific configuration for coding agents.
+An Agent Skill that inspects a repository's code, workflows, documentation, and review patterns, then reports on AI readiness and proposes or creates repository-specific configuration for coding agents.
 
 - **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-johnpapa--ai-ready)
 - **Topics:** [Coding Agents](../topics/coding-agents.md#repo-johnpapa--ai-ready) | [Agent Skills](../topics/agent-skills.md#repo-johnpapa--ai-ready) | [Automation](../topics/automation.md#repo-johnpapa--ai-ready) | [GitHub](../topics/github.md#repo-johnpapa--ai-ready) | [Pull Requests](../topics/pull-requests.md#repo-johnpapa--ai-ready) | [MCP](../topics/mcp.md#repo-johnpapa--ai-ready) | [Developer Productivity](../topics/developer-productivity.md#repo-johnpapa--ai-ready)
@@ -85,13 +85,34 @@ A GitHub Copilot CLI skill that inspects a repository's code, workflows, documen
 - **Languages:** Unknown
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 112
+- **GitHub stars:** 237
 
 **Key features**
 
   - Analyzes repository structure, manifests, tests, documentation, and existing AI configuration
   - Mines recent pull-request review comments for repeated team conventions
   - Generates or audits AGENTS.md and GitHub Copilot instructions without overwriting files
+
+<a id="repo-open-gsd--gsd-core"></a>
+
+## [GSD Core](https://github.com/open-gsd/gsd-core)
+
+A multi-runtime context-engineering and spec-driven development framework that guides coding agents through discuss, plan, parallel execution, verification, and shipping phases while moving heavy work into fresh subagent contexts.
+
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-open-gsd--gsd-core)
+- **Topics:** [Coding Agents](../topics/coding-agents.md#repo-open-gsd--gsd-core) | [Agent Frameworks](../topics/agent-frameworks.md#repo-open-gsd--gsd-core) | [Agent Orchestration](../topics/agent-orchestration.md#repo-open-gsd--gsd-core) | [Multi Agent](../topics/multi-agent.md#repo-open-gsd--gsd-core) | [Parallel Agents](../topics/parallel-agents.md#repo-open-gsd--gsd-core) | [Agent Skills](../topics/agent-skills.md#repo-open-gsd--gsd-core) | [Spec Driven Development](../topics/spec-driven-development.md#repo-open-gsd--gsd-core) | [Context Engineering](../topics/context-engineering.md#repo-open-gsd--gsd-core) | [Task Planning](../topics/task-planning.md#repo-open-gsd--gsd-core) | [Code Review](../topics/code-review.md#repo-open-gsd--gsd-core) | [Testing](../topics/testing.md#repo-open-gsd--gsd-core) | [MCP](../topics/mcp.md#repo-open-gsd--gsd-core) | [Pull Requests](../topics/pull-requests.md#repo-open-gsd--gsd-core) | [Developer Productivity](../topics/developer-productivity.md#repo-open-gsd--gsd-core)
+- **Kind:** Framework
+- **Best for:** Developers running multi-phase software projects with coding agents; Teams that need durable project state and repeatable planning, execution, and verification loops
+- **Languages:** JavaScript, TypeScript
+- **License:** MIT
+- **Lifecycle:** Active
+- **GitHub stars:** 11,768
+
+**Key features**
+
+  - Runs a repeatable discuss, plan, execute, verify, and ship loop for each milestone phase
+  - Uses fresh-context subagents for research, planning, and parallel execution waves
+  - Preserves cross-session state in structured project, context, and status artifacts
 
 <a id="repo-shep-ai--shep"></a>
 
@@ -106,13 +127,34 @@ A local-first orchestrator that runs parallel coding agents in isolated Git work
 - **Languages:** TypeScript
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 233
+- **GitHub stars:** 282
 
 **Key features**
 
   - Isolated Git worktree and branch for every feature
-  - Built-in Claude Code, Cursor CLI, and Gemini CLI support plus a generic terminal-agent executor
+  - Built-in support for Claude Code, Kimi Code, Codex CLI, Copilot CLI, Cursor CLI, Gemini CLI, and Cline, plus a generic terminal-agent executor
   - Default prompt-to-implementation-to-draft-PR workflow with configurable CI retry fixes
+
+<a id="repo-t3dotgg--tstack"></a>
+
+## [tstack](https://github.com/t3dotgg/tstack)
+
+A collection of reusable coding-agent skills for reviewing changes and managing GitHub pull requests.
+
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-t3dotgg--tstack)
+- **Topics:** [Agent Skills](../topics/agent-skills.md#repo-t3dotgg--tstack) | [Coding Agents](../topics/coding-agents.md#repo-t3dotgg--tstack) | [Code Review](../topics/code-review.md#repo-t3dotgg--tstack) | [Pull Requests](../topics/pull-requests.md#repo-t3dotgg--tstack) | [GitHub](../topics/github.md#repo-t3dotgg--tstack) | [Developer Productivity](../topics/developer-productivity.md#repo-t3dotgg--tstack)
+- **Kind:** Other
+- **Best for:** Claude Code or Codex users automating pull request workflows
+- **Languages:** Python
+- **License:** MIT
+- **Lifecycle:** Active
+- **GitHub stars:** 4,286
+
+**Key features**
+
+  - Skills for filing and monitoring pull requests and addressing review findings
+  - Full-send and full-stop workflows for completing changes with different merge boundaries
+  - Multi-model review loops and a three-model council
 
 <a id="repo-vercel-labs--open-agents"></a>
 
@@ -127,7 +169,7 @@ A Vercel-deployable reference application for background coding agents, combinin
 - **Languages:** TypeScript
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 5,740
+- **GitHub stars:** 5,912
 
 **Key features**
 

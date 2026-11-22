@@ -1,0 +1,50 @@
+schema_version: 2
+repository_id: github:encoredev/encore
+research:
+  state: complete
+  source_commit: 8a7465a4498237ef22b66dc40ffd6ac8aad1eee6
+  bundle_collected_at: 2026-11-22T11:27:14.867Z
+  researched_at: 2026-11-22T12:00:00Z
+  confidence: high
+classification:
+  primary_category: application-frameworks
+  topics: [backend-development, api-development, cloud, deployment, observability, frameworks, cli]
+project:
+  name: Encore
+  kind: framework
+  summary: A Go and TypeScript backend framework with local infrastructure orchestration and an optional managed cloud deployment platform.
+  best_for: [Teams building backend services with consistent local and cloud infrastructure]
+key_features:
+  - Declare services, databases, messaging, storage, and other infrastructure in application code
+  - Run local infrastructure with a dashboard and distributed traces
+  - Provision and deploy to AWS or Google Cloud through the optional platform
+  - Generate standalone Docker images for self-hosting
+  - Configure an MCP server for agent inspection of application resources
+usage:
+  interfaces: [SDK, CLI, local dashboard, managed platform dashboard, MCP server]
+  installation: [Homebrew, install script, build from source]
+  setup: moderate
+technology:
+  languages: [Go, TypeScript, Rust]
+  notable_components: [Node.js, PostgreSQL, Docker, AWS, Google Cloud]
+license:
+  spdx: MPL-2.0
+  name: Mozilla Public License 2.0
+  notes: The framework and self-hosting components are open source; the optional managed platform is a commercial service.
+status:
+  lifecycle: active
+  archived: false
+  latest_release: v1.58.9
+  latest_release_at: 2026-11-12
+strengths:
+  - Connects application resource declarations to local development and cloud deployment
+  - Supports self-hosting without requiring the managed platform
+caveats:
+  - Application SDK support is limited to Go and TypeScript; Python and Rust are listed as forthcoming
+  - Fully automated cloud provisioning is limited to AWS and Google Cloud
+  - The managed deployment platform is a separate commercial service
+sources:
+  - https://raw.githubusercontent.com/encoredev/encore/8a7465a4498237ef22b66dc40ffd6ac8aad1eee6/README.md
+  - https://raw.githubusercontent.com/encoredev/encore/8a7465a4498237ef22b66dc40ffd6ac8aad1eee6/LICENSE
+  - https://raw.githubusercontent.com/encoredev/encore/8a7465a4498237ef22b66dc40ffd6ac8aad1eee6/Cargo.toml
+  - https://github.com/encoredev/encore/releases.atom

@@ -2,11 +2,11 @@
 
 # Agent Memory
 
-[Back to the main catalog](../README.md) | **31 repositories**
+[Back to the main catalog](../README.md) | **32 repositories**
 
 ## Primary categories represented
 
-- [AI and Automation](../categories/ai-and-automation.md) (25)
+- [AI and Automation](../categories/ai-and-automation.md) (26)
 - [Developer Tools](../categories/developer-tools.md) (2)
 - [Documentation and Learning](../categories/documentation-and-learning.md) (3)
 - [Platforms and Applications](../categories/platforms-and-applications.md) (1)
@@ -24,7 +24,7 @@ A practical, beginner-oriented course that teaches AI-agent fundamentals, then i
 - **Languages:** Markdown
 - **License:** Apache-2.0
 - **Lifecycle:** Active
-- **GitHub stars:** 421
+- **GitHub stars:** 552
 
 **Key features**
 
@@ -45,7 +45,7 @@ A categorized collection of independently runnable AI application examples and t
 - **Languages:** Python, JavaScript
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 13,208
+- **GitHub stars:** 16,774
 
 **Key features**
 
@@ -57,7 +57,7 @@ A categorized collection of independently runnable AI application examples and t
 
 ## [Bub](https://github.com/bubbuild/bub)
 
-A small hook-first Python runtime for agents and people in shared conversational environments, using an inspectable turn pipeline, append-only context records, and adapters for command-line, Telegram, and custom channels.
+A Python agent kernel and customizable application with model and tool configuration, conversation storage, plugins, and channel integrations.
 
 - **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-bubbuild--bub)
 - **Topics:** [AI Agents](../topics/ai-agents.md#repo-bubbuild--bub) | [Agent Frameworks](../topics/agent-frameworks.md#repo-bubbuild--bub) | [Agent Skills](../topics/agent-skills.md#repo-bubbuild--bub) | [Agent Memory](../topics/agent-memory.md#repo-bubbuild--bub) | [CLI](../topics/cli.md#repo-bubbuild--bub) | [Tool Use](../topics/tool-use.md#repo-bubbuild--bub) | [Automation](../topics/automation.md#repo-bubbuild--bub)
@@ -66,13 +66,13 @@ A small hook-first Python runtime for agents and people in shared conversational
 - **Languages:** Python
 - **License:** Apache-2.0
 - **Lifecycle:** Active
-- **GitHub stars:** 1,553
+- **GitHub stars:** 1,704
 
 **Key features**
 
-  - Replaceable pluggy hooks for every inbound-message turn stage
+  - Python agent kernel with configurable model, tools, instructions, and storage
+  - Optional application layer with pluggy hooks and channel integrations
   - Append-only tape context that can be inspected, replayed, and handed off
-  - One runtime model for CLI, Telegram, and custom channel adapters
 
 <a id="repo-bytedance--deer-flow"></a>
 
@@ -87,7 +87,7 @@ A self-hostable super-agent harness and application for long-running work, combi
 - **Languages:** Python, TypeScript
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 77,390
+- **GitHub stars:** 85,596
 
 **Key features**
 
@@ -108,7 +108,7 @@ A local MCP code-intelligence server and CLI that indexes repositories into pers
 - **Languages:** C, TypeScript
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 32,935
+- **GitHub stars:** 49,018
 
 **Key features**
 
@@ -129,7 +129,7 @@ A self-hostable knowledge layer for agents that syncs Markdown brain repositorie
 - **Languages:** TypeScript
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 26,609
+- **GitHub stars:** 33,388
 
 **Key features**
 
@@ -150,7 +150,7 @@ A distributed, dependency-aware issue tracker and persistent memory system for c
 - **Languages:** Go
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 25,432
+- **GitHub stars:** 28,915
 
 **Key features**
 
@@ -171,7 +171,7 @@ A multi-agent workspace manager that uses git worktree-backed state and Beads to
 - **Languages:** Go
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 17,102
+- **GitHub stars:** 18,867
 
 **Key features**
 
@@ -192,7 +192,7 @@ A local-first context-compression system for LLM applications and coding agents,
 - **Languages:** Python, TypeScript, Rust
 - **License:** Apache-2.0
 - **Lifecycle:** Active
-- **GitHub stars:** 60,173
+- **GitHub stars:** 80,358
 
 **Key features**
 
@@ -213,7 +213,7 @@ A local-first, SQLite-backed memory system for AI agents that stores project and
 - **Languages:** TypeScript, JavaScript, Python
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 718
+- **GitHub stars:** 794
 
 **Key features**
 
@@ -234,7 +234,7 @@ An opinionated, extensible Python agent harness built on LangGraph that bundles 
 - **Languages:** Python
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 26,576
+- **GitHub stars:** 31,514
 
 **Key features**
 
@@ -255,7 +255,7 @@ A low-level Python framework for building, managing, and deploying long-running 
 - **Languages:** Python
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 37,613
+- **GitHub stars:** 45,256
 
 **Key features**
 
@@ -276,7 +276,7 @@ A Python framework for building LLM applications through first-class agents and 
 - **Languages:** Python
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 4,077
+- **GitHub stars:** 4,153
 
 **Key features**
 
@@ -297,7 +297,7 @@ A workspace for building, scheduling, and collaborating with AI agent teams, wit
 - **Languages:** TypeScript
 - **License:** LobeHub Community License
 - **Lifecycle:** Active
-- **GitHub stars:** 80,525
+- **GitHub stars:** 85,981
 
 **Key features**
 
@@ -318,7 +318,7 @@ A TypeScript framework for building AI-powered applications and agents, with mod
 - **Languages:** TypeScript
 - **License:** Apache License 2.0 for non-ee/ content; Mastra Enterprise License for ee/ content
 - **Lifecycle:** Active
-- **GitHub stars:** 26,339
+- **GitHub stars:** 29,729
 
 **Key features**
 
@@ -339,7 +339,7 @@ An AI-agent memory layer with Python and Node SDKs for extracting, storing, and 
 - **Languages:** Python, TypeScript
 - **License:** Apache-2.0
 - **Lifecycle:** Active
-- **GitHub stars:** 61,185
+- **GitHub stars:** 69,331
 
 **Key features**
 
@@ -357,10 +357,10 @@ A local-first, Python-based memory tool that mines project files and AI conversa
 - **Topics:** [AI Agents](../topics/ai-agents.md#repo-mempalace--mempalace) | [Agent Memory](../topics/agent-memory.md#repo-mempalace--mempalace) | [MCP](../topics/mcp.md#repo-mempalace--mempalace) | [CLI](../topics/cli.md#repo-mempalace--mempalace) | [Local First](../topics/local-first.md#repo-mempalace--mempalace) | [Self Hosted](../topics/self-hosted.md#repo-mempalace--mempalace) | [Databases](../topics/databases.md#repo-mempalace--mempalace)
 - **Kind:** Application
 - **Best for:** Retaining and retrieving local coding-agent or conversation context without a required cloud API; Developers who want searchable project and transcript memory with scoped storage boundaries
-- **Languages:** Python
+- **Languages:** Python, Rust
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 57,477
+- **GitHub stars:** 60,655
 
 **Key features**
 
@@ -381,7 +381,7 @@ A Python memory framework and service for LLM applications and agents that provi
 - **Languages:** Python, TypeScript
 - **License:** Apache-2.0
 - **Lifecycle:** Active
-- **GitHub stars:** 10,270
+- **GitHub stars:** 12,476
 
 **Key features**
 
@@ -402,7 +402,7 @@ Self-hosted, messaging-based AI assistant that routes each agent session through
 - **Languages:** TypeScript, JavaScript, Shell
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 30,288
+- **GitHub stars:** 31,139
 
 **Key features**
 
@@ -423,7 +423,7 @@ A Rust-based personal AI-assistant runtime that offers command-line, web, and me
 - **Languages:** Rust
 - **License:** MIT OR Apache-2.0
 - **Lifecycle:** Active
-- **GitHub stars:** 12,527
+- **GitHub stars:** 12,715
 
 **Key features**
 
@@ -444,7 +444,7 @@ A curated, traceable catalogue of reusable patterns for designing and operating 
 - **Languages:** TypeScript, Markdown
 - **License:** Apache-2.0
 - **Lifecycle:** Active
-- **GitHub stars:** 4,815
+- **GitHub stars:** 5,089
 
 **Key features**
 
@@ -465,7 +465,7 @@ A self-improving, multi-provider AI agent with a terminal UI, messaging gateway,
 - **Languages:** Python, TypeScript, Rust
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 217,198
+- **GitHub stars:** 265,303
 
 **Key features**
 
@@ -484,9 +484,9 @@ A local MCP coding toolkit that gives AI clients symbol-aware code search, navig
 - **Kind:** Service
 - **Best for:** Coding agents working in medium or large repositories; Reusing semantic code tools across different MCP clients and models
 - **Languages:** Python
-- **License:** MIT
+- **License:** GPL-3.0-or-later
 - **Lifecycle:** Active
-- **GitHub stars:** 26,586
+- **GitHub stars:** 31,598
 
 **Key features**
 
@@ -507,13 +507,34 @@ A FastAPI-based memory service for stateful agents that stores interactions, pro
 - **Languages:** Python, TypeScript
 - **License:** AGPL-3.0
 - **Lifecycle:** Active
-- **GitHub stars:** 6,055
+- **GitHub stars:** 8,226
 
 **Key features**
 
   - Stores workspaces, peers, sessions, messages, and internal collections for multi-participant interactions
   - Runs background reasoning to create conclusions, representations, summaries, and peer cards
   - Provides context retrieval, hybrid search, low-latency representations, and a natural-language chat endpoint
+
+<a id="repo-primeintellect-ai--prime-agent"></a>
+
+## [PRIME Agent](https://github.com/PrimeIntellect-ai/prime-agent)
+
+A coding and research agent for long-running work that combines recursive subagents, a persistent Python environment, durable memory and skills, and background autonomy.
+
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-primeintellect-ai--prime-agent)
+- **Topics:** [Coding Agents](../topics/coding-agents.md#repo-primeintellect-ai--prime-agent) | [Agent Harnesses](../topics/agent-harnesses.md#repo-primeintellect-ai--prime-agent) | [Agent Orchestration](../topics/agent-orchestration.md#repo-primeintellect-ai--prime-agent) | [Multi Agent](../topics/multi-agent.md#repo-primeintellect-ai--prime-agent) | [Agent Memory](../topics/agent-memory.md#repo-primeintellect-ai--prime-agent) | [Agent Skills](../topics/agent-skills.md#repo-primeintellect-ai--prime-agent) | [Context Engineering](../topics/context-engineering.md#repo-primeintellect-ai--prime-agent) | [Terminal](../topics/terminal.md#repo-primeintellect-ai--prime-agent) | [Automation](../topics/automation.md#repo-primeintellect-ai--prime-agent)
+- **Kind:** Application
+- **Best for:** Developers running long-horizon coding or research tasks from the terminal; Users who want an agent to refine reusable prompts, memories, skills, and subagent specifications
+- **Languages:** TypeScript, Python
+- **License:** MIT
+- **Lifecycle:** Active
+- **GitHub stars:** 22,878
+
+**Key features**
+
+  - Uses recursive language-model calls and a persistent IPython environment
+  - Stores durable prompts, memories, skills, and subagent specifications
+  - Runs through a background daemon with attach, resume, messaging, goals, and schedules
 
 <a id="repo-rohitg00--agentmemory"></a>
 
@@ -528,7 +549,7 @@ A persistent memory service for coding agents that captures session activity, st
 - **Languages:** TypeScript, JavaScript
 - **License:** Apache-2.0
 - **Lifecycle:** Active
-- **GitHub stars:** 25,360
+- **GitHub stars:** 30,530
 
 **Key features**
 
@@ -549,11 +570,11 @@ An agent meta-harness for Claude Code and Codex that layers specialized agents, 
 - **Languages:** TypeScript, Rust
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 65,173
+- **GitHub stars:** 82,248
 
 **Key features**
 
-  - More than one hundred specialized agents for coding, testing, security, and documentation
+  - Specialized agents for coding, testing, security, and documentation
   - Swarm coordination with hierarchical, mesh, and adaptive topologies
   - Persistent HNSW-indexed AgentDB vector memory and self-learning components
 
@@ -570,7 +591,7 @@ An AI memory and context platform repository containing a hosted API, client int
 - **Languages:** TypeScript, Python
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 28,484
+- **GitHub stars:** 31,686
 
 **Key features**
 
@@ -587,11 +608,11 @@ A persistent-memory plugin for coding agents that captures session activity, cre
 - **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-thedotmack--claude-mem)
 - **Topics:** [AI Agents](../topics/ai-agents.md#repo-thedotmack--claude-mem) | [Agent Memory](../topics/agent-memory.md#repo-thedotmack--claude-mem) | [Coding Agents](../topics/coding-agents.md#repo-thedotmack--claude-mem) | [Context Engineering](../topics/context-engineering.md#repo-thedotmack--claude-mem) | [MCP](../topics/mcp.md#repo-thedotmack--claude-mem) | [Local First](../topics/local-first.md#repo-thedotmack--claude-mem) | [Search](../topics/search.md#repo-thedotmack--claude-mem) | [Developer Productivity](../topics/developer-productivity.md#repo-thedotmack--claude-mem)
 - **Kind:** Plugin
-- **Best for:** Claude Code users who want searchable continuity across coding sessions; Supported coding-agent users who need local project-memory retrieval
+- **Best for:** Coding-agent users who want searchable continuity across sessions with a supported host; Supported coding-agent users who need local project-memory retrieval
 - **Languages:** TypeScript, JavaScript
 - **License:** Apache-2.0
 - **Lifecycle:** Active
-- **GitHub stars:** 87,862
+- **GitHub stars:** 118,943
 
 **Key features**
 
@@ -603,7 +624,7 @@ A persistent-memory plugin for coding agents that captures session activity, cre
 
 ## [OpenHuman](https://github.com/tinyhumansai/openhuman)
 
-A local-first desktop personal-AI application combining persistent memory, agent orchestration, visual workflows, research tools, and integrations.
+An early-beta agent harness for desktop, terminal, headless, and embedded Rust use, with persistent memory, workflow graphs, tools, and integrations.
 
 - **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-tinyhumansai--openhuman)
 - **Topics:** [AI Agents](../topics/ai-agents.md#repo-tinyhumansai--openhuman) | [Agent Harnesses](../topics/agent-harnesses.md#repo-tinyhumansai--openhuman) | [Agent Memory](../topics/agent-memory.md#repo-tinyhumansai--openhuman) | [Agent Orchestration](../topics/agent-orchestration.md#repo-tinyhumansai--openhuman) | [Multi Agent](../topics/multi-agent.md#repo-tinyhumansai--openhuman) | [LLMs](../topics/llms.md#repo-tinyhumansai--openhuman) | [MCP](../topics/mcp.md#repo-tinyhumansai--openhuman) | [Local First](../topics/local-first.md#repo-tinyhumansai--openhuman) | [Desktop App](../topics/desktop-app.md#repo-tinyhumansai--openhuman) | [Web UI](../topics/web-ui.md#repo-tinyhumansai--openhuman) | [Automation](../topics/automation.md#repo-tinyhumansai--openhuman)
@@ -612,13 +633,13 @@ A local-first desktop personal-AI application combining persistent memory, agent
 - **Languages:** Rust, TypeScript, JavaScript
 - **License:** GPL-3.0
 - **Lifecycle:** Experimental
-- **GitHub stars:** 35,093
+- **GitHub stars:** 42,805
 
 **Key features**
 
-  - Builds local Memory Trees and an editable Obsidian-compatible Markdown vault
-  - Runs checkpointed agent graphs, sub-agent fleets, and replayable run journals
-  - Creates visual, trigger-driven workflows with approval gates for side effects
+  - Recalls relevant context from files, repositories, feeds, and apps through a configurable memory engine
+  - Runs checkpointed agent workflows and provides a Rust API for embedding agents
+  - Runs durable workflow graphs with cron, event, or manual triggers and approval steps
 
 <a id="repo-topoteretes--cognee"></a>
 
@@ -633,7 +654,7 @@ An open-source AI-memory platform that ingests data into a self-hosted knowledge
 - **Languages:** Python, TypeScript
 - **License:** Apache-2.0
 - **Lifecycle:** Active
-- **GitHub stars:** 28,454
+- **GitHub stars:** 33,457
 
 **Key features**
 
@@ -654,7 +675,7 @@ A TypeScript agent framework for building agents, multi-step workflows, tools, m
 - **Languages:** TypeScript
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 10,096
+- **GitHub stars:** 11,000
 
 **Key features**
 

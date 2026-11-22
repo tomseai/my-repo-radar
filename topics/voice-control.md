@@ -19,12 +19,12 @@ A self-hosted, cross-device control surface for running, monitoring, and coordin
 - **Kind:** Application
 - **Best for:** Developers coordinating several coding-agent tasks from desktop, mobile, or terminal; Running supported agent CLIs on a workstation or remote machine under local control
 - **Languages:** TypeScript, Ruby
-- **License:** AGPL-3.0-only
+- **License:** Apache-2.0
 - **Lifecycle:** Active
-- **GitHub stars:** 10,863
+- **GitHub stars:** 24,660
 
 **Key features**
 
-  - One interface for Claude Code, Codex, Copilot, OpenCode, and Pi
+  - One interface for Claude Code, Codex, Copilot, OpenCode, Pi, Antigravity, and Muse Code
   - Parallel agent execution with live terminal attachment and follow-up prompts
   - Desktop, mobile, web, and CLI clients connected to a local daemon

@@ -2,9 +2,9 @@ schema_version: 2
 repository_id: github:github/copilot-cli-for-beginners
 research:
   state: complete
-  source_commit: e17a4d293a5f0028abcf597cac2f6d473dd3d9a8
-  bundle_collected_at: 2026-07-19T20:43:11.228Z
-  researched_at: 2026-07-20T15:31:57.747Z
+  source_commit: fe3123f930b6318d1859c9636f94f5929877b076
+  bundle_collected_at: 2026-11-22T12:09:33.228Z
+  researched_at: 2026-11-22T12:18:43.417Z
   confidence: high
 classification:
   primary_category: documentation-and-learning
@@ -33,7 +33,8 @@ project:
     - Developers and students who are new to AI-assisted terminal workflows
     - Teams standardizing GitHub Copilot CLI development and review practices
 key_features:
-  - Eight progressive chapters from installation through complete feature workflows
+  - Eight progressive chapters from installation through complete feature
+    workflows
   - Runnable terminal examples and assignments in every chapter
   - A single Python book collection application used throughout the learning path
   - Lessons for code review, debugging, and test generation
@@ -61,7 +62,8 @@ technology:
 license:
   spdx: MIT
   name: MIT License
-  notes: Requires preservation of the copyright and permission notice; provided without warranty.
+  notes: Requires preservation of the copyright and permission notice; provided
+    without warranty.
 status:
   lifecycle: active
   archived: false
@@ -70,14 +72,18 @@ status:
 strengths:
   - Provides a clear progressive path from installation to integrated workflows
   - Pairs concepts with runnable terminal examples and assignments
-  - Covers practical custom-agent, skill, and MCP extensions beyond basic prompting
+  - Covers practical custom-agent, skill, and MCP extensions beyond basic
+    prompting
 caveats:
-  - Requires a GitHub account, Copilot access, and familiarity with basic terminal commands
-  - The repository's sample code is designed for specific instructional output, and changes to that code are not accepted
-  - It teaches GitHub Copilot CLI rather than providing a standalone local AI agent
+  - Requires a GitHub account, Copilot access, and familiarity with basic
+    terminal commands
+  - The repository's sample code is designed for specific instructional output,
+    and changes to that code are not accepted
+  - It teaches GitHub Copilot CLI rather than providing a standalone local AI
+    agent
   - The retained release feed has no published release entries
 sources:
-  - https://raw.githubusercontent.com/github/copilot-cli-for-beginners/e17a4d293a5f0028abcf597cac2f6d473dd3d9a8/README.md
-  - https://raw.githubusercontent.com/github/copilot-cli-for-beginners/e17a4d293a5f0028abcf597cac2f6d473dd3d9a8/LICENSE
-  - https://raw.githubusercontent.com/github/copilot-cli-for-beginners/e17a4d293a5f0028abcf597cac2f6d473dd3d9a8/samples/agents/README.md
+  - https://raw.githubusercontent.com/github/copilot-cli-for-beginners/fe3123f930b6318d1859c9636f94f5929877b076/README.md
+  - https://raw.githubusercontent.com/github/copilot-cli-for-beginners/fe3123f930b6318d1859c9636f94f5929877b076/LICENSE
+  - https://raw.githubusercontent.com/github/copilot-cli-for-beginners/fe3123f930b6318d1859c9636f94f5929877b076/samples/agents/README.md
   - https://github.com/github/copilot-cli-for-beginners/releases.atom

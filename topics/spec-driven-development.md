@@ -2,17 +2,17 @@
 
 # Spec Driven Development
 
-[Back to the main catalog](../README.md) | **5 repositories**
+[Back to the main catalog](../README.md) | **12 repositories**
 
 ## Primary categories represented
 
-- [AI and Automation](../categories/ai-and-automation.md) (5)
+- [AI and Automation](../categories/ai-and-automation.md) (12)
 
 <a id="repo-addyosmani--agent-skills"></a>
 
 ## [Agent Skills](https://github.com/addyosmani/agent-skills)
 
-An MIT-licensed pack of 24 structured engineering-workflow skills, agent personas, checklists, and lifecycle commands for AI coding agents.
+An MIT-licensed engineering workflow pack with 26 reusable agent skills, specialist review personas, shared checklists, and host-specific lifecycle commands.
 
 - **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-addyosmani--agent-skills)
 - **Topics:** [AI Agents](../topics/ai-agents.md#repo-addyosmani--agent-skills) | [Coding Agents](../topics/coding-agents.md#repo-addyosmani--agent-skills) | [Agent Skills](../topics/agent-skills.md#repo-addyosmani--agent-skills) | [Agent Governance](../topics/agent-governance.md#repo-addyosmani--agent-skills) | [Spec Driven Development](../topics/spec-driven-development.md#repo-addyosmani--agent-skills) | [Testing](../topics/testing.md#repo-addyosmani--agent-skills) | [Code Review](../topics/code-review.md#repo-addyosmani--agent-skills) | [Developer Productivity](../topics/developer-productivity.md#repo-addyosmani--agent-skills)
@@ -21,19 +21,61 @@ An MIT-licensed pack of 24 structured engineering-workflow skills, agent persona
 - **Languages:** JavaScript
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 79,292
+- **GitHub stars:** 119,672
 
 **Key features**
 
-  - 24 skills covering definition, planning, implementation, verification, review, and shipping workflows
-  - Eight lifecycle slash commands that activate related skills, including spec, plan, build, test, review, and ship
-  - Four specialist review personas for code review, testing, security, and web performance
+  - 26 skills covering specification, planning, implementation, verification, review, shipping, and skill selection
+  - Lifecycle commands through supported host adapters, including 10 command wrappers for Claude Code and Gemini CLI
+  - Five specialist personas and seven shared reference checklists
+
+<a id="repo-addyosmani--factory"></a>
+
+## [Factory](https://github.com/addyosmani/factory)
+
+A reference software-factory template and installer that adds a repository-owned, human-governed delivery loop for Claude Code and Codex, using GitHub issues and pull requests as the queue, deterministic gates, independent verification, and human merge authority.
+
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-addyosmani--factory)
+- **Topics:** [Coding Agents](../topics/coding-agents.md#repo-addyosmani--factory) | [Agent Harnesses](../topics/agent-harnesses.md#repo-addyosmani--factory) | [Agent Orchestration](../topics/agent-orchestration.md#repo-addyosmani--factory) | [Agent Governance](../topics/agent-governance.md#repo-addyosmani--factory) | [Agent Skills](../topics/agent-skills.md#repo-addyosmani--factory) | [Task Planning](../topics/task-planning.md#repo-addyosmani--factory) | [Spec Driven Development](../topics/spec-driven-development.md#repo-addyosmani--factory) | [Code Review](../topics/code-review.md#repo-addyosmani--factory) | [Testing](../topics/testing.md#repo-addyosmani--factory) | [GitHub](../topics/github.md#repo-addyosmani--factory) | [Automation](../topics/automation.md#repo-addyosmani--factory) | [Developer Productivity](../topics/developer-productivity.md#repo-addyosmani--factory)
+- **Kind:** Starter Template
+- **Best for:** Teams introducing bounded coding-agent automation into an existing GitHub repository; Projects that need version-controlled agent policy, durable handoffs, and review back-pressure
+- **Languages:** Shell, Markdown
+- **License:** MIT
+- **Lifecycle:** Active
+- **GitHub stars:** 374
+
+**Key features**
+
+  - Installs a shared charter, contract, queue protocol, gates, run records, and Claude Code and Codex workflow adapters
+  - Routes issues through triage, specification, implementation, independent review, pull-request verification, and monitoring
+  - Runs fail-closed type, lint, test, build, audit, mutation, and architecture gates at configurable levels
+
+<a id="repo-aiblueprinthq--ai-blueprint"></a>
+
+## [AI Blueprint](https://github.com/aiblueprinthq/ai-blueprint)
+
+A file-backed, spec-driven workflow overlay for building existing software projects with coding agents through reviewed specs, small implementation steps, explicit verification, durable findings, and controlled completion.
+
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-aiblueprinthq--ai-blueprint)
+- **Topics:** [Coding Agents](../topics/coding-agents.md#repo-aiblueprinthq--ai-blueprint) | [Agent Skills](../topics/agent-skills.md#repo-aiblueprinthq--ai-blueprint) | [Spec Driven Development](../topics/spec-driven-development.md#repo-aiblueprinthq--ai-blueprint) | [Task Planning](../topics/task-planning.md#repo-aiblueprinthq--ai-blueprint) | [Context Engineering](../topics/context-engineering.md#repo-aiblueprinthq--ai-blueprint) | [Code Review](../topics/code-review.md#repo-aiblueprinthq--ai-blueprint) | [Testing](../topics/testing.md#repo-aiblueprinthq--ai-blueprint) | [Agent Governance](../topics/agent-governance.md#repo-aiblueprinthq--ai-blueprint) | [Git](../topics/git.md#repo-aiblueprinthq--ai-blueprint) | [GitHub](../topics/github.md#repo-aiblueprinthq--ai-blueprint) | [Automation](../topics/automation.md#repo-aiblueprinthq--ai-blueprint)
+- **Kind:** Starter Template
+- **Best for:** Developers who want structured human checkpoints around AI-assisted implementation; Existing or newly scaffolded repositories that need durable agent context outside chat
+- **Languages:** JavaScript, Markdown
+- **License:** MIT
+- **Lifecycle:** Active
+- **GitHub stars:** 516
+
+**Key features**
+
+  - Generates project context and feature specifications from user-owned planning documents
+  - Keeps one active work item and archives completed features, fixes, and rollbacks
+  - Provides skills for planning, implementation, checks, audits, completion, CI, and releases
 
 <a id="repo-bmad-code-org--bmad-method"></a>
 
 ## [BMad Method](https://github.com/bmad-code-org/BMAD-METHOD)
 
-An AI-assisted software-development framework that installs specialized agent skills and guided workflows for taking a project from analysis and planning through architecture, implementation, and deployment.
+An AI-assisted software development method with agent skills and workflows for planning, architecture, implementation, and change delivery.
 
 - **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-bmad-code-org--bmad-method)
 - **Topics:** [Coding Agents](../topics/coding-agents.md#repo-bmad-code-org--bmad-method) | [Agent Skills](../topics/agent-skills.md#repo-bmad-code-org--bmad-method) | [Task Planning](../topics/task-planning.md#repo-bmad-code-org--bmad-method) | [Spec Driven Development](../topics/spec-driven-development.md#repo-bmad-code-org--bmad-method) | [Multi Agent](../topics/multi-agent.md#repo-bmad-code-org--bmad-method) | [CLI](../topics/cli.md#repo-bmad-code-org--bmad-method) | [Developer Productivity](../topics/developer-productivity.md#repo-bmad-code-org--bmad-method)
@@ -42,19 +84,40 @@ An AI-assisted software-development framework that installs specialized agent sk
 - **Languages:** JavaScript, Python
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 50,816
+- **GitHub stars:** 55,620
 
 **Key features**
 
-  - Four-phase workflow spanning analysis, planning, solutioning, and implementation
-  - Planning tracks for quick fixes, product work, and enterprise-oriented projects
-  - Specialized agent skills plus bmad-help for context-aware workflow guidance
+  - Guided workflows for planning requirements, user experience, architecture, and implementation
+  - Specialized agent skills with context-sensitive help
+  - Modular installation with official domain-specific extensions
+
+<a id="repo-coleam00--skills"></a>
+
+## [Cole's AI Skills](https://github.com/coleam00/skills)
+
+A portable collection of coding-agent skills and optional Claude Code hooks for a prime-plan-implement-validate-review delivery loop, parallel worktrees, project guidance, and building a reusable AI workflow layer.
+
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-coleam00--skills)
+- **Topics:** [Agent Skills](../topics/agent-skills.md#repo-coleam00--skills) | [Coding Agents](../topics/coding-agents.md#repo-coleam00--skills) | [Task Planning](../topics/task-planning.md#repo-coleam00--skills) | [Spec Driven Development](../topics/spec-driven-development.md#repo-coleam00--skills) | [Context Engineering](../topics/context-engineering.md#repo-coleam00--skills) | [Worktrees](../topics/worktrees.md#repo-coleam00--skills) | [Testing](../topics/testing.md#repo-coleam00--skills) | [Code Review](../topics/code-review.md#repo-coleam00--skills) | [Automation](../topics/automation.md#repo-coleam00--skills)
+- **Kind:** Plugin
+- **Best for:** Developers who want editable, reusable instructions for an end-to-end coding-agent workflow; Teams standardizing planning, validation, review, worktrees, hooks, and agent context across repositories
+- **Languages:** Markdown, Python, Shell
+- **License:** MIT
+- **Lifecycle:** Active
+- **GitHub stars:** 780
+
+**Key features**
+
+  - Plain-Markdown skills spanning codebase priming, product and architecture planning, implementation, validation, review, commits, and pull requests
+  - A composable PIV loop that can run skill by skill or through one end-to-end orchestration skill
+  - Worktree skills for preparing parallel branches and merging them through an integration branch
 
 <a id="repo-fission-ai--openspec"></a>
 
 ## [OpenSpec](https://github.com/Fission-AI/OpenSpec)
 
-A Node.js CLI and coding-agent workflow for keeping Markdown specifications and change artifacts alongside code before and during implementation.
+A CLI and coding-agent workflow for keeping Markdown specifications and change artifacts alongside code before and during implementation.
 
 - **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-fission-ai--openspec)
 - **Topics:** [Coding Agents](../topics/coding-agents.md#repo-fission-ai--openspec) | [Spec Driven Development](../topics/spec-driven-development.md#repo-fission-ai--openspec) | [Task Planning](../topics/task-planning.md#repo-fission-ai--openspec) | [Context Engineering](../topics/context-engineering.md#repo-fission-ai--openspec) | [CLI](../topics/cli.md#repo-fission-ai--openspec) | [Documentation](../topics/documentation.md#repo-fission-ai--openspec) | [Developer Productivity](../topics/developer-productivity.md#repo-fission-ai--openspec)
@@ -63,13 +126,34 @@ A Node.js CLI and coding-agent workflow for keeping Markdown specifications and 
 - **Languages:** TypeScript
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 61,593
+- **GitHub stars:** 75,443
 
 **Key features**
 
   - Project specs expressed as Markdown requirements and concrete scenarios
   - Per-change proposal, design, task, and delta-spec artifacts
   - Explore, propose, apply, and archive coding-agent command workflow
+
+<a id="repo-garciaalan186--squeaky-clean"></a>
+
+## [Squeaky Clean](https://github.com/garciaalan186/squeaky-clean)
+
+An agentic code-generation and architecture-recovery CLI that turns a declarative ProblemSpec into Clean-Architecture applications by orchestrating parallel, pattern-specialized agents through the compact Squib architecture DSL.
+
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-garciaalan186--squeaky-clean)
+- **Topics:** [Coding Agents](../topics/coding-agents.md#repo-garciaalan186--squeaky-clean) | [Agent Orchestration](../topics/agent-orchestration.md#repo-garciaalan186--squeaky-clean) | [Parallel Agents](../topics/parallel-agents.md#repo-garciaalan186--squeaky-clean) | [Code Generation](../topics/code-generation.md#repo-garciaalan186--squeaky-clean) | [Spec Driven Development](../topics/spec-driven-development.md#repo-garciaalan186--squeaky-clean) | [CLI](../topics/cli.md#repo-garciaalan186--squeaky-clean) | [LLMs](../topics/llms.md#repo-garciaalan186--squeaky-clean) | [Evaluation](../topics/evaluation.md#repo-garciaalan186--squeaky-clean) | [Testing](../topics/testing.md#repo-garciaalan186--squeaky-clean) | [Developer Productivity](../topics/developer-productivity.md#repo-garciaalan186--squeaky-clean)
+- **Kind:** CLI
+- **Best for:** Generating backend applications from explicit requirements while enforcing Clean Architecture boundaries; Experimenting with cost-tiered parallel coding-agent pipelines and reproducible evaluations
+- **Languages:** Python
+- **License:** Apache-2.0
+- **Lifecycle:** Experimental
+- **GitHub stars:** 25
+
+**Key features**
+
+  - Generates buildable application projects from a declarative JSON ProblemSpec
+  - Uses a validated Squib architecture DSL between model tiers
+  - Runs pattern-specialized implementation agents in parallel across 34 GoF and DDD/Clean patterns
 
 <a id="repo-github--spec-kit"></a>
 
@@ -84,13 +168,76 @@ A Python CLI and template toolkit that initializes a repeatable spec-driven-deve
 - **Languages:** Python
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 122,241
+- **GitHub stars:** 150,985
 
 **Key features**
 
   - Specify CLI initializes project-local templates, workflows, and coding-agent integrations
   - Core agent commands cover constitution, specification, clarification, planning, tasks, analysis, implementation, and convergence
   - Integration management can list, install, switch, upgrade, and report managed integration state
+
+<a id="repo-intent-hq--intent"></a>
+
+## [Intent](https://github.com/intent-hq/intent)
+
+A local-first workspace where specialist coding agents plan work in specifications and delegate tasks to agents running in parallel on local or cloud machines.
+
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-intent-hq--intent)
+- **Topics:** [Coding Agents](../topics/coding-agents.md#repo-intent-hq--intent) | [Agent Orchestration](../topics/agent-orchestration.md#repo-intent-hq--intent) | [Multi Agent](../topics/multi-agent.md#repo-intent-hq--intent) | [Parallel Agents](../topics/parallel-agents.md#repo-intent-hq--intent) | [Spec Driven Development](../topics/spec-driven-development.md#repo-intent-hq--intent) | [Local First](../topics/local-first.md#repo-intent-hq--intent) | [MCP](../topics/mcp.md#repo-intent-hq--intent) | [Desktop App](../topics/desktop-app.md#repo-intent-hq--intent) | [Web UI](../topics/web-ui.md#repo-intent-hq--intent)
+- **Kind:** Monorepo
+- **Best for:** Teams coordinating coding agents across a shared repository
+- **Languages:** Rust, JavaScript, Swift
+- **License:** Apache-2.0
+- **Lifecycle:** Active
+- **GitHub stars:** 463
+
+**Key features**
+
+  - Specialist agents plan, delegate, and review work
+  - Supports Claude Code, Codex, Cursor, OpenCode, and local models
+  - Isolated workspace checkouts and branches
+
+<a id="repo-levi-qiao--longgraph-skill"></a>
+
+## [longgraph](https://github.com/levi-qiao/longgraph-skill)
+
+A portable Markdown skill and prompt library that compiles durable executor-supervisor graphs for long-running agent work, with file-backed progress, independent verification, and host-switchable continuation.
+
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-levi-qiao--longgraph-skill)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-levi-qiao--longgraph-skill) | [Agent Skills](../topics/agent-skills.md#repo-levi-qiao--longgraph-skill) | [Agent Orchestration](../topics/agent-orchestration.md#repo-levi-qiao--longgraph-skill) | [Multi Agent](../topics/multi-agent.md#repo-levi-qiao--longgraph-skill) | [Parallel Agents](../topics/parallel-agents.md#repo-levi-qiao--longgraph-skill) | [Agent Governance](../topics/agent-governance.md#repo-levi-qiao--longgraph-skill) | [Task Planning](../topics/task-planning.md#repo-levi-qiao--longgraph-skill) | [Spec Driven Development](../topics/spec-driven-development.md#repo-levi-qiao--longgraph-skill) | [Context Engineering](../topics/context-engineering.md#repo-levi-qiao--longgraph-skill) | [Prompt Engineering](../topics/prompt-engineering.md#repo-levi-qiao--longgraph-skill) | [Automation](../topics/automation.md#repo-levi-qiao--longgraph-skill)
+- **Kind:** Plugin
+- **Best for:** Multi-hour or multi-milestone agent tasks that outlive one context window; Teams needing a durable task queue, independent verification, and explicit acceptance gates
+- **Languages:** Markdown, Shell
+- **License:** MIT
+- **Lifecycle:** Active
+- **GitHub stars:** 79
+
+**Key features**
+
+  - Stores the task queue and progress in a single-writer ledger outside chat history
+  - Separates execution from clean-context supervision through a one-way directive edge
+  - Compiles focused delivery, convergence, research, or custom graph runs
+
+<a id="repo-open-gsd--gsd-core"></a>
+
+## [GSD Core](https://github.com/open-gsd/gsd-core)
+
+A multi-runtime context-engineering and spec-driven development framework that guides coding agents through discuss, plan, parallel execution, verification, and shipping phases while moving heavy work into fresh subagent contexts.
+
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-open-gsd--gsd-core)
+- **Topics:** [Coding Agents](../topics/coding-agents.md#repo-open-gsd--gsd-core) | [Agent Frameworks](../topics/agent-frameworks.md#repo-open-gsd--gsd-core) | [Agent Orchestration](../topics/agent-orchestration.md#repo-open-gsd--gsd-core) | [Multi Agent](../topics/multi-agent.md#repo-open-gsd--gsd-core) | [Parallel Agents](../topics/parallel-agents.md#repo-open-gsd--gsd-core) | [Agent Skills](../topics/agent-skills.md#repo-open-gsd--gsd-core) | [Spec Driven Development](../topics/spec-driven-development.md#repo-open-gsd--gsd-core) | [Context Engineering](../topics/context-engineering.md#repo-open-gsd--gsd-core) | [Task Planning](../topics/task-planning.md#repo-open-gsd--gsd-core) | [Code Review](../topics/code-review.md#repo-open-gsd--gsd-core) | [Testing](../topics/testing.md#repo-open-gsd--gsd-core) | [MCP](../topics/mcp.md#repo-open-gsd--gsd-core) | [Pull Requests](../topics/pull-requests.md#repo-open-gsd--gsd-core) | [Developer Productivity](../topics/developer-productivity.md#repo-open-gsd--gsd-core)
+- **Kind:** Framework
+- **Best for:** Developers running multi-phase software projects with coding agents; Teams that need durable project state and repeatable planning, execution, and verification loops
+- **Languages:** JavaScript, TypeScript
+- **License:** MIT
+- **Lifecycle:** Active
+- **GitHub stars:** 11,768
+
+**Key features**
+
+  - Runs a repeatable discuss, plan, execute, verify, and ship loop for each milestone phase
+  - Uses fresh-context subagents for research, planning, and parallel execution waves
+  - Preserves cross-session state in structured project, context, and status artifacts
 
 <a id="repo-shep-ai--shep"></a>
 
@@ -105,10 +252,10 @@ A local-first orchestrator that runs parallel coding agents in isolated Git work
 - **Languages:** TypeScript
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 233
+- **GitHub stars:** 282
 
 **Key features**
 
   - Isolated Git worktree and branch for every feature
-  - Built-in Claude Code, Cursor CLI, and Gemini CLI support plus a generic terminal-agent executor
+  - Built-in support for Claude Code, Kimi Code, Codex CLI, Copilot CLI, Cursor CLI, Gemini CLI, and Cline, plus a generic terminal-agent executor
   - Default prompt-to-implementation-to-draft-PR workflow with configurable CI retry fixes

@@ -2,9 +2,9 @@ schema_version: 2
 repository_id: github:code-yeongyu/oh-my-openagent
 research:
   state: complete
-  source_commit: 242b1c1fcaf191f070e40b48b78b8b5b59ee9502
-  bundle_collected_at: 2026-07-19T20:42:16.689Z
-  researched_at: 2026-07-20T00:40:00Z
+  source_commit: 7e0921df8ae2e0323a7079fe40bc55b39473a8a2
+  bundle_collected_at: 2026-11-22T12:09:18.635Z
+  researched_at: 2026-11-22T12:23:21.745Z
   confidence: high
 classification:
   primary_category: ai-and-automation
@@ -20,28 +20,28 @@ classification:
     - codebase-indexing
 project:
   name: oh-my-openagent
-  kind: plugin
-  summary: >-
-    An extension suite for OpenCode and Codex CLI that supplies agent workflow,
-    tool, rule, and skill components in two differently scoped editions.
+  kind: cli
+  summary: A coding-agent CLI built on the senpi fork of Pi that combines persistent
+    Markdown memory, model routing, and project workflows. The repository also
+    contains OpenCode and Codex components.
   best_for:
-    - OpenCode users who want an integrated coding-agent harness with team-mode tooling
-    - Codex CLI users who want the documented portable rules, LSP, MCP, and workflow components
+    - Developers who want a terminal agent with persistent project memory and
+      multiple model providers
+    - Users migrating settings from the earlier OpenCode or LazyCodex editions
 key_features:
-  - The OpenCode Ultimate edition includes 11 agents, lifecycle hooks, built-in MCPs, slash commands, and opt-in Team Mode
-  - The Codex CLI Light edition provides rules, comment checking, Git Bash, LSP, ultrawork, continuation, telemetry, and plugin-scoped MCP components
-  - Team Mode lets a lead coordinate up to eight parallel members through dedicated team tools and a tmux view
-  - Hashline edits attach content hashes to read lines and reject edits when the file changed since the read
+  - Runs coding tasks through an interactive CLI powered by senpi
+  - Keeps agent memory as Markdown in a Git repository and uses a secondary model to
+    retrieve relevant context
+  - Offers configurable model providers, sign-in, and reasoning levels
+  - Imports provider settings, MCP servers, skills, and model choices from earlier
+    editions
 usage:
   interfaces:
-    - OpenCode plugin
-    - Codex CLI plugin
-    - Command-line installer
-    - tmux team visualization
+    - CLI
+    - OpenCode and Codex plugin components
   installation:
-    - bunx oh-my-openagent install
-    - npx lazycodex-ai install
-    - bunx oh-my-openagent install --platform=both
+    - documented OmO installer script
+    - source workspace build with Bun
   setup: high
 technology:
   languages:
@@ -55,27 +55,30 @@ technology:
 license:
   spdx: SUL-1.0
   name: Sustainable Use License 1.0
-  notes: >-
-    Repository content outside third-party components is under SUL-1.0; it permits
+  notes: Repository content outside third-party components is under SUL-1.0; it permits
     internal-business, non-commercial, and personal use but restricts commercial
     distribution and requires notices. Incorporated third-party components retain
     their original licenses.
 status:
   lifecycle: active
   archived: false
-  latest_release: v4.19.0
-  latest_release_at: 2026-07-17
+  latest_release: v5.1.81
+  latest_release_at: 2026-11-21
 strengths:
-  - Separates a full OpenCode-oriented harness from a lighter Codex CLI integration rather than presenting their capabilities as identical
-  - Combines orchestration, code-navigation, search, rules, skills, and workflow features in the documented editions
-  - Publishes an install path for each edition and for installing both together
+  - Combines cross-session Markdown memory and model selection in the same workflow
+  - Provides a migration path from earlier editions with existing custom providers
+    and skills
 caveats:
-  - The README says a multi-harness refactor is in progress, so component boundaries and supported harnesses are changing
-  - Full OpenCode setup includes provider authentication and model selection; the Codex installer can also configure autonomous full-permissions mode
-  - Anonymous telemetry is enabled by default, although the README documents configuration and environment-variable opt-outs
-  - The package and CLI retain oh-my-opencode names during the oh-my-openagent rename transition
+  - The default documentation now describes the senpi CLI; OpenCode and Codex
+    components remain in the monorepo
+  - Model use requires provider credentials or a supported subscription
+  - The root package retains the oh-my-opencode name
+  - The root license restricts commercial distribution and leaves third-party license
+    terms in place
 sources:
-  - https://raw.githubusercontent.com/code-yeongyu/oh-my-openagent/242b1c1fcaf191f070e40b48b78b8b5b59ee9502/README.md
-  - https://raw.githubusercontent.com/code-yeongyu/oh-my-openagent/242b1c1fcaf191f070e40b48b78b8b5b59ee9502/LICENSE.md
-  - https://raw.githubusercontent.com/code-yeongyu/oh-my-openagent/242b1c1fcaf191f070e40b48b78b8b5b59ee9502/package.json
+  - https://raw.githubusercontent.com/code-yeongyu/oh-my-openagent/7e0921df8ae2e0323a7079fe40bc55b39473a8a2/README.md
+  - https://raw.githubusercontent.com/code-yeongyu/oh-my-openagent/7e0921df8ae2e0323a7079fe40bc55b39473a8a2/LICENSE.md
+  - https://raw.githubusercontent.com/code-yeongyu/oh-my-openagent/7e0921df8ae2e0323a7079fe40bc55b39473a8a2/package.json
   - https://github.com/code-yeongyu/oh-my-openagent/releases.atom
+  - https://github.com/code-yeongyu/oh-my-openagent/releases/tag/v5.1.81
+  - https://raw.githubusercontent.com/code-yeongyu/oh-my-openagent/7e0921df8ae2e0323a7079fe40bc55b39473a8a2/CONTRIBUTING.md

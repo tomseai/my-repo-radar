@@ -1,0 +1,97 @@
+analysis:
+  analyzed_at: 2026-09-16T15:45:00.000Z
+  classification:
+    primary_category: ai-and-automation
+    state: confirmed
+    technologies:
+      - typescript
+      - python
+      - react
+      - postgres
+      - docker
+    topics:
+      - ai-agents
+      - agent-governance
+      - agent-protocols
+      - computer-use
+      - browser-automation
+      - tool-use
+      - mcp
+      - agent-skills
+      - generative-ui
+      - chat-ui
+      - self-hosted
+      - sandboxing
+      - automation
+    use_cases:
+      - build-ai-products
+      - run-personal-or-team-tools
+      - secure-software
+  evidence:
+    - claim: A self-hosted template for governed AI coworkers with isolated computers,
+        AG-UI agents, tools, and audit trails.
+      source_type: repository-file
+      url: https://raw.githubusercontent.com/CopilotKit/OpenBot/93bb0d122bb43ca5a83d50797ee45f2e4cbae483/README.md
+      checked_at: 2026-09-16
+      confidence: high
+  state: complete
+  summary:
+    one_line: A self-hosted template for governed AI coworkers with isolated
+      computers, AG-UI agents, tools, and audit trails.
+    why_useful: Teams building self-hosted AI coworkers that operate browsers,
+      files, and external tools
+curation:
+  confidence: null
+  evidence: []
+  limitations: []
+  recommendation: null
+  reviewed_at: null
+  state: uncurated
+  strengths: []
+  verdict: null
+id: github:CopilotKit/OpenBot
+import:
+  github_snapshot:
+    archived: false
+    created_at: 2026-08-17T00:44:59Z
+    default_branch: main
+    description: "The open, self-hostable alternative to closed AI bots.
+      Production-ready, fully customizable, and plugs into every stack: any
+      agent, any model, any tool."
+    disabled: false
+    fetched_at: 2026-11-22T12:07:00.148Z
+    fork: false
+    forks: 1649
+    homepage: https://open.bot
+    latest_release:
+      tag: v1.1.2
+      published_at: 2026-11-20T13:45:59Z
+      url: https://github.com/CopilotKit/OpenBot/releases/tag/v1.1.2
+    license_spdx: MIT
+    open_issues: 161
+    primary_language: TypeScript
+    pushed_at: 2026-11-22T10:23:16Z
+    stars: 13167
+    topics:
+      - ag-ui
+      - agent-governance
+      - ai-agents
+      - browser-automation
+      - copilotkit
+      - generative-ui
+      - mcp
+    updated_at: 2026-11-22T11:32:48Z
+  sources:
+    - observed_at: 2026-09-06T20:49:48Z
+      relation: starred
+      source_id: github:user:tomseai:stars
+      source_url: https://github.com/tomseai?tab=stars
+  state: refreshed
+repository:
+  aliases: []
+  github_node_id: R_kgDOT6ln0w
+  host: github.com
+  name: OpenBot
+  owner: CopilotKit
+  url: https://github.com/CopilotKit/OpenBot
+version: 1

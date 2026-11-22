@@ -1,0 +1,55 @@
+schema_version: 2
+repository_id: github:hegeldev/hegel-typescript
+research:
+  state: complete
+  source_commit: a246ed19c7155944f0c2bd170c55ae368525250b
+  bundle_collected_at: 2026-11-22T11:27:13.874Z
+  researched_at: 2026-11-22T12:18:43.417Z
+  confidence: medium
+classification:
+  primary_category: testing-and-quality
+  topics: [ testing, libraries, reference ]
+project:
+  name: Hegel for TypeScript
+  kind: documentation
+  summary: The former home of Hegel for TypeScript, a property-based testing
+    library now maintained in the Hegel monorepo.
+  best_for:
+    [
+      Finding the TypeScript library for testing properties with generated
+        inputs
+    ]
+key_features:
+  - The library supplies composable generators for test inputs
+  - Failing examples are shrunk and can be replayed
+  - Stateful tests can exercise generated operation sequences
+  - The starred repository indexes the new source location and historical tags
+usage:
+  interfaces: [ TypeScript library, online documentation ]
+  installation: [ npm development dependency ]
+  setup: low
+technology:
+  languages: [ TypeScript ]
+  notable_components: [ libhegel, WebAssembly browser backend ]
+license:
+  spdx: MIT
+  name: MIT License
+  notes: MIT applies to the reviewed starred repository.
+status:
+  lifecycle: deprecated
+  archived: false
+  latest_release: v0.4.10
+  latest_release_at: 2026-10-14
+strengths:
+  - The move preserves the npm package name and gives existing users a direct
+    link to the active source
+  - Counterexample shrinking and replay help reproduce failures
+caveats:
+  - Active development and new package releases are in the destination monorepo
+  - The newest tag retained here is the historical v0.4.10
+sources:
+  - https://raw.githubusercontent.com/hegeldev/hegel-typescript/a246ed19c7155944f0c2bd170c55ae368525250b/README.md
+  - https://raw.githubusercontent.com/hegeldev/hegel-typescript/a246ed19c7155944f0c2bd170c55ae368525250b/LICENSE
+  - https://hegel.dev/typescript
+  - https://github.com/hegeldev/hegel-typescript/releases.atom
+  - https://github.com/hegeldev/hegel-typescript/releases/tag/v0.4.10

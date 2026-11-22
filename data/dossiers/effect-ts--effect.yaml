@@ -2,9 +2,9 @@ schema_version: 2
 repository_id: github:Effect-TS/effect
 research:
   state: complete
-  source_commit: 6dc83f26ddf20d48db28cf761dd8f3716e5273fb
-  bundle_collected_at: 2026-07-19T20:42:47.394Z
-  researched_at: 2026-07-20T17:23:40.1774179+02:00
+  source_commit: dd5f2f322fbad042a3a186cef593bf42affe5ce9
+  bundle_collected_at: 2026-11-22T12:09:27.653Z
+  researched_at: 2026-11-22T12:23:54Z
   confidence: high
 
 classification:
@@ -23,23 +23,28 @@ project:
     production-grade applications, centered on the Effect package and companion
     packages for platform, testing, observability, SQL, AI, and UI integrations.
   best_for:
-    - TypeScript applications that need a shared foundation for typed application concerns
-    - Teams adopting the Effect package ecosystem across Node.js, Bun, or browser targets
+    - TypeScript applications that need a shared foundation for typed
+      application concerns
+    - Teams adopting the Effect package ecosystem across Node.js, Bun, or
+      browser targets
 
 key_features:
-  - The primary effect package is presented as a TypeScript standard-library foundation for production software
+  - The primary effect package is presented as a TypeScript standard-library
+    foundation for production software
   - A dedicated testing module is exported from the primary package
-  - Unstable primary-package exports cover AI, CLI, cluster, HTTP, observability, persistence, RPC, schema, SQL, workflow, and workers
-  - Companion packages target Node.js, Bun, browser, OpenTelemetry, and Vitest integrations
-  - Provider-specific AI packages are included for Anthropic, OpenAI, and OpenRouter
+  - Primary-package exports cover AI, CLI, cluster, HTTP, observability,
+    persistence, RPC, schema, SQL, workflow, and workers
+  - Companion packages target Node.js, Bun, browser, OpenTelemetry, and Vitest
+    integrations
+  - Provider-specific AI packages are included for Anthropic, OpenAI, and
+    OpenRouter
 
 usage:
   interfaces:
     - TypeScript package imports
     - npm packages
   installation:
-    - npm install effect@beta for Effect v4 beta
-    - npm install effect@latest for Effect v3
+    - npm install effect for Effect v4
   setup: low
 
 technology:
@@ -57,22 +62,24 @@ license:
 status:
   lifecycle: active
   archived: false
-  latest_release: null
-  latest_release_at: null
+  latest_release: effect@4.1.5
+  latest_release_at: 2026-11-20
 
 strengths:
-  - Provides a core package plus companion integrations from one TypeScript monorepo
-  - Explicit package exports make stable and unstable entry points distinguishable
+  - Provides a core package plus companion integrations from one TypeScript
+    monorepo
+  - Explicit package exports expose focused functionality through separate
+    entry points
   - Supports multiple JavaScript runtime targets and common tooling integrations
 
 caveats:
-  - The main branch and newest retained primary-package release are Effect v4 beta; the feed does not establish the latest stable Effect v3 release, so release fields remain unset
-  - Several capabilities are explicitly exported under unstable paths
-  - Effect v3 remains on a separate branch and uses a different installation channel
+  - Effect v4 is described as a long-term support release; upgrading from v3
+    requires reviewing the migration guide
 
 sources:
-  - https://raw.githubusercontent.com/Effect-TS/effect/6dc83f26ddf20d48db28cf761dd8f3716e5273fb/README.md
-  - https://raw.githubusercontent.com/Effect-TS/effect/6dc83f26ddf20d48db28cf761dd8f3716e5273fb/LICENSE
-  - https://raw.githubusercontent.com/Effect-TS/effect/6dc83f26ddf20d48db28cf761dd8f3716e5273fb/package.json
-  - https://raw.githubusercontent.com/Effect-TS/effect/6dc83f26ddf20d48db28cf761dd8f3716e5273fb/packages/effect/package.json
+  - https://raw.githubusercontent.com/Effect-TS/effect/dd5f2f322fbad042a3a186cef593bf42affe5ce9/README.md
+  - https://raw.githubusercontent.com/Effect-TS/effect/dd5f2f322fbad042a3a186cef593bf42affe5ce9/LICENSE
+  - https://raw.githubusercontent.com/Effect-TS/effect/dd5f2f322fbad042a3a186cef593bf42affe5ce9/package.json
+  - https://raw.githubusercontent.com/Effect-TS/effect/dd5f2f322fbad042a3a186cef593bf42affe5ce9/packages/effect/package.json
   - https://github.com/Effect-TS/effect/releases.atom
+  - https://github.com/Effect-TS/effect/releases/tag/effect%404.1.5

@@ -1,0 +1,86 @@
+analysis:
+  analyzed_at: "2026-08-15T13:05:00.000Z"
+  classification:
+    primary_category: "ai-and-automation"
+    state: "confirmed"
+    technologies:
+      - "typescript"
+      - "nodejs"
+    topics:
+      - "ai-agents"
+      - "agent-frameworks"
+      - "agent-governance"
+      - "policy-enforcement"
+      - "multi-provider"
+      - "observability"
+      - "evaluation"
+      - "testing"
+    use_cases:
+      - "build-ai-products"
+      - "test-software"
+  evidence:
+    - claim: "Stately Agent uses XState machines to constrain model-selected actions
+        to typed, legal events and transitions."
+      source_type: "repository-file"
+      url: "https://raw.githubusercontent.com/statelyai/agent/25cd01f45efcaa8133fd527\
+        e419d1a33029e9870/readme.md"
+      checked_at: "2026-08-15"
+      confidence: "high"
+  state: "complete"
+  summary:
+    one_line: "A TypeScript framework for deterministic, inspectable LLM-agent
+      control flow using XState machines."
+    why_useful: "It makes agent actions testable and constrains model proposals with
+      explicit application-owned transitions."
+curation:
+  confidence: null
+  evidence: []
+  limitations: []
+  recommendation: null
+  reviewed_at: null
+  state: "uncurated"
+  strengths: []
+  verdict: null
+id: "github:statelyai/agent"
+import:
+  github_snapshot:
+    archived: false
+    created_at: 2023-12-21T22:03:31Z
+    default_branch: next
+    description: Create state-machine-powered LLM agents using XState
+    disabled: false
+    fetched_at: 2026-11-22T12:07:00.148Z
+    fork: false
+    forks: 28
+    homepage: https://stately.ai/docs/agents
+    latest_release:
+      tag: v1.1.6
+      published_at: 2024-09-28T17:19:08Z
+      url: https://github.com/statelyai/agent/releases/tag/v1.1.6
+    license_spdx: MIT
+    open_issues: 17
+    primary_language: TypeScript
+    pushed_at: 2026-11-22T04:21:20Z
+    stars: 505
+    topics:
+      - agents
+      - ai
+      - llm
+      - state-machine
+      - statechart
+      - workflow
+    updated_at: 2026-11-17T03:20:03Z
+  sources:
+    - observed_at: 2026-08-15T12:34:51Z
+      relation: starred
+      source_id: github:user:tomseai:stars
+      source_url: https://github.com/tomseai?tab=stars
+  state: refreshed
+repository:
+  aliases: []
+  github_node_id: "R_kgDOK8fJ2g"
+  host: "github.com"
+  name: "agent"
+  owner: "statelyai"
+  url: "https://github.com/statelyai/agent"
+version: 1

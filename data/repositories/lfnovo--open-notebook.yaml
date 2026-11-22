@@ -18,20 +18,25 @@ analysis:
       - "build-ai-products"
       - "run-personal-or-team-tools"
   evidence:
-    - claim: "Open Notebook is a privacy-focused, local alternative to NotebookLM that organizes multimodal research content, supports multiple AI providers, provides context-aware chat, and offers full-text and vector search."
+    - claim: "Open Notebook is a privacy-focused, local alternative to NotebookLM that
+        organizes multimodal research content, supports multiple AI providers,
+        provides context-aware chat, and offers full-text and vector search."
       source_type: "repository-file"
       url: "https://github.com/lfnovo/open-notebook/blob/main/README.md"
       checked_at: "2026-07-19"
       confidence: "high"
-    - claim: "The repository identifies its stack as Python, FastAPI, Next.js, React, and SurrealDB, and documents Docker-based deployment."
+    - claim: "The repository identifies its stack as Python, FastAPI, Next.js, React,
+        and SurrealDB, and documents Docker-based deployment."
       source_type: "repository-file"
       url: "https://github.com/lfnovo/open-notebook/blob/main/README.md"
       checked_at: "2026-07-19"
       confidence: "high"
   state: "researched"
   summary:
-    one_line: "Privacy-focused, self-hosted research notebook with multi-model AI features."
-    why_useful: "It lets users organize source material, search it, and use configurable models for research-grounded conversations."
+    one_line: "Privacy-focused, self-hosted research notebook with multi-model AI
+      features."
+    why_useful: "It lets users organize source material, search it, and use
+      configurable models for research-grounded conversations."
 curation:
   confidence: null
   evidence: []
@@ -45,34 +50,38 @@ id: "github:lfnovo/open-notebook"
 import:
   github_snapshot:
     archived: false
-    created_at: "2024-10-21T17:58:46Z"
-    default_branch: "main"
-    description: "An Open Source implementation of Notebook LM with more flexibility and features"
+    created_at: 2024-10-21T17:58:46Z
+    default_branch: main
+    description: An Open Source implementation of Notebook LM with more flexibility
+      and features
     disabled: false
-    fetched_at: "2026-07-19T19:16:14.796Z"
+    fetched_at: 2026-11-22T12:07:00.148Z
     fork: false
-    forks: 4055
-    homepage: "https://www.open-notebook.ai"
-    latest_release: null
-    license_spdx: "MIT"
-    open_issues: 114
-    primary_language: "TypeScript"
-    pushed_at: "2026-07-19T18:20:23Z"
-    stars: 35748
+    forks: 4835
+    homepage: https://www.open-notebook.ai
+    latest_release:
+      tag: v1.15.1
+      published_at: 2026-11-04T14:19:57Z
+      url: https://github.com/lfnovo/open-notebook/releases/tag/v1.15.1
+    license_spdx: MIT
+    open_issues: 127
+    primary_language: TypeScript
+    pushed_at: 2026-11-18T12:36:53Z
+    stars: 42126
     topics:
-      - "assistant"
-      - "learning"
-      - "note-taking"
-      - "notebook"
-      - "notes-app"
-      - "self-learning"
-    updated_at: "2026-07-19T18:19:53Z"
+      - assistant
+      - learning
+      - note-taking
+      - notebook
+      - notes-app
+      - self-learning
+    updated_at: 2026-11-22T10:18:40Z
   sources:
-    - observed_at: "2026-06-13T15:45:10Z"
-      relation: "starred"
-      source_id: "github:user:tomseai:stars"
-      source_url: "https://github.com/tomseai?tab=stars"
-  state: "imported"
+    - observed_at: 2026-06-13T15:45:10Z
+      relation: starred
+      source_id: github:user:tomseai:stars
+      source_url: https://github.com/tomseai?tab=stars
+  state: refreshed
 repository:
   aliases: []
   github_node_id: "R_kgDONDsQ1w"

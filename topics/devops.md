@@ -2,12 +2,33 @@
 
 # DevOps
 
-[Back to the main catalog](../README.md) | **3 repositories**
+[Back to the main catalog](../README.md) | **4 repositories**
 
 ## Primary categories represented
 
-- [DevOps and Cloud](../categories/devops-and-cloud.md) (2)
+- [DevOps and Cloud](../categories/devops-and-cloud.md) (3)
 - [Documentation and Learning](../categories/documentation-and-learning.md) (1)
+
+<a id="repo-alchemy-run--alchemy"></a>
+
+## [Alchemy](https://github.com/alchemy-run/alchemy)
+
+A TypeScript infrastructure-as-code framework built on Effect that combines cloud resources and application logic in one type-safe executable program.
+
+- **Category:** [DevOps and Cloud](../categories/devops-and-cloud.md#repo-alchemy-run--alchemy)
+- **Topics:** [Cloud](../topics/cloud.md#repo-alchemy-run--alchemy) | [Deployment](../topics/deployment.md#repo-alchemy-run--alchemy) | [DevOps](../topics/devops.md#repo-alchemy-run--alchemy) | [Automation](../topics/automation.md#repo-alchemy-run--alchemy) | [Developer Productivity](../topics/developer-productivity.md#repo-alchemy-run--alchemy)
+- **Kind:** Infrastructure
+- **Best for:** TypeScript teams defining application code and cloud infrastructure together; Effect users deploying to AWS or Cloudflare with typed resource bindings
+- **Languages:** TypeScript
+- **License:** Apache-2.0
+- **Lifecycle:** Experimental
+- **GitHub stars:** 2,041
+
+**Key features**
+
+  - Models infrastructure resources and application logic in one Effect program
+  - Provides typed bindings, errors, planning, deployment, and local development
+  - Supports AWS services, Cloudflare resources, IAM, SDKs, and smoke tests
 
 <a id="repo-grafana--docker-otel-lgtm"></a>
 
@@ -22,7 +43,7 @@ A single Docker image that runs an OpenTelemetry backend for local metrics, trac
 - **Languages:** Shell, Go
 - **License:** Apache-2.0
 - **Lifecycle:** Active
-- **GitHub stars:** 1,943
+- **GitHub stars:** 2,168
 
 **Key features**
 
@@ -43,13 +64,13 @@ An open-source, event-driven orchestration platform for declarative YAML workflo
 - **Languages:** Java
 - **License:** Apache-2.0
 - **Lifecycle:** Active
-- **GitHub stars:** 27,391
+- **GitHub stars:** 30,310
 
 **Key features**
 
   - Defines flows, tasks, inputs, variables, and triggers in declarative YAML
+  - Offers AI agents, RAG workflows, and a built-in MCP server
   - Supports scheduled and event-driven execution, including message-bus and cloud triggers
-  - Provides a built-in editor, visual topology view, completion, and real-time validation
 
 <a id="repo-trimstray--the-book-of-secret-knowledge"></a>
 
@@ -64,7 +85,7 @@ A broad technical reference of tools, manuals, cheatsheets, links, and shell exa
 - **Languages:** Unknown
 - **License:** MIT
 - **Lifecycle:** Maintenance
-- **GitHub stars:** 234,100
+- **GitHub stars:** 260,417
 
 **Key features**
 

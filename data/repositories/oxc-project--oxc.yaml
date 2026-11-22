@@ -14,15 +14,19 @@ analysis:
       - "build-web-applications"
       - "improve-developer-workflow"
   evidence:
-    - claim: "The Oxidation Compiler is a collection of high-performance JavaScript and TypeScript tools written in Rust, and contributes to VoidZero's unified JavaScript toolchain."
+    - claim: "The Oxidation Compiler is a collection of high-performance JavaScript
+        and TypeScript tools written in Rust, and contributes to VoidZero's
+        unified JavaScript toolchain."
       source_type: "repository-file"
       url: "https://github.com/oxc-project/oxc/blob/main/README.md"
       checked_at: "2026-07-19"
       confidence: "high"
   state: "researched"
   summary:
-    one_line: "A Rust-based collection of high-performance JavaScript and TypeScript tooling."
-    why_useful: "It supplies compiler technology used by modern JavaScript tooling, including Rolldown."
+    one_line: "A Rust-based collection of high-performance JavaScript and TypeScript
+      tooling."
+    why_useful: "It supplies compiler technology used by modern JavaScript tooling,
+      including Rolldown."
 curation:
   confidence: null
   evidence: []
@@ -36,35 +40,38 @@ id: "github:oxc-project/oxc"
 import:
   github_snapshot:
     archived: false
-    created_at: "2023-02-09T05:46:51Z"
-    default_branch: "main"
-    description: "⚓ A collection of high-performance JavaScript tools."
+    created_at: 2023-02-09T05:46:51Z
+    default_branch: main
+    description: ⚓ A collection of high-performance JavaScript tools.
     disabled: false
-    fetched_at: "2026-07-19T19:16:14.796Z"
+    fetched_at: 2026-11-22T12:07:00.148Z
     fork: false
-    forks: 1136
-    homepage: "https://oxc.rs"
-    latest_release: null
-    license_spdx: "MIT"
-    open_issues: 677
-    primary_language: "Rust"
-    pushed_at: "2026-07-19T17:46:56Z"
-    stars: 22018
+    forks: 1477
+    homepage: https://oxc.rs
+    latest_release:
+      tag: oxlint_v1.94.0
+      published_at: 2026-11-16T12:26:24Z
+      url: https://github.com/oxc-project/oxc/releases/tag/oxlint_v1.94.0
+    license_spdx: MIT
+    open_issues: 1280
+    primary_language: Rust
+    pushed_at: 2026-11-21T20:41:08Z
+    stars: 23538
     topics:
-      - "compiler"
-      - "javascript"
-      - "linter"
-      - "minifier"
-      - "parser"
-      - "transpiler"
-      - "typescript"
-    updated_at: "2026-07-19T17:46:33Z"
+      - compiler
+      - javascript
+      - linter
+      - minifier
+      - parser
+      - transpiler
+      - typescript
+    updated_at: 2026-11-22T11:42:14Z
   sources:
-    - observed_at: "2024-12-17T16:56:18Z"
-      relation: "starred"
-      source_id: "github:user:tomseai:stars"
-      source_url: "https://github.com/tomseai?tab=stars"
-  state: "imported"
+    - observed_at: 2024-12-17T16:56:18Z
+      relation: starred
+      source_id: github:user:tomseai:stars
+      source_url: https://github.com/tomseai?tab=stars
+  state: refreshed
 repository:
   aliases: []
   github_node_id: "R_kgDOI7qa7g"

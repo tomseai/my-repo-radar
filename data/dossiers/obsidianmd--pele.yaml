@@ -1,0 +1,48 @@
+schema_version: 2
+repository_id: github:obsidianmd/pele
+research:
+  state: complete
+  source_commit: 3a2f075ee0c3d914f0fad3545fc0f193693975ac
+  bundle_collected_at: 2026-11-22T11:27:01.346Z
+  researched_at: 2026-11-22T12:00:00Z
+  confidence: high
+classification:
+  primary_category: frontend-and-design
+  topics: [visualization, libraries, frontend-development]
+project:
+  name: Pele
+  kind: library
+  summary: A synchronous renderer that turns supported Mermaid diagrams into SVG and exposes color and font styling through CSS variables.
+  best_for: [Applications rendering Mermaid diagrams with customizable styling]
+key_features:
+  - Supports the diagram types built into Mermaid 12.1.0
+  - Renders SVG synchronously or mounts responsive diagrams in the browser
+  - Uses CSS variables for colors and fonts
+  - Supports individual diagram registration and lazy loading
+usage:
+  interfaces: [JavaScript API, browser global]
+  installation: [npm package, CDN]
+  setup: low
+technology:
+  languages: [TypeScript]
+  notable_components: [Mermaid syntax, SVG]
+license:
+  spdx: MIT
+  name: MIT License
+  notes: Mermaid-derived compatibility specs and grammar files are also MIT licensed.
+status:
+  lifecycle: active
+  archived: false
+  latest_release: 1.13.0
+  latest_release_at: 2026-10-31
+strengths:
+  - No runtime dependencies and selective loading options
+  - CSS-based themes adapt without rerendering
+caveats:
+  - Uses its own layout and visual style rather than reproducing Mermaid output exactly
+  - Applications handling untrusted diagrams should follow the project's security guidance
+sources:
+  - https://raw.githubusercontent.com/obsidianmd/pele/3a2f075ee0c3d914f0fad3545fc0f193693975ac/README.md
+  - https://raw.githubusercontent.com/obsidianmd/pele/3a2f075ee0c3d914f0fad3545fc0f193693975ac/LICENSE
+  - https://raw.githubusercontent.com/obsidianmd/pele/3a2f075ee0c3d914f0fad3545fc0f193693975ac/package.json
+  - https://github.com/obsidianmd/pele/releases.atom

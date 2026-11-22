@@ -14,7 +14,9 @@ analysis:
       - "improve-developer-workflow"
       - "learn-and-reference"
   evidence:
-    - claim: "Agent Flow visualizes Claude Code and Codex agent orchestration in real time, showing tool calls, branching, return flows, and sessions in a web application or VS Code extension."
+    - claim: "Agent Flow visualizes Claude Code and Codex agent orchestration in real
+        time, showing tool calls, branching, return flows, and sessions in a web
+        application or VS Code extension."
       source_type: "repository-file"
       url: "https://github.com/patoles/agent-flow/blob/main/README.md"
       checked_at: "2026-07-19"
@@ -22,7 +24,8 @@ analysis:
   state: "researched"
   summary:
     one_line: "A real-time visualizer for Claude Code and Codex agent execution."
-    why_useful: "It makes agent decisions and tool-call flows inspectable for debugging, optimization, and prompt-learning workflows."
+    why_useful: "It makes agent decisions and tool-call flows inspectable for
+      debugging, optimization, and prompt-learning workflows."
 curation:
   confidence: null
   evidence: []
@@ -36,34 +39,38 @@ id: "github:patoles/agent-flow"
 import:
   github_snapshot:
     archived: false
-    created_at: "2026-03-21T08:53:27Z"
-    default_branch: "main"
-    description: "Real-time visualization of Claude Code agent orchestration — see your agents think, branch, and coordinate as they work."
+    created_at: 2026-03-21T08:53:27Z
+    default_branch: main
+    description: Real-time visualization of Claude Code agent orchestration — see
+      your agents think, branch, and coordinate as they work.
     disabled: false
-    fetched_at: "2026-07-19T19:16:14.796Z"
+    fetched_at: 2026-11-22T12:07:00.148Z
     fork: false
-    forks: 148
-    homepage: "https://marketplace.visualstudio.com/items?itemName=simon-p.agent-flow"
-    latest_release: null
-    license_spdx: "Apache-2.0"
-    open_issues: 10
-    primary_language: "TypeScript"
-    pushed_at: "2026-07-11T15:57:04Z"
-    stars: 1304
+    forks: 221
+    homepage: https://marketplace.visualstudio.com/items?itemName=simon-p.agent-flow
+    latest_release:
+      tag: v0.9.6
+      published_at: 2026-11-20T15:47:30Z
+      url: https://github.com/patoles/agent-flow/releases/tag/v0.9.6
+    license_spdx: Apache-2.0
+    open_issues: 17
+    primary_language: TypeScript
+    pushed_at: 2026-11-20T15:59:08Z
+    stars: 1806
     topics:
-      - "agent-visualization"
-      - "ai-agents"
-      - "claude-code"
-      - "developer-tools"
-      - "llm"
-      - "vscode-extension"
-    updated_at: "2026-07-19T12:51:10Z"
+      - agent-visualization
+      - ai-agents
+      - claude-code
+      - developer-tools
+      - llm
+      - vscode-extension
+    updated_at: 2026-11-21T22:40:31Z
   sources:
-    - observed_at: "2026-07-19T12:51:10Z"
-      relation: "starred"
-      source_id: "github:user:tomseai:stars"
-      source_url: "https://github.com/tomseai?tab=stars"
-  state: "imported"
+    - observed_at: 2026-07-19T12:51:10Z
+      relation: starred
+      source_id: github:user:tomseai:stars
+      source_url: https://github.com/tomseai?tab=stars
+  state: refreshed
 repository:
   aliases: []
   github_node_id: "R_kgDORs0Zkg"

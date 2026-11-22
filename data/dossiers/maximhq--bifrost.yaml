@@ -2,9 +2,9 @@ schema_version: 2
 repository_id: github:maximhq/bifrost
 research:
   state: complete
-  source_commit: e1550bf2d804b8af3548f6d863b9555bfd06d381
-  bundle_collected_at: 2026-07-19T20:44:03.072Z
-  researched_at: 2026-07-20T16:45:00.000Z
+  source_commit: cae639c53141785bf0f21c32c135941c86e1026a
+  bundle_collected_at: 2026-11-22T12:09:55.103Z
+  researched_at: 2026-11-22T12:25:34.819Z
   confidence: high
 classification:
   primary_category: ai-and-automation
@@ -25,14 +25,20 @@ project:
     across many model providers, with routing, fallback, load balancing,
     caching, governance, and observability features.
   best_for:
-    - Backend teams centralizing access to multiple AI providers behind a compatible API
-    - Production AI services that need routing reliability, usage governance, and request observability
+    - Backend teams centralizing access to multiple AI providers behind a
+      compatible API
+    - Production AI services that need routing reliability, usage governance,
+      and request observability
 key_features:
   - Unifies more than 23 providers through an OpenAI-compatible HTTP API
-  - Provides automatic fallback and load balancing across providers, models, and API keys
-  - Adds semantic caching, multimodal and streaming support, plus a plugin architecture
-  - Supports MCP tool use, configurable governance, rate limiting, budgets, and access control
-  - Includes a web UI, API-driven or file-based configuration, and Prometheus metrics, tracing, and logging
+  - Provides automatic fallback and load balancing across providers, models, and
+    API keys
+  - Adds semantic caching, multimodal and streaming support, plus a plugin
+    architecture
+  - Supports MCP tool use, configurable governance, rate limiting, budgets, and
+    access control
+  - Includes a web UI, API-driven or file-based configuration, and Prometheus
+    metrics, tracing, and logging
 usage:
   interfaces:
     - OpenAI-compatible HTTP API
@@ -61,18 +67,22 @@ license:
 status:
   lifecycle: active
   archived: false
-  latest_release: null
-  latest_release_at: null
+  latest_release: transports/v2.6.0
+  latest_release_at: 2026-11-19
 strengths:
   - Presents one compatible gateway boundary for multi-provider AI backends
-  - Combines reliability controls, semantic caching, governance, and observability in a modular service
-  - Supports low-friction local startup as well as Docker deployment and direct Go integration
+  - Combines reliability controls, semantic caching, governance, and
+    observability in a modular service
+  - Supports low-friction local startup as well as Docker deployment and direct
+    Go integration
 caveats:
-  - No stable, whole-project release is identifiable from the retained release feed
-  - The newest primary transport release in that feed is v2.0.0-prerelease2; the other entries are component or plugin releases
-  - Advanced persistent or semantic-cache deployments can require separately configured stores and infrastructure
+  - Release tags are component-scoped. The retained feed lists Bifrost HTTP
+    transports/v2.6.0 and a separately versioned Helm chart.
+  - Advanced persistent or semantic-cache deployments can require separately
+    configured stores and infrastructure
 sources:
-  - https://raw.githubusercontent.com/maximhq/bifrost/e1550bf2d804b8af3548f6d863b9555bfd06d381/README.md
-  - https://raw.githubusercontent.com/maximhq/bifrost/e1550bf2d804b8af3548f6d863b9555bfd06d381/LICENSE
-  - https://raw.githubusercontent.com/maximhq/bifrost/e1550bf2d804b8af3548f6d863b9555bfd06d381/framework/docker-compose.yml
+  - https://raw.githubusercontent.com/maximhq/bifrost/cae639c53141785bf0f21c32c135941c86e1026a/README.md
+  - https://raw.githubusercontent.com/maximhq/bifrost/cae639c53141785bf0f21c32c135941c86e1026a/LICENSE
+  - https://raw.githubusercontent.com/maximhq/bifrost/cae639c53141785bf0f21c32c135941c86e1026a/framework/docker-compose.yml
   - https://github.com/maximhq/bifrost/releases.atom
+  - https://github.com/maximhq/bifrost/releases/tag/transports%2Fv2.6.0

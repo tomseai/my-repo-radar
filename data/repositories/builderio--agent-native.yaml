@@ -15,15 +15,20 @@ analysis:
       - "build-web-applications"
       - "build-backend-services"
   evidence:
-    - claim: "Agent-Native is an open-source TypeScript framework for agentic applications, with reusable actions exposed to UI, agents, HTTP, MCP, A2A, and CLI, plus an agent runtime for tools, skills, memory, jobs, observability, and handoffs."
+    - claim: "Agent-Native is an open-source TypeScript framework for agentic
+        applications, with reusable actions exposed to UI, agents, HTTP, MCP,
+        A2A, and CLI, plus an agent runtime for tools, skills, memory, jobs,
+        observability, and handoffs."
       source_type: "repository-file"
       url: "https://github.com/BuilderIO/agent-native/blob/main/README.md"
       checked_at: "2026-07-19"
       confidence: "high"
   state: "researched"
   summary:
-    one_line: "A TypeScript framework for building applications with agents at their core."
-    why_useful: "It lets teams define actions once and expose them across user interfaces, agent runtimes, APIs, protocols, and command lines."
+    one_line: "A TypeScript framework for building applications with agents at their
+      core."
+    why_useful: "It lets teams define actions once and expose them across user
+      interfaces, agent runtimes, APIs, protocols, and command lines."
 curation:
   confidence: null
   evidence: []
@@ -37,31 +42,43 @@ id: "github:BuilderIO/agent-native"
 import:
   github_snapshot:
     archived: false
-    created_at: "2026-03-12T14:57:10Z"
-    default_branch: "main"
-    description: "A framework for building agent-native applications."
+    created_at: 2026-03-12T14:57:10Z
+    default_branch: main
+    description: A framework for building agentic apps
     disabled: false
-    fetched_at: "2026-07-19T19:16:14.796Z"
+    fetched_at: 2026-11-22T12:07:00.148Z
     fork: false
-    forks: 364
-    homepage: "https://agent-native.com"
-    latest_release: null
-    license_spdx: null
-    open_issues: 24
-    primary_language: "TypeScript"
-    pushed_at: "2026-07-19T18:55:57Z"
-    stars: 3793
+    forks: 712
+    homepage: https://www.agent-native.com
+    latest_release:
+      tag: v0.1.299
+      published_at: 2026-11-18T13:32:55Z
+      url: https://github.com/BuilderIO/agent-native/releases/tag/v0.1.299
+    license_spdx: MIT
+    open_issues: 278
+    primary_language: TypeScript
+    pushed_at: 2026-11-22T12:04:52Z
+    stars: 7738
     topics:
-      - "agents"
-      - "ai"
-      - "react"
-    updated_at: "2026-07-19T18:47:07Z"
+      - agent-framework
+      - agent-native
+      - agentic-ai
+      - agents
+      - ai
+      - ai-agents
+      - framework
+      - generative-ui
+      - mcp
+      - open-source
+      - react
+      - typescript
+    updated_at: 2026-11-22T10:43:20Z
   sources:
-    - observed_at: "2026-06-25T19:42:49Z"
-      relation: "starred"
-      source_id: "github:user:tomseai:stars"
-      source_url: "https://github.com/tomseai?tab=stars"
-  state: "imported"
+    - observed_at: 2026-06-25T19:42:49Z
+      relation: starred
+      source_id: github:user:tomseai:stars
+      source_url: https://github.com/tomseai?tab=stars
+  state: refreshed
 repository:
   aliases: []
   github_node_id: "R_kgDORlS_jw"

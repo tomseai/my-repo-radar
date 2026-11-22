@@ -2,9 +2,9 @@ schema_version: 2
 repository_id: github:browser-use/browser-use
 research:
   state: complete
-  source_commit: 950eb03617e67548d759c02beac1ad122c6b6458
-  bundle_collected_at: 2026-07-19T20:42:01.064Z
-  researched_at: 2026-07-20T00:39:13.3818923+02:00
+  source_commit: 753d629d76eb2b670f4cf467f3355bbe750f6845
+  bundle_collected_at: 2026-11-22T12:09:07.642Z
+  researched_at: 2026-11-22T12:30:21.516Z
   confidence: high
 
 classification:
@@ -22,19 +22,21 @@ project:
   name: Browser Use
   kind: library
   summary: >-
-    A Python library and CLI for LLM-driven agents that operate web browsers,
-    including navigating pages, clicking controls, entering form data, and
-    extracting information for repeatable web tasks.
+    A Python library and CLI for language-model-driven browser tasks, built
+    around a persistent Python execution context and Chrome DevTools Protocol,
+    with local or hosted browser options.
   best_for:
     - Developers embedding browser automation in an AI agent or product
     - Agent users who need a local CLI skill for one-off browser tasks
 
 key_features:
-  - Agent API that executes a natural-language task with a selected LLM
-  - Browser interactions for pages, buttons, text input, forms, and data extraction
-  - Custom action tools for extending an agent's capabilities
-  - Python library, command-line interface, and Docker image
-  - Optional browser-use-core package for a Rust-backed beta agent
+  - Accepts a browser task and runs it through a model-backed agent based on
+    Pydantic AI
+  - Keeps Python execution state across task steps and operates a browser
+    through Chrome DevTools Protocol
+  - Offers a local Python API and CLI and can connect either to local Chromium
+    or cloud browsers
+  - Provides Docker support and a CLI-based Model Context Protocol interface
 
 usage:
   interfaces:
@@ -53,20 +55,23 @@ technology:
   languages:
     - Python
   notable_components:
-    - Model Context Protocol
-    - CDP Use
+    - Pydantic AI
+    - Chrome DevTools Protocol
     - browser-harness
+    - Chromium
+    - Docker
 
 license:
   spdx: MIT
   name: MIT License
-  notes: The MIT license applies to the open-source library; hosted services have separate terms.
+  notes: The MIT license applies to the open-source library; hosted services have
+    separate terms.
 
 status:
   lifecycle: active
   archived: false
-  latest_release: 0.13.6
-  latest_release_at: 2026-07-17
+  latest_release: 1.0.8
+  latest_release_at: 2026-11-22
 
 strengths:
   - Supports both embedded, repeatable automation and interactive agent use
@@ -74,13 +79,18 @@ strengths:
   - Provides local Python and container-based deployment options
 
 caveats:
-  - The documented library requires Python 3.11 or newer and an LLM provider credential
-  - Browser automation must account for site changes, authentication, and CAPTCHA restrictions
-  - Large parallel browser workloads can be memory-intensive; the project recommends hosted infrastructure for production scale
+  - The package requires Python 3.11 or newer and is designed around a
+    configured model and browser
+  - The hosted agent API and hosted browser are distinct services, with their
+    own terms and costs
+  - The 1.0 execution model differs from 0.x and has a separate migration guide
+  - Browser automation depends on site stability, account access, and site
+    policies
 
 sources:
-  - https://raw.githubusercontent.com/browser-use/browser-use/950eb03617e67548d759c02beac1ad122c6b6458/README.md
-  - https://raw.githubusercontent.com/browser-use/browser-use/950eb03617e67548d759c02beac1ad122c6b6458/pyproject.toml
-  - https://raw.githubusercontent.com/browser-use/browser-use/950eb03617e67548d759c02beac1ad122c6b6458/Dockerfile
-  - https://raw.githubusercontent.com/browser-use/browser-use/950eb03617e67548d759c02beac1ad122c6b6458/LICENSE
+  - https://raw.githubusercontent.com/browser-use/browser-use/753d629d76eb2b670f4cf467f3355bbe750f6845/README.md
+  - https://raw.githubusercontent.com/browser-use/browser-use/753d629d76eb2b670f4cf467f3355bbe750f6845/pyproject.toml
+  - https://raw.githubusercontent.com/browser-use/browser-use/753d629d76eb2b670f4cf467f3355bbe750f6845/Dockerfile
+  - https://raw.githubusercontent.com/browser-use/browser-use/753d629d76eb2b670f4cf467f3355bbe750f6845/LICENSE
   - https://github.com/browser-use/browser-use/releases.atom
+  - https://github.com/browser-use/browser-use/releases/tag/1.0.8

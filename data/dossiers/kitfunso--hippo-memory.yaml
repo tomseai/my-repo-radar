@@ -2,9 +2,9 @@ schema_version: 2
 repository_id: github:kitfunso/hippo-memory
 research:
   state: complete
-  source_commit: 3dab4b5f4398d99e0404284099b374fda461d470
-  bundle_collected_at: 2026-07-19T20:43:39.758Z
-  researched_at: 2026-07-20T17:31:48.5060846+02:00
+  source_commit: cd5c89a3c4221049d1d9e603a77a65e16c3e9d4d
+  bundle_collected_at: 2026-11-22T12:09:47.021Z
+  researched_at: 2026-11-22T12:21:35.737034+00:00
   confidence: high
 classification:
   primary_category: ai-and-automation
@@ -22,20 +22,25 @@ project:
   name: Hippo
   kind: service
   summary: >-
-    A local-first, SQLite-backed memory system for AI agents that stores
-    project and global memories, retrieves context through a CLI, MCP, HTTP,
-    and integrations, and applies decay, retrieval strengthening, and sleep
+    A local-first, SQLite-backed memory system for AI agents that stores project
+    and global memories, retrieves context through a CLI, MCP, HTTP, and
+    integrations, and applies decay, retrieval strengthening, and sleep
     consolidation to its memory layers.
   best_for:
-    - Teams or individuals wanting persistent context across CLI agent tools and projects
-    - Agent workflows that need inspectable local memory, recall, and session handoffs
+    - Teams or individuals wanting persistent context across CLI agent tools and
+      projects
+    - Agent workflows that need inspectable local memory, recall, and session
+      handoffs
 key_features:
   - Buffer, episodic, and semantic memory layers with consolidation and decay
-  - CLI commands for initialization, recall, capture, import, snapshots, and handoffs
+  - CLI commands for initialization, recall, capture, import, snapshots, and
+    handoffs
   - Stdio MCP server plus HTTP API and an OpenClaw plugin
-  - Optional hybrid retrieval that combines BM25 with local or configured embeddings
+  - Optional hybrid retrieval that combines BM25 with local or configured
+    embeddings
   - Markdown mirrors alongside the SQLite store for inspection and Git tracking
-  - Cross-tool imports from ChatGPT exports, Claude files, Cursor rules, Markdown, and text
+  - Cross-tool imports from ChatGPT exports, Claude files, Cursor rules,
+    Markdown, and text
 usage:
   interfaces:
     - CLI
@@ -61,30 +66,38 @@ technology:
 license:
   spdx: MIT
   name: MIT License
-  notes: The repository license grants the standard permissive MIT rights and warranty disclaimer.
+  notes: The repository license grants the standard permissive MIT rights and
+    warranty disclaimer.
 
 status:
   lifecycle: active
   archived: false
-  latest_release: v1.27.0
-  latest_release_at: 2026-07-18
+  latest_release: v3.14.0
+  latest_release_at: 2026-11-22
 
 strengths:
   - Offers one local memory layer across several agent clients and projects
   - Makes recall explainable and persists both long-term and active-task context
-  - Supports a no-embedding BM25 fallback while allowing optional hybrid retrieval
+  - Supports a no-embedding BM25 fallback while allowing optional hybrid
+    retrieval
 
 caveats:
   - Requires Node.js 22.5 or later for the primary npm package
-  - Hippo init can create project stores, patch agent instruction files, alter a detected Codex launcher, and install a daily runner unless disabled
-  - Embedding-backed retrieval is optional; without its optional packages it falls back to BM25
-  - Published evaluation claims need careful reading because the repository retracts a prior sequential-learning magnitude claim and reports no detected goal-stack effect on its tested workloads
-  - The bundled Python SDK is a separate alpha-classified package that wraps the HTTP API
+  - Hippo init can create project stores, patch agent instruction files, alter a
+    detected Codex launcher, and install a daily runner unless disabled
+  - Embedding-backed retrieval is optional; without its optional packages it
+    falls back to BM25
+  - Published evaluation claims need careful reading because the repository
+    retracts a prior sequential-learning magnitude claim and reports no detected
+    goal-stack effect on its tested workloads
+  - The bundled Python SDK is a separate alpha-classified package that wraps the
+    HTTP API
 
 sources:
-  - https://raw.githubusercontent.com/kitfunso/hippo-memory/3dab4b5f4398d99e0404284099b374fda461d470/README.md
-  - https://raw.githubusercontent.com/kitfunso/hippo-memory/3dab4b5f4398d99e0404284099b374fda461d470/package.json
-  - https://raw.githubusercontent.com/kitfunso/hippo-memory/3dab4b5f4398d99e0404284099b374fda461d470/python/pyproject.toml
+  - https://raw.githubusercontent.com/kitfunso/hippo-memory/cd5c89a3c4221049d1d9e603a77a65e16c3e9d4d/README.md
+  - https://raw.githubusercontent.com/kitfunso/hippo-memory/cd5c89a3c4221049d1d9e603a77a65e16c3e9d4d/package.json
+  - https://raw.githubusercontent.com/kitfunso/hippo-memory/cd5c89a3c4221049d1d9e603a77a65e16c3e9d4d/python/pyproject.toml
   - https://raw.githubusercontent.com/kitfunso/hippo-memory/3dab4b5f4398d99e0404284099b374fda461d470/docs/RETRACTION.md
-  - https://raw.githubusercontent.com/kitfunso/hippo-memory/3dab4b5f4398d99e0404284099b374fda461d470/LICENSE
+  - https://raw.githubusercontent.com/kitfunso/hippo-memory/cd5c89a3c4221049d1d9e603a77a65e16c3e9d4d/LICENSE
   - https://github.com/kitfunso/hippo-memory/releases.atom
+  - https://github.com/kitfunso/hippo-memory/releases/tag/v3.14.0

@@ -2,9 +2,9 @@ schema_version: 2
 repository_id: github:github/spec-kit
 research:
   state: complete
-  source_commit: 57cc518d63d6f10da3dd93df1ebcadda87c59374
-  bundle_collected_at: 2026-07-19T20:43:15.906Z
-  researched_at: 2026-07-20T00:06:00.000Z
+  source_commit: a4d571229e164e440f8950cac034607bae7b7518
+  bundle_collected_at: 2026-11-22T12:09:35.649Z
+  researched_at: 2026-11-22T12:21:33.583Z
   confidence: high
 
 classification:
@@ -24,17 +24,24 @@ project:
   summary: >-
     A Python CLI and template toolkit that initializes a repeatable
     spec-driven-development workflow for AI coding agents, taking projects from
-    governing principles and specifications through planning, tasks, implementation, and review.
+    governing principles and specifications through planning, tasks,
+    implementation, and review.
   best_for:
-    - Teams that want agent-assisted development to start with explicit requirements and plans
-    - Projects that need reusable workflow templates across supported coding-agent integrations
+    - Teams that want agent-assisted development to start with explicit
+      requirements and plans
+    - Projects that need reusable workflow templates across supported
+      coding-agent integrations
 
 key_features:
-  - Specify CLI initializes project-local templates, workflows, and coding-agent integrations
-  - Core agent commands cover constitution, specification, clarification, planning, tasks, analysis, implementation, and convergence
-  - Integration management can list, install, switch, upgrade, and report managed integration state
+  - Specify CLI initializes project-local templates, workflows, and coding-agent
+    integrations
+  - Core agent commands cover constitution, specification, clarification,
+    planning, tasks, analysis, implementation, and convergence
+  - Integration management can list, install, switch, upgrade, and report
+    managed integration state
   - Presets and extensions customize templates or add workflow capabilities
-  - Support for numerous CLI and IDE coding-agent integrations, with agent-specific command forms
+  - Support for numerous CLI and IDE coding-agent integrations, with
+    agent-specific command forms
   - Local wheels can bundle core assets for offline or air-gapped initialization
 
 usage:
@@ -59,30 +66,37 @@ license:
   spdx: MIT
   name: MIT License
   notes: >-
-    The repository license permits use, modification, distribution, sublicensing,
-    and sale when the copyright and permission notice are retained; it is provided
-    without warranty.
+    The repository license permits use, modification, distribution,
+    sublicensing, and sale when the copyright and permission notice are
+    retained; it is provided without warranty.
 
 status:
   lifecycle: active
   archived: false
-  latest_release: v0.13.0
-  latest_release_at: 2026-07-17
+  latest_release: v1.4.3
+  latest_release_at: 2026-11-19
 
 strengths:
-  - Makes requirements, planning, task breakdown, and implementation explicit stages for coding agents
-  - Adapts one workflow to multiple agent integrations instead of coupling a project to one assistant
-  - Supports organizational customization through local overrides, presets, extensions, and offline assets
+  - Makes requirements, planning, task breakdown, and implementation explicit
+    stages for coding agents
+  - Adapts one workflow to multiple agent integrations instead of coupling a
+    project to one assistant
+  - Supports organizational customization through local overrides, presets,
+    extensions, and offline assets
 
 caveats:
-  - It scaffolds process and agent instructions; an installed, compatible AI coding agent still performs the work
-  - Generated templates and agent commands require review and may need project-specific adaptation
-  - Agent integration availability and command syntax vary by installed integration and version
+  - It scaffolds process and agent instructions; an installed, compatible AI
+    coding agent still performs the work
+  - Generated templates and agent commands require review and may need
+    project-specific adaptation
+  - Agent integration availability and command syntax vary by installed
+    integration and version
 
 sources:
-  - https://raw.githubusercontent.com/github/spec-kit/57cc518d63d6f10da3dd93df1ebcadda87c59374/README.md
-  - https://raw.githubusercontent.com/github/spec-kit/57cc518d63d6f10da3dd93df1ebcadda87c59374/docs/installation.md
-  - https://raw.githubusercontent.com/github/spec-kit/57cc518d63d6f10da3dd93df1ebcadda87c59374/docs/reference/integrations.md
-  - https://raw.githubusercontent.com/github/spec-kit/57cc518d63d6f10da3dd93df1ebcadda87c59374/pyproject.toml
-  - https://raw.githubusercontent.com/github/spec-kit/57cc518d63d6f10da3dd93df1ebcadda87c59374/LICENSE
+  - https://raw.githubusercontent.com/github/spec-kit/a4d571229e164e440f8950cac034607bae7b7518/README.md
+  - https://raw.githubusercontent.com/github/spec-kit/a4d571229e164e440f8950cac034607bae7b7518/docs/installation.md
+  - https://raw.githubusercontent.com/github/spec-kit/a4d571229e164e440f8950cac034607bae7b7518/docs/integrations/cli.md
+  - https://raw.githubusercontent.com/github/spec-kit/a4d571229e164e440f8950cac034607bae7b7518/pyproject.toml
+  - https://raw.githubusercontent.com/github/spec-kit/a4d571229e164e440f8950cac034607bae7b7518/LICENSE
   - https://github.com/github/spec-kit/releases.atom
+  - https://github.com/github/spec-kit/releases/tag/v1.4.3

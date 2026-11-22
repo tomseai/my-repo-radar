@@ -16,15 +16,20 @@ analysis:
       - "build-ai-products"
       - "ship-and-operate-software"
   evidence:
-    - claim: "VoltAgent is a TypeScript AI-agent framework and engineering platform with a project-creation CLI, agent and workflow registration, memory adapters, server integrations, logging, and an MCP documentation server."
+    - claim: "VoltAgent is a TypeScript AI-agent framework and engineering platform
+        with a project-creation CLI, agent and workflow registration, memory
+        adapters, server integrations, logging, and an MCP documentation
+        server."
       source_type: "repository-file"
       url: "https://github.com/VoltAgent/voltagent/blob/main/README.md"
       checked_at: "2026-07-19"
       confidence: "high"
   state: "researched"
   summary:
-    one_line: "A TypeScript framework and platform for building, running, and operating AI agents and workflows."
-    why_useful: "It supplies project scaffolding, agent and workflow primitives, memory adapters, server integrations, and logging."
+    one_line: "A TypeScript framework and platform for building, running, and
+      operating AI agents and workflows."
+    why_useful: "It supplies project scaffolding, agent and workflow primitives,
+      memory adapters, server integrations, and logging."
 curation:
   confidence: null
   evidence: []
@@ -38,48 +43,52 @@ id: "github:VoltAgent/voltagent"
 import:
   github_snapshot:
     archived: false
-    created_at: "2025-04-16T15:41:18Z"
-    default_branch: "main"
-    description: "AI Agent Engineering Platform built on an Open Source TypeScript AI Agent Framework"
+    created_at: 2025-04-16T15:41:18Z
+    default_branch: main
+    description: AI Agent Engineering Platform built on an Open Source TypeScript AI
+      Agent Framework
     disabled: false
-    fetched_at: "2026-07-19T19:16:14.796Z"
+    fetched_at: 2026-11-22T12:07:00.148Z
     fork: false
-    forks: 1052
-    homepage: "https://voltagent.dev"
-    latest_release: null
-    license_spdx: "MIT"
-    open_issues: 71
-    primary_language: "TypeScript"
-    pushed_at: "2026-07-13T16:15:41Z"
-    stars: 10096
+    forks: 1215
+    homepage: https://voltagent.dev
+    latest_release:
+      tag: "@voltagent/core@2.11.1"
+      published_at: 2026-11-04T16:38:41Z
+      url: https://github.com/VoltAgent/voltagent/releases/tag/%40voltagent/core%402.11.1
+    license_spdx: MIT
+    open_issues: 190
+    primary_language: TypeScript
+    pushed_at: 2026-11-06T14:57:04Z
+    stars: 11000
     topics:
-      - "agents"
-      - "ai"
-      - "ai-agents"
-      - "ai-agents-framework"
-      - "aiagentframework"
-      - "chatbots"
-      - "chatgpt"
-      - "framework"
-      - "javascript"
-      - "llm"
-      - "llm-observability"
-      - "mcp"
-      - "multiagent"
-      - "nodejs"
-      - "observability"
-      - "open-source"
-      - "openai"
-      - "rag"
-      - "tts"
-      - "typescript"
-    updated_at: "2026-07-19T16:18:20Z"
+      - agents
+      - ai
+      - ai-agents
+      - ai-agents-framework
+      - aiagentframework
+      - chatbots
+      - chatgpt
+      - framework
+      - javascript
+      - llm
+      - llm-observability
+      - mcp
+      - multiagent
+      - nodejs
+      - observability
+      - open-source
+      - openai
+      - rag
+      - tts
+      - typescript
+    updated_at: 2026-11-22T00:47:21Z
   sources:
-    - observed_at: "2026-07-18T10:33:53Z"
-      relation: "starred"
-      source_id: "github:user:tomseai:stars"
-      source_url: "https://github.com/tomseai?tab=stars"
-  state: "imported"
+    - observed_at: 2026-07-18T10:33:53Z
+      relation: starred
+      source_id: github:user:tomseai:stars
+      source_url: https://github.com/tomseai?tab=stars
+  state: refreshed
 repository:
   aliases: []
   github_node_id: "R_kgDOOatXkw"

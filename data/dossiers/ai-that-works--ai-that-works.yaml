@@ -2,9 +2,9 @@ schema_version: 2
 repository_id: github:ai-that-works/ai-that-works
 research:
   state: complete
-  source_commit: 0660c6846121e68eb72e4a846f3f1a5e7a239427
-  bundle_collected_at: 2026-07-19T20:41:36.491Z
-  researched_at: 2026-07-20T00:38:56.988+02:00
+  source_commit: 71ca519a534bfbd8e6bf274bd697e097982e1489
+  bundle_collected_at: 2026-11-22T12:09:01.509Z
+  researched_at: 2026-11-22T12:23:58.011Z
   confidence: medium
 classification:
   primary_category: documentation-and-learning
@@ -19,19 +19,23 @@ classification:
 project:
   name: AI That Works
   kind: course
-  summary: >-
-    A weekly live-coding and Q&A series with a repository of episode notes and
-    selected code, focused on taking AI applications from demos toward
-    production through practical engineering topics.
+  summary: A weekly live-coding and Q&A series with a repository of episode notes and
+    selected code, focused on taking AI applications from demos toward production
+    through practical engineering topics.
   best_for:
     - Engineers learning production-oriented AI techniques from episode-based examples
-    - Participants who want live discussion alongside selected Python and TypeScript materials
+    - Participants who want live discussion alongside selected Python and TypeScript
+      materials
 key_features:
   - Weekly Tuesday Zoom sessions with a linked YouTube playlist for episodes
-  - Episode catalog spanning classification, prompting, evaluations, context engineering, agent memory, multimodality, and coding agents
-  - Selected episode code linked from the catalog, including Python and TypeScript projects
-  - Pre-reading guidance for Git, Cursor, Claude Code, CodeLayer, BAML, Python, TypeScript, Go, uv, pnpm, and Go modules
-  - Practical sessions and workshops framed around moving AI applications from demos to production
+  - Episode catalog spanning classification, prompting, evaluations, context
+    engineering, agent memory, multimodality, and coding agents
+  - Selected episode code linked from the catalog, including Python and TypeScript
+    projects
+  - Pre-reading guidance for Git, Cursor, Claude Code, CodeLayer, BAML, Python,
+    TypeScript, Go, uv, pnpm, and Go modules
+  - Practical sessions and workshops framed around moving AI applications from demos
+    to production
 usage:
   interfaces:
     - Live Zoom sessions
@@ -56,24 +60,33 @@ technology:
 license:
   spdx: null
   name: No license file found in retained source bundle
-  notes: Reuse rights for the repository materials cannot be established from the retained bundle; consult the maintainers before reuse beyond applicable platform terms.
+  notes: Reuse rights for the repository materials cannot be established from the
+    retained bundle; consult the maintainers before reuse beyond applicable platform
+    terms.
 status:
   lifecycle: active
   archived: false
   latest_release: null
   latest_release_at: null
 strengths:
-  - Connects live discussion, recordings, written episode descriptions, and selected code artifacts
-  - Covers concrete production concerns such as evaluation, observability, context, memory, and agent control
+  - Connects live discussion, recordings, written episode descriptions, and selected
+    code artifacts
+  - Covers concrete production concerns such as evaluation, observability, context,
+    memory, and agent control
   - Lets learners choose focused episodes rather than follow a fixed linear curriculum
 caveats:
-  - It is a learning series and collection of episode materials, not a supported framework or cohesive production application
-  - Hands-on setup varies by episode; retained manifests show different language runtimes and dependency sets
-  - The next episode and episode schedule are time-sensitive, so readers should verify them through the linked event resources
-  - No license file is present in the retained source bundle, leaving reuse rights unclear
-  - The cached releases feed has no entries, so no latest versioned release can be established
+  - It is a learning series and collection of episode materials, not a supported
+    framework or cohesive production application
+  - Hands-on setup varies by episode; retained manifests show different language
+    runtimes and dependency sets
+  - The next episode and episode schedule are time-sensitive, so readers should
+    verify them through the linked event resources
+  - No license file is present in the retained source bundle, leaving reuse rights
+    unclear
+  - The cached releases feed has no entries, so no latest versioned release can be
+    established
 sources:
-  - https://raw.githubusercontent.com/ai-that-works/ai-that-works/0660c6846121e68eb72e4a846f3f1a5e7a239427/README.md
-  - https://raw.githubusercontent.com/ai-that-works/ai-that-works/0660c6846121e68eb72e4a846f3f1a5e7a239427/2025-04-07-reasoning-models-vs-prompts/package.json
-  - https://raw.githubusercontent.com/ai-that-works/ai-that-works/0660c6846121e68eb72e4a846f3f1a5e7a239427/2025-05-13-designing-evals/pyproject.toml
+  - https://raw.githubusercontent.com/ai-that-works/ai-that-works/71ca519a534bfbd8e6bf274bd697e097982e1489/README.md
+  - https://raw.githubusercontent.com/ai-that-works/ai-that-works/71ca519a534bfbd8e6bf274bd697e097982e1489/2025-04-07-reasoning-models-vs-prompts/package.json
+  - https://raw.githubusercontent.com/ai-that-works/ai-that-works/71ca519a534bfbd8e6bf274bd697e097982e1489/2025-05-13-designing-evals/pyproject.toml
   - https://github.com/ai-that-works/ai-that-works/releases.atom

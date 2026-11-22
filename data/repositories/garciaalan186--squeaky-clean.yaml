@@ -1,0 +1,78 @@
+analysis:
+  analyzed_at: 2026-09-16T15:45:00.000Z
+  classification:
+    primary_category: ai-and-automation
+    state: confirmed
+    technologies:
+      - python
+    topics:
+      - coding-agents
+      - agent-orchestration
+      - parallel-agents
+      - code-generation
+      - spec-driven-development
+      - cli
+      - llms
+      - evaluation
+      - testing
+      - developer-productivity
+    use_cases:
+      - build-ai-products
+      - improve-developer-workflow
+      - test-software
+  evidence:
+    - claim: An experimental multi-agent CLI for generating and recovering
+        Clean-Architecture applications from explicit specifications.
+      source_type: repository-file
+      url: https://raw.githubusercontent.com/garciaalan186/squeaky-clean/5105faf4878ec0e2639b997515dc31f11cd0cde9/README.md
+      checked_at: 2026-09-16
+      confidence: high
+  state: complete
+  summary:
+    one_line: An experimental multi-agent CLI for generating and recovering
+      Clean-Architecture applications from explicit specifications.
+    why_useful: Generating backend applications from explicit requirements while
+      enforcing Clean Architecture boundaries
+curation:
+  confidence: null
+  evidence: []
+  limitations: []
+  recommendation: null
+  reviewed_at: null
+  state: uncurated
+  strengths: []
+  verdict: null
+id: github:garciaalan186/squeaky-clean
+import:
+  github_snapshot:
+    archived: false
+    created_at: 2026-04-29T20:52:59Z
+    default_branch: main
+    description: null
+    disabled: false
+    fetched_at: 2026-11-22T12:07:00.148Z
+    fork: false
+    forks: 2
+    homepage: null
+    latest_release: null
+    license_spdx: Apache-2.0
+    open_issues: 0
+    primary_language: Python
+    pushed_at: 2026-08-01T21:18:32Z
+    stars: 25
+    topics: []
+    updated_at: 2026-09-06T13:31:52Z
+  sources:
+    - observed_at: 2026-09-06T13:31:51Z
+      relation: starred
+      source_id: github:user:tomseai:stars
+      source_url: https://github.com/tomseai?tab=stars
+  state: refreshed
+repository:
+  aliases: []
+  github_node_id: R_kgDOSQPrvg
+  host: github.com
+  name: squeaky-clean
+  owner: garciaalan186
+  url: https://github.com/garciaalan186/squeaky-clean
+version: 1

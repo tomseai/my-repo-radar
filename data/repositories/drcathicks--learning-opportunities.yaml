@@ -1,0 +1,70 @@
+analysis:
+  analyzed_at: 2026-11-22T12:00:00Z
+  classification:
+    primary_category: documentation-and-learning
+    state: confirmed
+    technologies: []
+    topics:
+      - agent-skills
+      - coding-agents
+      - tutorials
+      - developer-productivity
+    use_cases:
+      - learn-and-reference
+      - improve-developer-workflow
+  evidence:
+    - claim: An agent skill offering short interactive exercises grounded in a
+        developer's AI-assisted coding work.
+      source_type: repository-file
+      url: https://raw.githubusercontent.com/DrCatHicks/learning-opportunities/3862d2eb6e93427f1f163a54360d11ef943b88b7/README.md
+      checked_at: 2026-11-22
+      confidence: high
+  state: complete
+  summary:
+    one_line: An agent skill offering short interactive exercises grounded in a
+      developer's AI-assisted coding work.
+    why_useful: Developers seeking deliberate practice while using Claude Code or Codex
+curation:
+  confidence: null
+  evidence: []
+  limitations: []
+  recommendation: null
+  reviewed_at: null
+  state: "uncurated"
+  strengths: []
+  verdict: null
+id: "github:DrCatHicks/learning-opportunities"
+import:
+  github_snapshot:
+    archived: false
+    created_at: 2026-02-07T20:48:22Z
+    default_branch: main
+    description: A Claude or Codex skill for deliberate skill development during
+      AI-assisted coding
+    disabled: false
+    fetched_at: 2026-11-22T12:07:00.148Z
+    fork: false
+    forks: 94
+    homepage: ""
+    latest_release: null
+    license_spdx: CC-BY-4.0
+    open_issues: 10
+    primary_language: Shell
+    pushed_at: 2026-08-19T18:38:19Z
+    stars: 2573
+    topics: []
+    updated_at: 2026-11-22T01:24:17Z
+  sources:
+    - observed_at: 2026-10-17T08:53:45Z
+      relation: starred
+      source_id: github:user:tomseai:stars
+      source_url: https://github.com/tomseai?tab=stars
+  state: refreshed
+repository:
+  aliases: []
+  github_node_id: "R_kgDORLBl6w"
+  host: "github.com"
+  name: "learning-opportunities"
+  owner: "DrCatHicks"
+  url: "https://github.com/DrCatHicks/learning-opportunities"
+version: 1

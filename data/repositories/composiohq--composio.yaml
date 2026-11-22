@@ -14,15 +14,19 @@ analysis:
     use_cases:
       - "build-ai-products"
   evidence:
-    - claim: "Composio provides AI agents with pre-authenticated toolkits, per-user sessions, authentication, triggers, and a sandbox; its monorepo includes TypeScript and Python SDKs, a CLI, and agent-framework adapters."
+    - claim: "Composio provides AI agents with pre-authenticated toolkits, per-user
+        sessions, authentication, triggers, and a sandbox; its monorepo includes
+        TypeScript and Python SDKs, a CLI, and agent-framework adapters."
       source_type: "repository-file"
       url: "https://github.com/ComposioHQ/composio/blob/next/README.md"
       checked_at: "2026-07-19"
       confidence: "high"
   state: "researched"
   summary:
-    one_line: "An agent-integration platform with authenticated tools, user sessions, triggers, and sandboxed execution."
-    why_useful: "It provides SDKs and adapters for building agents that can safely act across external applications."
+    one_line: "An agent-integration platform with authenticated tools, user
+      sessions, triggers, and sandboxed execution."
+    why_useful: "It provides SDKs and adapters for building agents that can safely
+      act across external applications."
 curation:
   confidence: null
   evidence: []
@@ -36,45 +40,50 @@ id: "github:ComposioHQ/composio"
 import:
   github_snapshot:
     archived: false
-    created_at: "2024-02-23T13:58:27Z"
-    default_branch: "next"
-    description: "Composio powers 1000+ toolkits, tool search, context management, authentication, and a sandboxed workbench to help you build AI agents that turn intent into action."
+    created_at: 2024-02-23T13:58:27Z
+    default_branch: next
+    description: Composio powers 1000+ toolkits, tool search, context management,
+      authentication, and a sandboxed workbench to help you build AI agents that
+      turn intent into action.
     disabled: false
-    fetched_at: "2026-07-19T19:16:14.796Z"
+    fetched_at: 2026-11-22T12:07:00.148Z
     fork: false
-    forks: 4666
-    homepage: "https://docs.composio.dev"
-    latest_release: null
-    license_spdx: "MIT"
-    open_issues: 92
-    primary_language: "TypeScript"
-    pushed_at: "2026-07-19T10:29:58Z"
-    stars: 29287
+    forks: 4971
+    homepage: https://docs.composio.dev
+    latest_release:
+      tag: "@composio/cli@0.6.3"
+      published_at: 2026-11-20T18:42:16Z
+      url: https://github.com/ComposioHQ/composio/releases/tag/%40composio/cli%400.6.3
+    license_spdx: MIT
+    open_issues: 162
+    primary_language: TypeScript
+    pushed_at: 2026-11-22T10:55:41Z
+    stars: 31233
     topics:
-      - "agentic-ai"
-      - "agents"
-      - "ai"
-      - "ai-agents"
-      - "aiagents"
-      - "developer-tools"
-      - "function-calling"
-      - "gpt-4"
-      - "javascript"
-      - "js"
-      - "llm"
-      - "llmops"
-      - "mcp"
-      - "python"
-      - "remote-mcp-server"
-      - "sse"
-      - "typescript"
-    updated_at: "2026-07-19T14:36:22Z"
+      - agentic-ai
+      - agents
+      - ai
+      - ai-agents
+      - aiagents
+      - developer-tools
+      - function-calling
+      - gpt-4
+      - javascript
+      - js
+      - llm
+      - llmops
+      - mcp
+      - python
+      - remote-mcp-server
+      - sse
+      - typescript
+    updated_at: 2026-11-22T10:53:02Z
   sources:
-    - observed_at: "2025-01-03T09:44:54Z"
-      relation: "starred"
-      source_id: "github:user:tomseai:stars"
-      source_url: "https://github.com/tomseai?tab=stars"
-  state: "imported"
+    - observed_at: 2025-01-03T09:44:54Z
+      relation: starred
+      source_id: github:user:tomseai:stars
+      source_url: https://github.com/tomseai?tab=stars
+  state: refreshed
 repository:
   aliases: []
   github_node_id: "R_kgDOLW_YDA"

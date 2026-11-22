@@ -20,6 +20,9 @@ Do not restrict collection or classification to AI-related projects.
 
 ## Agent workflow
 
+- Start repository additions and research refreshes with
+  `docs/research-collection.md`; use `docs/agent-workflow.md` for batch ownership
+  and the worker assignment template, and `docs/dossier-model.md` for completion.
 - Work in focused batches and change only the records assigned to the batch.
 - Preserve reviewed conclusions unless new evidence supports a change.
 - Report redirects, repository transfers, archival, and conflicting evidence.

@@ -1,0 +1,78 @@
+analysis:
+  analyzed_at: 2026-09-16T15:45:00.000Z
+  classification:
+    primary_category: ai-and-automation
+    state: confirmed
+    technologies:
+      - python
+    topics:
+      - agent-skills
+      - coding-agents
+      - task-planning
+      - spec-driven-development
+      - context-engineering
+      - worktrees
+      - testing
+      - code-review
+      - automation
+    use_cases:
+      - build-ai-products
+      - improve-developer-workflow
+  evidence:
+    - claim: A portable collection of coding-agent skills for planning,
+        implementation, validation, review, worktrees, and workflow design.
+      source_type: repository-file
+      url: https://raw.githubusercontent.com/coleam00/skills/73ec6524088ab8a9ddf953ff7baa495415c76cd1/README.md
+      checked_at: 2026-09-16
+      confidence: high
+  state: complete
+  summary:
+    one_line: A portable collection of coding-agent skills for planning,
+      implementation, validation, review, worktrees, and workflow design.
+    why_useful: Developers who want editable, reusable instructions for an
+      end-to-end coding-agent workflow
+curation:
+  confidence: null
+  evidence: []
+  limitations: []
+  recommendation: null
+  reviewed_at: null
+  state: uncurated
+  strengths: []
+  verdict: null
+id: github:coleam00/skills
+import:
+  github_snapshot:
+    archived: false
+    created_at: 2026-08-04T22:14:35Z
+    default_branch: main
+    description: The agent skills I actually use to build software with coding
+      agents. The PIV loop, planning, worktrees, and the meta-skills for
+      building your own AI Layer.
+    disabled: false
+    fetched_at: 2026-11-22T12:07:00.148Z
+    fork: false
+    forks: 199
+    homepage: null
+    latest_release: null
+    license_spdx: MIT
+    open_issues: 10
+    primary_language: Python
+    pushed_at: 2026-11-21T23:20:21Z
+    stars: 780
+    topics: []
+    updated_at: 2026-11-22T07:56:47Z
+  sources:
+    - observed_at: 2026-09-06T09:31:38Z
+      relation: starred
+      source_id: github:user:tomseai:stars
+      source_url: https://github.com/tomseai?tab=stars
+  state: refreshed
+repository:
+  aliases: []
+  github_node_id: R_kgDOTuHGNg
+  host: github.com
+  name: skills
+  owner: coleam00
+  url: https://github.com/coleam00/skills
+version: 1

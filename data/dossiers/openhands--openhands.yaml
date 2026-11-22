@@ -2,9 +2,9 @@ schema_version: 2
 repository_id: github:OpenHands/OpenHands
 research:
   state: complete
-  source_commit: 93c0871951f9247cc87a63940972ae7e25d46b6f
-  bundle_collected_at: 2026-07-19T20:44:41.363Z
-  researched_at: 2026-07-20T17:52:16.374+02:00
+  source_commit: 76e0e3eb6ac62245fa1981364a292ccb085f7f7b
+  bundle_collected_at: 2026-11-22T12:10:12.432Z
+  researched_at: 2026-11-22T12:23:40.096Z
   confidence: medium
 classification:
   primary_category: ai-and-automation
@@ -21,17 +21,24 @@ project:
   name: OpenHands
   kind: application
   summary: >-
-    A self-hosted developer control center for starting coding-agent conversations
-    and automations across local, remote, and cloud agent backends.
+    A self-hosted developer control center for starting coding-agent
+    conversations and automations across local, remote, and cloud agent
+    backends.
   best_for:
-    - Engineering teams coordinating coding agents across local machines, containers, or virtual machines
-    - Developers creating scheduled or event-driven automations that use compatible coding agents
+    - Engineering teams coordinating coding agents across local machines,
+      containers, or virtual machines
+    - Developers creating scheduled or event-driven automations that use
+      compatible coding agents
 key_features:
-  - Runs OpenHands, Claude Code, Codex, Gemini, and other ACP-compatible agents through selectable backends
+  - Runs OpenHands, Claude Code, Codex, Gemini, and other ACP-compatible agents
+    through selectable backends
   - Lets one frontend switch among local, remote, and cloud agent backends
-  - Provides automations that can run on schedules or in response to webhook events
-  - Integrates automation workflows with services including Slack, GitHub, Linear, and Notion
-  - Includes a local web UI and documented direct, Docker-sandboxed, and source installation paths
+  - Provides automations that can run on schedules or in response to webhook
+    events
+  - Integrates automation workflows with services including Slack, GitHub,
+    Linear, and Notion
+  - Includes a local web UI and documented direct, Docker-sandboxed, and source
+    installation paths
 usage:
   interfaces:
     - Web user interface
@@ -40,7 +47,7 @@ usage:
   installation:
     - Install @openhands/agent-canvas globally with npm
     - Run the documented ghcr.io/openhands/agent-canvas Docker image
-    - Clone the source repository and run npm install followed by npm run dev
+    - Clone the source repository and run npm ci followed by npm run dev
   setup: moderate
 technology:
   languages:
@@ -48,35 +55,38 @@ technology:
     - TypeScript
   notable_components:
     - React
-    - Node.js 22
+    - Node.js 24
     - Docker
     - FastAPI
     - Agent Client Protocol (ACP)
 license:
-  spdx: null
-  name: Mixed licensing
-  notes: >-
-    The retained root license states that content outside enterprise/ is MIT, while
-    enterprise/ is governed by enterprise/LICENSE; those enterprise terms are not retained in the bundle.
+  spdx: MIT
+  name: MIT License
+  notes: The root MIT license requires retaining its copyright and permission
+    notice in copies or substantial portions.
 status:
   lifecycle: experimental
   archived: false
-  latest_release: 1.11.0
-  latest_release_at: 2026-07-09
+  latest_release: v1.43.0
+  latest_release_at: 2026-11-20
 strengths:
-  - Supports switching the same control UI among local, remote, and cloud agent backends
-  - Gives users both an unsandboxed local path and a Docker-sandboxed installation path
-  - Supports scheduled and event-driven engineering automations alongside interactive conversations
+  - Supports switching the same control UI among local, remote, and cloud agent
+    backends
+  - Gives users both an unsandboxed local path and a Docker-sandboxed
+    installation path
+  - Supports scheduled and event-driven engineering automations alongside
+    interactive conversations
 caveats:
-  - The unsandboxed local and source installation paths give the agent server full access to the host filesystem
+  - The unsandboxed local and source installation paths give the agent server
+    full access to the host filesystem
   - Docker use requires a host projects directory that the agent can access
-  - The repository states that Agent Canvas and the OpenHands Agent/Agent Server source code are moving to separate repositories
-  - Cloud-prefixed feed entries are component releases; 1.11.0 is selected because it matches the retained root and frontend package versions
-  - Enterprise-directory licensing is not established from the retained bundle
+  - Cloud-prefixed feed entries are component releases; v1.43.0 is selected
+    because it matches the retained root and frontend package versions
 sources:
-  - https://raw.githubusercontent.com/OpenHands/OpenHands/93c0871951f9247cc87a63940972ae7e25d46b6f/README.md
-  - https://raw.githubusercontent.com/OpenHands/OpenHands/93c0871951f9247cc87a63940972ae7e25d46b6f/LICENSE
-  - https://raw.githubusercontent.com/OpenHands/OpenHands/93c0871951f9247cc87a63940972ae7e25d46b6f/pyproject.toml
-  - https://raw.githubusercontent.com/OpenHands/OpenHands/93c0871951f9247cc87a63940972ae7e25d46b6f/frontend/package.json
-  - https://raw.githubusercontent.com/OpenHands/OpenHands/93c0871951f9247cc87a63940972ae7e25d46b6f/docker-compose.yml
+  - https://raw.githubusercontent.com/OpenHands/OpenHands/76e0e3eb6ac62245fa1981364a292ccb085f7f7b/README.md
+  - https://raw.githubusercontent.com/OpenHands/OpenHands/76e0e3eb6ac62245fa1981364a292ccb085f7f7b/LICENSE
+  - https://raw.githubusercontent.com/OpenHands/OpenHands/76e0e3eb6ac62245fa1981364a292ccb085f7f7b/pyproject.toml
+  - https://raw.githubusercontent.com/OpenHands/OpenHands/76e0e3eb6ac62245fa1981364a292ccb085f7f7b/frontend/package.json
+  - https://raw.githubusercontent.com/OpenHands/OpenHands/76e0e3eb6ac62245fa1981364a292ccb085f7f7b/docker-compose.yml
   - https://github.com/OpenHands/OpenHands/releases.atom
+  - https://github.com/OpenHands/OpenHands/releases/tag/v1.43.0

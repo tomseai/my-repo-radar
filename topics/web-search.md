@@ -2,11 +2,11 @@
 
 # Web Search
 
-[Back to the main catalog](../README.md) | **10 repositories**
+[Back to the main catalog](../README.md) | **11 repositories**
 
 ## Primary categories represented
 
-- [AI and Automation](../categories/ai-and-automation.md) (5)
+- [AI and Automation](../categories/ai-and-automation.md) (6)
 - [Backend and APIs](../categories/backend-and-apis.md) (1)
 - [Developer Tools](../categories/developer-tools.md) (1)
 - [Platforms and Applications](../categories/platforms-and-applications.md) (3)
@@ -24,34 +24,13 @@ A Python framework, built on CAMEL-AI, for composing collaborating agents that a
 - **Languages:** Python
 - **License:** Apache-2.0
 - **Lifecycle:** Active
-- **GitHub stars:** 19,976
+- **GitHub stars:** 20,193
 
 **Key features**
 
   - Coordinates multi-agent collaboration on task-automation workflows atop the CAMEL-AI framework
   - Supports online search through several engines and Playwright-based browser interaction
   - Processes local or online audio, images, and video, and extracts documents into text or Markdown
-
-<a id="repo-danny-avila--librechat"></a>
-
-## [LibreChat](https://github.com/danny-avila/LibreChat)
-
-A self-hosted, multi-user AI chat platform that unifies hosted, custom, and local model endpoints with configurable agents, MCP tools, file workflows, web search, and Docker-based deployment.
-
-- **Category:** [Platforms and Applications](../categories/platforms-and-applications.md#repo-danny-avila--librechat)
-- **Topics:** [Chat UI](../topics/chat-ui.md#repo-danny-avila--librechat) | [AI Agents](../topics/ai-agents.md#repo-danny-avila--librechat) | [Agent Skills](../topics/agent-skills.md#repo-danny-avila--librechat) | [MCP](../topics/mcp.md#repo-danny-avila--librechat) | [Multi Provider](../topics/multi-provider.md#repo-danny-avila--librechat) | [Self Hosted](../topics/self-hosted.md#repo-danny-avila--librechat) | [Web Search](../topics/web-search.md#repo-danny-avila--librechat) | [Authentication](../topics/authentication.md#repo-danny-avila--librechat) | [Document Processing](../topics/document-processing.md#repo-danny-avila--librechat)
-- **Kind:** Application
-- **Best for:** Teams operating a configurable shared AI chat service on their own infrastructure; Users who need one interface for multiple model providers, agents, tools, and conversation controls
-- **Languages:** TypeScript, JavaScript
-- **License:** MIT
-- **Lifecycle:** Active
-- **GitHub stars:** 40,941
-
-**Key features**
-
-  - Connects to major hosted providers, custom OpenAI-compatible endpoints, and local or remote model providers
-  - Supports custom agents with skills, subagents, MCP servers, tools, file search, and code execution
-  - Adds web search with search providers, content scrapers, and reranking support
 
 <a id="repo-davis7dotsh--my-pi-setup"></a>
 
@@ -64,15 +43,36 @@ An opinionated TypeScript configuration and extension collection for the Pi codi
 - **Kind:** Starter Template
 - **Best for:** Pi users seeking concrete examples of extending a personal coding-agent environment; Exploring a bundled set of search, terminal-management, and subagent extensions before selecting pieces to adapt
 - **Languages:** TypeScript, JavaScript
-- **License:** No repository license grant
+- **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 617
+- **GitHub stars:** 1,099
 
 **Key features**
 
   - Firecrawl-powered tools for web search and scraping
   - Background terminals with a user interface for managing them
   - Subagents and workflows for Pi
+
+<a id="repo-drcathicks--informed-patient"></a>
+
+## [Informed Patient](https://github.com/DrCatHicks/informed-patient)
+
+A Claude skill that structures research and an evidence review around a person's health question for discussion with their healthcare team.
+
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-drcathicks--informed-patient)
+- **Topics:** [Agent Skills](../topics/agent-skills.md#repo-drcathicks--informed-patient) | [LLMs](../topics/llms.md#repo-drcathicks--informed-patient) | [Web Search](../topics/web-search.md#repo-drcathicks--informed-patient) | [Document Processing](../topics/document-processing.md#repo-drcathicks--informed-patient)
+- **Kind:** Plugin
+- **Best for:** Organizing health research questions before a healthcare appointment
+- **Languages:** Unknown
+- **License:** CC-BY-4.0
+- **Lifecycle:** Active
+- **GitHub stars:** 196
+
+**Key features**
+
+  - Guided context gathering for a health question
+  - Structured or exploratory evidence search modes
+  - Evidence review with sources, limitations, and questions for clinicians
 
 <a id="repo-dzhng--deep-research"></a>
 
@@ -87,7 +87,7 @@ A compact TypeScript research assistant that iteratively queries search and scra
 - **Languages:** TypeScript
 - **License:** MIT
 - **Lifecycle:** Unknown
-- **GitHub stars:** 19,376
+- **GitHub stars:** 19,912
 
 **Key features**
 
@@ -99,22 +99,22 @@ A compact TypeScript research assistant that iteratively queries search and scra
 
 ## [firecrawl](https://github.com/firecrawl/firecrawl)
 
-An API and SDK platform for web search, scraping, crawling, and browser interaction that returns AI-ready Markdown, structured data, and other content.
+A web-content toolkit with a local CLI and MCP server, a hosted API, and a separately deployable self-hosted server for extracting and using website content.
 
 - **Category:** [Backend and APIs](../categories/backend-and-apis.md#repo-firecrawl--firecrawl)
 - **Topics:** [AI Agents](../topics/ai-agents.md#repo-firecrawl--firecrawl) | [LLMs](../topics/llms.md#repo-firecrawl--firecrawl) | [Web Search](../topics/web-search.md#repo-firecrawl--firecrawl) | [Web Scraping](../topics/web-scraping.md#repo-firecrawl--firecrawl) | [Browser Automation](../topics/browser-automation.md#repo-firecrawl--firecrawl) | [Document Processing](../topics/document-processing.md#repo-firecrawl--firecrawl) | [Self Hosted](../topics/self-hosted.md#repo-firecrawl--firecrawl) | [Open Source](../topics/open-source.md#repo-firecrawl--firecrawl)
 - **Kind:** Service
-- **Best for:** Developers supplying current web context to AI applications and agents; Teams that need search, extraction, crawling, and page interaction behind one API
+- **Best for:** Developers supplying web content to AI applications and agents; Teams choosing between a local parser, hosted web tools, and a self-hosted server
 - **Languages:** TypeScript, Go, Python, Rust
 - **License:** AGPL-3.0-or-later
 - **Lifecycle:** Active
-- **GitHub stars:** 153,101
+- **GitHub stars:** 206,568
 
 **Key features**
 
-  - Search the web and retrieve page content from results
-  - Scrape URLs into Markdown, HTML, screenshots, or structured JSON
-  - Crawl a site, map its URLs, or batch-scrape many pages asynchronously
+  - Scrape, crawl, map, and batch-scrape websites locally or through hosted APIs
+  - Convert pages to Markdown or structured data and handle JavaScript rendering for supported pages
+  - Expose the local tools through an MCP server and a localhost API
 
 <a id="repo-khoj-ai--khoj"></a>
 
@@ -129,13 +129,34 @@ A self-hostable personal AI application that combines LLM chat, semantic search 
 - **Languages:** Python, TypeScript
 - **License:** AGPL-3.0-or-later
 - **Lifecycle:** Active
-- **GitHub stars:** 35,878
+- **GitHub stars:** 38,206
 
 **Key features**
 
   - Chats with local or hosted LLMs and can ground answers in indexed documents or web information
   - Performs semantic search over PDF, Markdown, org-mode, Word, Notion, and other supported sources
   - Lets users create agents with custom knowledge, personas, chat models, and tools
+
+<a id="repo-librechat-ai--librechat"></a>
+
+## [LibreChat](https://github.com/LibreChat-AI/LibreChat)
+
+A self-hosted, multi-user AI chat platform that unifies hosted, custom, and local model endpoints with configurable agents, MCP tools, file workflows, web search, and Docker-based deployment.
+
+- **Category:** [Platforms and Applications](../categories/platforms-and-applications.md#repo-librechat-ai--librechat)
+- **Topics:** [Chat UI](../topics/chat-ui.md#repo-librechat-ai--librechat) | [AI Agents](../topics/ai-agents.md#repo-librechat-ai--librechat) | [Agent Skills](../topics/agent-skills.md#repo-librechat-ai--librechat) | [MCP](../topics/mcp.md#repo-librechat-ai--librechat) | [Multi Provider](../topics/multi-provider.md#repo-librechat-ai--librechat) | [Self Hosted](../topics/self-hosted.md#repo-librechat-ai--librechat) | [Web Search](../topics/web-search.md#repo-librechat-ai--librechat) | [Authentication](../topics/authentication.md#repo-librechat-ai--librechat) | [Document Processing](../topics/document-processing.md#repo-librechat-ai--librechat)
+- **Kind:** Application
+- **Best for:** Teams operating a configurable shared AI chat service on their own infrastructure; Users who need one interface for multiple model providers, agents, tools, and conversation controls
+- **Languages:** TypeScript, JavaScript
+- **License:** MIT
+- **Lifecycle:** Active
+- **GitHub stars:** 47,405
+
+**Key features**
+
+  - Connects to major hosted providers, custom OpenAI-compatible endpoints, and local or remote model providers
+  - Supports custom agents with skills, subagents, MCP servers, tools, file search, and code execution
+  - Exposes an Agent Management API for deployment-bound OIDC clients
 
 <a id="repo-mvanhorn--last30days-skill"></a>
 
@@ -150,7 +171,7 @@ An agent skill and plugin for producing recent, cited research briefs by searchi
 - **Languages:** Python, Go, JavaScript
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 52,774
+- **GitHub stars:** 72,347
 
 **Key features**
 
@@ -171,7 +192,7 @@ A self-hosted, offline-capable AI platform and web interface for local Ollama mo
 - **Languages:** Python, TypeScript, Svelte
 - **License:** Open WebUI License and prior original licenses
 - **Lifecycle:** Active
-- **GitHub stars:** 145,966
+- **GitHub stars:** 159,254
 
 **Key features**
 
@@ -192,7 +213,7 @@ An MIT-licensed local compatibility server that signs in with a ChatGPT account 
 - **Languages:** Python
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 1,514
+- **GitHub stars:** 1,566
 
 **Key features**
 
@@ -213,7 +234,7 @@ A Rust terminal coding agent distributed as the grok CLI and full-screen TUI, wi
 - **Languages:** Rust
 - **License:** Apache-2.0
 - **Lifecycle:** Active
-- **GitHub stars:** 19,918
+- **GitHub stars:** 27,825
 
 **Key features**
 

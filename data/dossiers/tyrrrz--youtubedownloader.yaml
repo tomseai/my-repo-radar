@@ -2,9 +2,9 @@ schema_version: 2
 repository_id: github:Tyrrrz/YoutubeDownloader
 research:
   state: complete
-  source_commit: 67c0d4ccf080b828a81c3144c06a7cac9cf92c3a
-  bundle_collected_at: 2026-07-19T20:45:43.074Z
-  researched_at: 2026-07-20T18:10:37.7918722+02:00
+  source_commit: a419ef2be70392e57d31bd5103f1d6d0d20b3919
+  bundle_collected_at: 2026-11-22T12:10:30.173Z
+  researched_at: 2026-11-22T12:25:07.100Z
   confidence: medium
 classification:
   primary_category: platforms-and-applications
@@ -20,12 +20,15 @@ project:
     playlists, and channels from URLs or search queries, with selectable media
     formats, languages, subtitles, tags, and account access for private content.
   best_for:
-    - Downloading YouTube media, playlists, or channels through a desktop graphical interface
-    - Selecting video formats and preserving alternate audio, subtitles, and media tags
+    - Downloading YouTube media, playlists, or channels through a desktop
+      graphical interface
+    - Selecting video formats and preserving alternate audio, subtitles, and
+      media tags
 key_features:
   - Downloads videos by URL, playlist, channel, or keyword search query
   - Lets users select video quality and output format
-  - Embeds alternate-language audio tracks, subtitles, and media tags automatically
+  - Embeds alternate-language audio tracks, subtitles, and media tags
+    automatically
   - Supports YouTube-account login for private content
   - Publishes self-contained builds for Windows, Linux, and macOS architectures
 usage:
@@ -48,25 +51,33 @@ license:
   name: MIT License
   notes: >-
     License.txt grants MIT terms to the software and documentation. The README
-    also presents non-license terms of use; consumers should review both files
-    because the terms are separate from the MIT text.
+    also states separate project-use conditions in its introductory notice.
 status:
   lifecycle: maintenance
   archived: false
-  latest_release: 1.16.4
-  latest_release_at: "2026-04-22"
+  latest_release: 1.17.1
+  latest_release_at: "2026-10-25"
 strengths:
-  - Combines URL, playlist, channel, and search-driven downloads in one cross-platform GUI
-  - Provides media-selection features for quality, formats, alternate audio, subtitles, and tags
-  - The pinned release workflow builds self-contained artifacts for Windows, Linux, and macOS targets
+  - Combines URL, playlist, channel, and search-driven downloads in one
+    cross-platform GUI
+  - Provides media-selection features for quality, formats, alternate audio,
+    subtitles, and tags
+  - The pinned release workflow builds self-contained artifacts for Windows,
+    Linux, and macOS targets
 caveats:
-  - It is explicitly marked maintenance in the pinned README, so new feature development should not be assumed
-  - Community Scoop and AUR packages are independently published and may lag the latest release
-  - The README says macOS users may need to remove the downloaded application's quarantine attribute
-  - Its interaction with YouTube relies on YoutubeExplode and can be affected by upstream service changes
-  - The README's separate terms of use should be evaluated alongside the MIT License.txt
+  - It is explicitly marked maintenance in the pinned README, so new feature
+    development should not be assumed
+  - Community Scoop and AUR packages are independently published and may lag the
+    latest release
+  - The macOS download is not notarized. The release workflow packages separate
+    instructions for launching the app.
+  - Its interaction with YouTube relies on YoutubeExplode and can be affected by
+    upstream service changes
+  - The README describes separate project-use conditions alongside the MIT
+    license.
 sources:
-  - https://raw.githubusercontent.com/Tyrrrz/YoutubeDownloader/67c0d4ccf080b828a81c3144c06a7cac9cf92c3a/Readme.md
-  - https://raw.githubusercontent.com/Tyrrrz/YoutubeDownloader/67c0d4ccf080b828a81c3144c06a7cac9cf92c3a/License.txt
-  - https://raw.githubusercontent.com/Tyrrrz/YoutubeDownloader/67c0d4ccf080b828a81c3144c06a7cac9cf92c3a/.github/workflows/main.yml
+  - https://raw.githubusercontent.com/Tyrrrz/YoutubeDownloader/a419ef2be70392e57d31bd5103f1d6d0d20b3919/Readme.md
+  - https://raw.githubusercontent.com/Tyrrrz/YoutubeDownloader/a419ef2be70392e57d31bd5103f1d6d0d20b3919/License.txt
+  - https://raw.githubusercontent.com/Tyrrrz/YoutubeDownloader/a419ef2be70392e57d31bd5103f1d6d0d20b3919/.github/workflows/main.yml
   - https://github.com/Tyrrrz/YoutubeDownloader/releases.atom
+  - https://github.com/Tyrrrz/YoutubeDownloader/releases/tag/1.17.1

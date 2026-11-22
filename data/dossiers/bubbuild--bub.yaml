@@ -2,9 +2,9 @@ schema_version: 2
 repository_id: github:bubbuild/bub
 research:
   state: complete
-  source_commit: cda8d6c9ab33af19e0223a8608af3cf0b410de1d
-  bundle_collected_at: 2026-07-19T20:41:59.574Z
-  researched_at: 2026-07-20T00:39:13.3818923+02:00
+  source_commit: ccf467857afb261fabee7e46ec9620dc5b55ee5b
+  bundle_collected_at: 2026-11-22T12:09:07.565Z
+  researched_at: 2026-11-22T12:24:06.721456+00:00
   confidence: high
 
 classification:
@@ -22,27 +22,30 @@ project:
   name: Bub
   kind: framework
   summary: >-
-    A small hook-first Python runtime for agents and people in shared
-    conversational environments, using an inspectable turn pipeline, append-only
-    context records, and adapters for command-line, Telegram, and custom channels.
+    A Python agent kernel and customizable application with model and tool
+    configuration, conversation storage, plugins, and channel integrations.
   best_for:
     - Developers building extensible agents that share conversations with people
-    - Teams that want explicit, replayable context rather than hidden session state
+    - Teams that want explicit, replayable context rather than hidden session
+      state
 
 key_features:
-  - Replaceable pluggy hooks for every inbound-message turn stage
+  - Python agent kernel with configurable model, tools, instructions, and storage
+  - Optional application layer with pluggy hooks and channel integrations
   - Append-only tape context that can be inspected, replayed, and handed off
-  - One runtime model for CLI, Telegram, and custom channel adapters
+  - Application supports CLI, Telegram, and channel adapters
   - Built-in tools, skills, model execution, and plugin dependency management
   - CLI modes for chat, one-shot tasks, and channel-listener operation
 
 usage:
   interfaces:
+    - Python API
     - CLI
     - Telegram channel
     - Docker container
   installation:
-    - pip package
+    - Python package with optional app extra
+    - official installation script
     - source checkout with uv
     - Docker Compose
   setup: moderate
@@ -53,32 +56,39 @@ technology:
   notable_components:
     - pluggy
     - Agent Skills
-    - any-llm-sdk
+    - Pydantic
+    - republic
 
 license:
   spdx: Apache-2.0
   name: Apache License 2.0
-  notes: Includes the Apache-2.0 patent grant and its standard notice-retention conditions.
+  notes: Includes the Apache-2.0 patent grant and its standard notice-retention
+    conditions.
 
 status:
   lifecycle: active
   archived: false
-  latest_release: 0.4.0
-  latest_release_at: 2026-07-17
+  latest_release: 0.6.1
+  latest_release_at: 2026-11-04
 
 strengths:
-  - Makes message processing and extension points visible instead of framework-private
+  - Makes message processing and extension points visible instead of
+    framework-private
   - Keeps human and agent interactions within the same runtime model
   - Allows channel adapters without changing the core turn pipeline
 
 caveats:
-  - Requires Python 3.12 or newer and a configured LLM provider or OpenAI Codex login
-  - Extending behavior requires writing and packaging pluggy-compatible Python plugins
-  - Telegram and other external channels require separate channel configuration and credentials
+  - Requires Python 3.12 or newer and model configuration
+  - The CLI and application dependencies require the app extra or app installer
+  - Extending behavior requires writing and packaging pluggy-compatible Python
+    plugins
+  - Telegram and other external channels require separate channel configuration
+    and credentials
 
 sources:
-  - https://raw.githubusercontent.com/bubbuild/bub/cda8d6c9ab33af19e0223a8608af3cf0b410de1d/README.md
-  - https://raw.githubusercontent.com/bubbuild/bub/cda8d6c9ab33af19e0223a8608af3cf0b410de1d/pyproject.toml
-  - https://raw.githubusercontent.com/bubbuild/bub/cda8d6c9ab33af19e0223a8608af3cf0b410de1d/Dockerfile
-  - https://raw.githubusercontent.com/bubbuild/bub/cda8d6c9ab33af19e0223a8608af3cf0b410de1d/LICENSE
+  - https://raw.githubusercontent.com/bubbuild/bub/ccf467857afb261fabee7e46ec9620dc5b55ee5b/README.md
+  - https://raw.githubusercontent.com/bubbuild/bub/ccf467857afb261fabee7e46ec9620dc5b55ee5b/pyproject.toml
+  - https://raw.githubusercontent.com/bubbuild/bub/ccf467857afb261fabee7e46ec9620dc5b55ee5b/Dockerfile
+  - https://raw.githubusercontent.com/bubbuild/bub/ccf467857afb261fabee7e46ec9620dc5b55ee5b/LICENSE
   - https://github.com/bubbuild/bub/releases.atom
+  - https://github.com/bubbuild/bub/releases/tag/0.6.1

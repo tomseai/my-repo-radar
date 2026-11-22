@@ -2,54 +2,13 @@
 
 # Parallel Agents
 
-[Back to the main catalog](../README.md) | **11 repositories**
+[Back to the main catalog](../README.md) | **15 repositories**
 
 ## Primary categories represented
 
-- [AI and Automation](../categories/ai-and-automation.md) (7)
+- [AI and Automation](../categories/ai-and-automation.md) (10)
 - [Developer Tools](../categories/developer-tools.md) (4)
-
-<a id="repo-agentsmesh--agentsmesh"></a>
-
-## [AgentsMesh](https://github.com/AgentsMesh/AgentsMesh)
-
-A self-hosted control plane for scheduling, isolating, and supervising terminal-based coding agents across a fleet of user-run machines.
-
-- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-agentsmesh--agentsmesh)
-- **Topics:** [AI Agents](../topics/ai-agents.md#repo-agentsmesh--agentsmesh) | [Agent Orchestration](../topics/agent-orchestration.md#repo-agentsmesh--agentsmesh) | [Multi Agent](../topics/multi-agent.md#repo-agentsmesh--agentsmesh) | [Parallel Agents](../topics/parallel-agents.md#repo-agentsmesh--agentsmesh) | [Self Hosted](../topics/self-hosted.md#repo-agentsmesh--agentsmesh) | [CLI](../topics/cli.md#repo-agentsmesh--agentsmesh)
-- **Kind:** Infrastructure
-- **Best for:** Teams operating concurrent coding-agent tasks on their own infrastructure; Workflows needing isolated Git worktrees, shared terminal visibility, and coordinated agent work
-- **Languages:** Go, Rust, TypeScript, Swift
-- **License:** BUSL-1.1
-- **Lifecycle:** Active
-- **GitHub stars:** 2,285
-
-**Key features**
-
-  - Self-hosted Runner fleet that schedules AgentPods across user-owned machines
-  - Per-pod PTY terminals, private credentials, branches, and isolated Git worktree sandboxes
-  - Web, Electron desktop, and iOS clients backed by a shared Rust core
-
-<a id="repo-agentwrapper--agent-orchestrator"></a>
-
-## [Agent Orchestrator](https://github.com/AgentWrapper/agent-orchestrator)
-
-A local agent IDE and orchestration layer that supervises parallel terminal-based coding agents in isolated Git worktrees, with desktop and CLI control plus feedback loops for pull requests, CI, reviews, and conflicts.
-
-- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-agentwrapper--agent-orchestrator)
-- **Topics:** [AI Agents](../topics/ai-agents.md#repo-agentwrapper--agent-orchestrator) | [Agent Harnesses](../topics/agent-harnesses.md#repo-agentwrapper--agent-orchestrator) | [Agent Orchestration](../topics/agent-orchestration.md#repo-agentwrapper--agent-orchestrator) | [Parallel Agents](../topics/parallel-agents.md#repo-agentwrapper--agent-orchestrator) | [Coding Agents](../topics/coding-agents.md#repo-agentwrapper--agent-orchestrator) | [Worktrees](../topics/worktrees.md#repo-agentwrapper--agent-orchestrator) | [CLI](../topics/cli.md#repo-agentwrapper--agent-orchestrator)
-- **Kind:** Application
-- **Best for:** Developers coordinating several coding-agent sessions in one repository; Teams or individuals wanting local visibility into agent terminals, branches, and PR feedback
-- **Languages:** Go, TypeScript
-- **License:** Apache-2.0
-- **Lifecycle:** Active
-- **GitHub stars:** 8,380
-
-**Key features**
-
-  - Separate Git worktree, terminal, branch, and pull-request context for each session
-  - Adapters for multiple terminal-based coding-agent harnesses
-  - Desktop session board with embedded terminals and local browser previews
+- [Security and Privacy](../categories/security-and-privacy.md) (1)
 
 <a id="repo-andymik90--aperant"></a>
 
@@ -64,7 +23,7 @@ An Electron desktop application for planning, executing, and validating parallel
 - **Languages:** TypeScript
 - **License:** AGPL-3.0
 - **Lifecycle:** Maintenance
-- **GitHub stars:** 14,469
+- **GitHub stars:** 14,623
 
 **Key features**
 
@@ -72,9 +31,30 @@ An Electron desktop application for planning, executing, and validating parallel
   - Up to twelve parallel agent terminals and Git-worktree isolation
   - Built-in quality assurance and AI-assisted merge-conflict resolution
 
+<a id="repo-garciaalan186--squeaky-clean"></a>
+
+## [Squeaky Clean](https://github.com/garciaalan186/squeaky-clean)
+
+An agentic code-generation and architecture-recovery CLI that turns a declarative ProblemSpec into Clean-Architecture applications by orchestrating parallel, pattern-specialized agents through the compact Squib architecture DSL.
+
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-garciaalan186--squeaky-clean)
+- **Topics:** [Coding Agents](../topics/coding-agents.md#repo-garciaalan186--squeaky-clean) | [Agent Orchestration](../topics/agent-orchestration.md#repo-garciaalan186--squeaky-clean) | [Parallel Agents](../topics/parallel-agents.md#repo-garciaalan186--squeaky-clean) | [Code Generation](../topics/code-generation.md#repo-garciaalan186--squeaky-clean) | [Spec Driven Development](../topics/spec-driven-development.md#repo-garciaalan186--squeaky-clean) | [CLI](../topics/cli.md#repo-garciaalan186--squeaky-clean) | [LLMs](../topics/llms.md#repo-garciaalan186--squeaky-clean) | [Evaluation](../topics/evaluation.md#repo-garciaalan186--squeaky-clean) | [Testing](../topics/testing.md#repo-garciaalan186--squeaky-clean) | [Developer Productivity](../topics/developer-productivity.md#repo-garciaalan186--squeaky-clean)
+- **Kind:** CLI
+- **Best for:** Generating backend applications from explicit requirements while enforcing Clean Architecture boundaries; Experimenting with cost-tiered parallel coding-agent pipelines and reproducible evaluations
+- **Languages:** Python
+- **License:** Apache-2.0
+- **Lifecycle:** Experimental
+- **GitHub stars:** 25
+
+**Key features**
+
+  - Generates buildable application projects from a declarative JSON ProblemSpec
+  - Uses a validated Squib architecture DSL between model tiers
+  - Runs pattern-specialized implementation agents in parallel across 34 GoF and DDD/Clean patterns
+
 <a id="repo-generalaction--emdash"></a>
 
-## [emdash](https://github.com/generalaction/emdash)
+## [Emdash Classic](https://github.com/generalaction/emdash)
 
 A local-first desktop environment for running AI coding agents in parallel in isolated Git worktrees, then reviewing and integrating their changes.
 
@@ -85,7 +65,7 @@ A local-first desktop environment for running AI coding agents in parallel in is
 - **Languages:** TypeScript
 - **License:** Apache-2.0
 - **Lifecycle:** Active
-- **GitHub stars:** 5,218
+- **GitHub stars:** 6,290
 
 **Key features**
 
@@ -104,15 +84,57 @@ A self-hosted, cross-device control surface for running, monitoring, and coordin
 - **Kind:** Application
 - **Best for:** Developers coordinating several coding-agent tasks from desktop, mobile, or terminal; Running supported agent CLIs on a workstation or remote machine under local control
 - **Languages:** TypeScript, Ruby
-- **License:** AGPL-3.0-only
+- **License:** Apache-2.0
 - **Lifecycle:** Active
-- **GitHub stars:** 10,863
+- **GitHub stars:** 24,660
 
 **Key features**
 
-  - One interface for Claude Code, Codex, Copilot, OpenCode, and Pi
+  - One interface for Claude Code, Codex, Copilot, OpenCode, Pi, Antigravity, and Muse Code
   - Parallel agent execution with live terminal attachment and follow-up prompts
   - Desktop, mobile, web, and CLI clients connected to a local daemon
+
+<a id="repo-intent-hq--intent"></a>
+
+## [Intent](https://github.com/intent-hq/intent)
+
+A local-first workspace where specialist coding agents plan work in specifications and delegate tasks to agents running in parallel on local or cloud machines.
+
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-intent-hq--intent)
+- **Topics:** [Coding Agents](../topics/coding-agents.md#repo-intent-hq--intent) | [Agent Orchestration](../topics/agent-orchestration.md#repo-intent-hq--intent) | [Multi Agent](../topics/multi-agent.md#repo-intent-hq--intent) | [Parallel Agents](../topics/parallel-agents.md#repo-intent-hq--intent) | [Spec Driven Development](../topics/spec-driven-development.md#repo-intent-hq--intent) | [Local First](../topics/local-first.md#repo-intent-hq--intent) | [MCP](../topics/mcp.md#repo-intent-hq--intent) | [Desktop App](../topics/desktop-app.md#repo-intent-hq--intent) | [Web UI](../topics/web-ui.md#repo-intent-hq--intent)
+- **Kind:** Monorepo
+- **Best for:** Teams coordinating coding agents across a shared repository
+- **Languages:** Rust, JavaScript, Swift
+- **License:** Apache-2.0
+- **Lifecycle:** Active
+- **GitHub stars:** 463
+
+**Key features**
+
+  - Specialist agents plan, delegate, and review work
+  - Supports Claude Code, Codex, Cursor, OpenCode, and local models
+  - Isolated workspace checkouts and branches
+
+<a id="repo-levi-qiao--longgraph-skill"></a>
+
+## [longgraph](https://github.com/levi-qiao/longgraph-skill)
+
+A portable Markdown skill and prompt library that compiles durable executor-supervisor graphs for long-running agent work, with file-backed progress, independent verification, and host-switchable continuation.
+
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-levi-qiao--longgraph-skill)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-levi-qiao--longgraph-skill) | [Agent Skills](../topics/agent-skills.md#repo-levi-qiao--longgraph-skill) | [Agent Orchestration](../topics/agent-orchestration.md#repo-levi-qiao--longgraph-skill) | [Multi Agent](../topics/multi-agent.md#repo-levi-qiao--longgraph-skill) | [Parallel Agents](../topics/parallel-agents.md#repo-levi-qiao--longgraph-skill) | [Agent Governance](../topics/agent-governance.md#repo-levi-qiao--longgraph-skill) | [Task Planning](../topics/task-planning.md#repo-levi-qiao--longgraph-skill) | [Spec Driven Development](../topics/spec-driven-development.md#repo-levi-qiao--longgraph-skill) | [Context Engineering](../topics/context-engineering.md#repo-levi-qiao--longgraph-skill) | [Prompt Engineering](../topics/prompt-engineering.md#repo-levi-qiao--longgraph-skill) | [Automation](../topics/automation.md#repo-levi-qiao--longgraph-skill)
+- **Kind:** Plugin
+- **Best for:** Multi-hour or multi-milestone agent tasks that outlive one context window; Teams needing a durable task queue, independent verification, and explicit acceptance gates
+- **Languages:** Markdown, Shell
+- **License:** MIT
+- **Lifecycle:** Active
+- **GitHub stars:** 79
+
+**Key features**
+
+  - Stores the task queue and progress in a single-writer ledger outside chat history
+  - Separates execution from clean-context supervision through a one-way directive edge
+  - Compiles focused delivery, convergence, research, or custom graph runs
 
 <a id="repo-morapelker--hive"></a>
 
@@ -127,13 +149,97 @@ Desktop orchestration for parallel Claude Code, OpenCode, and Codex coding sessi
 - **Languages:** TypeScript
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 452
+- **GitHub stars:** 477
 
 **Key features**
 
   - Starts supported coding-agent sessions in a worktree and streams their responses and tool calls.
   - Creates, organizes, archives, and switches among isolated Git worktrees from the desktop UI.
   - Provides visual Git operations, inline diffs, file history, and a Monaco-based file explorer.
+
+<a id="repo-open-gsd--gsd-core"></a>
+
+## [GSD Core](https://github.com/open-gsd/gsd-core)
+
+A multi-runtime context-engineering and spec-driven development framework that guides coding agents through discuss, plan, parallel execution, verification, and shipping phases while moving heavy work into fresh subagent contexts.
+
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-open-gsd--gsd-core)
+- **Topics:** [Coding Agents](../topics/coding-agents.md#repo-open-gsd--gsd-core) | [Agent Frameworks](../topics/agent-frameworks.md#repo-open-gsd--gsd-core) | [Agent Orchestration](../topics/agent-orchestration.md#repo-open-gsd--gsd-core) | [Multi Agent](../topics/multi-agent.md#repo-open-gsd--gsd-core) | [Parallel Agents](../topics/parallel-agents.md#repo-open-gsd--gsd-core) | [Agent Skills](../topics/agent-skills.md#repo-open-gsd--gsd-core) | [Spec Driven Development](../topics/spec-driven-development.md#repo-open-gsd--gsd-core) | [Context Engineering](../topics/context-engineering.md#repo-open-gsd--gsd-core) | [Task Planning](../topics/task-planning.md#repo-open-gsd--gsd-core) | [Code Review](../topics/code-review.md#repo-open-gsd--gsd-core) | [Testing](../topics/testing.md#repo-open-gsd--gsd-core) | [MCP](../topics/mcp.md#repo-open-gsd--gsd-core) | [Pull Requests](../topics/pull-requests.md#repo-open-gsd--gsd-core) | [Developer Productivity](../topics/developer-productivity.md#repo-open-gsd--gsd-core)
+- **Kind:** Framework
+- **Best for:** Developers running multi-phase software projects with coding agents; Teams that need durable project state and repeatable planning, execution, and verification loops
+- **Languages:** JavaScript, TypeScript
+- **License:** MIT
+- **Lifecycle:** Active
+- **GitHub stars:** 11,768
+
+**Key features**
+
+  - Runs a repeatable discuss, plan, execute, verify, and ship loop for each milestone phase
+  - Uses fresh-context subagents for research, planning, and parallel execution waves
+  - Preserves cross-session state in structured project, context, and status artifacts
+
+<a id="repo-openai--codex-security"></a>
+
+## [Codex Security](https://github.com/openai/codex-security)
+
+OpenAI’s defensive code-security tooling for scanning repositories, reviewing and tracking findings, and planning or verifying fixes through Codex, a CLI, and a TypeScript SDK.
+
+- **Category:** [Security and Privacy](../categories/security-and-privacy.md#repo-openai--codex-security)
+- **Topics:** [Security](../topics/security.md#repo-openai--codex-security) | [CLI](../topics/cli.md#repo-openai--codex-security) | [Code Review](../topics/code-review.md#repo-openai--codex-security) | [Codebase Search](../topics/codebase-search.md#repo-openai--codex-security) | [Automation](../topics/automation.md#repo-openai--codex-security) | [Multi Provider](../topics/multi-provider.md#repo-openai--codex-security) | [Parallel Agents](../topics/parallel-agents.md#repo-openai--codex-security) | [Containers](../topics/containers.md#repo-openai--codex-security) | [GitHub](../topics/github.md#repo-openai--codex-security)
+- **Kind:** CLI
+- **Best for:** Security and engineering teams scanning repositories they own or may assess; CI and bulk workflows that need resumable findings, coverage, and scan comparison
+- **Languages:** TypeScript, Python
+- **License:** Apache-2.0
+- **Lifecycle:** Active
+- **GitHub stars:** 14,266
+
+**Key features**
+
+  - Scans repositories, selected paths, or Git changes and consolidates duplicate findings
+  - Reviews findings, verifies fixes, and drafts repository security policies and reusable threat models
+  - Compares saved scans and exports findings as SARIF, JSON, or CSV
+
+<a id="repo-orchestratorinc--agent-orchestrator"></a>
+
+## [Orchestrator.inc](https://github.com/OrchestratorInc/agent-orchestrator)
+
+A local desktop workspace for planning, running, and supervising multiple coding agents in isolated worktrees with live task, terminal, diff, browser, PR, CI, and review state.
+
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-orchestratorinc--agent-orchestrator)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-orchestratorinc--agent-orchestrator) | [Coding Agents](../topics/coding-agents.md#repo-orchestratorinc--agent-orchestrator) | [Agent Harnesses](../topics/agent-harnesses.md#repo-orchestratorinc--agent-orchestrator) | [Agent Orchestration](../topics/agent-orchestration.md#repo-orchestratorinc--agent-orchestrator) | [Multi Agent](../topics/multi-agent.md#repo-orchestratorinc--agent-orchestrator) | [Parallel Agents](../topics/parallel-agents.md#repo-orchestratorinc--agent-orchestrator) | [Worktrees](../topics/worktrees.md#repo-orchestratorinc--agent-orchestrator) | [Git](../topics/git.md#repo-orchestratorinc--agent-orchestrator) | [Desktop App](../topics/desktop-app.md#repo-orchestratorinc--agent-orchestrator)
+- **Kind:** Application
+- **Best for:** Developers coordinating parallel coding-agent work across one repository; Teams that want project-level planning and worker-level implementation visibility
+- **Languages:** Go, TypeScript
+- **License:** Apache-2.0
+- **Lifecycle:** Active
+- **GitHub stars:** 15,009
+
+**Key features**
+
+  - Gives each worker a task, agent, branch, worktree, terminal, and feedback loop
+  - Adds a persistent project orchestrator for planning and delegating work
+  - Displays worker, pull-request, CI, review, and merge status on a live Kanban
+
+<a id="repo-paradevai--paradev"></a>
+
+## [Paradev](https://github.com/ParadevAI/Paradev)
+
+An open-source workspace for running coding agents in parallel with separate Git worktrees, branches, and terminals, and for reviewing changes and resuming work across devices.
+
+- **Category:** [Developer Tools](../categories/developer-tools.md#repo-paradevai--paradev)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-paradevai--paradev) | [Coding Agents](../topics/coding-agents.md#repo-paradevai--paradev) | [Parallel Agents](../topics/parallel-agents.md#repo-paradevai--paradev) | [Desktop App](../topics/desktop-app.md#repo-paradevai--paradev) | [CLI](../topics/cli.md#repo-paradevai--paradev) | [Agent Development Environments](../topics/agent-development-environments.md#repo-paradevai--paradev) | [Git](../topics/git.md#repo-paradevai--paradev) | [Worktrees](../topics/worktrees.md#repo-paradevai--paradev) | [MCP](../topics/mcp.md#repo-paradevai--paradev) | [Code Review](../topics/code-review.md#repo-paradevai--paradev)
+- **Kind:** Application
+- **Best for:** Developers coordinating several CLI coding agents against the same repository; Teams that want worktree isolation, local review, and remote workspace access
+- **Languages:** TypeScript
+- **License:** MIT
+- **Lifecycle:** Active
+- **GitHub stars:** 16,465
+
+**Key features**
+
+  - Runs agents concurrently with a dedicated worktree, branch, and terminal per task
+  - Supports local, cloud, and remote-machine workspaces
+  - Exposes workflow controls through a CLI, MCP server, and skills
 
 <a id="repo-psmux--psmux"></a>
 
@@ -148,7 +254,7 @@ A native Rust terminal multiplexer for Windows that uses ConPTY directly, implem
 - **Languages:** Rust
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 2,994
+- **GitHub stars:** 3,893
 
 **Key features**
 
@@ -169,12 +275,12 @@ A local-first orchestrator that runs parallel coding agents in isolated Git work
 - **Languages:** TypeScript
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 233
+- **GitHub stars:** 282
 
 **Key features**
 
   - Isolated Git worktree and branch for every feature
-  - Built-in Claude Code, Cursor CLI, and Gemini CLI support plus a generic terminal-agent executor
+  - Built-in support for Claude Code, Kimi Code, Codex CLI, Copilot CLI, Cursor CLI, Gemini CLI, and Cline, plus a generic terminal-agent executor
   - Default prompt-to-implementation-to-draft-PR workflow with configurable CI retry fixes
 
 <a id="repo-stablyai--orca"></a>
@@ -190,34 +296,13 @@ An Electron-based agent development environment for running terminal coding agen
 - **Languages:** TypeScript
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 22,231
+- **GitHub stars:** 132,463
 
 **Key features**
 
   - Runs terminal-based coding agents in tracked, isolated Git worktrees
   - Supports parallel prompts, result comparison, and merge-oriented workflows
-  - Provides terminal splits with persistent scrollback and WebGL rendering
-
-<a id="repo-superset-sh--superset"></a>
-
-## [Superset](https://github.com/superset-sh/superset)
-
-A desktop code editor and shared workspace system for running terminal-based coding agents in parallel, each isolated in its own Git worktree with built-in terminal, review, and workspace-management tools.
-
-- **Category:** [Developer Tools](../categories/developer-tools.md#repo-superset-sh--superset)
-- **Topics:** [AI Agents](../topics/ai-agents.md#repo-superset-sh--superset) | [Coding Agents](../topics/coding-agents.md#repo-superset-sh--superset) | [Parallel Agents](../topics/parallel-agents.md#repo-superset-sh--superset) | [Desktop App](../topics/desktop-app.md#repo-superset-sh--superset) | [CLI](../topics/cli.md#repo-superset-sh--superset) | [Agent Development Environments](../topics/agent-development-environments.md#repo-superset-sh--superset) | [Git](../topics/git.md#repo-superset-sh--superset) | [Worktrees](../topics/worktrees.md#repo-superset-sh--superset) | [MCP](../topics/mcp.md#repo-superset-sh--superset) | [Code Review](../topics/code-review.md#repo-superset-sh--superset)
-- **Kind:** Application
-- **Best for:** Developers coordinating several CLI coding agents against the same repository; Teams that want worktree isolation, local review, and remote workspace access
-- **Languages:** TypeScript
-- **License:** Elastic-2.0
-- **Lifecycle:** Active
-- **GitHub stars:** 12,507
-
-**Key features**
-
-  - Runs parallel agent workspaces with separate branches, terminals, and environments
-  - Monitors agents with status indicators and attention notifications
-  - Includes persistent split terminals, a diff viewer, and in-app code editing
+  - Provides split panes for agents, terminals, browsers, and diffs
 
 <a id="repo-unclebob--swarm-forge"></a>
 
@@ -232,7 +317,7 @@ A local, tmux-based multi-agent orchestration framework that gives agents dedica
 - **Languages:** Clojure, Shell
 - **License:** License not found in retained source
 - **Lifecycle:** Active
-- **GitHub stars:** 1,029
+- **GitHub stars:** 4,115
 
 **Key features**
 

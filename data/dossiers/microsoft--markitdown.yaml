@@ -2,9 +2,9 @@ schema_version: 2
 repository_id: github:microsoft/markitdown
 research:
   state: complete
-  source_commit: e144e0a2be95b34df17433bac904e635f2c5e551
-  bundle_collected_at: 2026-07-19T20:44:07.836Z
-  researched_at: 2026-07-20T15:30:00.000Z
+  source_commit: ed178952a6672abdfd35b5f9e76a80b6cefc086e
+  bundle_collected_at: 2026-11-22T12:09:54.706Z
+  researched_at: 2026-11-22T12:22:24.552164+00:00
   confidence: high
 
 classification:
@@ -22,20 +22,27 @@ project:
   kind: library
   summary: >-
     A Python document-to-Markdown converter for text-analysis and LLM workflows,
-    with a command-line tool, a Python API, optional format integrations, plugins,
-    and a separately packaged MCP server.
+    with a command-line tool, a Python API, optional format integrations,
+    plugins, and a separately packaged MCP server.
   best_for:
-    - Preparing heterogeneous files as Markdown input for LLM or text-analysis pipelines
-    - Python applications that need programmatic document conversion with controlled input handling
+    - Preparing heterogeneous files as Markdown input for LLM or text-analysis
+      pipelines
+    - Python applications that need programmatic document conversion with
+      controlled input handling
 
 key_features:
-  - Converts PDF, Office documents, images, audio, HTML, text formats, ZIP archives, EPUBs, and YouTube URLs
-  - Preserves document structure such as headings, lists, tables, and links in Markdown output
+  - Converts PDF, Office documents, images, audio, HTML, text formats, ZIP
+    archives, EPUBs, and YouTube URLs
+  - Preserves document structure such as headings, lists, tables, and links in
+    Markdown output
   - Provides a command-line program and a Python MarkItDown conversion API
-  - Supports selectively installed format dependencies instead of requiring every converter
+  - Supports selectively installed format dependencies instead of requiring
+    every converter
   - Supports opt-in third-party plugins, including the bundled OCR plugin
-  - Includes optional Azure Document Intelligence and Azure Content Understanding conversion paths
-  - Packages an MCP server that exposes the converter through Model Context Protocol
+  - Includes optional Azure Document Intelligence and Azure Content
+    Understanding conversion paths
+  - Packages an MCP server that exposes the converter through Model Context
+    Protocol
 
 usage:
   interfaces:
@@ -62,13 +69,14 @@ technology:
 license:
   spdx: MIT
   name: MIT License
-  notes: Permissive reuse is allowed with the copyright and license notice retained; the software is provided without warranty.
+  notes: Permissive reuse is allowed with the copyright and license notice
+    retained; the software is provided without warranty.
 
 status:
   lifecycle: active
   archived: false
-  latest_release: v0.1.6
-  latest_release_at: 2026-05-26
+  latest_release: v0.1.9
+  latest_release_at: 2026-10-21
 
 strengths:
   - Broad conversion coverage is available behind one Python package and CLI
@@ -76,13 +84,17 @@ strengths:
   - Supports local conversion alongside opt-in cloud and MCP integrations
 
 caveats:
-  - Output is intended for text-analysis tools and is not positioned as high-fidelity human-facing document conversion
-  - Conversion performs I/O with the current process privileges, so untrusted inputs require validation and narrowly scoped APIs
-  - Some features require optional dependencies, external model clients, or billable Azure services
+  - Output is intended for text-analysis tools and is not positioned as
+    high-fidelity human-facing document conversion
+  - Conversion performs I/O with the current process privileges, so untrusted
+    inputs require validation and narrowly scoped APIs
+  - Python 3.10 through 3.14 is required; image captioning and speech
+    transcription use web-hosted services, and some features incur charges
 
 sources:
-  - https://raw.githubusercontent.com/microsoft/markitdown/e144e0a2be95b34df17433bac904e635f2c5e551/README.md
-  - https://raw.githubusercontent.com/microsoft/markitdown/e144e0a2be95b34df17433bac904e635f2c5e551/LICENSE
-  - https://raw.githubusercontent.com/microsoft/markitdown/e144e0a2be95b34df17433bac904e635f2c5e551/packages/markitdown/pyproject.toml
-  - https://raw.githubusercontent.com/microsoft/markitdown/e144e0a2be95b34df17433bac904e635f2c5e551/packages/markitdown-mcp/pyproject.toml
+  - https://raw.githubusercontent.com/microsoft/markitdown/ed178952a6672abdfd35b5f9e76a80b6cefc086e/README.md
+  - https://raw.githubusercontent.com/microsoft/markitdown/ed178952a6672abdfd35b5f9e76a80b6cefc086e/LICENSE
+  - https://raw.githubusercontent.com/microsoft/markitdown/ed178952a6672abdfd35b5f9e76a80b6cefc086e/packages/markitdown/pyproject.toml
+  - https://raw.githubusercontent.com/microsoft/markitdown/ed178952a6672abdfd35b5f9e76a80b6cefc086e/packages/markitdown-mcp/pyproject.toml
   - https://github.com/microsoft/markitdown/releases.atom
+  - https://github.com/microsoft/markitdown/releases/tag/v0.1.9

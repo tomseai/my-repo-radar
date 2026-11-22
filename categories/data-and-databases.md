@@ -39,13 +39,34 @@ A JavaScript browser library for persisting vector embeddings in IndexedDB and s
 - **Languages:** JavaScript, WebAssembly
 - **License:** Apache-2.0
 - **Lifecycle:** Unknown
-- **GitHub stars:** 296
+- **GitHub stars:** 295
 
 **Key features**
 
   - Persists vector data in the browser through IndexedDB
   - Generates text embeddings with Transformers.js or accepts precomputed vectors
   - Queries dense vectors with cosine similarity
+
+<a id="repo-convex--convex-backend"></a>
+
+## [Convex](https://github.com/convex/convex-backend)
+
+A reactive database and application backend that combines strongly consistent TypeScript server functions with client libraries for dynamic, live-updating applications.
+
+- **Category:** [Data and Databases](../categories/data-and-databases.md#repo-convex--convex-backend)
+- **Topics:** [Databases](../topics/databases.md#repo-convex--convex-backend) | [Backend Development](../topics/backend-development.md#repo-convex--convex-backend) | [Realtime](../topics/realtime.md#repo-convex--convex-backend) | [Self Hosted](../topics/self-hosted.md#repo-convex--convex-backend) | [Open Source](../topics/open-source.md#repo-convex--convex-backend) | [Deployment](../topics/deployment.md#repo-convex--convex-backend)
+- **Kind:** Service
+- **Best for:** Teams building a reactive web application with TypeScript server logic; Operators who need an available self-hosted Convex backend
+- **Languages:** Rust, TypeScript
+- **License:** FSL-1.1-Apache-2.0
+- **Lifecycle:** Active
+- **GitHub stars:** 12,808
+
+**Key features**
+
+  - Strongly consistent database operations written as TypeScript server functions
+  - Client libraries for dynamic live-updating applications
+  - Self-hosted dashboard and CLI alongside the backend
 
 <a id="repo-dolthub--dolt"></a>
 
@@ -60,34 +81,13 @@ A Go SQL database that versions tables and schema with Git-like cloning, branchi
 - **Languages:** Go
 - **License:** Apache-2.0
 - **Lifecycle:** Active
-- **GitHub stars:** 23,900
+- **GitHub stars:** 24,957
 
 **Key features**
 
   - Git-like clone, branch, merge, push, pull, commit, diff, and history operations for tables
   - MySQL-compatible server and client interfaces for SQL data and schema access
   - SQL system tables, functions, and stored procedures for version-control operations
-
-<a id="repo-get-convex--convex-backend"></a>
-
-## [Convex](https://github.com/get-convex/convex-backend)
-
-A reactive database and application backend that combines strongly consistent TypeScript server functions with client libraries for dynamic, live-updating applications.
-
-- **Category:** [Data and Databases](../categories/data-and-databases.md#repo-get-convex--convex-backend)
-- **Topics:** [Databases](../topics/databases.md#repo-get-convex--convex-backend) | [Backend Development](../topics/backend-development.md#repo-get-convex--convex-backend) | [Realtime](../topics/realtime.md#repo-get-convex--convex-backend) | [Self Hosted](../topics/self-hosted.md#repo-get-convex--convex-backend) | [Open Source](../topics/open-source.md#repo-get-convex--convex-backend) | [Deployment](../topics/deployment.md#repo-get-convex--convex-backend)
-- **Kind:** Service
-- **Best for:** Teams building a reactive web application with TypeScript server logic; Operators who need an available self-hosted Convex backend
-- **Languages:** Rust, TypeScript
-- **License:** FSL-1.1-Apache-2.0
-- **Lifecycle:** Active
-- **GitHub stars:** 12,203
-
-**Key features**
-
-  - Strongly consistent database operations written as TypeScript server functions
-  - Client libraries for dynamic live-updating applications
-  - Self-hosted dashboard and CLI alongside the backend
 
 <a id="repo-run-llama--liteparse"></a>
 
@@ -102,7 +102,7 @@ A local PDF and document parsing library and CLI that performs spatial text extr
 - **Languages:** Rust, TypeScript, Python
 - **License:** Apache-2.0
 - **Lifecycle:** Active
-- **GitHub stars:** 11,673
+- **GitHub stars:** 13,076
 
 **Key features**
 
@@ -123,7 +123,7 @@ A Python framework for declarative LLM-powered processing of structured and unst
 - **Languages:** Python, TypeScript
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 3,897
+- **GitHub stars:** 4,266
 
 **Key features**
 

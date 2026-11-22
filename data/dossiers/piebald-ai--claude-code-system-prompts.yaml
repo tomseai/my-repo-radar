@@ -1,13 +1,11 @@
 schema_version: 2
 repository_id: github:Piebald-AI/claude-code-system-prompts
-
 research:
   state: complete
-  source_commit: f10c95c442c99ffbebd9d833767fd6f9bf7b7182
-  bundle_collected_at: 2026-07-19T20:44:49.353Z
-  researched_at: 2026-07-20T18:00:00+02:00
+  source_commit: 659d9f4cff186a44099048926a695647c0ba1814
+  bundle_collected_at: 2026-11-22T12:10:10.295Z
+  researched_at: 2026-11-22T12:21:29.216140+00:00
   confidence: medium
-
 classification:
   primary_category: documentation-and-learning
   topics:
@@ -16,24 +14,25 @@ classification:
     - prompt-engineering
     - documentation
     - reference
-
 project:
   name: claude-code-system-prompts
   kind: documentation
-  summary: >-
-    A versioned, Markdown-based reference that extracts and tracks Claude Code
-    system prompts, tool descriptions, agent prompts, and their token counts
-    from the current Claude Code npm release.
+  summary: A versioned, Markdown-based reference that extracts and tracks Claude
+    Code system prompts, tool descriptions, agent prompts, and their token
+    counts from the current Claude Code npm release.
   best_for:
-    - Inspecting the documented prompt material and built-in instructions used by Claude Code
-    - Comparing prompt changes across Claude Code releases for research or tooling work
-
+    - Inspecting the documented prompt material and built-in instructions used
+      by Claude Code
+    - Comparing prompt changes across Claude Code releases for research or
+      tooling work
 key_features:
-  - Lists over 500 extracted prompt strings, including system, tool, agent, utility, and skill prompts
-  - Records prompt token counts and notes that environment-specific interpolation can change counts in a live session
-  - Maintains a changelog spanning Claude Code prompt changes from version 2.0.14 onward
+  - Lists over 500 extracted prompt strings, including system, tool, agent,
+    utility, and skill prompts
+  - Records prompt token counts and notes that environment-specific
+    interpolation can change counts in a live session
+  - Maintains a changelog spanning Claude Code prompt changes from version
+    2.0.14 onward
   - Publishes a GitHub release for each tracked Claude Code version
-
 usage:
   interfaces:
     - Markdown documentation
@@ -42,7 +41,6 @@ usage:
   installation:
     - No installation; browse the repository or clone it for local reference
   setup: low
-
 technology:
   languages:
     - Markdown
@@ -51,34 +49,34 @@ technology:
     - Extracted Claude Code prompt files
     - Versioned changelog
     - GitHub releases
-
 license:
   spdx: MIT
   name: MIT License
-  notes: >-
-    The repository LICENSE grants standard MIT permissions to use, copy, modify,
-    publish, distribute, sublicense, and sell the licensed material when the
-    copyright and permission notice are retained; it is supplied without warranty.
-
+  notes: The repository LICENSE grants standard MIT permissions to use, copy,
+    modify, publish, distribute, sublicense, and sell the licensed material when
+    the copyright and permission notice are retained; it is supplied without
+    warranty.
 status:
   lifecycle: active
   archived: false
-  latest_release: v2.1.215
-  latest_release_at: 2026-07-19
-
+  latest_release: v2.1.330
+  latest_release_at: 2026-11-20
 strengths:
   - Tracks a large and explicitly versioned set of Claude Code prompt material
-  - Provides both a browsable inventory and change history, making differences between versions easier to inspect
+  - Provides both a browsable inventory and change history, making differences
+    between versions easier to inspect
   - Requires no runtime setup to use as reference material
-
 caveats:
-  - The material is an extraction of compiled Claude Code source, not an official Anthropic documentation release
-  - Some prompts include runtime interpolation, so stored token counts and text can differ slightly from a live session
-  - The repository documents a specific Claude Code version and changes frequently, so conclusions can become stale after later releases
-  - The MIT license covers this repository but does not establish rights to independently redistribute Anthropic prompt content
-
+  - The material is an extraction of compiled Claude Code source, not an
+    official Anthropic documentation release
+  - Some prompts include runtime interpolation, so stored token counts and text
+    can differ slightly from a live session
+  - The repository documents a specific Claude Code version and changes
+    frequently, so conclusions can become stale after later releases
+  - The MIT license covers this repository but does not establish rights to
+    independently redistribute Anthropic prompt content
 sources:
-  - https://raw.githubusercontent.com/Piebald-AI/claude-code-system-prompts/f10c95c442c99ffbebd9d833767fd6f9bf7b7182/README.md
-  - https://raw.githubusercontent.com/Piebald-AI/claude-code-system-prompts/f10c95c442c99ffbebd9d833767fd6f9bf7b7182/CHANGELOG.md
-  - https://raw.githubusercontent.com/Piebald-AI/claude-code-system-prompts/f10c95c442c99ffbebd9d833767fd6f9bf7b7182/LICENSE
+  - https://raw.githubusercontent.com/Piebald-AI/claude-code-system-prompts/659d9f4cff186a44099048926a695647c0ba1814/README.md
+  - https://raw.githubusercontent.com/Piebald-AI/claude-code-system-prompts/659d9f4cff186a44099048926a695647c0ba1814/LICENSE
   - https://github.com/Piebald-AI/claude-code-system-prompts/releases.atom
+  - https://github.com/Piebald-AI/claude-code-system-prompts/releases/tag/v2.1.330

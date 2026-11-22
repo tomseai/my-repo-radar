@@ -2,9 +2,9 @@ schema_version: 2
 repository_id: github:comet-ml/opik
 research:
   state: complete
-  source_commit: e6c980fdeb4ead578af82472b0e55599fa1e0dbb
-  bundle_collected_at: 2026-07-19T20:42:24.493Z
-  researched_at: 2026-07-20T15:23:49.960Z
+  source_commit: 02a29b86abd630e99edb248a2c2b39659170668e
+  bundle_collected_at: 2026-11-22T12:09:19.300Z
+  researched_at: 2026-11-22T12:27:12.001058+00:00
   confidence: high
 classification:
   primary_category: testing-and-quality
@@ -30,9 +30,11 @@ key_features:
   - Trace LLM calls, conversations, agent steps, and tool calls in tree form
   - Build datasets and experiments with LLM-as-a-judge metrics
   - Annotate traces and spans with feedback scores through the SDK or web UI
-  - Monitor production traces, feedback scores, token usage, and online evaluations
+  - Monitor production traces, feedback scores, token usage, and online
+    evaluations
   - Optimize prompts and agents with the Agent Optimizer SDK
   - Test LLM pipelines in CI/CD through a PyTest integration
+  - Connect coding agents to traces and evaluations through an MCP server
 usage:
   interfaces:
     - web UI
@@ -57,23 +59,29 @@ technology:
 license:
   spdx: Apache-2.0
   name: Apache License 2.0
-  notes: The repository describes the full platform, including the server and web application, as Apache-2.0 licensed and self-hostable.
+  notes: The repository describes the full platform, including the server and web
+    application, as Apache-2.0 licensed and self-hostable.
 status:
   lifecycle: active
   archived: false
-  latest_release: null
-  latest_release_at: null
+  latest_release: 2.2.152
+  latest_release_at: 2026-11-20
 strengths:
-  - Combines tracing, evaluation, testing, and production monitoring in one platform
+  - Combines tracing, evaluation, testing, and production monitoring in one
+    platform
   - Supports self-hosting as well as a hosted service
   - Provides Python and TypeScript SDKs alongside the web interface and REST API
 caveats:
-  - The retained release feed contains build-suffixed versions rather than an identifiable stable project release
-  - Self-hosted production deployments require Docker or Kubernetes infrastructure
-  - LLM-as-a-judge evaluation and optimization can depend on the model providers selected by the user
+  - The feed contains many build-suffixed versions; 2.2.152 is a separately
+    verified stable project release
+  - Self-hosted production deployments require Docker or Kubernetes
+    infrastructure
+  - LLM-as-a-judge evaluation and optimization can depend on the model providers
+    selected by the user
 sources:
-  - https://raw.githubusercontent.com/comet-ml/opik/e6c980fdeb4ead578af82472b0e55599fa1e0dbb/README.md
-  - https://raw.githubusercontent.com/comet-ml/opik/e6c980fdeb4ead578af82472b0e55599fa1e0dbb/LICENSE
-  - https://raw.githubusercontent.com/comet-ml/opik/e6c980fdeb4ead578af82472b0e55599fa1e0dbb/CONTRIBUTING.md
-  - https://raw.githubusercontent.com/comet-ml/opik/e6c980fdeb4ead578af82472b0e55599fa1e0dbb/apps/opik-frontend/package.json
+  - https://raw.githubusercontent.com/comet-ml/opik/02a29b86abd630e99edb248a2c2b39659170668e/README.md
+  - https://raw.githubusercontent.com/comet-ml/opik/02a29b86abd630e99edb248a2c2b39659170668e/LICENSE
+  - https://raw.githubusercontent.com/comet-ml/opik/02a29b86abd630e99edb248a2c2b39659170668e/CONTRIBUTING.md
+  - https://raw.githubusercontent.com/comet-ml/opik/02a29b86abd630e99edb248a2c2b39659170668e/apps/opik-frontend/package.json
   - https://github.com/comet-ml/opik/releases.atom
+  - https://github.com/comet-ml/opik/releases/tag/2.2.152

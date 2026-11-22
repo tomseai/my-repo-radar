@@ -12,7 +12,9 @@ analysis:
     use_cases:
       - "improve-developer-workflow"
   evidence:
-    - claim: "ripgrep is a Rust command-line tool for recursive regular-expression search that respects gitignore rules and skips hidden and binary files by default."
+    - claim: "ripgrep is a Rust command-line tool for recursive regular-expression
+        search that respects gitignore rules and skips hidden and binary files
+        by default."
       source_type: "repository-file"
       url: "https://github.com/BurntSushi/ripgrep/blob/master/README.md"
       checked_at: "2026-07-19"
@@ -20,7 +22,8 @@ analysis:
   state: "complete"
   summary:
     one_line: "A Rust command-line tool for fast recursive regular-expression search."
-    why_useful: "It provides code-oriented search with gitignore-aware filtering, file-type controls, and cross-platform binaries."
+    why_useful: "It provides code-oriented search with gitignore-aware filtering,
+      file-type controls, and cross-platform binaries."
 curation:
   confidence: null
   evidence: []
@@ -34,38 +37,42 @@ id: "github:BurntSushi/ripgrep"
 import:
   github_snapshot:
     archived: false
-    created_at: "2016-03-11T02:02:33Z"
-    default_branch: "master"
-    description: "ripgrep recursively searches directories for a regex pattern while respecting your gitignore"
+    created_at: 2016-03-11T02:02:33Z
+    default_branch: master
+    description: ripgrep recursively searches directories for a regex pattern while
+      respecting your gitignore
     disabled: false
-    fetched_at: "2026-07-19T19:16:14.796Z"
+    fetched_at: 2026-11-22T12:07:00.148Z
     fork: false
-    forks: 2649
+    forks: 3515
     homepage: ""
-    latest_release: null
-    license_spdx: "Unlicense"
-    open_issues: 163
-    primary_language: "Rust"
-    pushed_at: "2026-07-17T13:14:39Z"
-    stars: 66334
+    latest_release:
+      tag: 15.2.0
+      published_at: 2026-07-15T16:26:10Z
+      url: https://github.com/BurntSushi/ripgrep/releases/tag/15.2.0
+    license_spdx: Unlicense
+    open_issues: 95
+    primary_language: Rust
+    pushed_at: 2026-11-22T03:31:46Z
+    stars: 70137
     topics:
-      - "cli"
-      - "command-line"
-      - "command-line-tool"
-      - "gitignore"
-      - "grep"
-      - "recursively-search"
-      - "regex"
-      - "ripgrep"
-      - "rust"
-      - "search"
-    updated_at: "2026-07-19T17:57:18Z"
+      - cli
+      - command-line
+      - command-line-tool
+      - gitignore
+      - grep
+      - recursively-search
+      - regex
+      - ripgrep
+      - rust
+      - search
+    updated_at: 2026-11-22T11:33:19Z
   sources:
-    - observed_at: "2026-07-11T15:46:44Z"
-      relation: "starred"
-      source_id: "github:user:tomseai:stars"
-      source_url: "https://github.com/tomseai?tab=stars"
-  state: "imported"
+    - observed_at: 2026-07-11T15:46:44Z
+      relation: starred
+      source_id: github:user:tomseai:stars
+      source_url: https://github.com/tomseai?tab=stars
+  state: refreshed
 repository:
   aliases: []
   github_node_id: "MDEwOlJlcG9zaXRvcnk1MzYzMTk0NQ=="

@@ -24,7 +24,7 @@ A cross-platform desktop application that uses CLIProxyAPI to monitor quota usag
 - **Languages:** TypeScript, Rust
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 213
+- **GitHub stars:** 238
 
 **Key features**
 
@@ -45,7 +45,7 @@ A plugin suite for supported AI coding assistants that audits context and token 
 - **Languages:** Python, TypeScript
 - **License:** PolyForm-Noncommercial-1.0.0
 - **Lifecycle:** Active
-- **GitHub stars:** 1,678
+- **GitHub stars:** 3,043
 
 **Key features**
 
@@ -66,13 +66,34 @@ A local CLI that reads supported coding-agent usage logs and reports token count
 - **Languages:** Rust, TypeScript
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 17,294
+- **GitHub stars:** 19,541
 
 **Key features**
 
   - Unified reports across detected supported coding-agent data sources
   - Source-specific daily, weekly, monthly, and session reports
   - Token, cache-token, model, and estimated USD-cost reporting
+
+<a id="repo-cheaper-inference--omniroute"></a>
+
+## [OmniRoute](https://github.com/cheaper-inference/OmniRoute)
+
+A self-hosted AI gateway, dashboard, and command-line tool that routes compatible coding clients across configured providers and model combinations through OpenAI-compatible APIs.
+
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-cheaper-inference--omniroute)
+- **Topics:** [LLMs](../topics/llms.md#repo-cheaper-inference--omniroute) | [LLM Gateways](../topics/llm-gateways.md#repo-cheaper-inference--omniroute) | [Model Routing](../topics/model-routing.md#repo-cheaper-inference--omniroute) | [Multi Provider](../topics/multi-provider.md#repo-cheaper-inference--omniroute) | [CLI](../topics/cli.md#repo-cheaper-inference--omniroute) | [Web UI](../topics/web-ui.md#repo-cheaper-inference--omniroute) | [MCP](../topics/mcp.md#repo-cheaper-inference--omniroute) | [Self Hosted](../topics/self-hosted.md#repo-cheaper-inference--omniroute) | [Token Usage](../topics/token-usage.md#repo-cheaper-inference--omniroute)
+- **Kind:** Service
+- **Best for:** Centralizing local or remote routing for several coding tools and AI providers; Applying configurable fallback, quota management, and compression to agent traffic
+- **Languages:** TypeScript
+- **License:** MIT
+- **Lifecycle:** Active
+- **GitHub stars:** 89,505
+
+**Key features**
+
+  - OpenAI-compatible APIs with provider-format translation and streaming support
+  - Automatic and user-defined model combos with multiple routing and fallback strategies
+  - Provider, account, quota, health, and cost management from a dashboard and CLI
 
 <a id="repo-comet-ml--opik"></a>
 
@@ -87,7 +108,7 @@ An open-source platform for tracing, evaluating, testing, monitoring, and optimi
 - **Languages:** Python, TypeScript, Java
 - **License:** Apache-2.0
 - **Lifecycle:** Active
-- **GitHub stars:** 20,699
+- **GitHub stars:** 23,485
 
 **Key features**
 
@@ -108,34 +129,13 @@ A self-hosted AI gateway and dashboard that presents one OpenAI-compatible endpo
 - **Languages:** JavaScript
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 22,689
+- **GitHub stars:** 32,727
 
 **Key features**
 
   - OpenAI-compatible API plus translation among OpenAI, Claude, Gemini, Cursor, Kiro, Vertex, and other formats
   - Configurable model combinations with account- and provider-level fallback
   - OAuth and API-key provider connections with token refresh and quota tracking
-
-<a id="repo-diegosouzapw--omniroute"></a>
-
-## [OmniRoute](https://github.com/diegosouzapw/OmniRoute)
-
-A self-hosted AI gateway, dashboard, and command-line tool that routes compatible coding clients across configured providers and model combinations through OpenAI-compatible APIs.
-
-- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-diegosouzapw--omniroute)
-- **Topics:** [LLMs](../topics/llms.md#repo-diegosouzapw--omniroute) | [LLM Gateways](../topics/llm-gateways.md#repo-diegosouzapw--omniroute) | [Model Routing](../topics/model-routing.md#repo-diegosouzapw--omniroute) | [Multi Provider](../topics/multi-provider.md#repo-diegosouzapw--omniroute) | [CLI](../topics/cli.md#repo-diegosouzapw--omniroute) | [Web UI](../topics/web-ui.md#repo-diegosouzapw--omniroute) | [MCP](../topics/mcp.md#repo-diegosouzapw--omniroute) | [Self Hosted](../topics/self-hosted.md#repo-diegosouzapw--omniroute) | [Token Usage](../topics/token-usage.md#repo-diegosouzapw--omniroute)
-- **Kind:** Service
-- **Best for:** Centralizing local or remote routing for several coding tools and AI providers; Applying configurable fallback, quota management, and compression to agent traffic
-- **Languages:** TypeScript
-- **License:** MIT
-- **Lifecycle:** Active
-- **GitHub stars:** 20,079
-
-**Key features**
-
-  - OpenAI-compatible APIs with provider-format translation and streaming support
-  - Automatic and user-defined model combos with multiple routing and fallback strategies
-  - Provider, account, quota, health, and cost management from a dashboard and CLI
 
 <a id="repo-getagentseal--codeburn"></a>
 
@@ -150,11 +150,11 @@ A local-first CLI and set of dashboards that reads AI coding-tool session data f
 - **Languages:** TypeScript, Swift
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 8,755
+- **GitHub stars:** 11,882
 
 **Key features**
 
-  - Reads local session data for 36 supported AI tools and agents
+  - Reads local session data for 42 supported AI tools and agents
   - Provides an interactive terminal dashboard, reports, JSON output, and a localhost web dashboard
   - Breaks down usage by task, model, tool, project, date range, and token category
 
@@ -171,7 +171,7 @@ A local-first context-compression system for LLM applications and coding agents,
 - **Languages:** Python, TypeScript, Rust
 - **License:** Apache-2.0
 - **Lifecycle:** Active
-- **GitHub stars:** 60,173
+- **GitHub stars:** 80,358
 
 **Key features**
 
@@ -183,49 +183,28 @@ A local-first context-compression system for LLM applications and coding agents,
 
 ## [caveman](https://github.com/JuliusBrussee/caveman)
 
-An installable skill and plugin collection that tells supported AI coding agents to produce terse, technical "caveman" responses, with session modes, optional memory-file compression, Claude Code hooks, and an MCP-description compression proxy.
+An agent tooling collection combining terse response skills with optional proxy-based tool-output compression, memory-file compression, hooks, and utilities for supported coding agents.
 
 - **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-juliusbrussee--caveman)
 - **Topics:** [Agent Skills](../topics/agent-skills.md#repo-juliusbrussee--caveman) | [Coding Agents](../topics/coding-agents.md#repo-juliusbrussee--caveman) | [Prompt Engineering](../topics/prompt-engineering.md#repo-juliusbrussee--caveman) | [Token Usage](../topics/token-usage.md#repo-juliusbrussee--caveman) | [MCP](../topics/mcp.md#repo-juliusbrussee--caveman) | [CLI](../topics/cli.md#repo-juliusbrussee--caveman) | [Open Source](../topics/open-source.md#repo-juliusbrussee--caveman)
 - **Kind:** Plugin
 - **Best for:** Users of supported AI coding agents who prefer concise technical replies; Output-heavy agent sessions where shorter responses are worth measuring
 - **Languages:** JavaScript
-- **License:** MIT
-- **Lifecycle:** Active
-- **GitHub stars:** 90,801
-
-**Key features**
-
-  - Six response modes, including lite, full, ultra, and wenyan
-  - Commands for concise commit messages, code-review comments, and session statistics
-  - Optional compression of named agent-memory files while preserving code, URLs, and paths
-
-<a id="repo-marmutapp--superbased-observer"></a>
-
-## [SuperBased Observer](https://github.com/marmutapp/superbased-observer)
-
-A local-first observability tool for AI coding activity that captures usage, provider-returned token counts, and costs through a CLI, dashboard, MCP server, and optional API proxy.
-
-- **Category:** [Developer Tools](../categories/developer-tools.md#repo-marmutapp--superbased-observer)
-- **Topics:** [AI Agents](../topics/ai-agents.md#repo-marmutapp--superbased-observer) | [Coding Agents](../topics/coding-agents.md#repo-marmutapp--superbased-observer) | [LLMs](../topics/llms.md#repo-marmutapp--superbased-observer) | [Observability](../topics/observability.md#repo-marmutapp--superbased-observer) | [Token Usage](../topics/token-usage.md#repo-marmutapp--superbased-observer) | [Cost Management](../topics/cost-management.md#repo-marmutapp--superbased-observer) | [Local First](../topics/local-first.md#repo-marmutapp--superbased-observer) | [MCP](../topics/mcp.md#repo-marmutapp--superbased-observer) | [CLI](../topics/cli.md#repo-marmutapp--superbased-observer) | [Web UI](../topics/web-ui.md#repo-marmutapp--superbased-observer) | [Developer Productivity](../topics/developer-productivity.md#repo-marmutapp--superbased-observer)
-- **Kind:** Application
-- **Best for:** Developers comparing cost and token use across AI coding tools; Teams that need local inspection of coding-agent sessions before opting into sharing
-- **Languages:** Go, TypeScript
 - **License:** Apache-2.0
 - **Lifecycle:** Active
-- **GitHub stars:** 31
+- **GitHub stars:** 122,069
 
 **Key features**
 
-  - Local dashboard and CLI for sessions, actions, tokens, and costs
-  - Optional reverse proxy for provider-returned token counts and compression
-  - MCP server exposing local cross-tool usage intelligence
+  - Response-style skills offer several levels of concision
+  - Commands for concise commit messages, code-review comments, and session statistics
+  - Optional compression of named agent-memory files while preserving code, URLs, and paths
 
 <a id="repo-rtk-ai--rtk"></a>
 
 ## [RTK](https://github.com/rtk-ai/rtk)
 
-A Rust command-line proxy for coding-agent workflows that runs supported developer commands, filters their output before it reaches the LLM context, tracks resulting token savings, and can install agent-specific hooks or instruction-based integrations.
+A Rust command-line tool that compresses coding-agent command output and tracks estimated token savings. Optional pipelines can extend filtering or route selected work through other models.
 
 - **Category:** [Developer Tools](../categories/developer-tools.md#repo-rtk-ai--rtk)
 - **Topics:** [Coding Agents](../topics/coding-agents.md#repo-rtk-ai--rtk) | [CLI](../topics/cli.md#repo-rtk-ai--rtk) | [Context Engineering](../topics/context-engineering.md#repo-rtk-ai--rtk) | [Token Usage](../topics/token-usage.md#repo-rtk-ai--rtk) | [Developer Productivity](../topics/developer-productivity.md#repo-rtk-ai--rtk) | [Git](../topics/git.md#repo-rtk-ai--rtk) | [Testing](../topics/testing.md#repo-rtk-ai--rtk)
@@ -234,13 +213,34 @@ A Rust command-line proxy for coding-agent workflows that runs supported develop
 - **Languages:** Rust
 - **License:** Apache-2.0
 - **Lifecycle:** Active
-- **GitHub stars:** 71,851
+- **GitHub stars:** 87,463
 
 **Key features**
 
   - Filters, groups, truncates, and deduplicates output from more than 100 supported developer commands
   - Provides compact wrappers for files, Git and GitHub CLI, tests, builds, linters, containers, cloud, and data commands
   - Installs hooks, plugins, or rules for supported coding assistants to rewrite eligible shell commands automatically
+
+<a id="repo-superbasedapp--observer"></a>
+
+## [SuperBased Observer](https://github.com/superbasedapp/observer)
+
+A local-first observability and cost-attribution tool for AI coding activity, with a CLI, dashboard, provider proxy, MCP server, terminals, and optional team rollups.
+
+- **Category:** [Developer Tools](../categories/developer-tools.md#repo-superbasedapp--observer)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-superbasedapp--observer) | [Coding Agents](../topics/coding-agents.md#repo-superbasedapp--observer) | [Observability](../topics/observability.md#repo-superbasedapp--observer) | [Tracing](../topics/tracing.md#repo-superbasedapp--observer) | [Token Usage](../topics/token-usage.md#repo-superbasedapp--observer) | [Cost Management](../topics/cost-management.md#repo-superbasedapp--observer) | [Local First](../topics/local-first.md#repo-superbasedapp--observer) | [MCP](../topics/mcp.md#repo-superbasedapp--observer) | [CLI](../topics/cli.md#repo-superbasedapp--observer) | [Web UI](../topics/web-ui.md#repo-superbasedapp--observer)
+- **Kind:** Application
+- **Best for:** Developers reconciling token use and cost across many AI coding tools; Teams that want local capture before selectively enabling shared observability
+- **Languages:** Go, TypeScript
+- **License:** Apache-2.0
+- **Lifecycle:** Active
+- **GitHub stars:** 62
+
+**Key features**
+
+  - Normalizes local session data from dozens of coding-agent tools
+  - Captures provider-returned token counts and pricing through an optional proxy
+  - Offers local usage reports, dashboard, terminals, CLI, MCP, traces, and guardrails
 
 <a id="repo-vasihemanth--tokentelemetry"></a>
 
@@ -255,7 +255,7 @@ A local dashboard that reads supported AI-agent session logs to show token use, 
 - **Languages:** Python, TypeScript, JavaScript
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 255
+- **GitHub stars:** 387
 
 **Key features**
 
@@ -276,7 +276,7 @@ A hosted or self-hosted dashboard and API for collecting AI coding-session data 
 - **Languages:** TypeScript
 - **License:** MIT
 - **Lifecycle:** Maintenance
-- **GitHub stars:** 407
+- **GitHub stars:** 413
 
 **Key features**
 

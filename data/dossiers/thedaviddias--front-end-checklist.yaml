@@ -2,9 +2,9 @@ schema_version: 2
 repository_id: github:thedaviddias/Front-End-Checklist
 research:
   state: complete
-  source_commit: 48405aaf57886e621f5fe0957d66e38669cba3cc
-  bundle_collected_at: 2026-07-19T20:45:35.877Z
-  researched_at: 2026-07-20T16:11:13.003Z
+  source_commit: e8d14d049010e2ce25afcd5e8609dfcbbe63e47e
+  bundle_collected_at: 2026-11-22T12:10:31.069Z
+  researched_at: 2026-11-22T12:22:35Z
   confidence: medium
 
 classification:
@@ -24,19 +24,23 @@ project:
   name: Front-End Checklist
   kind: monorepo
   summary: >-
-    A front-end quality system containing 385 prioritized rules across eleven
+    A front-end quality system containing 386 prioritized rules across eleven
     categories, delivered as a browsable website, a README checklist, reusable
     skills, and hosted or local MCP tooling for review and audit workflows.
   best_for:
-    - Teams reviewing web applications for accessibility, performance, security, and SEO concerns
-    - MCP-capable agents that need a structured front-end rule corpus and remediation guidance
+    - Teams reviewing web applications for accessibility, performance, security,
+      and SEO concerns
+    - MCP-capable agents that need a structured front-end rule corpus and
+      remediation guidance
 
 key_features:
-  - 385 English rules organized into eleven active front-end quality categories
+  - 386 English rules organized into eleven active front-end quality categories
   - Priority labels for critical, high, medium, and low-impact findings
-  - Hosted MCP server with tools to review code, audit public URLs, search rules, and retrieve workflows
+  - Hosted MCP server with tools to review code, audit public URLs, search
+    rules, and retrieve workflows
   - Local stdio MCP server for editor and agent integrations
-  - Rule pages with explanations, remediation guidance, verification steps, and AI prompts
+  - Rule pages with explanations, remediation guidance, verification steps, and
+    AI prompts
   - Reusable global and focused skills for supported agent tools
 
 usage:
@@ -63,7 +67,8 @@ technology:
 license:
   spdx: MIT
   name: MIT License
-  notes: The pinned README links to an MIT license; the linked license text was not retained in this research bundle.
+  notes: The root MIT license requires retaining its copyright and permission
+    notice in copies or substantial portions.
 
 status:
   lifecycle: active
@@ -72,16 +77,20 @@ status:
   latest_release_at: 2026-05-30
 
 strengths:
-  - Makes a broad set of front-end quality concerns discoverable through one rule corpus
-  - Offers equivalent human-facing and agent-facing paths instead of requiring a particular editor or framework
+  - Makes a broad set of front-end quality concerns discoverable through one
+    rule corpus
+  - Offers equivalent human-facing and agent-facing paths instead of requiring a
+    particular editor or framework
 
 caveats:
-  - The rules provide review guidance, not an automatic guarantee that an implementation is compliant or correct
-  - The retained bundle omits the linked MIT license file and GitHub metadata did not identify its SPDX value
-  - Running the workspace locally requires pnpm and the documented Node.js version range
+  - The rules provide review guidance, not an automatic guarantee that an
+    implementation is compliant or correct
+  - Running the workspace locally requires pnpm and the documented Node.js
+    version range
 
 sources:
-  - https://raw.githubusercontent.com/thedaviddias/Front-End-Checklist/48405aaf57886e621f5fe0957d66e38669cba3cc/README.md
-  - https://raw.githubusercontent.com/thedaviddias/Front-End-Checklist/48405aaf57886e621f5fe0957d66e38669cba3cc/package.json
-  - https://raw.githubusercontent.com/thedaviddias/Front-End-Checklist/48405aaf57886e621f5fe0957d66e38669cba3cc/packages/mcp/package.json
+  - https://raw.githubusercontent.com/thedaviddias/Front-End-Checklist/e8d14d049010e2ce25afcd5e8609dfcbbe63e47e/README.md
+  - https://raw.githubusercontent.com/thedaviddias/Front-End-Checklist/e8d14d049010e2ce25afcd5e8609dfcbbe63e47e/package.json
+  - https://raw.githubusercontent.com/thedaviddias/Front-End-Checklist/e8d14d049010e2ce25afcd5e8609dfcbbe63e47e/packages/mcp/package.json
   - https://github.com/thedaviddias/Front-End-Checklist/releases.atom
+  - https://raw.githubusercontent.com/thedaviddias/Front-End-Checklist/e8d14d049010e2ce25afcd5e8609dfcbbe63e47e/LICENSE

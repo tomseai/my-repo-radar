@@ -14,7 +14,9 @@ analysis:
       - "build-web-applications"
       - "improve-developer-workflow"
   evidence:
-    - claim: "Vite provides a development server with fast hot module replacement and a build command that bundles code into optimized static production assets, plus extensible plugin and JavaScript APIs."
+    - claim: "Vite provides a development server with fast hot module replacement and
+        a build command that bundles code into optimized static production
+        assets, plus extensible plugin and JavaScript APIs."
       source_type: "repository-file"
       url: "https://github.com/vitejs/vite/blob/main/README.md"
       checked_at: "2026-07-19"
@@ -22,7 +24,8 @@ analysis:
   state: "researched"
   summary:
     one_line: "A fast frontend development server and production build tool."
-    why_useful: "It combines rapid HMR, optimized production builds, and a typed plugin ecosystem for web development."
+    why_useful: "It combines rapid HMR, optimized production builds, and a typed
+      plugin ecosystem for web development."
 curation:
   confidence: null
   evidence: []
@@ -36,33 +39,36 @@ id: "github:vitejs/vite"
 import:
   github_snapshot:
     archived: false
-    created_at: "2020-04-21T05:03:57Z"
-    default_branch: "main"
-    description: "Next generation frontend tooling. It's fast!"
+    created_at: 2020-04-21T05:03:57Z
+    default_branch: main
+    description: Next generation frontend tooling. It's fast!
     disabled: false
-    fetched_at: "2026-07-19T19:16:14.796Z"
+    fetched_at: 2026-11-22T12:07:00.148Z
     fork: false
-    forks: 8503
-    homepage: "http://vite.dev"
-    latest_release: null
-    license_spdx: "MIT"
-    open_issues: 730
-    primary_language: "TypeScript"
-    pushed_at: "2026-07-17T14:13:43Z"
-    stars: 81984
+    forks: 9232
+    homepage: http://vite.dev
+    latest_release:
+      tag: v8.3.8
+      published_at: 2026-11-11T02:46:37Z
+      url: https://github.com/vitejs/vite/releases/tag/v8.3.8
+    license_spdx: MIT
+    open_issues: 818
+    primary_language: TypeScript
+    pushed_at: 2026-11-20T23:52:48Z
+    stars: 84029
     topics:
-      - "build-tool"
-      - "dev-server"
-      - "frontend"
-      - "hmr"
-      - "vite"
-    updated_at: "2026-07-19T18:29:03Z"
+      - build-tool
+      - dev-server
+      - frontend
+      - hmr
+      - vite
+    updated_at: 2026-11-22T11:37:25Z
   sources:
-    - observed_at: "2024-12-17T16:56:37Z"
-      relation: "starred"
-      source_id: "github:user:tomseai:stars"
-      source_url: "https://github.com/tomseai?tab=stars"
-  state: "imported"
+    - observed_at: 2024-12-17T16:56:37Z
+      relation: starred
+      source_id: github:user:tomseai:stars
+      source_url: https://github.com/tomseai?tab=stars
+  state: refreshed
 repository:
   aliases: []
   github_node_id: "MDEwOlJlcG9zaXRvcnkyNTc0ODU0MjI="

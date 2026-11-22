@@ -1,0 +1,94 @@
+schema_version: 2
+repository_id: github:open-gsd/gsd-core
+research:
+  state: complete
+  source_commit: 5dce95efcb17691462991526930269675b960e43
+  bundle_collected_at: 2026-11-22T12:10:09.282Z
+  researched_at: 2026-11-22T12:24:25Z
+  confidence: high
+classification:
+  primary_category: ai-and-automation
+  topics:
+    - coding-agents
+    - agent-frameworks
+    - agent-orchestration
+    - multi-agent
+    - parallel-agents
+    - agent-skills
+    - spec-driven-development
+    - context-engineering
+    - task-planning
+    - code-review
+    - testing
+    - mcp
+    - pull-requests
+    - developer-productivity
+project:
+  name: GSD Core
+  kind: framework
+  summary: >-
+    A multi-runtime context-engineering and spec-driven development framework
+    that guides coding agents through discuss, plan, parallel execution,
+    verification, and shipping phases while moving heavy work into fresh
+    subagent contexts.
+  best_for:
+    - Developers running multi-phase software projects with coding agents
+    - Teams that need durable project state and repeatable planning, execution,
+      and verification loops
+key_features:
+  - Runs a repeatable discuss, plan, execute, verify, and ship loop for each
+    milestone phase
+  - Uses fresh-context subagents for research, planning, and parallel execution
+    waves
+  - Preserves cross-session state in structured project, context, and status
+    artifacts
+  - Supports greenfield projects and onboarding of existing codebases
+  - Installs adapters for many coding-agent runtimes through one npm package
+usage:
+  interfaces:
+    - coding-agent commands and skills
+    - command-line installer
+    - MCP server
+    - VS Code extension
+  installation:
+    - npx @opengsd/gsd-core@latest
+    - global or project-local installation through the runtime-aware installer
+  setup: moderate
+technology:
+  languages:
+    - JavaScript
+    - TypeScript
+  notable_components:
+    - Claude Agent SDK
+    - MCP server
+    - runtime adapters
+    - VS Code extension
+license:
+  spdx: MIT
+  name: MIT License
+  notes: Permissive license requiring preservation of the copyright and license
+    notice.
+status:
+  lifecycle: active
+  archived: false
+  latest_release: v1.22.0
+  latest_release_at: 2026-11-19
+strengths:
+  - Reduces long-session context accumulation by assigning heavy work to fresh
+    subagents
+  - Connects planning artifacts, parallel execution, verification, and
+    pull-request shipping
+  - Offers one shared workflow across a broad set of coding-agent runtimes
+caveats:
+  - The current package manifest requires Node.js 24+ and npm 10+
+  - Cross-runtime installation must use the installer; directly copying agent or
+    command files is unsupported
+  - Parallel subagent workflows can substantially increase model usage and
+    coordination overhead
+sources:
+  - https://raw.githubusercontent.com/open-gsd/gsd-core/5dce95efcb17691462991526930269675b960e43/README.md
+  - https://raw.githubusercontent.com/open-gsd/gsd-core/5dce95efcb17691462991526930269675b960e43/docs/ARCHITECTURE.md
+  - https://raw.githubusercontent.com/open-gsd/gsd-core/5dce95efcb17691462991526930269675b960e43/package.json
+  - https://raw.githubusercontent.com/open-gsd/gsd-core/5dce95efcb17691462991526930269675b960e43/LICENSE
+  - https://github.com/open-gsd/gsd-core/releases/tag/v1.22.0
+  - https://github.com/open-gsd/gsd-core/commit/5dce95efcb17691462991526930269675b960e43

@@ -2,21 +2,21 @@
 
 # CLI
 
-[Back to the main catalog](../README.md) | **112 repositories**
+[Back to the main catalog](../README.md) | **123 repositories**
 
 ## Primary categories represented
 
-- [AI and Automation](../categories/ai-and-automation.md) (50)
-- [Application Frameworks](../categories/application-frameworks.md) (1)
+- [AI and Automation](../categories/ai-and-automation.md) (52)
+- [Application Frameworks](../categories/application-frameworks.md) (2)
 - [Backend and APIs](../categories/backend-and-apis.md) (2)
 - [Data and Databases](../categories/data-and-databases.md) (3)
-- [Developer Tools](../categories/developer-tools.md) (37)
+- [Developer Tools](../categories/developer-tools.md) (40)
 - [DevOps and Cloud](../categories/devops-and-cloud.md) (3)
 - [Documentation and Learning](../categories/documentation-and-learning.md) (5)
-- [Frontend and Design](../categories/frontend-and-design.md) (2)
+- [Frontend and Design](../categories/frontend-and-design.md) (3)
 - [Platforms and Applications](../categories/platforms-and-applications.md) (4)
-- [Security and Privacy](../categories/security-and-privacy.md) (4)
-- [Testing and Quality](../categories/testing-and-quality.md) (1)
+- [Security and Privacy](../categories/security-and-privacy.md) (5)
+- [Testing and Quality](../categories/testing-and-quality.md) (4)
 
 <a id="repo-adonisjs--core"></a>
 
@@ -31,55 +31,13 @@ The TypeScript-first, full-stack MVC framework core for Node.js web applications
 - **Languages:** TypeScript, JavaScript
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 19,044
+- **GitHub stars:** 19,192
 
 **Key features**
 
   - Full-stack MVC foundation with APIs for web applications and microservices
   - HTTP server, body parsing, configuration, environment, event, logging, and health modules
   - Command toolkit exposed through the adonis-kit CLI
-
-<a id="repo-agentsmesh--agentsmesh"></a>
-
-## [AgentsMesh](https://github.com/AgentsMesh/AgentsMesh)
-
-A self-hosted control plane for scheduling, isolating, and supervising terminal-based coding agents across a fleet of user-run machines.
-
-- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-agentsmesh--agentsmesh)
-- **Topics:** [AI Agents](../topics/ai-agents.md#repo-agentsmesh--agentsmesh) | [Agent Orchestration](../topics/agent-orchestration.md#repo-agentsmesh--agentsmesh) | [Multi Agent](../topics/multi-agent.md#repo-agentsmesh--agentsmesh) | [Parallel Agents](../topics/parallel-agents.md#repo-agentsmesh--agentsmesh) | [Self Hosted](../topics/self-hosted.md#repo-agentsmesh--agentsmesh) | [CLI](../topics/cli.md#repo-agentsmesh--agentsmesh)
-- **Kind:** Infrastructure
-- **Best for:** Teams operating concurrent coding-agent tasks on their own infrastructure; Workflows needing isolated Git worktrees, shared terminal visibility, and coordinated agent work
-- **Languages:** Go, Rust, TypeScript, Swift
-- **License:** BUSL-1.1
-- **Lifecycle:** Active
-- **GitHub stars:** 2,285
-
-**Key features**
-
-  - Self-hosted Runner fleet that schedules AgentPods across user-owned machines
-  - Per-pod PTY terminals, private credentials, branches, and isolated Git worktree sandboxes
-  - Web, Electron desktop, and iOS clients backed by a shared Rust core
-
-<a id="repo-agentwrapper--agent-orchestrator"></a>
-
-## [Agent Orchestrator](https://github.com/AgentWrapper/agent-orchestrator)
-
-A local agent IDE and orchestration layer that supervises parallel terminal-based coding agents in isolated Git worktrees, with desktop and CLI control plus feedback loops for pull requests, CI, reviews, and conflicts.
-
-- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-agentwrapper--agent-orchestrator)
-- **Topics:** [AI Agents](../topics/ai-agents.md#repo-agentwrapper--agent-orchestrator) | [Agent Harnesses](../topics/agent-harnesses.md#repo-agentwrapper--agent-orchestrator) | [Agent Orchestration](../topics/agent-orchestration.md#repo-agentwrapper--agent-orchestrator) | [Parallel Agents](../topics/parallel-agents.md#repo-agentwrapper--agent-orchestrator) | [Coding Agents](../topics/coding-agents.md#repo-agentwrapper--agent-orchestrator) | [Worktrees](../topics/worktrees.md#repo-agentwrapper--agent-orchestrator) | [CLI](../topics/cli.md#repo-agentwrapper--agent-orchestrator)
-- **Kind:** Application
-- **Best for:** Developers coordinating several coding-agent sessions in one repository; Teams or individuals wanting local visibility into agent terminals, branches, and PR feedback
-- **Languages:** Go, TypeScript
-- **License:** Apache-2.0
-- **Lifecycle:** Active
-- **GitHub stars:** 8,380
-
-**Key features**
-
-  - Separate Git worktree, terminal, branch, and pull-request context for each session
-  - Adapters for multiple terminal-based coding-agent harnesses
-  - Desktop session board with embedded terminals and local browser previews
 
 <a id="repo-anomalyco--opencode"></a>
 
@@ -94,7 +52,7 @@ An open-source AI coding agent delivered primarily as a command-line and termina
 - **Languages:** TypeScript
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 187,478
+- **GitHub stars:** 228,502
 
 **Key features**
 
@@ -115,13 +73,55 @@ An Anthropic agentic coding tool that works with a codebase through natural-lang
 - **Languages:** Unknown
 - **License:** Proprietary; Anthropic Commercial Terms of Service
 - **Lifecycle:** Active
-- **GitHub stars:** 138,317
+- **GitHub stars:** 156,640
 
 **Key features**
 
   - Executes routine coding tasks and explains complex code
   - Handles Git workflows through natural-language commands
   - Works from the terminal, supported IDEs, or GitHub mentions
+
+<a id="repo-antithesishq--bombadil"></a>
+
+## [bombadil](https://github.com/antithesishq/bombadil)
+
+Property-based testing tool that autonomously explores web and terminal interfaces and checks correctness properties.
+
+- **Category:** [Testing and Quality](../categories/testing-and-quality.md#repo-antithesishq--bombadil)
+- **Topics:** [Testing](../topics/testing.md#repo-antithesishq--bombadil) | [Automation](../topics/automation.md#repo-antithesishq--bombadil) | [CLI](../topics/cli.md#repo-antithesishq--bombadil)
+- **Kind:** CLI
+- **Best for:** Developers testing interactive applications for reliability
+- **Languages:** Rust
+- **License:** MIT
+- **Lifecycle:** Active
+- **GitHub stars:** 3,020
+
+**Key features**
+
+  - Automated exploration of web interfaces
+  - Property-based testing of terminal interfaces
+  - Runs locally, in CI, and inside Antithesis
+
+<a id="repo-bendlang--bend"></a>
+
+## [bend](https://github.com/bendlang/bend)
+
+A dependent-type programming language and compiler for parallel computation and mechanically checked program laws.
+
+- **Category:** [Developer Tools](../categories/developer-tools.md#repo-bendlang--bend)
+- **Topics:** [CLI](../topics/cli.md#repo-bendlang--bend) | [Performance](../topics/performance.md#repo-bendlang--bend) | [Developer Productivity](../topics/developer-productivity.md#repo-bendlang--bend)
+- **Kind:** Other
+- **Best for:** Developers exploring proof-backed programs and parallel computation
+- **Languages:** TypeScript
+- **License:** Apache-2.0
+- **Lifecycle:** Experimental
+- **GitHub stars:** 25,751
+
+**Key features**
+
+  - Dependent types and mathematical proofs
+  - Declared program laws checked against proofs
+  - Parallel execution targeting CPU and GPU
 
 <a id="repo-betterdb-inc--monitor"></a>
 
@@ -136,7 +136,7 @@ A self-hosted monitoring application for Valkey and Redis that presents real-tim
 - **Languages:** TypeScript, Python
 - **License:** MIT Expat outside separately licensed paths
 - **Lifecycle:** Active
-- **GitHub stars:** 1,246
+- **GitHub stars:** 1,308
 
 **Key features**
 
@@ -148,7 +148,7 @@ A self-hosted monitoring application for Valkey and Redis that presents real-tim
 
 ## [BMad Method](https://github.com/bmad-code-org/BMAD-METHOD)
 
-An AI-assisted software-development framework that installs specialized agent skills and guided workflows for taking a project from analysis and planning through architecture, implementation, and deployment.
+An AI-assisted software development method with agent skills and workflows for planning, architecture, implementation, and change delivery.
 
 - **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-bmad-code-org--bmad-method)
 - **Topics:** [Coding Agents](../topics/coding-agents.md#repo-bmad-code-org--bmad-method) | [Agent Skills](../topics/agent-skills.md#repo-bmad-code-org--bmad-method) | [Task Planning](../topics/task-planning.md#repo-bmad-code-org--bmad-method) | [Spec Driven Development](../topics/spec-driven-development.md#repo-bmad-code-org--bmad-method) | [Multi Agent](../topics/multi-agent.md#repo-bmad-code-org--bmad-method) | [CLI](../topics/cli.md#repo-bmad-code-org--bmad-method) | [Developer Productivity](../topics/developer-productivity.md#repo-bmad-code-org--bmad-method)
@@ -157,13 +157,13 @@ An AI-assisted software-development framework that installs specialized agent sk
 - **Languages:** JavaScript, Python
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 50,816
+- **GitHub stars:** 55,620
 
 **Key features**
 
-  - Four-phase workflow spanning analysis, planning, solutioning, and implementation
-  - Planning tracks for quick fixes, product work, and enterprise-oriented projects
-  - Specialized agent skills plus bmad-help for context-aware workflow guidance
+  - Guided workflows for planning requirements, user experience, architecture, and implementation
+  - Specialized agent skills with context-sensitive help
+  - Modular installation with official domain-specific extensions
 
 <a id="repo-boundaryml--baml"></a>
 
@@ -178,7 +178,7 @@ A statically typed programming language and toolchain for defining reliable agen
 - **Languages:** Rust, TypeScript, Go
 - **License:** Apache-2.0
 - **Lifecycle:** Active
-- **GitHub stars:** 8,571
+- **GitHub stars:** 9,531
 
 **Key features**
 
@@ -190,7 +190,7 @@ A statically typed programming language and toolchain for defining reliable agen
 
 ## [Browser Use](https://github.com/browser-use/browser-use)
 
-A Python library and CLI for LLM-driven agents that operate web browsers, including navigating pages, clicking controls, entering form data, and extracting information for repeatable web tasks.
+A Python library and CLI for language-model-driven browser tasks, built around a persistent Python execution context and Chrome DevTools Protocol, with local or hosted browser options.
 
 - **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-browser-use--browser-use)
 - **Topics:** [AI Agents](../topics/ai-agents.md#repo-browser-use--browser-use) | [Browser Automation](../topics/browser-automation.md#repo-browser-use--browser-use) | [Computer Use](../topics/computer-use.md#repo-browser-use--browser-use) | [Tool Use](../topics/tool-use.md#repo-browser-use--browser-use) | [CLI](../topics/cli.md#repo-browser-use--browser-use) | [MCP](../topics/mcp.md#repo-browser-use--browser-use) | [Web Scraping](../topics/web-scraping.md#repo-browser-use--browser-use)
@@ -199,19 +199,19 @@ A Python library and CLI for LLM-driven agents that operate web browsers, includ
 - **Languages:** Python
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 105,551
+- **GitHub stars:** 121,730
 
 **Key features**
 
-  - Agent API that executes a natural-language task with a selected LLM
-  - Browser interactions for pages, buttons, text input, forms, and data extraction
-  - Custom action tools for extending an agent's capabilities
+  - Accepts a browser task and runs it through a model-backed agent based on Pydantic AI
+  - Keeps Python execution state across task steps and operates a browser through Chrome DevTools Protocol
+  - Offers a local Python API and CLI and can connect either to local Chromium or cloud browsers
 
 <a id="repo-bubbuild--bub"></a>
 
 ## [Bub](https://github.com/bubbuild/bub)
 
-A small hook-first Python runtime for agents and people in shared conversational environments, using an inspectable turn pipeline, append-only context records, and adapters for command-line, Telegram, and custom channels.
+A Python agent kernel and customizable application with model and tool configuration, conversation storage, plugins, and channel integrations.
 
 - **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-bubbuild--bub)
 - **Topics:** [AI Agents](../topics/ai-agents.md#repo-bubbuild--bub) | [Agent Frameworks](../topics/agent-frameworks.md#repo-bubbuild--bub) | [Agent Skills](../topics/agent-skills.md#repo-bubbuild--bub) | [Agent Memory](../topics/agent-memory.md#repo-bubbuild--bub) | [CLI](../topics/cli.md#repo-bubbuild--bub) | [Tool Use](../topics/tool-use.md#repo-bubbuild--bub) | [Automation](../topics/automation.md#repo-bubbuild--bub)
@@ -220,13 +220,13 @@ A small hook-first Python runtime for agents and people in shared conversational
 - **Languages:** Python
 - **License:** Apache-2.0
 - **Lifecycle:** Active
-- **GitHub stars:** 1,553
+- **GitHub stars:** 1,704
 
 **Key features**
 
-  - Replaceable pluggy hooks for every inbound-message turn stage
+  - Python agent kernel with configurable model, tools, instructions, and storage
+  - Optional application layer with pluggy hooks and channel integrations
   - Append-only tape context that can be inspected, replayed, and handed off
-  - One runtime model for CLI, Telegram, and custom channel adapters
 
 <a id="repo-builderio--agent-native"></a>
 
@@ -239,9 +239,9 @@ A TypeScript framework for building agent-centric applications whose actions can
 - **Kind:** Framework
 - **Best for:** Teams building a customizable agent application rather than a standalone coding agent; Projects that want one action definition shared by application and agent interfaces
 - **Languages:** TypeScript
-- **License:** Repository-wide license unresolved
+- **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 3,793
+- **GitHub stars:** 7,738
 
 **Key features**
 
@@ -262,7 +262,7 @@ A Rust command-line search tool that recursively searches files with regular exp
 - **Languages:** Rust
 - **License:** Unlicense OR MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 66,334
+- **GitHub stars:** 70,137
 
 **Key features**
 
@@ -283,7 +283,7 @@ A cross-platform terminal coding agent that combines model-provider access, code
 - **Languages:** TypeScript, Rust
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 18,467
+- **GitHub stars:** 39,630
 
 **Key features**
 
@@ -304,13 +304,34 @@ A local CLI that reads supported coding-agent usage logs and reports token count
 - **Languages:** Rust, TypeScript
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 17,294
+- **GitHub stars:** 19,541
 
 **Key features**
 
   - Unified reports across detected supported coding-agent data sources
   - Source-specific daily, weekly, monthly, and session reports
   - Token, cache-token, model, and estimated USD-cost reporting
+
+<a id="repo-cheaper-inference--omniroute"></a>
+
+## [OmniRoute](https://github.com/cheaper-inference/OmniRoute)
+
+A self-hosted AI gateway, dashboard, and command-line tool that routes compatible coding clients across configured providers and model combinations through OpenAI-compatible APIs.
+
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-cheaper-inference--omniroute)
+- **Topics:** [LLMs](../topics/llms.md#repo-cheaper-inference--omniroute) | [LLM Gateways](../topics/llm-gateways.md#repo-cheaper-inference--omniroute) | [Model Routing](../topics/model-routing.md#repo-cheaper-inference--omniroute) | [Multi Provider](../topics/multi-provider.md#repo-cheaper-inference--omniroute) | [CLI](../topics/cli.md#repo-cheaper-inference--omniroute) | [Web UI](../topics/web-ui.md#repo-cheaper-inference--omniroute) | [MCP](../topics/mcp.md#repo-cheaper-inference--omniroute) | [Self Hosted](../topics/self-hosted.md#repo-cheaper-inference--omniroute) | [Token Usage](../topics/token-usage.md#repo-cheaper-inference--omniroute)
+- **Kind:** Service
+- **Best for:** Centralizing local or remote routing for several coding tools and AI providers; Applying configurable fallback, quota management, and compression to agent traffic
+- **Languages:** TypeScript
+- **License:** MIT
+- **Lifecycle:** Active
+- **GitHub stars:** 89,505
+
+**Key features**
+
+  - OpenAI-compatible APIs with provider-format translation and streaming support
+  - Automatic and user-defined model combos with multiple routing and fallback strategies
+  - Provider, account, quota, health, and cost management from a dashboard and CLI
 
 <a id="repo-chinasiro--claude-code-sourcemap"></a>
 
@@ -325,7 +346,7 @@ An unofficial research reference that reconstructs TypeScript source files from 
 - **Languages:** TypeScript, TSX, JavaScript
 - **License:** No repository license grant
 - **Lifecycle:** Unknown
-- **GitHub stars:** 9,558
+- **GitHub stars:** 9,759
 
 **Key features**
 
@@ -346,7 +367,7 @@ An MCP server and command-line tool that lets coding agents control and inspect 
 - **Languages:** TypeScript, JavaScript
 - **License:** Apache-2.0
 - **Lifecycle:** Active
-- **GitHub stars:** 47,187
+- **GitHub stars:** 58,755
 
 **Key features**
 
@@ -358,7 +379,7 @@ An MCP server and command-line tool that lets coding agents control and inspect 
 
 ## [Cline](https://github.com/cline/cline)
 
-An open-source coding-agent suite offering an IDE extension, terminal CLI, Node.js SDK, and supported integrations for supervised or automated development workflows.
+An open-source coding-agent suite offering an IDE extension, terminal CLI, desktop app, Node.js SDK, and supported integrations for supervised or automated development workflows.
 
 - **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-cline--cline)
 - **Topics:** [AI Agents](../topics/ai-agents.md#repo-cline--cline) | [Coding Agents](../topics/coding-agents.md#repo-cline--cline) | [Agent Frameworks](../topics/agent-frameworks.md#repo-cline--cline) | [CLI](../topics/cli.md#repo-cline--cline) | [MCP](../topics/mcp.md#repo-cline--cline) | [Multi Agent](../topics/multi-agent.md#repo-cline--cline) | [Multi Provider](../topics/multi-provider.md#repo-cline--cline) | [Agent Skills](../topics/agent-skills.md#repo-cline--cline)
@@ -367,7 +388,7 @@ An open-source coding-agent suite offering an IDE extension, terminal CLI, Node.
 - **Languages:** TypeScript
 - **License:** Apache-2.0
 - **Lifecycle:** Active
-- **GitHub stars:** 64,809
+- **GitHub stars:** 71,816
 
 **Key features**
 
@@ -388,7 +409,7 @@ Python and JavaScript wrappers that launch a custom Chromium binary through Play
 - **Languages:** Python, TypeScript, C++
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 28,626
+- **GitHub stars:** 33,017
 
 **Key features**
 
@@ -400,22 +421,22 @@ Python and JavaScript wrappers that launch a custom Chromium binary through Play
 
 ## [oh-my-openagent](https://github.com/code-yeongyu/oh-my-openagent)
 
-An extension suite for OpenCode and Codex CLI that supplies agent workflow, tool, rule, and skill components in two differently scoped editions.
+A coding-agent CLI built on the senpi fork of Pi that combines persistent Markdown memory, model routing, and project workflows. The repository also contains OpenCode and Codex components.
 
 - **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-code-yeongyu--oh-my-openagent)
 - **Topics:** [AI Agents](../topics/ai-agents.md#repo-code-yeongyu--oh-my-openagent) | [Coding Agents](../topics/coding-agents.md#repo-code-yeongyu--oh-my-openagent) | [Agent Harnesses](../topics/agent-harnesses.md#repo-code-yeongyu--oh-my-openagent) | [Agent Orchestration](../topics/agent-orchestration.md#repo-code-yeongyu--oh-my-openagent) | [Agent Skills](../topics/agent-skills.md#repo-code-yeongyu--oh-my-openagent) | [CLI](../topics/cli.md#repo-code-yeongyu--oh-my-openagent) | [MCP](../topics/mcp.md#repo-code-yeongyu--oh-my-openagent) | [Codebase Search](../topics/codebase-search.md#repo-code-yeongyu--oh-my-openagent) | [Codebase Indexing](../topics/codebase-indexing.md#repo-code-yeongyu--oh-my-openagent)
-- **Kind:** Plugin
-- **Best for:** OpenCode users who want an integrated coding-agent harness with team-mode tooling; Codex CLI users who want the documented portable rules, LSP, MCP, and workflow components
+- **Kind:** CLI
+- **Best for:** Developers who want a terminal agent with persistent project memory and multiple model providers; Users migrating settings from the earlier OpenCode or LazyCodex editions
 - **Languages:** TypeScript
 - **License:** SUL-1.0
 - **Lifecycle:** Active
-- **GitHub stars:** 66,168
+- **GitHub stars:** 71,053
 
 **Key features**
 
-  - The OpenCode Ultimate edition includes 11 agents, lifecycle hooks, built-in MCPs, slash commands, and opt-in Team Mode
-  - The Codex CLI Light edition provides rules, comment checking, Git Bash, LSP, ultrawork, continuation, telemetry, and plugin-scoped MCP components
-  - Team Mode lets a lead coordinate up to eight parallel members through dedicated team tools and a tmux view
+  - Runs coding tasks through an interactive CLI powered by senpi
+  - Keeps agent memory as Markdown in a Git repository and uses a secondary model to retrieve relevant context
+  - Offers configurable model providers, sign-in, and reasoning levels
 
 <a id="repo-codeboarding--codeboarding"></a>
 
@@ -430,7 +451,7 @@ A codebase-analysis tool that combines static analysis and LLM reasoning to prod
 - **Languages:** Python
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 2,353
+- **GitHub stars:** 2,694
 
 **Key features**
 
@@ -451,7 +472,7 @@ A Python CLI and library that converts local or GitHub-hosted Git repositories i
 - **Languages:** Python
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 15,201
+- **GitHub stars:** 16,168
 
 **Key features**
 
@@ -463,7 +484,7 @@ A Python CLI and library that converts local or GitHub-hosted Git repositories i
 
 ## [Archon](https://github.com/coleam00/Archon)
 
-A workflow engine for defining and executing repeatable AI coding processes as YAML, with deterministic steps around agent work.
+A self-hosted workflow engine for running YAML-defined processes with AI agents, scripts, and approval gates. Its bundled software-development pack coordinates work from issue intake to merged pull request.
 
 - **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-coleam00--archon)
 - **Topics:** [AI Agents](../topics/ai-agents.md#repo-coleam00--archon) | [Coding Agents](../topics/coding-agents.md#repo-coleam00--archon) | [Agent Orchestration](../topics/agent-orchestration.md#repo-coleam00--archon) | [Automation](../topics/automation.md#repo-coleam00--archon) | [CLI](../topics/cli.md#repo-coleam00--archon) | [Git](../topics/git.md#repo-coleam00--archon) | [Worktrees](../topics/worktrees.md#repo-coleam00--archon) | [Web UI](../topics/web-ui.md#repo-coleam00--archon) | [Pull Requests](../topics/pull-requests.md#repo-coleam00--archon)
@@ -472,13 +493,13 @@ A workflow engine for defining and executing repeatable AI coding processes as Y
 - **Languages:** TypeScript
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 22,944
+- **GitHub stars:** 23,980
 
 **Key features**
 
   - Defines planning, implementation, validation, review, and pull-request processes as YAML workflows with validation gates and artifacts
   - Isolates each workflow run in its own Git worktree, allowing parallel fixes without conflicts
-  - Includes a web dashboard for chats, workflow execution, history, monitoring, and a drag-and-drop workflow builder
+  - Provides a web interface to run and monitor workflows and handle approval requests
 
 <a id="repo-composiohq--composio"></a>
 
@@ -493,7 +514,7 @@ A TypeScript and Python SDK monorepo for giving AI agents authenticated, session
 - **Languages:** TypeScript, Python
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 29,287
+- **GitHub stars:** 31,233
 
 **Key features**
 
@@ -514,7 +535,7 @@ A zero-dependency TypeScript mock server and library for exercising AI applicati
 - **Languages:** TypeScript, Python
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 650
+- **GitHub stars:** 1,031
 
 **Key features**
 
@@ -533,9 +554,9 @@ A Python document-intelligence library and command-line converter that turns PDF
 - **Kind:** Library
 - **Best for:** Developers preparing heterogeneous documents for search, RAG, or data pipelines; Python users needing configurable document conversion with local or optional LLM assistance
 - **Languages:** Python
-- **License:** GPL-3.0-or-later
+- **License:** Apache-2.0
 - **Lifecycle:** Active
-- **GitHub stars:** 37,653
+- **GitHub stars:** 41,016
 
 **Key features**
 
@@ -556,7 +577,7 @@ A Python-distributed multilingual document-understanding model suite for OCR, la
 - **Languages:** Python
 - **License:** Apache-2.0
 - **Lifecycle:** Active
-- **GitHub stars:** 21,119
+- **GitHub stars:** 21,610
 
 **Key features**
 
@@ -577,7 +598,7 @@ An evolving coding-agent context tool whose current documented local form is a s
 - **Languages:** TypeScript, JavaScript
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 1,151
+- **GitHub stars:** 1,148
 
 **Key features**
 
@@ -598,13 +619,34 @@ A self-hosted AI gateway and dashboard that presents one OpenAI-compatible endpo
 - **Languages:** JavaScript
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 22,689
+- **GitHub stars:** 32,727
 
 **Key features**
 
   - OpenAI-compatible API plus translation among OpenAI, Claude, Gemini, Cursor, Kiro, Vertex, and other formats
   - Configurable model combinations with account- and provider-level fallback
   - OAuth and API-key provider connections with token refresh and quota tracking
+
+<a id="repo-deepseek-ai--deepseek-harness"></a>
+
+## [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness)
+
+A developer-preview agent harness built around an everything-is-a-plugin Cordis architecture, with a local Web UI, command-line and headless flows, extensible tools, skills, sessions, and experimental browser and computer use.
+
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-deepseek-ai--deepseek-harness)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-deepseek-ai--deepseek-harness) | [Coding Agents](../topics/coding-agents.md#repo-deepseek-ai--deepseek-harness) | [Agent Harnesses](../topics/agent-harnesses.md#repo-deepseek-ai--deepseek-harness) | [Agent Skills](../topics/agent-skills.md#repo-deepseek-ai--deepseek-harness) | [Tool Use](../topics/tool-use.md#repo-deepseek-ai--deepseek-harness) | [MCP](../topics/mcp.md#repo-deepseek-ai--deepseek-harness) | [Computer Use](../topics/computer-use.md#repo-deepseek-ai--deepseek-harness) | [Browser Automation](../topics/browser-automation.md#repo-deepseek-ai--deepseek-harness) | [Web UI](../topics/web-ui.md#repo-deepseek-ai--deepseek-harness) | [CLI](../topics/cli.md#repo-deepseek-ai--deepseek-harness) | [Sandboxing](../topics/sandboxing.md#repo-deepseek-ai--deepseek-harness)
+- **Kind:** Framework
+- **Best for:** Developers evaluating a highly modular local harness for coding and tool-using agents; Plugin authors experimenting with DeepSeek Harness services, tools, interfaces, and runtime extensions
+- **Languages:** TypeScript, Python
+- **License:** MIT
+- **Lifecycle:** Experimental
+- **GitHub stars:** 285,342
+
+**Key features**
+
+  - Cordis-based plugin architecture used across the agent runtime, tools, interfaces, and configuration
+  - Local Web UI with session management, file previews, trajectories, and an integrated multi-tab terminal
+  - Headless operation that accepts tasks on standard input, resumes sessions, and streams JSON events
 
 <a id="repo-dicklesworthstone--destructive_command_guard"></a>
 
@@ -619,34 +661,13 @@ A Rust command-line guard and pre-execution hook for AI coding agents that detec
 - **Languages:** Rust
 - **License:** MIT License with OpenAI/Anthropic Rider
 - **Lifecycle:** Active
-- **GitHub stars:** 5,151
+- **GitHub stars:** 6,373
 
 **Key features**
 
   - Pre-execution hooks for several AI coding-agent clients, including Codex CLI
   - Built-in rule packs for Git and filesystem operations, with optional domain-specific packs
   - Heredoc and inline-script scanning alongside direct command matching
-
-<a id="repo-diegosouzapw--omniroute"></a>
-
-## [OmniRoute](https://github.com/diegosouzapw/OmniRoute)
-
-A self-hosted AI gateway, dashboard, and command-line tool that routes compatible coding clients across configured providers and model combinations through OpenAI-compatible APIs.
-
-- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-diegosouzapw--omniroute)
-- **Topics:** [LLMs](../topics/llms.md#repo-diegosouzapw--omniroute) | [LLM Gateways](../topics/llm-gateways.md#repo-diegosouzapw--omniroute) | [Model Routing](../topics/model-routing.md#repo-diegosouzapw--omniroute) | [Multi Provider](../topics/multi-provider.md#repo-diegosouzapw--omniroute) | [CLI](../topics/cli.md#repo-diegosouzapw--omniroute) | [Web UI](../topics/web-ui.md#repo-diegosouzapw--omniroute) | [MCP](../topics/mcp.md#repo-diegosouzapw--omniroute) | [Self Hosted](../topics/self-hosted.md#repo-diegosouzapw--omniroute) | [Token Usage](../topics/token-usage.md#repo-diegosouzapw--omniroute)
-- **Kind:** Service
-- **Best for:** Centralizing local or remote routing for several coding tools and AI providers; Applying configurable fallback, quota management, and compression to agent traffic
-- **Languages:** TypeScript
-- **License:** MIT
-- **Lifecycle:** Active
-- **GitHub stars:** 20,079
-
-**Key features**
-
-  - OpenAI-compatible APIs with provider-format translation and streaming support
-  - Automatic and user-defined model combos with multiple routing and fallback strategies
-  - Provider, account, quota, health, and cost management from a dashboard and CLI
 
 <a id="repo-dolthub--dolt"></a>
 
@@ -661,7 +682,7 @@ A Go SQL database that versions tables and schema with Git-like cloning, branchi
 - **Languages:** Go
 - **License:** Apache-2.0
 - **Lifecycle:** Active
-- **GitHub stars:** 23,900
+- **GitHub stars:** 24,957
 
 **Key features**
 
@@ -682,7 +703,7 @@ A Python framework for LLM agents that control Android and iOS devices with mobi
 - **Languages:** Python
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 8,814
+- **GitHub stars:** 10,089
 
 **Key features**
 
@@ -703,7 +724,7 @@ A compact TypeScript research assistant that iteratively queries search and scra
 - **Languages:** TypeScript
 - **License:** MIT
 - **Lifecycle:** Unknown
-- **GitHub stars:** 19,376
+- **GitHub stars:** 19,912
 
 **Key features**
 
@@ -713,7 +734,7 @@ A compact TypeScript research assistant that iteratively queries search and scra
 
 <a id="repo-earendil-works--pi"></a>
 
-## [Pi Agent Harness](https://github.com/earendil-works/pi)
+## [Pi](https://github.com/earendil-works/pi)
 
 A TypeScript monorepo for a multi-provider LLM API, tool-calling agent runtime, terminal UI library, and interactive coding-agent CLI.
 
@@ -724,7 +745,7 @@ A TypeScript monorepo for a multi-provider LLM API, tool-calling agent runtime, 
 - **Languages:** TypeScript
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 72,718
+- **GitHub stars:** 123,278
 
 **Key features**
 
@@ -732,11 +753,32 @@ A TypeScript monorepo for a multi-provider LLM API, tool-calling agent runtime, 
   - General-purpose agent runtime with tool calling, state management, transport abstraction, and attachments
   - Unified API for OpenAI, Anthropic, Google, and other LLM providers
 
+<a id="repo-encoredev--encore"></a>
+
+## [Encore](https://github.com/encoredev/encore)
+
+A Go and TypeScript backend framework with local infrastructure orchestration and an optional managed cloud deployment platform.
+
+- **Category:** [Application Frameworks](../categories/application-frameworks.md#repo-encoredev--encore)
+- **Topics:** [Backend Development](../topics/backend-development.md#repo-encoredev--encore) | [API Development](../topics/api-development.md#repo-encoredev--encore) | [Cloud](../topics/cloud.md#repo-encoredev--encore) | [Deployment](../topics/deployment.md#repo-encoredev--encore) | [Observability](../topics/observability.md#repo-encoredev--encore) | [Frameworks](../topics/frameworks.md#repo-encoredev--encore) | [CLI](../topics/cli.md#repo-encoredev--encore)
+- **Kind:** Framework
+- **Best for:** Teams building backend services with consistent local and cloud infrastructure
+- **Languages:** Go, TypeScript, Rust
+- **License:** MPL-2.0
+- **Lifecycle:** Active
+- **GitHub stars:** 12,733
+
+**Key features**
+
+  - Declare services, databases, messaging, storage, and other infrastructure in application code
+  - Run local infrastructure with a dashboard and distributed traces
+  - Provision and deploy to AWS or Google Cloud through the optional platform
+
 <a id="repo-fission-ai--openspec"></a>
 
 ## [OpenSpec](https://github.com/Fission-AI/OpenSpec)
 
-A Node.js CLI and coding-agent workflow for keeping Markdown specifications and change artifacts alongside code before and during implementation.
+A CLI and coding-agent workflow for keeping Markdown specifications and change artifacts alongside code before and during implementation.
 
 - **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-fission-ai--openspec)
 - **Topics:** [Coding Agents](../topics/coding-agents.md#repo-fission-ai--openspec) | [Spec Driven Development](../topics/spec-driven-development.md#repo-fission-ai--openspec) | [Task Planning](../topics/task-planning.md#repo-fission-ai--openspec) | [Context Engineering](../topics/context-engineering.md#repo-fission-ai--openspec) | [CLI](../topics/cli.md#repo-fission-ai--openspec) | [Documentation](../topics/documentation.md#repo-fission-ai--openspec) | [Developer Productivity](../topics/developer-productivity.md#repo-fission-ai--openspec)
@@ -745,13 +787,34 @@ A Node.js CLI and coding-agent workflow for keeping Markdown specifications and 
 - **Languages:** TypeScript
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 61,593
+- **GitHub stars:** 75,443
 
 **Key features**
 
   - Project specs expressed as Markdown requirements and concrete scenarios
   - Per-change proposal, design, task, and delta-spec artifacts
   - Explore, propose, apply, and archive coding-agent command workflow
+
+<a id="repo-garciaalan186--squeaky-clean"></a>
+
+## [Squeaky Clean](https://github.com/garciaalan186/squeaky-clean)
+
+An agentic code-generation and architecture-recovery CLI that turns a declarative ProblemSpec into Clean-Architecture applications by orchestrating parallel, pattern-specialized agents through the compact Squib architecture DSL.
+
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-garciaalan186--squeaky-clean)
+- **Topics:** [Coding Agents](../topics/coding-agents.md#repo-garciaalan186--squeaky-clean) | [Agent Orchestration](../topics/agent-orchestration.md#repo-garciaalan186--squeaky-clean) | [Parallel Agents](../topics/parallel-agents.md#repo-garciaalan186--squeaky-clean) | [Code Generation](../topics/code-generation.md#repo-garciaalan186--squeaky-clean) | [Spec Driven Development](../topics/spec-driven-development.md#repo-garciaalan186--squeaky-clean) | [CLI](../topics/cli.md#repo-garciaalan186--squeaky-clean) | [LLMs](../topics/llms.md#repo-garciaalan186--squeaky-clean) | [Evaluation](../topics/evaluation.md#repo-garciaalan186--squeaky-clean) | [Testing](../topics/testing.md#repo-garciaalan186--squeaky-clean) | [Developer Productivity](../topics/developer-productivity.md#repo-garciaalan186--squeaky-clean)
+- **Kind:** CLI
+- **Best for:** Generating backend applications from explicit requirements while enforcing Clean Architecture boundaries; Experimenting with cost-tiered parallel coding-agent pipelines and reproducible evaluations
+- **Languages:** Python
+- **License:** Apache-2.0
+- **Lifecycle:** Experimental
+- **GitHub stars:** 25
+
+**Key features**
+
+  - Generates buildable application projects from a declarative JSON ProblemSpec
+  - Uses a validated Squib architecture DSL between model tiers
+  - Runs pattern-specialized implementation agents in parallel across 34 GoF and DDD/Clean patterns
 
 <a id="repo-gastownhall--beads"></a>
 
@@ -766,7 +829,7 @@ A distributed, dependency-aware issue tracker and persistent memory system for c
 - **Languages:** Go
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 25,432
+- **GitHub stars:** 28,915
 
 **Key features**
 
@@ -787,7 +850,7 @@ A multi-agent workspace manager that uses git worktree-backed state and Beads to
 - **Languages:** Go
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 17,102
+- **GitHub stars:** 18,867
 
 **Key features**
 
@@ -808,11 +871,11 @@ A local-first CLI and set of dashboards that reads AI coding-tool session data f
 - **Languages:** TypeScript, Swift
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 8,755
+- **GitHub stars:** 11,882
 
 **Key features**
 
-  - Reads local session data for 36 supported AI tools and agents
+  - Reads local session data for 42 supported AI tools and agents
   - Provides an interactive terminal dashboard, reports, JSON output, and a localhost web dashboard
   - Breaks down usage by task, model, tool, project, date range, and token category
 
@@ -827,13 +890,13 @@ A self-hosted, cross-device control surface for running, monitoring, and coordin
 - **Kind:** Application
 - **Best for:** Developers coordinating several coding-agent tasks from desktop, mobile, or terminal; Running supported agent CLIs on a workstation or remote machine under local control
 - **Languages:** TypeScript, Ruby
-- **License:** AGPL-3.0-only
+- **License:** Apache-2.0
 - **Lifecycle:** Active
-- **GitHub stars:** 10,863
+- **GitHub stars:** 24,660
 
 **Key features**
 
-  - One interface for Claude Code, Codex, Copilot, OpenCode, and Pi
+  - One interface for Claude Code, Codex, Copilot, OpenCode, Pi, Antigravity, and Muse Code
   - Parallel agent execution with live terminal attachment and follow-up prompts
   - Desktop, mobile, web, and CLI clients connected to a local daemon
 
@@ -850,7 +913,7 @@ A desktop Git client and CLI for stacked and parallel branches, direct commit ed
 - **Languages:** Rust, TypeScript, Svelte
 - **License:** FSL-1.1-MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 21,336
+- **GitHub stars:** 22,002
 
 **Key features**
 
@@ -871,7 +934,7 @@ A terminal-native GitHub Copilot coding agent that uses natural-language convers
 - **Languages:** Unknown
 - **License:** GitHub Copilot CLI License
 - **Lifecycle:** Active
-- **GitHub stars:** 10,985
+- **GitHub stars:** 11,451
 
 **Key features**
 
@@ -892,7 +955,7 @@ A hands-on beginner course for GitHub Copilot CLI that uses a Python book collec
 - **Languages:** Python, JavaScript, C#
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 2,744
+- **GitHub stars:** 2,922
 
 **Key features**
 
@@ -913,7 +976,7 @@ A Python CLI and template toolkit that initializes a repeatable spec-driven-deve
 - **Languages:** Python
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 122,241
+- **GitHub stars:** 150,985
 
 **Key features**
 
@@ -934,7 +997,7 @@ An open-source terminal AI agent that connects Gemini models to codebases, file 
 - **Languages:** TypeScript
 - **License:** Apache-2.0
 - **Lifecycle:** Active
-- **GitHub stars:** 106,073
+- **GitHub stars:** 108,993
 
 **Key features**
 
@@ -955,11 +1018,11 @@ A deep-learning file-content detector available as a Rust command-line tool and 
 - **Languages:** Rust, Python, TypeScript, Go
 - **License:** Apache-2.0
 - **Lifecycle:** Active
-- **GitHub stars:** 17,255
+- **GitHub stars:** 18,853
 
 **Key features**
 
-  - Classifies more than 200 binary and text content types using a compact model
+  - The development branch targets over 1,000 content types using a model, native format resolvers, and custom YARA rules
   - Scans individual files, standard input, batches, or directories recursively
   - Emits human-readable, MIME-type, label, JSON, JSONL, score, or custom output
 
@@ -974,9 +1037,9 @@ A Python CLI and coding-assistant skill that maps code and selected project mate
 - **Kind:** CLI
 - **Best for:** Developers orienting coding agents in a medium or large codebase; Teams that need code, schema, and supporting-document relationships in one graph
 - **Languages:** Python
-- **License:** MIT
+- **License:** Apache-2.0
 - **Lifecycle:** Active
-- **GitHub stars:** 91,491
+- **GitHub stars:** 151,789
 
 **Key features**
 
@@ -997,7 +1060,7 @@ A zero-configuration Node.js CLI that turns a folder of Markdown or MDX files in
 - **Languages:** TypeScript, MDX
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 724
+- **GitHub stars:** 1,846
 
 **Key features**
 
@@ -1018,7 +1081,7 @@ A local-first context-compression system for LLM applications and coding agents,
 - **Languages:** Python, TypeScript, Rust
 - **License:** Apache-2.0
 - **Lifecycle:** Active
-- **GitHub stars:** 60,173
+- **GitHub stars:** 80,358
 
 **Key features**
 
@@ -1026,26 +1089,68 @@ A local-first context-compression system for LLM applications and coding agents,
   - Exposes Python and TypeScript library integration paths
   - Runs as a local OpenAI-compatible proxy for no-code client changes
 
+<a id="repo-herdrdev--herdr"></a>
+
+## [herdr](https://github.com/herdrdev/herdr)
+
+A Rust terminal workspace and runtime for coding agents that preserves real processes, displays agent state, and exposes CLI and socket controls for coordination.
+
+- **Category:** [Developer Tools](../categories/developer-tools.md#repo-herdrdev--herdr)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-herdrdev--herdr) | [Coding Agents](../topics/coding-agents.md#repo-herdrdev--herdr) | [Agent Orchestration](../topics/agent-orchestration.md#repo-herdrdev--herdr) | [CLI](../topics/cli.md#repo-herdrdev--herdr) | [Terminal](../topics/terminal.md#repo-herdrdev--herdr) | [TUI](../topics/tui.md#repo-herdrdev--herdr) | [Remote Control](../topics/remote-control.md#repo-herdrdev--herdr) | [Developer Productivity](../topics/developer-productivity.md#repo-herdrdev--herdr)
+- **Kind:** CLI
+- **Best for:** Developers supervising multiple coding-agent sessions in terminal workspaces; Users who need persistent agent terminals that can be reattached locally or over SSH
+- **Languages:** Rust
+- **License:** Apache-2.0
+- **Lifecycle:** Active
+- **GitHub stars:** 52,270
+
+**Key features**
+
+  - Keeps terminals and agents running in a background server across client disconnects
+  - Marks recognized agents as working, blocked, or idle
+  - Supports workspaces, tabs, splits, keyboard and mouse control, and plugins
+
+<a id="repo-heygen-com--hyperframes"></a>
+
+## [Hyperframes](https://github.com/heygen-com/hyperframes)
+
+A deterministic HTML and CSS video framework with a local CLI, preview and rendering workflow, SDK, hosted execution options, and reusable skills for AI agents.
+
+- **Category:** [Frontend and Design](../categories/frontend-and-design.md#repo-heygen-com--hyperframes)
+- **Topics:** [Multimodal](../topics/multimodal.md#repo-heygen-com--hyperframes) | [Agent Skills](../topics/agent-skills.md#repo-heygen-com--hyperframes) | [CLI](../topics/cli.md#repo-heygen-com--hyperframes) | [Web](../topics/web.md#repo-heygen-com--hyperframes) | [Automation](../topics/automation.md#repo-heygen-com--hyperframes) | [Generative UI](../topics/generative-ui.md#repo-heygen-com--hyperframes)
+- **Kind:** Framework
+- **Best for:** Developers generating videos from familiar web technologies; Agents automating repeatable product, explainer, caption, and motion-graphics videos
+- **Languages:** TypeScript
+- **License:** Apache-2.0
+- **Lifecycle:** Active
+- **GitHub stars:** 88,021
+
+**Key features**
+
+  - Renders HTML, CSS, media, and seekable animations to MP4 deterministically
+  - Provides init, preview, and render commands plus SDK and studio workflows
+  - Bundles reusable agent skills for common video-production tasks
+
 <a id="repo-humanlayer--humanlayer"></a>
 
 ## [HumanLayer](https://github.com/humanlayer/humanlayer)
 
-A HumanLayer repository whose root README says it is now a public issues tracker and that nearly all code is deprecated, while retaining legacy CodeLayer, SDK, and human-approval workflow material.
+A workspace for teams to run coding agents on their own machines and coordinate tasks, sessions, plans, and reviews across a web app, desktop app, and host daemon.
 
 - **Category:** [Developer Tools](../categories/developer-tools.md#repo-humanlayer--humanlayer)
 - **Topics:** [AI Agents](../topics/ai-agents.md#repo-humanlayer--humanlayer) | [Coding Agents](../topics/coding-agents.md#repo-humanlayer--humanlayer) | [CLI](../topics/cli.md#repo-humanlayer--humanlayer) | [Desktop App](../topics/desktop-app.md#repo-humanlayer--humanlayer) | [Developer Productivity](../topics/developer-productivity.md#repo-humanlayer--humanlayer) | [Open Source](../topics/open-source.md#repo-humanlayer--humanlayer)
 - **Kind:** Monorepo
-- **Best for:** Tracking issues or examining the retained legacy HumanLayer implementation; Understanding the older CodeLayer and human-in-the-loop agent workflow
-- **Languages:** TypeScript, Go, Rust
+- **Best for:** Teams coordinating local coding agents across machines; Developers who want to inspect or adapt a full agent coordination stack
+- **Languages:** TypeScript, Rust
 - **License:** Apache-2.0
-- **Lifecycle:** Deprecated
-- **GitHub stars:** 11,135
+- **Lifecycle:** Active
+- **GitHub stars:** 12,928
 
 **Key features**
 
-  - Root README positions the repository as HumanLayer's public issues tracker
-  - Retained CodeLayer documentation describes a macOS desktop coding-agent interface
-  - Retained TypeScript documentation demonstrates approval-gated OpenAI tool calls
+  - Runs Claude Code, Codex, OpenCode, and Pi sessions through a host daemon
+  - Synchronizes tasks, sessions, plans, and reviews across the web and desktop apps
+  - Includes plugins to mirror sessions from Claude Code, OpenCode, and Pi
 
 <a id="repo-jackwener--opencli"></a>
 
@@ -1060,11 +1165,11 @@ A Node.js CLI that turns supported websites, logged-in Chrome sessions, Electron
 - **Languages:** JavaScript, TypeScript
 - **License:** Apache-2.0
 - **Lifecycle:** Active
-- **GitHub stars:** 26,949
+- **GitHub stars:** 31,223
 
 **Key features**
 
-  - Provides built-in site adapters and JSON, YAML, Markdown, CSV, and table output
+  - Provides built-in site adapters and defaults to structured JSON success and error responses
   - Drives logged-in Chrome through a Browser Bridge extension and local daemon
   - Exposes browser navigation, interaction, extraction, network inspection, and screenshot commands
 
@@ -1072,20 +1177,20 @@ A Node.js CLI that turns supported websites, logged-in Chrome sessions, Electron
 
 ## [caveman](https://github.com/JuliusBrussee/caveman)
 
-An installable skill and plugin collection that tells supported AI coding agents to produce terse, technical "caveman" responses, with session modes, optional memory-file compression, Claude Code hooks, and an MCP-description compression proxy.
+An agent tooling collection combining terse response skills with optional proxy-based tool-output compression, memory-file compression, hooks, and utilities for supported coding agents.
 
 - **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-juliusbrussee--caveman)
 - **Topics:** [Agent Skills](../topics/agent-skills.md#repo-juliusbrussee--caveman) | [Coding Agents](../topics/coding-agents.md#repo-juliusbrussee--caveman) | [Prompt Engineering](../topics/prompt-engineering.md#repo-juliusbrussee--caveman) | [Token Usage](../topics/token-usage.md#repo-juliusbrussee--caveman) | [MCP](../topics/mcp.md#repo-juliusbrussee--caveman) | [CLI](../topics/cli.md#repo-juliusbrussee--caveman) | [Open Source](../topics/open-source.md#repo-juliusbrussee--caveman)
 - **Kind:** Plugin
 - **Best for:** Users of supported AI coding agents who prefer concise technical replies; Output-heavy agent sessions where shorter responses are worth measuring
 - **Languages:** JavaScript
-- **License:** MIT
+- **License:** Apache-2.0
 - **Lifecycle:** Active
-- **GitHub stars:** 90,801
+- **GitHub stars:** 122,069
 
 **Key features**
 
-  - Six response modes, including lite, full, ultra, and wenyan
+  - Response-style skills offer several levels of concision
   - Commands for concise commit messages, code-review comments, and session statistics
   - Optional compression of named agent-memory files while preserving code, URLs, and paths
 
@@ -1102,7 +1207,7 @@ A local-first, SQLite-backed memory system for AI agents that stores project and
 - **Languages:** TypeScript, JavaScript, Python
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 718
+- **GitHub stars:** 794
 
 **Key features**
 
@@ -1123,13 +1228,34 @@ A local proxy and trace viewer for inspecting coding-agent API traffic, includin
 - **Languages:** Python
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 2,536
+- **GitHub stars:** 3,358
 
 **Key features**
 
   - Reverse and forward proxy modes for supported coding-agent clients
   - Local capture of prompts, messages, tool schemas, tool calls, and token usage
   - Self-contained HTML trace viewer with search, filtering, and structured request diffs
+
+<a id="repo-likec4--likec4"></a>
+
+## [LikeC4](https://github.com/likec4/likec4)
+
+A modeling language and toolchain for generating software architecture diagrams from a textual model.
+
+- **Category:** [Developer Tools](../categories/developer-tools.md#repo-likec4--likec4)
+- **Topics:** [Visualization](../topics/visualization.md#repo-likec4--likec4) | [Documentation](../topics/documentation.md#repo-likec4--likec4) | [CLI](../topics/cli.md#repo-likec4--likec4) | [Developer Productivity](../topics/developer-productivity.md#repo-likec4--likec4)
+- **Kind:** Application
+- **Best for:** Teams documenting and evolving software architecture as code
+- **Languages:** TypeScript
+- **License:** MIT
+- **Lifecycle:** Active
+- **GitHub stars:** 6,136
+
+**Key features**
+
+  - Architecture modeling inspired by C4 and Structurizr DSL
+  - Custom element types and notation
+  - Arbitrary nesting levels in architecture models
 
 <a id="repo-lobehub--lobehub"></a>
 
@@ -1144,7 +1270,7 @@ A workspace for building, scheduling, and collaborating with AI agent teams, wit
 - **Languages:** TypeScript
 - **License:** LobeHub Community License
 - **Lifecycle:** Active
-- **GitHub stars:** 80,525
+- **GitHub stars:** 85,981
 
 **Key features**
 
@@ -1165,34 +1291,13 @@ A Python automatic speech-recognition tool that adds batched Whisper transcripti
 - **Languages:** Python
 - **License:** BSD-2-Clause
 - **Lifecycle:** Active
-- **GitHub stars:** 23,144
+- **GitHub stars:** 25,591
 
 **Key features**
 
   - Batched faster-whisper inference for accelerated transcription
   - Word-level timestamps through wav2vec2 forced alignment
   - Voice-activity detection before transcription and batching
-
-<a id="repo-marmutapp--superbased-observer"></a>
-
-## [SuperBased Observer](https://github.com/marmutapp/superbased-observer)
-
-A local-first observability tool for AI coding activity that captures usage, provider-returned token counts, and costs through a CLI, dashboard, MCP server, and optional API proxy.
-
-- **Category:** [Developer Tools](../categories/developer-tools.md#repo-marmutapp--superbased-observer)
-- **Topics:** [AI Agents](../topics/ai-agents.md#repo-marmutapp--superbased-observer) | [Coding Agents](../topics/coding-agents.md#repo-marmutapp--superbased-observer) | [LLMs](../topics/llms.md#repo-marmutapp--superbased-observer) | [Observability](../topics/observability.md#repo-marmutapp--superbased-observer) | [Token Usage](../topics/token-usage.md#repo-marmutapp--superbased-observer) | [Cost Management](../topics/cost-management.md#repo-marmutapp--superbased-observer) | [Local First](../topics/local-first.md#repo-marmutapp--superbased-observer) | [MCP](../topics/mcp.md#repo-marmutapp--superbased-observer) | [CLI](../topics/cli.md#repo-marmutapp--superbased-observer) | [Web UI](../topics/web-ui.md#repo-marmutapp--superbased-observer) | [Developer Productivity](../topics/developer-productivity.md#repo-marmutapp--superbased-observer)
-- **Kind:** Application
-- **Best for:** Developers comparing cost and token use across AI coding tools; Teams that need local inspection of coding-agent sessions before opting into sharing
-- **Languages:** Go, TypeScript
-- **License:** Apache-2.0
-- **Lifecycle:** Active
-- **GitHub stars:** 31
-
-**Key features**
-
-  - Local dashboard and CLI for sessions, actions, tokens, and costs
-  - Optional reverse proxy for provider-returned token counts and compression
-  - MCP server exposing local cross-tool usage intelligence
 
 <a id="repo-mattpocock--sandcastle"></a>
 
@@ -1207,12 +1312,12 @@ A TypeScript library and CLI for running coding agents in configurable sandboxed
 - **Languages:** TypeScript
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 6,907
+- **GitHub stars:** 9,223
 
 **Key features**
 
   - The run API invokes an agent, applies a configurable branch strategy, and returns commits and iteration results
-  - Built-in Docker, Podman, and Vercel sandbox providers plus APIs for custom bind-mount or isolated providers
+  - Native OS, Docker, Podman, and cloud sandbox providers plus APIs for custom providers
   - The initializer scaffolds a .sandcastle directory with configuration, Dockerfile, prompt, and environment files
 
 <a id="repo-mem0ai--mem0"></a>
@@ -1228,7 +1333,7 @@ An AI-agent memory layer with Python and Node SDKs for extracting, storing, and 
 - **Languages:** Python, TypeScript
 - **License:** Apache-2.0
 - **Lifecycle:** Active
-- **GitHub stars:** 61,185
+- **GitHub stars:** 69,331
 
 **Key features**
 
@@ -1246,16 +1351,37 @@ A local-first, Python-based memory tool that mines project files and AI conversa
 - **Topics:** [AI Agents](../topics/ai-agents.md#repo-mempalace--mempalace) | [Agent Memory](../topics/agent-memory.md#repo-mempalace--mempalace) | [MCP](../topics/mcp.md#repo-mempalace--mempalace) | [CLI](../topics/cli.md#repo-mempalace--mempalace) | [Local First](../topics/local-first.md#repo-mempalace--mempalace) | [Self Hosted](../topics/self-hosted.md#repo-mempalace--mempalace) | [Databases](../topics/databases.md#repo-mempalace--mempalace)
 - **Kind:** Application
 - **Best for:** Retaining and retrieving local coding-agent or conversation context without a required cloud API; Developers who want searchable project and transcript memory with scoped storage boundaries
-- **Languages:** Python
+- **Languages:** Python, Rust
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 57,477
+- **GitHub stars:** 60,655
 
 **Key features**
 
   - Verbatim conversation and file storage without summary or paraphrase during core ingestion
   - CLI commands to mine sources, search memories, and load context for a new session
   - MCP server with tools for memory, graph, navigation, drawer, and agent-diary operations
+
+<a id="repo-mgechev--skillgrade"></a>
+
+## [skillgrade](https://github.com/mgechev/skillgrade)
+
+A test and evaluation runner for agent skills that checks whether different agents discover and use SKILL.md instructions with deterministic or model-based graders.
+
+- **Category:** [Testing and Quality](../categories/testing-and-quality.md#repo-mgechev--skillgrade)
+- **Topics:** [Agent Skills](../topics/agent-skills.md#repo-mgechev--skillgrade) | [Evaluation](../topics/evaluation.md#repo-mgechev--skillgrade) | [Testing](../topics/testing.md#repo-mgechev--skillgrade) | [Multi Provider](../topics/multi-provider.md#repo-mgechev--skillgrade) | [CLI](../topics/cli.md#repo-mgechev--skillgrade) | [Web UI](../topics/web-ui.md#repo-mgechev--skillgrade) | [Automation](../topics/automation.md#repo-mgechev--skillgrade)
+- **Kind:** CLI
+- **Best for:** Skill authors validating behavior across several agent harnesses and models; Teams adding repeatable skill regression checks to continuous integration
+- **Languages:** TypeScript
+- **License:** MIT
+- **Lifecycle:** Active
+- **GitHub stars:** 737
+
+**Key features**
+
+  - Runs skill scenarios against Gemini, Claude, Codex, ACP, OpenCode, or custom commands
+  - Supports deterministic checks and LLM rubric graders
+  - Repeats trials for smoke, reliability, and regression testing
 
 <a id="repo-microsoft--aspire"></a>
 
@@ -1270,7 +1396,7 @@ A multi-language, code-first toolchain for defining, running, observing, and dep
 - **Languages:** C#, TypeScript
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 6,173
+- **GitHub stars:** 6,445
 
 **Key features**
 
@@ -1291,13 +1417,55 @@ A Python document-to-Markdown converter for text-analysis and LLM workflows, wit
 - **Languages:** Python
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 167,293
+- **GitHub stars:** 197,762
 
 **Key features**
 
   - Converts PDF, Office documents, images, audio, HTML, text formats, ZIP archives, EPUBs, and YouTube URLs
   - Preserves document structure such as headings, lists, tables, and links in Markdown output
   - Provides a command-line program and a Python MarkItDown conversion API
+
+<a id="repo-morluto--rea"></a>
+
+## [REA](https://github.com/morluto/rea)
+
+A local software analysis toolkit exposing application and binary analysis to AI agents through MCP and to users through a CLI.
+
+- **Category:** [Developer Tools](../categories/developer-tools.md#repo-morluto--rea)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-morluto--rea) | [MCP](../topics/mcp.md#repo-morluto--rea) | [CLI](../topics/cli.md#repo-morluto--rea) | [Agent Skills](../topics/agent-skills.md#repo-morluto--rea) | [Security](../topics/security.md#repo-morluto--rea) | [Local First](../topics/local-first.md#repo-morluto--rea)
+- **Kind:** Application
+- **Best for:** Authorized software research and interoperability investigations
+- **Languages:** TypeScript
+- **License:** MIT
+- **Lifecycle:** Active
+- **GitHub stars:** 473,417
+
+**Key features**
+
+  - Agent access through MCP and a matching investigation skill
+  - Analysis of several application and binary formats
+  - Evidence and limitations accompany analysis results
+
+<a id="repo-moznion--cccc"></a>
+
+## [cccc](https://github.com/moznion/cccc)
+
+A Rust CLI and library for measuring cognitive and cyclomatic complexity across mixed-language source trees.
+
+- **Category:** [Testing and Quality](../categories/testing-and-quality.md#repo-moznion--cccc)
+- **Topics:** [CLI](../topics/cli.md#repo-moznion--cccc) | [Libraries](../topics/libraries.md#repo-moznion--cccc) | [Developer Productivity](../topics/developer-productivity.md#repo-moznion--cccc)
+- **Kind:** CLI
+- **Best for:** Developers reviewing complexity hotspots or enforcing thresholds in CI
+- **Languages:** Rust
+- **License:** MIT
+- **Lifecycle:** Active
+- **GitHub stars:** 614
+
+**Key features**
+
+  - Calculates cognitive and cyclomatic complexity for many programming languages
+  - Routes source files by extension to language-specific parsers
+  - Outputs JSON, tables, or simple per-function lines
 
 <a id="repo-nearai--ironclaw"></a>
 
@@ -1312,7 +1480,7 @@ A Rust-based personal AI-assistant runtime that offers command-line, web, and me
 - **Languages:** Rust
 - **License:** MIT OR Apache-2.0
 - **Lifecycle:** Active
-- **GitHub stars:** 12,527
+- **GitHub stars:** 12,715
 
 **Key features**
 
@@ -1333,7 +1501,7 @@ A self-improving, multi-provider AI agent with a terminal UI, messaging gateway,
 - **Languages:** Python, TypeScript, Rust
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 217,198
+- **GitHub stars:** 265,303
 
 **Key features**
 
@@ -1345,7 +1513,7 @@ A self-improving, multi-provider AI agent with a terminal UI, messaging gateway,
 
 ## [NVIDIA NemoClaw](https://github.com/NVIDIA/NemoClaw)
 
-An alpha reference stack and CLI for operating selected always-on AI agents in NVIDIA OpenShell sandboxes, combining guided onboarding, inference routing, declarative network policy, and sandbox lifecycle management.
+An alpha reference stack and CLI for running supported AI agents in NVIDIA OpenShell sandboxes, with guided onboarding, managed inference and network policy, and sandbox lifecycle tools.
 
 - **Category:** [Security and Privacy](../categories/security-and-privacy.md#repo-nvidia--nemoclaw)
 - **Topics:** [AI Agents](../topics/ai-agents.md#repo-nvidia--nemoclaw) | [Agent Harnesses](../topics/agent-harnesses.md#repo-nvidia--nemoclaw) | [Sandboxing](../topics/sandboxing.md#repo-nvidia--nemoclaw) | [Security](../topics/security.md#repo-nvidia--nemoclaw) | [Policy Enforcement](../topics/policy-enforcement.md#repo-nvidia--nemoclaw) | [Self Hosted](../topics/self-hosted.md#repo-nvidia--nemoclaw) | [CLI](../topics/cli.md#repo-nvidia--nemoclaw)
@@ -1354,34 +1522,13 @@ An alpha reference stack and CLI for operating selected always-on AI agents in N
 - **Languages:** TypeScript, Python
 - **License:** Apache-2.0
 - **Lifecycle:** Experimental
-- **GitHub stars:** 21,840
+- **GitHub stars:** 23,066
 
 **Key features**
 
   - Creates an OpenShell sandbox configured for the selected supported agent
   - Routes model traffic through OpenShell while keeping credentials on the host
   - Applies declarative egress rules and asks the operator to approve unknown hosts
-
-<a id="repo-ogulcancelik--herdr"></a>
-
-## [herdr](https://github.com/ogulcancelik/herdr)
-
-A Rust terminal workspace manager and agent multiplexer that keeps real terminal processes running, surfaces agent state, persists sessions, and exposes a socket API for agents to coordinate panes and workspaces.
-
-- **Category:** [Developer Tools](../categories/developer-tools.md#repo-ogulcancelik--herdr)
-- **Topics:** [AI Agents](../topics/ai-agents.md#repo-ogulcancelik--herdr) | [Agent Orchestration](../topics/agent-orchestration.md#repo-ogulcancelik--herdr) | [CLI](../topics/cli.md#repo-ogulcancelik--herdr) | [Terminal](../topics/terminal.md#repo-ogulcancelik--herdr) | [TUI](../topics/tui.md#repo-ogulcancelik--herdr) | [Remote Control](../topics/remote-control.md#repo-ogulcancelik--herdr) | [Developer Productivity](../topics/developer-productivity.md#repo-ogulcancelik--herdr)
-- **Kind:** CLI
-- **Best for:** Developers supervising multiple coding-agent sessions in terminal workspaces; Teams that want detached, persistent agent sessions reachable over SSH
-- **Languages:** Rust
-- **License:** AGPL-3.0-or-later
-- **Lifecycle:** Active
-- **GitHub stars:** 18,312
-
-**Key features**
-
-  - Shows recognized agents as blocked, working, done, idle, or unknown
-  - Preserves real terminal panes when a client detaches and later reattaches
-  - Supports workspaces, tabs, split panes, mouse interaction, and prefix-key navigation
 
 <a id="repo-omnigent-ai--omnigent"></a>
 
@@ -1396,7 +1543,7 @@ An alpha open-source meta-harness and agent runtime that provides a common orche
 - **Languages:** Python, TypeScript
 - **License:** Apache-2.0
 - **Lifecycle:** Experimental
-- **GitHub stars:** 7,503
+- **GitHub stars:** 11,489
 
 **Key features**
 
@@ -1417,7 +1564,7 @@ An OpenAI coding agent that runs locally, with a terminal CLI as its primary int
 - **Languages:** Rust, JavaScript
 - **License:** Apache-2.0
 - **Lifecycle:** Active
-- **GitHub stars:** 99,645
+- **GitHub stars:** 136,111
 
 **Key features**
 
@@ -1438,13 +1585,34 @@ A Claude Code plugin that runs Codex reviews, delegates implementation or invest
 - **Languages:** JavaScript
 - **License:** Apache-2.0
 - **Lifecycle:** Active
-- **GitHub stars:** 29,326
+- **GitHub stars:** 35,345
 
 **Key features**
 
   - Read-only Codex review of uncommitted changes or a branch
   - Steerable adversarial review for design and risk questions
   - Task delegation through a Codex subagent
+
+<a id="repo-openai--codex-security"></a>
+
+## [Codex Security](https://github.com/openai/codex-security)
+
+OpenAI’s defensive code-security tooling for scanning repositories, reviewing and tracking findings, and planning or verifying fixes through Codex, a CLI, and a TypeScript SDK.
+
+- **Category:** [Security and Privacy](../categories/security-and-privacy.md#repo-openai--codex-security)
+- **Topics:** [Security](../topics/security.md#repo-openai--codex-security) | [CLI](../topics/cli.md#repo-openai--codex-security) | [Code Review](../topics/code-review.md#repo-openai--codex-security) | [Codebase Search](../topics/codebase-search.md#repo-openai--codex-security) | [Automation](../topics/automation.md#repo-openai--codex-security) | [Multi Provider](../topics/multi-provider.md#repo-openai--codex-security) | [Parallel Agents](../topics/parallel-agents.md#repo-openai--codex-security) | [Containers](../topics/containers.md#repo-openai--codex-security) | [GitHub](../topics/github.md#repo-openai--codex-security)
+- **Kind:** CLI
+- **Best for:** Security and engineering teams scanning repositories they own or may assess; CI and bulk workflows that need resumable findings, coverage, and scan comparison
+- **Languages:** TypeScript, Python
+- **License:** Apache-2.0
+- **Lifecycle:** Active
+- **GitHub stars:** 14,266
+
+**Key features**
+
+  - Scans repositories, selected paths, or Git changes and consolidates duplicate findings
+  - Reviews findings, verifies fixes, and drafts repository security policies and reusable threat models
+  - Compares saved scans and exports findings as SARIF, JSON, or CSV
 
 <a id="repo-openai--whisper"></a>
 
@@ -1459,7 +1627,7 @@ A general-purpose Transformer speech-recognition model with Python and CLI tooli
 - **Languages:** Python
 - **License:** MIT
 - **Lifecycle:** Unknown
-- **GitHub stars:** 105,251
+- **GitHub stars:** 113,305
 
 **Key features**
 
@@ -1480,7 +1648,7 @@ A cross-device interface for OpenCode coding-agent sessions, with desktop, mobil
 - **Languages:** TypeScript
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 6,617
+- **GitHub stars:** 13,159
 
 **Key features**
 
@@ -1501,7 +1669,7 @@ An early command-line tool that maps a codebase into feature slices, reviews the
 - **Languages:** TypeScript
 - **License:** MIT
 - **Lifecycle:** Experimental
-- **GitHub stars:** 778
+- **GitHub stars:** 820
 
 **Key features**
 
@@ -1522,7 +1690,7 @@ A self-hosted, personal AI assistant with a local-first gateway that connects to
 - **Languages:** TypeScript, Kotlin, Python
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 383,479
+- **GitHub stars:** 395,024
 
 **Key features**
 
@@ -1543,7 +1711,7 @@ A Rust terminal coding agent, forked from OpenAI Codex, that targets lower-cost 
 - **Languages:** Rust
 - **License:** Apache-2.0
 - **Lifecycle:** Active
-- **GitHub stars:** 66,803
+- **GitHub stars:** 68,935
 
 **Key features**
 
@@ -1564,13 +1732,34 @@ A Rust workspace for high-performance JavaScript and TypeScript tooling. It prov
 - **Languages:** Rust, JavaScript, TypeScript
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 22,018
+- **GitHub stars:** 23,538
 
 **Key features**
 
   - Ships Oxlint and Oxfmt command-line tools, installable with npx
   - Exposes parser, transformer, minifier, and resolver capabilities for JavaScript and TypeScript
   - Organizes reusable Rust crates with Node-API bindings and a language-server component
+
+<a id="repo-paradevai--paradev"></a>
+
+## [Paradev](https://github.com/ParadevAI/Paradev)
+
+An open-source workspace for running coding agents in parallel with separate Git worktrees, branches, and terminals, and for reviewing changes and resuming work across devices.
+
+- **Category:** [Developer Tools](../categories/developer-tools.md#repo-paradevai--paradev)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-paradevai--paradev) | [Coding Agents](../topics/coding-agents.md#repo-paradevai--paradev) | [Parallel Agents](../topics/parallel-agents.md#repo-paradevai--paradev) | [Desktop App](../topics/desktop-app.md#repo-paradevai--paradev) | [CLI](../topics/cli.md#repo-paradevai--paradev) | [Agent Development Environments](../topics/agent-development-environments.md#repo-paradevai--paradev) | [Git](../topics/git.md#repo-paradevai--paradev) | [Worktrees](../topics/worktrees.md#repo-paradevai--paradev) | [MCP](../topics/mcp.md#repo-paradevai--paradev) | [Code Review](../topics/code-review.md#repo-paradevai--paradev)
+- **Kind:** Application
+- **Best for:** Developers coordinating several CLI coding agents against the same repository; Teams that want worktree isolation, local review, and remote workspace access
+- **Languages:** TypeScript
+- **License:** MIT
+- **Lifecycle:** Active
+- **GitHub stars:** 16,465
+
+**Key features**
+
+  - Runs agents concurrently with a dedicated worktree, branch, and terminal per task
+  - Supports local, cloud, and remote-machine workspaces
+  - Exposes workflow controls through a CLI, MCP server, and skills
 
 <a id="repo-pbakaus--impeccable"></a>
 
@@ -1585,11 +1774,11 @@ A design skill and command suite for AI coding tools, paired with browser iterat
 - **Languages:** JavaScript
 - **License:** Apache-2.0
 - **Lifecycle:** Active
-- **GitHub stars:** 48,090
+- **GitHub stars:** 114,759
 
 **Key features**
 
-  - One skill with 23 design commands, including setup, critique, audit, and live iteration
+  - One skill with 24 design commands, including setup, critique, audit, and live iteration
   - Project design context through PRODUCT.md and optional DESIGN.md
   - Standalone CLI detector for directories, HTML files, URLs, and JSON output
 
@@ -1597,7 +1786,7 @@ A design skill and command suite for AI coding tools, paired with browser iterat
 
 ## [T3 Code](https://github.com/pingdotgg/t3code)
 
-An early web and desktop graphical interface for launching and working with Codex, Claude, Cursor, and OpenCode coding-agent providers from one product.
+A desktop, web, and mobile interface for running coding agents on the user’s computer and following the same threads across clients.
 
 - **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-pingdotgg--t3code)
 - **Topics:** [Coding Agents](../topics/coding-agents.md#repo-pingdotgg--t3code) | [AI Agents](../topics/ai-agents.md#repo-pingdotgg--t3code) | [Desktop App](../topics/desktop-app.md#repo-pingdotgg--t3code) | [Web UI](../topics/web-ui.md#repo-pingdotgg--t3code) | [CLI](../topics/cli.md#repo-pingdotgg--t3code) | [Multi Provider](../topics/multi-provider.md#repo-pingdotgg--t3code)
@@ -1605,12 +1794,12 @@ An early web and desktop graphical interface for launching and working with Code
 - **Best for:** Developers who already use a supported coding-agent CLI and want one GUI; Trying several supported coding-agent providers without changing interfaces
 - **Languages:** TypeScript
 - **License:** MIT
-- **Lifecycle:** Experimental
-- **GitHub stars:** 14,181
+- **Lifecycle:** Active
+- **GitHub stars:** 70,539
 
 **Key features**
 
-  - A minimal web GUI for Codex, Claude, Cursor, and OpenCode
+  - Runs Claude Code, Codex, Cursor, OpenCode, and other installed providers, including agents supporting ACP
   - Browser launch without a global install through npx t3@latest
   - Desktop distribution through GitHub Releases, winget, Homebrew Cask, and the Arch AUR
 
@@ -1627,7 +1816,7 @@ A native Rust terminal multiplexer for Windows that uses ConPTY directly, implem
 - **Languages:** Rust
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 2,994
+- **GitHub stars:** 3,893
 
 **Key features**
 
@@ -1648,7 +1837,7 @@ A Go proxy service that presents OpenAI-, Gemini-, Claude-, Codex-, and Grok-com
 - **Languages:** Go
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 43,627
+- **GitHub stars:** 59,210
 
 **Key features**
 
@@ -1660,7 +1849,7 @@ A Go proxy service that presents OpenAI-, Gemini-, Claude-, Codex-, and Grok-com
 
 ## [RTK](https://github.com/rtk-ai/rtk)
 
-A Rust command-line proxy for coding-agent workflows that runs supported developer commands, filters their output before it reaches the LLM context, tracks resulting token savings, and can install agent-specific hooks or instruction-based integrations.
+A Rust command-line tool that compresses coding-agent command output and tracks estimated token savings. Optional pipelines can extend filtering or route selected work through other models.
 
 - **Category:** [Developer Tools](../categories/developer-tools.md#repo-rtk-ai--rtk)
 - **Topics:** [Coding Agents](../topics/coding-agents.md#repo-rtk-ai--rtk) | [CLI](../topics/cli.md#repo-rtk-ai--rtk) | [Context Engineering](../topics/context-engineering.md#repo-rtk-ai--rtk) | [Token Usage](../topics/token-usage.md#repo-rtk-ai--rtk) | [Developer Productivity](../topics/developer-productivity.md#repo-rtk-ai--rtk) | [Git](../topics/git.md#repo-rtk-ai--rtk) | [Testing](../topics/testing.md#repo-rtk-ai--rtk)
@@ -1669,7 +1858,7 @@ A Rust command-line proxy for coding-agent workflows that runs supported develop
 - **Languages:** Rust
 - **License:** Apache-2.0
 - **Lifecycle:** Active
-- **GitHub stars:** 71,851
+- **GitHub stars:** 87,463
 
 **Key features**
 
@@ -1690,7 +1879,7 @@ A local PDF and document parsing library and CLI that performs spatial text extr
 - **Languages:** Rust, TypeScript, Python
 - **License:** Apache-2.0
 - **Lifecycle:** Active
-- **GitHub stars:** 11,673
+- **GitHub stars:** 13,076
 
 **Key features**
 
@@ -1702,16 +1891,16 @@ A local PDF and document parsing library and CLI that performs spatial text extr
 
 ## [Meridian](https://github.com/rynfar/meridian)
 
-A local HTTP proxy that presents the Claude Agent SDK through Anthropic and OpenAI-compatible APIs, allowing compatible coding tools to use Claude while the SDK manages authentication, rate limits, caching, and context.
+A local API proxy and dashboard connecting coding clients to Anthropic Claude through the Claude Agent SDK and, in preview, Google Antigravity through the signed-in agy CLI.
 
 - **Category:** [Backend and APIs](../categories/backend-and-apis.md#repo-rynfar--meridian)
 - **Topics:** [LLMs](../topics/llms.md#repo-rynfar--meridian) | [LLM Gateways](../topics/llm-gateways.md#repo-rynfar--meridian) | [API Development](../topics/api-development.md#repo-rynfar--meridian) | [CLI](../topics/cli.md#repo-rynfar--meridian) | [Local First](../topics/local-first.md#repo-rynfar--meridian) | [Observability](../topics/observability.md#repo-rynfar--meridian) | [Self Hosted](../topics/self-hosted.md#repo-rynfar--meridian)
 - **Kind:** Service
-- **Best for:** Connecting Anthropic- or OpenAI-compatible developer tools to the Claude Agent SDK; Running local, concurrent Claude-backed coding-agent sessions through a common endpoint
+- **Best for:** Connecting compatible coding clients to a signed-in Claude environment or trying the Antigravity preview; Running local, concurrent Claude-backed coding-agent sessions through a common endpoint
 - **Languages:** TypeScript
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 1,698
+- **GitHub stars:** 2,213
 
 **Key features**
 
@@ -1721,24 +1910,24 @@ A local HTTP proxy that presents the Claude Agent SDK through Anthropic and Open
 
 <a id="repo-samuelfaj--distill"></a>
 
-## [distill](https://github.com/samuelfaj/distill)
+## [Distill](https://github.com/samuelfaj/distill)
 
-A command-line tool that compresses agent command output into targeted answers for downstream LLMs, using a locally onboarded small language model.
+A terminal coding-agent harness that assigns planning, delegated coding work, and context compression to separately configurable language-model tiers.
 
 - **Category:** [Developer Tools](../categories/developer-tools.md#repo-samuelfaj--distill)
-- **Topics:** [AI Agents](../topics/ai-agents.md#repo-samuelfaj--distill) | [Coding Agents](../topics/coding-agents.md#repo-samuelfaj--distill) | [CLI](../topics/cli.md#repo-samuelfaj--distill) | [LLMs](../topics/llms.md#repo-samuelfaj--distill) | [Developer Productivity](../topics/developer-productivity.md#repo-samuelfaj--distill) | [Local Models](../topics/local-models.md#repo-samuelfaj--distill)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-samuelfaj--distill) | [Coding Agents](../topics/coding-agents.md#repo-samuelfaj--distill) | [CLI](../topics/cli.md#repo-samuelfaj--distill) | [LLMs](../topics/llms.md#repo-samuelfaj--distill) | [Developer Productivity](../topics/developer-productivity.md#repo-samuelfaj--distill)
 - **Kind:** CLI
-- **Best for:** Coding-agent workflows that need to reduce log or test-output context; Developers who can allocate memory for its local-model runtime
-- **Languages:** TypeScript
-- **License:** MIT
+- **Best for:** Developers who want a terminal agent with separate models for planning and delegated work; Teams evaluating different coding-agent execution modes with their own provider accounts
+- **Languages:** Rust
+- **License:** Apache-2.0
 - **Lifecycle:** Active
-- **GitHub stars:** 651
+- **GitHub stars:** 780
 
 **Key features**
 
-  - A distill command that accepts piped command output and a task prompt
-  - Onboarding for the bundled local-model workflow
-  - A documented 1.7B, 4-bit expert language model
+  - Configures a required main model, an optional worker model, and a utility model
+  - Lets the main model specify and review work delegated to the worker
+  - Uses the utility tier for extraction, summarization, and context compression
 
 <a id="repo-shep-ai--shep"></a>
 
@@ -1753,13 +1942,34 @@ A local-first orchestrator that runs parallel coding agents in isolated Git work
 - **Languages:** TypeScript
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 233
+- **GitHub stars:** 282
 
 **Key features**
 
   - Isolated Git worktree and branch for every feature
-  - Built-in Claude Code, Cursor CLI, and Gemini CLI support plus a generic terminal-agent executor
+  - Built-in support for Claude Code, Kimi Code, Codex CLI, Copilot CLI, Cursor CLI, Gemini CLI, and Cline, plus a generic terminal-agent executor
   - Default prompt-to-implementation-to-draft-PR workflow with configurable CI retry fixes
+
+<a id="repo-shopify--roast"></a>
+
+## [roast](https://github.com/Shopify/roast)
+
+A Ruby DSL for composing structured AI workflows from reusable chat, coding-agent, Ruby, and command steps with explicit control flow.
+
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-shopify--roast)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-shopify--roast) | [Coding Agents](../topics/coding-agents.md#repo-shopify--roast) | [Agent Orchestration](../topics/agent-orchestration.md#repo-shopify--roast) | [LLMs](../topics/llms.md#repo-shopify--roast) | [Multi Provider](../topics/multi-provider.md#repo-shopify--roast) | [Automation](../topics/automation.md#repo-shopify--roast) | [CLI](../topics/cli.md#repo-shopify--roast)
+- **Kind:** Framework
+- **Best for:** Ruby developers automating multi-step AI workflows
+- **Languages:** Ruby
+- **License:** MIT
+- **Lifecycle:** Active
+- **GitHub stars:** 1,258
+
+**Key features**
+
+  - Chain chat, agent, Ruby and command steps
+  - Map collections serially or in parallel
+  - Conditional execution, iteration and reusable scopes
 
 <a id="repo-simonw--llm-openai-via-codex"></a>
 
@@ -1774,7 +1984,7 @@ A Python plugin for Simon Willison's LLM command-line tool that exposes OpenAI m
 - **Languages:** Python
 - **License:** Apache-2.0
 - **Lifecycle:** Unknown
-- **GitHub stars:** 110
+- **GitHub stars:** 117
 
 **Key features**
 
@@ -1795,7 +2005,7 @@ A Go-based AI-agent application distributed as a small cross-architecture binary
 - **Languages:** Go, TypeScript
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 29,690
+- **GitHub stars:** 30,148
 
 **Key features**
 
@@ -1805,24 +2015,24 @@ A Go-based AI-agent application distributed as a small cross-architecture binary
 
 <a id="repo-slopus--happy"></a>
 
-## [Happy](https://github.com/slopus/happy)
+## [Happy Engineering](https://github.com/slopus/happy)
 
-A mobile and web companion for Claude Code and Codex sessions that wraps the local agent CLI, enables remote session control and device handoff, sends notifications, and advertises end-to-end encrypted synchronization.
+A multi-model coding workspace with desktop and agent runtime companion repositories, native mobile session access, and a CLI wrapper for existing Claude Code and Codex users.
 
 - **Category:** [Platforms and Applications](../categories/platforms-and-applications.md#repo-slopus--happy)
 - **Topics:** [Coding Agents](../topics/coding-agents.md#repo-slopus--happy) | [Remote Control](../topics/remote-control.md#repo-slopus--happy) | [Mobile App](../topics/mobile-app.md#repo-slopus--happy) | [Web UI](../topics/web-ui.md#repo-slopus--happy) | [CLI](../topics/cli.md#repo-slopus--happy) | [Realtime](../topics/realtime.md#repo-slopus--happy) | [Security](../topics/security.md#repo-slopus--happy) | [Open Source](../topics/open-source.md#repo-slopus--happy)
 - **Kind:** Monorepo
-- **Best for:** Developers who need to check or control active Claude Code or Codex work away from a computer; Teams or individuals who want a remote-control layer without replacing their existing coding agent
-- **Languages:** TypeScript, Rust
+- **Best for:** Developers who want to continue coding-agent sessions across desktop and mobile; Teams using the new desktop and harness stack to collaborate in shared sessions
+- **Languages:** TypeScript, Rust, Swift, Kotlin
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 22,734
+- **GitHub stars:** 24,754
 
 **Key features**
 
-  - iOS, Android, and web clients for Claude Code and Codex sessions
-  - A CLI wrapper that starts Claude Code or Codex through Happy
-  - Remote agent-control commands for creating, sending to, and monitoring sessions
+  - Coordinates Claude, Codex, Grok, and additional models or harnesses through the desktop stack
+  - Supports multiplayer sessions that participants can observe and steer together
+  - Continues sessions on native iOS and Android apps with documented end-to-end encrypted sync
 
 <a id="repo-southbridgeai--offmute"></a>
 
@@ -1837,7 +2047,7 @@ A TypeScript CLI and package that uses Google Gemini models to analyze meeting a
 - **Languages:** TypeScript
 - **License:** Apache-2.0
 - **Lifecycle:** Unknown
-- **GitHub stars:** 567
+- **GitHub stars:** 568
 
 **Key features**
 
@@ -1858,7 +2068,7 @@ An Angular monorepo for accessible headless UI primitives, copy-paste shadcn-sty
 - **Languages:** TypeScript
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 2,779
+- **GitHub stars:** 3,007
 
 **Key features**
 
@@ -1879,13 +2089,34 @@ An Electron-based agent development environment for running terminal coding agen
 - **Languages:** TypeScript
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 22,231
+- **GitHub stars:** 132,463
 
 **Key features**
 
   - Runs terminal-based coding agents in tracked, isolated Git worktrees
   - Supports parallel prompts, result comparison, and merge-oriented workflows
-  - Provides terminal splits with persistent scrollback and WebGL rendering
+  - Provides split panes for agents, terminals, browsers, and diffs
+
+<a id="repo-staltz--fabrica"></a>
+
+## [Fabrica](https://github.com/staltz/fabrica)
+
+A software factory framework for versioning and deploying reusable coding-agent skills, rules, and routines across repositories and supported tools.
+
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-staltz--fabrica)
+- **Topics:** [Coding Agents](../topics/coding-agents.md#repo-staltz--fabrica) | [Agent Skills](../topics/agent-skills.md#repo-staltz--fabrica) | [Agent Governance](../topics/agent-governance.md#repo-staltz--fabrica) | [MCP](../topics/mcp.md#repo-staltz--fabrica) | [Automation](../topics/automation.md#repo-staltz--fabrica) | [Observability](../topics/observability.md#repo-staltz--fabrica) | [CLI](../topics/cli.md#repo-staltz--fabrica)
+- **Kind:** Framework
+- **Best for:** Teams sharing coding-agent workflows across projects and tools
+- **Languages:** Go
+- **License:** MIT
+- **Lifecycle:** Active
+- **GitHub stars:** 32
+
+**Key features**
+
+  - Composable Git-backed blueprints separate process from product repositories
+  - Plan and apply factory configurations to supported agent runtimes
+  - Serves current blueprint instructions over MCP
 
 <a id="repo-steipete--oracle"></a>
 
@@ -1900,34 +2131,34 @@ A command-line tool that bundles a prompt and selected files for a contextual AI
 - **Languages:** TypeScript
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 3,277
+- **GitHub stars:** 4,074
 
 **Key features**
 
   - Sends prompts and glob-selected files to one or multiple configured models
-  - Supports OpenAI, Gemini, Anthropic, and OpenRouter-backed API workflows
-  - Offers experimental Chrome-based browser runs and a manual rendered-copy fallback
+  - Supports OpenAI, Azure OpenAI, Anthropic, Gemini, xAI, OpenRouter, and compatible API endpoints
+  - Offers Chrome-based ChatGPT and Gemini workflows and a credential-free render mode
 
-<a id="repo-superset-sh--superset"></a>
+<a id="repo-superbasedapp--observer"></a>
 
-## [Superset](https://github.com/superset-sh/superset)
+## [SuperBased Observer](https://github.com/superbasedapp/observer)
 
-A desktop code editor and shared workspace system for running terminal-based coding agents in parallel, each isolated in its own Git worktree with built-in terminal, review, and workspace-management tools.
+A local-first observability and cost-attribution tool for AI coding activity, with a CLI, dashboard, provider proxy, MCP server, terminals, and optional team rollups.
 
-- **Category:** [Developer Tools](../categories/developer-tools.md#repo-superset-sh--superset)
-- **Topics:** [AI Agents](../topics/ai-agents.md#repo-superset-sh--superset) | [Coding Agents](../topics/coding-agents.md#repo-superset-sh--superset) | [Parallel Agents](../topics/parallel-agents.md#repo-superset-sh--superset) | [Desktop App](../topics/desktop-app.md#repo-superset-sh--superset) | [CLI](../topics/cli.md#repo-superset-sh--superset) | [Agent Development Environments](../topics/agent-development-environments.md#repo-superset-sh--superset) | [Git](../topics/git.md#repo-superset-sh--superset) | [Worktrees](../topics/worktrees.md#repo-superset-sh--superset) | [MCP](../topics/mcp.md#repo-superset-sh--superset) | [Code Review](../topics/code-review.md#repo-superset-sh--superset)
+- **Category:** [Developer Tools](../categories/developer-tools.md#repo-superbasedapp--observer)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-superbasedapp--observer) | [Coding Agents](../topics/coding-agents.md#repo-superbasedapp--observer) | [Observability](../topics/observability.md#repo-superbasedapp--observer) | [Tracing](../topics/tracing.md#repo-superbasedapp--observer) | [Token Usage](../topics/token-usage.md#repo-superbasedapp--observer) | [Cost Management](../topics/cost-management.md#repo-superbasedapp--observer) | [Local First](../topics/local-first.md#repo-superbasedapp--observer) | [MCP](../topics/mcp.md#repo-superbasedapp--observer) | [CLI](../topics/cli.md#repo-superbasedapp--observer) | [Web UI](../topics/web-ui.md#repo-superbasedapp--observer)
 - **Kind:** Application
-- **Best for:** Developers coordinating several CLI coding agents against the same repository; Teams that want worktree isolation, local review, and remote workspace access
-- **Languages:** TypeScript
-- **License:** Elastic-2.0
+- **Best for:** Developers reconciling token use and cost across many AI coding tools; Teams that want local capture before selectively enabling shared observability
+- **Languages:** Go, TypeScript
+- **License:** Apache-2.0
 - **Lifecycle:** Active
-- **GitHub stars:** 12,507
+- **GitHub stars:** 62
 
 **Key features**
 
-  - Runs parallel agent workspaces with separate branches, terminals, and environments
-  - Monitors agents with status indicators and attention notifications
-  - Includes persistent split terminals, a diff viewer, and in-app code editing
+  - Normalizes local session data from dozens of coding-agent tools
+  - Captures provider-returned token counts and pricing through an optional proxy
+  - Offers local usage reports, dashboard, terminals, CLI, MCP, traces, and guardrails
 
 <a id="repo-t3-oss--create-t3-app"></a>
 
@@ -1942,7 +2173,7 @@ An interactive CLI that scaffolds modular, type-safe full-stack Next.js applicat
 - **Languages:** TypeScript
 - **License:** MIT
 - **Lifecycle:** Maintenance
-- **GitHub stars:** 29,045
+- **GitHub stars:** 29,248
 
 **Key features**
 
@@ -1963,7 +2194,7 @@ A Rust terminal coding agent that combines an interactive TUI, one-shot commands
 - **Languages:** Rust
 - **License:** Apache-2.0
 - **Lifecycle:** Active
-- **GitHub stars:** 7,460
+- **GitHub stars:** 7,635
 
 **Key features**
 
@@ -1984,7 +2215,7 @@ A Node.js command-line tool that inserts or updates tables of contents in Markdo
 - **Languages:** JavaScript
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 4,456
+- **GitHub stars:** 4,476
 
 **Key features**
 
@@ -2005,7 +2236,7 @@ A local-first observability service for LLM agents that records their activity, 
 - **Languages:** Go, JavaScript
 - **License:** Apache-2.0
 - **Lifecycle:** Experimental
-- **GitHub stars:** 113
+- **GitHub stars:** 125
 
 **Key features**
 
@@ -2026,7 +2257,7 @@ A terminal multiplexer that creates, accesses, and controls multiple terminals f
 - **Languages:** C
 - **License:** ISC
 - **Lifecycle:** Active
-- **GitHub stars:** 47,883
+- **GitHub stars:** 50,541
 
 **Key features**
 
@@ -2047,7 +2278,7 @@ An open-source AI-memory platform that ingests data into a self-hosted knowledge
 - **Languages:** Python, TypeScript
 - **License:** Apache-2.0
 - **Lifecycle:** Active
-- **GitHub stars:** 28,454
+- **GitHub stars:** 33,457
 
 **Key features**
 
@@ -2068,7 +2299,7 @@ A curated reference to official and community Claude Skills, skill-authoring gui
 - **Languages:** Unknown
 - **License:** NOASSERTION
 - **Lifecycle:** Active
-- **GitHub stars:** 14,204
+- **GitHub stars:** 15,904
 
 **Key features**
 
@@ -2089,7 +2320,7 @@ A broad technical reference of tools, manuals, cheatsheets, links, and shell exa
 - **Languages:** Unknown
 - **License:** MIT
 - **Lifecycle:** Maintenance
-- **GitHub stars:** 234,100
+- **GitHub stars:** 260,417
 
 **Key features**
 
@@ -2101,22 +2332,22 @@ A broad technical reference of tools, manuals, cheatsheets, links, and shell exa
 
 ## [Cua](https://github.com/trycua/cua)
 
-A computer-use monorepo for building and evaluating agents through cross-platform desktop drivers, OS sandboxes, virtual-machine tooling, and benchmarks or reinforcement-learning environments.
+A computer-use monorepo for building and evaluating agents through Cua Spaces for shared desktops, cross-platform desktop drivers, virtual machines, and benchmarks for computer-use agents.
 
 - **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-trycua--cua)
 - **Topics:** [AI Agents](../topics/ai-agents.md#repo-trycua--cua) | [Computer Use](../topics/computer-use.md#repo-trycua--cua) | [Sandboxing](../topics/sandboxing.md#repo-trycua--cua) | [Remote Control](../topics/remote-control.md#repo-trycua--cua) | [Automation](../topics/automation.md#repo-trycua--cua) | [CLI](../topics/cli.md#repo-trycua--cua) | [MCP](../topics/mcp.md#repo-trycua--cua) | [Containers](../topics/containers.md#repo-trycua--cua) | [Testing](../topics/testing.md#repo-trycua--cua) | [Open Source](../topics/open-source.md#repo-trycua--cua)
 - **Kind:** Monorepo
 - **Best for:** Building agents that operate desktop, mobile, container, or VM interfaces; Evaluating or training computer-use agents in reproducible environments
 - **Languages:** Python, Rust, Go, TypeScript
-- **License:** MIT
+- **License:** Mixed MIT and FSL-1.1-MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 20,200
+- **GitHub stars:** 32,769
 
 **Key features**
 
+  - Provides Cua Spaces for shared desktop environments across owned computers
   - Drives native desktop applications in the background on macOS, Windows, and Linux
   - Provides one sandbox API for Linux, macOS, Windows, Android, and local or cloud runtimes
-  - Supplies Cua-Bench environments and trajectory export for evaluation and training
 
 <a id="repo-ucbepic--docetl"></a>
 
@@ -2131,7 +2362,7 @@ A Python framework for declarative LLM-powered processing of structured and unst
 - **Languages:** Python, TypeScript
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 3,897
+- **GitHub stars:** 4,266
 
 **Key features**
 
@@ -2152,7 +2383,7 @@ A build-from-source Rust implementation of the claw CLI agent harness, explicitl
 - **Languages:** Rust, Python
 - **License:** MIT
 - **Lifecycle:** Experimental
-- **GitHub stars:** 194,826
+- **GitHub stars:** 194,743
 
 **Key features**
 
@@ -2173,7 +2404,7 @@ A local, tmux-based multi-agent orchestration framework that gives agents dedica
 - **Languages:** Clojure, Shell
 - **License:** License not found in retained source
 - **Lifecycle:** Active
-- **GitHub stars:** 1,029
+- **GitHub stars:** 4,115
 
 **Key features**
 
@@ -2194,7 +2425,7 @@ A Python crawler and scraper that uses browser automation to turn web pages into
 - **Languages:** Python, JavaScript
 - **License:** Apache License 2.0 with an additional attribution requirement
 - **Lifecycle:** Active
-- **GitHub stars:** 73,307
+- **GitHub stars:** 87,654
 
 **Key features**
 
@@ -2215,7 +2446,7 @@ A local dashboard that reads supported AI-agent session logs to show token use, 
 - **Languages:** Python, TypeScript, JavaScript
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 255
+- **GitHub stars:** 387
 
 **Key features**
 
@@ -2236,7 +2467,7 @@ An agent-powered vulnerability-scanning CLI that combines matcher-based candidat
 - **Languages:** TypeScript
 - **License:** Apache-2.0
 - **Lifecycle:** Active
-- **GitHub stars:** 5,841
+- **GitHub stars:** 8,508
 
 **Key features**
 
@@ -2257,7 +2488,7 @@ A local-development CLI that replaces per-app port numbers with stable, named UR
 - **Languages:** TypeScript
 - **License:** Apache-2.0
 - **Lifecycle:** Active
-- **GitHub stars:** 10,169
+- **GitHub stars:** 12,945
 
 **Key features**
 
@@ -2278,7 +2509,7 @@ A frontend development server and production build tool that provides fast itera
 - **Languages:** TypeScript
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 81,984
+- **GitHub stars:** 84,029
 
 **Key features**
 
@@ -2299,7 +2530,7 @@ A Rust terminal coding agent distributed as the grok CLI and full-screen TUI, wi
 - **Languages:** Rust
 - **License:** Apache-2.0
 - **Lifecycle:** Active
-- **GitHub stars:** 19,918
+- **GitHub stars:** 27,825
 
 **Key features**
 
@@ -2320,7 +2551,7 @@ A command-line tool that packages a local or remote repository into a single AI-
 - **Languages:** TypeScript
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 27,239
+- **GitHub stars:** 29,380
 
 **Key features**
 
@@ -2341,11 +2572,11 @@ A workflow and orchestration layer around OpenAI Codex CLI that adds reusable sk
 - **Languages:** TypeScript, Rust
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 32,117
+- **GitHub stars:** 33,833
 
 **Key features**
 
-  - Provides role keywords and skills for clarification, planning, durable goals, and completion loops
+  - Provides independently invocable planning, durable goal execution, team coordination, code review, and quality-check skills
   - Stores project guidance, plans, logs, memory, and runtime state under .omx
   - Launches and coordinates team workers with dedicated worktrees and tmux-oriented runtime controls
 
@@ -2362,7 +2593,7 @@ A self-hosted Rust agent runtime for operating a personal AI assistant through c
 - **Languages:** Rust, TypeScript
 - **License:** MIT OR Apache-2.0
 - **Lifecycle:** Active
-- **GitHub stars:** 32,316
+- **GitHub stars:** 33,564
 
 **Key features**
 

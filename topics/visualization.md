@@ -2,13 +2,15 @@
 
 # Visualization
 
-[Back to the main catalog](../README.md) | **10 repositories**
+[Back to the main catalog](../README.md) | **15 repositories**
 
 ## Primary categories represented
 
-- [Developer Tools](../categories/developer-tools.md) (5)
-- [Frontend and Design](../categories/frontend-and-design.md) (4)
+- [AI and Automation](../categories/ai-and-automation.md) (1)
+- [Developer Tools](../categories/developer-tools.md) (7)
+- [Frontend and Design](../categories/frontend-and-design.md) (5)
 - [Systems and Infrastructure](../categories/systems-and-infrastructure.md) (1)
+- [Testing and Quality](../categories/testing-and-quality.md) (1)
 
 <a id="repo-adithya-s-k--gitvizz"></a>
 
@@ -23,7 +25,7 @@ A web application for exploring GitHub repositories through dependency graphs, c
 - **Languages:** TypeScript, Python
 - **License:** Component-specific AGPL-3.0 and Apache-2.0/MIT declarations
 - **Lifecycle:** Active
-- **GitHub stars:** 451
+- **GitHub stars:** 466
 
 **Key features**
 
@@ -44,7 +46,7 @@ A web application that turns public or authorized private GitHub repositories in
 - **Languages:** TypeScript
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 15,822
+- **GitHub stars:** 19,071
 
 **Key features**
 
@@ -65,7 +67,7 @@ A codebase-analysis tool that combines static analysis and LLM reasoning to prod
 - **Languages:** Python
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 2,353
+- **GitHub stars:** 2,694
 
 **Key features**
 
@@ -73,20 +75,41 @@ A codebase-analysis tool that combines static analysis and LLM reasoning to prod
   - Writes Markdown documentation and analysis output under .codeboarding
   - Uses static analysis, language servers, and LLM interpretation for architectural insights
 
-<a id="repo-copilotkit--opengenerativeui"></a>
+<a id="repo-coleam00--excalidraw-diagram-skill"></a>
 
-## [Open Generative UI](https://github.com/CopilotKit/OpenGenerativeUI)
+## [Excalidraw Diagram Skill](https://github.com/coleam00/excalidraw-diagram-skill)
 
-A CopilotKit and LangGraph showcase/template for agent-driven web interfaces, including streamed sandboxed HTML/SVG widgets and registered React components.
+A coding-agent skill for generating editable Excalidraw diagrams from natural-language descriptions.
 
-- **Category:** [Frontend and Design](../categories/frontend-and-design.md#repo-copilotkit--opengenerativeui)
-- **Topics:** [AI Agents](../topics/ai-agents.md#repo-copilotkit--opengenerativeui) | [Generative UI](../topics/generative-ui.md#repo-copilotkit--opengenerativeui) | [Web UI](../topics/web-ui.md#repo-copilotkit--opengenerativeui) | [MCP](../topics/mcp.md#repo-copilotkit--opengenerativeui) | [Tool Use](../topics/tool-use.md#repo-copilotkit--opengenerativeui) | [Visualization](../topics/visualization.md#repo-copilotkit--opengenerativeui)
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-coleam00--excalidraw-diagram-skill)
+- **Topics:** [Coding Agents](../topics/coding-agents.md#repo-coleam00--excalidraw-diagram-skill) | [Agent Skills](../topics/agent-skills.md#repo-coleam00--excalidraw-diagram-skill) | [Visualization](../topics/visualization.md#repo-coleam00--excalidraw-diagram-skill) | [Developer Productivity](../topics/developer-productivity.md#repo-coleam00--excalidraw-diagram-skill)
+- **Kind:** Plugin
+- **Best for:** Coding-agent users creating and visually checking technical diagrams
+- **Languages:** Python
+- **License:** No license declaration found
+- **Lifecycle:** Unknown
+- **GitHub stars:** 5,323
+
+**Key features**
+
+  - Concept-driven diagram layouts and Excalidraw JSON templates
+  - Playwright rendering for visual inspection and correction
+  - Customizable color palette
+
+<a id="repo-copilotkit--openintelligentui"></a>
+
+## [Open Intelligent UI](https://github.com/CopilotKit/OpenIntelligentUI)
+
+An open-source CopilotKit and AG-UI chat application that can answer with text, native components, or generated interactive tools and visualizations for the current conversation.
+
+- **Category:** [Frontend and Design](../categories/frontend-and-design.md#repo-copilotkit--openintelligentui)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-copilotkit--openintelligentui) | [Generative UI](../topics/generative-ui.md#repo-copilotkit--openintelligentui) | [Web UI](../topics/web-ui.md#repo-copilotkit--openintelligentui) | [MCP](../topics/mcp.md#repo-copilotkit--openintelligentui) | [Tool Use](../topics/tool-use.md#repo-copilotkit--openintelligentui) | [Visualization](../topics/visualization.md#repo-copilotkit--openintelligentui)
 - **Kind:** Starter Template
 - **Best for:** Developers exploring agent-generated interactive interfaces in a Next.js application; Teams adapting CopilotKit and LangGraph patterns for stateful generative UI
 - **Languages:** TypeScript, Python
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 1,446
+- **GitHub stars:** 4,264
 
 **Key features**
 
@@ -107,7 +130,7 @@ A local MCP code-intelligence server and CLI that indexes repositories into pers
 - **Languages:** C, TypeScript
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 32,935
+- **GitHub stars:** 49,018
 
 **Key features**
 
@@ -128,13 +151,34 @@ An open-source, hand-drawn-style virtual whiteboard for diagrams and wireframes,
 - **Languages:** TypeScript
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 127,866
+- **GitHub stars:** 136,103
 
 **Key features**
 
   - Infinite canvas with drawing tools, arrow binding, labeled arrows, undo, zoom, and panning
   - Image and shape-library support plus PNG, SVG, clipboard, and .excalidraw JSON export
   - Hosted editor features real-time collaboration and end-to-end encryption
+
+<a id="repo-feenkcom--gtoolkit"></a>
+
+## [Glamorous Toolkit](https://github.com/feenkcom/gtoolkit)
+
+A moldable development environment for understanding systems by creating contextual, interactive tools around a specific problem.
+
+- **Category:** [Developer Tools](../categories/developer-tools.md#repo-feenkcom--gtoolkit)
+- **Topics:** [Developer Productivity](../topics/developer-productivity.md#repo-feenkcom--gtoolkit) | [Visualization](../topics/visualization.md#repo-feenkcom--gtoolkit) | [Documentation](../topics/documentation.md#repo-feenkcom--gtoolkit) | [Desktop App](../topics/desktop-app.md#repo-feenkcom--gtoolkit)
+- **Kind:** Application
+- **Best for:** Developers exploring and explaining unfamiliar systems and artifacts
+- **Languages:** Smalltalk
+- **License:** MIT
+- **Lifecycle:** Active
+- **GitHub stars:** 1,599
+
+**Key features**
+
+  - Integrated environment for building contextual exploration tools
+  - Composable visual and interactive operators
+  - Distribution includes many tools used to develop and explain the environment
 
 <a id="repo-graphify-labs--graphify"></a>
 
@@ -147,15 +191,36 @@ A Python CLI and coding-assistant skill that maps code and selected project mate
 - **Kind:** CLI
 - **Best for:** Developers orienting coding agents in a medium or large codebase; Teams that need code, schema, and supporting-document relationships in one graph
 - **Languages:** Python
-- **License:** MIT
+- **License:** Apache-2.0
 - **Lifecycle:** Active
-- **GitHub stars:** 91,491
+- **GitHub stars:** 151,789
 
 **Key features**
 
   - Parses code structure and cross-file relationships locally with tree-sitter
   - Produces graph.json, GRAPH_REPORT.md, and an interactive graph.html view
   - Queries, explains, and traces shortest paths between graph concepts
+
+<a id="repo-hyhmrright--brooks-lint"></a>
+
+## [brooks-lint](https://github.com/hyhmrright/brooks-lint)
+
+A portable agent-skill and Claude Code plugin for reviewing production code, architecture, technical debt, and tests against risk dimensions synthesized from twelve software-engineering books.
+
+- **Category:** [Testing and Quality](../categories/testing-and-quality.md#repo-hyhmrright--brooks-lint)
+- **Topics:** [Coding Agents](../topics/coding-agents.md#repo-hyhmrright--brooks-lint) | [Agent Skills](../topics/agent-skills.md#repo-hyhmrright--brooks-lint) | [Code Review](../topics/code-review.md#repo-hyhmrright--brooks-lint) | [Testing](../topics/testing.md#repo-hyhmrright--brooks-lint) | [Evaluation](../topics/evaluation.md#repo-hyhmrright--brooks-lint) | [Visualization](../topics/visualization.md#repo-hyhmrright--brooks-lint) | [Documentation](../topics/documentation.md#repo-hyhmrright--brooks-lint) | [Automation](../topics/automation.md#repo-hyhmrright--brooks-lint) | [Developer Productivity](../topics/developer-productivity.md#repo-hyhmrright--brooks-lint)
+- **Kind:** Plugin
+- **Best for:** Developers who want structured AI-assisted code and architecture reviews; Teams auditing technical debt and test quality across several agent platforms
+- **Languages:** JavaScript, Markdown
+- **License:** MIT
+- **Lifecycle:** Active
+- **GitHub stars:** 1,585
+
+**Key features**
+
+  - Produces symptom, source, consequence, and remedy chains with book citations and severity
+  - Covers production-code decay, test-suite decay, architecture, debt, health, and sweep modes
+  - Generates Mermaid dependency graphs, health scores, SARIF output, and CI gates
 
 <a id="repo-juliangarnier--anime"></a>
 
@@ -170,13 +235,55 @@ A JavaScript animation library for animating CSS properties, SVG, DOM attributes
 - **Languages:** JavaScript, TypeScript
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 71,196
+- **GitHub stars:** 74,968
 
 **Key features**
 
   - Core animate API with easing, stagger, loop, alternate, and timeline modules
   - ESM, CommonJS, UMD, and TypeScript declaration package outputs
   - Modules for SVG, text, layout, scroll, draggable interactions, and the Web Animations API
+
+<a id="repo-likec4--likec4"></a>
+
+## [LikeC4](https://github.com/likec4/likec4)
+
+A modeling language and toolchain for generating software architecture diagrams from a textual model.
+
+- **Category:** [Developer Tools](../categories/developer-tools.md#repo-likec4--likec4)
+- **Topics:** [Visualization](../topics/visualization.md#repo-likec4--likec4) | [Documentation](../topics/documentation.md#repo-likec4--likec4) | [CLI](../topics/cli.md#repo-likec4--likec4) | [Developer Productivity](../topics/developer-productivity.md#repo-likec4--likec4)
+- **Kind:** Application
+- **Best for:** Teams documenting and evolving software architecture as code
+- **Languages:** TypeScript
+- **License:** MIT
+- **Lifecycle:** Active
+- **GitHub stars:** 6,136
+
+**Key features**
+
+  - Architecture modeling inspired by C4 and Structurizr DSL
+  - Custom element types and notation
+  - Arbitrary nesting levels in architecture models
+
+<a id="repo-obsidianmd--pele"></a>
+
+## [Pele](https://github.com/obsidianmd/pele)
+
+A synchronous renderer that turns supported Mermaid diagrams into SVG and exposes color and font styling through CSS variables.
+
+- **Category:** [Frontend and Design](../categories/frontend-and-design.md#repo-obsidianmd--pele)
+- **Topics:** [Visualization](../topics/visualization.md#repo-obsidianmd--pele) | [Libraries](../topics/libraries.md#repo-obsidianmd--pele) | [Frontend Development](../topics/frontend-development.md#repo-obsidianmd--pele)
+- **Kind:** Library
+- **Best for:** Applications rendering Mermaid diagrams with customizable styling
+- **Languages:** TypeScript
+- **License:** MIT
+- **Lifecycle:** Active
+- **GitHub stars:** 4,677
+
+**Key features**
+
+  - Supports the diagram types built into Mermaid 12.1.0
+  - Renders SVG synchronously or mounts responsive diagrams in the browser
+  - Uses CSS variables for colors and fonts
 
 <a id="repo-psmux--psnet"></a>
 
@@ -191,7 +298,7 @@ A native Rust TUI network monitor for Windows that combines connection and bandw
 - **Languages:** Rust
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 125
+- **GitHub stars:** 152
 
 **Key features**
 
@@ -211,8 +318,8 @@ A large, hand-curated README index of resources for adding visual flair, usabili
 - **Best for:** Designers and frontend developers collecting interface and visual-design references; Product teams looking for inspiration or a starting point for specific UI details
 - **Languages:** Markdown
 - **License:** MIT
-- **Lifecycle:** Active
-- **GitHub stars:** 9,786
+- **Lifecycle:** Archived
+- **GitHub stars:** 9,775
 
 **Key features**
 

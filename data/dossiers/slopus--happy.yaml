@@ -2,9 +2,9 @@ schema_version: 2
 repository_id: github:slopus/happy
 research:
   state: complete
-  source_commit: 3f161de70541b1cedaf0b7547ed70889d8dae22d
-  bundle_collected_at: 2026-07-19T20:45:22.072Z
-  researched_at: 2026-07-20T16:02:21.793Z
+  source_commit: 42d90b4c786b3bcff6111b363ff8fe3fbc42b4f2
+  bundle_collected_at: 2026-11-22T12:10:26.303Z
+  researched_at: 2026-11-22T12:30:21.525Z
   confidence: medium
 
 classification:
@@ -20,43 +20,53 @@ classification:
     - open-source
 
 project:
-  name: Happy
+  name: Happy Engineering
   kind: monorepo
   summary: >-
-    A mobile and web companion for Claude Code and Codex sessions that wraps
-    the local agent CLI, enables remote session control and device handoff,
-    sends notifications, and advertises end-to-end encrypted synchronization.
+    A multi-model coding workspace with desktop and agent runtime companion
+    repositories, native mobile session access, and a CLI wrapper for existing
+    Claude Code and Codex users.
   best_for:
-    - Developers who need to check or control active Claude Code or Codex work away from a computer
-    - Teams or individuals who want a remote-control layer without replacing their existing coding agent
+    - Developers who want to continue coding-agent sessions across desktop and
+      mobile
+    - Teams using the new desktop and harness stack to collaborate in shared
+      sessions
 
 key_features:
-  - iOS, Android, and web clients for Claude Code and Codex sessions
-  - A CLI wrapper that starts Claude Code or Codex through Happy
-  - Remote agent-control commands for creating, sending to, and monitoring sessions
-  - Device handoff between a computer and phone
-  - Push notifications for permissions and errors
-  - End-to-end encrypted synchronization as described by the project
+  - Coordinates Claude, Codex, Grok, and additional models or harnesses through
+    the desktop stack
+  - Supports multiplayer sessions that participants can observe and steer
+    together
+  - Continues sessions on native iOS and Android apps with documented end-to-end
+    encrypted sync
+  - Retains a CLI path for existing Claude Code and Codex sessions
+  - Includes backend and push-service components for self-hosting and mobile
+    notifications
 
 usage:
   interfaces:
-    - mobile application
-    - web UI
+    - desktop app
+    - native mobile apps
     - CLI
+    - sync server
   installation:
-    - npm package
-    - iOS application marketplace
-    - Android application marketplace
+    - official desktop installer
+    - iOS and Android app stores
+    - npm for the legacy CLI
+    - self-hosted server deployment
   setup: moderate
 
 technology:
   languages:
     - TypeScript
     - Rust
+    - Swift
+    - Kotlin
   notable_components:
-    - Expo
-    - Tauri
-    - Node.js
+    - Swift and UIKit
+    - Kotlin and Jetpack Compose
+    - PostgreSQL
+    - Cloudflare Workers
 
 license:
   spdx: MIT
@@ -68,23 +78,30 @@ license:
 status:
   lifecycle: active
   archived: false
-  latest_release: cli-1.1.10
-  latest_release_at: 2026-06-23
+  latest_release: cli-1.2.5
+  latest_release_at: 2026-09-22
 
 strengths:
-  - Adds remote mobile and web access while retaining the local coding-agent workflow
-  - Covers both Claude Code and Codex through a single wrapper and companion clients
-  - Separates client, CLI, remote-agent, and encrypted-sync server components
+  - Makes coding sessions accessible across desktop and mobile
+  - Supports collaboration and multiple model runtimes through the desktop stack
+  - Publishes native clients and self-hosting components
 
 caveats:
-  - It depends on a local Claude Code or Codex session rather than supplying a coding agent itself
-  - The advertised encryption property is retained as a project claim; the bundle does not contain a cryptographic design review
-  - Self-hosting the backend requires Postgres, Redis, object storage, and secret configuration
-  - The newest retained release is explicitly CLI-scoped, so it does not establish a version for the whole monorepo
+  - The desktop app and their agent runtime are maintained in separate companion
+    repositories
+  - The legacy CLI wraps Claude Code or Codex. Multi-model and multiplayer
+    workflows use the desktop and harness stack
+  - The documentation describes end-to-end encryption for session data
+  - The documented Node backend uses Postgres, Redis, and S3-compatible storage.
+    The Rust backend has a different deployment profile
+  - The release feed mixes native app builds and CLI releases. cli-1.2.5 is the
+    latest verified stable CLI release, and the feed also contains 1.2.6 beta
+    builds
 
 sources:
-  - https://raw.githubusercontent.com/slopus/happy/3f161de70541b1cedaf0b7547ed70889d8dae22d/README.md
-  - https://raw.githubusercontent.com/slopus/happy/3f161de70541b1cedaf0b7547ed70889d8dae22d/LICENSE
-  - https://raw.githubusercontent.com/slopus/happy/3f161de70541b1cedaf0b7547ed70889d8dae22d/packages/happy-cli/package.json
-  - https://raw.githubusercontent.com/slopus/happy/3f161de70541b1cedaf0b7547ed70889d8dae22d/docs/deployment.md
+  - https://raw.githubusercontent.com/slopus/happy/42d90b4c786b3bcff6111b363ff8fe3fbc42b4f2/README.md
+  - https://raw.githubusercontent.com/slopus/happy/42d90b4c786b3bcff6111b363ff8fe3fbc42b4f2/LICENSE
+  - https://raw.githubusercontent.com/slopus/happy/42d90b4c786b3bcff6111b363ff8fe3fbc42b4f2/packages/happy-cli/package.json
+  - https://raw.githubusercontent.com/slopus/happy/42d90b4c786b3bcff6111b363ff8fe3fbc42b4f2/docs/deployment.md
   - https://github.com/slopus/happy/releases.atom
+  - https://github.com/slopus/happy/releases/tag/cli-1.2.5

@@ -13,12 +13,15 @@ analysis:
     use_cases:
       - "improve-developer-workflow"
   evidence:
-    - claim: "Codex CLI is an OpenAI coding agent that runs locally on a computer and is available through a terminal, IDE integrations, and a desktop application command."
+    - claim: "Codex CLI is an OpenAI coding agent that runs locally on a computer and
+        is available through a terminal, IDE integrations, and a desktop
+        application command."
       source_type: "repository-file"
       url: "https://github.com/openai/codex/blob/main/README.md"
       checked_at: "2026-07-19"
       confidence: "high"
-    - claim: "The README documents npm installation and standalone binaries for supported platforms."
+    - claim: "The README documents npm installation and standalone binaries for
+        supported platforms."
       source_type: "repository-file"
       url: "https://github.com/openai/codex/blob/main/README.md"
       checked_at: "2026-07-19"
@@ -26,7 +29,8 @@ analysis:
   state: "researched"
   summary:
     one_line: "Local OpenAI coding agent for terminal, IDE, and desktop workflows."
-    why_useful: "It helps developers delegate coding tasks through a local agent interface integrated with their development environment."
+    why_useful: "It helps developers delegate coding tasks through a local agent
+      interface integrated with their development environment."
 curation:
   confidence: null
   evidence: []
@@ -40,28 +44,31 @@ id: "github:openai/codex"
 import:
   github_snapshot:
     archived: false
-    created_at: "2025-04-13T05:37:54Z"
-    default_branch: "main"
-    description: "Lightweight coding agent that runs in your terminal"
+    created_at: 2025-04-13T05:37:54Z
+    default_branch: main
+    description: Lightweight coding agent that runs in your terminal
     disabled: false
-    fetched_at: "2026-07-19T19:16:14.796Z"
+    fetched_at: 2026-11-22T12:07:00.148Z
     fork: false
-    forks: 14916
+    forks: 21587
     homepage: ""
-    latest_release: null
-    license_spdx: "Apache-2.0"
-    open_issues: 10187
-    primary_language: "Rust"
-    pushed_at: "2026-07-19T17:38:57Z"
-    stars: 99645
+    latest_release:
+      tag: rust-v0.171.0
+      published_at: 2026-11-20T00:44:47Z
+      url: https://github.com/openai/codex/releases/tag/rust-v0.171.0
+    license_spdx: Apache-2.0
+    open_issues: 28235
+    primary_language: Rust
+    pushed_at: 2026-11-22T08:28:01Z
+    stars: 136111
     topics: []
-    updated_at: "2026-07-19T19:13:34Z"
+    updated_at: 2026-11-22T11:44:12Z
   sources:
-    - observed_at: "2026-02-01T19:53:28Z"
-      relation: "starred"
-      source_id: "github:user:tomseai:stars"
-      source_url: "https://github.com/tomseai?tab=stars"
-  state: "imported"
+    - observed_at: 2026-02-01T19:53:28Z
+      relation: starred
+      source_id: github:user:tomseai:stars
+      source_url: https://github.com/tomseai?tab=stars
+  state: refreshed
 repository:
   aliases: []
   github_node_id: "R_kgDOOYsS4Q"

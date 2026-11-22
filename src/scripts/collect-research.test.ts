@@ -1,9 +1,11 @@
 import assert from "node:assert/strict";
 import test from "node:test";
+import { resolve } from "node:path";
 
 import {
   parseCollectorArgs,
   safeCachedPath,
+  safeGitArguments,
   scoreResearchPath,
   selectResearchPaths,
 } from "./collect-research.js";
@@ -51,4 +53,19 @@ test("selectResearchPaths is deterministic and respects the maximum", () => {
 test("safeCachedPath replaces Windows-reserved characters and rejects traversal", () => {
   assert.equal(safeCachedPath("docs/setup?.md"), "docs/setup_.md");
   assert.throws(() => safeCachedPath("../secret.txt"), /Unsafe repository path/);
+});
+
+test("safeGitArguments scopes Git ownership trust to the active clone", () => {
+  const clone = resolve("cache", "example");
+  assert.deepEqual(safeGitArguments(["fetch", "origin", "main"], clone), [
+    "-c",
+    `safe.directory=${clone}`,
+    "fetch",
+    "origin",
+    "main",
+  ]);
+  assert.deepEqual(safeGitArguments(["clone", "https://example.com/repo.git"]), [
+    "clone",
+    "https://example.com/repo.git",
+  ]);
 });

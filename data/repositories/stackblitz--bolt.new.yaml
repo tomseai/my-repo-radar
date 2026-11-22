@@ -14,15 +14,19 @@ analysis:
       - "build-web-applications"
       - "improve-developer-workflow"
   evidence:
-    - claim: "Bolt.new is an AI-powered browser development agent for prompting, running, editing, and deploying full-stack applications through an in-browser WebContainers environment."
+    - claim: "Bolt.new is an AI-powered browser development agent for prompting,
+        running, editing, and deploying full-stack applications through an
+        in-browser WebContainers environment."
       source_type: "repository-file"
       url: "https://github.com/stackblitz/bolt.new/blob/main/README.md"
       checked_at: "2026-07-19"
       confidence: "high"
   state: "complete"
   summary:
-    one_line: "A browser-based AI development agent for building and deploying full-stack web applications."
-    why_useful: "It gives an AI agent control of a browser-hosted development environment with Node.js and package tooling."
+    one_line: "A browser-based AI development agent for building and deploying
+      full-stack web applications."
+    why_useful: "It gives an AI agent control of a browser-hosted development
+      environment with Node.js and package tooling."
 curation:
   confidence: null
   evidence: []
@@ -36,32 +40,34 @@ id: "github:stackblitz/bolt.new"
 import:
   github_snapshot:
     archived: false
-    created_at: "2024-09-24T16:07:49Z"
-    default_branch: "main"
-    description: "Prompt, run, edit, and deploy full-stack web applications. -- bolt.new -- Help Center: https://support.bolt.new/ -- Community Support: https://discord.com/invite/stackblitz"
+    created_at: 2024-09-24T16:07:49Z
+    default_branch: main
+    description: "Prompt, run, edit, and deploy full-stack web applications. --
+      bolt.new -- Help Center: https://support.bolt.new/ -- Community Support:
+      https://discord.com/invite/stackblitz"
     disabled: false
-    fetched_at: "2026-07-19T19:16:14.796Z"
+    fetched_at: 2026-11-22T12:07:00.148Z
     fork: false
-    forks: 14702
-    homepage: "https://bolt.new"
+    forks: 14840
+    homepage: https://bolt.new
     latest_release: null
-    license_spdx: "MIT"
-    open_issues: 8189
-    primary_language: "TypeScript"
-    pushed_at: "2024-12-17T06:29:27Z"
-    stars: 16471
+    license_spdx: MIT
+    open_issues: 8185
+    primary_language: TypeScript
+    pushed_at: 2024-12-17T06:29:27Z
+    stars: 16610
     topics:
-      - "ai-playground"
-      - "anthropic"
-      - "chatbot"
-      - "webcontainers-api"
-    updated_at: "2026-07-19T16:21:02Z"
+      - ai-playground
+      - anthropic
+      - chatbot
+      - webcontainers-api
+    updated_at: 2026-11-22T10:51:27Z
   sources:
-    - observed_at: "2024-12-17T15:56:14Z"
-      relation: "starred"
-      source_id: "github:user:tomseai:stars"
-      source_url: "https://github.com/tomseai?tab=stars"
-  state: "imported"
+    - observed_at: 2024-12-17T15:56:14Z
+      relation: starred
+      source_id: github:user:tomseai:stars
+      source_url: https://github.com/tomseai?tab=stars
+  state: refreshed
 repository:
   aliases: []
   github_node_id: "R_kgDOM2fvIQ"

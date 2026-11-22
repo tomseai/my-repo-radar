@@ -1,0 +1,47 @@
+schema_version: 2
+repository_id: github:davidkpiano/useEffectReducer
+research:
+  state: complete
+  source_commit: baf1dad15fc64ec78842c710b66e620d6236cec9
+  bundle_collected_at: 2026-11-22T11:27:00.350Z
+  researched_at: 2026-11-22T12:00:00Z
+  confidence: high
+classification:
+  primary_category: frontend-and-design
+  topics: [frontend-development, libraries]
+project:
+  name: useEffectReducer
+  kind: library
+  summary: A React hook that lets reducers describe effects alongside state transitions and executes the queued effects after React commits the state.
+  best_for: [React developers coordinating asynchronous effects with reducer events]
+key_features:
+  - Queue effects to run after React commits state
+  - Stop or replace effects using effect entities and abort signals
+  - Dispatch events from asynchronous effects and run cleanup on stop
+  - TypeScript types for state, events, and effect implementations
+usage:
+  interfaces: [React hook API]
+  installation: [npm package]
+  setup: low
+technology:
+  languages: [TypeScript]
+  notable_components: [React]
+license:
+  spdx: MIT
+  name: MIT License
+  notes: null
+status:
+  lifecycle: active
+  archived: false
+  latest_release: v0.8.0
+  latest_release_at: 2026-10-28
+strengths:
+  - Explicit effect lifecycle management integrated with reducer events
+  - Supports typed effects and cancellation
+caveats:
+  - Requires React 18 or later and is distributed as ESM only
+sources:
+  - https://raw.githubusercontent.com/davidkpiano/useEffectReducer/baf1dad15fc64ec78842c710b66e620d6236cec9/README.md
+  - https://raw.githubusercontent.com/davidkpiano/useEffectReducer/baf1dad15fc64ec78842c710b66e620d6236cec9/LICENSE
+  - https://raw.githubusercontent.com/davidkpiano/useEffectReducer/baf1dad15fc64ec78842c710b66e620d6236cec9/package.json
+  - https://github.com/davidkpiano/useEffectReducer/releases.atom

@@ -22,7 +22,7 @@ A framework and multi-language SDK set for exposing AI agents through A2A messag
 - **Languages:** Python, TypeScript, Kotlin
 - **License:** Apache-2.0
 - **Lifecycle:** Active
-- **GitHub stars:** 7,835
+- **GitHub stars:** 9,966
 
 **Key features**
 
@@ -34,7 +34,7 @@ A framework and multi-language SDK set for exposing AI agents through A2A messag
 
 ## [PayKit](https://github.com/getpaykit/paykit)
 
-An embedded TypeScript billing framework that keeps billing state in an application's database while managing products, subscriptions, entitlements, usage billing, and Stripe webhooks.
+An embedded Stripe billing framework for TypeScript that keeps billing state in an application's database while managing products, subscriptions, entitlements, usage billing, and Stripe webhooks.
 
 - **Category:** [Backend and APIs](../categories/backend-and-apis.md#repo-getpaykit--paykit)
 - **Topics:** [Payments](../topics/payments.md#repo-getpaykit--paykit) | [Backend Development](../topics/backend-development.md#repo-getpaykit--paykit) | [Libraries](../topics/libraries.md#repo-getpaykit--paykit) | [Developer Productivity](../topics/developer-productivity.md#repo-getpaykit--paykit) | [Open Source](../topics/open-source.md#repo-getpaykit--paykit)
@@ -43,7 +43,7 @@ An embedded TypeScript billing framework that keeps billing state in an applicat
 - **Languages:** TypeScript
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 1,007
+- **GitHub stars:** 1,074
 
 **Key features**
 
@@ -55,7 +55,7 @@ An embedded TypeScript billing framework that keeps billing state in an applicat
 
 ## [vendure](https://github.com/vendurehq/vendure)
 
-A plugin-first, headless commerce platform with a TypeScript GraphQL backend, React admin dashboard, and extensible business logic.
+A plugin-first headless commerce platform for B2B and other storefronts, built around a TypeScript GraphQL backend and React admin dashboard.
 
 - **Category:** [Backend and APIs](../categories/backend-and-apis.md#repo-vendurehq--vendure)
 - **Topics:** [Ecommerce](../topics/ecommerce.md#repo-vendurehq--vendure) | [Payments](../topics/payments.md#repo-vendurehq--vendure) | [Open Source](../topics/open-source.md#repo-vendurehq--vendure) | [Backend Development](../topics/backend-development.md#repo-vendurehq--vendure) | [API Development](../topics/api-development.md#repo-vendurehq--vendure) | [Frameworks](../topics/frameworks.md#repo-vendurehq--vendure)
@@ -64,7 +64,7 @@ A plugin-first, headless commerce platform with a TypeScript GraphQL backend, Re
 - **Languages:** TypeScript
 - **License:** GPL-3.0-or-later
 - **Lifecycle:** Active
-- **GitHub stars:** 8,258
+- **GitHub stars:** 8,611
 
 **Key features**
 

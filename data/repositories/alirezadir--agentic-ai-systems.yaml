@@ -12,15 +12,20 @@ analysis:
       - "build-ai-products"
       - "learn-and-reference"
   evidence:
-    - claim: "Agentic AI Systems is a knowledge base and hands-on guide for production-ready AI agents and multi-agent systems, including foundations, framework tutorials, system design, examples, resources, and interview preparation."
+    - claim: "Agentic AI Systems is a knowledge base and hands-on guide for
+        production-ready AI agents and multi-agent systems, including
+        foundations, framework tutorials, system design, examples, resources,
+        and interview preparation."
       source_type: "repository-file"
       url: "https://github.com/alirezadir/Agentic-AI-Systems/blob/main/README.md"
       checked_at: "2026-07-19"
       confidence: "high"
   state: "complete"
   summary:
-    one_line: "A practical learning repository for designing and building agentic AI systems."
-    why_useful: "It gathers system-design guidance, framework examples, and reference material for production-oriented AI agents."
+    one_line: "A practical learning repository for designing and building agentic AI
+      systems."
+    why_useful: "It gathers system-design guidance, framework examples, and
+      reference material for production-oriented AI agents."
 curation:
   confidence: null
   evidence: []
@@ -34,43 +39,44 @@ id: "github:alirezadir/Agentic-AI-Systems"
 import:
   github_snapshot:
     archived: false
-    created_at: "2025-05-10T05:30:26Z"
-    default_branch: "main"
-    description: "Practical system design, tools, and hands-on resources for building Gen-AI agents & agentic AI systems."
+    created_at: 2025-05-10T05:30:26Z
+    default_branch: main
+    description: Practical system design, tools, and hands-on resources for building
+      Gen-AI agents & agentic AI systems.
     disabled: false
-    fetched_at: "2026-07-19T19:16:14.796Z"
+    fetched_at: 2026-11-22T12:07:00.148Z
     fork: false
-    forks: 84
+    forks: 111
     homepage: ""
     latest_release: null
-    license_spdx: "MIT"
-    open_issues: 3
-    primary_language: "Python"
-    pushed_at: "2026-06-20T17:51:38Z"
-    stars: 398
+    license_spdx: MIT
+    open_issues: 6
+    primary_language: Python
+    pushed_at: 2026-11-16T05:19:53Z
+    stars: 507
     topics:
-      - "agentic-ai"
-      - "agentic-framework"
-      - "agentic-workflow"
-      - "agents"
-      - "ai-agents"
-      - "ai-systems"
-      - "chatbots"
-      - "genai"
-      - "generative-ai"
-      - "langgraph"
-      - "llama-index"
-      - "llms"
-      - "openai"
-      - "openai-agents"
-      - "rag"
-    updated_at: "2026-07-19T17:13:29Z"
+      - agentic-ai
+      - agentic-framework
+      - agentic-workflow
+      - agents
+      - ai-agents
+      - ai-systems
+      - chatbots
+      - genai
+      - generative-ai
+      - langgraph
+      - llama-index
+      - llms
+      - openai
+      - openai-agents
+      - rag
+    updated_at: 2026-11-22T10:44:06Z
   sources:
-    - observed_at: "2026-03-28T14:25:02Z"
-      relation: "starred"
-      source_id: "github:user:tomseai:stars"
-      source_url: "https://github.com/tomseai?tab=stars"
-  state: "imported"
+    - observed_at: 2026-03-28T14:25:02Z
+      relation: starred
+      source_id: github:user:tomseai:stars
+      source_url: https://github.com/tomseai?tab=stars
+  state: refreshed
 repository:
   aliases: []
   github_node_id: "R_kgDOOnjPqw"

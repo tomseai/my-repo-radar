@@ -2,11 +2,10 @@ schema_version: 2
 repository_id: github:run-llama/liteparse
 research:
   state: complete
-  source_commit: cc0fa5a22afd54f191cdb00f9e850d1e51420bca
-  bundle_collected_at: 2026-07-19T20:45:09.805Z
-  researched_at: 2026-07-20T18:02:08+02:00
+  source_commit: f0fff8f95fadbdee3ca9d797ff62a23a4ceaa32e
+  bundle_collected_at: 2026-11-22T12:10:21.925Z
+  researched_at: 2026-11-22T12:23:57.992Z
   confidence: high
-
 classification:
   primary_category: data-and-databases
   topics:
@@ -14,24 +13,21 @@ classification:
     - document-processing
     - local-first
     - open-source
-
 project:
   name: LiteParse
   kind: library
-  summary: >-
-    A local PDF and document parsing library and CLI that performs spatial text
+  summary: A local PDF and document parsing library and CLI that performs spatial text
     extraction, optional OCR, screenshots, and Markdown, JSON, or text output.
   best_for:
     - Developers building local document-ingestion or extraction pipelines
     - Applications needing Rust, Python, Node.js, or browser parsing interfaces
-
 key_features:
   - Spatial text extraction with bounding boxes through PDFium
   - Built-in Tesseract OCR plus a documented HTTP OCR-server interface
   - Markdown, JSON, text, and page-screenshot outputs
   - Complexity checks to identify pages that may need OCR or heavier processing
   - Rust, Node.js/TypeScript, Python, and WASM bindings with a shared CLI
-
+  - Python and Node.js worker pools for parallel parsing and per-document timeouts
 usage:
   interfaces:
     - CLI
@@ -44,7 +40,6 @@ usage:
     - npm
     - pip
   setup: low
-
 technology:
   languages:
     - Rust
@@ -56,32 +51,30 @@ technology:
     - N-API
     - PyO3
     - WebAssembly
-
 license:
   spdx: Apache-2.0
   name: Apache License 2.0
-  notes: >-
-    The retained license is Apache-2.0; it includes notice and license-text
+  notes: The retained license is Apache-2.0; it includes notice and license-text
     obligations and warranty and liability disclaimers.
-
 status:
   lifecycle: active
   archived: false
-  latest_release: Crates & CLI v2.6.0
-  latest_release_at: 2026-07-15
-
+  latest_release: crates-v2.20.0
+  latest_release_at: 2026-11-17
 strengths:
   - Local processing avoids requiring a cloud parser or proprietary LLM feature
   - A single tool spans command-line, library, and browser use cases
   - OCR can be used immediately or delegated to a compatible server
-
 caveats:
   - Markdown reconstruction is heuristic and may not render complex layouts perfectly
-  - Office-document and image conversion needs LibreOffice or ImageMagick respectively
-  - The release feed publishes separate WASM, Python, Node.js, Docker, and Crates & CLI releases; the selected release is the CLI-bearing component
-
+  - Office-document conversion requires LibreOffice; common image formats are
+    converted locally without ImageMagick
+  - The release feed publishes separate WASM, Python, Node.js, Docker, and Crates &
+    CLI releases; the selected release is the CLI-bearing component
 sources:
-  - https://raw.githubusercontent.com/run-llama/liteparse/cc0fa5a22afd54f191cdb00f9e850d1e51420bca/README.md
-  - https://raw.githubusercontent.com/run-llama/liteparse/cc0fa5a22afd54f191cdb00f9e850d1e51420bca/LICENSE
-  - https://raw.githubusercontent.com/run-llama/liteparse/cc0fa5a22afd54f191cdb00f9e850d1e51420bca/packages/node/package.json
+  - https://raw.githubusercontent.com/run-llama/liteparse/f0fff8f95fadbdee3ca9d797ff62a23a4ceaa32e/README.md
+  - https://raw.githubusercontent.com/run-llama/liteparse/f0fff8f95fadbdee3ca9d797ff62a23a4ceaa32e/LICENSE
   - https://github.com/run-llama/liteparse/releases.atom
+  - https://github.com/run-llama/liteparse/releases/tag/crates-v2.20.0
+  - https://raw.githubusercontent.com/run-llama/liteparse/f0fff8f95fadbdee3ca9d797ff62a23a4ceaa32e/Cargo.toml
+  - https://raw.githubusercontent.com/run-llama/liteparse/f0fff8f95fadbdee3ca9d797ff62a23a4ceaa32e/crates/liteparse/Cargo.toml

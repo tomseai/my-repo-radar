@@ -2,9 +2,9 @@ schema_version: 2
 repository_id: github:NousResearch/hermes-agent
 research:
   state: complete
-  source_commit: 1b17015f7a8d0c0d68b1f08aa389538e7fd172e3
-  bundle_collected_at: 2026-07-19T20:44:28.934Z
-  researched_at: 2026-07-20T17:52:17.5282390+02:00
+  source_commit: 0f602c5f6f18615632535251d62a2db74ce93b69
+  bundle_collected_at: 2026-11-22T12:10:06.153Z
+  researched_at: 2026-11-22T12:22:42.228603+00:00
   confidence: high
 classification:
   primary_category: ai-and-automation
@@ -22,23 +22,30 @@ project:
   kind: application
   summary: >-
     A self-improving, multi-provider AI agent with a terminal UI, messaging
-    gateway, persistent skills and memory, automations, and remote execution backends.
+    gateway, persistent skills and memory, automations, and remote execution
+    backends.
   best_for:
-    - Individuals who want a long-running personal agent across terminal and messaging interfaces
-    - Developers who need skills, scheduled tasks, subagents, and configurable model or tool backends
+    - Individuals who want a long-running personal agent across terminal and
+      messaging interfaces
+    - Developers who need skills, scheduled tasks, subagents, and configurable
+      model or tool backends
 key_features:
   - Provides a streaming terminal UI with conversation history and slash commands
-  - Runs one messaging gateway for Telegram, Discord, Slack, WhatsApp, Signal, Email, and CLI conversations
-  - Creates and improves skills, retains memory, and searches past sessions with FTS5-based recall
-  - Schedules unattended cron tasks and can delegate isolated subagents for parallel work
-  - Supports MCP servers and terminal backends for local, Docker, SSH, Singularity, Modal, and Daytona execution
+  - Runs one messaging gateway for Telegram, Discord, Slack, WhatsApp, Signal,
+    Email, and CLI conversations
+  - Creates and improves skills, retains memory, and searches past sessions with
+    FTS5-based recall
+  - Schedules unattended cron tasks and can delegate isolated subagents for
+    parallel work
+  - Supports MCP servers and terminal backends for local, Docker, SSH,
+    Modal, Daytona, and Vercel Sandbox execution, plus plugin backends
 usage:
   interfaces:
     - terminal UI and CLI
     - messaging gateway
     - desktop application
   installation:
-    - official shell installer for Linux, macOS, WSL2, and Termux
+    - official shell installer for Linux, macOS, and WSL2
     - official PowerShell installer for native Windows
     - source checkout with uv
   setup: moderate
@@ -56,25 +63,32 @@ license:
   spdx: MIT
   name: MIT License
   notes: >-
-    Permissive license; copies or substantial portions must retain the
-    copyright and permission notice, and the software is provided without warranty.
+    Permissive license; copies or substantial portions must retain the copyright
+    and permission notice, and the software is provided without warranty.
 status:
   lifecycle: active
   archived: false
-  latest_release: v0.18.2
-  latest_release_at: 2026-07-08
+  latest_release: v0.23.3
+  latest_release_at: 2026-11-20
 strengths:
-  - Pairs a full terminal interaction model with a single gateway for several messaging platforms
-  - Integrates skills, persistent recall, automations, subagents, MCP, and multiple execution backends
-  - Documents native Windows support as well as Unix-like and container or remote paths
+  - Pairs a full terminal interaction model with a single gateway for several
+    messaging platforms
+  - Integrates skills, persistent recall, automations, subagents, MCP, and
+    multiple execution backends
+  - Documents native Windows support as well as Unix-like and container or
+    remote paths
 caveats:
-  - Model providers and optional tool backends may require separate credentials, services, or subscriptions
+  - Model providers and optional tool backends may require separate credentials,
+    services, or subscriptions
   - Messaging use requires gateway setup and the relevant platform configuration
-  - Remote execution backends such as Docker, SSH, Modal, and Daytona add their own operational dependencies
-  - The desktop package has its own version, while v0.18.2 is the matching primary Python-package and release-feed version
+  - Remote execution backends such as Docker, SSH, Modal, and Daytona add their
+    own operational dependencies
+  - The desktop package has its own version, while v0.23.3 is the matching
+    primary Python-package and release-feed version
 sources:
-  - https://raw.githubusercontent.com/NousResearch/hermes-agent/1b17015f7a8d0c0d68b1f08aa389538e7fd172e3/README.md
-  - https://raw.githubusercontent.com/NousResearch/hermes-agent/1b17015f7a8d0c0d68b1f08aa389538e7fd172e3/LICENSE
-  - https://raw.githubusercontent.com/NousResearch/hermes-agent/1b17015f7a8d0c0d68b1f08aa389538e7fd172e3/pyproject.toml
-  - https://raw.githubusercontent.com/NousResearch/hermes-agent/1b17015f7a8d0c0d68b1f08aa389538e7fd172e3/apps/desktop/package.json
+  - https://raw.githubusercontent.com/NousResearch/hermes-agent/0f602c5f6f18615632535251d62a2db74ce93b69/README.md
+  - https://raw.githubusercontent.com/NousResearch/hermes-agent/0f602c5f6f18615632535251d62a2db74ce93b69/LICENSE
+  - https://raw.githubusercontent.com/NousResearch/hermes-agent/0f602c5f6f18615632535251d62a2db74ce93b69/pyproject.toml
+  - https://raw.githubusercontent.com/NousResearch/hermes-agent/0f602c5f6f18615632535251d62a2db74ce93b69/apps/desktop/package.json
   - https://github.com/NousResearch/hermes-agent/releases.atom
+  - https://github.com/NousResearch/hermes-agent/releases/tag/v0.23.3

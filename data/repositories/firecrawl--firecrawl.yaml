@@ -17,15 +17,19 @@ analysis:
       - "build-backend-services"
       - "manage-data"
   evidence:
-    - claim: "Firecrawl is an open-source web-context API for search, scraping, interaction, crawling, and agent-driven data gathering that produces Markdown and structured data for AI systems."
+    - claim: "Firecrawl is an open-source web-context API for search, scraping,
+        interaction, crawling, and agent-driven data gathering that produces
+        Markdown and structured data for AI systems."
       source_type: "repository-file"
       url: "https://github.com/firecrawl/firecrawl/blob/main/README.md"
       checked_at: "2026-07-19"
       confidence: "high"
   state: "researched"
   summary:
-    one_line: "An open-source API for searching, scraping, and interacting with the web for AI systems."
-    why_useful: "It converts web content into LLM-ready Markdown and structured data, with APIs for retrieval and automated interaction."
+    one_line: "An open-source API for searching, scraping, and interacting with the
+      web for AI systems."
+    why_useful: "It converts web content into LLM-ready Markdown and structured
+      data, with APIs for retrieval and automated interaction."
 curation:
   confidence: null
   evidence: []
@@ -39,47 +43,51 @@ id: "github:firecrawl/firecrawl"
 import:
   github_snapshot:
     archived: false
-    created_at: "2024-04-15T21:02:29Z"
-    default_branch: "main"
-    description: "The API to search, scrape, and interact with the web at scale. 🔥"
+    created_at: 2024-04-15T21:02:29Z
+    default_branch: main
+    description: Knowledge infrastructure to make your agents smarter. Search,
+      scrape and access 550+ data providers through one API.
     disabled: false
-    fetched_at: "2026-07-19T19:16:14.796Z"
+    fetched_at: 2026-11-22T12:07:00.148Z
     fork: false
-    forks: 8748
-    homepage: "https://firecrawl.dev"
-    latest_release: null
-    license_spdx: "AGPL-3.0"
-    open_issues: 432
-    primary_language: "TypeScript"
-    pushed_at: "2026-07-19T18:19:15Z"
-    stars: 153101
+    forks: 10797
+    homepage: https://firecrawl.dev
+    latest_release:
+      tag: v2.11.0
+      published_at: 2026-06-19T15:09:30Z
+      url: https://github.com/firecrawl/firecrawl/releases/tag/v2.11.0
+    license_spdx: AGPL-3.0
+    open_issues: 912
+    primary_language: TypeScript
+    pushed_at: 2026-11-22T06:23:11Z
+    stars: 206568
     topics:
-      - "ai"
-      - "ai-agents"
-      - "ai-crawler"
-      - "ai-scraping"
-      - "ai-search"
-      - "crawler"
-      - "data-extraction"
-      - "html-to-markdown"
-      - "llm"
-      - "markdown"
-      - "scraper"
-      - "scraping"
-      - "web-crawler"
-      - "web-data"
-      - "web-data-extraction"
-      - "web-scraper"
-      - "web-scraping"
-      - "web-search"
-      - "webscraping"
-    updated_at: "2026-07-19T19:12:10Z"
+      - ai
+      - ai-agents
+      - ai-crawler
+      - ai-scraping
+      - ai-search
+      - crawler
+      - data-extraction
+      - html-to-markdown
+      - llm
+      - markdown
+      - scraper
+      - scraping
+      - web-crawler
+      - web-data
+      - web-data-extraction
+      - web-scraper
+      - web-scraping
+      - web-search
+      - webscraping
+    updated_at: 2026-11-22T12:02:18Z
   sources:
-    - observed_at: "2026-07-19T15:56:53Z"
-      relation: "starred"
-      source_id: "github:user:tomseai:stars"
-      source_url: "https://github.com/tomseai?tab=stars"
-  state: "imported"
+    - observed_at: 2026-07-19T15:56:53Z
+      relation: starred
+      source_id: github:user:tomseai:stars
+      source_url: https://github.com/tomseai?tab=stars
+  state: refreshed
 repository:
   aliases: []
   github_node_id: "R_kgDOLunVBg"

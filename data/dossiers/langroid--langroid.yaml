@@ -2,9 +2,9 @@ schema_version: 2
 repository_id: github:langroid/langroid
 research:
   state: complete
-  source_commit: 12fb0c322173fc448e7f669d9d85554303801aa4
-  bundle_collected_at: 2026-07-19T20:43:45.709Z
-  researched_at: 2026-07-20T17:40:57.199+02:00
+  source_commit: 7aa8490578aa2a6cfe5b07b2384f6dc09bc688fe
+  bundle_collected_at: 2026-11-22T12:09:47.869Z
+  researched_at: 2026-11-22T12:24:06.721456+00:00
   confidence: high
 classification:
   primary_category: ai-and-automation
@@ -30,15 +30,19 @@ project:
     vector stores, and support multi-agent workflows with local or remote
     language models.
   best_for:
-    - Python developers who want explicit Agent and Task abstractions for collaborative LLM workflows
-    - Applications combining LLMs with typed tools, document retrieval, vector stores, or MCP servers
+    - Python developers who want explicit Agent and Task abstractions for
+      collaborative LLM workflows
+    - Applications combining LLMs with typed tools, document retrieval, vector
+      stores, or MCP servers
 key_features:
-  - Agent and Task abstractions that coordinate hierarchical, recursive sub-task delegation
+  - Agent and Task abstractions that coordinate hierarchical, recursive sub-task
+    delegation
   - Message-based multi-agent orchestration inspired by the actor model
   - Pydantic-based typed tools and function calling with validation feedback
   - MCP tool adapter that exposes server tools as Langroid ToolMessage instances
   - Document-chat and table-chat agents with retrieval-augmented workflows
-  - Support for local, remote, and OpenAI-compatible LLMs plus multiple vector-store options
+  - Support for local, remote, and OpenAI-compatible LLMs plus multiple
+    vector-store options
 usage:
   interfaces:
     - Python library
@@ -61,24 +65,32 @@ license:
   name: MIT License
   notes: >-
     Permissive license allowing use, modification, distribution, and commercial
-    use when the copyright and license notice are retained; supplied without warranty.
+    use when the copyright and license notice are retained; supplied without
+    warranty.
 status:
   lifecycle: active
   archived: false
-  latest_release: 0.65.9
-  latest_release_at: 2026-07-12
+  latest_release: 0.70.3
+  latest_release_at: 2026-11-21
 strengths:
-  - Agent and Task are concrete, composable primitives for message-based multi-agent design
-  - Typed tools, MCP adaptation, retrieval, and document workflows are integrated in the framework surface
-  - Works with local and remote models instead of binding users to one model provider
+  - Agent and Task are concrete, composable primitives for message-based
+    multi-agent design
+  - Typed tools, MCP adaptation, retrieval, and document workflows are
+    integrated in the framework surface
+  - Works with local and remote models instead of binding users to one model
+    provider
 caveats:
-  - The core package has a broad dependency set, while document, database, and transformer features add further optional dependencies
-  - Basic setup assumes a model provider credential; local-model and provider-specific configurations require additional setup
-  - Hierarchical task delegation and tool-enabled multi-agent behavior still require application-specific prompts, termination conditions, and safeguards
+  - The core package has a broad dependency set, while document, database, and
+    transformer features add further optional dependencies
+  - Basic setup assumes a model provider credential; local-model and
+    provider-specific configurations require additional setup
+  - Hierarchical task delegation and tool-enabled multi-agent behavior still
+    require application-specific prompts, termination conditions, and safeguards
 sources:
-  - https://raw.githubusercontent.com/langroid/langroid/12fb0c322173fc448e7f669d9d85554303801aa4/README.md
-  - https://raw.githubusercontent.com/langroid/langroid/12fb0c322173fc448e7f669d9d85554303801aa4/LICENSE
-  - https://raw.githubusercontent.com/langroid/langroid/12fb0c322173fc448e7f669d9d85554303801aa4/pyproject.toml
-  - https://raw.githubusercontent.com/langroid/langroid/12fb0c322173fc448e7f669d9d85554303801aa4/docs/index.md
-  - https://raw.githubusercontent.com/langroid/langroid/12fb0c322173fc448e7f669d9d85554303801aa4/docs/quick-start/setup.md
+  - https://raw.githubusercontent.com/langroid/langroid/7aa8490578aa2a6cfe5b07b2384f6dc09bc688fe/README.md
+  - https://raw.githubusercontent.com/langroid/langroid/7aa8490578aa2a6cfe5b07b2384f6dc09bc688fe/LICENSE
+  - https://raw.githubusercontent.com/langroid/langroid/7aa8490578aa2a6cfe5b07b2384f6dc09bc688fe/pyproject.toml
+  - https://raw.githubusercontent.com/langroid/langroid/7aa8490578aa2a6cfe5b07b2384f6dc09bc688fe/docs/index.md
+  - https://raw.githubusercontent.com/langroid/langroid/7aa8490578aa2a6cfe5b07b2384f6dc09bc688fe/docs/quick-start/setup.md
   - https://github.com/langroid/langroid/releases.atom
+  - https://github.com/langroid/langroid/releases/tag/0.70.3

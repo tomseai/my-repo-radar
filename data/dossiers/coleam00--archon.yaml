@@ -2,9 +2,9 @@ schema_version: 2
 repository_id: github:coleam00/Archon
 research:
   state: complete
-  source_commit: 2292b7812044acce62a8d47b25d10feb933db59f
-  bundle_collected_at: 2026-07-19T20:42:20.286Z
-  researched_at: 2026-07-20T00:40:00Z
+  source_commit: 54655d1146911243dba1b42ab8f67e7b5183e521
+  bundle_collected_at: 2026-11-22T12:09:18.083Z
+  researched_at: 2026-11-22T12:25:34.813Z
   confidence: high
 classification:
   primary_category: ai-and-automation
@@ -21,17 +21,23 @@ classification:
 project:
   name: Archon
   kind: application
-  summary: >-
-    A workflow engine for defining and executing repeatable AI coding processes
-    as YAML, with deterministic steps around agent work.
+  summary: A self-hosted workflow engine for running YAML-defined processes with
+    AI agents, scripts, and approval gates. Its bundled software-development
+    pack coordinates work from issue intake to merged pull request.
   best_for:
-    - Teams that want reviewable, repository-local workflows for AI coding tasks
-    - Developers who need planning, validation, review, and pull-request steps to be repeatable
+    - Teams that want reviewable, repository-local workflows for AI coding
+      tasks
+    - Developers who need planning, validation, review, and pull-request steps
+      to be repeatable
 key_features:
-  - Defines planning, implementation, validation, review, and pull-request processes as YAML workflows with validation gates and artifacts
-  - Isolates each workflow run in its own Git worktree, allowing parallel fixes without conflicts
-  - Includes a web dashboard for chats, workflow execution, history, monitoring, and a drag-and-drop workflow builder
-  - Ships 19 default workflows that can be copied, overridden in a repository, and committed with the project
+  - Defines planning, implementation, validation, review, and pull-request
+    processes as YAML workflows with validation gates and artifacts
+  - Isolates each workflow run in its own Git worktree, allowing parallel
+    fixes without conflicts
+  - Provides a web interface to run and monitor workflows and handle approval
+    requests
+  - Queues runs and pauses for approval, keeping transcripts, events, and cost
+    records in SQLite or PostgreSQL
 usage:
   interfaces:
     - Command-line interface
@@ -56,22 +62,30 @@ technology:
 license:
   spdx: MIT
   name: MIT License
-  notes: Permission to use, copy, modify, distribute, sublicense, and sell is subject to retaining the copyright and license notice.
+  notes: Permission to use, copy, modify, distribute, sublicense, and sell is
+    subject to retaining the copyright and license notice.
 status:
   lifecycle: active
   archived: false
-  latest_release: v0.5.0
-  latest_release_at: 2026-06-26
+  latest_release: v0.14.0
+  latest_release_at: 2026-11-07
 strengths:
-  - Keeps process structure in portable YAML while reserving model judgment for individual workflow steps
-  - Makes workflows project-local and versionable, with repository files overriding bundled defaults
-  - Provides both a direct CLI path and a dashboard for launching and observing work
+  - Keeps process structure in portable YAML while reserving model judgment
+    for individual workflow steps
+  - Makes workflows project-local and versionable, with repository files
+    overriding bundled defaults
+  - Provides both a direct CLI path and a dashboard for launching and
+    observing work
 caveats:
-  - The documented full setup installs Bun, GitHub CLI, and Claude Code; compiled binaries require a separately installed Claude Code path
-  - The project documents anonymous telemetry by default, including aggregated workflow, provider, and usage details, with an opt-out configuration
-  - The latest retained release is labeled Archon CLI v0.5.0, so it most directly identifies the CLI distribution rather than every monorepo component
+  - Agent runtimes have to be installed and authenticated separately. Source
+    and deployment prerequisites depend on the selected distribution
+  - The project documents anonymous telemetry by default, including aggregated
+    workflow, provider, and usage details, with an opt-out configuration
+  - Release tags currently identify the CLI distribution. The bundled
+    workflows do not bind event or schedule triggers by default
 sources:
-  - https://raw.githubusercontent.com/coleam00/Archon/2292b7812044acce62a8d47b25d10feb933db59f/README.md
-  - https://raw.githubusercontent.com/coleam00/Archon/2292b7812044acce62a8d47b25d10feb933db59f/LICENSE
-  - https://raw.githubusercontent.com/coleam00/Archon/2292b7812044acce62a8d47b25d10feb933db59f/package.json
+  - https://raw.githubusercontent.com/coleam00/Archon/54655d1146911243dba1b42ab8f67e7b5183e521/README.md
+  - https://raw.githubusercontent.com/coleam00/Archon/54655d1146911243dba1b42ab8f67e7b5183e521/LICENSE
+  - https://raw.githubusercontent.com/coleam00/Archon/54655d1146911243dba1b42ab8f67e7b5183e521/package.json
   - https://github.com/coleam00/Archon/releases.atom
+  - https://github.com/coleam00/Archon/releases/tag/v0.14.0

@@ -1,0 +1,44 @@
+schema_version: 2
+repository_id: github:theclaymethod/unslop
+research:
+  state: complete
+  source_commit: 0f4a07f5ca8bb400b4d4450b00d67c6e4a30b85a
+  bundle_collected_at: 2026-11-22T11:27:16.360Z
+  researched_at: 2026-11-22T12:00:00Z
+  confidence: medium
+classification:
+  primary_category: ai-and-automation
+  topics: [agent-skills, llms, developer-productivity]
+project:
+  name: unslop
+  kind: plugin
+  summary: An agent writing skill and standalone scanners for identifying formulaic prose, rewriting drafts, and learning a supplied voice.
+  best_for: [Writers reviewing English AI-assisted prose]
+key_features:
+  - Phrase, structure, and document-shape scanners
+  - Reviewable cleanup suggestions and rewrite preservation checks
+  - Voice profiles learned from approved writing samples
+usage:
+  interfaces: [agent skill, CLI]
+  installation: [Skills CLI, manual installation]
+  setup: moderate
+technology:
+  languages:
+    - Python
+  notable_components: [Python standard library]
+license:
+  spdx: MIT
+  name: MIT License
+  notes: README states MIT; no license file was retained in the bundle.
+status:
+  lifecycle: experimental
+  archived: false
+  latest_release: null
+  latest_release_at: null
+strengths: [Standalone scanners require no third-party Python dependencies, Explicit preservation checks and reviewable suggestions]
+caveats: [English only; findings require contextual review, Latest independent public core result was no-ship due to precision and safety shortcomings, License text was not retained in the bundle]
+sources:
+  - https://raw.githubusercontent.com/theclaymethod/unslop/0f4a07f5ca8bb400b4d4450b00d67c6e4a30b85a/README.md
+  - https://raw.githubusercontent.com/theclaymethod/unslop/0f4a07f5ca8bb400b4d4450b00d67c6e4a30b85a/CONTRIBUTING.md
+  - https://raw.githubusercontent.com/theclaymethod/unslop/0f4a07f5ca8bb400b4d4450b00d67c6e4a30b85a/docs/DECISIONS.md
+  - https://raw.githubusercontent.com/theclaymethod/unslop/0f4a07f5ca8bb400b4d4450b00d67c6e4a30b85a/docs/PRODUCT.md

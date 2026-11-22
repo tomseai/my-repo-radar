@@ -14,15 +14,21 @@ analysis:
       - "improve-developer-workflow"
       - "collaborate-on-work"
   evidence:
-    - claim: "Nimbalyst is a local visual workspace and session manager for running coding agents in parallel, visually reviewing and editing files, tracking tasks, and managing Git worktrees across desktop and mobile clients; its desktop application is a TypeScript and Electron monorepo."
+    - claim: "Nimbalyst is a local visual workspace and session manager for running
+        coding agents in parallel, visually reviewing and editing files,
+        tracking tasks, and managing Git worktrees across desktop and mobile
+        clients; its desktop application is a TypeScript and Electron monorepo."
       source_type: "repository-file"
       url: "https://github.com/nimbalyst/nimbalyst/blob/main/README.md"
       checked_at: "2026-07-19"
       confidence: "high"
   state: "complete"
   summary:
-    one_line: "A visual workspace for managing parallel coding-agent sessions, files, tasks, and Git worktrees."
-    why_useful: "It lets developers and teams review agent changes visually, coordinate work in sessions and Kanban views, and manage source-control context."
+    one_line: "A visual workspace for managing parallel coding-agent sessions,
+      files, tasks, and Git worktrees."
+    why_useful: "It lets developers and teams review agent changes visually,
+      coordinate work in sessions and Kanban views, and manage source-control
+      context."
 curation:
   confidence: null
   evidence: []
@@ -36,40 +42,52 @@ id: "github:nimbalyst/nimbalyst"
 import:
   github_snapshot:
     archived: false
-    created_at: "2025-10-30T21:28:59Z"
-    default_branch: "main"
-    description: "Nimbalyst - The open-source visual workspace for Claude Code, Codex, and OpenCode. Run multiple coding agents in parallel, edit their work visually in markdown, mockups, and diagrams, and track tasks. Free, MIT-licensed desktop app for macOS, Windows, Linux, with mobile companion for iOS and Android."
+    created_at: 2025-10-30T21:28:59Z
+    default_branch: main
+    description: Nimbalyst - The open-source visual workspace for Claude Code,
+      Codex, and OpenCode. Run multiple coding agents in parallel, edit their
+      work visually in markdown, mockups, and diagrams, and track tasks. Free,
+      MIT-licensed desktop app for macOS, Windows, Linux, with mobile companion
+      for iOS and Android.
     disabled: false
-    fetched_at: "2026-07-19T19:16:14.796Z"
+    fetched_at: 2026-11-22T12:07:00.148Z
     fork: false
-    forks: 172
-    homepage: "https://nimbalyst.com/"
-    latest_release: null
-    license_spdx: "MIT"
-    open_issues: 390
-    primary_language: "TypeScript"
-    pushed_at: "2026-07-19T16:23:14Z"
-    stars: 1270
+    forks: 342
+    homepage: https://nimbalyst.com/
+    latest_release:
+      tag: v0.83.0
+      published_at: 2026-11-10T00:50:53Z
+      url: https://github.com/nimbalyst/nimbalyst/releases/tag/v0.83.0
+    license_spdx: MIT
+    open_issues: 830
+    primary_language: TypeScript
+    pushed_at: 2026-11-21T03:55:08Z
+    stars: 2096
     topics:
-      - "agentic-ai"
-      - "ai-agents"
-      - "claude-code"
-      - "codex"
-      - "coding-agent"
-      - "developer-tools"
-      - "ide"
-      - "markdown-editor"
-      - "mcp"
-      - "multi-agent-systems"
-      - "opencode"
-      - "wysiwyg-editor"
-    updated_at: "2026-07-19T17:40:25Z"
+      - agentic-ai
+      - agentic-ide
+      - ai-agents
+      - ai-coding-assistant
+      - claude-code
+      - codex
+      - coding-agent
+      - developer-tools
+      - electron
+      - ide
+      - kanban
+      - markdown-editor
+      - mcp
+      - multi-agent-systems
+      - opencode
+      - worktree-manager
+      - wysiwyg-editor
+    updated_at: 2026-11-21T18:47:13Z
   sources:
-    - observed_at: "2026-07-19T17:40:25Z"
-      relation: "starred"
-      source_id: "github:user:tomseai:stars"
-      source_url: "https://github.com/tomseai?tab=stars"
-  state: "imported"
+    - observed_at: 2026-07-19T17:40:25Z
+      relation: starred
+      source_id: github:user:tomseai:stars
+      source_url: https://github.com/tomseai?tab=stars
+  state: refreshed
 repository:
   aliases: []
   github_node_id: "R_kgDOQMaXlQ"

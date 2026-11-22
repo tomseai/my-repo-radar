@@ -2,9 +2,9 @@ schema_version: 2
 repository_id: github:google-gemini/gemini-cli
 research:
   state: complete
-  source_commit: acae7124bdd849e554eaa5e090199a0cf08cd782
-  bundle_collected_at: 2026-07-19T20:43:17.605Z
-  researched_at: 2026-07-20T15:31:56.440Z
+  source_commit: eecccfcd5aff25de5e78135ca20f7abe3f566955
+  bundle_collected_at: 2026-11-22T12:09:37.457Z
+  researched_at: 2026-11-22T12:23:16Z
   confidence: high
 
 classification:
@@ -28,13 +28,15 @@ project:
     Model Context Protocol tools for interactive or scripted developer work.
   best_for:
     - Developers who want a Gemini-powered coding agent in a terminal workflow
-    - Teams automating code, GitHub, or operational tasks through scripts and MCP tools
+    - Teams automating code, GitHub, or operational tasks through scripts and
+      MCP tools
 
 key_features:
   - Queries, edits, and helps debug codebases from a terminal session
   - Uses built-in file, shell, web-fetching, and Google Search grounding tools
   - Extends its tool surface through Model Context Protocol servers
-  - Supports non-interactive prompts with JSON or streaming JSON output for scripts
+  - Supports non-interactive prompts with JSON or streaming JSON output for
+    scripts
   - Saves and resumes complex conversations with checkpointing
   - Provides project-specific context through GEMINI.md files
 
@@ -69,8 +71,8 @@ license:
 status:
   lifecycle: active
   archived: false
-  latest_release: v0.51.0
-  latest_release_at: 2026-07-16
+  latest_release: v0.70.0
+  latest_release_at: 2026-11-19
 
 strengths:
   - Combines a terminal-first coding agent with a broad built-in tool set
@@ -78,13 +80,19 @@ strengths:
   - MCP support lets teams add tools without forking the CLI
 
 caveats:
-  - Model access requires an internet connection and a supported Google, API-key, or Vertex AI authentication path
-  - Tool execution can alter files or run commands, so approval and sandbox settings need review for each workspace
-  - The release feed also contains newer preview and nightly builds; v0.51.0 is the newest stable release retained in the feed
+  - The project targets Code Assist Standard or Enterprise and Code Assist for
+    GitHub; free individual access and Google AI plans moved to Antigravity CLI
+  - Model access requires an internet connection and supported authentication;
+    the README also describes legacy paid API and Vertex keys
+  - The project says this harness is not tuned for Gemini 4 or later
+  - Tool execution can alter files or run commands, so approval and sandbox
+    settings need review for each workspace
+  - The release feed also contains newer preview and nightly builds; v0.70.0 is
+    the newest stable release retained in the feed
 
 sources:
-  - https://raw.githubusercontent.com/google-gemini/gemini-cli/acae7124bdd849e554eaa5e090199a0cf08cd782/README.md
-  - https://raw.githubusercontent.com/google-gemini/gemini-cli/acae7124bdd849e554eaa5e090199a0cf08cd782/docs/get-started/installation.mdx
-  - https://raw.githubusercontent.com/google-gemini/gemini-cli/acae7124bdd849e554eaa5e090199a0cf08cd782/docs/reference/configuration.md
-  - https://raw.githubusercontent.com/google-gemini/gemini-cli/acae7124bdd849e554eaa5e090199a0cf08cd782/LICENSE
+  - https://raw.githubusercontent.com/google-gemini/gemini-cli/eecccfcd5aff25de5e78135ca20f7abe3f566955/README.md
+  - https://raw.githubusercontent.com/google-gemini/gemini-cli/eecccfcd5aff25de5e78135ca20f7abe3f566955/LICENSE
   - https://github.com/google-gemini/gemini-cli/releases.atom
+  - https://github.com/google-gemini/gemini-cli/releases/tag/v0.70.0
+  - https://github.com/google-gemini/gemini-cli/commit/eecccfcd5aff25de5e78135ca20f7abe3f566955

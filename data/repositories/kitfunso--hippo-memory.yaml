@@ -15,15 +15,19 @@ analysis:
       - "build-ai-products"
       - "improve-developer-workflow"
   evidence:
-    - claim: "Hippo is a TypeScript and Node.js memory layer for AI agents, using SQLite storage and a CLI to add, recall, consolidate, and share memories across supported agent tools."
+    - claim: "Hippo is a TypeScript and Node.js memory layer for AI agents, using
+        SQLite storage and a CLI to add, recall, consolidate, and share memories
+        across supported agent tools."
       source_type: "repository-file"
       url: "https://github.com/kitfunso/hippo-memory/blob/master/README.md"
       checked_at: "2026-07-19"
       confidence: "high"
   state: "complete"
   summary:
-    one_line: "An SQLite-backed memory layer and CLI for giving AI agents persistent, consolidating project context."
-    why_useful: "It stores and retrieves lessons across agent tools, with decay and consolidation intended to surface relevant past work."
+    one_line: "An SQLite-backed memory layer and CLI for giving AI agents
+      persistent, consolidating project context."
+    why_useful: "It stores and retrieves lessons across agent tools, with decay and
+      consolidation intended to surface relevant past work."
 curation:
   confidence: null
   evidence: []
@@ -37,28 +41,53 @@ id: "github:kitfunso/hippo-memory"
 import:
   github_snapshot:
     archived: false
-    created_at: "2026-03-15T10:40:26Z"
-    default_branch: "master"
-    description: "Biologically-inspired memory for AI agents. Decay, retrieval strengthening, consolidation. Zero dependencies."
+    created_at: 2026-03-15T10:40:26Z
+    default_branch: master
+    description: One memory for every agent you'll ever use. Hippo writes what you
+      teach a coding agent into a store in your repo, and your other agents read
+      that same store.
     disabled: false
-    fetched_at: "2026-07-19T19:16:14.796Z"
+    fetched_at: 2026-11-22T12:07:00.148Z
     fork: false
-    forks: 37
-    homepage: "https://hippo-memory.com"
-    latest_release: null
-    license_spdx: "MIT"
-    open_issues: 9
-    primary_language: "TypeScript"
-    pushed_at: "2026-07-18T18:49:21Z"
-    stars: 718
-    topics: []
-    updated_at: "2026-07-19T18:25:21Z"
+    forks: 46
+    homepage: https://hippo-memory.com
+    latest_release:
+      tag: v3.14.0
+      published_at: 2026-11-22T03:42:47Z
+      url: https://github.com/kitfunso/hippo-memory/releases/tag/v3.14.0
+    license_spdx: MIT
+    open_issues: 13
+    primary_language: TypeScript
+    pushed_at: 2026-11-22T08:54:12Z
+    stars: 794
+    topics:
+      - agent-memory
+      - ai-agents
+      - ai-memory
+      - claude-code
+      - claude-code-plugin
+      - codex
+      - coding-agent
+      - cursor
+      - gemini-cli-extension
+      - llm
+      - llm-memory
+      - local-first
+      - long-term-memory
+      - mcp
+      - mcp-server
+      - memory
+      - model-context-protocol
+      - openclaw
+      - opencode
+      - persistent-memory
+    updated_at: 2026-11-20T22:30:09Z
   sources:
-    - observed_at: "2026-07-19T18:25:20Z"
-      relation: "starred"
-      source_id: "github:user:tomseai:stars"
-      source_url: "https://github.com/tomseai?tab=stars"
-  state: "imported"
+    - observed_at: 2026-07-19T18:25:20Z
+      relation: starred
+      source_id: github:user:tomseai:stars
+      source_url: https://github.com/tomseai?tab=stars
+  state: refreshed
 repository:
   aliases: []
   github_node_id: "R_kgDORniRRA"

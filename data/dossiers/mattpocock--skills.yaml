@@ -2,9 +2,9 @@ schema_version: 2
 repository_id: github:mattpocock/skills
 research:
   state: complete
-  source_commit: 9603c1cc8118d08bc1b3bf34cf714f62178dea3b
-  bundle_collected_at: 2026-07-19T20:43:59.811Z
-  researched_at: 2026-07-20T15:45:00Z
+  source_commit: abeeaf95660ba9e8b7c753eb38f441ca707a8823
+  bundle_collected_at: 2026-11-22T12:09:53.768Z
+  researched_at: 2026-11-22T12:24:16.274Z
   confidence: high
 classification:
   primary_category: documentation-and-learning
@@ -21,7 +21,7 @@ project:
   summary: >-
     A composable collection of coding-agent skills and Markdown guidance for
     structured engineering workflows, available through skills.sh and as a
-    managed Claude Code plugin.
+    managed plugins for multiple coding agents.
   best_for:
     - Teams wanting reusable agent instructions for planning, implementation, testing, debugging, and review
     - Developers who want to adapt installed skill files to their own project workflow
@@ -29,13 +29,13 @@ key_features:
   - Separates user-invoked orchestration skills from model-invoked reusable engineering disciplines
   - Includes workflows for grilling requirements, specifications, ticket decomposition, implementation, TDD, bug diagnosis, and code review
   - The setup skill records project-specific issue-tracker, triage-label, and documentation-location choices for other skills
-  - skills.sh installation copies editable skills into a project, while the Claude Code plugin provides a managed updating bundle
+  - skills.sh installation copies editable skills into a project, while managed plugins provide updates through compatible agent marketplaces
   - Includes productivity skills for handoffs, teaching, and authoring or refining agent skills
 usage:
   interfaces:
     - Agent skill commands and Markdown instruction files
     - skills.sh command-line installer
-    - Claude Code plugin
+    - Managed agent plugin
   installation:
     - npx skills@latest add mattpocock/skills
     - Select /setup-matt-pocock-skills and run it once per repository
@@ -48,7 +48,7 @@ technology:
   notable_components:
     - Agent Skills standard
     - skills.sh
-    - Claude Code plugin
+    - Managed agent plugin
 license:
   spdx: MIT
   name: MIT License
@@ -58,8 +58,8 @@ license:
 status:
   lifecycle: active
   archived: false
-  latest_release: v1.1.0
-  latest_release_at: 2026-07-08
+  latest_release: v1.3.2
+  latest_release_at: "2026-10-29"
 strengths:
   - Covers an end-to-end engineering flow while keeping individual skills composable
   - Offers both editable project-local installation and a managed plugin option
@@ -67,11 +67,11 @@ strengths:
 caveats:
   - These are agent instructions and workflow guidance, so results depend on the selected agent and its surrounding harness
   - Engineering skills require the one-time setup step before use so tracker, label, and documentation conventions are known
-  - The native managed plugin is for Claude Code; the README says Codex support is currently through skills.sh and a native Codex plugin is on the roadmap
+  - Pick one installation method per agent to avoid duplicate skills. Managed plugin routes include Claude Code, Codex, GitHub Copilot, and VS Code.
   - The repository has breaking changes between releases, including renamed or removed skills, so existing invocations should be checked when updating
 sources:
-  - https://raw.githubusercontent.com/mattpocock/skills/9603c1cc8118d08bc1b3bf34cf714f62178dea3b/README.md
-  - https://raw.githubusercontent.com/mattpocock/skills/9603c1cc8118d08bc1b3bf34cf714f62178dea3b/docs/engineering/setup-matt-pocock-skills.md
-  - https://raw.githubusercontent.com/mattpocock/skills/9603c1cc8118d08bc1b3bf34cf714f62178dea3b/package.json
-  - https://raw.githubusercontent.com/mattpocock/skills/9603c1cc8118d08bc1b3bf34cf714f62178dea3b/LICENSE
+  - https://raw.githubusercontent.com/mattpocock/skills/abeeaf95660ba9e8b7c753eb38f441ca707a8823/README.md
+  - https://raw.githubusercontent.com/mattpocock/skills/abeeaf95660ba9e8b7c753eb38f441ca707a8823/docs/engineering/setup-matt-pocock-skills.md
+  - https://raw.githubusercontent.com/mattpocock/skills/abeeaf95660ba9e8b7c753eb38f441ca707a8823/package.json
+  - https://raw.githubusercontent.com/mattpocock/skills/abeeaf95660ba9e8b7c753eb38f441ca707a8823/LICENSE
   - https://github.com/mattpocock/skills/releases.atom

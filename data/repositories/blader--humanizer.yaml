@@ -1,0 +1,82 @@
+analysis:
+  analyzed_at: 2026-11-22T12:00:00Z
+  classification:
+    primary_category: ai-and-automation
+    state: confirmed
+    technologies: []
+    topics:
+      - llms
+      - developer-productivity
+    use_cases:
+      - improve-developer-workflow
+  evidence:
+    - claim: An agent skill for revising formulaic AI-written prose while preserving
+        its claims and adapting to a writer's voice.
+      source_type: repository-file
+      url: https://raw.githubusercontent.com/blader/humanizer/a32f24407364c74c812b43c15926d638bee1e072/README.md
+      checked_at: 2026-11-22
+      confidence: high
+  state: complete
+  summary:
+    one_line: An agent skill for revising formulaic AI-written prose while
+      preserving its claims and adapting to a writer's voice.
+    why_useful: Writers editing AI-assisted drafts in compatible agents
+curation:
+  confidence: null
+  evidence: []
+  limitations: []
+  recommendation: null
+  reviewed_at: null
+  state: "uncurated"
+  strengths: []
+  verdict: null
+id: "github:blader/humanizer"
+import:
+  github_snapshot:
+    archived: false
+    created_at: 2026-01-18T05:30:15Z
+    default_branch: main
+    description: Agent skill that removes signs of AI-generated writing from text
+    disabled: false
+    fetched_at: 2026-11-22T12:07:00.148Z
+    fork: false
+    forks: 5645
+    homepage: https://skills.sh/blader/humanizer
+    latest_release:
+      tag: v4.0.0
+      published_at: 2026-11-10T01:35:15Z
+      url: https://github.com/blader/humanizer/releases/tag/v4.0.0
+    license_spdx: MIT
+    open_issues: 4
+    primary_language: Python
+    pushed_at: 2026-11-19T18:53:14Z
+    stars: 72133
+    topics:
+      - agent-skills
+      - ai-humanizer
+      - ai-writing
+      - chatgpt
+      - claude
+      - claude-code
+      - codex
+      - cursor
+      - humanize-ai-text
+      - humanizer
+      - llm
+      - prompt-engineering
+      - writing-tools
+    updated_at: 2026-11-22T12:05:58Z
+  sources:
+    - observed_at: 2026-09-22T17:44:58Z
+      relation: starred
+      source_id: github:user:tomseai:stars
+      source_url: https://github.com/tomseai?tab=stars
+  state: refreshed
+repository:
+  aliases: []
+  github_node_id: "R_kgDOQ8AnQQ"
+  host: "github.com"
+  name: "humanizer"
+  owner: "blader"
+  url: "https://github.com/blader/humanizer"
+version: 1

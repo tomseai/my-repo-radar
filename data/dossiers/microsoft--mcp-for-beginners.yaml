@@ -2,9 +2,9 @@ schema_version: 2
 repository_id: github:microsoft/mcp-for-beginners
 research:
   state: complete
-  source_commit: cea10aa93867c25034ae9431be1664021dc6c069
-  bundle_collected_at: 2026-07-19T20:44:11.171Z
-  researched_at: 2026-07-20T15:30:00.000Z
+  source_commit: c7efcc2ac5839100dd2cd961e8cc44dfefc1e7bf
+  bundle_collected_at: 2026-11-22T12:09:58.446Z
+  researched_at: 2026-11-22T12:23:44Z
   confidence: high
 classification:
   primary_category: documentation-and-learning
@@ -20,19 +20,25 @@ project:
   kind: course
   summary: >-
     A hands-on, multilingual curriculum for learning the Model Context Protocol,
-    progressing from fundamentals and security through server and client examples,
-    testing, deployment, advanced integrations, and case studies.
+    progressing from fundamentals and security through server and client
+    examples, testing, deployment, advanced integrations, and case studies.
   best_for:
     - Developers learning to build and integrate MCP clients and servers
-    - Teams that want guided examples in C#, Java, JavaScript, Rust, Python, or TypeScript
+    - Teams that want guided examples in C#, Java, JavaScript, Rust, Python, or
+      TypeScript
 
 key_features:
-  - Explains MCP concepts, client-server architecture, protocol primitives, and security considerations
-  - Provides progressive guides for first servers, clients, LLM clients, stdio, HTTP streaming, testing, and deployment
-  - Includes implementation samples in C#, Java, JavaScript, Rust, Python, and TypeScript
-  - Covers advanced subjects including OAuth2, authorization, scaling, multimodality, routing, and context engineering
+  - Explains MCP concepts, client-server architecture, protocol primitives, and
+    security considerations
+  - Provides progressive guides for first servers, clients, LLM clients, stdio,
+    HTTP streaming, testing, and deployment
+  - Includes implementation samples in C#, Java, JavaScript, Rust, Python, and
+    TypeScript
+  - Covers advanced subjects including OAuth2, authorization, scaling,
+    multimodality, routing, and context engineering
   - Includes guidance for MCP hosts, VS Code integration, and the MCP Inspector
-  - Provides practical examples, case studies, a study guide, and extensive translations
+  - Provides practical examples, case studies, a study guide, and extensive
+    translations
 
 usage:
   interfaces:
@@ -64,7 +70,8 @@ technology:
 license:
   spdx: MIT
   name: MIT License
-  notes: Permissive reuse is allowed with the copyright and license notice retained; the software is provided without warranty.
+  notes: Permissive reuse is allowed with the copyright and license notice
+    retained; the software is provided without warranty.
 
 status:
   lifecycle: active
@@ -73,18 +80,27 @@ status:
   latest_release_at: null
 
 strengths:
-  - A structured path spans introductory concepts through implementation and production-oriented topics
-  - Learners can select from several programming-language examples instead of being locked into one SDK
-  - Security and deployment are included alongside introductory server and client material
+  - A structured path spans introductory concepts through implementation and
+    production-oriented topics
+  - Learners can select from several programming-language examples instead of
+    being locked into one SDK
+  - Security and deployment are included alongside introductory server and
+    client material
 
 caveats:
-  - The cached GitHub release feed has no release entries, so there is no established project release version or date
-  - The repository is primarily curriculum and examples, not a production MCP server or client library
-  - Some advanced guides and integrations depend on external MCP hosts, cloud services, or SDKs
+  - The cached GitHub release feed has no release entries, so there is no
+    established project release version or date
+  - The repository is primarily curriculum and examples, not a production MCP
+    server or client library
+  - The curriculum covers the 2026-07-28 specification, while some examples
+    remain on the 2025-11-25 version as SDK support catches up
+  - Some advanced guides and integrations depend on external MCP hosts, cloud
+    services, or SDKs
 
 sources:
-  - https://raw.githubusercontent.com/microsoft/mcp-for-beginners/cea10aa93867c25034ae9431be1664021dc6c069/README.md
-  - https://raw.githubusercontent.com/microsoft/mcp-for-beginners/cea10aa93867c25034ae9431be1664021dc6c069/LICENSE
-  - https://raw.githubusercontent.com/microsoft/mcp-for-beginners/cea10aa93867c25034ae9431be1664021dc6c069/03-GettingStarted/samples/javascript/package.json
-  - https://raw.githubusercontent.com/microsoft/mcp-for-beginners/cea10aa93867c25034ae9431be1664021dc6c069/03-GettingStarted/samples/python/requirements.txt
+  - https://raw.githubusercontent.com/microsoft/mcp-for-beginners/c7efcc2ac5839100dd2cd961e8cc44dfefc1e7bf/README.md
+  - https://raw.githubusercontent.com/microsoft/mcp-for-beginners/c7efcc2ac5839100dd2cd961e8cc44dfefc1e7bf/LICENSE
+  - https://raw.githubusercontent.com/microsoft/mcp-for-beginners/c7efcc2ac5839100dd2cd961e8cc44dfefc1e7bf/03-GettingStarted/samples/javascript/package.json
+  - https://raw.githubusercontent.com/microsoft/mcp-for-beginners/c7efcc2ac5839100dd2cd961e8cc44dfefc1e7bf/03-GettingStarted/samples/python/requirements.txt
   - https://github.com/microsoft/mcp-for-beginners/releases.atom
+  - https://github.com/microsoft/mcp-for-beginners/commit/c7efcc2ac5839100dd2cd961e8cc44dfefc1e7bf

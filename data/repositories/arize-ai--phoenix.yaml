@@ -16,15 +16,20 @@ analysis:
       - "ship-and-operate-software"
       - "test-software"
   evidence:
-    - claim: "Phoenix is an open-source AI observability platform for tracing, evaluation, experimentation, and troubleshooting of LLM applications, with Python and TypeScript packages and Docker and Kubernetes deployment options."
+    - claim: "Phoenix is an open-source AI observability platform for tracing,
+        evaluation, experimentation, and troubleshooting of LLM applications,
+        with Python and TypeScript packages and Docker and Kubernetes deployment
+        options."
       source_type: "repository-file"
       url: "https://github.com/Arize-ai/phoenix/blob/main/README.md"
       checked_at: "2026-07-19"
       confidence: "high"
   state: "researched"
   summary:
-    one_line: "An open-source observability and evaluation platform for LLM applications."
-    why_useful: "It supports tracing, evaluations, datasets, experiments, and prompt iteration for operating AI systems."
+    one_line: "An open-source observability and evaluation platform for LLM
+      applications."
+    why_useful: "It supports tracing, evaluations, datasets, experiments, and prompt
+      iteration for operating AI systems."
 curation:
   confidence: null
   evidence: []
@@ -38,44 +43,47 @@ id: "github:Arize-ai/phoenix"
 import:
   github_snapshot:
     archived: false
-    created_at: "2022-11-09T23:44:35Z"
-    default_branch: "main"
-    description: "AI Observability & Evaluation"
+    created_at: 2022-11-09T23:44:35Z
+    default_branch: main
+    description: AI Observability & Evaluation
     disabled: false
-    fetched_at: "2026-07-19T19:16:14.796Z"
+    fetched_at: 2026-11-22T12:07:00.148Z
     fork: false
-    forks: 994
-    homepage: "https://arize.com/docs/phoenix"
-    latest_release: null
-    license_spdx: "NOASSERTION"
-    open_issues: 756
-    primary_language: "Python"
-    pushed_at: "2026-07-19T19:07:03Z"
-    stars: 10624
+    forks: 1321
+    homepage: https://arize.com/docs/phoenix
+    latest_release:
+      tag: arize-phoenix-v22.0.1
+      published_at: 2026-11-21T20:28:01Z
+      url: https://github.com/Arize-ai/phoenix/releases/tag/arize-phoenix-v22.0.1
+    license_spdx: NOASSERTION
+    open_issues: 1320
+    primary_language: Python
+    pushed_at: 2026-11-21T20:36:07Z
+    stars: 12372
     topics:
-      - "agents"
-      - "ai-monitoring"
-      - "ai-observability"
-      - "aiengineering"
-      - "anthropic"
-      - "datasets"
-      - "evals"
-      - "langchain"
-      - "llamaindex"
-      - "llm-eval"
-      - "llm-evaluation"
-      - "llmops"
-      - "llms"
-      - "openai"
-      - "prompt-engineering"
-      - "smolagents"
-    updated_at: "2026-07-19T19:05:40Z"
+      - agents
+      - ai-monitoring
+      - ai-observability
+      - aiengineering
+      - anthropic
+      - datasets
+      - evals
+      - langchain
+      - llamaindex
+      - llm-eval
+      - llm-evaluation
+      - llmops
+      - llms
+      - openai
+      - prompt-engineering
+      - smolagents
+    updated_at: 2026-11-22T11:52:19Z
   sources:
-    - observed_at: "2026-05-18T17:25:51Z"
-      relation: "starred"
-      source_id: "github:user:tomseai:stars"
-      source_url: "https://github.com/tomseai?tab=stars"
-  state: "imported"
+    - observed_at: 2026-05-18T17:25:51Z
+      relation: starred
+      source_id: github:user:tomseai:stars
+      source_url: https://github.com/tomseai?tab=stars
+  state: refreshed
 repository:
   aliases: []
   github_node_id: "R_kgDOIZ8Rag"

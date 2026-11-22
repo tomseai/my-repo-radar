@@ -2,11 +2,10 @@ schema_version: 2
 repository_id: github:georgezouq/awesome-ai-in-finance
 research:
   state: complete
-  source_commit: 06bd2be745b7657778ba10a54f0bec46ff1b7b9a
-  bundle_collected_at: 2026-07-19T20:42:59.539Z
-  researched_at: 2026-07-20T17:34:00+02:00
+  source_commit: c9b56fb7cebe60d9757470c7fba71376d6b45755
+  bundle_collected_at: 2026-11-22T12:09:27.845Z
+  researched_at: 2026-11-22T12:23:58.005Z
   confidence: high
-
 classification:
   primary_category: documentation-and-learning
   topics:
@@ -15,24 +14,25 @@ classification:
     - machine-learning
     - llms
     - ai-agents
-
 project:
   name: Awesome AI in Finance
   kind: curated-list
-  summary: >-
-    A curated directory of research, code, tools, courses, data sources, and
+  summary: A curated directory of research, code, tools, courses, data sources, and
     trading-system resources for applying AI and machine learning in finance.
   best_for:
     - Surveying AI, LLM, and machine-learning resources for financial-market work
-    - Finding starting points for quantitative research, data, and trading infrastructure
-
+    - Finding starting points for quantitative research, data, and trading
+      infrastructure
 key_features:
   - Sections for AI agents, LLMs, papers, courses, books, and articles
-  - Research and strategy listings for time series, portfolio management, high-frequency trading, and arbitrage
+  - Research and strategy listings for time series, portfolio management,
+    high-frequency trading, and arbitrage
   - Links to traditional-market and cryptocurrency data sources
-  - References to research tools, trading systems, technical-analysis libraries, and exchange APIs
+  - References to research tools, trading systems, technical-analysis libraries, and
+    exchange APIs
   - A contribution guide for proposing relevant resources through pull requests
-
+  - Dedicated sections for AI skills, MCP servers, market data, trading execution,
+    and research
 usage:
   interfaces:
     - Markdown directory
@@ -41,40 +41,39 @@ usage:
     - Browse README.md on GitHub
     - Follow links to the listed external resources
   setup: low
-
 technology:
   languages:
     - Markdown
   notable_components:
     - Categorized resource index
     - Pull-request contribution workflow
-
 license:
   spdx: CC0-1.0
   name: CC0 1.0 Universal
-  notes: >-
-    The repository dedicates copyright and related rights to the public domain
-    to the extent permitted and disclaims warranties.
-
+  notes: The repository dedicates copyright and related rights to the public domain to
+    the extent permitted and disclaims warranties.
 status:
   lifecycle: active
   archived: false
   latest_release: null
   latest_release_at: null
-
 strengths:
-  - Covers both recent AI-agent and LLM material and established quantitative-finance resources
+  - Covers both recent AI-agent and LLM material and established quantitative-finance
+    resources
   - Organizes a large range of resource types into focused, scannable sections
-  - Includes data, strategy, research, and execution-adjacent references rather than only papers
-
+  - Includes data, strategy, research, and execution-adjacent references rather than
+    only papers
 caveats:
-  - It is a directory of independently maintained third-party resources, not an integrated finance platform
-  - Listings can have different licenses, costs, security properties, data quality, and maintenance status
-  - Inclusion or a linked performance claim is not independent validation of a strategy or investment outcome
-  - The retained releases feed has no entries, so no latest versioned release can be established
-
+  - It is a directory of independently maintained third-party resources, not an
+    integrated finance platform
+  - Listings can have different licenses, costs, security properties, data quality,
+    and maintenance status
+  - Inclusion or a linked performance claim is not independent validation of a
+    strategy or investment outcome
+  - The retained releases feed has no entries, so no latest versioned release can be
+    established
 sources:
-  - https://raw.githubusercontent.com/georgezouq/awesome-ai-in-finance/06bd2be745b7657778ba10a54f0bec46ff1b7b9a/README.md
-  - https://raw.githubusercontent.com/georgezouq/awesome-ai-in-finance/06bd2be745b7657778ba10a54f0bec46ff1b7b9a/LICENSE
-  - https://raw.githubusercontent.com/georgezouq/awesome-ai-in-finance/06bd2be745b7657778ba10a54f0bec46ff1b7b9a/contributing.md
+  - https://raw.githubusercontent.com/georgezouq/awesome-ai-in-finance/c9b56fb7cebe60d9757470c7fba71376d6b45755/README.md
+  - https://raw.githubusercontent.com/georgezouq/awesome-ai-in-finance/c9b56fb7cebe60d9757470c7fba71376d6b45755/LICENSE
+  - https://raw.githubusercontent.com/georgezouq/awesome-ai-in-finance/c9b56fb7cebe60d9757470c7fba71376d6b45755/contributing.md
   - https://github.com/georgezouq/awesome-ai-in-finance/releases.atom

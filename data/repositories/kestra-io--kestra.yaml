@@ -16,15 +16,20 @@ analysis:
       - "manage-data"
       - "ship-and-operate-software"
   evidence:
-    - claim: "Kestra is an open-source, event-driven orchestration platform for data, AI, and infrastructure workflows, with scheduled and event-driven automation, declarative YAML workflows, plugin integrations, and Docker deployment guidance."
+    - claim: "Kestra is an open-source, event-driven orchestration platform for data,
+        AI, and infrastructure workflows, with scheduled and event-driven
+        automation, declarative YAML workflows, plugin integrations, and Docker
+        deployment guidance."
       source_type: "repository-file"
       url: "https://github.com/kestra-io/kestra/blob/develop/README.md"
       checked_at: "2026-07-19"
       confidence: "high"
   state: "researched"
   summary:
-    one_line: "An event-driven orchestration platform for data, AI, and infrastructure workflows."
-    why_useful: "It combines declarative YAML workflows, scheduling, event triggers, plugins, and version-control-oriented automation."
+    one_line: "An event-driven orchestration platform for data, AI, and
+      infrastructure workflows."
+    why_useful: "It combines declarative YAML workflows, scheduling, event triggers,
+      plugins, and version-control-oriented automation."
 curation:
   confidence: null
   evidence: []
@@ -38,48 +43,54 @@ id: "github:kestra-io/kestra"
 import:
   github_snapshot:
     archived: false
-    created_at: "2019-08-24T13:56:15Z"
-    default_branch: "develop"
-    description: "Event Driven Orchestration & Scheduling Platform for Mission Critical Applications"
+    created_at: 2019-08-24T13:56:15Z
+    default_branch: develop
+    description: Orchestrate everything, everywhere. The open-source control plane
+      for workflows across data, infrastructure, business processes and AI
+      agents. Declarative YAML, event-driven, any language, Git-versioned,
+      scalable to millions of executions.
     disabled: false
-    fetched_at: "2026-07-19T19:16:14.796Z"
+    fetched_at: 2026-11-22T12:07:00.148Z
     fork: false
-    forks: 2738
-    homepage: "https://go.kestra.io/home"
-    latest_release: null
-    license_spdx: "Apache-2.0"
-    open_issues: 560
-    primary_language: "Java"
-    pushed_at: "2026-07-19T16:49:54Z"
-    stars: 27391
+    forks: 3547
+    homepage: https://go.kestra.io/home
+    latest_release:
+      tag: v2.0.11
+      published_at: 2026-11-17T14:26:39Z
+      url: https://github.com/kestra-io/kestra/releases/tag/v2.0.11
+    license_spdx: Apache-2.0
+    open_issues: 624
+    primary_language: Java
+    pushed_at: 2026-11-20T18:12:34Z
+    stars: 30310
     topics:
-      - "ai-agents"
-      - "automation"
-      - "control-plane"
-      - "data-engineering"
-      - "data-orchestration"
-      - "data-orchestrator"
-      - "devops"
-      - "etl"
-      - "hacktoberfest"
-      - "high-availability"
-      - "infra-automation"
-      - "infra-ops"
-      - "infrastructure-as-code"
-      - "java"
-      - "low-code"
-      - "orchestration"
-      - "pipeline"
-      - "pipeline-as-code"
-      - "scheduler"
-      - "workflow"
-    updated_at: "2026-07-19T17:54:24Z"
+      - ai-agents
+      - automation
+      - control-plane
+      - data-engineering
+      - data-orchestration
+      - data-orchestrator
+      - devops
+      - etl
+      - hacktoberfest
+      - high-availability
+      - infra-automation
+      - infra-ops
+      - infrastructure-as-code
+      - java
+      - low-code
+      - orchestration
+      - pipeline
+      - pipeline-as-code
+      - scheduler
+      - workflow
+    updated_at: 2026-11-22T10:53:17Z
   sources:
-    - observed_at: "2026-07-19T16:02:08Z"
-      relation: "starred"
-      source_id: "github:user:tomseai:stars"
-      source_url: "https://github.com/tomseai?tab=stars"
-  state: "imported"
+    - observed_at: 2026-07-19T16:02:08Z
+      relation: starred
+      source_id: github:user:tomseai:stars
+      source_url: https://github.com/tomseai?tab=stars
+  state: refreshed
 repository:
   aliases: []
   github_node_id: "MDEwOlJlcG9zaXRvcnkyMDQxNjQzNTM="

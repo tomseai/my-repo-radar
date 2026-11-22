@@ -2,11 +2,11 @@
 
 # Agent Protocols
 
-[Back to the main catalog](../README.md) | **9 repositories**
+[Back to the main catalog](../README.md) | **10 repositories**
 
 ## Primary categories represented
 
-- [AI and Automation](../categories/ai-and-automation.md) (5)
+- [AI and Automation](../categories/ai-and-automation.md) (6)
 - [Developer Tools](../categories/developer-tools.md) (1)
 - [Documentation and Learning](../categories/documentation-and-learning.md) (2)
 - [Testing and Quality](../categories/testing-and-quality.md) (1)
@@ -24,7 +24,7 @@ A practical, beginner-oriented course that teaches AI-agent fundamentals, then i
 - **Languages:** Markdown
 - **License:** Apache-2.0
 - **Lifecycle:** Active
-- **GitHub stars:** 421
+- **GitHub stars:** 552
 
 **Key features**
 
@@ -45,7 +45,7 @@ An open event-based protocol and reference implementation for connecting AI-agen
 - **Languages:** TypeScript, Python
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 14,808
+- **GitHub stars:** 21,096
 
 **Key features**
 
@@ -64,9 +64,9 @@ A TypeScript framework for building agent-centric applications whose actions can
 - **Kind:** Framework
 - **Best for:** Teams building a customizable agent application rather than a standalone coding agent; Projects that want one action definition shared by application and agent interfaces
 - **Languages:** TypeScript
-- **License:** Repository-wide license unresolved
+- **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 3,793
+- **GitHub stars:** 7,738
 
 **Key features**
 
@@ -87,7 +87,7 @@ A zero-dependency TypeScript mock server and library for exercising AI applicati
 - **Languages:** TypeScript, Python
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 650
+- **GitHub stars:** 1,031
 
 **Key features**
 
@@ -108,7 +108,7 @@ A multi-platform framework for adding agent-driven chat, generative UI, shared s
 - **Languages:** TypeScript, Python
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 36,158
+- **GitHub stars:** 38,872
 
 **Key features**
 
@@ -129,13 +129,34 @@ A conceptual guide and set of examples that compares controlled, declarative, an
 - **Languages:** Unknown
 - **License:** No license terms established
 - **Lifecycle:** Deprecated
-- **GitHub stars:** 780
+- **GitHub stars:** 900
 
 **Key features**
 
   - Explains controlled UI, where agents select prebuilt components through tools
   - Describes declarative UI with A2UI and Open-JSON-UI structured specifications
   - Covers open-ended UI through MCP Apps and a separate useComponent approach
+
+<a id="repo-copilotkit--openbot"></a>
+
+## [OpenBot](https://github.com/CopilotKit/OpenBot)
+
+A self-hostable workspace for AI coworkers that connects built-in or external AG-UI agents to governed browser, file, shell, and tool access, with desktop and Kubernetes deployment.
+
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-copilotkit--openbot)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-copilotkit--openbot) | [Agent Governance](../topics/agent-governance.md#repo-copilotkit--openbot) | [Agent Protocols](../topics/agent-protocols.md#repo-copilotkit--openbot) | [Computer Use](../topics/computer-use.md#repo-copilotkit--openbot) | [Browser Automation](../topics/browser-automation.md#repo-copilotkit--openbot) | [Tool Use](../topics/tool-use.md#repo-copilotkit--openbot) | [MCP](../topics/mcp.md#repo-copilotkit--openbot) | [Agent Skills](../topics/agent-skills.md#repo-copilotkit--openbot) | [Generative UI](../topics/generative-ui.md#repo-copilotkit--openbot) | [Chat UI](../topics/chat-ui.md#repo-copilotkit--openbot) | [Self Hosted](../topics/self-hosted.md#repo-copilotkit--openbot) | [Sandboxing](../topics/sandboxing.md#repo-copilotkit--openbot) | [Automation](../topics/automation.md#repo-copilotkit--openbot) | [Local Models](../topics/local-models.md#repo-copilotkit--openbot)
+- **Kind:** Starter Template
+- **Best for:** Teams building self-hosted AI coworkers that operate browsers, files, and external tools; Developers bringing AG-UI agents into a governed multi-user web workspace
+- **Languages:** TypeScript, Python
+- **License:** MIT
+- **Lifecycle:** Active
+- **GitHub stars:** 13,167
+
+**Key features**
+
+  - Supports one computer per person and optional per-Bot containers, depending on deployment configuration
+  - Evaluates policy and records an audit event before the action gateway executes an approved computer action
+  - Supports human takeover for login and two-factor authentication
 
 <a id="repo-getbindu--bindu"></a>
 
@@ -150,7 +171,7 @@ A framework and multi-language SDK set for exposing AI agents through A2A messag
 - **Languages:** Python, TypeScript, Kotlin
 - **License:** Apache-2.0
 - **Lifecycle:** Active
-- **GitHub stars:** 7,835
+- **GitHub stars:** 9,966
 
 **Key features**
 
@@ -169,9 +190,9 @@ A self-hosted developer control center for starting coding-agent conversations a
 - **Kind:** Application
 - **Best for:** Engineering teams coordinating coding agents across local machines, containers, or virtual machines; Developers creating scheduled or event-driven automations that use compatible coding agents
 - **Languages:** Python, TypeScript
-- **License:** Mixed licensing
+- **License:** MIT
 - **Lifecycle:** Experimental
-- **GitHub stars:** 81,305
+- **GitHub stars:** 94,026
 
 **Key features**
 
@@ -192,7 +213,7 @@ A Rust terminal coding agent distributed as the grok CLI and full-screen TUI, wi
 - **Languages:** Rust
 - **License:** Apache-2.0
 - **Lifecycle:** Active
-- **GitHub stars:** 19,918
+- **GitHub stars:** 27,825
 
 **Key features**
 

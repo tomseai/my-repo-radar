@@ -3,9 +3,9 @@ repository_id: github:gastownhall/beads
 
 research:
   state: complete
-  source_commit: 8ebd53e882f9783fa538f310a50b9c58e46e98d9
-  bundle_collected_at: 2026-07-19T20:42:59.527Z
-  researched_at: 2026-07-20T15:25:52.209Z
+  source_commit: 78624109904655d7a4609f27d34eb0982cd8963f
+  bundle_collected_at: 2026-11-22T12:09:32.493Z
+  researched_at: 2026-11-22T12:22:39.465Z
   confidence: high
 
 classification:
@@ -25,7 +25,8 @@ project:
     A distributed, dependency-aware issue tracker and persistent memory system
     for coding agents, backed by the version-controlled SQL database Dolt.
   best_for:
-    - Coding-agent workflows that need durable, claimable tasks instead of Markdown plans
+    - Coding-agent workflows that need durable, claimable tasks instead of
+      Markdown plans
     - Teams coordinating dependent work across branches, worktrees, or machines
 
 key_features:
@@ -33,8 +34,10 @@ key_features:
   - Atomic task claiming, JSON output, and agent-oriented workflow guidance
   - Content-derived issue IDs designed to avoid collisions across concurrent work
   - Persistent project memories injected through bd prime
-  - Dolt-backed version history, branching, cell-level merges, and push/pull synchronization
+  - Dolt-backed version history, branching, cell-level merges, and push/pull
+    synchronization
   - Optional Claude Code plugin and MCP server alongside the core CLI
+  - Project setup can install Claude Code, Codex, and Cursor integrations
 
 usage:
   interfaces:
@@ -43,7 +46,7 @@ usage:
     - MCP server
   installation:
     - Homebrew
-    - npm package
+    - npm package, including supported Android devices through Termux
     - install script
     - go install
   setup: moderate
@@ -59,27 +62,35 @@ technology:
 license:
   spdx: MIT
   name: MIT License
-  notes: Permissive license; copyright and license notices must be retained, and the software is provided without warranty.
+  notes: Permissive license; copyright and license notices must be retained, and
+    the software is provided without warranty.
 
 status:
   lifecycle: active
   archived: false
-  latest_release: v1.1.0
-  latest_release_at: 2026-07-17
+  latest_release: v1.3.4
+  latest_release_at: 2026-11-04
 
 strengths:
-  - Replaces ephemeral plans with queryable, dependency-aware work state for people and agents
+  - Replaces ephemeral plans with queryable, dependency-aware work state for
+    people and agents
   - Offers both simple embedded storage and server mode for concurrent writers
   - Supports common coding-agent integrations without making Git mandatory
 
 caveats:
-  - Embedded Dolt mode is single-writer; concurrent-agent deployments need server mode and its operational setup
-  - Multi-machine work requires deliberate Dolt push and pull discipline to avoid synchronization issues
-  - The MCP server is an alternative for environments without shell access, not a replacement for the CLI in typical local workflows
+  - Embedded Dolt mode is single-writer; concurrent-agent deployments need
+    server mode and its operational setup
+  - The shell installer uses desktop Linux binaries; Termux requires the npm
+    package, an Android build, or a source build
+  - Multi-machine work requires deliberate Dolt push and pull discipline to
+    avoid synchronization issues
+  - The MCP server is an alternative for environments without shell access, not
+    a replacement for the CLI in typical local workflows
 
 sources:
-  - https://raw.githubusercontent.com/gastownhall/beads/8ebd53e882f9783fa538f310a50b9c58e46e98d9/README.md
-  - https://raw.githubusercontent.com/gastownhall/beads/8ebd53e882f9783fa538f310a50b9c58e46e98d9/docs/getting-started/installation.md
-  - https://raw.githubusercontent.com/gastownhall/beads/8ebd53e882f9783fa538f310a50b9c58e46e98d9/docs/architecture/index.md
-  - https://raw.githubusercontent.com/gastownhall/beads/8ebd53e882f9783fa538f310a50b9c58e46e98d9/LICENSE
+  - https://raw.githubusercontent.com/gastownhall/beads/78624109904655d7a4609f27d34eb0982cd8963f/README.md
+  - https://raw.githubusercontent.com/gastownhall/beads/78624109904655d7a4609f27d34eb0982cd8963f/docs/getting-started/installation.md
+  - https://raw.githubusercontent.com/gastownhall/beads/78624109904655d7a4609f27d34eb0982cd8963f/docs/architecture/index.md
+  - https://raw.githubusercontent.com/gastownhall/beads/78624109904655d7a4609f27d34eb0982cd8963f/LICENSE
   - https://github.com/gastownhall/beads/releases.atom
+  - https://github.com/gastownhall/beads/releases/tag/v1.3.4

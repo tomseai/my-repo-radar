@@ -2,13 +2,14 @@
 
 # Browser Automation
 
-[Back to the main catalog](../README.md) | **12 repositories**
+[Back to the main catalog](../README.md) | **15 repositories**
 
 ## Primary categories represented
 
-- [AI and Automation](../categories/ai-and-automation.md) (8)
+- [AI and Automation](../categories/ai-and-automation.md) (10)
 - [Backend and APIs](../categories/backend-and-apis.md) (1)
 - [Developer Tools](../categories/developer-tools.md) (3)
+- [Testing and Quality](../categories/testing-and-quality.md) (1)
 
 <a id="repo-alibaba--page-agent"></a>
 
@@ -23,7 +24,7 @@ A TypeScript library for embedding an AI GUI agent into a web page, where a conf
 - **Languages:** TypeScript
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 27,146
+- **GitHub stars:** 29,734
 
 **Key features**
 
@@ -35,7 +36,7 @@ A TypeScript library for embedding an AI GUI agent into a web page, where a conf
 
 ## [Browser Use](https://github.com/browser-use/browser-use)
 
-A Python library and CLI for LLM-driven agents that operate web browsers, including navigating pages, clicking controls, entering form data, and extracting information for repeatable web tasks.
+A Python library and CLI for language-model-driven browser tasks, built around a persistent Python execution context and Chrome DevTools Protocol, with local or hosted browser options.
 
 - **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-browser-use--browser-use)
 - **Topics:** [AI Agents](../topics/ai-agents.md#repo-browser-use--browser-use) | [Browser Automation](../topics/browser-automation.md#repo-browser-use--browser-use) | [Computer Use](../topics/computer-use.md#repo-browser-use--browser-use) | [Tool Use](../topics/tool-use.md#repo-browser-use--browser-use) | [CLI](../topics/cli.md#repo-browser-use--browser-use) | [MCP](../topics/mcp.md#repo-browser-use--browser-use) | [Web Scraping](../topics/web-scraping.md#repo-browser-use--browser-use)
@@ -44,13 +45,13 @@ A Python library and CLI for LLM-driven agents that operate web browsers, includ
 - **Languages:** Python
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 105,551
+- **GitHub stars:** 121,730
 
 **Key features**
 
-  - Agent API that executes a natural-language task with a selected LLM
-  - Browser interactions for pages, buttons, text input, forms, and data extraction
-  - Custom action tools for extending an agent's capabilities
+  - Accepts a browser task and runs it through a model-backed agent based on Pydantic AI
+  - Keeps Python execution state across task steps and operates a browser through Chrome DevTools Protocol
+  - Offers a local Python API and CLI and can connect either to local Chromium or cloud browsers
 
 <a id="repo-camel-ai--owl"></a>
 
@@ -65,7 +66,7 @@ A Python framework, built on CAMEL-AI, for composing collaborating agents that a
 - **Languages:** Python
 - **License:** Apache-2.0
 - **Lifecycle:** Active
-- **GitHub stars:** 19,976
+- **GitHub stars:** 20,193
 
 **Key features**
 
@@ -86,7 +87,7 @@ An MCP server and command-line tool that lets coding agents control and inspect 
 - **Languages:** TypeScript, JavaScript
 - **License:** Apache-2.0
 - **Lifecycle:** Active
-- **GitHub stars:** 47,187
+- **GitHub stars:** 58,755
 
 **Key features**
 
@@ -107,7 +108,7 @@ Python and JavaScript wrappers that launch a custom Chromium binary through Play
 - **Languages:** Python, TypeScript, C++
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 28,626
+- **GitHub stars:** 33,017
 
 **Key features**
 
@@ -115,32 +116,95 @@ Python and JavaScript wrappers that launch a custom Chromium binary through Play
   - Downloads and caches a platform-specific custom Chromium binary on first launch
   - Supports proxy, timezone, locale, persistent-profile, and extension-path options
 
+<a id="repo-copilotkit--openbot"></a>
+
+## [OpenBot](https://github.com/CopilotKit/OpenBot)
+
+A self-hostable workspace for AI coworkers that connects built-in or external AG-UI agents to governed browser, file, shell, and tool access, with desktop and Kubernetes deployment.
+
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-copilotkit--openbot)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-copilotkit--openbot) | [Agent Governance](../topics/agent-governance.md#repo-copilotkit--openbot) | [Agent Protocols](../topics/agent-protocols.md#repo-copilotkit--openbot) | [Computer Use](../topics/computer-use.md#repo-copilotkit--openbot) | [Browser Automation](../topics/browser-automation.md#repo-copilotkit--openbot) | [Tool Use](../topics/tool-use.md#repo-copilotkit--openbot) | [MCP](../topics/mcp.md#repo-copilotkit--openbot) | [Agent Skills](../topics/agent-skills.md#repo-copilotkit--openbot) | [Generative UI](../topics/generative-ui.md#repo-copilotkit--openbot) | [Chat UI](../topics/chat-ui.md#repo-copilotkit--openbot) | [Self Hosted](../topics/self-hosted.md#repo-copilotkit--openbot) | [Sandboxing](../topics/sandboxing.md#repo-copilotkit--openbot) | [Automation](../topics/automation.md#repo-copilotkit--openbot) | [Local Models](../topics/local-models.md#repo-copilotkit--openbot)
+- **Kind:** Starter Template
+- **Best for:** Teams building self-hosted AI coworkers that operate browsers, files, and external tools; Developers bringing AG-UI agents into a governed multi-user web workspace
+- **Languages:** TypeScript, Python
+- **License:** MIT
+- **Lifecycle:** Active
+- **GitHub stars:** 13,167
+
+**Key features**
+
+  - Supports one computer per person and optional per-Bot containers, depending on deployment configuration
+  - Evaluates policy and records an audit event before the action gateway executes an approved computer action
+  - Supports human takeover for login and two-factor authentication
+
+<a id="repo-deepseek-ai--deepseek-harness"></a>
+
+## [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness)
+
+A developer-preview agent harness built around an everything-is-a-plugin Cordis architecture, with a local Web UI, command-line and headless flows, extensible tools, skills, sessions, and experimental browser and computer use.
+
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-deepseek-ai--deepseek-harness)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-deepseek-ai--deepseek-harness) | [Coding Agents](../topics/coding-agents.md#repo-deepseek-ai--deepseek-harness) | [Agent Harnesses](../topics/agent-harnesses.md#repo-deepseek-ai--deepseek-harness) | [Agent Skills](../topics/agent-skills.md#repo-deepseek-ai--deepseek-harness) | [Tool Use](../topics/tool-use.md#repo-deepseek-ai--deepseek-harness) | [MCP](../topics/mcp.md#repo-deepseek-ai--deepseek-harness) | [Computer Use](../topics/computer-use.md#repo-deepseek-ai--deepseek-harness) | [Browser Automation](../topics/browser-automation.md#repo-deepseek-ai--deepseek-harness) | [Web UI](../topics/web-ui.md#repo-deepseek-ai--deepseek-harness) | [CLI](../topics/cli.md#repo-deepseek-ai--deepseek-harness) | [Sandboxing](../topics/sandboxing.md#repo-deepseek-ai--deepseek-harness)
+- **Kind:** Framework
+- **Best for:** Developers evaluating a highly modular local harness for coding and tool-using agents; Plugin authors experimenting with DeepSeek Harness services, tools, interfaces, and runtime extensions
+- **Languages:** TypeScript, Python
+- **License:** MIT
+- **Lifecycle:** Experimental
+- **GitHub stars:** 285,342
+
+**Key features**
+
+  - Cordis-based plugin architecture used across the agent runtime, tools, interfaces, and configuration
+  - Local Web UI with session management, file previews, trajectories, and an integrated multi-tab terminal
+  - Headless operation that accepts tasks on standard input, resumes sessions, and streams JSON events
+
+<a id="repo-e2e-inc--e2e"></a>
+
+## [e2e](https://github.com/e2e-inc/e2e)
+
+An end-to-end testing framework for web and mobile apps combining natural-language agent actions with conventional locators and assertions.
+
+- **Category:** [Testing and Quality](../categories/testing-and-quality.md#repo-e2e-inc--e2e)
+- **Topics:** [Testing](../topics/testing.md#repo-e2e-inc--e2e) | [Automation](../topics/automation.md#repo-e2e-inc--e2e) | [AI Agents](../topics/ai-agents.md#repo-e2e-inc--e2e) | [Browser Automation](../topics/browser-automation.md#repo-e2e-inc--e2e) | [MCP](../topics/mcp.md#repo-e2e-inc--e2e) | [Mobile Development](../topics/mobile-development.md#repo-e2e-inc--e2e)
+- **Kind:** Framework
+- **Best for:** Teams automating application journeys across browsers and mobile devices
+- **Languages:** TypeScript
+- **License:** Apache-2.0
+- **Lifecycle:** Active
+- **GitHub stars:** 14,113
+
+**Key features**
+
+  - Agent-driven actions and assertions alongside deterministic test assertions
+  - Replays verified agent actions without model calls until the app changes
+  - Browser engines via Playwright and mobile simulators and emulators
+
 <a id="repo-firecrawl--firecrawl"></a>
 
 ## [firecrawl](https://github.com/firecrawl/firecrawl)
 
-An API and SDK platform for web search, scraping, crawling, and browser interaction that returns AI-ready Markdown, structured data, and other content.
+A web-content toolkit with a local CLI and MCP server, a hosted API, and a separately deployable self-hosted server for extracting and using website content.
 
 - **Category:** [Backend and APIs](../categories/backend-and-apis.md#repo-firecrawl--firecrawl)
 - **Topics:** [AI Agents](../topics/ai-agents.md#repo-firecrawl--firecrawl) | [LLMs](../topics/llms.md#repo-firecrawl--firecrawl) | [Web Search](../topics/web-search.md#repo-firecrawl--firecrawl) | [Web Scraping](../topics/web-scraping.md#repo-firecrawl--firecrawl) | [Browser Automation](../topics/browser-automation.md#repo-firecrawl--firecrawl) | [Document Processing](../topics/document-processing.md#repo-firecrawl--firecrawl) | [Self Hosted](../topics/self-hosted.md#repo-firecrawl--firecrawl) | [Open Source](../topics/open-source.md#repo-firecrawl--firecrawl)
 - **Kind:** Service
-- **Best for:** Developers supplying current web context to AI applications and agents; Teams that need search, extraction, crawling, and page interaction behind one API
+- **Best for:** Developers supplying web content to AI applications and agents; Teams choosing between a local parser, hosted web tools, and a self-hosted server
 - **Languages:** TypeScript, Go, Python, Rust
 - **License:** AGPL-3.0-or-later
 - **Lifecycle:** Active
-- **GitHub stars:** 153,101
+- **GitHub stars:** 206,568
 
 **Key features**
 
-  - Search the web and retrieve page content from results
-  - Scrape URLs into Markdown, HTML, screenshots, or structured JSON
-  - Crawl a site, map its URLs, or batch-scrape many pages asynchronously
+  - Scrape, crawl, map, and batch-scrape websites locally or through hosted APIs
+  - Convert pages to Markdown or structured data and handle JavaScript rendering for supported pages
+  - Expose the local tools through an MCP server and a localhost API
 
 <a id="repo-foundationagents--openmanus"></a>
 
 ## [OpenManus](https://github.com/FoundationAgents/OpenManus)
 
-A Python framework and command-line runtime for configuring LLM-backed general agents with optional browser automation, MCP tools, and multi-agent flows.
+A Python framework and command-line runtime for configuring LLM-backed general agents with browser automation, MCP tools, and multi-agent flows.
 
 - **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-foundationagents--openmanus)
 - **Topics:** [AI Agents](../topics/ai-agents.md#repo-foundationagents--openmanus) | [Agent Frameworks](../topics/agent-frameworks.md#repo-foundationagents--openmanus) | [Multi Agent](../topics/multi-agent.md#repo-foundationagents--openmanus) | [MCP](../topics/mcp.md#repo-foundationagents--openmanus) | [Browser Automation](../topics/browser-automation.md#repo-foundationagents--openmanus) | [Data Processing](../topics/data-processing.md#repo-foundationagents--openmanus) | [LLMs](../topics/llms.md#repo-foundationagents--openmanus) | [Containers](../topics/containers.md#repo-foundationagents--openmanus)
@@ -149,13 +213,13 @@ A Python framework and command-line runtime for configuring LLM-backed general a
 - **Languages:** Python
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 57,501
+- **GitHub stars:** 59,007
 
 **Key features**
 
   - Terminal entry point for running an OpenManus agent
   - Configurable global and vision-model API settings
-  - Optional Playwright browser-automation installation
+  - Browser Use CLI is started as a default MCP server for browser automation
 
 <a id="repo-garrytan--gstack"></a>
 
@@ -170,7 +234,7 @@ An MIT-licensed collection of skills and command-line tools that adds structured
 - **Languages:** TypeScript, Markdown
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 122,960
+- **GitHub stars:** 142,327
 
 **Key features**
 
@@ -191,11 +255,11 @@ A Node.js CLI that turns supported websites, logged-in Chrome sessions, Electron
 - **Languages:** JavaScript, TypeScript
 - **License:** Apache-2.0
 - **Lifecycle:** Active
-- **GitHub stars:** 26,949
+- **GitHub stars:** 31,223
 
 **Key features**
 
-  - Provides built-in site adapters and JSON, YAML, Markdown, CSV, and table output
+  - Provides built-in site adapters and defaults to structured JSON success and error responses
   - Drives logged-in Chrome through a Browser Bridge extension and local daemon
   - Exposes browser navigation, interaction, extraction, network inspection, and screenshot commands
 
@@ -212,13 +276,13 @@ A Model Context Protocol server that lets LLM clients automate web pages through
 - **Languages:** TypeScript, JavaScript
 - **License:** Apache-2.0
 - **Lifecycle:** Active
-- **GitHub stars:** 35,268
+- **GitHub stars:** 39,994
 
 **Key features**
 
-  - Uses Playwright accessibility-tree snapshots as structured page input rather than pixel-based interaction
-  - Exposes browser automation to LLM clients through a standard MCP server
-  - Supports browser selection, device emulation, persistent or isolated profiles, and remote CDP endpoints
+  - Uses structured Playwright accessibility snapshots for browser interaction
+  - Exposes browser automation through MCP to compatible clients
+  - Supports device emulation, persistent or isolated profiles, and remote CDP connections
 
 <a id="repo-steipete--oracle"></a>
 
@@ -233,13 +297,13 @@ A command-line tool that bundles a prompt and selected files for a contextual AI
 - **Languages:** TypeScript
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 3,277
+- **GitHub stars:** 4,074
 
 **Key features**
 
   - Sends prompts and glob-selected files to one or multiple configured models
-  - Supports OpenAI, Gemini, Anthropic, and OpenRouter-backed API workflows
-  - Offers experimental Chrome-based browser runs and a manual rendered-copy fallback
+  - Supports OpenAI, Azure OpenAI, Anthropic, Gemini, xAI, OpenRouter, and compatible API endpoints
+  - Offers Chrome-based ChatGPT and Gemini workflows and a credential-free render mode
 
 <a id="repo-unclecode--crawl4ai"></a>
 
@@ -254,7 +318,7 @@ A Python crawler and scraper that uses browser automation to turn web pages into
 - **Languages:** Python, JavaScript
 - **License:** Apache License 2.0 with an additional attribution requirement
 - **Lifecycle:** Active
-- **GitHub stars:** 73,307
+- **GitHub stars:** 87,654
 
 **Key features**
 

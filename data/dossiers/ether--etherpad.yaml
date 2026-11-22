@@ -1,0 +1,70 @@
+schema_version: 2
+repository_id: github:ether/etherpad
+research:
+  state: complete
+  source_commit: 63c417d4f93799bc22228f9028ed8835a9e1ad48
+  bundle_collected_at: 2026-11-22T12:09:26.620Z
+  researched_at: 2026-11-22T12:24:40.684Z
+  confidence: high
+classification:
+  primary_category: collaboration-and-productivity
+  topics:
+    - realtime-collaboration
+    - realtime
+    - self-hosted
+    - web-ui
+    - document-processing
+    - open-source
+project:
+  name: Etherpad
+  kind: application
+  summary: >-
+    A self-hosted realtime collaborative text editor with authorship tracking,
+    revision history, plugins, localization, and optional AI assistance.
+  best_for:
+    - Teams and communities that need a controllable collaborative document
+      editor
+    - Organizations that prefer self-hosting and no mandatory telemetry
+key_features:
+  - Supports simultaneous editing with authorship colors and shared presence
+  - Retains complete revision history with a visual timeslider
+  - Extends through plugins and supports more than one hundred languages
+  - Offers optional AI features while allowing users to choose the model
+usage:
+  interfaces:
+    - web application
+    - HTTP API
+    - plugin system
+  installation:
+    - Node.js source installation
+    - Docker Compose
+  setup: moderate
+technology:
+  languages:
+    - TypeScript
+  notable_components:
+    - Node.js
+    - Docker
+    - database adapters
+license:
+  spdx: Apache-2.0
+  name: Apache License 2.0
+  notes: Permissive license with patent grant and notice requirements.
+status:
+  lifecycle: active
+  archived: false
+  latest_release: v3.3.21
+  latest_release_at: 2026-11-20
+strengths:
+  - Mature collaborative editing with self-hosting and extensive plugin support
+  - Keeps full revision history and does not require telemetry
+caveats:
+  - The retained README says the small volunteer team is looking for additional
+    maintainers
+  - Source installation requires Node.js 24 or newer and a production database
+    needs separate setup
+sources:
+  - https://raw.githubusercontent.com/ether/etherpad/63c417d4f93799bc22228f9028ed8835a9e1ad48/README.md
+  - https://raw.githubusercontent.com/ether/etherpad/63c417d4f93799bc22228f9028ed8835a9e1ad48/LICENSE
+  - https://github.com/ether/etherpad/releases.atom
+  - https://github.com/ether/etherpad/releases/tag/v3.3.21

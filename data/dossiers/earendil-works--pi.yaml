@@ -2,9 +2,9 @@ schema_version: 2
 repository_id: github:earendil-works/pi
 research:
   state: complete
-  source_commit: 956074697fc0f59e8a9787717e76d5bb0ee7bc72
-  bundle_collected_at: 2026-07-19T20:42:45.288Z
-  researched_at: 2026-07-20T17:22:59.2612414+02:00
+  source_commit: 9c4652688590abb836b40ebd1e4725ecf9a7c7d1
+  bundle_collected_at: 2026-11-22T12:09:25.904Z
+  researched_at: 2026-11-22T12:23:46.243Z
   confidence: high
 classification:
   primary_category: ai-and-automation
@@ -20,22 +20,27 @@ classification:
     - sandboxing
 
 project:
-  name: Pi Agent Harness
+  name: Pi
   kind: monorepo
   summary: >-
     A TypeScript monorepo for a multi-provider LLM API, tool-calling agent
     runtime, terminal UI library, and interactive coding-agent CLI.
   best_for:
     - Developers who want a self-extensible terminal coding agent
-    - TypeScript projects that need reusable multi-provider LLM and agent-runtime packages
+    - TypeScript projects that need reusable multi-provider LLM and
+      agent-runtime packages
 
 key_features:
-  - Interactive coding-agent CLI with read, bash, edit, write, and session-management tools
-  - General-purpose agent runtime with tool calling, state management, transport abstraction, and attachments
+  - Interactive coding-agent CLI with read, bash, edit, write, and
+    session-management tools
+  - General-purpose agent runtime with tool calling, state management, transport
+    abstraction, and attachments
   - Unified API for OpenAI, Anthropic, Google, and other LLM providers
   - Terminal UI library with differential rendering
-  - RPC entry point for launching the coding agent programmatically
-  - Containerization guidance for a micro-VM extension, Docker, and policy-controlled sandbox
+  - Print and JSON modes, an RPC entry point, and a TypeScript SDK
+  - Extensions, skills, prompt templates, and themes can be shared via npm or Git
+  - Containerization guidance for a micro-VM extension, Docker, and
+    policy-controlled sandbox
 
 usage:
   interfaces:
@@ -44,7 +49,7 @@ usage:
     - TypeScript packages
     - RPC entry point
   installation:
-    - npm package for the coding-agent CLI
+    - Installer script or npm package for the coding-agent CLI
     - npm workspace source checkout
   setup: moderate
 
@@ -62,29 +67,37 @@ technology:
 license:
   spdx: MIT
   name: MIT License
-  notes: Permissive license; copyright and license notices must be retained, and the software is provided without warranty.
+  notes: Permissive license; copyright and license notices must be retained, and
+    the software is provided without warranty.
 
 status:
   lifecycle: active
   archived: false
-  latest_release: v0.80.10
-  latest_release_at: 2026-07-16
+  latest_release: v1.6.0
+  latest_release_at: 2026-11-20
 
 strengths:
-  - Separates reusable LLM, agent-runtime, TUI, and coding-agent components in one maintained project
-  - Supports several major model providers without tying the runtime to one provider
-  - Documents concrete containment options for deployments needing stronger isolation
+  - Separates reusable LLM, agent-runtime, TUI, and coding-agent components in
+    one maintained project
+  - Supports several major model providers without tying the runtime to one
+    provider
+  - Documents concrete containment options for deployments needing stronger
+    isolation
 
 caveats:
-  - Pi has no built-in permission system for filesystem, process, network, or credential access
-  - Safe deployment boundaries require an external container or sandbox, which adds operational setup
+  - Pi has no built-in permission system for filesystem, process, network, or
+    credential access
+  - Safe deployment boundaries require an external container or sandbox, which
+    adds operational setup
   - The coding-agent package requires Node.js 22.19 or newer
-  - The repository is a monorepo; v0.80.10 is the matching coding-agent package and project release, while the root package is private and reports 0.0.3
+  - v1.6.0 is the matching coding-agent package and project release. The private
+    root package has its own version, 0.0.3.
 
 sources:
-  - https://raw.githubusercontent.com/earendil-works/pi/956074697fc0f59e8a9787717e76d5bb0ee7bc72/README.md
-  - https://raw.githubusercontent.com/earendil-works/pi/956074697fc0f59e8a9787717e76d5bb0ee7bc72/packages/coding-agent/package.json
-  - https://raw.githubusercontent.com/earendil-works/pi/956074697fc0f59e8a9787717e76d5bb0ee7bc72/packages/agent/package.json
-  - https://raw.githubusercontent.com/earendil-works/pi/956074697fc0f59e8a9787717e76d5bb0ee7bc72/packages/ai/package.json
-  - https://raw.githubusercontent.com/earendil-works/pi/956074697fc0f59e8a9787717e76d5bb0ee7bc72/LICENSE
+  - https://raw.githubusercontent.com/earendil-works/pi/9c4652688590abb836b40ebd1e4725ecf9a7c7d1/README.md
+  - https://raw.githubusercontent.com/earendil-works/pi/9c4652688590abb836b40ebd1e4725ecf9a7c7d1/packages/coding-agent/package.json
+  - https://raw.githubusercontent.com/earendil-works/pi/9c4652688590abb836b40ebd1e4725ecf9a7c7d1/packages/agent/package.json
+  - https://raw.githubusercontent.com/earendil-works/pi/9c4652688590abb836b40ebd1e4725ecf9a7c7d1/packages/ai/package.json
+  - https://raw.githubusercontent.com/earendil-works/pi/9c4652688590abb836b40ebd1e4725ecf9a7c7d1/LICENSE
   - https://github.com/earendil-works/pi/releases.atom
+  - https://github.com/earendil-works/pi/releases/tag/v1.6.0

@@ -22,7 +22,7 @@ Docker Compose template for a self-hosted n8n environment with Ollama, Qdrant, a
 - **Languages:** YAML
 - **License:** Apache-2.0
 - **Lifecycle:** Active
-- **GitHub stars:** 15,094
+- **GitHub stars:** 15,383
 
 **Key features**
 
@@ -43,7 +43,7 @@ An interactive CLI that scaffolds modular, type-safe full-stack Next.js applicat
 - **Languages:** TypeScript
 - **License:** MIT
 - **Lifecycle:** Maintenance
-- **GitHub stars:** 29,045
+- **GitHub stars:** 29,248
 
 **Key features**
 
@@ -64,7 +64,7 @@ A Vercel-deployable reference application for background coding agents, combinin
 - **Languages:** TypeScript
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 5,740
+- **GitHub stars:** 5,912
 
 **Key features**
 

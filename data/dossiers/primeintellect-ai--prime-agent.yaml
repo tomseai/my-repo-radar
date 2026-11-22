@@ -1,0 +1,74 @@
+schema_version: 2
+repository_id: github:PrimeIntellect-ai/prime-agent
+research:
+  state: complete
+  source_commit: 783acb5d72a9b23f97fa4a793a67d421b3ec402d
+  bundle_collected_at: 2026-11-22T12:10:19.834Z
+  researched_at: 2026-11-22T12:24:30Z
+  confidence: high
+classification:
+  primary_category: ai-and-automation
+  topics:
+    - coding-agents
+    - agent-harnesses
+    - agent-orchestration
+    - multi-agent
+    - agent-memory
+    - agent-skills
+    - context-engineering
+    - terminal
+    - automation
+project:
+  name: PRIME Agent
+  kind: application
+  summary: >-
+    A coding and research agent for long-running work that combines recursive
+    subagents, a persistent Python environment, durable memory and skills, and
+    background autonomy.
+  best_for:
+    - Developers running long-horizon coding or research tasks from the terminal
+    - Users who want an agent to refine reusable prompts, memories, skills, and
+      subagent specifications
+key_features:
+  - Uses recursive language-model calls and a persistent IPython environment
+  - Stores durable prompts, memories, skills, and subagent specifications
+  - Runs through a background daemon with attach, resume, messaging, goals, and
+    schedules
+  - Supports multiple model providers and continual harness refinement
+usage:
+  interfaces:
+    - terminal application
+    - background daemon
+  installation:
+    - shell installer for macOS or Linux, or PowerShell installer for Windows
+    - source checkout
+  setup: moderate
+technology:
+  languages:
+    - TypeScript
+    - Python
+  notable_components:
+    - IPython
+    - recursive language-model workflow
+license:
+  spdx: MIT
+  name: MIT License
+  notes: The root MIT license requires retaining its copyright and permission
+    notice in copies or substantial portions.
+status:
+  lifecycle: active
+  archived: false
+  latest_release: v0.10.5
+  latest_release_at: 2026-11-18
+strengths:
+  - Combines interactive sessions with durable background execution
+  - Treats memory, skills, and harness refinement as first-class long-term state
+caveats:
+  - It is explicitly not a security sandbox and runs generated code with the
+    user's permissions
+  - A newer beta build exists, but v0.10.5 is the newest retained stable release
+sources:
+  - https://raw.githubusercontent.com/PrimeIntellect-ai/prime-agent/783acb5d72a9b23f97fa4a793a67d421b3ec402d/README.md
+  - https://raw.githubusercontent.com/PrimeIntellect-ai/prime-agent/783acb5d72a9b23f97fa4a793a67d421b3ec402d/LICENSE
+  - https://github.com/PrimeIntellect-ai/prime-agent/releases.atom
+  - https://github.com/PrimeIntellect-ai/prime-agent/releases/tag/v0.10.5

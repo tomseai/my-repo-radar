@@ -66,7 +66,7 @@ caveats:
   - It is an educational reference, not a production architecture framework or a prescriptive design standard
   - The README identifies some content as under development, including portions of distributed-computing material
   - Linked articles, company architectures, and engineering blogs are maintained outside this repository
-  - The cached releases feed has no entries, so no latest versioned release can be established
+  - The release feed contains a pre-2026-refresh snapshot, not a versioned product release
 sources:
   - https://raw.githubusercontent.com/donnemartin/system-design-primer/ae9bbd7b02d90b9866215de185217d33f39ab733/README.md
   - https://raw.githubusercontent.com/donnemartin/system-design-primer/ae9bbd7b02d90b9866215de185217d33f39ab733/LICENSE.txt

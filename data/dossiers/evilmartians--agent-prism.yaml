@@ -2,9 +2,9 @@ schema_version: 2
 repository_id: github:evilmartians/agent-prism
 research:
   state: complete
-  source_commit: 40fae63f1dd3e450877fe96a6f35184e470b23c9
-  bundle_collected_at: 2026-07-19T20:42:47.555Z
-  researched_at: 2026-07-20T00:22:00Z
+  source_commit: 4fd371b5e4f25acd04278e94a0d4b21e543eb42c
+  bundle_collected_at: 2026-11-22T12:09:24.459Z
+  researched_at: 2026-11-22T12:23:44Z
   confidence: high
 classification:
   primary_category: frontend-and-design
@@ -18,23 +18,30 @@ project:
   name: AgentPrism
   kind: library
   summary: >-
-    An alpha React component library for exploring AI-agent traces as hierarchical
-    timelines, using adapters that normalize OpenTelemetry and Langfuse data.
+    An alpha React component library for exploring AI-agent traces as
+    hierarchical timelines, using adapters that normalize OpenTelemetry and
+    Langfuse data.
   best_for:
     - React teams building custom trace viewers for AI-agent debugging
-    - Developers who need to inspect LLM calls, tool executions, and workflow spans
+    - Developers who need to inspect LLM calls, tool executions, and workflow
+      spans
 key_features:
-  - Supplies a full TraceViewer with trace list, span tree, search, detail panel, and responsive layouts
-  - Provides composable TraceList, TreeView, and DetailsView components for custom layouts
-  - Normalizes OpenTelemetry and Langfuse data through adapters and shared trace types
-  - Recognizes OpenTelemetry GenAI, OpenInference, standard OpenTelemetry, and custom attributes
+  - Supplies a full TraceViewer with trace list, span tree, search, detail
+    panel, and responsive layouts
+  - Provides composable TraceList, TreeView, and DetailsView components for
+    custom layouts
+  - Normalizes OpenTelemetry and Langfuse data through adapters and shared trace
+    types
+  - Recognizes OpenTelemetry GenAI, OpenInference, standard OpenTelemetry, and
+    custom attributes
 usage:
   interfaces:
     - React component library
     - npm data and types packages
     - Storybook
   installation:
-    - npx degit evilmartians/agent-prism/packages/ui/src/components src/components/agent-prism
+    - npx degit evilmartians/agent-prism/packages/ui/src/components
+      src/components/agent-prism
     - npm install @evilmartians/agent-prism-data @evilmartians/agent-prism-types
   setup: moderate
 technology:
@@ -49,22 +56,28 @@ technology:
 license:
   spdx: MIT
   name: MIT License
-  notes: Permission to use, modify, distribute, sublicense, and sell is subject to retaining the copyright and permission notice.
+  notes: Permission to use, modify, distribute, sublicense, and sell is subject to
+    retaining the copyright and permission notice.
 status:
   lifecycle: experimental
   archived: false
   latest_release: null
   latest_release_at: null
 strengths:
-  - Gives a complete viewer for fast adoption while allowing individual components to be composed into a custom UI
+  - Gives a complete viewer for fast adoption while allowing individual
+    components to be composed into a custom UI
   - Handles two common trace formats and documents its normalized input shape
-  - Includes semantic theme tokens and responsive desktop and mobile viewer layouts
+  - Includes semantic theme tokens and responsive desktop and mobile viewer
+    layouts
 caveats:
   - The README explicitly labels the library alpha and warns that APIs may change
-  - UI source is copied into the consuming project, and the README requires React 19+, Tailwind CSS 3, and TypeScript
-  - The GitHub release feed contains no entries, so no primary-project release can be established
+  - UI source is copied into the consuming project, and the README requires
+    React 19+, Tailwind CSS 3, and TypeScript
+  - The GitHub release feed contains no entries, so no primary-project release
+    can be established
 sources:
-  - https://raw.githubusercontent.com/evilmartians/agent-prism/40fae63f1dd3e450877fe96a6f35184e470b23c9/readme.md
-  - https://raw.githubusercontent.com/evilmartians/agent-prism/40fae63f1dd3e450877fe96a6f35184e470b23c9/packages/data/package.json
-  - https://raw.githubusercontent.com/evilmartians/agent-prism/40fae63f1dd3e450877fe96a6f35184e470b23c9/LICENSE
+  - https://raw.githubusercontent.com/evilmartians/agent-prism/4fd371b5e4f25acd04278e94a0d4b21e543eb42c/readme.md
+  - https://raw.githubusercontent.com/evilmartians/agent-prism/4fd371b5e4f25acd04278e94a0d4b21e543eb42c/packages/data/package.json
+  - https://raw.githubusercontent.com/evilmartians/agent-prism/4fd371b5e4f25acd04278e94a0d4b21e543eb42c/LICENSE
   - https://github.com/evilmartians/agent-prism/releases.atom
+  - https://github.com/evilmartians/agent-prism/commit/4fd371b5e4f25acd04278e94a0d4b21e543eb42c

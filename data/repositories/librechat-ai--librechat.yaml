@@ -1,0 +1,101 @@
+analysis:
+  analyzed_at: "2026-11-22T12:25:03.789Z"
+  classification:
+    primary_category: "platforms-and-applications"
+    state: "provisional"
+    technologies:
+      - "docker"
+    topics:
+      - "ai-agents"
+      - "llms"
+      - "chat-ui"
+      - "authentication"
+      - "search"
+      - "self-hosted"
+      - "open-source"
+    use_cases:
+      - "run-personal-or-team-tools"
+      - "build-ai-products"
+      - "collaborate-on-work"
+  evidence:
+    - claim: A self-hosted multi-provider chat application with configurable agents
+        and access controls. It combines model endpoints, search, artifacts, and
+        agent tools in a single interface.
+      source_type: repository-file
+      url: https://raw.githubusercontent.com/LibreChat-AI/LibreChat/4700c44eb77c142b4f9f8b87476924f22890eb39/README.md
+      checked_at: 2026-11-22
+      confidence: high
+  state: "researched"
+  summary:
+    one_line: A self-hosted multi-provider chat application with configurable agents
+      and access controls.
+    why_useful: It combines model endpoints, search, artifacts, and agent tools in a
+      single interface.
+curation:
+  confidence: null
+  evidence: []
+  limitations: []
+  recommendation: null
+  reviewed_at: null
+  state: "uncurated"
+  strengths: []
+  verdict: null
+id: "github:LibreChat-AI/LibreChat"
+import:
+  github_snapshot:
+    archived: false
+    created_at: 2023-02-12T01:06:52Z
+    default_branch: main
+    description: "Enhanced ChatGPT Clone: Features Agents, MCP, Skills, DeepSeek,
+      Anthropic, AWS, OpenAI, Responses API, Azure, Groq, o1, GPT-5, Mistral,
+      OpenRouter, Vertex AI, Gemini, Artifacts, AI model switching, message
+      search, Code Interpreter, langchain, DALL-E-3, OpenAPI Actions, Functions,
+      Secure Multi-User Auth, Presets, open-source for self-hosting. Active"
+    disabled: false
+    fetched_at: 2026-11-22T12:07:00.148Z
+    fork: false
+    forks: 9775
+    homepage: https://librechat.ai/
+    latest_release: null
+    license_spdx: MIT
+    open_issues: 1139
+    primary_language: TypeScript
+    pushed_at: 2026-11-22T05:11:08Z
+    stars: 47405
+    topics:
+      - ai
+      - anthropic
+      - artifacts
+      - aws
+      - azure
+      - chatgpt
+      - chatgpt-clone
+      - claude
+      - clone
+      - deepseek
+      - gemini
+      - google
+      - gpt-5
+      - librechat
+      - mcp
+      - o1
+      - openai
+      - responses-api
+      - vision
+      - webui
+    updated_at: 2026-11-22T11:09:26Z
+  sources:
+    - observed_at: 2025-12-30T16:02:30Z
+      relation: starred
+      source_id: github:user:tomseai:stars
+      source_url: https://github.com/tomseai?tab=stars
+  state: transferred
+repository:
+  aliases:
+    - github:danny-avila/LibreChat
+  github_node_id: R_kgDOI8xhwA
+  host: github.com
+  name: LibreChat
+  owner: LibreChat-AI
+  url: https://github.com/LibreChat-AI/LibreChat
+version: 1

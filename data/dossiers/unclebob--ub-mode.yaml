@@ -1,0 +1,48 @@
+schema_version: 2
+repository_id: github:unclebob/ub-mode
+research:
+  state: complete
+  source_commit: 3da62bf3fcfd2034de41f30d920d2739e566171f
+  bundle_collected_at: 2026-11-22T11:26:57.893Z
+  researched_at: 2026-11-22T12:00:00Z
+  confidence: medium
+classification:
+  primary_category: ai-and-automation
+  topics: [coding-agents, agent-skills, testing, developer-productivity]
+project:
+  name: ub-mode
+  kind: plugin
+  summary: An agent skill prescribing disciplined software engineering practices and companion quality gates for coding work.
+  best_for: [Coding-agent users who want a prescriptive test-driven workflow]
+key_features:
+  - Promotes test-driven development, domain modeling, and boundary discipline
+  - Calls for root-cause fixes, behavior tests, and refactoring
+  - References companion complexity, duplication, mutation-testing, and visualization tools
+  - Provides guidance for logging, context management, and small commits
+usage:
+  interfaces: [agent skill]
+  installation: [copy skill file into an agent skills directory]
+  setup: moderate
+technology:
+  languages: []
+  notable_components: []
+license:
+  spdx: MIT
+  name: MIT License
+  notes: null
+status:
+  lifecycle: unknown
+  archived: false
+  latest_release: null
+  latest_release_at: null
+strengths:
+  - Combines engineering principles with named quality-gate tools
+  - Documents installation across several agent skill directories
+caveats:
+  - Companion quality-gate tools are separate repositories
+  - The retained bundle does not include the referenced SKILL.md, limiting verification of its detailed instructions
+  - The retained release feed has no entries
+sources:
+  - https://raw.githubusercontent.com/unclebob/ub-mode/3da62bf3fcfd2034de41f30d920d2739e566171f/README.md
+  - https://raw.githubusercontent.com/unclebob/ub-mode/3da62bf3fcfd2034de41f30d920d2739e566171f/LICENSE
+  - https://github.com/unclebob/ub-mode/releases.atom

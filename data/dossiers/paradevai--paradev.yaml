@@ -1,0 +1,95 @@
+schema_version: 2
+repository_id: github:ParadevAI/Paradev
+research:
+  state: complete
+  source_commit: fb2a331fc858a8bf98c4c60c43a330d4a821f6c2
+  bundle_collected_at: 2026-11-22T12:10:14.710Z
+  researched_at: 2026-11-22T12:25:08Z
+  confidence: high
+classification:
+  primary_category: developer-tools
+  topics:
+    - ai-agents
+    - coding-agents
+    - parallel-agents
+    - desktop-app
+    - cli
+    - agent-development-environments
+    - git
+    - worktrees
+    - mcp
+    - code-review
+project:
+  name: Paradev
+  kind: application
+  summary: >-
+    An open-source workspace for running coding agents in parallel with separate
+    Git worktrees, branches, and terminals, and for reviewing changes and
+    resuming work across devices.
+  best_for:
+    - Developers coordinating several CLI coding agents against the same
+      repository
+    - Teams that want worktree isolation, local review, and remote workspace
+      access
+key_features:
+  - Runs agents concurrently with a dedicated worktree, branch, and terminal per
+    task
+  - Supports local, cloud, and remote-machine workspaces
+  - Exposes workflow controls through a CLI, MCP server, and skills
+  - Provides mobile and web access for checking agent progress
+  - Includes diff, pull request, and merge handling in the app
+usage:
+  interfaces:
+    - desktop application
+    - web application
+    - mobile application
+    - CLI
+    - MCP server
+  installation:
+    - official macOS download or experimental Linux AppImage
+    - self-hosting from source
+  setup: moderate
+
+technology:
+  languages:
+    - TypeScript
+  notable_components:
+    - Electron
+    - React
+    - Bun workspaces
+    - Git worktrees
+    - Model Context Protocol
+
+license:
+  spdx: MIT
+  name: MIT License
+  notes: The root MIT license requires retaining its copyright and permission
+    notice in copies or substantial portions.
+
+status:
+  lifecycle: active
+  archived: false
+  latest_release: desktop-v2.0.11
+  latest_release_at: 2026-11-20
+
+strengths:
+  - Separates concurrent agent tasks with Git worktrees
+  - Combines progress monitoring, terminal access, and Git review in the same
+    workspace
+  - Supports both local and remote workflows with web and mobile access
+
+caveats:
+  - macOS is the primary desktop target; Linux is experimental and Windows is
+    not yet available. Remote execution depends on the selected environment.
+  - Worktrees separate files but do not sandbox agent processes.
+  - The project was previously named Superset; its CLI retains that name.
+  - Agents have separate authentication and installation requirements.
+  - The desktop, CLI, and canary builds follow separate release streams.
+
+sources:
+  - https://raw.githubusercontent.com/ParadevAI/Paradev/fb2a331fc858a8bf98c4c60c43a330d4a821f6c2/README.md
+  - https://raw.githubusercontent.com/ParadevAI/Paradev/fb2a331fc858a8bf98c4c60c43a330d4a821f6c2/LICENSE.md
+  - https://raw.githubusercontent.com/ParadevAI/Paradev/fb2a331fc858a8bf98c4c60c43a330d4a821f6c2/package.json
+  - https://raw.githubusercontent.com/ParadevAI/Paradev/fb2a331fc858a8bf98c4c60c43a330d4a821f6c2/apps/desktop/package.json
+  - https://github.com/ParadevAI/Paradev/releases.atom
+  - https://github.com/ParadevAI/Paradev/releases/tag/desktop-v2.0.11

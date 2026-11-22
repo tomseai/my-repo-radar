@@ -2,37 +2,39 @@
 
 # Libraries
 
-[Back to the main catalog](../README.md) | **33 repositories**
+[Back to the main catalog](../README.md) | **39 repositories**
 
 ## Primary categories represented
 
 - [AI and Automation](../categories/ai-and-automation.md) (8)
 - [Application Frameworks](../categories/application-frameworks.md) (6)
 - [Backend and APIs](../categories/backend-and-apis.md) (1)
+- [Collaboration and Productivity](../categories/collaboration-and-productivity.md) (2)
 - [Developer Tools](../categories/developer-tools.md) (6)
 - [Documentation and Learning](../categories/documentation-and-learning.md) (1)
-- [Frontend and Design](../categories/frontend-and-design.md) (9)
+- [Frontend and Design](../categories/frontend-and-design.md) (11)
 - [Security and Privacy](../categories/security-and-privacy.md) (1)
 - [Systems and Infrastructure](../categories/systems-and-infrastructure.md) (1)
+- [Testing and Quality](../categories/testing-and-quality.md) (2)
 
 <a id="repo-anomalyco--opentui"></a>
 
 ## [OpenTUI](https://github.com/anomalyco/opentui)
 
-A native terminal UI library with a Zig core, C ABI, and TypeScript bindings; it offers component-based layout and rendering primitives plus React and Solid reconcilers for building terminal applications.
+A terminal UI library with a Zig core, C ABI, Rust and TypeScript interfaces, and React and Solid rendering layers.
 
 - **Category:** [Application Frameworks](../categories/application-frameworks.md#repo-anomalyco--opentui)
 - **Topics:** [Terminal](../topics/terminal.md#repo-anomalyco--opentui) | [TUI](../topics/tui.md#repo-anomalyco--opentui) | [Libraries](../topics/libraries.md#repo-anomalyco--opentui) | [UI Components](../topics/ui-components.md#repo-anomalyco--opentui) | [Frameworks](../topics/frameworks.md#repo-anomalyco--opentui)
 - **Kind:** Library
-- **Best for:** Developers building terminal applications from TypeScript or JavaScript; Teams wanting a native core with optional React or Solid rendering layers
-- **Languages:** Zig, TypeScript
+- **Best for:** Developers building terminal applications in TypeScript or Rust; Teams wanting a native core with optional React or Solid rendering layers
+- **Languages:** Zig, TypeScript, Rust
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 12,594
+- **GitHub stars:** 13,886
 
 **Key features**
 
-  - Native Zig core that exposes a C ABI and TypeScript bindings
+  - Native Zig core with a C ABI and TypeScript and Rust interfaces
   - Component-based architecture with flexible terminal layout capabilities
   - Core package with imperative APIs and terminal primitives
 
@@ -49,7 +51,7 @@ A statically typed programming language and toolchain for defining reliable agen
 - **Languages:** Rust, TypeScript, Go
 - **License:** Apache-2.0
 - **Lifecycle:** Active
-- **GitHub stars:** 8,571
+- **GitHub stars:** 9,531
 
 **Key features**
 
@@ -70,7 +72,7 @@ A JavaScript and TypeScript library for calculating multiline text layout withou
 - **Languages:** TypeScript, JavaScript
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 49,223
+- **GitHub stars:** 51,087
 
 **Key features**
 
@@ -91,7 +93,7 @@ A TypeScript library that combines Markdown and React for technical content site
 - **Languages:** TypeScript
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 5,368
+- **GitHub stars:** 5,400
 
 **Key features**
 
@@ -112,7 +114,7 @@ A moved monorepo of Angular build packages that integrate Rsbuild and Rspack, in
 - **Languages:** TypeScript, JavaScript
 - **License:** MIT
 - **Lifecycle:** Deprecated
-- **GitHub stars:** 111
+- **GitHub stars:** 109
 
 **Key features**
 
@@ -133,13 +135,34 @@ A Python-distributed multilingual document-understanding model suite for OCR, la
 - **Languages:** Python
 - **License:** Apache-2.0
 - **Lifecycle:** Active
-- **GitHub stars:** 21,119
+- **GitHub stars:** 21,610
 
 **Key features**
 
   - Runs OCR, layout, reading-order, and table-recognition tasks through one shared VLM server
   - Provides separate models for text-line detection and OCR-error detection
   - Accepts images, PDFs, and directories through task-specific CLI commands and writes structured JSON
+
+<a id="repo-davidkpiano--useeffectreducer"></a>
+
+## [useEffectReducer](https://github.com/davidkpiano/useEffectReducer)
+
+A React hook that lets reducers describe effects alongside state transitions and executes the queued effects after React commits the state.
+
+- **Category:** [Frontend and Design](../categories/frontend-and-design.md#repo-davidkpiano--useeffectreducer)
+- **Topics:** [Frontend Development](../topics/frontend-development.md#repo-davidkpiano--useeffectreducer) | [Libraries](../topics/libraries.md#repo-davidkpiano--useeffectreducer)
+- **Kind:** Library
+- **Best for:** React developers coordinating asynchronous effects with reducer events
+- **Languages:** TypeScript
+- **License:** MIT
+- **Lifecycle:** Active
+- **GitHub stars:** 865
+
+**Key features**
+
+  - Queue effects to run after React commits state
+  - Stop or replace effects using effect entities and abort signals
+  - Dispatch events from asynchronous effects and run cleanup on stop
 
 <a id="repo-dicklesworthstone--asupersync"></a>
 
@@ -154,13 +177,13 @@ An experimental Rust async runtime that uses region-owned tasks, explicit cancel
 - **Languages:** Rust, JavaScript, TypeScript
 - **License:** LicenseRef-MIT-OpenAI-Anthropic-Rider
 - **Lifecycle:** Experimental
-- **GitHub stars:** 242
+- **GitHub stars:** 296
 
 **Key features**
 
   - Region-owned tasks that close to quiescence instead of detaching children
   - Request, drain, and finalize cancellation protocol for covered primitives
-  - Capability-gated runtime effects and obligation tracking
+  - Capability-gated runtime-managed effects and obligation tracking
 
 <a id="repo-effect-ts--effect"></a>
 
@@ -175,13 +198,13 @@ A TypeScript library and package monorepo for building type-safe, production-gra
 - **Languages:** TypeScript
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 14,938
+- **GitHub stars:** 17,650
 
 **Key features**
 
   - The primary effect package is presented as a TypeScript standard-library foundation for production software
   - A dedicated testing module is exported from the primary package
-  - Unstable primary-package exports cover AI, CLI, cluster, HTTP, observability, persistence, RPC, schema, SQL, workflow, and workers
+  - Primary-package exports cover AI, CLI, cluster, HTTP, observability, persistence, RPC, schema, SQL, workflow, and workers
 
 <a id="repo-evilmartians--agent-prism"></a>
 
@@ -196,7 +219,7 @@ An alpha React component library for exploring AI-agent traces as hierarchical t
 - **Languages:** TypeScript
 - **License:** MIT
 - **Lifecycle:** Experimental
-- **GitHub stars:** 373
+- **GitHub stars:** 410
 
 **Key features**
 
@@ -217,7 +240,7 @@ A framework and multi-language SDK set for exposing AI agents through A2A messag
 - **Languages:** Python, TypeScript, Kotlin
 - **License:** Apache-2.0
 - **Lifecycle:** Active
-- **GitHub stars:** 7,835
+- **GitHub stars:** 9,966
 
 **Key features**
 
@@ -229,7 +252,7 @@ A framework and multi-language SDK set for exposing AI agents through A2A messag
 
 ## [PayKit](https://github.com/getpaykit/paykit)
 
-An embedded TypeScript billing framework that keeps billing state in an application's database while managing products, subscriptions, entitlements, usage billing, and Stripe webhooks.
+An embedded Stripe billing framework for TypeScript that keeps billing state in an application's database while managing products, subscriptions, entitlements, usage billing, and Stripe webhooks.
 
 - **Category:** [Backend and APIs](../categories/backend-and-apis.md#repo-getpaykit--paykit)
 - **Topics:** [Payments](../topics/payments.md#repo-getpaykit--paykit) | [Backend Development](../topics/backend-development.md#repo-getpaykit--paykit) | [Libraries](../topics/libraries.md#repo-getpaykit--paykit) | [Developer Productivity](../topics/developer-productivity.md#repo-getpaykit--paykit) | [Open Source](../topics/open-source.md#repo-getpaykit--paykit)
@@ -238,34 +261,13 @@ An embedded TypeScript billing framework that keeps billing state in an applicat
 - **Languages:** TypeScript
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 1,007
+- **GitHub stars:** 1,074
 
 **Key features**
 
   - Define products, plans, and metered features in TypeScript
   - Manage subscriptions and feature entitlements through one application API
   - Track usage and monthly limits for metered features
-
-<a id="repo-github--copilot-sdk"></a>
-
-## [GitHub Copilot SDK](https://github.com/github/copilot-sdk)
-
-Multi-language SDKs for embedding the Copilot CLI agent runtime in an application, with programmable sessions, streaming responses, custom tools, file-editing workflows, permission handling, and lifecycle hooks.
-
-- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-github--copilot-sdk)
-- **Topics:** [AI Agents](../topics/ai-agents.md#repo-github--copilot-sdk) | [Coding Agents](../topics/coding-agents.md#repo-github--copilot-sdk) | [LLMs](../topics/llms.md#repo-github--copilot-sdk) | [Tool Use](../topics/tool-use.md#repo-github--copilot-sdk) | [Code Generation](../topics/code-generation.md#repo-github--copilot-sdk) | [Libraries](../topics/libraries.md#repo-github--copilot-sdk)
-- **Kind:** Library
-- **Best for:** Applications that need Copilot-powered agent workflows without implementing the runtime; Teams building agent-enabled products in TypeScript, Python, Go, .NET, Java, or Rust
-- **Languages:** TypeScript, Python, Go, C#, Java, Rust
-- **License:** MIT
-- **Lifecycle:** Active
-- **GitHub stars:** 9,926
-
-**Key features**
-
-  - SDKs for TypeScript/Node.js, Python, Go, .NET, Java, and Rust
-  - Programmatic agent sessions for prompts, planning, tool invocation, and file edits
-  - Custom agents, skills, and tools plus application-controlled permission handlers
 
 <a id="repo-githubnext--vitale"></a>
 
@@ -280,7 +282,7 @@ An archived VS Code notebook extension and companion Node.js package for TypeScr
 - **Languages:** TypeScript
 - **License:** MIT
 - **Lifecycle:** Archived
-- **GitHub stars:** 259
+- **GitHub stars:** 257
 
 **Key features**
 
@@ -301,11 +303,11 @@ A deep-learning file-content detector available as a Rust command-line tool and 
 - **Languages:** Rust, Python, TypeScript, Go
 - **License:** Apache-2.0
 - **Lifecycle:** Active
-- **GitHub stars:** 17,255
+- **GitHub stars:** 18,853
 
 **Key features**
 
-  - Classifies more than 200 binary and text content types using a compact model
+  - The development branch targets over 1,000 content types using a model, native format resolvers, and custom YARA rules
   - Scans individual files, standard input, batches, or directories recursively
   - Emits human-readable, MIME-type, label, JSON, JSONL, score, or custom output
 
@@ -322,7 +324,7 @@ A TypeScript library for building responsive, draggable, resizable dashboard gri
 - **Languages:** TypeScript, JavaScript
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 8,999
+- **GitHub stars:** 9,260
 
 **Key features**
 
@@ -343,13 +345,34 @@ An HTML presentation framework for authoring and presenting browser-based slide 
 - **Languages:** JavaScript, TypeScript, HTML, CSS
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 71,969
+- **GitHub stars:** 72,615
 
 **Key features**
 
   - Horizontal and nested vertical slides with configurable themes and transitions
   - Plugins for Markdown, syntax highlighting, math, speaker notes, search, and zoom
   - PDF export, speaker view, Auto-Animate, and a documented JavaScript API
+
+<a id="repo-hegeldev--hegel-typescript"></a>
+
+## [Hegel for TypeScript](https://github.com/hegeldev/hegel-typescript)
+
+The former home of Hegel for TypeScript, a property-based testing library now maintained in the Hegel monorepo.
+
+- **Category:** [Testing and Quality](../categories/testing-and-quality.md#repo-hegeldev--hegel-typescript)
+- **Topics:** [Testing](../topics/testing.md#repo-hegeldev--hegel-typescript) | [Libraries](../topics/libraries.md#repo-hegeldev--hegel-typescript) | [Reference](../topics/reference.md#repo-hegeldev--hegel-typescript)
+- **Kind:** Documentation
+- **Best for:** Finding the TypeScript library for testing properties with generated inputs
+- **Languages:** TypeScript
+- **License:** MIT
+- **Lifecycle:** Deprecated
+- **GitHub stars:** 79
+
+**Key features**
+
+  - The library supplies composable generators for test inputs
+  - Failing examples are shrunk and can be replayed
+  - Stateful tests can exercise generated operation sequences
 
 <a id="repo-honojs--hono"></a>
 
@@ -364,7 +387,7 @@ A small TypeScript web framework built on Web Standards for defining HTTP applic
 - **Languages:** TypeScript
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 31,399
+- **GitHub stars:** 33,013
 
 **Key features**
 
@@ -385,7 +408,7 @@ A JavaScript animation library for animating CSS properties, SVG, DOM attributes
 - **Languages:** JavaScript, TypeScript
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 71,196
+- **GitHub stars:** 74,968
 
 **Key features**
 
@@ -406,7 +429,7 @@ A curated reference directory for the LangChain ecosystem, covering the core fra
 - **Languages:** Unknown
 - **License:** CC0-1.0
 - **Lifecycle:** Active
-- **GitHub stars:** 9,461
+- **GitHub stars:** 9,601
 
 **Key features**
 
@@ -427,7 +450,7 @@ A Python framework for building agents and LLM-powered applications with composa
 - **Languages:** Python
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 142,094
+- **GitHub stars:** 149,975
 
 **Key features**
 
@@ -448,7 +471,7 @@ A TypeScript framework for assembling LLM-powered applications from interoperabl
 - **Languages:** TypeScript
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 17,964
+- **GitHub stars:** 18,357
 
 **Key features**
 
@@ -469,7 +492,7 @@ A low-level Python framework for building, managing, and deploying long-running 
 - **Languages:** Python
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 37,613
+- **GitHub stars:** 45,256
 
 **Key features**
 
@@ -490,13 +513,97 @@ A Python framework for building LLM applications through first-class agents and 
 - **Languages:** Python
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 4,077
+- **GitHub stars:** 4,153
 
 **Key features**
 
   - Agent and Task abstractions that coordinate hierarchical, recursive sub-task delegation
   - Message-based multi-agent orchestration inspired by the actor model
   - Pydantic-based typed tools and function calling with validation feedback
+
+<a id="repo-liveblocks--liveblocks"></a>
+
+## [Liveblocks](https://github.com/liveblocks/liveblocks)
+
+A collaboration SDK and hosted infrastructure for adding realtime synchronization, contextual comments, and notifications to web applications.
+
+- **Category:** [Collaboration and Productivity](../categories/collaboration-and-productivity.md#repo-liveblocks--liveblocks)
+- **Topics:** [Realtime Collaboration](../topics/realtime-collaboration.md#repo-liveblocks--liveblocks) | [Realtime](../topics/realtime.md#repo-liveblocks--liveblocks) | [AI Agents](../topics/ai-agents.md#repo-liveblocks--liveblocks) | [Frontend Development](../topics/frontend-development.md#repo-liveblocks--liveblocks) | [UI Components](../topics/ui-components.md#repo-liveblocks--liveblocks) | [Libraries](../topics/libraries.md#repo-liveblocks--liveblocks)
+- **Kind:** Monorepo
+- **Best for:** Product teams adding realtime collaboration without building synchronization infrastructure; React and JavaScript teams building collaborative editors and shared workspaces
+- **Languages:** TypeScript, Python
+- **License:** Mixed Apache-2.0 and AGPL-3.0-or-later licensing
+- **Lifecycle:** Active
+- **GitHub stars:** 4,773
+
+**Key features**
+
+  - Provides Sync, Comments, and Notifications products for composing collaboration features
+  - Supplies React, JavaScript, Node, REST, Python, and Yjs integrations, plus packages for React Flow, CodeMirror, and ProseMirror
+  - Includes collaborative UI components and presence, storage, and room primitives
+
+<a id="repo-microsoft--copilot-sdk"></a>
+
+## [Microsoft Copilot SDK](https://github.com/microsoft/copilot-sdk)
+
+Multi-language SDKs for embedding the Microsoft Copilot agent runtime behind Copilot CLI into an application, with programmable sessions, tool invocation, and application-controlled workflows.
+
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-microsoft--copilot-sdk)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-microsoft--copilot-sdk) | [Coding Agents](../topics/coding-agents.md#repo-microsoft--copilot-sdk) | [LLMs](../topics/llms.md#repo-microsoft--copilot-sdk) | [Tool Use](../topics/tool-use.md#repo-microsoft--copilot-sdk) | [Code Generation](../topics/code-generation.md#repo-microsoft--copilot-sdk) | [Libraries](../topics/libraries.md#repo-microsoft--copilot-sdk)
+- **Kind:** Library
+- **Best for:** Applications that need Copilot-powered agent workflows without implementing the runtime; Teams building agent-enabled products in TypeScript, Python, Go, .NET, Java, or Rust
+- **Languages:** TypeScript, Python, Go, C#, Java, Rust
+- **License:** MIT
+- **Lifecycle:** Active
+- **GitHub stars:** 10,700
+
+**Key features**
+
+  - SDKs for TypeScript/Node.js, Python, Go, .NET, Java, and Rust
+  - Programmatic agent sessions for prompts, planning, tool invocation, and file edits
+  - Custom agents, skills, and tools plus application-controlled permission handlers
+
+<a id="repo-moznion--cccc"></a>
+
+## [cccc](https://github.com/moznion/cccc)
+
+A Rust CLI and library for measuring cognitive and cyclomatic complexity across mixed-language source trees.
+
+- **Category:** [Testing and Quality](../categories/testing-and-quality.md#repo-moznion--cccc)
+- **Topics:** [CLI](../topics/cli.md#repo-moznion--cccc) | [Libraries](../topics/libraries.md#repo-moznion--cccc) | [Developer Productivity](../topics/developer-productivity.md#repo-moznion--cccc)
+- **Kind:** CLI
+- **Best for:** Developers reviewing complexity hotspots or enforcing thresholds in CI
+- **Languages:** Rust
+- **License:** MIT
+- **Lifecycle:** Active
+- **GitHub stars:** 614
+
+**Key features**
+
+  - Calculates cognitive and cyclomatic complexity for many programming languages
+  - Routes source files by extension to language-specific parsers
+  - Outputs JSON, tables, or simple per-function lines
+
+<a id="repo-obsidianmd--pele"></a>
+
+## [Pele](https://github.com/obsidianmd/pele)
+
+A synchronous renderer that turns supported Mermaid diagrams into SVG and exposes color and font styling through CSS variables.
+
+- **Category:** [Frontend and Design](../categories/frontend-and-design.md#repo-obsidianmd--pele)
+- **Topics:** [Visualization](../topics/visualization.md#repo-obsidianmd--pele) | [Libraries](../topics/libraries.md#repo-obsidianmd--pele) | [Frontend Development](../topics/frontend-development.md#repo-obsidianmd--pele)
+- **Kind:** Library
+- **Best for:** Applications rendering Mermaid diagrams with customizable styling
+- **Languages:** TypeScript
+- **License:** MIT
+- **Lifecycle:** Active
+- **GitHub stars:** 4,677
+
+**Key features**
+
+  - Supports the diagram types built into Mermaid 12.1.0
+  - Renders SVG synchronously or mounts responsive diagrams in the browser
+  - Uses CSS variables for colors and fonts
 
 <a id="repo-openai--whisper"></a>
 
@@ -511,7 +618,7 @@ A general-purpose Transformer speech-recognition model with Python and CLI tooli
 - **Languages:** Python
 - **License:** MIT
 - **Lifecycle:** Unknown
-- **GitHub stars:** 105,251
+- **GitHub stars:** 113,305
 
 **Key features**
 
@@ -532,7 +639,7 @@ A Rust workspace for high-performance JavaScript and TypeScript tooling. It prov
 - **Languages:** Rust, JavaScript, TypeScript
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 22,018
+- **GitHub stars:** 23,538
 
 **Key features**
 
@@ -553,7 +660,7 @@ A TypeScript monorepo for public packages that render code diffs and file trees,
 - **Languages:** TypeScript
 - **License:** Apache-2.0
 - **Lifecycle:** Active
-- **GitHub stars:** 5,444
+- **GitHub stars:** 6,638
 
 **Key features**
 
@@ -574,7 +681,7 @@ An atom-based state-management library for React that composes primitive and der
 - **Languages:** TypeScript, JavaScript
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 21,229
+- **GitHub stars:** 21,336
 
 **Key features**
 
@@ -595,7 +702,7 @@ A small, hook-based state-management library for React that creates stores witho
 - **Languages:** TypeScript, JavaScript
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 58,442
+- **GitHub stars:** 58,976
 
 **Key features**
 
@@ -615,8 +722,8 @@ An open-source browser platform for building Python applications with Pyodide or
 - **Best for:** Browser applications that need Python embedded directly in an HTML page; Prototypes and web experiences that can use Pyodide or MicroPython runtimes
 - **Languages:** Python, JavaScript, HTML
 - **License:** Apache-2.0
-- **Lifecycle:** Active
-- **GitHub stars:** 18,694
+- **Lifecycle:** Maintenance
+- **GitHub stars:** 18,670
 
 **Key features**
 
@@ -637,7 +744,7 @@ A TypeScript library that parses Git or unified diffs and renders them as format
 - **Languages:** TypeScript, JavaScript
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 3,389
+- **GitHub stars:** 3,433
 
 **Key features**
 
@@ -658,7 +765,7 @@ A Python plugin for Simon Willison's LLM command-line tool that exposes OpenAI m
 - **Languages:** Python
 - **License:** Apache-2.0
 - **Lifecycle:** Unknown
-- **GitHub stars:** 110
+- **GitHub stars:** 117
 
 **Key features**
 
@@ -679,7 +786,7 @@ An ESM package of essential and utility TypeScript definitions for composing str
 - **Languages:** TypeScript
 - **License:** (MIT OR CC0-1.0)
 - **Lifecycle:** Active
-- **GitHub stars:** 17,305
+- **GitHub stars:** 17,551
 
 **Key features**
 
@@ -699,11 +806,32 @@ A shadcn/ui-based React component library and registry for adding customizable c
 - **Best for:** Teams building a customizable chat or generative-AI interface with Next.js; Projects that already use shadcn/ui, Tailwind CSS, and the AI SDK
 - **Languages:** TypeScript
 - **License:** Apache-2.0
-- **Lifecycle:** Active
-- **GitHub stars:** 2,242
+- **Lifecycle:** Maintenance
+- **GitHub stars:** 2,533
 
 **Key features**
 
   - Customizable React components for conversations, messages, code blocks, and reasoning displays
   - CLI installation of all components or individually selected components
   - shadcn/ui registry compatibility as an alternative installation path
+
+<a id="repo-yjs--yjs"></a>
+
+## [Yjs](https://github.com/yjs/yjs)
+
+A high-performance CRDT framework with shared data types for building collaborative and local-first applications across arbitrary network providers.
+
+- **Category:** [Collaboration and Productivity](../categories/collaboration-and-productivity.md#repo-yjs--yjs)
+- **Topics:** [Realtime Collaboration](../topics/realtime-collaboration.md#repo-yjs--yjs) | [Realtime](../topics/realtime.md#repo-yjs--yjs) | [Local First](../topics/local-first.md#repo-yjs--yjs) | [Libraries](../topics/libraries.md#repo-yjs--yjs) | [Frontend Development](../topics/frontend-development.md#repo-yjs--yjs)
+- **Kind:** Library
+- **Best for:** Developers implementing conflict-free collaborative state and editing; Applications that need offline changes, peer-to-peer sync, and eventual convergence
+- **Languages:** JavaScript
+- **License:** MIT
+- **Lifecycle:** Active
+- **GitHub stars:** 23,096
+
+**Key features**
+
+  - Provides shared Map, Array, Text, and XML-like data types with automatic merging
+  - Works independently of the network transport and supports peer-to-peer designs
+  - Supports offline editing, snapshots, undo and redo, and shared cursors

@@ -1,0 +1,86 @@
+schema_version: 2
+repository_id: github:CopilotKit/OpenIntelligentUI
+research:
+  state: complete
+  source_commit: 8391a94c1c3939c679e40ddd7bfc08a9ef690e70
+  bundle_collected_at: 2026-11-22T12:09:20.559Z
+  researched_at: 2026-11-22T12:23:57.983Z
+  confidence: medium
+classification:
+  primary_category: frontend-and-design
+  topics:
+    - ai-agents
+    - generative-ui
+    - web-ui
+    - mcp
+    - tool-use
+    - visualization
+project:
+  name: Open Intelligent UI
+  kind: starter-template
+  summary: An open-source CopilotKit and AG-UI chat application that can answer with
+    text, native components, or generated interactive tools and visualizations for
+    the current conversation.
+  best_for:
+    - Developers exploring agent-generated interactive interfaces in a Next.js
+      application
+    - Teams adapting CopilotKit and LangGraph patterns for stateful generative UI
+key_features:
+  - Streams free-form HTML and SVG widgets into a sandboxed iframe
+  - Registers agent-rendered React components, browser-side tools, tool renderers,
+    and human-in-the-loop UI
+  - Runs a Next.js frontend with a Python FastAPI/LangGraph agent service
+  - Includes an optional MCP server exposing skills, prompts, and a document-assembly
+    tool
+usage:
+  interfaces:
+    - Next.js web application
+    - Python agent service
+    - MCP server
+  installation:
+    - git clone
+    - make setup
+    - Render Blueprint deployment
+  setup: high
+technology:
+  languages:
+    - TypeScript
+    - Python
+  notable_components:
+    - Next.js
+    - CopilotKit
+    - LangGraph
+    - FastAPI
+    - Model Context Protocol
+license:
+  spdx: MIT
+  name: MIT License
+  notes: The retained LICENSE grants the standard MIT permissions, subject to retaining
+    its copyright and permission notice.
+status:
+  lifecycle: active
+  archived: false
+  latest_release: null
+  latest_release_at: null
+strengths:
+  - Demonstrates both constrained React components and free-form sandboxed generative
+    UI in one codebase
+  - Documents local development, deployment, architecture, state synchronization, and
+    MCP integration
+  - Includes explicit human-in-the-loop and browser-side tool patterns for
+    interactive agents
+caveats:
+  - Running the full example requires Node.js, pnpm, Python, and uv
+  - It is a showcase/template rather than a standalone reusable framework package
+  - The default agent requires an OpenAI API key and the Jev router requires a
+    TypeSafe API key; both can be supplied for a browser session
+  - The GitHub release feed contains no entries, so no project release can be
+    established
+  - Example visualizations are illustrative; launch verification requires a real
+    provider smoke test
+sources:
+  - https://raw.githubusercontent.com/CopilotKit/OpenIntelligentUI/8391a94c1c3939c679e40ddd7bfc08a9ef690e70/README.md
+  - https://raw.githubusercontent.com/CopilotKit/OpenIntelligentUI/8391a94c1c3939c679e40ddd7bfc08a9ef690e70/docs/generative-ui.md
+  - https://raw.githubusercontent.com/CopilotKit/OpenIntelligentUI/8391a94c1c3939c679e40ddd7bfc08a9ef690e70/docs/getting-started.md
+  - https://raw.githubusercontent.com/CopilotKit/OpenIntelligentUI/8391a94c1c3939c679e40ddd7bfc08a9ef690e70/LICENSE
+  - https://github.com/CopilotKit/OpenIntelligentUI/releases.atom

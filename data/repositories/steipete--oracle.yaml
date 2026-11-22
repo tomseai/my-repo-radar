@@ -13,15 +13,19 @@ analysis:
     use_cases:
       - "improve-developer-workflow"
   evidence:
-    - claim: "Oracle is a CLI that bundles prompts and project files for contextual consultations with one or more AI models through API, browser automation, and manual-copy workflows."
+    - claim: "Oracle is a CLI that bundles prompts and project files for contextual
+        consultations with one or more AI models through API, browser
+        automation, and manual-copy workflows."
       source_type: "repository-file"
       url: "https://github.com/steipete/oracle/blob/main/README.md"
       checked_at: "2026-07-19"
       confidence: "high"
   state: "complete"
   summary:
-    one_line: "A CLI for consulting AI models with a prompt and selected project context."
-    why_useful: "It supports contextual code review and problem-solving across multiple model providers."
+    one_line: "A CLI for consulting AI models with a prompt and selected project
+      context."
+    why_useful: "It supports contextual code review and problem-solving across
+      multiple model providers."
 curation:
   confidence: null
   evidence: []
@@ -35,36 +39,40 @@ id: "github:steipete/oracle"
 import:
   github_snapshot:
     archived: false
-    created_at: "2025-11-14T17:13:57Z"
-    default_branch: "main"
-    description: "Ask the oracle when you're stuck. Invoke GPT-5 Pro with a custom context and files."
+    created_at: 2025-11-14T17:13:57Z
+    default_branch: main
+    description: Ask the oracle when you're stuck. Invoke GPT-5 Pro with a custom
+      context and files.
     disabled: false
-    fetched_at: "2026-07-19T19:16:14.796Z"
+    fetched_at: 2026-11-22T12:07:00.148Z
     fork: false
-    forks: 326
-    homepage: "https://askoracle.sh"
-    latest_release: null
-    license_spdx: "MIT"
-    open_issues: 9
-    primary_language: "TypeScript"
-    pushed_at: "2026-07-18T22:06:32Z"
-    stars: 3277
+    forks: 433
+    homepage: https://askoracle.sh
+    latest_release:
+      tag: v0.23.1
+      published_at: 2026-11-16T06:58:22Z
+      url: https://github.com/steipete/oracle/releases/tag/v0.23.1
+    license_spdx: MIT
+    open_issues: 10
+    primary_language: TypeScript
+    pushed_at: 2026-11-21T04:19:04Z
+    stars: 4074
     topics:
-      - "agents"
-      - "ai"
-      - "anthropic"
-      - "gemini-pro"
-      - "gpt-5-pro"
-      - "openai"
-      - "opus"
-      - "sonnet"
-    updated_at: "2026-07-19T16:04:43Z"
+      - agents
+      - ai
+      - anthropic
+      - gemini-pro
+      - gpt-5-pro
+      - openai
+      - opus
+      - sonnet
+    updated_at: 2026-11-22T04:44:29Z
   sources:
-    - observed_at: "2026-04-25T21:42:22Z"
-      relation: "starred"
-      source_id: "github:user:tomseai:stars"
-      source_url: "https://github.com/tomseai?tab=stars"
-  state: "imported"
+    - observed_at: 2026-04-25T21:42:22Z
+      relation: starred
+      source_id: github:user:tomseai:stars
+      source_url: https://github.com/tomseai?tab=stars
+  state: refreshed
 repository:
   aliases: []
   github_node_id: "R_kgDOQVzqjA"

@@ -6,8 +6,8 @@
 
 ## Primary categories represented
 
-- [AI and Automation](../categories/ai-and-automation.md) (7)
-- [Developer Tools](../categories/developer-tools.md) (2)
+- [AI and Automation](../categories/ai-and-automation.md) (8)
+- [Developer Tools](../categories/developer-tools.md) (1)
 - [Platforms and Applications](../categories/platforms-and-applications.md) (2)
 
 <a id="repo-arunalabs--mode"></a>
@@ -23,7 +23,7 @@ A Visual Studio Code extension that provides chat, autonomous coding, contextual
 - **Languages:** TypeScript
 - **License:** MIT
 - **Lifecycle:** Unknown
-- **GitHub stars:** 69
+- **GitHub stars:** 70
 
 **Key features**
 
@@ -44,13 +44,34 @@ A Docker Compose starter template for assembling a self-hosted local-AI and low-
 - **Languages:** Python, YAML
 - **License:** Apache-2.0
 - **Lifecycle:** Active
-- **GitHub stars:** 3,735
+- **GitHub stars:** 3,789
 
 **Key features**
 
   - Combines Ollama, n8n, Open WebUI, Supabase, Qdrant, Neo4j, Flowise, SearXNG, Caddy, and Langfuse in one Compose configuration
   - Includes pre-built n8n RAG-agent workflows and instructions for connecting them to Open WebUI
   - Offers CPU, NVIDIA GPU, and AMD GPU Compose profiles for the Ollama service
+
+<a id="repo-copilotkit--openbot"></a>
+
+## [OpenBot](https://github.com/CopilotKit/OpenBot)
+
+A self-hostable workspace for AI coworkers that connects built-in or external AG-UI agents to governed browser, file, shell, and tool access, with desktop and Kubernetes deployment.
+
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-copilotkit--openbot)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-copilotkit--openbot) | [Agent Governance](../topics/agent-governance.md#repo-copilotkit--openbot) | [Agent Protocols](../topics/agent-protocols.md#repo-copilotkit--openbot) | [Computer Use](../topics/computer-use.md#repo-copilotkit--openbot) | [Browser Automation](../topics/browser-automation.md#repo-copilotkit--openbot) | [Tool Use](../topics/tool-use.md#repo-copilotkit--openbot) | [MCP](../topics/mcp.md#repo-copilotkit--openbot) | [Agent Skills](../topics/agent-skills.md#repo-copilotkit--openbot) | [Generative UI](../topics/generative-ui.md#repo-copilotkit--openbot) | [Chat UI](../topics/chat-ui.md#repo-copilotkit--openbot) | [Self Hosted](../topics/self-hosted.md#repo-copilotkit--openbot) | [Sandboxing](../topics/sandboxing.md#repo-copilotkit--openbot) | [Automation](../topics/automation.md#repo-copilotkit--openbot) | [Local Models](../topics/local-models.md#repo-copilotkit--openbot)
+- **Kind:** Starter Template
+- **Best for:** Teams building self-hosted AI coworkers that operate browsers, files, and external tools; Developers bringing AG-UI agents into a governed multi-user web workspace
+- **Languages:** TypeScript, Python
+- **License:** MIT
+- **Lifecycle:** Active
+- **GitHub stars:** 13,167
+
+**Key features**
+
+  - Supports one computer per person and optional per-Bot containers, depending on deployment configuration
+  - Evaluates policy and records an audit event before the action gateway executes an approved computer action
+  - Supports human takeover for login and two-factor authentication
 
 <a id="repo-iofficeai--aionui"></a>
 
@@ -65,7 +86,7 @@ An open-source, cross-platform cowork application that supplies a built-in AI ag
 - **Languages:** TypeScript
 - **License:** Apache-2.0
 - **Lifecycle:** Active
-- **GitHub stars:** 30,446
+- **GitHub stars:** 34,431
 
 **Key features**
 
@@ -86,7 +107,7 @@ A self-hostable personal AI application that combines LLM chat, semantic search 
 - **Languages:** Python, TypeScript
 - **License:** AGPL-3.0-or-later
 - **Lifecycle:** Active
-- **GitHub stars:** 35,878
+- **GitHub stars:** 38,206
 
 **Key features**
 
@@ -107,7 +128,7 @@ A Python framework for building LLM applications through first-class agents and 
 - **Languages:** Python
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 4,077
+- **GitHub stars:** 4,153
 
 **Key features**
 
@@ -128,7 +149,7 @@ Docker Compose template for a self-hosted n8n environment with Ollama, Qdrant, a
 - **Languages:** YAML
 - **License:** Apache-2.0
 - **Lifecycle:** Active
-- **GitHub stars:** 15,094
+- **GitHub stars:** 15,383
 
 **Key features**
 
@@ -149,7 +170,7 @@ A desktop application and Python client for downloading and running local large 
 - **Languages:** C++, Python
 - **License:** MIT
 - **Lifecycle:** Unknown
-- **GitHub stars:** 77,392
+- **GitHub stars:** 77,328
 
 **Key features**
 
@@ -170,34 +191,13 @@ A self-hosted, offline-capable AI platform and web interface for local Ollama mo
 - **Languages:** Python, TypeScript, Svelte
 - **License:** Open WebUI License and prior original licenses
 - **Lifecycle:** Active
-- **GitHub stars:** 145,966
+- **GitHub stars:** 159,254
 
 **Key features**
 
   - Connects Ollama and OpenAI-compatible model APIs
   - Provides RAG with document extraction, vector stores, hybrid search, and reranking
   - Extends chats with filters, actions, pipes, tools, skills, MCP, MCPO, and OpenAPI servers
-
-<a id="repo-samuelfaj--distill"></a>
-
-## [distill](https://github.com/samuelfaj/distill)
-
-A command-line tool that compresses agent command output into targeted answers for downstream LLMs, using a locally onboarded small language model.
-
-- **Category:** [Developer Tools](../categories/developer-tools.md#repo-samuelfaj--distill)
-- **Topics:** [AI Agents](../topics/ai-agents.md#repo-samuelfaj--distill) | [Coding Agents](../topics/coding-agents.md#repo-samuelfaj--distill) | [CLI](../topics/cli.md#repo-samuelfaj--distill) | [LLMs](../topics/llms.md#repo-samuelfaj--distill) | [Developer Productivity](../topics/developer-productivity.md#repo-samuelfaj--distill) | [Local Models](../topics/local-models.md#repo-samuelfaj--distill)
-- **Kind:** CLI
-- **Best for:** Coding-agent workflows that need to reduce log or test-output context; Developers who can allocate memory for its local-model runtime
-- **Languages:** TypeScript
-- **License:** MIT
-- **Lifecycle:** Active
-- **GitHub stars:** 651
-
-**Key features**
-
-  - A distill command that accepts piped command output and a task prompt
-  - Onboarding for the bundled local-model workflow
-  - A documented 1.7B, 4-bit expert language model
 
 <a id="repo-stackblitz-labs--bolt.diy"></a>
 
@@ -212,11 +212,11 @@ An open-source, self-hostable version of Bolt.new for AI-assisted web developmen
 - **Languages:** TypeScript, JavaScript
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 19,622
+- **GitHub stars:** 20,117
 
 **Key features**
 
-  - Selects from 19-plus documented cloud and local AI-provider integrations through the Vercel AI SDK
+  - Supports more than 22 documented cloud and local model providers through the Vercel AI SDK
   - Provides web, Docker, and Electron desktop deployment options
   - Includes settings for cloud keys, Ollama, LM Studio, and OpenAI-compatible base URLs
 
@@ -233,7 +233,7 @@ An AI memory and context platform repository containing a hosted API, client int
 - **Languages:** TypeScript, Python
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 28,484
+- **GitHub stars:** 31,686
 
 **Key features**
 

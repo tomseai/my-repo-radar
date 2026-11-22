@@ -2,9 +2,9 @@ schema_version: 2
 repository_id: github:alexgreensh/token-optimizer
 research:
   state: complete
-  source_commit: 4bdcc043bc67abd760a08bd33bee6546df68df50
-  bundle_collected_at: 2026-07-19T20:41:34.943Z
-  researched_at: 2026-07-20T00:40:00+02:00
+  source_commit: e3f1a2dcad8d8999096b8a881c4d98cdba4ef1a5
+  bundle_collected_at: 2026-11-22T12:09:01.498Z
+  researched_at: 2026-11-22T12:28:55.072Z
   confidence: high
 classification:
   primary_category: ai-and-automation
@@ -21,14 +21,19 @@ project:
     token use, installs hooks for compression and continuity, and records
     session-level token, cost, and context-quality information in a dashboard.
   best_for:
-    - Users of supported coding assistants who want to inspect and reduce context waste
+    - Users of supported coding assistants who want to inspect and reduce
+      context waste
     - Developers who want automatic session checkpoints and token-use diagnostics
 key_features:
-  - Installs hooks that apply output, Bash-output, search-result, and context compression
-  - Creates progressive checkpoints and a context digest to support session continuation after compaction
-  - Provides a dashboard and quality score for session token, cost, and efficiency signals
+  - Installs hooks that apply output, Bash-output, search-result, and context
+    compression
+  - Creates progressive checkpoints and a context digest to support session
+    continuation after compaction
+  - Provides a dashboard and quality score for session token, cost, and
+    efficiency signals
   - Includes audit and coaching workflows based on retained session data
-  - Documents integrations for Claude Code, Codex, OpenCode, OpenClaw, Hermes, and GitHub Copilot beta
+  - Documents integrations for Claude Code, Codex, OpenCode, OpenClaw, Hermes,
+    and GitHub Copilot beta
 usage:
   interfaces:
     - coding-assistant plugins and hooks
@@ -53,26 +58,35 @@ license:
   spdx: PolyForm-Noncommercial-1.0.0
   name: PolyForm Noncommercial License 1.0.0
   notes: >-
-    Use is limited to permitted noncommercial purposes; redistribution must
-    include the terms and required notice, and the license does not grant
-    sublicensing or transfer rights.
+    PolyForm Noncommercial is supplemented by an internal business-use grant
+    for organizations with fewer than five people and average monthly gross
+    revenue below USD 20,000. The limits apply across entities under common
+    control.
 status:
   lifecycle: active
   archived: false
-  latest_release: v5.11.51
-  latest_release_at: 2026-07-19
+  latest_release: v5.13.75
+  latest_release_at: 2026-11-19
 strengths:
-  - Combines token diagnostics, automatic interventions, and session-continuity tooling in one supported-assistant integration
-  - Documents several installation paths instead of requiring a single coding-assistant runtime
-  - Distinguishes measured, estimated, and opportunity savings in its retained methodology
+  - Combines token diagnostics, automatic interventions, and session-continuity
+    tooling in one supported-assistant integration
+  - Documents several installation paths instead of requiring a single
+    coding-assistant runtime
+  - Separates metered actions from estimated savings in its dashboard
 caveats:
-  - The project’s claimed savings are based on user-session measurements and counterfactual estimates, not a controlled comparison
-  - Feature availability and setup differ by coding-assistant integration; GitHub Copilot support is marked beta
-  - The PolyForm Noncommercial license does not authorize commercial use without a separate permission path
-  - The retained source describes Python 3.9+ and platform-specific hook behavior, so installation should be checked for the chosen assistant and OS
+  - The project reports metered session data and modeled savings separately.
+    Upstream describes a small output-token comparison and says it has yet to
+    run a task pass-rate study.
+  - Feature availability and setup differ by coding-assistant integration;
+    GitHub Copilot support is marked beta
+  - The small-business permission covers internal use. External hosting,
+    redistribution, and other commercial uses require separate terms.
+  - The retained source describes Python 3.9+ and platform-specific hook
+    behavior, so installation should be checked for the chosen assistant and OS
 sources:
-  - https://raw.githubusercontent.com/alexgreensh/token-optimizer/4bdcc043bc67abd760a08bd33bee6546df68df50/README.md
-  - https://raw.githubusercontent.com/alexgreensh/token-optimizer/4bdcc043bc67abd760a08bd33bee6546df68df50/LICENSE
-  - https://raw.githubusercontent.com/alexgreensh/token-optimizer/4bdcc043bc67abd760a08bd33bee6546df68df50/docs/METHODOLOGY.md
-  - https://raw.githubusercontent.com/alexgreensh/token-optimizer/4bdcc043bc67abd760a08bd33bee6546df68df50/docs/codex.md
+  - https://raw.githubusercontent.com/alexgreensh/token-optimizer/e3f1a2dcad8d8999096b8a881c4d98cdba4ef1a5/README.md
+  - https://raw.githubusercontent.com/alexgreensh/token-optimizer/e3f1a2dcad8d8999096b8a881c4d98cdba4ef1a5/LICENSE
+  - https://raw.githubusercontent.com/alexgreensh/token-optimizer/e3f1a2dcad8d8999096b8a881c4d98cdba4ef1a5/LICENSE-SMALL-BUSINESS.md
+  - https://raw.githubusercontent.com/alexgreensh/token-optimizer/e3f1a2dcad8d8999096b8a881c4d98cdba4ef1a5/docs/codex.md
   - https://github.com/alexgreensh/token-optimizer/releases.atom
+  - https://github.com/alexgreensh/token-optimizer/releases/tag/v5.13.75

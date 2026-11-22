@@ -2,12 +2,13 @@
 
 # Multimodal
 
-[Back to the main catalog](../README.md) | **9 repositories**
+[Back to the main catalog](../README.md) | **10 repositories**
 
 ## Primary categories represented
 
 - [AI and Automation](../categories/ai-and-automation.md) (7)
 - [Documentation and Learning](../categories/documentation-and-learning.md) (2)
+- [Frontend and Design](../categories/frontend-and-design.md) (1)
 
 <a id="repo-anthropics--claude-cookbooks"></a>
 
@@ -22,7 +23,7 @@ A collection of copyable code snippets, notebooks, and guides for building with 
 - **Languages:** Python, Jupyter Notebook
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 49,160
+- **GitHub stars:** 55,016
 
 **Key features**
 
@@ -43,7 +44,7 @@ A categorized collection of independently runnable AI application examples and t
 - **Languages:** Python, JavaScript
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 13,208
+- **GitHub stars:** 16,774
 
 **Key features**
 
@@ -64,7 +65,7 @@ A Python framework, built on CAMEL-AI, for composing collaborating agents that a
 - **Languages:** Python
 - **License:** Apache-2.0
 - **Lifecycle:** Active
-- **GitHub stars:** 19,976
+- **GitHub stars:** 20,193
 
 **Key features**
 
@@ -85,13 +86,34 @@ A Python-distributed multilingual document-understanding model suite for OCR, la
 - **Languages:** Python
 - **License:** Apache-2.0
 - **Lifecycle:** Active
-- **GitHub stars:** 21,119
+- **GitHub stars:** 21,610
 
 **Key features**
 
   - Runs OCR, layout, reading-order, and table-recognition tasks through one shared VLM server
   - Provides separate models for text-line detection and OCR-error detection
   - Accepts images, PDFs, and directories through task-specific CLI commands and writes structured JSON
+
+<a id="repo-heygen-com--hyperframes"></a>
+
+## [Hyperframes](https://github.com/heygen-com/hyperframes)
+
+A deterministic HTML and CSS video framework with a local CLI, preview and rendering workflow, SDK, hosted execution options, and reusable skills for AI agents.
+
+- **Category:** [Frontend and Design](../categories/frontend-and-design.md#repo-heygen-com--hyperframes)
+- **Topics:** [Multimodal](../topics/multimodal.md#repo-heygen-com--hyperframes) | [Agent Skills](../topics/agent-skills.md#repo-heygen-com--hyperframes) | [CLI](../topics/cli.md#repo-heygen-com--hyperframes) | [Web](../topics/web.md#repo-heygen-com--hyperframes) | [Automation](../topics/automation.md#repo-heygen-com--hyperframes) | [Generative UI](../topics/generative-ui.md#repo-heygen-com--hyperframes)
+- **Kind:** Framework
+- **Best for:** Developers generating videos from familiar web technologies; Agents automating repeatable product, explainer, caption, and motion-graphics videos
+- **Languages:** TypeScript
+- **License:** Apache-2.0
+- **Lifecycle:** Active
+- **GitHub stars:** 88,021
+
+**Key features**
+
+  - Renders HTML, CSS, media, and seekable animations to MP4 deterministically
+  - Provides init, preview, and render commands plus SDK and studio workflows
+  - Bundles reusable agent skills for common video-production tasks
 
 <a id="repo-microsoft--omniparser"></a>
 
@@ -106,7 +128,7 @@ A Python-based screen-parsing project that turns UI screenshots into structured,
 - **Languages:** Python, Jupyter Notebook
 - **License:** CC-BY-4.0
 - **Lifecycle:** Active
-- **GitHub stars:** 25,175
+- **GitHub stars:** 25,633
 
 **Key features**
 
@@ -127,7 +149,7 @@ A Python-centered OCR and document-understanding toolkit that converts images an
 - **Languages:** Python, TypeScript, Go, Java, Kotlin
 - **License:** Apache-2.0
 - **Lifecycle:** Active
-- **GitHub stars:** 85,803
+- **GitHub stars:** 92,998
 
 **Key features**
 
@@ -148,7 +170,7 @@ An open-source Python framework for real-time voice and multimodal conversationa
 - **Languages:** Python
 - **License:** BSD-2-Clause
 - **Lifecycle:** Active
-- **GitHub stars:** 13,575
+- **GitHub stars:** 17,374
 
 **Key features**
 
@@ -169,7 +191,7 @@ A Go-based AI-agent application distributed as a small cross-architecture binary
 - **Languages:** Go, TypeScript
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 29,690
+- **GitHub stars:** 30,148
 
 **Key features**
 
@@ -190,7 +212,7 @@ A TypeScript CLI and package that uses Google Gemini models to analyze meeting a
 - **Languages:** TypeScript
 - **License:** Apache-2.0
 - **Lifecycle:** Unknown
-- **GitHub stars:** 567
+- **GitHub stars:** 568
 
 **Key features**
 

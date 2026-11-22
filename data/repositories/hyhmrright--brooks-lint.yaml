@@ -1,0 +1,104 @@
+analysis:
+  analyzed_at: "2026-08-16T09:45:00.000Z"
+  classification:
+    primary_category: "testing-and-quality"
+    state: "confirmed"
+    technologies:
+      - "javascript"
+      - "nodejs"
+    topics:
+      - "coding-agents"
+      - "agent-skills"
+      - "code-review"
+      - "testing"
+      - "evaluation"
+      - "visualization"
+      - "documentation"
+      - "automation"
+      - "developer-productivity"
+    use_cases:
+      - "test-software"
+      - "improve-developer-workflow"
+      - "learn-and-reference"
+  evidence:
+    - claim: "brooks-lint packages six AI-assisted code, architecture, debt, test,
+        health, and sweep review modes as portable agent skills."
+      source_type: "repository-file"
+      url: "https://raw.githubusercontent.com/hyhmrright/brooks-lint/d4b5c40804e65cf8\
+        176a2845b233f2586f3e7c37/README.md"
+      checked_at: "2026-08-16"
+      confidence: "high"
+  state: "complete"
+  summary:
+    one_line: "Portable agent skills for structured code, architecture, debt, and
+      test-quality reviews."
+    why_useful: "It turns broad engineering principles into consistent review
+      formats, risk dimensions, and actionable remedies."
+curation:
+  confidence: null
+  evidence: []
+  limitations: []
+  recommendation: null
+  reviewed_at: null
+  state: "uncurated"
+  strengths: []
+  verdict: null
+id: "github:hyhmrright/brooks-lint"
+import:
+  github_snapshot:
+    archived: false
+    created_at: 2026-03-26T11:40:33Z
+    default_branch: main
+    description: "Portable AI code quality reviews for Codex, Cursor, Copilot and
+      other coding agents: six Agent Skills for architecture, technical debt,
+      tests and remediation."
+    disabled: false
+    fetched_at: 2026-11-22T12:07:00.148Z
+    fork: false
+    forks: 75
+    homepage: https://hyhmrright.github.io/brooks-lint/
+    latest_release:
+      tag: v2.0.0
+      published_at: 2026-11-17T01:51:37Z
+      url: https://github.com/hyhmrright/brooks-lint/releases/tag/v2.0.0
+    license_spdx: MIT
+    open_issues: 0
+    primary_language: HTML
+    pushed_at: 2026-11-20T06:40:01Z
+    stars: 1585
+    topics:
+      - agent-skills
+      - ai-code-review
+      - architecture-review
+      - claude-code-plugin
+      - clean-architecture
+      - code-health
+      - code-quality
+      - code-review
+      - codex-cli-plugin
+      - cursor
+      - deepseek-harness
+      - developer-tools
+      - dsh-plugin
+      - gemini-cli-extension
+      - github-copilot
+      - npm-package
+      - opencode
+      - refactoring
+      - tech-debt
+      - test-quality
+    updated_at: 2026-11-22T04:58:47Z
+  sources:
+    - observed_at: 2026-08-16T09:22:52Z
+      relation: starred
+      source_id: github:user:tomseai:stars
+      source_url: https://github.com/tomseai?tab=stars
+  state: refreshed
+repository:
+  aliases: []
+  github_node_id: "R_kgDORxXDnQ"
+  host: "github.com"
+  name: "brooks-lint"
+  owner: "hyhmrright"
+  url: "https://github.com/hyhmrright/brooks-lint"
+version: 1

@@ -2,9 +2,9 @@ schema_version: 2
 repository_id: github:addyosmani/agent-skills
 research:
   state: complete
-  source_commit: 2fbfa004a0192529bc997d103fc12f19a3804aab
-  bundle_collected_at: 2026-07-19T20:41:22.692Z
-  researched_at: 2026-07-19T22:20:06.386Z
+  source_commit: 8c99fa36d90068c82d547f7c12a9d67a3e95f4ee
+  bundle_collected_at: 2026-11-22T12:09:00.702Z
+  researched_at: 2026-11-22T12:30:21.522Z
   confidence: high
 classification:
   primary_category: ai-and-automation
@@ -21,17 +21,24 @@ project:
   name: Agent Skills
   kind: curated-list
   summary: >-
-    An MIT-licensed pack of 24 structured engineering-workflow skills, agent
-    personas, checklists, and lifecycle commands for AI coding agents.
+    An MIT-licensed engineering workflow pack with 26 reusable agent skills,
+    specialist review personas, shared checklists, and host-specific lifecycle
+    commands.
   best_for:
-    - Adding reusable, verification-oriented development workflows to compatible coding agents
-    - Selecting focused skills for specification, planning, implementation, testing, review, and shipping
+    - Adding reusable, verification-oriented development workflows to compatible
+      coding agents
+    - Selecting focused skills for specification, planning, implementation,
+      testing, review, and shipping
 key_features:
-  - 24 skills covering definition, planning, implementation, verification, review, and shipping workflows
-  - Eight lifecycle slash commands that activate related skills, including spec, plan, build, test, review, and ship
-  - Four specialist review personas for code review, testing, security, and web performance
-  - Shared checklists and a consistent skill format with triggers, process guidance, red flags, and verification criteria
-  - In-repository structural, trigger-routing, and opt-in behavioral skill evaluation framework
+  - 26 skills covering specification, planning, implementation, verification,
+    review, shipping, and skill selection
+  - Lifecycle commands through supported host adapters, including 10 command
+    wrappers for Claude Code and Gemini CLI
+  - Five specialist personas and seven shared reference checklists
+  - Structured workflow files with verification gates and reusable process
+    guidance
+  - Repository evaluation tooling for checking skill structure, routing, and
+    behavior
 usage:
   interfaces:
     - Markdown skill files
@@ -54,25 +61,32 @@ technology:
 license:
   spdx: MIT
   name: MIT License
-  notes: Permissive license; reuse, modification, distribution, and sublicensing are permitted with the copyright notice.
+  notes: Permissive license; reuse, modification, distribution, and sublicensing
+    are permitted with the copyright notice.
 status:
   lifecycle: active
   archived: false
-  latest_release: 0.6.4
-  latest_release_at: "2026-07-12"
+  latest_release: 0.6.17
+  latest_release_at: "2026-11-18"
 strengths:
-  - Covers the development lifecycle with explicit workflows and verification gates rather than generic prompts
-  - Supports both broad installation through the Skills CLI and documented integrations for several coding agents
-  - Combines skills with targeted review personas, shared checklists, and evaluation tooling
+  - Covers the development lifecycle with explicit workflows and verification
+    gates rather than generic prompts
+  - Supports both broad installation through the Skills CLI and documented
+    integrations for several coding agents
+  - Combines skills with targeted review personas, shared checklists, and
+    evaluation tooling
 caveats:
-  - Skill selection and enforcement depend on the capabilities and compliance of the host agent
-  - Integration features differ by agent; OpenCode has neither a native plugin system nor automatic skill routing
-  - Loading all skills at once wastes context; the project recommends loading only skills relevant to the task
-  - Per-skill installs can omit repository-root shared references used by some skills
+  - Workflow selection and enforcement depend on the host agent
+  - Installation and command support vary by host. Some Antigravity CLI versions
+    do not expose legacy command wrappers
+  - Selective installs may omit the shared review material carried by
+    whole-repository installs
 sources:
-  - https://raw.githubusercontent.com/addyosmani/agent-skills/2fbfa004a0192529bc997d103fc12f19a3804aab/README.md
-  - https://raw.githubusercontent.com/addyosmani/agent-skills/2fbfa004a0192529bc997d103fc12f19a3804aab/LICENSE
-  - https://raw.githubusercontent.com/addyosmani/agent-skills/2fbfa004a0192529bc997d103fc12f19a3804aab/docs/getting-started.md
-  - https://raw.githubusercontent.com/addyosmani/agent-skills/2fbfa004a0192529bc997d103fc12f19a3804aab/docs/opencode-setup.md
-  - https://raw.githubusercontent.com/addyosmani/agent-skills/2fbfa004a0192529bc997d103fc12f19a3804aab/docs/skill-anatomy.md
+  - https://raw.githubusercontent.com/addyosmani/agent-skills/8c99fa36d90068c82d547f7c12a9d67a3e95f4ee/README.md
+  - https://raw.githubusercontent.com/addyosmani/agent-skills/8c99fa36d90068c82d547f7c12a9d67a3e95f4ee/LICENSE
+  - https://raw.githubusercontent.com/addyosmani/agent-skills/8c99fa36d90068c82d547f7c12a9d67a3e95f4ee/docs/getting-started.md
+  - https://raw.githubusercontent.com/addyosmani/agent-skills/8c99fa36d90068c82d547f7c12a9d67a3e95f4ee/docs/opencode-setup.md
+  - https://raw.githubusercontent.com/addyosmani/agent-skills/8c99fa36d90068c82d547f7c12a9d67a3e95f4ee/docs/skill-anatomy.md
   - https://github.com/addyosmani/agent-skills/releases.atom
+  - https://github.com/addyosmani/agent-skills/releases/tag/0.6.17
+  - https://raw.githubusercontent.com/addyosmani/agent-skills/8c99fa36d90068c82d547f7c12a9d67a3e95f4ee/docs/antigravity-setup.md

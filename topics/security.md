@@ -2,14 +2,15 @@
 
 # Security
 
-[Back to the main catalog](../README.md) | **22 repositories**
+[Back to the main catalog](../README.md) | **24 repositories**
 
 ## Primary categories represented
 
 - [AI and Automation](../categories/ai-and-automation.md) (5)
+- [Developer Tools](../categories/developer-tools.md) (1)
 - [Documentation and Learning](../categories/documentation-and-learning.md) (6)
 - [Platforms and Applications](../categories/platforms-and-applications.md) (2)
-- [Security and Privacy](../categories/security-and-privacy.md) (6)
+- [Security and Privacy](../categories/security-and-privacy.md) (7)
 - [Systems and Infrastructure](../categories/systems-and-infrastructure.md) (2)
 - [Testing and Quality](../categories/testing-and-quality.md) (1)
 
@@ -26,7 +27,7 @@ A practical, beginner-oriented course that teaches AI-agent fundamentals, then i
 - **Languages:** Markdown
 - **License:** Apache-2.0
 - **Lifecycle:** Active
-- **GitHub stars:** 421
+- **GitHub stars:** 552
 
 **Key features**
 
@@ -47,7 +48,7 @@ A reusable workflow layer of skills, rules, hooks, MCP configuration, and instal
 - **Languages:** JavaScript, Python, Rust
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 231,183
+- **GitHub stars:** 308,632
 
 **Key features**
 
@@ -68,13 +69,13 @@ An experimental Rust async runtime that uses region-owned tasks, explicit cancel
 - **Languages:** Rust, JavaScript, TypeScript
 - **License:** LicenseRef-MIT-OpenAI-Anthropic-Rider
 - **Lifecycle:** Experimental
-- **GitHub stars:** 242
+- **GitHub stars:** 296
 
 **Key features**
 
   - Region-owned tasks that close to quiescence instead of detaching children
   - Request, drain, and finalize cancellation protocol for covered primitives
-  - Capability-gated runtime effects and obligation tracking
+  - Capability-gated runtime-managed effects and obligation tracking
 
 <a id="repo-dicklesworthstone--destructive_command_guard"></a>
 
@@ -89,7 +90,7 @@ A Rust command-line guard and pre-execution hook for AI coding agents that detec
 - **Languages:** Rust
 - **License:** MIT License with OpenAI/Anthropic Rider
 - **Lifecycle:** Active
-- **GitHub stars:** 5,151
+- **GitHub stars:** 6,373
 
 **Key features**
 
@@ -110,7 +111,7 @@ A curated, topic-organized reading list of accessible papers for software engine
 - **Languages:** Markdown, Python
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 6,548
+- **GitHub stars:** 6,636
 
 **Key features**
 
@@ -131,7 +132,7 @@ An MIT-licensed collection of skills and command-line tools that adds structured
 - **Languages:** TypeScript, Markdown
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 122,960
+- **GitHub stars:** 142,327
 
 **Key features**
 
@@ -152,7 +153,7 @@ A framework and multi-language SDK set for exposing AI agents through A2A messag
 - **Languages:** Python, TypeScript, Kotlin
 - **License:** Apache-2.0
 - **Lifecycle:** Active
-- **GitHub stars:** 7,835
+- **GitHub stars:** 9,966
 
 **Key features**
 
@@ -173,11 +174,11 @@ A deep-learning file-content detector available as a Rust command-line tool and 
 - **Languages:** Rust, Python, TypeScript, Go
 - **License:** Apache-2.0
 - **Lifecycle:** Active
-- **GitHub stars:** 17,255
+- **GitHub stars:** 18,853
 
 **Key features**
 
-  - Classifies more than 200 binary and text content types using a compact model
+  - The development branch targets over 1,000 content types using a model, native format resolvers, and custom YARA rules
   - Scans individual files, standard input, batches, or directories recursively
   - Emits human-readable, MIME-type, label, JSON, JSONL, score, or custom output
 
@@ -194,12 +195,12 @@ A maintained Markdown directory of Claude Code learning resources, extensions, a
 - **Languages:** Python, Markdown
 - **License:** CC-BY-NC-ND-4.0
 - **Lifecycle:** Active
-- **GitHub stars:** 50,415
+- **GitHub stars:** 58,565
 
 **Key features**
 
   - Curates a start-here section and an official-resource section alongside third-party projects
-  - Categorizes entries across documentation, research, providers, remote control, clients, status lines, design, writing, media, DevOps, and security
+  - Categorizes resources by workflow, including agent orchestration, testing, development lifecycle, configuration, design, and security
   - Includes dedicated sections for multi-agent orchestration, skills, memory and context persistence, observability, and linting
 
 <a id="repo-infisical--agent-vault"></a>
@@ -215,7 +216,7 @@ A self-hostable HTTP credential proxy and vault that lets AI agents call externa
 - **Languages:** Go, TypeScript
 - **License:** MIT
 - **Lifecycle:** Experimental
-- **GitHub stars:** 1,913
+- **GitHub stars:** 2,521
 
 **Key features**
 
@@ -236,13 +237,34 @@ A hands-on, multilingual curriculum for learning the Model Context Protocol, pro
 - **Languages:** C#, Java, JavaScript, Python, Rust, TypeScript
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 16,781
+- **GitHub stars:** 17,697
 
 **Key features**
 
   - Explains MCP concepts, client-server architecture, protocol primitives, and security considerations
   - Provides progressive guides for first servers, clients, LLM clients, stdio, HTTP streaming, testing, and deployment
   - Includes implementation samples in C#, Java, JavaScript, Rust, Python, and TypeScript
+
+<a id="repo-morluto--rea"></a>
+
+## [REA](https://github.com/morluto/rea)
+
+A local software analysis toolkit exposing application and binary analysis to AI agents through MCP and to users through a CLI.
+
+- **Category:** [Developer Tools](../categories/developer-tools.md#repo-morluto--rea)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-morluto--rea) | [MCP](../topics/mcp.md#repo-morluto--rea) | [CLI](../topics/cli.md#repo-morluto--rea) | [Agent Skills](../topics/agent-skills.md#repo-morluto--rea) | [Security](../topics/security.md#repo-morluto--rea) | [Local First](../topics/local-first.md#repo-morluto--rea)
+- **Kind:** Application
+- **Best for:** Authorized software research and interoperability investigations
+- **Languages:** TypeScript
+- **License:** MIT
+- **Lifecycle:** Active
+- **GitHub stars:** 473,417
+
+**Key features**
+
+  - Agent access through MCP and a matching investigation skill
+  - Analysis of several application and binary formats
+  - Evidence and limitations accompany analysis results
 
 <a id="repo-mukul975--anthropic-cybersecurity-skills"></a>
 
@@ -257,11 +279,11 @@ An independent, agentskills.io-format library of cybersecurity workflows for AI 
 - **Languages:** Python, Markdown
 - **License:** Apache-2.0
 - **Lifecycle:** Active
-- **GitHub stars:** 26,064
+- **GitHub stars:** 36,537
 
 **Key features**
 
-  - Provides 817 structured skills across 29 security domains
+  - Provides 818 structured skills across 34 security domains
   - Maps skills to MITRE ATT&CK, NIST CSF, MITRE ATLAS, D3FEND, NIST AI RMF, and MITRE F3
   - Uses YAML discovery metadata, step-by-step Markdown workflows, references, helpers, and templates
 
@@ -278,7 +300,7 @@ A Rust-based personal AI-assistant runtime that offers command-line, web, and me
 - **Languages:** Rust
 - **License:** MIT OR Apache-2.0
 - **Lifecycle:** Active
-- **GitHub stars:** 12,527
+- **GitHub stars:** 12,715
 
 **Key features**
 
@@ -299,7 +321,7 @@ A curated, traceable catalogue of reusable patterns for designing and operating 
 - **Languages:** TypeScript, Markdown
 - **License:** Apache-2.0
 - **Lifecycle:** Active
-- **GitHub stars:** 4,815
+- **GitHub stars:** 5,089
 
 **Key features**
 
@@ -311,7 +333,7 @@ A curated, traceable catalogue of reusable patterns for designing and operating 
 
 ## [NVIDIA NemoClaw](https://github.com/NVIDIA/NemoClaw)
 
-An alpha reference stack and CLI for operating selected always-on AI agents in NVIDIA OpenShell sandboxes, combining guided onboarding, inference routing, declarative network policy, and sandbox lifecycle management.
+An alpha reference stack and CLI for running supported AI agents in NVIDIA OpenShell sandboxes, with guided onboarding, managed inference and network policy, and sandbox lifecycle tools.
 
 - **Category:** [Security and Privacy](../categories/security-and-privacy.md#repo-nvidia--nemoclaw)
 - **Topics:** [AI Agents](../topics/ai-agents.md#repo-nvidia--nemoclaw) | [Agent Harnesses](../topics/agent-harnesses.md#repo-nvidia--nemoclaw) | [Sandboxing](../topics/sandboxing.md#repo-nvidia--nemoclaw) | [Security](../topics/security.md#repo-nvidia--nemoclaw) | [Policy Enforcement](../topics/policy-enforcement.md#repo-nvidia--nemoclaw) | [Self Hosted](../topics/self-hosted.md#repo-nvidia--nemoclaw) | [CLI](../topics/cli.md#repo-nvidia--nemoclaw)
@@ -320,13 +342,34 @@ An alpha reference stack and CLI for operating selected always-on AI agents in N
 - **Languages:** TypeScript, Python
 - **License:** Apache-2.0
 - **Lifecycle:** Experimental
-- **GitHub stars:** 21,840
+- **GitHub stars:** 23,066
 
 **Key features**
 
   - Creates an OpenShell sandbox configured for the selected supported agent
   - Routes model traffic through OpenShell while keeping credentials on the host
   - Applies declarative egress rules and asks the operator to approve unknown hosts
+
+<a id="repo-openai--codex-security"></a>
+
+## [Codex Security](https://github.com/openai/codex-security)
+
+OpenAI’s defensive code-security tooling for scanning repositories, reviewing and tracking findings, and planning or verifying fixes through Codex, a CLI, and a TypeScript SDK.
+
+- **Category:** [Security and Privacy](../categories/security-and-privacy.md#repo-openai--codex-security)
+- **Topics:** [Security](../topics/security.md#repo-openai--codex-security) | [CLI](../topics/cli.md#repo-openai--codex-security) | [Code Review](../topics/code-review.md#repo-openai--codex-security) | [Codebase Search](../topics/codebase-search.md#repo-openai--codex-security) | [Automation](../topics/automation.md#repo-openai--codex-security) | [Multi Provider](../topics/multi-provider.md#repo-openai--codex-security) | [Parallel Agents](../topics/parallel-agents.md#repo-openai--codex-security) | [Containers](../topics/containers.md#repo-openai--codex-security) | [GitHub](../topics/github.md#repo-openai--codex-security)
+- **Kind:** CLI
+- **Best for:** Security and engineering teams scanning repositories they own or may assess; CI and bulk workflows that need resumable findings, coverage, and scan comparison
+- **Languages:** TypeScript, Python
+- **License:** Apache-2.0
+- **Lifecycle:** Active
+- **GitHub stars:** 14,266
+
+**Key features**
+
+  - Scans repositories, selected paths, or Git changes and consolidates duplicate findings
+  - Reviews findings, verifies fixes, and drafts repository security policies and reusable threat models
+  - Compares saved scans and exports findings as SARIF, JSON, or CSV
 
 <a id="repo-psmux--psnet"></a>
 
@@ -341,7 +384,7 @@ A native Rust TUI network monitor for Windows that combines connection and bandw
 - **Languages:** Rust
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 125
+- **GitHub stars:** 152
 
 **Key features**
 
@@ -362,40 +405,40 @@ An agent meta-harness for Claude Code and Codex that layers specialized agents, 
 - **Languages:** TypeScript, Rust
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 65,173
+- **GitHub stars:** 82,248
 
 **Key features**
 
-  - More than one hundred specialized agents for coding, testing, security, and documentation
+  - Specialized agents for coding, testing, security, and documentation
   - Swarm coordination with hierarchical, mesh, and adaptive topologies
   - Persistent HNSW-indexed AgentDB vector memory and self-learning components
 
 <a id="repo-slopus--happy"></a>
 
-## [Happy](https://github.com/slopus/happy)
+## [Happy Engineering](https://github.com/slopus/happy)
 
-A mobile and web companion for Claude Code and Codex sessions that wraps the local agent CLI, enables remote session control and device handoff, sends notifications, and advertises end-to-end encrypted synchronization.
+A multi-model coding workspace with desktop and agent runtime companion repositories, native mobile session access, and a CLI wrapper for existing Claude Code and Codex users.
 
 - **Category:** [Platforms and Applications](../categories/platforms-and-applications.md#repo-slopus--happy)
 - **Topics:** [Coding Agents](../topics/coding-agents.md#repo-slopus--happy) | [Remote Control](../topics/remote-control.md#repo-slopus--happy) | [Mobile App](../topics/mobile-app.md#repo-slopus--happy) | [Web UI](../topics/web-ui.md#repo-slopus--happy) | [CLI](../topics/cli.md#repo-slopus--happy) | [Realtime](../topics/realtime.md#repo-slopus--happy) | [Security](../topics/security.md#repo-slopus--happy) | [Open Source](../topics/open-source.md#repo-slopus--happy)
 - **Kind:** Monorepo
-- **Best for:** Developers who need to check or control active Claude Code or Codex work away from a computer; Teams or individuals who want a remote-control layer without replacing their existing coding agent
-- **Languages:** TypeScript, Rust
+- **Best for:** Developers who want to continue coding-agent sessions across desktop and mobile; Teams using the new desktop and harness stack to collaborate in shared sessions
+- **Languages:** TypeScript, Rust, Swift, Kotlin
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 22,734
+- **GitHub stars:** 24,754
 
 **Key features**
 
-  - iOS, Android, and web clients for Claude Code and Codex sessions
-  - A CLI wrapper that starts Claude Code or Codex through Happy
-  - Remote agent-control commands for creating, sending to, and monitoring sessions
+  - Coordinates Claude, Codex, Grok, and additional models or harnesses through the desktop stack
+  - Supports multiplayer sessions that participants can observe and steer together
+  - Continues sessions on native iOS and Android apps with documented end-to-end encrypted sync
 
 <a id="repo-thedaviddias--front-end-checklist"></a>
 
 ## [Front-End Checklist](https://github.com/thedaviddias/Front-End-Checklist)
 
-A front-end quality system containing 385 prioritized rules across eleven categories, delivered as a browsable website, a README checklist, reusable skills, and hosted or local MCP tooling for review and audit workflows.
+A front-end quality system containing 386 prioritized rules across eleven categories, delivered as a browsable website, a README checklist, reusable skills, and hosted or local MCP tooling for review and audit workflows.
 
 - **Category:** [Testing and Quality](../categories/testing-and-quality.md#repo-thedaviddias--front-end-checklist)
 - **Topics:** [Web](../topics/web.md#repo-thedaviddias--front-end-checklist) | [Frontend Development](../topics/frontend-development.md#repo-thedaviddias--front-end-checklist) | [Accessibility](../topics/accessibility.md#repo-thedaviddias--front-end-checklist) | [Security](../topics/security.md#repo-thedaviddias--front-end-checklist) | [Testing](../topics/testing.md#repo-thedaviddias--front-end-checklist) | [Performance](../topics/performance.md#repo-thedaviddias--front-end-checklist) | [MCP](../topics/mcp.md#repo-thedaviddias--front-end-checklist) | [AI Agents](../topics/ai-agents.md#repo-thedaviddias--front-end-checklist) | [Documentation](../topics/documentation.md#repo-thedaviddias--front-end-checklist)
@@ -404,11 +447,11 @@ A front-end quality system containing 385 prioritized rules across eleven catego
 - **Languages:** TypeScript, MDX
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 73,256
+- **GitHub stars:** 74,793
 
 **Key features**
 
-  - 385 English rules organized into eleven active front-end quality categories
+  - 386 English rules organized into eleven active front-end quality categories
   - Priority labels for critical, high, medium, and low-impact findings
   - Hosted MCP server with tools to review code, audit public URLs, search rules, and retrieve workflows
 
@@ -425,7 +468,7 @@ A broad technical reference of tools, manuals, cheatsheets, links, and shell exa
 - **Languages:** Unknown
 - **License:** MIT
 - **Lifecycle:** Maintenance
-- **GitHub stars:** 234,100
+- **GitHub stars:** 260,417
 
 **Key features**
 
@@ -446,7 +489,7 @@ An agent-powered vulnerability-scanning CLI that combines matcher-based candidat
 - **Languages:** TypeScript
 - **License:** Apache-2.0
 - **Lifecycle:** Active
-- **GitHub stars:** 5,841
+- **GitHub stars:** 8,508
 
 **Key features**
 
@@ -467,7 +510,7 @@ A self-hosted Rust agent runtime for operating a personal AI assistant through c
 - **Languages:** Rust, TypeScript
 - **License:** MIT OR Apache-2.0
 - **Lifecycle:** Active
-- **GitHub stars:** 32,316
+- **GitHub stars:** 33,564
 
 **Key features**
 

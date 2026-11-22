@@ -1,0 +1,76 @@
+analysis:
+  analyzed_at: 2026-11-22T12:00:00Z
+  classification:
+    primary_category: ai-and-automation
+    state: confirmed
+    technologies:
+      - ruby
+    topics:
+      - ai-agents
+      - coding-agents
+      - agent-orchestration
+      - llms
+      - multi-provider
+      - automation
+      - cli
+    use_cases:
+      - build-ai-products
+      - improve-developer-workflow
+  evidence:
+    - claim: A Ruby DSL for composing structured AI workflows from reusable chat,
+        coding-agent, Ruby, and command steps with explicit control flow.
+      source_type: repository-file
+      url: https://raw.githubusercontent.com/Shopify/roast/c55ba249d71db12f98e38dd254aeef0bb4ddc03b/README.md
+      checked_at: 2026-11-22
+      confidence: high
+  state: complete
+  summary:
+    one_line: A Ruby DSL for composing structured AI workflows from reusable chat,
+      coding-agent, Ruby, and command steps with explicit control flow.
+    why_useful: Ruby developers automating multi-step AI workflows
+curation:
+  confidence: null
+  evidence: []
+  limitations: []
+  recommendation: null
+  reviewed_at: null
+  state: "uncurated"
+  strengths: []
+  verdict: null
+id: "github:Shopify/roast"
+import:
+  github_snapshot:
+    archived: false
+    created_at: 2025-04-09T21:05:31Z
+    default_branch: main
+    description: Structured AI workflows made easy
+    disabled: false
+    fetched_at: 2026-11-22T12:07:00.148Z
+    fork: false
+    forks: 79
+    homepage: null
+    latest_release:
+      tag: v1.4.1
+      published_at: 2026-11-10T19:52:29Z
+      url: https://github.com/Shopify/roast/releases/tag/v1.4.1
+    license_spdx: MIT
+    open_issues: 48
+    primary_language: Ruby
+    pushed_at: 2026-11-14T04:06:05Z
+    stars: 1258
+    topics: []
+    updated_at: 2026-11-20T23:11:19Z
+  sources:
+    - observed_at: 2026-09-24T19:46:59Z
+      relation: starred
+      source_id: github:user:tomseai:stars
+      source_url: https://github.com/tomseai?tab=stars
+  state: refreshed
+repository:
+  aliases: []
+  github_node_id: "R_kgDOOW6StQ"
+  host: "github.com"
+  name: "roast"
+  owner: "Shopify"
+  url: "https://github.com/Shopify/roast"
+version: 1

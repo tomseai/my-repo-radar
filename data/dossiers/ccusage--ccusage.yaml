@@ -2,9 +2,9 @@ schema_version: 2
 repository_id: github:ccusage/ccusage
 research:
   state: complete
-  source_commit: 7acee6c5853c26fe66fbe1453bd94c9376afec06
-  bundle_collected_at: 2026-07-19T20:42:08.836Z
-  researched_at: 2026-07-19T22:43:25.155Z
+  source_commit: 896c1f623965fd6efaba9f1226fa0c770e90989d
+  bundle_collected_at: 2026-11-22T12:09:13.787Z
+  researched_at: 2026-11-22T12:28:36.322231+00:00
   confidence: medium
 classification:
   primary_category: developer-tools
@@ -23,7 +23,8 @@ project:
     counts, estimated costs, models, and sessions across multiple agents.
   best_for:
     - Developers comparing local usage across supported coding-agent CLIs
-    - Exporting token and estimated-cost reports for personal analysis or automation
+    - Exporting token and estimated-cost reports for personal analysis or
+      automation
 key_features:
   - Unified reports across detected supported coding-agent data sources
   - Source-specific daily, weekly, monthly, and session reports
@@ -51,24 +52,27 @@ technology:
 license:
   spdx: MIT
   name: MIT License
-  notes: The published ccusage package declares the MIT license.
+  notes: The root MIT license requires retaining its copyright and permission
+    notice in copies or substantial portions.
 status:
   lifecycle: active
   archived: false
-  latest_release: v20.0.17
-  latest_release_at: 2026-07-10
+  latest_release: v20.0.51
+  latest_release_at: 2026-11-14
 strengths:
   - Covers many coding-agent data sources through one local command
   - Provides both terminal-oriented reports and machine-readable JSON
   - Separates cache-token accounting and supports offline pricing data
 caveats:
-  - It reports only usage logs from supported coding CLIs that are installed and have local data
+  - It reports only usage logs from supported coding CLIs that are installed and
+    have local data
   - Cost figures are estimates based on token counts and model pricing
-  - Custom data locations require source-specific environment variables or configuration
-  - The root LICENSE file points to the application license; the MIT determination comes from the published package metadata
+  - Custom data locations require source-specific environment variables or
+    configuration
 sources:
-  - https://raw.githubusercontent.com/ccusage/ccusage/7acee6c5853c26fe66fbe1453bd94c9376afec06/docs/index.md
-  - https://raw.githubusercontent.com/ccusage/ccusage/7acee6c5853c26fe66fbe1453bd94c9376afec06/docs/guide/getting-started.md
-  - https://raw.githubusercontent.com/ccusage/ccusage/7acee6c5853c26fe66fbe1453bd94c9376afec06/docs/guide/configuration.md
-  - https://raw.githubusercontent.com/ccusage/ccusage/7acee6c5853c26fe66fbe1453bd94c9376afec06/apps/ccusage/package.json
+  - https://raw.githubusercontent.com/ccusage/ccusage/896c1f623965fd6efaba9f1226fa0c770e90989d/docs/index.md
+  - https://raw.githubusercontent.com/ccusage/ccusage/896c1f623965fd6efaba9f1226fa0c770e90989d/docs/guide/getting-started.md
+  - https://raw.githubusercontent.com/ccusage/ccusage/896c1f623965fd6efaba9f1226fa0c770e90989d/docs/guide/configuration.md
+  - https://raw.githubusercontent.com/ccusage/ccusage/896c1f623965fd6efaba9f1226fa0c770e90989d/apps/ccusage/package.json
   - https://github.com/ccusage/ccusage/releases.atom
+  - https://github.com/ccusage/ccusage/releases/tag/v20.0.51

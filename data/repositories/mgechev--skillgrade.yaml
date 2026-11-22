@@ -1,0 +1,81 @@
+analysis:
+  analyzed_at: 2026-08-15T13:30:00.000Z
+  classification:
+    primary_category: testing-and-quality
+    state: confirmed
+    technologies:
+      - typescript
+      - nodejs
+      - docker
+    topics:
+      - agent-skills
+      - evaluation
+      - testing
+      - multi-provider
+      - cli
+      - web-ui
+      - automation
+    use_cases:
+      - test-software
+      - build-ai-products
+  evidence:
+    - claim: A multi-harness evaluation runner for testing whether agents discover and
+        use skills correctly.
+      source_type: repository-file
+      url: https://raw.githubusercontent.com/mgechev/skillgrade/ed90fbc24d3b067a7685dec3d82e2c05271ce828/README.md
+      checked_at: 2026-08-15
+      confidence: high
+  state: complete
+  summary:
+    one_line: A multi-harness evaluation runner for testing whether agents discover
+      and use skills correctly.
+    why_useful: Skill authors validating behavior across several agent harnesses and models
+curation:
+  confidence: null
+  evidence: []
+  limitations: []
+  recommendation: null
+  reviewed_at: null
+  state: uncurated
+  strengths: []
+  verdict: null
+id: github:mgechev/skillgrade
+import:
+  github_snapshot:
+    archived: false
+    created_at: 2026-02-26T19:51:26Z
+    default_branch: main
+    description: '"Unit tests" for your agent skills'
+    disabled: false
+    fetched_at: 2026-11-22T12:07:00.148Z
+    fork: false
+    forks: 51
+    homepage: https://blog.mgechev.com/2026/03/14/skillgrade/
+    latest_release: null
+    license_spdx: MIT
+    open_issues: 3
+    primary_language: TypeScript
+    pushed_at: 2026-10-11T22:21:45Z
+    stars: 737
+    topics:
+      - agent
+      - claude-code
+      - codex
+      - eval
+      - gemini-cli
+      - skill
+    updated_at: 2026-11-17T17:35:20Z
+  sources:
+    - observed_at: 2026-07-25T09:05:18Z
+      relation: starred
+      source_id: github:user:tomseai:stars
+      source_url: https://github.com/tomseai?tab=stars
+  state: refreshed
+repository:
+  aliases: []
+  github_node_id: R_kgDORZycwQ
+  host: github.com
+  name: skillgrade
+  owner: mgechev
+  url: https://github.com/mgechev/skillgrade
+version: 1

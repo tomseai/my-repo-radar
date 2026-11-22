@@ -2,9 +2,9 @@ schema_version: 2
 repository_id: github:camel-ai/owl
 research:
   state: complete
-  source_commit: 98d150d29b4a1f0d362695df936dc3da2ced875a
-  bundle_collected_at: 2026-07-19T20:42:02.969Z
-  researched_at: 2026-07-20T12:00:00+02:00
+  source_commit: 563a7c405744868679d0b5619aa451afdc7c9205
+  bundle_collected_at: 2026-11-22T12:09:09.241Z
+  researched_at: 2026-11-22T12:18:43.417Z
   confidence: medium
 classification:
   primary_category: ai-and-automation
@@ -29,13 +29,19 @@ project:
     search, browser, document, code-execution, multimodal, and MCP toolkits.
   best_for:
     - Developers prototyping multi-agent task-automation workflows in Python
-    - Users who need configurable toolkits and a local Gradio interface for OWL agent runs
+    - Users who need configurable toolkits and a local Gradio interface for OWL
+      agent runs
 key_features:
-  - Coordinates multi-agent collaboration on task-automation workflows atop the CAMEL-AI framework
-  - Supports online search through several engines and Playwright-based browser interaction
-  - Processes local or online audio, images, and video, and extracts documents into text or Markdown
-  - Provides Python code execution and configurable built-in toolkits, including MCP support
-  - Includes a local Gradio web interface with model selection, environment-variable management, chat, and task history
+  - Coordinates multi-agent collaboration on task-automation workflows atop the
+    CAMEL-AI framework
+  - Supports online search through several engines and Playwright-based browser
+    interaction
+  - Processes local or online audio, images, and video, and extracts documents
+    into text or Markdown
+  - Provides Python code execution and configurable built-in toolkits, including
+    MCP support
+  - Includes a local Gradio web interface with model selection,
+    environment-variable management, chat, and task history
 usage:
   interfaces:
     - Python scripts
@@ -44,7 +50,8 @@ usage:
   installation:
     - Clone the repository and install with uv, venv and pip, conda, or Docker
     - Configure model-provider API keys directly or through a .env file
-    - Install Node.js and the Playwright MCP service when that optional integration is needed
+    - Install Node.js and the Playwright MCP service when that optional
+      integration is needed
   setup: moderate
 technology:
   languages:
@@ -59,26 +66,34 @@ license:
   spdx: Apache-2.0
   name: Apache License 2.0
   notes: >-
-    The README and project metadata identify the source code as Apache-2.0;
-    the retained bundle's file selection does not include the license text.
+    The README and project metadata identify the source code as Apache-2.0; the
+    retained bundle's file selection does not include the license text.
 status:
   lifecycle: active
   archived: false
   latest_release: null
   latest_release_at: null
 strengths:
-  - Brings search, browser, document, code-execution, multimodal, and MCP capabilities into one multi-agent workflow
-  - Offers several environment setup paths plus a local web interface for interactive use
-  - Lets users select only required CAMEL toolkits rather than loading every capability
+  - Brings search, browser, document, code-execution, multimodal, and MCP
+    capabilities into one multi-agent workflow
+  - Offers several environment setup paths plus a local web interface for
+    interactive use
+  - Lets users select only required CAMEL toolkits rather than loading every
+    capability
 caveats:
-  - OWL depends on the separate CAMEL-AI package, and many advertised tools also depend on external providers or services
-  - Model API keys are required for configured providers; browser and MCP functionality can add Node.js and Playwright setup
-  - The repository's own package metadata reports version 0.0.1, so it should not be treated as a conventional stable release version
-  - The retained project release feed has no entries, so no project release can be established
-  - Apache-2.0 is stated in the README and pyproject metadata, but the retained file bundle omits the license text itself
+  - OWL depends on the separate CAMEL-AI package, and many advertised tools also
+    depend on external providers or services
+  - Model API keys are required for configured providers; browser and MCP
+    functionality can add Node.js and Playwright setup
+  - The repository's own package metadata reports version 0.0.1, so it should
+    not be treated as a conventional stable release version
+  - The retained project release feed has no entries, so no project release can
+    be established
+  - Apache-2.0 is stated in the README and pyproject metadata, but the retained
+    file bundle omits the license text itself
 sources:
-  - https://raw.githubusercontent.com/camel-ai/owl/98d150d29b4a1f0d362695df936dc3da2ced875a/README.md
-  - https://raw.githubusercontent.com/camel-ai/owl/98d150d29b4a1f0d362695df936dc3da2ced875a/pyproject.toml
-  - https://raw.githubusercontent.com/camel-ai/owl/98d150d29b4a1f0d362695df936dc3da2ced875a/requirements.txt
-  - https://raw.githubusercontent.com/camel-ai/owl/98d150d29b4a1f0d362695df936dc3da2ced875a/.container/docker-compose.yml
+  - https://raw.githubusercontent.com/camel-ai/owl/563a7c405744868679d0b5619aa451afdc7c9205/README.md
+  - https://raw.githubusercontent.com/camel-ai/owl/563a7c405744868679d0b5619aa451afdc7c9205/pyproject.toml
+  - https://raw.githubusercontent.com/camel-ai/owl/563a7c405744868679d0b5619aa451afdc7c9205/requirements.txt
+  - https://raw.githubusercontent.com/camel-ai/owl/563a7c405744868679d0b5619aa451afdc7c9205/.container/docker-compose.yml
   - https://github.com/camel-ai/owl/releases.atom

@@ -2,7 +2,7 @@
 
 # Containers
 
-[Back to the main catalog](../README.md) | **13 repositories**
+[Back to the main catalog](../README.md) | **14 repositories**
 
 ## Primary categories represented
 
@@ -10,7 +10,7 @@
 - [Developer Tools](../categories/developer-tools.md) (1)
 - [DevOps and Cloud](../categories/devops-and-cloud.md) (3)
 - [Documentation and Learning](../categories/documentation-and-learning.md) (1)
-- [Security and Privacy](../categories/security-and-privacy.md) (1)
+- [Security and Privacy](../categories/security-and-privacy.md) (2)
 
 <a id="repo-cloakhq--cloakbrowser"></a>
 
@@ -25,7 +25,7 @@ Python and JavaScript wrappers that launch a custom Chromium binary through Play
 - **Languages:** Python, TypeScript, C++
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 28,626
+- **GitHub stars:** 33,017
 
 **Key features**
 
@@ -46,7 +46,7 @@ A Docker Compose starter template for assembling a self-hosted local-AI and low-
 - **Languages:** Python, YAML
 - **License:** Apache-2.0
 - **Lifecycle:** Active
-- **GitHub stars:** 3,735
+- **GitHub stars:** 3,789
 
 **Key features**
 
@@ -67,7 +67,7 @@ A scheduled TypeScript application that collects selected X posts and web pages,
 - **Languages:** TypeScript
 - **License:** MIT
 - **Lifecycle:** Unknown
-- **GitHub stars:** 4,102
+- **GitHub stars:** 4,130
 
 **Key features**
 
@@ -79,7 +79,7 @@ A scheduled TypeScript application that collects selected X posts and web pages,
 
 ## [OpenManus](https://github.com/FoundationAgents/OpenManus)
 
-A Python framework and command-line runtime for configuring LLM-backed general agents with optional browser automation, MCP tools, and multi-agent flows.
+A Python framework and command-line runtime for configuring LLM-backed general agents with browser automation, MCP tools, and multi-agent flows.
 
 - **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-foundationagents--openmanus)
 - **Topics:** [AI Agents](../topics/ai-agents.md#repo-foundationagents--openmanus) | [Agent Frameworks](../topics/agent-frameworks.md#repo-foundationagents--openmanus) | [Multi Agent](../topics/multi-agent.md#repo-foundationagents--openmanus) | [MCP](../topics/mcp.md#repo-foundationagents--openmanus) | [Browser Automation](../topics/browser-automation.md#repo-foundationagents--openmanus) | [Data Processing](../topics/data-processing.md#repo-foundationagents--openmanus) | [LLMs](../topics/llms.md#repo-foundationagents--openmanus) | [Containers](../topics/containers.md#repo-foundationagents--openmanus)
@@ -88,13 +88,13 @@ A Python framework and command-line runtime for configuring LLM-backed general a
 - **Languages:** Python
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 57,501
+- **GitHub stars:** 59,007
 
 **Key features**
 
   - Terminal entry point for running an OpenManus agent
   - Configurable global and vision-model API settings
-  - Optional Playwright browser-automation installation
+  - Browser Use CLI is started as a default MCP server for browser automation
 
 <a id="repo-grafana--docker-otel-lgtm"></a>
 
@@ -109,7 +109,7 @@ A single Docker image that runs an OpenTelemetry backend for local metrics, trac
 - **Languages:** Shell, Go
 - **License:** Apache-2.0
 - **Lifecycle:** Active
-- **GitHub stars:** 1,943
+- **GitHub stars:** 2,168
 
 **Key features**
 
@@ -130,7 +130,7 @@ A self-hostable HTTP credential proxy and vault that lets AI agents call externa
 - **Languages:** Go, TypeScript
 - **License:** MIT
 - **Lifecycle:** Experimental
-- **GitHub stars:** 1,913
+- **GitHub stars:** 2,521
 
 **Key features**
 
@@ -151,13 +151,13 @@ An open-source, event-driven orchestration platform for declarative YAML workflo
 - **Languages:** Java
 - **License:** Apache-2.0
 - **Lifecycle:** Active
-- **GitHub stars:** 27,391
+- **GitHub stars:** 30,310
 
 **Key features**
 
   - Defines flows, tasks, inputs, variables, and triggers in declarative YAML
+  - Offers AI agents, RAG workflows, and a built-in MCP server
   - Supports scheduled and event-driven execution, including message-bus and cloud triggers
-  - Provides a built-in editor, visual topology view, completion, and real-time validation
 
 <a id="repo-microsoft--aspire"></a>
 
@@ -172,7 +172,7 @@ A multi-language, code-first toolchain for defining, running, observing, and dep
 - **Languages:** C#, TypeScript
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 6,173
+- **GitHub stars:** 6,445
 
 **Key features**
 
@@ -193,7 +193,7 @@ Docker Compose template for a self-hosted n8n environment with Ollama, Qdrant, a
 - **Languages:** YAML
 - **License:** Apache-2.0
 - **Lifecycle:** Active
-- **GitHub stars:** 15,094
+- **GitHub stars:** 15,383
 
 **Key features**
 
@@ -214,13 +214,34 @@ Self-hosted, messaging-based AI assistant that routes each agent session through
 - **Languages:** TypeScript, JavaScript, Shell
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 30,288
+- **GitHub stars:** 31,139
 
 **Key features**
 
   - Routes messages through a Node host, per-session SQLite inbound and outbound databases, and per-agent containers.
   - Supports skill-installed messaging channels, including Telegram, Discord, WhatsApp, Slack, Teams, and email.
   - Runs recurring scheduled tasks and can use script gates to avoid unnecessary agent wakeups.
+
+<a id="repo-openai--codex-security"></a>
+
+## [Codex Security](https://github.com/openai/codex-security)
+
+OpenAI’s defensive code-security tooling for scanning repositories, reviewing and tracking findings, and planning or verifying fixes through Codex, a CLI, and a TypeScript SDK.
+
+- **Category:** [Security and Privacy](../categories/security-and-privacy.md#repo-openai--codex-security)
+- **Topics:** [Security](../topics/security.md#repo-openai--codex-security) | [CLI](../topics/cli.md#repo-openai--codex-security) | [Code Review](../topics/code-review.md#repo-openai--codex-security) | [Codebase Search](../topics/codebase-search.md#repo-openai--codex-security) | [Automation](../topics/automation.md#repo-openai--codex-security) | [Multi Provider](../topics/multi-provider.md#repo-openai--codex-security) | [Parallel Agents](../topics/parallel-agents.md#repo-openai--codex-security) | [Containers](../topics/containers.md#repo-openai--codex-security) | [GitHub](../topics/github.md#repo-openai--codex-security)
+- **Kind:** CLI
+- **Best for:** Security and engineering teams scanning repositories they own or may assess; CI and bulk workflows that need resumable findings, coverage, and scan comparison
+- **Languages:** TypeScript, Python
+- **License:** Apache-2.0
+- **Lifecycle:** Active
+- **GitHub stars:** 14,266
+
+**Key features**
+
+  - Scans repositories, selected paths, or Git changes and consolidates duplicate findings
+  - Reviews findings, verifies fixes, and drafts repository security policies and reusable threat models
+  - Compares saved scans and exports findings as SARIF, JSON, or CSV
 
 <a id="repo-trimstray--the-book-of-secret-knowledge"></a>
 
@@ -235,7 +256,7 @@ A broad technical reference of tools, manuals, cheatsheets, links, and shell exa
 - **Languages:** Unknown
 - **License:** MIT
 - **Lifecycle:** Maintenance
-- **GitHub stars:** 234,100
+- **GitHub stars:** 260,417
 
 **Key features**
 
@@ -247,22 +268,22 @@ A broad technical reference of tools, manuals, cheatsheets, links, and shell exa
 
 ## [Cua](https://github.com/trycua/cua)
 
-A computer-use monorepo for building and evaluating agents through cross-platform desktop drivers, OS sandboxes, virtual-machine tooling, and benchmarks or reinforcement-learning environments.
+A computer-use monorepo for building and evaluating agents through Cua Spaces for shared desktops, cross-platform desktop drivers, virtual machines, and benchmarks for computer-use agents.
 
 - **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-trycua--cua)
 - **Topics:** [AI Agents](../topics/ai-agents.md#repo-trycua--cua) | [Computer Use](../topics/computer-use.md#repo-trycua--cua) | [Sandboxing](../topics/sandboxing.md#repo-trycua--cua) | [Remote Control](../topics/remote-control.md#repo-trycua--cua) | [Automation](../topics/automation.md#repo-trycua--cua) | [CLI](../topics/cli.md#repo-trycua--cua) | [MCP](../topics/mcp.md#repo-trycua--cua) | [Containers](../topics/containers.md#repo-trycua--cua) | [Testing](../topics/testing.md#repo-trycua--cua) | [Open Source](../topics/open-source.md#repo-trycua--cua)
 - **Kind:** Monorepo
 - **Best for:** Building agents that operate desktop, mobile, container, or VM interfaces; Evaluating or training computer-use agents in reproducible environments
 - **Languages:** Python, Rust, Go, TypeScript
-- **License:** MIT
+- **License:** Mixed MIT and FSL-1.1-MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 20,200
+- **GitHub stars:** 32,769
 
 **Key features**
 
+  - Provides Cua Spaces for shared desktop environments across owned computers
   - Drives native desktop applications in the background on macOS, Windows, and Linux
   - Provides one sandbox API for Linux, macOS, Windows, Android, and local or cloud runtimes
-  - Supplies Cua-Bench environments and trajectory export for evaluation and training
 
 <a id="repo-ultraworkers--claw-code"></a>
 
@@ -277,7 +298,7 @@ A build-from-source Rust implementation of the claw CLI agent harness, explicitl
 - **Languages:** Rust, Python
 - **License:** MIT
 - **Lifecycle:** Experimental
-- **GitHub stars:** 194,826
+- **GitHub stars:** 194,743
 
 **Key features**
 

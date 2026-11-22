@@ -2,9 +2,9 @@ schema_version: 2
 repository_id: github:liveloveapp/hashbrown
 research:
   state: complete
-  source_commit: 287997980f09d4516ad0014eb08f973a9cf05363
-  bundle_collected_at: 2026-07-19T20:43:52.140Z
-  researched_at: 2026-07-20T15:41:35.736Z
+  source_commit: 201344360ab8fb5f211e1e503760b6e69cbc7f0e
+  bundle_collected_at: 2026-11-22T12:09:50.906Z
+  researched_at: 2026-11-22T12:23:25.303Z
   confidence: high
 classification:
   primary_category: ai-and-automation
@@ -29,11 +29,11 @@ project:
     - Applications that need consistent provider wrappers between a Node backend and UI state
 key_features:
   - Core state primitives with framework bindings for React and Angular
-  - Provider packages for OpenAI, Azure OpenAI, Anthropic, Bedrock, Ollama, Google, and Writer
+  - Provider packages for OpenAI, Azure OpenAI, Anthropic, Bedrock, Ollama, and Google
   - HTTP streaming between Node backend wrappers and UI hooks or resources
-  - Input and structured completions, component selection, and rendering
+  - Uses Skillet schemas to validate structured completions and props for registered UI components
   - Tool calling plus code generation and execution support
-  - Sample Angular and React applications for smart-home and finance workflows
+  - Includes examples for using the same rendering and tool patterns in Angular and React
 usage:
   interfaces:
     - React components
@@ -60,8 +60,8 @@ license:
 status:
   lifecycle: active
   archived: false
-  latest_release: v0.5.0
-  latest_release_at: 2026-07-13
+  latest_release: v0.8.3
+  latest_release_at: "2026-10-26"
 strengths:
   - Separates reusable UI bindings, state primitives, and provider-specific backend wrappers
   - Supports both React and Angular with a consistent package model
@@ -71,7 +71,7 @@ caveats:
   - API credentials and provider-specific SDK configuration remain the application's responsibility
   - Older or smaller provider models may not support the framework's full feature set
 sources:
-  - https://raw.githubusercontent.com/liveloveapp/hashbrown/287997980f09d4516ad0014eb08f973a9cf05363/README.md
-  - https://raw.githubusercontent.com/liveloveapp/hashbrown/287997980f09d4516ad0014eb08f973a9cf05363/LICENSE
-  - https://raw.githubusercontent.com/liveloveapp/hashbrown/287997980f09d4516ad0014eb08f973a9cf05363/package.json
+  - https://raw.githubusercontent.com/liveloveapp/hashbrown/201344360ab8fb5f211e1e503760b6e69cbc7f0e/README.md
+  - https://raw.githubusercontent.com/liveloveapp/hashbrown/201344360ab8fb5f211e1e503760b6e69cbc7f0e/LICENSE
+  - https://raw.githubusercontent.com/liveloveapp/hashbrown/201344360ab8fb5f211e1e503760b6e69cbc7f0e/package.json
   - https://github.com/liveloveapp/hashbrown/releases.atom

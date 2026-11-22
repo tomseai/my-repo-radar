@@ -21,7 +21,7 @@ A weekly live-coding and Q&A series with a repository of episode notes and selec
 - **Languages:** Python, TypeScript, Go, Markdown
 - **License:** No license file found in retained source bundle
 - **Lifecycle:** Active
-- **GitHub stars:** 1,852
+- **GitHub stars:** 2,016
 
 **Key features**
 
@@ -42,7 +42,7 @@ A learning-resource collection for low-level and object-oriented design, combini
 - **Languages:** Java, JavaScript, Go, Rust, TypeScript
 - **License:** GPL-3.0
 - **Lifecycle:** Active
-- **GitHub stars:** 25,455
+- **GitHub stars:** 28,211
 
 **Key features**
 
@@ -63,7 +63,7 @@ An open learning reference for scalable-system design and interview preparation,
 - **Languages:** Markdown, Python
 - **License:** CC-BY-4.0
 - **Lifecycle:** Active
-- **GitHub stars:** 358,262
+- **GitHub stars:** 378,777
 
 **Key features**
 
@@ -84,7 +84,7 @@ A six-week course repository for coding and deploying AI agents with several age
 - **Languages:** Jupyter Notebook, Python
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 5,706
+- **GitHub stars:** 6,653
 
 **Key features**
 
@@ -105,7 +105,7 @@ A collection of Excel workbooks for manually working through machine-learning an
 - **Languages:** Unknown
 - **License:** MIT
 - **Lifecycle:** Unknown
-- **GitHub stars:** 6,216
+- **GitHub stars:** 6,299
 
 **Key features**
 
@@ -126,7 +126,7 @@ A large, community-contributed Markdown hub for finding, learning about, and bui
 - **Languages:** Markdown
 - **License:** Apache-2.0
 - **Lifecycle:** Active
-- **GitHub stars:** 1,889
+- **GitHub stars:** 2,030
 
 **Key features**
 
@@ -147,7 +147,7 @@ A beginner-friendly, 12-week curriculum of AI lessons, executable notebooks, qui
 - **Languages:** Jupyter Notebook, Python, JavaScript
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 52,454
+- **GitHub stars:** 71,153
 
 **Key features**
 
@@ -165,13 +165,13 @@ A self-paced, from-scratch AI-engineering curriculum spanning mathematics, machi
 - **Topics:** [Courses](../topics/courses.md#repo-rohitg00--ai-engineering-from-scratch) | [Tutorials](../topics/tutorials.md#repo-rohitg00--ai-engineering-from-scratch) | [Machine Learning](../topics/machine-learning.md#repo-rohitg00--ai-engineering-from-scratch) | [LLMs](../topics/llms.md#repo-rohitg00--ai-engineering-from-scratch) | [AI Agents](../topics/ai-agents.md#repo-rohitg00--ai-engineering-from-scratch) | [MCP](../topics/mcp.md#repo-rohitg00--ai-engineering-from-scratch) | [Multi Agent](../topics/multi-agent.md#repo-rohitg00--ai-engineering-from-scratch)
 - **Kind:** Course
 - **Best for:** Developers seeking a structured, implementation-first route into AI engineering; Engineers who want focused LLM, agent, MCP, or production-system learning tracks
-- **Languages:** Python, TypeScript, Rust, Julia
+- **Languages:** Python, TypeScript, Rust, Julia, Go
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 39,569
+- **GitHub stars:** 79,802
 
 **Key features**
 
-  - 503 lessons across 20 phases, progressing from setup and mathematics to capstone projects
-  - A repeatable lesson structure: concept, raw implementation, production-library use, and a reusable output
-  - Coverage of vision, NLP, speech, transformers, generative AI, reinforcement learning, LLM engineering, and safety
+  - 542 lessons across 20 phases from tool setup and mathematical foundations to production systems
+  - Goal-oriented learning paths for AI foundations, LLM systems, and agent-assisted engineering
+  - Runnable labs and staged projects with reference solutions and evaluation checks

@@ -1,0 +1,55 @@
+schema_version: 2
+repository_id: github:morluto/rea
+research:
+  state: complete
+  source_commit: 3d3e7db5b53329fa0a43c35cb26b9bfade0ee045
+  bundle_collected_at: 2026-11-22T12:10:02.513Z
+  researched_at: 2026-11-22T12:26:19.252Z
+  confidence: high
+classification:
+  primary_category: developer-tools
+  topics: [ ai-agents, mcp, cli, agent-skills, security, local-first ]
+project:
+  name: REA
+  kind: application
+  summary: >-
+    A local software analysis toolkit exposing application and binary analysis
+    to AI agents through MCP and to users through a CLI.
+  best_for:
+    - Authorized software research and interoperability investigations
+key_features:
+  - Agent access through MCP and a matching investigation skill
+  - Analysis of several application and binary formats
+  - Evidence and limitations accompany analysis results
+  - Supports external native analysis providers
+usage:
+  interfaces: [ MCP server, CLI ]
+  installation: [ npm package, npx setup ]
+  setup: moderate
+technology:
+  languages: [ TypeScript ]
+  notable_components: [ Node.js, Model Context Protocol ]
+license:
+  spdx: MIT
+  name: MIT License
+  notes: REA-authored code is MIT; third-party material and external tools have
+    separate terms.
+status:
+  lifecycle: active
+  archived: false
+  latest_release: rea-agents-6.10.1
+  latest_release_at: 2026-11-20
+strengths:
+  - Offers both agent and terminal interfaces for local analysis
+  - Covers multiple target types and records supporting evidence
+caveats:
+  - Native analysis may require a separately installed and licensed provider
+  - Local results sent to an agent are subject to its model provider's data
+    policy
+  - The selected release is for the rea-agents package.
+  - Use only on software one is authorized to examine
+sources:
+  - https://raw.githubusercontent.com/morluto/rea/3d3e7db5b53329fa0a43c35cb26b9bfade0ee045/README.md
+  - https://raw.githubusercontent.com/morluto/rea/3d3e7db5b53329fa0a43c35cb26b9bfade0ee045/LICENSE
+  - https://github.com/morluto/rea/releases.atom
+  - https://github.com/morluto/rea/releases/tag/rea-agents-6.10.1

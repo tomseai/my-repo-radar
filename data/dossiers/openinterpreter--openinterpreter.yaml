@@ -2,11 +2,10 @@ schema_version: 2
 repository_id: github:openinterpreter/openinterpreter
 research:
   state: complete
-  source_commit: a4da0fc3cecef98f95264a9c66896ddb064dc377
-  bundle_collected_at: 2026-07-19T20:44:41.717Z
-  researched_at: 2026-07-20T17:52:18+02:00
+  source_commit: bb3f575d8badc136eb5808bbbb707a04eb5daa3f
+  bundle_collected_at: 2026-11-22T12:10:12.143Z
+  researched_at: 2026-11-22T12:24:40.172Z
   confidence: high
-
 classification:
   primary_category: ai-and-automation
   topics:
@@ -16,26 +15,26 @@ classification:
     - computer-use
     - sandboxing
     - mcp
-
 project:
   name: Open Interpreter
   kind: cli
-  summary: >-
-    A Rust terminal coding agent, forked from OpenAI Codex, that targets
+  summary: A Rust terminal coding agent, forked from OpenAI Codex, that targets
     lower-cost models through selectable native harnesses, sandboxed command
     execution, computer-use QA, ACP clients, and the Codex exec protocol.
   best_for:
-    - Developers who want a terminal coding agent with selectable model harnesses
+    - Developers who want a terminal coding agent with selectable model
+      harnesses
     - ACP-client users who need a local agent process with sandbox controls
-
 key_features:
-  - Selectable native, Claude Code, Kimi, Qwen, DeepSeek, SWE-agent, and minimal harnesses
+  - Selectable native, Claude Code, Kimi, Qwen, DeepSeek, SWE-agent, and
+    minimal harnesses
   - Native command sandboxing on macOS, Linux, and Windows
   - QA skill for driving and testing web or native applications
   - Agent Client Protocol mode for compatible editors and clients
   - Codex exec-protocol compatibility with a binary-path override
-  - Local configuration and session state under ~/.openinterpreter
-
+  - Supports shared agent skills directories and local configuration and
+    runtime state
+  - Supports OpenAI-compatible Chat Completions providers
 usage:
   interfaces:
     - terminal CLI and TUI
@@ -46,7 +45,6 @@ usage:
     - official Windows PowerShell installer
     - build from source
   setup: moderate
-
 technology:
   languages:
     - Rust
@@ -54,33 +52,33 @@ technology:
     - Agent Client Protocol
     - Model Context Protocol
     - OpenAI Codex exec protocol
-
 license:
   spdx: Apache-2.0
   name: Apache License 2.0
-  notes: >-
-    The repository root carries Apache-2.0, which permits commercial use and
-    redistribution subject to license, notice, and modification-notice duties;
-    its patent grant terminates for a contributor if patent litigation is filed.
-
+  notes: The repository root carries Apache-2.0, which permits commercial use
+    and redistribution subject to license, notice, and modification-notice
+    duties; its patent grant terminates for a contributor if patent litigation
+    is filed.
 status:
   lifecycle: active
   archived: false
-  latest_release: rust-v0.0.34
-  latest_release_at: 2026-07-18
-
+  latest_release: rust-v0.0.61
+  latest_release_at: 2026-11-11
 strengths:
-  - Combines harness selection, sandboxes, and computer-use QA in one local agent
+  - Combines harness selection, sandboxes, and computer-use QA in one local
+    agent
   - Supports both ACP clients and Codex-SDK-compatible integrations
   - Documents direct installers for macOS, Linux, and Windows
-
 caveats:
   - Provider credentials and model availability must be configured separately
-  - The release feed uses rust-prefixed versions; the README identifies this Rust implementation as the current project
+  - The release feed uses rust-prefixed versions; the README identifies this
+    Rust implementation as the current project
   - Computer-use QA depends on external agent-browser or trycua tooling
-
+  - Interpreter Workstation is a separate client for desktop, browser, or
+    headless use
 sources:
-  - https://raw.githubusercontent.com/openinterpreter/openinterpreter/a4da0fc3cecef98f95264a9c66896ddb064dc377/README.md
-  - https://raw.githubusercontent.com/openinterpreter/openinterpreter/a4da0fc3cecef98f95264a9c66896ddb064dc377/LICENSE
-  - https://raw.githubusercontent.com/openinterpreter/openinterpreter/a4da0fc3cecef98f95264a9c66896ddb064dc377/codex-rs/Cargo.toml
+  - https://raw.githubusercontent.com/openinterpreter/openinterpreter/bb3f575d8badc136eb5808bbbb707a04eb5daa3f/README.md
+  - https://raw.githubusercontent.com/openinterpreter/openinterpreter/bb3f575d8badc136eb5808bbbb707a04eb5daa3f/LICENSE
+  - https://raw.githubusercontent.com/openinterpreter/openinterpreter/bb3f575d8badc136eb5808bbbb707a04eb5daa3f/codex-rs/Cargo.toml
   - https://github.com/openinterpreter/openinterpreter/releases.atom
+  - https://github.com/openinterpreter/openinterpreter/releases/tag/rust-v0.0.61

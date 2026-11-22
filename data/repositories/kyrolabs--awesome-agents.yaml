@@ -10,15 +10,19 @@ analysis:
     use_cases:
       - "learn-and-reference"
   evidence:
-    - claim: "Awesome Agents is a curated list of open-source tools and products for building AI agents, organized into areas such as frameworks, testing, software development, research, and automation."
+    - claim: "Awesome Agents is a curated list of open-source tools and products for
+        building AI agents, organized into areas such as frameworks, testing,
+        software development, research, and automation."
       source_type: "repository-file"
       url: "https://github.com/kyrolabs/awesome-agents/blob/main/README.md"
       checked_at: "2026-07-19"
       confidence: "high"
   state: "complete"
   summary:
-    one_line: "A curated reference list of open-source AI agent tools, products, and frameworks."
-    why_useful: "It helps developers discover agent-building resources across framework, evaluation, research, and automation categories."
+    one_line: "A curated reference list of open-source AI agent tools, products, and
+      frameworks."
+    why_useful: "It helps developers discover agent-building resources across
+      framework, evaluation, research, and automation categories."
 curation:
   confidence: null
   evidence: []
@@ -32,28 +36,28 @@ id: "github:kyrolabs/awesome-agents"
 import:
   github_snapshot:
     archived: false
-    created_at: "2023-07-02T11:12:36Z"
-    default_branch: "main"
-    description: "🤖 Awesome list of AI Agents"
+    created_at: 2023-07-02T11:12:36Z
+    default_branch: main
+    description: 🤖 Awesome list of AI Agents
     disabled: false
-    fetched_at: "2026-07-19T19:16:14.796Z"
+    fetched_at: 2026-11-22T12:07:00.148Z
     fork: false
-    forks: 715
+    forks: 1014
     homepage: ""
     latest_release: null
     license_spdx: null
-    open_issues: 3
+    open_issues: 15
     primary_language: null
-    pushed_at: "2026-07-17T13:20:56Z"
-    stars: 2637
+    pushed_at: 2026-11-18T01:20:29Z
+    stars: 3014
     topics: []
-    updated_at: "2026-07-19T19:09:10Z"
+    updated_at: 2026-11-21T17:50:05Z
   sources:
-    - observed_at: "2026-04-03T15:25:33Z"
-      relation: "starred"
-      source_id: "github:user:tomseai:stars"
-      source_url: "https://github.com/tomseai?tab=stars"
-  state: "imported"
+    - observed_at: 2026-04-03T15:25:33Z
+      relation: starred
+      source_id: github:user:tomseai:stars
+      source_url: https://github.com/tomseai?tab=stars
+  state: refreshed
 repository:
   aliases: []
   github_node_id: "R_kgDOJ2phMw"

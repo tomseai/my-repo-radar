@@ -13,7 +13,9 @@ analysis:
       - "learn-and-reference"
       - "improve-developer-workflow"
   evidence:
-    - claim: "Awesome AI Tools collects AI tools in categories including chatbots, AI agents, open-source LLMs, AI coding, agent skills, image creation, and research."
+    - claim: "Awesome AI Tools collects AI tools in categories including chatbots, AI
+        agents, open-source LLMs, AI coding, agent skills, image creation, and
+        research."
       source_type: "repository-file"
       url: "https://github.com/ikaijua/Awesome-AITools/blob/main/README.md"
       checked_at: "2026-07-19"
@@ -21,7 +23,8 @@ analysis:
   state: "researched"
   summary:
     one_line: "Curated directory of AI tools, models, agents, and coding resources."
-    why_useful: "It provides a categorized starting point for discovering AI products and developer-oriented AI tooling."
+    why_useful: "It provides a categorized starting point for discovering AI
+      products and developer-oriented AI tooling."
 curation:
   confidence: null
   evidence: []
@@ -35,47 +38,52 @@ id: "github:ikaijua/Awesome-AITools"
 import:
   github_snapshot:
     archived: false
-    created_at: "2023-04-02T04:06:56Z"
-    default_branch: "main"
-    description: "Collection of AI-related utilities. Welcome to submit pull requests /收藏AI相关的实用工具，欢迎提交pull requests"
+    created_at: 2023-04-02T04:06:56Z
+    default_branch: main
+    description: This repo collects awesome AI tools. Welcome everyone to recommend
+      more awesome AI tools together!
     disabled: false
-    fetched_at: "2026-07-19T19:16:14.796Z"
+    fetched_at: 2026-11-22T12:07:00.148Z
     fork: false
-    forks: 683
-    homepage: ""
-    latest_release: null
-    license_spdx: null
-    open_issues: 55
-    primary_language: "Python"
-    pushed_at: "2026-07-19T15:19:58Z"
-    stars: 6093
+    forks: 1063
+    homepage: https://ikaijua.github.io/Awesome-AITools-Site/
+    latest_release:
+      tag: weekly-2026-W46
+      published_at: 2026-11-14T16:54:07Z
+      url: https://github.com/ikaijua/Awesome-AITools/releases/tag/weekly-2026-W46
+    license_spdx: CC-BY-4.0
+    open_issues: 82
+    primary_language: Python
+    pushed_at: 2026-11-22T05:18:47Z
+    stars: 6374
     topics:
-      - "agent-skills"
-      - "ai"
-      - "artificial-intelligence"
-      - "awesome"
-      - "awesome-list"
-      - "awesome-lists"
-      - "chatgpt"
-      - "claude"
-      - "claude-skills"
-      - "claudecode"
-      - "deepseek"
-      - "gemini"
-      - "gemini3-pro"
-      - "gpt"
-      - "gpt-5"
-      - "llm"
-      - "machinelearning"
-      - "nanobanana"
-      - "tools"
-    updated_at: "2026-07-19T15:20:04Z"
+      - agent-skills
+      - agents
+      - ai
+      - ai-tools
+      - artificial-intelligence
+      - awesome
+      - awesome-list
+      - awesome-lists
+      - chatgpt
+      - claude
+      - claude-skills
+      - claudecode
+      - deepseek
+      - gemini
+      - gpt
+      - gpt-image-2
+      - llm
+      - mcp
+      - seedance
+      - tools
+    updated_at: 2026-11-22T05:37:40Z
   sources:
-    - observed_at: "2026-04-03T15:40:52Z"
-      relation: "starred"
-      source_id: "github:user:tomseai:stars"
-      source_url: "https://github.com/tomseai?tab=stars"
-  state: "imported"
+    - observed_at: 2026-04-03T15:40:52Z
+      relation: starred
+      source_id: github:user:tomseai:stars
+      source_url: https://github.com/tomseai?tab=stars
+  state: refreshed
 repository:
   aliases: []
   github_node_id: "R_kgDOJRlwiQ"

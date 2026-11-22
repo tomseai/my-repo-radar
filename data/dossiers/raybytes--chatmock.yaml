@@ -2,9 +2,9 @@ schema_version: 2
 repository_id: github:RayBytes/ChatMock
 research:
   state: complete
-  source_commit: f4972076f510ff4636b57d7d7e3ad0699e7e38c9
-  bundle_collected_at: 2026-07-19T20:45:00.860Z
-  researched_at: 2026-07-20T16:02:06.116Z
+  source_commit: a26ef0a115db4d5822fbeab4fde36715b76bce41
+  bundle_collected_at: 2026-11-22T12:10:16.054Z
+  researched_at: 2026-11-22T12:24:13Z
   confidence: high
 
 classification:
@@ -33,7 +33,7 @@ key_features:
   - Ollama-compatible endpoints for clients that require that protocol shape
   - Tool calling, vision input, configurable thinking, fast mode, and web search
   - CLI commands for account login and starting the server
-  - Optional desktop GUI package and a Docker deployment configuration
+  - Optional GUI dependencies and a Docker deployment configuration
 
 usage:
   interfaces:
@@ -44,7 +44,6 @@ usage:
   installation:
     - Homebrew
     - pipx or pip package
-    - release GUI download
     - Docker
   setup: moderate
 
@@ -67,21 +66,28 @@ license:
 status:
   lifecycle: active
   archived: false
-  latest_release: v1.39
-  latest_release_at: 2026-06-07
+  latest_release: v1.35
+  latest_release_at: 2025-11-26
 
 strengths:
   - Provides two documented compatibility surfaces for reuse in other clients
   - Keeps the default API listener on the local loopback address
-  - Exposes Codex-specific capabilities without requiring each client to implement them
+  - Exposes Codex-specific capabilities without requiring each client to
+    implement them
 
 caveats:
-  - Requires signing in with a ChatGPT account before the local server can be used
+  - The current README no longer describes a GUI download, although GUI
+    dependencies remain declared in the package manifest
+  - Requires signing in with a ChatGPT account before the local server can be
+    used
   - The project states that it is not affiliated with OpenAI
-  - Client behavior depends on its support for the documented OpenAI or Ollama compatibility endpoints
+  - Client behavior depends on its support for the documented OpenAI or Ollama
+    compatibility endpoints
 
 sources:
-  - https://raw.githubusercontent.com/RayBytes/ChatMock/f4972076f510ff4636b57d7d7e3ad0699e7e38c9/README.md
-  - https://raw.githubusercontent.com/RayBytes/ChatMock/f4972076f510ff4636b57d7d7e3ad0699e7e38c9/LICENSE
-  - https://raw.githubusercontent.com/RayBytes/ChatMock/f4972076f510ff4636b57d7d7e3ad0699e7e38c9/pyproject.toml
+  - https://raw.githubusercontent.com/RayBytes/ChatMock/a26ef0a115db4d5822fbeab4fde36715b76bce41/README.md
+  - https://raw.githubusercontent.com/RayBytes/ChatMock/a26ef0a115db4d5822fbeab4fde36715b76bce41/LICENSE
+  - https://raw.githubusercontent.com/RayBytes/ChatMock/a26ef0a115db4d5822fbeab4fde36715b76bce41/pyproject.toml
   - https://github.com/RayBytes/ChatMock/releases.atom
+  - https://github.com/RayBytes/ChatMock/releases/tag/v1.35
+  - https://github.com/RayBytes/ChatMock/commit/a26ef0a115db4d5822fbeab4fde36715b76bce41

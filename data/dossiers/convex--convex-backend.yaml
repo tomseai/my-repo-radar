@@ -1,0 +1,83 @@
+schema_version: 2
+repository_id: github:convex/convex-backend
+research:
+  state: complete
+  source_commit: bf8d7457a4949704241d81bfad311fa80a657250
+  bundle_collected_at: 2026-11-22T12:09:19.255Z
+  researched_at: 2026-11-22T12:24:03.854Z
+  confidence: high
+classification:
+  primary_category: data-and-databases
+  topics:
+    - databases
+    - backend-development
+    - realtime
+    - self-hosted
+    - open-source
+    - deployment
+project:
+  name: Convex
+  kind: service
+  summary: A reactive database and application backend that combines strongly
+    consistent TypeScript server functions with client libraries for dynamic,
+    live-updating applications.
+  best_for:
+    - Teams building a reactive web application with TypeScript server logic
+    - Operators who need an available self-hosted Convex backend
+key_features:
+  - Strongly consistent database operations written as TypeScript server
+    functions
+  - Client libraries for dynamic live-updating applications
+  - Self-hosted dashboard and CLI alongside the backend
+  - Docker and prebuilt-binary self-hosting paths
+  - Rust backend with public and internal TypeScript packages
+usage:
+  interfaces:
+    - backend service
+    - dashboard
+    - CLI
+  installation:
+    - Docker image
+    - prebuilt binary
+    - build from source
+  setup: moderate
+technology:
+  languages:
+    - Rust
+    - TypeScript
+  notable_components:
+    - Docker
+    - PostgreSQL
+    - SQLite
+license:
+  spdx: FSL-1.1-Apache-2.0
+  name: Functional Source License 1.1 with Apache License 2.0 future license
+  notes: Competing commercial uses are excluded; each version converts to
+    Apache-2.0 after two years.
+status:
+  lifecycle: active
+  archived: false
+  latest_release: null
+  latest_release_at: null
+strengths:
+  - Combines database, server functions, and client libraries in one reactive
+    platform
+  - Offers supported Docker and binary paths for self-hosting
+  - A Rust workspace supports a substantial backend implementation
+caveats:
+  - The Functional Source License restricts competing commercial offerings
+    before conversion
+  - The retained release feed contains timestamped, commit-hash precompiled
+    builds, most recently precompiled-2026-11-21-cf39368. It does not
+    establish a stable project release
+  - Building from source requires replacing the repository's default instance
+    secret and admin key
+  - Windows has received less production testing than Linux and macOS
+  - Self-hosted builds send a minimal anonymous beacon unless disabled with
+    the backend flag
+sources:
+  - https://raw.githubusercontent.com/convex/convex-backend/bf8d7457a4949704241d81bfad311fa80a657250/README.md
+  - https://raw.githubusercontent.com/convex/convex-backend/bf8d7457a4949704241d81bfad311fa80a657250/LICENSE.md
+  - https://raw.githubusercontent.com/convex/convex-backend/bf8d7457a4949704241d81bfad311fa80a657250/Cargo.toml
+  - https://raw.githubusercontent.com/convex/convex-backend/bf8d7457a4949704241d81bfad311fa80a657250/CONTRIBUTING.md
+  - https://github.com/convex/convex-backend/releases.atom

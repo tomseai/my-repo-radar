@@ -2,9 +2,9 @@ schema_version: 2
 repository_id: github:pingdotgg/t3code
 research:
   state: complete
-  source_commit: 69c8be2ee54e3aff9c90b98d8e10aeafd0aaae2e
-  bundle_collected_at: 2026-07-19T20:44:54.555Z
-  researched_at: 2026-07-20T15:52:01.019Z
+  source_commit: 9f19a6ddf57d5d764c9d36eb58f07a4bb196ff05
+  bundle_collected_at: 2026-11-22T12:10:17.801Z
+  researched_at: 2026-11-22T12:24:03.838Z
   confidence: high
 classification:
   primary_category: ai-and-automation
@@ -18,22 +18,26 @@ classification:
 project:
   name: T3 Code
   kind: application
-  summary: >-
-    An early web and desktop graphical interface for launching and working with
-    Codex, Claude, Cursor, and OpenCode coding-agent providers from one product.
+  summary: A desktop, web, and mobile interface for running coding agents on the
+    user’s computer and following the same threads across clients.
   best_for:
     - Developers who already use a supported coding-agent CLI and want one GUI
-    - Trying several supported coding-agent providers without changing interfaces
+    - Trying several supported coding-agent providers without changing
+      interfaces
 key_features:
-  - A minimal web GUI for Codex, Claude, Cursor, and OpenCode
+  - Runs Claude Code, Codex, Cursor, OpenCode, and other installed providers,
+    including agents supporting ACP
   - Browser launch without a global install through npx t3@latest
-  - Desktop distribution through GitHub Releases, winget, Homebrew Cask, and the Arch AUR
+  - Desktop distribution through GitHub Releases, winget, Homebrew Cask, and
+    the Arch AUR
   - Separate web and Electron desktop applications in the TypeScript monorepo
+  - Synchronizes threads across desktop, web, iOS, and Android clients
 usage:
   interfaces:
     - web GUI
     - desktop application
     - CLI launcher
+    - iOS and Android companion apps
   installation:
     - npx t3@latest
     - Desktop release download
@@ -51,24 +55,28 @@ technology:
 license:
   spdx: MIT
   name: MIT License
-  notes: Permissive reuse, modification, distribution, sublicensing, and sale are allowed with notice inclusion; it is provided without warranty.
+  notes: Permissive reuse, modification, distribution, sublicensing, and sale
+    are allowed with notice inclusion; it is provided without warranty.
 status:
-  lifecycle: experimental
+  lifecycle: active
   archived: false
-  latest_release: null
-  latest_release_at: null
+  latest_release: v0.1.11
+  latest_release_at: 2026-11-20
 strengths:
-  - Provides one intentionally minimal interface across four named coding-agent providers
-  - Offers both no-install browser launch and native desktop distribution options
+  - Provides one intentionally minimal interface across four named
+    coding-agent providers
+  - Offers both no-install browser launch and native desktop distribution
+    options
   - The MIT license permits broad reuse and modification
 caveats:
-  - The README describes the project as very early and warns users to expect bugs
-  - A supported provider CLI must already be installed and authenticated before use
-  - Provider coverage is limited to Codex, Claude, Cursor, and OpenCode in the retained README
-  - The cached feed contains only v0.0.29 nightly releases, so no stable project release is established
+  - The retained feed also includes newer nightlies
+  - A supported provider CLI must already be installed and authenticated
+    before use
+  - Available agent capabilities vary with the configured provider
 sources:
-  - https://raw.githubusercontent.com/pingdotgg/t3code/69c8be2ee54e3aff9c90b98d8e10aeafd0aaae2e/README.md
-  - https://raw.githubusercontent.com/pingdotgg/t3code/69c8be2ee54e3aff9c90b98d8e10aeafd0aaae2e/LICENSE
-  - https://raw.githubusercontent.com/pingdotgg/t3code/69c8be2ee54e3aff9c90b98d8e10aeafd0aaae2e/package.json
-  - https://raw.githubusercontent.com/pingdotgg/t3code/69c8be2ee54e3aff9c90b98d8e10aeafd0aaae2e/apps/desktop/package.json
+  - https://raw.githubusercontent.com/pingdotgg/t3code/9f19a6ddf57d5d764c9d36eb58f07a4bb196ff05/README.md
+  - https://raw.githubusercontent.com/pingdotgg/t3code/9f19a6ddf57d5d764c9d36eb58f07a4bb196ff05/LICENSE
+  - https://raw.githubusercontent.com/pingdotgg/t3code/9f19a6ddf57d5d764c9d36eb58f07a4bb196ff05/package.json
+  - https://raw.githubusercontent.com/pingdotgg/t3code/9f19a6ddf57d5d764c9d36eb58f07a4bb196ff05/apps/desktop/package.json
   - https://github.com/pingdotgg/t3code/releases.atom
+  - https://github.com/pingdotgg/t3code/releases/tag/v0.1.11

@@ -2,9 +2,9 @@ schema_version: 2
 repository_id: github:pyscript/pyscript
 research:
   state: complete
-  source_commit: c996eed3ce7a8f12e897dc3186b0713b7b8624a6
-  bundle_collected_at: 2026-07-19T20:44:59.317Z
-  researched_at: 2026-07-20T16:05:00Z
+  source_commit: d798c04910b21e5018813b7975ef3e9999e994c5
+  bundle_collected_at: 2026-11-22T12:10:17.277Z
+  researched_at: 2026-11-22T12:23:54Z
   confidence: high
 classification:
   primary_category: application-frameworks
@@ -25,7 +25,8 @@ key_features:
   - Runs Python in browser pages through Pyodide or MicroPython script types
   - Publishes browser-ready core JavaScript and CSS release assets
   - Uses WebAssembly and standard web technologies for browser execution
-  - Exposes core package entry points for JavaScript, CSS, storage, and service workers
+  - Exposes core package entry points for JavaScript, CSS, storage, and service
+    workers
 usage:
   interfaces:
     - HTML script tags
@@ -49,21 +50,28 @@ license:
   name: Apache License 2.0
   notes: Permissive license with notice, attribution, and patent-license terms.
 status:
-  lifecycle: active
+  lifecycle: maintenance
   archived: false
-  latest_release: 2026.7.2
-  latest_release_at: "2026-07-09"
+  latest_release: 2026.7.3
+  latest_release_at: "2026-07-29"
 strengths:
-  - Lets a browser page combine Python with established HTML, CSS, and JavaScript workflows
-  - Supports both Pyodide and MicroPython execution paths in the documented page format
+  - Lets a browser page combine Python with established HTML, CSS, and
+    JavaScript workflows
+  - Supports both Pyodide and MicroPython execution paths in the documented page
+    format
   - Provides hosted release assets and package-level browser entry points
 caveats:
-  - The platform targets browser execution, so it is not a substitute for a conventional server-side Python runtime
-  - A project must choose and configure the appropriate Pyodide or MicroPython script type for its code
-  - Browser delivery depends on loading PyScript core assets and the selected Python runtime resources
+  - The project announced that it is entering maintenance mode.
+  - The platform targets browser execution, so it is not a substitute for a
+    conventional server-side Python runtime
+  - A project must choose and configure the appropriate Pyodide or MicroPython
+    script type for its code
+  - Browser delivery depends on loading PyScript core assets and the selected
+    Python runtime resources
 sources:
-  - https://raw.githubusercontent.com/pyscript/pyscript/c996eed3ce7a8f12e897dc3186b0713b7b8624a6/README.md
-  - https://raw.githubusercontent.com/pyscript/pyscript/c996eed3ce7a8f12e897dc3186b0713b7b8624a6/LICENSE
-  - https://raw.githubusercontent.com/pyscript/pyscript/c996eed3ce7a8f12e897dc3186b0713b7b8624a6/pyproject.toml
-  - https://raw.githubusercontent.com/pyscript/pyscript/c996eed3ce7a8f12e897dc3186b0713b7b8624a6/core/package.json
+  - https://raw.githubusercontent.com/pyscript/pyscript/d798c04910b21e5018813b7975ef3e9999e994c5/README.md
+  - https://raw.githubusercontent.com/pyscript/pyscript/d798c04910b21e5018813b7975ef3e9999e994c5/LICENSE
+  - https://raw.githubusercontent.com/pyscript/pyscript/d798c04910b21e5018813b7975ef3e9999e994c5/pyproject.toml
+  - https://raw.githubusercontent.com/pyscript/pyscript/d798c04910b21e5018813b7975ef3e9999e994c5/core/package.json
   - https://github.com/pyscript/pyscript/releases.atom
+  - https://github.com/pyscript/pyscript/releases/tag/2026.7.3

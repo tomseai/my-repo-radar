@@ -2,7 +2,7 @@
 
 # Web
 
-[Back to the main catalog](../README.md) | **40 repositories**
+[Back to the main catalog](../README.md) | **41 repositories**
 
 ## Primary categories represented
 
@@ -11,7 +11,7 @@
 - [Data and Databases](../categories/data-and-databases.md) (1)
 - [Developer Tools](../categories/developer-tools.md) (5)
 - [Documentation and Learning](../categories/documentation-and-learning.md) (5)
-- [Frontend and Design](../categories/frontend-and-design.md) (9)
+- [Frontend and Design](../categories/frontend-and-design.md) (10)
 - [Platforms and Applications](../categories/platforms-and-applications.md) (3)
 - [Security and Privacy](../categories/security-and-privacy.md) (1)
 - [Testing and Quality](../categories/testing-and-quality.md) (2)
@@ -29,7 +29,7 @@ A browser-hosted screen and camera recorder that captures a tab, window, or scre
 - **Languages:** TypeScript
 - **License:** MIT
 - **Lifecycle:** Unknown
-- **GitHub stars:** 519
+- **GitHub stars:** 534
 
 **Key features**
 
@@ -50,7 +50,7 @@ An educational React recreation of a TunnelBear-inspired login form with a bear 
 - **Languages:** TypeScript, JavaScript
 - **License:** No open-source license declared
 - **Lifecycle:** Unknown
-- **GitHub stars:** 405
+- **GitHub stars:** 407
 
 **Key features**
 
@@ -71,7 +71,7 @@ A stack-agnostic collection of six agent skills for reviewing and improving web 
 - **Languages:** Shell
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 2,518
+- **GitHub stars:** 3,117
 
 **Key features**
 
@@ -92,7 +92,7 @@ The TypeScript-first, full-stack MVC framework core for Node.js web applications
 - **Languages:** TypeScript, JavaScript
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 19,044
+- **GitHub stars:** 19,192
 
 **Key features**
 
@@ -113,7 +113,7 @@ A TypeScript library for embedding an AI GUI agent into a web page, where a conf
 - **Languages:** TypeScript
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 27,146
+- **GitHub stars:** 29,734
 
 **Key features**
 
@@ -134,7 +134,7 @@ A TypeScript library for deploying or embedding a self-hosted, OAuth 2.0 authori
 - **Languages:** TypeScript
 - **License:** MIT
 - **Lifecycle:** Experimental
-- **GitHub stars:** 7,245
+- **GitHub stars:** 7,453
 
 **Key features**
 
@@ -155,7 +155,7 @@ A JavaScript browser library for persisting vector embeddings in IndexedDB and s
 - **Languages:** JavaScript, WebAssembly
 - **License:** Apache-2.0
 - **Lifecycle:** Unknown
-- **GitHub stars:** 296
+- **GitHub stars:** 295
 
 **Key features**
 
@@ -176,7 +176,7 @@ A Markdown directory of third-party AI-product directories, intended to help AI 
 - **Languages:** Markdown
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 854
+- **GitHub stars:** 902
 
 **Key features**
 
@@ -197,11 +197,11 @@ A community-maintained directory and companion website that organizes AI tools b
 - **Languages:** HTML, Python
 - **License:** Repository-wide license not established
 - **Lifecycle:** Active
-- **GitHub stars:** 664
+- **GitHub stars:** 775
 
 **Key features**
 
-  - A generated Markdown index of AI tools grouped into numerous categories
+  - Generated Markdown indexes in multiple languages, with AI tools grouped by category
   - A leaderboard and category listings that link to individual review pages on the companion website
   - Role-oriented tool collections for professionals such as developers, designers, and marketers
 
@@ -218,7 +218,7 @@ A JavaScript and TypeScript library for calculating multiline text layout withou
 - **Languages:** TypeScript, JavaScript
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 49,223
+- **GitHub stars:** 51,087
 
 **Key features**
 
@@ -239,7 +239,7 @@ A TypeScript library that combines Markdown and React for technical content site
 - **Languages:** TypeScript
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 5,368
+- **GitHub stars:** 5,400
 
 **Key features**
 
@@ -260,7 +260,7 @@ A browser-based, VS Code-style interface for browsing GitHub repositories by rep
 - **Languages:** TypeScript, JavaScript
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 23,297
+- **GitHub stars:** 23,307
 
 **Key features**
 
@@ -281,7 +281,7 @@ A multi-platform framework for adding agent-driven chat, generative UI, shared s
 - **Languages:** TypeScript, Python
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 36,158
+- **GitHub stars:** 38,872
 
 **Key features**
 
@@ -302,7 +302,7 @@ A conceptual guide and set of examples that compares controlled, declarative, an
 - **Languages:** Unknown
 - **License:** No license terms established
 - **Lifecycle:** Deprecated
-- **GitHub stars:** 780
+- **GitHub stars:** 900
 
 **Key features**
 
@@ -323,7 +323,7 @@ A scheduled TypeScript application that collects selected X posts and web pages,
 - **Languages:** TypeScript
 - **License:** MIT
 - **Lifecycle:** Unknown
-- **GitHub stars:** 4,102
+- **GitHub stars:** 4,130
 
 **Key features**
 
@@ -344,7 +344,7 @@ A Node.js web framework for building HTTP servers and APIs with route schemas, s
 - **Languages:** JavaScript
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 36,758
+- **GitHub stars:** 37,453
 
 **Key features**
 
@@ -365,7 +365,7 @@ A TypeScript library for building responsive, draggable, resizable dashboard gri
 - **Languages:** TypeScript, JavaScript
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 8,999
+- **GitHub stars:** 9,260
 
 **Key features**
 
@@ -386,7 +386,7 @@ An HTML presentation framework for authoring and presenting browser-based slide 
 - **Languages:** JavaScript, TypeScript, HTML, CSS
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 71,969
+- **GitHub stars:** 72,615
 
 **Key features**
 
@@ -407,13 +407,34 @@ A zero-configuration Node.js CLI that turns a folder of Markdown or MDX files in
 - **Languages:** TypeScript, MDX
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 724
+- **GitHub stars:** 1,846
 
 **Key features**
 
   - Generates and drives a hidden Astro project from Markdown or MDX content, with an eject path for full project control
   - Provides CLI commands for project initialization, development, builds, previews, checks, validation, diagnostics, content sync, and component installation
   - Produces static HTML and a local search index, with support for self-hosted search and optional external search providers
+
+<a id="repo-heygen-com--hyperframes"></a>
+
+## [Hyperframes](https://github.com/heygen-com/hyperframes)
+
+A deterministic HTML and CSS video framework with a local CLI, preview and rendering workflow, SDK, hosted execution options, and reusable skills for AI agents.
+
+- **Category:** [Frontend and Design](../categories/frontend-and-design.md#repo-heygen-com--hyperframes)
+- **Topics:** [Multimodal](../topics/multimodal.md#repo-heygen-com--hyperframes) | [Agent Skills](../topics/agent-skills.md#repo-heygen-com--hyperframes) | [CLI](../topics/cli.md#repo-heygen-com--hyperframes) | [Web](../topics/web.md#repo-heygen-com--hyperframes) | [Automation](../topics/automation.md#repo-heygen-com--hyperframes) | [Generative UI](../topics/generative-ui.md#repo-heygen-com--hyperframes)
+- **Kind:** Framework
+- **Best for:** Developers generating videos from familiar web technologies; Agents automating repeatable product, explainer, caption, and motion-graphics videos
+- **Languages:** TypeScript
+- **License:** Apache-2.0
+- **Lifecycle:** Active
+- **GitHub stars:** 88,021
+
+**Key features**
+
+  - Renders HTML, CSS, media, and seekable animations to MP4 deterministically
+  - Provides init, preview, and render commands plus SDK and studio workflows
+  - Bundles reusable agent skills for common video-production tasks
 
 <a id="repo-honojs--hono"></a>
 
@@ -428,7 +449,7 @@ A small TypeScript web framework built on Web Standards for defining HTTP applic
 - **Languages:** TypeScript
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 31,399
+- **GitHub stars:** 33,013
 
 **Key features**
 
@@ -449,11 +470,11 @@ A Node.js CLI that turns supported websites, logged-in Chrome sessions, Electron
 - **Languages:** JavaScript, TypeScript
 - **License:** Apache-2.0
 - **Lifecycle:** Active
-- **GitHub stars:** 26,949
+- **GitHub stars:** 31,223
 
 **Key features**
 
-  - Provides built-in site adapters and JSON, YAML, Markdown, CSV, and table output
+  - Provides built-in site adapters and defaults to structured JSON success and error responses
   - Drives logged-in Chrome through a Browser Bridge extension and local daemon
   - Exposes browser navigation, interaction, extraction, network inspection, and screenshot commands
 
@@ -470,7 +491,7 @@ A cross-platform desktop GUI, also known as youtube-dl-gui, that uses yt-dlp to 
 - **Languages:** Rust, TypeScript
 - **License:** AGPL-3.0-or-later
 - **Lifecycle:** Active
-- **GitHub stars:** 8,873
+- **GitHub stars:** 9,760
 
 **Key features**
 
@@ -491,7 +512,7 @@ A JavaScript animation library for animating CSS properties, SVG, DOM attributes
 - **Languages:** JavaScript, TypeScript
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 71,196
+- **GitHub stars:** 74,968
 
 **Key features**
 
@@ -512,7 +533,7 @@ The core engine of an open-source family for creating native mobile and web user
 - **Languages:** C++, TypeScript, JavaScript
 - **License:** Apache-2.0
 - **Lifecycle:** Active
-- **GitHub stars:** 14,996
+- **GitHub stars:** 15,269
 
 **Key features**
 
@@ -533,7 +554,7 @@ A TypeScript monorepo for public packages that render code diffs and file trees,
 - **Languages:** TypeScript
 - **License:** Apache-2.0
 - **Lifecycle:** Active
-- **GitHub stars:** 5,444
+- **GitHub stars:** 6,638
 
 **Key features**
 
@@ -554,7 +575,7 @@ An atom-based state-management library for React that composes primitive and der
 - **Languages:** TypeScript, JavaScript
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 21,229
+- **GitHub stars:** 21,336
 
 **Key features**
 
@@ -575,7 +596,7 @@ A small, hook-based state-management library for React that creates stores witho
 - **Languages:** TypeScript, JavaScript
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 58,442
+- **GitHub stars:** 58,976
 
 **Key features**
 
@@ -595,8 +616,8 @@ An open-source browser platform for building Python applications with Pyodide or
 - **Best for:** Browser applications that need Python embedded directly in an HTML page; Prototypes and web experiences that can use Pyodide or MicroPython runtimes
 - **Languages:** Python, JavaScript, HTML
 - **License:** Apache-2.0
-- **Lifecycle:** Active
-- **GitHub stars:** 18,694
+- **Lifecycle:** Maintenance
+- **GitHub stars:** 18,670
 
 **Key features**
 
@@ -617,7 +638,7 @@ A TypeScript library that parses Git or unified diffs and renders them as format
 - **Languages:** TypeScript, JavaScript
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 3,389
+- **GitHub stars:** 3,433
 
 **Key features**
 
@@ -638,7 +659,7 @@ An AI-powered browser development agent that prompts, runs, edits, and deploys f
 - **Languages:** TypeScript, JavaScript
 - **License:** MIT
 - **Lifecycle:** Experimental
-- **GitHub stars:** 16,471
+- **GitHub stars:** 16,610
 
 **Key features**
 
@@ -659,7 +680,7 @@ A TypeScript reactive UI framework centered on JavaScript modules, tagged templa
 - **Languages:** TypeScript, JavaScript
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 3,706
+- **GitHub stars:** 3,783
 
 **Key features**
 
@@ -680,7 +701,7 @@ A self-hosted, JavaScript and TypeScript headless CMS for visually modeling cont
 - **Languages:** JavaScript, TypeScript
 - **License:** NOASSERTION
 - **Lifecycle:** Active
-- **GitHub stars:** 72,685
+- **GitHub stars:** 73,533
 
 **Key features**
 
@@ -700,8 +721,8 @@ A large, hand-curated README index of resources for adding visual flair, usabili
 - **Best for:** Designers and frontend developers collecting interface and visual-design references; Product teams looking for inspiration or a starting point for specific UI details
 - **Languages:** Markdown
 - **License:** MIT
-- **Lifecycle:** Active
-- **GitHub stars:** 9,786
+- **Lifecycle:** Archived
+- **GitHub stars:** 9,775
 
 **Key features**
 
@@ -722,7 +743,7 @@ An interactive CLI that scaffolds modular, type-safe full-stack Next.js applicat
 - **Languages:** TypeScript
 - **License:** MIT
 - **Lifecycle:** Maintenance
-- **GitHub stars:** 29,045
+- **GitHub stars:** 29,248
 
 **Key features**
 
@@ -734,7 +755,7 @@ An interactive CLI that scaffolds modular, type-safe full-stack Next.js applicat
 
 ## [Front-End Checklist](https://github.com/thedaviddias/Front-End-Checklist)
 
-A front-end quality system containing 385 prioritized rules across eleven categories, delivered as a browsable website, a README checklist, reusable skills, and hosted or local MCP tooling for review and audit workflows.
+A front-end quality system containing 386 prioritized rules across eleven categories, delivered as a browsable website, a README checklist, reusable skills, and hosted or local MCP tooling for review and audit workflows.
 
 - **Category:** [Testing and Quality](../categories/testing-and-quality.md#repo-thedaviddias--front-end-checklist)
 - **Topics:** [Web](../topics/web.md#repo-thedaviddias--front-end-checklist) | [Frontend Development](../topics/frontend-development.md#repo-thedaviddias--front-end-checklist) | [Accessibility](../topics/accessibility.md#repo-thedaviddias--front-end-checklist) | [Security](../topics/security.md#repo-thedaviddias--front-end-checklist) | [Testing](../topics/testing.md#repo-thedaviddias--front-end-checklist) | [Performance](../topics/performance.md#repo-thedaviddias--front-end-checklist) | [MCP](../topics/mcp.md#repo-thedaviddias--front-end-checklist) | [AI Agents](../topics/ai-agents.md#repo-thedaviddias--front-end-checklist) | [Documentation](../topics/documentation.md#repo-thedaviddias--front-end-checklist)
@@ -743,11 +764,11 @@ A front-end quality system containing 385 prioritized rules across eleven catego
 - **Languages:** TypeScript, MDX
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 73,256
+- **GitHub stars:** 74,793
 
 **Key features**
 
-  - 385 English rules organized into eleven active front-end quality categories
+  - 386 English rules organized into eleven active front-end quality categories
   - Priority labels for critical, high, medium, and low-impact findings
   - Hosted MCP server with tools to review code, audit public URLs, search rules, and retrieve workflows
 
@@ -764,7 +785,7 @@ A broad technical reference of tools, manuals, cheatsheets, links, and shell exa
 - **Languages:** Unknown
 - **License:** MIT
 - **Lifecycle:** Maintenance
-- **GitHub stars:** 234,100
+- **GitHub stars:** 260,417
 
 **Key features**
 
@@ -785,7 +806,7 @@ A Python crawler and scraper that uses browser automation to turn web pages into
 - **Languages:** Python, JavaScript
 - **License:** Apache License 2.0 with an additional attribution requirement
 - **Lifecycle:** Active
-- **GitHub stars:** 73,307
+- **GitHub stars:** 87,654
 
 **Key features**
 
@@ -806,7 +827,7 @@ A type-safe application stack for building lightweight end-to-end Next.js applic
 - **Languages:** TypeScript
 - **License:** MIT
 - **Lifecycle:** Unknown
-- **GitHub stars:** 3,751
+- **GitHub stars:** 3,737
 
 **Key features**
 
@@ -827,7 +848,7 @@ A local-development CLI that replaces per-app port numbers with stable, named UR
 - **Languages:** TypeScript
 - **License:** Apache-2.0
 - **Lifecycle:** Active
-- **GitHub stars:** 10,169
+- **GitHub stars:** 12,945
 
 **Key features**
 
@@ -848,7 +869,7 @@ A frontend development server and production build tool that provides fast itera
 - **Languages:** TypeScript
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 81,984
+- **GitHub stars:** 84,029
 
 **Key features**
 

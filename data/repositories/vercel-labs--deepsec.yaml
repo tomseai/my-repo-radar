@@ -16,15 +16,20 @@ analysis:
       - "secure-software"
       - "improve-developer-workflow"
   evidence:
-    - claim: "Deepsec is a coding-agent-powered security harness for scanning repositories, processing and revalidating potential findings, and exporting results; its documentation includes change-review and CI-gating workflows."
+    - claim: "Deepsec is a coding-agent-powered security harness for scanning
+        repositories, processing and revalidating potential findings, and
+        exporting results; its documentation includes change-review and
+        CI-gating workflows."
       source_type: "repository-file"
       url: "https://github.com/vercel-labs/deepsec/blob/main/README.md"
       checked_at: "2026-07-19"
       confidence: "high"
   state: "researched"
   summary:
-    one_line: "A coding-agent-powered security harness for finding and reviewing codebase vulnerabilities."
-    why_useful: "It supports repeatable scans, finding revalidation, report exports, and integration with pull-request review or CI."
+    one_line: "A coding-agent-powered security harness for finding and reviewing
+      codebase vulnerabilities."
+    why_useful: "It supports repeatable scans, finding revalidation, report exports,
+      and integration with pull-request review or CI."
 curation:
   confidence: null
   evidence: []
@@ -38,28 +43,29 @@ id: "github:vercel-labs/deepsec"
 import:
   github_snapshot:
     archived: false
-    created_at: "2026-04-30T16:16:11Z"
-    default_branch: "main"
-    description: "Deepsec is a security harness for finding vulnerabilities in your codebase powered by coding agents"
+    created_at: 2026-04-30T16:16:11Z
+    default_branch: main
+    description: Deepsec is a security harness for finding vulnerabilities in your
+      codebase powered by coding agents
     disabled: false
-    fetched_at: "2026-07-19T19:16:14.796Z"
+    fetched_at: 2026-11-22T12:07:00.148Z
     fork: false
-    forks: 338
-    homepage: "https://vercel.com/blog/introducing-deepsec-find-and-fix-vulnerabilities-in-your-code-base"
+    forks: 525
+    homepage: https://deepsec.sh/
     latest_release: null
-    license_spdx: "Apache-2.0"
-    open_issues: 42
-    primary_language: "TypeScript"
-    pushed_at: "2026-07-19T14:31:58Z"
-    stars: 5841
+    license_spdx: Apache-2.0
+    open_issues: 81
+    primary_language: TypeScript
+    pushed_at: 2026-11-20T21:16:12Z
+    stars: 8508
     topics: []
-    updated_at: "2026-07-19T19:15:20Z"
+    updated_at: 2026-11-22T11:41:02Z
   sources:
-    - observed_at: "2026-06-30T04:46:20Z"
-      relation: "starred"
-      source_id: "github:user:tomseai:stars"
-      source_url: "https://github.com/tomseai?tab=stars"
-  state: "imported"
+    - observed_at: 2026-06-30T04:46:20Z
+      relation: starred
+      source_id: github:user:tomseai:stars
+      source_url: https://github.com/tomseai?tab=stars
+  state: refreshed
 repository:
   aliases: []
   github_node_id: "R_kgDOSQ_WYA"

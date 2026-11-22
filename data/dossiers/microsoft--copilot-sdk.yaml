@@ -1,0 +1,103 @@
+schema_version: 2
+repository_id: github:microsoft/copilot-sdk
+research:
+  state: complete
+  source_commit: 5378d2d47d357cf2d88791f283ec2a6b5b330f82
+  bundle_collected_at: 2026-11-22T12:09:57.474Z
+  researched_at: 2026-11-22T12:22:00.882399+00:00
+  confidence: high
+classification:
+  primary_category: ai-and-automation
+  topics:
+    - ai-agents
+    - coding-agents
+    - llms
+    - tool-use
+    - code-generation
+    - libraries
+
+project:
+  name: Microsoft Copilot SDK
+  kind: library
+  summary: >-
+    Multi-language SDKs for embedding the Microsoft Copilot agent runtime behind
+    Copilot CLI into an application, with programmable sessions, tool
+    invocation, and application-controlled workflows.
+  best_for:
+    - Applications that need Copilot-powered agent workflows without
+      implementing the runtime
+    - Teams building agent-enabled products in TypeScript, Python, Go, .NET,
+      Java, or Rust
+
+key_features:
+  - SDKs for TypeScript/Node.js, Python, Go, .NET, Java, and Rust
+  - Programmatic agent sessions for prompts, planning, tool invocation, and file
+    edits
+  - Custom agents, skills, and tools plus application-controlled permission
+    handlers
+  - Session hooks for pre- and post-tool processing and session lifecycle
+    behavior
+  - Native in-process runtime by default, with spawned and standalone server
+    connection modes
+  - Optional OpenTelemetry tracing and external headless CLI connection modes
+
+usage:
+  interfaces:
+    - language SDKs
+    - programmatic agent runtime
+    - standalone runtime server
+  installation:
+    - npm package
+    - Python package
+    - language-native package manager
+  setup: moderate
+
+technology:
+  languages:
+    - TypeScript
+    - Python
+    - Go
+    - C#
+    - Java
+    - Rust
+  notable_components:
+    - GitHub Copilot CLI
+    - OpenTelemetry
+
+license:
+  spdx: MIT
+  name: MIT License
+  notes: >-
+    The repository license permits use, modification, distribution,
+    sublicensing, and sale when the copyright and permission notice are
+    retained; it is provided without warranty.
+
+status:
+  lifecycle: active
+  archived: false
+  latest_release: v2.0.1
+  latest_release_at: 2026-11-18
+
+strengths:
+  - Covers six mainstream application languages with a shared Copilot
+    agent-runtime model
+  - Lets hosts control tool approval and intercept session behavior instead of
+    treating the agent as opaque
+  - Supports in-process, spawned, and standalone runtime deployment patterns
+
+caveats:
+  - Standard use requires a GitHub Copilot subscription; BYOK instead requires
+    supported provider API keys
+  - Runtime packaging differs by language; Go and Java require additional
+    setup for platform artifacts
+  - The default in-process runtime provides neither crash isolation nor a sandbox
+  - Some existing packages and documentation retain the GitHub Copilot SDK
+    branding during the transition.
+
+sources:
+  - https://raw.githubusercontent.com/microsoft/copilot-sdk/5378d2d47d357cf2d88791f283ec2a6b5b330f82/README.md
+  - https://raw.githubusercontent.com/microsoft/copilot-sdk/5378d2d47d357cf2d88791f283ec2a6b5b330f82/docs/getting-started.md
+  - https://raw.githubusercontent.com/microsoft/copilot-sdk/5378d2d47d357cf2d88791f283ec2a6b5b330f82/docs/hooks/hooks-overview.md
+  - https://raw.githubusercontent.com/microsoft/copilot-sdk/5378d2d47d357cf2d88791f283ec2a6b5b330f82/LICENSE
+  - https://github.com/microsoft/copilot-sdk/releases.atom
+  - https://github.com/microsoft/copilot-sdk/releases/tag/v2.0.1

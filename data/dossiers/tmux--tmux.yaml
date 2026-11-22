@@ -2,9 +2,9 @@ schema_version: 2
 repository_id: github:tmux/tmux
 research:
   state: complete
-  source_commit: 8dd0e2129ed5459dc5762c049b5eeb1ddbe8be27
-  bundle_collected_at: 2026-07-19T20:45:37.959Z
-  researched_at: 2026-07-20T18:10:37.7918722+02:00
+  source_commit: 78a19c87c833c0ae3312b4cd1194ee3fa2135e18
+  bundle_collected_at: 2026-11-22T12:10:28.588Z
+  researched_at: 2026-11-22T12:25:51.009Z
   confidence: high
 classification:
   primary_category: developer-tools
@@ -55,19 +55,19 @@ license:
 status:
   lifecycle: active
   archived: false
-  latest_release: 3.7b
-  latest_release_at: "2026-07-01"
+  latest_release: '3.8'
+  latest_release_at: "2026-09-09"
 strengths:
   - Keeps shell work available across detach and reattach cycles instead of tying it to one terminal window
   - Documents source builds, platform support, debugging, and user-facing references in the pinned README
-  - Maintains scheduled regression testing on Ubuntu and macOS with platform dependencies installed in CI
+  - Maintains scheduled regression testing on Ubuntu, including ARM64, and macOS
 caveats:
   - The cached README documents source installation only, not platform package-manager commands
   - Building requires libevent, ncurses, a C compiler, make, pkg-config, and a yacc implementation
   - Version-control builds additionally require Autoconf and Automake
   - License scope is file-specific outside the README and CHANGES files
 sources:
-  - https://raw.githubusercontent.com/tmux/tmux/8dd0e2129ed5459dc5762c049b5eeb1ddbe8be27/README
-  - https://raw.githubusercontent.com/tmux/tmux/8dd0e2129ed5459dc5762c049b5eeb1ddbe8be27/SECURITY.md
-  - https://raw.githubusercontent.com/tmux/tmux/8dd0e2129ed5459dc5762c049b5eeb1ddbe8be27/.github/workflows/regress.yml
+  - https://raw.githubusercontent.com/tmux/tmux/78a19c87c833c0ae3312b4cd1194ee3fa2135e18/README
+  - https://raw.githubusercontent.com/tmux/tmux/78a19c87c833c0ae3312b4cd1194ee3fa2135e18/SECURITY.md
+  - https://raw.githubusercontent.com/tmux/tmux/78a19c87c833c0ae3312b4cd1194ee3fa2135e18/.github/workflows/regress.yml
   - https://github.com/tmux/tmux/releases.atom

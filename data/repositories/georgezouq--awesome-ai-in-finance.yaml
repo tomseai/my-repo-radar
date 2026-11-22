@@ -11,15 +11,20 @@ analysis:
     use_cases:
       - "learn-and-reference"
   evidence:
-    - claim: "Awesome AI in Finance is a curated list of research, tools, and code for applying AI to financial markets, organized around agents, LLMs, strategies, data, portfolio management, trading systems, and related resources."
+    - claim: "Awesome AI in Finance is a curated list of research, tools, and code for
+        applying AI to financial markets, organized around agents, LLMs,
+        strategies, data, portfolio management, trading systems, and related
+        resources."
       source_type: "repository-file"
       url: "https://github.com/georgezouq/awesome-ai-in-finance/blob/main/README.md"
       checked_at: "2026-07-19"
       confidence: "high"
   state: "researched"
   summary:
-    one_line: "A curated reference list of AI research, tools, and code for financial-market work."
-    why_useful: "It gathers finance-oriented AI resources across agent systems, language models, data, strategies, and trading infrastructure."
+    one_line: "A curated reference list of AI research, tools, and code for
+      financial-market work."
+    why_useful: "It gathers finance-oriented AI resources across agent systems,
+      language models, data, strategies, and trading infrastructure."
 curation:
   confidence: null
   evidence: []
@@ -33,40 +38,41 @@ id: "github:georgezouq/awesome-ai-in-finance"
 import:
   github_snapshot:
     archived: false
-    created_at: "2018-08-29T02:07:02Z"
-    default_branch: "main"
-    description: "🔬 A curated list of awesome LLMs & deep learning strategies & tools in financial market."
+    created_at: 2018-08-29T02:07:02Z
+    default_branch: main
+    description: 🔬 A curated list of awesome LLMs & deep learning strategies &
+      tools in financial market.
     disabled: false
-    fetched_at: "2026-07-19T19:16:14.796Z"
+    fetched_at: 2026-11-22T12:07:00.148Z
     fork: false
-    forks: 746
-    homepage: "https://medium.com/@zousongqi0213/how-people-use-ai-in-finance-59f0a7512b4"
+    forks: 929
+    homepage: https://medium.com/@zousongqi0213/how-people-use-ai-in-finance-59f0a7512b4
     latest_release: null
-    license_spdx: "CC0-1.0"
-    open_issues: 26
+    license_spdx: CC0-1.0
+    open_issues: 98
     primary_language: null
-    pushed_at: "2026-06-03T01:24:12Z"
-    stars: 6262
+    pushed_at: 2026-11-12T05:25:29Z
+    stars: 6781
     topics:
-      - "analysis"
-      - "awesome"
-      - "awesome-list"
-      - "cryptocurrency"
-      - "deep-learning"
-      - "financial"
-      - "neural-network"
-      - "quant"
-      - "quantitative-finance"
-      - "reinforcement-learning"
-      - "stock-market"
-      - "technology-analysis"
-    updated_at: "2026-07-18T18:33:22Z"
+      - analysis
+      - awesome
+      - awesome-list
+      - cryptocurrency
+      - deep-learning
+      - financial
+      - neural-network
+      - quant
+      - quantitative-finance
+      - reinforcement-learning
+      - stock-market
+      - technology-analysis
+    updated_at: 2026-11-21T15:09:37Z
   sources:
-    - observed_at: "2026-04-03T15:43:48Z"
-      relation: "starred"
-      source_id: "github:user:tomseai:stars"
-      source_url: "https://github.com/tomseai?tab=stars"
-  state: "imported"
+    - observed_at: 2026-04-03T15:43:48Z
+      relation: starred
+      source_id: github:user:tomseai:stars
+      source_url: https://github.com/tomseai?tab=stars
+  state: refreshed
 repository:
   aliases: []
   github_node_id: "MDEwOlJlcG9zaXRvcnkxNDY1MzE2MTk="

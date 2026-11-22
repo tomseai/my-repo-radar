@@ -12,7 +12,7 @@
 
 ## [vendure](https://github.com/vendurehq/vendure)
 
-A plugin-first, headless commerce platform with a TypeScript GraphQL backend, React admin dashboard, and extensible business logic.
+A plugin-first headless commerce platform for B2B and other storefronts, built around a TypeScript GraphQL backend and React admin dashboard.
 
 - **Category:** [Backend and APIs](../categories/backend-and-apis.md#repo-vendurehq--vendure)
 - **Topics:** [Ecommerce](../topics/ecommerce.md#repo-vendurehq--vendure) | [Payments](../topics/payments.md#repo-vendurehq--vendure) | [Open Source](../topics/open-source.md#repo-vendurehq--vendure) | [Backend Development](../topics/backend-development.md#repo-vendurehq--vendure) | [API Development](../topics/api-development.md#repo-vendurehq--vendure) | [Frameworks](../topics/frameworks.md#repo-vendurehq--vendure)
@@ -21,7 +21,7 @@ A plugin-first, headless commerce platform with a TypeScript GraphQL backend, Re
 - **Languages:** TypeScript
 - **License:** GPL-3.0-or-later
 - **Lifecycle:** Active
-- **GitHub stars:** 8,258
+- **GitHub stars:** 8,611
 
 **Key features**
 

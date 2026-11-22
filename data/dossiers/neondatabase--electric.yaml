@@ -1,0 +1,102 @@
+schema_version: 2
+repository_id: github:neondatabase/electric
+research:
+  state: complete
+  source_commit: 3f9809fb0bd894cb74470d434749673492ad7acf
+  bundle_collected_at: 2026-11-22T12:10:03.452Z
+  researched_at: 2026-11-22T12:25:34.751Z
+  confidence: medium
+classification:
+  primary_category: ai-and-automation
+  topics:
+    - ai-agents
+    - agent-frameworks
+    - mcp
+    - sandboxing
+    - databases
+    - realtime
+project:
+  name: Electric
+  kind: monorepo
+  summary: >-
+    A monorepo for an agent platform built on Electric's Postgres read-path sync
+    engine, combining agent runtime and application packages with partial
+    replication, HTTP data delivery, and client integrations.
+  best_for:
+    - Teams building stateful agent applications around live Postgres data
+    - Applications that need selective real-time replication from Postgres to
+      clients
+key_features:
+  - Agent runtime, server, desktop, mobile, and MCP-oriented packages in the
+    commit-pinned monorepo
+  - Read-path synchronization from Postgres with partial replication through
+    Shapes
+  - Low-level HTTP API designed to work with CDNs for scalable data delivery
+  - TypeScript client libraries and a React useShape integration
+  - Optional Phoenix LiveDashboard for runtime monitoring
+usage:
+  interfaces:
+    - TypeScript agent runtime API
+    - HTTP sync API
+    - TypeScript client API
+    - React hooks
+    - desktop and mobile agent applications
+  installation:
+    - Docker Compose or Docker image for the Electric sync service
+    - pnpm workspace packages for clients, integrations, and agent components
+    - source development with asdf, Erlang, Elixir, Node.js, and pnpm
+  setup: moderate
+technology:
+  languages:
+    - TypeScript
+    - Elixir
+  notable_components:
+    - Electric Postgres sync service
+    - Shapes partial-replication model
+    - "@electric-ax/agents-runtime"
+    - MCP bridge package
+    - React client integration
+    - PostgreSQL logical replication
+    - Docker Compose
+license:
+  spdx: Apache-2.0
+  name: Apache License 2.0
+  notes: null
+status:
+  lifecycle: active
+  archived: false
+  latest_release: "@core/sync-service@1.8.1"
+  latest_release_at: 2026-09-07
+strengths:
+  - Combines an agent-oriented runtime and applications with an established
+    Postgres synchronization layer
+  - Uses an HTTP protocol that can integrate with CDNs and multiple client
+    frameworks
+  - Supports selective replication rather than requiring clients to consume an
+    entire database
+  - Provides multiple examples plus explicit security-reporting and
+    supported-version guidance
+caveats:
+  - The retained GitHub metadata describes an agent platform, while the root
+    README still primarily describes a Postgres sync engine; detailed agent
+    package documentation was not retained
+  - Electric is a read-path engine that syncs data out of Postgres and should
+    not be assumed to provide general bidirectional write synchronization
+  - Self-hosting requires PostgreSQL logical replication and a separately
+    running Electric service
+  - The optional Phoenix LiveDashboard is unauthenticated and must be
+    network-restricted in production
+  - Releases are component-scoped; @core/sync-service@1.8.1 is the latest
+    retained stable sync-service release. GitHub's Latest points to the
+    separate @electric-sql/y-electric@0.1.54 package.
+sources:
+  - https://raw.githubusercontent.com/neondatabase/electric/3f9809fb0bd894cb74470d434749673492ad7acf/README.md
+  - https://raw.githubusercontent.com/neondatabase/electric/3f9809fb0bd894cb74470d434749673492ad7acf/LICENSE
+  - https://raw.githubusercontent.com/neondatabase/electric/3f9809fb0bd894cb74470d434749673492ad7acf/SECURITY.md
+  - https://raw.githubusercontent.com/neondatabase/electric/3f9809fb0bd894cb74470d434749673492ad7acf/package.json
+  - https://raw.githubusercontent.com/neondatabase/electric/3f9809fb0bd894cb74470d434749673492ad7acf/examples/agents-chat-starter/package.json
+  - https://raw.githubusercontent.com/neondatabase/electric/3f9809fb0bd894cb74470d434749673492ad7acf/examples/agents-playground/package.json
+  - https://github.com/neondatabase/electric/tree/3f9809fb0bd894cb74470d434749673492ad7acf
+  - https://github.com/neondatabase/electric/releases.atom
+  - https://github.com/neondatabase/electric/releases/tag/%40core%2Fsync-service%401.8.1
+  - https://github.com/neondatabase/electric/releases/tag/%40electric-sql/y-electric%400.1.54

@@ -1,0 +1,77 @@
+analysis:
+  analyzed_at: 2026-08-15T13:30:00.000Z
+  classification:
+    primary_category: ai-and-automation
+    state: confirmed
+    technologies:
+      - javascript
+    topics:
+      - agent-skills
+      - coding-agents
+      - code-review
+      - task-planning
+      - multi-agent
+      - worktrees
+      - mcp
+      - testing
+      - developer-productivity
+    use_cases:
+      - build-ai-products
+      - improve-developer-workflow
+      - test-software
+  evidence:
+    - claim: A portable catalog of seventeen skills covering the coding-agent
+        development workflow.
+      source_type: repository-file
+      url: https://raw.githubusercontent.com/maxedapps/agent-skills/dde60eff85931af1f33bea861ada42a510ec237c/README.md
+      checked_at: 2026-08-15
+      confidence: high
+  state: complete
+  summary:
+    one_line: A portable catalog of seventeen skills covering the coding-agent
+      development workflow.
+    why_useful: Coding-agent users assembling a reusable development workflow from
+      focused skills
+curation:
+  confidence: null
+  evidence: []
+  limitations: []
+  recommendation: null
+  reviewed_at: null
+  state: uncurated
+  strengths: []
+  verdict: null
+id: github:maxedapps/agent-skills
+import:
+  github_snapshot:
+    archived: false
+    created_at: 2026-07-14T13:28:35Z
+    default_branch: main
+    description: null
+    disabled: false
+    fetched_at: 2026-11-22T12:07:00.148Z
+    fork: false
+    forks: 19
+    homepage: null
+    latest_release: null
+    license_spdx: MIT
+    open_issues: 0
+    primary_language: JavaScript
+    pushed_at: 2026-09-26T07:22:42Z
+    stars: 60
+    topics: []
+    updated_at: 2026-11-13T13:07:09Z
+  sources:
+    - observed_at: 2026-07-25T09:03:30Z
+      relation: starred
+      source_id: github:user:tomseai:stars
+      source_url: https://github.com/tomseai?tab=stars
+  state: refreshed
+repository:
+  aliases: []
+  github_node_id: R_kgDOTYRptg
+  host: github.com
+  name: agent-skills
+  owner: maxedapps
+  url: https://github.com/maxedapps/agent-skills
+version: 1

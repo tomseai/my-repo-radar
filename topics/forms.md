@@ -21,7 +21,7 @@ An educational React recreation of a TunnelBear-inspired login form with a bear 
 - **Languages:** TypeScript, JavaScript
 - **License:** No open-source license declared
 - **Lifecycle:** Unknown
-- **GitHub stars:** 405
+- **GitHub stars:** 407
 
 **Key features**
 

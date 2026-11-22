@@ -11,15 +11,19 @@ analysis:
       - "build-ai-products"
       - "learn-and-reference"
   evidence:
-    - claim: "Gen-AI Patterns is a practical collection of reusable patterns for building generative-AI systems, covering areas such as chunking, context, evaluation, orchestration, retrieval, and query optimization."
+    - claim: "Gen-AI Patterns is a practical collection of reusable patterns for
+        building generative-AI systems, covering areas such as chunking,
+        context, evaluation, orchestration, retrieval, and query optimization."
       source_type: "repository-file"
       url: "https://github.com/innowhyte/gen-ai-patterns/blob/main/README.md"
       checked_at: "2026-07-19"
       confidence: "high"
   state: "researched"
   summary:
-    one_line: "A practical reference collection of patterns for building generative-AI systems."
-    why_useful: "It groups implementation-oriented guidance by common GenAI system concerns, including retrieval, context, orchestration, and evaluation."
+    one_line: "A practical reference collection of patterns for building
+      generative-AI systems."
+    why_useful: "It groups implementation-oriented guidance by common GenAI system
+      concerns, including retrieval, context, orchestration, and evaluation."
 curation:
   confidence: null
   evidence: []
@@ -33,28 +37,28 @@ id: "github:innowhyte/gen-ai-patterns"
 import:
   github_snapshot:
     archived: false
-    created_at: "2026-02-26T14:36:25Z"
-    default_branch: "main"
+    created_at: 2026-02-26T14:36:25Z
+    default_branch: main
     description: null
     disabled: false
-    fetched_at: "2026-07-19T19:16:14.796Z"
+    fetched_at: 2026-11-22T12:07:00.148Z
     fork: false
     forks: 3
     homepage: null
     latest_release: null
-    license_spdx: "MIT"
+    license_spdx: MIT
     open_issues: 1
-    primary_language: "Python"
-    pushed_at: "2026-03-02T09:08:03Z"
+    primary_language: Python
+    pushed_at: 2026-03-02T09:08:03Z
     stars: 16
     topics: []
-    updated_at: "2026-04-12T17:08:04Z"
+    updated_at: 2026-04-12T17:08:04Z
   sources:
-    - observed_at: "2026-04-12T17:08:04Z"
-      relation: "starred"
-      source_id: "github:user:tomseai:stars"
-      source_url: "https://github.com/tomseai?tab=stars"
-  state: "imported"
+    - observed_at: 2026-04-12T17:08:04Z
+      relation: starred
+      source_id: github:user:tomseai:stars
+      source_url: https://github.com/tomseai?tab=stars
+  state: refreshed
 repository:
   aliases: []
   github_node_id: "R_kgDORZkAeA"

@@ -1,0 +1,89 @@
+schema_version: 2
+repository_id: github:OrchestratorInc/agent-orchestrator
+research:
+  state: complete
+  source_commit: 69f6f7054406b8c1308929ff6a631714c4f517bf
+  bundle_collected_at: 2026-11-22T12:10:12.415Z
+  researched_at: 2026-11-22T12:25:34.826Z
+  confidence: high
+classification:
+  primary_category: ai-and-automation
+  topics:
+    - ai-agents
+    - coding-agents
+    - agent-harnesses
+    - agent-orchestration
+    - multi-agent
+    - parallel-agents
+    - worktrees
+    - git
+    - desktop-app
+project:
+  name: Orchestrator.inc
+  kind: application
+  summary: A local desktop workspace for planning, running, and supervising
+    multiple coding agents in isolated worktrees with live task, terminal,
+    diff, browser, PR, CI, and review state.
+  best_for:
+    - Developers coordinating parallel coding-agent work across one repository
+    - Teams that want project-level planning and worker-level implementation
+      visibility
+key_features:
+  - Gives each worker a task, agent, branch, worktree, terminal, and feedback
+    loop
+  - Adds a persistent project orchestrator for planning and delegating work
+  - Displays worker, pull-request, CI, review, and merge status on a live
+    Kanban
+  - Supports structured chat, native agent TUIs, isolated browser previews,
+    and many agent adapters
+  - Returns CI failures, review comments, and merge conflicts to the worker
+    responsible for the branch
+  - Offers optional hosted workspaces for running agents in the cloud
+usage:
+  interfaces:
+    - desktop application
+    - embedded terminal
+    - structured chat
+    - local browser preview
+  installation:
+    - official desktop download
+    - Homebrew cask on macOS
+    - build from source
+  setup: moderate
+technology:
+  languages:
+    - Go
+    - TypeScript
+  notable_components:
+    - React
+    - Electron
+    - SQLite
+    - Git worktrees
+license:
+  spdx: Apache-2.0
+  name: Apache License 2.0
+  notes: Permissive license with patent grant and notice requirements.
+status:
+  lifecycle: active
+  archived: false
+  latest_release: v0.15.3
+  latest_release_at: 2026-11-16
+strengths:
+  - Keeps parallel agent work isolated while exposing live implementation and
+    review context
+  - Connects high-level project planning to independently inspectable workers
+caveats:
+  - Users must install and authorize their chosen external coding-agent
+    harnesses
+  - The release feed mixes stable and nightly tags; v0.15.3 is the newest
+    stable release
+  - Agent autonomy still requires repository, credential, and execution
+    permissions to be configured safely
+  - Worker, chat, and reviewer capabilities vary by agent adapter
+  - Optional hosted workspaces store the code and worktree in the cloud. Usage
+    analytics have a documented opt-out
+sources:
+  - https://raw.githubusercontent.com/OrchestratorInc/agent-orchestrator/69f6f7054406b8c1308929ff6a631714c4f517bf/README.md
+  - https://raw.githubusercontent.com/OrchestratorInc/agent-orchestrator/69f6f7054406b8c1308929ff6a631714c4f517bf/LICENSE
+  - https://github.com/OrchestratorInc/agent-orchestrator/releases.atom
+  - https://github.com/OrchestratorInc/agent-orchestrator/releases/tag/v0.15.3

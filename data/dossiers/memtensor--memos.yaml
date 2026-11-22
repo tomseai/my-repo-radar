@@ -2,9 +2,9 @@ schema_version: 2
 repository_id: github:MemTensor/MemOS
 research:
   state: complete
-  source_commit: 554bb98ee7c28307dbaeac569a0dea49ff0062fd
-  bundle_collected_at: 2026-07-19T20:44:05.396Z
-  researched_at: 2026-07-20T17:41:07.234+02:00
+  source_commit: 3a16e5fe3048a209f722806f4123fa2e533588fd
+  bundle_collected_at: 2026-11-22T12:09:56.215Z
+  researched_at: 2026-11-22T12:24:22.396Z
   confidence: high
 classification:
   primary_category: ai-and-automation
@@ -24,16 +24,21 @@ project:
     provides unified memory management, configurable memory containers and
     backends, REST deployment, and local or cloud agent-plugin entry points.
   best_for:
-    - Building an AI application or agent that needs structured, editable long-term memory
-    - Teams that need a self-hosted REST memory service with graph and vector storage
+    - Building an AI application or agent that needs structured, editable
+      long-term memory
+    - Teams that need a self-hosted REST memory service with graph and vector
+      storage
 
 key_features:
   - Unified API to add, retrieve, edit, delete, transfer, and roll back memories
-  - MemCube containers for isolating and composing user, agent, project, or session memory
-  - Plaintext vector and graph-oriented memory types alongside modular connectors and parsers
+  - MemCube containers for isolating and composing user, agent, project, or
+    session memory
+  - Plaintext vector and graph-oriented memory types alongside modular
+    connectors and parsers
   - Asynchronous memory operations through the MemScheduler component
   - Docker-deployed REST service backed by Neo4j and Qdrant
-  - Cloud and local OpenClaw/Hermes plugins, including local SQLite hybrid retrieval and skill evolution
+  - Cloud and local OpenClaw, Hermes, and DeepSeek Harness plugins, including local SQLite hybrid
+    retrieval and skill evolution
 
 usage:
   interfaces:
@@ -41,11 +46,11 @@ usage:
     - CLI
     - REST API
     - Docker Compose service
-    - OpenClaw and Hermes plugins
+    - OpenClaw, Hermes, and DeepSeek Harness plugins
   installation:
     - Poetry or Python package installation
     - clone and Docker Compose self-hosting
-    - OpenClaw plugin installation
+    - Agent-specific plugin installation
   setup: high
 
 technology:
@@ -62,29 +67,38 @@ technology:
 license:
   spdx: Apache-2.0
   name: Apache License 2.0
-  notes: Permissive license with patent grant and notice requirements; no additional repository-level restriction is stated.
+  notes: Permissive license with patent grant and notice requirements; no
+    additional repository-level restriction is stated.
 
 status:
   lifecycle: active
   archived: false
-  latest_release: v2.0.24
-  latest_release_at: 2026-07-19
+  latest_release: v2.0.36
+  latest_release_at: 2026-11-09
 
 strengths:
-  - Combines a modular memory framework with a deployable API and agent-specific plugin paths
-  - Supports isolation and controlled composition of memory through MemCube containers
-  - Offers both self-hosted graph/vector infrastructure and an on-device plugin option
+  - Combines a modular memory framework with a deployable API and agent-specific
+    plugin paths
+  - Supports isolation and controlled composition of memory through MemCube
+    containers
+  - Offers both self-hosted graph/vector infrastructure and an on-device plugin
+    option
 
 caveats:
-  - The self-hosted service requires Neo4j, Qdrant, Docker Compose, and environment configuration including API keys
-  - The primary package has a broad dependency surface and optional extras for additional memory types and providers
-  - Parametric memory is documented as coming soon, not a currently available capability
-  - Local plugin functionality is specific to supported OpenClaw or Hermes runtimes and still requires Node.js
+  - The self-hosted service requires Neo4j, Qdrant, Docker Compose, and
+    environment configuration including API keys
+  - The primary package has a broad dependency surface and optional extras for
+    additional memory types and providers
+  - Parametric memory is documented as coming soon, not a currently available
+    capability
+  - Local plugin functionality is specific to supported OpenClaw, Hermes, or DeepSeek Harness
+    runtimes and still requires Node.js
 
 sources:
-  - https://raw.githubusercontent.com/MemTensor/MemOS/554bb98ee7c28307dbaeac569a0dea49ff0062fd/README.md
-  - https://raw.githubusercontent.com/MemTensor/MemOS/554bb98ee7c28307dbaeac569a0dea49ff0062fd/LICENSE
-  - https://raw.githubusercontent.com/MemTensor/MemOS/554bb98ee7c28307dbaeac569a0dea49ff0062fd/pyproject.toml
-  - https://raw.githubusercontent.com/MemTensor/MemOS/554bb98ee7c28307dbaeac569a0dea49ff0062fd/docker/docker-compose.yml
-  - https://raw.githubusercontent.com/MemTensor/MemOS/554bb98ee7c28307dbaeac569a0dea49ff0062fd/docs/en/open_source/home/architecture.md
+  - https://raw.githubusercontent.com/MemTensor/MemOS/3a16e5fe3048a209f722806f4123fa2e533588fd/README.md
+  - https://raw.githubusercontent.com/MemTensor/MemOS/3a16e5fe3048a209f722806f4123fa2e533588fd/LICENSE
+  - https://raw.githubusercontent.com/MemTensor/MemOS/3a16e5fe3048a209f722806f4123fa2e533588fd/pyproject.toml
+  - https://raw.githubusercontent.com/MemTensor/MemOS/3a16e5fe3048a209f722806f4123fa2e533588fd/docker/docker-compose.yml
+  - https://raw.githubusercontent.com/MemTensor/MemOS/3a16e5fe3048a209f722806f4123fa2e533588fd/docs/en/open_source/home/architecture.md
   - https://github.com/MemTensor/MemOS/releases.atom
+  - https://github.com/MemTensor/MemOS/releases/tag/v2.0.36

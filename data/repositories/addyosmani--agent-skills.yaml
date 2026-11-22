@@ -11,7 +11,9 @@ analysis:
     use_cases:
       - "improve-developer-workflow"
   evidence:
-    - claim: "Agent Skills packages engineering workflows, quality gates, and best practices as skills and lifecycle commands for AI coding agents, with installation guidance for multiple agent tools."
+    - claim: "Agent Skills packages engineering workflows, quality gates, and best
+        practices as skills and lifecycle commands for AI coding agents, with
+        installation guidance for multiple agent tools."
       source_type: "repository-file"
       url: "https://github.com/addyosmani/agent-skills/blob/main/README.md"
       checked_at: "2026-07-19"
@@ -19,7 +21,8 @@ analysis:
   state: "researched"
   summary:
     one_line: "A collection of engineering workflow skills for AI coding agents."
-    why_useful: "It gives compatible agents reusable guidance for specification, implementation, testing, review, web performance, and shipping."
+    why_useful: "It gives compatible agents reusable guidance for specification,
+      implementation, testing, review, web performance, and shipping."
 curation:
   confidence: null
   evidence: []
@@ -33,34 +36,37 @@ id: "github:addyosmani/agent-skills"
 import:
   github_snapshot:
     archived: false
-    created_at: "2026-02-15T20:20:26Z"
-    default_branch: "main"
-    description: "Production-grade engineering skills for AI coding agents."
+    created_at: 2026-02-15T20:20:26Z
+    default_branch: main
+    description: Production-grade engineering skills for AI coding agents.
     disabled: false
-    fetched_at: "2026-07-19T19:16:14.796Z"
+    fetched_at: 2026-11-22T12:07:00.148Z
     fork: false
-    forks: 8524
-    homepage: ""
-    latest_release: null
-    license_spdx: "MIT"
+    forks: 12442
+    homepage: https://skills.addy.ie
+    latest_release:
+      tag: 0.6.17
+      published_at: 2026-11-18T20:06:40Z
+      url: https://github.com/addyosmani/agent-skills/releases/tag/0.6.17
+    license_spdx: MIT
     open_issues: 126
-    primary_language: "JavaScript"
-    pushed_at: "2026-07-18T13:19:55Z"
-    stars: 79292
+    primary_language: JavaScript
+    pushed_at: 2026-11-18T20:06:38Z
+    stars: 119672
     topics:
-      - "agent-skills"
-      - "antigravity"
-      - "claude-code"
-      - "codex"
-      - "cursor"
-      - "skills"
-    updated_at: "2026-07-19T19:06:00Z"
+      - agent-skills
+      - antigravity
+      - claude-code
+      - codex
+      - cursor
+      - skills
+    updated_at: 2026-11-22T12:01:29Z
   sources:
-    - observed_at: "2026-04-06T21:31:54Z"
-      relation: "starred"
-      source_id: "github:user:tomseai:stars"
-      source_url: "https://github.com/tomseai?tab=stars"
-  state: "imported"
+    - observed_at: 2026-04-06T21:31:54Z
+      relation: starred
+      source_id: github:user:tomseai:stars
+      source_url: https://github.com/tomseai?tab=stars
+  state: refreshed
 repository:
   aliases: []
   github_node_id: "R_kgDORRCyRw"

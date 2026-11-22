@@ -2,9 +2,9 @@ schema_version: 2
 repository_id: github:kyrolabs/awesome-langchain
 research:
   state: complete
-  source_commit: 792b2b97ed41c277e18f9cb6e26e4ff6b2f51209
-  bundle_collected_at: 2026-07-19T20:43:37.037Z
-  researched_at: 2026-07-20T15:32:15.619Z
+  source_commit: 0e9082c04603b43e791a6c5c6c5a67b2e24109dc
+  bundle_collected_at: 2026-11-22T12:09:42.469Z
+  researched_at: 2026-11-22T12:22:42.229354+00:00
   confidence: high
 
 classification:
@@ -23,9 +23,9 @@ project:
   name: Awesome LangChain
   kind: curated-list
   summary: >-
-    A curated reference directory for the LangChain ecosystem, covering the
-    core framework, language ports, tools, agents, templates, platforms,
-    open-source projects, and learning material.
+    A curated reference directory for the LangChain ecosystem, covering the core
+    framework, language ports, tools, agents, templates, platforms, open-source
+    projects, and learning material.
   best_for:
     - Developers looking for LangChain-related projects or integrations
     - Learners seeking examples, notebooks, and videos for the ecosystem
@@ -54,7 +54,8 @@ license:
   name: Creative Commons CC0 1.0 Universal
   notes: >-
     The dedication waives copyright and related rights to the greatest extent
-    allowed, including commercial reuse; it does not waive trademark or patent rights.
+    allowed, including commercial reuse; it does not waive trademark or patent
+    rights.
 
 status:
   lifecycle: active
@@ -70,11 +71,12 @@ strengths:
 caveats:
   - It is a discovery list rather than a LangChain package or application
   - The curators explicitly do not aim to list every supported platform
-  - Individual linked projects have their own support, security, and license terms
+  - Individual linked projects have their own support, security, and license
+    terms; the list includes archived or end-of-life projects
   - The retained release feed contains no releases
 
 sources:
-  - https://raw.githubusercontent.com/kyrolabs/awesome-langchain/792b2b97ed41c277e18f9cb6e26e4ff6b2f51209/README.md
-  - https://raw.githubusercontent.com/kyrolabs/awesome-langchain/792b2b97ed41c277e18f9cb6e26e4ff6b2f51209/LICENSE
-  - https://raw.githubusercontent.com/kyrolabs/awesome-langchain/792b2b97ed41c277e18f9cb6e26e4ff6b2f51209/contributing.md
+  - https://raw.githubusercontent.com/kyrolabs/awesome-langchain/0e9082c04603b43e791a6c5c6c5a67b2e24109dc/README.md
+  - https://raw.githubusercontent.com/kyrolabs/awesome-langchain/0e9082c04603b43e791a6c5c6c5a67b2e24109dc/LICENSE
+  - https://raw.githubusercontent.com/kyrolabs/awesome-langchain/0e9082c04603b43e791a6c5c6c5a67b2e24109dc/contributing.md
   - https://github.com/kyrolabs/awesome-langchain/releases.atom

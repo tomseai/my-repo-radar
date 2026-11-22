@@ -19,15 +19,19 @@ analysis:
       - "build-ai-products"
       - "manage-data"
   evidence:
-    - claim: "Unstract uses LLMs to extract structured JSON from unstructured documents, offering natural-language extraction schemas, API deployments, ETL pipelines, an MCP server, and local Docker deployment."
+    - claim: "Unstract uses LLMs to extract structured JSON from unstructured
+        documents, offering natural-language extraction schemas, API
+        deployments, ETL pipelines, an MCP server, and local Docker deployment."
       source_type: "repository-file"
       url: "https://github.com/Zipstack/unstract"
       checked_at: "2026-07-19"
       confidence: "high"
   state: "complete"
   summary:
-    one_line: "An LLM-driven platform for extracting structured data from unstructured documents."
-    why_useful: "It turns document extraction prompts into API and ETL workflows that return structured JSON."
+    one_line: "An LLM-driven platform for extracting structured data from
+      unstructured documents."
+    why_useful: "It turns document extraction prompts into API and ETL workflows
+      that return structured JSON."
 curation:
   confidence: null
   evidence: []
@@ -41,40 +45,44 @@ id: "github:Zipstack/unstract"
 import:
   github_snapshot:
     archived: false
-    created_at: "2024-02-21T10:34:33Z"
-    default_branch: "main"
-    description: "LLM-Driven Extraction of Unstructured Data — Built for API Deployments & ETL Pipeline Workflows"
+    created_at: 2024-02-21T10:34:33Z
+    default_branch: main
+    description: LLM-Driven Extraction of Unstructured Data — Built for API
+      Deployments & ETL Pipeline Workflows
     disabled: false
-    fetched_at: "2026-07-19T19:16:14.796Z"
+    fetched_at: 2026-11-22T12:07:00.148Z
     fork: false
-    forks: 632
-    homepage: "https://unstract.com"
-    latest_release: null
-    license_spdx: "AGPL-3.0"
-    open_issues: 77
-    primary_language: "Python"
-    pushed_at: "2026-07-17T12:38:01Z"
-    stars: 6708
+    forks: 760
+    homepage: https://unstract.com
+    latest_release:
+      tag: v0.204.0
+      published_at: 2026-11-10T07:24:00Z
+      url: https://github.com/Zipstack/unstract/releases/tag/v0.204.0
+    license_spdx: AGPL-3.0
+    open_issues: 116
+    primary_language: Python
+    pushed_at: 2026-11-22T09:49:19Z
+    stars: 7463
     topics:
-      - "ai-agents"
-      - "data-engineering"
-      - "document-ai"
-      - "generative-ai"
-      - "idp"
-      - "json-extraction"
-      - "llm"
-      - "mcp-server"
-      - "ocr"
-      - "pdf-extraction"
-      - "prompt-engineering"
-      - "structured-output"
-    updated_at: "2026-07-19T17:58:22Z"
+      - ai-agents
+      - data-engineering
+      - document-ai
+      - generative-ai
+      - idp
+      - json-extraction
+      - llm
+      - mcp-server
+      - ocr
+      - pdf-extraction
+      - prompt-engineering
+      - structured-output
+    updated_at: 2026-11-21T16:07:54Z
   sources:
-    - observed_at: "2025-04-23T19:44:34Z"
-      relation: "starred"
-      source_id: "github:user:tomseai:stars"
-      source_url: "https://github.com/tomseai?tab=stars"
-  state: "imported"
+    - observed_at: 2025-04-23T19:44:34Z
+      relation: starred
+      source_id: github:user:tomseai:stars
+      source_url: https://github.com/tomseai?tab=stars
+  state: refreshed
 repository:
   aliases: []
   github_node_id: "R_kgDOLV47Zw"

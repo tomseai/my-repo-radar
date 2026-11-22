@@ -1,0 +1,51 @@
+schema_version: 2
+repository_id: github:moznion/cccc
+research:
+  state: complete
+  source_commit: 118d362372f53c2c391b2b41a7a0f16c1e29dda7
+  bundle_collected_at: 2026-11-22T11:27:08.241Z
+  researched_at: 2026-11-22T11:28:29Z
+  confidence: high
+classification:
+  primary_category: testing-and-quality
+  topics: [cli, libraries, developer-productivity]
+project:
+  name: cccc
+  kind: cli
+  summary: >-
+    A Rust CLI and library for measuring cognitive and cyclomatic complexity
+    across mixed-language source trees.
+  best_for:
+    - Developers reviewing complexity hotspots or enforcing thresholds in CI
+key_features:
+  - Calculates cognitive and cyclomatic complexity for many programming languages
+  - Routes source files by extension to language-specific parsers
+  - Outputs JSON, tables, or simple per-function lines
+  - Filters and reports threshold violations
+  - Exposes a reusable language-agnostic scoring engine and parser adapters
+usage:
+  interfaces: [CLI, Rust library]
+  installation: [prebuilt binaries, Cargo, build from source]
+  setup: low
+technology:
+  languages: [Rust]
+  notable_components: [tree-sitter, oxc, syn]
+license:
+  spdx: MIT
+  name: MIT License
+  notes: null
+status:
+  lifecycle: active
+  archived: false
+  latest_release: v1.10.0
+  latest_release_at: 2026-11-22
+strengths:
+  - A single CLI can analyze a mixed-language tree with consistent output
+  - The scoring engine can be embedded independently of the CLI
+caveats:
+  - Language-specific parsing and scoring limitations are documented in the README
+  - Building some adapters requires a C compiler; the Ruby adapter also requires libclang
+sources:
+  - https://raw.githubusercontent.com/moznion/cccc/118d362372f53c2c391b2b41a7a0f16c1e29dda7/README.md
+  - https://raw.githubusercontent.com/moznion/cccc/118d362372f53c2c391b2b41a7a0f16c1e29dda7/LICENSE
+  - https://github.com/moznion/cccc/releases.atom

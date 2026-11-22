@@ -2,9 +2,9 @@ schema_version: 2
 repository_id: github:microsoft/aspire
 research:
   state: complete
-  source_commit: ee3ee61eb7503c47c0ed747ef2a3560ad3a22cfb
-  bundle_collected_at: 2026-07-19T20:44:10.080Z
-  researched_at: 2026-07-20T15:42:37.362Z
+  source_commit: 2183e1634278e3701b95cbd6099c5de8edef77e0
+  bundle_collected_at: 2026-11-22T12:09:57.976Z
+  researched_at: 2026-11-22T12:23:16.622947+00:00
   confidence: high
 
 classification:
@@ -22,18 +22,22 @@ project:
   name: aspire
   kind: framework
   summary: >-
-    A multi-language, code-first toolchain for defining, running, observing,
-    and deploying distributed applications and their connected resources.
+    A multi-language, code-first toolchain for defining, running, observing, and
+    deploying distributed applications and their connected resources.
   best_for:
-    - Teams developing distributed applications with services and dependent resources
-    - Workflows that need local orchestration and OpenTelemetry-based observability
+    - Teams developing distributed applications with services and dependent
+      resources
+    - Workflows that need local orchestration and OpenTelemetry-based
+      observability
 
 key_features:
-  - Code-defined services, frontends, containers, databases, caches, and connections
+  - Code-defined services, frontends, containers, databases, caches, and
+    connections
   - CLI that runs the defined application locally
   - OpenTelemetry-based observability
   - Deployment from the same application definition
-  - AppHost SDK, dashboard, service-discovery infrastructure, templates, and integrations
+  - AppHost SDK, dashboard, service-discovery infrastructure, templates, and
+    integrations
   - Included Visual Studio Code extension
 
 usage:
@@ -64,21 +68,27 @@ license:
 status:
   lifecycle: active
   archived: false
-  latest_release: Aspire 13.4.6
-  latest_release_at: 2026-06-20
+  latest_release: v17.0.0
+  latest_release_at: 2026-11-18
 
 strengths:
-  - A single code definition connects local development, observability, and deployment
+  - A single code definition connects local development, observability, and
+    deployment
   - Supports multiple application languages and resource types
-  - Packages orchestration, service discovery, integrations, and developer tooling together
+  - Packages orchestration, service discovery, integrations, and developer
+    tooling together
 
 caveats:
-  - The retained sources do not establish universal deployment-target compatibility
-  - Third-party containers used through resource integrations require independent security and suitability review
-  - The repository spans several components, so source contribution setup is broader than installing the CLI
+  - The retained sources do not establish universal deployment-target
+    compatibility
+  - Third-party containers used through resource integrations require
+    independent security and suitability review
+  - The repository spans several components, so source contribution setup is
+    broader than installing the CLI
 
 sources:
-  - https://raw.githubusercontent.com/microsoft/aspire/ee3ee61eb7503c47c0ed747ef2a3560ad3a22cfb/README.md
-  - https://raw.githubusercontent.com/microsoft/aspire/ee3ee61eb7503c47c0ed747ef2a3560ad3a22cfb/LICENSE.TXT
-  - https://raw.githubusercontent.com/microsoft/aspire/ee3ee61eb7503c47c0ed747ef2a3560ad3a22cfb/extension/package.json
+  - https://raw.githubusercontent.com/microsoft/aspire/2183e1634278e3701b95cbd6099c5de8edef77e0/README.md
+  - https://raw.githubusercontent.com/microsoft/aspire/2183e1634278e3701b95cbd6099c5de8edef77e0/LICENSE.TXT
+  - https://raw.githubusercontent.com/microsoft/aspire/2183e1634278e3701b95cbd6099c5de8edef77e0/extension/package.json
   - https://github.com/microsoft/aspire/releases.atom
+  - https://github.com/microsoft/aspire/releases/tag/v17.0.0

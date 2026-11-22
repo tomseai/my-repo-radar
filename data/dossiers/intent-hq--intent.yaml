@@ -1,0 +1,50 @@
+schema_version: 2
+repository_id: github:intent-hq/intent
+research:
+  state: complete
+  source_commit: 188e19e01dffbe9ae90ccc35fe86209e98af6a17
+  bundle_collected_at: 2026-11-22T11:27:01.489Z
+  researched_at: 2026-11-22T12:00:00Z
+  confidence: high
+classification:
+  primary_category: ai-and-automation
+  topics: [coding-agents, agent-orchestration, multi-agent, parallel-agents, spec-driven-development, local-first, mcp, desktop-app, web-ui]
+project:
+  name: Intent
+  kind: monorepo
+  summary: A local-first workspace where specialist coding agents plan work in specifications and delegate tasks to agents running in parallel on local or cloud machines.
+  best_for: [Teams coordinating coding agents across a shared repository]
+key_features:
+  - Specialist agents plan, delegate, and review work
+  - Supports Claude Code, Codex, Cursor, OpenCode, and local models
+  - Isolated workspace checkouts and branches
+  - Desktop, web, and mobile clients connect to a Rust daemon
+  - Runs agents on local machines, remote hosts, or cloud sandboxes
+usage:
+  interfaces: [desktop GUI, web app, mobile app, daemon API]
+  installation: [official desktop download, mobile app store, build from source]
+  setup: moderate
+technology:
+  languages: [Rust, JavaScript, Swift]
+  notable_components: [Electron, SvelteKit, SQLite, Model Context Protocol]
+license:
+  spdx: Apache-2.0
+  name: Apache License 2.0
+  notes: null
+status:
+  lifecycle: active
+  archived: false
+  latest_release: null
+  latest_release_at: null
+strengths:
+  - Coordinates multiple providers and machines in a shared workflow
+  - Local-first state and isolated checkouts support parallel work
+caveats:
+  - The public repository is a snapshot mirror and external pull requests are deferred
+  - The mobile source submodule is private; provider accounts or subscriptions may be needed
+  - The retained repository release feed is empty; desktop releases are published separately
+  - Update checks share anonymous statistics by default and external agents have their own network behavior
+sources:
+  - https://raw.githubusercontent.com/intent-hq/intent/188e19e01dffbe9ae90ccc35fe86209e98af6a17/README.md
+  - https://raw.githubusercontent.com/intent-hq/intent/188e19e01dffbe9ae90ccc35fe86209e98af6a17/LICENSE
+  - https://github.com/intent-hq/intent/releases.atom

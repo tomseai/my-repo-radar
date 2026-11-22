@@ -2,9 +2,9 @@ schema_version: 2
 repository_id: github:kyrolabs/awesome-agents
 research:
   state: complete
-  source_commit: 5430af37966d6b9f090c7afa5b5367ca3ada498d
-  bundle_collected_at: 2026-07-19T20:43:35.270Z
-  researched_at: 2026-07-20T15:32:15.619Z
+  source_commit: 8c9ebaa5a218d53a423e913c1ee8d20141a7b2f2
+  bundle_collected_at: 2026-11-22T12:09:41.098Z
+  researched_at: 2026-11-22T12:21:03Z
   confidence: medium
 
 classification:
@@ -35,7 +35,7 @@ key_features:
   - A testing and evaluation section for agent-oriented projects
   - Separate sections for research, general agents, and game or simulation work
   - Knowledge-management resources for agent systems
-  - Automation links, including browser and multimodal projects
+  - Automation links, including browser-oriented projects
 
 usage:
   interfaces:
@@ -69,11 +69,13 @@ strengths:
 
 caveats:
   - It is a directory, not an agent framework or runnable application
-  - Individual linked projects have independent quality, maintenance, and licenses
+  - Individual linked projects have independent quality, maintenance, and
+    licenses
   - The retained release feed contains no releases
   - No project license was retained, so reuse rights are unclear
 
 sources:
-  - https://raw.githubusercontent.com/kyrolabs/awesome-agents/5430af37966d6b9f090c7afa5b5367ca3ada498d/README.md
-  - https://raw.githubusercontent.com/kyrolabs/awesome-agents/5430af37966d6b9f090c7afa5b5367ca3ada498d/CONTRIBUTING.md
+  - https://raw.githubusercontent.com/kyrolabs/awesome-agents/8c9ebaa5a218d53a423e913c1ee8d20141a7b2f2/README.md
+  - https://raw.githubusercontent.com/kyrolabs/awesome-agents/8c9ebaa5a218d53a423e913c1ee8d20141a7b2f2/CONTRIBUTING.md
   - https://github.com/kyrolabs/awesome-agents/releases.atom
+  - https://github.com/kyrolabs/awesome-agents/commit/8c9ebaa5a218d53a423e913c1ee8d20141a7b2f2

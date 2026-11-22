@@ -1,13 +1,11 @@
 schema_version: 2
 repository_id: github:Fission-AI/OpenSpec
-
 research:
   state: complete
-  source_commit: 596d6ba7f41160da9ab99cf4b891353baeb7eeb0
-  bundle_collected_at: 2026-07-19T20:42:54.240Z
-  researched_at: 2026-07-20T15:22:44.534Z
+  source_commit: 0c737dc1b543249b38b0f4716816fcf493d894dd
+  bundle_collected_at: 2026-11-22T12:09:29.018Z
+  researched_at: 2026-11-22T12:24:03.844Z
   confidence: high
-
 classification:
   primary_category: ai-and-automation
   topics:
@@ -18,17 +16,16 @@ classification:
     - cli
     - documentation
     - developer-productivity
-
 project:
   name: OpenSpec
   kind: cli
-  summary: >-
-    A Node.js CLI and coding-agent workflow for keeping Markdown specifications
+  summary: A CLI and coding-agent workflow for keeping Markdown specifications
     and change artifacts alongside code before and during implementation.
   best_for:
-    - Teams using coding agents for changes that need shared, reviewable requirements
-    - Existing repositories that need focused specification deltas instead of a rewrite
-
+    - Teams using coding agents for changes that need shared, reviewable
+      requirements
+    - Existing repositories that need focused specification deltas instead of
+      a rewrite
 key_features:
   - Project specs expressed as Markdown requirements and concrete scenarios
   - Per-change proposal, design, task, and delta-spec artifacts
@@ -36,18 +33,18 @@ key_features:
   - Archive process that folds approved deltas into the current specifications
   - Cross-repository stores for shared specifications and planning
   - Generated skills and commands for configured coding-agent tools
-
 usage:
   interfaces:
     - CLI
     - coding-agent slash commands
     - Markdown project artifacts
   installation:
+    - standalone installer for macOS, Linux, and Windows
+    - Homebrew formula
     - npm package
     - pnpm, yarn, or Bun global package
     - Nix package
   setup: low
-
 technology:
   languages:
     - TypeScript
@@ -56,32 +53,34 @@ technology:
     - pnpm
     - Zod
     - YAML
-
 license:
   spdx: MIT
   name: MIT License
-  notes: Permissive reuse subject to retaining the copyright and license notice; provided without warranty.
-
+  notes: Permissive reuse subject to retaining the copyright and license notice;
+    provided without warranty.
 status:
   lifecycle: active
   archived: false
-  latest_release: v1.6.0
-  latest_release_at: 2026-07-10
-
+  latest_release: v2.1.1
+  latest_release_at: 2026-11-19
 strengths:
-  - Keeps change intent and scenarios in version-controlled, agent-readable files
+  - Keeps change intent and scenarios in version-controlled, agent-readable
+    files
   - Supports iterative planning rather than imposing a rigid waterfall gate
   - Works with existing codebases through focused delta specifications
-
 caveats:
-  - OpenSpec adds planning and artifact-maintenance overhead that may not suit one-line fixes
-  - Its agent commands depend on the configured host tool and generated project files
-  - Node.js 20.19 or later is required even when Bun installs the package
+  - OpenSpec adds planning and artifact-maintenance overhead that may not suit
+    one-line fixes
+  - Its agent commands depend on the configured host tool and generated
+    project files
+  - The standalone installer does not require Node.js. Package-manager
+    installs require Node.js 22.20.0 or later
   - Teams still need to review and maintain specifications as behavior changes
-
+  - The cross-repository Stores feature is in beta
 sources:
-  - https://raw.githubusercontent.com/Fission-AI/OpenSpec/596d6ba7f41160da9ab99cf4b891353baeb7eeb0/README.md
-  - https://raw.githubusercontent.com/Fission-AI/OpenSpec/596d6ba7f41160da9ab99cf4b891353baeb7eeb0/docs/overview.md
-  - https://raw.githubusercontent.com/Fission-AI/OpenSpec/596d6ba7f41160da9ab99cf4b891353baeb7eeb0/docs/installation.md
-  - https://raw.githubusercontent.com/Fission-AI/OpenSpec/596d6ba7f41160da9ab99cf4b891353baeb7eeb0/LICENSE
+  - https://raw.githubusercontent.com/Fission-AI/OpenSpec/0c737dc1b543249b38b0f4716816fcf493d894dd/README.md
+  - https://raw.githubusercontent.com/Fission-AI/OpenSpec/0c737dc1b543249b38b0f4716816fcf493d894dd/docs/overview.md
+  - https://raw.githubusercontent.com/Fission-AI/OpenSpec/0c737dc1b543249b38b0f4716816fcf493d894dd/docs/installation.md
+  - https://raw.githubusercontent.com/Fission-AI/OpenSpec/0c737dc1b543249b38b0f4716816fcf493d894dd/LICENSE
   - https://github.com/Fission-AI/OpenSpec/releases.atom
+  - https://github.com/Fission-AI/OpenSpec/releases/tag/v2.1.1

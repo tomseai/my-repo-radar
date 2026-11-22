@@ -2,9 +2,9 @@ schema_version: 2
 repository_id: github:openclaw/openclaw
 research:
   state: complete
-  source_commit: 1a574923cb1032e8355f8fc6af820e6f2649066c
-  bundle_collected_at: 2026-07-19T20:44:42.107Z
-  researched_at: 2026-07-20T17:52:16.374+02:00
+  source_commit: 450441b904031b886c5fff3238f25b424907dcfe
+  bundle_collected_at: 2026-11-22T12:10:15.333Z
+  researched_at: 2026-11-22T12:28:22Z
   confidence: high
 classification:
   primary_category: platforms-and-applications
@@ -22,17 +22,23 @@ project:
   name: OpenClaw
   kind: application
   summary: >-
-    A self-hosted, personal AI assistant with a local-first gateway that connects
-    to existing messaging channels and companion apps across desktop and mobile devices.
+    A self-hosted, personal AI assistant with a local-first gateway that
+    connects to existing messaging channels and companion apps across desktop
+    and mobile devices.
   best_for:
     - Individuals operating an always-on personal assistant on their own devices
-    - Users who want to interact with one assistant through messaging channels, voice, and a live canvas
+    - Users who want to interact with one assistant through messaging channels,
+      voice, and a live canvas
 key_features:
-  - Connects a personal assistant to messaging channels including WhatsApp, Telegram, Slack, Discord, and Signal
-  - Uses a local-first gateway as the control plane for sessions, channels, tools, and events
-  - Provides onboarding that configures the gateway, workspace, channels, and skills
+  - Connects a personal assistant to messaging channels including WhatsApp,
+    Telegram, Slack, Discord, and Signal
+  - Uses a local-first gateway as the control plane for sessions, channels,
+    tools, and events
+  - Provides onboarding that configures the gateway, workspace, channels, and
+    skills
   - Includes Windows, macOS, iOS, and Android companion experiences
-  - Supports multi-agent routing that isolates workspaces and sessions by inbound channel, account, or peer
+  - Supports multi-agent routing that isolates workspaces and sessions by
+    inbound channel, account, or peer
 usage:
   interfaces:
     - Command-line interface
@@ -40,7 +46,7 @@ usage:
     - Web canvas
     - Desktop and mobile companion apps
   installation:
-    - Install with npm install -g openclaw@latest
+    - Install with npm install -g openclaw@latest --allow-scripts=openclaw
     - Install with pnpm or bun, then run openclaw onboard --install-daemon
     - Use the included Docker configuration
   setup: moderate
@@ -57,27 +63,32 @@ technology:
 license:
   spdx: MIT
   name: MIT License
-  notes: >-
-    Permissive license requiring preservation of the copyright and permission
-    notice in copies or substantial portions; third-party notices are recorded separately.
+  notes: The root license is MIT. Incorporated or adapted code is documented
+    separately in THIRD_PARTY_NOTICES.md.
 status:
   lifecycle: active
   archived: false
-  latest_release: null
-  latest_release_at: null
+  latest_release: v2026.11.6
+  latest_release_at: 2026-11-19
 strengths:
-  - A single gateway centralizes sessions, channels, tools, and events for a personal assistant
-  - The onboarding flow covers the core setup path across macOS, Linux, and Windows
-  - The documented default DM policy uses pairing and requires explicit opt-in for public inbound DMs
+  - A single gateway centralizes sessions, channels, tools, and events for a
+    personal assistant
+  - The onboarding flow covers the core setup path across macOS, Linux, and
+    Windows
+  - The documented default DM policy uses pairing and requires explicit opt-in
+    for public inbound DMs
 caveats:
-  - It is designed as a personal, single-user assistant rather than a general multi-user service
-  - Remote exposure requires following the project's security and gateway-exposure guidance
-  - Sandboxing non-main sessions must be configured; Docker is the default sandbox backend
-  - The retained release feed contains beta and internal release-publish tags but no identifiable stable project release, so stable release fields remain unset
+  - A shared multiplayer configuration is available; deployments require
+    appropriate access controls for participating users
+  - Remote exposure requires following the project's security and
+    gateway-exposure guidance
+  - Tools run on the host for the main session unless sandboxing is configured;
+    Docker is the default sandbox backend
 sources:
-  - https://raw.githubusercontent.com/openclaw/openclaw/1a574923cb1032e8355f8fc6af820e6f2649066c/README.md
-  - https://raw.githubusercontent.com/openclaw/openclaw/1a574923cb1032e8355f8fc6af820e6f2649066c/LICENSE
-  - https://raw.githubusercontent.com/openclaw/openclaw/1a574923cb1032e8355f8fc6af820e6f2649066c/package.json
-  - https://raw.githubusercontent.com/openclaw/openclaw/1a574923cb1032e8355f8fc6af820e6f2649066c/docker-compose.yml
-  - https://raw.githubusercontent.com/openclaw/openclaw/1a574923cb1032e8355f8fc6af820e6f2649066c/apps/android/build.gradle.kts
+  - https://raw.githubusercontent.com/openclaw/openclaw/450441b904031b886c5fff3238f25b424907dcfe/README.md
+  - https://raw.githubusercontent.com/openclaw/openclaw/450441b904031b886c5fff3238f25b424907dcfe/LICENSE
+  - https://raw.githubusercontent.com/openclaw/openclaw/450441b904031b886c5fff3238f25b424907dcfe/package.json
+  - https://raw.githubusercontent.com/openclaw/openclaw/450441b904031b886c5fff3238f25b424907dcfe/docker-compose.yml
+  - https://raw.githubusercontent.com/openclaw/openclaw/450441b904031b886c5fff3238f25b424907dcfe/apps/android/build.gradle.kts
   - https://github.com/openclaw/openclaw/releases.atom
+  - https://github.com/openclaw/openclaw/releases/tag/v2026.11.6

@@ -1,0 +1,77 @@
+analysis:
+  analyzed_at: 2026-08-15T13:30:00.000Z
+  classification:
+    primary_category: frontend-and-design
+    state: confirmed
+    technologies:
+      - typescript
+    topics:
+      - frontend-development
+      - frameworks
+      - ui-components
+      - testing
+      - mcp
+      - developer-productivity
+    use_cases:
+      - build-web-applications
+      - design-interfaces
+      - test-software
+  evidence:
+    - claim: An Effect-powered Elm-style frontend framework with explicit state,
+        effects, and testing.
+      source_type: repository-file
+      url: https://raw.githubusercontent.com/foldkit/foldkit/da05bfc87db4f9dbe8389b6cf98e0265b0d01dfb/README.md
+      checked_at: 2026-08-15
+      confidence: high
+  state: complete
+  summary:
+    one_line: An Effect-powered Elm-style frontend framework with explicit state,
+      effects, and testing.
+    why_useful: Teams prioritizing explicit state transitions and testable frontend
+      behavior
+curation:
+  confidence: null
+  evidence: []
+  limitations: []
+  recommendation: null
+  reviewed_at: null
+  state: uncurated
+  strengths: []
+  verdict: null
+id: github:foldkit/foldkit
+import:
+  github_snapshot:
+    archived: false
+    created_at: 2025-06-21T02:00:32Z
+    default_branch: main
+    description: null
+    disabled: false
+    fetched_at: 2026-11-22T12:07:00.148Z
+    fork: false
+    forks: 76
+    homepage: https://foldkit.dev
+    latest_release:
+      tag: "@foldkit/vite-plugin@0.29.1"
+      published_at: 2026-11-17T22:28:49Z
+      url: https://github.com/foldkit/foldkit/releases/tag/%40foldkit/vite-plugin%400.29.1
+    license_spdx: MIT
+    open_issues: 445
+    primary_language: TypeScript
+    pushed_at: 2026-11-19T17:39:41Z
+    stars: 1302
+    topics: []
+    updated_at: 2026-11-22T09:55:23Z
+  sources:
+    - observed_at: 2026-07-25T20:46:19Z
+      relation: starred
+      source_id: github:user:tomseai:stars
+      source_url: https://github.com/tomseai?tab=stars
+  state: refreshed
+repository:
+  aliases: []
+  github_node_id: R_kgDOO_Rxbw
+  host: github.com
+  name: foldkit
+  owner: foldkit
+  url: https://github.com/foldkit/foldkit
+version: 1

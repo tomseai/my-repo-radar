@@ -1,0 +1,95 @@
+analysis:
+  analyzed_at: 2026-11-22T11:28:28Z
+  classification:
+    primary_category: developer-tools
+    state: confirmed
+    technologies:
+      - typescript
+    topics:
+      - ai-agents
+      - mcp
+      - cli
+      - agent-skills
+      - security
+      - local-first
+    use_cases:
+      - improve-developer-workflow
+  evidence:
+    - claim: A local software analysis toolkit exposing application and binary
+        analysis to AI agents through MCP and to users through a CLI.
+      source_type: repository-file
+      url: https://raw.githubusercontent.com/morluto/rea/d0f3a4858e43ccb80ecbd3d27c0b82405a7c1a31/README.md
+      checked_at: 2026-11-22
+      confidence: high
+  state: complete
+  summary:
+    one_line: A local software analysis toolkit exposing application and binary
+      analysis to AI agents through MCP and to users through a CLI.
+    why_useful: Authorized software research and interoperability investigations
+curation:
+  confidence: null
+  evidence: []
+  limitations: []
+  recommendation: null
+  reviewed_at: null
+  state: "uncurated"
+  strengths: []
+  verdict: null
+id: "github:morluto/rea"
+import:
+  github_snapshot:
+    archived: false
+    created_at: 2026-04-14T00:51:32Z
+    default_branch: main
+    description: Reverse engineer anything with agents, from app behavior down to
+      native binaries.
+    disabled: false
+    fetched_at: 2026-11-22T12:07:00.148Z
+    fork: false
+    forks: 115502
+    homepage: https://rea.tools
+    latest_release:
+      tag: rea-agents-6.10.1
+      published_at: 2026-11-20T05:30:51Z
+      url: https://github.com/morluto/rea/releases/tag/rea-agents-6.10.1
+    license_spdx: MIT
+    open_issues: 1324
+    primary_language: TypeScript
+    pushed_at: 2026-11-22T12:06:50Z
+    stars: 473417
+    topics:
+      - agent-skills
+      - ai
+      - android
+      - claude-code
+      - cli
+      - cpp
+      - dsh-plugin
+      - html
+      - java
+      - javascript
+      - linux
+      - mcp
+      - nodejs
+      - python
+      - rea
+      - react
+      - rust
+      - security
+      - touhou
+      - typescript
+    updated_at: 2026-11-22T12:06:47Z
+  sources:
+    - observed_at: 2026-10-18T10:07:20Z
+      relation: starred
+      source_id: github:user:tomseai:stars
+      source_url: https://github.com/tomseai?tab=stars
+  state: refreshed
+repository:
+  aliases: []
+  github_node_id: "R_kgDOSB6hVQ"
+  host: "github.com"
+  name: "rea"
+  owner: "morluto"
+  url: "https://github.com/morluto/rea"
+version: 1

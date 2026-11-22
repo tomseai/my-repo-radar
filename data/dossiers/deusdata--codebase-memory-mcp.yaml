@@ -2,9 +2,9 @@ schema_version: 2
 repository_id: github:DeusData/codebase-memory-mcp
 research:
   state: complete
-  source_commit: 7d6cdb23ef5ca2fd51f5d5b7509b33e112ef15f3
-  bundle_collected_at: 2026-07-19T20:42:36.746Z
-  researched_at: 2026-07-19T22:40:18Z
+  source_commit: 1111d9a9e1380a0429ef2250f63223706af6289a
+  bundle_collected_at: 2026-11-22T12:09:25.185Z
+  researched_at: 2026-11-22T12:22:40.489Z
   confidence: medium
 classification:
   primary_category: developer-tools
@@ -20,18 +20,21 @@ classification:
 project:
   name: codebase-memory-mcp
   kind: service
-  summary: >-
-    A local MCP code-intelligence server and CLI that indexes repositories into
+  summary: A local MCP code-intelligence server and CLI that indexes repositories into
     persistent SQLite knowledge graphs for structural codebase queries.
   best_for:
     - Giving MCP-compatible coding agents structural repository context
     - Exploring architecture, call paths, search results, and change impact
 key_features:
   - Builds a persistent SQLite graph from tree-sitter-based source analysis
-  - Exposes MCP tools for architecture, graph search, call paths, impact, and dead-code queries
+  - Exposes MCP tools for architecture, graph search, call paths, impact, and
+    dead-code queries
   - Provides full-text, structural, semantic, and code-search capabilities
-  - Supports optional automatic indexing and a browser-based graph UI build
+  - Supports automatic indexing and an optional CBM Lens browser interface in open
+    beta
   - Distributes a CLI and prebuilt binaries for macOS, Linux, and Windows
+  - Connects documentation and supported infrastructure and CI configuration to code
+    relationships
 usage:
   interfaces:
     - MCP stdio server
@@ -50,7 +53,7 @@ technology:
   notable_components:
     - SQLite
     - tree-sitter
-    - React graph UI
+    - CBM Lens
     - MCP JSON-RPC
 license:
   spdx: MIT
@@ -59,20 +62,25 @@ license:
 status:
   lifecycle: active
   archived: false
-  latest_release: v0.9.0
-  latest_release_at: 2026-07-08
+  latest_release: v0.12.1
+  latest_release_at: 2026-10-16
 strengths:
   - Keeps source analysis and SQLite indexes on the local machine
   - Combines MCP access with a CLI and an optional visual graph interface
   - Covers code search, call relationships, architecture, and change-impact workflows
 caveats:
-  - The installer modifies detected agent or editor configuration files, so its scripts and planned configuration changes merit review before execution
-  - Indexes and runtime configuration are stored locally and may require cache, memory, and worker-limit tuning for large repositories
-  - The cached npm and PyPI wrapper manifests state version 0.8.1, while the primary release feed identifies v0.9.0 as the latest release
+  - The installer modifies detected agent or editor configuration files, so its
+    scripts and planned configuration changes merit review before execution
+  - Indexes and runtime configuration are stored locally and may require cache,
+    memory, and worker-limit tuning for large repositories
+  - CBM Lens is in open beta. Its optional browser AI downloads a model after opt-in
+    and performs inference locally.
 sources:
-  - https://raw.githubusercontent.com/DeusData/codebase-memory-mcp/7d6cdb23ef5ca2fd51f5d5b7509b33e112ef15f3/README.md
-  - https://raw.githubusercontent.com/DeusData/codebase-memory-mcp/7d6cdb23ef5ca2fd51f5d5b7509b33e112ef15f3/LICENSE
-  - https://raw.githubusercontent.com/DeusData/codebase-memory-mcp/7d6cdb23ef5ca2fd51f5d5b7509b33e112ef15f3/SECURITY.md
-  - https://raw.githubusercontent.com/DeusData/codebase-memory-mcp/7d6cdb23ef5ca2fd51f5d5b7509b33e112ef15f3/graph-ui/package.json
-  - https://raw.githubusercontent.com/DeusData/codebase-memory-mcp/7d6cdb23ef5ca2fd51f5d5b7509b33e112ef15f3/docs/CONFIGURATION.md
+  - https://raw.githubusercontent.com/DeusData/codebase-memory-mcp/1111d9a9e1380a0429ef2250f63223706af6289a/README.md
+  - https://raw.githubusercontent.com/DeusData/codebase-memory-mcp/1111d9a9e1380a0429ef2250f63223706af6289a/LICENSE
+  - https://raw.githubusercontent.com/DeusData/codebase-memory-mcp/1111d9a9e1380a0429ef2250f63223706af6289a/SECURITY.md
+  - https://raw.githubusercontent.com/DeusData/codebase-memory-mcp/1111d9a9e1380a0429ef2250f63223706af6289a/graph-ui/package.json
   - https://github.com/DeusData/codebase-memory-mcp/releases.atom
+  - https://github.com/DeusData/codebase-memory-mcp/releases/tag/v0.12.1
+  - https://raw.githubusercontent.com/DeusData/codebase-memory-mcp/1111d9a9e1380a0429ef2250f63223706af6289a/pkg/npm/package.json
+  - https://raw.githubusercontent.com/DeusData/codebase-memory-mcp/1111d9a9e1380a0429ef2250f63223706af6289a/pkg/pypi/pyproject.toml

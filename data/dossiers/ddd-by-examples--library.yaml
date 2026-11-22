@@ -1,0 +1,50 @@
+schema_version: 2
+repository_id: github:ddd-by-examples/library
+research:
+  state: complete
+  source_commit: 5225ff7a0f0c1e0751b91cdd64f925cd001d7555
+  bundle_collected_at: 2026-11-22T11:26:57.359Z
+  researched_at: 2026-11-22T11:28:03Z
+  confidence: high
+classification:
+  primary_category: documentation-and-learning
+  topics: [tutorials, reference, backend-development, testing]
+project:
+  name: DDD by Examples Library
+  kind: application
+  summary: An example public-library application illustrating domain-driven design from discovery through implementation and tests.
+  best_for:
+    - Developers studying domain modeling and architecture in a concrete Java application
+key_features:
+  - EventStorming and example-mapping documentation
+  - Catalogue and lending bounded contexts in a modular monolith
+  - Hexagonal architecture and separate read and write models in lending
+  - Domain events with immediate and eventual consistency examples
+  - Behavioral and architecture tests
+usage:
+  interfaces: [source code, documentation, HTTP service]
+  installation: [build with Maven, Docker build]
+  setup: moderate
+technology:
+  languages: [Java, Groovy]
+  notable_components: [Spring Boot, Maven, Vavr, ArchUnit]
+license:
+  spdx: MIT
+  name: MIT License
+  notes: null
+status:
+  lifecycle: unknown
+  archived: false
+  latest_release: null
+  latest_release_at: null
+strengths:
+  - Connects discovery artifacts and business rules with working code and tests
+  - Contrasts different architectural and consistency choices
+caveats:
+  - The project is an instructional example and describes itself as under construction.
+  - The retained release feed has no entries.
+sources:
+  - https://raw.githubusercontent.com/ddd-by-examples/library/5225ff7a0f0c1e0751b91cdd64f925cd001d7555/README.md
+  - https://raw.githubusercontent.com/ddd-by-examples/library/5225ff7a0f0c1e0751b91cdd64f925cd001d7555/LICENSE
+  - https://raw.githubusercontent.com/ddd-by-examples/library/5225ff7a0f0c1e0751b91cdd64f925cd001d7555/pom.xml
+  - https://github.com/ddd-by-examples/library/releases.atom

@@ -1,0 +1,79 @@
+analysis:
+  analyzed_at: 2026-11-22T12:00:00Z
+  classification:
+    primary_category: testing-and-quality
+    state: confirmed
+    technologies:
+      - rust
+      - typescript
+    topics:
+      - testing
+      - automation
+      - cli
+    use_cases:
+      - test-software
+  evidence:
+    - claim: Property-based testing tool that autonomously explores web and terminal
+        interfaces and checks correctness properties.
+      source_type: repository-file
+      url: https://raw.githubusercontent.com/antithesishq/bombadil/c7bd61f3ec83761634804c50845cd96c521a45f0/README.md
+      checked_at: 2026-11-22
+      confidence: medium
+  state: complete
+  summary:
+    one_line: Property-based testing tool that autonomously explores web and
+      terminal interfaces and checks correctness properties.
+    why_useful: Developers testing interactive applications for reliability
+curation:
+  confidence: null
+  evidence: []
+  limitations: []
+  recommendation: null
+  reviewed_at: null
+  state: "uncurated"
+  strengths: []
+  verdict: null
+id: "github:antithesishq/bombadil"
+import:
+  github_snapshot:
+    archived: false
+    created_at: 2025-12-17T14:47:29Z
+    default_branch: main
+    description: Property-based testing for web and terminal UIs
+    disabled: false
+    fetched_at: 2026-11-22T12:07:00.148Z
+    fork: false
+    forks: 111
+    homepage: https://antithesishq.github.io/bombadil/
+    latest_release:
+      tag: v0.8.0
+      published_at: 2026-11-19T11:39:03Z
+      url: https://github.com/antithesishq/bombadil/releases/tag/v0.8.0
+    license_spdx: MIT
+    open_issues: 45
+    primary_language: Rust
+    pushed_at: 2026-11-21T17:26:28Z
+    stars: 3020
+    topics:
+      - antithesis
+      - pbt
+      - playwright
+      - property-based-testing
+      - testing
+      - ui
+      - web
+    updated_at: 2026-11-22T11:40:01Z
+  sources:
+    - observed_at: 2026-09-24T17:25:14Z
+      relation: starred
+      source_id: github:user:tomseai:stars
+      source_url: https://github.com/tomseai?tab=stars
+  state: refreshed
+repository:
+  aliases: []
+  github_node_id: "R_kgDOQqfe8g"
+  host: "github.com"
+  name: "bombadil"
+  owner: "antithesishq"
+  url: "https://github.com/antithesishq/bombadil"
+version: 1

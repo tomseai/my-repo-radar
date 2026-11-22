@@ -9,7 +9,9 @@ analysis:
     use_cases:
       - "improve-developer-workflow"
   evidence:
-    - claim: "tmux is a terminal multiplexer that creates and controls multiple terminals from one screen and allows sessions to be detached, kept running in the background, and later reattached."
+    - claim: "tmux is a terminal multiplexer that creates and controls multiple
+        terminals from one screen and allows sessions to be detached, kept
+        running in the background, and later reattached."
       source_type: "repository-file"
       url: "https://github.com/tmux/tmux/blob/master/README"
       checked_at: "2026-07-19"
@@ -17,7 +19,8 @@ analysis:
   state: "researched"
   summary:
     one_line: "Terminal multiplexer for managing persistent multi-terminal sessions."
-    why_useful: "It enables developers to organize terminal work and resume sessions after detaching from them."
+    why_useful: "It enables developers to organize terminal work and resume sessions
+      after detaching from them."
 curation:
   confidence: null
   evidence: []
@@ -31,28 +34,31 @@ id: "github:tmux/tmux"
 import:
   github_snapshot:
     archived: false
-    created_at: "2015-06-03T23:32:55Z"
-    default_branch: "master"
-    description: "tmux source code"
+    created_at: 2015-06-03T23:32:55Z
+    default_branch: master
+    description: tmux source code
     disabled: false
-    fetched_at: "2026-07-19T19:16:14.796Z"
+    fetched_at: 2026-11-22T12:07:00.148Z
     fork: false
-    forks: 2787
+    forks: 3036
     homepage: ""
-    latest_release: null
-    license_spdx: "ISC"
-    open_issues: 35
-    primary_language: "C"
-    pushed_at: "2026-07-19T18:29:04Z"
-    stars: 47883
+    latest_release:
+      tag: "3.8"
+      published_at: 2026-09-09T12:55:58Z
+      url: https://github.com/tmux/tmux/releases/tag/3.8
+    license_spdx: ISC
+    open_issues: 41
+    primary_language: C
+    pushed_at: 2026-11-22T11:42:12Z
+    stars: 50541
     topics: []
-    updated_at: "2026-07-19T19:12:37Z"
+    updated_at: 2026-11-22T11:48:05Z
   sources:
-    - observed_at: "2026-07-19T13:55:51Z"
-      relation: "starred"
-      source_id: "github:user:tomseai:stars"
-      source_url: "https://github.com/tomseai?tab=stars"
-  state: "imported"
+    - observed_at: 2026-07-19T13:55:51Z
+      relation: starred
+      source_id: github:user:tomseai:stars
+      source_url: https://github.com/tomseai?tab=stars
+  state: refreshed
 repository:
   aliases: []
   github_node_id: "MDEwOlJlcG9zaXRvcnkzNjgzNjQ3NQ=="

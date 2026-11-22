@@ -2,9 +2,9 @@ schema_version: 2
 repository_id: github:vercel-labs/portless
 research:
   state: complete
-  source_commit: e0c2af5734fcdc2f6c6992423a023d8ec0c68e26
-  bundle_collected_at: 2026-07-19T20:45:54.468Z
-  researched_at: 2026-07-20T15:55:00.000Z
+  source_commit: 6784e585a786a23b557d1291dfc86647587c4ea6
+  bundle_collected_at: 2026-11-22T12:10:34.752Z
+  researched_at: 2026-11-22T12:23:23.137Z
   confidence: high
 classification:
   primary_category: developer-tools
@@ -17,19 +17,24 @@ classification:
 project:
   name: portless
   kind: cli
-  summary: >-
-    A local-development CLI that replaces per-app port numbers with stable,
-    named URLs by running a local reverse proxy around existing development
-    commands, with configurable TLS, routing, aliases, and sharing modes.
+  summary: A local-development CLI that replaces per-app port numbers with stable,
+    named URLs by running a local reverse proxy around existing development commands,
+    with configurable TLS, routing, aliases, and sharing modes.
   best_for:
     - Developers who run several local web services and want stable browser URLs
-    - Teams or agents whose local commands need predictable URLs without manually managing ports
+    - Teams or agents whose local commands need predictable URLs without manually
+      managing ports
 key_features:
-  - Runs an existing development command behind a named local URL such as https://myapp.localhost
-  - Assigns an available application port and injects compatible port and host flags for supported frameworks
-  - Provides local HTTPS and HTTP/2 with a generated, system-trusted certificate authority by default
-  - Supports route aliases, subdomains, custom TLDs, monorepos, and Git worktree URL prefixes
-  - Can install the proxy as an OS startup service and explicitly enable LAN, Tailscale, or ngrok sharing
+  - Runs an existing development command behind a named local URL such as
+    https://myapp.localhost
+  - Assigns an available application port and injects compatible port and host flags
+    for supported frameworks
+  - Provides local HTTPS and HTTP/2 with a generated, system-trusted certificate
+    authority by default
+  - Supports route aliases, subdomains, custom TLDs, monorepos, and Git worktree URL
+    prefixes
+  - Can install the proxy as a startup service and optionally enable LAN sharing or a
+    Tailscale, ngrok, or Cloudflare tunnel
 usage:
   interfaces:
     - CLI
@@ -46,23 +51,32 @@ technology:
 license:
   spdx: Apache-2.0
   name: Apache License 2.0
-  notes: Permissive license with an express patent grant; preserve required notices and license text when redistributing.
+  notes: Permissive license with an express patent grant; preserve required notices and
+    license text when redistributing.
 status:
   lifecycle: active
   archived: false
-  latest_release: v0.15.4
-  latest_release_at: 2026-07-16
+  latest_release: v0.18.1
+  latest_release_at: 2026-11-18
 strengths:
-  - Gives each development service a readable URL while retaining its existing dev command
-  - Covers local TLS, framework port handling, worktrees, and proxy lifecycle in one CLI
+  - Gives each development service a readable URL while retaining its existing dev
+    command
+  - Covers local TLS, framework port handling, worktrees, and proxy lifecycle in one
+    CLI
   - Defaults to loopback-only binding outside its explicitly enabled sharing modes
 caveats:
-  - The project is pre-1.0, and its per-user state format can require rerunning trust after version changes
-  - Default HTTPS setup creates and trusts a local certificate authority and can require elevation to bind privileged ports
-  - LAN, Tailscale, and ngrok modes change the normal loopback-only exposure model and require deliberate configuration
+  - The project is pre-1.0, and its per-user state format can require rerunning trust
+    after version changes
+  - Default HTTPS setup creates and trusts a local certificate authority and can
+    require elevation to bind privileged ports
+  - LAN, Tailscale, ngrok, and Cloudflare modes change the normal loopback-only
+    exposure model and require deliberate configuration
+  - Upstream HTTPS aliases disable certificate verification, so backend identity is
+    not authenticated
 sources:
-  - https://raw.githubusercontent.com/vercel-labs/portless/e0c2af5734fcdc2f6c6992423a023d8ec0c68e26/README.md
-  - https://raw.githubusercontent.com/vercel-labs/portless/e0c2af5734fcdc2f6c6992423a023d8ec0c68e26/LICENSE
-  - https://raw.githubusercontent.com/vercel-labs/portless/e0c2af5734fcdc2f6c6992423a023d8ec0c68e26/package.json
-  - https://raw.githubusercontent.com/vercel-labs/portless/e0c2af5734fcdc2f6c6992423a023d8ec0c68e26/CHANGELOG.md
+  - https://raw.githubusercontent.com/vercel-labs/portless/6784e585a786a23b557d1291dfc86647587c4ea6/README.md
+  - https://raw.githubusercontent.com/vercel-labs/portless/6784e585a786a23b557d1291dfc86647587c4ea6/LICENSE
+  - https://raw.githubusercontent.com/vercel-labs/portless/6784e585a786a23b557d1291dfc86647587c4ea6/package.json
+  - https://raw.githubusercontent.com/vercel-labs/portless/6784e585a786a23b557d1291dfc86647587c4ea6/CHANGELOG.md
   - https://github.com/vercel-labs/portless/releases.atom
+  - https://github.com/vercel-labs/portless/releases/tag/v0.18.1

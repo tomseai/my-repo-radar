@@ -2,9 +2,9 @@ schema_version: 2
 repository_id: github:getpaykit/paykit
 research:
   state: complete
-  source_commit: 46ea2160de77f764dfc3dbb5b1966338b401dc2f
-  bundle_collected_at: 2026-07-19T20:43:06.200Z
-  researched_at: 2026-07-20T15:24:18.724Z
+  source_commit: c7572ff7e0116428a43a2f98ad25dc2c26c8927e
+  bundle_collected_at: 2026-11-22T12:09:31.952Z
+  researched_at: 2026-11-22T12:23:44Z
   confidence: medium
 
 classification:
@@ -20,11 +20,12 @@ project:
   name: PayKit
   kind: framework
   summary: >-
-    An embedded TypeScript billing framework that keeps billing state in an
-    application's database while managing products, subscriptions,
-    entitlements, usage billing, and Stripe webhooks.
+    An embedded Stripe billing framework for TypeScript that keeps billing state in an
+    application's database while managing products, subscriptions, entitlements,
+    usage billing, and Stripe webhooks.
   best_for:
-    - TypeScript applications that want billing logic and state inside their own backend
+    - TypeScript applications that want billing logic and state inside their own
+      backend
     - SaaS products defining plans and feature access as code
 
 key_features:
@@ -62,25 +63,27 @@ license:
 status:
   lifecycle: active
   archived: false
-  latest_release: v0.0.6
-  latest_release_at: 2026-05-23
+  latest_release: v0.2.0
+  latest_release_at: 2026-09-17
 
 strengths:
   - Keeps billing state and business logic in the host application's database
   - Gives TypeScript applications a concise code-first plan and entitlement model
-  - Includes CLI initialization and a tested monorepo development workflow
+  - Includes CLI initialization and a monorepo development workflow
 
 caveats:
-  - The core package describes itself as a Stripe billing framework, so Stripe is central to the documented flow
-  - The pinned core package declares 0.1.6, but the retained GitHub release feed ends at v0.0.6, so publication status beyond that release is unclear
+  - The core package describes itself as a Stripe billing framework, so Stripe
+    is central to the documented flow
   - The latest release is pre-1.0, so APIs and workflows may change
-  - A working deployment needs a database connection plus Stripe secret and webhook credentials
+  - A working deployment needs a database connection plus Stripe secret and
+    webhook credentials
   - Local contributor setup requires Node.js 22 or later and pnpm
 
 sources:
-  - https://raw.githubusercontent.com/getpaykit/paykit/46ea2160de77f764dfc3dbb5b1966338b401dc2f/README.md
-  - https://raw.githubusercontent.com/getpaykit/paykit/46ea2160de77f764dfc3dbb5b1966338b401dc2f/LICENSE
-  - https://raw.githubusercontent.com/getpaykit/paykit/46ea2160de77f764dfc3dbb5b1966338b401dc2f/CONTRIBUTING.md
-  - https://raw.githubusercontent.com/getpaykit/paykit/46ea2160de77f764dfc3dbb5b1966338b401dc2f/package.json
-  - https://raw.githubusercontent.com/getpaykit/paykit/46ea2160de77f764dfc3dbb5b1966338b401dc2f/packages/paykit/package.json
+  - https://raw.githubusercontent.com/getpaykit/paykit/c7572ff7e0116428a43a2f98ad25dc2c26c8927e/README.md
+  - https://raw.githubusercontent.com/getpaykit/paykit/c7572ff7e0116428a43a2f98ad25dc2c26c8927e/LICENSE
+  - https://raw.githubusercontent.com/getpaykit/paykit/c7572ff7e0116428a43a2f98ad25dc2c26c8927e/package.json
+  - https://raw.githubusercontent.com/getpaykit/paykit/c7572ff7e0116428a43a2f98ad25dc2c26c8927e/packages/paykit/package.json
   - https://github.com/getpaykit/paykit/releases.atom
+  - https://github.com/getpaykit/paykit/releases/tag/v0.2.0
+  - https://github.com/getpaykit/paykit/commit/c7572ff7e0116428a43a2f98ad25dc2c26c8927e

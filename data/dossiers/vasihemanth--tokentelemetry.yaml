@@ -2,11 +2,10 @@ schema_version: 2
 repository_id: github:VasiHemanth/tokentelemetry
 research:
   state: complete
-  source_commit: 2eadf6022dcbe5105ec6361cd21d86228d8403ba
-  bundle_collected_at: 2026-07-19T20:45:51.468Z
-  researched_at: 2026-07-20T18:11:36.385Z
+  source_commit: 29ede94212765e77127b1b89fcada7e76279d70b
+  bundle_collected_at: 2026-11-22T12:10:36.332Z
+  researched_at: 2026-11-22T12:23:58.009Z
   confidence: high
-
 classification:
   primary_category: developer-tools
   topics:
@@ -18,17 +17,14 @@ classification:
     - self-hosted
     - web-ui
     - cli
-
 project:
   name: TokenTelemetry
   kind: application
-  summary: >-
-    A local dashboard that reads supported AI-agent session logs to show token
+  summary: A local dashboard that reads supported AI-agent session logs to show token
     use, costs, tool calls, reasoning traces, budgets, and project analytics.
   best_for:
     - Developers comparing token use and costs across local coding-agent sessions
     - Teams needing a local, read-only view of supported AI-agent activity
-
 key_features:
   - Unified token, cost, session, and model analytics across supported agents
   - Waterfall traces for prompts, reasoning, tool calls, and responses
@@ -36,7 +32,6 @@ key_features:
   - Observational token or spend budgets with 80% and 100% alerts
   - Zero-configuration detection of supported agents' default log locations
   - Dedicated Hermes Agent dashboard with source, gateway, and delegation views
-
 usage:
   interfaces:
     - local web dashboard
@@ -46,7 +41,6 @@ usage:
     - one-line shell or PowerShell installer
     - source checkout
   setup: moderate
-
 technology:
   languages:
     - Python
@@ -56,34 +50,31 @@ technology:
     - FastAPI
     - Next.js
     - React
-
 license:
   spdx: MIT
   name: MIT License
-  notes: >-
-    Permissive reuse is allowed subject to preserving the copyright and permission
+  notes: Permissive reuse is allowed subject to preserving the copyright and permission
     notices; the software is provided without warranty.
-
 status:
   lifecycle: active
   archived: false
   latest_release: 1.0.0
   latest_release_at: 2026-04-27
-
 strengths:
   - Gives a unified local view of multiple coding and autonomous-agent runtimes
-  - Reads existing logs rather than requiring application instrumentation or an account
+  - Reads existing logs rather than requiring application instrumentation or an
+    account
   - Combines token and cost metrics with detailed operational traces and budget alerts
-
 caveats:
   - Data availability and fidelity depend on the supported agents' local log formats
   - It requires Node.js, Python, Git, and at least one supported agent installation
-  - Remote access is opt-in and must be configured with suitable network and token controls
+  - Remote access is opt-in and must be configured with suitable network and token
+    controls
   - Anonymous product-usage telemetry is enabled by default, though it can be disabled
-  - Version 1.0.0 is established by the package manifest and changelog; no GitHub Release entries are retained
-
+  - The package manifest and changelog establish version 1.0.0; newer integrations
+    are under Unreleased in the changelog
 sources:
-  - https://raw.githubusercontent.com/VasiHemanth/tokentelemetry/2eadf6022dcbe5105ec6361cd21d86228d8403ba/README.md
-  - https://raw.githubusercontent.com/VasiHemanth/tokentelemetry/2eadf6022dcbe5105ec6361cd21d86228d8403ba/LICENSE
-  - https://raw.githubusercontent.com/VasiHemanth/tokentelemetry/2eadf6022dcbe5105ec6361cd21d86228d8403ba/package.json
-  - https://raw.githubusercontent.com/VasiHemanth/tokentelemetry/2eadf6022dcbe5105ec6361cd21d86228d8403ba/CHANGELOG.md
+  - https://raw.githubusercontent.com/VasiHemanth/tokentelemetry/29ede94212765e77127b1b89fcada7e76279d70b/README.md
+  - https://raw.githubusercontent.com/VasiHemanth/tokentelemetry/29ede94212765e77127b1b89fcada7e76279d70b/LICENSE
+  - https://raw.githubusercontent.com/VasiHemanth/tokentelemetry/29ede94212765e77127b1b89fcada7e76279d70b/package.json
+  - https://raw.githubusercontent.com/VasiHemanth/tokentelemetry/29ede94212765e77127b1b89fcada7e76279d70b/CHANGELOG.md

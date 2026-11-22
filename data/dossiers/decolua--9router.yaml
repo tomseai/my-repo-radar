@@ -2,11 +2,10 @@ schema_version: 2
 repository_id: github:decolua/9router
 research:
   state: complete
-  source_commit: 0513bf393fb0eedd2baecdadb54b6129976a706c
-  bundle_collected_at: 2026-07-19T20:42:33.153Z
-  researched_at: 2026-07-20T17:22:57+02:00
-  confidence: high
-
+  source_commit: 1855aa44473e88feac9d3f131b9c0c5fc9706b68
+  bundle_collected_at: 2026-11-22T12:09:21.003Z
+  researched_at: 2026-11-22T12:26:27.224Z
+  confidence: medium
 classification:
   primary_category: ai-and-automation
   topics:
@@ -18,26 +17,25 @@ classification:
     - web-ui
     - self-hosted
     - token-usage
-
 project:
   name: 9Router
   kind: service
-  summary: >-
-    A self-hosted AI gateway and dashboard that presents one OpenAI-compatible
-    endpoint to coding tools while routing requests across configured model
-    providers, accounts, and fallback combinations.
+  summary: A self-hosted AI gateway and dashboard that presents one
+    OpenAI-compatible endpoint to coding tools while routing requests across
+    configured model providers, accounts, and fallback combinations.
   best_for:
     - Running local or self-hosted model routing for compatible coding tools
-    - Combining provider subscriptions, API keys, and fallback models behind one endpoint
-
+    - Combining provider subscriptions, API keys, and fallback models behind one
+      endpoint
 key_features:
-  - OpenAI-compatible API plus translation among OpenAI, Claude, Gemini, Cursor, Kiro, Vertex, and other formats
+  - OpenAI-compatible API plus translation among OpenAI, Claude, Gemini, Cursor,
+    Kiro, Vertex, and other formats
   - Configurable model combinations with account- and provider-level fallback
   - OAuth and API-key provider connections with token refresh and quota tracking
   - RTK compression for tool-result content before upstream format translation
-  - Dashboard for provider configuration, request logs, usage analytics, and costs
+  - Dashboard for provider configuration, request logs, usage analytics, and
+    costs
   - Local SQLite-backed storage with Docker and VPS deployment guidance
-
 usage:
   interfaces:
     - Web dashboard
@@ -48,7 +46,6 @@ usage:
     - Docker image
     - Build from source with Node.js
   setup: moderate
-
 technology:
   languages:
     - JavaScript
@@ -57,34 +54,38 @@ technology:
     - React
     - SQLite
     - Server-Sent Events
-
 license:
   spdx: MIT
   name: MIT License
-  notes: >-
-    Permits use, modification, distribution, sublicensing, and sale when the
-    copyright and permission notice are retained; it is provided without warranty.
-
+  notes: Permits use, modification, distribution, sublicensing, and sale when the
+    copyright and permission notice are retained; it is provided without
+    warranty.
 status:
   lifecycle: active
   archived: false
   latest_release: v0.5.35
   latest_release_at: 2026-07-16
-
 strengths:
   - Adapts one compatible endpoint to several upstream provider formats
-  - Includes both routing resilience and operational visibility in a local dashboard
-  - Offers low-friction npm and Docker starts alongside self-hosted deployment instructions
-
+  - Includes both routing resilience and operational visibility in a local
+    dashboard
+  - Offers low-friction npm and Docker starts alongside self-hosted deployment
+    instructions
 caveats:
-  - Connecting providers requires credentials, provider-specific quotas, and configuration choices
-  - Tool-result compression and output-shaping features can change content sent to or returned from models
-  - The documented initial dashboard password and default secrets must be changed for real or internet-exposed deployments
-  - Cloud sync is optional but introduces an external sync endpoint beyond a purely local installation
-
+  - Connecting providers requires credentials, provider-specific quotas, and
+    configuration choices
+  - Tool-result compression and output-shaping features can change content sent
+    to or returned from models
+  - The documented initial dashboard password and default secrets must be
+    changed for real or internet-exposed deployments
+  - Cloud sync is optional but introduces an external sync endpoint beyond a
+    purely local installation
+  - The candidate CLI manifest and newest repository tag are v0.5.119. The
+    release field records the verified GitHub publication v0.5.35.
 sources:
-  - https://raw.githubusercontent.com/decolua/9router/0513bf393fb0eedd2baecdadb54b6129976a706c/README.md
-  - https://raw.githubusercontent.com/decolua/9router/0513bf393fb0eedd2baecdadb54b6129976a706c/docs/ARCHITECTURE.md
-  - https://raw.githubusercontent.com/decolua/9router/0513bf393fb0eedd2baecdadb54b6129976a706c/LICENSE
-  - https://raw.githubusercontent.com/decolua/9router/0513bf393fb0eedd2baecdadb54b6129976a706c/cli/package.json
-  - https://github.com/decolua/9router/releases.atom
+  - https://raw.githubusercontent.com/decolua/9router/1855aa44473e88feac9d3f131b9c0c5fc9706b68/README.md
+  - https://raw.githubusercontent.com/decolua/9router/1855aa44473e88feac9d3f131b9c0c5fc9706b68/LICENSE
+  - https://raw.githubusercontent.com/decolua/9router/1855aa44473e88feac9d3f131b9c0c5fc9706b68/docs/ARCHITECTURE.md
+  - https://raw.githubusercontent.com/decolua/9router/1855aa44473e88feac9d3f131b9c0c5fc9706b68/cli/package.json
+  - https://raw.githubusercontent.com/decolua/9router/1855aa44473e88feac9d3f131b9c0c5fc9706b68/docker-compose.yml
+  - https://github.com/decolua/9router/releases/tag/v0.5.35

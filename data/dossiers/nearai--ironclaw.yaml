@@ -2,9 +2,9 @@ schema_version: 2
 repository_id: github:nearai/ironclaw
 research:
   state: complete
-  source_commit: c486eac3318daa0b14fc6dce8ecd72a49e8cdc92
-  bundle_collected_at: 2026-07-19T20:44:21.418Z
-  researched_at: 2026-07-20T17:52:17.5282390+02:00
+  source_commit: b0b999d96781516ee05e6ba961d6f3ead900da96
+  bundle_collected_at: 2026-11-22T12:10:01.941Z
+  researched_at: 2026-11-22T12:22:57.129Z
   confidence: medium
 classification:
   primary_category: ai-and-automation
@@ -38,14 +38,14 @@ usage:
     - HTTP webhooks and messaging channels
   installation:
     - Windows installer or PowerShell installer
-    - shell installer or Homebrew on supported Unix-like systems
+    - release-specific shell installer on macOS, Linux, or Windows with WSL
     - Cargo source build
   setup: high
 technology:
   languages:
     - Rust
   notable_components:
-    - PostgreSQL with pgvector
+    - libSQL-backed local persistence
     - WebAssembly tool sandbox
     - Docker sandbox
     - Model Context Protocol
@@ -59,19 +59,21 @@ license:
 status:
   lifecycle: active
   archived: false
-  latest_release: v0.29.1
-  latest_release_at: 2026-06-03
+  latest_release: ironclaw-v1.4.1
+  latest_release_at: "2026-09-29"
 strengths:
   - Combines several interaction channels with configurable model-provider routing
   - Documents layered controls for sandboxed tools, credentials, and external content
-  - Offers binary installers, Homebrew, and source-build paths
+  - Offers versioned binary installers, guided onboarding, and a source-build path
 caveats:
   - The cached bundle lacks the actual LICENSE-MIT and LICENSE-APACHE texts, so reuse terms require upstream verification
-  - The README documents the separate Reborn runtime alongside the older ironclaw binary; confirm which runtime applies to a planned deployment
-  - The newer feed entries are a main-branch snapshot and a skill-learning component release; v0.29.1 is the latest retained release for the root ironclaw package
-  - Full legacy setup can require PostgreSQL, provider credentials, and channel-specific configuration
+  - The current source tree targets the newer ironclaw CLI. The legacy v1 monolith has been removed.
+  - The CLI Cargo manifest reports 1.2.0. The retained release page identifies ironclaw-v1.4.1 as the newer stable product release.
+  - Source builds require Rust 1.96 or newer and Node.js 22 or newer with Corepack and pnpm
 sources:
-  - https://raw.githubusercontent.com/nearai/ironclaw/c486eac3318daa0b14fc6dce8ecd72a49e8cdc92/README.md
-  - https://raw.githubusercontent.com/nearai/ironclaw/c486eac3318daa0b14fc6dce8ecd72a49e8cdc92/Cargo.toml
-  - https://raw.githubusercontent.com/nearai/ironclaw/c486eac3318daa0b14fc6dce8ecd72a49e8cdc92/CHANGELOG.md
+  - https://raw.githubusercontent.com/nearai/ironclaw/b0b999d96781516ee05e6ba961d6f3ead900da96/README.md
+  - https://raw.githubusercontent.com/nearai/ironclaw/b0b999d96781516ee05e6ba961d6f3ead900da96/Cargo.toml
+  - https://raw.githubusercontent.com/nearai/ironclaw/b0b999d96781516ee05e6ba961d6f3ead900da96/CHANGELOG.md
   - https://github.com/nearai/ironclaw/releases.atom
+  - https://raw.githubusercontent.com/nearai/ironclaw/b0b999d96781516ee05e6ba961d6f3ead900da96/crates/app/ironclaw_cli/Cargo.toml
+  - https://github.com/nearai/ironclaw/releases/tag/ironclaw-v1.4.1

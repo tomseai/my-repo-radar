@@ -15,15 +15,20 @@ analysis:
       - "improve-developer-workflow"
       - "collaborate-on-work"
   evidence:
-    - claim: "OpenHands is a self-hosted developer control center for running coding agents and automations across local, remote, and cloud backends, including OpenHands, Claude Code, Codex, Gemini, and ACP-compatible agents."
+    - claim: "OpenHands is a self-hosted developer control center for running coding
+        agents and automations across local, remote, and cloud backends,
+        including OpenHands, Claude Code, Codex, Gemini, and ACP-compatible
+        agents."
       source_type: "repository-file"
       url: "https://github.com/OpenHands/OpenHands/blob/main/README.md"
       checked_at: "2026-07-19"
       confidence: "high"
   state: "researched"
   summary:
-    one_line: "A self-hosted control center for coding agents and development automations."
-    why_useful: "It connects multiple agent backends to task conversations and recurring engineering workflows."
+    one_line: "A self-hosted control center for coding agents and development
+      automations."
+    why_useful: "It connects multiple agent backends to task conversations and
+      recurring engineering workflows."
 curation:
   confidence: null
   evidence: []
@@ -37,37 +42,40 @@ id: "github:OpenHands/OpenHands"
 import:
   github_snapshot:
     archived: false
-    created_at: "2024-03-13T03:33:31Z"
-    default_branch: "main"
+    created_at: 2024-03-13T03:33:31Z
+    default_branch: main
     description: "🙌 OpenHands: AI-Driven Development"
     disabled: false
-    fetched_at: "2026-07-19T19:16:14.796Z"
+    fetched_at: 2026-11-22T12:07:00.148Z
     fork: false
-    forks: 10400
-    homepage: "https://openhands.dev"
-    latest_release: null
-    license_spdx: "NOASSERTION"
-    open_issues: 369
-    primary_language: "Python"
-    pushed_at: "2026-07-19T18:03:48Z"
-    stars: 81305
+    forks: 12584
+    homepage: https://openhands.dev
+    latest_release:
+      tag: v1.43.0
+      published_at: 2026-11-20T18:51:00Z
+      url: https://github.com/OpenHands/OpenHands/releases/tag/v1.43.0
+    license_spdx: MIT
+    open_issues: 1237
+    primary_language: TypeScript
+    pushed_at: 2026-11-22T12:02:40Z
+    stars: 94026
     topics:
-      - "agent"
-      - "artificial-intelligence"
-      - "chatgpt"
-      - "claude-ai"
-      - "cli"
-      - "developer-tools"
-      - "gpt"
-      - "llm"
-      - "openai"
-    updated_at: "2026-07-19T18:56:30Z"
+      - agent
+      - artificial-intelligence
+      - chatgpt
+      - claude-ai
+      - cli
+      - developer-tools
+      - gpt
+      - llm
+      - openai
+    updated_at: 2026-11-22T11:52:02Z
   sources:
-    - observed_at: "2026-04-03T15:27:20Z"
-      relation: "starred"
-      source_id: "github:user:tomseai:stars"
-      source_url: "https://github.com/tomseai?tab=stars"
-  state: "imported"
+    - observed_at: 2026-04-03T15:27:20Z
+      relation: starred
+      source_id: github:user:tomseai:stars
+      source_url: https://github.com/tomseai?tab=stars
+  state: refreshed
 repository:
   aliases: []
   github_node_id: "R_kgDOLfkiww"

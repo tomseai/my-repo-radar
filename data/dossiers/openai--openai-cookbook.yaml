@@ -3,9 +3,9 @@ repository_id: github:openai/openai-cookbook
 
 research:
   state: complete
-  source_commit: 9fa55b8cecba8c9c543d11f2cf08339a29112be7
-  bundle_collected_at: 2026-07-19T20:44:35.840Z
-  researched_at: 2026-07-20T15:51:21.906Z
+  source_commit: dfd760b4de0bd175b51ad05b9b5260c36dfea09c
+  bundle_collected_at: 2026-11-22T12:10:07.818Z
+  researched_at: 2026-11-22T12:21:03Z
   confidence: high
 
 classification:
@@ -21,18 +21,21 @@ project:
   name: OpenAI Cookbook
   kind: documentation
   summary: >-
-    An OpenAI-maintained collection of example code and guides for common
-    OpenAI API tasks, published as a browsable Cookbook and repository, with
-    most examples written in Python.
+    An OpenAI-maintained collection of example code and guides for common OpenAI
+    API tasks, published as a browsable Cookbook and repository, with most
+    examples written in Python.
   best_for:
     - Developers looking for concrete OpenAI API implementation patterns
-    - Learners who want runnable examples before adapting concepts to another language
+    - Learners who want runnable examples before adapting concepts to another
+      language
 
 key_features:
   - Example code and guides for common OpenAI API tasks
   - A browsable cookbook.openai.com documentation experience
-  - Python-first examples whose concepts are intended to transfer to other languages
-  - Instructions for supplying OPENAI_API_KEY through an environment variable or .env file
+  - Python-first examples whose concepts are intended to transfer to other
+    languages
+  - Instructions for supplying OPENAI_API_KEY through an environment variable or
+    .env file
   - Community-resource contribution guidance
 
 usage:
@@ -71,15 +74,20 @@ status:
 strengths:
   - Official examples pair task-oriented guidance with code
   - The web cookbook makes the collection accessible without a package install
-  - Python examples state that their underlying concepts can be applied in other languages
+  - Python examples state that their underlying concepts can be applied in other
+    languages
 
 caveats:
-  - Running examples requires an OpenAI account, an associated API key, and OPENAI_API_KEY configuration
-  - Most examples are Python, so other-language users must translate the implementation details
-  - The retained release feed contains no entries, so no project release can be established from this bundle
+  - Running examples requires an OpenAI account, an associated API key, and
+    OPENAI_API_KEY configuration
+  - Most examples are Python, so other-language users must translate the
+    implementation details
+  - The retained release feed contains no entries, so no project release can be
+    established from this bundle
 
 sources:
-  - https://raw.githubusercontent.com/openai/openai-cookbook/9fa55b8cecba8c9c543d11f2cf08339a29112be7/README.md
-  - https://raw.githubusercontent.com/openai/openai-cookbook/9fa55b8cecba8c9c543d11f2cf08339a29112be7/LICENSE
-  - https://raw.githubusercontent.com/openai/openai-cookbook/9fa55b8cecba8c9c543d11f2cf08339a29112be7/CONTRIBUTING.md
+  - https://raw.githubusercontent.com/openai/openai-cookbook/dfd760b4de0bd175b51ad05b9b5260c36dfea09c/README.md
+  - https://raw.githubusercontent.com/openai/openai-cookbook/dfd760b4de0bd175b51ad05b9b5260c36dfea09c/LICENSE
+  - https://raw.githubusercontent.com/openai/openai-cookbook/dfd760b4de0bd175b51ad05b9b5260c36dfea09c/CONTRIBUTING.md
   - https://github.com/openai/openai-cookbook/releases.atom
+  - https://github.com/openai/openai-cookbook/commit/dfd760b4de0bd175b51ad05b9b5260c36dfea09c

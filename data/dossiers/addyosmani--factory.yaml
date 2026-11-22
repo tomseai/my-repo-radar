@@ -1,0 +1,86 @@
+schema_version: 2
+repository_id: github:addyosmani/factory
+research:
+  state: complete
+  source_commit: 8af116567166a0a16588b7ab1b9934ece0b775bc
+  bundle_collected_at: 2026-09-16T15:11:23.166Z
+  researched_at: 2026-09-16T15:13:01.299Z
+  confidence: high
+classification:
+  primary_category: ai-and-automation
+  topics:
+    - coding-agents
+    - agent-harnesses
+    - agent-orchestration
+    - agent-governance
+    - agent-skills
+    - task-planning
+    - spec-driven-development
+    - code-review
+    - testing
+    - github
+    - automation
+    - developer-productivity
+project:
+  name: Factory
+  kind: starter-template
+  summary: >-
+    A reference software-factory template and installer that adds a
+    repository-owned, human-governed delivery loop for Claude Code and Codex,
+    using GitHub issues and pull requests as the queue, deterministic gates,
+    independent verification, and human merge authority.
+  best_for:
+    - Teams introducing bounded coding-agent automation into an existing GitHub repository
+    - Projects that need version-controlled agent policy, durable handoffs, and review back-pressure
+key_features:
+  - Installs a shared charter, contract, queue protocol, gates, run records, and Claude Code and Codex workflow adapters
+  - Routes issues through triage, specification, implementation, independent review, pull-request verification, and monitoring
+  - Runs fail-closed type, lint, test, build, audit, mutation, and architecture gates at configurable levels
+  - Uses a fresh verifier that reads the diff independently and can prove that a new test fails without the implementation
+  - Keeps merges human-controlled and stops new work when the configured review queue is full
+usage:
+  interfaces:
+    - shell installer
+    - Claude Code workflows and cloud routines
+    - Codex repository skills and instructions
+    - GitHub issues and pull requests
+  installation:
+    - clone the repository and run install.sh --dry-run against a target Git repository
+    - run install.sh, then configure the target repository's charter, gates, labels, and branch protection
+  setup: moderate
+technology:
+  languages:
+    - Shell
+    - Markdown
+  notable_components:
+    - Claude Code project skills, agents, hooks, and cloud routines
+    - Codex AGENTS.md, repository skills, and hook adapter
+    - GitHub Issues, pull requests, labels, Actions, and branch protection
+    - Bash installer, deterministic gate runner, setup doctor, and smoke tests
+license:
+  spdx: MIT
+  name: MIT License
+  notes: null
+status:
+  lifecycle: active
+  archived: false
+  latest_release: null
+  latest_release_at: null
+strengths:
+  - Keeps policy, queue semantics, gates, and evidence in the target repository so fresh agent sessions can resume without chat history
+  - Separates implementation from verification and requires deterministic, fail-closed checks before producing a draft pull request
+  - Preserves explicit human authority over ambiguous requirements, high-impact changes, and every merge
+  - Supports Claude Code and Codex through one shared contract while documenting their different automation capabilities
+caveats:
+  - The packaged unattended scheduling path is Claude-first; Codex schedules are not provisioned by this reference
+  - Stock Claude routines lack a new-issue trigger, so triage polls unless the optional API-trigger GitHub Action is installed
+  - Effective use requires project-specific charter decisions, real gate commands, GitHub labels, branch protection, and separately configured cloud state
+  - Hooks are guardrails rather than a security boundary; GitHub rulesets or branch protection must enforce merge policy
+  - The retained release feed has no entries, so no project release can be established
+sources:
+  - https://raw.githubusercontent.com/addyosmani/factory/8af116567166a0a16588b7ab1b9934ece0b775bc/README.md
+  - https://raw.githubusercontent.com/addyosmani/factory/8af116567166a0a16588b7ab1b9934ece0b775bc/GETTING_STARTED.md
+  - https://raw.githubusercontent.com/addyosmani/factory/8af116567166a0a16588b7ab1b9934ece0b775bc/LICENSE
+  - https://raw.githubusercontent.com/addyosmani/factory/8af116567166a0a16588b7ab1b9934ece0b775bc/CONTRIBUTING.md
+  - https://raw.githubusercontent.com/addyosmani/factory/8af116567166a0a16588b7ab1b9934ece0b775bc/ARCHITECTURE.md
+  - https://github.com/addyosmani/factory/releases.atom

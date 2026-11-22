@@ -3,9 +3,9 @@ repository_id: github:anthropics/claude-code
 
 research:
   state: complete
-  source_commit: 015170d3fd84fb57ef4685a64b673fadd0690dc1
-  bundle_collected_at: 2026-07-19T20:41:41.804Z
-  researched_at: 2026-07-20T00:30:00Z
+  source_commit: 1006c2e4f783f016963fb290d3eb4afaa2d448b1
+  bundle_collected_at: 2026-11-22T12:09:03.608Z
+  researched_at: 2026-11-22T12:24:38.207794+00:00
   confidence: high
 
 classification:
@@ -62,26 +62,32 @@ technology:
 license:
   spdx: null
   name: Proprietary; Anthropic Commercial Terms of Service
-  notes: The repository states all rights are reserved; use is subject to Anthropic's commercial terms.
+  notes: The repository states all rights are reserved; use is subject to
+    Anthropic's commercial terms.
 
 status:
   lifecycle: active
   archived: false
-  latest_release: v2.1.215
-  latest_release_at: 2026-07-19
+  latest_release: v2.1.330
+  latest_release_at: 2026-11-20
 
 strengths:
-  - Integrates an agentic coding workflow across terminal, IDE, and GitHub surfaces
-  - Provides frequent, detailed release notes and enterprise configuration examples
+  - Integrates an agentic coding workflow across terminal, IDE, and GitHub
+    surfaces
+  - Provides frequent, detailed release notes and enterprise configuration
+    examples
 
 caveats:
   - It is not released under an open-source license
-  - Usage data and feedback collection are described in the project's data-use policy
-  - npm installation is explicitly deprecated in favor of other installation methods
+  - Usage data and feedback collection are described in the project's data-use
+    policy
+  - npm installation is explicitly deprecated in favor of other installation
+    methods
 
 sources:
-  - https://raw.githubusercontent.com/anthropics/claude-code/015170d3fd84fb57ef4685a64b673fadd0690dc1/README.md
-  - https://raw.githubusercontent.com/anthropics/claude-code/015170d3fd84fb57ef4685a64b673fadd0690dc1/LICENSE.md
-  - https://raw.githubusercontent.com/anthropics/claude-code/015170d3fd84fb57ef4685a64b673fadd0690dc1/examples/settings/README.md
+  - https://raw.githubusercontent.com/anthropics/claude-code/1006c2e4f783f016963fb290d3eb4afaa2d448b1/README.md
+  - https://raw.githubusercontent.com/anthropics/claude-code/1006c2e4f783f016963fb290d3eb4afaa2d448b1/LICENSE.md
+  - https://raw.githubusercontent.com/anthropics/claude-code/1006c2e4f783f016963fb290d3eb4afaa2d448b1/examples/settings/README.md
   - https://raw.githubusercontent.com/anthropics/claude-code/015170d3fd84fb57ef4685a64b673fadd0690dc1/CHANGELOG.md
   - https://github.com/anthropics/claude-code/releases.atom
+  - https://github.com/anthropics/claude-code/releases/tag/v2.1.330

@@ -16,15 +16,19 @@ analysis:
       - "test-software"
       - "run-personal-or-team-tools"
   evidence:
-    - claim: "Mobilerun is a Python framework for LLM-agent control of Android and iOS devices through natural-language commands, with a CLI, extensible API, screenshot analysis, planning, and execution tracing."
+    - claim: "Mobilerun is a Python framework for LLM-agent control of Android and iOS
+        devices through natural-language commands, with a CLI, extensible API,
+        screenshot analysis, planning, and execution tracing."
       source_type: "repository-file"
       url: "https://github.com/droidrun/mobilerun/blob/main/README.md"
       checked_at: "2026-07-19"
       confidence: "high"
   state: "complete"
   summary:
-    one_line: "A Python framework for controlling Android and iOS devices through LLM agents."
-    why_useful: "It enables natural-language mobile automation for workflows, UI testing, remote assistance, and device exploration."
+    one_line: "A Python framework for controlling Android and iOS devices through
+      LLM agents."
+    why_useful: "It enables natural-language mobile automation for workflows, UI
+      testing, remote assistance, and device exploration."
 curation:
   confidence: null
   evidence: []
@@ -38,33 +42,37 @@ id: "github:droidrun/mobilerun"
 import:
   github_snapshot:
     archived: false
-    created_at: "2025-04-12T22:03:47Z"
-    default_branch: "main"
-    description: "Automate your mobile devices with natural language commands - an LLM agnostic mobile Agent 🤖"
+    created_at: 2025-04-12T22:03:47Z
+    default_branch: main
+    description: Automate your mobile devices with natural language commands - an
+      LLM agnostic mobile Agent 🤖
     disabled: false
-    fetched_at: "2026-07-19T19:16:14.796Z"
+    fetched_at: 2026-11-22T12:07:00.148Z
     fork: false
-    forks: 943
-    homepage: "https://mobilerun.ai/framework"
-    latest_release: null
-    license_spdx: "MIT"
-    open_issues: 32
-    primary_language: "Python"
-    pushed_at: "2026-07-16T14:29:39Z"
-    stars: 8814
+    forks: 1100
+    homepage: https://mobilerun.ai/framework
+    latest_release:
+      tag: v0.7.4
+      published_at: 2026-10-27T09:06:12Z
+      url: https://github.com/droidrun/mobilerun/releases/tag/v0.7.4
+    license_spdx: MIT
+    open_issues: 37
+    primary_language: Python
+    pushed_at: 2026-11-18T06:52:32Z
+    stars: 10089
     topics:
-      - "ai-agents"
-      - "android"
-      - "android-automation"
-      - "hacktoberfest"
-      - "mobile-automation"
-    updated_at: "2026-07-19T17:55:54Z"
+      - ai-agents
+      - android
+      - android-automation
+      - hacktoberfest
+      - mobile-automation
+    updated_at: 2026-11-22T10:48:35Z
   sources:
-    - observed_at: "2026-07-19T16:18:24Z"
-      relation: "starred"
-      source_id: "github:user:tomseai:stars"
-      source_url: "https://github.com/tomseai?tab=stars"
-  state: "imported"
+    - observed_at: 2026-07-19T16:18:24Z
+      relation: starred
+      source_id: github:user:tomseai:stars
+      source_url: https://github.com/tomseai?tab=stars
+  state: refreshed
 repository:
   aliases: []
   github_node_id: "R_kgDOOYmDuw"

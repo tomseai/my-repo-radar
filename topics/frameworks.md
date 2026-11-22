@@ -2,17 +2,17 @@
 
 # Frameworks
 
-[Back to the main catalog](../README.md) | **18 repositories**
+[Back to the main catalog](../README.md) | **20 repositories**
 
 ## Primary categories represented
 
 - [AI and Automation](../categories/ai-and-automation.md) (3)
-- [Application Frameworks](../categories/application-frameworks.md) (8)
+- [Application Frameworks](../categories/application-frameworks.md) (9)
 - [Backend and APIs](../categories/backend-and-apis.md) (1)
 - [Developer Tools](../categories/developer-tools.md) (2)
 - [DevOps and Cloud](../categories/devops-and-cloud.md) (1)
 - [Documentation and Learning](../categories/documentation-and-learning.md) (2)
-- [Frontend and Design](../categories/frontend-and-design.md) (1)
+- [Frontend and Design](../categories/frontend-and-design.md) (2)
 
 <a id="repo-adonisjs--core"></a>
 
@@ -27,7 +27,7 @@ The TypeScript-first, full-stack MVC framework core for Node.js web applications
 - **Languages:** TypeScript, JavaScript
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 19,044
+- **GitHub stars:** 19,192
 
 **Key features**
 
@@ -39,20 +39,20 @@ The TypeScript-first, full-stack MVC framework core for Node.js web applications
 
 ## [OpenTUI](https://github.com/anomalyco/opentui)
 
-A native terminal UI library with a Zig core, C ABI, and TypeScript bindings; it offers component-based layout and rendering primitives plus React and Solid reconcilers for building terminal applications.
+A terminal UI library with a Zig core, C ABI, Rust and TypeScript interfaces, and React and Solid rendering layers.
 
 - **Category:** [Application Frameworks](../categories/application-frameworks.md#repo-anomalyco--opentui)
 - **Topics:** [Terminal](../topics/terminal.md#repo-anomalyco--opentui) | [TUI](../topics/tui.md#repo-anomalyco--opentui) | [Libraries](../topics/libraries.md#repo-anomalyco--opentui) | [UI Components](../topics/ui-components.md#repo-anomalyco--opentui) | [Frameworks](../topics/frameworks.md#repo-anomalyco--opentui)
 - **Kind:** Library
-- **Best for:** Developers building terminal applications from TypeScript or JavaScript; Teams wanting a native core with optional React or Solid rendering layers
-- **Languages:** Zig, TypeScript
+- **Best for:** Developers building terminal applications in TypeScript or Rust; Teams wanting a native core with optional React or Solid rendering layers
+- **Languages:** Zig, TypeScript, Rust
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 12,594
+- **GitHub stars:** 13,886
 
 **Key features**
 
-  - Native Zig core that exposes a C ABI and TypeScript bindings
+  - Native Zig core with a C ABI and TypeScript and Rust interfaces
   - Component-based architecture with flexible terminal layout capabilities
   - Core package with imperative APIs and terminal primitives
 
@@ -69,7 +69,7 @@ A moved monorepo of Angular build packages that integrate Rsbuild and Rspack, in
 - **Languages:** TypeScript, JavaScript
 - **License:** MIT
 - **Lifecycle:** Deprecated
-- **GitHub stars:** 111
+- **GitHub stars:** 109
 
 **Key features**
 
@@ -90,13 +90,34 @@ A TypeScript library and package monorepo for building type-safe, production-gra
 - **Languages:** TypeScript
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 14,938
+- **GitHub stars:** 17,650
 
 **Key features**
 
   - The primary effect package is presented as a TypeScript standard-library foundation for production software
   - A dedicated testing module is exported from the primary package
-  - Unstable primary-package exports cover AI, CLI, cluster, HTTP, observability, persistence, RPC, schema, SQL, workflow, and workers
+  - Primary-package exports cover AI, CLI, cluster, HTTP, observability, persistence, RPC, schema, SQL, workflow, and workers
+
+<a id="repo-encoredev--encore"></a>
+
+## [Encore](https://github.com/encoredev/encore)
+
+A Go and TypeScript backend framework with local infrastructure orchestration and an optional managed cloud deployment platform.
+
+- **Category:** [Application Frameworks](../categories/application-frameworks.md#repo-encoredev--encore)
+- **Topics:** [Backend Development](../topics/backend-development.md#repo-encoredev--encore) | [API Development](../topics/api-development.md#repo-encoredev--encore) | [Cloud](../topics/cloud.md#repo-encoredev--encore) | [Deployment](../topics/deployment.md#repo-encoredev--encore) | [Observability](../topics/observability.md#repo-encoredev--encore) | [Frameworks](../topics/frameworks.md#repo-encoredev--encore) | [CLI](../topics/cli.md#repo-encoredev--encore)
+- **Kind:** Framework
+- **Best for:** Teams building backend services with consistent local and cloud infrastructure
+- **Languages:** Go, TypeScript, Rust
+- **License:** MPL-2.0
+- **Lifecycle:** Active
+- **GitHub stars:** 12,733
+
+**Key features**
+
+  - Declare services, databases, messaging, storage, and other infrastructure in application code
+  - Run local infrastructure with a dashboard and distributed traces
+  - Provision and deploy to AWS or Google Cloud through the optional platform
 
 <a id="repo-fastify--fastify"></a>
 
@@ -111,13 +132,34 @@ A Node.js web framework for building HTTP servers and APIs with route schemas, s
 - **Languages:** JavaScript
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 36,758
+- **GitHub stars:** 37,453
 
 **Key features**
 
   - Route registration with synchronous or async handlers and a server listen API
   - Hooks, decorators, and encapsulated plugins for extending server behavior
   - JSON Schema-based route validation and response serialization
+
+<a id="repo-foldkit--foldkit"></a>
+
+## [Foldkit](https://github.com/foldkit/foldkit)
+
+A TypeScript frontend framework built on Effect and Elm-style architecture, with explicit models, updates, effects, routing, UI components, and deterministic testing.
+
+- **Category:** [Frontend and Design](../categories/frontend-and-design.md#repo-foldkit--foldkit)
+- **Topics:** [Frontend Development](../topics/frontend-development.md#repo-foldkit--foldkit) | [Frameworks](../topics/frameworks.md#repo-foldkit--foldkit) | [UI Components](../topics/ui-components.md#repo-foldkit--foldkit) | [Testing](../topics/testing.md#repo-foldkit--foldkit) | [MCP](../topics/mcp.md#repo-foldkit--foldkit) | [Developer Productivity](../topics/developer-productivity.md#repo-foldkit--foldkit)
+- **Kind:** Framework
+- **Best for:** Teams prioritizing explicit state transitions and testable frontend behavior; Effect users who want an Elm-like architecture with TypeScript tooling
+- **Languages:** TypeScript
+- **License:** MIT
+- **Lifecycle:** Experimental
+- **GitHub stars:** 1,302
+
+**Key features**
+
+  - Centralizes state in a model and pure update function without hooks or hidden mutation
+  - Represents commands, subscriptions, routing, and managed resources as explicit effects
+  - Includes accessible UI components, virtual DOM rendering, and React embedding
 
 <a id="repo-hakimel--reveal.js"></a>
 
@@ -132,7 +174,7 @@ An HTML presentation framework for authoring and presenting browser-based slide 
 - **Languages:** JavaScript, TypeScript, HTML, CSS
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 71,969
+- **GitHub stars:** 72,615
 
 **Key features**
 
@@ -153,7 +195,7 @@ A small TypeScript web framework built on Web Standards for defining HTTP applic
 - **Languages:** TypeScript
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 31,399
+- **GitHub stars:** 33,013
 
 **Key features**
 
@@ -174,7 +216,7 @@ A curated Markdown directory of open-source AI-agent tools and products, grouped
 - **Languages:** Unknown
 - **License:** unknown
 - **Lifecycle:** Active
-- **GitHub stars:** 2,637
+- **GitHub stars:** 3,014
 
 **Key features**
 
@@ -195,7 +237,7 @@ A curated reference directory for the LangChain ecosystem, covering the core fra
 - **Languages:** Unknown
 - **License:** CC0-1.0
 - **Lifecycle:** Active
-- **GitHub stars:** 9,461
+- **GitHub stars:** 9,601
 
 **Key features**
 
@@ -216,7 +258,7 @@ A TypeScript framework for assembling LLM-powered applications from interoperabl
 - **Languages:** TypeScript
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 17,964
+- **GitHub stars:** 18,357
 
 **Key features**
 
@@ -237,7 +279,7 @@ A low-level Python framework for building, managing, and deploying long-running 
 - **Languages:** Python
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 37,613
+- **GitHub stars:** 45,256
 
 **Key features**
 
@@ -258,7 +300,7 @@ A Python framework for building LLM applications through first-class agents and 
 - **Languages:** Python
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 4,077
+- **GitHub stars:** 4,153
 
 **Key features**
 
@@ -279,7 +321,7 @@ The core engine of an open-source family for creating native mobile and web user
 - **Languages:** C++, TypeScript, JavaScript
 - **License:** Apache-2.0
 - **Lifecycle:** Active
-- **GitHub stars:** 14,996
+- **GitHub stars:** 15,269
 
 **Key features**
 
@@ -300,7 +342,7 @@ A multi-language, code-first toolchain for defining, running, observing, and dep
 - **Languages:** C#, TypeScript
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 6,173
+- **GitHub stars:** 6,445
 
 **Key features**
 
@@ -321,7 +363,7 @@ A TypeScript reactive UI framework centered on JavaScript modules, tagged templa
 - **Languages:** TypeScript, JavaScript
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 3,706
+- **GitHub stars:** 3,783
 
 **Key features**
 
@@ -342,7 +384,7 @@ A type-safe application stack for building lightweight end-to-end Next.js applic
 - **Languages:** TypeScript
 - **License:** MIT
 - **Lifecycle:** Unknown
-- **GitHub stars:** 3,751
+- **GitHub stars:** 3,737
 
 **Key features**
 
@@ -354,7 +396,7 @@ A type-safe application stack for building lightweight end-to-end Next.js applic
 
 ## [vendure](https://github.com/vendurehq/vendure)
 
-A plugin-first, headless commerce platform with a TypeScript GraphQL backend, React admin dashboard, and extensible business logic.
+A plugin-first headless commerce platform for B2B and other storefronts, built around a TypeScript GraphQL backend and React admin dashboard.
 
 - **Category:** [Backend and APIs](../categories/backend-and-apis.md#repo-vendurehq--vendure)
 - **Topics:** [Ecommerce](../topics/ecommerce.md#repo-vendurehq--vendure) | [Payments](../topics/payments.md#repo-vendurehq--vendure) | [Open Source](../topics/open-source.md#repo-vendurehq--vendure) | [Backend Development](../topics/backend-development.md#repo-vendurehq--vendure) | [API Development](../topics/api-development.md#repo-vendurehq--vendure) | [Frameworks](../topics/frameworks.md#repo-vendurehq--vendure)
@@ -363,7 +405,7 @@ A plugin-first, headless commerce platform with a TypeScript GraphQL backend, Re
 - **Languages:** TypeScript
 - **License:** GPL-3.0-or-later
 - **Lifecycle:** Active
-- **GitHub stars:** 8,258
+- **GitHub stars:** 8,611
 
 **Key features**
 
@@ -384,7 +426,7 @@ A frontend development server and production build tool that provides fast itera
 - **Languages:** TypeScript
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 81,984
+- **GitHub stars:** 84,029
 
 **Key features**
 

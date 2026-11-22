@@ -15,15 +15,19 @@ analysis:
       - "improve-developer-workflow"
       - "build-ai-products"
   evidence:
-    - claim: "BMAD Method is an open-source AI-driven agile-development framework with structured workflows, specialized agent roles, collaboration mode, and a lifecycle from brainstorming through deployment."
+    - claim: "BMAD Method is an open-source AI-driven agile-development framework with
+        structured workflows, specialized agent roles, collaboration mode, and a
+        lifecycle from brainstorming through deployment."
       source_type: "repository-file"
       url: "https://github.com/bmad-code-org/BMAD-METHOD/blob/main/README.md"
       checked_at: "2026-07-19"
       confidence: "high"
   state: "researched"
   summary:
-    one_line: "An AI-driven agile-development framework of structured workflows and specialized agent roles."
-    why_useful: "It guides teams through planning, architecture, implementation, and deployment with scale-adaptive agent workflows."
+    one_line: "An AI-driven agile-development framework of structured workflows and
+      specialized agent roles."
+    why_useful: "It guides teams through planning, architecture, implementation, and
+      deployment with scale-adaptive agent workflows."
 curation:
   confidence: null
   evidence: []
@@ -37,28 +41,36 @@ id: "github:bmad-code-org/BMAD-METHOD"
 import:
   github_snapshot:
     archived: false
-    created_at: "2025-04-13T14:54:25Z"
-    default_branch: "main"
-    description: "Breakthrough Method for Agile Ai Driven Development"
+    created_at: 2025-04-13T14:54:25Z
+    default_branch: main
+    description: Breakthrough Method for Agile Ai Driven Development
     disabled: false
-    fetched_at: "2026-07-19T19:16:14.796Z"
+    fetched_at: 2026-11-22T12:07:00.148Z
     fork: false
-    forks: 5839
-    homepage: null
-    latest_release: null
-    license_spdx: "NOASSERTION"
-    open_issues: 97
-    primary_language: "JavaScript"
-    pushed_at: "2026-07-19T04:49:22Z"
-    stars: 50816
-    topics: []
-    updated_at: "2026-07-19T19:14:01Z"
+    forks: 6204
+    homepage: ""
+    latest_release:
+      tag: v6.12.4
+      published_at: 2026-10-14T21:19:19Z
+      url: https://github.com/bmad-code-org/BMAD-METHOD/releases/tag/v6.12.4
+    license_spdx: NOASSERTION
+    open_issues: 111
+    primary_language: Python
+    pushed_at: 2026-11-22T04:58:46Z
+    stars: 55620
+    topics:
+      - agile
+      - ai
+      - context-engineering
+      - sdlc
+      - spec-driven-development
+    updated_at: 2026-11-22T11:58:36Z
   sources:
-    - observed_at: "2026-02-13T12:02:19Z"
-      relation: "starred"
-      source_id: "github:user:tomseai:stars"
-      source_url: "https://github.com/tomseai?tab=stars"
-  state: "imported"
+    - observed_at: 2026-02-13T12:02:19Z
+      relation: starred
+      source_id: github:user:tomseai:stars
+      source_url: https://github.com/tomseai?tab=stars
+  state: refreshed
 repository:
   aliases: []
   github_node_id: "R_kgDOOY4eVg"

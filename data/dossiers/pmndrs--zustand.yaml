@@ -2,9 +2,9 @@ schema_version: 2
 repository_id: github:pmndrs/zustand
 research:
   state: complete
-  source_commit: beca84e600e4e250f6b244d22878e72948f331c7
-  bundle_collected_at: 2026-07-19T20:45:00.631Z
-  researched_at: 2026-07-20T16:05:00Z
+  source_commit: 9fed2eb2f3af672da9f7bf694b996df3831fc207
+  bundle_collected_at: 2026-11-22T12:10:19.272Z
+  researched_at: 2026-11-22T12:25:07.102Z
   confidence: high
 classification:
   primary_category: application-frameworks
@@ -25,7 +25,8 @@ key_features:
   - Creates stores as hooks that expose state and actions to React components
   - Re-renders consuming components when their selected state changes
   - Supports vanilla stores outside React through createStore and useStore
-  - Includes middleware for persistence, Immer integration, subscriptions, and Redux DevTools
+  - Includes middleware for persistence, Immer integration, subscriptions, and
+    Redux DevTools
 usage:
   interfaces:
     - React hooks
@@ -47,20 +48,26 @@ license:
 status:
   lifecycle: active
   archived: false
-  latest_release: v5.0.14
-  latest_release_at: "2026-05-28"
+  latest_release: v5.1.0
+  latest_release_at: "2026-11-06"
 strengths:
-  - Keeps the common React store pattern concise without mandatory context providers
+  - Keeps the common React store pattern concise without mandatory context
+    providers
   - Supports use outside React through a separate vanilla store entry point
   - Documents persistence, selector subscriptions, Immer, and DevTools middleware
 caveats:
-  - State updates must be immutable; the library only shallowly merges state at the top level
+  - State updates must be immutable; the library only shallowly merges state at
+    the top level
   - Replacing state with the set function can also remove store actions
-  - The README cautions against adding state through the store API in React Server Components because of unexpected bugs and privacy issues
+  - Persisted stores using asynchronous storage can finish hydration after
+    the first render. Code that relies on restored state should wait for hydration.
+  - The README cautions against adding state through the store API in React
+    Server Components because of unexpected bugs and privacy issues
 sources:
-  - https://raw.githubusercontent.com/pmndrs/zustand/beca84e600e4e250f6b244d22878e72948f331c7/README.md
-  - https://raw.githubusercontent.com/pmndrs/zustand/beca84e600e4e250f6b244d22878e72948f331c7/LICENSE
-  - https://raw.githubusercontent.com/pmndrs/zustand/beca84e600e4e250f6b244d22878e72948f331c7/package.json
-  - https://raw.githubusercontent.com/pmndrs/zustand/beca84e600e4e250f6b244d22878e72948f331c7/docs/learn/getting-started/introduction.md
-  - https://raw.githubusercontent.com/pmndrs/zustand/beca84e600e4e250f6b244d22878e72948f331c7/docs/reference/integrations/persisting-store-data.md
+  - https://raw.githubusercontent.com/pmndrs/zustand/9fed2eb2f3af672da9f7bf694b996df3831fc207/README.md
+  - https://raw.githubusercontent.com/pmndrs/zustand/9fed2eb2f3af672da9f7bf694b996df3831fc207/LICENSE
+  - https://raw.githubusercontent.com/pmndrs/zustand/9fed2eb2f3af672da9f7bf694b996df3831fc207/package.json
+  - https://raw.githubusercontent.com/pmndrs/zustand/9fed2eb2f3af672da9f7bf694b996df3831fc207/docs/learn/getting-started/introduction.md
+  - https://raw.githubusercontent.com/pmndrs/zustand/9fed2eb2f3af672da9f7bf694b996df3831fc207/docs/reference/integrations/persisting-store-data.md
   - https://github.com/pmndrs/zustand/releases.atom
+  - https://github.com/pmndrs/zustand/releases/tag/v5.1.0

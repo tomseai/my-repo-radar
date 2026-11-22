@@ -1,0 +1,96 @@
+schema_version: 2
+repository_id: github:levi-qiao/longgraph-skill
+research:
+  state: complete
+  source_commit: 3e26e19b91e62dba63c0ab53ad5ba8a670403abb
+  bundle_collected_at: 2026-11-22T12:09:44.903Z
+  researched_at: 2026-11-22T12:18:43.417Z
+  confidence: high
+classification:
+  primary_category: ai-and-automation
+  topics:
+    - ai-agents
+    - agent-skills
+    - agent-orchestration
+    - multi-agent
+    - parallel-agents
+    - agent-governance
+    - task-planning
+    - spec-driven-development
+    - context-engineering
+    - prompt-engineering
+    - automation
+project:
+  name: longgraph
+  kind: plugin
+  summary: >-
+    A portable Markdown skill and prompt library that compiles durable
+    executor-supervisor graphs for long-running agent work, with file-backed
+    progress, independent verification, and host-switchable continuation.
+  best_for:
+    - Multi-hour or multi-milestone agent tasks that outlive one context window
+    - Teams needing a durable task queue, independent verification, and explicit
+      acceptance gates
+key_features:
+  - Stores the task queue and progress in a single-writer ledger outside chat
+    history
+  - Separates execution from clean-context supervision through a one-way
+    directive edge
+  - Compiles focused delivery, convergence, research, or custom graph runs
+  - Supports unrelated long tasks in one loop while completing one verifiable
+    item per round
+  - Continues across Claude Code, Codex, Cursor, Grok Build, or shell hosts
+    using the same files
+usage:
+  interfaces:
+    - agent skills and prompt library
+    - Claude Code plugin
+    - frozen executor and supervisor prompts
+  installation:
+    - Claude Code plugin marketplace
+    - shell installer for Codex, Cursor, or Grok Build
+    - local repository checkout
+  setup: moderate
+technology:
+  languages:
+    - Markdown
+    - Shell
+  notable_components:
+    - durable ledger and directives files
+    - executor, supervisor, and optional scout roles
+    - loop-deliver, loop-converge, and loop-research presets
+    - per-host compatibility references
+license:
+  spdx: MIT
+  name: MIT License
+  notes: Permissive license requiring preservation of the copyright and license
+    notice.
+status:
+  lifecycle: active
+  archived: false
+  latest_release: v0.2.3
+  latest_release_at: 2026-08-02
+strengths:
+  - Keeps progress inspectable and recoverable without relying on one
+    conversation context
+  - Gives verification to a separate context instead of letting the executor
+    grade itself
+  - Uses files and prompts rather than binding the workflow to one orchestration
+    runtime
+caveats:
+  - It is a methodology and prompt library, not a runtime, scheduler, or agent
+    server
+  - Host capabilities and invocation syntax differ; Cursor, Grok Build, and
+    shell modes require prompts-only execution
+  - The public self-iteration duration measures project wall-clock time, not
+    continuous unattended model execution
+  - One showcased multi-day pattern is intentionally redacted and cannot be
+    independently checked against private Git history
+  - The ledger and supervisor overhead is unnecessary for small tasks that fit
+    one clean session
+sources:
+  - https://raw.githubusercontent.com/levi-qiao/longgraph-skill/3e26e19b91e62dba63c0ab53ad5ba8a670403abb/README.md
+  - https://raw.githubusercontent.com/levi-qiao/longgraph-skill/3e26e19b91e62dba63c0ab53ad5ba8a670403abb/docs/public-private-boundary.md
+  - https://raw.githubusercontent.com/levi-qiao/longgraph-skill/3e26e19b91e62dba63c0ab53ad5ba8a670403abb/install.sh
+  - https://raw.githubusercontent.com/levi-qiao/longgraph-skill/3e26e19b91e62dba63c0ab53ad5ba8a670403abb/LICENSE
+  - https://github.com/levi-qiao/longgraph-skill/releases.atom

@@ -2,9 +2,9 @@ schema_version: 2
 repository_id: github:generalaction/emdash
 research:
   state: complete
-  source_commit: c1af543f17241769c5cce29ab66cd47442d9d593
-  bundle_collected_at: 2026-07-19T20:43:01.742Z
-  researched_at: 2026-07-20T15:23:49.960Z
+  source_commit: ae7df31237e3d615a357469800ff6d158dfd11cd
+  bundle_collected_at: 2026-11-22T12:09:33.062Z
+  researched_at: 2026-11-22T12:23:53.779Z
   confidence: high
 classification:
   primary_category: ai-and-automation
@@ -19,14 +19,15 @@ classification:
     - desktop-app
     - remote-control
 project:
-  name: emdash
+  name: Emdash Classic
   kind: application
-  summary: >-
-    A local-first desktop environment for running AI coding agents in parallel
+  summary: A local-first desktop environment for running AI coding agents in parallel
     in isolated Git worktrees, then reviewing and integrating their changes.
   best_for:
-    - Developers managing several coding-agent tasks across local or SSH-connected projects
-    - Teams that want ticket intake, change review, and pull-request workflows in one desktop app
+    - Developers managing several coding-agent tasks across local or SSH-connected
+      projects
+    - Teams that want ticket intake, change review, and pull-request workflows in one
+      desktop app
 key_features:
   - Run several coding agents concurrently without manually managing terminals
   - Isolate each task in its own Git worktree and branch
@@ -43,7 +44,7 @@ usage:
     - Homebrew cask
     - macOS disk image
     - Windows installer or portable executable
-    - Linux AppImage or Debian package
+    - Linux AppImage, DEB, or RPM
   setup: moderate
 technology:
   languages:
@@ -60,20 +61,26 @@ license:
 status:
   lifecycle: active
   archived: false
-  latest_release: v1.1.40
-  latest_release_at: 2026-07-17
+  latest_release: v1.2.13
+  latest_release_at: 2026-11-19
 strengths:
   - Keeps concurrent agent work isolated with Git worktrees
-  - Consolidates task intake, review, pull requests, and CI status in a desktop workflow
+  - Consolidates task intake, review, pull requests, and CI status in a desktop
+    workflow
   - Can operate locally or against user-controlled machines over SSH
 caveats:
-  - It relies on separately installed coding-agent CLIs and their provider accounts or configuration
-  - Connected agent providers may receive code, prompts, and context under their own data-handling policies
+  - It relies on separately installed coding-agent CLIs and their provider accounts
+    or configuration
+  - Connected agent providers may receive code, prompts, and context under their own
+    data-handling policies
   - Remote-project use requires SSH/SFTP access and authentication setup
+  - For supported agent CLIs, the app adds marked lifecycle hooks to the user’s agent
+    configuration
 sources:
-  - https://raw.githubusercontent.com/generalaction/emdash/c1af543f17241769c5cce29ab66cd47442d9d593/README.md
-  - https://raw.githubusercontent.com/generalaction/emdash/c1af543f17241769c5cce29ab66cd47442d9d593/LICENSE.md
-  - https://raw.githubusercontent.com/generalaction/emdash/c1af543f17241769c5cce29ab66cd47442d9d593/package.json
-  - https://raw.githubusercontent.com/generalaction/emdash/c1af543f17241769c5cce29ab66cd47442d9d593/CONTRIBUTING.md
-  - https://raw.githubusercontent.com/generalaction/emdash/c1af543f17241769c5cce29ab66cd47442d9d593/apps/emdash-desktop/package.json
+  - https://raw.githubusercontent.com/generalaction/emdash/ae7df31237e3d615a357469800ff6d158dfd11cd/README.md
+  - https://raw.githubusercontent.com/generalaction/emdash/ae7df31237e3d615a357469800ff6d158dfd11cd/LICENSE.md
+  - https://raw.githubusercontent.com/generalaction/emdash/ae7df31237e3d615a357469800ff6d158dfd11cd/package.json
+  - https://raw.githubusercontent.com/generalaction/emdash/ae7df31237e3d615a357469800ff6d158dfd11cd/CONTRIBUTING.md
+  - https://raw.githubusercontent.com/generalaction/emdash/ae7df31237e3d615a357469800ff6d158dfd11cd/apps/emdash-desktop/package.json
   - https://github.com/generalaction/emdash/releases.atom
+  - https://github.com/generalaction/emdash/releases/tag/v1.2.13

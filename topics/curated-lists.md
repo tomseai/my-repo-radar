@@ -22,34 +22,13 @@ A large, hand-picked Markdown directory of generative-AI applications, organized
 - **Languages:** Markdown, HTML
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 9,071
+- **GitHub stars:** 9,289
 
 **Key features**
 
   - Categorized index covering agents, agentic coding, coding assistants, chatbots, automation, and many non-development uses
   - Recently added section alongside a category index and individual application entries
   - Links to an associated AI Collection website for application details and pricing information
-
-<a id="repo-ai-for-developers--awesome-vibe-coding"></a>
-
-## [Awesome Vibe Coding](https://github.com/ai-for-developers/awesome-vibe-coding)
-
-A hand-picked directory of tools and references for AI-assisted software development through prompting, iteration, and exploration, spanning builders, IDEs, agents, plugins, command-line tools, and reading.
-
-- **Category:** [Documentation and Learning](../categories/documentation-and-learning.md#repo-ai-for-developers--awesome-vibe-coding)
-- **Topics:** [Curated Lists](../topics/curated-lists.md#repo-ai-for-developers--awesome-vibe-coding) | [Coding Agents](../topics/coding-agents.md#repo-ai-for-developers--awesome-vibe-coding) | [Code Generation](../topics/code-generation.md#repo-ai-for-developers--awesome-vibe-coding) | [Prompt Engineering](../topics/prompt-engineering.md#repo-ai-for-developers--awesome-vibe-coding) | [Developer Productivity](../topics/developer-productivity.md#repo-ai-for-developers--awesome-vibe-coding) | [Reference](../topics/reference.md#repo-ai-for-developers--awesome-vibe-coding)
-- **Kind:** Curated List
-- **Best for:** Comparing categories of AI-assisted development tools before choosing one; Finding articles, task-management tools, and documentation for prompt-driven development workflows
-- **Languages:** Markdown
-- **License:** CC0-1.0
-- **Lifecycle:** Active
-- **GitHub stars:** 788
-
-**Key features**
-
-  - Separate sections for web builders, IDEs, mobile tools, extensions, local apps, and command-line tools
-  - Listings for agentic task management, monitoring and cost tracking, project documentation, and articles
-  - Direct official-site or repository links with concise descriptions for each resource
 
 <a id="repo-arindam200--awesome-ai-apps"></a>
 
@@ -64,7 +43,7 @@ A categorized collection of independently runnable AI application examples and t
 - **Languages:** Python, JavaScript
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 13,208
+- **GitHub stars:** 16,774
 
 **Key features**
 
@@ -85,7 +64,7 @@ A repository-organized reference collection of extracted and published system pr
 - **Languages:** Markdown
 - **License:** CC0-1.0
 - **Lifecycle:** Active
-- **GitHub stars:** 59,037
+- **GitHub stars:** 72,369
 
 **Key features**
 
@@ -106,13 +85,34 @@ A learning-resource collection for low-level and object-oriented design, combini
 - **Languages:** Java, JavaScript, Go, Rust, TypeScript
 - **License:** GPL-3.0
 - **Lifecycle:** Active
-- **GitHub stars:** 25,455
+- **GitHub stars:** 28,211
 
 **Key features**
 
   - Linked coverage of OOP fundamentals, class relationships, and DRY, YAGNI, KISS, and SOLID principles
   - Creational, structural, and behavioral design-pattern references
   - UML references plus class diagrams for many interview-style systems
+
+<a id="repo-awesome-vibe-coding--awesome-vibe-coding"></a>
+
+## [Awesome Vibe Coding](https://github.com/awesome-vibe-coding/awesome-vibe-coding)
+
+A hand-picked directory of tools and references for AI-assisted software development, spanning builders, editors, agents, plugins, CLI tools, and reading.
+
+- **Category:** [Documentation and Learning](../categories/documentation-and-learning.md#repo-awesome-vibe-coding--awesome-vibe-coding)
+- **Topics:** [Curated Lists](../topics/curated-lists.md#repo-awesome-vibe-coding--awesome-vibe-coding) | [Coding Agents](../topics/coding-agents.md#repo-awesome-vibe-coding--awesome-vibe-coding) | [Code Generation](../topics/code-generation.md#repo-awesome-vibe-coding--awesome-vibe-coding) | [Prompt Engineering](../topics/prompt-engineering.md#repo-awesome-vibe-coding--awesome-vibe-coding) | [Developer Productivity](../topics/developer-productivity.md#repo-awesome-vibe-coding--awesome-vibe-coding) | [Reference](../topics/reference.md#repo-awesome-vibe-coding--awesome-vibe-coding)
+- **Kind:** Curated List
+- **Best for:** Comparing categories of AI-assisted development tools before choosing one; Finding references and supporting tools for prompt-driven development workflows
+- **Languages:** Markdown
+- **License:** CC0-1.0
+- **Lifecycle:** Active
+- **GitHub stars:** 899
+
+**Key features**
+
+  - Groups web builders, IDEs, mobile tools, extensions, local apps, and CLI tools
+  - Includes agentic task management, monitoring, documentation, and articles
+  - Links directly to official sites or repositories with concise descriptions
 
 <a id="repo-best-of-ai--ai-directories"></a>
 
@@ -127,7 +127,7 @@ A Markdown directory of third-party AI-product directories, intended to help AI 
 - **Languages:** Markdown
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 854
+- **GitHub stars:** 902
 
 **Key features**
 
@@ -148,11 +148,11 @@ A community-maintained directory and companion website that organizes AI tools b
 - **Languages:** HTML, Python
 - **License:** Repository-wide license not established
 - **Lifecycle:** Active
-- **GitHub stars:** 664
+- **GitHub stars:** 775
 
 **Key features**
 
-  - A generated Markdown index of AI tools grouped into numerous categories
+  - Generated Markdown indexes in multiple languages, with AI tools grouped by category
   - A leaderboard and category listings that link to individual review pages on the companion website
   - Role-oriented tool collections for professionals such as developers, designers, and marketers
 
@@ -169,7 +169,7 @@ A compact interview-preparation guide that combines a suggested design discussio
 - **Languages:** Markdown
 - **License:** No license file found in retained source bundle
 - **Lifecycle:** Unknown
-- **GitHub stars:** 23,371
+- **GitHub stars:** 23,896
 
 **Key features**
 
@@ -190,7 +190,7 @@ A Markdown index of external, step-by-step guides for recreating software techno
 - **Languages:** Markdown
 - **License:** CC0-1.0
 - **Lifecycle:** Active
-- **GitHub stars:** 528,829
+- **GitHub stars:** 564,608
 
 **Key features**
 
@@ -211,7 +211,7 @@ A curated collection of in-repository and external Codex skill references, with 
 - **Languages:** Python
 - **License:** Repository-wide license not established
 - **Lifecycle:** Active
-- **GitHub stars:** 15,128
+- **GitHub stars:** 17,387
 
 **Key features**
 
@@ -232,7 +232,7 @@ A Markdown guide and repository collection that examines captured system prompts
 - **Languages:** Markdown
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 6,084
+- **GitHub stars:** 6,300
 
 **Key features**
 
@@ -253,7 +253,7 @@ A curated, topic-organized reading list of accessible papers for software engine
 - **Languages:** Markdown, Python
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 6,548
+- **GitHub stars:** 6,636
 
 **Key features**
 
@@ -274,7 +274,7 @@ A curated directory of research, code, tools, courses, data sources, and trading
 - **Languages:** Markdown
 - **License:** CC0-1.0
 - **Lifecycle:** Active
-- **GitHub stars:** 6,262
+- **GitHub stars:** 6,781
 
 **Key features**
 
@@ -295,7 +295,7 @@ A community-created collection of GitHub Copilot agents, instructions, skills, h
 - **Languages:** Unknown
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 36,773
+- **GitHub stars:** 41,437
 
 **Key features**
 
@@ -316,7 +316,7 @@ A community-maintained Markdown collection of tested real-world OpenClaw use cas
 - **Languages:** Markdown
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 31,528
+- **GitHub stars:** 31,635
 
 **Key features**
 
@@ -337,12 +337,12 @@ A maintained Markdown directory of Claude Code learning resources, extensions, a
 - **Languages:** Python, Markdown
 - **License:** CC-BY-NC-ND-4.0
 - **Lifecycle:** Active
-- **GitHub stars:** 50,415
+- **GitHub stars:** 58,565
 
 **Key features**
 
   - Curates a start-here section and an official-resource section alongside third-party projects
-  - Categorizes entries across documentation, research, providers, remote control, clients, status lines, design, writing, media, DevOps, and security
+  - Categorizes resources by workflow, including agent orchestration, testing, development lifecycle, configuration, design, and security
   - Includes dedicated sections for multi-agent orchestration, skills, memory and context persistence, observability, and linting
 
 <a id="repo-ikaijua--awesome-aitools"></a>
@@ -356,15 +356,15 @@ A bilingual Markdown directory of AI tools and resources, organized across chatb
 - **Kind:** Curated List
 - **Best for:** Finding a broad starting set of AI products, projects, and resources; Browsing AI-agent and AI-coding entries alongside topic-specific guides
 - **Languages:** Unknown
-- **License:** No license detected
+- **License:** CC-BY-4.0
 - **Lifecycle:** Active
-- **GitHub stars:** 6,093
+- **GitHub stars:** 6,374
 
 **Key features**
 
   - Groups entries into many topic sections, including AI chatbots, open-source LLMs, AI agents, agent skills, and AI coding
   - Provides English and Chinese top-level READMEs
-  - Links selected agent and tool entries to dedicated Markdown introduction pages
+  - Includes a maintained changelog that records additions, removals, renames, and category changes
 
 <a id="repo-jamesmurdza--awesome-ai-devtools"></a>
 
@@ -379,7 +379,7 @@ A GitHub-curated reference of AI-powered developer tools, organized by developme
 - **Languages:** Markdown, YAML
 - **License:** No license file or SPDX identifier found in the retained source bundle
 - **Lifecycle:** Active
-- **GitHub stars:** 3,892
+- **GitHub stars:** 3,999
 
 **Key features**
 
@@ -400,7 +400,7 @@ A large, community-contributed Markdown hub for finding, learning about, and bui
 - **Languages:** Markdown
 - **License:** Apache-2.0
 - **Lifecycle:** Active
-- **GitHub stars:** 1,889
+- **GitHub stars:** 2,030
 
 **Key features**
 
@@ -421,7 +421,7 @@ A curated Markdown directory of open-source AI-agent tools and products, grouped
 - **Languages:** Unknown
 - **License:** unknown
 - **Lifecycle:** Active
-- **GitHub stars:** 2,637
+- **GitHub stars:** 3,014
 
 **Key features**
 
@@ -442,7 +442,7 @@ A curated reference directory for the LangChain ecosystem, covering the core fra
 - **Languages:** Unknown
 - **License:** CC0-1.0
 - **Lifecycle:** Active
-- **GitHub stars:** 9,461
+- **GitHub stars:** 9,601
 
 **Key features**
 
@@ -463,7 +463,7 @@ A Markdown directory of AI products and learning resources, grouped around text,
 - **Languages:** Markdown
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 5,687
+- **GitHub stars:** 6,617
 
 **Key features**
 
@@ -484,7 +484,7 @@ A curated, traceable catalogue of reusable patterns for designing and operating 
 - **Languages:** TypeScript, Markdown
 - **License:** Apache-2.0
 - **Lifecycle:** Active
-- **GitHub stars:** 4,815
+- **GitHub stars:** 5,089
 
 **Key features**
 
@@ -505,7 +505,7 @@ A curated collection of Markdown-based Cursor Project Rules (`.mdc`) that provid
 - **Languages:** JavaScript, Markdown
 - **License:** CC0-1.0
 - **Lifecycle:** Active
-- **GitHub stars:** 40,363
+- **GitHub stars:** 41,181
 
 **Key features**
 
@@ -526,7 +526,7 @@ A curated Markdown directory of applications, extensions, command-line tools, ch
 - **Languages:** Markdown
 - **License:** No license declared
 - **Lifecycle:** Unknown
-- **GitHub stars:** 6,386
+- **GitHub stars:** 6,450
 
 **Key features**
 
@@ -547,13 +547,13 @@ An Apache-2.0 collection of 100-plus runnable AI-agent, agent-skill, RAG, genera
 - **Languages:** Python, TypeScript
 - **License:** Apache-2.0
 - **Lifecycle:** Active
-- **GitHub stars:** 124,468
+- **GitHub stars:** 145,366
 
 **Key features**
 
   - Agent skills installable through skills.sh and intended for Claude Code, Codex, Cursor, and compatible agents
   - Starter agents designed as small API-key-driven examples alongside more advanced tool- and memory-oriented agents
-  - Multi-agent, voice, always-on, and autonomous-game agent categories
+  - Multi-agent, voice, always-on, autonomous-game, and standalone tool categories
 
 <a id="repo-sindresorhus--awesome"></a>
 
@@ -568,7 +568,7 @@ A curated, categorized index of Awesome lists that links to resource collections
 - **Languages:** Markdown
 - **License:** CC0-1.0
 - **Lifecycle:** Active
-- **GitHub stars:** 486,702
+- **GitHub stars:** 540,795
 
 **Key features**
 
@@ -588,8 +588,8 @@ A large, hand-curated README index of resources for adding visual flair, usabili
 - **Best for:** Designers and frontend developers collecting interface and visual-design references; Product teams looking for inspiration or a starting point for specific UI details
 - **Languages:** Markdown
 - **License:** MIT
-- **Lifecycle:** Active
-- **GitHub stars:** 9,786
+- **Lifecycle:** Archived
+- **GitHub stars:** 9,775
 
 **Key features**
 
@@ -610,7 +610,7 @@ A curated reference to official and community Claude Skills, skill-authoring gui
 - **Languages:** Unknown
 - **License:** NOASSERTION
 - **Lifecycle:** Active
-- **GitHub stars:** 14,204
+- **GitHub stars:** 15,904
 
 **Key features**
 
@@ -631,7 +631,7 @@ A broad technical reference of tools, manuals, cheatsheets, links, and shell exa
 - **Languages:** Unknown
 - **License:** MIT
 - **Lifecycle:** Maintenance
-- **GitHub stars:** 234,100
+- **GitHub stars:** 260,417
 
 **Key features**
 
@@ -652,7 +652,7 @@ A file collection of system prompts, tool descriptions, and model-related artifa
 - **Languages:** Unknown
 - **License:** GPL-3.0-only
 - **Lifecycle:** Active
-- **GitHub stars:** 142,077
+- **GitHub stars:** 144,810
 
 **Key features**
 
@@ -673,7 +673,7 @@ A curated README-based collection of AI reading links, books, papers, research o
 - **Languages:** Jupyter Notebook
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 1,756
+- **GitHub stars:** 1,842
 
 **Key features**
 

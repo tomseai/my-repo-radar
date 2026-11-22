@@ -2,9 +2,9 @@ schema_version: 2
 repository_id: github:microsoft/OmniParser
 research:
   state: complete
-  source_commit: b0d5c9f5701f7e2be4771872e6e928da77759df3
-  bundle_collected_at: 2026-07-19T20:44:08.241Z
-  researched_at: 2026-07-20T15:30:00.000Z
+  source_commit: 354021201345a96178360b28733573e27269f2de
+  bundle_collected_at: 2026-11-22T12:09:54.638Z
+  researched_at: 2026-11-22T12:23:16.621569+00:00
   confidence: medium
 
 classification:
@@ -21,20 +21,27 @@ project:
   name: OmniParser
   kind: other
   summary: >-
-    A Python-based screen-parsing project that turns UI screenshots into structured,
-    understandable elements for vision-based GUI agents, with demos, model checkpoints,
-    and OmniTool support for controlling a Windows 11 virtual machine.
+    A Python-based screen-parsing project that turns UI screenshots into
+    structured, understandable elements for vision-based GUI agents, with demos,
+    model checkpoints, and OmniTool support for controlling a Windows 11 virtual
+    machine.
   best_for:
-    - Researchers and developers building vision-based GUI-agent or computer-use workflows
-    - Experimenting with screenshot grounding before integrating a chosen vision model or agent
+    - Researchers and developers building vision-based GUI-agent or computer-use
+      workflows
+    - Experimenting with screenshot grounding before integrating a chosen vision
+      model or agent
 
 key_features:
-  - Detects and describes screen elements to make GUI screenshots easier for vision models to ground
+  - Detects and describes screen elements to make GUI screenshots easier for
+    vision models to ground
   - Provides version 2 model checkpoint instructions and a Gradio demonstration
   - Includes notebooks with simple examples
-  - Includes OmniTool for controlling a Windows 11 VM with OmniParser and a supported vision model
-  - Supports several named vision-model providers in OmniTool, including OpenAI, DeepSeek, Qwen, and Anthropic
-  - Includes an evaluation setup adapted for the ScreenSpot Pro GUI-grounding benchmark
+  - Includes OmniTool for controlling a Windows 11 VM with OmniParser and a
+    supported vision model
+  - Supports several named vision-model providers in OmniTool, including OpenAI,
+    DeepSeek, Qwen, and Anthropic
+  - Includes an evaluation setup adapted for the ScreenSpot Pro GUI-grounding
+    benchmark
 
 usage:
   interfaces:
@@ -63,7 +70,8 @@ technology:
 license:
   spdx: CC-BY-4.0
   name: Creative Commons Attribution 4.0 International
-  notes: The repository LICENSE requires attribution and change indication when sharing; it does not license patent or trademark rights.
+  notes: The repository LICENSE requires attribution and change indication when
+    sharing; it does not license patent or trademark rights.
 
 status:
   lifecycle: active
@@ -72,19 +80,28 @@ status:
   latest_release_at: 2025-09-12
 
 strengths:
-  - Focuses on structured visual grounding, a core need for screenshot-driven GUI agents
-  - Offers runnable demos, examples, checkpoint instructions, and an optional Windows VM control path
-  - Includes evaluation material and integration points for several vision-model providers
+  - Focuses on structured visual grounding, a core need for screenshot-driven
+    GUI agents
+  - Offers runnable demos, examples, checkpoint instructions, and an optional
+    Windows VM control path
+  - Includes evaluation material and integration points for several vision-model
+    providers
 
 caveats:
-  - Setup needs a Conda Python environment, substantial dependencies, and manually downloaded model checkpoints
-  - The repository LICENSE is CC-BY-4.0 while the README badge says MIT, so reuse should follow the actual LICENSE and be reviewed
-  - "Checkpoint licenses differ: the README identifies the icon-detection model as AGPL and the caption models as MIT"
-  - OmniTool and third-party vision models can require external services, credentials, or suitable virtual-machine infrastructure
+  - Setup needs a Conda Python environment, substantial dependencies, and
+    manually downloaded model checkpoints
+  - The repository LICENSE is CC-BY-4.0 while the README badge says MIT, so
+    reuse should follow the actual LICENSE and be reviewed
+  - >-
+    Checkpoint licenses differ: the current YOLOv9 detector is MIT-based, earlier
+    Ultralytics detectors are AGPL, and caption models are MIT; current weights
+    are distributed through a Hugging Face pull request
+  - OmniTool and third-party vision models can require external services,
+    credentials, or suitable virtual-machine infrastructure
 
 sources:
-  - https://raw.githubusercontent.com/microsoft/OmniParser/b0d5c9f5701f7e2be4771872e6e928da77759df3/README.md
-  - https://raw.githubusercontent.com/microsoft/OmniParser/b0d5c9f5701f7e2be4771872e6e928da77759df3/LICENSE
-  - https://raw.githubusercontent.com/microsoft/OmniParser/b0d5c9f5701f7e2be4771872e6e928da77759df3/requirements.txt
-  - https://raw.githubusercontent.com/microsoft/OmniParser/b0d5c9f5701f7e2be4771872e6e928da77759df3/docs/Evaluation.md
+  - https://raw.githubusercontent.com/microsoft/OmniParser/354021201345a96178360b28733573e27269f2de/README.md
+  - https://raw.githubusercontent.com/microsoft/OmniParser/354021201345a96178360b28733573e27269f2de/LICENSE
+  - https://raw.githubusercontent.com/microsoft/OmniParser/354021201345a96178360b28733573e27269f2de/requirements.txt
+  - https://raw.githubusercontent.com/microsoft/OmniParser/354021201345a96178360b28733573e27269f2de/docs/Evaluation.md
   - https://github.com/microsoft/OmniParser/releases.atom

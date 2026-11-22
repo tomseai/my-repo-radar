@@ -1,13 +1,11 @@
 schema_version: 2
 repository_id: github:oxc-project/oxc
-
 research:
   state: complete
-  source_commit: 75ce81de95443130d7af966c6cb98f7c1f432b5c
-  bundle_collected_at: 2026-07-19T20:44:48.029Z
-  researched_at: 2026-07-20T17:30:00.000Z
+  source_commit: a96e2bdf600481ef009bd8297bc4da0b419bb130
+  bundle_collected_at: 2026-11-22T12:10:12.747Z
+  researched_at: 2026-11-22T12:24:40.680Z
   confidence: high
-
 classification:
   primary_category: developer-tools
   topics:
@@ -17,24 +15,26 @@ classification:
     - developer-productivity
     - libraries
     - open-source
-
 project:
   name: Oxc
   kind: monorepo
-  summary: >-
-    A Rust workspace for high-performance JavaScript and TypeScript tooling. It provides
-    parser, transformer, minifier, resolver, semantic-analysis, and linting components,
-    alongside the Oxlint linter and Oxfmt formatter command-line applications.
+  summary: A Rust workspace for high-performance JavaScript and TypeScript
+    tooling. It provides parser, transformer, minifier, resolver,
+    semantic-analysis, and linting components, alongside the Oxlint linter and
+    Oxfmt formatter command-line applications.
   best_for:
-    - Developers who want fast linting or formatting for JavaScript and TypeScript codebases
-    - Tool authors building on Rust components for parsing, transforming, minifying, or resolving modules
-
+    - Developers who want fast linting or formatting for JavaScript and
+      TypeScript codebases
+    - Tool authors building on Rust components for parsing, transforming,
+      minifying, or resolving modules
 key_features:
   - Ships Oxlint and Oxfmt command-line tools, installable with npx
-  - Exposes parser, transformer, minifier, and resolver capabilities for JavaScript and TypeScript
-  - Organizes reusable Rust crates with Node-API bindings and a language-server component
-  - Uses an arena allocator and zero-copy-oriented architecture across the compilation pipeline
-
+  - Exposes parser, transformer, minifier, and resolver capabilities for
+    JavaScript and TypeScript
+  - Organizes reusable Rust crates with Node-API bindings and a language-server
+    component
+  - Uses an arena allocator and zero-copy-oriented architecture across the
+    compilation pipeline
 usage:
   interfaces:
     - Oxlint CLI
@@ -46,7 +46,6 @@ usage:
     - npx oxfmt@latest
     - Cargo workspace dependency or source build
   setup: low
-
 technology:
   languages:
     - Rust
@@ -59,31 +58,32 @@ technology:
     - oxc_transformer
     - oxc_minifier
     - Node-API bindings
-
 license:
   spdx: MIT
   name: MIT License
-  notes: The cached top-level LICENSE is MIT; the README notes that incorporated third-party code has separately listed licenses.
-
+  notes: The cached top-level LICENSE is MIT; the README notes that incorporated
+    third-party code has separately listed licenses.
 status:
   lifecycle: active
   archived: false
-  latest_release: oxc crates_v0.140.0
-  latest_release_at: 2026-07-14
-
+  latest_release: crates_v0.159.0
+  latest_release_at: 2026-11-16
 strengths:
   - Combines end-user CLI tools with reusable compiler and analysis components
-  - Documents a performance-oriented Rust architecture with shared processing layers
-  - Has a recent release feed and source snapshot showing continuing project activity
-
+  - Documents a performance-oriented Rust architecture with shared processing
+    layers
+  - Has a recent release feed and source snapshot showing continuing project
+    activity
 caveats:
-  - The repository contains multiple tools and crates, so integration choices require understanding the intended component boundary
-  - Releases are component-scoped; the same feed also lists Oxlint v1.74.0 and Oxfmt v0.59.0 on 2026-07-14
+  - The repository contains multiple tools and crates, so integration choices
+    require understanding the intended component boundary
+  - The release field refers to Oxc crates. The same feed carries independent
+    releases for Oxlint and Oxfmt.
   - Building from source entails both Rust and pnpm workspace tooling
-
 sources:
-  - https://raw.githubusercontent.com/oxc-project/oxc/75ce81de95443130d7af966c6cb98f7c1f432b5c/README.md
-  - https://raw.githubusercontent.com/oxc-project/oxc/75ce81de95443130d7af966c6cb98f7c1f432b5c/ARCHITECTURE.md
-  - https://raw.githubusercontent.com/oxc-project/oxc/75ce81de95443130d7af966c6cb98f7c1f432b5c/Cargo.toml
-  - https://raw.githubusercontent.com/oxc-project/oxc/75ce81de95443130d7af966c6cb98f7c1f432b5c/LICENSE
+  - https://raw.githubusercontent.com/oxc-project/oxc/a96e2bdf600481ef009bd8297bc4da0b419bb130/README.md
+  - https://raw.githubusercontent.com/oxc-project/oxc/a96e2bdf600481ef009bd8297bc4da0b419bb130/ARCHITECTURE.md
+  - https://raw.githubusercontent.com/oxc-project/oxc/a96e2bdf600481ef009bd8297bc4da0b419bb130/Cargo.toml
+  - https://raw.githubusercontent.com/oxc-project/oxc/a96e2bdf600481ef009bd8297bc4da0b419bb130/LICENSE
   - https://github.com/oxc-project/oxc/releases.atom
+  - https://github.com/oxc-project/oxc/releases/tag/crates_v0.159.0

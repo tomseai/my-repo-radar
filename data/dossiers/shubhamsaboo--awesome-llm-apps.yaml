@@ -2,9 +2,9 @@ schema_version: 2
 repository_id: github:Shubhamsaboo/awesome-llm-apps
 research:
   state: complete
-  source_commit: cc38e282a87c17c9335310b17e4393b38d144b21
-  bundle_collected_at: 2026-07-19T20:45:16.131Z
-  researched_at: 2026-07-20T18:00:00+02:00
+  source_commit: 14c5f8ff0094659f321801385d2b52ccc65fea3b
+  bundle_collected_at: 2026-11-22T12:10:23.945Z
+  researched_at: 2026-11-22T12:27:12.001058+00:00
   confidence: high
 classification:
   primary_category: documentation-and-learning
@@ -23,15 +23,22 @@ project:
     An Apache-2.0 collection of 100-plus runnable AI-agent, agent-skill, RAG,
     generative-UI, and LLM application templates that users can clone and adapt.
   best_for:
-    - Developers choosing a practical starting point for an AI-agent or RAG prototype
-    - Coding-agent users looking for installable skills and example implementations
+    - Developers choosing a practical starting point for an AI-agent or RAG
+      prototype
+    - Coding-agent users looking for installable skills and example
+      implementations
 key_features:
-  - Agent skills installable through skills.sh and intended for Claude Code, Codex, Cursor, and compatible agents
-  - Starter agents designed as small API-key-driven examples alongside more advanced tool- and memory-oriented agents
-  - Multi-agent, voice, always-on, and autonomous-game agent categories
-  - MCP examples for browser, GitHub, Notion, travel-planning, and routed multi-server workflows
-  - RAG, memory, chat-with-data, token-optimization, fine-tuning, and framework-crash-course sections
-  - Generative-UI examples that use interactive cards, dashboards, canvases, and MCP app interfaces
+  - Agent skills installable through skills.sh and intended for Claude Code,
+    Codex, Cursor, and compatible agents
+  - Starter agents designed as small API-key-driven examples alongside more
+    advanced tool- and memory-oriented agents
+  - Multi-agent, voice, always-on, autonomous-game, and standalone tool categories
+  - MCP examples for browser, GitHub, Notion, travel-planning, and routed
+    multi-server workflows
+  - RAG, memory, chat-with-data, token-optimization, fine-tuning, and
+    framework-crash-course sections
+  - Generative-UI examples that use interactive cards, dashboards, canvases, and
+    MCP app interfaces
 usage:
   interfaces:
     - GitHub Markdown catalog
@@ -40,7 +47,8 @@ usage:
     - Coding-agent skills
   installation:
     - Install an individual skill with npx skills add and its repository path
-    - Clone the repository, enter a selected template, and install that template's dependencies
+    - Clone the repository, enter a selected template, and install that
+      template's dependencies
     - Run applicable Python examples with pip and Streamlit
     - Run applicable TypeScript templates with their npm scripts
   setup: moderate
@@ -66,17 +74,24 @@ status:
   latest_release: null
   latest_release_at: null
 strengths:
-  - Broad organization lets users choose examples by agent pattern, interface, data source, or learning goal
-  - Includes both directly usable coding-agent skills and runnable application templates
-  - Demonstrates Python and TypeScript approaches, including MCP and generative user interfaces
+  - Broad organization lets users choose examples by agent pattern, interface,
+    data source, or learning goal
+  - Includes both directly usable coding-agent skills and runnable application
+    templates
+  - Demonstrates Python and TypeScript approaches, including MCP and generative
+    user interfaces
 caveats:
-  - Requirements, model providers, credentials, and deployment needs vary by template; there is no single project setup
-  - The repository also links to external projects, whose support and licenses must be evaluated independently
-  - The README's testing and weekly-update claims are project assertions; the retained bundle does not provide a uniform test result for every template
-  - The retained release feed has no entries, so no versioned project release can be established
+  - Requirements, model providers, credentials, and deployment needs vary by
+    template; there is no single project setup
+  - The repository also links to external projects, whose support and licenses
+    must be evaluated independently
+  - The README's testing and weekly-update claims are project assertions; the
+    retained bundle does not provide a uniform test result for every template
+  - The retained release feed has no entries, so no versioned project release
+    can be established
 sources:
-  - https://raw.githubusercontent.com/Shubhamsaboo/awesome-llm-apps/cc38e282a87c17c9335310b17e4393b38d144b21/README.md
-  - https://raw.githubusercontent.com/Shubhamsaboo/awesome-llm-apps/cc38e282a87c17c9335310b17e4393b38d144b21/LICENSE
-  - https://raw.githubusercontent.com/Shubhamsaboo/awesome-llm-apps/cc38e282a87c17c9335310b17e4393b38d144b21/generative_ui_agents/generative-ui-starter-project/package.json
+  - https://raw.githubusercontent.com/Shubhamsaboo/awesome-llm-apps/14c5f8ff0094659f321801385d2b52ccc65fea3b/README.md
+  - https://raw.githubusercontent.com/Shubhamsaboo/awesome-llm-apps/14c5f8ff0094659f321801385d2b52ccc65fea3b/LICENSE
+  - https://raw.githubusercontent.com/Shubhamsaboo/awesome-llm-apps/14c5f8ff0094659f321801385d2b52ccc65fea3b/generative_ui_agents/generative-ui-starter-project/package.json
   - https://raw.githubusercontent.com/Shubhamsaboo/awesome-llm-apps/cc38e282a87c17c9335310b17e4393b38d144b21/mcp_ai_agents/browser_mcp_agent/requirements.txt
   - https://github.com/Shubhamsaboo/awesome-llm-apps/releases.atom

@@ -1,0 +1,84 @@
+analysis:
+  analyzed_at: "2026-11-22T12:25:03.789Z"
+  classification:
+    primary_category: "ai-and-automation"
+    state: "confirmed"
+    technologies:
+      - "javascript"
+      - "nodejs"
+    topics:
+      - "coding-agents"
+      - "agent-skills"
+      - "spec-driven-development"
+      - "task-planning"
+      - "context-engineering"
+      - "code-review"
+      - "testing"
+      - "agent-governance"
+      - "git"
+      - "github"
+      - "automation"
+    use_cases:
+      - "improve-developer-workflow"
+      - "test-software"
+  evidence:
+    - claim: A file-backed software development workflow for coding agents. It keeps
+        plans, specifications, findings, and verification evidence in the
+        project and supports multiple agent adapters.
+      source_type: repository-file
+      url: https://raw.githubusercontent.com/aiblueprinthq/ai-blueprint/2ac6d59a4c57a9d69ce652adca1976d8ef8f182c/README.md
+      checked_at: 2026-11-22
+      confidence: high
+  state: "researched"
+  summary:
+    one_line: A file-backed software development workflow for coding agents.
+    why_useful: It keeps plans, specifications, findings, and verification evidence
+      in the project and supports multiple agent adapters.
+curation:
+  confidence: null
+  evidence: []
+  limitations: []
+  recommendation: null
+  reviewed_at: null
+  state: "uncurated"
+  strengths: []
+  verdict: null
+id: "github:aiblueprinthq/ai-blueprint"
+import:
+  github_snapshot:
+    archived: false
+    created_at: 2026-06-19T12:59:29Z
+    default_branch: main
+    description: A file-backed, spec-driven AI coding workflow framework for
+      building real software while staying in control.
+    disabled: false
+    fetched_at: 2026-11-22T12:07:00.148Z
+    fork: false
+    forks: 133
+    homepage: https://ai-blueprint.dev
+    latest_release:
+      tag: v1.16.1
+      published_at: 2026-11-13T13:41:41Z
+      url: https://github.com/aiblueprinthq/ai-blueprint/releases/tag/v1.16.1
+    license_spdx: MIT
+    open_issues: 2
+    primary_language: TypeScript
+    pushed_at: 2026-11-14T11:46:05Z
+    stars: 516
+    topics: []
+    updated_at: 2026-11-22T01:02:42Z
+  sources:
+    - observed_at: 2026-08-16T09:01:29Z
+      relation: starred
+      source_id: github:user:tomseai:stars
+      source_url: https://github.com/tomseai?tab=stars
+  state: transferred
+repository:
+  aliases:
+    - github:bradtraversy/ai-blueprint
+  github_node_id: R_kgDOS_V1xg
+  host: github.com
+  name: ai-blueprint
+  owner: aiblueprinthq
+  url: https://github.com/aiblueprinthq/ai-blueprint
+version: 1

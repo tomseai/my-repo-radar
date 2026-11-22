@@ -15,12 +15,16 @@ analysis:
       - "build-backend-services"
       - "ship-and-operate-software"
   evidence:
-    - claim: "Bifrost is a high-performance AI gateway that exposes a single OpenAI-compatible API for more than 23 providers and includes fallback, load balancing, caching, governance, and observability features."
+    - claim: "Bifrost is a high-performance AI gateway that exposes a single
+        OpenAI-compatible API for more than 23 providers and includes fallback,
+        load balancing, caching, governance, and observability features."
       source_type: "repository-file"
       url: "https://github.com/maximhq/bifrost/blob/dev/README.md"
       checked_at: "2026-07-19"
       confidence: "high"
-    - claim: "The project documents local and Docker deployment plus a Go SDK, and describes OIDC provisioning and fine-grained access control among its security features."
+    - claim: "The project documents local and Docker deployment plus a Go SDK, and
+        describes OIDC provisioning and fine-grained access control among its
+        security features."
       source_type: "repository-file"
       url: "https://github.com/maximhq/bifrost/blob/dev/README.md"
       checked_at: "2026-07-19"
@@ -28,7 +32,8 @@ analysis:
   state: "researched"
   summary:
     one_line: "Multi-provider AI gateway with an OpenAI-compatible API."
-    why_useful: "It centralizes provider routing, reliability controls, governance, and monitoring for AI-service backends."
+    why_useful: "It centralizes provider routing, reliability controls, governance,
+      and monitoring for AI-service backends."
 curation:
   confidence: null
   evidence: []
@@ -42,44 +47,55 @@ id: "github:maximhq/bifrost"
 import:
   github_snapshot:
     archived: false
-    created_at: "2025-03-19T07:21:26Z"
-    default_branch: "dev"
-    description: "Fastest enterprise AI gateway (50x faster than LiteLLM) with adaptive load balancer, cluster mode, guardrails, 1000+ models support & <100 µs overhead at 5k RPS."
+    created_at: 2025-03-19T07:21:26Z
+    default_branch: dev
+    description: Open-source, high-performance AI gateway that works as your LLM
+      gateway, MCP gateway and agent gateway. One OpenAI-compatible API for
+      10,000+ models, with failover, load balancing, semantic caching, virtual
+      keys, budgets and MCP Code Mode. Works with any SDK or agent and adds
+      under 200µs of overhead at 5k RPS.
     disabled: false
-    fetched_at: "2026-07-19T19:16:14.796Z"
+    fetched_at: 2026-11-22T12:07:00.148Z
     fork: false
-    forks: 909
-    homepage: "https://www.getmaxim.ai/bifrost"
-    latest_release: null
-    license_spdx: "Apache-2.0"
-    open_issues: 646
-    primary_language: "Go"
-    pushed_at: "2026-07-19T19:07:00Z"
-    stars: 6606
+    forks: 1647
+    homepage: https://www.getmaxim.ai/bifrost
+    latest_release:
+      tag: helm-chart-v2.1.49
+      published_at: 2026-11-19T07:42:33Z
+      url: https://github.com/maximhq/bifrost/releases/tag/helm-chart-v2.1.49
+    license_spdx: Apache-2.0
+    open_issues: 1676
+    primary_language: Go
+    pushed_at: 2026-11-22T11:51:39Z
+    stars: 9945
     topics:
-      - "ai-gateway"
-      - "gateway"
-      - "gateway-services"
-      - "generative-ai"
-      - "guardrails"
-      - "llm"
-      - "llm-cost"
-      - "llm-gateway"
-      - "llm-observability"
-      - "llmops"
-      - "load-balancing"
-      - "mcp-client"
-      - "mcp-gateway"
-      - "mcp-server"
-      - "model-router"
-      - "token-management"
-    updated_at: "2026-07-19T16:46:36Z"
+      - agent-gateway
+      - ai-gateway
+      - ai-governance
+      - api-gateway
+      - claude-code
+      - coding-agents
+      - failover
+      - gateway
+      - guardrails
+      - llm-cost
+      - llm-gateway
+      - llm-observability
+      - llm-proxy
+      - llm-router
+      - load-balancing
+      - mcp-gateway
+      - model-context-protocol
+      - model-router
+      - openai-compatible
+      - semantic-cache
+    updated_at: 2026-11-22T08:33:08Z
   sources:
-    - observed_at: "2026-07-18T10:34:09Z"
-      relation: "starred"
-      source_id: "github:user:tomseai:stars"
-      source_url: "https://github.com/tomseai?tab=stars"
-  state: "imported"
+    - observed_at: 2026-07-18T10:34:09Z
+      relation: starred
+      source_id: github:user:tomseai:stars
+      source_url: https://github.com/tomseai?tab=stars
+  state: refreshed
 repository:
   aliases: []
   github_node_id: "R_kgDOOLDdQA"

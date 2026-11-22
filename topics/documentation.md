@@ -2,16 +2,16 @@
 
 # Documentation
 
-[Back to the main catalog](../README.md) | **41 repositories**
+[Back to the main catalog](../README.md) | **46 repositories**
 
 ## Primary categories represented
 
 - [AI and Automation](../categories/ai-and-automation.md) (6)
-- [Developer Tools](../categories/developer-tools.md) (2)
-- [Documentation and Learning](../categories/documentation-and-learning.md) (30)
+- [Developer Tools](../categories/developer-tools.md) (4)
+- [Documentation and Learning](../categories/documentation-and-learning.md) (32)
 - [Frontend and Design](../categories/frontend-and-design.md) (1)
 - [Security and Privacy](../categories/security-and-privacy.md) (1)
-- [Testing and Quality](../categories/testing-and-quality.md) (1)
+- [Testing and Quality](../categories/testing-and-quality.md) (2)
 
 <a id="repo-addyosmani--agent-engineer"></a>
 
@@ -26,7 +26,7 @@ A practical, beginner-oriented course that teaches AI-agent fundamentals, then i
 - **Languages:** Markdown
 - **License:** Apache-2.0
 - **Lifecycle:** Active
-- **GitHub stars:** 421
+- **GitHub stars:** 552
 
 **Key features**
 
@@ -47,7 +47,7 @@ A weekly live-coding and Q&A series with a repository of episode notes and selec
 - **Languages:** Python, TypeScript, Go, Markdown
 - **License:** No license file found in retained source bundle
 - **Lifecycle:** Active
-- **GitHub stars:** 1,852
+- **GitHub stars:** 2,016
 
 **Key features**
 
@@ -68,7 +68,7 @@ A repository-organized reference collection of extracted and published system pr
 - **Languages:** Markdown
 - **License:** CC0-1.0
 - **Lifecycle:** Active
-- **GitHub stars:** 59,037
+- **GitHub stars:** 72,369
 
 **Key features**
 
@@ -89,7 +89,7 @@ A learning-resource collection for low-level and object-oriented design, combini
 - **Languages:** Java, JavaScript, Go, Rust, TypeScript
 - **License:** GPL-3.0
 - **Lifecycle:** Active
-- **GitHub stars:** 25,455
+- **GitHub stars:** 28,211
 
 **Key features**
 
@@ -110,7 +110,7 @@ A hands-on notebook course for learning retrieval-augmented generation (RAG), pr
 - **Languages:** Python, Jupyter Notebook
 - **License:** MIT License with an additional attribution condition
 - **Lifecycle:** Unknown
-- **GitHub stars:** 4,141
+- **GitHub stars:** 4,203
 
 **Key features**
 
@@ -131,7 +131,7 @@ A compact interview-preparation guide that combines a suggested design discussio
 - **Languages:** Markdown
 - **License:** No license file found in retained source bundle
 - **Lifecycle:** Unknown
-- **GitHub stars:** 23,371
+- **GitHub stars:** 23,896
 
 **Key features**
 
@@ -152,7 +152,7 @@ A TypeScript library that combines Markdown and React for technical content site
 - **Languages:** TypeScript
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 5,368
+- **GitHub stars:** 5,400
 
 **Key features**
 
@@ -173,7 +173,7 @@ A codebase-analysis tool that combines static analysis and LLM reasoning to prod
 - **Languages:** Python
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 2,353
+- **GitHub stars:** 2,694
 
 **Key features**
 
@@ -194,7 +194,7 @@ A Markdown index of external, step-by-step guides for recreating software techno
 - **Languages:** Markdown
 - **License:** CC0-1.0
 - **Lifecycle:** Active
-- **GitHub stars:** 528,829
+- **GitHub stars:** 564,608
 
 **Key features**
 
@@ -215,7 +215,7 @@ A Claude Code-centered starter template for supplying AI coding assistants with 
 - **Languages:** Markdown, Python, TypeScript
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 13,719
+- **GitHub stars:** 13,923
 
 **Key features**
 
@@ -236,7 +236,7 @@ A conceptual guide and set of examples that compares controlled, declarative, an
 - **Languages:** Unknown
 - **License:** No license terms established
 - **Lifecycle:** Deprecated
-- **GitHub stars:** 780
+- **GitHub stars:** 900
 
 **Key features**
 
@@ -255,9 +255,9 @@ A beginner-oriented, iterative guide to applying domain-driven design from under
 - **Kind:** Documentation
 - **Best for:** Teams beginning a domain-driven design initiative or migration; Facilitators teaching a practical starting process for domain modelling
 - **Languages:** Unknown
-- **License:** Creative Commons Attribution 4.0 International (README declaration)
+- **License:** Conflicting CC BY-SA 4.0 and CC BY 4.0 declarations
 - **Lifecycle:** Active
-- **GitHub stars:** 5,924
+- **GitHub stars:** 6,098
 
 **Key features**
 
@@ -278,7 +278,7 @@ An open learning reference for scalable-system design and interview preparation,
 - **Languages:** Markdown, Python
 - **License:** CC-BY-4.0
 - **Lifecycle:** Active
-- **GitHub stars:** 358,262
+- **GitHub stars:** 378,777
 
 **Key features**
 
@@ -299,7 +299,7 @@ A Markdown guide and repository collection that examines captured system prompts
 - **Languages:** Markdown
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 6,084
+- **GitHub stars:** 6,300
 
 **Key features**
 
@@ -320,7 +320,7 @@ A compact TypeScript research assistant that iteratively queries search and scra
 - **Languages:** TypeScript
 - **License:** MIT
 - **Lifecycle:** Unknown
-- **GitHub stars:** 19,376
+- **GitHub stars:** 19,912
 
 **Key features**
 
@@ -341,7 +341,7 @@ A curated, topic-organized reading list of accessible papers for software engine
 - **Languages:** Markdown, Python
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 6,548
+- **GitHub stars:** 6,636
 
 **Key features**
 
@@ -349,11 +349,32 @@ A curated, topic-organized reading list of accessible papers for software engine
   - Systems sections for concurrency, operating systems, databases, networking, distributed systems, and operations
   - Additional coverage of cryptography, human-computer interaction, search, machine learning, and decentralized systems
 
+<a id="repo-feenkcom--gtoolkit"></a>
+
+## [Glamorous Toolkit](https://github.com/feenkcom/gtoolkit)
+
+A moldable development environment for understanding systems by creating contextual, interactive tools around a specific problem.
+
+- **Category:** [Developer Tools](../categories/developer-tools.md#repo-feenkcom--gtoolkit)
+- **Topics:** [Developer Productivity](../topics/developer-productivity.md#repo-feenkcom--gtoolkit) | [Visualization](../topics/visualization.md#repo-feenkcom--gtoolkit) | [Documentation](../topics/documentation.md#repo-feenkcom--gtoolkit) | [Desktop App](../topics/desktop-app.md#repo-feenkcom--gtoolkit)
+- **Kind:** Application
+- **Best for:** Developers exploring and explaining unfamiliar systems and artifacts
+- **Languages:** Smalltalk
+- **License:** MIT
+- **Lifecycle:** Active
+- **GitHub stars:** 1,599
+
+**Key features**
+
+  - Integrated environment for building contextual exploration tools
+  - Composable visual and interactive operators
+  - Distribution includes many tools used to develop and explain the environment
+
 <a id="repo-fission-ai--openspec"></a>
 
 ## [OpenSpec](https://github.com/Fission-AI/OpenSpec)
 
-A Node.js CLI and coding-agent workflow for keeping Markdown specifications and change artifacts alongside code before and during implementation.
+A CLI and coding-agent workflow for keeping Markdown specifications and change artifacts alongside code before and during implementation.
 
 - **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-fission-ai--openspec)
 - **Topics:** [Coding Agents](../topics/coding-agents.md#repo-fission-ai--openspec) | [Spec Driven Development](../topics/spec-driven-development.md#repo-fission-ai--openspec) | [Task Planning](../topics/task-planning.md#repo-fission-ai--openspec) | [Context Engineering](../topics/context-engineering.md#repo-fission-ai--openspec) | [CLI](../topics/cli.md#repo-fission-ai--openspec) | [Documentation](../topics/documentation.md#repo-fission-ai--openspec) | [Developer Productivity](../topics/developer-productivity.md#repo-fission-ai--openspec)
@@ -362,7 +383,7 @@ A Node.js CLI and coding-agent workflow for keeping Markdown specifications and 
 - **Languages:** TypeScript
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 61,593
+- **GitHub stars:** 75,443
 
 **Key features**
 
@@ -383,7 +404,7 @@ A Python CLI and template toolkit that initializes a repeatable spec-driven-deve
 - **Languages:** Python
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 122,241
+- **GitHub stars:** 150,985
 
 **Key features**
 
@@ -404,7 +425,7 @@ A zero-configuration Node.js CLI that turns a folder of Markdown or MDX files in
 - **Languages:** TypeScript, MDX
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 724
+- **GitHub stars:** 1,846
 
 **Key features**
 
@@ -425,13 +446,55 @@ A public principles guide for building production-oriented LLM applications from
 - **Languages:** TypeScript, Python
 - **License:** Apache-2.0 AND CC-BY-SA-4.0
 - **Lifecycle:** Unknown
-- **GitHub stars:** 24,512
+- **GitHub stars:** 27,368
 
 **Key features**
 
   - Twelve linked factors spanning natural-language tool calls through stateless reducers
   - Guidance for owning prompts and the context window
   - Recommendations for structured tool outputs and human contact through tools
+
+<a id="repo-hwayne--learntla-v2"></a>
+
+## [Learn TLA+](https://github.com/hwayne/learntla-v2)
+
+A free online guide that teaches TLA+ specifications and model checking so readers can explore the behavior of a software design before implementation.
+
+- **Category:** [Documentation and Learning](../categories/documentation-and-learning.md#repo-hwayne--learntla-v2)
+- **Topics:** [Tutorials](../topics/tutorials.md#repo-hwayne--learntla-v2) | [Documentation](../topics/documentation.md#repo-hwayne--learntla-v2) | [Reference](../topics/reference.md#repo-hwayne--learntla-v2) | [Testing](../topics/testing.md#repo-hwayne--learntla-v2)
+- **Kind:** Documentation
+- **Best for:** Developers learning to model and check system designs
+- **Languages:** TLA+
+- **License:** CC-BY-4.0
+- **Lifecycle:** Active
+- **GitHub stars:** 281
+
+**Key features**
+
+  - Linear introduction from basic operators to advanced language concepts
+  - Independent advanced topics and specification examples
+  - Conceptual explanations of concurrency, invariants, and model checking
+
+<a id="repo-hyhmrright--brooks-lint"></a>
+
+## [brooks-lint](https://github.com/hyhmrright/brooks-lint)
+
+A portable agent-skill and Claude Code plugin for reviewing production code, architecture, technical debt, and tests against risk dimensions synthesized from twelve software-engineering books.
+
+- **Category:** [Testing and Quality](../categories/testing-and-quality.md#repo-hyhmrright--brooks-lint)
+- **Topics:** [Coding Agents](../topics/coding-agents.md#repo-hyhmrright--brooks-lint) | [Agent Skills](../topics/agent-skills.md#repo-hyhmrright--brooks-lint) | [Code Review](../topics/code-review.md#repo-hyhmrright--brooks-lint) | [Testing](../topics/testing.md#repo-hyhmrright--brooks-lint) | [Evaluation](../topics/evaluation.md#repo-hyhmrright--brooks-lint) | [Visualization](../topics/visualization.md#repo-hyhmrright--brooks-lint) | [Documentation](../topics/documentation.md#repo-hyhmrright--brooks-lint) | [Automation](../topics/automation.md#repo-hyhmrright--brooks-lint) | [Developer Productivity](../topics/developer-productivity.md#repo-hyhmrright--brooks-lint)
+- **Kind:** Plugin
+- **Best for:** Developers who want structured AI-assisted code and architecture reviews; Teams auditing technical debt and test quality across several agent platforms
+- **Languages:** JavaScript, Markdown
+- **License:** MIT
+- **Lifecycle:** Active
+- **GitHub stars:** 1,585
+
+**Key features**
+
+  - Produces symptom, source, consequence, and remedy chains with book citations and severity
+  - Covers production-code decay, test-suite decay, architecture, debt, health, and sweep modes
+  - Generates Mermaid dependency graphs, health scores, SARIF output, and CI gates
 
 <a id="repo-innowhyte--gen-ai-patterns"></a>
 
@@ -467,7 +530,7 @@ A GitHub-curated reference of AI-powered developer tools, organized by developme
 - **Languages:** Markdown, YAML
 - **License:** No license file or SPDX identifier found in the retained source bundle
 - **Lifecycle:** Active
-- **GitHub stars:** 3,892
+- **GitHub stars:** 3,999
 
 **Key features**
 
@@ -488,7 +551,7 @@ A Markdown record of discussions between John Ousterhout and Robert C. Martin, h
 - **Languages:** Markdown
 - **License:** No license file or SPDX identifier found in the retained source bundle
 - **Lifecycle:** Unknown
-- **GitHub stars:** 1,765
+- **GitHub stars:** 2,012
 
 **Key features**
 
@@ -509,11 +572,11 @@ A documentation assistant for LangChain, LangGraph, and LangSmith that combines 
 - **Languages:** Python, TypeScript
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 6,412
+- **GitHub stars:** 6,479
 
 **Key features**
 
-  - Searches official LangChain documentation through a Mintlify API
+  - Searches official LangChain documentation through managed MCP
   - Searches a Pylon support knowledge base for known issues and solutions
   - Filters off-topic requests with guardrail middleware
 
@@ -530,7 +593,7 @@ A Chinese-language collection of copy-ready prompts and linked agent-skill workf
 - **Languages:** Markdown
 - **License:** No license identified
 - **Lifecycle:** Active
-- **GitHub stars:** 31,732
+- **GitHub stars:** 36,232
 
 **Key features**
 
@@ -551,13 +614,55 @@ The Hugo source repository for staffeng.com, a collection of stories about reach
 - **Languages:** HTML, Markdown
 - **License:** No license identified
 - **Lifecycle:** Unknown
-- **GitHub stars:** 255
+- **GitHub stars:** 258
 
 **Key features**
 
   - Powers the staffeng.com site from a Hugo source repository
   - Accepts story submissions in the repository's src/markdown format
   - Supports local preview with Hugo's development server at localhost:1313
+
+<a id="repo-likec4--likec4"></a>
+
+## [LikeC4](https://github.com/likec4/likec4)
+
+A modeling language and toolchain for generating software architecture diagrams from a textual model.
+
+- **Category:** [Developer Tools](../categories/developer-tools.md#repo-likec4--likec4)
+- **Topics:** [Visualization](../topics/visualization.md#repo-likec4--likec4) | [Documentation](../topics/documentation.md#repo-likec4--likec4) | [CLI](../topics/cli.md#repo-likec4--likec4) | [Developer Productivity](../topics/developer-productivity.md#repo-likec4--likec4)
+- **Kind:** Application
+- **Best for:** Teams documenting and evolving software architecture as code
+- **Languages:** TypeScript
+- **License:** MIT
+- **Lifecycle:** Active
+- **GitHub stars:** 6,136
+
+**Key features**
+
+  - Architecture modeling inspired by C4 and Structurizr DSL
+  - Custom element types and notation
+  - Arbitrary nesting levels in architecture models
+
+<a id="repo-liquidslr--system-design-notes"></a>
+
+## [System Design Interview Notes](https://github.com/liquidslr/system-design-notes)
+
+Work-in-progress chapter notes and architecture diagrams based on both volumes of System Design Interview – An Insider's Guide, covering system design fundamentals and 25 concrete distributed-system design exercises.
+
+- **Category:** [Documentation and Learning](../categories/documentation-and-learning.md#repo-liquidslr--system-design-notes)
+- **Topics:** [Documentation](../topics/documentation.md#repo-liquidslr--system-design-notes) | [Tutorials](../topics/tutorials.md#repo-liquidslr--system-design-notes) | [Reference](../topics/reference.md#repo-liquidslr--system-design-notes) | [Backend Development](../topics/backend-development.md#repo-liquidslr--system-design-notes) | [Databases](../topics/databases.md#repo-liquidslr--system-design-notes) | [Performance](../topics/performance.md#repo-liquidslr--system-design-notes)
+- **Kind:** Documentation
+- **Best for:** Readers reviewing system-design interview concepts alongside the source books; Engineers seeking a visual index of common scalability patterns and system-design case studies
+- **Languages:** Markdown
+- **License:** No repository license grant
+- **Lifecycle:** Active
+- **GitHub stars:** 29,025
+
+**Key features**
+
+  - Twenty-eight chapters covering scaling, estimation, an interview framework, and system-design case studies
+  - Foundational material on load balancing, caching, replication, message queues, consistent hashing, and distributed data
+  - Case studies for chat, search autocomplete, video, file sync, maps, email, object storage, payments, wallets, and exchanges
 
 <a id="repo-microsoft--ai-for-beginners"></a>
 
@@ -572,7 +677,7 @@ A beginner-friendly, 12-week curriculum of AI lessons, executable notebooks, qui
 - **Languages:** Jupyter Notebook, Python, JavaScript
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 52,454
+- **GitHub stars:** 71,153
 
 **Key features**
 
@@ -593,7 +698,7 @@ A hands-on, multilingual curriculum for learning the Model Context Protocol, pro
 - **Languages:** C#, Java, JavaScript, Python, Rust, TypeScript
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 16,781
+- **GitHub stars:** 17,697
 
 **Key features**
 
@@ -614,11 +719,11 @@ An independent, agentskills.io-format library of cybersecurity workflows for AI 
 - **Languages:** Python, Markdown
 - **License:** Apache-2.0
 - **Lifecycle:** Active
-- **GitHub stars:** 26,064
+- **GitHub stars:** 36,537
 
 **Key features**
 
-  - Provides 817 structured skills across 29 security domains
+  - Provides 818 structured skills across 34 security domains
   - Maps skills to MITRE ATT&CK, NIST CSF, MITRE ATLAS, D3FEND, NIST AI RMF, and MITRE F3
   - Uses YAML discovery metadata, step-by-step Markdown workflows, references, helpers, and templates
 
@@ -635,7 +740,7 @@ An agent skill and plugin for producing recent, cited research briefs by searchi
 - **Languages:** Python, Go, JavaScript
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 52,774
+- **GitHub stars:** 72,347
 
 **Key features**
 
@@ -656,7 +761,7 @@ An OpenAI-maintained collection of example code and guides for common OpenAI API
 - **Languages:** Python, Jupyter Notebook
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 74,754
+- **GitHub stars:** 77,302
 
 **Key features**
 
@@ -677,7 +782,7 @@ A curated collection of Markdown-based Cursor Project Rules (`.mdc`) that provid
 - **Languages:** JavaScript, Markdown
 - **License:** CC0-1.0
 - **Lifecycle:** Active
-- **GitHub stars:** 40,363
+- **GitHub stars:** 41,181
 
 **Key features**
 
@@ -698,7 +803,7 @@ A versioned, Markdown-based reference that extracts and tracks Claude Code syste
 - **Languages:** Markdown, JavaScript
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 11,907
+- **GitHub stars:** 13,209
 
 **Key features**
 
@@ -719,7 +824,7 @@ A curated Markdown directory of applications, extensions, command-line tools, ch
 - **Languages:** Markdown
 - **License:** No license declared
 - **Lifecycle:** Unknown
-- **GitHub stars:** 6,386
+- **GitHub stars:** 6,450
 
 **Key features**
 
@@ -731,7 +836,7 @@ A curated Markdown directory of applications, extensions, command-line tools, ch
 
 ## [Front-End Checklist](https://github.com/thedaviddias/Front-End-Checklist)
 
-A front-end quality system containing 385 prioritized rules across eleven categories, delivered as a browsable website, a README checklist, reusable skills, and hosted or local MCP tooling for review and audit workflows.
+A front-end quality system containing 386 prioritized rules across eleven categories, delivered as a browsable website, a README checklist, reusable skills, and hosted or local MCP tooling for review and audit workflows.
 
 - **Category:** [Testing and Quality](../categories/testing-and-quality.md#repo-thedaviddias--front-end-checklist)
 - **Topics:** [Web](../topics/web.md#repo-thedaviddias--front-end-checklist) | [Frontend Development](../topics/frontend-development.md#repo-thedaviddias--front-end-checklist) | [Accessibility](../topics/accessibility.md#repo-thedaviddias--front-end-checklist) | [Security](../topics/security.md#repo-thedaviddias--front-end-checklist) | [Testing](../topics/testing.md#repo-thedaviddias--front-end-checklist) | [Performance](../topics/performance.md#repo-thedaviddias--front-end-checklist) | [MCP](../topics/mcp.md#repo-thedaviddias--front-end-checklist) | [AI Agents](../topics/ai-agents.md#repo-thedaviddias--front-end-checklist) | [Documentation](../topics/documentation.md#repo-thedaviddias--front-end-checklist)
@@ -740,11 +845,11 @@ A front-end quality system containing 385 prioritized rules across eleven catego
 - **Languages:** TypeScript, MDX
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 73,256
+- **GitHub stars:** 74,793
 
 **Key features**
 
-  - 385 English rules organized into eleven active front-end quality categories
+  - 386 English rules organized into eleven active front-end quality categories
   - Priority labels for critical, high, medium, and low-impact findings
   - Hosted MCP server with tools to review code, audit public URLs, search rules, and retrieve workflows
 
@@ -761,7 +866,7 @@ A Node.js command-line tool that inserts or updates tables of contents in Markdo
 - **Languages:** JavaScript
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 4,456
+- **GitHub stars:** 4,476
 
 **Key features**
 
@@ -782,7 +887,7 @@ A curated reference to official and community Claude Skills, skill-authoring gui
 - **Languages:** Unknown
 - **License:** NOASSERTION
 - **Lifecycle:** Active
-- **GitHub stars:** 14,204
+- **GitHub stars:** 15,904
 
 **Key features**
 
@@ -803,7 +908,7 @@ A broad technical reference of tools, manuals, cheatsheets, links, and shell exa
 - **Languages:** Unknown
 - **License:** MIT
 - **Lifecycle:** Maintenance
-- **GitHub stars:** 234,100
+- **GitHub stars:** 260,417
 
 **Key features**
 
@@ -824,7 +929,7 @@ A documentation resource for using React with TypeScript effectively, combining 
 - **Languages:** TypeScript, Markdown
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 47,096
+- **GitHub stars:** 47,089
 
 **Key features**
 
@@ -845,7 +950,7 @@ A living software-design guide that argues for reducing extraneous cognitive loa
 - **Languages:** Unknown
 - **License:** CC-BY-4.0
 - **Lifecycle:** Active
-- **GitHub stars:** 12,456
+- **GitHub stars:** 12,545
 
 **Key features**
 
@@ -866,7 +971,7 @@ A curated README-based collection of AI reading links, books, papers, research o
 - **Languages:** Jupyter Notebook
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 1,756
+- **GitHub stars:** 1,842
 
 **Key features**
 

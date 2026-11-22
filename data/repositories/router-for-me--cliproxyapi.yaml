@@ -13,7 +13,10 @@ analysis:
       - "build-ai-products"
       - "build-backend-services"
   evidence:
-    - claim: "CLIProxyAPI is a proxy server exposing OpenAI-, Gemini-, Claude-, Codex-, and Grok-compatible API interfaces for CLI-backed accounts, with OAuth login, streaming, tool calling, multimodal input, and multi-account support."
+    - claim: "CLIProxyAPI is a proxy server exposing OpenAI-, Gemini-, Claude-,
+        Codex-, and Grok-compatible API interfaces for CLI-backed accounts, with
+        OAuth login, streaming, tool calling, multimodal input, and
+        multi-account support."
       source_type: "repository-file"
       url: "https://github.com/router-for-me/CLIProxyAPI/blob/main/README.md"
       checked_at: "2026-07-19"
@@ -21,7 +24,8 @@ analysis:
   state: "researched"
   summary:
     one_line: "Go proxy exposing CLI-backed models through compatible LLM API endpoints."
-    why_useful: "It allows compatible clients and SDKs to access supported CLI accounts through a unified API service."
+    why_useful: "It allows compatible clients and SDKs to access supported CLI
+      accounts through a unified API service."
 curation:
   confidence: null
   evidence: []
@@ -35,34 +39,42 @@ id: "github:router-for-me/CLIProxyAPI"
 import:
   github_snapshot:
     archived: false
-    created_at: "2025-07-01T19:43:27Z"
-    default_branch: "main"
-    description: "Wrap Antigravity, ChatGPT Codex, Claude Code, Grok Build as an OpenAI/Gemini/Claude/Codex compatible API service, allowing you to enjoy the free Gemini 3.1 Pro, GPT 5.5, Grok 4.3, Claude model through API"
+    created_at: 2025-07-01T19:43:27Z
+    default_branch: main
+    description: Wrap Antigravity, ChatGPT Codex, Claude Code, Grok Build, Muse
+      Code, Devin as an OpenAI/Gemini/Claude/Codex compatible API service,
+      allowing you to enjoy the free Gemini Series, GPT Series, Grok Series,
+      Claude model through API
     disabled: false
-    fetched_at: "2026-07-19T19:16:14.796Z"
+    fetched_at: 2026-11-22T12:07:00.148Z
     fork: false
-    forks: 6861
+    forks: 9094
     homepage: ""
-    latest_release: null
-    license_spdx: "MIT"
-    open_issues: 317
-    primary_language: "Go"
-    pushed_at: "2026-07-19T18:23:33Z"
-    stars: 43627
+    latest_release:
+      tag: v8.1.0
+      published_at: 2026-11-21T19:03:36Z
+      url: https://github.com/router-for-me/CLIProxyAPI/releases/tag/v8.1.0
+    license_spdx: MIT
+    open_issues: 969
+    primary_language: Go
+    pushed_at: 2026-11-22T09:45:40Z
+    stars: 59210
     topics:
-      - "antigravity"
-      - "claude-code"
-      - "cluade"
-      - "codex"
-      - "gemini"
-      - "openai"
-    updated_at: "2026-07-19T18:49:11Z"
+      - antigravity
+      - claude
+      - claude-code
+      - codex
+      - devin
+      - gemini
+      - muse
+      - openai
+    updated_at: 2026-11-22T12:02:09Z
   sources:
-    - observed_at: "2026-04-03T20:52:29Z"
-      relation: "starred"
-      source_id: "github:user:tomseai:stars"
-      source_url: "https://github.com/tomseai?tab=stars"
-  state: "imported"
+    - observed_at: 2026-04-03T20:52:29Z
+      relation: starred
+      source_id: github:user:tomseai:stars
+      source_url: https://github.com/tomseai?tab=stars
+  state: refreshed
 repository:
   aliases: []
   github_node_id: "R_kgDOPFM7Ew"

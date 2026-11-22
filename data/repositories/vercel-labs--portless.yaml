@@ -14,15 +14,19 @@ analysis:
       - "improve-developer-workflow"
       - "build-web-applications"
   evidence:
-    - claim: "Portless replaces local development port numbers with stable named URLs, providing CLI commands to proxy development scripts, register aliases, inspect routes, manage HTTPS trust, and handle startup services."
+    - claim: "Portless replaces local development port numbers with stable named URLs,
+        providing CLI commands to proxy development scripts, register aliases,
+        inspect routes, manage HTTPS trust, and handle startup services."
       source_type: "repository-file"
       url: "https://github.com/vercel-labs/portless/blob/main/README.md"
       checked_at: "2026-07-19"
       confidence: "high"
   state: "researched"
   summary:
-    one_line: "A developer tool for assigning stable named URLs to local development services."
-    why_useful: "It proxies dev servers and manages local routes, HTTPS trust, aliases, and service lifecycle from the command line."
+    one_line: "A developer tool for assigning stable named URLs to local development
+      services."
+    why_useful: "It proxies dev servers and manages local routes, HTTPS trust,
+      aliases, and service lifecycle from the command line."
 curation:
   confidence: null
   evidence: []
@@ -36,28 +40,31 @@ id: "github:vercel-labs/portless"
 import:
   github_snapshot:
     archived: false
-    created_at: "2026-02-15T14:43:03Z"
-    default_branch: "main"
-    description: "Replace port numbers with stable, named local URLs. For humans and agents."
+    created_at: 2026-02-15T14:43:03Z
+    default_branch: main
+    description: Replace port numbers with stable, named local URLs. For humans and agents.
     disabled: false
-    fetched_at: "2026-07-19T19:16:14.796Z"
+    fetched_at: 2026-11-22T12:07:00.148Z
     fork: false
-    forks: 329
-    homepage: "https://portless.sh"
-    latest_release: null
-    license_spdx: "Apache-2.0"
-    open_issues: 113
-    primary_language: "TypeScript"
-    pushed_at: "2026-07-18T00:25:28Z"
-    stars: 10169
+    forks: 451
+    homepage: https://portless.sh
+    latest_release:
+      tag: v0.18.1
+      published_at: 2026-11-18T01:43:02Z
+      url: https://github.com/vercel-labs/portless/releases/tag/v0.18.1
+    license_spdx: Apache-2.0
+    open_issues: 126
+    primary_language: TypeScript
+    pushed_at: 2026-11-19T23:17:08Z
+    stars: 12945
     topics: []
-    updated_at: "2026-07-19T18:20:06Z"
+    updated_at: 2026-11-22T10:06:25Z
   sources:
-    - observed_at: "2026-04-14T21:53:58Z"
-      relation: "starred"
-      source_id: "github:user:tomseai:stars"
-      source_url: "https://github.com/tomseai?tab=stars"
-  state: "imported"
+    - observed_at: 2026-04-14T21:53:58Z
+      relation: starred
+      source_id: github:user:tomseai:stars
+      source_url: https://github.com/tomseai?tab=stars
+  state: refreshed
 repository:
   aliases: []
   github_node_id: "R_kgDORQ3jDQ"

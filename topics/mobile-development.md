@@ -2,12 +2,13 @@
 
 # Mobile Development
 
-[Back to the main catalog](../README.md) | **2 repositories**
+[Back to the main catalog](../README.md) | **3 repositories**
 
 ## Primary categories represented
 
 - [AI and Automation](../categories/ai-and-automation.md) (1)
 - [Application Frameworks](../categories/application-frameworks.md) (1)
+- [Testing and Quality](../categories/testing-and-quality.md) (1)
 
 <a id="repo-droidrun--mobilerun"></a>
 
@@ -22,13 +23,34 @@ A Python framework for LLM agents that control Android and iOS devices with mobi
 - **Languages:** Python
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 8,814
+- **GitHub stars:** 10,089
 
 **Key features**
 
   - Controls device UI through taps, swipes, text input, app launching, and device-state tools
   - Combines accessibility trees and screenshots, with vision and screenshot-only modes
   - Offers direct execution and manager-executor reasoning modes for multi-step tasks
+
+<a id="repo-e2e-inc--e2e"></a>
+
+## [e2e](https://github.com/e2e-inc/e2e)
+
+An end-to-end testing framework for web and mobile apps combining natural-language agent actions with conventional locators and assertions.
+
+- **Category:** [Testing and Quality](../categories/testing-and-quality.md#repo-e2e-inc--e2e)
+- **Topics:** [Testing](../topics/testing.md#repo-e2e-inc--e2e) | [Automation](../topics/automation.md#repo-e2e-inc--e2e) | [AI Agents](../topics/ai-agents.md#repo-e2e-inc--e2e) | [Browser Automation](../topics/browser-automation.md#repo-e2e-inc--e2e) | [MCP](../topics/mcp.md#repo-e2e-inc--e2e) | [Mobile Development](../topics/mobile-development.md#repo-e2e-inc--e2e)
+- **Kind:** Framework
+- **Best for:** Teams automating application journeys across browsers and mobile devices
+- **Languages:** TypeScript
+- **License:** Apache-2.0
+- **Lifecycle:** Active
+- **GitHub stars:** 14,113
+
+**Key features**
+
+  - Agent-driven actions and assertions alongside deterministic test assertions
+  - Replays verified agent actions without model calls until the app changes
+  - Browser engines via Playwright and mobile simulators and emulators
 
 <a id="repo-lynx-family--lynx"></a>
 
@@ -43,7 +65,7 @@ The core engine of an open-source family for creating native mobile and web user
 - **Languages:** C++, TypeScript, JavaScript
 - **License:** Apache-2.0
 - **Lifecycle:** Active
-- **GitHub stars:** 14,996
+- **GitHub stars:** 15,269
 
 **Key features**
 

@@ -2,29 +2,35 @@
 
 # Application Frameworks
 
-[Back to the main catalog](../README.md) | **12 repositories**
+[Back to the main catalog](../README.md) | **14 repositories**
 
 ## Topics in this category
 
-- [Agent Skills](../topics/agent-skills.md) (1)
-- [API Development](../topics/api-development.md) (3)
-- [Backend Development](../topics/backend-development.md) (4)
+- [Agent Skills](../topics/agent-skills.md) (2)
+- [API Development](../topics/api-development.md) (4)
+- [Automation](../topics/automation.md) (1)
+- [Backend Development](../topics/backend-development.md) (5)
 - [Chat UI](../topics/chat-ui.md) (1)
-- [CLI](../topics/cli.md) (1)
+- [CLI](../topics/cli.md) (2)
+- [Cloud](../topics/cloud.md) (1)
 - [Coding Agents](../topics/coding-agents.md) (1)
-- [Frameworks](../topics/frameworks.md) (8)
+- [Deployment](../topics/deployment.md) (1)
+- [Design Systems](../topics/design-systems.md) (1)
+- [Desktop Development](../topics/desktop-development.md) (1)
+- [Developer Productivity](../topics/developer-productivity.md) (1)
+- [Frameworks](../topics/frameworks.md) (9)
 - [Frontend Development](../topics/frontend-development.md) (6)
 - [Libraries](../topics/libraries.md) (6)
 - [MCP](../topics/mcp.md) (1)
 - [Mobile Development](../topics/mobile-development.md) (1)
-- [Observability](../topics/observability.md) (1)
+- [Observability](../topics/observability.md) (2)
 - [Open Source](../topics/open-source.md) (2)
 - [Performance](../topics/performance.md) (2)
 - [Sandboxing](../topics/sandboxing.md) (1)
 - [Terminal](../topics/terminal.md) (1)
-- [Testing](../topics/testing.md) (2)
+- [Testing](../topics/testing.md) (3)
 - [TUI](../topics/tui.md) (1)
-- [UI Components](../topics/ui-components.md) (2)
+- [UI Components](../topics/ui-components.md) (3)
 - [Web](../topics/web.md) (9)
 - [Web UI](../topics/web-ui.md) (1)
 
@@ -41,7 +47,7 @@ The TypeScript-first, full-stack MVC framework core for Node.js web applications
 - **Languages:** TypeScript, JavaScript
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 19,044
+- **GitHub stars:** 19,192
 
 **Key features**
 
@@ -53,20 +59,20 @@ The TypeScript-first, full-stack MVC framework core for Node.js web applications
 
 ## [OpenTUI](https://github.com/anomalyco/opentui)
 
-A native terminal UI library with a Zig core, C ABI, and TypeScript bindings; it offers component-based layout and rendering primitives plus React and Solid reconcilers for building terminal applications.
+A terminal UI library with a Zig core, C ABI, Rust and TypeScript interfaces, and React and Solid rendering layers.
 
 - **Category:** [Application Frameworks](../categories/application-frameworks.md#repo-anomalyco--opentui)
 - **Topics:** [Terminal](../topics/terminal.md#repo-anomalyco--opentui) | [TUI](../topics/tui.md#repo-anomalyco--opentui) | [Libraries](../topics/libraries.md#repo-anomalyco--opentui) | [UI Components](../topics/ui-components.md#repo-anomalyco--opentui) | [Frameworks](../topics/frameworks.md#repo-anomalyco--opentui)
 - **Kind:** Library
-- **Best for:** Developers building terminal applications from TypeScript or JavaScript; Teams wanting a native core with optional React or Solid rendering layers
-- **Languages:** Zig, TypeScript
+- **Best for:** Developers building terminal applications in TypeScript or Rust; Teams wanting a native core with optional React or Solid rendering layers
+- **Languages:** Zig, TypeScript, Rust
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 12,594
+- **GitHub stars:** 13,886
 
 **Key features**
 
-  - Native Zig core that exposes a C ABI and TypeScript bindings
+  - Native Zig core with a C ABI and TypeScript and Rust interfaces
   - Component-based architecture with flexible terminal layout capabilities
   - Core package with imperative APIs and terminal primitives
 
@@ -83,13 +89,34 @@ A TypeScript library and package monorepo for building type-safe, production-gra
 - **Languages:** TypeScript
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 14,938
+- **GitHub stars:** 17,650
 
 **Key features**
 
   - The primary effect package is presented as a TypeScript standard-library foundation for production software
   - A dedicated testing module is exported from the primary package
-  - Unstable primary-package exports cover AI, CLI, cluster, HTTP, observability, persistence, RPC, schema, SQL, workflow, and workers
+  - Primary-package exports cover AI, CLI, cluster, HTTP, observability, persistence, RPC, schema, SQL, workflow, and workers
+
+<a id="repo-encoredev--encore"></a>
+
+## [Encore](https://github.com/encoredev/encore)
+
+A Go and TypeScript backend framework with local infrastructure orchestration and an optional managed cloud deployment platform.
+
+- **Category:** [Application Frameworks](../categories/application-frameworks.md#repo-encoredev--encore)
+- **Topics:** [Backend Development](../topics/backend-development.md#repo-encoredev--encore) | [API Development](../topics/api-development.md#repo-encoredev--encore) | [Cloud](../topics/cloud.md#repo-encoredev--encore) | [Deployment](../topics/deployment.md#repo-encoredev--encore) | [Observability](../topics/observability.md#repo-encoredev--encore) | [Frameworks](../topics/frameworks.md#repo-encoredev--encore) | [CLI](../topics/cli.md#repo-encoredev--encore)
+- **Kind:** Framework
+- **Best for:** Teams building backend services with consistent local and cloud infrastructure
+- **Languages:** Go, TypeScript, Rust
+- **License:** MPL-2.0
+- **Lifecycle:** Active
+- **GitHub stars:** 12,733
+
+**Key features**
+
+  - Declare services, databases, messaging, storage, and other infrastructure in application code
+  - Run local infrastructure with a dashboard and distributed traces
+  - Provision and deploy to AWS or Google Cloud through the optional platform
 
 <a id="repo-fastify--fastify"></a>
 
@@ -104,7 +131,7 @@ A Node.js web framework for building HTTP servers and APIs with route schemas, s
 - **Languages:** JavaScript
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 36,758
+- **GitHub stars:** 37,453
 
 **Key features**
 
@@ -125,7 +152,7 @@ A small TypeScript web framework built on Web Standards for defining HTTP applic
 - **Languages:** TypeScript
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 31,399
+- **GitHub stars:** 33,013
 
 **Key features**
 
@@ -146,7 +173,7 @@ The core engine of an open-source family for creating native mobile and web user
 - **Languages:** C++, TypeScript, JavaScript
 - **License:** Apache-2.0
 - **Lifecycle:** Active
-- **GitHub stars:** 14,996
+- **GitHub stars:** 15,269
 
 **Key features**
 
@@ -167,7 +194,7 @@ A specification and TypeScript SDK for delivering interactive HTML views from MC
 - **Languages:** TypeScript, JavaScript
 - **License:** Mixed licensing during Apache-2.0 transition
 - **Lifecycle:** Active
-- **GitHub stars:** 2,593
+- **GitHub stars:** 3,135
 
 **Key features**
 
@@ -188,7 +215,7 @@ An atom-based state-management library for React that composes primitive and der
 - **Languages:** TypeScript, JavaScript
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 21,229
+- **GitHub stars:** 21,336
 
 **Key features**
 
@@ -209,7 +236,7 @@ A small, hook-based state-management library for React that creates stores witho
 - **Languages:** TypeScript, JavaScript
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 58,442
+- **GitHub stars:** 58,976
 
 **Key features**
 
@@ -229,8 +256,8 @@ An open-source browser platform for building Python applications with Pyodide or
 - **Best for:** Browser applications that need Python embedded directly in an HTML page; Prototypes and web experiences that can use Pyodide or MicroPython runtimes
 - **Languages:** Python, JavaScript, HTML
 - **License:** Apache-2.0
-- **Lifecycle:** Active
-- **GitHub stars:** 18,694
+- **Lifecycle:** Maintenance
+- **GitHub stars:** 18,670
 
 **Key features**
 
@@ -251,7 +278,7 @@ A TypeScript reactive UI framework centered on JavaScript modules, tagged templa
 - **Languages:** TypeScript, JavaScript
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 3,706
+- **GitHub stars:** 3,783
 
 **Key features**
 
@@ -272,10 +299,31 @@ A type-safe application stack for building lightweight end-to-end Next.js applic
 - **Languages:** TypeScript
 - **License:** MIT
 - **Lifecycle:** Unknown
-- **GitHub stars:** 3,751
+- **GitHub stars:** 3,737
 
 **Key features**
 
   - Combines Next.js 15, Hono, Tailwind, and Drizzle ORM in the provided stack.
   - Includes the published jstack package with server and client entry points.
   - Provides a create-jstack-app command-line scaffolder in this source tree.
+
+<a id="repo-vercel-labs--native"></a>
+
+## [Native SDK](https://github.com/vercel-labs/native)
+
+A declarative toolkit for compiling TypeScript-authored desktop interfaces to native executables, with optional embedded web content.
+
+- **Category:** [Application Frameworks](../categories/application-frameworks.md#repo-vercel-labs--native)
+- **Topics:** [Desktop Development](../topics/desktop-development.md#repo-vercel-labs--native) | [UI Components](../topics/ui-components.md#repo-vercel-labs--native) | [Design Systems](../topics/design-systems.md#repo-vercel-labs--native) | [Testing](../topics/testing.md#repo-vercel-labs--native) | [Agent Skills](../topics/agent-skills.md#repo-vercel-labs--native) | [Automation](../topics/automation.md#repo-vercel-labs--native) | [Developer Productivity](../topics/developer-productivity.md#repo-vercel-labs--native)
+- **Kind:** Framework
+- **Best for:** Developers building lightweight native desktop applications from TypeScript; Agent-driven UI workflows that benefit from deterministic record and replay
+- **Languages:** Zig, TypeScript
+- **License:** Apache-2.0
+- **Lifecycle:** Experimental
+- **GitHub stars:** 7,852
+
+**Key features**
+
+  - Compiles declarative .native markup and TypeScript logic to native binaries
+  - Provides components, design tokens, state architecture, and a development CLI
+  - Provides testing and automation interfaces for inspecting and driving apps

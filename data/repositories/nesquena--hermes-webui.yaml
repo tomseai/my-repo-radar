@@ -15,15 +15,20 @@ analysis:
     use_cases:
       - "run-personal-or-team-tools"
   evidence:
-    - claim: "Hermes WebUI is a Python and vanilla JavaScript web interface for Hermes Agent, offering near CLI parity for chat, sessions, files, profiles, tasks, skills, memory, and self-hosted Docker deployment."
+    - claim: "Hermes WebUI is a Python and vanilla JavaScript web interface for Hermes
+        Agent, offering near CLI parity for chat, sessions, files, profiles,
+        tasks, skills, memory, and self-hosted Docker deployment."
       source_type: "repository-file"
       url: "https://github.com/nesquena/hermes-webui/blob/master/README.md"
       checked_at: "2026-07-19"
       confidence: "high"
   state: "complete"
   summary:
-    one_line: "A self-hosted browser interface for working with Hermes Agent sessions, files, tasks, memory, and settings."
-    why_useful: "It makes Hermes Agent capabilities available through chat and visual controls while retaining the existing agent configuration and models."
+    one_line: "A self-hosted browser interface for working with Hermes Agent
+      sessions, files, tasks, memory, and settings."
+    why_useful: "It makes Hermes Agent capabilities available through chat and
+      visual controls while retaining the existing agent configuration and
+      models."
 curation:
   confidence: null
   evidence: []
@@ -37,33 +42,37 @@ id: "github:nesquena/hermes-webui"
 import:
   github_snapshot:
     archived: false
-    created_at: "2026-03-30T21:50:12Z"
-    default_branch: "master"
-    description: "Hermes WebUI: The best way to use Hermes Agent from the web or from your phone!"
+    created_at: 2026-03-30T21:50:12Z
+    default_branch: master
+    description: "Hermes WebUI: The best way to use Hermes Agent from the web or
+      from your phone!"
     disabled: false
-    fetched_at: "2026-07-19T19:16:14.796Z"
+    fetched_at: 2026-11-22T12:07:00.148Z
     fork: false
-    forks: 2177
-    homepage: "https://get-hermes.ai/setup"
-    latest_release: null
-    license_spdx: "MIT"
-    open_issues: 319
-    primary_language: "Python"
-    pushed_at: "2026-07-19T19:03:55Z"
-    stars: 16264
+    forks: 2855
+    homepage: https://get-hermes.ai/setup
+    latest_release:
+      tag: v0.52.727
+      published_at: 2026-11-22T09:32:35Z
+      url: https://github.com/nesquena/hermes-webui/releases/tag/v0.52.727
+    license_spdx: MIT
+    open_issues: 1023
+    primary_language: Python
+    pushed_at: 2026-11-22T11:07:33Z
+    stars: 19605
     topics:
-      - "agent"
-      - "ai-agents"
-      - "hermes"
-      - "hermes-agent"
-      - "nous-research"
-    updated_at: "2026-07-19T19:07:07Z"
+      - agent
+      - ai-agents
+      - hermes
+      - hermes-agent
+      - nous-research
+    updated_at: 2026-11-22T10:58:03Z
   sources:
-    - observed_at: "2026-07-19T15:12:26Z"
-      relation: "starred"
-      source_id: "github:user:tomseai:stars"
-      source_url: "https://github.com/tomseai?tab=stars"
-  state: "imported"
+    - observed_at: 2026-07-19T15:12:26Z
+      relation: starred
+      source_id: github:user:tomseai:stars
+      source_url: https://github.com/tomseai?tab=stars
+  state: refreshed
 repository:
   aliases: []
   github_node_id: "R_kgDOR1LuPA"

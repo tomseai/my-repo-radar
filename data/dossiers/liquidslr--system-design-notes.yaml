@@ -1,0 +1,74 @@
+schema_version: 2
+repository_id: github:liquidslr/system-design-notes
+research:
+  state: complete
+  source_commit: 9d8388721e7231442763ad37398b8d82224aa68f
+  bundle_collected_at: 2026-09-16T15:11:21.301Z
+  researched_at: 2026-09-16T17:13:52+02:00
+  confidence: medium
+classification:
+  primary_category: documentation-and-learning
+  topics:
+    - documentation
+    - tutorials
+    - reference
+    - backend-development
+    - databases
+    - performance
+project:
+  name: System Design Interview Notes
+  kind: documentation
+  summary: >-
+    Work-in-progress chapter notes and architecture diagrams based on both
+    volumes of System Design Interview – An Insider's Guide, covering system
+    design fundamentals and 25 concrete distributed-system design exercises.
+  best_for:
+    - Readers reviewing system-design interview concepts alongside the source books
+    - Engineers seeking a visual index of common scalability patterns and system-design case studies
+key_features:
+  - Twenty-eight chapters covering scaling, estimation, an interview framework, and system-design case studies
+  - Foundational material on load balancing, caching, replication, message queues, consistent hashing, and distributed data
+  - Case studies for chat, search autocomplete, video, file sync, maps, email, object storage, payments, wallets, and exchanges
+  - Hundreds of locally stored diagrams illustrating architectures, data flows, algorithms, storage models, and failure handling
+  - Curated links to papers, engineering posts, talks, and reference implementations for selected topics
+usage:
+  interfaces:
+    - GitHub Markdown chapters
+    - Hosted Pagefy reading site
+    - Local image-rich documentation tree
+  installation:
+    - Browse the root index and linked chapter directories on GitHub
+    - Use the hosted Pagefy site
+    - Clone the repository for offline Markdown and diagram access
+  setup: low
+technology:
+  languages:
+    - Markdown
+  notable_components:
+    - Twenty-eight chapter directories
+    - PNG architecture and data-flow diagrams
+    - Pagefy-hosted reader
+license:
+  spdx: null
+  name: No repository license grant
+  notes: >-
+    No license file or reuse grant appears in the reviewed source tree; the
+    notes are based on separately published books, so reuse rights are not established.
+status:
+  lifecycle: active
+  archived: false
+  latest_release: null
+  latest_release_at: null
+strengths:
+  - Organizes a broad range of system-design fundamentals and case studies into a consistent chapter sequence
+  - Extensive diagrams make architecture and data-flow trade-offs easier to scan than prose alone
+  - Adds primary papers and real-world engineering references for several foundational topics
+caveats:
+  - The author labels the notes a work in progress, so chapter completeness and accuracy can vary
+  - These are derivative study notes rather than the source books or an independently reviewed production-design standard
+  - No repository license was found, leaving permission to copy, adapt, or redistribute the notes and diagrams unclear
+  - Many supplemental references are external and may change or disappear independently of this repository
+  - The retained release feed has no entries, so no authoritative versioned release can be established
+sources:
+  - https://raw.githubusercontent.com/liquidslr/system-design-notes/9d8388721e7231442763ad37398b8d82224aa68f/Readme.md
+  - https://github.com/liquidslr/system-design-notes/releases.atom

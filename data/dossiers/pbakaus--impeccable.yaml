@@ -2,9 +2,9 @@ schema_version: 2
 repository_id: github:pbakaus/impeccable
 research:
   state: complete
-  source_commit: e4ab5e24bdf5321b72163d2fbcbe6fa985c848ba
-  bundle_collected_at: 2026-07-19T20:44:52.653Z
-  researched_at: 2026-07-20T18:00:00+02:00
+  source_commit: b49177d32788f2dc585c42831d845dacf1ebed2c
+  bundle_collected_at: 2026-11-22T12:10:14.604Z
+  researched_at: 2026-11-22T12:22:44Z
   confidence: high
 
 classification:
@@ -25,14 +25,18 @@ project:
     iteration and a standalone CLI that detects deterministic frontend
     anti-patterns in source files, directories, and URLs.
   best_for:
-    - Teams guiding AI coding agents toward an established frontend design language
-    - Reviewing generated interface code for repeatable design and accessibility issues
+    - Teams guiding AI coding agents toward an established frontend design
+      language
+    - Reviewing generated interface code for repeatable design and accessibility
+      issues
 
 key_features:
-  - One skill with 23 design commands, including setup, critique, audit, and live iteration
+  - One skill with 24 design commands, including setup, critique, audit, and
+    live iteration
   - Project design context through PRODUCT.md and optional DESIGN.md
   - Standalone CLI detector for directories, HTML files, URLs, and JSON output
-  - 46 deterministic rules for AI-design tells and general frontend-quality issues
+  - 62 deterministic rules for AI-design tells and general frontend-quality
+    issues
   - Provider-native hooks that return detector findings to agent workflows
 
 usage:
@@ -58,7 +62,8 @@ technology:
 license:
   spdx: Apache-2.0
   name: Apache License 2.0
-  notes: Includes the Apache patent grant and its license conditions; no additional repository-specific restriction is retained in the bundle.
+  notes: Includes the Apache patent grant and its license conditions; no
+    additional repository-specific restriction is retained in the bundle.
 
 status:
   lifecycle: active
@@ -67,17 +72,21 @@ status:
   latest_release_at: null
 
 strengths:
-  - Combines design guidance, automated checks, and agent-feedback hooks in one workflow
+  - Combines design guidance, automated checks, and agent-feedback hooks in one
+    workflow
   - Runs deterministic detector checks without an LLM or API key
   - Supports multiple coding-agent harnesses and standalone CLI use
 
 caveats:
-  - Requires Node.js 22.12 or later according to the package manifest
+  - Live copy Apply can launch a local coding agent with approvals and sandboxing disabled unless configured otherwise
+  - The npm installer requires Node.js 18.19 or later according to the package manifest
   - Codex users must approve the project hook after install or update
-  - The retained release feed contains independent Skill and CLI versions, not a single repository-wide release
+  - The retained release feed contains independent Skill and CLI versions, not a
+    single repository-wide release
 
 sources:
-  - https://raw.githubusercontent.com/pbakaus/impeccable/e4ab5e24bdf5321b72163d2fbcbe6fa985c848ba/README.md
-  - https://raw.githubusercontent.com/pbakaus/impeccable/e4ab5e24bdf5321b72163d2fbcbe6fa985c848ba/LICENSE
-  - https://raw.githubusercontent.com/pbakaus/impeccable/e4ab5e24bdf5321b72163d2fbcbe6fa985c848ba/package.json
+  - https://raw.githubusercontent.com/pbakaus/impeccable/b49177d32788f2dc585c42831d845dacf1ebed2c/README.md
+  - https://raw.githubusercontent.com/pbakaus/impeccable/b49177d32788f2dc585c42831d845dacf1ebed2c/LICENSE
+  - https://raw.githubusercontent.com/pbakaus/impeccable/b49177d32788f2dc585c42831d845dacf1ebed2c/package.json
   - https://github.com/pbakaus/impeccable/releases.atom
+  - https://github.com/pbakaus/impeccable/commit/b49177d32788f2dc585c42831d845dacf1ebed2c

@@ -2,9 +2,9 @@ schema_version: 2
 repository_id: github:microsoft/vscode
 research:
   state: complete
-  source_commit: 693614c9f239b49f6d13d55da7f1a851d5b82c36
-  bundle_collected_at: 2026-07-19T20:44:14.144Z
-  researched_at: 2026-07-20T15:42:37.362Z
+  source_commit: aeda48593263735daaaf7b85b5f77c3d7ff4a48a
+  bundle_collected_at: 2026-11-22T12:10:00.505Z
+  researched_at: 2026-11-22T12:24:13Z
   confidence: high
 
 classification:
@@ -23,8 +23,10 @@ project:
     Code, with code editing, navigation, debugging, extensibility, and tool
     integration features.
   best_for:
-    - Developers who want an extensible desktop editor for the edit-build-debug cycle
-    - Contributors and downstream distributors working from the Code - OSS source base
+    - Developers who want an extensible desktop editor for the edit-build-debug
+      cycle
+    - Contributors and downstream distributors working from the Code - OSS
+      source base
 
 key_features:
   - Comprehensive code editing, navigation, and code-understanding support
@@ -56,13 +58,14 @@ license:
   name: MIT License
   notes: >-
     The Code - OSS source is MIT-licensed; the Microsoft Visual Studio Code
-    distribution includes Microsoft-specific customizations and has a separate product license.
+    distribution includes Microsoft-specific customizations and has a separate
+    product license.
 
 status:
   lifecycle: active
   archived: false
-  latest_release: 1.129.1
-  latest_release_at: 2026-07-17
+  latest_release: 1.147.0
+  latest_release_at: 2026-11-18
 
 strengths:
   - Covers the core edit-build-debug workflow in a single extensible editor
@@ -70,12 +73,17 @@ strengths:
   - Provides a documented containerized environment for source development
 
 caveats:
-  - This repository is Code - OSS, not the separately licensed Microsoft Visual Studio Code distribution
-  - A full source build in the documented container or Codespaces setup needs at least four CPU cores and 6 GB of RAM, with 8 GB recommended
-  - Rich language support can depend on individual built-in or installed extensions
+  - This repository is Code - OSS, not the separately licensed Microsoft Visual
+    Studio Code distribution
+  - A full source build in the documented container or Codespaces setup needs at
+    least four CPU cores and 6 GB of RAM, with 8 GB recommended
+  - Rich language support can depend on individual built-in or installed
+    extensions
 
 sources:
-  - https://raw.githubusercontent.com/microsoft/vscode/693614c9f239b49f6d13d55da7f1a851d5b82c36/README.md
-  - https://raw.githubusercontent.com/microsoft/vscode/693614c9f239b49f6d13d55da7f1a851d5b82c36/LICENSE.txt
-  - https://raw.githubusercontent.com/microsoft/vscode/693614c9f239b49f6d13d55da7f1a851d5b82c36/package.json
+  - https://raw.githubusercontent.com/microsoft/vscode/aeda48593263735daaaf7b85b5f77c3d7ff4a48a/README.md
+  - https://raw.githubusercontent.com/microsoft/vscode/aeda48593263735daaaf7b85b5f77c3d7ff4a48a/LICENSE.txt
+  - https://raw.githubusercontent.com/microsoft/vscode/aeda48593263735daaaf7b85b5f77c3d7ff4a48a/package.json
   - https://github.com/microsoft/vscode/releases.atom
+  - https://github.com/microsoft/vscode/releases/tag/1.147.0
+  - https://github.com/microsoft/vscode/commit/aeda48593263735daaaf7b85b5f77c3d7ff4a48a

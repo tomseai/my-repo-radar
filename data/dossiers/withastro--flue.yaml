@@ -2,10 +2,10 @@ schema_version: 2
 repository_id: github:withastro/flue
 research:
   state: complete
-  source_commit: dbc9b05c71fadc1e8d66457815f7bf637c4dd010
-  bundle_collected_at: 2026-07-19T20:45:59.158Z
-  researched_at: 2026-07-20T18:11:27.176+02:00
-  confidence: high
+  source_commit: 129c6796fca8ea9b64fcfc86211b0dff5cfe05df
+  bundle_collected_at: 2026-11-22T12:10:40.802Z
+  researched_at: 2026-11-22T12:23:29.402Z
+  confidence: medium
 classification:
   primary_category: ai-and-automation
   topics:
@@ -22,19 +22,20 @@ classification:
 project:
   name: flue
   kind: framework
-  summary: >-
-    A TypeScript agent-harness framework for building autonomous agents and
-    guided workflows with sessions, tools, skills, filesystem access, and
-    local, virtual, or remote sandbox execution.
+  summary: A TypeScript agent-harness framework for building agents with
+    persistent sessions, typed tools, reusable skills, and local, virtual, or
+    remote sandbox execution.
   best_for:
-    - TypeScript teams building model-driven agents that need controlled tools and execution environments
-    - Deploying agent workflows across Node.js, serverless, CI, or hosted runtimes
+    - TypeScript teams building model-driven agents that need controlled tools
+      and execution environments
+    - Deploying agents across Node.js, serverless, CI, or hosted runtimes
 key_features:
-  - Stateful agents and structured workflows
+  - Agents that keep session context across conversations and events
   - Local, virtual, and remote container sandbox options
   - Typed tools, reusable skills, and MCP-server connectivity
   - Durable recovery for accepted agent work
-  - Specialized subagents and event channels including Slack, Teams, Discord, and GitHub
+  - Specialized subagents and event channels including Slack, Teams, Discord,
+    and GitHub
   - OpenTelemetry, Braintrust, and Sentry observability integrations
 usage:
   interfaces:
@@ -42,8 +43,8 @@ usage:
     - TypeScript API
     - HTTP agent endpoints
   installation:
-    - source workspace with pnpm
-    - Node.js deployment
+    - "@flue/cli package for local agent runs"
+    - pnpm workspace for development from source
   setup: moderate
 technology:
   languages:
@@ -59,19 +60,26 @@ license:
 status:
   lifecycle: experimental
   archived: false
-  latest_release: v1.0.0-beta.9
-  latest_release_at: 2026-06-30
+  latest_release: "@flue/cli@2.2.2"
+  latest_release_at: 2026-09-28
 strengths:
-  - Combines agent context, tools, skills, sandboxes, and durable execution in one TypeScript-oriented framework
-  - Supports local development and several deployment targets without coupling the harness to one model provider
+  - Combines agent context, tools, skills, sandboxes, and durable execution in
+    one TypeScript-oriented framework
+  - Supports local development and several deployment targets without coupling
+    the harness to one model provider
   - Provides built-in integrations for MCP, telemetry, and event-driven channels
 caveats:
-  - The latest retained release is a beta, so API and operational behavior may still change
-  - A production deployment still requires choosing and configuring a model provider, sandbox, persistence, and hosting environment
-  - The project accepts issues and feature discussions but generally does not accept external pull requests
+  - The monorepo publishes component versions. The listed release is the
+    verified Flue CLI publication. The newer v2.3.1 repository tag has no GitHub
+    release.
+  - A production deployment still requires choosing and configuring a model
+    provider, sandbox, persistence, and hosting environment
+  - The project accepts issues and feature discussions but generally does not
+    accept external pull requests
 sources:
-  - https://raw.githubusercontent.com/withastro/flue/dbc9b05c71fadc1e8d66457815f7bf637c4dd010/README.md
-  - https://raw.githubusercontent.com/withastro/flue/dbc9b05c71fadc1e8d66457815f7bf637c4dd010/LICENSE
-  - https://raw.githubusercontent.com/withastro/flue/dbc9b05c71fadc1e8d66457815f7bf637c4dd010/package.json
-  - https://raw.githubusercontent.com/withastro/flue/dbc9b05c71fadc1e8d66457815f7bf637c4dd010/CONTRIBUTING.md
-  - https://github.com/withastro/flue/releases.atom
+  - https://raw.githubusercontent.com/withastro/flue/129c6796fca8ea9b64fcfc86211b0dff5cfe05df/README.md
+  - https://raw.githubusercontent.com/withastro/flue/129c6796fca8ea9b64fcfc86211b0dff5cfe05df/LICENSE
+  - https://raw.githubusercontent.com/withastro/flue/129c6796fca8ea9b64fcfc86211b0dff5cfe05df/package.json
+  - https://raw.githubusercontent.com/withastro/flue/129c6796fca8ea9b64fcfc86211b0dff5cfe05df/CONTRIBUTING.md
+  - https://github.com/withastro/flue/releases/tag/%40flue/cli%402.2.2
+  - https://github.com/withastro/flue/releases/tag/v2.3.1

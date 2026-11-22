@@ -11,15 +11,20 @@ analysis:
       - "improve-developer-workflow"
       - "learn-and-reference"
   evidence:
-    - claim: "The repository extracts and tracks Claude Code system prompts, tool descriptions, subagent prompts, and utility prompts by Claude Code version."
+    - claim: "The repository extracts and tracks Claude Code system prompts, tool
+        descriptions, subagent prompts, and utility prompts by Claude Code
+        version."
       confidence: "high"
       source_type: "repository-file"
-      url: "https://github.com/Piebald-AI/claude-code-system-prompts/blob/main/README.md"
+      url: "https://github.com/Piebald-AI/claude-code-system-prompts/blob/main/README\
+        .md"
       checked_at: "2026-07-19"
   state: "complete"
   summary:
-    one_line: "A versioned reference collection of Claude Code system, tool, and agent prompts."
-    why_useful: "It makes the prompts and built-in instructions behind Claude Code inspectable for reference and comparison."
+    one_line: "A versioned reference collection of Claude Code system, tool, and
+      agent prompts."
+    why_useful: "It makes the prompts and built-in instructions behind Claude Code
+      inspectable for reference and comparison."
 curation:
   confidence: null
   evidence: []
@@ -33,31 +38,36 @@ id: "github:Piebald-AI/claude-code-system-prompts"
 import:
   github_snapshot:
     archived: false
-    created_at: "2025-11-18T21:26:33Z"
-    default_branch: "main"
-    description: "All parts of Claude Code's system prompt, 27 builtin tool descriptions, sub agent prompts (Plan/Explore/Task), utility prompts (CLAUDE.md, compact,  statusline, magic docs, WebFetch, Bash cmd, security review, agent creation).  Updated for each Claude Code version."
+    created_at: 2025-11-18T21:26:33Z
+    default_branch: main
+    description: All parts of Claude Code's system prompt, builtin tool
+      descriptions, subagent prompts (Plan/Explore/Task), and utility
+      prompts.  Updated for each Claude Code version.
     disabled: false
-    fetched_at: "2026-07-19T19:16:14.796Z"
+    fetched_at: 2026-11-22T12:07:00.148Z
     fork: false
-    forks: 2014
+    forks: 2043
     homepage: ""
-    latest_release: null
-    license_spdx: "MIT"
-    open_issues: 8
-    primary_language: "JavaScript"
-    pushed_at: "2026-07-19T18:50:29Z"
-    stars: 11907
+    latest_release:
+      tag: v2.1.330
+      published_at: 2026-11-20T19:41:51Z
+      url: https://github.com/Piebald-AI/claude-code-system-prompts/releases/tag/v2.1.330
+    license_spdx: MIT
+    open_issues: 9
+    primary_language: JavaScript
+    pushed_at: 2026-11-20T19:41:50Z
+    stars: 13209
     topics:
-      - "claude-code"
-      - "claude-code-system-prompts"
-      - "system-prompts"
-    updated_at: "2026-07-19T19:06:06Z"
+      - claude-code
+      - claude-code-system-prompts
+      - system-prompts
+    updated_at: 2026-11-22T10:44:21Z
   sources:
-    - observed_at: "2026-07-11T07:40:57Z"
-      relation: "starred"
-      source_id: "github:user:tomseai:stars"
-      source_url: "https://github.com/tomseai?tab=stars"
-  state: "imported"
+    - observed_at: 2026-07-11T07:40:57Z
+      relation: starred
+      source_id: github:user:tomseai:stars
+      source_url: https://github.com/tomseai?tab=stars
+  state: refreshed
 repository:
   aliases: []
   github_node_id: "R_kgDOQYZtxg"

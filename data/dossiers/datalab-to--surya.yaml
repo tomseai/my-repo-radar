@@ -2,9 +2,9 @@ schema_version: 2
 repository_id: github:datalab-to/surya
 research:
   state: complete
-  source_commit: 0b16e8e32237bc91ce8d76af551b9e7ed748b54a
-  bundle_collected_at: 2026-07-19T20:42:29.443Z
-  researched_at: 2026-07-20T17:12:30.5983166+02:00
+  source_commit: 253888005c21865f0ded5d50872727f2a3b307f1
+  bundle_collected_at: 2026-11-22T12:09:17.916Z
+  researched_at: 2026-11-22T12:23:25.272Z
   confidence: medium
 classification:
   primary_category: ai-and-automation
@@ -38,6 +38,7 @@ usage:
     - pip install surya-ocr
     - Install Docker and NVIDIA Container Toolkit for vLLM on NVIDIA GPUs
     - Install llama.cpp's llama-server for CPU or Apple Silicon inference
+    - Opt into MLX on Apple Silicon
   setup: high
 technology:
   languages:
@@ -47,6 +48,7 @@ technology:
     - Transformers
     - vLLM
     - llama.cpp
+    - MLX
     - Streamlit
 license:
   spdx: Apache-2.0
@@ -58,20 +60,20 @@ license:
 status:
   lifecycle: active
   archived: false
-  latest_release: v0.22.0
-  latest_release_at: 2026-07-17
+  latest_release: v0.24.0
+  latest_release_at: "2026-11-13"
 strengths:
   - Covers OCR, layout, reading order, table structure, text detection, and OCR-error detection in one project
   - Shares the main VLM server across OCR, layout, and table-recognition commands to avoid repeated model loading
   - Supports both NVIDIA GPU inference and CPU or Apple-Silicon inference paths
 caveats:
   - The Apache code license does not cover the separately licensed model weights, which have commercial-use limits
-  - OCR, layout, and table recognition require a vLLM or llama.cpp inference backend; only text detection runs directly on PyTorch
+  - OCR, layout, and table recognition need a compatible model server such as vLLM, llama.cpp, or opt-in MLX on Apple Silicon
   - The initial command run starts an inference server, so repeated short jobs can pay startup and model-load costs unless the server is kept alive
-  - The cached source is version 0.22.0 and includes a v2 migration with changed output schemas
+  - A self-hosted model server must preserve special tokens so Surya can parse the compact output format
 sources:
-  - https://raw.githubusercontent.com/datalab-to/surya/0b16e8e32237bc91ce8d76af551b9e7ed748b54a/README.md
-  - https://raw.githubusercontent.com/datalab-to/surya/0b16e8e32237bc91ce8d76af551b9e7ed748b54a/LICENSE
-  - https://raw.githubusercontent.com/datalab-to/surya/0b16e8e32237bc91ce8d76af551b9e7ed748b54a/pyproject.toml
-  - https://raw.githubusercontent.com/datalab-to/surya/0b16e8e32237bc91ce8d76af551b9e7ed748b54a/.github/workflows/ci.yml
+  - https://raw.githubusercontent.com/datalab-to/surya/253888005c21865f0ded5d50872727f2a3b307f1/README.md
+  - https://raw.githubusercontent.com/datalab-to/surya/253888005c21865f0ded5d50872727f2a3b307f1/LICENSE
+  - https://raw.githubusercontent.com/datalab-to/surya/253888005c21865f0ded5d50872727f2a3b307f1/pyproject.toml
+  - https://raw.githubusercontent.com/datalab-to/surya/253888005c21865f0ded5d50872727f2a3b307f1/.github/workflows/ci.yml
   - https://github.com/datalab-to/surya/releases.atom

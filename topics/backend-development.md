@@ -2,14 +2,15 @@
 
 # Backend Development
 
-[Back to the main catalog](../README.md) | **9 repositories**
+[Back to the main catalog](../README.md) | **12 repositories**
 
 ## Primary categories represented
 
-- [Application Frameworks](../categories/application-frameworks.md) (4)
+- [Application Frameworks](../categories/application-frameworks.md) (5)
 - [Backend and APIs](../categories/backend-and-apis.md) (2)
 - [Data and Databases](../categories/data-and-databases.md) (2)
 - [Developer Tools](../categories/developer-tools.md) (1)
+- [Documentation and Learning](../categories/documentation-and-learning.md) (2)
 
 <a id="repo-adonisjs--core"></a>
 
@@ -24,13 +25,55 @@ The TypeScript-first, full-stack MVC framework core for Node.js web applications
 - **Languages:** TypeScript, JavaScript
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 19,044
+- **GitHub stars:** 19,192
 
 **Key features**
 
   - Full-stack MVC foundation with APIs for web applications and microservices
   - HTTP server, body parsing, configuration, environment, event, logging, and health modules
   - Command toolkit exposed through the adonis-kit CLI
+
+<a id="repo-convex--convex-backend"></a>
+
+## [Convex](https://github.com/convex/convex-backend)
+
+A reactive database and application backend that combines strongly consistent TypeScript server functions with client libraries for dynamic, live-updating applications.
+
+- **Category:** [Data and Databases](../categories/data-and-databases.md#repo-convex--convex-backend)
+- **Topics:** [Databases](../topics/databases.md#repo-convex--convex-backend) | [Backend Development](../topics/backend-development.md#repo-convex--convex-backend) | [Realtime](../topics/realtime.md#repo-convex--convex-backend) | [Self Hosted](../topics/self-hosted.md#repo-convex--convex-backend) | [Open Source](../topics/open-source.md#repo-convex--convex-backend) | [Deployment](../topics/deployment.md#repo-convex--convex-backend)
+- **Kind:** Service
+- **Best for:** Teams building a reactive web application with TypeScript server logic; Operators who need an available self-hosted Convex backend
+- **Languages:** Rust, TypeScript
+- **License:** FSL-1.1-Apache-2.0
+- **Lifecycle:** Active
+- **GitHub stars:** 12,808
+
+**Key features**
+
+  - Strongly consistent database operations written as TypeScript server functions
+  - Client libraries for dynamic live-updating applications
+  - Self-hosted dashboard and CLI alongside the backend
+
+<a id="repo-ddd-by-examples--library"></a>
+
+## [DDD by Examples Library](https://github.com/ddd-by-examples/library)
+
+An example public-library application illustrating domain-driven design from discovery through implementation and tests.
+
+- **Category:** [Documentation and Learning](../categories/documentation-and-learning.md#repo-ddd-by-examples--library)
+- **Topics:** [Tutorials](../topics/tutorials.md#repo-ddd-by-examples--library) | [Reference](../topics/reference.md#repo-ddd-by-examples--library) | [Backend Development](../topics/backend-development.md#repo-ddd-by-examples--library) | [Testing](../topics/testing.md#repo-ddd-by-examples--library)
+- **Kind:** Application
+- **Best for:** Developers studying domain modeling and architecture in a concrete Java application
+- **Languages:** Java, Groovy
+- **License:** MIT
+- **Lifecycle:** Unknown
+- **GitHub stars:** 6,071
+
+**Key features**
+
+  - EventStorming and example-mapping documentation
+  - Catalogue and lending bounded contexts in a modular monolith
+  - Hexagonal architecture and separate read and write models in lending
 
 <a id="repo-dolthub--dolt"></a>
 
@@ -45,13 +88,34 @@ A Go SQL database that versions tables and schema with Git-like cloning, branchi
 - **Languages:** Go
 - **License:** Apache-2.0
 - **Lifecycle:** Active
-- **GitHub stars:** 23,900
+- **GitHub stars:** 24,957
 
 **Key features**
 
   - Git-like clone, branch, merge, push, pull, commit, diff, and history operations for tables
   - MySQL-compatible server and client interfaces for SQL data and schema access
   - SQL system tables, functions, and stored procedures for version-control operations
+
+<a id="repo-encoredev--encore"></a>
+
+## [Encore](https://github.com/encoredev/encore)
+
+A Go and TypeScript backend framework with local infrastructure orchestration and an optional managed cloud deployment platform.
+
+- **Category:** [Application Frameworks](../categories/application-frameworks.md#repo-encoredev--encore)
+- **Topics:** [Backend Development](../topics/backend-development.md#repo-encoredev--encore) | [API Development](../topics/api-development.md#repo-encoredev--encore) | [Cloud](../topics/cloud.md#repo-encoredev--encore) | [Deployment](../topics/deployment.md#repo-encoredev--encore) | [Observability](../topics/observability.md#repo-encoredev--encore) | [Frameworks](../topics/frameworks.md#repo-encoredev--encore) | [CLI](../topics/cli.md#repo-encoredev--encore)
+- **Kind:** Framework
+- **Best for:** Teams building backend services with consistent local and cloud infrastructure
+- **Languages:** Go, TypeScript, Rust
+- **License:** MPL-2.0
+- **Lifecycle:** Active
+- **GitHub stars:** 12,733
+
+**Key features**
+
+  - Declare services, databases, messaging, storage, and other infrastructure in application code
+  - Run local infrastructure with a dashboard and distributed traces
+  - Provision and deploy to AWS or Google Cloud through the optional platform
 
 <a id="repo-fastify--fastify"></a>
 
@@ -66,7 +130,7 @@ A Node.js web framework for building HTTP servers and APIs with route schemas, s
 - **Languages:** JavaScript
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 36,758
+- **GitHub stars:** 37,453
 
 **Key features**
 
@@ -74,32 +138,11 @@ A Node.js web framework for building HTTP servers and APIs with route schemas, s
   - Hooks, decorators, and encapsulated plugins for extending server behavior
   - JSON Schema-based route validation and response serialization
 
-<a id="repo-get-convex--convex-backend"></a>
-
-## [Convex](https://github.com/get-convex/convex-backend)
-
-A reactive database and application backend that combines strongly consistent TypeScript server functions with client libraries for dynamic, live-updating applications.
-
-- **Category:** [Data and Databases](../categories/data-and-databases.md#repo-get-convex--convex-backend)
-- **Topics:** [Databases](../topics/databases.md#repo-get-convex--convex-backend) | [Backend Development](../topics/backend-development.md#repo-get-convex--convex-backend) | [Realtime](../topics/realtime.md#repo-get-convex--convex-backend) | [Self Hosted](../topics/self-hosted.md#repo-get-convex--convex-backend) | [Open Source](../topics/open-source.md#repo-get-convex--convex-backend) | [Deployment](../topics/deployment.md#repo-get-convex--convex-backend)
-- **Kind:** Service
-- **Best for:** Teams building a reactive web application with TypeScript server logic; Operators who need an available self-hosted Convex backend
-- **Languages:** Rust, TypeScript
-- **License:** FSL-1.1-Apache-2.0
-- **Lifecycle:** Active
-- **GitHub stars:** 12,203
-
-**Key features**
-
-  - Strongly consistent database operations written as TypeScript server functions
-  - Client libraries for dynamic live-updating applications
-  - Self-hosted dashboard and CLI alongside the backend
-
 <a id="repo-getpaykit--paykit"></a>
 
 ## [PayKit](https://github.com/getpaykit/paykit)
 
-An embedded TypeScript billing framework that keeps billing state in an application's database while managing products, subscriptions, entitlements, usage billing, and Stripe webhooks.
+An embedded Stripe billing framework for TypeScript that keeps billing state in an application's database while managing products, subscriptions, entitlements, usage billing, and Stripe webhooks.
 
 - **Category:** [Backend and APIs](../categories/backend-and-apis.md#repo-getpaykit--paykit)
 - **Topics:** [Payments](../topics/payments.md#repo-getpaykit--paykit) | [Backend Development](../topics/backend-development.md#repo-getpaykit--paykit) | [Libraries](../topics/libraries.md#repo-getpaykit--paykit) | [Developer Productivity](../topics/developer-productivity.md#repo-getpaykit--paykit) | [Open Source](../topics/open-source.md#repo-getpaykit--paykit)
@@ -108,7 +151,7 @@ An embedded TypeScript billing framework that keeps billing state in an applicat
 - **Languages:** TypeScript
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 1,007
+- **GitHub stars:** 1,074
 
 **Key features**
 
@@ -129,13 +172,34 @@ A small TypeScript web framework built on Web Standards for defining HTTP applic
 - **Languages:** TypeScript
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 31,399
+- **GitHub stars:** 33,013
 
 **Key features**
 
   - Route definitions and HTTP response helpers through a compact TypeScript API
   - Built-in, custom, and third-party middleware support
   - Runtime adapters for edge platforms, serverless functions, and Node.js
+
+<a id="repo-liquidslr--system-design-notes"></a>
+
+## [System Design Interview Notes](https://github.com/liquidslr/system-design-notes)
+
+Work-in-progress chapter notes and architecture diagrams based on both volumes of System Design Interview – An Insider's Guide, covering system design fundamentals and 25 concrete distributed-system design exercises.
+
+- **Category:** [Documentation and Learning](../categories/documentation-and-learning.md#repo-liquidslr--system-design-notes)
+- **Topics:** [Documentation](../topics/documentation.md#repo-liquidslr--system-design-notes) | [Tutorials](../topics/tutorials.md#repo-liquidslr--system-design-notes) | [Reference](../topics/reference.md#repo-liquidslr--system-design-notes) | [Backend Development](../topics/backend-development.md#repo-liquidslr--system-design-notes) | [Databases](../topics/databases.md#repo-liquidslr--system-design-notes) | [Performance](../topics/performance.md#repo-liquidslr--system-design-notes)
+- **Kind:** Documentation
+- **Best for:** Readers reviewing system-design interview concepts alongside the source books; Engineers seeking a visual index of common scalability patterns and system-design case studies
+- **Languages:** Markdown
+- **License:** No repository license grant
+- **Lifecycle:** Active
+- **GitHub stars:** 29,025
+
+**Key features**
+
+  - Twenty-eight chapters covering scaling, estimation, an interview framework, and system-design case studies
+  - Foundational material on load balancing, caching, replication, message queues, consistent hashing, and distributed data
+  - Case studies for chat, search autocomplete, video, file sync, maps, email, object storage, payments, wallets, and exchanges
 
 <a id="repo-t3-oss--create-t3-app"></a>
 
@@ -150,7 +214,7 @@ An interactive CLI that scaffolds modular, type-safe full-stack Next.js applicat
 - **Languages:** TypeScript
 - **License:** MIT
 - **Lifecycle:** Maintenance
-- **GitHub stars:** 29,045
+- **GitHub stars:** 29,248
 
 **Key features**
 
@@ -171,7 +235,7 @@ A type-safe application stack for building lightweight end-to-end Next.js applic
 - **Languages:** TypeScript
 - **License:** MIT
 - **Lifecycle:** Unknown
-- **GitHub stars:** 3,751
+- **GitHub stars:** 3,737
 
 **Key features**
 
@@ -183,7 +247,7 @@ A type-safe application stack for building lightweight end-to-end Next.js applic
 
 ## [vendure](https://github.com/vendurehq/vendure)
 
-A plugin-first, headless commerce platform with a TypeScript GraphQL backend, React admin dashboard, and extensible business logic.
+A plugin-first headless commerce platform for B2B and other storefronts, built around a TypeScript GraphQL backend and React admin dashboard.
 
 - **Category:** [Backend and APIs](../categories/backend-and-apis.md#repo-vendurehq--vendure)
 - **Topics:** [Ecommerce](../topics/ecommerce.md#repo-vendurehq--vendure) | [Payments](../topics/payments.md#repo-vendurehq--vendure) | [Open Source](../topics/open-source.md#repo-vendurehq--vendure) | [Backend Development](../topics/backend-development.md#repo-vendurehq--vendure) | [API Development](../topics/api-development.md#repo-vendurehq--vendure) | [Frameworks](../topics/frameworks.md#repo-vendurehq--vendure)
@@ -192,7 +256,7 @@ A plugin-first, headless commerce platform with a TypeScript GraphQL backend, Re
 - **Languages:** TypeScript
 - **License:** GPL-3.0-or-later
 - **Lifecycle:** Active
-- **GitHub stars:** 8,258
+- **GitHub stars:** 8,611
 
 **Key features**
 

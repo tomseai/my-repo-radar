@@ -14,7 +14,9 @@ analysis:
       - "run-personal-or-team-tools"
       - "collaborate-on-work"
   evidence:
-    - claim: "Frappe CRM is an open-source CRM for sales teams with customizable lead and deal workflows, activities, tasks, Kanban views, and a Vue-based UI; it supports self-hosted deployment with Docker."
+    - claim: "Frappe CRM is an open-source CRM for sales teams with customizable lead
+        and deal workflows, activities, tasks, Kanban views, and a Vue-based UI;
+        it supports self-hosted deployment with Docker."
       source_type: "repository-file"
       url: "https://github.com/frappe/crm/blob/develop/README.md"
       checked_at: "2026-07-19"
@@ -22,7 +24,8 @@ analysis:
   state: "researched"
   summary:
     one_line: "An open-source CRM application for modern sales teams."
-    why_useful: "It provides customizable customer, lead, deal, and activity workflows with self-hosting options."
+    why_useful: "It provides customizable customer, lead, deal, and activity
+      workflows with self-hosting options."
 curation:
   confidence: null
   evidence: []
@@ -36,46 +39,49 @@ id: "github:frappe/crm"
 import:
   github_snapshot:
     archived: false
-    created_at: "2023-07-19T08:53:35Z"
-    default_branch: "develop"
-    description: "Fully featured, open source CRM"
+    created_at: 2023-07-19T08:53:35Z
+    default_branch: develop
+    description: Fully featured, open source CRM
     disabled: false
-    fetched_at: "2026-07-19T19:16:14.796Z"
+    fetched_at: 2026-11-22T12:07:00.148Z
     fork: false
-    forks: 1231
-    homepage: "https://frappe.io/crm"
-    latest_release: null
-    license_spdx: "AGPL-3.0"
-    open_issues: 266
-    primary_language: "Vue"
-    pushed_at: "2026-07-19T18:13:53Z"
-    stars: 2988
+    forks: 1632
+    homepage: https://frappe.io/crm
+    latest_release:
+      tag: v16.3.0
+      published_at: 2026-11-20T11:27:32Z
+      url: https://github.com/frappe/crm/releases/tag/v16.3.0
+    license_spdx: AGPL-3.0
+    open_issues: 328
+    primary_language: Vue
+    pushed_at: 2026-11-21T19:02:08Z
+    stars: 4025
     topics:
-      - "crm"
-      - "crm-connections"
-      - "crm-platform"
-      - "crm-software"
-      - "crm-solution"
-      - "crm-system"
-      - "customer"
-      - "frappe"
-      - "frappe-app"
-      - "javascript"
-      - "marketing"
-      - "open-source"
-      - "python"
-      - "sales"
-      - "vue"
-      - "vuejs3"
-      - "web"
-      - "webapp"
-    updated_at: "2026-07-19T18:06:36Z"
+      - crm
+      - crm-connections
+      - crm-platform
+      - crm-software
+      - crm-solution
+      - crm-system
+      - customer
+      - frappe
+      - frappe-app
+      - javascript
+      - low-code
+      - marketing
+      - mcp
+      - open-source
+      - python
+      - sales
+      - vue
+      - vuejs3
+    updated_at: 2026-11-22T03:43:46Z
   sources:
-    - observed_at: "2025-01-10T11:15:35Z"
-      relation: "starred"
-      source_id: "github:user:tomseai:stars"
-      source_url: "https://github.com/tomseai?tab=stars"
-  state: "imported"
+    - observed_at: 2025-01-10T11:15:35Z
+      relation: starred
+      source_id: github:user:tomseai:stars
+      source_url: https://github.com/tomseai?tab=stars
+  state: refreshed
 repository:
   aliases: []
   github_node_id: "R_kgDOJ9PpSQ"

@@ -2,12 +2,13 @@
 
 # Policy Enforcement
 
-[Back to the main catalog](../README.md) | **5 repositories**
+[Back to the main catalog](../README.md) | **7 repositories**
 
 ## Primary categories represented
 
-- [AI and Automation](../categories/ai-and-automation.md) (2)
+- [AI and Automation](../categories/ai-and-automation.md) (3)
 - [Security and Privacy](../categories/security-and-privacy.md) (3)
+- [Testing and Quality](../categories/testing-and-quality.md) (1)
 
 <a id="repo-dicklesworthstone--destructive_command_guard"></a>
 
@@ -22,13 +23,34 @@ A Rust command-line guard and pre-execution hook for AI coding agents that detec
 - **Languages:** Rust
 - **License:** MIT License with OpenAI/Anthropic Rider
 - **Lifecycle:** Active
-- **GitHub stars:** 5,151
+- **GitHub stars:** 6,373
 
 **Key features**
 
   - Pre-execution hooks for several AI coding-agent clients, including Codex CLI
   - Built-in rule packs for Git and filesystem operations, with optional domain-specific packs
   - Heredoc and inline-script scanning alongside direct command matching
+
+<a id="repo-dmmulroy--anti-slop"></a>
+
+## [anti-slop](https://github.com/dmmulroy/anti-slop)
+
+An opinionated, source-vendored Oxlint plugin and agent skill that enforces evidence-preserving TypeScript and JavaScript patterns, with an optional Effect-specific rule set.
+
+- **Category:** [Testing and Quality](../categories/testing-and-quality.md#repo-dmmulroy--anti-slop)
+- **Topics:** [Agent Skills](../topics/agent-skills.md#repo-dmmulroy--anti-slop) | [Policy Enforcement](../topics/policy-enforcement.md#repo-dmmulroy--anti-slop) | [Testing](../topics/testing.md#repo-dmmulroy--anti-slop) | [Developer Productivity](../topics/developer-productivity.md#repo-dmmulroy--anti-slop)
+- **Kind:** Plugin
+- **Best for:** TypeScript and JavaScript teams that want strict, locally customizable lint policy; Coding-agent workflows that can install and maintain vendored Oxlint rules
+- **Languages:** TypeScript, JavaScript
+- **License:** MIT
+- **Lifecycle:** Maintenance
+- **GitHub stars:** 6,257
+
+**Key features**
+
+  - Generic lint rules covering type evidence, runtime narrowing, dictionaries, mocks, assertions, performance, and spacing
+  - Five opt-in Effect rules for tagged values, matching, error handling, and service construction boundaries
+  - Agent skill for initial installation and customization-preserving updates with provenance tracking
 
 <a id="repo-mukul975--anthropic-cybersecurity-skills"></a>
 
@@ -43,11 +65,11 @@ An independent, agentskills.io-format library of cybersecurity workflows for AI 
 - **Languages:** Python, Markdown
 - **License:** Apache-2.0
 - **Lifecycle:** Active
-- **GitHub stars:** 26,064
+- **GitHub stars:** 36,537
 
 **Key features**
 
-  - Provides 817 structured skills across 29 security domains
+  - Provides 818 structured skills across 34 security domains
   - Maps skills to MITRE ATT&CK, NIST CSF, MITRE ATLAS, D3FEND, NIST AI RMF, and MITRE F3
   - Uses YAML discovery metadata, step-by-step Markdown workflows, references, helpers, and templates
 
@@ -55,7 +77,7 @@ An independent, agentskills.io-format library of cybersecurity workflows for AI 
 
 ## [NVIDIA NemoClaw](https://github.com/NVIDIA/NemoClaw)
 
-An alpha reference stack and CLI for operating selected always-on AI agents in NVIDIA OpenShell sandboxes, combining guided onboarding, inference routing, declarative network policy, and sandbox lifecycle management.
+An alpha reference stack and CLI for running supported AI agents in NVIDIA OpenShell sandboxes, with guided onboarding, managed inference and network policy, and sandbox lifecycle tools.
 
 - **Category:** [Security and Privacy](../categories/security-and-privacy.md#repo-nvidia--nemoclaw)
 - **Topics:** [AI Agents](../topics/ai-agents.md#repo-nvidia--nemoclaw) | [Agent Harnesses](../topics/agent-harnesses.md#repo-nvidia--nemoclaw) | [Sandboxing](../topics/sandboxing.md#repo-nvidia--nemoclaw) | [Security](../topics/security.md#repo-nvidia--nemoclaw) | [Policy Enforcement](../topics/policy-enforcement.md#repo-nvidia--nemoclaw) | [Self Hosted](../topics/self-hosted.md#repo-nvidia--nemoclaw) | [CLI](../topics/cli.md#repo-nvidia--nemoclaw)
@@ -64,7 +86,7 @@ An alpha reference stack and CLI for operating selected always-on AI agents in N
 - **Languages:** TypeScript, Python
 - **License:** Apache-2.0
 - **Lifecycle:** Experimental
-- **GitHub stars:** 21,840
+- **GitHub stars:** 23,066
 
 **Key features**
 
@@ -85,7 +107,7 @@ An alpha open-source meta-harness and agent runtime that provides a common orche
 - **Languages:** Python, TypeScript
 - **License:** Apache-2.0
 - **Lifecycle:** Experimental
-- **GitHub stars:** 7,503
+- **GitHub stars:** 11,489
 
 **Key features**
 
@@ -106,10 +128,31 @@ An MIT-licensed AI gateway that presents one API for routing language and multim
 - **Languages:** TypeScript
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 12,470
+- **GitHub stars:** 13,427
 
 **Key features**
 
   - Routes requests across language, vision, audio, and image model providers
   - Configurable retries, fallbacks, load balancing, timeouts, and routing rules
   - Input and output guardrails plus secure key-management options
+
+<a id="repo-statelyai--agent"></a>
+
+## [Stately Agent](https://github.com/statelyai/agent)
+
+A TypeScript framework for representing LLM-agent control flow as XState machines whose typed states, guards, and events constrain the actions a model may propose.
+
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-statelyai--agent)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-statelyai--agent) | [Agent Frameworks](../topics/agent-frameworks.md#repo-statelyai--agent) | [Agent Governance](../topics/agent-governance.md#repo-statelyai--agent) | [Policy Enforcement](../topics/policy-enforcement.md#repo-statelyai--agent) | [Multi Provider](../topics/multi-provider.md#repo-statelyai--agent) | [Observability](../topics/observability.md#repo-statelyai--agent) | [Evaluation](../topics/evaluation.md#repo-statelyai--agent) | [Testing](../topics/testing.md#repo-statelyai--agent)
+- **Kind:** Framework
+- **Best for:** Teams that need inspectable, resumable agent workflows with explicit legal transitions; Developers testing agent control flow independently from live model calls
+- **Languages:** TypeScript
+- **License:** MIT
+- **Lifecycle:** Experimental
+- **GitHub stars:** 505
+
+**Key features**
+
+  - Gives the state machine authority over control flow while models select only allowed events
+  - Separates portable machine definitions from model, execution, hosting, and persistence adapters
+  - Supports snapshots, verified event logs, human approval, retries, parallel work, and child agents

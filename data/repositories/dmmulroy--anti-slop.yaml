@@ -1,0 +1,78 @@
+analysis:
+  analyzed_at: 2026-09-16T15:45:00.000Z
+  classification:
+    primary_category: testing-and-quality
+    state: confirmed
+    technologies:
+      - typescript
+      - javascript
+      - nodejs
+    topics:
+      - agent-skills
+      - policy-enforcement
+      - testing
+      - developer-productivity
+    use_cases:
+      - test-software
+      - improve-developer-workflow
+  evidence:
+    - claim: Opinionated vendored Oxlint rules and an agent skill for rejecting
+        low-evidence JavaScript and TypeScript patterns.
+      source_type: repository-file
+      url: https://raw.githubusercontent.com/dmmulroy/anti-slop/c44ef22ca116d0ba62a3ff663a0bd13a3f3fa40b/README.md
+      checked_at: 2026-09-16
+      confidence: high
+  state: complete
+  summary:
+    one_line: Opinionated vendored Oxlint rules and an agent skill for rejecting
+      low-evidence JavaScript and TypeScript patterns.
+    why_useful: TypeScript and JavaScript teams that want strict, locally
+      customizable lint policy
+curation:
+  confidence: null
+  evidence: []
+  limitations: []
+  recommendation: null
+  reviewed_at: null
+  state: uncurated
+  strengths: []
+  verdict: null
+id: github:dmmulroy/anti-slop
+import:
+  github_snapshot:
+    archived: false
+    created_at: 2026-08-12T13:48:50Z
+    default_branch: main
+    description: Opinionated Oxlint rules for rejecting low-evidence TypeScript and
+      JavaScript patterns
+    disabled: false
+    fetched_at: 2026-11-22T12:07:00.148Z
+    fork: false
+    forks: 172
+    homepage: null
+    latest_release: null
+    license_spdx: MIT
+    open_issues: 35
+    primary_language: TypeScript
+    pushed_at: 2026-11-20T13:21:58Z
+    stars: 6257
+    topics:
+      - agent-skills
+      - linting
+      - oxlint
+      - typescript
+    updated_at: 2026-11-22T11:53:41Z
+  sources:
+    - observed_at: 2026-09-06T20:07:37Z
+      relation: starred
+      source_id: github:user:tomseai:stars
+      source_url: https://github.com/tomseai?tab=stars
+  state: refreshed
+repository:
+  aliases: []
+  github_node_id: R_kgDOT2Xtxg
+  host: github.com
+  name: anti-slop
+  owner: dmmulroy
+  url: https://github.com/dmmulroy/anti-slop
+version: 1

@@ -16,15 +16,20 @@ analysis:
       - "improve-developer-workflow"
       - "test-software"
   evidence:
-    - claim: "Open Interpreter is a Rust coding agent derived from OpenAI's Codex that can emulate multiple agent harnesses, run commands in native sandboxes, operate and test web or native applications, and work as an Agent Client Protocol agent."
+    - claim: "Open Interpreter is a Rust coding agent derived from OpenAI's Codex that
+        can emulate multiple agent harnesses, run commands in native sandboxes,
+        operate and test web or native applications, and work as an Agent Client
+        Protocol agent."
       source_type: "repository-file"
       url: "https://github.com/openinterpreter/openinterpreter/blob/main/README.md"
       checked_at: "2026-07-19"
       confidence: "high"
   state: "researched"
   summary:
-    one_line: "A Rust coding agent that supports multiple model harnesses and computer-use workflows."
-    why_useful: "It can run sandboxed commands, operate applications for QA, and integrate with ACP-compatible clients."
+    one_line: "A Rust coding agent that supports multiple model harnesses and
+      computer-use workflows."
+    why_useful: "It can run sandboxed commands, operate applications for QA, and
+      integrate with ACP-compatible clients."
 curation:
   confidence: null
   evidence: []
@@ -38,34 +43,38 @@ id: "github:openinterpreter/openinterpreter"
 import:
   github_snapshot:
     archived: false
-    created_at: "2023-07-14T07:10:44Z"
-    default_branch: "main"
-    description: "A coding agent for open models like Kimi K3"
+    created_at: 2023-07-14T07:10:44Z
+    default_branch: main
+    description: A coding agent for open models like Kimi K3.1 and GLM 5.3
     disabled: false
-    fetched_at: "2026-07-19T19:16:14.796Z"
+    fetched_at: 2026-11-22T12:07:00.148Z
     fork: false
-    forks: 5740
-    homepage: "http://openinterpreter.com/"
-    latest_release: null
-    license_spdx: "Apache-2.0"
-    open_issues: 286
-    primary_language: "Rust"
-    pushed_at: "2026-07-18T19:26:26Z"
-    stars: 66803
+    forks: 5944
+    homepage: http://openinterpreter.com/
+    latest_release:
+      tag: rust-v0.0.61
+      published_at: 2026-11-11T04:39:22Z
+      url: https://github.com/openinterpreter/openinterpreter/releases/tag/rust-v0.0.61
+    license_spdx: Apache-2.0
+    open_issues: 39
+    primary_language: Rust
+    pushed_at: 2026-11-22T11:33:43Z
+    stars: 68935
     topics:
-      - "acp"
-      - "coding-agent"
-      - "deepseek"
-      - "kimi"
-      - "qwen"
-      - "rust"
-    updated_at: "2026-07-19T19:10:41Z"
+      - acp
+      - coding-agent
+      - deepseek
+      - kimi
+      - python
+      - qwen
+      - rust
+    updated_at: 2026-11-22T10:50:41Z
   sources:
-    - observed_at: "2025-01-02T16:28:47Z"
-      relation: "starred"
-      source_id: "github:user:tomseai:stars"
-      source_url: "https://github.com/tomseai?tab=stars"
-  state: "imported"
+    - observed_at: 2025-01-02T16:28:47Z
+      relation: starred
+      source_id: github:user:tomseai:stars
+      source_url: https://github.com/tomseai?tab=stars
+  state: refreshed
 repository:
   aliases: []
   github_node_id: "R_kgDOJ7brVg"

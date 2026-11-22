@@ -1,0 +1,101 @@
+analysis:
+  analyzed_at: "2026-08-15T13:05:00.000Z"
+  classification:
+    primary_category: "security-and-privacy"
+    state: "confirmed"
+    technologies:
+      - "typescript"
+      - "python"
+      - "nodejs"
+      - "docker"
+    topics:
+      - "security"
+      - "cli"
+      - "code-review"
+      - "codebase-search"
+      - "automation"
+      - "multi-provider"
+      - "parallel-agents"
+      - "containers"
+      - "github"
+    use_cases:
+      - "secure-software"
+      - "test-software"
+      - "ship-and-operate-software"
+  evidence:
+    - claim: "Codex Security provides a public CLI and TypeScript SDK for finding,
+        validating, tracking, and fixing software vulnerabilities."
+      source_type: "repository-file"
+      url: "https://raw.githubusercontent.com/openai/codex-security/ab8a012e0cacb3efb\
+        fea3eab56a6c8edf62420f8/README.md"
+      checked_at: "2026-08-15"
+      confidence: "high"
+  state: "complete"
+  summary:
+    one_line: "OpenAI's CLI and TypeScript SDK for local, CI, deep, and bulk
+      vulnerability scanning."
+    why_useful: "It connects vulnerability discovery with validation, history,
+      comparison, and remediation workflows."
+curation:
+  confidence: null
+  evidence: []
+  limitations: []
+  recommendation: null
+  reviewed_at: null
+  state: "uncurated"
+  strengths: []
+  verdict: null
+id: "github:openai/codex-security"
+import:
+  github_snapshot:
+    archived: false
+    created_at: 2026-07-13T22:00:13Z
+    default_branch: main
+    description: "OpenAI's Codex Security CLI and TypeScript SDK for finding,
+      validating, and fixing security vulnerabilities. npm:
+      https://www.npmjs.com/package/@openai/codex-security"
+    disabled: false
+    fetched_at: 2026-11-22T12:07:00.148Z
+    fork: false
+    forks: 1127
+    homepage: https://developers.openai.com/codex/security
+    latest_release:
+      tag: npm-v0.10.1
+      published_at: 2026-11-18T19:21:09Z
+      url: https://github.com/openai/codex-security/releases/tag/npm-v0.10.1
+    license_spdx: Apache-2.0
+    open_issues: 219
+    primary_language: TypeScript
+    pushed_at: 2026-11-22T10:53:24Z
+    stars: 14266
+    topics:
+      - ai-security
+      - application-security
+      - cli
+      - code-scanning
+      - codex
+      - codex-security
+      - cybersecurity
+      - devsecops
+      - nodejs
+      - npm
+      - openai
+      - sdk
+      - security
+      - typescript
+      - vulnerability-scanning
+    updated_at: 2026-11-22T11:43:16Z
+  sources:
+    - observed_at: 2026-08-15T12:33:53Z
+      relation: starred
+      source_id: github:user:tomseai:stars
+      source_url: https://github.com/tomseai?tab=stars
+  state: refreshed
+repository:
+  aliases: []
+  github_node_id: "R_kgDOTXjnhA"
+  host: "github.com"
+  name: "codex-security"
+  owner: "openai"
+  url: "https://github.com/openai/codex-security"
+version: 1

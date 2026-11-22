@@ -2,9 +2,9 @@ schema_version: 2
 repository_id: github:sipeed/picoclaw
 research:
   state: complete
-  source_commit: 85dcfccad66dd0dca0ec9765976b665d8ebf7191
-  bundle_collected_at: 2026-07-19T20:45:20.199Z
-  researched_at: 2026-07-20T18:01:22.8375840+02:00
+  source_commit: bbf6893ca7afad27f1d00a0f5a45982a549c6ed6
+  bundle_collected_at: 2026-11-22T12:10:25.957Z
+  researched_at: 2026-11-22T12:24:40.682Z
   confidence: high
 classification:
   primary_category: ai-and-automation
@@ -23,11 +23,13 @@ project:
   kind: application
   summary: >-
     A Go-based AI-agent application distributed as a small cross-architecture
-    binary, with a command-line interface, browser-based launcher, chat
-    gateway, MCP tools, skills, schedules, and configurable LLM providers.
+    binary, with a command-line interface, browser-based launcher, chat gateway,
+    MCP tools, skills, schedules, and configurable LLM providers.
   best_for:
-    - Running an AI assistant on resource-constrained Linux, ARM, RISC-V, MIPS, or x86 hardware
-    - Self-hosted personal automation that needs MCP tools, skills, schedules, or chat-channel access
+    - Running an AI assistant on resource-constrained Linux, ARM, RISC-V, MIPS,
+      or x86 hardware
+    - Self-hosted personal automation that needs MCP tools, skills, schedules,
+      or chat-channel access
 key_features:
   - Single-binary deployment for several CPU architectures
   - CLI, interactive mode, and a browser-based WebUI launcher
@@ -65,18 +67,24 @@ status:
   latest_release: v0.3.1
   latest_release_at: 2026-07-03
 strengths:
-  - Offers low-footprint binary deployment across a wide range of hardware architectures
-  - Combines interactive chat, scheduled automation, skills, MCP, and provider routing in one application
+  - Offers low-footprint binary deployment across a wide range of hardware
+    architectures
+  - Combines interactive chat, scheduled automation, skills, MCP, and provider
+    routing in one application
   - Provides binary, source, Docker, desktop WebUI, and chat-gateway entry points
 caveats:
+  - The feed also includes a newer nightly build; v0.3.1 is the stable release
   - Agent operation requires configuring an LLM provider and suitable credentials
-  - Building the WebUI launcher from source adds Node.js and pnpm requirements beyond Go
-  - Remote gateway and Docker deployments need deliberate host-binding and access-control configuration
-  - Published footprint and startup figures are project benchmarks and may vary with build and workload
+  - Building the WebUI launcher from source adds Node.js and pnpm requirements
+    beyond Go
+  - Remote gateway and Docker deployments need deliberate host-binding and
+    access-control configuration
+  - Published footprint and startup figures are project benchmarks and may vary
+    with build and workload
 sources:
-  - https://raw.githubusercontent.com/sipeed/picoclaw/85dcfccad66dd0dca0ec9765976b665d8ebf7191/README.md
-  - https://raw.githubusercontent.com/sipeed/picoclaw/85dcfccad66dd0dca0ec9765976b665d8ebf7191/LICENSE
-  - https://raw.githubusercontent.com/sipeed/picoclaw/85dcfccad66dd0dca0ec9765976b665d8ebf7191/go.mod
-  - https://raw.githubusercontent.com/sipeed/picoclaw/85dcfccad66dd0dca0ec9765976b665d8ebf7191/docker/docker-compose.yml
-  - https://raw.githubusercontent.com/sipeed/picoclaw/85dcfccad66dd0dca0ec9765976b665d8ebf7191/docs/guides/configuration.md
+  - https://raw.githubusercontent.com/sipeed/picoclaw/bbf6893ca7afad27f1d00a0f5a45982a549c6ed6/README.md
+  - https://raw.githubusercontent.com/sipeed/picoclaw/bbf6893ca7afad27f1d00a0f5a45982a549c6ed6/LICENSE
+  - https://raw.githubusercontent.com/sipeed/picoclaw/bbf6893ca7afad27f1d00a0f5a45982a549c6ed6/go.mod
+  - https://raw.githubusercontent.com/sipeed/picoclaw/bbf6893ca7afad27f1d00a0f5a45982a549c6ed6/docker/docker-compose.yml
+  - https://raw.githubusercontent.com/sipeed/picoclaw/bbf6893ca7afad27f1d00a0f5a45982a549c6ed6/docs/guides/configuration.md
   - https://github.com/sipeed/picoclaw/releases.atom

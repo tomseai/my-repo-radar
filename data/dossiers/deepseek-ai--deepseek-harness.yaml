@@ -1,0 +1,98 @@
+schema_version: 2
+repository_id: github:deepseek-ai/deepseek-harness
+research:
+  state: complete
+  source_commit: 4b399c39a6d1479cd84ca591b4d7c88e24d38a96
+  bundle_collected_at: 2026-11-22T12:09:23.459Z
+  researched_at: 2026-11-22T12:24:20.661Z
+  confidence: medium
+classification:
+  primary_category: ai-and-automation
+  topics:
+    - ai-agents
+    - coding-agents
+    - agent-harnesses
+    - agent-skills
+    - tool-use
+    - mcp
+    - computer-use
+    - browser-automation
+    - web-ui
+    - cli
+    - sandboxing
+project:
+  name: DeepSeek Harness
+  kind: framework
+  summary: A developer-preview agent harness built around an everything-is-a-plugin
+    Cordis architecture, with a local Web UI, command-line and headless flows,
+    extensible tools, skills, sessions, and experimental browser and computer use.
+  best_for:
+    - Developers evaluating a highly modular local harness for coding and tool-using
+      agents
+    - Plugin authors experimenting with DeepSeek Harness services, tools, interfaces,
+      and runtime extensions
+key_features:
+  - Cordis-based plugin architecture used across the agent runtime, tools,
+    interfaces, and configuration
+  - Local Web UI with session management, file previews, trajectories, and an
+    integrated multi-tab terminal
+  - Headless operation that accepts tasks on standard input, resumes sessions, and
+    streams JSON events
+  - Agent skills, subagents, MCP clients and resources, shell and filesystem tools,
+    web search, and persistent session components
+  - Experimental browser automation through Playwright MCP, Chrome DevTools MCP, or
+    Stagehand
+  - Experimental computer use through a CUA Driver MCP integration or native driver
+usage:
+  interfaces:
+    - Local Web UI
+    - dsh CLI and headless JSON event stream
+    - Python SDK
+    - Plugin packages and MCP integrations
+  installation:
+    - Run npx @deepseek-ai/dsh web with a supported Node.js version
+    - Clone the monorepo, run pnpm install and pnpm run build, then pnpm dsh web
+  setup: moderate
+technology:
+  languages:
+    - TypeScript
+    - Python
+  notable_components:
+    - Cordis plugin framework
+    - Node.js and pnpm monorepo
+    - React Web UI and Electron desktop packages
+    - Model Context Protocol
+    - Vitest and Oxlint
+license:
+  spdx: MIT
+  name: MIT License
+  notes: Repository code is MIT licensed; the README separately points to
+    THIRD_PARTY_NOTICES.md for bundled dependencies and their licenses.
+status:
+  lifecycle: experimental
+  archived: false
+  latest_release: null
+  latest_release_at: null
+strengths:
+  - Plugin boundaries cover a broad set of agent concerns rather than limiting
+    extensibility to tools alone
+  - Provides both an approachable local Web UI and scriptable headless execution with
+    structured events
+  - The repository exposes extensive build, test, documentation, packaging, and
+    invariant-checking infrastructure
+caveats:
+  - The project explicitly identifies itself as a developer preview with
+    compatibility-breaking changes expected
+  - Browser use and computer use are documented as experimental
+  - Source builds require a large pnpm monorepo and a narrow current Node.js engine
+    range
+  - External code contributions are not accepted at the reviewed commit; feedback and
+    ecosystem plugins are directed to Discussions
+  - The latest versioned entries in the retained feed are previews, led by
+    dsh-v0.2.3-alpha.2
+sources:
+  - https://raw.githubusercontent.com/deepseek-ai/deepseek-harness/4b399c39a6d1479cd84ca591b4d7c88e24d38a96/README.md
+  - https://raw.githubusercontent.com/deepseek-ai/deepseek-harness/4b399c39a6d1479cd84ca591b4d7c88e24d38a96/package.json
+  - https://raw.githubusercontent.com/deepseek-ai/deepseek-harness/4b399c39a6d1479cd84ca591b4d7c88e24d38a96/CONTRIBUTING.md
+  - https://raw.githubusercontent.com/deepseek-ai/deepseek-harness/4b399c39a6d1479cd84ca591b4d7c88e24d38a96/LICENSE
+  - https://github.com/deepseek-ai/deepseek-harness/releases.atom

@@ -8,7 +8,9 @@ analysis:
     topics: []
     use_cases: []
   evidence:
-    - claim: "Effect is a TypeScript library for building robust, maintainable, type-safe, production-grade applications; the main branch contains its beta v4 development."
+    - claim: "Effect is a TypeScript library for building robust, maintainable,
+        type-safe, production-grade applications; the main branch contains its
+        beta v4 development."
       source_type: "repository-file"
       url: "https://github.com/Effect-TS/effect/blob/main/README.md"
       checked_at: "2026-07-19"
@@ -16,7 +18,8 @@ analysis:
   state: "researched"
   summary:
     one_line: "A TypeScript library for robust, type-safe application development."
-    why_useful: "It provides a foundation for building maintainable production applications in TypeScript."
+    why_useful: "It provides a foundation for building maintainable production
+      applications in TypeScript."
 curation:
   confidence: null
   evidence: []
@@ -30,41 +33,44 @@ id: "github:Effect-TS/effect"
 import:
   github_snapshot:
     archived: false
-    created_at: "2019-11-13T12:49:21Z"
-    default_branch: "main"
-    description: "Build production-ready applications in TypeScript"
+    created_at: 2019-11-13T12:49:21Z
+    default_branch: main
+    description: Build production-ready applications in TypeScript
     disabled: false
-    fetched_at: "2026-07-19T19:16:14.796Z"
+    fetched_at: 2026-11-22T12:07:00.148Z
     fork: false
-    forks: 617
-    homepage: "https://effect.website"
-    latest_release: null
-    license_spdx: "MIT"
-    open_issues: 312
-    primary_language: "TypeScript"
-    pushed_at: "2026-07-19T18:56:30Z"
-    stars: 14938
+    forks: 917
+    homepage: https://effect.website
+    latest_release:
+      tag: "@effect/openapi-generator@4.1.5"
+      published_at: 2026-11-20T09:10:20Z
+      url: https://github.com/Effect-TS/effect/releases/tag/%40effect/openapi-generator%404.1.5
+    license_spdx: MIT
+    open_issues: 173
+    primary_language: TypeScript
+    pushed_at: 2026-11-22T10:23:55Z
+    stars: 17650
     topics:
-      - "cli"
-      - "clustering"
-      - "concurrency"
-      - "dependency-injection"
-      - "effect"
-      - "error-handling"
-      - "javascript"
-      - "observability"
-      - "opentelemetry"
-      - "platform"
-      - "schema"
-      - "typescript"
-      - "workflows"
-    updated_at: "2026-07-19T18:55:35Z"
+      - cli
+      - clustering
+      - concurrency
+      - dependency-injection
+      - effect
+      - error-handling
+      - javascript
+      - observability
+      - opentelemetry
+      - platform
+      - schema
+      - typescript
+      - workflows
+    updated_at: 2026-11-22T09:58:23Z
   sources:
-    - observed_at: "2026-04-03T20:52:10Z"
-      relation: "starred"
-      source_id: "github:user:tomseai:stars"
-      source_url: "https://github.com/tomseai?tab=stars"
-  state: "imported"
+    - observed_at: 2026-04-03T20:52:10Z
+      relation: starred
+      source_id: github:user:tomseai:stars
+      source_url: https://github.com/tomseai?tab=stars
+  state: refreshed
 repository:
   aliases: []
   github_node_id: "MDEwOlJlcG9zaXRvcnkyMjE0NTgxMzY="

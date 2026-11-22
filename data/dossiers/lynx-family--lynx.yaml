@@ -2,9 +2,9 @@ schema_version: 2
 repository_id: github:lynx-family/lynx
 research:
   state: complete
-  source_commit: 8fc0ccba8bd66e8dedeb4ae6aa5cc2da70c48899
-  bundle_collected_at: 2026-07-19T20:43:57.011Z
-  researched_at: 2026-07-20T15:41:53.3142160Z
+  source_commit: 5955097ebf225243cd8efbd8e5df7d11445bc4cd
+  bundle_collected_at: 2026-11-22T12:09:51.674Z
+  researched_at: 2026-11-22T12:22:40.906Z
   confidence: high
 
 classification:
@@ -22,7 +22,8 @@ project:
   kind: framework
   summary: >-
     The core engine of an open-source family for creating native mobile and web
-    user interfaces from one codebase using web-oriented CSS and React knowledge.
+    user interfaces from one codebase using web-oriented CSS and React
+    knowledge.
   best_for:
     - Web developers building Android, iOS, and web user interfaces
     - Teams that need a native mobile runtime with web-oriented authoring
@@ -63,8 +64,8 @@ license:
 status:
   lifecycle: active
   archived: false
-  latest_release: 3.9.0
-  latest_release_at: 2026-06-26
+  latest_release: 4.2.0
+  latest_release_at: 2026-10-27
 
 strengths:
   - Targets native mobile and web interfaces from a shared codebase
@@ -72,12 +73,16 @@ strengths:
   - Includes an official explorer for testing the runtime
 
 caveats:
-  - This repository provides the core engine, while other Lynx-family pieces live elsewhere
+  - This repository provides the core engine, while other Lynx-family pieces
+    live elsewhere
   - The maintained README recommends macOS for development
-  - Windows and Linux development are not verified or guaranteed by the retained README
+  - Windows and Linux development are not verified or guaranteed by the retained
+    README
+  - The release feed also contains the 4.3.0-rc.1 preview
 
 sources:
-  - https://raw.githubusercontent.com/lynx-family/lynx/8fc0ccba8bd66e8dedeb4ae6aa5cc2da70c48899/README.md
-  - https://raw.githubusercontent.com/lynx-family/lynx/8fc0ccba8bd66e8dedeb4ae6aa5cc2da70c48899/LICENSE
-  - https://raw.githubusercontent.com/lynx-family/lynx/8fc0ccba8bd66e8dedeb4ae6aa5cc2da70c48899/package.json
+  - https://raw.githubusercontent.com/lynx-family/lynx/5955097ebf225243cd8efbd8e5df7d11445bc4cd/README.md
+  - https://raw.githubusercontent.com/lynx-family/lynx/5955097ebf225243cd8efbd8e5df7d11445bc4cd/LICENSE
+  - https://raw.githubusercontent.com/lynx-family/lynx/5955097ebf225243cd8efbd8e5df7d11445bc4cd/package.json
   - https://github.com/lynx-family/lynx/releases.atom
+  - https://github.com/lynx-family/lynx/releases/tag/4.2.0

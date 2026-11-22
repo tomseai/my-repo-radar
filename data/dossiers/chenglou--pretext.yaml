@@ -2,9 +2,9 @@ schema_version: 2
 repository_id: github:chenglou/pretext
 research:
   state: complete
-  source_commit: ac49b09b7d83ede19581fa94a8b892b07d309baf
-  bundle_collected_at: 2026-07-19T20:42:07.900Z
-  researched_at: 2026-07-20T00:26:00.000Z
+  source_commit: 6ed1edd294698374ab2fb0d3eb36276527084879
+  bundle_collected_at: 2026-11-22T12:09:11.012Z
+  researched_at: 2026-11-22T12:22:45.491824+00:00
   confidence: high
 
 classification:
@@ -20,20 +20,25 @@ project:
   kind: library
   summary: >-
     A JavaScript and TypeScript library for calculating multiline text layout
-    without DOM measurement or reflow, using cached canvas-based measurement
-    and Unicode-aware line breaking for height prediction and manual rendering
-    in DOM, Canvas, SVG, or future server-side targets.
+    without DOM measurement or reflow, using cached canvas-based measurement and
+    Unicode-aware line breaking for height prediction and manual rendering in
+    DOM, Canvas, SVG, or future server-side targets.
   best_for:
     - Predicting text heights for virtualized or dynamically sized web interfaces
-    - Building custom multiline layouts or renderers that need line-level geometry
+    - Building custom multiline layouts or renderers that need line-level
+      geometry
 
 key_features:
-  - DOM-free paragraph height and line-count calculation through prepare and layout APIs
+  - DOM-free paragraph height and line-count calculation through prepare and
+    layout APIs
   - Line-level ranges, statistics, and materialization for manual text rendering
-  - Support for normal and pre-wrap whitespace, keep-all word breaking, and letter spacing
-  - Rich-inline helper for mentions, chips, code spans, and boundary whitespace handling
+  - Support for normal and pre-wrap whitespace, keep-all word breaking, and
+    letter spacing
+  - Rich-inline helper for mentions, chips, code spans, and boundary whitespace
+    handling
   - Canvas, SVG, WebGL, and prospective server-side rendering use cases
-  - Published ESM package with TypeScript declarations and a separate rich-inline export
+  - Published ESM package with TypeScript declarations and a separate
+    rich-inline export
 
 usage:
   interfaces:
@@ -56,29 +61,35 @@ technology:
 license:
   spdx: MIT
   name: MIT License
-  notes: Permissive license; users must preserve the copyright and permission notice in copies or substantial portions.
+  notes: The root MIT license requires retaining its copyright and permission
+    notice in copies or substantial portions.
 
 status:
   lifecycle: active
   archived: false
-  latest_release: v0.0.8
-  latest_release_at: 2026-06-12
+  latest_release: v1.0.0
+  latest_release_at: 2026-10-14
 
 strengths:
-  - Avoids layout-triggering DOM measurements on its primary height-calculation path
-  - Supports both high-level height prediction and low-level line geometry for custom renderers
-  - Documents limitations and compatibility details for multilingual and rich-inline text
+  - Avoids layout-triggering DOM measurements on its primary height-calculation
+    path
+  - Supports both high-level height prediction and low-level line geometry for
+    custom renderers
+  - Documents limitations and compatibility details for multilingual and
+    rich-inline text
 
 caveats:
   - Runtime support requires Canvas 2D text measurement and Intl.Segmenter
   - It is not a full font-rendering or general CSS inline-formatting engine
-  - The README identifies system-ui as unsafe for layout accuracy on macOS and advises a named font
-  - Current releases use 0.0.x versioning, so consumers should review changelog entries when upgrading
+  - The README identifies system-ui as unsafe for layout accuracy on macOS and
+    advises a named font
+  - Consumers should review changelog entries when upgrading
 
 sources:
   - https://github.com/chenglou/pretext
-  - https://raw.githubusercontent.com/chenglou/pretext/ac49b09b7d83ede19581fa94a8b892b07d309baf/README.md
-  - https://raw.githubusercontent.com/chenglou/pretext/ac49b09b7d83ede19581fa94a8b892b07d309baf/package.json
-  - https://raw.githubusercontent.com/chenglou/pretext/ac49b09b7d83ede19581fa94a8b892b07d309baf/CHANGELOG.md
-  - https://raw.githubusercontent.com/chenglou/pretext/ac49b09b7d83ede19581fa94a8b892b07d309baf/LICENSE
+  - https://raw.githubusercontent.com/chenglou/pretext/6ed1edd294698374ab2fb0d3eb36276527084879/README.md
+  - https://raw.githubusercontent.com/chenglou/pretext/6ed1edd294698374ab2fb0d3eb36276527084879/package.json
+  - https://raw.githubusercontent.com/chenglou/pretext/6ed1edd294698374ab2fb0d3eb36276527084879/CHANGELOG.md
+  - https://raw.githubusercontent.com/chenglou/pretext/6ed1edd294698374ab2fb0d3eb36276527084879/LICENSE
   - https://github.com/chenglou/pretext/releases.atom
+  - https://github.com/chenglou/pretext/releases/tag/v1.0.0

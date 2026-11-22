@@ -1,0 +1,71 @@
+schema_version: 2
+repository_id: github:statelyai/agent
+research:
+  state: complete
+  source_commit: 9ed97df3b7728f2b4894426943c7c2f1c4565f86
+  bundle_collected_at: 2026-11-22T12:10:29.048Z
+  researched_at: 2026-11-22T12:24:16.299Z
+  confidence: high
+classification:
+  primary_category: ai-and-automation
+  topics:
+    - ai-agents
+    - agent-frameworks
+    - agent-governance
+    - policy-enforcement
+    - multi-provider
+    - observability
+    - evaluation
+    - testing
+project:
+  name: Stately Agent
+  kind: framework
+  summary: >-
+    A TypeScript framework for representing LLM-agent control flow as XState
+    machines whose typed states, guards, and events constrain the actions a model may propose.
+  best_for:
+    - Teams that need inspectable, resumable agent workflows with explicit legal transitions
+    - Developers testing agent control flow independently from live model calls
+key_features:
+  - Gives the state machine authority over control flow while models select only allowed events
+  - Separates portable machine definitions from model, execution, hosting, and persistence adapters
+  - Supports snapshots, verified event logs, human approval, retries, parallel work, and child agents
+  - Includes scripted executors, evaluation tooling, observability, budgets, and reusable patterns
+usage:
+  interfaces:
+    - TypeScript library
+    - XState machine definitions
+  installation:
+    - pnpm add @statelyai/agent@alpha xstate@alpha zod ai
+    - source checkout
+  setup: moderate
+technology:
+  languages:
+    - TypeScript
+  notable_components:
+    - XState
+    - Vercel AI SDK adapters
+    - OpenTelemetry
+license:
+  spdx: MIT
+  name: MIT License
+  notes: Permissive license requiring preservation of the copyright and license notice.
+status:
+  lifecycle: experimental
+  archived: false
+  latest_release: null
+  latest_release_at: null
+strengths:
+  - Makes invalid model-selected transitions rejectable by deterministic application logic
+  - Allows machine workflows to be replayed and tested without API credentials
+  - Keeps model and hosting providers replaceable behind executor interfaces
+caveats:
+  - Stately Agent 2 is in alpha. The source package is 2.0.0-alpha.42, and v1.1.6 is a stable release of the previous major version.
+  - Current installation requires Node.js 22.18+, XState v6 alpha, and aligned AI SDK package versions
+  - Applications still own model selection, request execution, state storage, tools, and security boundaries
+sources:
+  - https://raw.githubusercontent.com/statelyai/agent/9ed97df3b7728f2b4894426943c7c2f1c4565f86/readme.md
+  - https://raw.githubusercontent.com/statelyai/agent/9ed97df3b7728f2b4894426943c7c2f1c4565f86/docs/environment-and-policy.md
+  - https://raw.githubusercontent.com/statelyai/agent/9ed97df3b7728f2b4894426943c7c2f1c4565f86/package.json
+  - https://raw.githubusercontent.com/statelyai/agent/9ed97df3b7728f2b4894426943c7c2f1c4565f86/LICENSE
+  - https://github.com/statelyai/agent/releases.atom

@@ -19,15 +19,19 @@ analysis:
       - "improve-developer-workflow"
       - "run-personal-or-team-tools"
   evidence:
-    - claim: "CloudCLI is an open-source web interface for managing Claude Code, Cursor CLI, Codex, and OpenCode sessions; it can be self-hosted, accessed from mobile browsers, and optionally run in Docker sandboxes."
+    - claim: "CloudCLI is an open-source web interface for managing Claude Code,
+        Cursor CLI, Codex, and OpenCode sessions; it can be self-hosted,
+        accessed from mobile browsers, and optionally run in Docker sandboxes."
       source_type: "repository-file"
       url: "https://github.com/siteboon/claudecodeui/blob/main/README.md"
       checked_at: "2026-07-19"
       confidence: "high"
   state: "researched"
   summary:
-    one_line: "A self-hostable web and mobile interface for managing supported coding-agent sessions."
-    why_useful: "It discovers local sessions and provides browser, desktop, remote, and optional sandbox access paths."
+    one_line: "A self-hostable web and mobile interface for managing supported
+      coding-agent sessions."
+    why_useful: "It discovers local sessions and provides browser, desktop, remote,
+      and optional sandbox access paths."
 curation:
   confidence: null
   evidence: []
@@ -41,40 +45,46 @@ id: "github:siteboon/claudecodeui"
 import:
   github_snapshot:
     archived: false
-    created_at: "2025-06-25T12:51:12Z"
-    default_branch: "main"
-    description: "Use Claude Code, OpenCode, Cursor CLI, and Codex on mobile and web with CloudCLI (aka Claude Code UI). CloudCLI is a free open source webui/GUI that helps you manage your Claude Code session and projects remotely."
+    created_at: 2025-06-25T12:51:12Z
+    default_branch: main
+    description: Use Claude Code, OpenCode, Cursor CLI, and Codex on mobile and web
+      with CloudCLI (aka Claude Code UI). CloudCLI is a free open source
+      webui/GUI that helps you manage your Claude Code session and projects
+      remotely.
     disabled: false
-    fetched_at: "2026-07-19T19:16:14.796Z"
+    fetched_at: 2026-11-22T12:07:00.148Z
     fork: false
-    forks: 1733
-    homepage: "https://cloudcli.ai"
-    latest_release: null
-    license_spdx: "AGPL-3.0"
-    open_issues: 134
-    primary_language: "TypeScript"
-    pushed_at: "2026-07-18T21:56:39Z"
-    stars: 12744
+    forks: 2154
+    homepage: https://cloudcli.ai
+    latest_release:
+      tag: v1.37.9
+      published_at: 2026-11-16T09:46:04Z
+      url: https://github.com/siteboon/claudecodeui/releases/tag/v1.37.9
+    license_spdx: AGPL-3.0
+    open_issues: 396
+    primary_language: TypeScript
+    pushed_at: 2026-11-19T15:18:21Z
+    stars: 14718
     topics:
-      - "anthropic"
-      - "anthropic-ai"
-      - "anthropic-claude"
-      - "claude"
-      - "claude-api"
-      - "claude-code"
-      - "claude-code-ui"
-      - "claudecode"
-      - "gui"
-      - "mobile-first"
-      - "react"
-      - "ui"
-    updated_at: "2026-07-19T16:59:56Z"
+      - anthropic
+      - anthropic-ai
+      - anthropic-claude
+      - claude
+      - claude-api
+      - claude-code
+      - claude-code-ui
+      - claudecode
+      - gui
+      - mobile-first
+      - react
+      - ui
+    updated_at: 2026-11-22T08:28:11Z
   sources:
-    - observed_at: "2026-07-19T13:25:22Z"
-      relation: "starred"
-      source_id: "github:user:tomseai:stars"
-      source_url: "https://github.com/tomseai?tab=stars"
-  state: "imported"
+    - observed_at: 2026-07-19T13:25:22Z
+      relation: starred
+      source_id: github:user:tomseai:stars
+      source_url: https://github.com/tomseai?tab=stars
+  state: refreshed
 repository:
   aliases: []
   github_node_id: "R_kgDOPBqO7Q"

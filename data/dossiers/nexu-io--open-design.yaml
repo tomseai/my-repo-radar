@@ -1,13 +1,11 @@
 schema_version: 2
 repository_id: github:nexu-io/open-design
-
 research:
   state: complete
-  source_commit: 6b90486c97967633bfcfb0cd4d3c9b3314bf0caf
-  bundle_collected_at: 2026-07-19T20:44:22.466Z
-  researched_at: 2026-07-20T00:00:00Z
+  source_commit: e033aad1d15a9d4084316e5223f2c6597fd32619
+  bundle_collected_at: 2026-11-22T12:10:03.634Z
+  researched_at: 2026-11-22T12:23:21.756Z
   confidence: high
-
 classification:
   primary_category: frontend-and-design
   topics:
@@ -17,24 +15,24 @@ classification:
     - coding-agents
     - mcp
     - local-first
-
 project:
   name: Open Design
   kind: application
-  summary: >-
-    A local-first desktop design workspace that uses coding agents, skills, and
-    design systems to generate, preview, and export code-based design artifacts.
+  summary: A collaborative design workspace that uses installed coding agents or
+    OpenDesign Cloud to create prototypes, decks, and motion graphics from briefs and
+    shared design systems.
   best_for:
-    - Designers and developers prototyping interface artifacts with a local coding agent
+    - Designers and developers prototyping interfaces with a local coding agent or
+      hosted model access
     - Teams that want reusable DESIGN.md-based brand and design-system inputs
-
 key_features:
-  - Generates web, desktop, and mobile prototypes from briefs and local agent workflows
+  - Generates web, desktop, and mobile prototypes from briefs and local agent
+    workflows
   - Previews HTML artifacts in a sandboxed iframe and exports HTML, PDF, PPTX, or MP4
   - Supplies skills, design systems, plugins, a CLI, and an MCP server
   - Supports installed coding-agent CLIs and OpenAI-compatible BYOK endpoints
   - Provides packaged macOS and Windows desktop applications plus Docker deployment
-
+  - Shares prototypes for team feedback and continued iteration
 usage:
   interfaces:
     - desktop app
@@ -47,7 +45,6 @@ usage:
     - Docker Compose
     - build from source with pnpm
   setup: moderate
-
 technology:
   languages:
     - TypeScript
@@ -57,30 +54,30 @@ technology:
     - SQLite
     - Model Context Protocol
     - pnpm workspace
-
 license:
   spdx: Apache-2.0
   name: Apache License 2.0
-  notes: Permissive license with patent grant, notice retention requirements, and no trademark grant.
-
+  notes: Permissive license with patent grant, notice retention requirements, and no
+    trademark grant.
 status:
   lifecycle: active
   archived: false
-  latest_release: Open Design 0.15.1
-  latest_release_at: 2026-07-17
-
+  latest_release: open-design-v0.27.2
+  latest_release_at: 2026-11-19
 strengths:
   - Turns agent-produced design artifacts into runnable HTML and common deliverables
-  - Supports both an interactive desktop workflow and native MCP access from coding agents
-  - Keeps skills, templates, plugins, and design-system files available for local reuse
-
+  - Supports both an interactive desktop workflow and native MCP access from coding
+    agents
+  - Keeps skills, templates, plugins, and design-system files available for local
+    reuse
 caveats:
-  - Generating through a CLI depends on an installed supported coding agent or a configured compatible endpoint
+  - Generating through a CLI depends on an installed supported coding agent or a
+    configured compatible endpoint
   - Source development requires Node approximately version 24 and pnpm 10.33.x
   - Some output types and providers can require external model credentials or services
-
 sources:
-  - https://raw.githubusercontent.com/nexu-io/open-design/6b90486c97967633bfcfb0cd4d3c9b3314bf0caf/README.md
-  - https://raw.githubusercontent.com/nexu-io/open-design/6b90486c97967633bfcfb0cd4d3c9b3314bf0caf/LICENSE
-  - https://raw.githubusercontent.com/nexu-io/open-design/6b90486c97967633bfcfb0cd4d3c9b3314bf0caf/package.json
+  - https://raw.githubusercontent.com/nexu-io/open-design/e033aad1d15a9d4084316e5223f2c6597fd32619/README.md
+  - https://raw.githubusercontent.com/nexu-io/open-design/e033aad1d15a9d4084316e5223f2c6597fd32619/LICENSE
+  - https://raw.githubusercontent.com/nexu-io/open-design/e033aad1d15a9d4084316e5223f2c6597fd32619/package.json
   - https://github.com/nexu-io/open-design/releases.atom
+  - https://github.com/nexu-io/open-design/releases/tag/open-design-v0.27.2

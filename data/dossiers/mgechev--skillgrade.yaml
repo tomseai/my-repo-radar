@@ -1,0 +1,68 @@
+schema_version: 2
+repository_id: github:mgechev/skillgrade
+research:
+  state: complete
+  source_commit: ab2afd7c13e56c4bf9db173d68752a931cc8a400
+  bundle_collected_at: 2026-11-22T12:09:51.737Z
+  researched_at: 2026-11-22T12:23:56.559Z
+  confidence: high
+classification:
+  primary_category: testing-and-quality
+  topics:
+    - agent-skills
+    - evaluation
+    - testing
+    - multi-provider
+    - cli
+    - web-ui
+    - automation
+project:
+  name: skillgrade
+  kind: cli
+  summary: >-
+    A test and evaluation runner for agent skills that checks whether different
+    agents discover and use SKILL.md instructions with deterministic or model-based graders.
+  best_for:
+    - Skill authors validating behavior across several agent harnesses and models
+    - Teams adding repeatable skill regression checks to continuous integration
+key_features:
+  - Runs skill scenarios against Gemini, Claude, Codex, ACP, OpenCode, or custom commands
+  - Supports deterministic checks and LLM rubric graders
+  - Repeats trials for smoke, reliability, and regression testing
+  - Supports multi-turn scenarios, workspace fixtures, and dataset-driven batches
+  - Runs in parallel and provides CLI output, browser previews, and CI thresholds
+usage:
+  interfaces:
+    - command-line interface
+    - local browser preview
+    - CI workflow
+  installation:
+    - npm install -g skillgrade
+    - source checkout
+  setup: moderate
+technology:
+  languages:
+    - TypeScript
+  notable_components:
+    - Docker
+    - eval.yaml scenarios
+license:
+  spdx: MIT
+  name: MIT License
+  notes: Permissive license requiring preservation of the copyright and license notice.
+status:
+  lifecycle: active
+  archived: false
+  latest_release: v0.2.2
+  latest_release_at: 2026-07-24
+strengths:
+  - Tests observable skill use rather than only validating file format
+  - Supports both portable harness coverage and automated CI gates
+caveats:
+  - Model-backed runs require provider credentials and can incur usage costs
+  - The newer v0.3.1 tag has no verified publication date. v0.2.2 is the previously verified published release.
+  - Results can vary with model versions and rubric graders, so repeated trials remain important
+sources:
+  - https://raw.githubusercontent.com/mgechev/skillgrade/ab2afd7c13e56c4bf9db173d68752a931cc8a400/README.md
+  - https://raw.githubusercontent.com/mgechev/skillgrade/ab2afd7c13e56c4bf9db173d68752a931cc8a400/LICENSE
+  - https://github.com/mgechev/skillgrade/releases.atom

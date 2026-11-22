@@ -1,0 +1,91 @@
+schema_version: 2
+repository_id: github:openai/codex-security
+research:
+  state: complete
+  source_commit: dcb270ceb2eebb85285609ee5f5107c638d7191a
+  bundle_collected_at: 2026-11-22T12:10:07.884Z
+  researched_at: 2026-11-22T12:30:21.503Z
+  confidence: high
+classification:
+  primary_category: security-and-privacy
+  topics:
+    - security
+    - cli
+    - code-review
+    - codebase-search
+    - automation
+    - multi-provider
+    - parallel-agents
+    - containers
+    - github
+project:
+  name: Codex Security
+  kind: cli
+  summary: >-
+    OpenAI’s defensive code-security tooling for scanning repositories,
+    reviewing and tracking findings, and planning or verifying fixes through
+    Codex, a CLI, and a TypeScript SDK.
+  best_for:
+    - Security and engineering teams scanning repositories they own or may assess
+    - CI and bulk workflows that need resumable findings, coverage, and scan
+      comparison
+key_features:
+  - Scans repositories, selected paths, or Git changes and consolidates
+    duplicate findings
+  - Reviews findings, verifies fixes, and drafts repository security policies
+    and reusable threat models
+  - Compares saved scans and exports findings as SARIF, JSON, or CSV
+  - Supports review workflows for third-party scanner reports and tracking in
+    Linear, Jira, or GitHub
+  - Provides a TypeScript SDK and GitHub Action for integrating review into
+    development workflows
+usage:
+  interfaces:
+    - Codex Security plugin
+    - command-line interface
+    - TypeScript SDK
+    - GitHub Action
+    - container image
+  installation:
+    - npm install @openai/codex-security
+    - npx @openai/codex-security
+    - Docker Compose for bulk scans
+  setup: moderate
+technology:
+  languages:
+    - TypeScript
+    - Python
+  notable_components:
+    - Codex SDK
+    - Docker
+    - GitHub Actions
+license:
+  spdx: Apache-2.0
+  name: Apache License 2.0
+  notes: Permissive license with patent grant and notice requirements.
+status:
+  lifecycle: active
+  archived: false
+  latest_release: npm-v0.10.1
+  latest_release_at: 2026-11-18
+strengths:
+  - Combines vulnerability discovery, validation, history, comparison, and
+    remediation workflows
+  - Supports interactive use, automation, parallel deep scans, and reproducible
+    bulk scanning
+  - Publishes both the CLI and SDK source under a permissive license
+caveats:
+  - Running OpenAI-backed scans requires Codex Security access, and certain
+    requests require Trusted Access for Cyber
+  - Assessment is scoped to repositories the user owns or is permitted to assess
+  - The CLI requires Node.js 22.13 or later in the 22.x line, Node.js 24.x or
+    26.x, and Python 3.10 or later
+  - The release feed publishes the GitHub Action separately from the primary npm
+    package
+sources:
+  - https://raw.githubusercontent.com/openai/codex-security/dcb270ceb2eebb85285609ee5f5107c638d7191a/README.md
+  - https://raw.githubusercontent.com/openai/codex-security/dcb270ceb2eebb85285609ee5f5107c638d7191a/sdk/typescript/package.json
+  - https://raw.githubusercontent.com/openai/codex-security/dcb270ceb2eebb85285609ee5f5107c638d7191a/SECURITY.md
+  - https://raw.githubusercontent.com/openai/codex-security/dcb270ceb2eebb85285609ee5f5107c638d7191a/LICENSE
+  - https://github.com/openai/codex-security/releases.atom
+  - https://github.com/openai/codex-security/releases/tag/npm-v0.10.1

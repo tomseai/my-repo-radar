@@ -8,15 +8,18 @@ analysis:
     use_cases:
       - "learn-and-reference"
   evidence:
-    - claim: "staff-eng is the Hugo source repository for staffeng.com, a collection of stories about reaching Staff-plus roles in technology."
+    - claim: "staff-eng is the Hugo source repository for staffeng.com, a collection
+        of stories about reaching Staff-plus roles in technology."
       source_type: "repository-file"
       url: "https://github.com/lethain/staff-eng/blob/main/README.md"
       checked_at: "2026-07-19"
       confidence: "high"
   state: "complete"
   summary:
-    one_line: "The source repository for a collection of stories about reaching Staff-plus roles in technology."
-    why_useful: "It offers career narratives and reference material for engineers considering or navigating Staff-plus career paths."
+    one_line: "The source repository for a collection of stories about reaching
+      Staff-plus roles in technology."
+    why_useful: "It offers career narratives and reference material for engineers
+      considering or navigating Staff-plus career paths."
 curation:
   confidence: null
   evidence: []
@@ -30,28 +33,29 @@ id: "github:lethain/staff-eng"
 import:
   github_snapshot:
     archived: false
-    created_at: "2020-02-16T17:16:14Z"
-    default_branch: "main"
-    description: "Collection of stories of how folks have reached Staff-plus roles in technology."
+    created_at: 2020-02-16T17:16:14Z
+    default_branch: main
+    description: Collection of stories of how folks have reached Staff-plus roles in
+      technology.
     disabled: false
-    fetched_at: "2026-07-19T19:16:14.796Z"
+    fetched_at: 2026-11-22T12:07:00.148Z
     fork: false
-    forks: 59
-    homepage: "https://staffeng.com"
+    forks: 60
+    homepage: https://staffeng.com
     latest_release: null
     license_spdx: null
     open_issues: 11
-    primary_language: "HTML"
-    pushed_at: "2026-01-22T00:07:51Z"
-    stars: 255
+    primary_language: HTML
+    pushed_at: 2026-01-22T00:07:51Z
+    stars: 258
     topics: []
-    updated_at: "2026-07-13T17:30:19Z"
+    updated_at: 2026-11-12T00:38:53Z
   sources:
-    - observed_at: "2026-05-01T12:17:05Z"
-      relation: "starred"
-      source_id: "github:user:tomseai:stars"
-      source_url: "https://github.com/tomseai?tab=stars"
-  state: "imported"
+    - observed_at: 2026-05-01T12:17:05Z
+      relation: starred
+      source_id: github:user:tomseai:stars
+      source_url: https://github.com/tomseai?tab=stars
+  state: refreshed
 repository:
   aliases: []
   github_node_id: "MDEwOlJlcG9zaXRvcnkyNDA5MzIzMTI="

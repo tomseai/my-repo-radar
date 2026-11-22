@@ -1,0 +1,72 @@
+schema_version: 2
+repository_id: github:agegr/pi-web
+research:
+  state: complete
+  source_commit: 432366bd510c72ce7b678a6cb1220f9cac1ed56c
+  bundle_collected_at: 2026-11-22T12:09:02.541Z
+  researched_at: 2026-11-22T12:24:10.310Z
+  confidence: high
+classification:
+  primary_category: ai-and-automation
+  topics:
+    - coding-agents
+    - agent-development-environments
+    - web-ui
+    - git
+    - worktrees
+    - local-first
+    - multi-provider
+project:
+  name: pi-web
+  kind: application
+  summary: >-
+    A local web interface for the pi coding agent that reuses pi sessions and
+    configuration while adding project browsing, Git diffs, worktrees, and model
+    setup.
+  best_for:
+    - Pi users who prefer a browser workspace over a terminal-only interface
+    - Developers managing pi sessions, files, diffs, and worktrees from one
+      local UI
+key_features:
+  - Resumes, branches, exports, and deletes existing pi sessions
+  - Browses project files and renders Git diffs and file previews
+  - Switches Git worktrees and configures providers, models, plugins, and skills
+  - Shares pi configuration and session files instead of creating a separate
+    store
+usage:
+  interfaces:
+    - local web UI
+  installation:
+    - npx @agegr/pi-web@latest
+    - global npm package
+  setup: low
+technology:
+  languages:
+    - TypeScript
+  notable_components:
+    - Next.js
+    - pi coding agent
+    - Git worktrees
+license:
+  spdx: MIT
+  name: MIT License
+  notes: Permissive license requiring preservation of the copyright and license
+    notice.
+status:
+  lifecycle: active
+  archived: false
+  latest_release: v0.18.0
+  latest_release_at: 2026-11-20
+strengths:
+  - Adds visual session and repository controls without replacing pi's local
+    state
+  - Binds to loopback by default for a simple local workflow
+caveats:
+  - Requires Node.js 22.19 or newer and an existing pi-compatible environment
+  - Remote exposure should use a password plus HTTPS or a private network
+    because the agent can execute privileged actions
+sources:
+  - https://raw.githubusercontent.com/agegr/pi-web/432366bd510c72ce7b678a6cb1220f9cac1ed56c/README.md
+  - https://raw.githubusercontent.com/agegr/pi-web/432366bd510c72ce7b678a6cb1220f9cac1ed56c/LICENSE
+  - https://github.com/agegr/pi-web/releases.atom
+  - https://github.com/agegr/pi-web/releases/tag/v0.18.0

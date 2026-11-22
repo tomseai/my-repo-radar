@@ -18,7 +18,9 @@ analysis:
       - "build-ai-products"
       - "run-personal-or-team-tools"
   evidence:
-    - claim: "Open WebUI is a self-hosted AI platform that can operate offline, supports Ollama and OpenAI-compatible LLM APIs, and includes a RAG inference engine; it supports pip, Docker, and Kubernetes installation."
+    - claim: "Open WebUI is a self-hosted AI platform that can operate offline,
+        supports Ollama and OpenAI-compatible LLM APIs, and includes a RAG
+        inference engine; it supports pip, Docker, and Kubernetes installation."
       source_type: "repository-file"
       url: "https://github.com/open-webui/open-webui/blob/main/README.md"
       checked_at: "2026-07-19"
@@ -26,7 +28,8 @@ analysis:
   state: "researched"
   summary:
     one_line: "A self-hosted web platform for interacting with local and API-based LLMs."
-    why_useful: "It provides offline-capable LLM access, RAG features, and multiple deployment paths for individual or team use."
+    why_useful: "It provides offline-capable LLM access, RAG features, and multiple
+      deployment paths for individual or team use."
 curation:
   confidence: null
   evidence: []
@@ -40,43 +43,46 @@ id: "github:open-webui/open-webui"
 import:
   github_snapshot:
     archived: false
-    created_at: "2023-10-06T22:08:27Z"
-    default_branch: "main"
-    description: "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)"
+    created_at: 2023-10-06T22:08:27Z
+    default_branch: main
+    description: User-friendly AI Interface (Supports Ollama, OpenAI API, ...)
     disabled: false
-    fetched_at: "2026-07-19T19:16:14.796Z"
+    fetched_at: 2026-11-22T12:07:00.148Z
     fork: false
-    forks: 21153
-    homepage: "https://openwebui.com"
-    latest_release: null
-    license_spdx: "NOASSERTION"
-    open_issues: 470
-    primary_language: "Python"
-    pushed_at: "2026-07-18T03:39:50Z"
-    stars: 145966
+    forks: 23108
+    homepage: https://openwebui.com
+    latest_release:
+      tag: v0.13.4
+      published_at: 2026-11-17T14:46:26Z
+      url: https://github.com/open-webui/open-webui/releases/tag/v0.13.4
+    license_spdx: NOASSERTION
+    open_issues: 281
+    primary_language: Svelte
+    pushed_at: 2026-11-22T11:56:34Z
+    stars: 159254
     topics:
-      - "ai"
-      - "llm"
-      - "llm-ui"
-      - "llm-webui"
-      - "llms"
-      - "mcp"
-      - "ollama"
-      - "ollama-webui"
-      - "open-webui"
-      - "openai"
-      - "openapi"
-      - "rag"
-      - "self-hosted"
-      - "ui"
-      - "webui"
-    updated_at: "2026-07-19T19:16:02Z"
+      - ai
+      - llm
+      - llm-ui
+      - llm-webui
+      - llms
+      - mcp
+      - ollama
+      - ollama-webui
+      - open-webui
+      - openai
+      - openapi
+      - rag
+      - self-hosted
+      - ui
+      - webui
+    updated_at: 2026-11-22T12:07:02Z
   sources:
-    - observed_at: "2025-04-08T10:54:09Z"
-      relation: "starred"
-      source_id: "github:user:tomseai:stars"
-      source_url: "https://github.com/tomseai?tab=stars"
-  state: "imported"
+    - observed_at: 2025-04-08T10:54:09Z
+      relation: starred
+      source_id: github:user:tomseai:stars
+      source_url: https://github.com/tomseai?tab=stars
+  state: refreshed
 repository:
   aliases: []
   github_node_id: "R_kgDOKdDCcw"

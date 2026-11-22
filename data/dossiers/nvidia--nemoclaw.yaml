@@ -2,10 +2,10 @@ schema_version: 2
 repository_id: github:NVIDIA/NemoClaw
 research:
   state: complete
-  source_commit: 3c4ea5a1e3c37ae6688399b823258e1c31790fd2
-  bundle_collected_at: 2026-07-19T20:44:28.698Z
-  researched_at: 2026-07-20T17:51:56.4547025+02:00
-  confidence: high
+  source_commit: 860c09d3c810ef926d49f0dd4e33ad2fab426f62
+  bundle_collected_at: 2026-11-22T12:10:05.043Z
+  researched_at: 2026-11-22T12:24:20.823Z
+  confidence: medium
 classification:
   primary_category: security-and-privacy
   topics:
@@ -19,10 +19,9 @@ classification:
 project:
   name: NVIDIA NemoClaw
   kind: framework
-  summary: >-
-    An alpha reference stack and CLI for operating selected always-on AI agents
-    in NVIDIA OpenShell sandboxes, combining guided onboarding, inference
-    routing, declarative network policy, and sandbox lifecycle management.
+  summary: An alpha reference stack and CLI for running supported AI agents in NVIDIA
+    OpenShell sandboxes, with guided onboarding, managed inference and network
+    policy, and sandbox lifecycle tools.
   best_for:
     - Teams that need a reference deployment pattern for constrained always-on agents
     - Operators running supported agents with OpenShell sandbox and egress controls
@@ -51,25 +50,34 @@ technology:
 license:
   spdx: Apache-2.0
   name: Apache License 2.0
-  notes: >-
-    Permissive license with notice, license-copy, and modified-file notice
+  notes: Permissive license with notice, license-copy, and modified-file notice
     obligations for redistributed derivative works; it includes a patent grant.
 status:
   lifecycle: experimental
   archived: false
-  latest_release: v0.0.88
-  latest_release_at: 2026-07-18
+  latest_release: null
+  latest_release_at: null
 strengths:
-  - Combines sandboxing, inference routing, egress policy, and lifecycle management in one reference stack
-  - Documents host-held credentials and operator approval for previously unknown network destinations
+  - Combines sandboxing, inference routing, egress policy, and lifecycle management
+    in one reference stack
+  - Documents host-held credentials and operator approval for previously unknown
+    network destinations
   - Provides guided paths for three supported agent runtimes
 caveats:
-  - Maintainers label NemoClaw alpha and offer best-effort community response without guaranteed timelines
-  - The retained documentation scopes the stack to OpenShell and its supported agent runtimes
-  - Retrieved external materials are governed by their own terms and users must assess their security and suitability
+  - Maintainers label NemoClaw alpha and offer best-effort community response without
+    guaranteed timelines
+  - The retained documentation scopes the stack to OpenShell and its supported agent
+    runtimes
+  - Retrieved external materials are governed by their own terms and users must
+    assess their security and suitability
+  - The README directs new projects toward Agent Configs and provides migration
+    guidance; the existing main-branch experience remains available
+  - The feed includes v0.1.0 release candidates, mutable aliases, and a v0.0.145 tag
+    brief without a confirmed GitHub release; the retained evidence does not
+    establish a current stable release
 sources:
-  - https://raw.githubusercontent.com/NVIDIA/NemoClaw/3c4ea5a1e3c37ae6688399b823258e1c31790fd2/README.md
-  - https://raw.githubusercontent.com/NVIDIA/NemoClaw/3c4ea5a1e3c37ae6688399b823258e1c31790fd2/docs/about/overview.mdx
-  - https://raw.githubusercontent.com/NVIDIA/NemoClaw/3c4ea5a1e3c37ae6688399b823258e1c31790fd2/package.json
-  - https://raw.githubusercontent.com/NVIDIA/NemoClaw/3c4ea5a1e3c37ae6688399b823258e1c31790fd2/LICENSE
+  - https://raw.githubusercontent.com/NVIDIA/NemoClaw/860c09d3c810ef926d49f0dd4e33ad2fab426f62/README.md
+  - https://raw.githubusercontent.com/NVIDIA/NemoClaw/860c09d3c810ef926d49f0dd4e33ad2fab426f62/package.json
+  - https://raw.githubusercontent.com/NVIDIA/NemoClaw/860c09d3c810ef926d49f0dd4e33ad2fab426f62/LICENSE
   - https://github.com/NVIDIA/NemoClaw/releases.atom
+  - https://raw.githubusercontent.com/NVIDIA/NemoClaw/860c09d3c810ef926d49f0dd4e33ad2fab426f62/nemoclaw/package.json

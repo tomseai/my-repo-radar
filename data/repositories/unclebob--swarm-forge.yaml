@@ -12,7 +12,9 @@ analysis:
       - "improve-developer-workflow"
       - "collaborate-on-work"
   evidence:
-    - claim: "SwarmForge is a tool for coordinating several AI agents and provides runnable branch configurations that users can retrieve into a working directory."
+    - claim: "SwarmForge is a tool for coordinating several AI agents and provides
+        runnable branch configurations that users can retrieve into a working
+        directory."
       source_type: "repository-file"
       url: "https://github.com/unclebob/swarm-forge/blob/main/README.md"
       checked_at: "2026-07-19"
@@ -20,7 +22,8 @@ analysis:
   state: "researched"
   summary:
     one_line: "A lightweight tool for coordinating multiple AI agents."
-    why_useful: "It provides runnable configurations for applying multi-agent coordination in a working directory."
+    why_useful: "It provides runnable configurations for applying multi-agent
+      coordination in a working directory."
 curation:
   confidence: null
   evidence: []
@@ -34,28 +37,28 @@ id: "github:unclebob/swarm-forge"
 import:
   github_snapshot:
     archived: false
-    created_at: "2026-04-17T15:18:26Z"
-    default_branch: "main"
-    description: "A simple tool for coordinating several AI agents."
+    created_at: 2026-04-17T15:18:26Z
+    default_branch: main
+    description: A simple tool for coordinating several AI agents.
     disabled: false
-    fetched_at: "2026-07-19T19:16:14.796Z"
+    fetched_at: 2026-11-22T12:07:00.148Z
     fork: false
-    forks: 117
+    forks: 410
     homepage: null
     latest_release: null
     license_spdx: null
-    open_issues: 8
-    primary_language: "Clojure"
-    pushed_at: "2026-07-10T12:47:03Z"
-    stars: 1029
+    open_issues: 53
+    primary_language: Clojure
+    pushed_at: 2026-09-07T14:45:22Z
+    stars: 4115
     topics: []
-    updated_at: "2026-07-19T07:14:42Z"
+    updated_at: 2026-11-21T09:21:42Z
   sources:
-    - observed_at: "2026-05-18T22:42:44Z"
-      relation: "starred"
-      source_id: "github:user:tomseai:stars"
-      source_url: "https://github.com/tomseai?tab=stars"
-  state: "imported"
+    - observed_at: 2026-05-18T22:42:44Z
+      relation: starred
+      source_id: github:user:tomseai:stars
+      source_url: https://github.com/tomseai?tab=stars
+  state: refreshed
 repository:
   aliases: []
   github_node_id: "R_kgDOSFZR5w"

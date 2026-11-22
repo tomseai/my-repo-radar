@@ -2,9 +2,9 @@ schema_version: 2
 repository_id: github:modelcontextprotocol/ext-apps
 research:
   state: complete
-  source_commit: 2ca6a59d2f493b227a83a2e3ce0396db4705621a
-  bundle_collected_at: 2026-07-19T20:44:15.079Z
-  researched_at: 2026-07-20T17:41:35.7837492+02:00
+  source_commit: ea3e9d0e624a20bc1c51310292f09d9b8ed17161
+  bundle_collected_at: 2026-11-22T12:10:00.003Z
+  researched_at: 2026-11-22T12:27:12.994Z
   confidence: medium
 classification:
   primary_category: application-frameworks
@@ -22,12 +22,16 @@ project:
     dashboards, and other embedded interfaces inline in a conversation.
   best_for:
     - MCP server authors adding interactive UI resources to tool results
-    - Chat-client and web-view developers embedding and communicating with MCP App views
+    - Chat-client and web-view developers embedding and communicating with MCP
+      App views
 key_features:
   - Lets tools declare a ui:// resource containing an HTML interface
-  - Defines a host-rendered sandboxed iframe and bidirectional UI-to-tool communication
-  - Provides SDK entry points for Views, React hooks, client app bridges, and MCP server helpers
-  - Includes examples, starter templates, a basic reference host, and a stable 2026-01-26 specification
+  - Defines a host-rendered sandboxed iframe and bidirectional UI-to-tool
+    communication
+  - Provides SDK entry points for Views, React hooks, client app bridges, and
+    MCP server helpers
+  - Includes examples, starter templates, a basic reference host, and a stable
+    2026-01-26 specification
 usage:
   interfaces:
     - TypeScript SDK
@@ -35,7 +39,7 @@ usage:
     - client app bridge
     - React hooks
   installation:
-    - npm install -S @modelcontextprotocol/ext-apps
+    - npm install @modelcontextprotocol/ext-apps with the MCP client and zod peer dependencies
     - clone the repository and run npm install for examples or local development
   setup: moderate
 technology:
@@ -57,19 +61,27 @@ license:
 status:
   lifecycle: active
   archived: false
-  latest_release: v1.7.4
-  latest_release_at: "2026-06-05"
+  latest_release: v2.1.0
+  latest_release_at: "2026-11-10"
 strengths:
-  - Standardizes the UI-resource, host-rendering, and bidirectional-communication flow for interactive MCP tools
-  - "Covers the three key implementation roles: MCP server, interactive view, and host embedding"
-  - Supplies examples and framework-specific starter templates alongside a stable specification
+  - Standardizes the UI-resource, host-rendering, and
+    bidirectional-communication flow for interactive MCP tools
+  - "Covers the three key implementation roles: MCP server, interactive view,
+    and host embedding"
+  - Supplies examples and framework-specific starter templates alongside a
+    stable specification
 caveats:
   - MCP Apps extends core MCP, and host support varies by client
-  - This repository has no supported production host implementation beyond its basic-host example
-  - SDK and local examples require Node.js 20 or newer; a server also needs a compatible MCP host to render views
-  - The repository is in a documented Apache-2.0 relicensing transition, so license scope remains file-dependent
+  - This repository has no supported production host implementation beyond its
+    basic-host example
+  - Version 2 requires MCP SDK 2.x peer packages and zod 4.2 or newer
+  - SDK and local examples require Node.js 20 or newer; a server also needs a
+    compatible MCP host to render views
+  - The repository is in a documented Apache-2.0 relicensing transition, so
+    license scope remains file-dependent
 sources:
-  - https://raw.githubusercontent.com/modelcontextprotocol/ext-apps/2ca6a59d2f493b227a83a2e3ce0396db4705621a/README.md
-  - https://raw.githubusercontent.com/modelcontextprotocol/ext-apps/2ca6a59d2f493b227a83a2e3ce0396db4705621a/LICENSE
-  - https://raw.githubusercontent.com/modelcontextprotocol/ext-apps/2ca6a59d2f493b227a83a2e3ce0396db4705621a/package.json
+  - https://raw.githubusercontent.com/modelcontextprotocol/ext-apps/ea3e9d0e624a20bc1c51310292f09d9b8ed17161/README.md
+  - https://raw.githubusercontent.com/modelcontextprotocol/ext-apps/ea3e9d0e624a20bc1c51310292f09d9b8ed17161/LICENSE
+  - https://raw.githubusercontent.com/modelcontextprotocol/ext-apps/ea3e9d0e624a20bc1c51310292f09d9b8ed17161/package.json
   - https://github.com/modelcontextprotocol/ext-apps/releases.atom
+  - https://github.com/modelcontextprotocol/ext-apps/releases/tag/v2.1.0

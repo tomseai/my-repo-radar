@@ -2,11 +2,10 @@ schema_version: 2
 repository_id: github:humanlayer/humanlayer
 research:
   state: complete
-  source_commit: 99abe673498cf8bdcd5f989aebe9406a27185b3b
-  bundle_collected_at: 2026-07-19T20:43:27.334Z
-  researched_at: 2026-07-20T15:31:31.792Z
+  source_commit: 2f5b58d3dfd18b13f4456b67ab0787df44233231
+  bundle_collected_at: 2026-11-22T12:09:40.319Z
+  researched_at: 2026-11-22T12:24:03.852Z
   confidence: medium
-
 classification:
   primary_category: developer-tools
   topics:
@@ -16,70 +15,70 @@ classification:
     - desktop-app
     - developer-productivity
     - open-source
-
 project:
   name: HumanLayer
   kind: monorepo
-  summary: >-
-    A HumanLayer repository whose root README says it is now a public issues
-    tracker and that nearly all code is deprecated, while retaining legacy
-    CodeLayer, SDK, and human-approval workflow material.
+  summary: A workspace for teams to run coding agents on their own machines and
+    coordinate tasks, sessions, plans, and reviews across a web app, desktop
+    app, and host daemon.
   best_for:
-    - Tracking issues or examining the retained legacy HumanLayer implementation
-    - Understanding the older CodeLayer and human-in-the-loop agent workflow
-
+    - Teams coordinating local coding agents across machines
+    - Developers who want to inspect or adapt a full agent coordination stack
 key_features:
-  - Root README positions the repository as HumanLayer's public issues tracker
-  - Retained CodeLayer documentation describes a macOS desktop coding-agent interface
-  - Retained TypeScript documentation demonstrates approval-gated OpenAI tool calls
-  - Legacy documentation describes a HumanLayer CLI and configurable contact channels
-
+  - Runs Claude Code, Codex, OpenCode, and Pi sessions through a host daemon
+  - Synchronizes tasks, sessions, plans, and reviews across the web and
+    desktop apps
+  - Includes plugins to mirror sessions from Claude Code, OpenCode, and Pi
+  - Provides a local per-worktree development stack and a cloud administration
+    interface
 usage:
   interfaces:
-    - GitHub issues
-    - legacy desktop GUI
-    - legacy CLI
-    - TypeScript SDK
+    - Web app
+    - macOS desktop app
+    - host daemon
+    - CLI
+    - coding-agent plugins
   installation:
-    - legacy macOS Homebrew cask
-    - inspect source
-  setup: unknown
-
+    - Source checkout using Bun and Docker
+    - Pulumi self-hosting reference
+  setup: high
 technology:
   languages:
     - TypeScript
-    - Go
     - Rust
   notable_components:
+    - Bun
     - Turborepo
-    - Bun workspaces
-    - Mintlify
-
+    - Electron
+    - Tauri
+    - oRPC
+    - Hono
+    - Electric
+    - PostgreSQL
 license:
   spdx: Apache-2.0
   name: Apache License 2.0
-  notes: The retained LICENSE grants Apache-2.0 rights and disclaims warranties.
-
+  notes: The root license is Apache-2.0. Some vendored folders retain MIT terms
+    as documented in NOTICE.
 status:
-  lifecycle: deprecated
+  lifecycle: active
   archived: false
   latest_release: null
   latest_release_at: null
-
 strengths:
-  - The deprecation status is stated plainly in the root README
-  - Retained documentation gives concrete historical examples of approval-gated tools
-  - The issue tracker remains a direct place to inspect the legacy project context
-
+  - Keeps agent sessions on team-controlled hosts while syncing supervision
+    across clients
+  - Includes a complete local development stack and documents the hosted
+    architecture
 caveats:
-  - The root README says nearly all repository code is deprecated and directs users to a rebuild at humanlayer.com
-  - Retained CodeLayer documentation and the nightly release feed conflict with that deprecation statement
-  - The retained release feed contains CodeLayer nightly builds, not an authoritative stable release for this repository
-  - Legacy setup instructions target macOS and may no longer be supported
-
+  - The self-hosting infrastructure is a reference deployment that requires
+    adaptation
+  - The Docker Compose starter uses simple default passwords that must be
+    changed for deployment
+  - The retained feed lists legacy CodeLayer releases, headed by legacy-final,
+    without an authoritative stable release for the current product
 sources:
-  - https://raw.githubusercontent.com/humanlayer/humanlayer/99abe673498cf8bdcd5f989aebe9406a27185b3b/README.md
-  - https://raw.githubusercontent.com/humanlayer/humanlayer/99abe673498cf8bdcd5f989aebe9406a27185b3b/LICENSE
-  - https://raw.githubusercontent.com/humanlayer/humanlayer/99abe673498cf8bdcd5f989aebe9406a27185b3b/docs/introduction.mdx
-  - https://raw.githubusercontent.com/humanlayer/humanlayer/99abe673498cf8bdcd5f989aebe9406a27185b3b/docs/quickstart-typescript.mdx
+  - https://raw.githubusercontent.com/humanlayer/humanlayer/2f5b58d3dfd18b13f4456b67ab0787df44233231/README.md
+  - https://raw.githubusercontent.com/humanlayer/humanlayer/2f5b58d3dfd18b13f4456b67ab0787df44233231/LICENSE
   - https://github.com/humanlayer/humanlayer/releases.atom
+  - https://raw.githubusercontent.com/humanlayer/humanlayer/2f5b58d3dfd18b13f4456b67ab0787df44233231/CONTRIBUTING.md

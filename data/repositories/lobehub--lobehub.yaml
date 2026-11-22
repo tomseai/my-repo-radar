@@ -17,12 +17,15 @@ analysis:
       - "collaborate-on-work"
       - "build-ai-products"
   evidence:
-    - claim: "LobeHub organizes AI agents into ongoing operations, including hiring, scheduling, reporting, agent groups, shared workspaces, and configurable agent teams."
+    - claim: "LobeHub organizes AI agents into ongoing operations, including hiring,
+        scheduling, reporting, agent groups, shared workspaces, and configurable
+        agent teams."
       source_type: "repository-file"
       url: "https://github.com/lobehub/lobehub/blob/canary/README.md"
       checked_at: "2026-07-19"
       confidence: "high"
-    - claim: "The project documents self-hosted deployment with Docker and local development using Next.js and Vite."
+    - claim: "The project documents self-hosted deployment with Docker and local
+        development using Next.js and Vite."
       source_type: "repository-file"
       url: "https://github.com/lobehub/lobehub/blob/canary/README.md"
       checked_at: "2026-07-19"
@@ -30,7 +33,8 @@ analysis:
   state: "researched"
   summary:
     one_line: "Workspace platform for organizing and collaborating with AI agent teams."
-    why_useful: "It provides scheduling, workspace, project, and agent-management features for ongoing agent-assisted work."
+    why_useful: "It provides scheduling, workspace, project, and agent-management
+      features for ongoing agent-assisted work."
 curation:
   confidence: null
   evidence: []
@@ -44,46 +48,43 @@ id: "github:lobehub/lobehub"
 import:
   github_snapshot:
     archived: false
-    created_at: "2023-05-21T07:19:12Z"
-    default_branch: "canary"
-    description: "🤯 LobeHub is your Chief Agent Operator, organizing your agents into 7×24 operations by hiring, scheduling, and reporting on your entire AI team."
+    created_at: 2023-05-21T07:19:12Z
+    default_branch: canary
+    description: 🤯 LobeHub - Super-Agents on Your Team. Add super-agents to the
+      chats your team already uses.They take on work by themselves and get
+      better every week.
     disabled: false
-    fetched_at: "2026-07-19T19:16:14.796Z"
+    fetched_at: 2026-11-22T12:07:00.148Z
     fork: false
-    forks: 15646
-    homepage: "https://lobehub.com"
-    latest_release: null
-    license_spdx: "NOASSERTION"
-    open_issues: 630
-    primary_language: "TypeScript"
-    pushed_at: "2026-07-19T19:02:12Z"
-    stars: 80525
+    forks: 16342
+    homepage: https://lobehub.com
+    latest_release:
+      tag: v2.3.5
+      published_at: 2026-11-22T09:47:39Z
+      url: https://github.com/lobehub/lobehub/releases/tag/v2.3.5
+    license_spdx: NOASSERTION
+    open_issues: 1463
+    primary_language: TypeScript
+    pushed_at: 2026-11-22T12:05:15Z
+    stars: 85981
     topics:
-      - "agent"
-      - "agent-collaboration"
-      - "agent-harness"
-      - "ai"
-      - "cao"
-      - "chatgpt"
-      - "chief-agent-operator"
-      - "claude"
-      - "deepseek"
-      - "fable"
-      - "gemini"
-      - "glm"
-      - "gpt"
-      - "knowledge-base"
-      - "loop-engineering"
-      - "mcp"
-      - "openai"
-      - "skills"
-    updated_at: "2026-07-19T19:04:42Z"
+      - agent
+      - agent-collaboration
+      - agent-harness
+      - loop-engineering
+      - mcp
+      - personal-assistant
+      - proactive-agent
+      - skills
+      - super-agent
+      - task-management
+    updated_at: 2026-11-22T12:04:41Z
   sources:
-    - observed_at: "2026-01-27T21:18:00Z"
-      relation: "starred"
-      source_id: "github:user:tomseai:stars"
-      source_url: "https://github.com/tomseai?tab=stars"
-  state: "imported"
+    - observed_at: 2026-01-27T21:18:00Z
+      relation: starred
+      source_id: github:user:tomseai:stars
+      source_url: https://github.com/tomseai?tab=stars
+  state: refreshed
 repository:
   aliases: []
   github_node_id: "R_kgDOJlox8w"

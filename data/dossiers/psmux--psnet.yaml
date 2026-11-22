@@ -2,9 +2,9 @@ schema_version: 2
 repository_id: github:psmux/psnet
 research:
   state: complete
-  source_commit: 27c4aac8602f0a3714d7e44524e4e74deed37ba2
-  bundle_collected_at: 2026-07-20T19:30:37.803Z
-  researched_at: 2026-07-20T21:33:02.164+02:00
+  source_commit: 60806b628c5573d4e85d1753f3b3664a49b00a4d
+  bundle_collected_at: 2026-11-22T12:10:14.628Z
+  researched_at: 2026-11-22T12:24:50.510Z
   confidence: high
 classification:
   primary_category: systems-and-infrastructure
@@ -24,10 +24,13 @@ project:
     bandwidth views, listening-port inspection, packet details, GeoIP maps, LAN
     discovery, topology, alerts, and firewall controls in a standalone binary.
   best_for:
-    - Windows users wanting a terminal-first overview of connections, services, devices, and traffic
-    - Developers diagnosing local ports, adapters, process traffic, or network exposure without a full GUI suite
+    - Windows users wanting a terminal-first overview of connections, services,
+      devices, and traffic
+    - Developers diagnosing local ports, adapters, process traffic, or network
+      exposure without a full GUI suite
 key_features:
-  - Presents nine tabs for dashboards, connections, servers, packets, topology, alerts, firewall, devices, and networks
+  - Presents nine tabs for dashboards, connections, servers, packets, topology,
+    alerts, firewall, devices, and networks
   - Resolves DNS names and fingerprints listening services and web technologies
   - Embeds GeoIP, server fingerprints, web signatures, and OUI vendor data
   - Discovers LAN devices and visualizes network topology and adapters
@@ -39,7 +42,7 @@ usage:
   installation:
     - Cargo package
     - Chocolatey package
-    - WinGet package
+    - WinGet package psmux.psnet
     - release binary or source checkout
   setup: low
 technology:
@@ -59,19 +62,24 @@ license:
 status:
   lifecycle: active
   archived: false
-  latest_release: v1.0.0
-  latest_release_at: 2026-03-14
+  latest_release: v1.2.0
+  latest_release_at: 2026-11-08
 strengths:
   - Consolidates many Windows network diagnostics into one terminal interface
-  - Ships embedded enrichment databases and needs no Npcap or WinPcap installation
-  - Multiple package channels and a small standalone binary simplify local adoption
+  - Ships embedded enrichment databases and needs no Npcap or WinPcap
+    installation
+  - Tagged Windows builds are signed by the release workflow
+  - Multiple package channels and a small standalone binary simplify local
+    adoption
 caveats:
-  - Windows 10 or 11 is required because collection and control use native Windows APIs
-  - Administrator rights are needed for raw packet preview and some active controls
-  - The pinned README still links downloads and source cloning through the earlier marlocarlo namespace although the cataloged repository is psmux/psnet
+  - Windows 10 or 11 is required because collection and control use native
+    Windows APIs
+  - Administrator rights are needed for raw packet preview and some active
+    controls
 sources:
-  - https://raw.githubusercontent.com/psmux/psnet/27c4aac8602f0a3714d7e44524e4e74deed37ba2/README.md
-  - https://raw.githubusercontent.com/psmux/psnet/27c4aac8602f0a3714d7e44524e4e74deed37ba2/LICENSE
-  - https://raw.githubusercontent.com/psmux/psnet/27c4aac8602f0a3714d7e44524e4e74deed37ba2/Cargo.toml
-  - https://raw.githubusercontent.com/psmux/psnet/27c4aac8602f0a3714d7e44524e4e74deed37ba2/.github/workflows/release.yml
+  - https://raw.githubusercontent.com/psmux/psnet/60806b628c5573d4e85d1753f3b3664a49b00a4d/README.md
+  - https://raw.githubusercontent.com/psmux/psnet/60806b628c5573d4e85d1753f3b3664a49b00a4d/LICENSE
+  - https://raw.githubusercontent.com/psmux/psnet/60806b628c5573d4e85d1753f3b3664a49b00a4d/Cargo.toml
+  - https://raw.githubusercontent.com/psmux/psnet/60806b628c5573d4e85d1753f3b3664a49b00a4d/.github/workflows/release.yml
   - https://github.com/psmux/psnet/releases.atom
+  - https://github.com/psmux/psnet/releases/tag/v1.2.0

@@ -1,0 +1,61 @@
+schema_version: 2
+repository_id: github:staltz/microskills
+research:
+  state: complete
+  source_commit: 1cb4f79cf14f1f0e18f13f1a6ad008b53f9e24ac
+  bundle_collected_at: 2026-11-22T12:10:22.937Z
+  researched_at: 2026-11-22T12:25:34.433434+00:00
+  confidence: high
+classification:
+  primary_category: ai-and-automation
+  topics:
+    - agent-skills
+    - coding-agents
+    - prompt-engineering
+    - developer-productivity
+project:
+  name: microskills
+  kind: curated-list
+  summary: >-
+    A compact collection of reusable SKILL.md prompts for everyday agent work,
+    including concise prose inspection, session debriefing, and locating code.
+  best_for:
+    - Developers who want small, composable prompts instead of large workflow
+      skills
+    - Agent users who want portable skills compatible with skills.sh conventions
+key_features:
+  - Packages each prompt as a focused, independently installable agent skill
+  - Includes skills for prose inspection, session debriefs, code discovery,
+    and turning agent sessions into comics
+  - Uses the portable SKILL.md format supported by multiple coding agents
+usage:
+  interfaces:
+    - agent skill files
+  installation:
+    - npx skills add staltz/microskills
+    - copy individual SKILL.md directories
+  setup: low
+technology:
+  languages:
+    - Markdown
+  notable_components:
+    - skills.sh-compatible layout
+license:
+  spdx: MIT
+  name: MIT License
+  notes: Permissive license requiring preservation of the copyright and license
+    notice.
+status:
+  lifecycle: experimental
+  archived: false
+  latest_release: null
+  latest_release_at: null
+strengths:
+  - Keeps prompts short enough to inspect and adapt quickly
+  - Avoids tying the skills to one agent harness
+caveats:
+  - The repository contains a small skill set
+  - No versioned releases are present in the retained feed
+sources:
+  - https://raw.githubusercontent.com/staltz/microskills/1cb4f79cf14f1f0e18f13f1a6ad008b53f9e24ac/README.md
+  - https://raw.githubusercontent.com/staltz/microskills/1cb4f79cf14f1f0e18f13f1a6ad008b53f9e24ac/LICENSE

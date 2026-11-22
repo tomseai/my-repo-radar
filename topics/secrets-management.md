@@ -21,7 +21,7 @@ A self-hostable HTTP credential proxy and vault that lets AI agents call externa
 - **Languages:** Go, TypeScript
 - **License:** MIT
 - **Lifecycle:** Experimental
-- **GitHub stars:** 1,913
+- **GitHub stars:** 2,521
 
 **Key features**
 

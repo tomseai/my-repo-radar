@@ -2,9 +2,9 @@ schema_version: 2
 repository_id: github:vendurehq/vendure
 research:
   state: complete
-  source_commit: 461da1a56a5cf701649fd74d324cec530cad4efb
-  bundle_collected_at: 2026-07-19T20:45:52.906Z
-  researched_at: 2026-07-20T18:11:30.1712930+02:00
+  source_commit: e5009d69f9062184eb7bafa1765b2c38997b71b8
+  bundle_collected_at: 2026-11-22T12:10:36.487Z
+  researched_at: 2026-11-22T12:23:58.003Z
   confidence: high
 classification:
   primary_category: backend-and-apis
@@ -18,14 +18,19 @@ classification:
 project:
   name: vendure
   kind: monorepo
-  summary: A plugin-first, headless commerce platform with a TypeScript GraphQL backend, React admin dashboard, and extensible business logic.
+  summary: A plugin-first headless commerce platform for B2B and other storefronts,
+    built around a TypeScript GraphQL backend and React admin dashboard.
   best_for:
-    - Teams building configurable D2C, B2B, marketplace, or omnichannel commerce services.
-    - Projects needing catalogs, orders, customers, promotions, tax, shipping, payments, and stock on one backend.
+    - Teams building configurable D2C, B2B, marketplace, or omnichannel commerce
+      services.
+    - Projects needing catalogs, orders, customers, promotions, tax, shipping,
+      payments, and stock on one backend.
 key_features:
   - Serves commerce functionality through an extensible GraphQL API.
-  - Provides stable plugin contracts, service overrides, and custom-entity extension points.
-  - Includes the @vendure/core framework, CLI, official plugins, admin dashboard, and e2e harness.
+  - Provides stable plugin contracts, service overrides, and custom-entity extension
+    points.
+  - Includes the @vendure/core framework, CLI, official plugins, admin dashboard, and
+    e2e harness.
   - Ships a React and TanStack-based administrative dashboard.
 usage:
   interfaces:
@@ -35,7 +40,8 @@ usage:
     - plugin extension API
   installation:
     - npx @vendure/create my-shop
-    - New projects require Node.js 20.19+ or 22.12+ and PostgreSQL, MySQL, MariaDB, or SQLite.
+    - New projects require Node.js 20.19+ or 22.12+ and PostgreSQL, MySQL, MariaDB,
+      or SQLite.
   setup: high
 technology:
   languages:
@@ -50,26 +56,34 @@ technology:
 license:
   spdx: GPL-3.0-or-later
   name: GNU General Public License v3.0 or later
-  notes: The default open-source license is GPLv3; the repository also describes a separately contracted Vendure Commercial License and a GPL section 7 exception for independently licensed Vendure plugins.
+  notes: The default open-source license is GPLv3; the repository also describes a
+    separately contracted Vendure Commercial License and a GPL section 7 exception
+    for independently licensed Vendure plugins.
 status:
   lifecycle: active
   archived: false
-  latest_release: v3.7.1
-  latest_release_at: 2026-07-14
+  latest_release: v3.8.2
+  latest_release_at: 2026-11-12
 strengths:
   - Covers core commerce domain functions and multi-channel use cases in one backend.
   - Extension points permit business-specific behavior without patching the core.
-  - Provides a first-party scaffold command, dashboard, CLI, plugins, and testing harness.
+  - Provides a first-party scaffold command, dashboard, CLI, plugins, and testing
+    harness.
 caveats:
-  - The source project is a monorepo; its README recommends scaffolding with @vendure/create instead of cloning it for application development.
-  - Operating a project requires a supported SQL database in addition to a supported Node.js runtime.
-  - GPLv3 is the default open-source license, while commercial usage alternatives require a separate agreement.
+  - The source project is a monorepo; its README recommends scaffolding with
+    @vendure/create instead of cloning it for application development.
+  - The README recommends Node.js 22.12+ and a supported SQL database.
+  - GPLv3 is the default open-source license, while commercial usage alternatives
+    require a separate agreement.
+  - The paid plans add B2B capabilities such as company accounts, quotes, contract
+    pricing, and approvals.
 sources:
-  - https://raw.githubusercontent.com/vendurehq/vendure/461da1a56a5cf701649fd74d324cec530cad4efb/README.md
-  - https://raw.githubusercontent.com/vendurehq/vendure/461da1a56a5cf701649fd74d324cec530cad4efb/LICENSE.md
-  - https://raw.githubusercontent.com/vendurehq/vendure/461da1a56a5cf701649fd74d324cec530cad4efb/SECURITY.md
-  - https://raw.githubusercontent.com/vendurehq/vendure/461da1a56a5cf701649fd74d324cec530cad4efb/package.json
-  - https://raw.githubusercontent.com/vendurehq/vendure/461da1a56a5cf701649fd74d324cec530cad4efb/packages/core/package.json
-  - https://raw.githubusercontent.com/vendurehq/vendure/461da1a56a5cf701649fd74d324cec530cad4efb/packages/cli/package.json
-  - https://raw.githubusercontent.com/vendurehq/vendure/461da1a56a5cf701649fd74d324cec530cad4efb/CHANGELOG.md
+  - https://raw.githubusercontent.com/vendurehq/vendure/e5009d69f9062184eb7bafa1765b2c38997b71b8/README.md
+  - https://raw.githubusercontent.com/vendurehq/vendure/e5009d69f9062184eb7bafa1765b2c38997b71b8/LICENSE.md
+  - https://raw.githubusercontent.com/vendurehq/vendure/e5009d69f9062184eb7bafa1765b2c38997b71b8/SECURITY.md
+  - https://raw.githubusercontent.com/vendurehq/vendure/e5009d69f9062184eb7bafa1765b2c38997b71b8/package.json
+  - https://raw.githubusercontent.com/vendurehq/vendure/e5009d69f9062184eb7bafa1765b2c38997b71b8/packages/core/package.json
+  - https://raw.githubusercontent.com/vendurehq/vendure/e5009d69f9062184eb7bafa1765b2c38997b71b8/packages/cli/package.json
+  - https://raw.githubusercontent.com/vendurehq/vendure/e5009d69f9062184eb7bafa1765b2c38997b71b8/CHANGELOG.md
   - https://github.com/vendurehq/vendure/releases.atom
+  - https://github.com/vendurehq/vendure/releases/tag/v3.8.2

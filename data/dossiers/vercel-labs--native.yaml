@@ -1,0 +1,71 @@
+schema_version: 2
+repository_id: github:vercel-labs/native
+research:
+  state: complete
+  source_commit: 4d47c2cfcd256e7835a31342058cb321d5c75217
+  bundle_collected_at: 2026-11-22T12:10:37.578Z
+  researched_at: 2026-11-22T12:26:57Z
+  confidence: high
+classification:
+  primary_category: application-frameworks
+  topics:
+    - desktop-development
+    - ui-components
+    - design-systems
+    - testing
+    - agent-skills
+    - automation
+    - developer-productivity
+project:
+  name: Native SDK
+  kind: framework
+  summary: >-
+    A declarative toolkit for compiling TypeScript-authored desktop interfaces
+    to native executables, with optional embedded web content.
+  best_for:
+    - Developers building lightweight native desktop applications from TypeScript
+    - Agent-driven UI workflows that benefit from deterministic record and replay
+key_features:
+  - Compiles declarative .native markup and TypeScript logic to native binaries
+  - Provides components, design tokens, state architecture, and a development CLI
+  - Provides testing and automation interfaces for inspecting and driving apps
+  - Supports Zig cores and optional embedded web content
+usage:
+  interfaces:
+    - command-line interface
+    - TypeScript SDK
+    - agent automation server
+  installation:
+    - npm install -g @native-sdk/cli
+    - source checkout
+  setup: moderate
+technology:
+  languages:
+    - Zig
+    - TypeScript
+  notable_components:
+    - native UI runtime
+    - accessibility tree
+license:
+  spdx: Apache-2.0
+  name: Apache License 2.0
+  notes: Permissive license with patent grant and notice requirements.
+status:
+  lifecycle: experimental
+  archived: false
+  latest_release: v0.11.1
+  latest_release_at: 2026-11-09
+strengths:
+  - Targets genuinely native binaries while retaining a TypeScript authoring
+    experience
+  - Includes testing and automation workflows
+caveats:
+  - macOS support is the deepest; Linux and Windows are less mature and mobile
+    support is experimental
+  - The project is pre-1.0 and its custom UI model differs from browser
+    frameworks
+sources:
+  - https://raw.githubusercontent.com/vercel-labs/native/4d47c2cfcd256e7835a31342058cb321d5c75217/README.md
+  - https://raw.githubusercontent.com/vercel-labs/native/4d47c2cfcd256e7835a31342058cb321d5c75217/LICENSE
+  - https://github.com/vercel-labs/native/releases.atom
+  - https://github.com/vercel-labs/native/releases/tag/v0.11.1

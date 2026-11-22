@@ -10,15 +10,21 @@ analysis:
     use_cases:
       - "learn-and-reference"
   evidence:
-    - claim: "Awesome AI Research Writing provides reusable prompts for academic writing tasks such as translation, polishing, analysis, reviewing, and paper figures, along with tutorials and agent skills for writing workflows."
+    - claim: "Awesome AI Research Writing provides reusable prompts for academic
+        writing tasks such as translation, polishing, analysis, reviewing, and
+        paper figures, along with tutorials and agent skills for writing
+        workflows."
       source_type: "repository-file"
       url: "https://github.com/Leey21/awesome-ai-research-writing/blob/main/README.md"
       checked_at: "2026-07-19"
       confidence: "high"
   state: "complete"
   summary:
-    one_line: "A collection of prompts, skills, and tutorials for AI-assisted academic research writing."
-    why_useful: "It provides reusable templates and workflow guidance for translation, polishing, analysis, reviewing, and formatting research papers."
+    one_line: "A collection of prompts, skills, and tutorials for AI-assisted
+      academic research writing."
+    why_useful: "It provides reusable templates and workflow guidance for
+      translation, polishing, analysis, reviewing, and formatting research
+      papers."
 curation:
   confidence: null
   evidence: []
@@ -32,28 +38,28 @@ id: "github:Leey21/awesome-ai-research-writing"
 import:
   github_snapshot:
     archived: false
-    created_at: "2026-01-30T07:59:30Z"
-    default_branch: "main"
+    created_at: 2026-01-30T07:59:30Z
+    default_branch: main
     description: "Elevate your AI research writing, no more tedious polishing ✨ "
     disabled: false
-    fetched_at: "2026-07-19T19:16:14.796Z"
+    fetched_at: 2026-11-22T12:07:00.148Z
     fork: false
-    forks: 2384
+    forks: 2544
     homepage: ""
     latest_release: null
     license_spdx: null
-    open_issues: 16
+    open_issues: 18
     primary_language: null
-    pushed_at: "2026-05-18T12:38:36Z"
-    stars: 31732
+    pushed_at: 2026-08-19T02:47:43Z
+    stars: 36232
     topics: []
-    updated_at: "2026-07-19T18:04:54Z"
+    updated_at: 2026-11-22T11:25:44Z
   sources:
-    - observed_at: "2026-04-03T15:32:11Z"
-      relation: "starred"
-      source_id: "github:user:tomseai:stars"
-      source_url: "https://github.com/tomseai?tab=stars"
-  state: "imported"
+    - observed_at: 2026-04-03T15:32:11Z
+      relation: starred
+      source_id: github:user:tomseai:stars
+      source_url: https://github.com/tomseai?tab=stars
+  state: refreshed
 repository:
   aliases: []
   github_node_id: "R_kgDOREtPzg"

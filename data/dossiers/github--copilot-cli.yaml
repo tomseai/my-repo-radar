@@ -2,9 +2,9 @@ schema_version: 2
 repository_id: github:github/copilot-cli
 research:
   state: complete
-  source_commit: fd24cea5cb11da4e630485ff2d9269318b8c2a4e
-  bundle_collected_at: 2026-07-19T20:43:10.059Z
-  researched_at: 2026-07-20T15:31:57.747Z
+  source_commit: c41b148a2a85a8502c9e7bf73cb4d04d707f6576
+  bundle_collected_at: 2026-11-22T12:09:33.363Z
+  researched_at: 2026-11-22T12:24:52.436Z
   confidence: high
 classification:
   primary_category: ai-and-automation
@@ -35,7 +35,7 @@ key_features:
   - Previews every action for explicit approval before execution
   - GitHub MCP server included by default and support for custom MCP servers
   - Optional Language Server Protocol support for definitions, hover information, and diagnostics
-  - Experimental Autopilot mode that encourages continued work until task completion
+  - Autopilot mode that encourages continued work until task completion
 usage:
   interfaces:
     - interactive terminal CLI
@@ -45,6 +45,7 @@ usage:
     - Homebrew
     - WinGet
     - npm package
+    - official container image
   setup: moderate
 technology:
   languages: []
@@ -58,12 +59,12 @@ license:
   notes: >-
     Permits installation and use, plus redistribution only of unmodified copies
     as part of an application or service with material functionality beyond the
-    CLI; modification and standalone distribution are not permitted.
+    CLI. Redistribution requires an independently licensed application or service and preservation of notices. Modification and standalone redistribution are prohibited.
 status:
   lifecycle: active
   archived: false
-  latest_release: 1.0.72-1
-  latest_release_at: 2026-07-17
+  latest_release: v1.0.114
+  latest_release_at: "2026-11-18"
 strengths:
   - Keeps agentic coding work in a terminal while using GitHub context
   - Exposes extension points through built-in GitHub MCP and custom MCP servers
@@ -72,9 +73,9 @@ caveats:
   - An active Copilot subscription is required, and organization or enterprise policy can disable CLI access
   - The bundled software license is not an open-source license and forbids modification
   - Language servers are not bundled and must be installed and configured separately
-  - Autopilot is explicitly marked experimental
+  - Access to connected services can require separate entitlements and is subject to the relevant provider terms
 sources:
-  - https://raw.githubusercontent.com/github/copilot-cli/fd24cea5cb11da4e630485ff2d9269318b8c2a4e/README.md
-  - https://raw.githubusercontent.com/github/copilot-cli/fd24cea5cb11da4e630485ff2d9269318b8c2a4e/LICENSE.md
-  - https://raw.githubusercontent.com/github/copilot-cli/fd24cea5cb11da4e630485ff2d9269318b8c2a4e/changelog.md
+  - https://raw.githubusercontent.com/github/copilot-cli/c41b148a2a85a8502c9e7bf73cb4d04d707f6576/README.md
+  - https://raw.githubusercontent.com/github/copilot-cli/c41b148a2a85a8502c9e7bf73cb4d04d707f6576/LICENSE.md
+  - https://raw.githubusercontent.com/github/copilot-cli/c41b148a2a85a8502c9e7bf73cb4d04d707f6576/container/Dockerfile
   - https://github.com/github/copilot-cli/releases.atom

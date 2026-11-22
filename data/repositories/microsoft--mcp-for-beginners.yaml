@@ -12,15 +12,19 @@ analysis:
       - "build-ai-products"
       - "learn-and-reference"
   evidence:
-    - claim: "Model Context Protocol Curriculum for Beginners teaches MCP through hands-on examples in C#, Java, JavaScript, Rust, Python, and TypeScript, covering how AI applications communicate with tools and services."
+    - claim: "Model Context Protocol Curriculum for Beginners teaches MCP through
+        hands-on examples in C#, Java, JavaScript, Rust, Python, and TypeScript,
+        covering how AI applications communicate with tools and services."
       source_type: "repository-file"
       url: "https://github.com/microsoft/mcp-for-beginners/blob/main/README.md"
       checked_at: "2026-07-19"
       confidence: "high"
   state: "researched"
   summary:
-    one_line: "A hands-on, cross-language curriculum for learning the Model Context Protocol."
-    why_useful: "It provides practical MCP examples for building modular AI workflows and service integrations."
+    one_line: "A hands-on, cross-language curriculum for learning the Model Context
+      Protocol."
+    why_useful: "It provides practical MCP examples for building modular AI
+      workflows and service integrations."
 curation:
   confidence: null
   evidence: []
@@ -34,42 +38,47 @@ id: "github:microsoft/mcp-for-beginners"
 import:
   github_snapshot:
     archived: false
-    created_at: "2025-04-04T20:46:17Z"
-    default_branch: "main"
-    description: "This open-source curriculum introduces the fundamentals of Model Context Protocol (MCP) through real-world, cross-language examples in .NET, Java, TypeScript, JavaScript, Rust and Python. Designed for developers, it focuses on practical techniques for building modular, scalable, and secure AI workflows from session setup to service orchestration."
+    created_at: 2025-04-04T20:46:17Z
+    default_branch: main
+    description: This open-source curriculum introduces the fundamentals of Model
+      Context Protocol (MCP) through real-world, cross-language examples in
+      .NET, Java, TypeScript, JavaScript, Rust and Python. Designed for
+      developers, it focuses on practical techniques for building modular,
+      scalable, and secure AI workflows from session setup to service
+      orchestration.
     disabled: false
-    fetched_at: "2026-07-19T19:16:14.796Z"
+    fetched_at: 2026-11-22T12:07:00.148Z
     fork: false
-    forks: 5475
+    forks: 5695
     homepage: ""
     latest_release: null
-    license_spdx: "MIT"
-    open_issues: 2
-    primary_language: "Jupyter Notebook"
-    pushed_at: "2026-07-17T21:39:40Z"
-    stars: 16781
+    license_spdx: MIT
+    open_issues: 44
+    primary_language: Jupyter Notebook
+    pushed_at: 2026-11-21T00:09:34Z
+    stars: 17697
     topics:
-      - "csharp"
-      - "java"
-      - "javascript"
-      - "javascript-applications"
-      - "mcp"
-      - "mcp-client"
-      - "mcp-security"
-      - "mcp-server"
-      - "model"
-      - "model-context-protocol"
-      - "modelcontextprotocol"
-      - "python"
-      - "rust"
-      - "typescript"
-    updated_at: "2026-07-19T18:34:35Z"
+      - csharp
+      - java
+      - javascript
+      - javascript-applications
+      - mcp
+      - mcp-client
+      - mcp-security
+      - mcp-server
+      - model
+      - model-context-protocol
+      - modelcontextprotocol
+      - python
+      - rust
+      - typescript
+    updated_at: 2026-11-22T05:46:42Z
   sources:
-    - observed_at: "2025-06-03T09:47:34Z"
-      relation: "starred"
-      source_id: "github:user:tomseai:stars"
-      source_url: "https://github.com/tomseai?tab=stars"
-  state: "imported"
+    - observed_at: 2025-06-03T09:47:34Z
+      relation: starred
+      source_id: github:user:tomseai:stars
+      source_url: https://github.com/tomseai?tab=stars
+  state: refreshed
 repository:
   aliases: []
   github_node_id: "R_kgDOOUKY3Q"

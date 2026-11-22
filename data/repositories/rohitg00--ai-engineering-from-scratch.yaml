@@ -15,15 +15,21 @@ analysis:
       - "learn-and-reference"
       - "build-ai-products"
   evidence:
-    - claim: "AI Engineering From Scratch is an open curriculum with 503 lessons across 20 phases, covering mathematics, machine learning, LLMs, agent engineering, and infrastructure through from-scratch implementations and production libraries."
+    - claim: "AI Engineering From Scratch is an open curriculum with 503 lessons
+        across 20 phases, covering mathematics, machine learning, LLMs, agent
+        engineering, and infrastructure through from-scratch implementations and
+        production libraries."
       source_type: "repository-file"
-      url: "https://github.com/rohitg00/ai-engineering-from-scratch/blob/main/README.md"
+      url: "https://github.com/rohitg00/ai-engineering-from-scratch/blob/main/README.\
+        md"
       checked_at: "2026-07-19"
       confidence: "high"
   state: "researched"
   summary:
-    one_line: "Open curriculum for learning and building AI engineering systems from first principles."
-    why_useful: "It combines staged lessons, raw implementations, and reusable artifacts across machine learning and agent engineering."
+    one_line: "Open curriculum for learning and building AI engineering systems from
+      first principles."
+    why_useful: "It combines staged lessons, raw implementations, and reusable
+      artifacts across machine learning and agent engineering."
 curation:
   confidence: null
   evidence: []
@@ -37,48 +43,51 @@ id: "github:rohitg00/ai-engineering-from-scratch"
 import:
   github_snapshot:
     archived: false
-    created_at: "2026-03-18T18:38:02Z"
-    default_branch: "main"
-    description: "Learn it. Build it. Ship it for others."
+    created_at: 2026-03-18T18:38:02Z
+    default_branch: main
+    description: Learn AI Engineering! Learn it. Build it. Ship it for others.
     disabled: false
-    fetched_at: "2026-07-19T19:16:14.796Z"
+    fetched_at: 2026-11-22T12:07:00.148Z
     fork: false
-    forks: 6611
-    homepage: "https://aiengineeringfromscratch.com"
-    latest_release: null
-    license_spdx: "MIT"
-    open_issues: 101
-    primary_language: "Python"
-    pushed_at: "2026-06-25T19:43:11Z"
-    stars: 39569
+    forks: 14270
+    homepage: https://aiengineeringfromscratch.com
+    latest_release:
+      tag: v2026.11.4
+      published_at: 2026-11-18T06:12:04Z
+      url: https://github.com/rohitg00/ai-engineering-from-scratch/releases/tag/v2026.11.4
+    license_spdx: MIT
+    open_issues: 69
+    primary_language: Python
+    pushed_at: 2026-11-18T10:49:29Z
+    stars: 79802
     topics:
-      - "agents"
-      - "ai"
-      - "ai-agents"
-      - "ai-engineering"
-      - "computer-vision"
-      - "course"
-      - "deep-learning"
-      - "from-scratch"
-      - "generative-ai"
-      - "llm"
-      - "machine-learning"
-      - "mcp"
-      - "nlp"
-      - "python"
-      - "reinforcement-learning"
-      - "rust"
-      - "swarm-intelligence"
-      - "transformers"
-      - "tutorial"
-      - "typescript"
-    updated_at: "2026-07-19T19:13:18Z"
+      - agents
+      - ai
+      - ai-agents
+      - ai-engineering
+      - computer-vision
+      - course
+      - deep-learning
+      - dsh
+      - from-scratch
+      - generative-ai
+      - llm
+      - machine-learning
+      - mcp
+      - python
+      - rea
+      - reinforcement-learning
+      - rust
+      - transformers
+      - tutorial
+      - typescript
+    updated_at: 2026-11-22T11:29:54Z
   sources:
-    - observed_at: "2026-04-25T21:02:32Z"
-      relation: "starred"
-      source_id: "github:user:tomseai:stars"
-      source_url: "https://github.com/tomseai?tab=stars"
-  state: "imported"
+    - observed_at: 2026-04-25T21:02:32Z
+      relation: starred
+      source_id: github:user:tomseai:stars
+      source_url: https://github.com/tomseai?tab=stars
+  state: refreshed
 repository:
   aliases: []
   github_node_id: "R_kgDORqqs2A"

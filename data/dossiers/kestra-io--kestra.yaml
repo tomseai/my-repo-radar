@@ -2,9 +2,9 @@ schema_version: 2
 repository_id: github:kestra-io/kestra
 research:
   state: complete
-  source_commit: c3fbf113867c8b76660bd4527e7068d34d753efa
-  bundle_collected_at: 2026-07-19T20:43:39.626Z
-  researched_at: 2026-07-20T15:30:00.000Z
+  source_commit: ad57636df342f0a211db4e5da88c3f7af95c404c
+  bundle_collected_at: 2026-11-22T12:09:44.528Z
+  researched_at: 2026-11-22T12:22:24.553125+00:00
   confidence: high
 
 classification:
@@ -26,15 +26,22 @@ project:
     workflows across data, AI, infrastructure, and process automation, with a
     web UI, APIs, scheduling, event triggers, and a plugin ecosystem.
   best_for:
-    - Teams operating scheduled or event-driven data, infrastructure, or AI workflows
-    - Developers who want workflows defined as code but editable and observable in a UI
+    - Teams operating scheduled or event-driven data, infrastructure, or AI
+      workflows
+    - Developers who want workflows defined as code but editable and observable
+      in a UI
 
 key_features:
   - Defines flows, tasks, inputs, variables, and triggers in declarative YAML
-  - Supports scheduled and event-driven execution, including message-bus and cloud triggers
-  - Provides a built-in editor, visual topology view, completion, and real-time validation
-  - Extends workflows through plugins for databases, storage, APIs, scripts, and cloud services
-  - Supports retries, timeouts, error handling, branching, parallel work, and backfills
+  - Offers AI agents, RAG workflows, and a built-in MCP server
+  - Supports scheduled and event-driven execution, including message-bus and
+    cloud triggers
+  - Provides a built-in editor, visual topology view, completion, and real-time
+    validation
+  - Extends workflows through plugins for databases, storage, APIs, scripts, and
+    cloud services
+  - Supports retries, timeouts, error handling, branching, parallel work, and
+    backfills
   - Keeps workflow YAML synchronized when flows change through the UI or API
 
 usage:
@@ -62,28 +69,37 @@ technology:
 license:
   spdx: Apache-2.0
   name: Apache License 2.0
-  notes: Permissive license with an express patent grant, notice retention requirements, and a trademark exclusion.
+  notes: Permissive license with an express patent grant, notice retention
+    requirements, and a trademark exclusion.
 
 status:
   lifecycle: active
   archived: false
-  latest_release: v1.3.28
-  latest_release_at: 2026-07-15
+  latest_release: v2.0.11
+  latest_release_at: 2026-11-17
 
 strengths:
-  - One workflow model covers scheduled, event-driven, data, AI, and infrastructure automation
-  - Declarative workflows remain usable through source control, the UI, and API-driven automation
-  - Plugin and task-runner support connects common data, cloud, container, and scripting environments
+  - One workflow model covers scheduled, event-driven, data, AI, and
+    infrastructure automation
+  - Declarative workflows remain usable through source control, the UI, and
+    API-driven automation
+  - Plugin and task-runner support connects common data, cloud, container, and
+    scripting environments
 
 caveats:
-  - The retained release feed also contains v2.0.0 release candidates; v1.3.28 is the newest stable primary release observed
-  - Production deployment needs deliberate choices for persistence, queues, storage, authentication, and execution isolation
-  - The included Compose configuration is development-oriented and mounts the Docker socket as root
-  - The repository's Java build targets Java 25, which may affect contributors and self-builders
+  - The retained release feed also contains v2.0.0 release candidates; v2.0.11
+    is the newest stable primary release observed
+  - Production deployment needs deliberate choices for persistence, queues,
+    storage, authentication, and execution isolation
+  - The included Compose configuration is development-oriented and mounts the
+    Docker socket as root
+  - The repository's Java build targets Java 25, which may affect contributors
+    and self-builders
 
 sources:
-  - https://raw.githubusercontent.com/kestra-io/kestra/c3fbf113867c8b76660bd4527e7068d34d753efa/README.md
-  - https://raw.githubusercontent.com/kestra-io/kestra/c3fbf113867c8b76660bd4527e7068d34d753efa/LICENSE
-  - https://raw.githubusercontent.com/kestra-io/kestra/c3fbf113867c8b76660bd4527e7068d34d753efa/build.gradle
-  - https://raw.githubusercontent.com/kestra-io/kestra/c3fbf113867c8b76660bd4527e7068d34d753efa/docker-compose.yml
+  - https://raw.githubusercontent.com/kestra-io/kestra/ad57636df342f0a211db4e5da88c3f7af95c404c/README.md
+  - https://raw.githubusercontent.com/kestra-io/kestra/ad57636df342f0a211db4e5da88c3f7af95c404c/LICENSE
+  - https://raw.githubusercontent.com/kestra-io/kestra/ad57636df342f0a211db4e5da88c3f7af95c404c/build.gradle
+  - https://raw.githubusercontent.com/kestra-io/kestra/ad57636df342f0a211db4e5da88c3f7af95c404c/docker-compose.yml
   - https://github.com/kestra-io/kestra/releases.atom
+  - https://github.com/kestra-io/kestra/releases/tag/v2.0.11

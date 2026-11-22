@@ -2,11 +2,10 @@ schema_version: 2
 repository_id: github:thlorenz/doctoc
 research:
   state: complete
-  source_commit: 244e801ef2395ea831ee8db4cda69b092f29794e
-  bundle_collected_at: 2026-07-19T20:45:35.129Z
-  researched_at: 2026-07-20T16:11:13.003Z
+  source_commit: 56ec8e078ddb3de2bf7834e129a2448606c56443
+  bundle_collected_at: 2026-11-22T12:10:27.899Z
+  researched_at: 2026-11-22T12:24:20.666Z
   confidence: high
-
 classification:
   primary_category: developer-tools
   topics:
@@ -15,26 +14,26 @@ classification:
     - git
     - automation
     - developer-productivity
-
 project:
   name: DocToc
   kind: cli
-  summary: >-
-    A Node.js command-line tool that inserts or updates tables of contents in
+  summary: A Node.js command-line tool that inserts or updates tables of contents in
     Markdown files, recursively processes directories, and offers configurable
     anchors, heading ranges, layout, dry-run, and update-only behavior.
   best_for:
     - Maintaining generated navigation in Markdown documentation repositories
-    - CI, pre-commit, or lint-staged workflows that should detect stale tables of contents
-
+    - CI, pre-commit, or lint-staged workflows that should detect stale tables of
+      contents
 key_features:
   - Generates and updates marked table-of-contents sections in Markdown files
-  - Recursively processes .md, .markdown, and .mdx files while ignoring .git and node_modules
+  - Recursively processes .md, .markdown, and .mdx files while ignoring .git and
+    node_modules
   - Supports GitHub, GitLab, and Bitbucket-compatible anchor modes
-  - Provides dry-run exit status checks for CI and update-only behavior for existing TOCs
-  - Configures heading depth, minimum document length, list style, titles, and placement
+  - Provides dry-run exit status checks for CI and update-only behavior for existing
+    TOCs
+  - Configures heading depth, minimum document length, list style, titles, placement,
+    and marker-comment style
   - Supports dedicated comments to skip files or exclude headings
-
 usage:
   interfaces:
     - CLI
@@ -43,7 +42,6 @@ usage:
     - npm global package
     - npm package in a repository workflow
   setup: low
-
 technology:
   languages:
     - JavaScript
@@ -51,30 +49,30 @@ technology:
     - Node.js
     - npm
     - GitHub Actions
-
 license:
   spdx: MIT
   name: MIT License
   notes: Permissive license with copyright and license-notice retention requirements.
-
 status:
   lifecycle: active
   archived: false
   latest_release: v2.5.0
   latest_release_at: 2026-06-12
-
 strengths:
-  - Covers both one-file updates and repeatable repository-wide documentation maintenance
+  - Covers both one-file updates and repeatable repository-wide documentation
+    maintenance
   - Includes safe dry-run and update-only modes for automation pipelines
-
 caveats:
-  - It edits Markdown as a text processor, so formatting-sensitive documents may need a dry run and review
-  - Anchor output depends on the selected hosting-site mode and its heading conventions
-  - The cached package version is a development placeholder; the release feed is the release source
-
+  - It edits Markdown as a text processor, so formatting-sensitive documents may need
+    a dry run and review
+  - Anchor output depends on the selected hosting-site mode and its heading
+    conventions
+  - The cached package version is a development placeholder; the release feed is the
+    release source
 sources:
-  - https://raw.githubusercontent.com/thlorenz/doctoc/244e801ef2395ea831ee8db4cda69b092f29794e/README.md
-  - https://raw.githubusercontent.com/thlorenz/doctoc/244e801ef2395ea831ee8db4cda69b092f29794e/LICENSE
-  - https://raw.githubusercontent.com/thlorenz/doctoc/244e801ef2395ea831ee8db4cda69b092f29794e/package.json
-  - https://raw.githubusercontent.com/thlorenz/doctoc/244e801ef2395ea831ee8db4cda69b092f29794e/.github/workflows/release.yml
+  - https://raw.githubusercontent.com/thlorenz/doctoc/56ec8e078ddb3de2bf7834e129a2448606c56443/README.md
+  - https://raw.githubusercontent.com/thlorenz/doctoc/56ec8e078ddb3de2bf7834e129a2448606c56443/LICENSE
+  - https://raw.githubusercontent.com/thlorenz/doctoc/56ec8e078ddb3de2bf7834e129a2448606c56443/package.json
+  - https://raw.githubusercontent.com/thlorenz/doctoc/56ec8e078ddb3de2bf7834e129a2448606c56443/.github/workflows/release.yml
   - https://github.com/thlorenz/doctoc/releases.atom
+  - https://github.com/thlorenz/doctoc/releases/tag/v2.5.0

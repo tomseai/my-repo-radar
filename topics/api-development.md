@@ -2,14 +2,15 @@
 
 # API Development
 
-[Back to the main catalog](../README.md) | **14 repositories**
+[Back to the main catalog](../README.md) | **16 repositories**
 
 ## Primary categories represented
 
 - [AI and Automation](../categories/ai-and-automation.md) (3)
-- [Application Frameworks](../categories/application-frameworks.md) (3)
+- [Application Frameworks](../categories/application-frameworks.md) (4)
 - [Backend and APIs](../categories/backend-and-apis.md) (4)
 - [Developer Tools](../categories/developer-tools.md) (1)
+- [DevOps and Cloud](../categories/devops-and-cloud.md) (1)
 - [Documentation and Learning](../categories/documentation-and-learning.md) (1)
 - [Platforms and Applications](../categories/platforms-and-applications.md) (1)
 - [Security and Privacy](../categories/security-and-privacy.md) (1)
@@ -27,7 +28,7 @@ The TypeScript-first, full-stack MVC framework core for Node.js web applications
 - **Languages:** TypeScript, JavaScript
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 19,044
+- **GitHub stars:** 19,192
 
 **Key features**
 
@@ -48,7 +49,7 @@ A TypeScript library for deploying or embedding a self-hosted, OAuth 2.0 authori
 - **Languages:** TypeScript
 - **License:** MIT
 - **Lifecycle:** Experimental
-- **GitHub stars:** 7,245
+- **GitHub stars:** 7,453
 
 **Key features**
 
@@ -69,13 +70,34 @@ A statically typed programming language and toolchain for defining reliable agen
 - **Languages:** Rust, TypeScript, Go
 - **License:** Apache-2.0
 - **Lifecycle:** Active
-- **GitHub stars:** 8,571
+- **GitHub stars:** 9,531
 
 **Key features**
 
   - Uses a TypeScript-like syntax with Rust-style static typing and no unrestricted any type
   - Preserves types at runtime and statically analyzes typed errors
   - Organizes modules and namespaces through the filesystem
+
+<a id="repo-encoredev--encore"></a>
+
+## [Encore](https://github.com/encoredev/encore)
+
+A Go and TypeScript backend framework with local infrastructure orchestration and an optional managed cloud deployment platform.
+
+- **Category:** [Application Frameworks](../categories/application-frameworks.md#repo-encoredev--encore)
+- **Topics:** [Backend Development](../topics/backend-development.md#repo-encoredev--encore) | [API Development](../topics/api-development.md#repo-encoredev--encore) | [Cloud](../topics/cloud.md#repo-encoredev--encore) | [Deployment](../topics/deployment.md#repo-encoredev--encore) | [Observability](../topics/observability.md#repo-encoredev--encore) | [Frameworks](../topics/frameworks.md#repo-encoredev--encore) | [CLI](../topics/cli.md#repo-encoredev--encore)
+- **Kind:** Framework
+- **Best for:** Teams building backend services with consistent local and cloud infrastructure
+- **Languages:** Go, TypeScript, Rust
+- **License:** MPL-2.0
+- **Lifecycle:** Active
+- **GitHub stars:** 12,733
+
+**Key features**
+
+  - Declare services, databases, messaging, storage, and other infrastructure in application code
+  - Run local infrastructure with a dashboard and distributed traces
+  - Provision and deploy to AWS or Google Cloud through the optional platform
 
 <a id="repo-fastify--fastify"></a>
 
@@ -90,7 +112,7 @@ A Node.js web framework for building HTTP servers and APIs with route schemas, s
 - **Languages:** JavaScript
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 36,758
+- **GitHub stars:** 37,453
 
 **Key features**
 
@@ -111,7 +133,7 @@ A framework and multi-language SDK set for exposing AI agents through A2A messag
 - **Languages:** Python, TypeScript, Kotlin
 - **License:** Apache-2.0
 - **Lifecycle:** Active
-- **GitHub stars:** 7,835
+- **GitHub stars:** 9,966
 
 **Key features**
 
@@ -132,7 +154,7 @@ A small TypeScript web framework built on Web Standards for defining HTTP applic
 - **Languages:** TypeScript
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 31,399
+- **GitHub stars:** 33,013
 
 **Key features**
 
@@ -153,7 +175,7 @@ An OpenAI-maintained collection of example code and guides for common OpenAI API
 - **Languages:** Python, Jupyter Notebook
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 74,754
+- **GitHub stars:** 77,302
 
 **Key features**
 
@@ -174,7 +196,7 @@ A Python-centered OCR and document-understanding toolkit that converts images an
 - **Languages:** Python, TypeScript, Go, Java, Kotlin
 - **License:** Apache-2.0
 - **Lifecycle:** Active
-- **GitHub stars:** 85,803
+- **GitHub stars:** 92,998
 
 **Key features**
 
@@ -195,7 +217,7 @@ A hosted developer integration platform for building event-driven workflows with
 - **Languages:** JavaScript, TypeScript, Python, Go, Bash
 - **License:** Pipedream Source Available License Version 1.0
 - **Lifecycle:** Active
-- **GitHub stars:** 11,556
+- **GitHub stars:** 11,796
 
 **Key features**
 
@@ -216,7 +238,7 @@ A Go proxy service that presents OpenAI-, Gemini-, Claude-, Codex-, and Grok-com
 - **Languages:** Go
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 43,627
+- **GitHub stars:** 59,210
 
 **Key features**
 
@@ -228,16 +250,16 @@ A Go proxy service that presents OpenAI-, Gemini-, Claude-, Codex-, and Grok-com
 
 ## [Meridian](https://github.com/rynfar/meridian)
 
-A local HTTP proxy that presents the Claude Agent SDK through Anthropic and OpenAI-compatible APIs, allowing compatible coding tools to use Claude while the SDK manages authentication, rate limits, caching, and context.
+A local API proxy and dashboard connecting coding clients to Anthropic Claude through the Claude Agent SDK and, in preview, Google Antigravity through the signed-in agy CLI.
 
 - **Category:** [Backend and APIs](../categories/backend-and-apis.md#repo-rynfar--meridian)
 - **Topics:** [LLMs](../topics/llms.md#repo-rynfar--meridian) | [LLM Gateways](../topics/llm-gateways.md#repo-rynfar--meridian) | [API Development](../topics/api-development.md#repo-rynfar--meridian) | [CLI](../topics/cli.md#repo-rynfar--meridian) | [Local First](../topics/local-first.md#repo-rynfar--meridian) | [Observability](../topics/observability.md#repo-rynfar--meridian) | [Self Hosted](../topics/self-hosted.md#repo-rynfar--meridian)
 - **Kind:** Service
-- **Best for:** Connecting Anthropic- or OpenAI-compatible developer tools to the Claude Agent SDK; Running local, concurrent Claude-backed coding-agent sessions through a common endpoint
+- **Best for:** Connecting compatible coding clients to a signed-in Claude environment or trying the Antigravity preview; Running local, concurrent Claude-backed coding-agent sessions through a common endpoint
 - **Languages:** TypeScript
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 1,698
+- **GitHub stars:** 2,213
 
 **Key features**
 
@@ -258,7 +280,7 @@ A self-hosted, JavaScript and TypeScript headless CMS for visually modeling cont
 - **Languages:** JavaScript, TypeScript
 - **License:** NOASSERTION
 - **Lifecycle:** Active
-- **GitHub stars:** 72,685
+- **GitHub stars:** 73,533
 
 **Key features**
 
@@ -266,11 +288,32 @@ A self-hosted, JavaScript and TypeScript headless CMS for visually modeling cont
   - Generated REST and GraphQL APIs for each content type
   - Built-in roles and permissions, media library, internationalization, and draft-and-publish workflows
 
+<a id="repo-triggerdotdev--trigger.dev"></a>
+
+## [Trigger.dev](https://github.com/triggerdotdev/trigger.dev)
+
+An open-source durable execution platform for TypeScript AI agents and workflows, available as a managed cloud service or a self-hosted deployment.
+
+- **Category:** [DevOps and Cloud](../categories/devops-and-cloud.md#repo-triggerdotdev--trigger.dev)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-triggerdotdev--trigger.dev) | [Automation](../topics/automation.md#repo-triggerdotdev--trigger.dev) | [Deployment](../topics/deployment.md#repo-triggerdotdev--trigger.dev) | [Cloud](../topics/cloud.md#repo-triggerdotdev--trigger.dev) | [Self Hosted](../topics/self-hosted.md#repo-triggerdotdev--trigger.dev) | [Observability](../topics/observability.md#repo-triggerdotdev--trigger.dev) | [Tracing](../topics/tracing.md#repo-triggerdotdev--trigger.dev) | [Realtime](../topics/realtime.md#repo-triggerdotdev--trigger.dev) | [API Development](../topics/api-development.md#repo-triggerdotdev--trigger.dev)
+- **Kind:** Service
+- **Best for:** Teams building long-running TypeScript jobs, agents, and background workflows; Applications that need retries, queues, waits, streaming, schedules, and operational visibility
+- **Languages:** TypeScript
+- **License:** Apache-2.0
+- **Lifecycle:** Active
+- **GitHub stars:** 16,802
+
+**Key features**
+
+  - Runs long-lived tasks with durability, retries, queues, concurrency, and idempotency
+  - Supports human-in-the-loop waits, schedules, realtime updates, and streaming
+  - Provides logs, tracing, observability, environments, and deployment tooling
+
 <a id="repo-vendurehq--vendure"></a>
 
 ## [vendure](https://github.com/vendurehq/vendure)
 
-A plugin-first, headless commerce platform with a TypeScript GraphQL backend, React admin dashboard, and extensible business logic.
+A plugin-first headless commerce platform for B2B and other storefronts, built around a TypeScript GraphQL backend and React admin dashboard.
 
 - **Category:** [Backend and APIs](../categories/backend-and-apis.md#repo-vendurehq--vendure)
 - **Topics:** [Ecommerce](../topics/ecommerce.md#repo-vendurehq--vendure) | [Payments](../topics/payments.md#repo-vendurehq--vendure) | [Open Source](../topics/open-source.md#repo-vendurehq--vendure) | [Backend Development](../topics/backend-development.md#repo-vendurehq--vendure) | [API Development](../topics/api-development.md#repo-vendurehq--vendure) | [Frameworks](../topics/frameworks.md#repo-vendurehq--vendure)
@@ -279,7 +322,7 @@ A plugin-first, headless commerce platform with a TypeScript GraphQL backend, Re
 - **Languages:** TypeScript
 - **License:** GPL-3.0-or-later
 - **Lifecycle:** Active
-- **GitHub stars:** 8,258
+- **GitHub stars:** 8,611
 
 **Key features**
 
@@ -300,7 +343,7 @@ A self-hostable LLM document-processing platform that turns documents into struc
 - **Languages:** Python, TypeScript
 - **License:** AGPL-3.0-only
 - **Lifecycle:** Active
-- **GitHub stars:** 6,708
+- **GitHub stars:** 7,463
 
 **Key features**
 

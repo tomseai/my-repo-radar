@@ -2,11 +2,10 @@ schema_version: 2
 repository_id: github:Zipstack/unstract
 research:
   state: complete
-  source_commit: 714b903d25f72f43a4c08c8e0e6abfeac5e1da91
-  bundle_collected_at: 2026-07-19T20:46:08.649Z
-  researched_at: 2026-07-20T16:11:28.467Z
+  source_commit: 2bbe27eb4decff0d6e9fb3029efe3dd627ce4703
+  bundle_collected_at: 2026-11-22T12:10:42.477Z
+  researched_at: 2026-11-22T12:24:40.202Z
   confidence: high
-
 classification:
   primary_category: ai-and-automation
   topics:
@@ -18,25 +17,24 @@ classification:
     - mcp
     - web-ui
     - self-hosted
-
 project:
   name: Unstract
   kind: application
-  summary: >-
-    A self-hostable LLM document-processing platform that turns documents into
-    structured JSON through natural-language extraction prompts, APIs, and ETL workflows.
+  summary: A self-hostable LLM document-processing platform that turns documents
+    into structured JSON through natural-language extraction prompts, APIs,
+    and ETL workflows.
   best_for:
     - Building document-extraction APIs without writing a custom LLM pipeline
-    - Automating ingestion of business documents into data warehouses or other systems
-
+    - Automating ingestion of business documents into data warehouses or other
+      systems
 key_features:
   - Prompt Studio for defining extraction schemas in natural language
   - REST API deployments that accept documents and return JSON
   - ETL pipelines for loading processed documents into downstream destinations
   - Model Context Protocol server for agent integrations
   - n8n node for workflow automation
-  - Support for documents, spreadsheets, presentations, and common image formats
-
+  - Support for documents, spreadsheets, presentations, and common image
+    formats
 usage:
   interfaces:
     - web UI
@@ -48,7 +46,6 @@ usage:
     - Docker Compose
     - local source checkout
   setup: moderate
-
 technology:
   languages:
     - Python
@@ -61,30 +58,35 @@ technology:
     - PostgreSQL
     - Redis
     - RabbitMQ
-
 license:
   spdx: AGPL-3.0-only
   name: GNU Affero General Public License v3.0
-  notes: Modified versions used to provide network services carry AGPL source-offer obligations.
-
+  notes: Modified versions used to provide network services carry AGPL
+    source-offer obligations.
 status:
   lifecycle: active
   archived: false
-  latest_release: v0.181.0
-  latest_release_at: 2026-07-17
-
+  latest_release: v0.204.0
+  latest_release_at: 2026-11-10
 strengths:
   - Covers the path from extraction definition through API and ETL delivery
-  - Supports multiple LLM providers, text extractors, storage systems, and data destinations
-  - Provides a Docker Compose quickstart and an architecture for a self-hosted deployment
-
+  - Supports multiple LLM providers, text extractors, storage systems, and
+    data destinations
+  - Provides a Docker Compose quickstart and an architecture for a self-hosted
+    deployment
 caveats:
-  - Local deployment requires Linux or macOS, Docker Compose, Git, and at least 8 GB of RAM
+  - Local deployment requires Linux or macOS, Docker Compose, Git, and at
+    least 8 GB of RAM
   - Default local credentials must be changed before exposing the platform
-  - The AGPL-3.0-only license can impose obligations on modified network deployments
-  - Managed-cloud and enterprise capabilities are described separately from the open-source platform
-
+  - The AGPL-3.0-only license can impose obligations on modified network
+    deployments
+  - Managed-cloud and enterprise capabilities are described separately from
+    the open-source platform
+  - The release feed mixes the core project with independently versioned
+    enterprise releases. The selected v0.204.0 is the latest core release
+    shown
 sources:
-  - https://raw.githubusercontent.com/Zipstack/unstract/714b903d25f72f43a4c08c8e0e6abfeac5e1da91/README.md
-  - https://raw.githubusercontent.com/Zipstack/unstract/714b903d25f72f43a4c08c8e0e6abfeac5e1da91/LICENSE
+  - https://raw.githubusercontent.com/Zipstack/unstract/2bbe27eb4decff0d6e9fb3029efe3dd627ce4703/README.md
+  - https://raw.githubusercontent.com/Zipstack/unstract/2bbe27eb4decff0d6e9fb3029efe3dd627ce4703/LICENSE
   - https://github.com/Zipstack/unstract/releases.atom
+  - https://github.com/Zipstack/unstract/releases/tag/v0.204.0

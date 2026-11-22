@@ -15,7 +15,10 @@ analysis:
       - "manage-data"
       - "build-ai-products"
   evidence:
-    - claim: "LiteParse is a standalone open-source PDF parser that runs locally and provides spatial text extraction, OCR, screenshots, and Markdown, JSON, or text output through Rust, Node.js, Python, browser, and CLI interfaces."
+    - claim: "LiteParse is a standalone open-source PDF parser that runs locally and
+        provides spatial text extraction, OCR, screenshots, and Markdown, JSON,
+        or text output through Rust, Node.js, Python, browser, and CLI
+        interfaces."
       source_type: "repository-file"
       url: "https://github.com/run-llama/liteparse/blob/main/README.md"
       checked_at: "2026-07-19"
@@ -23,7 +26,8 @@ analysis:
   state: "researched"
   summary:
     one_line: "Local, open-source PDF parser with OCR and multi-language bindings."
-    why_useful: "It extracts document content into structured or LLM-ready formats without a cloud or proprietary model dependency."
+    why_useful: "It extracts document content into structured or LLM-ready formats
+      without a cloud or proprietary model dependency."
 curation:
   confidence: null
   evidence: []
@@ -37,35 +41,38 @@ id: "github:run-llama/liteparse"
 import:
   github_snapshot:
     archived: false
-    created_at: "2026-02-09T22:16:30Z"
-    default_branch: "main"
-    description: "A fast, helpful, and open-source document parser"
+    created_at: 2026-02-09T22:16:30Z
+    default_branch: main
+    description: A fast, helpful, and open-source document parser
     disabled: false
-    fetched_at: "2026-07-19T19:16:14.796Z"
+    fetched_at: 2026-11-22T12:07:00.148Z
     fork: false
-    forks: 789
-    homepage: "https://developers.llamaindex.ai/liteparse/"
-    latest_release: null
-    license_spdx: "Apache-2.0"
-    open_issues: 25
-    primary_language: "Rust"
-    pushed_at: "2026-07-19T01:26:36Z"
-    stars: 11673
+    forks: 904
+    homepage: https://developers.llamaindex.ai/liteparse/
+    latest_release:
+      tag: node-v2.20.0
+      published_at: 2026-11-17T22:40:42Z
+      url: https://github.com/run-llama/liteparse/releases/tag/node-v2.20.0
+    license_spdx: Apache-2.0
+    open_issues: 68
+    primary_language: Rust
+    pushed_at: 2026-11-20T14:54:44Z
+    stars: 13076
     topics:
-      - "document-ocr"
-      - "document-processing"
-      - "ocr"
-      - "ocr-recognition"
-      - "pdf"
-      - "pdf-parser"
-      - "text-extraction"
-    updated_at: "2026-07-19T19:03:44Z"
+      - document-ocr
+      - document-processing
+      - ocr
+      - ocr-recognition
+      - pdf
+      - pdf-parser
+      - text-extraction
+    updated_at: 2026-11-22T05:43:01Z
   sources:
-    - observed_at: "2026-03-28T19:18:25Z"
-      relation: "starred"
-      source_id: "github:user:tomseai:stars"
-      source_url: "https://github.com/tomseai?tab=stars"
-  state: "imported"
+    - observed_at: 2026-03-28T19:18:25Z
+      relation: starred
+      source_id: github:user:tomseai:stars
+      source_url: https://github.com/tomseai?tab=stars
+  state: refreshed
 repository:
   aliases: []
   github_node_id: "R_kgDORMhgaQ"

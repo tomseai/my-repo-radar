@@ -1,13 +1,11 @@
 schema_version: 2
 repository_id: github:EveryInc/compound-engineering-plugin
-
 research:
   state: complete
-  source_commit: 1f2ea66b2cb7a9743249b30e8d0ce2a6adb89590
-  bundle_collected_at: 2026-07-19T20:42:48.420Z
-  researched_at: 2026-07-20T15:22:44.534Z
+  source_commit: 58d1a83d9207c96c9fb4934589b8b5967849dfdb
+  bundle_collected_at: 2026-11-22T12:09:26.589Z
+  researched_at: 2026-11-22T12:23:21.748Z
   confidence: high
-
 classification:
   primary_category: ai-and-automation
   topics:
@@ -20,26 +18,23 @@ classification:
     - pull-requests
     - testing
     - developer-productivity
-
 project:
   name: Compound Engineering
   kind: plugin
-  summary: >-
-    A cross-harness plugin of coding-agent skills that structures engineering
+  summary: A cross-harness plugin of coding-agent skills that structures engineering
     work around requirements, implementation planning, execution, review, and
     reusable solution notes.
   best_for:
     - Teams that want repeatable, agent-assisted feature and bug-fix workflows
     - Coding-agent users who want repository learnings to inform later work
-
 key_features:
-  - A six-step brainstorm, plan, work, simplify, review, and compound workflow
+  - A workflow that moves from brainstorming and planning through implementation,
+    review, and recording lessons
   - Interactive requirements and implementation-plan skills
   - Worktree-based implementation and task tracking
   - Report-only multi-agent code review with explicit local application
   - Git commit, pull-request, CI-follow-up, and browser-test skills
   - Solution-note capture and refresh for reusable engineering knowledge
-
 usage:
   interfaces:
     - coding-agent plugin
@@ -48,7 +43,6 @@ usage:
     - host plugin marketplace
     - Git repository plugin install
   setup: moderate
-
 technology:
   languages:
     - TypeScript
@@ -56,31 +50,28 @@ technology:
     - Bun
     - Claude Code plugin format
     - Codex plugin format
-
 license:
   spdx: MIT
   name: MIT License
-  notes: Permissive reuse subject to retaining the copyright and license notice; provided without warranty.
-
+  notes: Permissive reuse subject to retaining the copyright and license notice;
+    provided without warranty.
 status:
   lifecycle: active
   archived: false
-  latest_release: compound-engineering-v3.19.0
-  latest_release_at: 2026-07-08
-
+  latest_release: compound-engineering-v3.38.2
+  latest_release_at: 2026-11-18
 strengths:
   - Covers the full change lifecycle rather than only implementation prompts
   - Supports native plugin or skill installation across several coding-agent hosts
   - Treats documented lessons as inputs to future planning work
-
 caveats:
   - It adds a prescriptive workflow and is likely excessive for trivial changes
   - Available skills and permission behavior vary by host coding agent
   - Some autonomous workflows can create commits, pull requests, and CI follow-up work
   - Existing marketplace installs may require a marketplace refresh before updating
-
 sources:
-  - https://raw.githubusercontent.com/EveryInc/compound-engineering-plugin/1f2ea66b2cb7a9743249b30e8d0ce2a6adb89590/README.md
-  - https://raw.githubusercontent.com/EveryInc/compound-engineering-plugin/1f2ea66b2cb7a9743249b30e8d0ce2a6adb89590/LICENSE
-  - https://raw.githubusercontent.com/EveryInc/compound-engineering-plugin/1f2ea66b2cb7a9743249b30e8d0ce2a6adb89590/package.json
+  - https://raw.githubusercontent.com/EveryInc/compound-engineering-plugin/58d1a83d9207c96c9fb4934589b8b5967849dfdb/README.md
+  - https://raw.githubusercontent.com/EveryInc/compound-engineering-plugin/58d1a83d9207c96c9fb4934589b8b5967849dfdb/LICENSE
+  - https://raw.githubusercontent.com/EveryInc/compound-engineering-plugin/58d1a83d9207c96c9fb4934589b8b5967849dfdb/package.json
   - https://github.com/EveryInc/compound-engineering-plugin/releases.atom
+  - https://github.com/EveryInc/compound-engineering-plugin/releases/tag/compound-engineering-v3.38.2

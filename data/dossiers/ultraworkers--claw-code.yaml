@@ -2,9 +2,9 @@ schema_version: 2
 repository_id: github:ultraworkers/claw-code
 research:
   state: complete
-  source_commit: 4ea31c1bc91c4e9bcbd67d51c550c01e127e6d0d
-  bundle_collected_at: 2026-07-19T20:45:47.526Z
-  researched_at: 2026-07-20T16:11:30.723Z
+  source_commit: 508b4d862d42a5fa5bde8df5b2d3670f4d4ca324
+  bundle_collected_at: 2026-11-22T12:10:35.874Z
+  researched_at: 2026-11-22T12:23:58.021Z
   confidence: high
 classification:
   primary_category: ai-and-automation
@@ -22,13 +22,13 @@ classification:
 project:
   name: Claw Code
   kind: cli
-  summary: >-
-    A build-from-source Rust implementation of the claw CLI agent harness,
-    explicitly maintained as an agent-managed public exhibit rather than a
-    serious production project.
+  summary: A build-from-source Rust implementation of the claw CLI agent harness,
+    explicitly maintained as an agent-managed public exhibit rather than a serious
+    production project.
   best_for:
     - Inspecting an agent-managed Rust CLI harness and its implementation
-    - Experimenting with prompt, interactive-session, provider, plugin, and RAG workflows
+    - Experimenting with prompt, interactive-session, provider, plugin, and RAG
+      workflows
 key_features:
   - Builds a claw command-line binary for one-shot prompts and interactive sessions
   - Provides doctor and status commands for configuration and health checks
@@ -59,26 +59,27 @@ technology:
 license:
   spdx: MIT
   name: MIT License
-  notes: >-
-    Permits commercial use, modification, and distribution subject to retaining
+  notes: Permits commercial use, modification, and distribution subject to retaining
     the copyright and license notice; the software is provided without warranty.
 status:
   lifecycle: experimental
   archived: false
-  latest_release: null
-  latest_release_at: null
+  latest_release: v0.1.13
+  latest_release_at: 2026-11-09
 strengths:
   - The Rust workspace exposes a concrete, buildable CLI implementation
   - Documentation covers local, Windows, and container-oriented workflows
   - The repository clearly states its experimental, agent-managed purpose
 caveats:
-  - The maintainers say this is a museum-like agent-managed exhibit, not the serious production project
-  - It is build-from-source only; the README warns that cargo install claw-code installs an unrelated deprecated stub
-  - The retained release feed has no entries, so no latest stable project release can be established
+  - The maintainers say this is a museum-like agent-managed exhibit, not the serious
+    production project
+  - It is build-from-source only; the README warns that cargo install claw-code
+    installs an unrelated deprecated stub
   - Using the agent requires an API key and provider or model access
 sources:
-  - https://raw.githubusercontent.com/ultraworkers/claw-code/4ea31c1bc91c4e9bcbd67d51c550c01e127e6d0d/README.md
-  - https://raw.githubusercontent.com/ultraworkers/claw-code/4ea31c1bc91c4e9bcbd67d51c550c01e127e6d0d/LICENSE
-  - https://raw.githubusercontent.com/ultraworkers/claw-code/4ea31c1bc91c4e9bcbd67d51c550c01e127e6d0d/rust/Cargo.toml
-  - https://raw.githubusercontent.com/ultraworkers/claw-code/4ea31c1bc91c4e9bcbd67d51c550c01e127e6d0d/rust/crates/claw-rag-service/Cargo.toml
+  - https://raw.githubusercontent.com/ultraworkers/claw-code/508b4d862d42a5fa5bde8df5b2d3670f4d4ca324/README.md
+  - https://raw.githubusercontent.com/ultraworkers/claw-code/508b4d862d42a5fa5bde8df5b2d3670f4d4ca324/LICENSE
+  - https://raw.githubusercontent.com/ultraworkers/claw-code/508b4d862d42a5fa5bde8df5b2d3670f4d4ca324/rust/Cargo.toml
+  - https://raw.githubusercontent.com/ultraworkers/claw-code/508b4d862d42a5fa5bde8df5b2d3670f4d4ca324/rust/crates/claw-rag-service/Cargo.toml
   - https://github.com/ultraworkers/claw-code/releases.atom
+  - https://github.com/ultraworkers/claw-code/releases/tag/v0.1.13

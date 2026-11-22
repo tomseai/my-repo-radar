@@ -2,11 +2,10 @@ schema_version: 2
 repository_id: github:steipete/oracle
 research:
   state: complete
-  source_commit: f13347973bf6e21e6ef45c0088183021dc2c9e20
-  bundle_collected_at: 2026-07-19T20:45:28.555Z
-  researched_at: 2026-07-20T18:00:00.000+02:00
+  source_commit: 370a0a93da640ad08fc1b9f63dc3d74e1979915b
+  bundle_collected_at: 2026-11-22T12:10:28.498Z
+  researched_at: 2026-11-22T12:22:40.498Z
   confidence: high
-
 classification:
   primary_category: developer-tools
   topics:
@@ -18,26 +17,24 @@ classification:
     - browser-automation
     - code-review
     - developer-productivity
-
 project:
   name: Oracle
   kind: cli
-  summary: >-
-    A command-line tool that bundles a prompt and selected files for a
-    contextual AI consultation through provider APIs, browser automation, or
-    a manual copy-and-paste fallback.
+  summary: A command-line tool that bundles a prompt and selected files for a
+    contextual AI consultation through provider APIs, browser automation, or a manual
+    copy-and-paste fallback.
   best_for:
-    - Developers seeking a second opinion on code, bugs, or architecture with selected file context
+    - Developers seeking a second opinion on code, bugs, or architecture with
+      selected file context
     - Coding-agent workflows that need a local MCP consultation tool
-
 key_features:
   - Sends prompts and glob-selected files to one or multiple configured models
-  - Supports OpenAI, Gemini, Anthropic, and OpenRouter-backed API workflows
-  - Offers experimental Chrome-based browser runs and a manual rendered-copy fallback
+  - Supports OpenAI, Azure OpenAI, Anthropic, Gemini, xAI, OpenRouter, and compatible
+    API endpoints
+  - Offers Chrome-based ChatGPT and Gemini workflows and a credential-free render mode
   - Stores sessions for status inspection, replay, and follow-up consultations
   - Provides a stdio MCP server with consultation, session, and project-source tools
   - Can trace performance and preview resolved requests with dry runs
-
 usage:
   interfaces:
     - CLI
@@ -48,7 +45,6 @@ usage:
     - npx package execution
     - Homebrew tap
   setup: moderate
-
 technology:
   languages:
     - TypeScript
@@ -57,34 +53,32 @@ technology:
     - Model Context Protocol SDK
     - Chrome DevTools Protocol
     - OpenAI, Google GenAI, and Anthropic provider integrations
-
 license:
   spdx: MIT
   name: MIT License
-  notes: >-
-    Permissive reuse is allowed provided the copyright and permission notice
-    are retained; the software is supplied without warranty.
-
+  notes: Permissive reuse is allowed provided the copyright and permission notice are
+    retained; the software is supplied without warranty.
 status:
   lifecycle: active
   archived: false
-  latest_release: v0.16.0
-  latest_release_at: 2026-07-12
-
+  latest_release: v0.23.1
+  latest_release_at: 2026-11-16
 strengths:
   - Combines targeted file context, multi-model consultation, and session continuity
   - Works as both a human CLI and an MCP tool for other coding-agent clients
   - Gives API, browser, and manual-copy paths rather than requiring one provider mode
-
 caveats:
   - Node.js 24 or later is required by the pinned package metadata
   - API use requires the appropriate provider credentials and can incur provider costs
-  - Browser automation is documented as experimental and needs a signed-in browser session
-  - Browser support is most established on macOS; Linux and Windows can need explicit browser configuration
-
+  - Browser automation requires Chrome and a signed-in ChatGPT or Gemini session. API
+    mode sends the selected prompt and files to the configured provider.
+  - Browser support is most established on macOS; Linux and Windows can need explicit
+    browser configuration
 sources:
-  - https://raw.githubusercontent.com/steipete/oracle/f13347973bf6e21e6ef45c0088183021dc2c9e20/README.md
-  - https://raw.githubusercontent.com/steipete/oracle/f13347973bf6e21e6ef45c0088183021dc2c9e20/LICENSE
-  - https://raw.githubusercontent.com/steipete/oracle/f13347973bf6e21e6ef45c0088183021dc2c9e20/package.json
-  - https://raw.githubusercontent.com/steipete/oracle/f13347973bf6e21e6ef45c0088183021dc2c9e20/docs/mcp.md
+  - https://raw.githubusercontent.com/steipete/oracle/370a0a93da640ad08fc1b9f63dc3d74e1979915b/README.md
+  - https://raw.githubusercontent.com/steipete/oracle/370a0a93da640ad08fc1b9f63dc3d74e1979915b/LICENSE
+  - https://raw.githubusercontent.com/steipete/oracle/370a0a93da640ad08fc1b9f63dc3d74e1979915b/package.json
+  - https://raw.githubusercontent.com/steipete/oracle/370a0a93da640ad08fc1b9f63dc3d74e1979915b/docs/mcp.md
   - https://github.com/steipete/oracle/releases.atom
+  - https://github.com/steipete/oracle/releases/tag/v0.23.1
+  - https://raw.githubusercontent.com/steipete/oracle/370a0a93da640ad08fc1b9f63dc3d74e1979915b/docs/browser-mode.md

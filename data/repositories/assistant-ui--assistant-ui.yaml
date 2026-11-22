@@ -15,7 +15,9 @@ analysis:
       - "build-web-applications"
       - "design-interfaces"
   evidence:
-    - claim: "assistant-ui is an open-source TypeScript and React library for production AI chat experiences, with composable chat primitives and integrations for several AI backends."
+    - claim: "assistant-ui is an open-source TypeScript and React library for
+        production AI chat experiences, with composable chat primitives and
+        integrations for several AI backends."
       source_type: "repository-file"
       url: "https://github.com/assistant-ui/assistant-ui/blob/main/README.md"
       checked_at: "2026-07-19"
@@ -23,7 +25,8 @@ analysis:
   state: "researched"
   summary:
     one_line: "A TypeScript and React library for building AI chat interfaces."
-    why_useful: "It provides composable UI primitives and runtime adapters for production chat experiences."
+    why_useful: "It provides composable UI primitives and runtime adapters for
+      production chat experiences."
 curation:
   confidence: null
   evidence: []
@@ -37,37 +40,41 @@ id: "github:assistant-ui/assistant-ui"
 import:
   github_snapshot:
     archived: false
-    created_at: "2023-11-22T16:01:17Z"
-    default_branch: "main"
-    description: "Typescript/React Library for AI Chat💬🚀"
+    created_at: 2023-11-22T16:01:17Z
+    default_branch: main
+    description: Typescript/React Library for AI Chat 💬🚀
     disabled: false
-    fetched_at: "2026-07-19T19:16:14.796Z"
+    fetched_at: 2026-11-22T12:07:00.148Z
     fork: false
-    forks: 1101
-    homepage: "https://www.assistant-ui.com"
-    latest_release: null
-    license_spdx: "MIT"
-    open_issues: 87
-    primary_language: "TypeScript"
-    pushed_at: "2026-07-19T15:02:58Z"
-    stars: 11158
+    forks: 1359
+    homepage: https://www.assistant-ui.com
+    latest_release:
+      tag: "@assistant-ui/core@0.3.37"
+      published_at: 2026-11-18T07:59:57Z
+      url: https://github.com/assistant-ui/assistant-ui/releases/tag/%40assistant-ui/core%400.3.37
+    license_spdx: MIT
+    open_issues: 38
+    primary_language: TypeScript
+    pushed_at: 2026-11-22T07:54:34Z
+    stars: 13371
     topics:
-      - "ai-chatbot"
-      - "chatbot"
-      - "conversational-ai"
-      - "copilot"
-      - "radix-ui"
-      - "react-chatbot"
-      - "shadcn"
-      - "ui-components"
-      - "vercel-ai-sdk"
-    updated_at: "2026-07-19T18:19:33Z"
+      - ai-chatbot
+      - base-ui
+      - chatbot
+      - conversational-ai
+      - copilot
+      - radix-ui
+      - react-chatbot
+      - shadcn
+      - ui-components
+      - vercel-ai-sdk
+    updated_at: 2026-11-22T06:22:46Z
   sources:
-    - observed_at: "2026-02-05T15:45:36Z"
-      relation: "starred"
-      source_id: "github:user:tomseai:stars"
-      source_url: "https://github.com/tomseai?tab=stars"
-  state: "imported"
+    - observed_at: 2026-02-05T15:45:36Z
+      relation: starred
+      source_id: github:user:tomseai:stars
+      source_url: https://github.com/tomseai?tab=stars
+  state: refreshed
 repository:
   aliases: []
   github_node_id: "R_kgDOKwunUQ"

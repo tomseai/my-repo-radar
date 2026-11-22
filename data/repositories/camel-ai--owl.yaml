@@ -14,7 +14,9 @@ analysis:
     use_cases:
       - "build-ai-products"
   evidence:
-    - claim: "OWL is a Python framework built on CAMEL-AI for multi-agent collaboration and task automation, with tools for search, browser automation, document parsing, code execution, and MCP integration."
+    - claim: "OWL is a Python framework built on CAMEL-AI for multi-agent
+        collaboration and task automation, with tools for search, browser
+        automation, document parsing, code execution, and MCP integration."
       source_type: "repository-file"
       url: "https://github.com/camel-ai/owl/blob/main/README.md"
       checked_at: "2026-07-19"
@@ -22,7 +24,8 @@ analysis:
   state: "complete"
   summary:
     one_line: "A Python multi-agent framework for real-world task automation."
-    why_useful: "It equips collaborating agents with search, browser, document, code-execution, and MCP toolkits."
+    why_useful: "It equips collaborating agents with search, browser, document,
+      code-execution, and MCP toolkits."
 curation:
   confidence: null
   evidence: []
@@ -36,33 +39,34 @@ id: "github:camel-ai/owl"
 import:
   github_snapshot:
     archived: false
-    created_at: "2025-03-03T15:42:51Z"
-    default_branch: "main"
-    description: "🦉 OWL: Optimized Workforce Learning for General Multi-Agent Assistance in Real-World Task Automation"
+    created_at: 2025-03-03T15:42:51Z
+    default_branch: main
+    description: "🦉 OWL: Optimized Workforce Learning for General Multi-Agent
+      Assistance in Real-World Task Automation"
     disabled: false
-    fetched_at: "2026-07-19T19:16:14.796Z"
+    fetched_at: 2026-11-22T12:07:00.148Z
     fork: false
-    forks: 2301
+    forks: 2287
     homepage: ""
     latest_release: null
     license_spdx: null
-    open_issues: 115
-    primary_language: "Python"
-    pushed_at: "2026-07-10T11:42:01Z"
-    stars: 19976
+    open_issues: 124
+    primary_language: Python
+    pushed_at: 2026-11-16T11:44:47Z
+    stars: 20193
     topics:
-      - "agent"
-      - "artificial-intelligence"
-      - "multi-agent-systems"
-      - "task-automation"
-      - "web-interaction"
-    updated_at: "2026-07-19T19:00:43Z"
+      - agent
+      - artificial-intelligence
+      - multi-agent-systems
+      - task-automation
+      - web-interaction
+    updated_at: 2026-11-22T00:17:35Z
   sources:
-    - observed_at: "2025-03-15T20:45:29Z"
-      relation: "starred"
-      source_id: "github:user:tomseai:stars"
-      source_url: "https://github.com/tomseai?tab=stars"
-  state: "imported"
+    - observed_at: 2025-03-15T20:45:29Z
+      relation: starred
+      source_id: github:user:tomseai:stars
+      source_url: https://github.com/tomseai?tab=stars
+  state: refreshed
 repository:
   aliases: []
   github_node_id: "R_kgDOOCeGxQ"

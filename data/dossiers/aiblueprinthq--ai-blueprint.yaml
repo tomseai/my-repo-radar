@@ -1,0 +1,94 @@
+schema_version: 2
+repository_id: github:aiblueprinthq/ai-blueprint
+research:
+  state: complete
+  source_commit: 2ac6d59a4c57a9d69ce652adca1976d8ef8f182c
+  bundle_collected_at: 2026-11-22T12:08:58.346Z
+  researched_at: 2026-11-22T12:21:53.188Z
+  confidence: high
+classification:
+  primary_category: ai-and-automation
+  topics:
+    - coding-agents
+    - agent-skills
+    - spec-driven-development
+    - task-planning
+    - context-engineering
+    - code-review
+    - testing
+    - agent-governance
+    - git
+    - github
+    - automation
+project:
+  name: AI Blueprint
+  kind: starter-template
+  summary: >-
+    A file-backed, spec-driven workflow overlay for building existing software
+    projects with coding agents through reviewed specs, small implementation
+    steps, explicit verification, durable findings, and controlled completion.
+  best_for:
+    - Developers who want structured human checkpoints around AI-assisted
+      implementation
+    - Existing or newly scaffolded repositories that need durable agent context
+      outside chat
+key_features:
+  - Generates project context and feature specifications from user-owned
+    planning documents
+  - Keeps one active work item and archives completed features, fixes, and
+    rollbacks
+  - Provides skills for planning, implementation, checks, audits, completion,
+    CI, and releases
+  - Tracks review findings with durable IDs and blocks completion on unresolved
+    P0 or P1 findings
+  - Provides adapters for Codex, Claude Code, GitHub Copilot, Google
+    Antigravity, and OpenCode with shared file-backed workflow state
+usage:
+  interfaces:
+    - coding-agent skills
+    - Markdown workflow files
+    - npm initializer
+  installation:
+    - npx create-ai-blueprint@latest inside an existing Git repository
+    - npm create ai-blueprint@latest
+  setup: moderate
+technology:
+  languages:
+    - JavaScript
+    - Markdown
+  notable_components:
+    - AGENTS.md
+    - Codex skills
+    - Claude Code skills
+    - GitHub Actions recipe
+license:
+  spdx: MIT
+  name: MIT License
+  notes: Permissive license requiring preservation of the copyright and license
+    notice.
+status:
+  lifecycle: active
+  archived: false
+  latest_release: v1.16.1
+  latest_release_at: 2026-11-13
+strengths:
+  - Preserves plans, current work, findings, and history across agent context
+    resets
+  - Makes specification and diff review explicit stops before code and merge
+    actions
+  - Installs into an existing stack instead of prescribing an application
+    framework
+caveats:
+  - It is a workflow overlay, not an application skeleton; the project must be
+    scaffolded first
+  - Testing remains opt-in until the target project defines a real test command
+  - Effective gates depend on agent compliance and the repository's actual Git
+    and CI protections
+  - First-time setup requires onboarding or adoption so generated guidance
+    matches the codebase
+sources:
+  - https://raw.githubusercontent.com/aiblueprinthq/ai-blueprint/2ac6d59a4c57a9d69ce652adca1976d8ef8f182c/README.md
+  - https://raw.githubusercontent.com/aiblueprinthq/ai-blueprint/2ac6d59a4c57a9d69ce652adca1976d8ef8f182c/packages/create-ai-blueprint/package.json
+  - https://raw.githubusercontent.com/aiblueprinthq/ai-blueprint/2ac6d59a4c57a9d69ce652adca1976d8ef8f182c/LICENSE
+  - https://github.com/aiblueprinthq/ai-blueprint/releases.atom
+  - https://github.com/aiblueprinthq/ai-blueprint/releases/tag/v1.16.1

@@ -1,0 +1,107 @@
+analysis:
+  analyzed_at: 2026-11-22T12:25:03.789Z
+  classification:
+    primary_category: ai-and-automation
+    state: confirmed
+    technologies:
+      - go
+      - typescript
+      - react
+      - sqlite
+    topics:
+      - ai-agents
+      - coding-agents
+      - agent-harnesses
+      - agent-orchestration
+      - multi-agent
+      - parallel-agents
+      - worktrees
+      - git
+      - desktop-app
+    use_cases:
+      - build-ai-products
+      - improve-developer-workflow
+  evidence:
+    - claim: A local desktop workspace for running coding agents in isolated Git
+        worktrees. It groups parallel tasks and their branches, pull requests,
+        reviews, and CI status in one workflow.
+      source_type: repository-file
+      url: https://raw.githubusercontent.com/OrchestratorInc/agent-orchestrator/69f6f7054406b8c1308929ff6a631714c4f517bf/README.md
+      checked_at: 2026-11-22
+      confidence: high
+  state: researched
+  summary:
+    one_line: A local desktop workspace for running coding agents in isolated Git
+      worktrees.
+    why_useful: It groups parallel tasks and their branches, pull requests, reviews,
+      and CI status in one workflow.
+curation:
+  confidence: null
+  evidence: []
+  limitations: []
+  recommendation: null
+  reviewed_at: null
+  state: uncurated
+  strengths: []
+  verdict: null
+id: github:OrchestratorInc/agent-orchestrator
+import:
+  github_snapshot:
+    archived: false
+    created_at: 2026-02-13T09:52:36Z
+    default_branch: main
+    description: Plan, run and supervise fleets of agents from task to merged PR.
+      Desktop (macOS, Windows, Linux) + iPhone & Android apps.  Supports Claude
+      Code, Codex & 35+ coding agents.
+    disabled: false
+    fetched_at: 2026-11-22T12:07:00.148Z
+    fork: false
+    forks: 2068
+    homepage: https://orchestrator.inc
+    latest_release:
+      tag: v0.15.3
+      published_at: 2026-11-16T16:30:26Z
+      url: https://github.com/OrchestratorInc/agent-orchestrator/releases/tag/v0.15.3
+    license_spdx: Apache-2.0
+    open_issues: 1059
+    primary_language: TypeScript
+    pushed_at: 2026-11-22T12:06:46Z
+    stars: 15009
+    topics:
+      - agent-fleet
+      - agent-ide
+      - agent-orchestration
+      - agent-swarm
+      - agentic-coding
+      - ai-agents
+      - ai-coding
+      - claude-code
+      - codex
+      - codex-cli
+      - coding-agents
+      - developer-tools
+      - git-worktrees
+      - mobile
+      - multi-agent
+      - orchestration
+      - orchestrator
+      - parallel-agents
+      - parallel-coding
+      - skills
+    updated_at: 2026-11-22T09:29:28Z
+  sources:
+    - observed_at: 2026-07-19T14:19:31Z
+      relation: starred
+      source_id: github:user:tomseai:stars
+      source_url: https://github.com/tomseai?tab=stars
+  state: transferred
+repository:
+  aliases:
+    - github:AgentWrapper/agent-orchestrator
+    - github:Untrivial-ai/agent-orchestrator
+  github_node_id: R_kgDORPZUAQ
+  host: github.com
+  name: agent-orchestrator
+  owner: OrchestratorInc
+  url: https://github.com/OrchestratorInc/agent-orchestrator
+version: 1

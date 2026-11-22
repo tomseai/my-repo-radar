@@ -12,15 +12,19 @@ analysis:
     use_cases:
       - "improve-developer-workflow"
   evidence:
-    - claim: "Mode documents autonomous coding with multiple model providers, code understanding and planning chat, automatic application of suggestions, debugging support, and an experimental autocomplete feature."
+    - claim: "Mode documents autonomous coding with multiple model providers, code
+        understanding and planning chat, automatic application of suggestions,
+        debugging support, and an experimental autocomplete feature."
       source_type: "repository-file"
       url: "https://github.com/arunalabs/mode/blob/main/README.md"
       checked_at: "2026-07-19"
       confidence: "high"
   state: "researched"
   summary:
-    one_line: "An autonomous AI coding agent that connects directly to language-model providers."
-    why_useful: "It supports code generation, codebase assistance, debugging, and model-provider choice within a developer workflow."
+    one_line: "An autonomous AI coding agent that connects directly to
+      language-model providers."
+    why_useful: "It supports code generation, codebase assistance, debugging, and
+      model-provider choice within a developer workflow."
 curation:
   confidence: null
   evidence: []
@@ -34,44 +38,45 @@ id: "github:arunalabs/mode"
 import:
   github_snapshot:
     archived: false
-    created_at: "2024-11-07T02:05:43Z"
-    default_branch: "main"
-    description: "Personal and autonomous AI coding agent. Writes and edits code automatically. No third-party servers, token limits, or upgrade fees."
+    created_at: 2024-11-07T02:05:43Z
+    default_branch: main
+    description: Personal and autonomous AI coding agent. Writes and edits code
+      automatically. No third-party servers, token limits, or upgrade fees.
     disabled: false
-    fetched_at: "2026-07-19T19:16:14.796Z"
+    fetched_at: 2026-11-22T12:07:00.148Z
     fork: false
     forks: 7
-    homepage: "https://getmode.dev"
+    homepage: https://getmode.dev
     latest_release: null
-    license_spdx: "MIT"
+    license_spdx: MIT
     open_issues: 2
-    primary_language: "TypeScript"
-    pushed_at: "2025-05-27T06:06:38Z"
-    stars: 69
+    primary_language: TypeScript
+    pushed_at: 2025-05-27T06:06:38Z
+    stars: 70
     topics:
-      - "ai"
-      - "anthropic"
-      - "assistant"
-      - "assistant-chat-bots"
-      - "autocomplete"
-      - "chatbot"
-      - "chatgpt"
-      - "claude"
-      - "copilot"
-      - "gemini"
-      - "languages"
-      - "mistral"
-      - "o1"
-      - "ollama"
-      - "open-source"
-      - "openai"
-    updated_at: "2026-05-18T14:11:38Z"
+      - ai
+      - anthropic
+      - assistant
+      - assistant-chat-bots
+      - autocomplete
+      - chatbot
+      - chatgpt
+      - claude
+      - copilot
+      - gemini
+      - languages
+      - mistral
+      - o1
+      - ollama
+      - open-source
+      - openai
+    updated_at: 2026-09-17T03:09:23Z
   sources:
-    - observed_at: "2025-05-22T08:56:54Z"
-      relation: "starred"
-      source_id: "github:user:tomseai:stars"
-      source_url: "https://github.com/tomseai?tab=stars"
-  state: "imported"
+    - observed_at: 2025-05-22T08:56:54Z
+      relation: starred
+      source_id: github:user:tomseai:stars
+      source_url: https://github.com/tomseai?tab=stars
+  state: refreshed
 repository:
   aliases: []
   github_node_id: "R_kgDONLmLVg"

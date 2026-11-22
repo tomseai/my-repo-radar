@@ -2,9 +2,9 @@ schema_version: 2
 repository_id: github:conwnet/github1s
 research:
   state: complete
-  source_commit: 86b8baff1b8b60b25ee6f3dd6949d8e9d084ad78
-  bundle_collected_at: 2026-07-19T20:42:24.695Z
-  researched_at: 2026-07-19T22:40:18Z
+  source_commit: 98ddf0fbd549c398ffbd2bb6f62051d156d50394
+  bundle_collected_at: 2026-11-22T12:09:19.563Z
+  researched_at: 2026-11-22T12:26:11Z
   confidence: medium
 classification:
   primary_category: developer-tools
@@ -18,8 +18,8 @@ project:
   name: github1s
   kind: application
   summary: >-
-    A browser-based, VS Code-style interface for browsing GitHub repositories
-    by replacing github.com with github1s.com in a repository URL.
+    A browser-based, VS Code-style interface for browsing GitHub repositories by
+    replacing github.com with github1s.com in a repository URL.
   best_for:
     - Quickly reading a public GitHub repository in a VS Code-style interface
     - Browsing private repositories with a user-supplied GitHub OAuth token
@@ -27,8 +27,9 @@ key_features:
   - Opens GitHub repositories through a URL substitution workflow
   - Uses a VS Code web build and a FileSystemProvider backed by GitHub APIs
   - Supports GitHub, GitLab, and npmjs URL variants
-  - Provides code search and uses Sourcegraph API for public repositories when available
-  - Offers a Gitpod handoff for editing, containers, and pull-request workflows
+  - Provides code search and uses Sourcegraph API for public repositories when
+    available
+  - Offers built-in AI chat with a configurable model endpoint and optional MCP tools
 usage:
   interfaces:
     - web application
@@ -55,21 +56,29 @@ license:
 status:
   lifecycle: active
   archived: false
-  latest_release: 0.32.0
-  latest_release_at: 2026-02-06
+  latest_release: v0.35.5
+  latest_release_at: 2026-11-17
 strengths:
   - Opens a repository directly in the browser without a local clone
   - Builds on familiar VS Code-style navigation and extension capabilities
-  - Documents browser-local storage of private-repository OAuth tokens
+  - Documents browser storage and authentication paths for repository tokens
 caveats:
-  - The retained LICENSE file and GitHub metadata say MIT, while root package.json says ISC
+  - The retained LICENSE file and GitHub metadata say MIT, while root
+    package.json says ISC
   - Reading repositories depends on upstream API availability and rate limits
-  - Private repository access requires a GitHub OAuth token; the project advises removing it on shared devices
-  - Local development and full VS Code builds require npm, while the full build has VS Code prerequisites
+  - Private repositories require appropriate GitHub or GitLab access; tokens
+    are stored in browser extension state
+  - AI chat sends selected repository context to the configured model provider;
+    configured MCP tools can perform external actions
+  - Local development and full VS Code builds require npm, while the full build
+    has VS Code prerequisites
 sources:
-  - https://raw.githubusercontent.com/conwnet/github1s/86b8baff1b8b60b25ee6f3dd6949d8e9d084ad78/README.md
-  - https://raw.githubusercontent.com/conwnet/github1s/86b8baff1b8b60b25ee6f3dd6949d8e9d084ad78/LICENSE
-  - https://raw.githubusercontent.com/conwnet/github1s/86b8baff1b8b60b25ee6f3dd6949d8e9d084ad78/package.json
-  - https://raw.githubusercontent.com/conwnet/github1s/86b8baff1b8b60b25ee6f3dd6949d8e9d084ad78/.devcontainer/Dockerfile
-  - https://raw.githubusercontent.com/conwnet/github1s/86b8baff1b8b60b25ee6f3dd6949d8e9d084ad78/docs/guide.md
+  - https://raw.githubusercontent.com/conwnet/github1s/98ddf0fbd549c398ffbd2bb6f62051d156d50394/README.md
+  - https://raw.githubusercontent.com/conwnet/github1s/98ddf0fbd549c398ffbd2bb6f62051d156d50394/LICENSE
+  - https://raw.githubusercontent.com/conwnet/github1s/98ddf0fbd549c398ffbd2bb6f62051d156d50394/package.json
+  - https://raw.githubusercontent.com/conwnet/github1s/98ddf0fbd549c398ffbd2bb6f62051d156d50394/.devcontainer/Dockerfile
+  - https://raw.githubusercontent.com/conwnet/github1s/98ddf0fbd549c398ffbd2bb6f62051d156d50394/docs/guide.md
   - https://github.com/conwnet/github1s/releases.atom
+  - https://github.com/conwnet/github1s/releases/tag/v0.35.5
+  - https://raw.githubusercontent.com/conwnet/github1s/98ddf0fbd549c398ffbd2bb6f62051d156d50394/docs/usage.md
+  - https://raw.githubusercontent.com/conwnet/github1s/98ddf0fbd549c398ffbd2bb6f62051d156d50394/docs/ai.md

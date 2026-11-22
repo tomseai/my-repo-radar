@@ -3,9 +3,9 @@ repository_id: github:nesquena/hermes-webui
 
 research:
   state: complete
-  source_commit: 4e768fe247931c360cb0f003a6493d46cf91d03e
-  bundle_collected_at: 2026-07-19T20:44:22.946Z
-  researched_at: 2026-07-20T00:00:00Z
+  source_commit: c07f3b0cb4a19d69ffe42c3e1128c17b9bd3f048
+  bundle_collected_at: 2026-11-22T12:10:03.924Z
+  researched_at: 2026-11-22T12:28:47.662Z
   confidence: high
 
 classification:
@@ -59,26 +59,32 @@ technology:
 license:
   spdx: MIT
   name: MIT License
-  notes: Permissive reuse is allowed with copyright and license notices; the software is provided without warranty.
+  notes: Permissive reuse is allowed with copyright and license notices; the
+    software is provided without warranty.
 
 status:
   lifecycle: active
   archived: false
-  latest_release: v0.52.76
-  latest_release_at: 2026-07-18
+  latest_release: v0.52.727
+  latest_release_at: 2026-11-22
 
 strengths:
   - Extends a Hermes installation without requiring a frontend build pipeline
-  - Brings CLI sessions and workspace files into a visual, mobile-responsive interface
+  - Brings CLI sessions and workspace files into a visual, mobile-responsive
+    interface
   - Provides several documented self-hosting and authentication options
 
 caveats:
-  - It depends on a working Hermes Agent installation and its configured providers or models
-  - Password authentication is disabled by default for localhost; network exposure requires suitable access controls
-  - The feed has newer exp-v0.52.117 experimental releases; v0.52.76 is the newest non-experimental release retained in the feed
+  - It depends on a working Hermes Agent installation and its configured
+    providers or models
+  - Password authentication is disabled by default for localhost; network
+    exposure requires suitable access controls
+  - The feed has newer exp-v0.52.734 experimental releases; v0.52.727 is the
+    newest non-experimental release retained in the feed
 
 sources:
-  - https://raw.githubusercontent.com/nesquena/hermes-webui/4e768fe247931c360cb0f003a6493d46cf91d03e/README.md
-  - https://raw.githubusercontent.com/nesquena/hermes-webui/4e768fe247931c360cb0f003a6493d46cf91d03e/LICENSE
-  - https://raw.githubusercontent.com/nesquena/hermes-webui/4e768fe247931c360cb0f003a6493d46cf91d03e/docker-compose.yml
+  - https://raw.githubusercontent.com/nesquena/hermes-webui/c07f3b0cb4a19d69ffe42c3e1128c17b9bd3f048/README.md
+  - https://raw.githubusercontent.com/nesquena/hermes-webui/c07f3b0cb4a19d69ffe42c3e1128c17b9bd3f048/LICENSE
+  - https://raw.githubusercontent.com/nesquena/hermes-webui/c07f3b0cb4a19d69ffe42c3e1128c17b9bd3f048/docker-compose.yml
   - https://github.com/nesquena/hermes-webui/releases.atom
+  - https://github.com/nesquena/hermes-webui/releases/tag/v0.52.727

@@ -2,9 +2,9 @@ schema_version: 2
 repository_id: github:router-for-me/CLIProxyAPI
 research:
   state: complete
-  source_commit: fde40c5a0a2f8f6808bcde498bc6079f32c355ef
-  bundle_collected_at: 2026-07-19T20:45:06.464Z
-  researched_at: 2026-07-20T18:01:25.1660519+02:00
+  source_commit: 6960763455c4ac3d4828fb1736aa5de2183ccecf
+  bundle_collected_at: 2026-11-22T12:10:21.651Z
+  researched_at: 2026-11-22T12:24:10.308Z
   confidence: high
 classification:
   primary_category: backend-and-apis
@@ -21,18 +21,26 @@ project:
   kind: service
   summary: >-
     A Go proxy service that presents OpenAI-, Gemini-, Claude-, Codex-, and
-    Grok-compatible APIs for supported CLI-backed model accounts, enabling compatible
-    clients and SDKs to call those providers through one configurable local service.
+    Grok-compatible APIs for supported CLI-backed model accounts, enabling
+    compatible clients and SDKs to call those providers through one configurable
+    local service.
   best_for:
-    - Developers who need one compatible API endpoint for supported CLI-account providers
-    - Self-hosters who want to rotate multiple provider accounts and connect compatible clients or SDKs
+    - Developers who need one compatible API endpoint for supported CLI-account
+      providers
+    - Self-hosters who want to rotate multiple provider accounts and connect
+      compatible clients or SDKs
 key_features:
-  - Serves OpenAI, Gemini, Claude, Codex, and Grok compatible API interfaces for supported CLI models
-  - Supports OAuth login flows for OpenAI Codex, Claude Code, and Grok Build, plus Gemini and API-key paths
-  - Handles streaming, non-streaming, and supported WebSocket responses, function calling, tools, and image input
+  - Serves OpenAI, Gemini, Claude, Codex, and Grok compatible API interfaces for
+    supported CLI models
+  - Supports OAuth login flows for OpenAI Codex, Claude Code, and Grok Build,
+    plus Gemini and API-key paths
+  - Handles streaming, non-streaming, and supported WebSocket responses,
+    function calling, tools, and image input
   - Balances multiple supported provider accounts with round-robin routing
-  - Allows OpenAI-compatible upstream providers, such as OpenRouter, through configuration
-  - Supplies a reusable Go SDK for embedding the proxy and documents a management API
+  - Allows OpenAI-compatible upstream providers, such as OpenRouter, through
+    configuration
+  - Supplies a reusable Go SDK for embedding the proxy and documents a
+    management API
 usage:
   interfaces:
     - compatible HTTP API service
@@ -58,25 +66,35 @@ license:
   spdx: MIT
   name: MIT License
   notes: >-
-    The MIT License permits use, copying, modification, distribution, sublicensing,
-    and sale when its notice is retained, while providing the software without warranty.
+    The MIT License permits use, copying, modification, distribution,
+    sublicensing, and sale when its notice is retained, while providing the
+    software without warranty.
 status:
   lifecycle: active
   archived: false
-  latest_release: v7.2.91
-  latest_release_at: 2026-07-19
+  latest_release: v8.1.0
+  latest_release_at: 2026-11-21
 strengths:
-  - Unifies several provider-specific CLI account paths behind familiar API compatibility layers
-  - Supports both interactive account authentication and configurable compatible upstream providers
-  - Includes Docker deployment material, account persistence mounts, and a Go embedding path
+  - Unifies several provider-specific CLI account paths behind familiar API
+    compatibility layers
+  - Supports both interactive account authentication and configurable compatible
+    upstream providers
+  - Includes Docker deployment material, account persistence mounts, and a Go
+    embedding path
 caveats:
-  - API, model, streaming, WebSocket, tool, and multimodal compatibility is explicitly conditional on provider support
-  - OAuth credentials, configuration, and logs are persisted through mounted paths in the supplied Compose setup and need appropriate host access controls
-  - The checked Go module declares Go 1.26.0, so source builds require that toolchain level
-  - Built-in usage statistics were removed in v6.10.0; the README directs users to separate external tools for persistence and dashboards
+  - API, model, streaming, WebSocket, tool, and multimodal compatibility is
+    explicitly conditional on provider support
+  - OAuth credentials, configuration, and logs are persisted through mounted
+    paths in the supplied Compose setup and need appropriate host access
+    controls
+  - The checked Go module declares Go 1.26.0, so source builds require that
+    toolchain level
+  - Built-in usage statistics were removed in v6.10.0; the README directs users
+    to separate external tools for persistence and dashboards
 sources:
-  - https://raw.githubusercontent.com/router-for-me/CLIProxyAPI/fde40c5a0a2f8f6808bcde498bc6079f32c355ef/README.md
-  - https://raw.githubusercontent.com/router-for-me/CLIProxyAPI/fde40c5a0a2f8f6808bcde498bc6079f32c355ef/go.mod
-  - https://raw.githubusercontent.com/router-for-me/CLIProxyAPI/fde40c5a0a2f8f6808bcde498bc6079f32c355ef/docker-compose.yml
-  - https://raw.githubusercontent.com/router-for-me/CLIProxyAPI/fde40c5a0a2f8f6808bcde498bc6079f32c355ef/LICENSE
+  - https://raw.githubusercontent.com/router-for-me/CLIProxyAPI/6960763455c4ac3d4828fb1736aa5de2183ccecf/README.md
+  - https://raw.githubusercontent.com/router-for-me/CLIProxyAPI/6960763455c4ac3d4828fb1736aa5de2183ccecf/go.mod
+  - https://raw.githubusercontent.com/router-for-me/CLIProxyAPI/6960763455c4ac3d4828fb1736aa5de2183ccecf/docker-compose.yml
+  - https://raw.githubusercontent.com/router-for-me/CLIProxyAPI/6960763455c4ac3d4828fb1736aa5de2183ccecf/LICENSE
   - https://github.com/router-for-me/CLIProxyAPI/releases.atom
+  - https://github.com/router-for-me/CLIProxyAPI/releases/tag/v8.1.0

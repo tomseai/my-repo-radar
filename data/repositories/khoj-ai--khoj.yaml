@@ -18,15 +18,19 @@ analysis:
       - "build-ai-products"
       - "run-personal-or-team-tools"
   evidence:
-    - claim: "Khoj is a personal AI application that supports chat with local or online LLMs, answers from internet and document sources, custom agents, research automation, semantic search, and open-source self-hosting."
+    - claim: "Khoj is a personal AI application that supports chat with local or
+        online LLMs, answers from internet and document sources, custom agents,
+        research automation, semantic search, and open-source self-hosting."
       source_type: "repository-file"
       url: "https://github.com/khoj-ai/khoj/blob/master/README.md"
       checked_at: "2026-07-19"
       confidence: "high"
   state: "researched"
   summary:
-    one_line: "A self-hostable personal AI application for chat, document search, agents, and research automation."
-    why_useful: "It connects local or hosted LLMs to personal knowledge sources and provides multiple client integrations."
+    one_line: "A self-hostable personal AI application for chat, document search,
+      agents, and research automation."
+    why_useful: "It connects local or hosted LLMs to personal knowledge sources and
+      provides multiple client integrations."
 curation:
   confidence: null
   evidence: []
@@ -40,48 +44,54 @@ id: "github:khoj-ai/khoj"
 import:
   github_snapshot:
     archived: false
-    created_at: "2021-08-16T01:48:44Z"
-    default_branch: "master"
-    description: "Your AI second brain. Self-hostable. Get answers from the web or your docs. Build custom agents, schedule automations, do deep research. Turn any online or local LLM into your personal, autonomous AI (gpt, claude, gemini, llama, qwen, mistral). Get started - free."
+    created_at: 2021-08-16T01:48:44Z
+    default_branch: master
+    description: Your AI second brain. Self-hostable. Get answers from the web or
+      your docs. Build custom agents, schedule automations, do deep research.
+      Turn any online or local LLM into your personal, autonomous AI (gpt,
+      claude, gemini, llama, qwen, mistral). Get started - free.
     disabled: false
-    fetched_at: "2026-07-19T19:16:14.796Z"
+    fetched_at: 2026-11-22T12:07:00.148Z
     fork: false
-    forks: 2319
-    homepage: "https://khoj.dev"
-    latest_release: null
-    license_spdx: "AGPL-3.0"
-    open_issues: 120
-    primary_language: "Python"
-    pushed_at: "2026-06-24T21:17:20Z"
-    stars: 35878
+    forks: 2560
+    homepage: https://khoj.dev
+    latest_release:
+      tag: 2.0.0-beta.28
+      published_at: 2026-03-26T03:36:04Z
+      url: https://github.com/khoj-ai/khoj/releases/tag/2.0.0-beta.28
+    license_spdx: AGPL-3.0
+    open_issues: 177
+    primary_language: Python
+    pushed_at: 2026-08-02T01:55:40Z
+    stars: 38206
     topics:
-      - "agent"
-      - "ai"
-      - "assistant"
-      - "chat"
-      - "chatgpt"
-      - "emacs"
-      - "image-generation"
-      - "llama3"
-      - "llamacpp"
-      - "llm"
-      - "obsidian"
-      - "obsidian-md"
-      - "offline-llm"
-      - "productivity"
-      - "rag"
-      - "research"
-      - "self-hosted"
-      - "semantic-search"
-      - "stt"
-      - "whatsapp-ai"
-    updated_at: "2026-07-19T19:08:58Z"
+      - agent
+      - ai
+      - assistant
+      - chat
+      - chatgpt
+      - emacs
+      - image-generation
+      - llama3
+      - llamacpp
+      - llm
+      - obsidian
+      - obsidian-md
+      - offline-llm
+      - productivity
+      - rag
+      - research
+      - self-hosted
+      - semantic-search
+      - stt
+      - whatsapp-ai
+    updated_at: 2026-11-22T10:46:13Z
   sources:
-    - observed_at: "2026-04-25T21:15:09Z"
-      relation: "starred"
-      source_id: "github:user:tomseai:stars"
-      source_url: "https://github.com/tomseai?tab=stars"
-  state: "imported"
+    - observed_at: 2026-04-25T21:15:09Z
+      relation: starred
+      source_id: github:user:tomseai:stars
+      source_url: https://github.com/tomseai?tab=stars
+  state: refreshed
 repository:
   aliases: []
   github_node_id: "MDEwOlJlcG9zaXRvcnkzOTY1Njk1Mzg="

@@ -2,13 +2,14 @@
 
 # Performance
 
-[Back to the main catalog](../README.md) | **11 repositories**
+[Back to the main catalog](../README.md) | **13 repositories**
 
 ## Primary categories represented
 
 - [Application Frameworks](../categories/application-frameworks.md) (2)
 - [Data and Databases](../categories/data-and-databases.md) (1)
-- [Developer Tools](../categories/developer-tools.md) (4)
+- [Developer Tools](../categories/developer-tools.md) (5)
+- [Documentation and Learning](../categories/documentation-and-learning.md) (1)
 - [Frontend and Design](../categories/frontend-and-design.md) (1)
 - [Systems and Infrastructure](../categories/systems-and-infrastructure.md) (1)
 - [Testing and Quality](../categories/testing-and-quality.md) (2)
@@ -26,7 +27,7 @@ A stack-agnostic collection of six agent skills for reviewing and improving web 
 - **Languages:** Shell
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 2,518
+- **GitHub stars:** 3,117
 
 **Key features**
 
@@ -47,13 +48,34 @@ A JavaScript browser library for persisting vector embeddings in IndexedDB and s
 - **Languages:** JavaScript, WebAssembly
 - **License:** Apache-2.0
 - **Lifecycle:** Unknown
-- **GitHub stars:** 296
+- **GitHub stars:** 295
 
 **Key features**
 
   - Persists vector data in the browser through IndexedDB
   - Generates text embeddings with Transformers.js or accepts precomputed vectors
   - Queries dense vectors with cosine similarity
+
+<a id="repo-bendlang--bend"></a>
+
+## [bend](https://github.com/bendlang/bend)
+
+A dependent-type programming language and compiler for parallel computation and mechanically checked program laws.
+
+- **Category:** [Developer Tools](../categories/developer-tools.md#repo-bendlang--bend)
+- **Topics:** [CLI](../topics/cli.md#repo-bendlang--bend) | [Performance](../topics/performance.md#repo-bendlang--bend) | [Developer Productivity](../topics/developer-productivity.md#repo-bendlang--bend)
+- **Kind:** Other
+- **Best for:** Developers exploring proof-backed programs and parallel computation
+- **Languages:** TypeScript
+- **License:** Apache-2.0
+- **Lifecycle:** Experimental
+- **GitHub stars:** 25,751
+
+**Key features**
+
+  - Dependent types and mathematical proofs
+  - Declared program laws checked against proofs
+  - Parallel execution targeting CPU and GPU
 
 <a id="repo-burntsushi--ripgrep"></a>
 
@@ -68,7 +90,7 @@ A Rust command-line search tool that recursively searches files with regular exp
 - **Languages:** Rust
 - **License:** Unlicense OR MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 66,334
+- **GitHub stars:** 70,137
 
 **Key features**
 
@@ -89,7 +111,7 @@ A JavaScript and TypeScript library for calculating multiline text layout withou
 - **Languages:** TypeScript, JavaScript
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 49,223
+- **GitHub stars:** 51,087
 
 **Key features**
 
@@ -110,7 +132,7 @@ An MCP server and command-line tool that lets coding agents control and inspect 
 - **Languages:** TypeScript, JavaScript
 - **License:** Apache-2.0
 - **Lifecycle:** Active
-- **GitHub stars:** 47,187
+- **GitHub stars:** 58,755
 
 **Key features**
 
@@ -131,7 +153,7 @@ A moved monorepo of Angular build packages that integrate Rsbuild and Rspack, in
 - **Languages:** TypeScript, JavaScript
 - **License:** MIT
 - **Lifecycle:** Deprecated
-- **GitHub stars:** 111
+- **GitHub stars:** 109
 
 **Key features**
 
@@ -152,13 +174,34 @@ A small TypeScript web framework built on Web Standards for defining HTTP applic
 - **Languages:** TypeScript
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 31,399
+- **GitHub stars:** 33,013
 
 **Key features**
 
   - Route definitions and HTTP response helpers through a compact TypeScript API
   - Built-in, custom, and third-party middleware support
   - Runtime adapters for edge platforms, serverless functions, and Node.js
+
+<a id="repo-liquidslr--system-design-notes"></a>
+
+## [System Design Interview Notes](https://github.com/liquidslr/system-design-notes)
+
+Work-in-progress chapter notes and architecture diagrams based on both volumes of System Design Interview – An Insider's Guide, covering system design fundamentals and 25 concrete distributed-system design exercises.
+
+- **Category:** [Documentation and Learning](../categories/documentation-and-learning.md#repo-liquidslr--system-design-notes)
+- **Topics:** [Documentation](../topics/documentation.md#repo-liquidslr--system-design-notes) | [Tutorials](../topics/tutorials.md#repo-liquidslr--system-design-notes) | [Reference](../topics/reference.md#repo-liquidslr--system-design-notes) | [Backend Development](../topics/backend-development.md#repo-liquidslr--system-design-notes) | [Databases](../topics/databases.md#repo-liquidslr--system-design-notes) | [Performance](../topics/performance.md#repo-liquidslr--system-design-notes)
+- **Kind:** Documentation
+- **Best for:** Readers reviewing system-design interview concepts alongside the source books; Engineers seeking a visual index of common scalability patterns and system-design case studies
+- **Languages:** Markdown
+- **License:** No repository license grant
+- **Lifecycle:** Active
+- **GitHub stars:** 29,025
+
+**Key features**
+
+  - Twenty-eight chapters covering scaling, estimation, an interview framework, and system-design case studies
+  - Foundational material on load balancing, caching, replication, message queues, consistent hashing, and distributed data
+  - Case studies for chat, search autocomplete, video, file sync, maps, email, object storage, payments, wallets, and exchanges
 
 <a id="repo-lynx-family--lynx"></a>
 
@@ -173,7 +216,7 @@ The core engine of an open-source family for creating native mobile and web user
 - **Languages:** C++, TypeScript, JavaScript
 - **License:** Apache-2.0
 - **Lifecycle:** Active
-- **GitHub stars:** 14,996
+- **GitHub stars:** 15,269
 
 **Key features**
 
@@ -194,7 +237,7 @@ A Rust workspace for high-performance JavaScript and TypeScript tooling. It prov
 - **Languages:** Rust, JavaScript, TypeScript
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 22,018
+- **GitHub stars:** 23,538
 
 **Key features**
 
@@ -215,7 +258,7 @@ A native Rust TUI network monitor for Windows that combines connection and bandw
 - **Languages:** Rust
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 125
+- **GitHub stars:** 152
 
 **Key features**
 
@@ -227,7 +270,7 @@ A native Rust TUI network monitor for Windows that combines connection and bandw
 
 ## [Front-End Checklist](https://github.com/thedaviddias/Front-End-Checklist)
 
-A front-end quality system containing 385 prioritized rules across eleven categories, delivered as a browsable website, a README checklist, reusable skills, and hosted or local MCP tooling for review and audit workflows.
+A front-end quality system containing 386 prioritized rules across eleven categories, delivered as a browsable website, a README checklist, reusable skills, and hosted or local MCP tooling for review and audit workflows.
 
 - **Category:** [Testing and Quality](../categories/testing-and-quality.md#repo-thedaviddias--front-end-checklist)
 - **Topics:** [Web](../topics/web.md#repo-thedaviddias--front-end-checklist) | [Frontend Development](../topics/frontend-development.md#repo-thedaviddias--front-end-checklist) | [Accessibility](../topics/accessibility.md#repo-thedaviddias--front-end-checklist) | [Security](../topics/security.md#repo-thedaviddias--front-end-checklist) | [Testing](../topics/testing.md#repo-thedaviddias--front-end-checklist) | [Performance](../topics/performance.md#repo-thedaviddias--front-end-checklist) | [MCP](../topics/mcp.md#repo-thedaviddias--front-end-checklist) | [AI Agents](../topics/ai-agents.md#repo-thedaviddias--front-end-checklist) | [Documentation](../topics/documentation.md#repo-thedaviddias--front-end-checklist)
@@ -236,10 +279,10 @@ A front-end quality system containing 385 prioritized rules across eleven catego
 - **Languages:** TypeScript, MDX
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 73,256
+- **GitHub stars:** 74,793
 
 **Key features**
 
-  - 385 English rules organized into eleven active front-end quality categories
+  - 386 English rules organized into eleven active front-end quality categories
   - Priority labels for critical, high, medium, and low-impact findings
   - Hosted MCP server with tools to review code, audit public URLs, search rules, and retrieve workflows

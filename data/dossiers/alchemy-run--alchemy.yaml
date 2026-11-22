@@ -1,0 +1,69 @@
+schema_version: 2
+repository_id: github:alchemy-run/alchemy
+research:
+  state: complete
+  source_commit: 8555cbce637eccd2c792ee54c141d82341275c1c
+  bundle_collected_at: 2026-11-22T12:09:02.746Z
+  researched_at: 2026-11-22T12:23:16.620074+00:00
+  confidence: high
+classification:
+  primary_category: devops-and-cloud
+  topics:
+    - cloud
+    - deployment
+    - devops
+    - automation
+    - developer-productivity
+project:
+  name: Alchemy
+  kind: infrastructure
+  summary: >-
+    A TypeScript infrastructure-as-code framework built on Effect that combines
+    cloud resources and application logic in one type-safe executable program.
+  best_for:
+    - TypeScript teams defining application code and cloud infrastructure
+      together
+    - Effect users deploying to AWS or Cloudflare with typed resource bindings
+key_features:
+  - Models infrastructure resources and application logic in one Effect program
+  - Provides typed bindings, errors, planning, deployment, and local development
+  - Supports AWS services, Cloudflare resources, IAM, SDKs, and smoke tests
+  - Includes CI workflows and a GitHub Action for deployment
+usage:
+  interfaces:
+    - TypeScript library
+    - command-line workflow
+  installation:
+    - bun add alchemy@next effect@next
+    - source checkout
+  setup: moderate
+technology:
+  languages:
+    - TypeScript
+  notable_components:
+    - Effect
+    - AWS
+    - Cloudflare
+license:
+  spdx: Apache-2.0
+  name: Apache License 2.0
+  notes: Permissive license with patent grant and notice requirements; third-party
+    notices also apply.
+status:
+  lifecycle: experimental
+  archived: false
+  latest_release: null
+  latest_release_at: null
+strengths:
+  - Preserves TypeScript types across infrastructure definitions and resource
+    bindings
+  - Unifies local development, planning, deployment, and application tests
+caveats:
+  - The project describes v2 as beta and warns of breaking changes
+  - The newest retained primary-project release is v2.0.0-beta.87, dated
+    2026-11-12; stable release fields remain null, and installation uses next-tag dependencies
+sources:
+  - https://raw.githubusercontent.com/alchemy-run/alchemy/8555cbce637eccd2c792ee54c141d82341275c1c/README.md
+  - https://raw.githubusercontent.com/alchemy-run/alchemy/8555cbce637eccd2c792ee54c141d82341275c1c/LICENSE
+  - https://github.com/alchemy-run/alchemy/releases.atom
+  - https://github.com/alchemy-run/alchemy/releases/tag/v2.0.0-beta.87

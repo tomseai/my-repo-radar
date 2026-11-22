@@ -2,9 +2,9 @@ schema_version: 2
 repository_id: github:microsoft/AI-For-Beginners
 research:
   state: complete
-  source_commit: 33e781bf7bfb9b39fd27c4e4a3e592669b52cb4b
-  bundle_collected_at: 2026-07-19T20:44:04.540Z
-  researched_at: 2026-07-19T21:45:48.402Z
+  source_commit: 1ff3c870707ec312f4c4a3bba4eaf0d9e06456a3
+  bundle_collected_at: 2026-11-22T12:09:53.535Z
+  researched_at: 2026-11-22T12:24:20.640Z
   confidence: high
 classification:
   primary_category: documentation-and-learning
@@ -17,18 +17,21 @@ classification:
 project:
   name: Artificial Intelligence for Beginners
   kind: course
-  summary: >-
-    A beginner-friendly, 12-week curriculum of AI lessons, executable notebooks,
+  summary: A beginner-friendly, 12-week curriculum of AI lessons, executable notebooks,
     quizzes, and selected practical labs.
   best_for:
     - Learners seeking a structured introduction to AI concepts and neural networks
     - Educators adapting an open curriculum with hands-on notebook material
 key_features:
-  - 24 lessons covering symbolic AI, neural networks, computer vision, NLP, other AI techniques, and responsible AI
-  - Framework-specific executable notebooks for TensorFlow and PyTorch, plus selected labs
-  - Short beginner examples for pattern recognition, neural networks, image classification, and sentiment analysis
+  - 24 lessons covering symbolic AI, neural networks, computer vision, NLP, other AI
+    techniques, and responsible AI
+  - Framework-specific executable notebooks for TensorFlow and PyTorch, plus selected
+    labs
+  - Short beginner examples for pattern recognition, neural networks, image
+    classification, and sentiment analysis
   - Lesson-linked quizzes that can be run locally or accessed online
-  - Translations in more than 50 languages, with a sparse-checkout option to omit them
+  - Maintains translations with Co-op Translator and documents a sparse-checkout
+    option to omit them
 usage:
   interfaces:
     - Markdown lesson materials
@@ -53,26 +56,34 @@ technology:
 license:
   spdx: MIT
   name: MIT License
-  notes: Permissive license allowing use, modification, distribution, sublicensing, and sale with copyright and license notice inclusion.
+  notes: Permissive license allowing use, modification, distribution, sublicensing, and
+    sale with copyright and license notice inclusion.
 status:
   lifecycle: active
   archived: false
   latest_release: null
   latest_release_at: null
 strengths:
-  - Combines a paced curriculum with notebooks, quizzes, and labs instead of only reference reading
-  - Covers foundational AI from symbolic approaches through deep learning, vision, NLP, and ethics
-  - Offers multiple language translations and learning environments for broad accessibility
+  - Combines a paced curriculum with notebooks, quizzes, and labs instead of only
+    reference reading
+  - Covers foundational AI from symbolic approaches through deep learning, vision,
+    NLP, and ethics
+  - Offers multiple language translations and learning environments for broad
+    accessibility
 caveats:
-  - It is learning material rather than a reusable AI framework or production application
-  - The curriculum says its coverage of recent neural architectures may not be state of the art
-  - Local notebook work requires a Python environment and dependencies; the repository is large because of translations
-  - The cached release feed has no entries, so a latest versioned release cannot be established
+  - It is learning material rather than a reusable AI framework or production
+    application
+  - The curriculum says its coverage of recent neural architectures may not be state
+    of the art
+  - Local notebook work requires a Python environment and dependencies; the
+    repository is large because of translations
+  - The cached release feed has no entries, so a latest versioned release cannot be
+    established
 sources:
-  - https://raw.githubusercontent.com/microsoft/AI-For-Beginners/33e781bf7bfb9b39fd27c4e4a3e592669b52cb4b/README.md
-  - https://raw.githubusercontent.com/microsoft/AI-For-Beginners/33e781bf7bfb9b39fd27c4e4a3e592669b52cb4b/examples/README.md
-  - https://raw.githubusercontent.com/microsoft/AI-For-Beginners/33e781bf7bfb9b39fd27c4e4a3e592669b52cb4b/LICENSE
-  - https://raw.githubusercontent.com/microsoft/AI-For-Beginners/33e781bf7bfb9b39fd27c4e4a3e592669b52cb4b/requirements.txt
-  - https://raw.githubusercontent.com/microsoft/AI-For-Beginners/33e781bf7bfb9b39fd27c4e4a3e592669b52cb4b/etc/quiz-app/package.json
-  - https://raw.githubusercontent.com/microsoft/AI-For-Beginners/33e781bf7bfb9b39fd27c4e4a3e592669b52cb4b/.devcontainer/Dockerfile
+  - https://raw.githubusercontent.com/microsoft/AI-For-Beginners/1ff3c870707ec312f4c4a3bba4eaf0d9e06456a3/README.md
+  - https://raw.githubusercontent.com/microsoft/AI-For-Beginners/1ff3c870707ec312f4c4a3bba4eaf0d9e06456a3/examples/README.md
+  - https://raw.githubusercontent.com/microsoft/AI-For-Beginners/1ff3c870707ec312f4c4a3bba4eaf0d9e06456a3/LICENSE
+  - https://raw.githubusercontent.com/microsoft/AI-For-Beginners/1ff3c870707ec312f4c4a3bba4eaf0d9e06456a3/requirements.txt
+  - https://raw.githubusercontent.com/microsoft/AI-For-Beginners/1ff3c870707ec312f4c4a3bba4eaf0d9e06456a3/etc/quiz-app/package.json
+  - https://raw.githubusercontent.com/microsoft/AI-For-Beginners/1ff3c870707ec312f4c4a3bba4eaf0d9e06456a3/.devcontainer/Dockerfile
   - https://github.com/microsoft/AI-For-Beginners/releases.atom

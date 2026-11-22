@@ -2,9 +2,9 @@ schema_version: 2
 repository_id: github:assistant-ui/assistant-ui
 research:
   state: complete
-  source_commit: 7fde141c094d122034804f9b9e19b4f17fb516ba
-  bundle_collected_at: 2026-07-19T20:41:50.292Z
-  researched_at: 2026-07-19T22:13:18.417Z
+  source_commit: 09540e57cab69ad754c4341c48fe1b85ea199dfe
+  bundle_collected_at: 2026-11-22T12:09:08.671Z
+  researched_at: 2026-11-22T12:23:58.017Z
   confidence: high
 classification:
   primary_category: frontend-and-design
@@ -18,18 +18,20 @@ classification:
 project:
   name: assistant-ui
   kind: library
-  summary: >-
-    A TypeScript and React library for composing production AI chat interfaces
+  summary: A TypeScript and React library for composing production AI chat interfaces
     from UI primitives and runtime adapters.
   best_for:
     - React teams building custom AI chat or copilot experiences
-    - Projects that need to connect a chat UI to the AI SDK, agent frameworks, or a custom backend
+    - Projects that need to connect a chat UI to the AI SDK, agent frameworks, or a
+      custom backend
 key_features:
   - Composable Thread, Message, Composer, ThreadList, and ActionBar primitives
   - Styled Base UI or Radix UI starter components installed by its CLI
-  - Streaming chat UX with retries, attachments, markdown, code highlighting, voice dictation, and accessibility
+  - Streaming chat UX with retries, attachments, markdown, code highlighting, voice
+    dictation, and accessibility
   - Generative UI for tool calls, JSON, inline human approvals, and frontend actions
-  - Typed runtime adapters for the Vercel AI SDK, LangGraph, LangChain, AG-UI, A2A, and custom data streams
+  - Typed runtime adapters for the Vercel AI SDK, LangGraph, LangChain, AG-UI, A2A,
+    and custom data streams
 usage:
   interfaces:
     - React component library
@@ -39,6 +41,7 @@ usage:
     - npx assistant-ui@latest create
     - npx assistant-ui@latest init
     - npm packages
+    - Direct React and AI SDK package installation
   setup: moderate
 technology:
   languages:
@@ -53,22 +56,29 @@ technology:
 license:
   spdx: MIT
   name: MIT License
-  notes: The repository is MIT-licensed; Assistant Cloud is an optional managed service for thread persistence and analytics.
+  notes: The repository is MIT-licensed; Assistant Cloud is an optional managed service
+    for thread persistence and analytics.
 status:
   lifecycle: active
   archived: false
-  latest_release: assistant-ui@0.0.106
-  latest_release_at: "2026-07-16"
+  latest_release: assistant-ui@0.0.136
+  latest_release_at: 2026-11-18
 strengths:
-  - Provides polished chat UX while retaining control over component composition and styling
-  - Supports several popular backend and agent integrations without locking the UI to one provider
+  - Provides polished chat UX while retaining control over component composition and
+    styling
+  - Supports several popular backend and agent integrations without locking the UI to
+    one provider
   - Offers a fast CLI path as well as direct package integration
 caveats:
-  - It is a React-focused UI layer, so a backend or runtime integration is still required
-  - Managed history, telemetry, and file storage are offered through the optional Assistant Cloud service
-  - The release feed publishes individual package versions; latest_release selects the primary assistant-ui package rather than the newest auxiliary package entry
+  - It is a React-focused UI layer, so a backend or runtime integration is still
+    required
+  - Managed history, telemetry, and file storage are offered through the optional
+    Assistant Cloud service
+  - The release feed publishes individual package versions; latest_release selects
+    the primary assistant-ui package rather than the newest auxiliary package entry
 sources:
-  - https://raw.githubusercontent.com/assistant-ui/assistant-ui/7fde141c094d122034804f9b9e19b4f17fb516ba/README.md
-  - https://raw.githubusercontent.com/assistant-ui/assistant-ui/7fde141c094d122034804f9b9e19b4f17fb516ba/LICENSE
-  - https://raw.githubusercontent.com/assistant-ui/assistant-ui/7fde141c094d122034804f9b9e19b4f17fb516ba/package.json
+  - https://raw.githubusercontent.com/assistant-ui/assistant-ui/09540e57cab69ad754c4341c48fe1b85ea199dfe/README.md
+  - https://raw.githubusercontent.com/assistant-ui/assistant-ui/09540e57cab69ad754c4341c48fe1b85ea199dfe/LICENSE
+  - https://raw.githubusercontent.com/assistant-ui/assistant-ui/09540e57cab69ad754c4341c48fe1b85ea199dfe/package.json
   - https://github.com/assistant-ui/assistant-ui/releases.atom
+  - https://github.com/assistant-ui/assistant-ui/releases/tag/assistant-ui%400.0.136

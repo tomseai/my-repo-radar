@@ -14,15 +14,20 @@ analysis:
       - "test-software"
       - "secure-software"
   evidence:
-    - claim: "gstack is an MIT-licensed set of slash-command specialists and tools that turns Claude Code into a virtual engineering team for product review, architecture, design review, QA, security audits, release work, and pull-request workflows."
+    - claim: "gstack is an MIT-licensed set of slash-command specialists and tools
+        that turns Claude Code into a virtual engineering team for product
+        review, architecture, design review, QA, security audits, release work,
+        and pull-request workflows."
       source_type: "repository-file"
       url: "https://github.com/garrytan/gstack/blob/main/README.md"
       checked_at: "2026-07-19"
       confidence: "high"
   state: "researched"
   summary:
-    one_line: "A set of Claude Code specialist commands for AI-assisted software delivery."
-    why_useful: "It adds structured product, architecture, review, QA, security, and release workflows to coding-agent work."
+    one_line: "A set of Claude Code specialist commands for AI-assisted software
+      delivery."
+    why_useful: "It adds structured product, architecture, review, QA, security, and
+      release workflows to coding-agent work."
 curation:
   confidence: null
   evidence: []
@@ -36,28 +41,33 @@ id: "github:garrytan/gstack"
 import:
   github_snapshot:
     archived: false
-    created_at: "2026-03-11T21:22:45Z"
-    default_branch: "main"
-    description: "Use Garry Tan's exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA"
+    created_at: 2026-03-11T21:22:45Z
+    default_branch: main
+    description: "Use Garry Tan's exact Claude Code setup: 23 opinionated tools that
+      serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and
+      QA"
     disabled: false
-    fetched_at: "2026-07-19T19:16:14.796Z"
+    fetched_at: 2026-11-22T12:07:00.148Z
     fork: false
-    forks: 18399
+    forks: 21003
     homepage: ""
-    latest_release: null
-    license_spdx: "MIT"
-    open_issues: 761
-    primary_language: "TypeScript"
-    pushed_at: "2026-07-15T01:33:47Z"
-    stars: 122960
+    latest_release:
+      tag: v1.102.2.0
+      published_at: 2026-11-21T23:41:46Z
+      url: https://github.com/garrytan/gstack/releases/tag/v1.102.2.0
+    license_spdx: MIT
+    open_issues: 62
+    primary_language: TypeScript
+    pushed_at: 2026-11-22T12:05:46Z
+    stars: 142327
     topics: []
-    updated_at: "2026-07-19T19:15:08Z"
+    updated_at: 2026-11-22T11:47:08Z
   sources:
-    - observed_at: "2026-03-28T19:48:48Z"
-      relation: "starred"
-      source_id: "github:user:tomseai:stars"
-      source_url: "https://github.com/tomseai?tab=stars"
-  state: "imported"
+    - observed_at: 2026-03-28T19:48:48Z
+      relation: starred
+      source_id: github:user:tomseai:stars
+      source_url: https://github.com/tomseai?tab=stars
+  state: refreshed
 repository:
   aliases: []
   github_node_id: "R_kgDORkolAw"

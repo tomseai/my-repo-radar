@@ -2,9 +2,9 @@ schema_version: 2
 repository_id: github:FoundationAgents/OpenManus
 research:
   state: complete
-  source_commit: 52a13f2a57d8c7f6737eefb02ccf569594d44273
-  bundle_collected_at: 2026-07-19T20:42:51.907Z
-  researched_at: 2026-07-20T15:23:05.034Z
+  source_commit: 3309bf4e416fb1c74b008f3e86494439a31bad53
+  bundle_collected_at: 2026-11-22T12:09:27.646Z
+  researched_at: 2026-11-22T12:23:54Z
   confidence: medium
 
 classification:
@@ -24,7 +24,8 @@ project:
   kind: framework
   summary: >-
     A Python framework and command-line runtime for configuring LLM-backed
-    general agents with optional browser automation, MCP tools, and multi-agent flows.
+    general agents with browser automation, MCP tools, and multi-agent
+    flows.
   best_for:
     - Developers experimenting with configurable general-purpose AI agents
     - Agent workflows that need optional browser, MCP, or data-analysis tools
@@ -32,9 +33,10 @@ project:
 key_features:
   - Terminal entry point for running an OpenManus agent
   - Configurable global and vision-model API settings
-  - Optional Playwright browser-automation installation
+  - Browser Use CLI is started as a default MCP server for browser automation
   - MCP tool server launched through run_mcp.py
-  - Optional multi-agent flow with a DataAnalysis Agent for analysis and visualization tasks
+  - Optional multi-agent flow with a DataAnalysis Agent for analysis and
+    visualization tasks
   - Conda, uv, and Docker installation paths
 
 usage:
@@ -61,7 +63,8 @@ technology:
 license:
   spdx: MIT
   name: MIT License
-  notes: Permission notice and warranty disclaimer are retained in the repository LICENSE file.
+  notes: Permission notice and warranty disclaimer are retained in the repository
+    LICENSE file.
 
 status:
   lifecycle: active
@@ -71,17 +74,18 @@ status:
 
 strengths:
   - Several installation and deployment paths support local experimentation
-  - Optional tools cover browser tasks, MCP access, and data analysis
+  - Tools cover browser tasks, MCP access, and data analysis
   - Configuration separates global and vision-model settings
 
 caveats:
   - Running the project requires configuring LLM API credentials
   - The README labels the multi-agent flow as unstable
-  - setup.py at the retained commit reports version 0.1.0, while the releases feed's latest project tag is v0.3.0
+  - setup.py at the retained commit reports version 0.1.0, while the releases
+    feed's latest project tag is v0.3.0
 
 sources:
-  - https://raw.githubusercontent.com/FoundationAgents/OpenManus/52a13f2a57d8c7f6737eefb02ccf569594d44273/README.md
-  - https://raw.githubusercontent.com/FoundationAgents/OpenManus/52a13f2a57d8c7f6737eefb02ccf569594d44273/LICENSE
-  - https://raw.githubusercontent.com/FoundationAgents/OpenManus/52a13f2a57d8c7f6737eefb02ccf569594d44273/requirements.txt
-  - https://raw.githubusercontent.com/FoundationAgents/OpenManus/52a13f2a57d8c7f6737eefb02ccf569594d44273/setup.py
+  - https://raw.githubusercontent.com/FoundationAgents/OpenManus/3309bf4e416fb1c74b008f3e86494439a31bad53/README.md
+  - https://raw.githubusercontent.com/FoundationAgents/OpenManus/3309bf4e416fb1c74b008f3e86494439a31bad53/LICENSE
+  - https://raw.githubusercontent.com/FoundationAgents/OpenManus/3309bf4e416fb1c74b008f3e86494439a31bad53/requirements.txt
+  - https://raw.githubusercontent.com/FoundationAgents/OpenManus/3309bf4e416fb1c74b008f3e86494439a31bad53/setup.py
   - https://github.com/FoundationAgents/OpenManus/releases.atom

@@ -11,7 +11,8 @@ analysis:
     use_cases:
       - "build-web-applications"
   evidence:
-    - claim: "Jotai is an atom-based state-management library for React applications that scales from a useState replacement to TypeScript applications."
+    - claim: "Jotai is an atom-based state-management library for React applications
+        that scales from a useState replacement to TypeScript applications."
       confidence: "high"
       source_type: "repository-file"
       url: "https://github.com/pmndrs/jotai/blob/main/README.md"
@@ -19,7 +20,8 @@ analysis:
   state: "complete"
   summary:
     one_line: "An atom-based state-management library for React applications."
-    why_useful: "It provides a minimal state primitive and derived-state model for React components."
+    why_useful: "It provides a minimal state primitive and derived-state model for
+      React components."
 curation:
   confidence: null
   evidence: []
@@ -33,33 +35,36 @@ id: "github:pmndrs/jotai"
 import:
   github_snapshot:
     archived: false
-    created_at: "2020-08-11T23:15:36Z"
-    default_branch: "main"
-    description: "👻 Primitive and flexible state management for React"
+    created_at: 2020-08-11T23:15:36Z
+    default_branch: main
+    description: 👻 Primitive and flexible state management for React
     disabled: false
-    fetched_at: "2026-07-19T19:16:14.796Z"
+    fetched_at: 2026-11-22T12:07:00.148Z
     fork: false
-    forks: 724
-    homepage: "https://jotai.org"
-    latest_release: null
-    license_spdx: "MIT"
-    open_issues: 6
-    primary_language: "TypeScript"
-    pushed_at: "2026-07-17T23:57:30Z"
-    stars: 21229
+    forks: 728
+    homepage: https://jotai.org
+    latest_release:
+      tag: v3.0.2
+      published_at: 2026-11-09T03:06:25Z
+      url: https://github.com/pmndrs/jotai/releases/tag/v3.0.2
+    license_spdx: MIT
+    open_issues: 5
+    primary_language: TypeScript
+    pushed_at: 2026-11-18T01:36:24Z
+    stars: 21336
     topics:
-      - "atomic"
-      - "hacktoberfest"
-      - "management"
-      - "react"
-      - "state"
-    updated_at: "2026-07-19T08:00:48Z"
+      - atomic
+      - hacktoberfest
+      - management
+      - react
+      - state
+    updated_at: 2026-11-22T06:45:13Z
   sources:
-    - observed_at: "2024-12-31T14:44:21Z"
-      relation: "starred"
-      source_id: "github:user:tomseai:stars"
-      source_url: "https://github.com/tomseai?tab=stars"
-  state: "imported"
+    - observed_at: 2024-12-31T14:44:21Z
+      relation: starred
+      source_id: github:user:tomseai:stars
+      source_url: https://github.com/tomseai?tab=stars
+  state: refreshed
 repository:
   aliases: []
   github_node_id: "MDEwOlJlcG9zaXRvcnkyODY4Njc0NTk="

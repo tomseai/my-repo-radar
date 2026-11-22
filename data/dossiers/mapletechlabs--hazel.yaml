@@ -1,0 +1,87 @@
+schema_version: 2
+repository_id: github:MapleTechLabs/hazel
+research:
+  state: complete
+  source_commit: 264154a1228cdd1537f7075284a6c0c80177f9bc
+  bundle_collected_at: 2026-11-22T12:09:53.668Z
+  researched_at: 2026-11-22T12:26:11Z
+  confidence: high
+classification:
+  primary_category: collaboration-and-productivity
+  topics:
+    - chat-ui
+    - realtime-collaboration
+    - local-first
+    - realtime
+    - web-ui
+    - desktop-app
+project:
+  name: Hazel Chat
+  kind: application
+  summary: >-
+    A team chat application with channels and direct messages, a Foldkit web
+    interface, and real-time synchronization from Cloudflare Durable Objects
+    into TanStack DB.
+  best_for:
+    - Teams looking for an inspectable, real-time team chat application
+    - Developers studying an Effect and Cloudflare Durable Objects application
+key_features:
+  - Real-time channels and direct messages with presence and typing indicators
+  - Emoji reactions, pinned messages, file attachments, and notifications
+  - Type-safe Effect RPC for client-server communication
+  - WebSocket synchronization from an organization, channel, or user Durable
+    Object into TanStack DB
+  - Bot gateway and background work for notifications, RSS, webhooks, and thread
+    naming
+usage:
+  interfaces:
+    - web application
+    - bot gateway
+    - interactive setup CLI
+  installation:
+    - source checkout with Bun and Docker
+    - interactive setup and local Alchemy development stack
+  setup: high
+technology:
+  languages:
+    - TypeScript
+  notable_components:
+    - Foldkit
+    - Effect
+    - Cloudflare Workers and Durable Objects
+    - TanStack DB
+    - SQLite and D1
+    - Bun
+    - Alchemy
+    - MinIO
+license:
+  spdx: FSL-1.1-ALv2
+  name: Functional Source License 1.1, ALv2 Future License
+  notes: >-
+    Source-available license that permits internal and other non-competing uses
+    but prohibits a competing commercial product or service; each version
+    converts to Apache-2.0 two years after it is made available.
+status:
+  lifecycle: active
+  archived: false
+  latest_release: v1.3.0
+  latest_release_at: 2026-11-21
+strengths:
+  - Uses a typed Effect RPC boundary between the app and backend
+  - Groups message, channel, and organization state into separate Durable Objects
+  - Documents local development and an interactive setup workflow
+caveats:
+  - Local development uses Bun, Docker, MinIO, and the Alchemy runtime.
+  - Sign-in and integrations require the corresponding provider credentials when
+    enabled.
+  - The Functional Source License restricts competing use for its initial period
+    before conversion to Apache-2.0.
+sources:
+  - https://raw.githubusercontent.com/MapleTechLabs/hazel/264154a1228cdd1537f7075284a6c0c80177f9bc/README.md
+  - https://raw.githubusercontent.com/MapleTechLabs/hazel/264154a1228cdd1537f7075284a6c0c80177f9bc/LICENSE
+  - https://raw.githubusercontent.com/MapleTechLabs/hazel/264154a1228cdd1537f7075284a6c0c80177f9bc/package.json
+  - https://raw.githubusercontent.com/MapleTechLabs/hazel/264154a1228cdd1537f7075284a6c0c80177f9bc/apps/web-foldkit/package.json
+  - https://raw.githubusercontent.com/MapleTechLabs/hazel/264154a1228cdd1537f7075284a6c0c80177f9bc/apps/desktop/package.json
+  - https://raw.githubusercontent.com/MapleTechLabs/hazel/264154a1228cdd1537f7075284a6c0c80177f9bc/docker-compose.yaml
+  - https://github.com/MapleTechLabs/hazel/releases.atom
+  - https://github.com/MapleTechLabs/hazel/releases/tag/v1.3.0

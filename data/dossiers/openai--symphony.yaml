@@ -2,9 +2,9 @@ schema_version: 2
 repository_id: github:openai/symphony
 research:
   state: complete
-  source_commit: 7af5a7648c9fbffa08825fe0c0b18be00100aff3
-  bundle_collected_at: 2026-07-19T20:44:33.474Z
-  researched_at: 2026-07-20T15:52:01.160Z
+  source_commit: be10a1b79df723d6d7612b5651c8522704dafb2e
+  bundle_collected_at: 2026-11-22T12:10:06.026Z
+  researched_at: 2026-11-22T12:18:43.417Z
   confidence: medium
 
 classification:
@@ -20,19 +20,23 @@ project:
   name: Symphony
   kind: infrastructure
   summary: >-
-    An engineering-preview orchestration system and experimental Elixir reference
-    implementation for turning project work into isolated, autonomous coding-agent
-    runs.
+    An engineering-preview orchestration system and experimental Elixir
+    reference implementation for turning project work into isolated, autonomous
+    coding-agent runs.
   best_for:
-    - Teams experimenting with higher-level management of agent-executed project work
-    - Trusted environments that can evaluate an early orchestration implementation
+    - Teams experimenting with higher-level management of agent-executed project
+      work
+    - Trusted environments that can evaluate an early orchestration
+      implementation
 
 key_features:
   - Isolated autonomous implementation runs for project work
   - Linear-board monitoring and task dispatch in the documented demonstration
-  - Proof of work including CI status, review feedback, complexity analysis, and videos
+  - Proof of work including CI status, review feedback, complexity analysis, and
+    videos
   - Safe pull-request landing after acceptance in the documented workflow
-  - A published specification plus an experimental Elixir reference implementation
+  - A published specification plus an experimental Elixir reference
+    implementation
 
 usage:
   interfaces:
@@ -58,20 +62,24 @@ license:
 status:
   lifecycle: experimental
   archived: false
-  latest_release: v0.0.1
-  latest_release_at: 2026-07-18
+  latest_release: v0.0.3
+  latest_release_at: 2026-09-15
 
 strengths:
-  - Focuses operators on managing work rather than supervising each coding-agent turn
+  - Focuses operators on managing work rather than supervising each coding-agent
+    turn
   - Makes review and CI evidence part of the documented completion workflow
   - Provides both a specification and a concrete reference implementation path
 
 caveats:
+  - The release feed also includes a nightly build; v0.0.3 is the latest retained stable release
   - The README explicitly describes Symphony as a low-key engineering preview
-  - The retained bundle does not include the linked Elixir setup instructions, so setup cost is unknown
+  - The retained bundle does not include the linked Elixir setup instructions,
+    so setup cost is unknown
   - The documented demo depends on a Linear board and external coding agents
 
 sources:
-  - https://raw.githubusercontent.com/openai/symphony/7af5a7648c9fbffa08825fe0c0b18be00100aff3/README.md
-  - https://raw.githubusercontent.com/openai/symphony/7af5a7648c9fbffa08825fe0c0b18be00100aff3/LICENSE
+  - https://raw.githubusercontent.com/openai/symphony/be10a1b79df723d6d7612b5651c8522704dafb2e/README.md
+  - https://raw.githubusercontent.com/openai/symphony/be10a1b79df723d6d7612b5651c8522704dafb2e/LICENSE
   - https://github.com/openai/symphony/releases.atom
+  - https://github.com/openai/symphony/releases/tag/v0.0.3

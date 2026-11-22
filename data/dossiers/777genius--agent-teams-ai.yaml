@@ -2,9 +2,9 @@ schema_version: 2
 repository_id: github:777genius/agent-teams-ai
 research:
   state: complete
-  source_commit: 656b11f94fcffb801ccf8cb841c42268ab104028
-  bundle_collected_at: 2026-07-19T20:41:24.043Z
-  researched_at: 2026-07-19T22:20:32.672Z
+  source_commit: ba1b357c466a6373b9cdd99467b16bea8c5e8467
+  bundle_collected_at: 2026-11-22T12:09:01.726Z
+  researched_at: 2026-11-22T12:23:56.581Z
   confidence: high
 classification:
   primary_category: ai-and-automation
@@ -31,7 +31,7 @@ key_features:
   - Create role-based teams whose agents can delegate, message, review, and complete tasks
   - Track work on a kanban board with per-task logs, messages, and status history
   - Review detected code changes by accepting, rejecting, or commenting on individual hunks
-  - Connect or auto-detect Claude Code, Codex, OpenCode, and other supported providers
+  - Starts with a no-auth model, detects local Claude Code, Codex, and OpenCode runtimes, or connects additional providers
   - Isolate selected teammates in Git worktrees and provide an integrated PTY terminal
   - Monitor token usage, estimated cost, and configurable budget alerts across teams
 usage:
@@ -63,8 +63,8 @@ license:
 status:
   lifecycle: active
   archived: false
-  latest_release: v2.9.1
-  latest_release_at: "2026-07-19"
+  latest_release: v2.18.7
+  latest_release_at: "2026-11-11"
 strengths:
   - Combines agent-team coordination, human review, runtime diagnostics, and code-change review in one desktop workspace
   - Supports mixed agent runtimes and provider connections instead of locking teams to one coding agent
@@ -73,11 +73,11 @@ caveats:
   - Provider access, local runtimes, and their usage costs or terms remain the user's responsibility
   - The browser and standalone-server path does not provide the full desktop runtime or lifecycle behavior
   - Git worktree isolation is optional, so teams need explicit branch and merge rules to avoid conflicts
-  - The root package reports version 2.1.2, while the primary project release feed reports v2.9.1; the latter is used as the project release
+  - Source setup requires the pinned pnpm version. Install it separately if using Node.js 26 without Corepack.
   - The AGPL-3.0 license may be unsuitable for organizations that cannot meet its copyleft obligations
 sources:
-  - https://raw.githubusercontent.com/777genius/agent-teams-ai/656b11f94fcffb801ccf8cb841c42268ab104028/README.md
-  - https://raw.githubusercontent.com/777genius/agent-teams-ai/656b11f94fcffb801ccf8cb841c42268ab104028/LICENSE
-  - https://raw.githubusercontent.com/777genius/agent-teams-ai/656b11f94fcffb801ccf8cb841c42268ab104028/package.json
-  - https://raw.githubusercontent.com/777genius/agent-teams-ai/656b11f94fcffb801ccf8cb841c42268ab104028/docker/docker-compose.yml
+  - https://raw.githubusercontent.com/777genius/agent-teams-ai/ba1b357c466a6373b9cdd99467b16bea8c5e8467/README.md
+  - https://raw.githubusercontent.com/777genius/agent-teams-ai/ba1b357c466a6373b9cdd99467b16bea8c5e8467/LICENSE
+  - https://raw.githubusercontent.com/777genius/agent-teams-ai/ba1b357c466a6373b9cdd99467b16bea8c5e8467/package.json
+  - https://raw.githubusercontent.com/777genius/agent-teams-ai/ba1b357c466a6373b9cdd99467b16bea8c5e8467/docker/docker-compose.yml
   - https://github.com/777genius/agent-teams-ai/releases.atom

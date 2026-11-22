@@ -1,0 +1,45 @@
+schema_version: 2
+repository_id: github:antithesishq/bombadil
+research:
+  state: complete
+  source_commit: c7bd61f3ec83761634804c50845cd96c521a45f0
+  bundle_collected_at: 2026-11-22T11:27:19.744Z
+  researched_at: 2026-11-22T12:00:00Z
+  confidence: medium
+classification:
+  primary_category: testing-and-quality
+  topics: [testing, automation, cli]
+project:
+  name: bombadil
+  kind: cli
+  summary: Property-based testing tool that autonomously explores web and terminal interfaces and checks correctness properties.
+  best_for: [Developers testing interactive applications for reliability]
+key_features:
+  - Automated exploration of web interfaces
+  - Property-based testing of terminal interfaces
+  - Runs locally, in CI, and inside Antithesis
+usage:
+  interfaces: [CLI]
+  installation: [build from source]
+  setup: moderate
+technology:
+  languages:
+    - Rust
+  notable_components: []
+license:
+  spdx: MIT
+  name: MIT License
+  notes: null
+status:
+  lifecycle: active
+  archived: false
+  latest_release: v0.8.0
+  latest_release_at: 2026-11-19
+strengths: [Combines automated exploration with explicit correctness properties]
+caveats: [Retained README provides limited setup details; consult the manual before adoption, License text was not retained in the research bundle]
+sources:
+  - https://raw.githubusercontent.com/antithesishq/bombadil/c7bd61f3ec83761634804c50845cd96c521a45f0/README.md
+  - https://raw.githubusercontent.com/antithesishq/bombadil/c7bd61f3ec83761634804c50845cd96c521a45f0/Cargo.toml
+  - https://raw.githubusercontent.com/antithesishq/bombadil/c7bd61f3ec83761634804c50845cd96c521a45f0/CHANGELOG.md
+  - https://raw.githubusercontent.com/antithesishq/bombadil/c7bd61f3ec83761634804c50845cd96c521a45f0/lib/antithesis-fuzzer/Cargo.toml
+  - https://github.com/antithesishq/bombadil/releases.atom

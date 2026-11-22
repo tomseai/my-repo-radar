@@ -2,10 +2,10 @@ schema_version: 2
 repository_id: github:jackwener/OpenCLI
 research:
   state: complete
-  source_commit: 0e73c3c2c2b45c91e050e1618b20e2aba22f1a23
-  bundle_collected_at: 2026-07-19T20:43:33.306Z
-  researched_at: 2026-07-20T15:31:31.792Z
-  confidence: high
+  source_commit: 9bc5f5ca132ec4d4e48d7ee517d4303bf159e8e8
+  bundle_collected_at: 2026-11-22T12:09:42.999Z
+  researched_at: 2026-11-22T12:26:27.232Z
+  confidence: medium
 classification:
   primary_category: ai-and-automation
   topics:
@@ -21,20 +21,25 @@ classification:
 project:
   name: OpenCLI
   kind: cli
-  summary: >-
-    A Node.js CLI that turns supported websites, logged-in Chrome sessions,
+  summary: A Node.js CLI that turns supported websites, logged-in Chrome sessions,
     Electron apps, and registered local binaries into deterministic commands,
     with browser-control primitives and skills for AI agents.
   best_for:
-    - Developers and agents automating websites through an existing authenticated Chrome profile
-    - Authors building reusable site adapters or consolidating local tools behind one CLI
+    - Developers and agents automating websites through an existing
+      authenticated Chrome profile
+    - Authors building reusable site adapters or consolidating local tools
+      behind one CLI
 key_features:
-  - Provides built-in site adapters and JSON, YAML, Markdown, CSV, and table output
+  - Provides built-in site adapters and defaults to structured JSON success and
+    error responses
   - Drives logged-in Chrome through a Browser Bridge extension and local daemon
-  - Exposes browser navigation, interaction, extraction, network inspection, and screenshot commands
-  - Supports direct Chrome DevTools Protocol connections and Electron app adapters
-  - Loads built-in, local, plugin, and external-CLI commands into a unified registry
-  - Ships agent skills for browser use, adapter authoring, adapter repair, and sitemap workflows
+  - Exposes browser navigation, interaction, extraction, network inspection, and
+    screenshot commands
+  - Supports direct Chrome DevTools Protocol connections and Electron app
+    adapters
+  - Loads built-in, local, plugin, and external-CLI commands into a unified
+    registry
+  - Ships agent skills for browser use, usage, and adapter authoring and repair
 usage:
   interfaces:
     - CLI
@@ -48,7 +53,6 @@ usage:
     - build from source
     - Chrome Web Store or manually loaded extension
   setup: moderate
-
 technology:
   languages:
     - JavaScript
@@ -58,33 +62,38 @@ technology:
     - Chrome DevTools Protocol
     - VitePress
     - Vitest
-
 license:
   spdx: Apache-2.0
   name: Apache License 2.0
-  notes: Apache-2.0 requires preservation of applicable notices and includes an express patent grant subject to its termination clause.
-
+  notes: Apache-2.0 requires preservation of applicable notices and includes an
+    express patent grant subject to its termination clause.
 status:
   lifecycle: active
   archived: false
-  latest_release: v1.8.6
-  latest_release_at: 2026-07-03
-
+  latest_release: v2.0.3
+  latest_release_at: 2026-11-07
 strengths:
   - Unifies browser, desktop, website-adapter, plugin, and local-CLI workflows
-  - Uses an existing browser login rather than asking agents to handle site credentials directly
-  - Provides structured output and explicit adapter-development tools for repeatable automation
-
+  - Uses an existing browser login rather than asking agents to handle site
+    credentials directly
+  - Provides structured output and explicit adapter-development tools for
+    repeatable automation
 caveats:
-  - Browser-backed commands require Chrome, the Browser Bridge, and a logged-in target-site session
-  - The README says npm installation needs Node.js 20 or later, while the installation guide says Node.js 21 or Bun 1 or later
-  - Browser-backed adapters can break when target websites change their UI, APIs, or authentication behavior
-  - Remote CDP use requires exposing or tunneling a debugging endpoint and should be secured accordingly
+  - Browser-backed commands require Chrome, the Browser Bridge, and a logged-in
+    target-site session
+  - The README specifies Node.js 20.18.1 or later for npm use. The installation
+    guide specifies Node.js 21 or later or Bun 1 or later.
+  - Browser-backed adapters can break when target websites change their UI,
+    APIs, or authentication behavior
+  - Remote CDP use requires exposing or tunneling a debugging endpoint and
+    should be secured accordingly
   - Website actions run with the permissions of the connected browser profile
-
+  - Version 2 changes command syntax and default output. Existing scripts that
+    parse output may need updates.
 sources:
-  - https://raw.githubusercontent.com/jackwener/OpenCLI/0e73c3c2c2b45c91e050e1618b20e2aba22f1a23/README.md
-  - https://raw.githubusercontent.com/jackwener/OpenCLI/0e73c3c2c2b45c91e050e1618b20e2aba22f1a23/LICENSE
-  - https://raw.githubusercontent.com/jackwener/OpenCLI/0e73c3c2c2b45c91e050e1618b20e2aba22f1a23/docs/guide/installation.md
-  - https://raw.githubusercontent.com/jackwener/OpenCLI/0e73c3c2c2b45c91e050e1618b20e2aba22f1a23/docs/developer/architecture.md
-  - https://github.com/jackwener/OpenCLI/releases.atom
+  - https://raw.githubusercontent.com/jackwener/OpenCLI/9bc5f5ca132ec4d4e48d7ee517d4303bf159e8e8/README.md
+  - https://raw.githubusercontent.com/jackwener/OpenCLI/9bc5f5ca132ec4d4e48d7ee517d4303bf159e8e8/LICENSE
+  - https://raw.githubusercontent.com/jackwener/OpenCLI/9bc5f5ca132ec4d4e48d7ee517d4303bf159e8e8/package.json
+  - https://raw.githubusercontent.com/jackwener/OpenCLI/9bc5f5ca132ec4d4e48d7ee517d4303bf159e8e8/docs/guide/installation.md
+  - https://raw.githubusercontent.com/jackwener/OpenCLI/9bc5f5ca132ec4d4e48d7ee517d4303bf159e8e8/docs/developer/architecture.md
+  - https://github.com/jackwener/OpenCLI/releases/tag/v2.0.3

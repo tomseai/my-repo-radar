@@ -2,9 +2,9 @@ schema_version: 2
 repository_id: github:xai-org/grok-build
 research:
   state: complete
-  source_commit: ba76b0a683fa52e4e60685017b85905451be17bc
-  bundle_collected_at: 2026-07-19T20:46:02.292Z
-  researched_at: 2026-07-20T18:11:27.176+02:00
+  source_commit: 2bdd1d6a6369de0e8c68132ea4539e9abd9e14a8
+  bundle_collected_at: 2026-11-22T12:10:40.630Z
+  researched_at: 2026-11-22T12:25:34.834Z
   confidence: medium
 classification:
   primary_category: developer-tools
@@ -28,14 +28,16 @@ project:
     task management, and interactive, scripted, or ACP editor-integrated modes.
   best_for:
     - Developers who prefer a terminal-first Grok coding-agent workflow
-    - Scripted or CI-adjacent agent tasks and editors that support the Agent Client Protocol
+    - Scripted or CI-adjacent agent tasks and editors that support the Agent
+      Client Protocol
 key_features:
   - Full-screen, mouse-interactive terminal UI
   - Codebase-aware file editing and shell-command execution
   - Web search and management of long-running tasks
   - Headless mode for scripting and CI use
   - Editor embedding through the Agent Client Protocol
-  - MCP servers, skills, plugins, hooks, and sandboxing documented in the bundled user guide
+  - MCP servers, skills, plugins, hooks, and sandboxing documented in the
+    bundled user guide
 usage:
   interfaces:
     - CLI
@@ -56,24 +58,31 @@ technology:
 license:
   spdx: Apache-2.0
   name: Apache License 2.0
-  notes: First-party code is Apache-2.0; vendored and third-party code retains its original licenses.
+  notes: First-party code is Apache-2.0; vendored and third-party code retains its
+    original licenses.
 status:
   lifecycle: active
   archived: false
   latest_release: null
   latest_release_at: null
 strengths:
-  - Offers the same coding-agent workflow interactively, headlessly, and through ACP-compatible editors
-  - Keeps codebase operations, terminal execution, and web search in a terminal-focused interface
+  - Offers the same coding-agent workflow interactively, headlessly, and through
+    ACP-compatible editors
+  - Keeps codebase operations, terminal execution, and web search in a
+    terminal-focused interface
   - Official installers are available for macOS, Linux, and Windows
 caveats:
-  - The retained GitHub release feed has no entries, so an exact current released version cannot be established from this research bundle
-  - The public source tree is periodically synced from an internal monorepo and does not accept external pull requests
-  - Source builds require Rust, DotSlash, and protoc; Windows source builds are best-effort and untested in this tree
+  - The retained GitHub release feed has no entries, so an exact current
+    released version cannot be established from this research bundle
+  - The public source tree is periodically synced from an internal monorepo and
+    does not accept external pull requests
+  - Source builds require Rust, DotSlash, and protoc; Windows source builds are
+    best-effort and untested in this tree. The pinned Cargo manifest also
+    references a Git revision for its async-openai dependency.
 sources:
-  - https://raw.githubusercontent.com/xai-org/grok-build/ba76b0a683fa52e4e60685017b85905451be17bc/README.md
-  - https://raw.githubusercontent.com/xai-org/grok-build/ba76b0a683fa52e4e60685017b85905451be17bc/LICENSE
-  - https://raw.githubusercontent.com/xai-org/grok-build/ba76b0a683fa52e4e60685017b85905451be17bc/SECURITY.md
-  - https://raw.githubusercontent.com/xai-org/grok-build/ba76b0a683fa52e4e60685017b85905451be17bc/Cargo.toml
-  - https://raw.githubusercontent.com/xai-org/grok-build/ba76b0a683fa52e4e60685017b85905451be17bc/CONTRIBUTING.md
+  - https://raw.githubusercontent.com/xai-org/grok-build/2bdd1d6a6369de0e8c68132ea4539e9abd9e14a8/README.md
+  - https://raw.githubusercontent.com/xai-org/grok-build/2bdd1d6a6369de0e8c68132ea4539e9abd9e14a8/LICENSE
+  - https://raw.githubusercontent.com/xai-org/grok-build/2bdd1d6a6369de0e8c68132ea4539e9abd9e14a8/SECURITY.md
+  - https://raw.githubusercontent.com/xai-org/grok-build/2bdd1d6a6369de0e8c68132ea4539e9abd9e14a8/Cargo.toml
+  - https://raw.githubusercontent.com/xai-org/grok-build/2bdd1d6a6369de0e8c68132ea4539e9abd9e14a8/CONTRIBUTING.md
   - https://github.com/xai-org/grok-build/releases.atom

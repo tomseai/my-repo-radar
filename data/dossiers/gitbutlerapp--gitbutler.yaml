@@ -2,9 +2,9 @@ schema_version: 2
 repository_id: github:gitbutlerapp/gitbutler
 research:
   state: complete
-  source_commit: 7f74dbb5257b70b6a46f9ac1a820d8d4100d34b0
-  bundle_collected_at: 2026-07-19T20:43:11.035Z
-  researched_at: 2026-07-19T22:13:18.417Z
+  source_commit: 9939b47318d59d91c482d44974d26b186c319d16
+  bundle_collected_at: 2026-11-22T12:09:34.505Z
+  researched_at: 2026-11-22T12:25:07.103Z
   confidence: high
 classification:
   primary_category: developer-tools
@@ -51,12 +51,13 @@ technology:
 license:
   spdx: FSL-1.1-MIT
   name: Functional Source License 1.1 with MIT Future License
-  notes: Competing commercial use is restricted; each version converts to MIT after two years.
+  notes: Competing commercial use is restricted; each version converts to MIT
+    after two years.
 status:
   lifecycle: active
   archived: false
-  latest_release: null
-  latest_release_at: null
+  latest_release: release/0.23.5
+  latest_release_at: 2026-11-20
 strengths:
   - Advanced Git workflows are available through both a GUI and CLI
   - Strong support for commit restructuring, conflicts, and recovery
@@ -65,8 +66,10 @@ caveats:
   - The current license is more restrictive than a permissive open-source license
   - Building the monorepo requires both Rust and JavaScript toolchains
   - Forge and AI features can require external accounts or providers
-  - The cached release feed contains only nightly builds; nightly/0.5.2115 from 2026-07-17 is the newest observed entry, not an established stable project release
 sources:
-  - https://raw.githubusercontent.com/gitbutlerapp/gitbutler/7f74dbb5257b70b6a46f9ac1a820d8d4100d34b0/README.md
-  - https://raw.githubusercontent.com/gitbutlerapp/gitbutler/7f74dbb5257b70b6a46f9ac1a820d8d4100d34b0/LICENSE.md
+  - https://raw.githubusercontent.com/gitbutlerapp/gitbutler/9939b47318d59d91c482d44974d26b186c319d16/README.md
+  - https://raw.githubusercontent.com/gitbutlerapp/gitbutler/9939b47318d59d91c482d44974d26b186c319d16/Cargo.toml
+  - https://raw.githubusercontent.com/gitbutlerapp/gitbutler/9939b47318d59d91c482d44974d26b186c319d16/apps/desktop/package.json
+  - https://raw.githubusercontent.com/gitbutlerapp/gitbutler/9939b47318d59d91c482d44974d26b186c319d16/LICENSE.md
   - https://github.com/gitbutlerapp/gitbutler/releases.atom
+  - https://github.com/gitbutlerapp/gitbutler/releases/tag/release/0.23.5

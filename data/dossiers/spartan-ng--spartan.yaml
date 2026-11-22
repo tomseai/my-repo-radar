@@ -2,9 +2,9 @@ schema_version: 2
 repository_id: github:spartan-ng/spartan
 research:
   state: complete
-  source_commit: e70a17131972a332dd6b24386a1316f22309f54f
-  bundle_collected_at: 2026-07-19T20:45:23.243Z
-  researched_at: 2026-07-20T16:05:00Z
+  source_commit: 0f84d71b1f73e991bb5988b3736a692eda611caa
+  bundle_collected_at: 2026-11-22T12:10:26.377Z
+  researched_at: 2026-11-22T12:24:52.429Z
   confidence: high
 classification:
   primary_category: frontend-and-design
@@ -55,19 +55,19 @@ license:
 status:
   lifecycle: active
   archived: false
-  latest_release: v1.1.1
-  latest_release_at: 2026-07-17
+  latest_release: v1.10.0
+  latest_release_at: "2026-11-20"
 strengths:
   - Separates accessible component behavior from application-owned styling
   - Provides UI primitives, installation tooling, and documented Angular workflows
-  - The current stable release and package versions align at 1.1.1
+  - The current stable release and package versions align at 1.10.0
 caveats:
   - Styled helm components are copied into the consuming project rather than published as an npm package
   - The cached brain package declares Angular 21 through 22 and Tailwind CSS 4 peer-dependency ranges
   - The optional spartan/stack has a broader full-stack setup than the UI-primitives use case
 sources:
-  - https://raw.githubusercontent.com/spartan-ng/spartan/e70a17131972a332dd6b24386a1316f22309f54f/README.md
-  - https://raw.githubusercontent.com/spartan-ng/spartan/e70a17131972a332dd6b24386a1316f22309f54f/LICENSE
-  - https://raw.githubusercontent.com/spartan-ng/spartan/e70a17131972a332dd6b24386a1316f22309f54f/libs/brain/package.json
-  - https://raw.githubusercontent.com/spartan-ng/spartan/e70a17131972a332dd6b24386a1316f22309f54f/libs/mcp/package.json
+  - https://raw.githubusercontent.com/spartan-ng/spartan/0f84d71b1f73e991bb5988b3736a692eda611caa/README.md
+  - https://raw.githubusercontent.com/spartan-ng/spartan/0f84d71b1f73e991bb5988b3736a692eda611caa/LICENSE
+  - https://raw.githubusercontent.com/spartan-ng/spartan/0f84d71b1f73e991bb5988b3736a692eda611caa/libs/brain/package.json
+  - https://raw.githubusercontent.com/spartan-ng/spartan/0f84d71b1f73e991bb5988b3736a692eda611caa/libs/mcp/package.json
   - https://github.com/spartan-ng/spartan/releases.atom

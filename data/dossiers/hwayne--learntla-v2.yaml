@@ -1,0 +1,50 @@
+schema_version: 2
+repository_id: github:hwayne/learntla-v2
+research:
+  state: complete
+  source_commit: 09840bfc2ee9a88cdbedb672be77a6c73942fe16
+  bundle_collected_at: 2026-11-22T11:27:13.178Z
+  researched_at: 2026-11-22T12:00:00Z
+  confidence: high
+classification:
+  primary_category: documentation-and-learning
+  topics: [tutorials, documentation, reference, testing]
+project:
+  name: Learn TLA+
+  kind: documentation
+  summary: A free online guide that teaches TLA+ specifications and model checking so readers can explore the behavior of a software design before implementation.
+  best_for: [Developers learning to model and check system designs]
+key_features:
+  - Linear introduction from basic operators to advanced language concepts
+  - Independent advanced topics and specification examples
+  - Conceptual explanations of concurrency, invariants, and model checking
+  - Glossary and standard-library reference
+usage:
+  interfaces: [website, documentation source]
+  installation: [read online, build from source]
+  setup: low
+technology:
+  languages: [TLA+]
+  notable_components: [Sphinx, TLC]
+license:
+  spdx: CC-BY-4.0
+  name: Creative Commons Attribution 4.0 International
+  notes: Attribution is required.
+status:
+  lifecycle: active
+  archived: false
+  latest_release: null
+  latest_release_at: null
+strengths:
+  - Free, structured learning path with examples and reference material
+  - Explains design-level problems through concrete concurrency examples
+caveats:
+  - The guide describes itself as a work in progress
+  - Model checking is bounded by the chosen model and does not establish correctness for all possible configurations
+  - No GitHub release is present in the retained feed
+sources:
+  - https://raw.githubusercontent.com/hwayne/learntla-v2/09840bfc2ee9a88cdbedb672be77a6c73942fe16/docs/index.rst
+  - https://raw.githubusercontent.com/hwayne/learntla-v2/09840bfc2ee9a88cdbedb672be77a6c73942fe16/LICENSE
+  - https://raw.githubusercontent.com/hwayne/learntla-v2/09840bfc2ee9a88cdbedb672be77a6c73942fe16/docs/intro/conceptual-overview.rst
+  - https://raw.githubusercontent.com/hwayne/learntla-v2/09840bfc2ee9a88cdbedb672be77a6c73942fe16/README.md
+  - https://github.com/hwayne/learntla-v2/releases.atom

@@ -1,0 +1,77 @@
+schema_version: 2
+repository_id: github:maxedapps/agent-skills
+research:
+  state: complete
+  source_commit: 469637126b43f66a8b314251c6240bb78a0335b5
+  bundle_collected_at: 2026-11-22T12:09:49.551Z
+  researched_at: 2026-11-22T12:30:21.524Z
+  confidence: high
+classification:
+  primary_category: ai-and-automation
+  topics:
+    - agent-skills
+    - coding-agents
+    - code-review
+    - task-planning
+    - multi-agent
+    - worktrees
+    - testing
+    - developer-productivity
+project:
+  name: Maxed Apps Agent Skills
+  kind: curated-list
+  summary: >-
+    A collection of nine focused agent skills for planning and implementing
+    changes, reviewing code and tests, using Git worktrees, and producing
+    slides, images, or technical wikis.
+  best_for:
+    - Coding-agent users assembling focused development and documentation
+      workflows
+    - Teams that want architecture decisions, implementation plans, and
+      verification recorded together
+key_features:
+  - Plans changes with an architecture decision record and a companion
+    implementation plan
+  - Reviews changes for defects and unnecessary complexity and maintains
+    behavior-focused tests
+  - Implements plans with independent review and can delegate work into an
+    isolated Git worktree
+  - Includes separate skills for creating agent skills, knowledge bases, slides,
+    and images
+usage:
+  interfaces:
+    - agent skill files
+  installation:
+    - npx skills add maxedapps/agent-skills --list
+    - install individual skills or all available skills
+  setup: low
+technology:
+  languages:
+    - Markdown
+    - JavaScript
+  notable_components:
+    - skills.sh-compatible layout
+    - SKILL.md instructions
+license:
+  spdx: MIT
+  name: MIT License
+  notes: Permissive license requiring preservation of the copyright and license
+    notice.
+status:
+  lifecycle: active
+  archived: false
+  latest_release: null
+  latest_release_at: null
+strengths:
+  - Maintains small, independently installable skill packages
+  - Connects decisions, planning, implementation, and verification through
+    reusable workflows
+caveats:
+  - Some skills require separate tools or service credentials, including
+    agent-browser for UI verification and fal.ai for image generation
+  - Agent harnesses vary in skill discovery and invocation support
+  - The retained GitHub feed contains no versioned releases
+sources:
+  - https://raw.githubusercontent.com/maxedapps/agent-skills/469637126b43f66a8b314251c6240bb78a0335b5/README.md
+  - https://raw.githubusercontent.com/maxedapps/agent-skills/469637126b43f66a8b314251c6240bb78a0335b5/LICENSE
+  - https://github.com/maxedapps/agent-skills/releases.atom

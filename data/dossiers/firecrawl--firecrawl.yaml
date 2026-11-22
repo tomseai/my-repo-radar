@@ -2,9 +2,9 @@ schema_version: 2
 repository_id: github:firecrawl/firecrawl
 research:
   state: complete
-  source_commit: 47f321f1e147d283f9b679311f9396f740d4c30d
-  bundle_collected_at: 2026-07-19T20:42:53.088Z
-  researched_at: 2026-07-20T15:23:49.960Z
+  source_commit: 3487d929360fa3544a18b2cdd92615f4d24ba1a3
+  bundle_collected_at: 2026-11-22T12:09:27.394Z
+  researched_at: 2026-11-22T12:23:23.125Z
   confidence: high
 classification:
   primary_category: backend-and-apis
@@ -20,29 +20,32 @@ classification:
 project:
   name: firecrawl
   kind: service
-  summary: >-
-    An API and SDK platform for web search, scraping, crawling, and browser
-    interaction that returns AI-ready Markdown, structured data, and other content.
+  summary: A web-content toolkit with a local CLI and MCP server, a hosted API, and a
+    separately deployable self-hosted server for extracting and using website
+    content.
   best_for:
-    - Developers supplying current web context to AI applications and agents
-    - Teams that need search, extraction, crawling, and page interaction behind one API
+    - Developers supplying web content to AI applications and agents
+    - Teams choosing between a local parser, hosted web tools, and a self-hosted
+      server
 key_features:
-  - Search the web and retrieve page content from results
-  - Scrape URLs into Markdown, HTML, screenshots, or structured JSON
-  - Crawl a site, map its URLs, or batch-scrape many pages asynchronously
-  - Interact with pages through prompts or actions such as clicking, scrolling, and typing
-  - Run autonomous data-gathering requests through the Agent endpoint
-  - Provide client SDKs for Python, Node.js, Go, Java, Rust, Ruby, .NET, and PHP
+  - Scrape, crawl, map, and batch-scrape websites locally or through hosted APIs
+  - Convert pages to Markdown or structured data and handle JavaScript rendering for
+    supported pages
+  - Expose the local tools through an MCP server and a localhost API
+  - Use Firecrawl Cloud for web search, Alexandria data sources, page interaction,
+    and agent-powered research
 usage:
   interfaces:
     - REST API
     - CLI
     - client SDKs
+    - MCP server
   installation:
     - Firecrawl-hosted service
     - SDK packages
     - Docker Compose self-hosting
     - build from source
+    - Firecrawl Local binary via Cargo
   setup: high
 technology:
   languages:
@@ -58,24 +61,34 @@ technology:
 license:
   spdx: AGPL-3.0-or-later
   name: GNU Affero General Public License v3.0 or later
-  notes: The main project is AGPL-3.0-or-later; the README states that SDKs and some UI components are MIT-licensed, so reuse must be checked by directory.
+  notes: The main project is AGPL-3.0-or-later; the README states that SDKs and some UI
+    components are MIT-licensed, so reuse must be checked by directory.
 status:
   lifecycle: active
   archived: false
-  latest_release: v2.11.117
-  latest_release_at: 2026-07-19
+  latest_release: v2.11.0
+  latest_release_at: 2026-06-19
 strengths:
-  - Covers discovery, extraction, crawling, and interaction through a single API surface
-  - Produces formats intended for LLM and agent consumption, including Markdown and structured data
+  - Covers discovery, extraction, crawling, and interaction through a single API
+    surface
+  - Produces formats intended for LLM and agent consumption, including Markdown and
+    structured data
   - Offers hosted, self-hosted, CLI, and multi-language SDK access paths
 caveats:
-  - The main codebase uses AGPL-3.0-or-later, while SDK and UI licensing varies by directory
-  - Local development requires Node.js, Rust, pnpm, Redis, PostgreSQL, and environment configuration
-  - Hosted-only features may differ from the open-source self-hosted implementation
+  - The main codebase uses AGPL-3.0-or-later, while SDK and UI licensing varies by
+    directory
+  - Full server self-hosting requires queues, databases, and environment
+    configuration; the standalone local tool has a separate, lighter setup
+  - Local scraping and crawling run on the user’s machine; search and Alexandria
+    require Firecrawl Cloud
+  - The release feed mixes automated API image tags with project releases; the
+    documented project tag is v2.11.0
 sources:
-  - https://raw.githubusercontent.com/firecrawl/firecrawl/47f321f1e147d283f9b679311f9396f740d4c30d/README.md
-  - https://raw.githubusercontent.com/firecrawl/firecrawl/47f321f1e147d283f9b679311f9396f740d4c30d/LICENSE
-  - https://raw.githubusercontent.com/firecrawl/firecrawl/47f321f1e147d283f9b679311f9396f740d4c30d/apps/api/package.json
-  - https://raw.githubusercontent.com/firecrawl/firecrawl/47f321f1e147d283f9b679311f9396f740d4c30d/CONTRIBUTING.md
-  - https://raw.githubusercontent.com/firecrawl/firecrawl/47f321f1e147d283f9b679311f9396f740d4c30d/docker-compose.yaml
+  - https://raw.githubusercontent.com/firecrawl/firecrawl/3487d929360fa3544a18b2cdd92615f4d24ba1a3/README.md
+  - https://raw.githubusercontent.com/firecrawl/firecrawl/3487d929360fa3544a18b2cdd92615f4d24ba1a3/LICENSE
+  - https://raw.githubusercontent.com/firecrawl/firecrawl/3487d929360fa3544a18b2cdd92615f4d24ba1a3/apps/api/package.json
+  - https://raw.githubusercontent.com/firecrawl/firecrawl/3487d929360fa3544a18b2cdd92615f4d24ba1a3/CONTRIBUTING.md
+  - https://raw.githubusercontent.com/firecrawl/firecrawl/3487d929360fa3544a18b2cdd92615f4d24ba1a3/docker-compose.yaml
   - https://github.com/firecrawl/firecrawl/releases.atom
+  - https://github.com/firecrawl/firecrawl/releases/tag/v2.11.0
+  - https://raw.githubusercontent.com/firecrawl/firecrawl/3487d929360fa3544a18b2cdd92615f4d24ba1a3/apps/local/Cargo.toml

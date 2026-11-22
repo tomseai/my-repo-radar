@@ -2,9 +2,9 @@ schema_version: 2
 repository_id: github:langchain-ai/langchainjs
 research:
   state: complete
-  source_commit: ee76ea0347fb611153e5ec7d0e70fa405f5293a3
-  bundle_collected_at: 2026-07-19T20:43:44.428Z
-  researched_at: 2026-07-20T17:40:57.199+02:00
+  source_commit: f115c47f6f25032c485103b1548fd47c134f42ac
+  bundle_collected_at: 2026-11-22T12:09:48.957Z
+  researched_at: 2026-11-22T12:29:08.749Z
   confidence: high
 classification:
   primary_category: ai-and-automation
@@ -25,14 +25,19 @@ project:
     tools, retrievers, and third-party integrations across server and browser
     JavaScript runtimes.
   best_for:
-    - TypeScript teams composing LLM applications from providers, tools, and data sources
-    - Projects that need the same framework across Node.js, browser, edge, or serverless runtimes
+    - TypeScript teams composing LLM applications from providers, tools, and
+      data sources
+    - Projects that need the same framework across Node.js, browser, edge, or
+      serverless runtimes
 key_features:
-  - Standard interfaces for agents, chat and embedding models, vector stores, tools, and retrievers
+  - Standard interfaces for agents, chat and embedding models, vector stores,
+    tools, and retrievers
   - Modular integrations for model providers, external systems, and data sources
   - Model interoperability that lets applications swap model implementations
-  - Component-oriented abstractions for rapid prototyping and lower-level customization
-  - Support for Node.js, Cloudflare Workers, Vercel or Next.js, Supabase Edge Functions, browsers, Deno, and Bun
+  - Component-oriented abstractions for rapid prototyping and lower-level
+    customization
+  - Support for Node.js, Cloudflare Workers, Vercel or Next.js, Supabase Edge
+    Functions, browsers, Deno, and Bun
 usage:
   interfaces:
     - TypeScript library API
@@ -55,22 +60,29 @@ license:
   name: MIT License
   notes: >-
     Permissive license allowing use, modification, distribution, and commercial
-    use when the copyright and license notice are retained; supplied without warranty.
+    use when the copyright and license notice are retained; supplied without
+    warranty.
 status:
   lifecycle: active
   archived: false
-  latest_release: '@langchain/core@1.2.3'
-  latest_release_at: 2026-07-14
+  latest_release: 1.6.7
+  latest_release_at: 2026-11-18
 strengths:
-  - Broad, composable provider and data integration surface behind common TypeScript abstractions
+  - Broad, composable provider and data integration surface behind common
+    TypeScript abstractions
   - Supports both server-side and browser-adjacent JavaScript deployment targets
-  - Lets teams begin with components while retaining a path to more customized workflows
+  - Lets teams begin with components while retaining a path to more customized
+    workflows
 caveats:
-  - The framework does not supply an LLM or external-service credentials; the selected integrations determine cost and behavior
-  - Production monitoring, evaluation, and deployment capabilities mentioned upstream include optional LangSmith products
-  - This monorepo publishes independently versioned packages; the selected core release is the latest relevant stable entry, not a repository-wide version
+  - The framework does not supply an LLM or external-service credentials; the
+    selected integrations determine cost and behavior
+  - Production monitoring, evaluation, and deployment capabilities mentioned
+    upstream include optional LangSmith products
+  - The monorepo publishes independently versioned packages. The version here
+    is the primary langchain package on npm.
 sources:
-  - https://raw.githubusercontent.com/langchain-ai/langchainjs/ee76ea0347fb611153e5ec7d0e70fa405f5293a3/README.md
-  - https://raw.githubusercontent.com/langchain-ai/langchainjs/ee76ea0347fb611153e5ec7d0e70fa405f5293a3/LICENSE
-  - https://raw.githubusercontent.com/langchain-ai/langchainjs/ee76ea0347fb611153e5ec7d0e70fa405f5293a3/package.json
+  - https://raw.githubusercontent.com/langchain-ai/langchainjs/f115c47f6f25032c485103b1548fd47c134f42ac/README.md
+  - https://raw.githubusercontent.com/langchain-ai/langchainjs/f115c47f6f25032c485103b1548fd47c134f42ac/LICENSE
+  - https://raw.githubusercontent.com/langchain-ai/langchainjs/f115c47f6f25032c485103b1548fd47c134f42ac/package.json
   - https://github.com/langchain-ai/langchainjs/releases.atom
+  - https://www.npmjs.com/package/langchain/v/1.6.7

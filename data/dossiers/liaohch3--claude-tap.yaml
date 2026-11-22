@@ -2,9 +2,9 @@ schema_version: 2
 repository_id: github:liaohch3/claude-tap
 research:
   state: complete
-  source_commit: 39f96f0dfc99ba6e639202cc99fd8bc67626e1df
-  bundle_collected_at: 2026-07-19T20:43:51.559Z
-  researched_at: 2026-07-20T15:41:35.736Z
+  source_commit: b21d17157b674a0562e0ed08f4c4c607e8e5a56f
+  bundle_collected_at: 2026-11-22T12:09:49.794Z
+  researched_at: 2026-11-22T12:26:57Z
   confidence: high
 classification:
   primary_category: developer-tools
@@ -25,14 +25,17 @@ project:
     request differences.
   best_for:
     - Developers debugging the prompts, tools, and context sent by coding agents
-    - Reviewing or exporting local traces from supported agent CLIs and the Codex App
+    - Reviewing or exporting local traces from supported agent CLIs and the
+      Codex App
 key_features:
   - Reverse and forward proxy modes for supported coding-agent clients
   - Local capture of prompts, messages, tool schemas, tool calls, and token usage
-  - Self-contained HTML trace viewer with search, filtering, and structured request diffs
+  - Self-contained HTML trace viewer with search, filtering, and structured
+    request diffs
   - Live browser viewer that receives trace updates through server-sent events
   - Portable compact-trace export and later HTML rendering
-  - Support for Claude Code, Codex CLI and App, Gemini CLI, OpenCode, Pi, and other listed clients
+  - Support for Claude Code, Codex CLI and App, Gemini CLI, OpenCode, Pi, and
+    other listed clients
 usage:
   interfaces:
     - CLI
@@ -55,18 +58,20 @@ license:
 status:
   lifecycle: active
   archived: false
-  latest_release: v0.1.136
-  latest_release_at: 2026-07-19
+  latest_release: v0.1.146
+  latest_release_at: 2026-10-17
 strengths:
   - Gives direct visibility into the data and context underlying agent behavior
   - Keeps traces and the viewer local rather than requiring a hosted dashboard
   - Supports a wide range of coding-agent clients through one workflow
 caveats:
   - Captured traces can contain sensitive prompts, messages, tools, and results
-  - The tool redacts common authentication headers, but users should review trace handling before sharing exports
+  - The tool redacts common authentication headers, but users should review
+    trace handling before sharing exports
   - Raw SSE and WebSocket event arrays are not retained unless explicitly enabled
 sources:
-  - https://raw.githubusercontent.com/liaohch3/claude-tap/39f96f0dfc99ba6e639202cc99fd8bc67626e1df/README.md
-  - https://raw.githubusercontent.com/liaohch3/claude-tap/39f96f0dfc99ba6e639202cc99fd8bc67626e1df/LICENSE
-  - https://raw.githubusercontent.com/liaohch3/claude-tap/39f96f0dfc99ba6e639202cc99fd8bc67626e1df/pyproject.toml
+  - https://raw.githubusercontent.com/liaohch3/claude-tap/b21d17157b674a0562e0ed08f4c4c607e8e5a56f/README.md
+  - https://raw.githubusercontent.com/liaohch3/claude-tap/b21d17157b674a0562e0ed08f4c4c607e8e5a56f/LICENSE
+  - https://raw.githubusercontent.com/liaohch3/claude-tap/b21d17157b674a0562e0ed08f4c4c607e8e5a56f/pyproject.toml
   - https://github.com/liaohch3/claude-tap/releases.atom
+  - https://github.com/liaohch3/claude-tap/releases/tag/v0.1.146

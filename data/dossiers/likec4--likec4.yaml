@@ -1,0 +1,49 @@
+schema_version: 2
+repository_id: github:likec4/likec4
+research:
+  state: complete
+  source_commit: f3362dac2ba35f36a89df05d22a786fd9aa90706
+  bundle_collected_at: 2026-11-22T11:27:02.069Z
+  researched_at: 2026-11-22T11:28:03Z
+  confidence: high
+classification:
+  primary_category: developer-tools
+  topics: [visualization, documentation, cli, developer-productivity]
+project:
+  name: LikeC4
+  kind: application
+  summary: A modeling language and toolchain for generating software architecture diagrams from a textual model.
+  best_for:
+    - Teams documenting and evolving software architecture as code
+key_features:
+  - Architecture modeling inspired by C4 and Structurizr DSL
+  - Custom element types and notation
+  - Arbitrary nesting levels in architecture models
+  - CLI preview and editor extension
+usage:
+  interfaces: [CLI, editor extension, web playground]
+  installation: [npm package, VS Code extension]
+  setup: moderate
+technology:
+  languages: [TypeScript]
+  notable_components: [Node.js]
+license:
+  spdx: MIT
+  name: MIT License
+  notes: null
+status:
+  lifecycle: active
+  archived: false
+  latest_release: v1.61.0
+  latest_release_at: 2026-11-14
+strengths:
+  - Architecture models and diagrams can be maintained alongside code
+  - Custom notation and nesting support varied architecture models
+caveats:
+  - Teams must learn and maintain a separate modeling language.
+  - The repository is a monorepo; the release shown matches the primary likec4 package.
+sources:
+  - https://raw.githubusercontent.com/likec4/likec4/f3362dac2ba35f36a89df05d22a786fd9aa90706/README.md
+  - https://raw.githubusercontent.com/likec4/likec4/f3362dac2ba35f36a89df05d22a786fd9aa90706/LICENSE
+  - https://raw.githubusercontent.com/likec4/likec4/f3362dac2ba35f36a89df05d22a786fd9aa90706/packages/likec4/package.json
+  - https://github.com/likec4/likec4/releases.atom

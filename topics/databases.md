@@ -2,15 +2,15 @@
 
 # Databases
 
-[Back to the main catalog](../README.md) | **7 repositories**
+[Back to the main catalog](../README.md) | **9 repositories**
 
 ## Primary categories represented
 
-- [AI and Automation](../categories/ai-and-automation.md) (1)
+- [AI and Automation](../categories/ai-and-automation.md) (2)
 - [Data and Databases](../categories/data-and-databases.md) (3)
 - [Developer Tools](../categories/developer-tools.md) (1)
 - [DevOps and Cloud](../categories/devops-and-cloud.md) (1)
-- [Documentation and Learning](../categories/documentation-and-learning.md) (1)
+- [Documentation and Learning](../categories/documentation-and-learning.md) (2)
 
 <a id="repo-babycommando--entity-db"></a>
 
@@ -25,7 +25,7 @@ A JavaScript browser library for persisting vector embeddings in IndexedDB and s
 - **Languages:** JavaScript, WebAssembly
 - **License:** Apache-2.0
 - **Lifecycle:** Unknown
-- **GitHub stars:** 296
+- **GitHub stars:** 295
 
 **Key features**
 
@@ -46,13 +46,34 @@ A self-hosted monitoring application for Valkey and Redis that presents real-tim
 - **Languages:** TypeScript, Python
 - **License:** MIT Expat outside separately licensed paths
 - **Lifecycle:** Active
-- **GitHub stars:** 1,246
+- **GitHub stars:** 1,308
 
 **Key features**
 
   - Monitors Valkey and Redis with real-time views, slowlog analysis, audit trails, and metrics
   - Provides a NestJS/Fastify backend and React/Vite frontend
   - Ships an npx-installable CLI with an interactive connection and storage setup wizard
+
+<a id="repo-convex--convex-backend"></a>
+
+## [Convex](https://github.com/convex/convex-backend)
+
+A reactive database and application backend that combines strongly consistent TypeScript server functions with client libraries for dynamic, live-updating applications.
+
+- **Category:** [Data and Databases](../categories/data-and-databases.md#repo-convex--convex-backend)
+- **Topics:** [Databases](../topics/databases.md#repo-convex--convex-backend) | [Backend Development](../topics/backend-development.md#repo-convex--convex-backend) | [Realtime](../topics/realtime.md#repo-convex--convex-backend) | [Self Hosted](../topics/self-hosted.md#repo-convex--convex-backend) | [Open Source](../topics/open-source.md#repo-convex--convex-backend) | [Deployment](../topics/deployment.md#repo-convex--convex-backend)
+- **Kind:** Service
+- **Best for:** Teams building a reactive web application with TypeScript server logic; Operators who need an available self-hosted Convex backend
+- **Languages:** Rust, TypeScript
+- **License:** FSL-1.1-Apache-2.0
+- **Lifecycle:** Active
+- **GitHub stars:** 12,808
+
+**Key features**
+
+  - Strongly consistent database operations written as TypeScript server functions
+  - Client libraries for dynamic live-updating applications
+  - Self-hosted dashboard and CLI alongside the backend
 
 <a id="repo-dolthub--dolt"></a>
 
@@ -67,7 +88,7 @@ A Go SQL database that versions tables and schema with Git-like cloning, branchi
 - **Languages:** Go
 - **License:** Apache-2.0
 - **Lifecycle:** Active
-- **GitHub stars:** 23,900
+- **GitHub stars:** 24,957
 
 **Key features**
 
@@ -88,7 +109,7 @@ A curated, topic-organized reading list of accessible papers for software engine
 - **Languages:** Markdown, Python
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 6,548
+- **GitHub stars:** 6,636
 
 **Key features**
 
@@ -96,26 +117,26 @@ A curated, topic-organized reading list of accessible papers for software engine
   - Systems sections for concurrency, operating systems, databases, networking, distributed systems, and operations
   - Additional coverage of cryptography, human-computer interaction, search, machine learning, and decentralized systems
 
-<a id="repo-get-convex--convex-backend"></a>
+<a id="repo-liquidslr--system-design-notes"></a>
 
-## [Convex](https://github.com/get-convex/convex-backend)
+## [System Design Interview Notes](https://github.com/liquidslr/system-design-notes)
 
-A reactive database and application backend that combines strongly consistent TypeScript server functions with client libraries for dynamic, live-updating applications.
+Work-in-progress chapter notes and architecture diagrams based on both volumes of System Design Interview – An Insider's Guide, covering system design fundamentals and 25 concrete distributed-system design exercises.
 
-- **Category:** [Data and Databases](../categories/data-and-databases.md#repo-get-convex--convex-backend)
-- **Topics:** [Databases](../topics/databases.md#repo-get-convex--convex-backend) | [Backend Development](../topics/backend-development.md#repo-get-convex--convex-backend) | [Realtime](../topics/realtime.md#repo-get-convex--convex-backend) | [Self Hosted](../topics/self-hosted.md#repo-get-convex--convex-backend) | [Open Source](../topics/open-source.md#repo-get-convex--convex-backend) | [Deployment](../topics/deployment.md#repo-get-convex--convex-backend)
-- **Kind:** Service
-- **Best for:** Teams building a reactive web application with TypeScript server logic; Operators who need an available self-hosted Convex backend
-- **Languages:** Rust, TypeScript
-- **License:** FSL-1.1-Apache-2.0
+- **Category:** [Documentation and Learning](../categories/documentation-and-learning.md#repo-liquidslr--system-design-notes)
+- **Topics:** [Documentation](../topics/documentation.md#repo-liquidslr--system-design-notes) | [Tutorials](../topics/tutorials.md#repo-liquidslr--system-design-notes) | [Reference](../topics/reference.md#repo-liquidslr--system-design-notes) | [Backend Development](../topics/backend-development.md#repo-liquidslr--system-design-notes) | [Databases](../topics/databases.md#repo-liquidslr--system-design-notes) | [Performance](../topics/performance.md#repo-liquidslr--system-design-notes)
+- **Kind:** Documentation
+- **Best for:** Readers reviewing system-design interview concepts alongside the source books; Engineers seeking a visual index of common scalability patterns and system-design case studies
+- **Languages:** Markdown
+- **License:** No repository license grant
 - **Lifecycle:** Active
-- **GitHub stars:** 12,203
+- **GitHub stars:** 29,025
 
 **Key features**
 
-  - Strongly consistent database operations written as TypeScript server functions
-  - Client libraries for dynamic live-updating applications
-  - Self-hosted dashboard and CLI alongside the backend
+  - Twenty-eight chapters covering scaling, estimation, an interview framework, and system-design case studies
+  - Foundational material on load balancing, caching, replication, message queues, consistent hashing, and distributed data
+  - Case studies for chat, search autocomplete, video, file sync, maps, email, object storage, payments, wallets, and exchanges
 
 <a id="repo-mempalace--mempalace"></a>
 
@@ -127,16 +148,37 @@ A local-first, Python-based memory tool that mines project files and AI conversa
 - **Topics:** [AI Agents](../topics/ai-agents.md#repo-mempalace--mempalace) | [Agent Memory](../topics/agent-memory.md#repo-mempalace--mempalace) | [MCP](../topics/mcp.md#repo-mempalace--mempalace) | [CLI](../topics/cli.md#repo-mempalace--mempalace) | [Local First](../topics/local-first.md#repo-mempalace--mempalace) | [Self Hosted](../topics/self-hosted.md#repo-mempalace--mempalace) | [Databases](../topics/databases.md#repo-mempalace--mempalace)
 - **Kind:** Application
 - **Best for:** Retaining and retrieving local coding-agent or conversation context without a required cloud API; Developers who want searchable project and transcript memory with scoped storage boundaries
-- **Languages:** Python
+- **Languages:** Python, Rust
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 57,477
+- **GitHub stars:** 60,655
 
 **Key features**
 
   - Verbatim conversation and file storage without summary or paraphrase during core ingestion
   - CLI commands to mine sources, search memories, and load context for a new session
   - MCP server with tools for memory, graph, navigation, drawer, and agent-diary operations
+
+<a id="repo-neondatabase--electric"></a>
+
+## [Electric](https://github.com/neondatabase/electric)
+
+A monorepo for an agent platform built on Electric's Postgres read-path sync engine, combining agent runtime and application packages with partial replication, HTTP data delivery, and client integrations.
+
+- **Category:** [AI and Automation](../categories/ai-and-automation.md#repo-neondatabase--electric)
+- **Topics:** [AI Agents](../topics/ai-agents.md#repo-neondatabase--electric) | [Agent Frameworks](../topics/agent-frameworks.md#repo-neondatabase--electric) | [MCP](../topics/mcp.md#repo-neondatabase--electric) | [Sandboxing](../topics/sandboxing.md#repo-neondatabase--electric) | [Databases](../topics/databases.md#repo-neondatabase--electric) | [Realtime](../topics/realtime.md#repo-neondatabase--electric)
+- **Kind:** Monorepo
+- **Best for:** Teams building stateful agent applications around live Postgres data; Applications that need selective real-time replication from Postgres to clients
+- **Languages:** TypeScript, Elixir
+- **License:** Apache-2.0
+- **Lifecycle:** Active
+- **GitHub stars:** 10,435
+
+**Key features**
+
+  - Agent runtime, server, desktop, mobile, and MCP-oriented packages in the commit-pinned monorepo
+  - Read-path synchronization from Postgres with partial replication through Shapes
+  - Low-level HTTP API designed to work with CDNs for scalable data delivery
 
 <a id="repo-t3-oss--create-t3-app"></a>
 
@@ -151,7 +193,7 @@ An interactive CLI that scaffolds modular, type-safe full-stack Next.js applicat
 - **Languages:** TypeScript
 - **License:** MIT
 - **Lifecycle:** Maintenance
-- **GitHub stars:** 29,045
+- **GitHub stars:** 29,248
 
 **Key features**
 

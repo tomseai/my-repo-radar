@@ -2,9 +2,9 @@ schema_version: 2
 repository_id: github:nimbalyst/nimbalyst
 research:
   state: complete
-  source_commit: f9deb67e118cd7e13d49e18541d7942bf5bc05b6
-  bundle_collected_at: 2026-07-19T20:44:26.761Z
-  researched_at: 2026-07-20T17:52:17.5282390+02:00
+  source_commit: 813acfb4ce14e3432c263e2173c23c4a130f7441
+  bundle_collected_at: 2026-11-22T12:10:03.957Z
+  researched_at: 2026-11-22T12:25:58.729Z
   confidence: high
 classification:
   primary_category: developer-tools
@@ -23,13 +23,19 @@ project:
     files, sessions, tasks, and Git worktrees, with a companion mobile app.
   best_for:
     - Developers who want to supervise several coding-agent sessions visually
-    - Teams that need shared task, document, and session context around agent work
+    - Teams that need shared task, document, and session context around agent
+      work
 key_features:
-  - Provides WYSIWYG editors and red/green approval flows for agent-authored file changes
-  - Supports Markdown, mockups, Mermaid, Excalidraw, CSV, data models, and Monaco code editing
-  - Organizes parallel sessions with file links, search and resume, and a Kanban board
-  - Includes Git-state management, AI commits, an embedded terminal, and Git worktrees
-  - Supplies an extension system plus a mobile dashboard for monitoring and replying to sessions
+  - Provides WYSIWYG editors and red/green approval flows for agent-authored
+    file changes
+  - Supports Markdown, mockups, Mermaid, Excalidraw, CSV, data models, and
+    Monaco code editing
+  - Organizes parallel sessions with file links, search and resume, and a Kanban
+    board
+  - Includes Git-state management, AI commits, an embedded terminal, and Git
+    worktrees
+  - Supplies an extension system plus a mobile dashboard for monitoring and
+    replying to sessions
 usage:
   interfaces:
     - desktop GUI
@@ -37,7 +43,7 @@ usage:
     - embedded terminal
   installation:
     - macOS, Windows, or Linux release download
-    - source build with npm workspaces and Electron
+    - source build with pnpm workspaces and Electron
   setup: moderate
 technology:
   languages:
@@ -54,25 +60,33 @@ license:
   spdx: MIT
   name: MIT License
   notes: >-
-    Permissive license; copies or substantial portions must retain the
-    copyright and permission notice, and the software is provided without warranty.
+    Permissive license; copies or substantial portions must retain the copyright
+    and permission notice, and the software is provided without warranty.
 status:
   lifecycle: active
   archived: false
-  latest_release: v0.69.1
-  latest_release_at: 2026-07-15
+  latest_release: v0.83.0
+  latest_release_at: 2026-11-10
 strengths:
-  - Makes coding-agent output reviewable in the same visual workspace used for documents and tasks
-  - Combines parallel-session management, Kanban tracking, Git worktrees, and an embedded terminal
+  - Makes coding-agent output reviewable in the same visual workspace used for
+    documents and tasks
+  - Combines parallel-session management, Kanban tracking, Git worktrees, and an
+    embedded terminal
   - Provides official desktop downloads for macOS, Windows, and Linux
 caveats:
   - OpenCode and Copilot support are marked alpha in the retained README
-  - Collaboration sync is handled by a separate project and service rather than this repository
-  - The app sends anonymous PostHog usage analytics by default, although the README documents an opt-out setting
-  - Source builds require npm 7 or newer and Electron development tooling
+  - Collaboration sync is handled by a separate project and service rather than
+    this repository
+  - The app sends anonymous PostHog usage analytics by default, although the
+    README documents an opt-out setting
+  - Source builds require Node 24, pnpm, and Electron development tooling
+  - Current macOS releases require macOS 13 or later; macOS 12 users remain on 0.84.2
+  - GitHub marks v0.84.3 as a prerelease; v0.83.0 remains the verified stable release.
 sources:
-  - https://raw.githubusercontent.com/nimbalyst/nimbalyst/f9deb67e118cd7e13d49e18541d7942bf5bc05b6/README.md
-  - https://raw.githubusercontent.com/nimbalyst/nimbalyst/f9deb67e118cd7e13d49e18541d7942bf5bc05b6/LICENSE
-  - https://raw.githubusercontent.com/nimbalyst/nimbalyst/f9deb67e118cd7e13d49e18541d7942bf5bc05b6/package.json
-  - https://raw.githubusercontent.com/nimbalyst/nimbalyst/f9deb67e118cd7e13d49e18541d7942bf5bc05b6/packages/electron/package.json
+  - https://raw.githubusercontent.com/nimbalyst/nimbalyst/813acfb4ce14e3432c263e2173c23c4a130f7441/README.md
+  - https://raw.githubusercontent.com/nimbalyst/nimbalyst/813acfb4ce14e3432c263e2173c23c4a130f7441/LICENSE
+  - https://raw.githubusercontent.com/nimbalyst/nimbalyst/813acfb4ce14e3432c263e2173c23c4a130f7441/package.json
+  - https://raw.githubusercontent.com/nimbalyst/nimbalyst/813acfb4ce14e3432c263e2173c23c4a130f7441/packages/electron/package.json
   - https://github.com/nimbalyst/nimbalyst/releases.atom
+  - https://github.com/nimbalyst/nimbalyst/releases/tag/v0.84.3
+  - https://github.com/nimbalyst/nimbalyst/releases/tag/v0.83.0

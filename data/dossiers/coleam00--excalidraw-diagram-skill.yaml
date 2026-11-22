@@ -1,0 +1,49 @@
+schema_version: 2
+repository_id: github:coleam00/excalidraw-diagram-skill
+research:
+  state: complete
+  source_commit: 8646fcc9f74f38539c6cdb4c969723336a96ddcd
+  bundle_collected_at: 2026-11-22T11:26:56.052Z
+  researched_at: 2026-11-22T11:28:03Z
+  confidence: medium
+classification:
+  primary_category: ai-and-automation
+  topics: [coding-agents, agent-skills, visualization, developer-productivity]
+project:
+  name: Excalidraw Diagram Skill
+  kind: plugin
+  summary: A coding-agent skill for generating editable Excalidraw diagrams from natural-language descriptions.
+  best_for:
+    - Coding-agent users creating and visually checking technical diagrams
+key_features:
+  - Concept-driven diagram layouts and Excalidraw JSON templates
+  - Playwright rendering for visual inspection and correction
+  - Customizable color palette
+  - Reference materials for Excalidraw elements and JSON
+usage:
+  interfaces: [coding-agent skill]
+  installation: [copy repository into agent skills directory]
+  setup: moderate
+technology:
+  languages: [Python]
+  notable_components: [Excalidraw, Playwright]
+license:
+  spdx: null
+  name: No license declaration found
+  notes: No license file or license declaration was found in the retained repository tree.
+status:
+  lifecycle: unknown
+  archived: false
+  latest_release: null
+  latest_release_at: null
+strengths:
+  - Combines diagram construction guidance with a visual checking loop
+  - Palette can be adapted separately from the design methodology
+caveats:
+  - Reuse rights are unclear because no license is stated.
+  - Visual rendering requires Python, Playwright, and a Chromium installation.
+  - The retained release feed has no entries.
+sources:
+  - https://raw.githubusercontent.com/coleam00/excalidraw-diagram-skill/8646fcc9f74f38539c6cdb4c969723336a96ddcd/README.md
+  - https://raw.githubusercontent.com/coleam00/excalidraw-diagram-skill/8646fcc9f74f38539c6cdb4c969723336a96ddcd/references/pyproject.toml
+  - https://github.com/coleam00/excalidraw-diagram-skill/releases.atom

@@ -2,9 +2,9 @@ schema_version: 2
 repository_id: github:getpaseo/paseo
 research:
   state: complete
-  source_commit: 3d86c738ff70a9815cdd86c5602c9a5c420df619
-  bundle_collected_at: 2026-07-19T20:43:06.642Z
-  researched_at: 2026-07-20T15:24:18.724Z
+  source_commit: f596e3f7aaeec2854527cdc482273ddd03bfa334
+  bundle_collected_at: 2026-11-22T12:09:34.656Z
+  researched_at: 2026-11-22T12:26:57Z
   confidence: high
 classification:
   primary_category: ai-and-automation
@@ -26,10 +26,13 @@ project:
     A self-hosted, cross-device control surface for running, monitoring, and
     coordinating coding agents on a machine that you operate.
   best_for:
-    - Developers coordinating several coding-agent tasks from desktop, mobile, or terminal
-    - Running supported agent CLIs on a workstation or remote machine under local control
+    - Developers coordinating several coding-agent tasks from desktop, mobile,
+      or terminal
+    - Running supported agent CLIs on a workstation or remote machine under
+      local control
 key_features:
-  - One interface for Claude Code, Codex, Copilot, OpenCode, and Pi
+  - One interface for Claude Code, Codex, Copilot, OpenCode, Pi, Antigravity,
+    and Muse Code
   - Parallel agent execution with live terminal attachment and follow-up prompts
   - Desktop, mobile, web, and CLI clients connected to a local daemon
   - Voice task control and device pairing through a QR code
@@ -61,30 +64,36 @@ technology:
     - Model Context Protocol
 
 license:
-  spdx: AGPL-3.0-only
-  name: GNU Affero General Public License v3.0
-  notes: Running a modified version for users over a network requires offering its corresponding source to those users.
+  spdx: Apache-2.0
+  name: Apache License 2.0
+  notes: Third-party components retain their respective licenses.
 
 status:
   lifecycle: active
   archived: false
-  latest_release: v0.1.110
-  latest_release_at: 2026-07-16
+  latest_release: v0.17.1
+  latest_release_at: 2026-11-21
 
 strengths:
   - Provides a consistent surface across multiple established coding-agent CLIs
   - Keeps agent execution in the operator's development environment
-  - Supports both local desktop use and headless Docker or remote-machine workflows
+  - Supports both local desktop use and headless Docker or remote-machine
+    workflows
 
 caveats:
-  - At least one supported agent CLI and its credentials must be installed separately
-  - The maintainer explicitly describes the project as solo-maintained
+  - At least one supported agent CLI and its credentials must be installed
+    separately
   - Connected clients can control agents running with the daemon user's authority
-  - Direct network exposure requires access restrictions; the documentation recommends a password
+  - Direct network exposure requires access restrictions; the documentation
+    recommends a password
+  - Legacy relay clients lack replay protection; protected mode can be required
+    once all clients have upgraded
+  - Plugins run with access to the daemon machine and connected clients
 
 sources:
-  - https://raw.githubusercontent.com/getpaseo/paseo/3d86c738ff70a9815cdd86c5602c9a5c420df619/README.md
-  - https://raw.githubusercontent.com/getpaseo/paseo/3d86c738ff70a9815cdd86c5602c9a5c420df619/LICENSE
-  - https://raw.githubusercontent.com/getpaseo/paseo/3d86c738ff70a9815cdd86c5602c9a5c420df619/SECURITY.md
-  - https://raw.githubusercontent.com/getpaseo/paseo/3d86c738ff70a9815cdd86c5602c9a5c420df619/package.json
+  - https://raw.githubusercontent.com/getpaseo/paseo/f596e3f7aaeec2854527cdc482273ddd03bfa334/README.md
+  - https://raw.githubusercontent.com/getpaseo/paseo/f596e3f7aaeec2854527cdc482273ddd03bfa334/LICENSE
+  - https://raw.githubusercontent.com/getpaseo/paseo/f596e3f7aaeec2854527cdc482273ddd03bfa334/SECURITY.md
+  - https://raw.githubusercontent.com/getpaseo/paseo/f596e3f7aaeec2854527cdc482273ddd03bfa334/package.json
   - https://github.com/getpaseo/paseo/releases.atom
+  - https://github.com/getpaseo/paseo/releases/tag/v0.17.1

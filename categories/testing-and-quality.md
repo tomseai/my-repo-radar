@@ -2,30 +2,41 @@
 
 # Testing and Quality
 
-[Back to the main catalog](../README.md) | **4 repositories**
+[Back to the main catalog](../README.md) | **11 repositories**
 
 ## Topics in this category
 
 - [Accessibility](../topics/accessibility.md) (2)
 - [Agent Protocols](../topics/agent-protocols.md) (1)
-- [Agent Skills](../topics/agent-skills.md) (1)
-- [AI Agents](../topics/ai-agents.md) (4)
-- [Automation](../topics/automation.md) (2)
-- [CLI](../topics/cli.md) (1)
-- [Documentation](../topics/documentation.md) (1)
-- [Evaluation](../topics/evaluation.md) (1)
+- [Agent Skills](../topics/agent-skills.md) (4)
+- [AI Agents](../topics/ai-agents.md) (5)
+- [Automation](../topics/automation.md) (6)
+- [Browser Automation](../topics/browser-automation.md) (1)
+- [CLI](../topics/cli.md) (4)
+- [Code Review](../topics/code-review.md) (1)
+- [Coding Agents](../topics/coding-agents.md) (1)
+- [Developer Productivity](../topics/developer-productivity.md) (3)
+- [Documentation](../topics/documentation.md) (2)
+- [Evaluation](../topics/evaluation.md) (3)
 - [Frontend Development](../topics/frontend-development.md) (1)
+- [Libraries](../topics/libraries.md) (2)
 - [LLMs](../topics/llms.md) (2)
-- [MCP](../topics/mcp.md) (2)
+- [MCP](../topics/mcp.md) (3)
+- [Mobile Development](../topics/mobile-development.md) (1)
+- [Multi Provider](../topics/multi-provider.md) (1)
 - [Observability](../topics/observability.md) (1)
 - [Open Source](../topics/open-source.md) (1)
 - [Performance](../topics/performance.md) (2)
+- [Policy Enforcement](../topics/policy-enforcement.md) (1)
+- [Reference](../topics/reference.md) (1)
 - [Security](../topics/security.md) (1)
 - [Self Hosted](../topics/self-hosted.md) (1)
-- [Testing](../topics/testing.md) (2)
+- [Testing](../topics/testing.md) (8)
 - [Token Usage](../topics/token-usage.md) (1)
 - [Tracing](../topics/tracing.md) (1)
+- [Visualization](../topics/visualization.md) (1)
 - [Web](../topics/web.md) (2)
+- [Web UI](../topics/web-ui.md) (1)
 
 <a id="repo-addyosmani--web-quality-skills"></a>
 
@@ -40,13 +51,34 @@ A stack-agnostic collection of six agent skills for reviewing and improving web 
 - **Languages:** Shell
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 2,518
+- **GitHub stars:** 3,117
 
 **Key features**
 
   - A full web-quality audit skill that coordinates performance, accessibility, SEO, and best-practice checks
   - Dedicated performance guidance covering rendering, code splitting, images, fonts, caching, and server response
   - Core Web Vitals guidance for LCP, INP, and CLS with documented target thresholds
+
+<a id="repo-antithesishq--bombadil"></a>
+
+## [bombadil](https://github.com/antithesishq/bombadil)
+
+Property-based testing tool that autonomously explores web and terminal interfaces and checks correctness properties.
+
+- **Category:** [Testing and Quality](../categories/testing-and-quality.md#repo-antithesishq--bombadil)
+- **Topics:** [Testing](../topics/testing.md#repo-antithesishq--bombadil) | [Automation](../topics/automation.md#repo-antithesishq--bombadil) | [CLI](../topics/cli.md#repo-antithesishq--bombadil)
+- **Kind:** CLI
+- **Best for:** Developers testing interactive applications for reliability
+- **Languages:** Rust
+- **License:** MIT
+- **Lifecycle:** Active
+- **GitHub stars:** 3,020
+
+**Key features**
+
+  - Automated exploration of web interfaces
+  - Property-based testing of terminal interfaces
+  - Runs locally, in CI, and inside Antithesis
 
 <a id="repo-comet-ml--opik"></a>
 
@@ -61,7 +93,7 @@ An open-source platform for tracing, evaluating, testing, monitoring, and optimi
 - **Languages:** Python, TypeScript, Java
 - **License:** Apache-2.0
 - **Lifecycle:** Active
-- **GitHub stars:** 20,699
+- **GitHub stars:** 23,485
 
 **Key features**
 
@@ -82,7 +114,7 @@ A zero-dependency TypeScript mock server and library for exercising AI applicati
 - **Languages:** TypeScript, Python
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 650
+- **GitHub stars:** 1,031
 
 **Key features**
 
@@ -90,11 +122,137 @@ A zero-dependency TypeScript mock server and library for exercising AI applicati
   - Provides fixture-based record and replay, including approximate replay timing controls
   - Supports a programmatic API, the full-featured aimock CLI, and the legacy llmock compatibility CLI
 
+<a id="repo-dmmulroy--anti-slop"></a>
+
+## [anti-slop](https://github.com/dmmulroy/anti-slop)
+
+An opinionated, source-vendored Oxlint plugin and agent skill that enforces evidence-preserving TypeScript and JavaScript patterns, with an optional Effect-specific rule set.
+
+- **Category:** [Testing and Quality](../categories/testing-and-quality.md#repo-dmmulroy--anti-slop)
+- **Topics:** [Agent Skills](../topics/agent-skills.md#repo-dmmulroy--anti-slop) | [Policy Enforcement](../topics/policy-enforcement.md#repo-dmmulroy--anti-slop) | [Testing](../topics/testing.md#repo-dmmulroy--anti-slop) | [Developer Productivity](../topics/developer-productivity.md#repo-dmmulroy--anti-slop)
+- **Kind:** Plugin
+- **Best for:** TypeScript and JavaScript teams that want strict, locally customizable lint policy; Coding-agent workflows that can install and maintain vendored Oxlint rules
+- **Languages:** TypeScript, JavaScript
+- **License:** MIT
+- **Lifecycle:** Maintenance
+- **GitHub stars:** 6,257
+
+**Key features**
+
+  - Generic lint rules covering type evidence, runtime narrowing, dictionaries, mocks, assertions, performance, and spacing
+  - Five opt-in Effect rules for tagged values, matching, error handling, and service construction boundaries
+  - Agent skill for initial installation and customization-preserving updates with provenance tracking
+
+<a id="repo-e2e-inc--e2e"></a>
+
+## [e2e](https://github.com/e2e-inc/e2e)
+
+An end-to-end testing framework for web and mobile apps combining natural-language agent actions with conventional locators and assertions.
+
+- **Category:** [Testing and Quality](../categories/testing-and-quality.md#repo-e2e-inc--e2e)
+- **Topics:** [Testing](../topics/testing.md#repo-e2e-inc--e2e) | [Automation](../topics/automation.md#repo-e2e-inc--e2e) | [AI Agents](../topics/ai-agents.md#repo-e2e-inc--e2e) | [Browser Automation](../topics/browser-automation.md#repo-e2e-inc--e2e) | [MCP](../topics/mcp.md#repo-e2e-inc--e2e) | [Mobile Development](../topics/mobile-development.md#repo-e2e-inc--e2e)
+- **Kind:** Framework
+- **Best for:** Teams automating application journeys across browsers and mobile devices
+- **Languages:** TypeScript
+- **License:** Apache-2.0
+- **Lifecycle:** Active
+- **GitHub stars:** 14,113
+
+**Key features**
+
+  - Agent-driven actions and assertions alongside deterministic test assertions
+  - Replays verified agent actions without model calls until the app changes
+  - Browser engines via Playwright and mobile simulators and emulators
+
+<a id="repo-hegeldev--hegel-typescript"></a>
+
+## [Hegel for TypeScript](https://github.com/hegeldev/hegel-typescript)
+
+The former home of Hegel for TypeScript, a property-based testing library now maintained in the Hegel monorepo.
+
+- **Category:** [Testing and Quality](../categories/testing-and-quality.md#repo-hegeldev--hegel-typescript)
+- **Topics:** [Testing](../topics/testing.md#repo-hegeldev--hegel-typescript) | [Libraries](../topics/libraries.md#repo-hegeldev--hegel-typescript) | [Reference](../topics/reference.md#repo-hegeldev--hegel-typescript)
+- **Kind:** Documentation
+- **Best for:** Finding the TypeScript library for testing properties with generated inputs
+- **Languages:** TypeScript
+- **License:** MIT
+- **Lifecycle:** Deprecated
+- **GitHub stars:** 79
+
+**Key features**
+
+  - The library supplies composable generators for test inputs
+  - Failing examples are shrunk and can be replayed
+  - Stateful tests can exercise generated operation sequences
+
+<a id="repo-hyhmrright--brooks-lint"></a>
+
+## [brooks-lint](https://github.com/hyhmrright/brooks-lint)
+
+A portable agent-skill and Claude Code plugin for reviewing production code, architecture, technical debt, and tests against risk dimensions synthesized from twelve software-engineering books.
+
+- **Category:** [Testing and Quality](../categories/testing-and-quality.md#repo-hyhmrright--brooks-lint)
+- **Topics:** [Coding Agents](../topics/coding-agents.md#repo-hyhmrright--brooks-lint) | [Agent Skills](../topics/agent-skills.md#repo-hyhmrright--brooks-lint) | [Code Review](../topics/code-review.md#repo-hyhmrright--brooks-lint) | [Testing](../topics/testing.md#repo-hyhmrright--brooks-lint) | [Evaluation](../topics/evaluation.md#repo-hyhmrright--brooks-lint) | [Visualization](../topics/visualization.md#repo-hyhmrright--brooks-lint) | [Documentation](../topics/documentation.md#repo-hyhmrright--brooks-lint) | [Automation](../topics/automation.md#repo-hyhmrright--brooks-lint) | [Developer Productivity](../topics/developer-productivity.md#repo-hyhmrright--brooks-lint)
+- **Kind:** Plugin
+- **Best for:** Developers who want structured AI-assisted code and architecture reviews; Teams auditing technical debt and test quality across several agent platforms
+- **Languages:** JavaScript, Markdown
+- **License:** MIT
+- **Lifecycle:** Active
+- **GitHub stars:** 1,585
+
+**Key features**
+
+  - Produces symptom, source, consequence, and remedy chains with book citations and severity
+  - Covers production-code decay, test-suite decay, architecture, debt, health, and sweep modes
+  - Generates Mermaid dependency graphs, health scores, SARIF output, and CI gates
+
+<a id="repo-mgechev--skillgrade"></a>
+
+## [skillgrade](https://github.com/mgechev/skillgrade)
+
+A test and evaluation runner for agent skills that checks whether different agents discover and use SKILL.md instructions with deterministic or model-based graders.
+
+- **Category:** [Testing and Quality](../categories/testing-and-quality.md#repo-mgechev--skillgrade)
+- **Topics:** [Agent Skills](../topics/agent-skills.md#repo-mgechev--skillgrade) | [Evaluation](../topics/evaluation.md#repo-mgechev--skillgrade) | [Testing](../topics/testing.md#repo-mgechev--skillgrade) | [Multi Provider](../topics/multi-provider.md#repo-mgechev--skillgrade) | [CLI](../topics/cli.md#repo-mgechev--skillgrade) | [Web UI](../topics/web-ui.md#repo-mgechev--skillgrade) | [Automation](../topics/automation.md#repo-mgechev--skillgrade)
+- **Kind:** CLI
+- **Best for:** Skill authors validating behavior across several agent harnesses and models; Teams adding repeatable skill regression checks to continuous integration
+- **Languages:** TypeScript
+- **License:** MIT
+- **Lifecycle:** Active
+- **GitHub stars:** 737
+
+**Key features**
+
+  - Runs skill scenarios against Gemini, Claude, Codex, ACP, OpenCode, or custom commands
+  - Supports deterministic checks and LLM rubric graders
+  - Repeats trials for smoke, reliability, and regression testing
+
+<a id="repo-moznion--cccc"></a>
+
+## [cccc](https://github.com/moznion/cccc)
+
+A Rust CLI and library for measuring cognitive and cyclomatic complexity across mixed-language source trees.
+
+- **Category:** [Testing and Quality](../categories/testing-and-quality.md#repo-moznion--cccc)
+- **Topics:** [CLI](../topics/cli.md#repo-moznion--cccc) | [Libraries](../topics/libraries.md#repo-moznion--cccc) | [Developer Productivity](../topics/developer-productivity.md#repo-moznion--cccc)
+- **Kind:** CLI
+- **Best for:** Developers reviewing complexity hotspots or enforcing thresholds in CI
+- **Languages:** Rust
+- **License:** MIT
+- **Lifecycle:** Active
+- **GitHub stars:** 614
+
+**Key features**
+
+  - Calculates cognitive and cyclomatic complexity for many programming languages
+  - Routes source files by extension to language-specific parsers
+  - Outputs JSON, tables, or simple per-function lines
+
 <a id="repo-thedaviddias--front-end-checklist"></a>
 
 ## [Front-End Checklist](https://github.com/thedaviddias/Front-End-Checklist)
 
-A front-end quality system containing 385 prioritized rules across eleven categories, delivered as a browsable website, a README checklist, reusable skills, and hosted or local MCP tooling for review and audit workflows.
+A front-end quality system containing 386 prioritized rules across eleven categories, delivered as a browsable website, a README checklist, reusable skills, and hosted or local MCP tooling for review and audit workflows.
 
 - **Category:** [Testing and Quality](../categories/testing-and-quality.md#repo-thedaviddias--front-end-checklist)
 - **Topics:** [Web](../topics/web.md#repo-thedaviddias--front-end-checklist) | [Frontend Development](../topics/frontend-development.md#repo-thedaviddias--front-end-checklist) | [Accessibility](../topics/accessibility.md#repo-thedaviddias--front-end-checklist) | [Security](../topics/security.md#repo-thedaviddias--front-end-checklist) | [Testing](../topics/testing.md#repo-thedaviddias--front-end-checklist) | [Performance](../topics/performance.md#repo-thedaviddias--front-end-checklist) | [MCP](../topics/mcp.md#repo-thedaviddias--front-end-checklist) | [AI Agents](../topics/ai-agents.md#repo-thedaviddias--front-end-checklist) | [Documentation](../topics/documentation.md#repo-thedaviddias--front-end-checklist)
@@ -103,10 +261,10 @@ A front-end quality system containing 385 prioritized rules across eleven catego
 - **Languages:** TypeScript, MDX
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 73,256
+- **GitHub stars:** 74,793
 
 **Key features**
 
-  - 385 English rules organized into eleven active front-end quality categories
+  - 386 English rules organized into eleven active front-end quality categories
   - Priority labels for critical, high, medium, and low-impact findings
   - Hosted MCP server with tools to review code, audit public URLs, search rules, and retrieve workflows

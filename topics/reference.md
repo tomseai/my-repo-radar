@@ -2,12 +2,13 @@
 
 # Reference
 
-[Back to the main catalog](../README.md) | **37 repositories**
+[Back to the main catalog](../README.md) | **41 repositories**
 
 ## Primary categories represented
 
-- [Documentation and Learning](../categories/documentation-and-learning.md) (36)
+- [Documentation and Learning](../categories/documentation-and-learning.md) (39)
 - [Frontend and Design](../categories/frontend-and-design.md) (1)
+- [Testing and Quality](../categories/testing-and-quality.md) (1)
 
 <a id="repo-ai-collection--ai-collection"></a>
 
@@ -22,34 +23,13 @@ A large, hand-picked Markdown directory of generative-AI applications, organized
 - **Languages:** Markdown, HTML
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 9,071
+- **GitHub stars:** 9,289
 
 **Key features**
 
   - Categorized index covering agents, agentic coding, coding assistants, chatbots, automation, and many non-development uses
   - Recently added section alongside a category index and individual application entries
   - Links to an associated AI Collection website for application details and pricing information
-
-<a id="repo-ai-for-developers--awesome-vibe-coding"></a>
-
-## [Awesome Vibe Coding](https://github.com/ai-for-developers/awesome-vibe-coding)
-
-A hand-picked directory of tools and references for AI-assisted software development through prompting, iteration, and exploration, spanning builders, IDEs, agents, plugins, command-line tools, and reading.
-
-- **Category:** [Documentation and Learning](../categories/documentation-and-learning.md#repo-ai-for-developers--awesome-vibe-coding)
-- **Topics:** [Curated Lists](../topics/curated-lists.md#repo-ai-for-developers--awesome-vibe-coding) | [Coding Agents](../topics/coding-agents.md#repo-ai-for-developers--awesome-vibe-coding) | [Code Generation](../topics/code-generation.md#repo-ai-for-developers--awesome-vibe-coding) | [Prompt Engineering](../topics/prompt-engineering.md#repo-ai-for-developers--awesome-vibe-coding) | [Developer Productivity](../topics/developer-productivity.md#repo-ai-for-developers--awesome-vibe-coding) | [Reference](../topics/reference.md#repo-ai-for-developers--awesome-vibe-coding)
-- **Kind:** Curated List
-- **Best for:** Comparing categories of AI-assisted development tools before choosing one; Finding articles, task-management tools, and documentation for prompt-driven development workflows
-- **Languages:** Markdown
-- **License:** CC0-1.0
-- **Lifecycle:** Active
-- **GitHub stars:** 788
-
-**Key features**
-
-  - Separate sections for web builders, IDEs, mobile tools, extensions, local apps, and command-line tools
-  - Listings for agentic task management, monitoring and cost tracking, project documentation, and articles
-  - Direct official-site or repository links with concise descriptions for each resource
 
 <a id="repo-alirezadir--agentic-ai-systems"></a>
 
@@ -64,7 +44,7 @@ A curated, hands-on knowledge base for learning how to design and build producti
 - **Languages:** Python
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 398
+- **GitHub stars:** 507
 
 **Key features**
 
@@ -85,7 +65,7 @@ A collection of copyable code snippets, notebooks, and guides for building with 
 - **Languages:** Python, Jupyter Notebook
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 49,160
+- **GitHub stars:** 55,016
 
 **Key features**
 
@@ -106,7 +86,7 @@ A repository-organized reference collection of extracted and published system pr
 - **Languages:** Markdown
 - **License:** CC0-1.0
 - **Lifecycle:** Active
-- **GitHub stars:** 59,037
+- **GitHub stars:** 72,369
 
 **Key features**
 
@@ -127,13 +107,34 @@ A learning-resource collection for low-level and object-oriented design, combini
 - **Languages:** Java, JavaScript, Go, Rust, TypeScript
 - **License:** GPL-3.0
 - **Lifecycle:** Active
-- **GitHub stars:** 25,455
+- **GitHub stars:** 28,211
 
 **Key features**
 
   - Linked coverage of OOP fundamentals, class relationships, and DRY, YAGNI, KISS, and SOLID principles
   - Creational, structural, and behavioral design-pattern references
   - UML references plus class diagrams for many interview-style systems
+
+<a id="repo-awesome-vibe-coding--awesome-vibe-coding"></a>
+
+## [Awesome Vibe Coding](https://github.com/awesome-vibe-coding/awesome-vibe-coding)
+
+A hand-picked directory of tools and references for AI-assisted software development, spanning builders, editors, agents, plugins, CLI tools, and reading.
+
+- **Category:** [Documentation and Learning](../categories/documentation-and-learning.md#repo-awesome-vibe-coding--awesome-vibe-coding)
+- **Topics:** [Curated Lists](../topics/curated-lists.md#repo-awesome-vibe-coding--awesome-vibe-coding) | [Coding Agents](../topics/coding-agents.md#repo-awesome-vibe-coding--awesome-vibe-coding) | [Code Generation](../topics/code-generation.md#repo-awesome-vibe-coding--awesome-vibe-coding) | [Prompt Engineering](../topics/prompt-engineering.md#repo-awesome-vibe-coding--awesome-vibe-coding) | [Developer Productivity](../topics/developer-productivity.md#repo-awesome-vibe-coding--awesome-vibe-coding) | [Reference](../topics/reference.md#repo-awesome-vibe-coding--awesome-vibe-coding)
+- **Kind:** Curated List
+- **Best for:** Comparing categories of AI-assisted development tools before choosing one; Finding references and supporting tools for prompt-driven development workflows
+- **Languages:** Markdown
+- **License:** CC0-1.0
+- **Lifecycle:** Active
+- **GitHub stars:** 899
+
+**Key features**
+
+  - Groups web builders, IDEs, mobile tools, extensions, local apps, and CLI tools
+  - Includes agentic task management, monitoring, documentation, and articles
+  - Links directly to official sites or repositories with concise descriptions
 
 <a id="repo-best-of-ai--ai-directories"></a>
 
@@ -148,7 +149,7 @@ A Markdown directory of third-party AI-product directories, intended to help AI 
 - **Languages:** Markdown
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 854
+- **GitHub stars:** 902
 
 **Key features**
 
@@ -169,11 +170,11 @@ A community-maintained directory and companion website that organizes AI tools b
 - **Languages:** HTML, Python
 - **License:** Repository-wide license not established
 - **Lifecycle:** Active
-- **GitHub stars:** 664
+- **GitHub stars:** 775
 
 **Key features**
 
-  - A generated Markdown index of AI tools grouped into numerous categories
+  - Generated Markdown indexes in multiple languages, with AI tools grouped by category
   - A leaderboard and category listings that link to individual review pages on the companion website
   - Role-oriented tool collections for professionals such as developers, designers, and marketers
 
@@ -190,7 +191,7 @@ A compact interview-preparation guide that combines a suggested design discussio
 - **Languages:** Markdown
 - **License:** No license file found in retained source bundle
 - **Lifecycle:** Unknown
-- **GitHub stars:** 23,371
+- **GitHub stars:** 23,896
 
 **Key features**
 
@@ -211,7 +212,7 @@ An unofficial research reference that reconstructs TypeScript source files from 
 - **Languages:** TypeScript, TSX, JavaScript
 - **License:** No repository license grant
 - **Lifecycle:** Unknown
-- **GitHub stars:** 9,558
+- **GitHub stars:** 9,759
 
 **Key features**
 
@@ -232,7 +233,7 @@ A Markdown index of external, step-by-step guides for recreating software techno
 - **Languages:** Markdown
 - **License:** CC0-1.0
 - **Lifecycle:** Active
-- **GitHub stars:** 528,829
+- **GitHub stars:** 564,608
 
 **Key features**
 
@@ -253,7 +254,7 @@ A curated collection of in-repository and external Codex skill references, with 
 - **Languages:** Python
 - **License:** Repository-wide license not established
 - **Lifecycle:** Active
-- **GitHub stars:** 15,128
+- **GitHub stars:** 17,387
 
 **Key features**
 
@@ -274,7 +275,7 @@ A conceptual guide and set of examples that compares controlled, declarative, an
 - **Languages:** Unknown
 - **License:** No license terms established
 - **Lifecycle:** Deprecated
-- **GitHub stars:** 780
+- **GitHub stars:** 900
 
 **Key features**
 
@@ -295,13 +296,34 @@ A web-first guide and resource collection for learning prompt engineering with l
 - **Languages:** MDX, JavaScript
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 76,743
+- **GitHub stars:** 80,288
 
 **Key features**
 
   - Guides for prompt basics, model settings, prompt elements, and design tips
   - Technique index covering zero- and few-shot prompting, chain of thought, retrieval, and tool use
   - Application and prompt-hub sections spanning coding, evaluation, extraction, reasoning, and other tasks
+
+<a id="repo-ddd-by-examples--library"></a>
+
+## [DDD by Examples Library](https://github.com/ddd-by-examples/library)
+
+An example public-library application illustrating domain-driven design from discovery through implementation and tests.
+
+- **Category:** [Documentation and Learning](../categories/documentation-and-learning.md#repo-ddd-by-examples--library)
+- **Topics:** [Tutorials](../topics/tutorials.md#repo-ddd-by-examples--library) | [Reference](../topics/reference.md#repo-ddd-by-examples--library) | [Backend Development](../topics/backend-development.md#repo-ddd-by-examples--library) | [Testing](../topics/testing.md#repo-ddd-by-examples--library)
+- **Kind:** Application
+- **Best for:** Developers studying domain modeling and architecture in a concrete Java application
+- **Languages:** Java, Groovy
+- **License:** MIT
+- **Lifecycle:** Unknown
+- **GitHub stars:** 6,071
+
+**Key features**
+
+  - EventStorming and example-mapping documentation
+  - Catalogue and lending bounded contexts in a modular monolith
+  - Hexagonal architecture and separate read and write models in lending
 
 <a id="repo-ddd-crew--ddd-starter-modelling-process"></a>
 
@@ -314,9 +336,9 @@ A beginner-oriented, iterative guide to applying domain-driven design from under
 - **Kind:** Documentation
 - **Best for:** Teams beginning a domain-driven design initiative or migration; Facilitators teaching a practical starting process for domain modelling
 - **Languages:** Unknown
-- **License:** Creative Commons Attribution 4.0 International (README declaration)
+- **License:** Conflicting CC BY-SA 4.0 and CC BY 4.0 declarations
 - **Lifecycle:** Active
-- **GitHub stars:** 5,924
+- **GitHub stars:** 6,098
 
 **Key features**
 
@@ -337,7 +359,7 @@ An open learning reference for scalable-system design and interview preparation,
 - **Languages:** Markdown, Python
 - **License:** CC-BY-4.0
 - **Lifecycle:** Active
-- **GitHub stars:** 358,262
+- **GitHub stars:** 378,777
 
 **Key features**
 
@@ -358,7 +380,7 @@ A Markdown guide and repository collection that examines captured system prompts
 - **Languages:** Markdown
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 6,084
+- **GitHub stars:** 6,300
 
 **Key features**
 
@@ -379,7 +401,7 @@ A curated, topic-organized reading list of accessible papers for software engine
 - **Languages:** Markdown, Python
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 6,548
+- **GitHub stars:** 6,636
 
 **Key features**
 
@@ -400,13 +422,34 @@ A curated directory of research, code, tools, courses, data sources, and trading
 - **Languages:** Markdown
 - **License:** CC0-1.0
 - **Lifecycle:** Active
-- **GitHub stars:** 6,262
+- **GitHub stars:** 6,781
 
 **Key features**
 
   - Sections for AI agents, LLMs, papers, courses, books, and articles
   - Research and strategy listings for time series, portfolio management, high-frequency trading, and arbitrage
   - Links to traditional-market and cryptocurrency data sources
+
+<a id="repo-hegeldev--hegel-typescript"></a>
+
+## [Hegel for TypeScript](https://github.com/hegeldev/hegel-typescript)
+
+The former home of Hegel for TypeScript, a property-based testing library now maintained in the Hegel monorepo.
+
+- **Category:** [Testing and Quality](../categories/testing-and-quality.md#repo-hegeldev--hegel-typescript)
+- **Topics:** [Testing](../topics/testing.md#repo-hegeldev--hegel-typescript) | [Libraries](../topics/libraries.md#repo-hegeldev--hegel-typescript) | [Reference](../topics/reference.md#repo-hegeldev--hegel-typescript)
+- **Kind:** Documentation
+- **Best for:** Finding the TypeScript library for testing properties with generated inputs
+- **Languages:** TypeScript
+- **License:** MIT
+- **Lifecycle:** Deprecated
+- **GitHub stars:** 79
+
+**Key features**
+
+  - The library supplies composable generators for test inputs
+  - Failing examples are shrunk and can be replayed
+  - Stateful tests can exercise generated operation sequences
 
 <a id="repo-humanlayer--12-factor-agents"></a>
 
@@ -421,13 +464,34 @@ A public principles guide for building production-oriented LLM applications from
 - **Languages:** TypeScript, Python
 - **License:** Apache-2.0 AND CC-BY-SA-4.0
 - **Lifecycle:** Unknown
-- **GitHub stars:** 24,512
+- **GitHub stars:** 27,368
 
 **Key features**
 
   - Twelve linked factors spanning natural-language tool calls through stateless reducers
   - Guidance for owning prompts and the context window
   - Recommendations for structured tool outputs and human contact through tools
+
+<a id="repo-hwayne--learntla-v2"></a>
+
+## [Learn TLA+](https://github.com/hwayne/learntla-v2)
+
+A free online guide that teaches TLA+ specifications and model checking so readers can explore the behavior of a software design before implementation.
+
+- **Category:** [Documentation and Learning](../categories/documentation-and-learning.md#repo-hwayne--learntla-v2)
+- **Topics:** [Tutorials](../topics/tutorials.md#repo-hwayne--learntla-v2) | [Documentation](../topics/documentation.md#repo-hwayne--learntla-v2) | [Reference](../topics/reference.md#repo-hwayne--learntla-v2) | [Testing](../topics/testing.md#repo-hwayne--learntla-v2)
+- **Kind:** Documentation
+- **Best for:** Developers learning to model and check system designs
+- **Languages:** TLA+
+- **License:** CC-BY-4.0
+- **Lifecycle:** Active
+- **GitHub stars:** 281
+
+**Key features**
+
+  - Linear introduction from basic operators to advanced language concepts
+  - Independent advanced topics and specification examples
+  - Conceptual explanations of concurrency, invariants, and model checking
 
 <a id="repo-ikaijua--awesome-aitools"></a>
 
@@ -440,15 +504,15 @@ A bilingual Markdown directory of AI tools and resources, organized across chatb
 - **Kind:** Curated List
 - **Best for:** Finding a broad starting set of AI products, projects, and resources; Browsing AI-agent and AI-coding entries alongside topic-specific guides
 - **Languages:** Unknown
-- **License:** No license detected
+- **License:** CC-BY-4.0
 - **Lifecycle:** Active
-- **GitHub stars:** 6,093
+- **GitHub stars:** 6,374
 
 **Key features**
 
   - Groups entries into many topic sections, including AI chatbots, open-source LLMs, AI agents, agent skills, and AI coding
   - Provides English and Chinese top-level READMEs
-  - Links selected agent and tool entries to dedicated Markdown introduction pages
+  - Includes a maintained changelog that records additions, removals, renames, and category changes
 
 <a id="repo-innowhyte--gen-ai-patterns"></a>
 
@@ -484,7 +548,7 @@ A Markdown record of discussions between John Ousterhout and Robert C. Martin, h
 - **Languages:** Markdown
 - **License:** No license file or SPDX identifier found in the retained source bundle
 - **Lifecycle:** Unknown
-- **GitHub stars:** 1,765
+- **GitHub stars:** 2,012
 
 **Key features**
 
@@ -505,7 +569,7 @@ A curated reference directory for the LangChain ecosystem, covering the core fra
 - **Languages:** Unknown
 - **License:** CC0-1.0
 - **Lifecycle:** Active
-- **GitHub stars:** 9,461
+- **GitHub stars:** 9,601
 
 **Key features**
 
@@ -526,13 +590,34 @@ The Hugo source repository for staffeng.com, a collection of stories about reach
 - **Languages:** HTML, Markdown
 - **License:** No license identified
 - **Lifecycle:** Unknown
-- **GitHub stars:** 255
+- **GitHub stars:** 258
 
 **Key features**
 
   - Powers the staffeng.com site from a Hugo source repository
   - Accepts story submissions in the repository's src/markdown format
   - Supports local preview with Hugo's development server at localhost:1313
+
+<a id="repo-liquidslr--system-design-notes"></a>
+
+## [System Design Interview Notes](https://github.com/liquidslr/system-design-notes)
+
+Work-in-progress chapter notes and architecture diagrams based on both volumes of System Design Interview – An Insider's Guide, covering system design fundamentals and 25 concrete distributed-system design exercises.
+
+- **Category:** [Documentation and Learning](../categories/documentation-and-learning.md#repo-liquidslr--system-design-notes)
+- **Topics:** [Documentation](../topics/documentation.md#repo-liquidslr--system-design-notes) | [Tutorials](../topics/tutorials.md#repo-liquidslr--system-design-notes) | [Reference](../topics/reference.md#repo-liquidslr--system-design-notes) | [Backend Development](../topics/backend-development.md#repo-liquidslr--system-design-notes) | [Databases](../topics/databases.md#repo-liquidslr--system-design-notes) | [Performance](../topics/performance.md#repo-liquidslr--system-design-notes)
+- **Kind:** Documentation
+- **Best for:** Readers reviewing system-design interview concepts alongside the source books; Engineers seeking a visual index of common scalability patterns and system-design case studies
+- **Languages:** Markdown
+- **License:** No repository license grant
+- **Lifecycle:** Active
+- **GitHub stars:** 29,025
+
+**Key features**
+
+  - Twenty-eight chapters covering scaling, estimation, an interview framework, and system-design case studies
+  - Foundational material on load balancing, caching, replication, message queues, consistent hashing, and distributed data
+  - Case studies for chat, search autocomplete, video, file sync, maps, email, object storage, payments, wallets, and exchanges
 
 <a id="repo-mahseema--awesome-ai-tools"></a>
 
@@ -547,7 +632,7 @@ A Markdown directory of AI products and learning resources, grouped around text,
 - **Languages:** Markdown
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 5,687
+- **GitHub stars:** 6,617
 
 **Key features**
 
@@ -568,7 +653,7 @@ A concise guide to designing agent skills with discoverable metadata, progressiv
 - **Languages:** Python, Markdown
 - **License:** No repository license grant
 - **Lifecycle:** Active
-- **GitHub stars:** 2,126
+- **GitHub stars:** 2,298
 
 **Key features**
 
@@ -589,7 +674,7 @@ A curated, traceable catalogue of reusable patterns for designing and operating 
 - **Languages:** TypeScript, Markdown
 - **License:** Apache-2.0
 - **Lifecycle:** Active
-- **GitHub stars:** 4,815
+- **GitHub stars:** 5,089
 
 **Key features**
 
@@ -610,7 +695,7 @@ An OpenAI-maintained collection of example code and guides for common OpenAI API
 - **Languages:** Python, Jupyter Notebook
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 74,754
+- **GitHub stars:** 77,302
 
 **Key features**
 
@@ -631,7 +716,7 @@ A versioned, Markdown-based reference that extracts and tracks Claude Code syste
 - **Languages:** Markdown, JavaScript
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 11,907
+- **GitHub stars:** 13,209
 
 **Key features**
 
@@ -652,7 +737,7 @@ A curated, categorized index of Awesome lists that links to resource collections
 - **Languages:** Markdown
 - **License:** CC0-1.0
 - **Lifecycle:** Active
-- **GitHub stars:** 486,702
+- **GitHub stars:** 540,795
 
 **Key features**
 
@@ -672,8 +757,8 @@ A large, hand-curated README index of resources for adding visual flair, usabili
 - **Best for:** Designers and frontend developers collecting interface and visual-design references; Product teams looking for inspiration or a starting point for specific UI details
 - **Languages:** Markdown
 - **License:** MIT
-- **Lifecycle:** Active
-- **GitHub stars:** 9,786
+- **Lifecycle:** Archived
+- **GitHub stars:** 9,775
 
 **Key features**
 
@@ -694,7 +779,7 @@ A broad technical reference of tools, manuals, cheatsheets, links, and shell exa
 - **Languages:** Unknown
 - **License:** MIT
 - **Lifecycle:** Maintenance
-- **GitHub stars:** 234,100
+- **GitHub stars:** 260,417
 
 **Key features**
 
@@ -715,7 +800,7 @@ A documentation resource for using React with TypeScript effectively, combining 
 - **Languages:** TypeScript, Markdown
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 47,096
+- **GitHub stars:** 47,089
 
 **Key features**
 
@@ -736,7 +821,7 @@ A file collection of system prompts, tool descriptions, and model-related artifa
 - **Languages:** Unknown
 - **License:** GPL-3.0-only
 - **Lifecycle:** Active
-- **GitHub stars:** 142,077
+- **GitHub stars:** 144,810
 
 **Key features**
 
@@ -757,7 +842,7 @@ A living software-design guide that argues for reducing extraneous cognitive loa
 - **Languages:** Unknown
 - **License:** CC-BY-4.0
 - **Lifecycle:** Active
-- **GitHub stars:** 12,456
+- **GitHub stars:** 12,545
 
 **Key features**
 
@@ -778,7 +863,7 @@ A curated README-based collection of AI reading links, books, papers, research o
 - **Languages:** Jupyter Notebook
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 1,756
+- **GitHub stars:** 1,842
 
 **Key features**
 

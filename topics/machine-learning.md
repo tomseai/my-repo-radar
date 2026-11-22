@@ -24,7 +24,7 @@ A JavaScript browser library for persisting vector embeddings in IndexedDB and s
 - **Languages:** JavaScript, WebAssembly
 - **License:** Apache-2.0
 - **Lifecycle:** Unknown
-- **GitHub stars:** 296
+- **GitHub stars:** 295
 
 **Key features**
 
@@ -45,7 +45,7 @@ A hands-on notebook course for learning retrieval-augmented generation (RAG), pr
 - **Languages:** Python, Jupyter Notebook
 - **License:** MIT License with an additional attribution condition
 - **Lifecycle:** Unknown
-- **GitHub stars:** 4,141
+- **GitHub stars:** 4,203
 
 **Key features**
 
@@ -64,9 +64,9 @@ A Python document-intelligence library and command-line converter that turns PDF
 - **Kind:** Library
 - **Best for:** Developers preparing heterogeneous documents for search, RAG, or data pipelines; Python users needing configurable document conversion with local or optional LLM assistance
 - **Languages:** Python
-- **License:** GPL-3.0-or-later
+- **License:** Apache-2.0
 - **Lifecycle:** Active
-- **GitHub stars:** 37,653
+- **GitHub stars:** 41,016
 
 **Key features**
 
@@ -87,7 +87,7 @@ A Python-distributed multilingual document-understanding model suite for OCR, la
 - **Languages:** Python
 - **License:** Apache-2.0
 - **Lifecycle:** Active
-- **GitHub stars:** 21,119
+- **GitHub stars:** 21,610
 
 **Key features**
 
@@ -108,7 +108,7 @@ A curated directory of research, code, tools, courses, data sources, and trading
 - **Languages:** Markdown
 - **License:** CC0-1.0
 - **Lifecycle:** Active
-- **GitHub stars:** 6,262
+- **GitHub stars:** 6,781
 
 **Key features**
 
@@ -129,11 +129,11 @@ A deep-learning file-content detector available as a Rust command-line tool and 
 - **Languages:** Rust, Python, TypeScript, Go
 - **License:** Apache-2.0
 - **Lifecycle:** Active
-- **GitHub stars:** 17,255
+- **GitHub stars:** 18,853
 
 **Key features**
 
-  - Classifies more than 200 binary and text content types using a compact model
+  - The development branch targets over 1,000 content types using a model, native format resolvers, and custom YARA rules
   - Scans individual files, standard input, batches, or directories recursively
   - Emits human-readable, MIME-type, label, JSON, JSONL, score, or custom output
 
@@ -150,7 +150,7 @@ A collection of Excel workbooks for manually working through machine-learning an
 - **Languages:** Unknown
 - **License:** MIT
 - **Lifecycle:** Unknown
-- **GitHub stars:** 6,216
+- **GitHub stars:** 6,299
 
 **Key features**
 
@@ -171,7 +171,7 @@ A large, community-contributed Markdown hub for finding, learning about, and bui
 - **Languages:** Markdown
 - **License:** Apache-2.0
 - **Lifecycle:** Active
-- **GitHub stars:** 1,889
+- **GitHub stars:** 2,030
 
 **Key features**
 
@@ -192,7 +192,7 @@ A Python automatic speech-recognition tool that adds batched Whisper transcripti
 - **Languages:** Python
 - **License:** BSD-2-Clause
 - **Lifecycle:** Active
-- **GitHub stars:** 23,144
+- **GitHub stars:** 25,591
 
 **Key features**
 
@@ -213,7 +213,7 @@ A Markdown directory of AI products and learning resources, grouped around text,
 - **Languages:** Markdown
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 5,687
+- **GitHub stars:** 6,617
 
 **Key features**
 
@@ -234,7 +234,7 @@ A beginner-friendly, 12-week curriculum of AI lessons, executable notebooks, qui
 - **Languages:** Jupyter Notebook, Python, JavaScript
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 52,454
+- **GitHub stars:** 71,153
 
 **Key features**
 
@@ -255,7 +255,7 @@ A Python-based screen-parsing project that turns UI screenshots into structured,
 - **Languages:** Python, Jupyter Notebook
 - **License:** CC-BY-4.0
 - **Lifecycle:** Active
-- **GitHub stars:** 25,175
+- **GitHub stars:** 25,633
 
 **Key features**
 
@@ -276,7 +276,7 @@ A general-purpose Transformer speech-recognition model with Python and CLI tooli
 - **Languages:** Python
 - **License:** MIT
 - **Lifecycle:** Unknown
-- **GitHub stars:** 105,251
+- **GitHub stars:** 113,305
 
 **Key features**
 
@@ -297,7 +297,7 @@ A Python-centered OCR and document-understanding toolkit that converts images an
 - **Languages:** Python, TypeScript, Go, Java, Kotlin
 - **License:** Apache-2.0
 - **Lifecycle:** Active
-- **GitHub stars:** 85,803
+- **GitHub stars:** 92,998
 
 **Key features**
 
@@ -315,16 +315,16 @@ A self-paced, from-scratch AI-engineering curriculum spanning mathematics, machi
 - **Topics:** [Courses](../topics/courses.md#repo-rohitg00--ai-engineering-from-scratch) | [Tutorials](../topics/tutorials.md#repo-rohitg00--ai-engineering-from-scratch) | [Machine Learning](../topics/machine-learning.md#repo-rohitg00--ai-engineering-from-scratch) | [LLMs](../topics/llms.md#repo-rohitg00--ai-engineering-from-scratch) | [AI Agents](../topics/ai-agents.md#repo-rohitg00--ai-engineering-from-scratch) | [MCP](../topics/mcp.md#repo-rohitg00--ai-engineering-from-scratch) | [Multi Agent](../topics/multi-agent.md#repo-rohitg00--ai-engineering-from-scratch)
 - **Kind:** Course
 - **Best for:** Developers seeking a structured, implementation-first route into AI engineering; Engineers who want focused LLM, agent, MCP, or production-system learning tracks
-- **Languages:** Python, TypeScript, Rust, Julia
+- **Languages:** Python, TypeScript, Rust, Julia, Go
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 39,569
+- **GitHub stars:** 79,802
 
 **Key features**
 
-  - 503 lessons across 20 phases, progressing from setup and mathematics to capstone projects
-  - A repeatable lesson structure: concept, raw implementation, production-library use, and a reusable output
-  - Coverage of vision, NLP, speech, transformers, generative AI, reinforcement learning, LLM engineering, and safety
+  - 542 lessons across 20 phases from tool setup and mathematical foundations to production systems
+  - Goal-oriented learning paths for AI foundations, LLM systems, and agent-assisted engineering
+  - Runnable labs and staged projects with reference solutions and evaluation checks
 
 <a id="repo-zslucky--awesome-ai-books"></a>
 
@@ -339,7 +339,7 @@ A curated README-based collection of AI reading links, books, papers, research o
 - **Languages:** Jupyter Notebook
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 1,756
+- **GitHub stars:** 1,842
 
 **Key features**
 

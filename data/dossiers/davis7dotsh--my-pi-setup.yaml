@@ -2,9 +2,9 @@ schema_version: 2
 repository_id: github:davis7dotsh/my-pi-setup
 research:
   state: complete
-  source_commit: 797eaf6d6f178759cf7aabde927ef15c91346e7e
-  bundle_collected_at: 2026-07-19T20:42:32.574Z
-  researched_at: 2026-07-20T17:22:48+02:00
+  source_commit: 5a0863f442402aa35cb0830805d67639957c7172
+  bundle_collected_at: 2026-11-22T12:09:19.623Z
+  researched_at: 2026-11-22T12:24:26.246Z
   confidence: medium
 
 classification:
@@ -24,10 +24,13 @@ project:
   summary: >-
     An opinionated TypeScript configuration and extension collection for the Pi
     coding agent, adding search and scraping, background terminals, subagents,
-    workflows, interactive questions, file search, and terminal UI customization.
+    workflows, interactive questions, file search, and terminal UI
+    customization.
   best_for:
-    - Pi users seeking concrete examples of extending a personal coding-agent environment
-    - Exploring a bundled set of search, terminal-management, and subagent extensions before selecting pieces to adapt
+    - Pi users seeking concrete examples of extending a personal coding-agent
+      environment
+    - Exploring a bundled set of search, terminal-management, and subagent
+      extensions before selecting pieces to adapt
 
 key_features:
   - Firecrawl-powered tools for web search and scraping
@@ -45,7 +48,8 @@ usage:
   installation:
     - Install the root Node.js dependencies with npm
     - Adapt selected extensions and configuration to an existing Pi setup
-    - Run the included TypeScript checks and extension tests when modifying the setup
+    - Run the included TypeScript checks and extension tests when modifying the
+      setup
   setup: moderate
 
 technology:
@@ -60,12 +64,10 @@ technology:
     - fd
 
 license:
-  spdx: null
-  name: No repository license grant
-  notes: >-
-    The complete retained tree has no license file and the imported GitHub metadata
-    reports no SPDX license. Reuse rights are therefore not stated by the retained
-    primary sources.
+  spdx: MIT
+  name: MIT License
+  notes: The root MIT license requires retaining its copyright and permission
+    notice in copies or substantial portions.
 
 status:
   lifecycle: active
@@ -73,18 +75,25 @@ status:
   latest_release: null
   latest_release_at: null
 strengths:
-  - Demonstrates several concrete Pi extension patterns in one coherent personal setup
-  - Includes test or type-check scripts for the root project and several extensions
-  - Makes high-value terminal, search, and user-interaction customizations easy to identify
+  - Demonstrates several concrete Pi extension patterns in one coherent personal
+    setup
+  - Includes test or type-check scripts for the root project and several
+    extensions
+  - Makes high-value terminal, search, and user-interaction customizations easy
+    to identify
 
 caveats:
-  - The author describes the setup as opinionated and advises against copying it wholesale
-  - The retained README refers to SETUP.md, but that setup guide was not retained in this research bundle
-  - Firecrawl and the Pi packages are external dependencies whose configuration and service requirements are outside this repository
-  - The repository has no stated license grant and no GitHub release entries in the retained release feed
+  - The author describes the setup as opinionated and advises against copying it
+    wholesale
+  - The retained README refers to SETUP.md, but that setup guide was not
+    retained in this research bundle
+  - Firecrawl and the Pi packages are external dependencies whose configuration
+    and service requirements are outside this repository
+  - The release feed contains no entries.
 
 sources:
-  - https://raw.githubusercontent.com/davis7dotsh/my-pi-setup/797eaf6d6f178759cf7aabde927ef15c91346e7e/README.md
-  - https://raw.githubusercontent.com/davis7dotsh/my-pi-setup/797eaf6d6f178759cf7aabde927ef15c91346e7e/package.json
-  - https://raw.githubusercontent.com/davis7dotsh/my-pi-setup/797eaf6d6f178759cf7aabde927ef15c91346e7e/extensions/subagents/package.json
-  - https://raw.githubusercontent.com/davis7dotsh/my-pi-setup/797eaf6d6f178759cf7aabde927ef15c91346e7e/extensions/firecrawl-search/package.json
+  - https://raw.githubusercontent.com/davis7dotsh/my-pi-setup/5a0863f442402aa35cb0830805d67639957c7172/README.md
+  - https://raw.githubusercontent.com/davis7dotsh/my-pi-setup/5a0863f442402aa35cb0830805d67639957c7172/package.json
+  - https://raw.githubusercontent.com/davis7dotsh/my-pi-setup/5a0863f442402aa35cb0830805d67639957c7172/extensions/subagents/package.json
+  - https://raw.githubusercontent.com/davis7dotsh/my-pi-setup/5a0863f442402aa35cb0830805d67639957c7172/extensions/firecrawl-search/package.json
+  - https://raw.githubusercontent.com/davis7dotsh/my-pi-setup/5a0863f442402aa35cb0830805d67639957c7172/LICENSE

@@ -2,9 +2,9 @@ schema_version: 2
 repository_id: github:ChatGPTNextWeb/NextChat
 research:
   state: complete
-  source_commit: 706a18b95b714ab29b2a4842d3b9ff4f887935d5
-  bundle_collected_at: 2026-07-19T20:42:10.026Z
-  researched_at: 2026-07-20T10:30:00+02:00
+  source_commit: 1d3dc331512929a4b1d3e82354e72acce33b5c7a
+  bundle_collected_at: 2026-11-22T12:09:15.100Z
+  researched_at: 2026-11-22T12:26:16Z
   confidence: high
 classification:
   primary_category: platforms-and-applications
@@ -21,18 +21,24 @@ project:
   name: NextChat
   kind: application
   summary: >-
-    An MIT-licensed AI chat application available as a deployable web/PWA
-    client and Tauri desktop application, with local browser storage, hosted
-    and self-hosted model endpoints, and optional MCP support.
+    An MIT-licensed AI chat application available as a deployable web/PWA client
+    and Tauri desktop application, with local browser storage, hosted and
+    self-hosted model endpoints, and optional MCP support.
   best_for:
-    - Individuals self-hosting a compact AI chat client with their own model-provider credentials
-    - Users who want local browser chat storage, prompt templates, and a cross-platform desktop option
+    - Individuals self-hosting a compact AI chat client with their own
+      model-provider credentials
+    - Users who want local browser chat storage, prompt templates, and a
+      cross-platform desktop option
 key_features:
-  - Supports OpenAI-compatible, Azure, Anthropic, Google, DeepSeek, and other configured model endpoints
-  - Stores data locally in the browser and offers a responsive PWA with streaming responses
-  - Provides prompt templates, conversation-history compression, Markdown, LaTeX, Mermaid, and code highlighting
+  - Supports OpenAI-compatible, Azure, Anthropic, Google, DeepSeek, and other
+    configured model endpoints
+  - Stores data locally in the browser and offers a responsive PWA with
+    streaming responses
+  - Provides prompt templates, conversation-history compression, Markdown,
+    LaTeX, Mermaid, and code highlighting
   - Builds a desktop application with Tauri and documents iOS availability
-  - Can enable Model Context Protocol support through the ENABLE_MCP build environment variable
+  - Can enable Model Context Protocol support through the ENABLE_MCP build
+    environment variable
 usage:
   interfaces:
     - web application and PWA
@@ -58,23 +64,30 @@ license:
   name: MIT License
   notes: >-
     Permissive license allowing use, modification, distribution, sublicensing,
-    and sale when the copyright and permission notices are retained; provided without warranty.
+    and sale when the copyright and permission notices are retained; provided
+    without warranty.
 status:
   lifecycle: active
   archived: false
   latest_release: v2.16.1
   latest_release_at: "2025-07-29"
 strengths:
-  - Offers several deployment paths while keeping chat data in the browser by default
+  - Offers several deployment paths while keeping chat data in the browser by
+    default
   - Supports self-hosted and hosted model endpoints in a compact client
-  - Includes prompt templates, long-conversation compression, and rich technical-content rendering
+  - Includes prompt templates, long-conversation compression, and rich
+    technical-content rendering
 caveats:
-  - Hosted-provider deployments require an API key and optional endpoint-specific configuration
-  - MCP is opt-in at build time through ENABLE_MCP rather than enabled in every deployment
-  - The README's desktop download link targets the historic Yidadaa/ChatGPT-Next-Web releases, so desktop release provenance is not solely established by this repository
+  - Hosted-provider deployments require an API key and optional
+    endpoint-specific configuration
+  - MCP is opt-in at build time through ENABLE_MCP rather than enabled in every
+    deployment
+  - The README's desktop download link targets the historic
+    Yidadaa/ChatGPT-Next-Web releases, so desktop release provenance is not
+    solely established by this repository
 sources:
-  - https://raw.githubusercontent.com/ChatGPTNextWeb/NextChat/706a18b95b714ab29b2a4842d3b9ff4f887935d5/README.md
-  - https://raw.githubusercontent.com/ChatGPTNextWeb/NextChat/706a18b95b714ab29b2a4842d3b9ff4f887935d5/LICENSE
-  - https://raw.githubusercontent.com/ChatGPTNextWeb/NextChat/706a18b95b714ab29b2a4842d3b9ff4f887935d5/package.json
-  - https://raw.githubusercontent.com/ChatGPTNextWeb/NextChat/706a18b95b714ab29b2a4842d3b9ff4f887935d5/docker-compose.yml
+  - https://raw.githubusercontent.com/ChatGPTNextWeb/NextChat/1d3dc331512929a4b1d3e82354e72acce33b5c7a/README.md
+  - https://raw.githubusercontent.com/ChatGPTNextWeb/NextChat/1d3dc331512929a4b1d3e82354e72acce33b5c7a/LICENSE
+  - https://raw.githubusercontent.com/ChatGPTNextWeb/NextChat/1d3dc331512929a4b1d3e82354e72acce33b5c7a/package.json
+  - https://raw.githubusercontent.com/ChatGPTNextWeb/NextChat/1d3dc331512929a4b1d3e82354e72acce33b5c7a/docker-compose.yml
   - https://github.com/ChatGPTNextWeb/NextChat/releases.atom

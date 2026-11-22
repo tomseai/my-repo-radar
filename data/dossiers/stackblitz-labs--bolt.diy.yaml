@@ -2,9 +2,9 @@ schema_version: 2
 repository_id: github:stackblitz-labs/bolt.diy
 research:
   state: complete
-  source_commit: 2e254ac19a696394030601bc602f54945b12bfc4
-  bundle_collected_at: 2026-07-19T20:45:28.257Z
-  researched_at: 2026-07-20T16:05:00Z
+  source_commit: 72db5ce846faee4a8b66e68f471635367602a77d
+  bundle_collected_at: 2026-11-22T12:10:28.547Z
+  researched_at: 2026-11-22T12:22:56.267Z
   confidence: high
 classification:
   primary_category: developer-tools
@@ -20,19 +20,23 @@ classification:
 project:
   name: bolt.diy
   kind: application
-  summary: >-
-    An open-source, self-hostable version of Bolt.new for AI-assisted web
+  summary: An open-source, self-hostable version of Bolt.new for AI-assisted web
     development, with selectable cloud and local model providers plus browser,
     Docker, and Electron desktop deployment paths.
   best_for:
-    - Developers who want a self-hosted AI web-development environment with provider choice
-    - Teams that need to connect local models or OpenAI-compatible endpoints to an agent workspace
+    - Developers who want a self-hosted AI web-development environment with
+      provider choice
+    - Teams that need to connect local models or OpenAI-compatible endpoints
+      to an agent workspace
 key_features:
-  - Selects from 19-plus documented cloud and local AI-provider integrations through the Vercel AI SDK
+  - Supports more than 22 documented cloud and local model providers through
+    the Vercel AI SDK
   - Provides web, Docker, and Electron desktop deployment options
-  - Includes settings for cloud keys, Ollama, LM Studio, and OpenAI-compatible base URLs
-  - Builds and runs through pnpm scripts with production and development Docker configurations
-  - Offers provider and model search plus management functions for installed Ollama models
+  - Includes settings for cloud keys, Ollama, LM Studio, and OpenAI-compatible
+    base URLs
+  - Builds and runs through pnpm scripts with production and development
+    Docker configurations
+  - Includes codebase search, snapshot restoration, and visual diff inspection
 usage:
   interfaces:
     - browser-based web UI
@@ -58,26 +62,31 @@ technology:
 license:
   spdx: MIT
   name: MIT License
-  notes: >-
-    The source code is MIT-licensed, but the README says production commercial
-    use of the WebContainers API requires a separate commercial license.
+  notes: The source code is MIT-licensed. The WebContainers API has separate
+    commercial licensing terms for enterprise deployment.
 status:
   lifecycle: active
   archived: false
-  latest_release: 1.0.0
-  latest_release_at: 2025-05-12
+  latest_release: v1.0.3
+  latest_release_at: 2026-11-15
 strengths:
-  - Provides broad provider choice, including local Ollama and LM Studio paths, instead of binding the workspace to one model vendor
-  - Documents browser, container, and cross-platform desktop deployment choices in the primary README
-  - Keeps source code under MIT terms while supplying project scripts for development, testing, linting, and packaging
+  - Provides broad provider choice, including local Ollama and LM Studio
+    paths, instead of binding the workspace to one model vendor
+  - Documents browser, container, and cross-platform desktop deployment
+    choices in the primary README
+  - Keeps source code under MIT terms while supplying project scripts for
+    development, testing, linting, and packaging
 caveats:
-  - Each cloud provider requires its own credentials, availability, pricing, and configuration; model quality varies by provider
-  - Production commercial use of the WebContainers API has a separate licensing requirement despite the repository's MIT source license
-  - Local and Docker deployment require Node.js, pnpm or Docker, environment variables, and ongoing secret management
-  - The latest cached release entry is 1.0.0 from 2025, so it may not describe all capabilities at the pinned 2026 source commit
+  - Each cloud provider requires its own credentials, availability, pricing,
+    and configuration; model quality varies by provider
+  - Enterprise use of the WebContainers API is subject to its separate
+    commercial terms
+  - The source setup requires Node.js 22.12 or newer and pnpm 9.15.9 or newer.
+    Docker Compose reads two environment files that need to stay in sync
 sources:
-  - https://raw.githubusercontent.com/stackblitz-labs/bolt.diy/2e254ac19a696394030601bc602f54945b12bfc4/README.md
-  - https://raw.githubusercontent.com/stackblitz-labs/bolt.diy/2e254ac19a696394030601bc602f54945b12bfc4/LICENSE
-  - https://raw.githubusercontent.com/stackblitz-labs/bolt.diy/2e254ac19a696394030601bc602f54945b12bfc4/package.json
-  - https://raw.githubusercontent.com/stackblitz-labs/bolt.diy/2e254ac19a696394030601bc602f54945b12bfc4/docker-compose.yaml
+  - https://raw.githubusercontent.com/stackblitz-labs/bolt.diy/72db5ce846faee4a8b66e68f471635367602a77d/README.md
+  - https://raw.githubusercontent.com/stackblitz-labs/bolt.diy/72db5ce846faee4a8b66e68f471635367602a77d/LICENSE
+  - https://raw.githubusercontent.com/stackblitz-labs/bolt.diy/72db5ce846faee4a8b66e68f471635367602a77d/package.json
+  - https://raw.githubusercontent.com/stackblitz-labs/bolt.diy/72db5ce846faee4a8b66e68f471635367602a77d/docker-compose.yaml
   - https://github.com/stackblitz-labs/bolt.diy/releases.atom
+  - https://github.com/stackblitz-labs/bolt.diy/releases/tag/v1.0.3

@@ -1,0 +1,48 @@
+schema_version: 2
+repository_id: github:t3dotgg/tstack
+research:
+  state: complete
+  source_commit: 11e37a74d0a6868c121cd0910ab2b3bd9873b92a
+  bundle_collected_at: 2026-11-22T11:26:59.670Z
+  researched_at: 2026-11-22T12:00:00Z
+  confidence: high
+classification:
+  primary_category: ai-and-automation
+  topics: [agent-skills, coding-agents, code-review, pull-requests, github, developer-productivity]
+project:
+  name: tstack
+  kind: other
+  summary: A collection of reusable coding-agent skills for reviewing changes and managing GitHub pull requests.
+  best_for: [Claude Code or Codex users automating pull request workflows]
+key_features:
+  - Skills for filing and monitoring pull requests and addressing review findings
+  - Full-send and full-stop workflows for completing changes with different merge boundaries
+  - Multi-model review loops and a three-model council
+  - Skills for taking over or modernizing existing pull requests
+usage:
+  interfaces: [coding-agent skills]
+  installation: [clone repository and copy skills]
+  setup: moderate
+technology:
+  languages: [Python]
+  notable_components: [Claude Code, Codex, GitHub CLI]
+license:
+  spdx: MIT
+  name: MIT License
+  notes: null
+status:
+  lifecycle: active
+  archived: false
+  latest_release: null
+  latest_release_at: null
+strengths:
+  - Composable skills cover several stages of the pull request lifecycle
+  - Supports multiple agent environments with documented fallbacks
+caveats:
+  - Requires an authenticated GitHub CLI; some skills also require Python or access to other providers' models
+  - Full-send is designed to merge pull requests without supervision; review its instructions and permissions before use
+  - No GitHub release was present in the retained release feed
+sources:
+  - https://raw.githubusercontent.com/t3dotgg/tstack/11e37a74d0a6868c121cd0910ab2b3bd9873b92a/README.md
+  - https://raw.githubusercontent.com/t3dotgg/tstack/11e37a74d0a6868c121cd0910ab2b3bd9873b92a/LICENSE
+  - https://github.com/t3dotgg/tstack/releases.atom

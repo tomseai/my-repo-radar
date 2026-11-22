@@ -2,9 +2,9 @@ schema_version: 2
 repository_id: github:jely2002/youtube-dl-gui
 research:
   state: complete
-  source_commit: 83facb4da079dfb663b644981daceb03f329b337
-  bundle_collected_at: 2026-07-19T20:43:32.505Z
-  researched_at: 2026-07-20T15:34:55.357Z
+  source_commit: c402ee39c0eabab68934c48f8b787ff37a1577b0
+  bundle_collected_at: 2026-11-22T12:09:40.686Z
+  researched_at: 2026-11-22T12:18:43.417Z
   confidence: high
 
 classification:
@@ -19,13 +19,14 @@ project:
   name: Open Video Downloader
   kind: application
   summary: >-
-    A cross-platform desktop GUI, also known as youtube-dl-gui, that uses
-    yt-dlp to download video, audio, subtitles, and metadata from supported
-    sites, offering format controls, playlists, queues, output templates,
-    progress feedback, and desktop installers for Windows, macOS, and Linux.
+    A cross-platform desktop GUI, also known as youtube-dl-gui, that uses yt-dlp
+    to download video, audio, subtitles, and metadata from supported sites,
+    offering format controls, playlists, queues, output templates, progress
+    feedback, and desktop installers for Windows, macOS, and Linux.
   best_for:
     - People who prefer a desktop interface to yt-dlp's command line
-    - Downloading selected media, playlists, captions, or metadata from supported sites
+    - Downloading selected media, playlists, captions, or metadata from
+      supported sites
 
 key_features:
   - Video downloads or audio-only extraction through yt-dlp
@@ -58,28 +59,37 @@ technology:
 license:
   spdx: AGPL-3.0-or-later
   name: GNU Affero General Public License v3.0 or later
-  notes: Strong copyleft license; modified network-interactive versions must offer their corresponding source to users. The manifests use `AGPL-3.0-or-later`, while the README abbreviates it as AGPL-3.0.
+  notes: Strong copyleft license; modified network-interactive versions must offer
+    their corresponding source to users. The manifests use `AGPL-3.0-or-later`,
+    while the README abbreviates it as AGPL-3.0.
 
 status:
   lifecycle: active
   archived: false
-  latest_release: v3.2.1
+  latest_release: app-v3.2.1
   latest_release_at: 2026-07-05
 
 strengths:
-  - Makes common yt-dlp media and playlist workflows available without a command line
-  - Provides native installers for Windows, macOS, and several Linux package formats
-  - The current Tauri, Rust, and Vue architecture includes update, notification, shortcut, and queue features
+  - Makes common yt-dlp media and playlist workflows available without a command
+    line
+  - Provides native installers for Windows, macOS, and several Linux package
+    formats
+  - The current Tauri, Rust, and Vue architecture includes update, notification,
+    shortcut, and queue features
 
 caveats:
-  - Site support, available formats, and download results depend on yt-dlp and the chosen source site
-  - Users remain responsible for respecting copyright, access rules, and other applicable terms when downloading media
-  - The Microsoft Store build has slower update delivery and does not support automatic yt-dlp updates
+  - Site support, available formats, and download results depend on yt-dlp and
+    the chosen source site
+  - Users remain responsible for respecting copyright, access rules, and other
+    applicable terms when downloading media
+  - The Microsoft Store build has slower update delivery and does not support
+    automatic yt-dlp updates
   - Building from source requires both Node.js and Rust
 
 sources:
-  - https://raw.githubusercontent.com/jely2002/youtube-dl-gui/83facb4da079dfb663b644981daceb03f329b337/README.md
-  - https://raw.githubusercontent.com/jely2002/youtube-dl-gui/83facb4da079dfb663b644981daceb03f329b337/LICENSE
-  - https://raw.githubusercontent.com/jely2002/youtube-dl-gui/83facb4da079dfb663b644981daceb03f329b337/package.json
-  - https://raw.githubusercontent.com/jely2002/youtube-dl-gui/83facb4da079dfb663b644981daceb03f329b337/src-tauri/Cargo.toml
+  - https://raw.githubusercontent.com/jely2002/youtube-dl-gui/c402ee39c0eabab68934c48f8b787ff37a1577b0/README.md
+  - https://raw.githubusercontent.com/jely2002/youtube-dl-gui/c402ee39c0eabab68934c48f8b787ff37a1577b0/LICENSE
+  - https://raw.githubusercontent.com/jely2002/youtube-dl-gui/c402ee39c0eabab68934c48f8b787ff37a1577b0/package.json
+  - https://raw.githubusercontent.com/jely2002/youtube-dl-gui/c402ee39c0eabab68934c48f8b787ff37a1577b0/src-tauri/Cargo.toml
   - https://github.com/jely2002/youtube-dl-gui/releases.atom
+  - https://github.com/jely2002/youtube-dl-gui/releases/tag/app-v3.2.1

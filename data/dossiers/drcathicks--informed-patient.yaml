@@ -1,0 +1,50 @@
+schema_version: 2
+repository_id: github:DrCatHicks/informed-patient
+research:
+  state: complete
+  source_commit: 3b8583a065a0c37374e84b12877c02b808bd06b8
+  bundle_collected_at: 2026-11-22T11:27:06.182Z
+  researched_at: 2026-11-22T11:28:28Z
+  confidence: high
+classification:
+  primary_category: ai-and-automation
+  topics: [agent-skills, llms, web-search, document-processing]
+project:
+  name: Informed Patient
+  kind: plugin
+  summary: >-
+    A Claude skill that structures research and an evidence review around a
+    person's health question for discussion with their healthcare team.
+  best_for:
+    - Organizing health research questions before a healthcare appointment
+key_features:
+  - Guided context gathering for a health question
+  - Structured or exploratory evidence search modes
+  - Evidence review with sources, limitations, and questions for clinicians
+usage:
+  interfaces: [Claude Code plugin, Claude Desktop or Web skill]
+  installation: [Claude Code plugin marketplace, skill ZIP upload]
+  setup: low
+technology:
+  languages: []
+  notable_components: [Claude]
+license:
+  spdx: CC-BY-4.0
+  name: Creative Commons Attribution 4.0 International
+  notes: Attribution is required when sharing or adapting the work.
+status:
+  lifecycle: active
+  archived: false
+  latest_release: v16
+  latest_release_at: 2026-10-04
+strengths:
+  - Makes sources and evidence limitations part of the intended output
+  - Supports preparation of questions for a healthcare team
+caveats:
+  - AI output can be inaccurate and is not a diagnostic tool or a substitute for clinical advice
+  - Health information shared with an AI service can be sensitive
+  - Search quality depends on available sources, model behavior, and the user's input
+sources:
+  - https://raw.githubusercontent.com/DrCatHicks/informed-patient/3b8583a065a0c37374e84b12877c02b808bd06b8/README.md
+  - https://raw.githubusercontent.com/DrCatHicks/informed-patient/3b8583a065a0c37374e84b12877c02b808bd06b8/LICENSE.txt
+  - https://github.com/DrCatHicks/informed-patient/releases.atom

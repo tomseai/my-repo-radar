@@ -1,13 +1,11 @@
 schema_version: 2
 repository_id: github:openai/codex
-
 research:
   state: complete
-  source_commit: 7844386e3de08febd13075eaaaf0e6f9dbe52c58
-  bundle_collected_at: 2026-07-19T20:44:35.369Z
-  researched_at: 2026-07-20T15:51:21.906Z
+  source_commit: cf3ff1530d821ec2d26452da4971d8e3e7d18d25
+  bundle_collected_at: 2026-11-22T12:10:08.433Z
+  researched_at: 2026-11-22T12:23:58.019Z
   confidence: high
-
 classification:
   primary_category: developer-tools
   topics:
@@ -16,25 +14,20 @@ classification:
     - cli
     - code-generation
     - developer-productivity
-
 project:
   name: Codex CLI
   kind: cli
-  summary: >-
-    An OpenAI coding agent that runs locally, with a terminal CLI as its
-    primary interface and documented paths to IDE integrations and a desktop
-    app command.
+  summary: An OpenAI coding agent that runs locally, with a terminal CLI as its primary
+    interface and documented paths to IDE integrations and a desktop app command.
   best_for:
     - Developers who want to run an OpenAI coding agent from a terminal
     - Teams using supported IDE integrations or the Codex desktop app
-
 key_features:
   - Local terminal-based coding-agent workflow
   - Documented IDE integrations for VS Code, Cursor, and Windsurf
   - Desktop-app entry point through the codex app command
   - ChatGPT sign-in or API-key authentication options
   - Platform-specific standalone binaries in GitHub releases
-
 usage:
   interfaces:
     - terminal CLI
@@ -47,7 +40,6 @@ usage:
     - Homebrew cask
     - GitHub release binary
   setup: moderate
-
 technology:
   languages:
     - Rust
@@ -56,33 +48,32 @@ technology:
     - Rust workspace
     - Node.js CLI package
     - app-server workspace components
-
 license:
   spdx: Apache-2.0
   name: Apache License 2.0
-  notes: >-
-    The root license covers the repository under Apache-2.0; redistribution
-    must retain required notices, and the license includes a patent-termination
-    condition for patent litigation.
-
+  notes: The root license covers the repository under Apache-2.0; redistribution must
+    retain required notices, and the license includes a patent-termination condition
+    for patent litigation.
 status:
   lifecycle: active
   archived: false
-  latest_release: rust-v0.144.6
-  latest_release_at: 2026-07-18
-
+  latest_release: rust-v0.171.0
+  latest_release_at: 2026-11-20
 strengths:
   - Multiple official installation paths reduce friction across platforms
   - The same product is documented for terminal, IDE, and desktop workflows
   - Stable CLI release artifacts are published alongside development prereleases
-
 caveats:
-  - The selected release is the stable Codex CLI Rust tag; the feed also lists alpha and Python-package releases
-  - Use requires a ChatGPT plan or an OpenAI API key, with API-key use needing additional setup
-  - The repository is a large Rust workspace, so source development has more dependencies than installing the CLI
-
+  - The selected release is the stable Codex CLI Rust tag; the feed also lists alpha
+    and Python-package releases. Standalone installers use OpenAI’s release host and
+    fall back to GitHub.
+  - Use requires a ChatGPT plan or an OpenAI API key, with API-key use needing
+    additional setup
+  - The repository is a large Rust workspace, so source development has more
+    dependencies than installing the CLI
 sources:
-  - https://raw.githubusercontent.com/openai/codex/7844386e3de08febd13075eaaaf0e6f9dbe52c58/README.md
-  - https://raw.githubusercontent.com/openai/codex/7844386e3de08febd13075eaaaf0e6f9dbe52c58/LICENSE
-  - https://raw.githubusercontent.com/openai/codex/7844386e3de08febd13075eaaaf0e6f9dbe52c58/codex-cli/package.json
+  - https://raw.githubusercontent.com/openai/codex/cf3ff1530d821ec2d26452da4971d8e3e7d18d25/README.md
+  - https://raw.githubusercontent.com/openai/codex/cf3ff1530d821ec2d26452da4971d8e3e7d18d25/LICENSE
+  - https://raw.githubusercontent.com/openai/codex/cf3ff1530d821ec2d26452da4971d8e3e7d18d25/codex-cli/package.json
   - https://github.com/openai/codex/releases.atom
+  - https://github.com/openai/codex/releases/tag/rust-v0.171.0

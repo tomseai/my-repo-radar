@@ -2,9 +2,9 @@ schema_version: 2
 repository_id: github:sindresorhus/awesome
 research:
   state: complete
-  source_commit: 7cb5c8371c0fe73e5444a42d5542f6280c38b1a6
-  bundle_collected_at: 2026-07-19T20:45:13.509Z
-  researched_at: 2026-07-19T21:45:40.535Z
+  source_commit: bc98e517ddca672f55f9857d714fc3ea3c3540b2
+  bundle_collected_at: 2026-11-22T12:10:19.948Z
+  researched_at: 2026-11-22T12:25:50.998Z
   confidence: high
 classification:
   primary_category: documentation-and-learning
@@ -60,8 +60,8 @@ caveats:
   - Coverage and freshness of linked lists depend on their independent maintainers
   - The cached releases feed contains no release entries, so no latest release can be established
 sources:
-  - https://raw.githubusercontent.com/sindresorhus/awesome/7cb5c8371c0fe73e5444a42d5542f6280c38b1a6/readme.md
-  - https://raw.githubusercontent.com/sindresorhus/awesome/7cb5c8371c0fe73e5444a42d5542f6280c38b1a6/contributing.md
-  - https://raw.githubusercontent.com/sindresorhus/awesome/7cb5c8371c0fe73e5444a42d5542f6280c38b1a6/license
-  - https://raw.githubusercontent.com/sindresorhus/awesome/7cb5c8371c0fe73e5444a42d5542f6280c38b1a6/.github/workflows/main.yml
+  - https://raw.githubusercontent.com/sindresorhus/awesome/bc98e517ddca672f55f9857d714fc3ea3c3540b2/readme.md
+  - https://raw.githubusercontent.com/sindresorhus/awesome/bc98e517ddca672f55f9857d714fc3ea3c3540b2/contributing.md
+  - https://raw.githubusercontent.com/sindresorhus/awesome/bc98e517ddca672f55f9857d714fc3ea3c3540b2/license
+  - https://raw.githubusercontent.com/sindresorhus/awesome/bc98e517ddca672f55f9857d714fc3ea3c3540b2/.github/workflows/main.yml
   - https://github.com/sindresorhus/awesome/releases.atom

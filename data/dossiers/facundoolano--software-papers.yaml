@@ -3,9 +3,9 @@ repository_id: github:facundoolano/software-papers
 
 research:
   state: complete
-  source_commit: 30d310ee519ac6fd7f3b8932aeb2f8c0ae825614
-  bundle_collected_at: 2026-07-19T20:42:47.039Z
-  researched_at: 2026-07-20T17:13:24+02:00
+  source_commit: f20516a495d19f1031941a2fcf0744059d36d72d
+  bundle_collected_at: 2026-11-22T12:09:22.147Z
+  researched_at: 2026-11-22T12:22:02Z
   confidence: high
 
 classification:
@@ -26,15 +26,20 @@ project:
     engineering students and practitioners, spanning programming, design,
     systems, data, networking, security, operations, and related fields.
   best_for:
-    - Building a guided reading path through influential software-engineering and computer-science papers
+    - Building a guided reading path through influential software-engineering
+      and computer-science papers
     - Finding concise primary and follow-up reading for a software practice topic
 
 key_features:
-  - Topic-organized reading list covering programming, algorithms, software design, compilers, and project management
-  - Systems sections for concurrency, operating systems, databases, networking, distributed systems, and operations
-  - Additional coverage of cryptography, human-computer interaction, search, machine learning, and decentralized systems
+  - Topic-organized reading list covering programming, algorithms, software
+    design, compilers, and project management
+  - Systems sections for concurrency, operating systems, databases, networking,
+    distributed systems, and operations
+  - Additional coverage of cryptography, human-computer interaction, search,
+    machine learning, and decentralized systems
   - Sources and meta-reading links for finding and reading technical papers
-  - Explicit selection criteria favoring a short, approachable, freely available list with practical relevance
+  - Explicit selection criteria favoring a short, approachable, freely available
+    list with practical relevance
 
 usage:
   interfaces:
@@ -70,18 +75,23 @@ status:
   latest_release_at: null
 
 strengths:
-  - Curates a broad software-engineering reading path instead of an unbounded bibliography
+  - Curates a broad software-engineering reading path instead of an unbounded
+    bibliography
   - Provides topical groupings with principal papers and related follow-up items
   - Publishes transparent selection criteria and automated README/link checks
 
 caveats:
-  - This is a reference list, not a course, searchable paper database, or implementation library
-  - The list intentionally favors accessible and practical papers, so it is not comprehensive for any topic
-  - Individual paper links and reuse rights are controlled by their external hosts or publishers
-  - The retained release feed has no entries, so no latest versioned project release can be established
+  - This is a reference list, not a course, searchable paper database, or
+    implementation library
+  - The list intentionally favors accessible and practical papers, so it is not
+    comprehensive for any topic
+  - Individual paper links and reuse rights are controlled by their external
+    hosts or publishers
+  - The retained release feed has no entries, so no latest versioned project
+    release can be established
 
 sources:
-  - https://raw.githubusercontent.com/facundoolano/software-papers/30d310ee519ac6fd7f3b8932aeb2f8c0ae825614/README.md
-  - https://raw.githubusercontent.com/facundoolano/software-papers/30d310ee519ac6fd7f3b8932aeb2f8c0ae825614/LICENSE
-  - https://raw.githubusercontent.com/facundoolano/software-papers/30d310ee519ac6fd7f3b8932aeb2f8c0ae825614/.github/workflows/tests.yml
+  - https://raw.githubusercontent.com/facundoolano/software-papers/f20516a495d19f1031941a2fcf0744059d36d72d/README.md
+  - https://raw.githubusercontent.com/facundoolano/software-papers/f20516a495d19f1031941a2fcf0744059d36d72d/LICENSE
+  - https://raw.githubusercontent.com/facundoolano/software-papers/f20516a495d19f1031941a2fcf0744059d36d72d/.github/workflows/tests.yml
   - https://github.com/facundoolano/software-papers/releases.atom

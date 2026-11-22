@@ -2,9 +2,9 @@ schema_version: 2
 repository_id: github:psmux/psmux
 research:
   state: complete
-  source_commit: 05cc5d4cded047bd3f3d1955299fd0bd259f2d81
-  bundle_collected_at: 2026-07-20T19:30:27.498Z
-  researched_at: 2026-07-20T21:33:02.164+02:00
+  source_commit: e443b183d3c556b56c8732c6c2bf1da8dd398f6d
+  bundle_collected_at: 2026-11-22T12:10:19.443Z
+  researched_at: 2026-11-22T12:25:58.739Z
   confidence: high
 classification:
   primary_category: developer-tools
@@ -21,16 +21,22 @@ project:
   kind: application
   summary: >-
     A native Rust terminal multiplexer for Windows that uses ConPTY directly,
-    implements the tmux command language and configuration format, persists sessions,
-    and supports panes, themes, mouse control, scripting, plugins, and agent-team panes.
+    implements the tmux command language and configuration format, persists
+    sessions, and supports panes, themes, mouse control, scripting, plugins, and
+    agent-team panes.
   best_for:
-    - Windows developers who want tmux-style persistent sessions without WSL or Cygwin
-    - Claude Code users who want teammate agents displayed in separate terminal panes
+    - Windows developers who want tmux-style persistent sessions without WSL or
+      Cygwin
+    - Claude Code users who want teammate agents displayed in separate terminal
+      panes
 key_features:
-  - Native Windows ConPTY implementation with psmux, pmux, and tmux command aliases
-  - Reads tmux configuration and supports themes, mouse input, layouts, and copy mode
+  - Native Windows ConPTY implementation with psmux, pmux, and tmux command
+    aliases
+  - Reads tmux configuration and supports themes, mouse input, layouts, and copy
+    mode
   - Persists sessions across terminal crashes and SSH disconnects
-  - Exposes tmux-compatible commands, hooks, format variables, and scripting primitives
+  - Exposes tmux-compatible commands, hooks, format variables, and scripting
+    primitives
   - Automatically places Claude Code agent-team members in visible panes
 usage:
   interfaces:
@@ -58,19 +64,25 @@ license:
 status:
   lifecycle: active
   archived: false
-  latest_release: v3.3.7
-  latest_release_at: 2026-07-20
+  latest_release: v3.4.0
+  latest_release_at: 2026-10-13
 strengths:
-  - Provides a Windows-native path for established tmux workflows and configuration
+  - Provides a Windows-native path for established tmux workflows and
+    configuration
   - Multiple package channels and command aliases reduce migration friction
-  - Extensive retained documentation covers compatibility, scripting, plugins, SSH, and performance
+  - Extensive retained documentation covers compatibility, scripting, plugins,
+    SSH, and performance
 caveats:
+  - The current feed contains archive and test releases; the primary v3.4.0 release is retained based on the package version and previously verified release.
   - Windows 10 or 11 is required; it is not a cross-platform tmux replacement
-  - tmux compatibility is broad but not necessarily complete for every plugin, command, or format expression
-  - Claude Code agent-team behavior depends on Claude's experimental team capability and its environment conventions
+  - tmux compatibility is broad but not necessarily complete for every plugin,
+    command, or format expression
+  - Claude Code agent-team behavior depends on Claude's experimental team
+    capability and its environment conventions
 sources:
-  - https://raw.githubusercontent.com/psmux/psmux/05cc5d4cded047bd3f3d1955299fd0bd259f2d81/README.md
-  - https://raw.githubusercontent.com/psmux/psmux/05cc5d4cded047bd3f3d1955299fd0bd259f2d81/LICENSE
-  - https://raw.githubusercontent.com/psmux/psmux/05cc5d4cded047bd3f3d1955299fd0bd259f2d81/Cargo.toml
-  - https://raw.githubusercontent.com/psmux/psmux/05cc5d4cded047bd3f3d1955299fd0bd259f2d81/docs/features.md
+  - https://raw.githubusercontent.com/psmux/psmux/e443b183d3c556b56c8732c6c2bf1da8dd398f6d/README.md
+  - https://raw.githubusercontent.com/psmux/psmux/e443b183d3c556b56c8732c6c2bf1da8dd398f6d/LICENSE
+  - https://raw.githubusercontent.com/psmux/psmux/e443b183d3c556b56c8732c6c2bf1da8dd398f6d/Cargo.toml
+  - https://raw.githubusercontent.com/psmux/psmux/e443b183d3c556b56c8732c6c2bf1da8dd398f6d/docs/features.md
   - https://github.com/psmux/psmux/releases.atom
+  - https://github.com/psmux/psmux/releases/tag/v3.4.0

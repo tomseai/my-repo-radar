@@ -2,9 +2,9 @@ schema_version: 2
 repository_id: github:sindresorhus/type-fest
 research:
   state: complete
-  source_commit: 48ddc4ba71cb215c3e3d98b0257360edc229fa75
-  bundle_collected_at: 2026-07-19T20:45:16.012Z
-  researched_at: 2026-07-20T16:05:00Z
+  source_commit: fb6bf5f00ee658e1dacc91cb9cd12d5abbbc499f
+  bundle_collected_at: 2026-11-22T12:10:21.327Z
+  researched_at: 2026-11-22T12:23:25.297Z
   confidence: high
 classification:
   primary_category: developer-tools
@@ -46,17 +46,17 @@ license:
 status:
   lifecycle: active
   archived: false
-  latest_release: v5.8.0
-  latest_release_at: 2026-07-04
+  latest_release: v6.0.3
+  latest_release_at: "2026-11-19"
 strengths:
   - Broad, documented collection of commonly needed type-level utilities
   - No runtime API is required for normal use
   - Supports dependency installation or selective copying of types
 caveats:
-  - Requires TypeScript 5.9 or newer, ESM, and strict mode
+  - Requires TypeScript 6 or newer, ESM, and strict mode
   - The README documents the development version and directs users to npm for the latest released documentation
   - It supplies types only; runtime behavior must come from the consuming project or another library
 sources:
-  - https://raw.githubusercontent.com/sindresorhus/type-fest/48ddc4ba71cb215c3e3d98b0257360edc229fa75/readme.md
-  - https://raw.githubusercontent.com/sindresorhus/type-fest/48ddc4ba71cb215c3e3d98b0257360edc229fa75/package.json
+  - https://raw.githubusercontent.com/sindresorhus/type-fest/fb6bf5f00ee658e1dacc91cb9cd12d5abbbc499f/readme.md
+  - https://raw.githubusercontent.com/sindresorhus/type-fest/fb6bf5f00ee658e1dacc91cb9cd12d5abbbc499f/package.json
   - https://github.com/sindresorhus/type-fest/releases.atom

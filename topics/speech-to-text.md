@@ -21,7 +21,7 @@ A Python automatic speech-recognition tool that adds batched Whisper transcripti
 - **Languages:** Python
 - **License:** BSD-2-Clause
 - **Lifecycle:** Active
-- **GitHub stars:** 23,144
+- **GitHub stars:** 25,591
 
 **Key features**
 
@@ -42,7 +42,7 @@ A general-purpose Transformer speech-recognition model with Python and CLI tooli
 - **Languages:** Python
 - **License:** MIT
 - **Lifecycle:** Unknown
-- **GitHub stars:** 105,251
+- **GitHub stars:** 113,305
 
 **Key features**
 
@@ -63,7 +63,7 @@ An open-source Python framework for real-time voice and multimodal conversationa
 - **Languages:** Python
 - **License:** BSD-2-Clause
 - **Lifecycle:** Active
-- **GitHub stars:** 13,575
+- **GitHub stars:** 17,374
 
 **Key features**
 
@@ -84,7 +84,7 @@ A TypeScript CLI and package that uses Google Gemini models to analyze meeting a
 - **Languages:** TypeScript
 - **License:** Apache-2.0
 - **Lifecycle:** Unknown
-- **GitHub stars:** 567
+- **GitHub stars:** 568
 
 **Key features**
 

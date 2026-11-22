@@ -2,9 +2,9 @@ schema_version: 2
 repository_id: github:best-of-ai/best-of-ai
 research:
   state: complete
-  source_commit: bee1f3eb1f22d327cbf29b9dcb72ee23752e57ed
-  bundle_collected_at: 2026-07-19T20:41:51.832Z
-  researched_at: 2026-07-20T17:12:10.580+02:00
+  source_commit: f227635a6d89ca2867c72f33b1a61dbdd105f193
+  bundle_collected_at: 2026-11-22T12:09:04.682Z
+  researched_at: 2026-11-22T12:22:10.747Z
   confidence: medium
 classification:
   primary_category: documentation-and-learning
@@ -22,13 +22,18 @@ project:
     tools by category, professional role, and a maintainer-defined leaderboard.
   best_for:
     - Browsing categorized AI-tool listings and linked tool reviews
-    - Suggesting a new listing or correcting a directory entry through an issue or pull request
+    - Suggesting a new listing or correcting a directory entry through an issue
+      or pull request
 key_features:
-  - A generated Markdown index of AI tools grouped into numerous categories
-  - A leaderboard and category listings that link to individual review pages on the companion website
-  - Role-oriented tool collections for professionals such as developers, designers, and marketers
-  - Contribution instructions for tool records, categories, corrections, and issue-based submissions
-  - GitHub workflows for GitHub Pages deployment, README regeneration, and issue-submission review
+  - Generated Markdown indexes in multiple languages, with AI tools grouped by category
+  - A leaderboard and category listings that link to individual review pages on
+    the companion website
+  - Role-oriented tool collections for professionals such as developers,
+    designers, and marketers
+  - Contribution instructions for English tool records, translations, categories, corrections, and
+    issue-based submissions
+  - GitHub workflows for GitHub Pages deployment, README regeneration, and
+    issue-submission review
 usage:
   interfaces:
     - Markdown directory
@@ -52,8 +57,8 @@ license:
   spdx: null
   name: Repository-wide license not established
   notes: >-
-    The README labels the project MIT, but the retained commit tree does not
-    include a root LICENSE file and the imported GitHub snapshot has no SPDX
+    The README labels the project MIT, but the retained commit tree is truncated and does not
+    establish a root LICENSE file and the imported GitHub snapshot has no SPDX
     value; repository-wide reuse terms cannot be independently confirmed.
 status:
   lifecycle: active
@@ -61,18 +66,24 @@ status:
   latest_release: null
   latest_release_at: null
 strengths:
-  - Combines broad category navigation, professional-role groupings, and linked review pages
+  - Combines broad category navigation, professional-role groupings, and linked
+    review pages
   - Documents concrete paths for submissions, corrections, and category changes
-  - Uses automation to regenerate its published Markdown index and deploy the companion static site
+  - Uses automation to regenerate its published Markdown index and deploy the
+    companion static site
 caveats:
-  - Curatorial statements and leaderboard positions are maintainer judgments, not independently verified quality measures
-  - The repository links to third-party tools whose pricing, availability, and claims can change independently
-  - README claims an MIT license, but the retained source bundle does not establish the actual repository-wide license terms
-  - The cached releases feed has no entries, so no latest versioned release can be established
+  - Curatorial statements and leaderboard positions are maintainer judgments,
+    not independently verified quality measures
+  - The repository links to third-party tools whose pricing, availability, and
+    claims can change independently
+  - README claims an MIT license, but the retained source bundle does not
+    establish the actual repository-wide license terms
+  - The cached releases feed has no entries, so no latest versioned release can
+    be established
 sources:
-  - https://raw.githubusercontent.com/best-of-ai/best-of-ai/bee1f3eb1f22d327cbf29b9dcb72ee23752e57ed/README.md
-  - https://raw.githubusercontent.com/best-of-ai/best-of-ai/bee1f3eb1f22d327cbf29b9dcb72ee23752e57ed/CONTRIBUTING.md
-  - https://raw.githubusercontent.com/best-of-ai/best-of-ai/bee1f3eb1f22d327cbf29b9dcb72ee23752e57ed/.github/workflows/deploy.yml
-  - https://raw.githubusercontent.com/best-of-ai/best-of-ai/bee1f3eb1f22d327cbf29b9dcb72ee23752e57ed/.github/workflows/issue2pr.yml
-  - https://github.com/best-of-ai/best-of-ai/tree/bee1f3eb1f22d327cbf29b9dcb72ee23752e57ed
+  - https://raw.githubusercontent.com/best-of-ai/best-of-ai/f227635a6d89ca2867c72f33b1a61dbdd105f193/README.md
+  - https://raw.githubusercontent.com/best-of-ai/best-of-ai/f227635a6d89ca2867c72f33b1a61dbdd105f193/CONTRIBUTING.md
+  - https://raw.githubusercontent.com/best-of-ai/best-of-ai/f227635a6d89ca2867c72f33b1a61dbdd105f193/.github/workflows/deploy.yml
+  - https://raw.githubusercontent.com/best-of-ai/best-of-ai/f227635a6d89ca2867c72f33b1a61dbdd105f193/.github/workflows/issue2pr.yml
+  - https://github.com/best-of-ai/best-of-ai/tree/f227635a6d89ca2867c72f33b1a61dbdd105f193
   - https://github.com/best-of-ai/best-of-ai/releases.atom

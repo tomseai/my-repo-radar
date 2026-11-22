@@ -11,15 +11,19 @@ analysis:
       - "learn-and-reference"
       - "improve-developer-workflow"
   evidence:
-    - claim: "Awesome GitHub Copilot is a community collection of custom agents, instructions, skills, hooks, workflows, plugins, recipes, and learning material for GitHub Copilot."
+    - claim: "Awesome GitHub Copilot is a community collection of custom agents,
+        instructions, skills, hooks, workflows, plugins, recipes, and learning
+        material for GitHub Copilot."
       source_type: "repository-file"
       url: "https://github.com/github/awesome-copilot/blob/main/README.md"
       checked_at: "2026-07-19"
       confidence: "high"
   state: "complete"
   summary:
-    one_line: "A community-maintained collection of GitHub Copilot customizations, recipes, and learning resources."
-    why_useful: "It provides reusable agents, instructions, skills, and guides for adapting Copilot to development workflows."
+    one_line: "A community-maintained collection of GitHub Copilot customizations,
+      recipes, and learning resources."
+    why_useful: "It provides reusable agents, instructions, skills, and guides for
+      adapting Copilot to development workflows."
 curation:
   confidence: null
   evidence: []
@@ -33,36 +37,37 @@ id: "github:github/awesome-copilot"
 import:
   github_snapshot:
     archived: false
-    created_at: "2025-06-11T16:57:39Z"
-    default_branch: "main"
-    description: "Community-contributed instructions, agents, skills, and configurations to help you make the most of GitHub Copilot."
+    created_at: 2025-06-11T16:57:39Z
+    default_branch: main
+    description: Community-contributed instructions, agents, skills, and
+      configurations to help you make the most of GitHub Copilot.
     disabled: false
-    fetched_at: "2026-07-19T19:16:14.796Z"
+    fetched_at: 2026-11-22T12:07:00.148Z
     fork: false
-    forks: 4605
-    homepage: "https://awesome-copilot.github.com/"
+    forks: 5403
+    homepage: https://awesome-copilot.github.com/
     latest_release: null
-    license_spdx: "MIT"
-    open_issues: 53
-    primary_language: "Python"
-    pushed_at: "2026-07-18T20:59:43Z"
-    stars: 36773
+    license_spdx: MIT
+    open_issues: 99
+    primary_language: JavaScript
+    pushed_at: 2026-11-20T03:13:57Z
+    stars: 41437
     topics:
-      - "agent-skills"
-      - "agents"
-      - "ai"
-      - "awesome"
-      - "custom-agents"
-      - "github-copilot"
-      - "hacktoberfest"
-      - "prompt-engineering"
-    updated_at: "2026-07-19T18:32:57Z"
+      - agent-skills
+      - agents
+      - ai
+      - awesome
+      - custom-agents
+      - github-copilot
+      - hacktoberfest
+      - prompt-engineering
+    updated_at: 2026-11-22T10:51:35Z
   sources:
-    - observed_at: "2026-02-01T20:02:14Z"
-      relation: "starred"
-      source_id: "github:user:tomseai:stars"
-      source_url: "https://github.com/tomseai?tab=stars"
-  state: "imported"
+    - observed_at: 2026-02-01T20:02:14Z
+      relation: starred
+      source_id: github:user:tomseai:stars
+      source_url: https://github.com/tomseai?tab=stars
+  state: refreshed
 repository:
   aliases: []
   github_node_id: "R_kgDOO6BQUQ"

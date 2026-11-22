@@ -1,0 +1,47 @@
+schema_version: 2
+repository_id: github:feenkcom/gtoolkit
+research:
+  state: complete
+  source_commit: 3b3ef41731f2a0a9c7379f1655a146ccbaa867e1
+  bundle_collected_at: 2026-11-22T11:26:57.852Z
+  researched_at: 2026-11-22T12:00:00Z
+  confidence: high
+classification:
+  primary_category: developer-tools
+  topics: [developer-productivity, visualization, documentation, desktop-app]
+project:
+  name: Glamorous Toolkit
+  kind: application
+  summary: A moldable development environment for understanding systems by creating contextual, interactive tools around a specific problem.
+  best_for: [Developers exploring and explaining unfamiliar systems and artifacts]
+key_features:
+  - Integrated environment for building contextual exploration tools
+  - Composable visual and interactive operators
+  - Distribution includes many tools used to develop and explain the environment
+  - Live book with tutorials, setup guidance, and case studies
+usage:
+  interfaces: [desktop GUI]
+  installation: [official distribution, build from source]
+  setup: moderate
+technology:
+  languages: [Smalltalk]
+  notable_components: [Glamorous Toolkit virtual machine]
+license:
+  spdx: MIT
+  name: MIT License
+  notes: null
+status:
+  lifecycle: active
+  archived: false
+  latest_release: v1.1.699
+  latest_release_at: 2026-11-20
+strengths:
+  - Context-specific tools make system exploration adaptable to the problem
+  - Self-contained distribution includes extensive examples and learning material
+caveats:
+  - Effective use requires learning to program and adapt the environment
+  - Source installation builds an image and requires more setup than the distribution
+sources:
+  - https://raw.githubusercontent.com/feenkcom/gtoolkit/3b3ef41731f2a0a9c7379f1655a146ccbaa867e1/README.md
+  - https://raw.githubusercontent.com/feenkcom/gtoolkit/3b3ef41731f2a0a9c7379f1655a146ccbaa867e1/LICENSE
+  - https://github.com/feenkcom/gtoolkit/releases.atom

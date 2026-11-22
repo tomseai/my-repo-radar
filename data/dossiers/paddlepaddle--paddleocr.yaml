@@ -2,9 +2,9 @@ schema_version: 2
 repository_id: github:PaddlePaddle/PaddleOCR
 research:
   state: complete
-  source_commit: 211989f046cc1878460f9e65574690c00a127a1a
-  bundle_collected_at: 2026-07-19T20:44:47.655Z
-  researched_at: 2026-07-20T17:30:00.000Z
+  source_commit: dab3fe35379033fdcb2d0e9572fac0b36c9a9ebf
+  bundle_collected_at: 2026-11-22T12:10:12.815Z
+  researched_at: 2026-11-22T12:26:16Z
   confidence: high
 
 classification:
@@ -22,18 +22,25 @@ project:
   name: PaddleOCR
   kind: framework
   summary: >-
-    A Python-centered OCR and document-understanding toolkit that converts images and PDF
-    documents into structured outputs such as JSON and Markdown. It includes scene OCR,
-    document parsing, vision-language models, deployment material, SDKs, and an MCP server.
+    A Python-centered OCR and document-understanding toolkit that converts
+    images and PDF documents into structured outputs such as JSON and Markdown.
+    It includes scene OCR, document parsing, vision-language models, deployment
+    material, SDKs, and an MCP server.
   best_for:
-    - Developers extracting text and structure from images or PDF documents for downstream applications
-    - Teams preparing document data for RAG, LLM, or agent workflows with local or hosted inference options
+    - Developers extracting text and structure from images or PDF documents for
+      downstream applications
+    - Teams preparing document data for RAG, LLM, or agent workflows with local
+      or hosted inference options
 
 key_features:
-  - Provides PP-OCR scene text recognition and PP-StructureV3 document parsing pipelines
-  - Produces structured document outputs including Markdown, JSON, and coordinate-rich results
-  - Includes PaddleOCR-VL document vision-language models for tables, formulas, charts, and text
-  - Ships a Python CLI, optional document-parsing extras, deployment assets, SDKs, and an MCP server package
+  - Provides PP-OCR scene text recognition and PP-StructureV3 document parsing
+    pipelines
+  - Produces structured document outputs including Markdown, JSON, and
+    coordinate-rich results
+  - Includes PaddleOCR-VL document vision-language models for tables, formulas,
+    charts, and text
+  - Ships a Python CLI, optional document-parsing extras, deployment assets,
+    SDKs, and an MCP server package
 
 usage:
   interfaces:
@@ -43,7 +50,8 @@ usage:
     - official web API and SDKs
   installation:
     - Python 3.8 or later package installation
-    - optional pip extras for document parsing, information extraction, or translation
+    - optional pip extras for document parsing, information extraction, or
+      translation
     - Docker and service deployment assets
   setup: moderate
 
@@ -64,7 +72,8 @@ technology:
 license:
   spdx: Apache-2.0
   name: Apache License 2.0
-  notes: The cached top-level repository LICENSE is Apache-2.0; separately downloaded models and third-party dependencies can carry their own terms.
+  notes: The cached top-level repository LICENSE is Apache-2.0; separately
+    downloaded models and third-party dependencies can carry their own terms.
 
 status:
   lifecycle: active
@@ -73,18 +82,24 @@ status:
   latest_release_at: 2026-06-11
 
 strengths:
-  - Covers both scene OCR and structured document parsing in one maintained project
-  - Offers several integration surfaces, including Python, CLI, SDK, service, browser, and MCP paths
-  - Supports structured outputs suited to document-processing and AI application pipelines
+  - Covers both scene OCR and structured document parsing in one maintained
+    project
+  - Offers several integration surfaces, including Python, CLI, SDK, service,
+    browser, and MCP paths
+  - Supports structured outputs suited to document-processing and AI application
+    pipelines
 
 caveats:
-  - Model choice, inference backend, and deployment target make the setup more involved than a single OCR library
-  - Local document parsing can require optional dependencies, models, and suitable compute resources
-  - Model and dependency licenses should be assessed separately from the Apache-2.0 repository license
+  - Model choice, inference backend, and deployment target make the setup more
+    involved than a single OCR library
+  - Local document parsing can require optional dependencies, models, and
+    suitable compute resources
+  - Model and dependency licenses should be assessed separately from the
+    Apache-2.0 repository license
 
 sources:
-  - https://raw.githubusercontent.com/PaddlePaddle/PaddleOCR/211989f046cc1878460f9e65574690c00a127a1a/README.md
-  - https://raw.githubusercontent.com/PaddlePaddle/PaddleOCR/211989f046cc1878460f9e65574690c00a127a1a/pyproject.toml
-  - https://raw.githubusercontent.com/PaddlePaddle/PaddleOCR/211989f046cc1878460f9e65574690c00a127a1a/mcp_server/pyproject.toml
-  - https://raw.githubusercontent.com/PaddlePaddle/PaddleOCR/211989f046cc1878460f9e65574690c00a127a1a/LICENSE
+  - https://raw.githubusercontent.com/PaddlePaddle/PaddleOCR/dab3fe35379033fdcb2d0e9572fac0b36c9a9ebf/README.md
+  - https://raw.githubusercontent.com/PaddlePaddle/PaddleOCR/dab3fe35379033fdcb2d0e9572fac0b36c9a9ebf/pyproject.toml
+  - https://raw.githubusercontent.com/PaddlePaddle/PaddleOCR/dab3fe35379033fdcb2d0e9572fac0b36c9a9ebf/mcp_server/pyproject.toml
+  - https://raw.githubusercontent.com/PaddlePaddle/PaddleOCR/dab3fe35379033fdcb2d0e9572fac0b36c9a9ebf/LICENSE
   - https://github.com/PaddlePaddle/PaddleOCR/releases.atom

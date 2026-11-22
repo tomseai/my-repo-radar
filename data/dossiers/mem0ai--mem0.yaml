@@ -2,11 +2,10 @@ schema_version: 2
 repository_id: github:mem0ai/mem0
 research:
   state: complete
-  source_commit: 9383e9a2556a533d289a8aa041c7a6660e806581
-  bundle_collected_at: 2026-07-19T20:44:04.422Z
-  researched_at: 2026-07-20T17:41:07.234+02:00
+  source_commit: fff8a6472512d1bc1a4bccab8c645b65a1df7fe5
+  bundle_collected_at: 2026-11-22T12:09:55.072Z
+  researched_at: 2026-11-22T12:24:40.186Z
   confidence: high
-
 classification:
   primary_category: ai-and-automation
   topics:
@@ -17,26 +16,26 @@ classification:
     - self-hosted
     - multi-provider
     - agent-skills
-
 project:
   name: Mem0
   kind: library
-  summary: >-
-    An AI-agent memory layer with Python and Node SDKs for extracting, storing,
-    and retrieving persistent user, session, and agent context, plus optional
-    self-hosted, CLI, and managed-platform deployment paths.
+  summary: An AI-agent memory layer with Python and Node SDKs for extracting,
+    storing, and retrieving persistent user, session, and agent context, plus
+    optional self-hosted, CLI, and managed-platform deployment paths.
   best_for:
     - Adding long-term, personalized memory to an AI application or agent
-    - Teams choosing between embedded SDK use, a self-hosted service, and a managed platform
-
+    - Teams choosing between embedded SDK use, a self-hosted service, and a
+      managed platform
 key_features:
-  - Memory APIs for adding and searching context scoped by user, agent, or session
-  - Python and Node SDKs with configurable LLM, embedding, and vector-store dependencies
-  - Hybrid retrieval using semantic, keyword, and entity signals when NLP support is installed
+  - Memory APIs for adding and searching context scoped by user, agent, or
+    session
+  - Python and Node SDKs with configurable LLM, embedding, and vector-store
+    dependencies
+  - Hybrid retrieval using semantic, keyword, and entity signals when NLP
+    support is installed
   - Self-hosted API and dashboard stack with authentication enabled by default
   - Node and Python CLIs for initializing, adding, and searching memories
   - Agent skills and integrations for coding-agent and AI SDK workflows
-
 usage:
   interfaces:
     - Python SDK
@@ -50,7 +49,6 @@ usage:
     - Docker Compose self-hosting
     - global Node or Python CLI package
   setup: moderate
-
 technology:
   languages:
     - Python
@@ -59,32 +57,36 @@ technology:
     - Qdrant
     - PostgreSQL with pgvector
     - Docker Compose
-
 license:
   spdx: Apache-2.0
   name: Apache License 2.0
-  notes: Permissive license with patent grant and notice requirements; no additional repository-level restriction is stated.
-
+  notes: Permissive license with patent grant and notice requirements; no
+    additional repository-level restriction is stated.
 status:
   lifecycle: active
   archived: false
-  latest_release: v2.0.12 (Python SDK)
-  latest_release_at: 2026-07-13
-
+  latest_release: v2.2.1
+  latest_release_at: 2026-09-25
 strengths:
-  - Covers embedded SDK, CLI, self-hosted, and managed deployment choices in one project
-  - Supports multiple model and vector-store integrations rather than a single fixed backend
+  - Covers embedded SDK, CLI, self-hosted, and managed deployment choices in
+    one project
+  - Supports multiple model and vector-store integrations rather than a single
+    fixed backend
   - Provides concrete quickstarts and integrations for common agent workflows
-
 caveats:
-  - The library requires an LLM and embedding configuration; the documented defaults use OpenAI services
+  - The library requires an LLM and embedding configuration; the documented
+    defaults use OpenAI services
   - Hybrid retrieval adds NLP dependencies and a spaCy model download
-  - Self-hosting requires Docker, PostgreSQL/pgvector, configuration secrets, and initial authentication setup
-  - The repository publishes parallel SDK and CLI releases; v2.0.12 is the latest primary Python SDK release, while the Node SDK is v3.1.0
-
+  - Self-hosting requires Docker, PostgreSQL/pgvector, configuration secrets,
+    and initial authentication setup
+  - The repository publishes parallel SDK and CLI releases. The Python SDK
+    release v2.2.1 is the primary version shown here, and ts-v3.3.1 identifies
+    the separate Node SDK
 sources:
-  - https://raw.githubusercontent.com/mem0ai/mem0/9383e9a2556a533d289a8aa041c7a6660e806581/README.md
-  - https://raw.githubusercontent.com/mem0ai/mem0/9383e9a2556a533d289a8aa041c7a6660e806581/LICENSE
-  - https://raw.githubusercontent.com/mem0ai/mem0/9383e9a2556a533d289a8aa041c7a6660e806581/pyproject.toml
-  - https://raw.githubusercontent.com/mem0ai/mem0/9383e9a2556a533d289a8aa041c7a6660e806581/server/docker-compose.yaml
+  - https://raw.githubusercontent.com/mem0ai/mem0/fff8a6472512d1bc1a4bccab8c645b65a1df7fe5/README.md
+  - https://raw.githubusercontent.com/mem0ai/mem0/fff8a6472512d1bc1a4bccab8c645b65a1df7fe5/LICENSE
+  - https://raw.githubusercontent.com/mem0ai/mem0/fff8a6472512d1bc1a4bccab8c645b65a1df7fe5/pyproject.toml
+  - https://raw.githubusercontent.com/mem0ai/mem0/fff8a6472512d1bc1a4bccab8c645b65a1df7fe5/server/docker-compose.yaml
   - https://github.com/mem0ai/mem0/releases.atom
+  - https://github.com/mem0ai/mem0/releases/tag/v2.2.1
+  - https://github.com/mem0ai/mem0/releases/tag/ts-v3.3.1

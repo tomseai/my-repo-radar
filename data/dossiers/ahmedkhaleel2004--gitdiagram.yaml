@@ -2,9 +2,9 @@ schema_version: 2
 repository_id: github:ahmedkhaleel2004/gitdiagram
 research:
   state: complete
-  source_commit: dc7e9380531844f23ab933f3dbf019e01e9504e7
-  bundle_collected_at: 2026-07-19T20:41:31.114Z
-  researched_at: 2026-07-19T22:43:25.155Z
+  source_commit: 39847f550220c5b547696277fdea89b9ba9eaff5
+  bundle_collected_at: 2026-11-22T12:09:00.414Z
+  researched_at: 2026-11-22T12:23:16Z
   confidence: high
 classification:
   primary_category: developer-tools
@@ -17,22 +17,27 @@ project:
   name: GitDiagram
   kind: application
   summary: >-
-    A web application that turns public or authorized private GitHub repositories
-    into validated, interactive system-level architecture diagrams and Mermaid exports.
+    A web application that turns public or authorized private GitHub
+    repositories into validated, interactive system-level architecture diagrams
+    and Mermaid exports.
   best_for:
-    - Exploring an unfamiliar GitHub repository through a linked architecture view
+    - Exploring an unfamiliar GitHub repository through a linked architecture
+      view
     - Sharing a generated system diagram before reading a codebase in depth
 key_features:
   - Builds a system-level graph from a repository tree and README
   - Links rendered components to their corresponding GitHub files or directories
   - Streams an architecture explanation and graph-generation progress
-  - Validates model output, graph connectivity, paths, and Mermaid links before rendering
+  - Validates model output, graph connectivity, paths, and Mermaid links before
+    rendering
   - Exports Mermaid source or a rendered PNG
-  - Supports authorized private-repository generation with a browser-supplied GitHub token
+  - Supports authorized private-repository generation and offers a remote MCP
+    server for public diagrams
 usage:
   interfaces:
     - Web application
     - same-origin HTTP API
+    - remote MCP server
   installation:
     - Hosted application
     - Bun local development build
@@ -59,14 +64,19 @@ status:
 strengths:
   - Produces diagrams tied to real repository paths rather than folder-only views
   - Applies validation and sanitization around model output and rendered Mermaid
-  - Can generate diagrams for private repositories without putting the token in public links
+  - Can generate diagrams for private repositories without putting the token in
+    public links
 caveats:
+  - Creating narrated explainer videos is in early access
   - Local use requires R2, Upstash, and credentials for one supported AI provider
-  - Private-repository generation needs a fine-grained GitHub token with repository access
-  - The Docker and Railway path is documented as disaster recovery, not the normal hosted runtime
-  - The cached GitHub release feed has no entries, so no project release can be established
+  - Private-repository generation requires GitHub authorization
+  - The Docker and Railway path is documented as disaster recovery, not the
+    normal hosted runtime
+  - The cached GitHub release feed has no entries, so no project release can be
+    established
 sources:
-  - https://raw.githubusercontent.com/ahmedkhaleel2004/gitdiagram/dc7e9380531844f23ab933f3dbf019e01e9504e7/README.md
-  - https://raw.githubusercontent.com/ahmedkhaleel2004/gitdiagram/dc7e9380531844f23ab933f3dbf019e01e9504e7/LICENSE
-  - https://raw.githubusercontent.com/ahmedkhaleel2004/gitdiagram/dc7e9380531844f23ab933f3dbf019e01e9504e7/docs/dev-setup.md
+  - https://raw.githubusercontent.com/ahmedkhaleel2004/gitdiagram/39847f550220c5b547696277fdea89b9ba9eaff5/README.md
+  - https://raw.githubusercontent.com/ahmedkhaleel2004/gitdiagram/39847f550220c5b547696277fdea89b9ba9eaff5/LICENSE
+  - https://raw.githubusercontent.com/ahmedkhaleel2004/gitdiagram/39847f550220c5b547696277fdea89b9ba9eaff5/docs/dev-setup.md
   - https://github.com/ahmedkhaleel2004/gitdiagram/releases.atom
+  - https://github.com/ahmedkhaleel2004/gitdiagram/commit/39847f550220c5b547696277fdea89b9ba9eaff5

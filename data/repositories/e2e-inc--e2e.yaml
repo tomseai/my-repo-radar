@@ -1,0 +1,91 @@
+analysis:
+  analyzed_at: 2026-11-22T11:28:29Z
+  classification:
+    primary_category: testing-and-quality
+    state: confirmed
+    technologies:
+      - typescript
+    topics:
+      - testing
+      - automation
+      - ai-agents
+      - browser-automation
+      - mcp
+      - mobile-development
+    use_cases:
+      - test-software
+  evidence:
+    - claim: An end-to-end testing framework for web and mobile apps combining
+        natural-language agent actions with conventional locators and
+        assertions.
+      source_type: repository-file
+      url: https://raw.githubusercontent.com/e2e-inc/e2e/77c5e537db338eeff3c8e819045c23acdeed698e/README.md
+      checked_at: 2026-11-22
+      confidence: high
+  state: complete
+  summary:
+    one_line: An end-to-end testing framework for web and mobile apps combining
+      natural-language agent actions with conventional locators and assertions.
+    why_useful: Teams automating application journeys across browsers and mobile devices
+curation:
+  confidence: null
+  evidence: []
+  limitations: []
+  recommendation: null
+  reviewed_at: null
+  state: "uncurated"
+  strengths: []
+  verdict: null
+id: "github:e2e-inc/e2e"
+import:
+  github_snapshot:
+    archived: false
+    created_at: 2026-07-22T09:29:04Z
+    default_branch: main
+    description: Next generation e2e testing framework for web and mobile apps.
+    disabled: false
+    fetched_at: 2026-11-22T12:07:00.148Z
+    fork: false
+    forks: 788
+    homepage: https://e2e.com
+    latest_release:
+      tag: "@e2e-dev/testmu@0.0.6"
+      published_at: 2026-11-19T14:40:12Z
+      url: https://github.com/e2e-inc/e2e/releases/tag/%40e2e-dev/testmu%400.0.6
+    license_spdx: Apache-2.0
+    open_issues: 126
+    primary_language: TypeScript
+    pushed_at: 2026-11-22T10:40:49Z
+    stars: 14113
+    topics:
+      - agentic-testing
+      - ai-testing
+      - automation-testing
+      - e2e
+      - e2e-testing
+      - end-to-end-testing
+      - mobile
+      - mobile-testing
+      - playwright
+      - qa
+      - test-automation
+      - testing
+      - testing-framework
+      - testing-tools
+      - ui-testing
+      - web
+    updated_at: 2026-11-22T11:20:22Z
+  sources:
+    - observed_at: 2026-10-19T17:20:47Z
+      relation: starred
+      source_id: github:user:tomseai:stars
+      source_url: https://github.com/tomseai?tab=stars
+  state: refreshed
+repository:
+  aliases: []
+  github_node_id: "R_kgDOTgAgwg"
+  host: "github.com"
+  name: "e2e"
+  owner: "e2e-inc"
+  url: "https://github.com/e2e-inc/e2e"
+version: 1

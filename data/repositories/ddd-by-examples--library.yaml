@@ -1,0 +1,86 @@
+analysis:
+  analyzed_at: 2026-11-22T11:28:03Z
+  classification:
+    primary_category: documentation-and-learning
+    state: confirmed
+    technologies:
+      - java
+    topics:
+      - tutorials
+      - reference
+      - backend-development
+      - testing
+    use_cases:
+      - learn-and-reference
+  evidence:
+    - claim: An example public-library application illustrating domain-driven design
+        from discovery through implementation and tests.
+      source_type: repository-file
+      url: https://raw.githubusercontent.com/ddd-by-examples/library/5225ff7a0f0c1e0751b91cdd64f925cd001d7555/README.md
+      checked_at: 2026-11-22
+      confidence: high
+  state: complete
+  summary:
+    one_line: An example public-library application illustrating domain-driven
+      design from discovery through implementation and tests.
+    why_useful: Developers studying domain modeling and architecture in a concrete
+      Java application
+curation:
+  confidence: null
+  evidence: []
+  limitations: []
+  recommendation: null
+  reviewed_at: null
+  state: "uncurated"
+  strengths: []
+  verdict: null
+id: "github:ddd-by-examples/library"
+import:
+  github_snapshot:
+    archived: false
+    created_at: 2019-01-11T09:14:03Z
+    default_branch: master
+    description: A comprehensive Domain-Driven Design example with problem space
+      strategic analysis and various tactical patterns.
+    disabled: false
+    fetched_at: 2026-11-22T12:07:00.148Z
+    fork: false
+    forks: 849
+    homepage: null
+    latest_release: null
+    license_spdx: MIT
+    open_issues: 18
+    primary_language: Java
+    pushed_at: 2026-09-17T12:33:08Z
+    stars: 6071
+    topics:
+      - aggregate
+      - aggregate-root
+      - archunit
+      - c4
+      - crud
+      - ddd
+      - ddd-architecture
+      - domain-driven-design
+      - event-storming
+      - events
+      - functions
+      - hexagonal-architecture
+      - ports-and-adapters
+      - spring
+      - vavr
+    updated_at: 2026-11-21T19:55:18Z
+  sources:
+    - observed_at: 2026-11-15T21:09:06Z
+      relation: starred
+      source_id: github:user:tomseai:stars
+      source_url: https://github.com/tomseai?tab=stars
+  state: refreshed
+repository:
+  aliases: []
+  github_node_id: "MDEwOlJlcG9zaXRvcnkxNjUyMTQ0OTQ="
+  host: "github.com"
+  name: "library"
+  owner: "ddd-by-examples"
+  url: "https://github.com/ddd-by-examples/library"
+version: 1

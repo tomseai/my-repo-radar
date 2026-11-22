@@ -1,0 +1,44 @@
+schema_version: 2
+repository_id: github:blader/humanizer
+research:
+  state: complete
+  source_commit: a32f24407364c74c812b43c15926d638bee1e072
+  bundle_collected_at: 2026-11-22T11:27:15.661Z
+  researched_at: 2026-11-22T12:00:00Z
+  confidence: high
+classification:
+  primary_category: ai-and-automation
+  topics: [llms, developer-productivity]
+project:
+  name: humanizer
+  kind: plugin
+  summary: An agent skill for revising formulaic AI-written prose while preserving its claims and adapting to a writer's voice.
+  best_for: [Writers editing AI-assisted drafts in compatible agents]
+key_features:
+  - Reviews 26 common writing patterns
+  - Rewrites pasted text or edits prose in files
+  - Matches voice from a supplied writing sample
+usage:
+  interfaces: [agent skill, slash command]
+  installation: [Skills CLI, Claude Code plugin, manual skill installation]
+  setup: low
+technology:
+  languages: []
+  notable_components: [Claude Code, Codex]
+license:
+  spdx: MIT
+  name: MIT License
+  notes: null
+status:
+  lifecycle: active
+  archived: false
+  latest_release: v4.0.0
+  latest_release_at: 2026-11-10
+strengths: [Supports voice samples and preserves non-prose file content]
+caveats: [Requires a compatible language-model agent, Does not aim to evade AI detectors and output may still be flagged]
+sources:
+  - https://raw.githubusercontent.com/blader/humanizer/a32f24407364c74c812b43c15926d638bee1e072/README.md
+  - https://raw.githubusercontent.com/blader/humanizer/a32f24407364c74c812b43c15926d638bee1e072/LICENSE
+  - https://raw.githubusercontent.com/blader/humanizer/a32f24407364c74c812b43c15926d638bee1e072/package.json
+  - https://raw.githubusercontent.com/blader/humanizer/a32f24407364c74c812b43c15926d638bee1e072/CHANGELOG.md
+  - https://github.com/blader/humanizer/releases.atom

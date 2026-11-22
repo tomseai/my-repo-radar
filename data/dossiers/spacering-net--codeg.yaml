@@ -1,0 +1,103 @@
+schema_version: 2
+repository_id: github:spacering-net/codeg
+research:
+  state: complete
+  source_commit: a7427c4e66926f1de7f928d1b963cdb7f8566fe5
+  bundle_collected_at: 2026-11-22T12:10:26.939Z
+  researched_at: 2026-11-22T12:20:49.507475+00:00
+  confidence: high
+classification:
+  primary_category: developer-tools
+  topics:
+    - coding-agents
+    - agent-development-environments
+    - multi-agent
+    - desktop-app
+    - git
+    - worktrees
+    - mcp
+    - agent-skills
+    - automation
+    - web-ui
+    - self-hosted
+    - local-first
+project:
+  name: codeg
+  kind: application
+  summary: >-
+    A local-first multi-agent coding workspace that aggregates sessions from
+    many coding-agent CLIs and adds collaboration, Git worktrees, MCP and skill
+    management, automation, and desktop, browser-server, or Docker deployment.
+  best_for:
+    - Developers coordinating sessions from several local coding agents in one
+      workspace
+    - Teams that need a self-hosted browser workspace or desktop interface for
+      agent-assisted Git work
+key_features:
+  - Imports existing agent sessions and supports multiple built-in agents plus
+    Agent Client Protocol integrations
+  - Multi-agent delegation through the bundled codeg-mcp companion
+  - Parallel development with built-in Git worktree flows
+  - Local and project-scoped skill management plus MCP discovery, registry
+    search, and installation
+  - Reusable scheduled or on-demand headless automations
+  - Desktop app, standalone HTTP/WebSocket server, and Docker deployment modes
+usage:
+  interfaces:
+    - Tauri desktop app
+    - browser-based web workspace
+    - iOS and Android apps
+    - standalone server
+    - Docker container
+    - MCP companion
+  installation:
+    - GitHub release binaries
+    - Linux/macOS shell installer
+    - Windows PowerShell installer
+    - Docker or Docker Compose
+    - build from source
+  setup: moderate
+technology:
+  languages:
+    - TypeScript
+    - Rust
+  notable_components:
+    - Tauri 2
+    - Next.js 16
+    - React 19
+    - Agent Client Protocol
+    - SQLite
+    - Docker
+license:
+  spdx: Apache-2.0
+  name: Apache License 2.0
+  notes: null
+status:
+  lifecycle: active
+  archived: false
+  latest_release: v0.47.0
+  latest_release_at: 2026-11-20
+strengths:
+  - Centralizes sessions from many coding-agent CLIs while preserving desktop,
+    browser, and self-hosted deployment choices
+  - Combines delegation, worktrees, Git operations, MCP, skills, and automations
+    in one workspace
+  - Provides documented installer, binary, Docker, and source-build paths for
+    server use
+caveats:
+  - Agent availability, credentials, and session import behavior depend on the
+    separately configured coding-agent tools
+  - The repository transferred from xintaofei/codeg to spacering-net/codeg
+  - Desktop source builds require Node.js, pnpm, Rust, and Tauri platform
+    dependencies
+  - Server deployments should retain the generated or configured access token
+    and persist the data volume; custom binary layouts must keep the MCP
+    companion discoverable for delegation
+sources:
+  - https://raw.githubusercontent.com/spacering-net/codeg/a7427c4e66926f1de7f928d1b963cdb7f8566fe5/README.md
+  - https://raw.githubusercontent.com/spacering-net/codeg/a7427c4e66926f1de7f928d1b963cdb7f8566fe5/LICENSE
+  - https://raw.githubusercontent.com/spacering-net/codeg/a7427c4e66926f1de7f928d1b963cdb7f8566fe5/package.json
+  - https://raw.githubusercontent.com/spacering-net/codeg/a7427c4e66926f1de7f928d1b963cdb7f8566fe5/install.ps1
+  - https://raw.githubusercontent.com/spacering-net/codeg/a7427c4e66926f1de7f928d1b963cdb7f8566fe5/docker-compose.yml
+  - https://github.com/spacering-net/codeg/releases.atom
+  - https://github.com/spacering-net/codeg/releases/tag/v0.47.0

@@ -1,0 +1,101 @@
+schema_version: 2
+repository_id: github:LibreChat-AI/LibreChat
+research:
+  state: complete
+  source_commit: 4700c44eb77c142b4f9f8b87476924f22890eb39
+  bundle_collected_at: 2026-11-22T12:09:50.690Z
+  researched_at: 2026-11-22T12:23:46.267Z
+  confidence: medium
+classification:
+  primary_category: platforms-and-applications
+  topics:
+    - chat-ui
+    - ai-agents
+    - agent-skills
+    - mcp
+    - multi-provider
+    - self-hosted
+    - web-search
+    - authentication
+    - document-processing
+project:
+  name: LibreChat
+  kind: application
+  summary: >-
+    A self-hosted, multi-user AI chat platform that unifies hosted, custom, and
+    local model endpoints with configurable agents, MCP tools, file workflows,
+    web search, and Docker-based deployment.
+  best_for:
+    - Teams operating a configurable shared AI chat service on their own
+      infrastructure
+    - Users who need one interface for multiple model providers, agents, tools,
+      and conversation controls
+key_features:
+  - Connects to major hosted providers, custom OpenAI-compatible endpoints, and
+    local or remote model providers
+  - Supports custom agents with skills, subagents, MCP servers, tools, file
+    search, and code execution
+  - Exposes an Agent Management API for deployment-bound OIDC clients
+  - Supports on-demand conversation compaction and fullscreen artifact previews
+  - Adds web search with search providers, content scrapers, and reranking
+    support
+  - Provides file and multimodal chat, code artifacts, image generation, and
+    conversation search
+  - Includes OAuth2, LDAP, and email login options plus administration for
+    users, groups, roles, and permissions
+  - Documents Docker Compose stacks and local or cloud deployment options
+usage:
+  interfaces:
+    - web application
+    - Docker Compose deployment
+    - administrative web panel
+  installation:
+    - Docker Compose stack
+    - source checkout with npm workspaces
+  setup: moderate
+technology:
+  languages:
+    - TypeScript
+    - JavaScript
+  notable_components:
+    - React
+    - Node.js
+    - Docker Compose
+    - Model Context Protocol
+    - npm workspaces
+license:
+  spdx: MIT
+  name: MIT License
+  notes: >-
+    The repository LICENSE grants permissive MIT terms with notice retention and
+    no warranty; the root package manifest instead declares ISC, creating a
+    scope-label conflict.
+status:
+  lifecycle: active
+  archived: false
+  latest_release: v0.8.9
+  latest_release_at: "2026-11-17"
+strengths:
+  - Brings provider selection, agents, MCP tools, search, and file workflows
+    into one self-hosted UI
+  - Provides multi-user authentication, role and group controls, and a
+    browser-based administration panel
+  - Supports simple Docker Compose deployment alongside source-based development
+    and deployment paths
+caveats:
+  - Running a shared deployment requires infrastructure configuration and
+    credentials for selected AI, search, or authentication providers
+  - Startup-loaded Agent Plugins and attached code workspaces are documented as experimental.
+  - Several capabilities depend on external model, tool, search, or
+    code-interpreter services and their separate terms or costs
+  - The release feed interleaves Helm-chart tags; v0.8.9 is the primary
+    LibreChat application release, not chart-2.0.7
+  - The root LICENSE is MIT while package.json declares ISC, so the retained
+    bundle does not fully resolve licensing labels for every package
+sources:
+  - https://raw.githubusercontent.com/LibreChat-AI/LibreChat/4700c44eb77c142b4f9f8b87476924f22890eb39/README.md
+  - https://raw.githubusercontent.com/LibreChat-AI/LibreChat/4700c44eb77c142b4f9f8b87476924f22890eb39/LICENSE
+  - https://raw.githubusercontent.com/LibreChat-AI/LibreChat/4700c44eb77c142b4f9f8b87476924f22890eb39/package.json
+  - https://raw.githubusercontent.com/LibreChat-AI/LibreChat/4700c44eb77c142b4f9f8b87476924f22890eb39/docker-compose.yml
+  - https://github.com/LibreChat-AI/LibreChat/releases.atom
+  - https://github.com/LibreChat-AI/LibreChat/releases/tag/v0.8.9

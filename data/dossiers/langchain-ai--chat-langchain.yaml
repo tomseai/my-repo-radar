@@ -2,9 +2,9 @@ schema_version: 2
 repository_id: github:langchain-ai/chat-langchain
 research:
   state: complete
-  source_commit: 65d06cb2a1fa1b1a005deea52e1fee044726fdb9
-  bundle_collected_at: 2026-07-19T20:43:38.459Z
-  researched_at: 2026-07-20T15:32:15.619Z
+  source_commit: c749660383669548b356dfdf6eeb5f2ee6ac9838
+  bundle_collected_at: 2026-11-22T12:09:42.963Z
+  researched_at: 2026-11-22T12:27:12.001058+00:00
   confidence: high
 
 classification:
@@ -30,7 +30,7 @@ project:
     - Developers studying a LangChain agent with a separate public web UI
 
 key_features:
-  - Searches official LangChain documentation through a Mintlify API
+  - Searches official LangChain documentation through managed MCP
   - Searches a Pylon support knowledge base for known issues and solutions
   - Filters off-topic requests with guardrail middleware
   - Validates URLs before including them in responses
@@ -76,14 +76,15 @@ strengths:
   - Documents local development and managed deployment paths
 
 caveats:
-  - Local use requires multiple third-party API credentials and service configuration
+  - Local use requires multiple third-party API credentials and service
+    configuration
   - The maintained deployment path depends on Managed Deep Agents infrastructure
-  - The repository retains a legacy LangGraph agent module, which may complicate orientation
+  - Signed-in and anonymous access uses Supabase authentication
   - The retained release feed contains no releases
 
 sources:
-  - https://raw.githubusercontent.com/langchain-ai/chat-langchain/65d06cb2a1fa1b1a005deea52e1fee044726fdb9/README.md
-  - https://raw.githubusercontent.com/langchain-ai/chat-langchain/65d06cb2a1fa1b1a005deea52e1fee044726fdb9/LICENSE
-  - https://raw.githubusercontent.com/langchain-ai/chat-langchain/65d06cb2a1fa1b1a005deea52e1fee044726fdb9/pyproject.toml
-  - https://raw.githubusercontent.com/langchain-ai/chat-langchain/65d06cb2a1fa1b1a005deea52e1fee044726fdb9/frontend/package.json
+  - https://raw.githubusercontent.com/langchain-ai/chat-langchain/c749660383669548b356dfdf6eeb5f2ee6ac9838/README.md
+  - https://raw.githubusercontent.com/langchain-ai/chat-langchain/c749660383669548b356dfdf6eeb5f2ee6ac9838/LICENSE
+  - https://raw.githubusercontent.com/langchain-ai/chat-langchain/c749660383669548b356dfdf6eeb5f2ee6ac9838/pyproject.toml
+  - https://raw.githubusercontent.com/langchain-ai/chat-langchain/c749660383669548b356dfdf6eeb5f2ee6ac9838/frontend/package.json
   - https://github.com/langchain-ai/chat-langchain/releases.atom

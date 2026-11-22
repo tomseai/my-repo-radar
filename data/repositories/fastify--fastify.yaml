@@ -12,7 +12,9 @@ analysis:
       - "build-backend-services"
       - "build-web-applications"
   evidence:
-    - claim: "Fastify is a Node.js web framework focused on low overhead, developer experience, and a plugin architecture, with routing, schema support, and logging."
+    - claim: "Fastify is a Node.js web framework focused on low overhead, developer
+        experience, and a plugin architecture, with routing, schema support, and
+        logging."
       source_type: "repository-file"
       url: "https://github.com/fastify/fastify/blob/main/README.md"
       checked_at: "2026-07-19"
@@ -20,7 +22,8 @@ analysis:
   state: "researched"
   summary:
     one_line: "A low-overhead Node.js web framework with a plugin architecture."
-    why_useful: "It provides routing, schema-based validation, logging, and extensibility for backend web applications."
+    why_useful: "It provides routing, schema-based validation, logging, and
+      extensibility for backend web applications."
 curation:
   confidence: null
   evidence: []
@@ -34,33 +37,38 @@ id: "github:fastify/fastify"
 import:
   github_snapshot:
     archived: false
-    created_at: "2016-09-28T19:10:14Z"
-    default_branch: "main"
-    description: "Fast and low overhead web framework, for Node.js"
+    created_at: 2016-09-28T19:10:14Z
+    default_branch: main
+    description: Fast and low overhead web framework, for Node.js
     disabled: false
-    fetched_at: "2026-07-19T19:16:14.796Z"
+    fetched_at: 2026-11-22T12:07:00.148Z
     fork: false
-    forks: 2841
-    homepage: "https://www.fastify.dev"
-    latest_release: null
-    license_spdx: "MIT"
-    open_issues: 140
-    primary_language: "JavaScript"
-    pushed_at: "2026-07-19T13:21:22Z"
-    stars: 36758
+    forks: 3181
+    homepage: https://www.fastify.dev
+    latest_release:
+      tag: v5.12.8
+      published_at: 2026-11-02T10:51:32Z
+      url: https://github.com/fastify/fastify/releases/tag/v5.12.8
+    license_spdx: MIT
+    open_issues: 204
+    primary_language: JavaScript
+    pushed_at: 2026-11-21T15:31:44Z
+    stars: 37453
     topics:
-      - "hacktoberfest"
-      - "nodejs"
-      - "performance"
-      - "speed"
-      - "webframework"
-    updated_at: "2026-07-19T17:00:54Z"
+      - fastify
+      - fastify-core
+      - hacktoberfest
+      - nodejs
+      - performance
+      - speed
+      - webframework
+    updated_at: 2026-11-22T10:22:39Z
   sources:
-    - observed_at: "2026-05-01T17:15:02Z"
-      relation: "starred"
-      source_id: "github:user:tomseai:stars"
-      source_url: "https://github.com/tomseai?tab=stars"
-  state: "imported"
+    - observed_at: 2026-05-01T17:15:02Z
+      relation: starred
+      source_id: github:user:tomseai:stars
+      source_url: https://github.com/tomseai?tab=stars
+  state: refreshed
 repository:
   aliases: []
   github_node_id: "MDEwOlJlcG9zaXRvcnk2OTQ5NTE3MA=="

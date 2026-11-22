@@ -2,9 +2,9 @@ schema_version: 2
 repository_id: github:Leey21/awesome-ai-research-writing
 research:
   state: complete
-  source_commit: c07628b453309a1fb131ee105b2f01190162bc6c
-  bundle_collected_at: 2026-07-19T20:43:44.417Z
-  researched_at: 2026-07-20T15:41:44.4450320Z
+  source_commit: df0af726a79109b8760c1b80d5dfc36ed44a6f1f
+  bundle_collected_at: 2026-11-22T12:09:42.188Z
+  researched_at: 2026-11-22T12:24:32.481Z
   confidence: medium
 classification:
   primary_category: documentation-and-learning
@@ -16,17 +16,22 @@ classification:
 project:
   name: Awesome AI Research Writing
   kind: curated-list
-  summary: >-
-    A Chinese-language collection of copy-ready prompts and linked agent-skill
+  summary: A Chinese-language collection of copy-ready prompts and linked agent-skill
     workflows for AI-assisted academic research writing.
   best_for:
-    - Researchers who want reusable prompts for drafting, translating, or reviewing papers
-    - Cursor or Claude Code users who want guidance for installing writing-related skills
+    - Researchers who want reusable prompts for drafting, translating, or reviewing
+      papers
+    - Cursor or Claude Code users who want guidance for installing writing-related
+      skills
 key_features:
-  - Provides Chinese-to-English and English-to-Chinese academic-paper prompts for both LaTeX and Word workflows
-  - Includes prompts for polishing, logical checks, shortening or expanding text, experiment analysis, and reviewer-style paper review
-  - Covers paper-figure, table-title, and figure-caption preparation alongside writing prompts
-  - Explains an OpenSkills-based workflow for locating, installing, and invoking related agent skills
+  - Provides Chinese-to-English and English-to-Chinese academic-paper prompts for
+    both LaTeX and Word workflows
+  - Includes prompts for polishing, logical checks, shortening or expanding text,
+    experiment analysis, and reviewer-style paper review
+  - Covers paper-figure, table-title, and figure-caption preparation alongside
+    writing prompts
+  - Explains an OpenSkills-based workflow for locating, installing, and invoking
+    related agent skills
 usage:
   interfaces:
     - Markdown prompt collection
@@ -46,8 +51,7 @@ technology:
 license:
   spdx: null
   name: No license identified
-  notes: >-
-    No license file appears in the retained complete source tree, so reuse and
+  notes: No license file appears in the retained complete source tree, so reuse and
     redistribution rights are not established by the retained evidence.
 status:
   lifecycle: active
@@ -56,14 +60,21 @@ status:
   latest_release_at: null
 strengths:
   - Brings many common academic-writing tasks into one copy-ready prompt collection
-  - Distinguishes LaTeX and Word output constraints rather than applying one format to every workflow
-  - Extends the prompt collection with practical instructions for using external writing skills
+  - Distinguishes LaTeX and Word output constraints rather than applying one format
+    to every workflow
+  - Extends the prompt collection with practical instructions for using external
+    writing skills
 caveats:
-  - Most documentation and prompts are written in Chinese, which may limit direct use for non-Chinese readers
-  - The skill section primarily documents installing skills from other repositories rather than shipping those skills here
-  - The optional OpenSkills workflow requires Node.js 20.6 or newer and Git according to the README
-  - No license file is present in the retained tree, so adoption should not assume permission to reuse the material
+  - Most documentation and prompts are written in Chinese, which may limit direct use
+    for non-Chinese readers
+  - The skill section primarily documents installing skills from other repositories
+    rather than shipping those skills here
+  - The optional OpenSkills workflow requires Node.js 20.6 or newer and Git according
+  - The README’s model recommendations reflect its authors’ editorial judgment and may change as model versions and access change
+    to the README
+  - No license file is present in the retained tree, so adoption should not assume
+    permission to reuse the material
   - The retained release feed has no entries, so no project release can be established
 sources:
-  - https://raw.githubusercontent.com/Leey21/awesome-ai-research-writing/c07628b453309a1fb131ee105b2f01190162bc6c/README.md
+  - https://raw.githubusercontent.com/Leey21/awesome-ai-research-writing/df0af726a79109b8760c1b80d5dfc36ed44a6f1f/README.md
   - https://github.com/Leey21/awesome-ai-research-writing/releases.atom

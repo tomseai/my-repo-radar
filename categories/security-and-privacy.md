@@ -2,7 +2,7 @@
 
 # Security and Privacy
 
-[Back to the main catalog](../README.md) | **7 repositories**
+[Back to the main catalog](../README.md) | **8 repositories**
 
 ## Topics in this category
 
@@ -11,21 +11,26 @@
 - [AI Agents](../topics/ai-agents.md) (4)
 - [API Development](../topics/api-development.md) (1)
 - [Authentication](../topics/authentication.md) (2)
-- [CLI](../topics/cli.md) (4)
-- [Code Review](../topics/code-review.md) (1)
+- [Automation](../topics/automation.md) (1)
+- [CLI](../topics/cli.md) (5)
+- [Code Review](../topics/code-review.md) (2)
+- [Codebase Search](../topics/codebase-search.md) (1)
 - [Coding Agents](../topics/coding-agents.md) (2)
-- [Containers](../topics/containers.md) (1)
+- [Containers](../topics/containers.md) (2)
 - [Data Processing](../topics/data-processing.md) (1)
 - [Documentation](../topics/documentation.md) (1)
 - [Git](../topics/git.md) (1)
+- [GitHub](../topics/github.md) (1)
 - [Libraries](../topics/libraries.md) (1)
 - [Machine Learning](../topics/machine-learning.md) (1)
+- [Multi Provider](../topics/multi-provider.md) (1)
 - [Observability](../topics/observability.md) (1)
 - [Open Source](../topics/open-source.md) (1)
+- [Parallel Agents](../topics/parallel-agents.md) (1)
 - [Policy Enforcement](../topics/policy-enforcement.md) (3)
 - [Sandboxing](../topics/sandboxing.md) (2)
 - [Secrets Management](../topics/secrets-management.md) (1)
-- [Security](../topics/security.md) (6)
+- [Security](../topics/security.md) (7)
 - [Self Hosted](../topics/self-hosted.md) (3)
 - [Tool Use](../topics/tool-use.md) (1)
 - [Web](../topics/web.md) (1)
@@ -43,7 +48,7 @@ A TypeScript library for deploying or embedding a self-hosted, OAuth 2.0 authori
 - **Languages:** TypeScript
 - **License:** MIT
 - **Lifecycle:** Experimental
-- **GitHub stars:** 7,245
+- **GitHub stars:** 7,453
 
 **Key features**
 
@@ -64,7 +69,7 @@ A Rust command-line guard and pre-execution hook for AI coding agents that detec
 - **Languages:** Rust
 - **License:** MIT License with OpenAI/Anthropic Rider
 - **Lifecycle:** Active
-- **GitHub stars:** 5,151
+- **GitHub stars:** 6,373
 
 **Key features**
 
@@ -85,11 +90,11 @@ A deep-learning file-content detector available as a Rust command-line tool and 
 - **Languages:** Rust, Python, TypeScript, Go
 - **License:** Apache-2.0
 - **Lifecycle:** Active
-- **GitHub stars:** 17,255
+- **GitHub stars:** 18,853
 
 **Key features**
 
-  - Classifies more than 200 binary and text content types using a compact model
+  - The development branch targets over 1,000 content types using a model, native format resolvers, and custom YARA rules
   - Scans individual files, standard input, batches, or directories recursively
   - Emits human-readable, MIME-type, label, JSON, JSONL, score, or custom output
 
@@ -106,7 +111,7 @@ A self-hostable HTTP credential proxy and vault that lets AI agents call externa
 - **Languages:** Go, TypeScript
 - **License:** MIT
 - **Lifecycle:** Experimental
-- **GitHub stars:** 1,913
+- **GitHub stars:** 2,521
 
 **Key features**
 
@@ -127,11 +132,11 @@ An independent, agentskills.io-format library of cybersecurity workflows for AI 
 - **Languages:** Python, Markdown
 - **License:** Apache-2.0
 - **Lifecycle:** Active
-- **GitHub stars:** 26,064
+- **GitHub stars:** 36,537
 
 **Key features**
 
-  - Provides 817 structured skills across 29 security domains
+  - Provides 818 structured skills across 34 security domains
   - Maps skills to MITRE ATT&CK, NIST CSF, MITRE ATLAS, D3FEND, NIST AI RMF, and MITRE F3
   - Uses YAML discovery metadata, step-by-step Markdown workflows, references, helpers, and templates
 
@@ -139,7 +144,7 @@ An independent, agentskills.io-format library of cybersecurity workflows for AI 
 
 ## [NVIDIA NemoClaw](https://github.com/NVIDIA/NemoClaw)
 
-An alpha reference stack and CLI for operating selected always-on AI agents in NVIDIA OpenShell sandboxes, combining guided onboarding, inference routing, declarative network policy, and sandbox lifecycle management.
+An alpha reference stack and CLI for running supported AI agents in NVIDIA OpenShell sandboxes, with guided onboarding, managed inference and network policy, and sandbox lifecycle tools.
 
 - **Category:** [Security and Privacy](../categories/security-and-privacy.md#repo-nvidia--nemoclaw)
 - **Topics:** [AI Agents](../topics/ai-agents.md#repo-nvidia--nemoclaw) | [Agent Harnesses](../topics/agent-harnesses.md#repo-nvidia--nemoclaw) | [Sandboxing](../topics/sandboxing.md#repo-nvidia--nemoclaw) | [Security](../topics/security.md#repo-nvidia--nemoclaw) | [Policy Enforcement](../topics/policy-enforcement.md#repo-nvidia--nemoclaw) | [Self Hosted](../topics/self-hosted.md#repo-nvidia--nemoclaw) | [CLI](../topics/cli.md#repo-nvidia--nemoclaw)
@@ -148,13 +153,34 @@ An alpha reference stack and CLI for operating selected always-on AI agents in N
 - **Languages:** TypeScript, Python
 - **License:** Apache-2.0
 - **Lifecycle:** Experimental
-- **GitHub stars:** 21,840
+- **GitHub stars:** 23,066
 
 **Key features**
 
   - Creates an OpenShell sandbox configured for the selected supported agent
   - Routes model traffic through OpenShell while keeping credentials on the host
   - Applies declarative egress rules and asks the operator to approve unknown hosts
+
+<a id="repo-openai--codex-security"></a>
+
+## [Codex Security](https://github.com/openai/codex-security)
+
+OpenAI’s defensive code-security tooling for scanning repositories, reviewing and tracking findings, and planning or verifying fixes through Codex, a CLI, and a TypeScript SDK.
+
+- **Category:** [Security and Privacy](../categories/security-and-privacy.md#repo-openai--codex-security)
+- **Topics:** [Security](../topics/security.md#repo-openai--codex-security) | [CLI](../topics/cli.md#repo-openai--codex-security) | [Code Review](../topics/code-review.md#repo-openai--codex-security) | [Codebase Search](../topics/codebase-search.md#repo-openai--codex-security) | [Automation](../topics/automation.md#repo-openai--codex-security) | [Multi Provider](../topics/multi-provider.md#repo-openai--codex-security) | [Parallel Agents](../topics/parallel-agents.md#repo-openai--codex-security) | [Containers](../topics/containers.md#repo-openai--codex-security) | [GitHub](../topics/github.md#repo-openai--codex-security)
+- **Kind:** CLI
+- **Best for:** Security and engineering teams scanning repositories they own or may assess; CI and bulk workflows that need resumable findings, coverage, and scan comparison
+- **Languages:** TypeScript, Python
+- **License:** Apache-2.0
+- **Lifecycle:** Active
+- **GitHub stars:** 14,266
+
+**Key features**
+
+  - Scans repositories, selected paths, or Git changes and consolidates duplicate findings
+  - Reviews findings, verifies fixes, and drafts repository security policies and reusable threat models
+  - Compares saved scans and exports findings as SARIF, JSON, or CSV
 
 <a id="repo-vercel-labs--deepsec"></a>
 
@@ -169,7 +195,7 @@ An agent-powered vulnerability-scanning CLI that combines matcher-based candidat
 - **Languages:** TypeScript
 - **License:** Apache-2.0
 - **Lifecycle:** Active
-- **GitHub stars:** 5,841
+- **GitHub stars:** 8,508
 
 **Key features**
 

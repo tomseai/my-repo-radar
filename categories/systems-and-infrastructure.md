@@ -29,13 +29,13 @@ An experimental Rust async runtime that uses region-owned tasks, explicit cancel
 - **Languages:** Rust, JavaScript, TypeScript
 - **License:** LicenseRef-MIT-OpenAI-Anthropic-Rider
 - **Lifecycle:** Experimental
-- **GitHub stars:** 242
+- **GitHub stars:** 296
 
 **Key features**
 
   - Region-owned tasks that close to quiescence instead of detaching children
   - Request, drain, and finalize cancellation protocol for covered primitives
-  - Capability-gated runtime effects and obligation tracking
+  - Capability-gated runtime-managed effects and obligation tracking
 
 <a id="repo-psmux--psnet"></a>
 
@@ -50,7 +50,7 @@ A native Rust TUI network monitor for Windows that combines connection and bandw
 - **Languages:** Rust
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 125
+- **GitHub stars:** 152
 
 **Key features**
 

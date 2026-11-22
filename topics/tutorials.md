@@ -2,11 +2,11 @@
 
 # Tutorials
 
-[Back to the main catalog](../README.md) | **23 repositories**
+[Back to the main catalog](../README.md) | **27 repositories**
 
 ## Primary categories represented
 
-- [Documentation and Learning](../categories/documentation-and-learning.md) (23)
+- [Documentation and Learning](../categories/documentation-and-learning.md) (27)
 
 <a id="repo-addyosmani--agent-engineer"></a>
 
@@ -21,7 +21,7 @@ A practical, beginner-oriented course that teaches AI-agent fundamentals, then i
 - **Languages:** Markdown
 - **License:** Apache-2.0
 - **Lifecycle:** Active
-- **GitHub stars:** 421
+- **GitHub stars:** 552
 
 **Key features**
 
@@ -42,7 +42,7 @@ A weekly live-coding and Q&A series with a repository of episode notes and selec
 - **Languages:** Python, TypeScript, Go, Markdown
 - **License:** No license file found in retained source bundle
 - **Lifecycle:** Active
-- **GitHub stars:** 1,852
+- **GitHub stars:** 2,016
 
 **Key features**
 
@@ -63,7 +63,7 @@ A curated, hands-on knowledge base for learning how to design and build producti
 - **Languages:** Python
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 398
+- **GitHub stars:** 507
 
 **Key features**
 
@@ -84,7 +84,7 @@ A collection of copyable code snippets, notebooks, and guides for building with 
 - **Languages:** Python, Jupyter Notebook
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 49,160
+- **GitHub stars:** 55,016
 
 **Key features**
 
@@ -105,7 +105,7 @@ A categorized collection of independently runnable AI application examples and t
 - **Languages:** Python, JavaScript
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 13,208
+- **GitHub stars:** 16,774
 
 **Key features**
 
@@ -126,7 +126,7 @@ A learning-resource collection for low-level and object-oriented design, combini
 - **Languages:** Java, JavaScript, Go, Rust, TypeScript
 - **License:** GPL-3.0
 - **Lifecycle:** Active
-- **GitHub stars:** 25,455
+- **GitHub stars:** 28,211
 
 **Key features**
 
@@ -147,7 +147,7 @@ A hands-on notebook course for learning retrieval-augmented generation (RAG), pr
 - **Languages:** Python, Jupyter Notebook
 - **License:** MIT License with an additional attribution condition
 - **Lifecycle:** Unknown
-- **GitHub stars:** 4,141
+- **GitHub stars:** 4,203
 
 **Key features**
 
@@ -168,7 +168,7 @@ A compact interview-preparation guide that combines a suggested design discussio
 - **Languages:** Markdown
 - **License:** No license file found in retained source bundle
 - **Lifecycle:** Unknown
-- **GitHub stars:** 23,371
+- **GitHub stars:** 23,896
 
 **Key features**
 
@@ -189,7 +189,7 @@ A Markdown index of external, step-by-step guides for recreating software techno
 - **Languages:** Markdown
 - **License:** CC0-1.0
 - **Lifecycle:** Active
-- **GitHub stars:** 528,829
+- **GitHub stars:** 564,608
 
 **Key features**
 
@@ -210,13 +210,34 @@ A web-first guide and resource collection for learning prompt engineering with l
 - **Languages:** MDX, JavaScript
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 76,743
+- **GitHub stars:** 80,288
 
 **Key features**
 
   - Guides for prompt basics, model settings, prompt elements, and design tips
   - Technique index covering zero- and few-shot prompting, chain of thought, retrieval, and tool use
   - Application and prompt-hub sections spanning coding, evaluation, extraction, reasoning, and other tasks
+
+<a id="repo-ddd-by-examples--library"></a>
+
+## [DDD by Examples Library](https://github.com/ddd-by-examples/library)
+
+An example public-library application illustrating domain-driven design from discovery through implementation and tests.
+
+- **Category:** [Documentation and Learning](../categories/documentation-and-learning.md#repo-ddd-by-examples--library)
+- **Topics:** [Tutorials](../topics/tutorials.md#repo-ddd-by-examples--library) | [Reference](../topics/reference.md#repo-ddd-by-examples--library) | [Backend Development](../topics/backend-development.md#repo-ddd-by-examples--library) | [Testing](../topics/testing.md#repo-ddd-by-examples--library)
+- **Kind:** Application
+- **Best for:** Developers studying domain modeling and architecture in a concrete Java application
+- **Languages:** Java, Groovy
+- **License:** MIT
+- **Lifecycle:** Unknown
+- **GitHub stars:** 6,071
+
+**Key features**
+
+  - EventStorming and example-mapping documentation
+  - Catalogue and lending bounded contexts in a modular monolith
+  - Hexagonal architecture and separate read and write models in lending
 
 <a id="repo-ddd-crew--ddd-starter-modelling-process"></a>
 
@@ -229,9 +250,9 @@ A beginner-oriented, iterative guide to applying domain-driven design from under
 - **Kind:** Documentation
 - **Best for:** Teams beginning a domain-driven design initiative or migration; Facilitators teaching a practical starting process for domain modelling
 - **Languages:** Unknown
-- **License:** Creative Commons Attribution 4.0 International (README declaration)
+- **License:** Conflicting CC BY-SA 4.0 and CC BY 4.0 declarations
 - **Lifecycle:** Active
-- **GitHub stars:** 5,924
+- **GitHub stars:** 6,098
 
 **Key features**
 
@@ -252,13 +273,34 @@ An open learning reference for scalable-system design and interview preparation,
 - **Languages:** Markdown, Python
 - **License:** CC-BY-4.0
 - **Lifecycle:** Active
-- **GitHub stars:** 358,262
+- **GitHub stars:** 378,777
 
 **Key features**
 
   - Study guide that adapts breadth and depth recommendations to short, medium, and long interview timelines
   - Four-step interview approach covering requirements, high-level design, core components, and scaling trade-offs
   - Topic reference covering availability, consistency, DNS, CDNs, load balancing, databases, caching, queues, and communication
+
+<a id="repo-drcathicks--learning-opportunities"></a>
+
+## [Learning Opportunities](https://github.com/DrCatHicks/learning-opportunities)
+
+An agent skill offering short interactive exercises grounded in a developer's AI-assisted coding work.
+
+- **Category:** [Documentation and Learning](../categories/documentation-and-learning.md#repo-drcathicks--learning-opportunities)
+- **Topics:** [Agent Skills](../topics/agent-skills.md#repo-drcathicks--learning-opportunities) | [Coding Agents](../topics/coding-agents.md#repo-drcathicks--learning-opportunities) | [Tutorials](../topics/tutorials.md#repo-drcathicks--learning-opportunities) | [Developer Productivity](../topics/developer-productivity.md#repo-drcathicks--learning-opportunities)
+- **Kind:** Plugin
+- **Best for:** Developers seeking deliberate practice while using Claude Code or Codex
+- **Languages:** Shell
+- **License:** CC-BY-4.0
+- **Lifecycle:** Active
+- **GitHub stars:** 2,573
+
+**Key features**
+
+  - Optional exercises using prediction, generation, tracing, debugging, and retrieval
+  - Adapts exercises to project work and pauses for learner input
+  - Optional post-commit prompting companion
 
 <a id="repo-ed-donner--agents"></a>
 
@@ -273,7 +315,7 @@ A six-week course repository for coding and deploying AI agents with several age
 - **Languages:** Jupyter Notebook, Python
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 5,706
+- **GitHub stars:** 6,653
 
 **Key features**
 
@@ -294,7 +336,7 @@ A community-created collection of GitHub Copilot agents, instructions, skills, h
 - **Languages:** Unknown
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 36,773
+- **GitHub stars:** 41,437
 
 **Key features**
 
@@ -315,13 +357,34 @@ A hands-on beginner course for GitHub Copilot CLI that uses a Python book collec
 - **Languages:** Python, JavaScript, C#
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 2,744
+- **GitHub stars:** 2,922
 
 **Key features**
 
   - Eight progressive chapters from installation through complete feature workflows
   - Runnable terminal examples and assignments in every chapter
   - A single Python book collection application used throughout the learning path
+
+<a id="repo-hwayne--learntla-v2"></a>
+
+## [Learn TLA+](https://github.com/hwayne/learntla-v2)
+
+A free online guide that teaches TLA+ specifications and model checking so readers can explore the behavior of a software design before implementation.
+
+- **Category:** [Documentation and Learning](../categories/documentation-and-learning.md#repo-hwayne--learntla-v2)
+- **Topics:** [Tutorials](../topics/tutorials.md#repo-hwayne--learntla-v2) | [Documentation](../topics/documentation.md#repo-hwayne--learntla-v2) | [Reference](../topics/reference.md#repo-hwayne--learntla-v2) | [Testing](../topics/testing.md#repo-hwayne--learntla-v2)
+- **Kind:** Documentation
+- **Best for:** Developers learning to model and check system designs
+- **Languages:** TLA+
+- **License:** CC-BY-4.0
+- **Lifecycle:** Active
+- **GitHub stars:** 281
+
+**Key features**
+
+  - Linear introduction from basic operators to advanced language concepts
+  - Independent advanced topics and specification examples
+  - Conceptual explanations of concurrency, invariants, and model checking
 
 <a id="repo-imagineailab--ai-by-hand-excel"></a>
 
@@ -336,7 +399,7 @@ A collection of Excel workbooks for manually working through machine-learning an
 - **Languages:** Unknown
 - **License:** MIT
 - **Lifecycle:** Unknown
-- **GitHub stars:** 6,216
+- **GitHub stars:** 6,299
 
 **Key features**
 
@@ -357,13 +420,34 @@ A curated reference directory for the LangChain ecosystem, covering the core fra
 - **Languages:** Unknown
 - **License:** CC0-1.0
 - **Lifecycle:** Active
-- **GitHub stars:** 9,461
+- **GitHub stars:** 9,601
 
 **Key features**
 
   - Links to LangChain framework resources and ports to other languages
   - Tool listings, including low-code services, agents, and templates
   - Open-source project sections for knowledge management and chatbots
+
+<a id="repo-liquidslr--system-design-notes"></a>
+
+## [System Design Interview Notes](https://github.com/liquidslr/system-design-notes)
+
+Work-in-progress chapter notes and architecture diagrams based on both volumes of System Design Interview – An Insider's Guide, covering system design fundamentals and 25 concrete distributed-system design exercises.
+
+- **Category:** [Documentation and Learning](../categories/documentation-and-learning.md#repo-liquidslr--system-design-notes)
+- **Topics:** [Documentation](../topics/documentation.md#repo-liquidslr--system-design-notes) | [Tutorials](../topics/tutorials.md#repo-liquidslr--system-design-notes) | [Reference](../topics/reference.md#repo-liquidslr--system-design-notes) | [Backend Development](../topics/backend-development.md#repo-liquidslr--system-design-notes) | [Databases](../topics/databases.md#repo-liquidslr--system-design-notes) | [Performance](../topics/performance.md#repo-liquidslr--system-design-notes)
+- **Kind:** Documentation
+- **Best for:** Readers reviewing system-design interview concepts alongside the source books; Engineers seeking a visual index of common scalability patterns and system-design case studies
+- **Languages:** Markdown
+- **License:** No repository license grant
+- **Lifecycle:** Active
+- **GitHub stars:** 29,025
+
+**Key features**
+
+  - Twenty-eight chapters covering scaling, estimation, an interview framework, and system-design case studies
+  - Foundational material on load balancing, caching, replication, message queues, consistent hashing, and distributed data
+  - Case studies for chat, search autocomplete, video, file sync, maps, email, object storage, payments, wallets, and exchanges
 
 <a id="repo-microsoft--ai-for-beginners"></a>
 
@@ -378,7 +462,7 @@ A beginner-friendly, 12-week curriculum of AI lessons, executable notebooks, qui
 - **Languages:** Jupyter Notebook, Python, JavaScript
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 52,454
+- **GitHub stars:** 71,153
 
 **Key features**
 
@@ -399,7 +483,7 @@ A hands-on, multilingual curriculum for learning the Model Context Protocol, pro
 - **Languages:** C#, Java, JavaScript, Python, Rust, TypeScript
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 16,781
+- **GitHub stars:** 17,697
 
 **Key features**
 
@@ -420,7 +504,7 @@ An OpenAI-maintained collection of example code and guides for common OpenAI API
 - **Languages:** Python, Jupyter Notebook
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 74,754
+- **GitHub stars:** 77,302
 
 **Key features**
 
@@ -438,16 +522,16 @@ A self-paced, from-scratch AI-engineering curriculum spanning mathematics, machi
 - **Topics:** [Courses](../topics/courses.md#repo-rohitg00--ai-engineering-from-scratch) | [Tutorials](../topics/tutorials.md#repo-rohitg00--ai-engineering-from-scratch) | [Machine Learning](../topics/machine-learning.md#repo-rohitg00--ai-engineering-from-scratch) | [LLMs](../topics/llms.md#repo-rohitg00--ai-engineering-from-scratch) | [AI Agents](../topics/ai-agents.md#repo-rohitg00--ai-engineering-from-scratch) | [MCP](../topics/mcp.md#repo-rohitg00--ai-engineering-from-scratch) | [Multi Agent](../topics/multi-agent.md#repo-rohitg00--ai-engineering-from-scratch)
 - **Kind:** Course
 - **Best for:** Developers seeking a structured, implementation-first route into AI engineering; Engineers who want focused LLM, agent, MCP, or production-system learning tracks
-- **Languages:** Python, TypeScript, Rust, Julia
+- **Languages:** Python, TypeScript, Rust, Julia, Go
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 39,569
+- **GitHub stars:** 79,802
 
 **Key features**
 
-  - 503 lessons across 20 phases, progressing from setup and mathematics to capstone projects
-  - A repeatable lesson structure: concept, raw implementation, production-library use, and a reusable output
-  - Coverage of vision, NLP, speech, transformers, generative AI, reinforcement learning, LLM engineering, and safety
+  - 542 lessons across 20 phases from tool setup and mathematical foundations to production systems
+  - Goal-oriented learning paths for AI foundations, LLM systems, and agent-assisted engineering
+  - Runnable labs and staged projects with reference solutions and evaluation checks
 
 <a id="repo-typescript-cheatsheets--react"></a>
 
@@ -462,7 +546,7 @@ A documentation resource for using React with TypeScript effectively, combining 
 - **Languages:** TypeScript, Markdown
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 47,096
+- **GitHub stars:** 47,089
 
 **Key features**
 
@@ -483,7 +567,7 @@ A curated README-based collection of AI reading links, books, papers, research o
 - **Languages:** Jupyter Notebook
 - **License:** MIT
 - **Lifecycle:** Active
-- **GitHub stars:** 1,756
+- **GitHub stars:** 1,842
 
 **Key features**
 

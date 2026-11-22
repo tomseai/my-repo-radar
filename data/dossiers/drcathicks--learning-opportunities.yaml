@@ -1,0 +1,49 @@
+schema_version: 2
+repository_id: github:DrCatHicks/learning-opportunities
+research:
+  state: complete
+  source_commit: 3862d2eb6e93427f1f163a54360d11ef943b88b7
+  bundle_collected_at: 2026-11-22T11:27:08.214Z
+  researched_at: 2026-11-22T12:00:00Z
+  confidence: high
+classification:
+  primary_category: documentation-and-learning
+  topics: [agent-skills, coding-agents, tutorials, developer-productivity]
+project:
+  name: Learning Opportunities
+  kind: plugin
+  summary: An agent skill offering short interactive exercises grounded in a developer's AI-assisted coding work.
+  best_for: [Developers seeking deliberate practice while using Claude Code or Codex]
+key_features:
+  - Optional exercises using prediction, generation, tracing, debugging, and retrieval
+  - Adapts exercises to project work and pauses for learner input
+  - Optional post-commit prompting companion
+  - Repository orientation skill and team measurement playbook
+usage:
+  interfaces: [Claude Code plugin, Codex plugin]
+  installation: [plugin marketplace]
+  setup: low
+technology:
+  languages: [Shell]
+  notable_components: [Claude Code, Codex]
+license:
+  spdx: CC-BY-4.0
+  name: Creative Commons Attribution 4.0 International
+  notes: Attribution is required; the companion measurement material is identified as CC BY-SA 4.0.
+status:
+  lifecycle: active
+  archived: false
+  latest_release: null
+  latest_release_at: null
+strengths:
+  - Integrates active learning into real project work
+  - Supports optional prompts and customizable exercise triggers
+caveats:
+  - Exercises require time and learner participation and depend on the coding assistant
+  - Windows setup is needed for the optional automatic hook
+  - No GitHub release is present in the retained feed; component versions appear in the changelog
+sources:
+  - https://raw.githubusercontent.com/DrCatHicks/learning-opportunities/3862d2eb6e93427f1f163a54360d11ef943b88b7/README.md
+  - https://raw.githubusercontent.com/DrCatHicks/learning-opportunities/3862d2eb6e93427f1f163a54360d11ef943b88b7/LICENSE
+  - https://raw.githubusercontent.com/DrCatHicks/learning-opportunities/3862d2eb6e93427f1f163a54360d11ef943b88b7/CHANGELOG.md
+  - https://github.com/DrCatHicks/learning-opportunities/releases.atom

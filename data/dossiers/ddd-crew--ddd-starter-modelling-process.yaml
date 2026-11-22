@@ -1,10 +1,10 @@
 schema_version: 2
 repository_id: github:ddd-crew/ddd-starter-modelling-process
 research:
-  state: complete
-  source_commit: 722a000cc6618d40b818c95cf853be8aea5e8652
-  bundle_collected_at: 2026-07-19T20:42:30.722Z
-  researched_at: 2026-07-20T00:00:00Z
+  state: needs-review
+  source_commit: 1eff6def298d4212ceaf297e00970b0505347b5a
+  bundle_collected_at: 2026-11-22T12:09:17.039Z
+  researched_at: 2026-11-22T12:38:19.557Z
   confidence: medium
 
 classification:
@@ -26,9 +26,12 @@ project:
     - Facilitators teaching a practical starting process for domain modelling
 
 key_features:
-  - "Eight stages: understand, discover, decompose, strategize, connect, organise, define, and code"
-  - Suggested collaborative modelling tools and the people to involve at each stage
-  - Adaptation guidance for greenfield work, migrations, team changes, and learning
+  - "Eight stages: understand, discover, decompose, strategize, connect,
+    organise, define, and code"
+  - Suggested collaborative modelling tools and the people to involve at each
+    stage
+  - Adaptation guidance for greenfield work, migrations, team changes, and
+    learning
   - Explicit advice to iterate rather than standardise a linear process
 
 usage:
@@ -50,11 +53,12 @@ technology:
 
 license:
   spdx: null
-  name: Creative Commons Attribution 4.0 International (README declaration)
-  notes: >-
-    The README's Creative Commons Attribution 4.0 declaration requires
-    attribution, while imported GitHub metadata reports CC-BY-SA-4.0; no
-    standalone license file was retained, so reuse terms need verification.
+  name: Conflicting CC BY-SA 4.0 and CC BY 4.0 declarations
+  notes: The root LICENCE.md has stated CC BY-SA 4.0 since the initial commit on
+    2020-05-07. The same author added a CC BY 4.0 notice to the README later
+    that day. Both notices remain in the current repository. The scope of each
+    notice and whether ShareAlike applies when distributing adaptations require
+    upstream clarification.
 
 status:
   lifecycle: active
@@ -67,10 +71,15 @@ strengths:
   - Provides concrete entry points and named techniques for each stage
 
 caveats:
-  - It is a guide for beginners, not a prescriptive sequence or universal best practice
+  - It is a guide for beginners, not a prescriptive sequence or universal best
+    practice
   - The retained release feed has no entries
-  - License declarations conflict between the README and imported repository metadata
+  - Upstream clarification is needed on whether ShareAlike applies when
+    distributing adaptations.
 
 sources:
-  - https://raw.githubusercontent.com/ddd-crew/ddd-starter-modelling-process/722a000cc6618d40b818c95cf853be8aea5e8652/README.md
+  - https://raw.githubusercontent.com/ddd-crew/ddd-starter-modelling-process/1eff6def298d4212ceaf297e00970b0505347b5a/README.md
+  - https://raw.githubusercontent.com/ddd-crew/ddd-starter-modelling-process/1eff6def298d4212ceaf297e00970b0505347b5a/LICENCE.md
   - https://github.com/ddd-crew/ddd-starter-modelling-process/releases.atom
+  - https://github.com/ddd-crew/ddd-starter-modelling-process/commit/a4408ac15b4ce815e19af7d5a0a3d76b10c3fab9
+  - https://github.com/ddd-crew/ddd-starter-modelling-process/commit/b518b6da67337294b7874e21af922c52e4bafdc5

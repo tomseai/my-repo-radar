@@ -15,15 +15,19 @@ analysis:
       - "build-ai-products"
       - "improve-developer-workflow"
   evidence:
-    - claim: "Playwright MCP is a Model Context Protocol server that exposes Playwright browser automation to LLMs through structured accessibility snapshots rather than screenshots or visually tuned models."
+    - claim: "Playwright MCP is a Model Context Protocol server that exposes
+        Playwright browser automation to LLMs through structured accessibility
+        snapshots rather than screenshots or visually tuned models."
       source_type: "repository-file"
       url: "https://github.com/microsoft/playwright-mcp/blob/main/README.md"
       checked_at: "2026-07-19"
       confidence: "high"
   state: "researched"
   summary:
-    one_line: "An MCP server that gives LLMs structured browser-automation capabilities through Playwright."
-    why_useful: "It connects coding and AI-agent clients to web-page interaction through accessibility-tree snapshots."
+    one_line: "An MCP server that gives LLMs structured browser-automation
+      capabilities through Playwright."
+    why_useful: "It connects coding and AI-agent clients to web-page interaction
+      through accessibility-tree snapshots."
 curation:
   confidence: null
   evidence: []
@@ -37,30 +41,33 @@ id: "github:microsoft/playwright-mcp"
 import:
   github_snapshot:
     archived: false
-    created_at: "2025-03-21T17:48:36Z"
-    default_branch: "main"
-    description: "Playwright MCP server"
+    created_at: 2025-03-21T17:48:36Z
+    default_branch: main
+    description: Playwright MCP server
     disabled: false
-    fetched_at: "2026-07-19T19:16:14.796Z"
+    fetched_at: 2026-11-22T12:07:00.148Z
     fork: false
-    forks: 2932
-    homepage: "https://www.npmjs.com/package/@playwright/mcp"
-    latest_release: null
-    license_spdx: "Apache-2.0"
-    open_issues: 6
-    primary_language: "TypeScript"
-    pushed_at: "2026-07-15T01:32:35Z"
-    stars: 35268
+    forks: 3478
+    homepage: https://www.npmjs.com/package/@playwright/mcp
+    latest_release:
+      tag: v0.0.86
+      published_at: 2026-11-18T18:50:38Z
+      url: https://github.com/microsoft/playwright-mcp/releases/tag/v0.0.86
+    license_spdx: Apache-2.0
+    open_issues: 0
+    primary_language: TypeScript
+    pushed_at: 2026-11-18T18:50:37Z
+    stars: 39994
     topics:
-      - "mcp"
-      - "playwright"
-    updated_at: "2026-07-19T19:03:37Z"
+      - mcp
+      - playwright
+    updated_at: 2026-11-22T11:23:23Z
   sources:
-    - observed_at: "2026-04-25T18:35:19Z"
-      relation: "starred"
-      source_id: "github:user:tomseai:stars"
-      source_url: "https://github.com/tomseai?tab=stars"
-  state: "imported"
+    - observed_at: 2026-04-25T18:35:19Z
+      relation: starred
+      source_id: github:user:tomseai:stars
+      source_url: https://github.com/tomseai?tab=stars
+  state: refreshed
 repository:
   aliases: []
   github_node_id: "R_kgDOOMjd8A"

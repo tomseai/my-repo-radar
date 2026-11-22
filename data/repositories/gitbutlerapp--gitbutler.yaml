@@ -14,15 +14,19 @@ analysis:
     use_cases:
       - "improve-developer-workflow"
   evidence:
-    - claim: "GitButler is a Git-based version-control interface with GUI and CLI clients; its desktop UI uses Svelte and TypeScript, while its backend and CLI use Rust."
+    - claim: "GitButler is a Git-based version-control interface with GUI and CLI
+        clients; its desktop UI uses Svelte and TypeScript, while its backend
+        and CLI use Rust."
       source_type: "repository-file"
       url: "https://github.com/gitbutlerapp/gitbutler/blob/master/README.md"
       checked_at: "2026-07-19"
       confidence: "high"
   state: "complete"
   summary:
-    one_line: "A Git-based desktop and command-line client for managing branches, commits, conflicts, and pull-request workflows."
-    why_useful: "It offers a graphical and terminal interface for common Git operations, including stacked branches and commit editing."
+    one_line: "A Git-based desktop and command-line client for managing branches,
+      commits, conflicts, and pull-request workflows."
+    why_useful: "It offers a graphical and terminal interface for common Git
+      operations, including stacked branches and commit editing."
 curation:
   confidence: null
   evidence: []
@@ -36,31 +40,35 @@ id: "github:gitbutlerapp/gitbutler"
 import:
   github_snapshot:
     archived: false
-    created_at: "2023-01-31T14:56:22Z"
-    default_branch: "master"
-    description: "The GitButler version control client, backed by Git, powered by Tauri/Rust/Svelte"
+    created_at: 2023-01-31T14:56:22Z
+    default_branch: master
+    description: The GitButler version control client, backed by Git, powered by
+      Tauri/Rust/Svelte
     disabled: false
-    fetched_at: "2026-07-19T19:16:14.796Z"
+    fetched_at: 2026-11-22T12:07:00.148Z
     fork: false
-    forks: 990
-    homepage: "https://gitbutler.com"
-    latest_release: null
-    license_spdx: "NOASSERTION"
-    open_issues: 494
-    primary_language: "Rust"
-    pushed_at: "2026-07-19T19:09:26Z"
-    stars: 21336
+    forks: 1056
+    homepage: https://gitbutler.com
+    latest_release:
+      tag: release/0.23.5
+      published_at: 2026-11-20T13:44:18Z
+      url: https://github.com/gitbutlerapp/gitbutler/releases/tag/release/0.23.5
+    license_spdx: NOASSERTION
+    open_issues: 456
+    primary_language: Rust
+    pushed_at: 2026-11-22T10:44:47Z
+    stars: 22002
     topics:
-      - "git"
-      - "github"
-      - "tauri"
-    updated_at: "2026-07-19T19:11:21Z"
+      - git
+      - github
+      - tauri
+    updated_at: 2026-11-22T07:43:24Z
   sources:
-    - observed_at: "2026-03-21T19:47:02Z"
-      relation: "starred"
-      source_id: "github:user:tomseai:stars"
-      source_url: "https://github.com/tomseai?tab=stars"
-  state: "imported"
+    - observed_at: 2026-03-21T19:47:02Z
+      relation: starred
+      source_id: github:user:tomseai:stars
+      source_url: https://github.com/tomseai?tab=stars
+  state: refreshed
 repository:
   aliases: []
   github_node_id: "R_kgDOI4EVGQ"

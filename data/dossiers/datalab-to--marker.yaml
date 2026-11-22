@@ -2,9 +2,9 @@ schema_version: 2
 repository_id: github:datalab-to/marker
 research:
   state: complete
-  source_commit: ef16c2caa29d76f3ca3126944d2e1be79f560bda
-  bundle_collected_at: 2026-07-19T20:42:29.503Z
-  researched_at: 2026-07-20T17:12:30.5983166+02:00
+  source_commit: b578dc88412984b7531bd4a5b4886eb2d2c58da1
+  bundle_collected_at: 2026-11-22T12:09:17.380Z
+  researched_at: 2026-11-22T12:22:39.448Z
   confidence: medium
 classification:
   primary_category: ai-and-automation
@@ -20,15 +20,23 @@ project:
   summary: >-
     A Python document-intelligence library and command-line converter that turns
     PDFs, images, office documents, HTML, and EPUB files into structured
-    Markdown, JSON, chunks, or HTML while extracting document structure and images.
+    Markdown, JSON, chunks, or HTML while extracting document structure and
+    images.
   best_for:
-    - Developers preparing heterogeneous documents for search, RAG, or data pipelines
-    - Python users needing configurable document conversion with local or optional LLM assistance
+    - Developers preparing heterogeneous documents for search, RAG, or data
+      pipelines
+    - Python users needing configurable document conversion with local or
+      optional LLM assistance
 key_features:
   - Converts PDF, image, PPTX, DOCX, XLSX, HTML, and EPUB inputs across languages
-  - Preserves or formats tables, forms, equations, math, links, references, code blocks, and extracted images
-  - Provides CLI commands for individual files, directories, chunks, a Streamlit UI, and a small API server
-  - Supports optional LLM-assisted conversion through Gemini, Vertex, Ollama, Claude, OpenAI-compatible, and Azure OpenAI services
+  - Preserves or formats tables, forms, equations, math, links, references, code
+    blocks, and extracted images
+  - Provides CLI commands for individual files, directories, chunks, a Streamlit
+    UI, and a small API server
+  - Offers CPU-only layout extraction, in-process OCR, hybrid CPU/GPU processing,
+    and full-page vLLM OCR modes
+  - Supports optional LLM-assisted conversion through Gemini, Vertex, Ollama,
+    Claude, OpenAI-compatible, Azure OpenAI, and OpenRouter services
 usage:
   interfaces:
     - command-line interface
@@ -38,41 +46,46 @@ usage:
   installation:
     - pip install marker-pdf
     - pip install marker-pdf[full] for non-PDF document dependencies
-    - Install Python 3.10 or newer and PyTorch
+    - Install Python 3.10 or newer and select the extras for the intended processing mode
   setup: moderate
 technology:
   languages:
     - Python
   notable_components:
     - PyTorch
-    - Transformers
-    - Surya OCR
+    - Indra OCR and ONNX Runtime
+    - Surya OCR and vLLM
     - FastAPI
     - Streamlit
 license:
-  spdx: GPL-3.0-or-later
-  name: GNU General Public License v3 or later
-  notes: >-
-    The repository code is GPL-3.0-or-later; its model weights use a modified
-    AI Pubs OpenRAIL-M license that the README limits to research, personal use,
-    and startups below $2M funding or revenue without broader commercial licensing.
+  spdx: Apache-2.0
+  name: Apache License 2.0
+  notes: The code is Apache-2.0. Model weights have a separate modified AI Pubs
+    OpenRAIL-M license. The README directs users to separate terms for
+    deployments outside the stated weight-license eligibility.
 status:
   lifecycle: active
   archived: false
-  latest_release: v1.10.2
-  latest_release_at: 2026-01-31
+  latest_release: v2.2.0
+  latest_release_at: 2026-11-12
 strengths:
-  - Accepts a broad range of document types and provides several structured output formats
-  - Offers CLI, Python, interactive UI, and small-server interfaces from the same package
-  - Allows optional LLM assistance and custom processors, renderers, providers, and configuration
+  - Accepts a broad range of document types and provides several structured
+    output formats
+  - Offers CLI, Python, interactive UI, and small-server interfaces from the
+    same package
+  - Allows optional LLM assistance and custom processors, renderers, providers,
+    and configuration
 caveats:
-  - GPL code and separately restricted model-weight terms can affect redistribution and commercial deployment
-  - Complex nested tables and forms are documented limitations, though OCR and LLM options may help
-  - Multiple workers can consume substantial GPU memory; the README cites about 5 GB peak VRAM per worker
+  - Complex nested tables and forms are documented limitations, though OCR and
+    LLM options may help
+  - GPU modes share an inference server across conversion workers and throughput
+    depends on its capacity
+  - The pinned package declares 2.2.1 while the latest retained GitHub release is v2.2.0
   - The built-in API server is documented as suitable only for small-scale use
 sources:
-  - https://raw.githubusercontent.com/datalab-to/marker/ef16c2caa29d76f3ca3126944d2e1be79f560bda/README.md
-  - https://raw.githubusercontent.com/datalab-to/marker/ef16c2caa29d76f3ca3126944d2e1be79f560bda/LICENSE
-  - https://raw.githubusercontent.com/datalab-to/marker/ef16c2caa29d76f3ca3126944d2e1be79f560bda/pyproject.toml
-  - https://raw.githubusercontent.com/datalab-to/marker/ef16c2caa29d76f3ca3126944d2e1be79f560bda/examples/README.md
+  - https://raw.githubusercontent.com/datalab-to/marker/b578dc88412984b7531bd4a5b4886eb2d2c58da1/README.md
+  - https://raw.githubusercontent.com/datalab-to/marker/b578dc88412984b7531bd4a5b4886eb2d2c58da1/LICENSE
+  - https://raw.githubusercontent.com/datalab-to/marker/b578dc88412984b7531bd4a5b4886eb2d2c58da1/pyproject.toml
+  - https://raw.githubusercontent.com/datalab-to/marker/b578dc88412984b7531bd4a5b4886eb2d2c58da1/examples/README.md
   - https://github.com/datalab-to/marker/releases.atom
+  - https://github.com/datalab-to/marker/releases/tag/v2.2.0

@@ -2,9 +2,9 @@ schema_version: 2
 repository_id: github:microsoft/playwright-mcp
 research:
   state: complete
-  source_commit: 55679f5f3d4b4f3e2534ec0ce2fc5683ba2eaf3f
-  bundle_collected_at: 2026-07-19T20:44:09.098Z
-  researched_at: 2026-07-20T17:41:35.7837492+02:00
+  source_commit: 2337aff0213d28db41d3e3daf48cee19b3d0bd82
+  bundle_collected_at: 2026-11-22T12:09:56.865Z
+  researched_at: 2026-11-22T12:30:21.518Z
   confidence: high
 classification:
   primary_category: ai-and-automation
@@ -22,12 +22,15 @@ project:
     screenshot-driven or vision-model interaction.
   best_for:
     - MCP-enabled agents that need deterministic browser interaction
-    - Exploratory automation or long-running workflows that benefit from persistent browser context
+    - Exploratory automation or long-running workflows that benefit from
+      persistent browser context
 key_features:
-  - Uses Playwright accessibility-tree snapshots as structured page input rather than pixel-based interaction
-  - Exposes browser automation to LLM clients through a standard MCP server
-  - Supports browser selection, device emulation, persistent or isolated profiles, and remote CDP endpoints
-  - Can restrict file access to workspace roots by default and offers configurable hosts and origins
+  - Uses structured Playwright accessibility snapshots for browser interaction
+  - Exposes browser automation through MCP to compatible clients
+  - Supports device emulation, persistent or isolated profiles, and remote CDP
+    connections
+  - Provides workspace-root file controls, configurable browser origins, and
+    optional redaction of selected URL parameters
 usage:
   interfaces:
     - MCP server
@@ -51,24 +54,32 @@ license:
   name: Apache License 2.0
   notes: >-
     Permissive license with copyright, license-copy, and modified-file notice
-    obligations for redistributed derivative works; it also includes a patent grant.
+    obligations for redistributed derivative works; it also includes a patent
+    grant.
 status:
   lifecycle: active
   archived: false
-  latest_release: v0.0.78
-  latest_release_at: "2026-07-09"
+  latest_release: v0.0.86
+  latest_release_at: "2026-11-18"
 strengths:
-  - Gives clients structured, deterministic page interaction without requiring a vision model
+  - Gives clients structured, deterministic page interaction without requiring a
+    vision model
   - Documents direct configuration paths for a broad range of MCP-capable clients
-  - Supports local browsers, remote CDP connections, browser choice, and profile isolation options
+  - Supports local browsers, remote CDP connections, browser choice, and profile
+    isolation options
 caveats:
-  - Requires Node.js 18 or newer and an MCP-capable client to run
-  - Persistent profiles retain logged-in browser information unless users clear the profile or choose an isolated context
-  - The documentation says CLI plus Skills can be more token-efficient for high-throughput coding-agent workflows
-  - The server is explicitly not a security boundary; broad host, origin, file-access, or shared-context settings expand its exposure
+  - The command-line package requires Node.js 20 or newer and an MCP-capable
+    client
+  - Persistent profiles retain logged-in browser state, while isolated contexts
+    discard it when the session ends
+  - Playwright’s documentation recommends CLI and skills for high-throughput
+    coding-agent workflows where token use matters
+  - Host, origin, and file options provide application controls without
+    replacing isolation or network access controls
 sources:
-  - https://raw.githubusercontent.com/microsoft/playwright-mcp/55679f5f3d4b4f3e2534ec0ce2fc5683ba2eaf3f/README.md
-  - https://raw.githubusercontent.com/microsoft/playwright-mcp/55679f5f3d4b4f3e2534ec0ce2fc5683ba2eaf3f/LICENSE
-  - https://raw.githubusercontent.com/microsoft/playwright-mcp/55679f5f3d4b4f3e2534ec0ce2fc5683ba2eaf3f/package.json
-  - https://raw.githubusercontent.com/microsoft/playwright-mcp/55679f5f3d4b4f3e2534ec0ce2fc5683ba2eaf3f/Dockerfile
+  - https://raw.githubusercontent.com/microsoft/playwright-mcp/2337aff0213d28db41d3e3daf48cee19b3d0bd82/README.md
+  - https://raw.githubusercontent.com/microsoft/playwright-mcp/2337aff0213d28db41d3e3daf48cee19b3d0bd82/LICENSE
+  - https://raw.githubusercontent.com/microsoft/playwright-mcp/2337aff0213d28db41d3e3daf48cee19b3d0bd82/package.json
+  - https://raw.githubusercontent.com/microsoft/playwright-mcp/2337aff0213d28db41d3e3daf48cee19b3d0bd82/Dockerfile
   - https://github.com/microsoft/playwright-mcp/releases.atom
+  - https://github.com/microsoft/playwright-mcp/releases/tag/v0.0.86
